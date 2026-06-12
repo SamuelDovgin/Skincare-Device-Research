@@ -126,7 +126,7 @@
 | Certifications | YES (FDA) |
 | Special | IGBT technology |
 | Max Fluence | **8.33 J/cm²** |
-| Notes | Best 510nm device with FDA + sapphire cooling + single pulse mode |
+| Notes | Best 510nm device with FDA + sapphire cooling + single pulse mode. FDA K223928 verifies a lower baseline (16.6J / 5.5 J/cm²); verify the 25J catalog claim as single-pulse output. |
 
 ### T023K
 | Spec | Value |
@@ -299,7 +299,7 @@
 | Special | "Strong energy 21J in one pulse"; LCD screen; intelligent skin tone recognition |
 | Functions | HR+SR+AC |
 | Max Fluence | **5.25 J/cm²** |
-| Notes | Explicitly claims single-pulse delivery |
+| Notes | Explicitly claims single-pulse delivery. FDA K223928 verifies a lower baseline (18.6J / 4.7 J/cm²). |
 
 ### T001A ⭐ 510nm FILTER — "ONE PULSE" CLAIM
 | Spec | Value |
@@ -313,6 +313,7 @@
 | Special | "Strong energy 21J in one pulse"; intelligent skin tone recognition |
 | Functions | HR+SR+AC |
 | Max Fluence | 5.25 J/cm² |
+| Notes | FDA K223928 verifies a lower baseline (18.6J / 4.7 J/cm²). |
 
 ### T002-Ice
 | Spec | Value |
@@ -396,10 +397,11 @@
 | Spot Size | 4cm² |
 | Rated Power | 48W |
 | Cooling | Ice panel |
-| Certifications | NMPA, CE-EMC & LVD, ROHS, FCC, PSE (no FDA) |
+| Certifications | NMPA, CE-EMC & LVD, ROHS, FCC, PSE. **Catalog says "no FDA" but this is contradicted by the FDA database: T013C IS cleared under K221569** (it is the named predicate for K251173). Catalog appears outdated. |
 | Special | Hidden LCD screen; "mild output for sensitive skin" |
 | Functions | HR+SR+AC |
 | Max Fluence | 4.0 J/cm² |
+| FDA note | **FDA-cleared under K221569** (510–1200nm, 16.1J, 4.03 J/cm², 4cm², 4–12ms per the K251173 comparison table) |
 
 ---
 
@@ -525,7 +527,7 @@
 | T012C | 510 | 17 | 1.85/4 | 9.2/4.25 | Ice panel | YES | YES |
 | **T036K** | **510** | **29** | **4** | **7.25** | Sapphire | **YES** | **YES** |
 | T011C | 510 | 19 | 3.6/4.8 | 5.28/3.96 | Ice | YES | YES |
-| T013C | 510 | 16 | 4 | 4.0 | Ice panel | No FDA | YES |
+| T013C | 510 | 16 | 4 | 4.0 | Ice panel | YES (K221569) | YES |
 | T003A | 560 | 14 | 3.6 | 3.89 | None | YES | No |
 | T019 | 510 | 16 | 3.15 | 5.08 | None | YES | YES |
 | M611 | DPL 530-630 | 7 | 3 | — | None | No | — |

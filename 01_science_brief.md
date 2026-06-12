@@ -2,6 +2,8 @@
 
 **Goals: Facial redness/erythema, hyperpigmentation, PIH, skin tone evening. Secondary: hair removal.**
 
+> **Companion read:** This brief explains the IPL physics. For the *strategic* conclusion it leads to — that for pigment/PIH/redness, IPL is the wrong primary tool and topicals + LED + photoprotection should lead — see [07_alternatives_and_strategy.md](07_alternatives_and_strategy.md). Section 6 below (PIH/melasma risk) is the hinge between the two.
+
 ---
 
 ## 1. The Governing Physics: Selective Photothermolysis (SPT)
@@ -20,6 +22,8 @@ TRT is the time it takes for a target to cool to half its peak temperature. If p
 | Larger telangiectasias / vessels | ~300 µm | ~100 ms |
 | Hair follicle bulge | ~200–300 µm | ~40–100 ms |
 | Epidermis (as slab) | ~100 µm | ~1 ms |
+
+> **Honest note on the TRT numbers — sources disagree by roughly an order of magnitude.** TRT scales with the *square* of target diameter, so small differences in the assumed vessel size (and which formula/constant is used) produce large differences in the published value. The table above uses the values the deep-research pass confirmed 3/3 (100 µm ≈ 10 ms; 300 µm ≈ 100 ms). The Weiss et al. 2005 paper in this repo uses **lower** figures for the same targets: 100 µm vessel ≈ 4 ms, 300 µm vessel ≈ 10 ms, epidermis ≈ 1 ms. Both are "correct" within their own assumptions — treat these as order-of-magnitude guides, not precise constants. The practical conclusion is unchanged either way: vascular targets tolerate **single-digit-to-tens-of-ms** pulses, which is exactly the 2–20 ms range clinical IPL uses.
 
 **Practical consequence:** For vascular lesions (redness, telangiectasia), pulse durations of 2–20ms with proper inter-pulse delays are used. For melanin/pigment (hyperpigmentation), shorter pulses (1–5ms) or laser (nanoseconds/picoseconds for tattoo-grade pigment) are needed. Hair removal needs 10–100ms.
 

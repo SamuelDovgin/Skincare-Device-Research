@@ -14,7 +14,7 @@
 - All IPL models use xenon quartz lamp tube
 - All IPL models wavelength: **530–1200nm** (broader than Fansizhe's standard 560nm models)
 
-**Note on Semlamp-Fansizhe relationship:** K253881 (FDA) includes model SL-B505WM as a Semlamp model cleared under Fansizhe's FDA submission. This indicates the two companies share manufacturing or cross-license. Semlamp models with "FDA 510k" certification claim on products are likely riding this relationship.
+**Note on Semlamp FDA status:** K253881 (FDA) includes model SL-B505WM as a Semlamp private-label model cleared under Fansizhe's FDA submission, indicating shared manufacturing or cross-license. Separately, Semlamp now has its own direct clearance, K260518 (decision date 2026-04-21), covering SL-B301, SL-B300, SL-B330, SL-B330-1, SL-B287-1, SL-B371, SL-B371-2, SL-B371-1, SL-B352, SL-B352-1, SL-B352-2, and SL-B330-F. These clearances are OHT hair-removal clearances, not skin-rejuvenation clearances.
 
 ---
 
@@ -65,11 +65,13 @@
 - At 1.8cm² head: 19J/1.8cm² = **10.56 J/cm²** — potentially useful fluence
 - Certs: CE, RoHS, FCC, PSE, UKCA, FDA 510k
 
-### SL-B352 ⭐ Best Semlamp Standard Device
+### SL-B352 — Best Semlamp Standard Device, But Not the Single-Pulse Pick
 - Ice Cooling IPL Hair Removal (Sapphire Quick Flash)
 - 530-1200nm, 7-24J, 3.9cm², 6 levels, dual mode
 - Max fluence: 24J/3.9cm² = **6.15 J/cm²**
+- FDA K260518 confirms 1.8-6.1 J/cm² for the SL-B352 family and describes an SHR button / short pulse duration (0.7-3.6ms)
 - Certs: CE, RoHS, FCC, PSE, UKCA, FDA 510k
+- Not recommended if the priority is clean, controllable single-pulse output
 
 ### SL-B352-2
 - Same as SL-B352 but with sapphire ice cooling variant
