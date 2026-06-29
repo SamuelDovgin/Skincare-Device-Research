@@ -1,0 +1,562 @@
+November 8, 2019
+
+Shenzhen Bosidin Technology Co. Ltd.
+℅ Rain Yip
+Registered Engineer
+Feiying Drug & Medical Consulting Technical Service Group
+Rm. 3005, Area B, Bldg. 1, Southward Ruifeng Business Center
+Guimiao Road
+Shenzhen, 518000 CN
+Re: K192432
+Trade/Device Name: IPL Home Use Hair Removal Device
+Model(s): D-1128, D-1103, D-1119, D-1129, D-1130
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: August 21, 2019
+Received: September 5, 2019
+Dear Rain Yip:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.04.08
+
+K192432 - Rain Yip
+
+Page 2
+
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Purva U. Pandya -S
+Purva Pandya
+Acting Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: January 31, 2017
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K192432
+Device Name
+
+IPL Home Use Hair Removal Device
+Model(s): D-1128, D-1103, D-1119, D-1129, D-1130
+Indications for Use (Describe)
+
+IPL Home Use Hair Removal Device is an over-the-counter device intended for removal of unwanted body and/or facial
+hair.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (8/14)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+K192432
+
+Page 1 of 5
+
+510(k) Summary
+"510(k) Summary" as required by 21 CFR Part 807.92.
+Date: 2019-08-21
+I.
+
+Submitter
+Shenzhen Bosidin Technology Co.,Ltd.
+Rm.101&201, Bldg.4, Haoer Jiashitai Technology Park, Fengtang Avenue No.164, Heping
+Community, Fuhai Street, Bao'an District, Shenzhen, Guangdong, China
+Post code: 518100
+Tel.: +86 755 3388 3239
+WANG JIAOYAN
+General Manager Assistant
+Tel: +86 137 9835 8583
+Email: 970207667@qq.com
+
+II. Device
+Name of Device: IPL Home Use Hair Removal Device
+Model(s): D-1128, D-1103, D-1119, D-1129, D-1130
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Classification Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+
+III. Predicate Device
+Manufacturer
+Shen Zhen CosBeauty Co.,
+Ltd
+Medical Device Branch of
+Zhangzhou
+Easepal
+Industiral Co.,Ltd.
+CyDen Limited.
+
+Predicate Device
+
+510(k) Number
+
+Approval Date
+
+PerfectSmooth/CB-014
+
+K161428
+
+Mar. 23, 2017
+
+IPL Salon Hair Reduction
+K181568
+System/F60001
+
+Sep. 11, 2018
+
+iPulse SmoothSkin
+Hair Removal System
+
+Apr.04, 2016
+
+Gold
+
+K160968
+
+IV. Device Description
+The IPL Home Use Hair Removal Device is a personal, light-based, hair reduction device
+intended to be sold over-the-counter directly to the end user. The device provides hair reduction
+1
+
+K192432
+
+Page 2 of 5
+
+using Intense Pulsed Light (IPL) technology. It works below the skin's surface and does not
+involve any cutting or pulling, reducing hair growth with minimal pain. The device is only
+powered by the external power adapter and its IPL emission activation is by finger switch. The
+device contains a Xenon lamp and a skin sensor to detect appropriate skin contact. If the device is
+not properly applied to the treatment area (in full contact with the skin), the device cannot emit
+the treatment light pulses. The device is for single-person use only.
+The IPL Home Use Hair Removal Device includes D-1128, D-1103, D-1119, D-1129 and D-1130
+five models. Their intended use, performance, structure design and operation are basically
+identical, with the differences contains product appearance, LCD display contents, hair removal
+lamp cartridge's quantity and appearance, as well as lamp tube's placement location; in addition,
+due to the size of the treatment window in different lamp cartridge, the treatment area (spot size)
+is different; but these differences do not affect or change the intended use of the device.
+
+V. Indications for Use
+IPL Home Use Hair Removal Device is an over-the-counter device intended for removal of
+unwanted body and/or facial hair.
+
+VI. Comparison of Technological Characteristics With the Predicate Device
+The IPL Home Use Hair Removal Device has the same intended use, mode of action and similar
+operational characteristics as the predicate devices. Any minor differences between the subject
+device and the listed predicate devices do no raise any issues of safety or efficacy. Performance
+data supports that the device is safe and as effective as the predicate device for its intended use.
+Therefore, the IPL Home Use Hair Removal Device may be found substantially equivalent to its
+predicate device.
+IPL Home Use Hair Removal Device is compared with the following Predicate Devices in terms
+of intended use, design, material, specifications, and performance:
+1) K181568, "IPL Salon Hair Reduction System", manufactured by "Medical Device Branch of
+Zhangzhou Easepal Industiral Co.,Ltd." in Fujian, China
+2) K161428, "PerfectSmooth", manufactured by "Shen Zhen CosBeauty Co., Ltd" in Guangdong,
+China
+3) K160968, "iPulse SmoothSkin Gold Hair Removal System ", manufactured by "CyDen
+Limited" in Wales, UK
+Predicate Device
+
+Comparison
+Elements
+
+Subject Device
+
+K Number
+
+Pending
+
+Trade name
+
+IPL Home Use
+Hair
+Removal PerfectSmooth
+Device
+
+Wavelength
+
+Regular
+
+window:
+
+K161428
+(Primary)
+K161428
+
+≥510nm
+
+K181568
+
+K160968
+
+K181568
+
+K160968
+iPulse
+IPL Salon Hair
+SmoothSkin
+Reduction
+Gold
+Hair
+System
+Removal System
+475-1200nm
+510-1100nm
+
+2
+
+K192432
+
+Comparison
+Elements
+range
+
+Energy
+medium
+
+Energy density
+
+Page 3 of 5
+
+Predicate Device
+Subject Device
+510-1100nm
+Filter window: 6001100nm
+Xenon
+Arc
+Flashlamp
+2.0~4.0J/cm²
+(applicable
+for
+model D-1128, D1119, D-1129, D1130)
+
+K161428
+(Primary)
+
+K181568
+
+K160968
+
+Xenon
+Flashlamp
+
+Arc Xenon
+Flashlamp
+
+Arc Xenon
+Flashlamp
+
+4.7 J/cm²Max.
+
+5J/cm²Max.
+
+Arc
+
+3~6 J/cm²
+
+2.5~4.5J/cm²
+(applicable
+model D-1103)
+
+Spot size
+
+Pulse duration
+Pulsing control
+Delivery device
+
+for
+
+Regular window:
+4.5cm²,
+2.0cm²
+3.0cm²
+4.5 cm²
+Filter
+window:
+2.5cm²
+7.5~14ms
+11-13ms
+Finger switch
+Finger switch
+Direct
+Direct illumination
+illumination
+to tissue
+tissue
+
+IPL Home Use
+Hair
+Removal
+Device is an overIndication for
+the-counter device
+use/Intended
+intended
+for
+use
+removal
+of
+unwanted
+body
+and/or facial hair.
+
+The
+PerfectSmooth is
+an
+over-thecounter
+device
+intended
+for
+removal
+of
+unwanted
+hair
+such as but not
+limited to small
+areas such as
+underarm
+and
+facial hair below
+the chin line and
+large areas such
+as legs.
+
+Regular window:
+4.5cm²
+3 (3cm by 1cm)
+Facial adapter:
+1.72cm²
+Unknown
+Finger switch
+Direct
+illumination to
+tissue
+The IPL Salon
+Hair Reduction
+System (Model:
+F60001) is an
+over the Counter
+device intended
+for the removal
+of
+unwanted
+body
+and/or
+facial hair in
+adults. It is also
+intended
+for
+permanent
+reduction
+in
+unwanted hair.
+Permanent hair
+reduction
+is
+defined as the
+
+2-10ms
+Finger switch
+Direct
+illumination
+tissue
+The
+iPulse
+SmoothSkin
+Gold
+Hair
+Removal System
+is indicated for
+the removal of
+unwanted hair.
+The
+iPulse
+Smoothskin Gold
+is also indicated
+for the permanent
+reduction in hair
+regrowth, defined
+as the long-term,
+stable reduction
+in the number of
+hairs regrowing
+when measured
+
+3
+
+K192432
+
+Comparison
+Elements
+
+Location
+use
+
+for
+
+Page 4 of 5
+
+Predicate Device
+Subject Device
+
+OTC
+
+K161428
+(Primary)
+
+OTC
+
+K181568
+
+K160968
+
+long-term stable
+reduction in the
+number of hairs
+re-growing when
+measured at 6, 9
+and 12 months
+after
+the
+completion of a
+treatment
+regimen.
+
+at 6, 9 and 12
+months after the
+completion of a
+treatment regime.
+
+OTC
+
+OTC
+
+VII.Performance Data
+The following performance data were provided in support of the substantial equivalence
+determination.
+1) Biocompatibility Testing
+The biocompatibility evaluation for the body-contacting components of the IPL Home Use Hair
+Removal Device was conducted in accordance with the "Use of International Standard ISO
+10993-1, 'Biological Evaluation of Medical Devices –Part 1: Evaluation and Testing Within a
+Risk Management Process, Document Issued on June 16, 2016", as recognized by FDA. The
+battery of testing was performed to, and passed, including:
+ ISO 10993-5:2009/(R)2014, Biological Evaluation of Medical Devices –Par t 5: Tests for In
+Vitro Cytotoxicity
+ ISO 10993-10:2010/(R)2014, Biological Evaluation of Medical Devices –Par t 10: Tests for
+Irritation and Skin Sensitization
+2) Electrical Safety and Eye Safety
+Electrical safety and Eye safety testing was performed to, and passed, the following standards:
+ IEC 60601-1-2 Medical electrical equipment –Part 1-2: General requirements for basic safety
+and essential performance –Collateral standard: electromagnetic compatibility
+ IEC 60601-1 Medical electrical equipment –Part 1: General requirements for basic safety and
+essential performance
+ IEC 60601-1-11 Medical Electrical Equipment –Part 1: General Requirements for Basic
+Safety and Essential Performance –Collateral Standard: Requirements for Medical Electrical
+Equipment and Medical Electrical Systems Used in the Home Healthcare Environment
+
+4
+
+K192432
+
+Page 5 of 5
+
+ IEC 60601-2-57 Medical electrical equipment –Part 2-57: Particular requirements for the basic
+safety and essential performance of non-laser source equipment intended for therapeutic,
+diagnostic, monitoring and cosmetic/aesthetic use
+3) Eye Safety
+ IEC 62471 Photobiological safety of lamps and lamp systems
+4) Software Verification and Validation
+Software documentation consistent with moderate level of concern was submitted in this 510(k).
+System validation testing presented in this 510(k) demonstrated that all software requirement
+specifications are met and all software hazards have been mitigated to acceptable risk levels.
+Summary
+Based on the above performance as documented in this application, IPL Home Use Hair Removal
+Device was found to have a safety and effectiveness profile that is similar to the predicate device.
+VIII.
+
+Conclusions
+
+In accordance with the Federal Food, Drug and Cosmetic Act, 21 CFR Part 807 and based on the
+comparison of intended use, design, materials and performance, the IPL Home Use Hair Removal
+Device is to be concluded substantial equivalent to its predicate devices.
+
+5
+
+

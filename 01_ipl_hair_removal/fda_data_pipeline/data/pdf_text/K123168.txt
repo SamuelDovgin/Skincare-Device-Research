@@ -1,0 +1,370 @@
+Quanta System SPA - Traditional 510(k) - 0-Plus T + IPL Laser System
+Section 7: 510(k) Summary
+
+20 2012
+
+Section 7: 51 0(k) Summary
+Introduction:
+
+This document contains the 510(k) Summary for the 0-Plus T +IPL laser system. The content of
+thisummary is based on the requirements of 21 CFR 807.92(c).
+Applicant I Manufacturer
+Name and Address:
+
+Quanta System SPA
+Via IV Novem bre, 116
+Solbiate Olona (VA)
+Italy, 21058
+
+510(k) Contact Person:
+
+Maurizio Bianchi
+Regulatory Affairs Manager
+Quanta System SPA
+Email: Mauriziobianchi@puantasvstem.com
+Phone: +3-0331-376797
+Fax: +39-0331-367815
+
+Date Prepared:
+
+October 5, 2012
+
+Device Name:
+
+0-Plus T + IPL Laser System
+
+Classification:
+
+Glass 11
+
+Classification Name:
+
+Laser surgical instrument for use in general
+and plastic surgery and in dermatology
+
+Regulation Number
+
+21 GFR 878.4810
+
+Product Code:
+
+GEX
+
+Predicate Devices:
+The 0-Plus T + IPL Laser System is claimed to be substantially equivalent to the following legally
+marketed predicate devices:
+*
+*
+
+K073549 0-Plus T manufactured by Quanta System SPA
+K<083207 Ultrawave IIl EX 1320 manufactured by Quanta System SPA
+
+Performance Standards:
+There are no mandatory performance standards for this device.
+General Device Description:
+The 0-Plus T + IPL Laser System is intended for the incision, excision, ablation and vaporization
+of soft tissue for general dermatology. The device includes a 0-Switched Nd:YAG laser source
+with a max energy of 1000mJ at 1064nm and a max energy of 500mJ at 532nm, a 0-Switched
+Ruby laser source with a max energy of lOOOmJ at 694nm, and an intense pulse light (IPL) hand
+piece. The 0-Switched lasers are intended for treatment of pigmented lesions and tattoo
+removal. The optical delivery system for the three laser wavelengths is an articulated arm with
+replaceable hand pieces with 2, 3, 4, and 6 mm spot sizes. The IPL hand piece, depending on
+the particular wavelength filter used, is intended for hair removal, treatment of dermatological
+vascular lesions, benign pigmented lesions and inflammatory acne (acne vulgaris). The IPL hand
+pieces are provided in a fixed or a replaceable configuration.
+Page 7-1 of 3
+
+Page 24 of 407
+
+Quanta System SPA - Traditional 510O(k) - a-Plus T + IPL Laser System
+Section 7: 510O(k) Summary
+The 0-Plus T + IPIL laser system incorporates several safety features, including a remote
+interlock, a key switch and an emergency stop button.
+Indications for Use:
+Source selection
+and wavelength
+
+Nd:YAG laser
+(1064nm)
+Nd:YAG laser
+(SS2nm)
+
+Ruby laser
+(694nm)
+
+______________
+
+IPIL 650-l200nm
+IPIL 625-I200nm
+IPI 590-1200m
+
+IPL 550-l200nm
+IPL 570-l200nm
+______________leg
+
+IPL 550-l200nm
+________________
+
+FIPL 400-l200nm
+
+Indications for Use
+______________________________
+
+These wavelengths are absorbed by natural chromophores, like melanin,
+hemoglobin and water and by exogen pigments like tattoo ink. They are
+indicated for:
+Tattoo removal:
+1064nm: suggested for dark blue and black ink
+532nm: suggested for red, orange, yellow, and purple ink
+Pigmented lesion removal (benign):
+Caf6 au lait spot
+Ephalides, solar lentigo lentigines)
+Becker Nevus
+Ota Nevus
+Nevus spilus
+This wavelength is absorbed by natural chromophores, like melanin,
+hemoglobin and water and by exogen pigments like tattoo ink. It is
+indicated for:
+Tattoo removal:
+Suggested for blue, sky blue, black, green and violet ink
+Pigmented lesion removal (benign):
+Cafe au lait spot
+Ephalides, solar lentigo lentigines)
+Becker Nevus
+Ota and Ito Nevus
+Nevus spilus
+Mongolian spot
+
+Indicated for hair removal
+______________________________
+
+Indicated for photocoagulation of dermatological vascular lesion (i.e. face
+telangiectasia), photothermolysis of blood vessels (treatment of facial and
+veins) and treatment of benign pigmented lesions
+Indicated for face vascular lesions and solar lentigines (benign pigmented
+lesions)
+
+IIndicated for inflammator acne (acne vulgaris)
+
+Comparison of Technological Characteristics:
+The a-Plus T + IFPL Laser System has substantially equivalent technological characteristics to the
+predicate devices. The ten subsystems in the 0-Plus T + IPL laser system contain all nine
+subsystems of the 0-Plus T (K073549) with the addition of the IPL hand piece subsystem that is
+cleared with the Ultrawave Ill EX 1320 (K083207).
+The a-Switched Nd:YAG laser source with a max energy of lOOOmJ at 1064nm and a max
+energy of 500mJ at 532nm is identical to the 0-Switched Nd:YAG laser source utilized in the 0Plus T device.. Also, the a-Switched Ruby laser source with a max energy of lOOOmJ at 694nm
+is identical the 0-Switched Ruby laser source utilized in the 0-Plus T device. The optical delivery
+system for the three laser wavelengths is an articulated arm that is also used in the a-Plus T
+device. The IPL hand piece portion of the a-Plus T + IPL Laser System is the same as the IPL
+hand piece portion of the Ultrawave Ill EX 1320. In addition, the 0-Plus T + IPL laser system
+includes a power supply, a cooling system, an optical delivery system, a microprocessor based
+Page 7-2 of 3
+
+Page 25 of 407
+
+Quanta System SPA - Traditional 510O(k) - 0-Plus T + IPL Laser System
+Section 7: 510O(k) Summary
+controller, and safety features that are all either similar or identical to those in the Ultrawave Ill EX
+1320 and 0-Plus T devices.
+The laser specifications for the 0-Plus T + IPL laser system are substantially equivalent to the
+laser specifications for its identified predicate device with respect to the laser source,
+wavelengths, maximum energy, spot size, fluence, pulse width, repetition rate, beam delivery,
+power monitor, actuator, and aiming beam.
+Comparison of Intended Use:
+The a-Plus T + IPL laser system is a laser surgical instrument for use in general surgery and
+dermatology intended for the incision, excision, ablation, and vaporization of soft tissue and for
+the treatment of vascular and pigmented lesions, tattoo removal, hair removal, and inflammatory
+acne (acne vulgaris).
+The intended use of the laser portion of the 0-Plus T + IPL laser system is the same as the
+intended use of the previously cleared 0-Plus T as no changes have been made with regard to
+performance or technology to the a-Plus T. Furthermore, no changes have been made to the
+IPL hand piece portion of the subject device since its initial clearance in K051113 and its
+clearance for use with the Ultrawave Ill EX 1320 in K083207. Therefore, the intended use of the
+IPL hand piece used with the 0-Pius T + IPL laser system is substantially equivalent to the
+intended use of the IPL hand piece used with the Ultrawave Ill EX 1320.
+Substantial Equivalence:
+The Quanta System a-Plus T + IPL laser system is as safe and effective as the predicate
+devices. The 0-Plus T + IPL laser system has the same intended use and similar technological
+characteristics and principles of operation as its predicate devices. The minor technological
+differences between the 0-Plus T + IPL laser system and its predicate devices raise no new
+issues of substantial equivalence or safety and effectiveness. Thus, the 0-Plus T + IPL laser
+system is substantially equivalent to its identified predicate devices.
+
+Page 7-3 of 3
+Page 26 of 407
+
+DEPARTMENT OF HEALTH & HUMAN SERVICES
+
+S4
+
+Quanta System Spa
+% Mr. Maurizio Bianchi
+Regulatory Affairs Manager
+Via IV Novembre, 116
+Solbiate Olona, VA
+Italy 21058
+
+Public Health Service
+
+Food and Drug Administration
+
+10903 New Hampshire Avenue
+Document control center - W066-G609
+Silver Spring, MD 20993-0002
+
+Letter dated: December 20, 2012
+
+Re: K123168
+Trade/Device Name: Q-Plus T + IPL Laser System
+Regulation Number: 21 CFR 878.48 10
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+Regulatory Class: 11
+Product Code: GEX
+Dated: October 05, 2012
+Received: October 09, 2012
+Dear Mr. Bianchi:
+We have reviewed your Section 510(k) premarket notification of intent to market the device
+referenced above and have determined the device is substantially equivalent (for the indications
+for use stated in the enclosure) to legally marketed predicate devices marketed in interstate
+commerce prior to May 28, 1976, the enactment date of the Medical Device Amendments, or to
+devices that have been reclassified in accordance with the provisions of the Federal Food, Drug,
+and Cosmetic Act (Act) that do not require approval of apremarket approval application (PMA).
+You may, therefore, market the device, subject to the general controls provisions of the Act.
+The general controls provisions of the Act include requirements for annual registration, listing of
+devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability
+warranties. We remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class Il (Special Controls) or class IHI (PMA), it
+may be subject to additional controls. Existing major regulations affecting your device can be
+found in the Code of Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may
+publish further announcements conceming your device in the Federal Register.
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean
+that FDA has made a determination that your device complies with other requirements of the Act
+or any Federal statutes and regulations administered by other Federal agencies. You must
+comply with all the Act's requirements, including, but not limited to: registration and listing (21
+
+Page 2 - Mr. Maurizio Bianchi
+CER Part 807); labeling (21 CFR Part 801); medical device reporting (reporting of medical
+device-related adverse events) (21 CER 803); good manufacturing practice requirements as set
+forth in the quality systems (QS) regulation (21 CER Part 820); and if applicable, the electronic
+product radiation control provisions (Sections 53 1-542 of the Act); 21 CER 1000-1050.
+Ifyou desire specific advice for your device on our labeling regulation (21 CER Part 80 1), please
+go to http://wwvw.fda.gov/AbOu~tFDA/CentersOfficcs/CDRH/CDRHlOffices/ucm II 5809.htm for
+the Center for Devices and Radiological Health's (CDRH's) Office of Compliance. Also, please
+note the regulation entitled, "Misbranding by reference to premarket notification" (21CFR Part
+807.97). For questions regarding the reporting of adverse events under the MIDR regulation (21
+CFR Part 803), please go to
+http://www.fda.gov/MedicalDevices/Safety/ReportaProblem/default.htm for the CDRH's Office
+of Surveillance and Biometrics/Division of Postmarket Surveillance.
+You may obtain other general information on your responsibilities under the Act from the
+Division of Small Manufacturers, International and Consumer Assistance at its toll-free number
+(800) 638-2041 or (301) 796-7 100 or at its Internet address
+htt2://www.fda.gzov/Medical Devices[ResourcesforYou/lndustrv/defaulIt.htmi.
+Sincerely yours,
+
+Mark N.Melkerson
+Mark N. Melkerson
+Acting Director
+Division of Surgical Devices
+Office of Device Evaluation
+Center for Devices and
+Radiological Health
+Enclosure
+
+Indications for Use
+5 10(k) Number (if known)J4,hJt3
+Device Name: 0-Plus T + IPL Laser System
+Indications for Use:
+Indications for Use
+
+Source selection
+and wavelength
+Nd:YAG laser
+(1064nm)
+Nd:YAG laser
+(532nm)
+
+These wavelengths are absorbed by natural chromophores, like melanin,
+hemoglobin and water and by exogen pigments like tattoo ink. They are
+indicated for:
+Tattoo removal:
+1lOS4nm: suggested for dark blue and black ink
+532nm: suggested for red, orange, yellow, and purple ink
+Pigmented lesion removal (benign):
+Oaf 6 au [ait spot
+Ephalides, solar lentigo (lentigines)
+Becker Nevus
+Ote Nevus
+Nevus spilus
+This wavelength is absorbed by natural chromophores, like melanin,
+hemoglobin and water and by exogen pigments like tattoo ink. It is
+indicated for:
+Tattoo removal:
+Suggested for blue, sky blue, black, green and violet ink
+Pigmented lesion removal (benign):
+CafA au tlli spot
+Ephalides, solar lentigo lentigines)
+Becker Nevus
+Ota and Ito Nevus
+Nevus spilus
+Mongolian spot
+Indicated for hair removal
+
+Ruby laser
+(894nm)
+
+IPL_ 650-l200nm
+IPIL 826-l200nm
+IPL 590-1200m
+IPL 550-l200nm
+IPL 570-l200nm
+
+_______________________________
+Indicated for photocoagulation of dermatological vascular lesion (i.e. lace
+telangiectasia), photothermolysis of blood vessels (treatment of facial and
+veins), and treatment of benign pigmented lesions
+
+_______________leg
+
+IPL_ 550-l200nm
+_________________
+
+IPL 400-l200nm-
+
+Indicated for face vascular lesions and solar lentigines (benign pigmented
+lesions)
+
+Indicated for inflammatory acne (acne vulgaris)
+
+Prescription Use._X__
+(Pant 21 CER 901 Subpart D)
+
+AND/OR
+
+Over-the Counter Use
+
+____
+
+(21 CFR 801 SubpartC)
+
+(PLEASE DO NOT WRITE BELOW THIS LINE-CONTINUE ON ANOTHER PAGE IF
+NEEDED)
+
+Concurrence of CDRH, Office of Device Evaluation (ODE)
+
+Neil ROgden
+201 2.12.19 11:23:24 -05'00'
+
+(Division Sign-Off
+Division of Surgical 9
+510(k) Number
+
+Page Ilof-I
+ri
+1
+I3'~~Page
+
+23 of1407
+
+

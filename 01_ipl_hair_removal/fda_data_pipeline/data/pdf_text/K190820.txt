@@ -1,0 +1,1076 @@
+October 2, 2019
+
+Kam Yuen Plastic Products Ltd
+℅ Jet Li
+Regulation Manager
+Guangzhou KEDA Biological Tech Co., Ltd.
+6F, No.1 TianTai road, Science City, LuoGang District
+Guangzhou, Cn
+Re: K190820
+Trade/Device Name: Aimanfun Lumea Comfort
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: ONF
+Dated: March 24, 2019
+Received: April 1, 2019
+Dear Jet Li:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.04.07
+
+K190820 - Jet Li
+
+Page 2
+
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Purva U. Pandya -S
+Purva Pandya
+Acting Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+Sponsor:
+Subject Device:
+File No.:
+
+Kam Yuen Plastic Products Ltd
+Aimanfun Lumea Comfort, Model: A-2788
+510(k ) submission report (V1.0), Chapter 6 510(k ) Summary
+
+K190820
+510(k) Summary
+Date of the summary prepared: October 2, 2019
+
+510(k) Summary
+This summary of 510(K) safety and effectiveness information is being submitted in accordance with the
+requirement of 21 CFR 807.92.
+1. Submitter’s Information
+Sponsor
+
+
+Company Name: Kam Yuen Plastic Products Ltd
+
+
+
+Address: No. 2, Heng Feng Two Road, Pu Jin Industrial, Konghou Town, ZhongShan, Guangdong,
+China
+
+
+
+Phone: 86- 400- 962- 1668
+
+
+
+Fax: 86- 0760- 8841- 3080
+
+
+
+Contact Person (including title): Anna Dan
+
+
+
+E-mail:kamyuen@kyplastic.com
+
+Application Correspondent:
+
+Company: Guangzhou KEDA Biological Tech Co., Ltd.
+
+
+Address: 6F, No.1 TianTai road, Science City, LuoGang District, GuangZhouCity,China
+
+
+
+Contact Person: Mr. Jet Li
+
+
+
+Tile: Regulation Manager
+
+
+
+Tel: +86-18588874857
+
+
+
+Email: med-jl@foxmail.com
+
+2. Subject Device Information
+
+
+Trade Name:
+
+Aimanfun Lumea Comfort, Model: A-2788
+
+
+
+Common Name:
+
+Light based hair removal devices
+
+
+
+Classification name:
+
+
+
+Review Panel:
+
+Powered Light Based Non-Laser Surgical Instrument With
+Thermal Effect
+General & Plastic Surgery
+
+
+
+Product Code:
+
+ONF
+
+
+
+Regulation Class:
+
+2
+
+Report by Kam Yuen Plastic Products Ltd
+
+Page 1 of 11
+
+Sponsor:
+Subject Device:
+File No.:
+
+
+Kam Yuen Plastic Products Ltd
+Aimanfun Lumea Comfort, Model: A-2788
+510(k ) submission report (V1.0), Chapter 6 510(k ) Summary
+878.4810
+
+Regulation Number:
+
+3. Predicate Device Information
+Predicate device I – IV:
+
+Sponsor
+
+CyDen Limited
+
+Shen Zhen
+CosBeauty
+Co., Ltd
+
+Conair
+Corporati
+on
+Lumilisse
+
+Shaser,
+Inc.
+
+iPulse SmoothSkin
+Gold Hair Removal
+System
+
+Perfectsmo
+oth
+
+510(k) Number
+
+K160968
+
+K161428
+
+K172791
+
+K 132170
+
+Product Code
+
+OHT
+
+OHT
+
+OHT
+
+ONF
+
+Regulation Number
+
+878.4810
+
+878.4810
+
+878.4810
+
+878.4810
+
+Regulation Class
+
+Class II
+
+Class II
+
+Class II
+
+Class II
+
+Device Name
+
+IPL Hair
+Remover
+
+Shaser VMINI RX
+
+4. Device Description
+Aimanfun Lumea Comfort, Model: A-2788 is a light-based device for long-term hair removal. It is intended
+for the removal of unwanted hair and permanent reduction in hair regrowth. Ideal body areas include the
+underarms, bikini line, arms and legs. The device used the IPL technology with lower energy level,
+including 5 Levels of output energy. Intense Pulsed light technology is able to achieve long-term hair
+removal results at a fraction of the energy level used in other light-based hair removal equipment.
+The size of the device is about 138.9*82*47.3mm (H x W x D). The device incorporates Intense Pulse
+Light (IPL) technology. The purpose of the light is to heat the root where the hair grows.
+The device contains a Xenon Lamp and a skin proximity sensor to detect appropriate skin contact. If the
+IPL Hair Removal Device is not properly applied to the treatment area (in full contact with the skin), the
+device cannot be triggered a pulse emitting.
+
+5. Intended Use / Indications for Use
+The Aimanfun Lumea Comfort (Model: A-2788) is indicated for patient removal of unwanted hair by using
+a selective photothermal treatment under the direction of a physician，after training by a healthcare
+professional. The Aimanfun Lumea Comfort is also intended for permanent reduction in unwanted hair.
+
+Report by Kam Yuen Plastic Products Ltd
+
+Page 2 of 11
+
+Sponsor:
+Subject Device:
+File No.:
+
+Kam Yuen Plastic Products Ltd
+Aimanfun Lumea Comfort, Model: A-2788
+510(k ) submission report (V1.0), Chapter 6 510(k ) Summary
+
+Permanent hair reduction is defined as the long-term stable reduction in the number of hairs regrowing
+when measured at 6. 9. and 12 months after the completion of a treatment regimen.
+6. Design
+Hand-held IPL device (Aimanfun Lumea Comfort) consists of main unit and adaptor. It is a portable
+device for the permanent reduction of hair growth based on Intense Pulsed Light (IPL) which is a xenon
+lamp.
+The size of the device is about 138.9*82*47.3mm (H x W x D). The device incorporates Intense Pulse
+Light (IPL) technology. The purpose of the light is to heat the root where the hair grows.
+The device contains a Xenon Lamp and a skin proximity sensor to detect appropriate skin contact. If the
+IPL Hair Removal Device is not properly applied to the treatment area (in full contact with the skin), the
+device cannot be triggered a pulse emitting.
+7. Materials
+There is one part of patient directly contacting component in the subject device as the following list.
+Component of
+Device Requiring
+Biocompatibility
+
+Material of
+Component
+
+Housing of unit
+
+ABS
+
+Body Contact
+Category
+(ISO 10993-1)
+Surface-contacting
+device: skin
+
+Contact Duration
+(ISO 10993-1)
+Maximum 30
+minutes(< 24hours)
+
+The Nature of body contact is surface, skin contact. And the contact duration is less than 24 hours.
+According to Table 1 - Initial evaluation tests for consideration in ISO 10993-1, the applicable biological
+effect is:
+
+
+Cytotoxicity
+
+
+
+Sensitization
+
+
+
+Irritation or intracutaneous reactivity
+
+8. Physical characteristics
+
+Basic Unit Characteristics
+Compliance* with 21 CFR 898
+
+No
+
+Main Unit Weight
+
+200g
+
+Main Unit Dimension
+
+138.9*82*47.3mm
+
+Housing Materials of main unit
+
+ABS
+Indicates power information/skin detection
+information, gear conversion information.
+
+Indicator
+
+Report by Kam Yuen Plastic Products Ltd
+
+Page 3 of 11
+
+Sponsor:
+Subject Device:
+File No.:
+
+Kam Yuen Plastic Products Ltd
+Aimanfun Lumea Comfort, Model: A-2788
+510(k ) submission report (V1.0), Chapter 6 510(k ) Summary
+
+Time Range (minutes)
+Environment for operation
+Storage and Transport Conditions
+Compliance with Voluntary
+Standards
+
+Work for 60 minutes and stop for 10 minutes
+Temperature: 5°C~45°C
+Humidity: 20~65%
+Temperature: 0°C~40°C
+Humidity: 10~90%
+Yes,Comply with IEC 60601-1, IEC 60601-1-2,
+IEC 60601-2-57 .
+
+Patient leakage current
+Power Source
+Software/Firmware/Microprocessor
+Control?
+Specification
+
+Comply with IEC 60601-1
+Supplied by external adapter
+
+Output Intensity Level
+
+5 steps
+
+Output energy
+
+7-13.5J
+
+Emitted Light Spectrum
+
+475nm~1200nm Max
+
+Pulse width range
+
+3 ms
+
+Power Supply
+
+100-240 VAC, 50/60Hz,0.5A
+
+Technology
+
+IPL
+
+Yes
+
+9. Test Summary
+Aimanfun Lumea Comfort, Model: A-2788 has been evaluated the safety and performance by lab bench
+testing as following:
+
+IEC 60601-1, Medical Electrical Equipment - Part 1: General Requirements for Safety,
+2012 +A1:2012
+IEC 60601-1-2, Medical electrical equipment - Part 1-2: General requirements for basic
+safety and essential performance - Collateral standard: Electromagnetic compatibility Requirements and tests, 2014
+IEC 60601-1-11:2015 Medical Electrical Equipment –Part 1: General Requirements for
+Basic Safety and Essential Performance –Collateral Standard: Requirements for Medical
+Electrical Equipment and Medical Electrical Systems Used in the Home Healthcare
+Environment
+IEC 60601-2-57:2011 Medical electrical equipment –Part 2-57: Particular requirements for
+the basic safety and essential performance of non-laser source equipment intended for
+therapeutic, diagnostic, monitoring and cosmetic/aesthetic use
+
+Report by Kam Yuen Plastic Products Ltd
+
+Page 4 of 11
+
+Sponsor:
+Subject Device:
+File No.:
+
+Kam Yuen Plastic Products Ltd
+Aimanfun Lumea Comfort, Model: A-2788
+510(k ) submission report (V1.0), Chapter 6 510(k ) Summary
+
+ISO 10993-5:2009/(R) 2014, Biological Evaluation Of Medical Devices -- Part 5: Tests For
+In Vitro Cytotoxicity.
+
+ISO 10993-10:2010, Biological Evaluation Of Medical Devices - Part 10: Tests For
+Irritation And Skin Sensitization.
+
+Guidance for the Content of Premarket Submissions for Software Contained in Medical
+Devices - Guidance for Industry and FDA Staff
+10. Comparison to predicate device and conclusion
+The technological characteristics, features, specifications, materials, and intended use of Aimanfun
+Lumea Comfort, model: A-2788 is substantially equivalent to the predicate devices quoted above.
+Aimanfun Lumea Comfort relies on the same technology as both predicate devices : Intense Pulsed Light
+(IPL). Their energy source is the same: Xenon Arc Flashlamp.
+The safety and efficacy of IPL treatment for hair reduction are governed by the following parameters:
+• Wavelength of the emitted light (spectrum): Defines the interaction with specific chromophores (the part
+of the molecule responsible for its color) such as melanin, hemoglobin and water. Aimanfun Lumea
+Comfort and the predicate devices utilize the same spectrum as the Perfectsmooth predicate device (4751200nm).
+• Fluence/flux – defines the energy per area (e.g. joules per cm²) for the treatment. Aimanfun Lumea
+Comfort and the predicate devices deliver the same maximum energy (4.5 joules/cm2).
+The following technological differences exist between the subject and predicate devices I to III:
+-
+
+Prescription use for subject device;
+
+-
+
+No Skin tone sensing circuit; but subject device and predicate devices IV is the same design on this
+feature and both of them are also for prescription use.
+
+The differences between the subject device and predicate devices do not raise new issues of safety or
+effectiveness.
+
+Report by Kam Yuen Plastic Products Ltd
+
+Page 5 of 11
+
+Sponsor: Kam Yuen Plastic Products Ltd
+Subject Device: Aimanfun Lumea Comfort, Model: A-2788
+File No.: 510(k ) submission report (V1.0), Chapter 6 510(k ) Summary
+
+Elements of
+Comparison
+Manufacturer
+
+Subject Device
+Kam Yuen Plastic
+Products Ltd
+
+Primary Predicate
+
+Predicate Device Predicate
+
+Predicate
+
+Device I
+
+II
+
+Device III
+
+Device IV
+
+Shen Zhen
+
+Conair
+
+CosBeauty Co.,
+
+Corporation
+
+CyDen Limited.
+
+Shaser, Inc.
+
+Verdict
+
+--
+
+Ltd
+Aimanfun Lumea
+Product Name Comfort, Model: A2788
+510(K) No.
+
+Applying
+
+iPulse SmoothSkin
+Gold Hair Removal
+
+Perfectsmooth
+
+Hair Remover
+
+K161428
+
+K172791
+
+System
+K160968
+
+The Aimanfun Lumea The iPulse
+Comfort (Model: ASmoothSkin Gold
+2788) is indicated for
+patient removal of
+Hair Removal
+unwanted hair by using
+System is indicated
+a selective
+photothermal
+for the removal of
+treatment under the
+unwanted hair. The
+direction of a
+physician，after
+iPulse SmoothSkin
+Indications for training by a
+Gold is also
+healthcare
+Use
+professional. The
+indicated for the
+Aimanfun Lumea
+permanent
+Comfort is also
+intended for
+reduction in hair
+permanent reduction in
+regrowth, defined as
+unwanted hair.
+Permanent hair
+the long-term,
+reduction is defined as
+stable reduction in
+the long-term stable
+reduction in the
+the number of hairs
+number of hairs
+
+Report by Kam Yuen Plastic Products Ltd
+
+Lumilisse IPL
+
+Shaser V-MINI
+RX
+K 132170
+
+The Lumilisse IPL The Shaser V(Intense Pulsed MINI RN Hair
+Removal Device
+Light) Hair
+Removal System
+Remover
+is
+an
+is intended to
+Joy Version is an
+over-the-counter provide
+over-the-counter
+device intended phototherapeutic
+device intended for for the removal of light to the body
+unwanted hair. and is generally
+removal of
+indicated to treat
+dermatological
+unwanted hair
+conditions. It is
+such as but not
+also intended for
+removal of
+limited to small
+unwanted
+areas such as
+hair by using a
+selective
+underarm and
+photothermal
+facial hair below
+treatment. The
+Shaser V-MINI
+the chin line and
+RN Hair Removal
+large areas such
+System is
+indicated for
+as legs.
+patient removal of
+
+--
+
+_
+
+The IPL Hair
+
+Page 6 of 11
+
+SE
+Note 1
+
+Sponsor: Kam Yuen Plastic Products Ltd
+Subject Device: Aimanfun Lumea Comfort, Model: A-2788
+File No.: 510(k ) submission report (V1.0), Chapter 6 510(k ) Summary
+Elements of
+Comparison
+
+Subject Device
+regrowing when
+measured at 6. 9. and
+12 months after the
+completion of a
+treatment regimen.
+
+Primary Predicate
+
+Predicate Device Predicate
+
+Predicate
+
+Device I
+
+II
+
+Device IV
+
+Device III
+
+unwanted hair by
+using a selective
+photothermal
+treatment under
+the direction of a
+physician. after
+training by a
+healthcare
+professional. It
+is also indicated
+for the removal of
+unwanted body
+and/or facial hair
+in adults with
+Fitzpatrick skin
+types I - VI. The
+Shaser V-MINI
+RX Hair Removal
+System is also
+intended for
+permanent
+reduction in
+unwanted hair.
+Permanent hair
+reduction is
+defined as the
+long-term
+stable reduction
+in the number of
+hairs regrowing
+when measured
+at 6，9, and 12
+months after the
+completion of a
+
+regrowing when
+measured at 6, 9
+and 12 months after
+the completion of a
+treatment regime.
+
+Report by Kam Yuen Plastic Products Ltd
+
+Page 7 of 11
+
+Verdict
+
+Sponsor: Kam Yuen Plastic Products Ltd
+Subject Device: Aimanfun Lumea Comfort, Model: A-2788
+File No.: 510(k ) submission report (V1.0), Chapter 6 510(k ) Summary
+Elements of
+Comparison
+
+Subject Device
+
+Primary Predicate
+
+Predicate Device Predicate
+
+Predicate
+
+Device I
+
+II
+
+Device IV
+
+Device III
+
+Verdict
+
+treatment
+regimen.
+
+Prescription use
+IFU Type
+
+Over-The-Counter
+
+Over-The-Counter
+
+OHT
+
+OHT
+
+Classification
+Product Code
+Device Type
+
+ONF
+Intense Pulsed Light
+
+Intense Pulsed Light Intense Pulsed Light
+
+Over-TheCounter
+OHT
+
+Prescription use
+
+ONF
+
+Intense Pulsed
+Light
+
+SE
+Note 2
+SE
+SE
+
+Device Design
+Power source
+Light source
+
+an external power
+supply
+
+AC Mains
+
+an external power an external power
+Battery charger
+supply
+supply
+
+Xenon Arc Flashlamp Xenon Arc Flashlamp Xenon Arc Flashlamp
+
+Wavelength
+
+475~1200nm
+
+510nm~1100nm
+
+475nm~1200nm
+
+Spot Size
+
+3.0 cm2
+
+3 cm2
+
+4.5 cm2
+
+Max. Fluence
+(J/cm 2)
+
+4.5 J/cm²
+
+3-6 J/cm²
+
+4.7 J/cm²
+
+Pulse duration
+
+3 milliseconds
+
+2-10 milliseconds
+
+11-13 milliseconds
+
+Report by Kam Yuen Plastic Products Ltd
+
+Xenon Arc
+Flashlamp
+550-1200 nm
+About 3 cm2
+4.5 J/cm²
+-
+
+Page 8 of 11
+
+Xenon Arc
+Flashlamp
+400~1200nm
+2 cm2
+6-10 J/cm²
+-
+
+SE
+
+SE
+SE
+SE
+SE
+SE
+
+Sponsor: Kam Yuen Plastic Products Ltd
+Subject Device: Aimanfun Lumea Comfort, Model: A-2788
+File No.: 510(k ) submission report (V1.0), Chapter 6 510(k ) Summary
+Elements of
+Comparison
+
+Subject Device
+
+Primary Predicate
+
+Predicate Device Predicate
+
+Predicate
+
+Device I
+
+II
+
+Device IV
+
+Device III
+
+Verdict
+Note 3
+
+Output energy
+
+7-13.5 J
+
+9-18 J
+
+﹤22 J
+
+6-13.5 J （based
+on its light
+intensity 2.0 J cm²
+-4.5 J/cm²）
+
+Pulsing Control
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Delivery Device
+
+Direct Illumination to
+Tissue
+
+Software
+Control
+
+﹤20 J
+
+SE
+Note 4
+
+Finger switch
+
+SE
+
+Direct Illumination to Direct Illumination to Direct Illumination Direct Illumination
+Tissue
+Tissue
+to Tissue
+to Tissue
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+IEC 60601-1
+
+IEC 60601-1
+
+SE
+SE
+
+FDA-Recognized Standards
+IEC 60601-1
+
+IEC 60601-1
+
+IEC 60601-1
+
+IEC 60601-1-2
+
+IEC 60601-1-2
+
+Electrical
+
+IEC 60601-1-2
+
+IEC 60601-1-2
+
+IEC 60601-1-2
+
+IEC 60601-2-
+
+IEC 60601-2-
+
+safety, EMC,
+
+IEC 60601-1-11
+
+IEC 62471
+
+IEC 60601-2-57
+
+57
+
+57
+
+Biological
+
+IEC 60601-2-57
+
+ISO 10993-5
+
+IEC 62471
+
+IEC 62471
+
+IEC 62471
+
+Evaluation
+
+ISO 10993-5
+
+ISO 10993-10
+
+ISO 10993-5
+
+ISO 10993-5
+
+ISO 10993-5
+
+ISO 10993-10
+
+ISO 10993-12
+
+ISO 10993-10
+
+ISO 10993-10
+
+ISO 10993-10
+
+Report by Kam Yuen Plastic Products Ltd
+
+Page 9 of 11
+
+SE
+
+Sponsor: Kam Yuen Plastic Products Ltd
+Subject Device: Aimanfun Lumea Comfort, Model: A-2788
+File No.: 510(k ) submission report (V1.0), Chapter 6 510(k ) Summary
+Comparison in Detail(s):
+
+Note 1
+Although there is difference about Type of use between Subject device and
+Predicate device I to III and provide addtional description for using direction
+requirement that a selective photothermal treatment under the direction of a
+physician ，after training by a healthcare professional. But the type of use of
+Aimanfun Lumea Comfort is same to predicate device IV(K132170).
+
+This
+
+difference does not affect the safety and effectiveness.
+
+Note 2
+
+Based on considering mitigates the possibility of intentional misuse of the
+device on inappropriate skin tones, the subject device was intended to be
+prescription use for its IFU, referring to K132170. This difference does not affect the
+safety and effectiveness.
+
+Note 3
+Although the pulse duration is minor different to predicate device K161428 Shen Zhen
+CosBeauty Co., Ltd; but in the predicate device K160968 CyDen Limited, its pulse
+duration is 2-10 milliseconds, which can cover the pulse duration of 3 ms in subject
+device. And the photothermolysis treatment mainly is depended on its pulse output energy,
+and subject device’s output energy is substantial equivalent to others predicate device. So
+the minor difference on pulse duration do not affect the safety and effectiveness.
+
+Note4:
+The output energy of subject device is design to be 7- 13.5 J based on its level 1-5;
+there is minor difference on output energy for the lowest level (Level 1) between subject
+device and the predicate device K160968 CyDen Limited(9 J); but the lowest level
+energy also was covered in the output energy range of predicate device III
+K172791 Conair Corporation. , so the differences do not affect the safety and
+effectiveness.
+
+Conclusion:
+The subject device “Aimanfun Lumea Comfort, Model: A-2788” is substantial
+Equivalence to all predicate devices.
+
+Report by Kam Yuen Plastic Products Ltd
+
+Page 10 of 11
+
+

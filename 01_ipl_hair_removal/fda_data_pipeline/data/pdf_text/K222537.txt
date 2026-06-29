@@ -1,0 +1,816 @@
+October 14, 2022
+Shenzhen Ishine Technology Company Limited
+℅ Yvonne Liu
+Registration engineer
+Feiying Drug & Medical Consulting Technical Service Group
+Rm 2401 Zhenye International Business Center, No. 3101-90,
+Qianhai Road
+Shenzhen, Guangdong 518052
+China
+Re: K222537
+Trade/Device Name: IPL Hair Removal Device, Model(s): skn001,skn005,skn006,skn002,RoseSkinCo
+Lumi
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: August 19, 2022
+Received: August 22, 2022
+Dear Yvonne Liu:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.05.01
+
+K222537 - Yvonne Liu
+
+Page 2
+
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+
+Sincerely,
+
+Jianting Wang -S
+Jianting Wang
+Acting Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Indications for Use
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2023
+See PRA Statement below.
+
+510(k) Number (ifknown)
+
+K222537
+Device Name
+IPL Hair Removal Device
+
+Model(s): sknOOl,sknOO5,sknOO6,sknOO2,RoseSkinCo Lumi
+Indications for Use (Describe)
+
+IPL Hair Removal Device is indicated for the removal of unwanted hair. The device is also indicated for the permanent
+reduction in hair regrowth, defined as the long-term, stable reduction in the number of hairs regrowing when measured at
+6, 9 and 12 months after the completion of a treatment regime.
+
+Type of Use (Select one or both, as applicable)
+
+F
+
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+X Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+"An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number"
+FORM FDA 3881 (6120)
+
+Page 1 of 1
+
+PSC PublisAing Servics (301) 443-6740
+
+EF
+
+SHENZHEN ISHINE TECHNOLOGY COMPANY LIMITED
+
+510(k)s –Section 8. 510(k) Summary
+
+K222537
+
+510(k) Summary
+"510(k) Summary" as required by 21 CFR Part 807.92.
+I.
+
+Submitter
+SHENZHEN ISHINE TECHNOLOGY COMPANY LIMITED
+Room 213 Building 4,No.45, Makan Road,Makan Community,Xili Sub-District,Nanshan
+District,Shenzhen,China
+Post code: 518055
+Tel.: +86 13823508753
+Chaohui An
+General Manager
+Tel: +86 13823508753
+Email: anchaohui@ishineco.com
+
+II. Device
+Name of Device: IPL Hair Removal Device
+Model(s): skn001,skn005,skn006,skn002,RoseSkinCo Lumi
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+
+III. Predicate Device
+Primary predicate device:
+Manufacturer
+
+Predicate Device
+510(k) Number
+IPL Hair Removal, Model:
+K213041
+OBT-02
+
+Approval Date
+
+Reference Device
+510(k) Number
+IPL Hair Removal Device
+Shenzhen Ulike Smart
+Model(s): Ul04A, Ul04B, K221002
+Electronics Co., Ltd
+Ul04C
+
+Approval Date
+
+Glan Electronics Co.,Ltd
+
+Reference device:
+Manufacturer
+
+Nov 18, 2021
+
+June 1, 2022
+
+IV. Device Description
+IPL Hair Removal Device (Models:skn001,skn005,skn006,skn002,RoseSkinCo Lumi),is an overthe-counter, home-use and single-person-use device for hair reduction by using Intense Pulsed
+
+Page 1 of 7
+
+SHENZHEN ISHINE TECHNOLOGY COMPANY LIMITED
+
+510(k)s –Section 8. 510(k) Summary
+
+Light (IPL). It works below the skin's surface and does not involve any cutting or pulling,
+reducing hair growth with minimal pain.
+The device is only powered by the external power adapter and its IPL emission activation is by
+finger switch. This product adopts irreplaceable flash window and is suitable for multiple hair
+removal areas (such as: lips, underarms, bikini lines, arms, legs, etc.). It contains a skin sensor to
+detect appropriate skin contact, if the device is not in full contact with the skin, the device cannot
+emit the treatment light pulses.
+IPL Hair Removal Device, models: skn001,skn005,skn006 have the same indication for use,
+performance, structure design and operation, the only deference is their appearance and weight.
+Model skn002 is not only different in appearance and weight, but the output intensity level is
+different ( with 6 levels). Model RoseSkinCo Lumi is identical to skn002 and only different in
+model names.
+
+V. Indications for Use
+IPL Hair Removal Device is indicated for the removal of unwanted hair. The device is also
+indicated for the permanent reduction in hair regrowth, defined as the long-term, stable reduction
+in the number of hairs regrowing when measured at 6, 9 and 12 months after the completion of a
+treatment regime.
+
+VI. Materials
+Component
+name
+IPL Hair
+Removal Device
+(Enclosure and
+flash window)
+
+Material of Component
+
+Body Contact Category
+
+ABS, PC
+
+Surface-contacting
+device: Intact skin
+
+Contact Duration
+Less than 24 hours
+
+We have tested the device for biocompatibility by a reliable third-party lab. For details, please
+refer to Section 16 “Biocompatibility Discussion”.
+
+VII.Comparison of Technological Characteristics With the Predicate Device
+The IPL Hair Removal Device has the same intended use, mode of action and similar operational
+characteristics as the predicate device. Any minor differences between the subject device and the
+listed predicate device and reference device do no raise any issues of safety or efficacy.
+Performance data supports that the device is safe and as effective as the predicate device and
+reference device for its intended use. Therefore, the IPL Hair Removal Device may be found
+substantially equivalent to its predicate device and reference device.
+IPL Hair Removal Device is compared with the following Predicate Device and Reference Device
+in terms of intended use, design, material,specifications, and performance:
+
+Page 2 of 7
+
+SHENZHEN ISHINE TECHNOLOGY COMPANY LIMITED
+
+510(k)s –Section 8. 510(k) Summary
+
+Comparison
+Elements
+
+Subject Device
+
+Predicate Device
+
+510(k)
+Number
+
+Pending
+
+K213041
+
+K221002
+
+/
+
+Trade name
+
+IPL Hair Removal Device
+(skn001,skn005,skn006,skn
+002,RoseSkin Co Lumi)
+
+IPL
+Hair
+Removal,
+Model:OBT-02
+
+IPL Hair Removal Device
+(UI04A, UI04B, UI04C)
+
+/
+
+Manufacturer
+
+SHENZHEN
+ISHINE
+TECHNOLOGY
+COMPANY LIMITED
+
+Glan Electronics
+Limited.
+
+Shenzhen Ulike Smart
+Electronics Co.,Ltd
+
+/
+
+Regulation
+number
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+Same
+
+Product code
+
+OHT
+
+OHT
+
+OHT
+
+Same
+
+Device
+classification
+
+Class II
+
+Class II
+
+Class II
+
+Same
+
+Indication for
+use/ Intended
+use
+
+IPL Hair Removal Device
+is indicated for the removal
+of unwanted hair. The
+device is also indicated for
+the permanent reduction in
+hair regrowth, defined as
+the
+long-term,
+stable
+reduction in the number of
+hairs regrowing when
+measured at 6, 9 and 12
+months
+after
+the
+completion of a treatment
+regime.
+
+The IPL Hair Removal
+Device OBT-02 Version
+is indicated for the
+removal of unwanted hair.
+The device is also
+indicated
+for
+the
+permanent reduction in
+hair regrowth, defined as
+the long-term, stable
+reduction in the number
+of hairs regrowing when
+measured at 6, 9 and 12
+months
+after
+the
+completion of a treatment
+regime. The device is
+used for adults.
+
+IPL
+Hair
+Removal
+Device is indicated for
+the removal of unwanted
+hair. The device is also
+indicated
+for
+the
+permanent reduction in
+hair regrowth, defined as
+the long-term, stable
+reduction in the number
+of hairs regrowing when
+measured at 6, 9 and 12
+months
+after
+the
+completion of a treatment
+regime.
+
+Same, only
+wording
+difference
+
+Prescription
+or OTC
+
+OTC
+
+OTC
+
+OTC
+
+Same
+
+Reference Device
+
+Co.,
+
+Remark
+
+Device design
+Source
+energy
+
+Supplied
+adapter
+
+by
+
+external
+
+Power
+Supply
+
+100-240V~, 50/60Hz
+
+Supplied
+adapter
+Unknown
+
+by
+
+external
+
+Supplied
+adapter
+
+by
+
+external
+
+100-240V~, 50/60Hz
+
+Same
+Same
+
+Page 3 of 7
+
+SHENZHEN ISHINE TECHNOLOGY COMPANY LIMITED
+
+510(k)s –Section 8. 510(k) Summary
+
+Comparison
+Elements
+
+Dimension
+
+Weight
+
+Sterilization
+
+Subject Device
+
+Predicate Device
+
+skn001:134*83*48.5mm
+skn005:132.5*83*48mm
+skn006:135.5*86*52.5mm
+skn002:134*82*40mm
+RoseSkinCo
+Lumi:
+134*82*40mm
+skn001:196g
+skn005: 196g
+skn006: 210g
+skn002: 186g
+RoseSkinCo Lumi:186g
+Not required
+
+Reference Device
+
+Remark
+
+150*75*45mm(H*W*D)
+
+60.5(W)x38(H)x169.7(L)
+mm
+
+Different
+Note 1
+
+220g
+
+Unknown
+
+Different
+Note 1
+
+Not required
+
+Not required
+
+Same
+
+Output specification
+Light Source
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Same
+
+Energy
+medium
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Same
+
+Wavelength
+range
+
+510-1100nm
+
+510-1100nm
+
+550-1200mm
+
+Spot
+( cm²)
+
+3.3cm²
+
+3.0cm²
+
+3.3cm²
+
+Similar
+Note 2
+
+Level 1: 1.5 J/cm²
+Level 2: 1.9 J/cm²
+Level 3: 2.6 J/cm²
+
+3.03-5.3J/cm²
+
+Similar
+Note 3
+
+Size
+
+Same
+
+For sk001,skn005,skn006
+Level 1: 1.5 J/cm²
+Level 2: 1.9J/cm²
+Level 3: 2.3J/cm²
+
+Energy
+Density
+
+Level 4: 2.8J/cm²
+Level 5: 3.5J/cm²
+For
+skn002
+RoseSkinCo Lumi
+Level 1: 1.6J/cm²
+Level 2: 1.9J/cm²
+Level 3: 2.3J/cm²
+Level 4: 2.8J/cm²
+
+and
+
+Level 4: 3.7 J/cm²
+Level 5: 4.0 J/cm²
+
+Level 5: 3.2J/cm²
+Level 6: 3.8J/cm²
+
+Page 4 of 7
+
+SHENZHEN ISHINE TECHNOLOGY COMPANY LIMITED
+
+510(k)s –Section 8. 510(k) Summary
+
+Comparison
+Elements
+
+Subject Device
+
+Predicate Device
+
+Pulse
+duration
+
+6-8ms
+
+3ms
+
+7-10ms
+
+Similar
+Note 4
+
+Pulsing
+control
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Same
+
+One channel
+
+One channel
+
+Unknown
+
+Same
+
+Output
+intensity
+level
+
+5
+Levels
+for
+skn001,skn005,skn006; 6
+Levels for skn002 and
+RoseSkinCo Lumi
+
+5 Levels
+
+5 Levels
+
+Similar
+Note 3
+
+Skin Contact
+Sensor
+
+Yes
+
+Yes
+
+Unknown
+
+Same
+
+Software/
+Firmware/
+Microprocess
+or Control?
+
+Yes
+
+Yes
+
+Yes
+
+Same
+
+Electrical
+safety
+
+ANSI AAMI ES60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+
+IEC 60601-1-1
+IEC 60601-1-2
+IEC 60601-2-57
+
+IEC 60601-1-2
+IEC 60601-1-11
+ANSI AAMI ES60601-1
+IEC 60601-2-57
+IEC 60601-2-83
+
+Similar
+
+Eye safety
+
+IEC 62471
+
+Unknown
+
+IEC 62471
+
+Same
+
+Biocompatibi
+lity
+
+ISO 10993-5
+ISO 10993-10
+
+ISO 10993-5
+ISO 10993-10
+
+ISO 10993-5
+ISO 10993-10
+
+Same
+
+Number
+output
+channels
+
+of
+
+Reference Device
+
+Remark
+
+Additional features
+
+Note 1:
+Though the dimension and weight are different from the predicate device and reference device,
+this difference is insignificant and do not raise any safety/ effectiveness problems.
+
+Page 5 of 7
+
+SHENZHEN ISHINE TECHNOLOGY COMPANY LIMITED
+
+510(k)s –Section 8. 510(k) Summary
+
+Note 2:
+There is minor difference in spot size between the subject device and the predicate device. The
+spot size is related to light intensity and since the difference in light intensity is not significant as
+explained in note 3, so this difference will not raise any safety or effectiveness issue.
+Note 3:
+Though the energy density and output intensity level are a little different from the predicate
+device and reference device, the energy density of subject device is within the range of the
+minimum and maximum value of the predicate device, and they all comply with IEC 60601-2-83
+and IEC 62471 requirements, so this difference will not raise any safety or effectiveness issue.
+Note 4:
+Though the pulse duration of subject device is a little different from the predicate device, it’s
+similar to the reference device, and the subject device complies with IEC 60601-2-83 and IEC
+62471 requirements, so this difference will not raise any safety or effectiveness issue.
+
+VIII. Performance Data
+The following performance data were provided in support of the substantial equivalence
+determination.
+1) Biocompatibility Testing
+The biocompatibility evaluation for the body-contacting components of the IPL Hair Removal
+Device was conducted in accordance with the "Use of International Standard ISO 10993-1,
+'Biological Evaluation of Medical Devices –Part 1: Evaluation and Testing Within a Risk
+Management Process, Document Issued on September 4, 2020", as recognized by FDA. The
+following testing was performed to, and passed, including:
+ ISO 10993-5:2009, Biological Evaluation of Medical Devices –Par t 5: Tests for In Vitro
+Cytotoxicity
+ ISO 10993-10:2010, Biological Evaluation of Medical Devices –Par t 10: Tests for Irritation
+and Skin Sensitization
+2) Electrical Safety and EMC
+Electrical safety and EMC testing was performed to, and passed, as per the following standards:
+ IEC 60601-1-2 Medical electrical equipment –Part 1-2: General requirements for basic safety
+and essential performance –Collateral standard: electromagnetic compatibility
+ ANSI AAMI ES60601-1 Medical electrical equipment - Part 1: General requirements for basic
+safety and essential performance (IEC 60601-1:2005, MOD)
+ IEC 60601-1-11 Medical Electrical Equipment –Part 1: General Requirements for Basic
+Safety and Essential Performance –Collateral Standard: Requirements for Medical Electrical
+Equipment and Medical Electrical Systems Used in the Home Healthcare Environment
+ IEC 60601-2-83 Medical electrical equipment - Part 2-83: Particular requirements for the basic
+safety and essential performance of home light therapy equipment
+3) Eye Safety
+Page 6 of 7
+
+SHENZHEN ISHINE TECHNOLOGY COMPANY LIMITED
+
+510(k)s –Section 8. 510(k) Summary
+
+ IEC 62471 Photobiological safety of lamps and lamp systems
+4) Software Verification and Validation
+Software documentation consistent with moderate level of concern was submitted in this 510(k).
+System validation testing presented in this 510(k) demonstrated that all software requirement
+specifications are met and all software hazards have been mitigated to acceptable risk levels.
+5) Usability
+The product usability has been evaluated and verified according to the following FDA guidance
+ Applying Human Factors and Usability Engineering to Medical Devices, issued on
+FEBRUARY 2016
+IX. Conclusions
+Based on the above analysis and non-clinical tests performed, it can be concluded that the subject
+device IPL Hair Removal Device is as safe, as effective, and performs as well as the legally
+marketed predicate device and reference device.
+
+Page 7 of 7
+
+

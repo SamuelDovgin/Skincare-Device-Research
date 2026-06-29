@@ -1,0 +1,841 @@
+September 6, 2023
+Foshan Jindi Electric Appliance Co.,Ltd
+℅ Yvonne Liu
+Registration engineer
+Feiying Drug & Medical Consulting Technical Service Group
+Rm 2401 Zhenye International Business Center, No. 3101-90,
+Qianhai Road
+Shenzhen, Guangdong 518052
+China
+Re: K231717
+Trade/Device Name: IPL Home Use Hair Removal Device, Model(s): JD-TM002, JD-TM003, JDTM012, JD-TM016, JD-TM022
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: June 12, 2023
+Received: June 13, 2023
+Dear Yvonne Liu:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+
+K231717 - Yvonne Liu
+
+Page 2
+
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Tanisha Hithe
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2023
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+/K231717
+
+Device Name
+
+IPL Home Use Hair Removal Device
+Model(s): JD-TM002, JD-TM003, JD-TM012, JD-TM016, JD-TM022
+
+Indications for Use (Describe)
+
+IPL Home Use Hair Removal Device is indicated for the removal of unwanted hair. The device is also indicated for the
+permanent reduction in hair regrowth, defined as the long-term, stable reduction in the number of hairs regrowing when
+measured at 6, 9 and 12 months after the completion of a treatment regime.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (6/20)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+Foshan Jindi Electric Appliance Co.,Ltd
+
+510(k)s –Section 8. 510(k) Summary
+
+510(k) Summary K231717
+"510(k) Summary" as required by 21 CFR Part 807.92.
+I.
+
+Submitter
+Foshan Jindi Electric Appliance Co.,Ltd
+No.13 Baiye Avenue, Xiqiao Science and Technology Industrial Park, Xiqiao Town, Nanhai District,
+Foshan City, Guangdong Province, China
+Post code: 528211
+Tel.: +86 18316578883
+Zhaozhi Li
+Legal Person
+Tel: +86 18316578883
+Email: renyigea@126.com
+
+II. Device
+Name of Device: IPL Home Use Hair Removal Device
+Model(s): JD-TM002, JD-TM003, JD-TM012, JD-TM016, JD-TM022
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+
+III. Predicate Device
+Primary predicate device:
+Manufacturer
+CyDen Limited.
+
+Secondary predicate device:
+Manufacturer
+Shenzhen Jizhimei
+Technology Co., Ltd
+
+Reference device:
+Manufacturer
+Shenzhen Yangyi
+Technology Co., Ltd
+
+Predicate Device
+
+iPulse Smoothskin Gold Hair
+Removal System
+
+Reference Device
+IPL Cooling Hair Removal
+Device (NBB01, NBB02)
+
+510(k) Number
+
+Approval Date
+
+K160968
+
+April 14, 2016
+
+510(k) Number
+
+Approval Date
+
+K230360
+
+April 10, 2023
+
+Reference Device
+510(k) Number
+IPL Hair Removal Device,
+K230021
+Model(s): AP10,AP20,AP30,AP32
+
+Approval Date
+March 31, 2023
+
+IV. Device Description
+
+Page 1 of 7
+
+Foshan Jindi Electric Appliance Co.,Ltd
+
+510(k)s –Section 8. 510(k) Summary
+
+IPL Home Use Hair Removal Device (Models:JD-TM002, JD-TM003, JD-TM012, JD-TM016, JDTM022),is an over-the-counter, home-use and single-person-use device for hair reduction by using Intense
+Pulsed Light (IPL). It works below the skin's surface and does not involve any cutting or pulling, reducing
+hair growth with minimal pain.
+The device is only powered by the external power adapter and its IPL emission activation is by finger
+switch. This product adopts irreplaceable flash window and is suitable for multiple hair removal areas
+(such as: lips, underarms, bikini lines, arms, legs, etc.). It contains a skin sensor to detect appropriate skin
+contact, if the device is not in full contact with the skin, the device cannot emit the treatment light pulses.
+The subject device includes five models. The three models of JD-TM002,JD-TM003,JD-TM012 are
+white , JD-TM016 has two colors of white and purple while three colors of rose gold, green and
+champagne for JD-TM022. Except JD-TM022, the other four models have cooling function to relieve pain
+of burning sensation during operation. Except JD-TM002, you can use auxiliary head to limit the spot area
+and get better effect with the other four models. The auxiliary head is suitable for small parts such as
+underarms and lips.
+IPL Home Use Hair Removal Device, models: JD-TM002, JD-TM003, JD-TM012, JD-TM016, JDTM022 have the same indication for use, performance, structure design and operation. The main difference
+mainly contains product appearance, size, weight, energy density , number of levels and auxiliary head.
+The little difference won’t affect the safety and effectiveness of the device.
+
+V. Indications for Use
+IPL Home Use Hair Removal Device is indicated for the removal of unwanted hair. The device is also
+indicated for the permanent reduction in hair regrowth, defined as the long-term, stable reduction in the
+number of hairs regrowing when measured at 6, 9 and 12 months after the completion of a treatment
+regime.
+
+VI. Materials
+Component
+name
+IPL Home Use
+Hair Removal
+Device
+(Enclosure and
+flash window)
+
+Material of Component
+
+Body Contact Category
+
+ABS, PC
+
+Surface-contacting
+device: Intact skin
+
+Contact Duration
+Less than 24 hours
+
+We have tested the device for biocompatibility by a reliable third-party lab. For details, please refer to
+Section 16 “Biocompatibility Discussion”.
+
+VII.Comparison of Technological Characteristics With the Predicate Device
+The IPL Home Use Hair Removal Device has the same intended use, mode of action and similar
+operational characteristics as the predicate devices. Any minor differences between the subject device and
+the listed predicate devices and reference device do no raise any issues of safety or efficacy. Performance
+Page 2 of 7
+
+Foshan Jindi Electric Appliance Co.,Ltd
+
+510(k)s –Section 8. 510(k) Summary
+
+data supports that the device is safe and as effective as the predicate devices and reference device for its
+intended use. Therefore, the IPL Home Use Hair Removal Device may be found substantially equivalent to
+its predicate devices and reference device.
+IPL Home Use Hair Removal Device is compared with the following Predicate Device and Reference
+Devices in terms of intended use, design, material,specifications, and performance:
+
+Comparison
+Elements
+
+Subject Device
+
+Primary Predicate
+Device
+
+Secondary Predicate
+
+510(k) Number
+
+Pending
+
+K160968
+
+K230360
+
+K230021
+
+/
+
+Trade name
+
+IPL Home Use Hair
+Removal Device (JDTM002,JD-TM003,JDTM012,JD-TM016,JDTM022)
+
+iPulse Smoothskin
+Gold Hair Removal
+System
+
+IPL
+Cooling
+Hair
+Removal Device
+( NBB01, NBB02 )
+
+IPL Hair Removal
+Device,
+Model(s):AP10,AP20
+,AP30,AP32
+
+/
+
+Manufacturer
+
+Foshan Jindi Electric
+Appliance Co.,Ltd
+
+CyDen Limited.
+
+Shenzhen
+Jizhimei
+Technology Co.,Ltd
+
+Shenzhen
+Yangyi
+Technology Co.,Ltd
+
+Regulation
+number
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+Same
+
+Product code
+
+OHT
+
+OHT, GEX
+
+OHT
+
+OHT
+
+Same
+
+Device
+classification
+
+Class II
+
+Class II
+
+Class II
+
+Class II
+
+Same
+
+IPL Home Use Hair
+Removal Device is
+indicated
+for
+the
+removal of unwanted
+hair. The device is also
+indicated
+for
+the
+permanent reduction in
+hair regrowth, defined
+as the long-term, stable
+reduction in the number
+of hairs regrowing
+when measured at 6, 9
+and 12 months after the
+completion
+of
+a
+treatment regime.
+
+The
+iPulse
+Smoothskin
+Gold
+Hair
+Removal
+System is indicated
+for the removal of
+unwanted hair. The
+iPulse Smoothskin
+Gold
+is
+also
+indicated for the
+permanent reduction
+in hair regrowth,
+defined as the longterm,
+stable
+reduction in the
+number of hairs
+regrowing
+when
+measured at 6, 9 and
+12 months after the
+
+The IPL Cooling Hair
+Removal Device is an
+over-the-counter device
+intended for removal of
+unwanted body and /or
+facial hair.
+
+IPL Hair Removal
+Device is an over-thecounter
+device
+intended for removal
+of unwanted body
+and /or facial hair.
+
+Same
+
+Indication for
+use/ Intended
+use
+
+Device
+
+Reference Device
+
+Remark
+
+Page 3 of 7
+
+Foshan Jindi Electric Appliance Co.,Ltd
+
+510(k)s –Section 8. 510(k) Summary
+
+completion of
+treatment regime.
+Prescription or
+OTC
+
+a
+
+OTC
+
+OTC
+
+OTC
+
+OTC
+
+Same
+
+Source energy
+
+Supplied by external
+adapter
+
+Supplied by external
+adapter
+
+Supplied by external
+adapter
+
+Supplied by external
+adapter
+
+Same
+
+Power Supply
+
+100-240V~, 50/60Hz
+
+110V
+or
+50/60Hz
+
+100-240V, 50/60Hz
+
+100-240V AC
+
+Same
+
+Dimension
+
+JD-TM002:
+138*78*47mm
+JD-TM003:
+145*75*50mm
+JD-TM012:
+195*73*47mm
+JD-TM016:
+180*100*47mm
+JD-TM022:
+176*147*91mm
+
+Unknown
+
+NBB01:
+47.6*54.3*240mm
+NBB02-MAX:
+235*76*43mm
+
+AP10:
+201*184*80mm
+AP20:
+209*161*78mm
+AP30:
+166*62*40mm
+AP32: 167*63*41mm
+
+Different
+Note 1
+
+Sterilization
+
+Not required
+
+Not required
+
+No
+
+Not required
+
+Same
+
+Device design
+
+230V,
+
+Output specification
+Light Source
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Same
+
+Energy
+medium
+
+Xenon Arc Flashlamp
+
+Xenon
+Flashlamp
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Same
+
+510-1100nm
+
+550-1200mm
+
+530-1100nm
+
+3cm²
+
+3.6cm²
+
+3.3cm²
+3.96cm² ,3.63cm²
+
+Wavelength
+range
+
+Spot Size
+( cm²)
+
+JD-TM002,JD-TM003:
+550-1100nm
+JD-TM012,JD-TM016:
+600-1100nm
+JD-TM022:
+640-1100nm
+JD-TM002,JDTM003,JD-TM012:
+3 cm²
+JD-TM016:
+3.3 cm²
+
+Arc
+
+Same
+
+Similar
+Note 2
+
+JD-TM022: 4 cm²
+
+Page 4 of 7
+
+Foshan Jindi Electric Appliance Co.,Ltd
+
+510(k)s –Section 8. 510(k) Summary
+
+JD-TM002,JDTM003,JD-TM012,
+JD-TM016: 2-5 J/cm²
+
+Energy
+Density
+
+3-6 J/cm²
+
+2-5 J/cm ² (applicable
+for model NBB01)
+2-4 J/cm ² (applicable
+for model NBB02)
+
+Max 4.3 J/cm²
+
+Similar
+Note 3
+
+JD-TM022:
+2-6 J/cm²
+
+Pulse duration
+
+8-12ms
+
+2-10 ms
+
+6.4-7.2ms
+
+8.8-13.2 ms
+
+Similar
+Note 4
+
+Pulsing control
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Same
+
+Output
+intensity level
+
+JD-TM002,JDTM003,JD-TM012:
+5 Levels
+JD-TM016: 9 Levels
+JD-TM022: 10 Levels
+
+Unknown
+
+NB001: 5 Levels
+NBB02: 6 Levels
+
+5 (applicable for
+model
+AP10,
+AP30,AP32)
+9 (applicable for
+model AP20)
+
+Similar
+Note 3
+
+Delivery
+Device
+
+Direct Illumination to
+Tissue
+
+Direct Illumination
+to Tissue
+
+Direct Illumination to
+Tissue
+
+Direct Illumination to
+Tissue
+
+Same
+
+Software/
+Firmware/
+Microprocesso
+r Control?
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Same
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+
+Similar
+
+Additional features
+
+Electrical
+safety
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-57
+
+Eye safety
+
+IEC 62471
+
+IEC 62471
+
+IEC 62471
+
+IEC 62471
+
+Same
+
+Biocompatibili
+ty
+
+ISO 10993-5
+ISO 10993-10
+
+ISO 10993-5
+ISO 10993-10
+ISO 10993-12
+
+ISO 10993-5
+ISO 10993-10
+
+ISO 10993-5
+ISO 10993-10
+
+Same
+
+IEC 60601-1
+IEC 60601-1-2
+
+Note 1:
+Though the dimensions are different from the predicate devices and reference device, this difference is
+insignificant and do not raise any safety/ effectiveness problems.
+Note 2:
+There is minor difference in spot size between the subject device and the predicate devices and reference
+device. The spot size is related to light intensity and since the difference in light intensity is not significant
+as explained in note 3, so this difference will not raise any safety or effectiveness issue.
+
+Page 5 of 7
+
+Foshan Jindi Electric Appliance Co.,Ltd
+
+510(k)s –Section 8. 510(k) Summary
+
+Note 3:
+Though the energy density and output intensity level are a little different from the predicate devices and
+reference device, the energy density of subject device is within the range of the minimum and maximum
+value of the predicate devices and reference device, and they all comply with IEC 60601-2-57 and IEC
+62471 requirements, so this difference will not raise any safety or effectiveness issue.
+Note 4:
+Though the pulse duration of subject device is a little different from the predicate devices and reference
+device, and the subject device complies with IEC 60601-2-57 and IEC 62471 requirements, so this
+difference will not raise any safety or effectiveness issue.
+
+VIII. Performance Data
+The following performance data were provided in support of the substantial equivalence determination.
+1) Biocompatibility Testing
+The biocompatibility evaluation for the body-contacting components of the IPL Home Use Hair Removal
+Device was conducted in accordance with the "Use of International Standard ISO 10993-1, 'Biological
+Evaluation of Medical Devices –Part 1: Evaluation and Testing Within a Risk Management Process,
+Document Issued on September 4, 2020", as recognized by FDA. The following testing was performed to,
+and passed, including:
+ ISO 10993-5:2009, Biological Evaluation of Medical Devices –Par t 5: Tests for In Vitro Cytotoxicity
+ ISO 10993-10:2010, Biological Evaluation of Medical Devices –Par t 10: Tests for Irritation and Skin
+Sensitization
+2) Electrical Safety and EMC
+Electrical safety and EMC testing was performed to, and passed, as per the following standards:
+ IEC 60601-1-2 Medical electrical equipment –Part 1-2: General requirements for basic safety and
+essential performance –Collateral standard: electromagnetic compatibility
+ ANSI AAMI ES60601-1 Medical electrical equipment - Part 1: General requirements for basic safety
+and essential performance (IEC 60601-1:2005, MOD)
+ IEC 60601-1-11 Medical Electrical Equipment –Part 1: General Requirements for Basic Safety and
+Essential Performance –Collateral Standard: Requirements for Medical Electrical Equipment and
+Medical Electrical Systems Used in the Home Healthcare Environment
+IEC
+60601-2-57 Medical electrical equipment - Part 2-57: Particular requirements for the basic safety
+
+and essential performance of non-laser light source equipment intended for therapeutic,
+diagnostic,monitoring and cosmetic/aesthetic use.
+3) Eye Safety
+ IEC 62471 Photobiological safety of lamps and lamp systems
+4) Software Verification and Validation
+
+Page 6 of 7
+
+Foshan Jindi Electric Appliance Co.,Ltd
+
+510(k)s –Section 8. 510(k) Summary
+
+Software documentation consistent with moderate level of concern was submitted in this 510(k). System
+validation testing presented in this 510(k) demonstrated that all software requirement specifications are
+met and all software hazards have been mitigated to acceptable risk levels.
+5) Usability
+The product usability has been evaluated and verified according to the following FDA guidance
+ Applying Human Factors and Usability Engineering to Medical Devices, issued on FEBRUARY 2016
+IX. Conclusions
+Based on the above analysis and non-clinical tests performed, it can be concluded that the subject device
+IPL Home Use Hair Removal Device is as safe, as effective, and performs as well as the legally marketed
+predicate device and reference devices.
+
+Page 7 of 7
+
+

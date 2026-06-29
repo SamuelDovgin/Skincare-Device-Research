@@ -1,0 +1,21 @@
+{
+  "_comment": "Edit this to control what the pipeline pulls. Product codes are the FDA's device classification buckets; keywords sweep device_name to catch IPL devices filed under other codes.",
+
+  "product_codes": ["OHT"],
+
+  "_product_code_reference": {
+    "OHT": "OTC IPL hair removal — THE home/consumer IPL category (Fansizhe, Semlamp, Ulike, Braun, Nood, etc.)",
+    "OHS": "OTC LED light, wrinkle reduction — adjacent home light devices, NOT IPL but same buyers",
+    "OLP": "OTC acne light devices",
+    "GEX": "Professional/prescription IPL & laser systems (clinic) — 2800+ records, broad. Add only if you want the pro landscape.",
+    "ONF": "Other powered light-based device class"
+  },
+
+  "_to_widen_scope": "Set product_codes to [\"OHT\",\"OHS\",\"OLP\"] for the full home light-device market, or add \"GEX\" for professional IPL.",
+
+  "keywords": ["intense pulsed light", "pulsed light", "IPL"],
+  "_keywords_note": "device_name phrase sweep. Multi-word terms are auto-quoted as exact phrases (unquoted terms OR-explode in openFDA). Catches IPL devices filed under a product code not listed above; deduped against the code-based pull.",
+
+  "since": null,
+  "_since_note": "Set to a date like \"2023-01-01\" to limit to recent clearances, or null for the full history."
+}

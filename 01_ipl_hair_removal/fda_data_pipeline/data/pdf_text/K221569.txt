@@ -1,0 +1,666 @@
+June 30, 2022
+Shenzhen Fansizhe Science And Technology Co., Ltd
+℅ You Yijie
+Manager
+Qimmiq Medical Consulting Service Co., Ltd.
+RM.406, Building C, Run Science Park,
+No.18 Shenzhou Road, Huangpu
+Guangzhou, Guangdong 510663
+China
+Re: K221569
+Trade/Device Name: Intense Pulsed Light (IPL) System, model: T013C, T015C, T015K
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT, ONF
+Dated: May 15, 2022
+Received: May 31, 2022
+Dear You Yijie:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.04.33
+
+K221569 - You Yijie
+
+Page 2
+
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801 and Part 809); medical device reporting (reporting of medical device-related adverse events) (21 CFR
+803) for devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Jianting Wang -S
+Jianting Wang
+Acting Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2023
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+K221569
+Device Name
+
+Intense Pulsed Light (IPL) System, model:T013C, T015C, T015K
+
+Indications for Use (Describe)
+
+The Intense Pulsed Light (IPL) System is an over-the-counter device intended for the removal of unwanted body hair.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (6/20)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+Section 5: 510(K) Summary
+1. Submitter’s Information
+Establishment Registration Information:
+Name:
+Shenzhen Fansizhe Science And Technology Co.,
+Ltd
+Address:
+2nd and 3rd floors, No.17, Xinfa 2nd Road, Xinqiao
+Community, Xinqiao Street, Baoan District,
+Shenzhen, Guangdong, China
+Contact Person of applicant:
+Name:
+Endang Cheng
+Address:
+2nd and 3rd floors, No.17, Xinfa 2nd Road, Xinqiao
+Community, Xinqiao Street, Baoan District,
+Shenzhen, Guangdong, China
+TEL:
++86 0755-85275266
+Email:
+ChengEndang1001@163.com
+Contact Person of the Submission:
+Name:
+You Yijie
+Address:
+RM.406, Building C, Run Science Park, No.18
+Shenzhou Road, Huangpu, Guangzhou,
+Guangdong 510663 P.R.China
+TEL:
+(+86)020-82245821
+FAX:
+(+86)020-82245821
+Email:
+jet.you@qimmiq-med.com
+Date prepared: May 13, 2022
+
+2. Device Information
+Trade Name:
+Model:
+Classification name:
+Common or Usual Name:
+Review panel:
+Product code:
+Subsequent Product
+code:
+Regulation Class:
+Regulation Number:
+
+Intense Pulsed Light (IPL) System
+T013C, T015C, T015K
+Light Based Over-The-Counter Hair Removal
+Powered Light Based Non-Laser Surgical Instrument With
+Thermal Effect
+General & Plastic Surgery
+OHT
+ONF
+II
+878.4810
+
+Page 1 / 6
+
+3. Predicate Device Information
+510(k) submitter/holder:
+
+Trade Name:
+
+Shenzhen Fansizhe Science And Technology
+Co., Ltd
+K212881
+Intense Pulsed Light (IPL) System
+
+Model:
+
+T012C
+
+Classification name:
+
+Powered Light Based Non-Laser Surgical
+Instrument With Thermal Effect
+General & Plastic Surgery
+OHT, ONF
+II
+878.4810
+
+510(K) Number:
+
+Review panel:
+Product code:
+Regulation Class:
+Regulation Number:
+
+4. Device description
+Intense Pulsed Light (IPL) System is a small over-the-counter device for the permanent
+reduction of hair growth based on Intense Pulsed Light (IPL). It works below the skin's
+surface and does not involve any cutting or pulling, reducing hair growth with minimal
+pain. The Intense Pulsed Light (IPL) System includes main unit, an adaptor and
+goggles. The device is only powered by the external power adapter and its IPL
+emission activation is by a switch or auto light emission.
+Based on the ice-cool technology, the hair removal device with ice-cold compress
+functions.
+
+5. Indications for Use
+The Intense Pulsed Light (IPL) System is an over-the-counter device intended for the
+removal of unwanted body hair.
+
+6. Summary of technological characteristics of device
+compared to the predicate devices (K212881)
+SE
+Comparisons
+
+Subject device
+(Intense Pulsed Light (IPL) System,
+model: T013C, T015C, T015K)
+
+510K Number
+Classification
+Product Code
+FDA Class
+Model
+
+K221569
+21CFR 878.4810
+OHT, ONF
+II
+T013C, T015C, T015K
+
+Indications for Use
+
+The Intense Pulsed Light (IPL) System is
+an over-the-counter device intended for
+the removal of unwanted body hair.
+
+Type of use
+Environment of Use
+
+Over-The-Counter Use
+Home use
+
+Page 2 / 6
+
+Predicate device
+(Intense Pulsed Light (IPL)
+System,
+model: T012C)
+K212881
+21CFR 878.4810
+OHT, ONF
+II
+T012C
+The Intense Pulsed Light (IPL)
+System is an over-the-counter
+device intended for the removal of
+unwanted body hair.
+Over-The-Counter Use
+Home use
+
+Discussion of
+difference
+/
+Same
+Same
+Same
+/
+Same
+Same
+Same
+
+Design
+Patient Population
+
+Material of Patient
+contact
+components
+
+Hand-hold
+
+Hand-hold
+
+Same
+
+Adult
+
+Adult
+
+Same
+
+The patients’ skin or operator contact:
+T013C:
+PC for shell(Lamp shell, button, light
+guide column, right shell, face shell,
+front upper shell), aluminum for cold
+compress panel
+
+The patients’ skin or operator
+contact:
+ABS for ABS shell and buttons,
+aluminum for cold compress
+panel
+
+The material of
+T015C and
+T015K is
+identical with
+predicate device,
+T013C is
+different with
+predicate device,
+(Discussion is
+indicated in D1)
+
+1.Type of contact: direct contact
+for users and patients.
+2.Nature of body contact
+category: Surface Contact class:
+A (<24 h)
+3.Meets ISO 10993- 5, ISO 1099310
+
+Same
+
+Yes
+
+Yes
+
+Same
+
+Buttons
+Intense Pulse Light (IPL)
+171×76×50mm for T013C
+206×113×91.5mm for T015C
+206×113×91.5mm for T015K
+an external power supply
+Input: 100-240V ~ 50/60Hz，1.5A Max.
+Output: 24Vdc 2.2A
+
+Buttons
+Intense Pulse Light (IPL)
+
+T015C&T015K: ABS for ABS shell and
+buttons, aluminum for cold compress
+panel
+
+Biocompatibility
+testing
+
+Single Patient,
+multi-use
+Patient Interface
+Technology
+Dimensions
+
+Power source
+Light source
+Wavelength
+
+Spot Size
+
+Max. Fluence
+(J/cm2)
+Pulse duration
+
+1.Type of contact: direct contact for
+users and patients.
+2.Nature of body contact category:
+Surface Contact class: A (<24 h)
+3.Meets ISO 10993- 5, ISO 10993-10
+
+148×190×56mm
+
+Same
+Same
+Different(Discussi
+on is indicated in
+D2)
+
+an external power supply
+Input: 100-240V ~ 50/60Hz，1.5A
+Max. Output: 24Vdc 2.2A
+
+Same
+
+Xenon Arc Flashlamp
+510nm~1200nm
+
+Xenon Arc Flashlamp
+510nm~1200nm
+
+Same
+Same
+
+4cm²for T013C
+3.5cm²for T015C
+3.7cm²for T015K
+
+Light outlet: 4cm²
+Lamp cover: 1.85cm²
+
+4.03J/cm²for T013C
+4.69J/cm²for T015C
+3.6J/cm²for T015K
+4~12ms for T013C and T015C
+3~10ms for T015K
+
+5.18J/cm²
+(Attach Probe Cover:3.41J/cm²)
+
+4~12ms
+
+Page 3 / 6
+
+Minor
+different(Discussi
+on is indicated in
+D3)
+Different(Discussi
+on is indicated in
+D4)
+The parameter of
+T013C and
+T015C is
+identical with
+predicate device,
+T013K is minor
+different with
+predicate device
+(Discussion is
+indicated in D5)
+
+Output energy
+Pulsing
+Control
+Output
+Channel
+Delivery
+Software
+Control
+
+Operating
+environment
+
+Storage and
+transportation
+environment
+
+Electrical
+safety, EMC,
+Biological
+Evaluation
+
+3.8J~16.1J for T013C
+4.1J~16.4J for T015C
+5.2J~13.4J for T015K
+
+5.5J~20.7J
+
+Different(Discussi
+on is indicated in
+D6)
+Same
+
+Finger switch
+
+Finger switch
+
+One channel
+
+One channel
+
+Same
+
+Direct Illumination to Tissue
+
+Direct Illumination to Tissue
+
+Yes
+
+Yes
+
+Same
+Same
+
+Temperature: 5-30℃
+Relative humidity: 20-90%,
+without condensation
+Atmospheric Pressure: 70
+kPa to 106 kPa
+Temperature: -20 -55 ℃
+Relative humidity: 5-95%,
+without condensation
+Atmospheric Pressure:70
+kPa to 106 kPa
+ANSI AAMI ES60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+
+Temperature: 5-30℃
+Relative humidity: 20-90%,
+without condensation
+Atmospheric Pressure: 70
+kPa to 106 kPa
+Temperature: -20 -55 ℃
+Relative humidity: 5-95%,
+without condensation
+Atmospheric Pressure:70
+kPa to 106 kPa
+ANSI AAMI ES60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+
+Same
+
+Same
+
+Same
+
+Based on the comparison chart above, there have been no changes to the intended
+use or product specifications of subject device from those of the predicate device, the
+fundamental operating principle of the device is identical to that of the predicate
+device. The change associated with the updated industrial design which include a
+different PCB layout and some different hardware components, patient contact
+material, and minor different specifications, have been verified and validated via
+laboratory testing. Through the verification and validation process, it has been shown
+that the differences do not raise new questions of safety and effectiveness.
+The discussion of differences exist between the subject and predicate devices
+is listed in following:
+D1: The material of T015C and T015K is identical with predicate device,T013C is different
+with predicate device. The subject devices have been validated for cytotoxicity per ISO
+10993- 5 and Irritation as well as Sensitization per ISO 10993-10 with positive results,
+therefore, the material difference of subject device with Predicate device TB-1755
+(K183217) do not raise new questions of safety and effectiveness.
+D2: The difference of dimensions will not affect the safety and effectiveness.
+D3: Spot Size of subject device is same or similar with predicate device. The safety and
+effectiveness of the subject device is verified via tests according to ANSI AAMI ES606011, IEC60601-1-2, IEC60601-1-11, IEC 62471 and IEC 60601-2-83, so the differences do
+not affect the safety and effectiveness.
+
+Page 4 / 6
+
+D4: Max. Fluence of subject device is within the range of predicate device. The safety and
+effectiveness of the subject device is verified via tests according to ANSI AAMI ES606011, IEC60601-1-2, IEC60601-1-11, IEC 62471 and IEC 60601-2-83, so the differences do
+not affect the safety and effectiveness.
+D5: Pulse duration of T013C and T015C is identical with predicate device,T013K is minor
+different with predicate device, but similar and within the range of predicate device. The
+safety and effectiveness of the subject device is verified via tests according to ANSI
+AAMI ES60601-1, IEC60601-1-2, IEC60601-1-11, IEC 62471 and IEC 60601-2-83, so
+the differences do not affect the safety and effectiveness.
+D6: Output energy of subject device is within the range of predicate device. The safety and
+effectiveness of the subject device is verified via tests according to ANSI AAMI ES606011, IEC60601-1-2, IEC60601-1-11, IEC 62471 and IEC 60601-2-83, so the differences do
+not affect the safety and effectiveness.
+
+7. Discussion of Non-Clinical Tests Performed for Safety and
+effectiveness are as follows
+The modifications to the device have been designed and assessed under design
+control processes compliant with FDA 21 CFR 820. Based on modification clearance,
+a risk analysis was conducted to assess the impact of the changes on the subject
+device using internal design control procedures and a fault tree analysis described in
+the FDA-recognized version of ISO 14971.
+These risks were mitigated using planned measures that included testing to
+recognized FDA consensus standards. Changes in software were verified and
+validated using the software development process.
+Non-clinical testing as below table has been performed to demonstrate that the safety
+and efficacy of the device remains substantially equivalent to its predicate.
+Standards
+Standards Name
+Results
+Medical Electrical Equipment Pass
+ANSI AAMI ES60601Part 1: General Requirements
+1:2005/(R)2012 and
+For Basic Safety And Essential
+A1:2012
+Performance
+Medical Electrical Equipment -Pass
+Part 1-2: General Requirements
+For Basic Safety And Essential
+IEC 60601-1-2: 2014
+Performance -- Collateral
+Standard: Electromagnetic
+Disturbances -- Requirements
+And Tests
+Medical Electrical Equipment Pass
+Part 1-2: General Requirements
+For Basic Safety And Essential
+IEC 60601-1-11: 2015 Performance - Collateral
+Standard: Electromagnetic
+Disturbances - Requirements
+And Tests
+Page 5 / 6
+
+IEC 60601-2-83:2019
+
+IEC 62471: 2006
+ISO 10993-5:2009
+
+ISO 10993-10:2010
+IEC
+62304:2006+A1:2015
+
+Medical electrical equipment
+Part 2-83:Particular
+requirements for the basic
+safety and essential
+performance of home light
+therapy equipment
+Photobiological safety of lamps
+and lamp systems
+Biological evaluation of medical
+devices - Part 5: Tests for in
+vitro cytotoxicity
+Biological evaluation of medical
+devices - Part 10: Tests for
+irritation and skin sensitization
+Medical device software Software life cycle processes
+
+Pass
+
+Pass
+Pass
+
+Pass
+
+Pass
+
+8. Discussion of Clinical Accuracy Testing Performed
+There was no clinical testing performed.
+
+9. Conclusions
+A risk analysis was performed to identify risks associated with the device
+modifications. Verification and validation tests have been performed to demonstrate
+that the identified risks have been mitigated. Thus, based on the information provided
+in this premarket notification, it is concluded that the modified device Intense Pulsed
+Light (IPL) Systems, model: T013C, T015C, T015K are substantially equivalent to the
+legally marketed predicate device.
+
+Page 6 / 6
+
+

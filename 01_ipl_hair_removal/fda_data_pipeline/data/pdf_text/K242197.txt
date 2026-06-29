@@ -1,0 +1,339 @@
+October 17, 2024
+Shenzhen Huaruibo Electric Appliances Co., Ltd
+℅ Tracy Che
+Registration Specialist
+Feiying Drug & Medical Consulting Technical Service Group
+Rm 2401 Zhenye International Business Center, No. 3101-90,
+Qianhai Road
+Shenzhen, Guangdong 518052
+China
+Re: K242197
+Trade/Device Name: IPL Hair Removal Device (DH4, DH5, DH5 Plus, DH5 Max)
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: July 26, 2024
+Received: July 26, 2024
+Dear Tracy Che:
+We have reviewed your section 510(k) premarket notification of intent to market the device referenced above
+and have determined the device is substantially equivalent (for the indications for use stated in the enclosure)
+to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment
+date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the
+provisions of the Federal Food, Drug, and Cosmetic Act (the Act) that do not require approval of a premarket
+approval application (PMA). You may, therefore, market the device, subject to the general controls
+provisions of the Act. Although this letter refers to your product as a device, please be aware that some
+cleared products may instead be combination products. The 510(k) Premarket Notification Database
+available at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.07.03
+
+K242197 - Tracy Che
+
+Page
+
+2
+
+Additional information about changes that may require a new premarket notification are provided in the FDA
+guidance documents entitled "Deciding When to Submit a 510(k) for a Change to an Existing Device"
+(https://www.fda.gov/media/99812/download) and "Deciding When to Submit a 510(k) for a Software
+Change to an Existing Device" (https://www.fda.gov/media/99785/download).
+Your device is also subject to, among other requirements, the Quality System (QS) regulation (21 CFR Part
+820), which includes, but is not limited to, 21 CFR 820.30, Design controls; 21 CFR 820.90, Nonconforming
+product; and 21 CFR 820.100, Corrective and preventive action. Please note that regardless of whether a
+change requires premarket review, the QS regulation requires device manufacturers to review and approve
+changes to device design and production (21 CFR 820.30 and 21 CFR 820.70) and document changes and
+approvals in the device master record (21 CFR 820.181).
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR Part 803) for
+devices or postmarketing safety reporting (21 CFR Part 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR Part 4, Subpart
+A) for combination products; and, if applicable, the electronic product radiation control provisions (Sections
+531-542 of the Act); 21 CFR Parts 1000-1050.
+All medical devices, including Class I and unclassified devices and combination product device constituent
+parts are required to be in compliance with the final Unique Device Identification System rule ("UDI Rule").
+The UDI Rule requires, among other things, that a device bear a unique device identifier (UDI) on its label
+and package (21 CFR 801.20(a)) unless an exception or alternative applies (21 CFR 801.20(b)) and that the
+dates on the device label be formatted in accordance with 21 CFR 801.18. The UDI Rule (21 CFR
+830.300(a) and 830.320(b)) also requires that certain information be submitted to the Global Unique Device
+Identification Database (GUDID) (21 CFR Part 830 Subpart E). For additional information on these
+requirements, please see the UDI System webpage at https://www.fda.gov/medical-devices/device-advicecomprehensive-regulatory-assistance/unique-device-identification-system-udi-system.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatory-
+
+K242197 - Tracy Che
+
+Page
+
+3
+
+assistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+for
+
+Yan Fu -S
+
+Digitally signed by Yan Fu -S
+Date: 2024.10.17 17:27:59
+-04'00'
+
+Tanisha Hithe
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical and
+Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 07/31/2026
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K242197
+
+Device Name
+
+IPL Hair Removal Device (DH4, DH5, DH5 Plus, DH5 Max)
+
+Indications for Use (Describe)
+
+IPL Hair Removal Device is indicated for the removal of unwanted hair. The device is also indicated for the permanent
+reduction in hair regrowth, defined as the long-term, stable reduction in the number of hairs regrowing when measured at
+6, 9 and 12 months after the completion of a treatment regime.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (8/23)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+510(k) Summary
+
+510(k) #: K242197
+
+Contact Details
+
+Prepared on: 2024-10-09
+
+21 CFR 807.92(a)(1)
+
+Applicant Name
+
+Shenzhen Huaruibo Electric Appliances Co., Ltd
+
+Applicant Address
+
+3rd Floor, Building A, Chajiaokan Industrial Zone, Sanhe Village, Huarong
+Community, Dalang Street, Longhua District Shenzhen Guangdong
+518103 China
+
+Applicant Contact Telephone
+
++86-13600412127
+
+Applicant Contact
+
+Mr. Xinhua Luo
+
+Applicant Contact Email
+
+kobe@data-hero.cn
+
+Correspondent Name
+
+Feiying Drug & Medical Consulting Technical Service Group
+
+Correspondent Address
+
+Rm 2401 Zhenye International Business Center, No. 3101-90,
+Qianhai Road Shenzhen Guangdong 518052 China
+
+Correspondent Contact Telephone
+
++86-18027206248
+
+Correspondent Contact
+
+Ms. Tracy Che
+
+Correspondent Contact Email
+
+1273487536@qq.com
+
+Device Name
+
+21 CFR 807.92(a)(2)
+
+Device Trade Name
+
+IPL Hair Removal Device (DH4, DH5, DH5 Plus, DH5 Max)
+
+Common Name
+
+Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+
+Classification Name
+
+Light Based Over-The-Counter Hair Removal
+
+Regulation Number
+
+878.4810
+
+Product Code(s)
+
+OHT
+
+Legally Marketed Predicate Devices
+
+21 CFR 807.92(a)(3)
+
+Predicate #
+
+Predicate Trade Name (Primary Predicate is listed first)
+
+Product Code
+
+K173813
+
+IPL Hair Removal Device Joy Version
+
+OHT
+
+K232932
+
+Intense Pulse Light Therapeutic Apparatus
+
+OHT
+
+Device Description Summary
+
+21 CFR 807.92(a)(4)
+
+IPL Hair Removal Device is the fast professional IPL with 6 levels for DH4, 8 levels for DH5, DH5 Plus and DH5 Max, and offers a beauty
+experience in comfort of your own home as well as has been designed with unique features for simple, relaxed and effective hair
+removal.
+IPL Hair Removal Devices of models: DH4, DH5, DH5 Plus and DH5 Max consist of IPL host and power adapter. The host is mainly
+composed of hair removal lamp, power/level button, skin sensor, thermovent (fan), flash button and DC socket.
+
+The device contains a skin sensor to detect appropriate skin contact, if the light exit is not in full contact with the skin, the device cannot
+emit the treatment light pulses. Besides, the IPL Hair Removal Devices of models DH5 Plus and DH5 Max have the cooling function,
+which will be activated throughout the whole hair removal process to cool down the treatment area’s temperature and provide the user
+with a better using experience.
+
+Intended Use/Indications for Use
+
+21 CFR 807.92(a)(5)
+
+IPL Hair Removal Device is indicated for the removal of unwanted hair. The device is also indicated for the permanent reduction in hair
+regrowth, defined as the long-term, stable reduction in the number of hairs regrowing when measured at 6, 9 and 12 months after the
+completion of a treatment regime.
+
+Indications for Use Comparison
+
+21 CFR 807.92(a)(5)
+
+The subject device and predicate devices have the same indications for use.
+
+Technological Comparison
+
+21 CFR 807.92(a)(6)
+
+The technical characteristic of IPL Hair Removal Device (DH4, DH5, DH5 Plus, DH5 Max) are substantially equivalent to the predicate
+devices in the following aspects:
+1. the same intended use, mode of action;
+2. the same source energy and power supply: supplied by external adapter with 100-240V~, 50/60Hz;
+3. the same light source: Intense Pulsed Light;
+4. the same energy medium: Xenon Arc Flashlamp;
+5. the same wavelength: 510-1200nm.
+The difference between the subject device and the predicate devices mainly includes the following:
+1. different spot size: the spot size DH4 is 3.0cm² and 3.3 cm² for DH5, DH5 Plus, DH5 Max, which is different from the primary predicate
+device K173813. The spot size is related to energy density and since the energy density of the subject device is within the range of the
+predicate devices, so this difference will not raise any safety or effectiveness issue.
+2. different energy density: the energy density of DH4 is 2.0-4.0J/cm² and 2.3-4.5 J/cm² for DH5, DH5 Plus, DH5 Max while that of the
+primary predicate device is 1.8~5.1 J/cm² . The energy density of subject device is within the range of the minimum and maximum value
+of the primary predicate.
+3. different pulse duration: the pulse duration of the device is 6.6-9.6ms, which is different from the primary predicate device, however it's
+within the range of the minimum and maximum value of both predicate devices, so this difference will not raise any safety or
+effectiveness issue.
+Thus the subject device is determined to be substantially equivalent to the predicate devices.
+
+Non-Clinical and/or Clinical Tests Summary & Conclusions
+
+21 CFR 807.92(b)
+
+In order to verify and assure the performance, function and quality of the IPL Hair Removal Device, we have conducted the verification of
+output energy density, pulse duration time, valid times of flashes.
+ISO 10993-5: 2009, Biological evaluation of medical devices –Par t 5: Tests for in vitro cytotoxicity
+ISO 10993-10: 2021, Biological evaluation of medical devices - Part 10: Tests for skin sensitization
+ISO 10993-23: 2021, Biological evaluation of medical devices - Part 23: Tests for irritation
+IEC 60601-1:2005/AMD1:2012/AMD2:2020 Medical electrical equipment - Part 1: General requirements for basic safety and essential
+performance
+IEC 60601-1-2:2014+A1:2020 Medical electrical equipment - Part 1-2: General requirements for basic safety and essential performance Collateral Standard: Electromagnetic disturbances - Requirements and tests
+IEC 60601-1-11:2015/AMD1:2020 Medical Electrical Equipment –Part 1-11: General Requirements for Basic Safety and Essential
+Performance –Collateral Standard: Requirements for Medical Electrical Equipment and Medical Electrical Systems Used in the Home
+Healthcare Environment
+IEC 60601-2-83:2019 Medical electrical equipment - Part 2-83: Particular requirements for the basic safety and essential performance of
+home light therapy equipment
+IEC 62471:2006 Photobiological safety of lamps and lamp systems
+Clinical test is not applicable, thus, there's no clinical data for the device.
+The subject device is as safe, as effective, and performs as well as the legally marketed predicate devices.
+
+

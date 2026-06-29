@@ -1,0 +1,757 @@
+December 21, 2024
+Zhuzhou Goldenhot Medical Technology Co.,Ltd.
+℅ Candice Qiu
+Registration Specialist
+Feiying Drug & Medical Consulting Technical Service Group
+Rm 2401 Zhenye International Business Center, No. 3101-90,
+Qianhai Road
+Shenzhen, Guangdong 518052
+China
+Re: K243085
+Trade/Device Name: IPL Hair Removal Device (DE03A-W, DE03A-P, DE03A-V, DE03A-G, DE03BW, DE03B-P, DE03B-V, DE03B-G)
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: September 29, 2024
+Received: September 30, 2024
+Dear Candice Qiu:
+We have reviewed your section 510(k) premarket notification of intent to market the device referenced above
+and have determined the device is substantially equivalent (for the indications for use stated in the enclosure)
+to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment
+date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the
+provisions of the Federal Food, Drug, and Cosmetic Act (the Act) that do not require approval of a premarket
+approval application (PMA). You may, therefore, market the device, subject to the general controls
+provisions of the Act. Although this letter refers to your product as a device, please be aware that some
+cleared products may instead be combination products. The 510(k) Premarket Notification Database
+available at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.07.04
+
+K243085 - Candice Qiu
+
+Page
+
+2
+
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Additional information about changes that may require a new premarket notification are provided in the FDA
+guidance documents entitled "Deciding When to Submit a 510(k) for a Change to an Existing Device"
+(https://www.fda.gov/media/99812/download) and "Deciding When to Submit a 510(k) for a Software
+Change to an Existing Device" (https://www.fda.gov/media/99785/download).
+Your device is also subject to, among other requirements, the Quality System (QS) regulation (21 CFR Part
+820), which includes, but is not limited to, 21 CFR 820.30, Design controls; 21 CFR 820.90, Nonconforming
+product; and 21 CFR 820.100, Corrective and preventive action. Please note that regardless of whether a
+change requires premarket review, the QS regulation requires device manufacturers to review and approve
+changes to device design and production (21 CFR 820.30 and 21 CFR 820.70) and document changes and
+approvals in the device master record (21 CFR 820.181).
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR Part 803) for
+devices or postmarketing safety reporting (21 CFR Part 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR Part 4, Subpart
+A) for combination products; and, if applicable, the electronic product radiation control provisions (Sections
+531-542 of the Act); 21 CFR Parts 1000-1050.
+All medical devices, including Class I and unclassified devices and combination product device constituent
+parts are required to be in compliance with the final Unique Device Identification System rule ("UDI Rule").
+The UDI Rule requires, among other things, that a device bear a unique device identifier (UDI) on its label
+and package (21 CFR 801.20(a)) unless an exception or alternative applies (21 CFR 801.20(b)) and that the
+dates on the device label be formatted in accordance with 21 CFR 801.18. The UDI Rule (21 CFR
+830.300(a) and 830.320(b)) also requires that certain information be submitted to the Global Unique Device
+Identification Database (GUDID) (21 CFR Part 830 Subpart E). For additional information on these
+requirements, please see the UDI System webpage at https://www.fda.gov/medical-devices/device-advicecomprehensive-regulatory-assistance/unique-device-identification-system-udi-system.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+
+K243085 - Candice Qiu
+
+Page
+
+3
+
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+YAN FU -S
+
+Digitally signed by YAN FU -S
+Date: 2024.12.21 11:45:08
+-05'00'
+
+for Tanisha Hithe
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical and
+Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 07/31/2026
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K243085
+
+Device Name
+
+IPL Hair Removal Device
+Model(s): DE03A-W, DE03A-P, DE03A-V, DE03A-G, DE03B-W, DE03B-P, DE03B-V, DE03B-G
+
+Indications for Use (Describe)
+
+IPL Hair Removal Device is indicated for the removal of unwanted hair. The device is also indicated for the permanent
+reduction in hair regrowth, defined as the long-term, stable reduction in the number of hairs regrowing when measured at
+6, 9 and 12 months after the completion of a treatment regime.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (8/23)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+Zhuzhou Goldenhot Medical Technology Co.,Ltd.
+510(k)s –510(k) Summary
+
+510(k) Summary-K243085
+"510(k) Summary" as required by 21 CFR Part 807.92.
+December 11, 2024
+I.
+
+Submitter
+Zhuzhou Goldenhot Medical Technology Co.,Ltd.
+Room 301, Plant C-3, Phase 5, Xinma Power Innovation Park, No. 889, Xianyue huan Road,
+Majiahe Street,Tianyuan District, Zhuzhou City, Hunan Province, China
+Liu Xianwu
+Deputy Manager
+Tel: +86 13808497058
+Email: 2569981973@qq.com
+
+II. Device
+Name of Device: IPL Hair Removal Device
+Model(s): DE03A-W, DE03A-P, DE03A-V, DE03A-G, DE03B-W, DE03B-P, DE03B-V, DE03B-G.
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+
+III. Predicate Device and Reference Device
+Predicate device:
+Manufacturer
+
+Predicate Device
+510(k) Number
+Hand-held IPL device (IPL
+Home Use Hair Removal
+Shenzhen IONKA Medical
+Device),
+K230739
+Technology Co., Ltd.
+(Model: FZ-608, FZ-608G,
+FZ-100, FZ-200)
+
+Approval Date
+
+Manufacturer
+
+Approval Date
+
+May 26, 2023
+
+Reference device:
+
+Zhuzhou
+Medical
+Co.,Ltd.
+
+Reference Device
+510(k) Number
+Intense pulsed light device
+(Model: DE01A-B, DE01AGoldenhot G, DE01B-B, DE01B-G,
+DE01C-G, K231613
+Technology DE01C-B,
+DE02A-B,
+DE02A-G,
+DE02B-B,
+DE02B-G,
+DE02C-B, DE02C-G)
+
+July 31, 2023
+
+Page 1 of 7
+
+Zhuzhou Goldenhot Medical Technology Co.,Ltd.
+510(k)s –510(k) Summary
+
+IV. Device Description
+IPL Hair Removal Device, is an over-the-counter, home-use device for unwanted hair reduction
+by using Intense Pulsed Light (IPL), and it has been designed eight models with the same IPL
+technology for hair removal, which is model DE03A-W, DE03A-P, DE03A-V, DE03A-G,
+DE03B-W, DE03B-P, DE03B-V, DE03B-G. The device works below the skin’s surface and
+does not involve any cutting or pulling, reducing hair growth with minimal pain.
+The device is only powered by the external power adapter and its IPL emission activation is by
+finger switch.
+The IPL Hair Removal Device has an irreplaceable light exit and it can cover an area of 3.0±
+0.25cm2 (Model BDE03A-W, DE03A-P, DE03A-V, DE03A-G, DE03B-W, DE03B-P, DE03B-V,
+DE03B-G) that is suitable for multiple hair removal areas, such as large areas (e.g. arms, legs) and
+small areas (e.g. bikini line).
+The device contains a skin sensor to detect appropriate skin contact, if the light exit is not in full
+contact with the skin, the device cannot emit the treatment light pulses. Besides, the IPL Hair
+Removal Device has the cooling function, which can be activated throughout the whole hair
+removal process to cool down the treatment area’s temperature and provide the user with a
+better using experience.
+
+V. Indications for Use
+IPL Hair Removal Device is indicated for the removal of unwanted hair. The device is also
+indicated for the permanent reduction in hair regrowth, defined as the long-term, stable reduction
+in the number of hairs regrowing when measured at 6, 9 and 12 months after the completion of a
+treatment regime.
+
+VI. Materials
+Component
+name
+IPL Hair
+Removal Device
+(Enclosure)
+
+Material of Component
+
+Body Contact Category
+
+ABS,PC,POM, Stainless
+steel, Fiberglass
+
+Surface-contacting
+device: Intact skin
+
+Contact Duration
+Less than 24 hours
+
+VII.Comparison of Technological Characteristics With the Predicate Device
+The IPL Hair Removal Device has the same intended use, mode of action and similar operational
+characteristics as the predicate device. Any minor differences between the subject device and the
+listed predicate device and reference device do no raise any issues of safety or efficacy.
+Page 2 of 7
+
+Zhuzhou Goldenhot Medical Technology Co.,Ltd.
+510(k)s –510(k) Summary
+
+Performance data supports that the device is safe and as effective as the predicate device and
+reference device for its intended use. Therefore, the IPL Hair Removal Device may be found
+substantially equivalent to its predicate device and reference device.
+IPL Hair Removal Device is compared with the following Predicate Device and Reference
+Device in terms of intended use, design, material, specifications, and performance:
+Comparison
+Elements
+
+Subject Device
+
+Predicate Device
+
+Reference Device
+
+Remark
+
+510(k) Number
+
+K243085
+
+K230739
+
+Trade name
+
+IPL
+Hair
+Removal
+DeviceDE03A-W,
+(Model:
+DE03A-W,
+DE03A-P,
+DE03A-V,
+DE03A-G,
+DE03B-W,
+DE03B-P,
+DE03B-V,
+DE03B-G.)
+
+K231613
+Intense pulsed light
+device
+
+Hand-held IPL device
+(IPL Home Use Hair
+Removal Device),
+(Model:
+FZ-608FZ608G,FZ-100.FZ-200)
+
+Zhuzhou
+Goldenhot
+Medical
+Technology
+Co.,Ltd.
+21 CFR 878.4810
+OHT
+
+Shenzhen
+IONKA
+Medical Technology Co.,
+Ltd.
+21 CFR 878.4810
+OHT
+
+(Model:
+DE01A-B,
+DE01A-G,
+DE01B-B,
+DE01B-G,
+DE01C-B,
+DE01C-G,
+DE02A-B,
+DE02A-G,
+DE02B-B,
+DE02B-G,
+DE02C-B,
+DE02C-G)
+Zhuzhou
+Goldenhot
+Medical
+Technology
+Co.,Ltd.
+21 CFR 878.4810
+OHT
+
+Class II
+
+Class II
+
+Class II
+
+Same
+
+The Intense pulsed light
+device is an over-thecounter device, intended
+for removal of unwanted
+body and/or facial hair.
+
+Same
+
+Manufacturer
+Regulation number
+Product code
+Device
+classification
+
+Indication for use/
+Intended use
+
+The IPL Hair Removal
+Device is indicated for the
+removal of unwanted hair.
+The device is also
+indicated
+for
+the
+permanent
+reduction in hair regrowth,
+defined as
+the
+long-term,
+stable
+reduction in the number of
+hairs regrowing when
+measured at 6, 9 and 12
+months
+after
+the
+completion of a treatment
+regime.
+
+Prescription or OTC
+
+OTC
+
+IPL Home Use Hair
+Removal
+Device
+is
+indicated for the
+removal of unwanted
+hair. The device is also
+indicated
+for
+the
+permanent
+reduction
+in
+hair
+regrowth, defined as
+the long-term, stable
+reduction in the number
+of hairs regrowing when
+measured at 6, 9 and 12
+months
+after
+the
+completion of a treatment
+regime.
+OTC
+
+Applicable skin
+
+Fitzpatrick skin types I-V
+
+Unknown
+
+/
+
+OTC
+Fitzpatrick Skin Types IV
+
+/
+
+/
+Same
+Same
+
+Same
+Same
+
+Page 3 of 7
+
+Zhuzhou Goldenhot Medical Technology Co.,Ltd.
+510(k)s –510(k) Summary
+
+Comparison
+Elements
+Power supply
+
+Subject Device
+
+100-240V, 50/60Hz
+
+Predicate Device
+Supplied
+adapter
+
+by
+
+external
+
+Dimension
+
+DE03A-W,
+DE03A-P,
+DE03A-V,
+DE03A-G,
+DE03B-W,
+DE03B-P,
+DE03B-V,
+DE03B-G:
+176.1(W)x60.66(H)x38.76
+(L)mm
+
+FZ-608,
+FZ-608G:
+98*147*60(mm)
+FZ-100: 198*71*44(mm)
+FZ-200: 216*68*52(mm)
+
+Sterilization
+Light source
+Energy medium
+
+Not required
+Intense Pulsed Light
+Xenon Flashlamp
+
+Not required
+Intense Pulsed Light
+Xenon Arc Flashlamp
+
+Wavelength range
+
+510-1200nm
+
+510nm~1200nm
+
+1.2～3.0 J/cm2
+
+FZ-608, FZ-608G: 3.33
+J/cm2
+FZ-100: 5.43 J/cm2
+FZ-200: 4.5 J/cm2
+
+Output energy
+
+5～9J
+
+FZ-608, FZ-608G:
+Level 1: 4.16J
+Level 2: 4.36J
+Level 3: 5.1J
+Level 4: 6.1J
+Level 5: 6.96J
+Level 6: 7.96J
+Level 7: 8.63J
+Level 8: 9.13J
+Level 9: 10.0J
+
+Spot size
+
+3.0cm²
+
+Energy density
+
+Pulse duration
+
+9.3 ±1.86 ms
+
+Reference Device
+
+Remark
+
+100～240V , 50/60 Hz
+
+Same
+
+DE01A-B,
+DE01A-G:
+218(W)x77(H)x97(L)mm
+DE01B-B,
+DE01B-G,
+DE01C-B,
+DE01C-G:
+218(W)x77(H)x103(L)m
+m DE02A-B, DE02A-G:
+178(W)x67(H)x150(L)m
+m
+DE02B-B,
+DE02B-G,
+DE02C-B,
+DE02C-G:
+183(W)x67(H)x150(L)m
+m
+Not required
+Intense Pulsed Light
+Xenon Flashlamp
+510-1200nm
+
+Different
+
+Same
+Same
+Same
+Same
+
+Body mode: 1.2 ~ 4.1
+J/cm2
+Face mode : 1.2 ~ 4.1
+J/cm2
+Bikini mode: 1.2 ~ 4.1
+J/cm2
+
+Similar
+
+Body: 6.4-14.0 J
+Face: 5.6-11.9 J
+Bikini line: 5.7-12.8 J
+
+Similar
+
+3.0cm²
+
+3.9 cm2
+
+Similar
+
+0.5~0.8 ms
+
+Body mode: 7.0±2.0 ~
+9.0±2.0 ms
+Face mode: 8.0±2.0 ~
+Similar
+10.0±2.0 ms
+Bikini mode: 9.0±2.0 ~
+11.0±2.0 ms
+Page 4 of 7
+
+Zhuzhou Goldenhot Medical Technology Co.,Ltd.
+510(k)s –510(k) Summary
+
+Comparison
+Elements
+
+Subject Device
+
+Predicate Device
+
+Pulsing control
+
+Finger switch
+
+Output
+level
+
+3 levels
+
+Finger switch
+FZ-608, FZ-608G:
+levels
+FZ-100: 9 levels
+FZ-200: 6 levels
+
+Yes
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+
+intensity
+
+Software/
+Firmware/
+Microprocessor
+Control?
+Electrical safety
+Eye safety
+Biocompatibility
+
+Reference Device
+
+Remark
+
+Finger switch
+
+Same
+
+5 Levels
+
+Different
+
+Yes
+
+Yes
+
+Same
+
+ANSI AAMI ES60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+
+9
+
+Same
+Same
+Same
+
+VIII. Performance Data
+The following performance data were provided in support of the substantial equivalence
+determination.
+1) Biocompatibility Evaluation
+ The biocompatibility evaluation for the body-contacting components of the IPL Hair Removal
+Device was conducted in accordance with the "Use of International Standard ISO 10993-1,
+'Biological Evaluation of Medical Devices –Part 1: Evaluation and Testing Within a Risk
+Management Process, Document Issued on September 4, 2020", as recognized by FDA.
+2) Electrical Safety and EMC
+Electrical safety and EMC testing was performed to, and passed, as per the following standards:
+ IEC 60601-1-2:2014+A1:2020 Medical electrical equipment –Part 1-2: General requirements for
+basic safety and essential performance –Collateral standard: electromagnetic compatibility.
+ IEC 60601-1:2005/AMD2:2020 Medical electrical equipment - Part 1: General requirements for
+basic safety and essential performance .
+ IEC 60601-1-11:2015/AMD1:2020 Medical electrical equipment - Part 1-11: General requirements
+for basic safety and essential performance - Collateral Standard: Requirements for medical
+electrical equipment and medical electrical systems used in the home healthcare environment.
+
+Page 5 of 7
+
+Zhuzhou Goldenhot Medical Technology Co.,Ltd.
+510(k)s –510(k) Summary
+
+ IEC 60601-2-83:2019 Medical electrical equipment - Part 2-83: Particular requirements for the
+basic safety and essential performance of home light therapy equipment.
+3) Eye Safety
+ IEC 62471:2006 Photobiological safety of lamps and lamp systems
+4) Software Verification and Validation
+Software documentation consistent with moderate level of concern was submitted in this 510(k).
+System validation testing presented in this 510(k) demonstrated that all software requirement
+specifications are met and all software hazards have been mitigated to acceptable risk levels.
+5) Usability
+The product usability has been evaluated and verified according to the following FDA guidance
+ Applying Human Factors and Usability Engineering to Medical Devices, issued on
+FEBRUARY 2016.
+IX. Conclusions
+Based on the above analysis and non-clinical tests performed, it can be concluded that the subject
+device IPL Hair Removal Device is as safe, as effective, and performs as well as the legally
+marketed predicate device and reference device.
+
+Page 6 of 7
+
+

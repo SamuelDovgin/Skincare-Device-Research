@@ -1,0 +1,673 @@
+DEPARTMENT OF HEALTH & HUMAN SERVICES
+
+Public Health Service
+
+Food and Drug Administration
+10903 New Hampshire Avenue
+Document Control Center – WO66-G609
+Silver Spring, MD 20993-0002
+
+December 19, 2014
+Global Medical Technology S.L.
+ƏMr. George J. Hattub
+Medicsense, USA
+291 Hillside Avenue
+Somerset, Massachusetts 02726
+Re: K140668
+Trade/Device Name: PlatinumGMT™ IPL System Cloud
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser surgical instrument for use in general and plastic
+surgery and in dermatology
+Regulatory Class: Class II
+Product Code: ONF
+Dated: November 16, 2014
+Received: November 24, 2014
+Dear Mr. Hattub:
+We have reviewed your Section 510(k) premarket notification of intent to market the device
+referenced above and have determined the device is substantially equivalent (for the indications
+for use stated in the enclosure) to legally marketed predicate devices marketed in interstate
+commerce prior to May 28, 1976, the enactment date of the Medical Device Amendments, or to
+devices that have been reclassified in accordance with the provisions of the Federal Food, Drug,
+and Cosmetic Act (Act) that do not require approval of a premarket approval application (PMA).
+You may, therefore, market the device, subject to the general controls provisions of the Act. The
+general controls provisions of the Act include requirements for annual registration, listing of
+devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability
+warranties. We remind you; however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it
+may be subject to additional controls. Existing major regulations affecting your device can be
+found in the Code of Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may
+publish further announcements concerning your device in the Federal Register.
+Please be advised that FDA’s issuance of a substantial equivalence determination does not mean
+that FDA has made a determination that your device complies with other requirements of the Act
+or any Federal statutes and regulations administered by other Federal agencies. You must
+comply with all the Act’s requirements, including, but not limited to: registration and listing (21
+
+Page 2 – Mr. George J. Hattub
+CFR Part 807); labeling (21 CFR Part 801); medical device reporting (reporting of medical
+device-related adverse events) (21 CFR 803); good manufacturing practice requirements as set
+forth in the quality systems (QS) regulation (21 CFR Part 820); and if applicable, the electronic
+product radiation control provisions (Sections 531-542 of the Act); 21 CFR 1000-1050.
+If you desire specific advice for your device on our labeling regulation (21 CFR Part 801), please
+contact the Division of Industry and Consumer Education at its toll-free number (800) 638-2041
+or (301) 796-7100 or at its Internet address
+http://www.fda.gov/MedicalDevices/ResourcesforYou/Industry/default.htm. Also, please note
+the regulation entitled, sMisbranding by reference to premarket notifications (21CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21
+CFR Part 803), please go to
+http://www.fda.gov/MedicalDevices/Safety/ReportaProblem/default.htm for the CDRH’s Office
+of Surveillance and Biometrics/Division of Postmarket Surveillance.
+You may obtain other general information on your responsibilities under the Act from the
+Division of Industry and Consumer Education at its toll-free number (800) 638-2041 or (301)
+796-7100 or at its Internet address
+http://www.fda.gov/MedicalDevices/ResourcesforYou/Industry/default.htm.
+Sincerely yours,
+
+Binita S. Ashar -S
+Binita S. Ashar, M.D., M.B.A., F.A.C.S.
+Director
+Division of Surgical Devices
+Office of Device Evaluation
+Center for Devices and
+Radiological Health
+Enclosure
+
+Indications for Use
+510(k) Number K140668:
+Device Name: PlatinumGMT™ IPL System Cloud
+Indications For Use: The PlatinumGMT™ IPL System Cloud device (inclusive of the
+hand piece used to deliver pulsed-light energy) is indicated for use in surgical,
+aesthetic and cosmetic applications in permanent hair reduction, moderate
+inflammatory acne vulgaris, benign cutaneous pigmented and vascular lesions.
+Permanent hair reduction is defined as the long-term stable reduction in the number of hairs
+regrowing when measured at 6, 9, and 12 months after the completion of a treatment regimen.
+
+Prescription Use _X _
+(Part 21 CFR 801 Subpart D)
+
+AND/OR
+
+Over-The-Counter Use _______
+(21 CFR 807 Subpart C)
+
+(PLEASE DO NOT WRITE BELOW THIS LINE-CONTINUE ON ANOTHER PAGE IF
+NEEDED)
+__________________________________________________________________
+Concurrence of CDRH, Office of Device Evaluation (ODE)
+
+Page 1 of 1
+
+510(k) Summary
+This 510(k) summary of safety and effectiveness is submitted in accordance with the
+requirements of the Safe Medical Device Act (SMDA) of 1990 and follows the office of
+Device Evaluation (ODE) guidance concerting the organization and content of a 510(k)
+summary.
+The assigned 510(k) Number: K140668
+1. Date of Submission: December 5, 2014
+2. Sponsor
+GLOBAL MEDICAL TECHNOLOGY S.L.
+C/ Isla de Alegranza, 2 (Nave 51) – CP 28703 - San Sebastián de los Reyes – Madrid ESPAÑA
+Teléfono: (+34) 902 024 191
+www.gmt-europa.com
+Contact Person: Name: Derliz David Díaz
+Title: Operations Manager
+Phone number: +52-155-4858-7812
+E-mail: derliz.diaz@gmt-europa.com
+3. Submission Correspondent
+George J. Hattub
+Medicsense, USA
+291 Hillside Avenue
+Somerset, MA 02726
+Tel: 508-479-6116
+Email: ghattub@comcast.net
+
+Page 1 of 8
+
+4. Proposed Device Identification
+Proposed Device Name: PlatinumGMT™ IPL System Cloud
+Classification: Class II
+Product Code: ONF
+Regulation Number: 21 CFR 878.48 I 0
+Review Panel: General and Plastic Surgery
+
+Indications for Use
+The PlatinumGMT™ IPL System Cloud device (inclusive of the hand piece used to
+deliver pulsed-light energy) is indicated for use in surgical, aesthetic and cosmetic
+applications in permanent hair reduction, moderate inflammatory acne vulgaris, benign
+cutaneous pigmented and vascular lesions.
+Permanent hair reduction is defined as the long-term stable reduction in the number of hairs
+regrowing when measured at 6, 9, and 12 months after the completion of a treatment regimen.
+
+Condition
+
+Filter Setting and
+Wavelength Range
+
+Hair Reduction
+Acne
+Vascular Lesions
+Pigmented Lesions
+
+Skin Types
+I
+695-1200
+430-1200
+560-1200
+560-1200
+
+II
+695-1200
+430-1200
+560-1200
+560-1200
+
+III
+695-1200
+430-1200
+560-1200
+560-1200
+
+IV
+695-1200
+430-1200
+560-1200
+560-1200
+
+V
+755-1200
+----------------------------------
+
+5. Predicate Device Identification
+510(k) Number: K131859
+Product Name: Multifunctional Series
+Manufacturer: Beijing Honkon Technologies Co., Ltd.
+510(k) Number: K122995
+Product Name: Intense Pulse Light (IPL) Systems/ MED-210/230
+Manufacturer: Beijing Kes Biology Technology Co., Ltd.
+
+Page 2 of 8
+
+6. Device Description
+The PlatinumGMT™ IPL System Cloud device is an intense pulsed light system which
+delivers intense pulsed light at a wavelength ranging from 560 nm-1200 nm. Intense
+Pulsed Light (IPL) systems work on the principles of selective thermolysis. That is,
+causing thermal damage to target chromophores by using light of appropriate
+wavelength in pulses that exceeds the chromophores’ thermal relaxation time but
+sparing normal skin by limiting the pulse width below the thermal relaxation time for
+skin.
+
+IPL Systems are different from lasers in that they deliver many wavelengths in each
+pulse of light instead of just one wavelength. Generally, IPL enhances penetration
+without using excessive energy levels and enables targeting of specific chromophores.
+Based on this, the PlatinumGMT™ IPL System Cloud device (inclusive of the hand
+piece used to deliver pulsed light energy) is indicated for use in surgical, aesthetic and
+cosmetic applications in permanent hair reduction, moderate inflammatory acne
+vulgaris, benign cutaneous pigmented, and vascular lesions.
+7. Non-Clinical Test Conclusion
+Bench tests were conducted to verify that the proposed device met all design
+specifications and was Substantially Equivalent (SE) to the predicate devices. The test
+results demonstrated that the proposed device complies with the following:
+(a) IEC 60601-1-2 Edition 3:2007-03, medical electrical equipment - Part 1-2: general
+requirements for basic safety and essential performance - collateral standard:
+electromagnetic compatibility - requirements and tests
+(b) IEC 60601-1. Medical Electrical Equipment- Part 1: General Requirements for
+Safety. 1988: Amendment I, 1991-II, Amendment 2, 1995.
+
+Page 3 of 8
+
+(c) IEC 60335-2-27 ed 4.0 Household and similar electrical appliances - Safety - Part 227: Particular requirements for appliances for skin exposure to ultraviolet and infrared
+radiation
+(d) IEC/EN 60335-1 Safety of household and similar electrical appliances – General
+(e) EN 55014-1:2008 Electromagnetic compatibility - Requirements for household
+appliances, electric tools and similar apparatus -- Part 1: Emission; Harmonics IEC
+61000-3-2; Flicker IEC 61000-3-3
+(f) EN 55014-2 (HHA Immunity Standard ); Electrostatic Discharge IEC 61000-4-2
+(±6kV Contact ±8kV Air); Radiated RF IEC 61000-4-3 (80 – 2500 MHz 3V/m); Electrical
+Fast Transients IEC 61000-4-4 (±2kV AC mains ±1kV other); Surge IEC 61000-4-5
+(±1kV Differential ±2kV Common; Conducted RF IEC 61000-4-6 (3Vrms, 0.15 – 80
+MHz); IEC 61000-4-11 Voltage Dips and Interrupts (>95%V for 0.5 Cycle 60%V for 5
+Cycles).
+(g) Performance Test (output energy, spot size)
+8. Technological Characteristics Comparison
+The proposed device has the same technological characteristics with the predicate
+devices, such as light medium, wavelength, control method and intended use.
+9. Substantially Equivalent Conclusion
+The wavelength range, energy density, pulse delays and duration of the proposed
+device are similar to the predicate devices, the slight differences are not considered to
+affect safety and efficacy.
+
+Based on the comparison and analysis below, the proposed device is determined to be
+Substantially Equivalent (SE) to the predicate devices.
+
+Page 4 of 8
+
+Substantial Equivalence Comparison
+ITEM
+
+Proposed Device
+PlatinumGMT™ IPL
+System (CLOUD)
+
+Predicate Device
+Multifunctional Series
+(K131859)
+
+Product
+Code
+Regulation Number
+Class
+Intended
+Use
+
+ONF
+
+ONF
+
+21 CFR 878.4810
+II
+The PlatinumGMT™
+IPL System Cloud
+device (inclusive of the
+hand piece used to
+deliver pulsed light
+energy) is indicated for
+use in surgical,
+aesthetic and cosmetic
+applications in
+permanent hair
+reduction; moderate
+inflammatory acne ,
+benign cutaneous
+pigmented, and
+vascular lesions.
+
+21 CFR 878.4810
+II
+The Multifunctional
+Series device (inclusive
+of the handpiece used
+to deliver pulsed-light
+energy) are indicated
+for use in
+surgical, aesthetic and
+cosmetic applications in
+hair removal, moderate
+inflammatory acne
+vulgaris, and benign
+cutaneous
+vascular lesions.
+
+21 CFR 878.4810
+II
+The Intense Pulsed
+Light (IPL) Systems
+(inclusive of the
+handpiece used to
+deliver pulsed-light
+energy) are indicated
+for use in surgical,
+aesthetic and cosmetic
+applications in
+permanent hair
+reduction, treatment of
+pigmented lesions,
+moderate inflammatory
+acne vulgaris,
+ephelides (freckles),
+and vascular lesions
+
+Permanent hair
+reduction is defined as
+the long-term stable
+reduction in the number
+of hairs regrowing when
+measured at 6, 9, and
+12 months after the
+completion of a
+treatment regimen
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Wavelength
+
+430-1200nm
+
+530-1200nm
+
+430-1200nm
+
+Delivery
+System
+
+Sapphire
+
+Sapphire
+
+Sapphire
+
+Energy
+Range
+
+10-60J/cm2
+
+20-50J/cm2
+
+10-60J/cm2
+
+Light
+Source
+
+Predicate Device
+Intense Pulsed Light
+(IPL) Systems
+(K122995)
+ONF
+
+Page 5 of 8
+
+Pulse Delay
+
+1-99ms
+
+0.1-40ms
+
+5-50ms
+
+Pulse
+Duration
+
+1-9.9 ms
+
+1-25ms
+
+1-14ms
+
+Maximum Power
+
+1200W
+
+2000W
+
+1400W (MED-210)
+2000W (MED-230)
+
+Power
+Supply
+
+AC 230V +/- 20V
+50Hz/60Hz
+12A
+
+unknown
+
+220V+/-20V 50Hz
+110V+/-20V 60Hz
+
+Spot Size
+
+10 x 45mm &
+8 x 34 mm
+
+8 x 40mm &
+15 x 60mm
+
+12 x 33mm;
+15 x 50mm &
+15 x 35mm
+
+Page 6 of 8
+
+Settings for Specific Indications for Use- Hair Reduction
+Proposed Device
+PlatinumGMT™ IPL
+
+Predicate Device
+Multifunctional Series
+(K131859)
+
+Predicate Device
+Intense Pulsed Light
+(IPL) Systems
+(K122995)
+
+695 -1200
+
+610-1200
+
+640-1200
+
+Energy Range (J/cm2)
+
+10-60
+
+20-50
+
+10-44
+
+Pulse Duration (ms)
+
+9.9
+
+13-15
+
+3-14
+
+Pulse Delay (ms)
+
+1-99
+
+15-35
+
+16-32
+
+Spot Size
+
+10 x 44
+
+8 x 40
+
+12 x 33
+
+15 x 60
+
+15 x 50
+
+System (CLOUD
+Wavelength
+(mm)
+
+(mm)
+
+15 x 35
+
+Settings for Specific Indications for Use- Treating Acne
+Proposed Device
+PlatinumGMT™ IPL
+
+Predicate Device
+Multifunctional Series
+(K131859)
+
+Predicate Device
+Intense Pulsed Light
+(IPL) Systems
+(K122995)
+
+430-1200
+
+530-1200
+
+430-1200
+
+10-40
+
+20-50
+
+10-40
+
+3-8
+
+3-10
+
+3-8
+
+16-32
+
+15-35
+
+16-32
+
+8 x 34
+
+8 x 40
+
+12 x 33
+
+l5 x 60
+
+15 x 50
+
+System (CLOUD
+
+Wavelength
+(mm)
+Energy Range
+J/cm2
+Pulse Duration
+(ms)
+Pulse Delay
+(ms)
+Spot Size
+(mm)
+
+15 x 35
+
+Page 7 of 8
+
+Settings for Specific Indications for Use Vascular Lesions
+Proposed Device
+PlatinumGMT™ IPL
+
+Predicate Device
+Multifunctional Series
+(K131859)
+
+Predicate Device
+Intense Pulsed Light
+(IPL) Systems
+(K122995)
+
+560-1200
+
+585-1200
+
+530-1200
+
+10-50
+
+20-50
+
+10-42
+
+9.9
+
+3-10
+
+3-8
+
+16-32
+
+15-35
+
+16-32
+
+8 x 34
+
+8 x 40
+
+12 x 33
+
+l5 x 60
+
+15 x 50
+
+System (CLOUD
+
+Wavelength
+(mm)
+Energy Range
+J/cm2
+Pulse Duration
+(ms)
+Pulse Delay
+(ms)
+Spot Size
+(mm)
+
+15 x 35
+
+Settings for Specific Indications for Use Pigmented Lesions
+Proposed Device
+PlatinumGMT™ IPL
+
+Predicate Device
+Multifunctional Series
+(K131859)
+
+Predicate Device
+Intense Pulsed Light
+(IPL) Systems
+(K122995)
+
+560-1200
+
+Not cleared
+
+480-1200
+
+12-44
+
+Not cleared
+
+12-44
+
+3-9
+
+Not cleared
+
+3-9
+
+16-32
+
+Not cleared
+
+16-32
+
+8 x 34
+
+Not cleared
+
+12 x 33
+
+System (CLOUD
+
+Wavelength
+(mm)
+Energy Range
+J/cm2
+Pulse Duration
+(ms)
+Pulse Delay
+(ms)
+Spot Size
+(mm)
+
+15 x 50
+15 x 35
+
+Page 8 of 8
+
+

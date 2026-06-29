@@ -1,0 +1,2799 @@
+{
+  "schema_version": 1,
+  "created_by": "Codex sanitized extraction from local CSV/HAR-derived data",
+  "created_at_note": "Generated from local files during the June 2026 Tria Marketplace research thread.",
+  "privacy_note": "Sensitive HAR/request material, cookies, auth tokens, private headers, profile image URLs, exact coordinates, and raw GraphQL payloads are intentionally omitted.",
+  "source_files": {
+    "structured_csv": "~/Downloads/amneh_marketplace_seller_activity_comprehensive.csv",
+    "har_files_inspected": [
+      "~/Downloads/marketplacetestjun.har",
+      "~/Downloads/marketplacetestjun23triafraxsold.har",
+      "~/Downloads/marketplacetestjun23triafrax.har"
+    ]
+  },
+  "seller_summary": {
+    "seller_display_name": "Amneh W. Gh",
+    "facebook_joined_central": "2014-10-24 11:43:53 AM CDT",
+    "marketplace_badge_summary": "Highly rated on Marketplace",
+    "seller_rating": {
+      "seller_only_average": 4.7,
+      "seller_only_count": 10,
+      "combined_average": 4.9,
+      "combined_count": 24
+    },
+    "location_pattern": "Listings consistently show Orland Park, IL; exact coordinates omitted."
+  },
+  "summary_counts": {
+    "total_rows": 34,
+    "active_in_stock_count": 13,
+    "sold_history_count": 21,
+    "target_present": true,
+    "sold_timestamp_rows_with_explicit_sold_time": 0
+  },
+  "sold_timestamp_conclusion": {
+    "does_facebook_data_expose_sold_time_here": false,
+    "reason": "Extracted sold-history PDP/listing objects expose is_sold/renderable_listing_status and listing creation_time, but no sold_at/sold_time/marked_sold_at field was found in the source rows.",
+    "important_caveat": "creation_time is listing creation time, not sale time. sold_har_display_rank is display/order context only, not a timestamp."
+  },
+  "target_listing": {
+    "listing_id": "1887064671946836",
+    "title": "Tria Laser Removal",
+    "is_target_tria_hair_removal": true,
+    "item_group": "Target Tria Hair Removal listing",
+    "description": "Tria hair removal, used twice only on the face.\nHas a small scratch as shown in the picture but it\u2019s working 100%.\nHas charger and plugs for all outlets types that could be used in any country.\nPurchased originally 2 years ago for $245.",
+    "price": {
+      "display": "$50",
+      "amount_usd": 50.0,
+      "currency": "USD",
+      "strikethrough_price": null
+    },
+    "condition": {
+      "code": "PC_USED_LIKE_NEW",
+      "label": "Used - like new"
+    },
+    "status": {
+      "renderable_listing_status": "IN_STOCK",
+      "is_live": true,
+      "is_sold": false,
+      "is_pending": false,
+      "is_hidden": false,
+      "inventory_count": null
+    },
+    "created": {
+      "unix": 1774511433,
+      "central": "2026-03-26 02:50:33 AM CDT",
+      "date_central": "2026-03-26",
+      "iso_central": "2026-03-26T02:50:33-05:00",
+      "batch_key": "1774511433",
+      "batch_label": "2026-03-26 02:50:33 AM CDT | 5 listing(s) in extracted data"
+    },
+    "location": {
+      "text": "Orland Park, IL",
+      "city": null,
+      "state": null,
+      "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+    },
+    "fulfillment": {
+      "delivery_types": "IN_PERSON",
+      "shipping_offered": false,
+      "is_shipping_offered": false,
+      "messaging_enabled": true,
+      "first_message_suggested_value": "Hello, is this still available?"
+    },
+    "marketplace": {
+      "source_url": "https://www.facebook.com/marketplace/item/1887064671946836/",
+      "share_uri": "https://www.facebook.com/marketplace/item/1887064671946836/",
+      "category_path": "family > health > personal-care-products > mens-aftershave",
+      "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+      "can_share": true,
+      "viewer_save_state": "SAVED",
+      "marketplace_bump_info": null
+    },
+    "sold_time_audit": {
+      "sold_timestamp_present_in_source": false,
+      "sold_time_note": null,
+      "sold_har_display_rank": null
+    },
+    "source_trace": {
+      "source_kind": "Pasted PDP detail",
+      "source_file": "Pasted text(73).txt",
+      "source_files_all": "Pasted text(72).txt|Pasted text(73).txt",
+      "har_entry_index": null,
+      "har_entry_indices_all": null
+    },
+    "behavioral_note": "Target item. Listed in same March 26 2:50:33 AM batch as multiple other seller items; still live/in stock in captured PDP."
+  },
+  "listing_batches": [
+    {
+      "batch_label": "2024-04-10 01:49:41 AM CDT | 1 listing(s) in extracted data",
+      "creation_time_unix": 1712731781,
+      "count": 1,
+      "contains_target_tria": false,
+      "statuses": {
+        "SOLD": 1
+      },
+      "titles": [
+        "Cushions"
+      ]
+    },
+    {
+      "batch_label": "2024-06-01 05:23:15 PM CDT | 1 listing(s) in extracted data",
+      "creation_time_unix": 1717280595,
+      "count": 1,
+      "contains_target_tria": false,
+      "statuses": {
+        "SOLD": 1
+      },
+      "titles": [
+        "Bags"
+      ]
+    },
+    {
+      "batch_label": "2024-06-01 05:30:49 PM CDT | 1 listing(s) in extracted data",
+      "creation_time_unix": 1717281049,
+      "count": 1,
+      "contains_target_tria": false,
+      "statuses": {
+        "SOLD": 1
+      },
+      "titles": [
+        "Organizer"
+      ]
+    },
+    {
+      "batch_label": "2024-06-05 08:28:01 PM CDT | 1 listing(s) in extracted data",
+      "creation_time_unix": 1717637281,
+      "count": 1,
+      "contains_target_tria": false,
+      "statuses": {
+        "SOLD_OUT": 1
+      },
+      "titles": [
+        "Wall decoration"
+      ]
+    },
+    {
+      "batch_label": "2024-06-05 08:38:18 PM CDT | 1 listing(s) in extracted data",
+      "creation_time_unix": 1717637898,
+      "count": 1,
+      "contains_target_tria": false,
+      "statuses": {
+        "SOLD": 1
+      },
+      "titles": [
+        "Adidas pant"
+      ]
+    },
+    {
+      "batch_label": "2024-06-23 10:33:23 PM CDT | 1 listing(s) in extracted data",
+      "creation_time_unix": 1719200003,
+      "count": 1,
+      "contains_target_tria": false,
+      "statuses": {
+        "SOLD": 1
+      },
+      "titles": [
+        "wall decor"
+      ]
+    },
+    {
+      "batch_label": "2024-08-04 02:25:34 AM CDT | 1 listing(s) in extracted data",
+      "creation_time_unix": 1722756334,
+      "count": 1,
+      "contains_target_tria": false,
+      "statuses": {
+        "SOLD": 1
+      },
+      "titles": [
+        "Halloween Pumpkin"
+      ]
+    },
+    {
+      "batch_label": "2024-08-16 11:43:58 PM CDT | 1 listing(s) in extracted data",
+      "creation_time_unix": 1723869838,
+      "count": 1,
+      "contains_target_tria": false,
+      "statuses": {
+        "SOLD": 1
+      },
+      "titles": [
+        "Oster Blender/ small crack without leak/ IT\u2019S AVAILABLE/ please send me if you\u2019re picking up only."
+      ]
+    },
+    {
+      "batch_label": "2024-08-28 11:45:23 PM CDT | 1 listing(s) in extracted data",
+      "creation_time_unix": 1724906723,
+      "count": 1,
+      "contains_target_tria": false,
+      "statuses": {
+        "SOLD_OUT": 1
+      },
+      "titles": [
+        "wall decor"
+      ]
+    },
+    {
+      "batch_label": "2024-10-16 08:49:11 PM CDT | 1 listing(s) in extracted data",
+      "creation_time_unix": 1729129751,
+      "count": 1,
+      "contains_target_tria": false,
+      "statuses": {
+        "SOLD": 1
+      },
+      "titles": [
+        "Michael Kors Women\u2019s shoes"
+      ]
+    },
+    {
+      "batch_label": "2024-10-16 09:11:25 PM CDT | 1 listing(s) in extracted data",
+      "creation_time_unix": 1729131085,
+      "count": 1,
+      "contains_target_tria": false,
+      "statuses": {
+        "SOLD": 1
+      },
+      "titles": [
+        "Waterproof Sketchers Men\u2019s shoes"
+      ]
+    },
+    {
+      "batch_label": "2024-10-16 09:12:18 PM CDT | 1 listing(s) in extracted data",
+      "creation_time_unix": 1729131138,
+      "count": 1,
+      "contains_target_tria": false,
+      "statuses": {
+        "SOLD": 1
+      },
+      "titles": [
+        "Mat"
+      ]
+    },
+    {
+      "batch_label": "2025-08-21 05:12:15 PM CDT | 1 listing(s) in extracted data",
+      "creation_time_unix": 1755814335,
+      "count": 1,
+      "contains_target_tria": false,
+      "statuses": {
+        "SOLD": 1
+      },
+      "titles": [
+        "Loving Room Set"
+      ]
+    },
+    {
+      "batch_label": "2025-10-20 12:14:02 AM CDT | 1 listing(s) in extracted data",
+      "creation_time_unix": 1760937242,
+      "count": 1,
+      "contains_target_tria": false,
+      "statuses": {
+        "SOLD_OUT": 1
+      },
+      "titles": [
+        "Michael Kors handbag"
+      ]
+    },
+    {
+      "batch_label": "2025-10-22 06:23:04 PM CDT | 1 listing(s) in extracted data",
+      "creation_time_unix": 1761175384,
+      "count": 1,
+      "contains_target_tria": false,
+      "statuses": {
+        "SOLD_OUT": 1
+      },
+      "titles": [
+        "Pillows"
+      ]
+    },
+    {
+      "batch_label": "2025-11-02 07:44:46 PM CST | 1 listing(s) in extracted data",
+      "creation_time_unix": 1762134286,
+      "count": 1,
+      "contains_target_tria": false,
+      "statuses": {
+        "SOLD": 1
+      },
+      "titles": [
+        "Gucci Bracelets/Wrist size up to 6.5 inches"
+      ]
+    },
+    {
+      "batch_label": "2025-11-02 08:18:50 PM CST | 1 listing(s) in extracted data",
+      "creation_time_unix": 1762136330,
+      "count": 1,
+      "contains_target_tria": false,
+      "statuses": {
+        "SOLD": 1
+      },
+      "titles": [
+        "Basket Display Stand \u2013 Set of 2"
+      ]
+    },
+    {
+      "batch_label": "2025-11-02 08:21:56 PM CST | 1 listing(s) in extracted data",
+      "creation_time_unix": 1762136516,
+      "count": 1,
+      "contains_target_tria": false,
+      "statuses": {
+        "SOLD": 1
+      },
+      "titles": [
+        "Gray kids Chairs \u2013 Set of 2"
+      ]
+    },
+    {
+      "batch_label": "2025-12-30 12:57:40 PM CST | 1 listing(s) in extracted data",
+      "creation_time_unix": 1767121060,
+      "count": 1,
+      "contains_target_tria": false,
+      "statuses": {
+        "SOLD_OUT": 1
+      },
+      "titles": [
+        "Michael Kors M shaped crossbogy"
+      ]
+    },
+    {
+      "batch_label": "2026-01-10 11:40:28 AM CST | 1 listing(s) in extracted data",
+      "creation_time_unix": 1768066828,
+      "count": 1,
+      "contains_target_tria": false,
+      "statuses": {
+        "SOLD_OUT": 1
+      },
+      "titles": [
+        "Safety Cabinets Locks"
+      ]
+    },
+    {
+      "batch_label": "2026-03-21 02:07:07 PM CDT | 1 listing(s) in extracted data",
+      "creation_time_unix": 1774120027,
+      "count": 1,
+      "contains_target_tria": false,
+      "statuses": {
+        "SOLD": 1
+      },
+      "titles": [
+        "Outdoor umbrella stand"
+      ]
+    },
+    {
+      "batch_label": "2026-03-26 02:50:33 AM CDT | 5 listing(s) in extracted data",
+      "creation_time_unix": 1774511433,
+      "count": 5,
+      "contains_target_tria": true,
+      "statuses": {
+        "IN_STOCK": 5
+      },
+      "titles": [
+        "Michael Kors handbag",
+        "Men\u2019s set",
+        "chandelier/ three free bulbs included",
+        "White Mountain boot",
+        "Tria Laser Removal"
+      ]
+    },
+    {
+      "batch_label": "2026-03-26 02:50:34 AM CDT | 4 listing(s) in extracted data",
+      "creation_time_unix": 1774511434,
+      "count": 4,
+      "contains_target_tria": false,
+      "statuses": {
+        "IN_STOCK": 4
+      },
+      "titles": [
+        "Gaming/TV Stand with Storage",
+        "Shein shoes",
+        "Holder for napkins",
+        "Makeup/ brushes organizer"
+      ]
+    },
+    {
+      "batch_label": "2026-05-29 09:49:02 AM CDT | 4 listing(s) in extracted data",
+      "creation_time_unix": 1780066142,
+      "count": 4,
+      "contains_target_tria": false,
+      "statuses": {
+        "IN_STOCK": 4
+      },
+      "titles": [
+        "Dining Chairs",
+        "Michael Kors shoes",
+        "Clarks Shoes",
+        "decorations"
+      ]
+    }
+  ],
+  "active_listings": [
+    {
+      "listing_id": "1532292871597278",
+      "title": "Dining Chairs",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Active/in-stock listing history",
+      "description": "Modern dining chairs in great condition, gently used. $60 each.",
+      "price": {
+        "display": "$60",
+        "amount_usd": 60.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "PC_USED_LIKE_NEW",
+        "label": "Used - like new"
+      },
+      "status": {
+        "renderable_listing_status": "IN_STOCK",
+        "is_live": true,
+        "is_sold": false,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1780066142,
+        "central": "2026-05-29 09:49:02 AM CDT",
+        "date_central": "2026-05-29",
+        "iso_central": "2026-05-29T09:49:02-05:00",
+        "batch_key": "1780066142",
+        "batch_label": "2026-05-29 09:49:02 AM CDT | 4 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/1532292871597278/",
+        "share_uri": "https://www.facebook.com/marketplace/item/1532292871597278/",
+        "category_path": "home > furniture > dining-room-furniture",
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": null,
+        "sold_har_display_rank": null
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun.har",
+        "source_files_all": "marketplacetestjun.har",
+        "har_entry_index": "1",
+        "har_entry_indices_all": "1"
+      },
+      "behavioral_note": "Active listing captured as live/in stock."
+    },
+    {
+      "listing_id": "2246715989405001",
+      "title": "Michael Kors shoes",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Active/in-stock listing history",
+      "description": "Michael Kors black flats with metallic shimmer. Elegant and stylish with signature MK hardware detail on the front. \nGently used, worn 3 times only and in perfect condition, comfortable and classy for both casual and dressy outfits.",
+      "price": {
+        "display": "$25",
+        "amount_usd": 25.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "PC_USED_LIKE_NEW",
+        "label": "Used - like new"
+      },
+      "status": {
+        "renderable_listing_status": "IN_STOCK",
+        "is_live": true,
+        "is_sold": false,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1780066142,
+        "central": "2026-05-29 09:49:02 AM CDT",
+        "date_central": "2026-05-29",
+        "iso_central": "2026-05-29T09:49:02-05:00",
+        "batch_key": "1780066142",
+        "batch_label": "2026-05-29 09:49:02 AM CDT | 4 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/2246715989405001/",
+        "share_uri": "https://www.facebook.com/marketplace/item/2246715989405001/",
+        "category_path": "apparel > womens > womens-shoes > womens-flats",
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": null,
+        "sold_har_display_rank": null
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun.har",
+        "source_files_all": "marketplacetestjun.har",
+        "har_entry_index": "24",
+        "har_entry_indices_all": "24"
+      },
+      "behavioral_note": "Active listing captured as live/in stock."
+    },
+    {
+      "listing_id": "4245259219031137",
+      "title": "Clarks Shoes",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Active/in-stock listing history",
+      "description": "Brand new Clarks shoes, size 6. Purchased from Macy\u2019s for $70 but missed the return window. Never worn. Price is $35. Color: navy\nVery comfortable with Clarks\u2019 Ultimate Comfort design and stylish perforated leather.",
+      "price": {
+        "display": "$35",
+        "amount_usd": 35.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "NEW_ITEM",
+        "label": "New"
+      },
+      "status": {
+        "renderable_listing_status": "IN_STOCK",
+        "is_live": true,
+        "is_sold": false,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1780066142,
+        "central": "2026-05-29 09:49:02 AM CDT",
+        "date_central": "2026-05-29",
+        "iso_central": "2026-05-29T09:49:02-05:00",
+        "batch_key": "1780066142",
+        "batch_label": "2026-05-29 09:49:02 AM CDT | 4 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/4245259219031137/",
+        "share_uri": "https://www.facebook.com/marketplace/item/4245259219031137/",
+        "category_path": "apparel > womens > womens-shoes > womens-flats",
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": null,
+        "sold_har_display_rank": null
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun.har",
+        "source_files_all": "marketplacetestjun.har",
+        "har_entry_index": "60",
+        "har_entry_indices_all": "60"
+      },
+      "behavioral_note": "Active listing captured as live/in stock."
+    },
+    {
+      "listing_id": "989132527186563",
+      "title": "decorations",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Active/in-stock listing history",
+      "description": "In great condition, each piece is $3\nAll together for $10",
+      "price": {
+        "display": "$10",
+        "amount_usd": 10.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "PC_USED_LIKE_NEW",
+        "label": "Used - like new"
+      },
+      "status": {
+        "renderable_listing_status": "IN_STOCK",
+        "is_live": true,
+        "is_sold": false,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1780066142,
+        "central": "2026-05-29 09:49:02 AM CDT",
+        "date_central": "2026-05-29",
+        "iso_central": "2026-05-29T09:49:02-05:00",
+        "batch_key": "1780066142",
+        "batch_label": "2026-05-29 09:49:02 AM CDT | 4 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/989132527186563/",
+        "share_uri": "https://www.facebook.com/marketplace/item/989132527186563/",
+        "category_path": null,
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": null,
+        "sold_har_display_rank": null
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun.har",
+        "source_files_all": "marketplacetestjun.har",
+        "har_entry_index": "85",
+        "har_entry_indices_all": "85"
+      },
+      "behavioral_note": "Active listing captured as live/in stock."
+    },
+    {
+      "listing_id": "1970544247180984",
+      "title": "Gaming/TV Stand with Storage",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Active/in-stock listing history",
+      "description": "Gaming/ TV stand in great condition.\nFits TV + 2 PlayStations or consoles.\nHas 2 drawers with built-in racks for DVDs/CDs. Sleek black design, practical and space-saving. Very solid wood and heavy.\nThe other drawer handle is included and will be installed before you pick it up.\nSmall scratches on the top as u see in the picture but it\u2019s barely noticeable.",
+      "price": {
+        "display": "$100",
+        "amount_usd": 100.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "PC_USED_LIKE_NEW",
+        "label": "Used - like new"
+      },
+      "status": {
+        "renderable_listing_status": "IN_STOCK",
+        "is_live": true,
+        "is_sold": false,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1774511434,
+        "central": "2026-03-26 02:50:34 AM CDT",
+        "date_central": "2026-03-26",
+        "iso_central": "2026-03-26T02:50:34-05:00",
+        "batch_key": "1774511434",
+        "batch_label": "2026-03-26 02:50:34 AM CDT | 4 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/1970544247180984/",
+        "share_uri": "https://www.facebook.com/marketplace/item/1970544247180984/",
+        "category_path": "home > furniture > living-room-furniture > tv-stands",
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": null,
+        "sold_har_display_rank": null
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun.har",
+        "source_files_all": "marketplacetestjun.har",
+        "har_entry_index": "101",
+        "har_entry_indices_all": "101"
+      },
+      "behavioral_note": "Active listing captured as live/in stock."
+    },
+    {
+      "listing_id": "1050026211530159",
+      "title": "Shein shoes",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Active/in-stock listing history",
+      "description": "Shein elegant shoes, never used.\nPrice is $10\nColor is light beige or off white\nSize is 6",
+      "price": {
+        "display": "$5",
+        "amount_usd": 5.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "NEW_ITEM",
+        "label": "New"
+      },
+      "status": {
+        "renderable_listing_status": "IN_STOCK",
+        "is_live": true,
+        "is_sold": false,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1774511434,
+        "central": "2026-03-26 02:50:34 AM CDT",
+        "date_central": "2026-03-26",
+        "iso_central": "2026-03-26T02:50:34-05:00",
+        "batch_key": "1774511434",
+        "batch_label": "2026-03-26 02:50:34 AM CDT | 4 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/1050026211530159/",
+        "share_uri": "https://www.facebook.com/marketplace/item/1050026211530159/",
+        "category_path": "apparel > womens > womens-shoes > high-heels",
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": null,
+        "sold_har_display_rank": null
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun.har",
+        "source_files_all": "marketplacetestjun.har",
+        "har_entry_index": "135",
+        "har_entry_indices_all": "135"
+      },
+      "behavioral_note": "Active listing captured as live/in stock."
+    },
+    {
+      "listing_id": "1108863691399694",
+      "title": "Holder for napkins",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Active/in-stock listing history",
+      "description": "Black napkin holder never been used, label removed only.",
+      "price": {
+        "display": "$5",
+        "amount_usd": 5.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "NEW_ITEM",
+        "label": "New"
+      },
+      "status": {
+        "renderable_listing_status": "IN_STOCK",
+        "is_live": true,
+        "is_sold": false,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1774511434,
+        "central": "2026-03-26 02:50:34 AM CDT",
+        "date_central": "2026-03-26",
+        "iso_central": "2026-03-26T02:50:34-05:00",
+        "batch_key": "1774511434",
+        "batch_label": "2026-03-26 02:50:34 AM CDT | 4 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/1108863691399694/",
+        "share_uri": "https://www.facebook.com/marketplace/item/1108863691399694/",
+        "category_path": null,
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": null,
+        "sold_har_display_rank": null
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun.har",
+        "source_files_all": "marketplacetestjun.har",
+        "har_entry_index": "166",
+        "har_entry_indices_all": "166"
+      },
+      "behavioral_note": "Active listing captured as live/in stock."
+    },
+    {
+      "listing_id": "893650323651611",
+      "title": "Makeup/ brushes organizer",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Active/in-stock listing history",
+      "description": "P\u00fcr brushes bag, still new and never been used.",
+      "price": {
+        "display": "$8",
+        "amount_usd": 8.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "NEW_ITEM",
+        "label": "New"
+      },
+      "status": {
+        "renderable_listing_status": "IN_STOCK",
+        "is_live": true,
+        "is_sold": false,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1774511434,
+        "central": "2026-03-26 02:50:34 AM CDT",
+        "date_central": "2026-03-26",
+        "iso_central": "2026-03-26T02:50:34-05:00",
+        "batch_key": "1774511434",
+        "batch_label": "2026-03-26 02:50:34 AM CDT | 4 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/893650323651611/",
+        "share_uri": "https://www.facebook.com/marketplace/item/893650323651611/",
+        "category_path": "family > health > beauty-products > makeup > makeup-accessories > makeup-storage",
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": null,
+        "sold_har_display_rank": null
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun.har",
+        "source_files_all": "marketplacetestjun.har",
+        "har_entry_index": "190",
+        "har_entry_indices_all": "190"
+      },
+      "behavioral_note": "Active listing captured as live/in stock."
+    },
+    {
+      "listing_id": "2283779758697123",
+      "title": "Michael Kors handbag",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Active/in-stock listing history",
+      "description": "Elegant Michael Kors saffiano leather handbag in a soft taupe shade. \nspacious interior perfect for daily use or work.\nExcellent condition, clean inside and out.\nPurchased from Michael Kors store for $180 2 years ago.",
+      "price": {
+        "display": "$55",
+        "amount_usd": 55.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "PC_USED_LIKE_NEW",
+        "label": "Used - like new"
+      },
+      "status": {
+        "renderable_listing_status": "IN_STOCK",
+        "is_live": true,
+        "is_sold": false,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1774511433,
+        "central": "2026-03-26 02:50:33 AM CDT",
+        "date_central": "2026-03-26",
+        "iso_central": "2026-03-26T02:50:33-05:00",
+        "batch_key": "1774511433",
+        "batch_label": "2026-03-26 02:50:33 AM CDT | 5 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/2283779758697123/",
+        "share_uri": "https://www.facebook.com/marketplace/item/2283779758697123/",
+        "category_path": null,
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": null,
+        "sold_har_display_rank": null
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun.har",
+        "source_files_all": "marketplacetestjun.har",
+        "har_entry_index": "210",
+        "har_entry_indices_all": "210"
+      },
+      "behavioral_note": "Active listing captured as live/in stock."
+    },
+    {
+      "listing_id": "2133762744131008",
+      "title": "Men\u2019s set",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Active/in-stock listing history",
+      "description": "Men\u2019s sleeveless hoodie and short branded from Royalty by Maluma. never used.\nHoodie size XL short size L\n$30 for the set \nBy piece hoodie is 25 & short is 25\n\nWas bought from Macy\u2019s in its labeled original price but missing the return date.",
+      "price": {
+        "display": "$30",
+        "amount_usd": 30.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "NEW_ITEM",
+        "label": "New"
+      },
+      "status": {
+        "renderable_listing_status": "IN_STOCK",
+        "is_live": true,
+        "is_sold": false,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1774511433,
+        "central": "2026-03-26 02:50:33 AM CDT",
+        "date_central": "2026-03-26",
+        "iso_central": "2026-03-26T02:50:33-05:00",
+        "batch_key": "1774511433",
+        "batch_label": "2026-03-26 02:50:33 AM CDT | 5 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/2133762744131008/",
+        "share_uri": "https://www.facebook.com/marketplace/item/2133762744131008/",
+        "category_path": "apparel > mens > mens-clothing > mens-hoodies",
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": null,
+        "sold_har_display_rank": null
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun.har",
+        "source_files_all": "marketplacetestjun.har",
+        "har_entry_index": "230",
+        "har_entry_indices_all": "230"
+      },
+      "behavioral_note": "Active listing captured as live/in stock."
+    },
+    {
+      "listing_id": "1573058290473870",
+      "title": "chandelier/ three free bulbs included",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Active/in-stock listing history",
+      "description": "Nice chandelier in great condition, it has 3 working bulbs, you need to insert 2 bulbs if u want full lighting.",
+      "price": {
+        "display": "$20",
+        "amount_usd": 20.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "PC_USED_LIKE_NEW",
+        "label": "Used - like new"
+      },
+      "status": {
+        "renderable_listing_status": "IN_STOCK",
+        "is_live": true,
+        "is_sold": false,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1774511433,
+        "central": "2026-03-26 02:50:33 AM CDT",
+        "date_central": "2026-03-26",
+        "iso_central": "2026-03-26T02:50:33-05:00",
+        "batch_key": "1774511433",
+        "batch_label": "2026-03-26 02:50:33 AM CDT | 5 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/1573058290473870/",
+        "share_uri": "https://www.facebook.com/marketplace/item/1573058290473870/",
+        "category_path": "home > home-lighting > chandeliers",
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": null,
+        "sold_har_display_rank": null
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun.har",
+        "source_files_all": "marketplacetestjun.har",
+        "har_entry_index": "257",
+        "har_entry_indices_all": "257"
+      },
+      "behavioral_note": "Active listing captured as live/in stock."
+    },
+    {
+      "listing_id": "1430474128335690",
+      "title": "White Mountain boot",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Active/in-stock listing history",
+      "description": "Warm boot for Autumn & winter\nBrand: White Mountain \nColor: sand\nSize 6M\nUsed twice and no scratches no fading.",
+      "price": {
+        "display": "$20",
+        "amount_usd": 20.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "PC_USED_LIKE_NEW",
+        "label": "Used - like new"
+      },
+      "status": {
+        "renderable_listing_status": "IN_STOCK",
+        "is_live": true,
+        "is_sold": false,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1774511433,
+        "central": "2026-03-26 02:50:33 AM CDT",
+        "date_central": "2026-03-26",
+        "iso_central": "2026-03-26T02:50:33-05:00",
+        "batch_key": "1774511433",
+        "batch_label": "2026-03-26 02:50:33 AM CDT | 5 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/1430474128335690/",
+        "share_uri": "https://www.facebook.com/marketplace/item/1430474128335690/",
+        "category_path": "apparel > womens > womens-shoes > womens-boots",
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": null,
+        "sold_har_display_rank": null
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun.har",
+        "source_files_all": "marketplacetestjun.har",
+        "har_entry_index": "281",
+        "har_entry_indices_all": "281"
+      },
+      "behavioral_note": "Active listing captured as live/in stock."
+    },
+    {
+      "listing_id": "1887064671946836",
+      "title": "Tria Laser Removal",
+      "is_target_tria_hair_removal": true,
+      "item_group": "Target Tria Hair Removal listing",
+      "description": "Tria hair removal, used twice only on the face.\nHas a small scratch as shown in the picture but it\u2019s working 100%.\nHas charger and plugs for all outlets types that could be used in any country.\nPurchased originally 2 years ago for $245.",
+      "price": {
+        "display": "$50",
+        "amount_usd": 50.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "PC_USED_LIKE_NEW",
+        "label": "Used - like new"
+      },
+      "status": {
+        "renderable_listing_status": "IN_STOCK",
+        "is_live": true,
+        "is_sold": false,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1774511433,
+        "central": "2026-03-26 02:50:33 AM CDT",
+        "date_central": "2026-03-26",
+        "iso_central": "2026-03-26T02:50:33-05:00",
+        "batch_key": "1774511433",
+        "batch_label": "2026-03-26 02:50:33 AM CDT | 5 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/1887064671946836/",
+        "share_uri": "https://www.facebook.com/marketplace/item/1887064671946836/",
+        "category_path": "family > health > personal-care-products > mens-aftershave",
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": null,
+        "sold_har_display_rank": null
+      },
+      "source_trace": {
+        "source_kind": "Pasted PDP detail",
+        "source_file": "Pasted text(73).txt",
+        "source_files_all": "Pasted text(72).txt|Pasted text(73).txt",
+        "har_entry_index": null,
+        "har_entry_indices_all": null
+      },
+      "behavioral_note": "Target item. Listed in same March 26 2:50:33 AM batch as multiple other seller items; still live/in stock in captured PDP."
+    }
+  ],
+  "sold_history_listings": [
+    {
+      "listing_id": "2767795920227425",
+      "title": "Outdoor umbrella stand",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Sold listing history",
+      "description": "Outdoor umbrella stand",
+      "price": {
+        "display": "$15",
+        "amount_usd": 15.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "PC_USED_GOOD",
+        "label": "Used - Good"
+      },
+      "status": {
+        "renderable_listing_status": "SOLD",
+        "is_live": true,
+        "is_sold": true,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1774120027,
+        "central": "2026-03-21 02:07:07 PM CDT",
+        "date_central": "2026-03-21",
+        "iso_central": "2026-03-21T14:07:07-05:00",
+        "batch_key": "1774120027",
+        "batch_label": "2026-03-21 02:07:07 PM CDT | 1 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/2767795920227425/",
+        "share_uri": "https://www.facebook.com/marketplace/item/2767795920227425/",
+        "category_path": "garden",
+        "hidden_from_friends": "VISIBLE_TO_EVERYONE",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": "No sold_at/sold_time/marked_sold_at field found; creation_time is listing time only.",
+        "sold_har_display_rank": "1"
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun23triafraxsold.har",
+        "source_files_all": "marketplacetestjun23triafraxsold.har",
+        "har_entry_index": "1",
+        "har_entry_indices_all": "1"
+      },
+      "behavioral_note": "Sold-history item. HAR lacks exact sold timestamp; row order may reflect displayed seller sold list order, not proven sale time."
+    },
+    {
+      "listing_id": "1226336132803749",
+      "title": "Safety Cabinets Locks",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Sold listing history",
+      "description": "Adhesive magnetic cabinets locks (12 locks and 2 keys), never used. \nStill in its original box and never open it.\nBought from Amazon in full price for $49.99, sell price is $25",
+      "price": {
+        "display": "$20",
+        "amount_usd": 20.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "NEW_ITEM",
+        "label": "New"
+      },
+      "status": {
+        "renderable_listing_status": "SOLD_OUT",
+        "is_live": true,
+        "is_sold": true,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": "0"
+      },
+      "created": {
+        "unix": 1768066828,
+        "central": "2026-01-10 11:40:28 AM CST",
+        "date_central": "2026-01-10",
+        "iso_central": "2026-01-10T11:40:28-06:00",
+        "batch_key": "1768066828",
+        "batch_label": "2026-01-10 11:40:28 AM CST | 1 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Burbank, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/1226336132803749/",
+        "share_uri": "https://www.facebook.com/marketplace/item/1226336132803749/",
+        "category_path": "family",
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": "No sold_at/sold_time/marked_sold_at field found; creation_time is listing time only.",
+        "sold_har_display_rank": "2"
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun23triafraxsold.har",
+        "source_files_all": "marketplacetestjun23triafraxsold.har",
+        "har_entry_index": "14",
+        "har_entry_indices_all": "14"
+      },
+      "behavioral_note": "Sold-history item. HAR lacks exact sold timestamp; row order may reflect displayed seller sold list order, not proven sale time."
+    },
+    {
+      "listing_id": "793749123680634",
+      "title": "Michael Kors M shaped crossbogy",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Sold listing history",
+      "description": "Used twice only, purchased originally from Michael Kors store for $216 (after Sale)\nHigh quality and it was a limited edition",
+      "price": {
+        "display": "$40",
+        "amount_usd": 40.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "PC_USED_LIKE_NEW",
+        "label": "Used - like new"
+      },
+      "status": {
+        "renderable_listing_status": "SOLD_OUT",
+        "is_live": true,
+        "is_sold": true,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": "0"
+      },
+      "created": {
+        "unix": 1767121060,
+        "central": "2025-12-30 12:57:40 PM CST",
+        "date_central": "2025-12-30",
+        "iso_central": "2025-12-30T12:57:40-06:00",
+        "batch_key": "1767121060",
+        "batch_label": "2025-12-30 12:57:40 PM CST | 1 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON|DOOR_PICKUP",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/793749123680634/",
+        "share_uri": "https://www.facebook.com/marketplace/item/793749123680634/",
+        "category_path": "apparel > bags > handbags > crossbody-bags",
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": "No sold_at/sold_time/marked_sold_at field found; creation_time is listing time only.",
+        "sold_har_display_rank": "3"
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun23triafraxsold.har",
+        "source_files_all": "marketplacetestjun23triafraxsold.har",
+        "har_entry_index": "62",
+        "har_entry_indices_all": "62"
+      },
+      "behavioral_note": "Sold-history item. HAR lacks exact sold timestamp; row order may reflect displayed seller sold list order, not proven sale time."
+    },
+    {
+      "listing_id": "807890102166981",
+      "title": "Gray kids Chairs \u2013 Set of 2",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Sold listing history",
+      "description": "Cozy and lightweight gray kids chairs with soft corduroy-style cushions and sturdy foldable metal frames. They need to be cleaned or washed. $20 for both",
+      "price": {
+        "display": "$20",
+        "amount_usd": 20.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "PC_USED_GOOD",
+        "label": "Used - Good"
+      },
+      "status": {
+        "renderable_listing_status": "SOLD",
+        "is_live": true,
+        "is_sold": true,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1762136516,
+        "central": "2025-11-02 08:21:56 PM CST",
+        "date_central": "2025-11-02",
+        "iso_central": "2025-11-02T20:21:56-06:00",
+        "batch_key": "1762136516",
+        "batch_label": "2025-11-02 08:21:56 PM CST | 1 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/807890102166981/",
+        "share_uri": "https://www.facebook.com/marketplace/item/807890102166981/",
+        "category_path": "home > furniture > baby-furniture > nursery-chairs",
+        "hidden_from_friends": "VISIBLE_TO_EVERYONE",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": "No sold_at/sold_time/marked_sold_at field found; creation_time is listing time only.",
+        "sold_har_display_rank": "4"
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun23triafraxsold.har",
+        "source_files_all": "marketplacetestjun23triafraxsold.har",
+        "har_entry_index": "84",
+        "har_entry_indices_all": "84"
+      },
+      "behavioral_note": "Sold-history item. HAR lacks exact sold timestamp; row order may reflect displayed seller sold list order, not proven sale time."
+    },
+    {
+      "listing_id": "719441337184831",
+      "title": "Basket Display Stand \u2013 Set of 2",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Sold listing history",
+      "description": "Beautiful three-tier wicker basket stands with sturdy black metal frames. Perfect for organizing or displaying fruits, towels, or home d\u00e9cor. Excellent condition and very sturdy. $40 each.",
+      "price": {
+        "display": "$80",
+        "amount_usd": 80.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "PC_USED_LIKE_NEW",
+        "label": "Used - like new"
+      },
+      "status": {
+        "renderable_listing_status": "SOLD",
+        "is_live": true,
+        "is_sold": true,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1762136330,
+        "central": "2025-11-02 08:18:50 PM CST",
+        "date_central": "2025-11-02",
+        "iso_central": "2025-11-02T20:18:50-06:00",
+        "batch_key": "1762136330",
+        "batch_label": "2025-11-02 08:18:50 PM CST | 1 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/719441337184831/",
+        "share_uri": "https://www.facebook.com/marketplace/item/719441337184831/",
+        "category_path": "home > home-decor > decorative-accents > baskets > wicker-plant-baskets",
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": "No sold_at/sold_time/marked_sold_at field found; creation_time is listing time only.",
+        "sold_har_display_rank": "5"
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun23triafraxsold.har",
+        "source_files_all": "marketplacetestjun23triafraxsold.har",
+        "har_entry_index": "102",
+        "har_entry_indices_all": "102"
+      },
+      "behavioral_note": "Sold-history item. HAR lacks exact sold timestamp; row order may reflect displayed seller sold list order, not proven sale time."
+    },
+    {
+      "listing_id": "794309043403833",
+      "title": "Gucci Bracelets/Wrist size up to 6.5 inches",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Sold listing history",
+      "description": "Elegant Gucci bangles in gold, silver, and rose gold tones with signature Gucci engraving. versatile, and in excellent condition.\nSize: Small, The bracelet has an inner circumference of exactly 7 inches, which means it fits up to 6.5-inch wrist size comfortably. \nPrice: $50 each (if u buy separately) or $100 for all three together.",
+      "price": {
+        "display": "$100",
+        "amount_usd": 100.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "PC_USED_LIKE_NEW",
+        "label": "Used - like new"
+      },
+      "status": {
+        "renderable_listing_status": "SOLD",
+        "is_live": true,
+        "is_sold": true,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1762134286,
+        "central": "2025-11-02 07:44:46 PM CST",
+        "date_central": "2025-11-02",
+        "iso_central": "2025-11-02T19:44:46-06:00",
+        "batch_key": "1762134286",
+        "batch_label": "2025-11-02 07:44:46 PM CST | 1 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/794309043403833/",
+        "share_uri": "https://www.facebook.com/marketplace/item/794309043403833/",
+        "category_path": "apparel > jewelry > bracelets",
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": "No sold_at/sold_time/marked_sold_at field found; creation_time is listing time only.",
+        "sold_har_display_rank": "6"
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun23triafraxsold.har",
+        "source_files_all": "marketplacetestjun23triafraxsold.har",
+        "har_entry_index": "116",
+        "har_entry_indices_all": "116"
+      },
+      "behavioral_note": "Sold-history item. HAR lacks exact sold timestamp; row order may reflect displayed seller sold list order, not proven sale time."
+    },
+    {
+      "listing_id": "753426404385184",
+      "title": "Pillows",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Sold listing history",
+      "description": "7 feather cushions barely used, very clean and in great condition. \nOne cushion only has some sharpie marks on one side didn\u2019t go with the regular washing.\n\nAll for $40 and the marked one for free.\nOne cushion is $10 if u buy separately.\n\nOriginal price per cushion is $24.99 from HomeGoods.",
+      "price": {
+        "display": "$40",
+        "amount_usd": 40.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "PC_USED_LIKE_NEW",
+        "label": "Used - like new"
+      },
+      "status": {
+        "renderable_listing_status": "SOLD_OUT",
+        "is_live": true,
+        "is_sold": true,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": "0"
+      },
+      "created": {
+        "unix": 1761175384,
+        "central": "2025-10-22 06:23:04 PM CDT",
+        "date_central": "2025-10-22",
+        "iso_central": "2025-10-22T18:23:04-05:00",
+        "batch_key": "1761175384",
+        "batch_label": "2025-10-22 06:23:04 PM CDT | 1 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/753426404385184/",
+        "share_uri": "https://www.facebook.com/marketplace/item/753426404385184/",
+        "category_path": "home > home-decor > decorative-accents > throw-pillows",
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": "No sold_at/sold_time/marked_sold_at field found; creation_time is listing time only.",
+        "sold_har_display_rank": "7"
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun23triafraxsold.har",
+        "source_files_all": "marketplacetestjun23triafraxsold.har",
+        "har_entry_index": "149",
+        "har_entry_indices_all": "149"
+      },
+      "behavioral_note": "Sold-history item. HAR lacks exact sold timestamp; row order may reflect displayed seller sold list order, not proven sale time."
+    },
+    {
+      "listing_id": "2023977981695831",
+      "title": "Michael Kors handbag",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Sold listing history",
+      "description": "Elegant handbag with belt to be used as a crossbody bag too. Color is Maroon or Burgundy.\nHas a small fading as shown in the picture but its barely noticeable. \nPurchased originally from Michael Kors store for $250 three years ago.",
+      "price": {
+        "display": "$25",
+        "amount_usd": 25.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "PC_USED_GOOD",
+        "label": "Used - Good"
+      },
+      "status": {
+        "renderable_listing_status": "SOLD_OUT",
+        "is_live": true,
+        "is_sold": true,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": "0"
+      },
+      "created": {
+        "unix": 1760937242,
+        "central": "2025-10-20 12:14:02 AM CDT",
+        "date_central": "2025-10-20",
+        "iso_central": "2025-10-20T00:14:02-05:00",
+        "batch_key": "1760937242",
+        "batch_label": "2025-10-20 12:14:02 AM CDT | 1 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/2023977981695831/",
+        "share_uri": "https://www.facebook.com/marketplace/item/2023977981695831/",
+        "category_path": "apparel > bags > handbags > crossbody-bags",
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": "No sold_at/sold_time/marked_sold_at field found; creation_time is listing time only.",
+        "sold_har_display_rank": "8"
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun23triafraxsold.har",
+        "source_files_all": "marketplacetestjun23triafraxsold.har",
+        "har_entry_index": "184",
+        "har_entry_indices_all": "184"
+      },
+      "behavioral_note": "Sold-history item. HAR lacks exact sold timestamp; row order may reflect displayed seller sold list order, not proven sale time."
+    },
+    {
+      "listing_id": "1029526779085195",
+      "title": "Loving Room Set",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Sold listing history",
+      "description": "Used Sofa & Two Chairs \u2013 Good/Fair Condition\nVery comfortable set, being sold as-is (see pictures). The seat pillow covers for the sofa are removable and machine-washable for easy cleaning.",
+      "price": {
+        "display": "$100",
+        "amount_usd": 100.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "PC_USED_FAIR",
+        "label": "Used - Fair"
+      },
+      "status": {
+        "renderable_listing_status": "SOLD",
+        "is_live": true,
+        "is_sold": true,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1755814335,
+        "central": "2025-08-21 05:12:15 PM CDT",
+        "date_central": "2025-08-21",
+        "iso_central": "2025-08-21T17:12:15-05:00",
+        "batch_key": "1755814335",
+        "batch_label": "2025-08-21 05:12:15 PM CDT | 1 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/1029526779085195/",
+        "share_uri": "https://www.facebook.com/marketplace/item/1029526779085195/",
+        "category_path": "home > furniture > living-room-furniture > couches",
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": "No sold_at/sold_time/marked_sold_at field found; creation_time is listing time only.",
+        "sold_har_display_rank": "9"
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun23triafraxsold.har",
+        "source_files_all": "marketplacetestjun23triafraxsold.har",
+        "har_entry_index": "216",
+        "har_entry_indices_all": "216"
+      },
+      "behavioral_note": "Sold-history item. HAR lacks exact sold timestamp; row order may reflect displayed seller sold list order, not proven sale time."
+    },
+    {
+      "listing_id": "1688444538677900",
+      "title": "Mat",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Sold listing history",
+      "description": "Mat, never used.",
+      "price": {
+        "display": "$10",
+        "amount_usd": 10.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "NEW_ITEM",
+        "label": "New"
+      },
+      "status": {
+        "renderable_listing_status": "SOLD",
+        "is_live": true,
+        "is_sold": true,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1729131138,
+        "central": "2024-10-16 09:12:18 PM CDT",
+        "date_central": "2024-10-16",
+        "iso_central": "2024-10-16T21:12:18-05:00",
+        "batch_key": "1729131138",
+        "batch_label": "2024-10-16 09:12:18 PM CDT | 1 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/1688444538677900/",
+        "share_uri": "https://www.facebook.com/marketplace/item/1688444538677900/",
+        "category_path": null,
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": "No sold_at/sold_time/marked_sold_at field found; creation_time is listing time only.",
+        "sold_har_display_rank": "10"
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun23triafraxsold.har",
+        "source_files_all": "marketplacetestjun23triafraxsold.har",
+        "har_entry_index": "241",
+        "har_entry_indices_all": "241"
+      },
+      "behavioral_note": "Sold-history item. HAR lacks exact sold timestamp; row order may reflect displayed seller sold list order, not proven sale time."
+    },
+    {
+      "listing_id": "1466859147236152",
+      "title": "Waterproof Sketchers Men\u2019s shoes",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Sold listing history",
+      "description": "Sketchers men\u2019s waterproof shoes, great for the cold, rainy and snowy weather. \nSize: 8.5\nNever used and still boxed.\nOriginally purchased for $105",
+      "price": {
+        "display": "$60",
+        "amount_usd": 60.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "NEW_ITEM",
+        "label": "New"
+      },
+      "status": {
+        "renderable_listing_status": "SOLD",
+        "is_live": true,
+        "is_sold": true,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1729131085,
+        "central": "2024-10-16 09:11:25 PM CDT",
+        "date_central": "2024-10-16",
+        "iso_central": "2024-10-16T21:11:25-05:00",
+        "batch_key": "1729131085",
+        "batch_label": "2024-10-16 09:11:25 PM CDT | 1 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/1466859147236152/",
+        "share_uri": "https://www.facebook.com/marketplace/item/1466859147236152/",
+        "category_path": "apparel > mens > mens-shoes >  > mens-athletic-shoes",
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": "No sold_at/sold_time/marked_sold_at field found; creation_time is listing time only.",
+        "sold_har_display_rank": "11"
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun23triafraxsold.har",
+        "source_files_all": "marketplacetestjun23triafraxsold.har",
+        "har_entry_index": "260",
+        "har_entry_indices_all": "260"
+      },
+      "behavioral_note": "Sold-history item. HAR lacks exact sold timestamp; row order may reflect displayed seller sold list order, not proven sale time."
+    },
+    {
+      "listing_id": "1628358081396777",
+      "title": "Michael Kors Women\u2019s shoes",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Sold listing history",
+      "description": "Elegant sneaker from Michael Kors, never used. Price is $55. Size is 6M.\nColor: white and blue\nOriginally purchased from Michael Kors store for $115",
+      "price": {
+        "display": "$55",
+        "amount_usd": 55.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "NEW_ITEM",
+        "label": "New"
+      },
+      "status": {
+        "renderable_listing_status": "SOLD",
+        "is_live": true,
+        "is_sold": true,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1729129751,
+        "central": "2024-10-16 08:49:11 PM CDT",
+        "date_central": "2024-10-16",
+        "iso_central": "2024-10-16T20:49:11-05:00",
+        "batch_key": "1729129751",
+        "batch_label": "2024-10-16 08:49:11 PM CDT | 1 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/1628358081396777/",
+        "share_uri": "https://www.facebook.com/marketplace/item/1628358081396777/",
+        "category_path": "apparel > womens > womens-shoes > ",
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": "No sold_at/sold_time/marked_sold_at field found; creation_time is listing time only.",
+        "sold_har_display_rank": "12"
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun23triafraxsold.har",
+        "source_files_all": "marketplacetestjun23triafraxsold.har",
+        "har_entry_index": "283",
+        "har_entry_indices_all": "283"
+      },
+      "behavioral_note": "Sold-history item. HAR lacks exact sold timestamp; row order may reflect displayed seller sold list order, not proven sale time."
+    },
+    {
+      "listing_id": "2263084847375350",
+      "title": "wall decor",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Sold listing history",
+      "description": "Wood wall decor, great condition and nice color \n2ft*2ft\n28*28inches",
+      "price": {
+        "display": "$30",
+        "amount_usd": 30.0,
+        "currency": "USD",
+        "strikethrough_price": "$35"
+      },
+      "condition": {
+        "code": "PC_USED_LIKE_NEW",
+        "label": "Used - like new"
+      },
+      "status": {
+        "renderable_listing_status": "SOLD_OUT",
+        "is_live": true,
+        "is_sold": true,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": "0"
+      },
+      "created": {
+        "unix": 1724906723,
+        "central": "2024-08-28 11:45:23 PM CDT",
+        "date_central": "2024-08-28",
+        "iso_central": "2024-08-28T23:45:23-05:00",
+        "batch_key": "1724906723",
+        "batch_label": "2024-08-28 11:45:23 PM CDT | 1 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/2263084847375350/",
+        "share_uri": "https://www.facebook.com/marketplace/item/2263084847375350/",
+        "category_path": null,
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": "No sold_at/sold_time/marked_sold_at field found; creation_time is listing time only.",
+        "sold_har_display_rank": "13"
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun23triafraxsold.har",
+        "source_files_all": "marketplacetestjun23triafraxsold.har",
+        "har_entry_index": "310",
+        "har_entry_indices_all": "310"
+      },
+      "behavioral_note": "Sold-history item. HAR lacks exact sold timestamp; row order may reflect displayed seller sold list order, not proven sale time."
+    },
+    {
+      "listing_id": "505051192109724",
+      "title": "Oster Blender/ small crack without leak/ IT\u2019S AVAILABLE/ please send me if you\u2019re picking up only.",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Sold listing history",
+      "description": "It works 100%, there is a small crack as shown in the picture but no leak.",
+      "price": {
+        "display": "$10",
+        "amount_usd": 10.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "PC_USED_GOOD",
+        "label": "Used - Good"
+      },
+      "status": {
+        "renderable_listing_status": "SOLD",
+        "is_live": true,
+        "is_sold": true,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1723869838,
+        "central": "2024-08-16 11:43:58 PM CDT",
+        "date_central": "2024-08-16",
+        "iso_central": "2024-08-16T23:43:58-05:00",
+        "batch_key": "1723869838",
+        "batch_label": "2024-08-16 11:43:58 PM CDT | 1 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Burbank, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/505051192109724/",
+        "share_uri": "https://www.facebook.com/marketplace/item/505051192109724/",
+        "category_path": "home > appliances",
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": "No sold_at/sold_time/marked_sold_at field found; creation_time is listing time only.",
+        "sold_har_display_rank": "14"
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun23triafraxsold.har",
+        "source_files_all": "marketplacetestjun23triafraxsold.har",
+        "har_entry_index": "326",
+        "har_entry_indices_all": "326"
+      },
+      "behavioral_note": "Sold-history item. HAR lacks exact sold timestamp; row order may reflect displayed seller sold list order, not proven sale time."
+    },
+    {
+      "listing_id": "777931544255347",
+      "title": "Halloween Pumpkin",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Sold listing history",
+      "description": "Lightning Halloween pumpkin decoration. Great condition. 100% working.",
+      "price": {
+        "display": "$10",
+        "amount_usd": 10.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "PC_USED_LIKE_NEW",
+        "label": "Used - like new"
+      },
+      "status": {
+        "renderable_listing_status": "SOLD",
+        "is_live": true,
+        "is_sold": true,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1722756334,
+        "central": "2024-08-04 02:25:34 AM CDT",
+        "date_central": "2024-08-04",
+        "iso_central": "2024-08-04T02:25:34-05:00",
+        "batch_key": "1722756334",
+        "batch_label": "2024-08-04 02:25:34 AM CDT | 1 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON|DOOR_PICKUP",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/777931544255347/",
+        "share_uri": "https://www.facebook.com/marketplace/item/777931544255347/",
+        "category_path": "home > home-decor > holiday-decor >  > christmas-decor",
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": "No sold_at/sold_time/marked_sold_at field found; creation_time is listing time only.",
+        "sold_har_display_rank": "15"
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun23triafraxsold.har",
+        "source_files_all": "marketplacetestjun23triafraxsold.har",
+        "har_entry_index": "344",
+        "har_entry_indices_all": "344"
+      },
+      "behavioral_note": "Sold-history item. HAR lacks exact sold timestamp; row order may reflect displayed seller sold list order, not proven sale time."
+    },
+    {
+      "listing_id": "778688201129832",
+      "title": "wall decor",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Sold listing history",
+      "description": "Beautiful nature wood wall decor. Great condition no scratches no stains. ",
+      "price": {
+        "display": "$35",
+        "amount_usd": 35.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "PC_USED_LIKE_NEW",
+        "label": "Used - like new"
+      },
+      "status": {
+        "renderable_listing_status": "SOLD",
+        "is_live": true,
+        "is_sold": true,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1719200003,
+        "central": "2024-06-23 10:33:23 PM CDT",
+        "date_central": "2024-06-23",
+        "iso_central": "2024-06-23T22:33:23-05:00",
+        "batch_key": "1719200003",
+        "batch_label": "2024-06-23 10:33:23 PM CDT | 1 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/778688201129832/",
+        "share_uri": "https://www.facebook.com/marketplace/item/778688201129832/",
+        "category_path": "home > home-decor > decorative-accents > posters",
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": "No sold_at/sold_time/marked_sold_at field found; creation_time is listing time only.",
+        "sold_har_display_rank": "16"
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun23triafraxsold.har",
+        "source_files_all": "marketplacetestjun23triafraxsold.har",
+        "har_entry_index": "363",
+        "har_entry_indices_all": "363"
+      },
+      "behavioral_note": "Sold-history item. HAR lacks exact sold timestamp; row order may reflect displayed seller sold list order, not proven sale time."
+    },
+    {
+      "listing_id": "2193989380935642",
+      "title": "Adidas pant",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Sold listing history",
+      "description": "Authentic Adidas sport pant, never worn and never used for women.\n\nSize Small\nColor black",
+      "price": {
+        "display": "$20",
+        "amount_usd": 20.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "NEW_ITEM",
+        "label": "New"
+      },
+      "status": {
+        "renderable_listing_status": "SOLD",
+        "is_live": true,
+        "is_sold": true,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1717637898,
+        "central": "2024-06-05 08:38:18 PM CDT",
+        "date_central": "2024-06-05",
+        "iso_central": "2024-06-05T20:38:18-05:00",
+        "batch_key": "1717637898",
+        "batch_label": "2024-06-05 08:38:18 PM CDT | 1 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/2193989380935642/",
+        "share_uri": "https://www.facebook.com/marketplace/item/2193989380935642/",
+        "category_path": "apparel > womens > womens-clothing > womens-pants",
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": "No sold_at/sold_time/marked_sold_at field found; creation_time is listing time only.",
+        "sold_har_display_rank": "17"
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun23triafraxsold.har",
+        "source_files_all": "marketplacetestjun23triafraxsold.har",
+        "har_entry_index": "381",
+        "har_entry_indices_all": "381"
+      },
+      "behavioral_note": "Sold-history item. HAR lacks exact sold timestamp; row order may reflect displayed seller sold list order, not proven sale time."
+    },
+    {
+      "listing_id": "1411087566263904",
+      "title": "Wall decoration",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Sold listing history",
+      "description": "Metal birds wall decor, never been used but open box. I just miss its return date.\nBought it for $18, selling it for $10",
+      "price": {
+        "display": "$5",
+        "amount_usd": 5.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "NEW_ITEM",
+        "label": "New"
+      },
+      "status": {
+        "renderable_listing_status": "SOLD_OUT",
+        "is_live": true,
+        "is_sold": true,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": "0"
+      },
+      "created": {
+        "unix": 1717637281,
+        "central": "2024-06-05 08:28:01 PM CDT",
+        "date_central": "2024-06-05",
+        "iso_central": "2024-06-05T20:28:01-05:00",
+        "batch_key": "1717637281",
+        "batch_label": "2024-06-05 08:28:01 PM CDT | 1 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/1411087566263904/",
+        "share_uri": "https://www.facebook.com/marketplace/item/1411087566263904/",
+        "category_path": null,
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": "No sold_at/sold_time/marked_sold_at field found; creation_time is listing time only.",
+        "sold_har_display_rank": "18"
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun23triafraxsold.har",
+        "source_files_all": "marketplacetestjun23triafraxsold.har",
+        "har_entry_index": "402",
+        "har_entry_indices_all": "402"
+      },
+      "behavioral_note": "Sold-history item. HAR lacks exact sold timestamp; row order may reflect displayed seller sold list order, not proven sale time."
+    },
+    {
+      "listing_id": "374078115663163",
+      "title": "Organizer",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Sold listing history",
+      "description": "Makeup organizer or organizer for anything else. Barely used. Bought it for $42 before taxes.",
+      "price": {
+        "display": "$20",
+        "amount_usd": 20.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "PC_USED_LIKE_NEW",
+        "label": "Used - like new"
+      },
+      "status": {
+        "renderable_listing_status": "SOLD",
+        "is_live": true,
+        "is_sold": true,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1717281049,
+        "central": "2024-06-01 05:30:49 PM CDT",
+        "date_central": "2024-06-01",
+        "iso_central": "2024-06-01T17:30:49-05:00",
+        "batch_key": "1717281049",
+        "batch_label": "2024-06-01 05:30:49 PM CDT | 1 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/374078115663163/",
+        "share_uri": "https://www.facebook.com/marketplace/item/374078115663163/",
+        "category_path": "family > health > beauty-products > makeup > makeup-accessories > makeup-storage",
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": "No sold_at/sold_time/marked_sold_at field found; creation_time is listing time only.",
+        "sold_har_display_rank": "19"
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun23triafraxsold.har",
+        "source_files_all": "marketplacetestjun23triafraxsold.har",
+        "har_entry_index": "418",
+        "har_entry_indices_all": "418"
+      },
+      "behavioral_note": "Sold-history item. HAR lacks exact sold timestamp; row order may reflect displayed seller sold list order, not proven sale time."
+    },
+    {
+      "listing_id": "7119624344810219",
+      "title": "Bags",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Sold listing history",
+      "description": "Estee Lauder two makeup bags, still new and never used. \n$ 10 for each.",
+      "price": {
+        "display": "$20",
+        "amount_usd": 20.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "NEW_ITEM",
+        "label": "New"
+      },
+      "status": {
+        "renderable_listing_status": "SOLD",
+        "is_live": true,
+        "is_sold": true,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1717280595,
+        "central": "2024-06-01 05:23:15 PM CDT",
+        "date_central": "2024-06-01",
+        "iso_central": "2024-06-01T17:23:15-05:00",
+        "batch_key": "1717280595",
+        "batch_label": "2024-06-01 05:23:15 PM CDT | 1 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/7119624344810219/",
+        "share_uri": "https://www.facebook.com/marketplace/item/7119624344810219/",
+        "category_path": "family > health > beauty-products > makeup > makeup-accessories > makeup-storage",
+        "hidden_from_friends": "HIDDEN_FROM_FRIENDS",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": "No sold_at/sold_time/marked_sold_at field found; creation_time is listing time only.",
+        "sold_har_display_rank": "20"
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun23triafraxsold.har",
+        "source_files_all": "marketplacetestjun23triafraxsold.har",
+        "har_entry_index": "443",
+        "har_entry_indices_all": "443"
+      },
+      "behavioral_note": "Sold-history item. HAR lacks exact sold timestamp; row order may reflect displayed seller sold list order, not proven sale time."
+    },
+    {
+      "listing_id": "1114868079782782",
+      "title": "Cushions",
+      "is_target_tria_hair_removal": false,
+      "item_group": "Sold listing history",
+      "description": "6 glamorous velvet cushions to add a glam look to your space!",
+      "price": {
+        "display": "$15",
+        "amount_usd": 15.0,
+        "currency": "USD",
+        "strikethrough_price": null
+      },
+      "condition": {
+        "code": "PC_USED_LIKE_NEW",
+        "label": "Used - like new"
+      },
+      "status": {
+        "renderable_listing_status": "SOLD",
+        "is_live": true,
+        "is_sold": true,
+        "is_pending": false,
+        "is_hidden": false,
+        "inventory_count": null
+      },
+      "created": {
+        "unix": 1712731781,
+        "central": "2024-04-10 01:49:41 AM CDT",
+        "date_central": "2024-04-10",
+        "iso_central": "2024-04-10T01:49:41-05:00",
+        "batch_key": "1712731781",
+        "batch_label": "2024-04-10 01:49:41 AM CDT | 1 listing(s) in extracted data"
+      },
+      "location": {
+        "text": "Orland Park, IL",
+        "city": null,
+        "state": null,
+        "note": "Coordinates intentionally omitted from sanitized repo copy; source data used Marketplace approximate location only."
+      },
+      "fulfillment": {
+        "delivery_types": "IN_PERSON",
+        "shipping_offered": false,
+        "is_shipping_offered": false,
+        "messaging_enabled": true,
+        "first_message_suggested_value": "Hello, is this still available?"
+      },
+      "marketplace": {
+        "source_url": "https://www.facebook.com/marketplace/item/1114868079782782/",
+        "share_uri": "https://www.facebook.com/marketplace/item/1114868079782782/",
+        "category_path": "home > home-decor > decorative-accents > throw-pillows",
+        "hidden_from_friends": "VISIBLE_TO_EVERYONE",
+        "can_share": true,
+        "viewer_save_state": "NOT_SAVED",
+        "marketplace_bump_info": null
+      },
+      "sold_time_audit": {
+        "sold_timestamp_present_in_source": false,
+        "sold_time_note": "No sold_at/sold_time/marked_sold_at field found; creation_time is listing time only.",
+        "sold_har_display_rank": "21"
+      },
+      "source_trace": {
+        "source_kind": "HAR PDP detail",
+        "source_file": "marketplacetestjun23triafraxsold.har",
+        "source_files_all": "marketplacetestjun23triafraxsold.har",
+        "har_entry_index": "464",
+        "har_entry_indices_all": "464"
+      },
+      "behavioral_note": "Sold-history item. HAR lacks exact sold timestamp; row order may reflect displayed seller sold list order, not proven sale time."
+    }
+  ],
+  "field_audit": [
+    {
+      "field": "seller_profile_join_time_unix",
+      "nonempty_count": 34,
+      "sample_values": [
+        "1414169033"
+      ]
+    },
+    {
+      "field": "strikethrough_price",
+      "nonempty_count": 1,
+      "sample_values": [
+        "$35"
+      ]
+    },
+    {
+      "field": "is_sold",
+      "nonempty_count": 34,
+      "sample_values": [
+        "False"
+      ]
+    },
+    {
+      "field": "creation_time_unix",
+      "nonempty_count": 34,
+      "sample_values": [
+        "1780066142",
+        "1774511434"
+      ]
+    },
+    {
+      "field": "listed_datetime_central",
+      "nonempty_count": 34,
+      "sample_values": [
+        "2026-05-29 09:49:02 AM CDT",
+        "2026-03-26 02:50:34 AM CDT"
+      ]
+    },
+    {
+      "field": "listed_datetime_iso_central",
+      "nonempty_count": 34,
+      "sample_values": [
+        "2026-05-29T09:49:02-05:00",
+        "2026-03-26T02:50:34-05:00"
+      ]
+    },
+    {
+      "field": "sold_har_display_rank",
+      "nonempty_count": 21,
+      "sample_values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "field": "marketplace_bump_info",
+      "nonempty_count": 0,
+      "sample_values": []
+    },
+    {
+      "field": "sold_timestamp_present_in_source",
+      "nonempty_count": 34,
+      "sample_values": [
+        "False"
+      ]
+    },
+    {
+      "field": "sold_time_note",
+      "nonempty_count": 21,
+      "sample_values": [
+        "No sold_at/sold_time/marked_sold_at field found; creation_time is listing time only."
+      ]
+    }
+  ]
+}

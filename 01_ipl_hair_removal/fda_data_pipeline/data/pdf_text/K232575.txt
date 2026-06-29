@@ -1,0 +1,675 @@
+November 20, 2023
+
+Shenzhen Jianchao Intelligent Technology Co., Ltd.
+℅ Riley Chen
+Registration Engineer
+Feiying Drug & Medical Consulting Technical Service Group
+Rm 2401 Zhenye International Business Center, No. 3101-90
+Qianhai Road
+Shenzhen, Guangdong 518052
+China
+Re: K232575
+Trade/Device Name: Hair Removal Device, Model(s): R2815-G Pro, R2815-G
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: August 25, 2023
+Received: August 25, 2023
+Dear Riley Chen:
+We have reviewed your section 510(k) premarket notification of intent to market the device referenced above
+and have determined the device is substantially equivalent (for the indications for use stated in the enclosure)
+to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment
+date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the
+provisions of the Federal Food, Drug, and Cosmetic Act (the Act) that do not require approval of a premarket
+approval application (PMA). You may, therefore, market the device, subject to the general controls
+provisions of the Act. Although this letter refers to your product as a device, please be aware that some
+cleared products may instead be combination products. The 510(k) Premarket Notification Database
+available at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+
+K232575 - Riley Chen
+
+Page 2
+
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Additional information about changes that may require a new premarket notification are provided in the FDA
+guidance documents entitled "Deciding When to Submit a 510(k) for a Change to an Existing Device"
+(https://www.fda.gov/media/99812/download) and "Deciding When to Submit a 510(k) for a Software
+Change to an Existing Device" (https://www.fda.gov/media/99785/download).
+Your device is also subject to, among other requirements, the Quality System (QS) regulation (21 CFR Part
+820), which includes, but is not limited to, 21 CFR 820.30, Design controls; 21 CFR 820.90, Nonconforming
+product; and 21 CFR 820.100, Corrective and preventive action. Please note that regardless of whether a
+change requires premarket review, the QS regulation requires device manufacturers to review and approve
+changes to device design and production (21 CFR 820.30 and 21 CFR 820.70) and document changes and
+approvals in the device master record (21 CFR 820.181).
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR Part 803) for
+devices or postmarketing safety reporting (21 CFR Part 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR Part 4, Subpart
+A) for combination products; and, if applicable, the electronic product radiation control provisions (Sections
+531-542 of the Act); 21 CFR Parts 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn).
+
+K232575 - Riley Chen
+
+Page 3
+
+Additionally, you may contact the Division of Industry and Consumer Education (DICE) to ask a question
+about a specific regulatory topic. See the DICE website (https://www.fda.gov/medical-devices/deviceadvice-comprehensive-regulatory-assistance/contact-us-division-industry-and-consumer-education-dice) for
+more information or contact DICE by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-7967100).
+Sincerely,
+Tanisha L. Hithe
+
+Tanisha L. -S
+Hithe -S 2023.11.20
+14:28:35 -05'00'
+
+Tanisha Hithe
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2023
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K232575
+
+Device Name
+
+Hair Removal Device
+Model(s): R2815-G Pro, R2815-G
+
+Indications for Use (Describe)
+
+Hair Removal Device is an over-the-counter device intended for removal of unwanted body hair and/or facial hair.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (6/20)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+Shenzhen Jianchao Intelligent Technology Co., Ltd.
+510(k)s –Section 8. 510(k) Summary
+
+510(k) Summary - K232575
+"510(k) Summary" as required by 21 CFR Part 807.92.
+I.
+
+Submitter
+Shenzhen Jianchao Intelligent Technology Co., Ltd.
+Rm301, Bldg.25, No.68 Hexiu West Road, Fuhai St., Baoan, Shenzhen, CN
+Post code: 518107
+Fax: +86-0755-86961489
+Fred Li
+Title: Director
+Tel.: +86 18675507170
+Email: fred@vellcolife.com
+
+II. Device
+Name of Device: Hair Removal Device
+Model(s): R2815-G Pro, R2815-G
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+
+III. Predicate Device
+Primary predicate device:
+Manufacturer
+
+Predicate Device
+510(k) Number
+Intense Pulsed Light (IPL)
+System, model: T023K, T023A,
+Shenzhen Fansizhe Science
+T023B, T023C, T023D, T023E, K223928
+and Technology Co., Ltd
+T021K, T021A, T001A, T001B,
+T001M, T001N, T011C, T016K
+
+Approval Date
+Mar. 28, 2023
+
+Secondary predicate device:
+Manufacturer
+
+Predicate Device
+510(k) Number
+Intense pulsed light device,
+Model(s): DE01A-B, DE01A-G,
+Zhuzhou
+Goldenhot
+DE01B-B, DE01B G, DE01CMedical Technology Co.,
+K231613
+B,
+DE01C-G,
+DE02A-B,
+Ltd.
+DE02A-G, DE02B-B, DE02BG, DE02C-B, DE02C-G.
+
+Approval Date
+
+Jul. 31, 2023
+
+Page 1 of 5
+
+Shenzhen Jianchao Intelligent Technology Co., Ltd.
+510(k)s –Section 8. 510(k) Summary
+
+IV. Device Description
+Hair Removal Device (Model: R2815-G Pro, R2815-G), is an over-the-counter, home-use and
+personal device for hair reduction based on Intense Pulsed Light (IPL). It works below the skin’s
+surface and does not involve any cutting or pulling, reducing hair growth with minimal pain.
+The Hair Removal Device includes two models that are R2815-G Pro, R2815-G, and their
+indications for use, work principle, product structure and composition, electrical structure,
+performance and operation are basically the same, the only difference is that the R2815-G Pro is
+equipped with sapphire while R2815-G is not but with a metal treatment window surface.
+The device is only powered by the external power adapter. The device is fitted with a skin sensor
+to detect appropriate skin contact, if the treatment window of the device is not in full contact with
+the skin, the device cannot emit light pulses, and the IPL emission activation is by finger switch.
+
+V. Indications for Use
+Hair Removal Device is an over-the-counter device intended for removal of unwanted body hair
+and/or facial hair.
+
+VI. Materials
+Component
+name
+Hair
+Removal
+Device (Enclosure
+and
+treatment
+window)
+
+Material of Component
+
+Body Contact Category
+
+Contact Duration
+
+PC+ABS, Sapphire
+(Al2O3), Stainless steel
+430
+
+Surface-contacting
+device: Intact skin
+
+Less than 24 hours
+
+We have tested the device for biocompatibility by a reliable third-party lab. For details, please
+refer to “Biocompatibility Discussion”.
+
+VII.Comparison of Technological Characteristics With the Predicate Device
+The Hair Removal Device has the same intended use, mode of action and similar operational
+characteristics as the predicate devices. Any minor differences between the subject device and the
+listed predicate devices do no raise any issues of safety or efficacy. Performance data supports
+that the device is safe and as effective as the predicate devices for its intended use. Therefore, the
+Hair Removal Device may be found substantially equivalent to its predicate devices.
+Hair Removal Device is compared with the following Predicate Devices in terms of intended use,
+design, specifications and performance:
+Comparison
+Elements
+
+Subject Device
+
+Primary Predicate Device
+
+Secondary Predicate Device
+
+Remark
+
+510(k)
+Number
+
+Pending
+
+K223928
+
+K231613
+
+/
+
+Page 2 of 5
+
+Shenzhen Jianchao Intelligent Technology Co., Ltd.
+510(k)s –Section 8. 510(k) Summary
+
+Comparison
+Elements
+
+Subject Device
+
+Primary Predicate Device
+
+Secondary Predicate Device
+
+Remark
+
+Trade name
+
+Hair Removal Device
+
+Intense Pulsed Light (IPL)
+System
+
+Intense pulsed light device
+
+/
+
+/
+
+Model
+
+R2815-G Pro, R2815-G
+
+T016K
+
+DE01A-B, DE01A-G,
+DE01B B, DE01B-G,
+DE01C-B, DE01C G,
+DE02A-B, DE02A-G,
+DE02B B, DE02B-G,
+DE02C-B, DE02C-G
+
+Manufacturer
+
+Shenzhen
+Intelligent
+Co., Ltd.
+
+Shenzhen Fansizhe Science
+and Technology Co., Ltd
+
+Zhuzhou Goldenhot Medical
+Technology Co., Ltd.
+
+/
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+Same
+
+OHT
+
+OHT
+
+OHT
+
+Same
+
+Class II
+
+Class II
+
+Class II
+
+Same
+
+Hair Removal Device is
+an
+over-the-counter
+device intended for
+removal of unwanted
+body hair and/or facial
+hair.
+
+The Intense Pulsed Light
+(IPL) System is an overthe-counter
+device
+intended for the removal of
+unwanted body hair.
+
+The Intense pulsed light
+device is an over-the-counter
+device, intended for removal
+of unwanted body and/or
+facial hair.
+
+Same
+
+OTC
+
+OTC
+
+OTC
+
+Same
+
+An external power supply
+
+An external power supply
+
+Same
+
+100~240V, 50/60Hz
+
+Same
+
+Not required
+
+AC 100 ～240V , 50/60 Hz
+DE01A-B, DE01A-G:
+218(W)x77(H)x97(L)mm
+DE01B-B, DE01B-G,
+DE01C-B, DE01C-G:
+218(W)x77(H)x103(L)mm
+DE02A-B, DE02A-G:
+178(W)x67(H)x150(L)mm
+DE02B-B, DE02B-G,
+DE02C-B, DE02C-G:
+183(W)x67(H)x150(L)mm
+Not required
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Same
+
+Regulation
+number
+Product code
+Device
+classification
+Indication for
+use/ Intended
+use
+Prescription
+or OTC
+Device design
+Source
+energy
+Power supply
+
+Dimension
+(mm)
+
+Jianchao
+Technology
+
+An external
+power
+supply
+100~240V, 50/60Hz
+
+194*117*45mm
+
+Sterilization
+Not required
+Output specification
+Light source
+Intense Pulsed Light
+
+90*44*225mm for T016K
+
+Different
+
+Same
+
+Page 3 of 5
+
+Shenzhen Jianchao Intelligent Technology Co., Ltd.
+510(k)s –Section 8. 510(k) Summary
+
+Comparison
+Elements
+Energy
+medium
+Wavelength
+range
+Energy
+density
+
+Subject Device
+
+Primary Predicate Device
+
+Secondary Predicate Device
+
+Remark
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Xenon Flashlamp
+
+Same
+
+530-1200nm
+
+510~1200nm
+
+510~1200nm
+
+Similar
+
+Max. 5.2J/cm2
+
+Max. 5.73J/cm² for T016K
+
+1.2~4.1J/cm²
+
+Similar
+
+Output
+energy
+
+5~14.5J
+
+4.8~18.9J for T016K
+
+Spot size
+
+3.4±0.25 cm²
+
+3.3 cm2 for T016K
+
+Pulse
+duration
+
+8.5±2.5ms
+
+4~12ms
+
+Pulsing
+Finger switch
+control
+Delivery
+Direct illumination to
+device
+tissue
+Output
+9 levels
+intensity level
+Software/
+Firmware/
+Yes
+Microprocess
+or Control?
+Additional information
+IEC 60601-1
+Electrical
+IEC 60601-1-2
+safety
+IEC 60601-1-11
+IEC 60601-2-83
+Eye safety
+IEC 62471
+ISO 10993-5
+Biocompatibi
+ISO 10993-10
+lity
+ISO 10993-23
+
+Body: 6.4-14.0 J
+Face: 5.6-11.9 J
+Bikini line: 5.7-12.8 J
+3.9 cm²
+Body mode: 7~9 (±2.0) ms
+Face mode: 8~10 (±2.0) ms
+Bikini mode: 9~11 (±2.0) ms
+
+Finger switch
+
+Similar
+Similar
+Similar
+
+Finger switch
+
+Same
+
+Direct illumination to tissue
+
+Same
+
+Unknown
+
+5 levels
+
+Different
+
+Yes
+
+Yes
+
+Same
+
+ANSI AAMI ES60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+IEC 62471
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+ISO 10993-23
+
+Direct
+tissue
+
+illumination
+
+ISO 10993-5
+ISO 10993-10
+
+to
+
+Same
+Same
+Same
+
+VIII. Performance Data
+The following performance data were provided in support of the substantial equivalence
+determination.
+1) Biocompatibility Testing
+The biocompatibility evaluation for the body-contacting components of the Hair Removal Device
+was conducted in accordance with the “Use of International Standard ISO 10993-1, 'Biological
+Page 4 of 5
+
+Shenzhen Jianchao Intelligent Technology Co., Ltd.
+510(k)s –Section 8. 510(k) Summary
+
+Evaluation of Medical Devices –Part 1: Evaluation and Testing Within a Risk Management
+Process, Document Issued on September 4, 2020”, as recognized by FDA. The following testing
+was performed to, and passed, including:
+ ISO 10993-5: 2009, Biological evaluation of medical devices –Par t 5: Tests for in vitro
+cytotoxicity
+ ISO 10993-10: 2021, Biological evaluation of medical devices - Part 10: Tests for skin
+sensitization
+ ISO 10993-23: 2021, Biological evaluation of medical devices - Part 23: Tests for irritation
+2) Electrical Safety and EMC
+Electrical safety and EMC testing was performed to, and passed, as per the following standards:
+ IEC 60601-1 Medical electrical equipment - Part 1: General requirements for basic safety and
+essential performance
+ IEC 60601-1-2 Medical electrical equipment - Part 1-2: General requirements for basic safety
+and essential performance - Collateral Standard: Electromagnetic disturbances Requirements and tests
+ IEC 60601-1-11 Medical Electrical Equipment –Part 1-11: General Requirements for Basic
+Safety and Essential Performance –Collateral Standard: Requirements for Medical Electrical
+Equipment and Medical Electrical Systems Used in the Home Healthcare Environment
+ IEC 60601-2-83 Medical electrical equipment - Part 2-83: Particular requirements for the basic
+safety and essential performance of home light therapy equipment
+3) Eye Safety
+ IEC 62471 Photobiological safety of lamps and lamp systems
+4) Software Verification and Validation
+Software documentation consistent with moderate level of concern was submitted in this 510(k).
+System validation testing presented in this 510(k) demonstrated that all software requirement
+specifications are met and all software hazards have been mitigated to acceptable risk levels.
+5) Usability
+The product usability has been evaluated according to the following FDA guidance:
+ Applying Human Factors and Usability Engineering to Medical Devices, issued on
+FEBRUARY 2016
+Summary
+Based on the above performance as documented in this application, the Hair Removal Device was
+found to have a safety and effectiveness profile that is similar to the predicate devices.
+IX. Conclusions
+Based on the above analysis and non-clinical tests performed, it can be concluded that the subject
+device is as safe, as effective, and performs as well as the legally marketed predicate devices.
+Page 5 of 5
+
+

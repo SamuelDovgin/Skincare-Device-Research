@@ -1,0 +1,1239 @@
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+Libin Liu
+General Manager
+302,401, Building 1, No. 2, Xiashiwei Road, Huaide Community
+Fuyong Street, Baoan District
+Shenzhen, 518000
+China
+Re: K241106
+Trade/Device Name: Ice Cooling IPL Home Use Hair Removal Device (Model(s): T10B, T10C, T15A,
+T17A, T18A, T14A, T16A, T19A)
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: April 22, 2024
+Received: April 22, 2024
+Dear Libin Liu:
+We have reviewed your section 510(k) premarket notification of intent to market the device referenced above
+and have determined the device is substantially equivalent (for the indications for use stated in the enclosure)
+to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment
+date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the
+provisions of the Federal Food, Drug, and Cosmetic Act (the Act) that do not require approval of a premarket
+approval application (PMA). You may, therefore, market the device, subject to the general controls
+provisions of the Act. Although this letter refers to your product as a device, please be aware that some
+cleared products may instead be combination products. The 510(k) Premarket Notification Database
+available at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Additional information about changes that may require a new premarket notification are provided in the FDA
+guidance documents entitled "Deciding When to Submit a 510(k) for a Change to an Existing Device"
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.06.10
+
+K241106 - Libin Liu
+
+Page
+
+2
+
+(https://www.fda.gov/media/99812/download) and "Deciding When to Submit a 510(k) for a Software
+Change to an Existing Device" (https://www.fda.gov/media/99785/download).
+Your device is also subject to, among other requirements, the Quality System (QS) regulation (21 CFR Part
+820), which includes, but is not limited to, 21 CFR 820.30, Design controls; 21 CFR 820.90, Nonconforming
+product; and 21 CFR 820.100, Corrective and preventive action. Please note that regardless of whether a
+change requires premarket review, the QS regulation requires device manufacturers to review and approve
+changes to device design and production (21 CFR 820.30 and 21 CFR 820.70) and document changes and
+approvals in the device master record (21 CFR 820.181).
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR Part 803) for
+devices or postmarketing safety reporting (21 CFR Part 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR Part 4, Subpart
+A) for combination products; and, if applicable, the electronic product radiation control provisions (Sections
+531-542 of the Act); 21 CFR Parts 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Yan Fu -S
+
+Digitally signed by Yan Fu -S
+Date: 2024.05.22 13:31:27
+-04'00'
+
+for
+Tanisha Hithe
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+
+K241106 - Libin Liu
+
+Page
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+
+Enclosure
+
+3
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 07/31/2026
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K241106
+
+Device Name
+
+Ice Cooling IPL Home Use Hair Removal; Device Model(s): T10B, T10C, T15A, T17A, T18A, T14A, T16A, T19A
+
+Indications for Use (Describe)
+
+The Ice Cooling IPL Home Use Hair Removal Device is an over-the-counter device indicated for the removal of
+unwanted hair such as but not limited to small areas such as underarm and facial hair below the chin line and large areas
+such as legs.
+The device is also indicated for the permanent reduction in hair regrowth, defined as the long term, stable reduction in the
+amount of hair regrowing when measured at 6, 9 and 12 months after the completion of a treatment regime.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (8/23)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+014_510(k) Summary
+
+510(k) Summary - K241106
+"510(k) Summary" as required by 21 CFR Part 807.92.
+1. Submitter Information
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+302,401, Building 1, No. 2, Xiashiwei Road, Huaide
+Baoan District, Shenzhen, Guangdong, China
+
+Community, Fuyong Street,
+
+Post Code: 518000
+LIU LIBIN
+General Manager
+Tel.: +86 150 6071 0113
+Email: amy@mlays.com
+2. Device Information
+Trade name:
+Model(s):
+Common Name:
+Regulation Class:
+Product Code:
+Review Panel:
+Regulation Number:
+Regulation Description:
+Submission Type:
+
+Ice Cooling IPL Home Use Hair Removal Device
+T10B, T10C, T15A, T17A, T18A, T14A, T16A, T19A
+Light Based Over-The-Counter Hair Removal
+Class II
+OHT
+General & Plastic Surgery
+21CFR 878.4810
+Laser surgical instrument for use in general and plastic
+surgery
+Special 510(k)
+
+3. Predicate Device
+Primary predicate device:
+Manufacturer
+Predicate Device
+510k Number
+Home Use Hair Removal
+Shenzhen Mlay
+Device
+(Model(s):T10A,
+Intelligent
+K240264
+T10B, T10C, T10D, T11A,
+Technology Co.,
+T15A, T17A, T18A, T14A,
+Ltd
+T16A, T19A)
+Predicate device:
+Manufacturer
+Shenzhen Ulike
+Smart Electronics
+Co.,Ltd
+Shenzhen Ulike
+Smart Electronics
+
+Predicate Device
+
+Decision Date
+
+March 8, 2024
+
+510k Number
+
+Decision Date
+
+IPL Hair Removal Device
+
+K223618
+
+Feb. 28, 2023
+
+IPL Hair Removal Device
+
+K221002
+
+June 01, 2022
+1 / 12
+
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+014_510(k) Summary
+
+Co.,Ltd
+Shen Zhen
+CosBeauty Co.,
+Ltd
+
+IPL Hair Removal Device
+Joy Version
+
+K173813
+
+Sept. 07, 2018
+
+4. Device Description
+The Ice Cooling IPL Home Use Hair Removal Device is a personal, light-based, hair
+reduction device intended to be sold over-the-counter directly to the end user. The
+device provides hair reduction using Intense Pulsed Light technology and it has the
+cooling function that effectively cools the skin.
+It works below the skin's surface and does not involve any cutting or pulling, reducing
+hair growth with minimal pain. The device is only powered by the external power
+adapter and its IPL emission activation is by finger switch. The device contains a
+Xenon lamp and a skin sensor to detect appropriate skin contact. If the device is not
+properly and fully applied to the skin of the treatment area, the device will not emit
+light pulses. Besides, the device has the cooling function that will be activated
+throughout the whole hair removal process or when the user want to activated to
+provide users with a more comfortable experience.
+5. Indications for Use
+The Ice Cooling IPL Home Use Hair Removal Device is an over-the-counter device
+indicated for the removal of unwanted hair such as but not limited to small areas such
+as underarm and facial hair below the chin line and large areas such as legs. The
+device is also indicated for the permanent reduction in hair regrowth, defined as the
+long term, stable reduction in the amount of hair regrowing when measured at 6, 9
+and 12 months after the completion of a treatment regime.
+6. Comparison of Technological Characteristics With the Predicate Device
+The Ice Cooling IPL Home Use Hair Removal Device has the same intended use,
+mode of action and operational characteristics as the models T10B, T10C, T15A,
+T17A, T18A, T14A, T16A, T19 in the predicate devices. The modification between
+the subject device and the listed predicate devices do no raise any issues of safety or
+efficacy. Performance data supports that the device is safe and as effective as the
+primary predicate device and predicate device for its intended use. Therefore, the Ice
+Cooling IPL Home Use Hair Removal Device may be found substantially equivalent
+to its predicate device.
+Ice Cooling IPL Home Use Hair Removal Device is compared with the primary
+predicate device and predicate device as belows:
+
+2 / 12
+
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+014_510(k) Summary
+
+Comparison
+Elements
+
+Subject Device
+
+Primary Predicate Device K240264
+
+K Number
+
+Pending
+
+K240264
+
+Trade name
+
+Ice Cooling IPL Home Use Hair Removal
+Device, Model(s): T10B, T10C, T15A,
+T17A, T18A, T14A, T16A, T19A
+
+Location
+use
+
+for
+
+OTC
+
+Comparison
+/
+
+Home use hair removal device, Model(s):
+T10A, T10B, T10C, T10D, T11A, T15A,
+T17A, T18A, T14A, T16A, T19A
+
+Similar
+Note1
+
+OTC
+
+SE
+
+Indications for
+Use
+
+The Ice Cooling IPL Home Use Hair
+Removal Device is an over-the-counter
+device indicated for the removal of
+unwanted hair such as but not limited to
+small areas such as underarm and facial hair
+below the chin line and large areas such as
+legs.
+The device is also indicated for the
+permanent reduction in hair regrowth,
+defined as the long term, stable reduction in
+the amount of hair regrowing when
+measured at 6, 9 and 12 months after the
+completion of a treatment regime.
+
+The Home use hair removal device is an
+over-the-counter device intended for
+removal of unwanted hair such as but not
+limited to small areas such as underarm and
+facial hair below the chin line and large
+areas such as legs, in patients with
+Fitzpatrick Skin Phototypes I-V.
+
+Ice cooling
+function
+
+Model(s): T10B, T10C, T15A, T17A,
+T18A, T14A, T16A, T19A have cooling
+function
+
+(1)Model(s): T10A, T10D, T11A do not
+have cooling function.
+(2)Model(s): T10B, T10C, T15A, T17A,
+T18A, T14A, T16A, T19A have cooling
+function
+
+Cooling
+panel's
+material
+
+T10B, T10C: artificial sapphire
+T15A, T17A, T18A, T14A, T16A, T19A:
+5052 aluminum alloy
+
+T10A,T10D,T 11A :have not cooling
+function
+T10B, T10C: artificial sapphire
+T15A, T17A, T18A, T14A, T16A, T19A:
+5052 aluminum alloy
+
+Energy
+medium
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+SE
+
+Light Source
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+SE
+
+Pulsing
+control
+
+Finger switch
+
+Finger switch
+
+SE
+
+Delivery
+device
+
+Direct illumination tissue
+
+Direct illumination tissue
+
+SE
+
+Energy density
+
+T10B, T10C, T15A, T17A, T18A: 1.37 ~
+4.11J/cm2
+T14A,T16A, T19A: 1.84 ~ 5.23J/cm2
+
+Similar
+Note2
+
+SE
+Note3
+
+T10A, T10B, T10C, T10D, T11A, T15A,
+T17A, T18A: 1.37 ~ 4.11J/cm2
+T14A,T16A, T19A: 1.84 ~ 5.23J/cm2
+
+SE
+
+3 / 12
+
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+014_510(k) Summary
+
+Comparison
+Elements
+
+Subject Device
+
+Primary Predicate Device K240264
+
+K Number
+
+Pending
+
+K240264
+
+/
+
+Treatment
+energy level
+
+(1)Model(s)T17A,T18A:have 3 levels;
+Level 1 to Level 3
+(2)Model(s)T10B, T10C, T15A, T14A,
+T16A, T19A: have 5 levels; Level 1 to
+Level 5
+
+(1)Model(s)T11A,T17A,T18A:have 3
+levels; Level 1 to Level 3
+(2)Model(s)T10A, T10B, T10C, T10D,
+T15A, T14A, T16A, T19A: have 5 levels;
+Level 1 to Level 5
+
+SE
+Note3
+
+Spot size
+
+T10B,T10C, T15A, T17A, T18A: 3.5cm2
+T14A,T16A, T19A: 3.9cm2
+
+T10A, T10B, T10C, T10D, T11A, T15A,
+T17A, T18A: 3.5cm2
+T14A,T16A, T19A: 3.9cm2
+
+SE
+
+Pulse duration
+
+T10B,
+T10C,T15A,
+T17A,
+4.0~8.0ms
+T14A,T16A, T19A: 0.5~2.5ms
+T10B, T10C：0.5~2.8s
+
+T18A:
+
+Pulse interval
+
+T15A, T17A, T18A: 0.7~2.5s
+T14A,T16A, T19A: 0.5~1.5s
+
+Treatment
+window to be
+designed
+as
+removable or
+non-removable
+
+(1)Model(s) T10B, T10C,T15A, T17A,
+T18A:non-removable
+(2)Model(s)T14A,T16A,T19A:removable
+
+Comparison
+
+T10A, T10B, T10C, T10D, T11A, T15A,
+T17A, T18A: 4.0~8.0ms
+T14A,T16A, T19A: 0.5~2.5ms
+T10A, T10B, T10C, T10D：0.5~2.8s
+T11A：1.0~2.5s
+
+SE
+
+SE
+
+T15A, T17A, T18A: 0.7~2.5s
+T14A,T16A, T19A: 0.5~1.5s
+(1)Model(s)T10A, T10B, T10C, T10D,
+T11A,T15A,T17A, T18A:non-removable
+(2)Model(s)T14A,T16A,T19A:removable
+
+SE
+Note3
+
+Design
+Software
+Features
+Materials
+Energy source
+Principle
+operation
+
+The models applied for this time are exactly the same as these models T10B, T10C, T15A,
+T17A, T18A, T14A, T16A, T19A in K240264.
+
+of
+
+4 / 12
+
+SE
+
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+014_510(k) Summary
+
+Comparison Elements
+
+Subject Device
+
+Predicate Device 1
+
+Predicate Device 2
+
+Predicate Device 3
+
+Pending
+
+K223618
+
+K221002
+
+K173813
+
+K Number
+
+Ice Cooling IPL Home Use Hair
+Trade name
+
+Removal
+
+Device,
+
+Model(s):
+
+T10B, T10C, T15A, T17A,
+
+IPL Hair Removal
+Device
+
+T18A, T14A, T16A, T19A
+Location for use
+
+Indications for Use
+
+IPL Hair Removal
+Device (UI04A, UI04B,
+UI04C)
+
+Comparison
+/
+
+IPL Hair Removal
+
+Similar
+
+Device Joy Version, CB- 027
+
+Note1
+
+SE
+
+OTC
+
+OTC
+
+OTC
+
+OTC
+
+The Ice Cooling IPL Home Use
+
+IPL Hair Removal Device
+
+IPL Hair Removal
+
+The IPL Hair Removal
+
+Hair Removal Device is an
+
+is indicated for the removal
+
+Device is indicated for
+
+Device Joy Version is
+
+over-the-counter device
+
+of unwanted hair. The
+
+the removal of
+
+indicated for the removal of
+
+indicated for the removal of
+
+device is also indicated for
+
+unwanted hair. The
+
+unwanted hair. The device is
+
+unwanted hair such as but not
+
+the permanent reduction in
+
+device is also indicated
+
+also indicated for the
+
+limited to small areas such as
+
+hair regrowth, defined as
+
+for the permanent
+
+permanent reduction in hair
+
+underarm and facial hair below
+
+the long-term, stable
+
+reduction in hair
+
+regrowth, defined as the
+
+the chin line and large areas
+
+reduction in the number of
+
+regrowth, defined as the
+
+long-term, stable reduction in
+
+such as legs.
+
+hairs regrowing when
+
+long-term, stable
+
+the number of hairs
+
+The device is also indicated for
+
+measured at 6, 9 and 12
+
+reduction in the number
+
+regrowing when measured at
+
+the permanent reduction in hair
+
+months after the completion
+
+of hairs regrowing
+
+6, 9 and 12 months after the
+
+regrowth, defined as the long
+
+of a treatment regime.
+
+when measured at 6, 9
+
+completion of a treatment
+
+term, stable reduction in the
+
+and 12 months after the
+
+regime. The device is used
+
+amount of hair regrowing when
+
+completion of a
+
+for adults with Fitzpatrick
+
+measured at 6, 9 and 12 months
+
+treatment regime.
+
+skin types I - IV.
+
+Similar
+Note2
+
+5 / 12
+
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+014_510(k) Summary
+
+Comparison Elements
+
+Subject Device
+
+Predicate Device 1
+
+Predicate Device 2
+
+Predicate Device 3
+
+Pending
+
+K223618
+
+K221002
+
+K173813
+
+K Number
+
+Comparison
+/
+
+after the completion of a
+treatment regime.
+
+Applicable skin
+
+Fitzpatrick Skin Types
+
+Fitzpatrick Skin Types I-V
+
+Fitzpatrick Skin Types I-V
+
+Large areas(e.g. legs) and small
+
+Large areas (e.g. arms, legs,
+
+areas(e.g.underarm, facial hair
+
+chest) and small areas (e.g.
+
+below the chin line)
+
+lip)
+
+Light source
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+SE
+
+Energy medium
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+SE
+
+Wavelength range
+
+510~1200nm
+
+560~1200nm
+
+550~1200nm
+
+510~1200nm
+
+3~6J/cm2
+
+3.03~5.3J/cm2
+
+1.8~5.1J/cm²
+
+Treatment area
+
+I-V
+
+Fitzpatrick skin types I - IV
+
+Large areas (e.g.arms,
+
+Large areas (legs, arms, back
+
+legs, chest) and small
+
+and abdomen), face
+
+areas (e.g. fingers, lip)
+
+(upper lip, chin and
+
+Similar
+
+Similar
+
+sideburns)
+
+Output specification
+
+Similar
+Note4
+
+T10B, T10C, T15A, T17A,
+Energy density
+
+T18A: 1.37 ~ 4.11J/cm2
+T14A,T16A,
+
+T19A:
+
+1.84
+
+~
+
+Similar
+Note5
+
+5.23J/cm2
+
+6 / 12
+
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+014_510(k) Summary
+
+Comparison Elements
+
+Subject Device
+
+Predicate Device 1
+
+Predicate Device 2
+
+Predicate Device 3
+
+Pending
+
+K223618
+
+K221002
+
+K173813
+
+K Number
+
+Body
+lamp
+cartridge
+T10B, T10C, T15A, 17A,T18A:
+Output energy
+
+6~12J
+
+Facial
+9.9~19.8J
+
+10.0~17.5J
+
+T14A, T16A, T19A: 9~ 17J
+
+lamp
+cartridge
+Bikini
+lamp
+cartridge
+
+T10B, T10C, T15A, 17A,T18A:
+Spot size
+
+3.5cm2
+
+510~1200nm
+3.65~7.04J
+
+Similar
+
+512~1197nm
+
+Note5
+
+3.84~7.22J
+511~1200nm
+
+Body: 4.2cm²
+
+Similar
+
+Bikini and face: 2.0cm²
+
+Note6
+
+3.3cm2
+
+1~7ms
+
+7~10ms
+
+9.2~11.2ms
+
+Finger switch
+
+Finger switch
+
+T10B, T10C, T15A, 17A,T18A:
+Pulse duration
+
+4.0~8.0ms
+T14A, T16A, T19A: 0.5~2.5ms
+
+Pulsing control
+
+Finger switch
+
+Finger switch
+
+Delivery device
+
+Direct illumination tissue
+
+Direct illumination tissue
+
+Direct illumination
+tissue
+
+/
+
+11.77~22.21J
+
+3.3cm2
+
+T14A, T16A, T19A: 3.9cm2
+
+Comparison
+
+Direct illumination tissue
+
+Similar
+Note7
+SE
+SE
+
+7 / 12
+
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+014_510(k) Summary
+
+Comparison Elements
+K Number
+
+Subject Device
+
+Predicate Device 1
+
+Predicate Device 2
+
+Predicate Device 3
+
+Pending
+
+K223618
+
+K221002
+
+K173813
+
+Comparison
+/
+
+T17A,T18A: 3 levels
+Output intensity level
+
+T10B, T10C, T15A, T14A,
+
+3 levels
+
+5 levels
+
+5 levels
+
+Similar
+
+Yes
+
+Yes
+
+Yes
+
+SE
+
+T16A, T19A: 5 levels
+
+Software/ Firmware/
+Microprocess or Control
+
+Yes
+
+Additional features
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-6
+Electrical safety
+
+IEC 60601-1-11
+IEC 60601-2-57
+IEC 60601-2-83
+
+ANSI AAMI ES60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-57
+IEC 60601-2-83
+
+IEC 60601-1-2
+IEC 60601-1-11
+ANSI AAMI
+ES60601-1
+IEC 60601-2-57
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-2-57
+
+Similar
+
+IEC 60601-2-83
+
+8 / 12
+
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+014_510(k) Summary
+
+Comparison Elements
+
+Subject Device
+
+Predicate Device 1
+
+Predicate Device 2
+
+Predicate Device 3
+
+Pending
+
+K223618
+
+K221002
+
+K173813
+
+K Number
+
+Eye safety
+
+IEC62471
+
+ISO 10993-5
+Biocompatibility
+
+ISO 10993-10
+ISO 10993-12
+
+IEC 62471
+
+IEC 62471
+
+IEC 62471
+
+ISO 10993-5
+
+ISO 10993-5
+
+ISO 10993-5
+
+ISO 10993-10
+
+ISO 10993-10
+
+ISO 10993-10
+
+Comparison
+/
+
+SE
+
+Similar
+
+9 / 12
+
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+014_510(k) Summary
+
+Note1: These model(s): T10B, T10C, T15A, T17A, T18A, T14A, T16A, T19A all
+provide hair reduction using Intense Pulsed Light technology and it has the cooling
+function that effectively cools the skin, so the device name changes from“Home use
+hair removal device”to “Ice Cooling IPL Home Use Hair Removal Device”. The user
+can get the information about the function of the device by the device name, which is
+convenient for the user to self-select for the device.
+Note2:The Indications for Use descriptions of the subject device and the predicate
+device are essentially the same, except that the wording is different. 1) The user
+manual and the outer packaging label specify the hair colors that the device can be
+used to treat, so the words "in patients with Fitzpatrick Skin Phototypes I-V" have
+been deleted. 2) In order to allow the user to clearly understand the results they can
+achieve if they use the device for a long term, the following words have been added:
+"The device is also indicated for the permanent reduction in hair regrowth, defined as
+the long term, stable reduction in the amount of hair regrowing when measured at 6, 9
+and 12 months after the completion of a treatment regime.". The technical parameters
+of the subject device are similar to those of the predicate device. The results of the
+comparison show that the subject device can achieve this result.
+Note3:The same models are totally same.
+Note4:Though the wavelength of subject device is a little different from the predicate
+device, they all comply with IEC 60601-2-57/IEC 60601-2-83 and IEC 62471
+requirements, so this difference will not raise any safety or effectiveness issue.
+Note5:Though the energy density and the output energy of subject device is a little
+different from the predicate devices, the energy density and the output energy of
+subject device is within the range of the maximum value of the predicate devices, and
+they all comply with IEC 60601-2-57/IEC 60601-2-83 and IEC 62471 requirement,
+so this difference will not raise any safety or effectiveness issue.
+Note6:There is minor difference in spot size between the subject device and the
+predicate devices. The spot size is related to energy density and since the difference in
+energy density is not significant as explained in note5, so this difference will not raise
+any safety or effectiveness issue.
+Note7:Though the pulse duration of subject device is a little different from the
+predicate device, it’s basically within the range of the predicate devices, and the
+subject device comply with IEC 60601-2-57/IEC 60601-2-83 and IEC 62471
+requirement, so this difference will not raise any safety or effectiveness issue.
+
+10 / 12
+
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+014_510(k) Summary
+
+7. Non-clinical studies and tests performed
+Non-clinical tests have been conducted to verify that the Ice Cooling IPL Home Use
+Hair Removal Device meets all design specifications which supports the conclusion
+that it’s Substantially Equivalent (SE) to the predicate devices. The testing results
+demonstrate that the subject device conforms to the following performance standards:
+ IEC 60601-1, Medical electrical equipment - Part 1: General requirements for
+basic safety and essential performance
+ IEC 60601-1-2, Medical electrical equipment - Part 1-2: General requirements for
+basic safety and essential performance - Collateral standard: Electromagnetic
+disturbances – Requirements and tests
+ IEC 60601-1-6, Medical electrical equipment - Part 1-6: General requirements for
+basic safety and essential performance - Collateral standard: Usability
+ IEC 60601-1-11, Medical electrical equipment - Part 1-11: General requirements
+for basic safety and essential performance - Collateral standard: Requirements for
+medical electrical equipment and medical electrical systems used in the home
+healthcare environment
+ IEC 60601-2-57, Medical Electrical Equipment - Part 2-57: Particular
+requirements for the basic safety and essential performance of non-laser light
+source equipment intended for therapeutic diagnostic monitoring and
+cosmetic/aesthetic use
+ IEC 60601-2-83, Medical electrical equipment - Part 2-83: Particular
+requirements for the basic safety and essential performance of home light therapy
+equipment
+ IEC 62471, Photobiological safety of lamps and lamp systems
+ IEC 62366-1, Medical devices Part 1: Application of usability engineering to
+medical devices
+The device has been tested for biocompatibility for conformance to the following
+performance standards:
+ ISO 10993-5, Biological Evaluation of Medical Devices - Part 5: Tests for InVitro
+Cytotoxicity
+ ISO 10993-10, Biological Evaluation of Medical Devices - Part 10: Tests for
+Irritation and Skin Sensitization
+ ISO 10993-23, Biological evaluation of medical devices - Part 23: Tests for
+irritation
+Software Verification and Validation
+Software verification and validation was performed, and it was demonstrated that the
+software performs as intended according to the FDA Guidance for the Content of
+Premarket Submissions for Device Software Functions.
+
+11 / 12
+
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+014_510(k) Summary
+
+8. Conclusion
+Based on the above analysis, it can be concluded that the subject device Ice Cooling
+IPL Home Use Hair Removal Device meets the product requirements, which is based
+on the primary predicate device ， and substantially equivalent to these predicate
+devices for permanent reduction in hair regrowth. Therefore, the modification resulted
+in a device that performs within the same specifications of the primary predicate
+device and the predicate devices, and is therefore substantially equivalent.
+
+12 / 12
+
+

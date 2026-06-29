@@ -1,0 +1,572 @@
+Septembr 4, 2025
+
+Micowey Medical Equipment (Guangxi) Co., LTD
+℅ Iris Fung
+Regulation Manager
+SGS-CSTC Standards Technical Services Co., Ltd.
+9198 KEZHU Road
+SCIENTECH Park Guangzhou Economic & Technology Development D
+GuangZhou, Guangdong 510000
+China
+Re: K251545
+Trade/Device Name: Intense Pulsed Light Therapy Device (MMABM-1)
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: ONF
+Dated: May 20, 2025
+Received: May 20, 2025
+Dear Iris Fung:
+We have reviewed your section 510(k) premarket notification of intent to market the device referenced above
+and have determined the device is substantially equivalent (for the indications for use stated in the enclosure)
+to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment
+date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the
+provisions of the Federal Food, Drug, and Cosmetic Act (the Act) that do not require approval of a premarket
+approval application (PMA). You may, therefore, market the device, subject to the general controls
+provisions of the Act. Although this letter refers to your product as a device, please be aware that some
+cleared products may instead be combination products. The 510(k) Premarket Notification Database
+available at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.08.00
+
+K251545 - Iris Fung
+
+Page
+
+2
+
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Additional information about changes that may require a new premarket notification are provided in the FDA
+guidance documents entitled "Deciding When to Submit a 510(k) for a Change to an Existing Device"
+(https://www.fda.gov/media/99812/download) and "Deciding When to Submit a 510(k) for a Software
+Change to an Existing Device" (https://www.fda.gov/media/99785/download).
+Your device is also subject to, among other requirements, the Quality System (QS) regulation (21 CFR Part
+820), which includes, but is not limited to, 21 CFR 820.30, Design controls; 21 CFR 820.90, Nonconforming
+product; and 21 CFR 820.100, Corrective and preventive action. Please note that regardless of whether a
+change requires premarket review, the QS regulation requires device manufacturers to review and approve
+changes to device design and production (21 CFR 820.30 and 21 CFR 820.70) and document changes and
+approvals in the device master record (21 CFR 820.181).
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR Part 803) for
+devices or postmarketing safety reporting (21 CFR Part 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR Part 4, Subpart
+A) for combination products; and, if applicable, the electronic product radiation control provisions (Sections
+531-542 of the Act); 21 CFR Parts 1000-1050.
+All medical devices, including Class I and unclassified devices and combination product device constituent
+parts are required to be in compliance with the final Unique Device Identification System rule ("UDI Rule").
+The UDI Rule requires, among other things, that a device bear a unique device identifier (UDI) on its label
+and package (21 CFR 801.20(a)) unless an exception or alternative applies (21 CFR 801.20(b)) and that the
+dates on the device label be formatted in accordance with 21 CFR 801.18. The UDI Rule (21 CFR
+830.300(a) and 830.320(b)) also requires that certain information be submitted to the Global Unique Device
+Identification Database (GUDID) (21 CFR Part 830 Subpart E). For additional information on these
+requirements, please see the UDI System webpage at https://www.fda.gov/medical-devices/device-advicecomprehensive-regulatory-assistance/unique-device-identification-system-udi-system.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+
+K251545 - Iris Fung
+
+Page
+
+3
+
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+TANISHA L.
+HITHE -S
+
+Digitally signed by
+TANISHA L. HITHE -S
+Date: 2025.09.04 18:28:33
+-04'00'
+
+Tanisha Hithe
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical and
+Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2023
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K251545
+
+Device Name
+
+Intense Pulsed Light Therapy Device (MMABM-1)
+
+Indications for Use (Describe)
+
+The Intense Pulsed Light System is intended for medical use in the treatment of the following conditions, with treatment
+filters applied as indicated:
+420-1200nm and 515-1200nm: Moderate inflammatory acne vulgaris.
+515-1200nm and 560-1200nm: Benign pigmented epidermal lesions (including dyschromia, hyperpigmentation, melasma,
+and ephelides (freckles)).
+515-1200nm and 560-1200nm: Benign cutaneous vascular lesions (including port wine stains, hemangiomas, facial,
+truncal, and leg telangiectasias, erythema of rosacea, leg veins, spider angiomas, and venous malformations).
+590-1200nm, 640-1200nm and 695-1200nm: Permanent hair reduction (long-term stable reduction in the number of hairs
+regrowing after a treatment regimen).
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (6/20)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+510(k) Summary
+# K251545
+Date of the summary prepared: September 4, 2025
+This summary of 510(K) safety and effectiveness information is being submitted in accordance with the
+requirement of 21 CFR 807.92. This is a traditional 510(K) submission with no previous application.
+1.
+
+Submitter’s Information
+Sponsor
+♦ Company Name: Micowey Medical Equipment (Guangxi) Co., LTD
+♦ Address: Room 203, Building B1, Xinghua Community, High-tech Industrial Development Zone,
+Wanxiu District, Wuzhou City, Guangxi Zhuang Autonomous Region，China
+Application Correspondent
+♦
+Company: SGS-CSTC Standards Technical Services Co., Ltd.
+♦
+Address: 9198 KEZHU Road, SCIENTECH Park Guangzhou Economic & Technology Development
+District, Guangzhou, Guangdong, CHINA
+♦
+Contact Person: Iris
+♦
+Tel: 86-13512755282
+♦ Email: jianda-lee@foxmail.com
+
+2.
+
+Subject Device Information
+♦ Type of 510(k) submission: Traditional
+♦ Common Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+♦ Trade Name: INTENSE PULSED LIGHT THERAPY DEVICE
+♦ Model: MMABM-1
+♦ Review Panel: General & Plastic Surgery
+♦ Product Code: ONF
+♦ Regulation Number: 878.4810
+♦ Regulation Class: II
+
+3. Predicate Device Information
+Predicate Device
+Sponsor
+
+Smedtrum Medical Technology Co., Ltd.
+
+Device Name
+
+Intense Pulsed Light System (ST-690)
+
+Model
+
+ST-690
+
+510(k) Number
+
+K240482
+
+Product Code
+
+ONF
+
+Regulation Number
+
+878.4810
+
+Regulation Class
+
+II
+
+4. Device Description
+Intense Pulsed light (IPL) System is a type of intensive, broadband, coherent light source which has a wavelength
+spectrum of 420 nm -1200 nm.
+There are six optical filters that can be using in this system. With special properties, the IPL System has a wide
+application in non-ablative therapies based on theory of human skin tissue's selective absorption.
+Basic parameters/use conditions/power supply specifications is as follows:
+light source
+
+Intense Pulsed Light
+
+1
+
+Filter wavelength
+420
+515
+560
+590
+640
+695
+nm
+Wavelength
+420-1200
+515-1200
+560-1200
+590-1200
+640-1200
+695-1200
+range(nm)
+1.9-236.2
+1.9-202.5
+1.9-148.5
+Pulse energy J
+1.9 -87.8
+1.9-216
+1.9-175.5
+Energy density
+5-13
+5-35
+5-32
+5-30
+5-26
+5-22
+J/cm 2
+Pulse train width
+5-500
+5-200
+(ms)
+Pulse train interval
+1s-5s
+time s
+Size of
+treatment
+7mm round, 11mm round, 15mm square, 45mm long and 15mm wide
+surface
+Uniuniformity
+of the terminal The relative deviation shall not be greater than ± 20%.
+energy output
+Energy output
+CV≤20%
+stability
+Energy output
+CV≤20%
+reproduction
+Range of the
+15 minutes after powering on, the temperature of the treatment head of the therapeutic
+skin cooling
+device in contact with the skin should be within the range of 0℃ ~ 30 ℃ .
+temperature
+5. Intended Use
+The Intense Pulsed Light System is intended for medical use in the treatment of the following conditions, with
+treatment filters applied as indicated:
+420-1200nm and 515-1200nm: Moderate inflammatory acne vulgaris.
+515-1200nm and 560-1200nm: Benign pigmented epidermal lesions (including dyschromia, hyperpigmentation,
+melasma, and ephelides (freckles)).
+515-1200nm and 560-1200nm: Benign cutaneous vascular lesions (including port wine stains, hemangiomas,
+facial, truncal, and leg telangiectasias, erythema of rosacea, leg veins, spider angiomas, and venous malformations).
+590-1200nm, 640-1200nm and 695-1200nm: Permanent hair reduction (long-term stable reduction in the number
+of hairs regrowing after a treatment regimen).
+Test Summary
+The INTENSE PULSED LIGHT THERAPY DEVICE(MMABM-1) was evaluated for conformance to
+recognized international standards. The following is a list of these evaluations and tests that were found to be in
+conformance:
+
+
+Electrical safety test
+IEC 60601-1 Edition 3.2 2020-08, Medical electrical equipment - Part 1: General requirements for basic
+safety and essential performance
+IEC 60601-1-6 Edition 3.2 2020-08, Medical electrical equipment Part 1-6 General requirements for safety Collateral Standard: Usability
+IEC 60601-1-2 60601-1-2 Edition 4.1, Medical electrical equipment - Part 1-2: General requirements for
+basic safety and essential performance -Collateral standard: Electromagnetic disturbances. Requirements and
+tests
+IEC 62471 First Edition 2006-07, Photobiological safety of lamps and lamp systems
+IEC 60601-2-57 Edition 1.0 2011-01 Medical electrical equipment Part 2-57: Particular requirements for the
+basic safety and essential performance of non-laser light source equipment intended for therapeutic,
+diagnostic, monitoring and cosmetic/aesthetic use.
+
+Product Life Acceleration (Time Compression) Test
+Software verification and validation test
+FDA “Guidance for Premarket Submissions and for Software Contained in Medical Devices”
+Product Life Acceleration (Time Compression) Test Scheme
+
+
+
+6. Comparison to predicate device and conclusion
+
+2
+
+The subject device INTENSE PULSED LIGHT THERAPY DEVICE(MMABM-1) is substantially equivalent to
+the predicated device based on intended use, light source, wavelength and light delivery system. Although the
+filter，fluence，pulsed energy density，pulsed width，pulsed duration，spot size of subject device have minor
+difference to the predicate devices, these parameters are similar to the predicate devices. And the subject device
+comply with IEC/EN 60601-1-6, IEC/EN 60601-1-2, IEC/EN 62471, IEC/EN 60601-2-57 The differences
+between the subject device and predicate devices do not raise new issues of safety or effectiveness. So the
+differences will not raise any safety or effectiveness issue.
+Information for predicate device was obtained from publicly available sources. A technical comparison to the
+predicate is provided below.
+Elements of
+Subject Device
+Predicate Device 1
+Verdict
+Comparison
+Predicate Device 2
+510(k) Number
+K240482
+K041086
+INTENSE PULSED LIGHT THERAPY
+Device Name
+Intense Pulsed Light System
+DEVICE(MMABM-1)
+Intense Pulsed Light
+Product Code
+ONF
+ONF
+GEX
+Same
+Regulation Number 21 CFR 878.4810
+21 CFR 878.4810
+21 CFR 878.4810
+Same
+Regulation Class
+II
+II
+II
+Same
+The Intense Pulsed Light System is
+intended for medical use in the treatment The Intense Pulsed Light System is The StarLuxTM
+of the following conditions, with
+intended for medical use in the
+System is intended
+treatment filters applied as indicated:
+treatment of the following
+for treatment of
+420-1200nm and 515-1200nm: Moderate conditions: 1. Moderate
+inflammatory acne
+inflammatory acne vulgaris.
+inflammatory acne vulgaris;
+andf or the
+515-1200nm and 560-1200nm: Benign 2. Benign pigmented epidermal
+treatment of
+pigmented epidermal lesions (including lesions including dyschromia,
+cutaneous lesions,
+dyschromia, hyperpigmentation,
+hyperpigmentation, melasma,
+including warts,
+melasma, and ephelides (freckles).
+ephelides (freckles);
+scars and striae.
+Intended Use
+515-1200nm and 560-1200nm: Benign 3. Benign cutaneous vascular lesions
+Same
+cutaneous vascular lesions (including
+including port wine stains,
+port wine stains, hemangiomas, facial,
+hemangiomas, facial truncal and leg
+truncal, and leg telangiectasias, erythema telangiectasias, erythema of rosacea,
+of rosacea, leg veins, spider angiomas,
+leg veins, spider angiomas and
+and venous malformations).
+venous malformations;
+590-1200nm, 640-1200nm and 6954. Permanent hair reduction long1200nm: Permanent hair reduction (long- term stable reduction in number of
+term stable reduction in the number of
+hairs re-growing after a treatment
+hairs regrowing after a treatment
+regimen.
+regimen).
+Intense Pulsed light (Xenon Flash
+Intense Pulsed Light
+Light Source
+Intense Pulsed light (Xenon Flash Lamp)
+Same
+Lamp)
+Wavelength
+420 – 1200 nm
+420 – 1200 nm
+400-1200nm
+Same
+Light Delivery
+Handpiece
+Handpiece
+Same
+System
+N/A
+420 -1200nm: Acne;
+420 -1200nm;
+510 -1200nm: Acne, vascular,
+515 -1200nm;
+pigment;
+Similar
+560 -1200nm;
+Filter
+560 -1200nm: Vascular, pigment;
+N/A
+Note 1
+590-1200nm;
+610-1200nm: Hair removal;
+640-1200nm;
+640-1200nm: Hair removal;
+695-1200nm;
+610-980nm: Hair removal;
+
+Fluence
+
+420 -1200nm:5-13 J/𝑐𝑐𝑚𝑚2 ;
+515 -1200nm: 5-35 J/𝑐𝑐𝑚𝑚2 ;
+560 -1200nm: 5-32 J/𝑐𝑐𝑚𝑚2 ;
+590-1200nm: 5-30 J/𝑐𝑐𝑚𝑚2 ;
+640-1200nm:5-26 J/𝑐𝑐𝑚𝑚2 ;
+695-1200nm: 5-22 J/𝑐𝑐𝑚𝑚2 ;
+
+420 -1200nm: 4.1-34.8 J/𝑐𝑐𝑚𝑚2 ;
+510 -1200nm: 3.8-31.6 J/𝑐𝑐𝑚𝑚2 ;
+560 -1200nm: 3.9-30.2 J/𝑐𝑐𝑚𝑚2 ;
+610-1200nm: 3.9-27.8 J/𝑐𝑐𝑚𝑚2 ;
+640-1200nm: 3.3-24.9 J/𝑐𝑐𝑚𝑚2 ;
+610-980nm: 3.2-23.3 J/𝑐𝑐𝑚𝑚2 ;
+
+Similar
+Note 2
+
+Up to 50 J/cm2
+
+3
+
+Elements of
+Comparison
+Pulsed Energy
+Density
+
+Subject Device
+5~35 J/ 𝑐𝑐𝑚𝑚2
+
+Predicate Device 1
+4.1~35 J/ 𝑐𝑐𝑚𝑚2 (10~50 Level)
+
+Pulsed width
+
+420 -1200nm:5-500ms;
+515 -1200nm:5-200ms;
+560 -1200nm:5-200ms;
+590-1200nm:5-200ms;
+640-1200nm:5-200ms;
+695-1200nm:5-200ms;
+
+5~20 ms
+
+Pulsed Duration
+
+1-5s
+
+5~50 ms
+
+Spot Size
+
+7mm round, 11mm round, 15mm square,
+12 mm × 35 mm & 15 mm × 50 mm
+45mm long and 15mm wide
+
+Appearance
+
+126
+
+Height 451 mm
+
+486
+
+Width 468 mm
+
+527
+
+Depth 630 mm
+
+Verdict
+
+Predicate Device 2
+
+Different
+Note 3
+
+N/A
+1-500 ms
+
+Different
+Note 4
+Different
+Note 5
+
+N/A
+16x46mm,
+12x28mm,
+10 x 15 mm
+N/A
+
+Different
+Note 6
+Different
+Note 7
+Different
+Note 7
+Different
+Note 7
+
+N/A
+N/A
+
+7.Summary for clinical test
+Clinical testing was not needed for this 510(k). The non-clinical performance testing described above is
+sufficient to support that the device can be used safely and effectively.
+8.Conclusion
+Based on the above performance as documented in this application, INTENSE PULSED LIGHT THERAPY
+DEVICE(MMABM-1) was found to have a safety and effectiveness profile that is similar to the predicate devices.
+Thus, the subject device is substantially equivalent to the predicate devices.
+
+4
+
+

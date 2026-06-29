@@ -1,0 +1,871 @@
+September 7, 2018
+Shen Zhen CosBeauty Co., Ltd
+Ms. Iris Fung
+Regulation manager
+SGS-CSTC Standards Technical Services Co., Ltd.
+198 KEZHU Road, SCIENTECH Park Guangzhou
+Guangzhou, Cn
+Re: K173813
+Trade/Device Name: IPL Hair Removal Device Joy Version
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: August 28, 2018
+Received: August 31, 2018
+Dear Ms. Iris Fung:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Do c ID# 0 4 0 1 7 . 0 2. 1 3
+
+Page 2 - Iris Fung
+
+K173813
+
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/CombinationProducts/GuidanceRegulatoryInfor mation/ucm597488.htm); good
+manufacturing practice requirements as set forth in the quality systems (QS) regulation (21 CFR Part 820)
+for devices or current good manufacturing practices (21 CFR 4, Subpart A) for combination products; and, if
+applicable, the electronic product radiation control provisions (Sections 531-542 of the Act); 21 CFR 10001050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to http://www.fda.gov/MedicalDevices/Safety/ReportaProblem/default.htm.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice
+(https://www.fda.gov/MedicalDevices/DeviceRegulationandGuidance/) and CDRH Learn
+(http://www.fda.gov/Training/CDRHLearn). Additionally, you may contact the Division of Industry and
+Consumer Education (DICE) to ask a question about a specific regulatory topic. See the DICE website
+(http://www.fda.gov/DICE) for more information or contact DICE by email (DICE@fda.hhs.gov) or phone
+(1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Jennifer R.
+Stevenson -S3
+
+For Binita S. Ashar, M.D., M.B.A., A
+F.A.C.S.
+Director
+Division of Surgical Devices
+Office of Device Evaluation
+Center for Devices and Radiological Health
+Enclosure
+
+'(3$570(172)+($/7+$1'+80$16(59,&(6
+)RRGDQG'UXJ$GPLQLVWUDWLRQ
+
+)RUP$SSURYHG20%1R
+([SLUDWLRQ'DWH
+
+,QGLFDWLRQVIRU8VH
+
+6HH35$6WDWHPHQWEHORZ
+
+ N 1XPEHU LINQRZQ
+
+.
+
+'HYLFH1DPH
+
+,3/+DLU5HPRYDO'HYLFH-R\9HUVLRQ0RGHO&%
+
+,QGLFDWLRQVIRU8VH 'HVFULEH
+
+7KH,3/+DLU5HPRYDO'HYLFH-R\9HUVLRQLVLQGLFDWHGIRUWKHUHPRYDORIXQZDQWHGKDLU7KHGHYLFHLVDOVRLQGLFDWHGIRU
+WKHSHUPDQHQWUHGXFWLRQLQKDLUUHJURZWKGHILQHGDVWKHORQJWHUPVWDEOHUHGXFWLRQLQWKHQXPEHURIKDLUVUHJURZLQJ
+ZKHQPHDVXUHGDWDQGPRQWKVDIWHUWKHFRPSOHWLRQRIDWUHDWPHQWUHJLPH7KHGHYLFHLVXVHGIRUDGXOWVZLWK
+)LW]SDWULFNVNLQW\SHV,±,9
+
+7\SHRI8VH 6HOHFWRQHRUERWKDVDSSOLFDEOH
+3UHVFULSWLRQ8VH 3DUW&)56XESDUW' 
+
+2YHU7KH&RXQWHU8VH &)56XESDUW& 
+
+&217,18(21$6(3$5$7(3$*(,)1(('('
+7KLVVHFWLRQDSSOLHVRQO\WRUHTXLUHPHQWVRIWKH3DSHUZRUN5HGXFWLRQ$FWRI
+'21276(1'<285&203/(7(')250727+(35$67$))(0$,/$''5(66%(/2:
+7KHEXUGHQWLPHIRUWKLVFROOHFWLRQRILQIRUPDWLRQLVHVWLPDWHGWRDYHUDJHKRXUVSHUUHVSRQVHLQFOXGLQJWKH
+WLPHWRUHYLHZLQVWUXFWLRQVVHDUFKH[LVWLQJGDWDVRXUFHVJDWKHUDQGPDLQWDLQWKHGDWDQHHGHGDQGFRPSOHWH
+DQGUHYLHZWKHFROOHFWLRQRILQIRUPDWLRQ6HQGFRPPHQWVUHJDUGLQJWKLVEXUGHQHVWLPDWHRUDQ\RWKHUDVSHFW
+RIWKLVLQIRUPDWLRQFROOHFWLRQLQFOXGLQJVXJJHVWLRQVIRUUHGXFLQJWKLVEXUGHQWR
+'HSDUWPHQWRI+HDOWKDQG+XPDQ6HUYLFHV
+)RRGDQG'UXJ$GPLQLVWUDWLRQ
+2IILFHRI&KLHI,QIRUPDWLRQ2IILFHU
+3DSHUZRUN5HGXFWLRQ$FW 35$ 6WDII
+35$6WDII#IGDKKVJRY
+³$QDJHQF\PD\QRWFRQGXFWRUVSRQVRUDQGDSHUVRQLVQRWUHTXLUHGWRUHVSRQGWRDFROOHFWLRQRI
+LQIRUPDWLRQXQOHVVLWGLVSOD\VDFXUUHQWO\YDOLG20%QXPEHU´
+)250)'$ 
+
+Page 1 of 1
+
+36&3XEOLVKLQJ6HUYLFHV  ()
+
+510(k) Summary
+Date of the summary prepared: September 7, 2018
+
+510(k) Summary
+This summary of 510(K) safety and effectiveness information is being submitted in accordance
+with the requirement of 21 CFR 807.92.
+1. Submitter’s Information
+Sponsor
+♦
+
+Company Name: Shenzhen CosBeauty Technology Co., Ltd.
+
+♦
+
+Address: UnitA-3F, Qiao De Industrial Park, Tian Liao, Guang Ming District, Shenzhen,
+China
+
+♦
+
+Phone: +86 1831 685 8036
+
+♦
+
+Fax: +86 755 8629 0505
+
+♦
+
+Contact Person (including title): Nicole Hu
+
+♦
+
+E-mail: lizan@cos-beauty.com
+
+Application Correspondent:
+♦
+
+SGS-CSTC Standards Technical Services Co., Ltd.
+
+♦
+
+Address: 198 KEZHU Road, SCIENTECH Park Guangzhou Economic & Technology
+
+Development
+District, Guangzhou, Guangdong, CHINA
+♦
+
+Contact Person: Ms. Iris Fung
+
+♦
+
+Tel: +86-20-32136908
+
+♦
+
+Email: Iris.Fung@sgs.com
+
+2. Subject Device Information
+♦
+
+Trade Name:
+
+IPL Hair Removal Device Joy Version, Model: CB-027
+
+♦
+
+Common Name:
+
+Light Based Over-The-Counter Hair Removal
+
+♦
+
+Classification name:
+
+♦
+
+Review Panel:
+
+Laser surgical instrument for use in general and plastic
+surgery and in dermatology
+General & Plastic Surgery
+
+♦
+
+Product Code:
+
+OHT
+
+♦
+
+Regulation Class:
+
+2
+
+♦
+
+Regulation Number:
+
+878.4810
+
+3. Predicate Device Information
+
+Sponsor
+
+Cyden Limited
+
+Shenzhen CosBeauty
+Technology Co., Ltd.
+
+Device Name
+
+Ipulse
+Smoothskin Gold
+Hair Removal
+Device
+
+PerfectSmooth
+
+510(k) Number
+
+K160968
+
+K161428
+
+Product Code
+
+ONF
+
+OHT
+
+Regulation
+Number
+
+878.4810
+
+878.4810
+
+Regulation Class
+
+2
+
+2
+
+2. Device Description
+IPL Hair Removal Device Model: CB-027, a small over-the-counter, is a home-use device for the
+permanent reduction of hair growth based on Intense Pulsed Light (IPL). It works below the
+skin's surface and does not involve any cutting or pulling, reducing hair growth with minimal pain.
+A personal Light-Based Hair Removal System. Emission activation is by finger switch. Device
+includes a treatment window head, a facial adaptor and battery charger/AC cord.It is used AC
+Powered(100-240 V AC; 50/60 Hz).The weight of the device is 402g, and the size is 126 x 78 x
+200mm (H x W x D).The device incorporates Intense Pulse Light (IPL) technology. The purpose
+of the light is to heat the root where the hair grows.
+
+5. Intended Use / Indications for Use
+The IPL Hair Removal Device Joy Version is indicated for the removal of unwanted hair. The
+device is also indicated for the permanent reduction in hair regrowth, defined as the long-term,
+stable reduction in the number of hairs regrowing when measured at 6, 9 and 12 months after the
+completion of a treatment regime. The device is used for adults with Fitzpatrick skin types I – IV.
+6. Design
+The device contains a Xenon Lamp and a skin proximity sensor to detect appropriate skin
+contact. If the IPL Hair Removal Device is not properly applied to the treatment area (in full
+contact with the skin), the device cannot be triggerred a pulse emitting. Body lamp cartridge can
+be used for body hair below the neck. It can cover an area of 4.2cm2, and it is specially designed
+for large areas on legs, arms, back and abdomen. It can remove hair in a large scope rapidly. Do
+not use Body lamp cartridge on face. A filter has been installed in the face lamp cartridge. It can
+cover an area of 2cm2, and it can be used to remove hair on upper lip, chin and sideburns. Do
+not use this lamp cartridge on the areas around eyes or near eyelid. The product can flash for
+300,000 times, and it shall not be used when the flash counter is displaying “000000”.
+
+7. Materials
+There are two patient- directly contracting components in the subject device as the following list.
+Component of
+Device Requiring
+Biocompatibility
+
+Material of
+Component
+
+Housing
+
+ABS
+
+Plastic plate of lamp
+cartridge
+
+ABS
+
+Body Contact
+Category
+(ISO 10993-1)
+Surface-contacting
+device: skin
+Surface-contacting
+device: skin
+
+Contact Duration
+(ISO 10993-1)
+Maximum 30
+minutes(< 24hours)
+Maximum 30
+minutes(< 24hours)
+
+Both materials is identical to the material of the device PerfectSmooth, which is cleared by FDA
+with K161428, produced by us. So these parts’ biocompatibility is safe.
+8. Physical characteristics
+Basic Unit Characteristics
+Compliance* with 21 CFR 898
+
+No
+
+Main Unit Weight
+
+402g
+
+Main Unit Dimension
+
+126*78*200mm
+
+Housing Materials of main unit
+
+PC2805
+
+Indicator
+
+Indicates power information, intensity level
+information.
+
+Environment for operation
+Storage and Transport Conditions
+
+Temperature: 5°C~35°C
+Temperature: -10°C~55°C
+
+Compliance with Voluntary
+Standards
+
+Yes, Comply with IEC 60601-1, IEC 60601-1-2,
+IEC 60601-2-57,
+
+Patient leakage current
+
+Comply with IEC 60601-1
+
+Power Source
+Software/Firmware/Microprocessor
+Control?
+
+Supplied by external adapter
+Yes
+
+Specification
+Output Intensity Level
+
+Output energy with body lamp
+cartridge
+
+Output energy with facial lamp
+cartridge
+Output energy with bikini lamp
+cartridge
+
+5
+Level 1: 11.77J
+Level 2: 14.12J
+Level 3: 17.12J
+Level 4: 19.95J
+Level 5: 22,21J
+Level 1: 3.65J
+Level 2: 4.59J
+Level 3: 5.33J
+Level 4: 6.16J
+Level 5: 7.04J
+Level 1: 3.84J
+Level 2: 4.92J
+
+Level 3: 5.43J
+Level 4: 6.23J
+Level 5: 7.22J
+Emitted Light Spectrum
+
+510nm~1200nm Max
+
+Max Energy density:
+
+5.1 J/cm²,
+
+Pulse duration
+
+9.20~11.20milliseconds
+
+Treatment Area (regular window)
+
+Body: 4.2 [cm²], Bikini area and Face: 2 [cm²]
+
+Flashes:
+
+300,000 times
+
+Power Supply
+
+100-240 VAC, 50/60Hz
+
+Technology
+
+IPL
+
+10. Test Summary
+IPL Hair Removal Device Joy Version, Model: CB-027 has been evaluated the safety and
+performance by lab bench testing as following:
+Electrical safety test according to IEC 60601-1 and IEC 60601-2-57 standards
+Electromagnetic compatibility test according to IEC 60601-1-2 standard
+Software verification and validation test according to the requirements of the FDA “Guidance
+for PreMarket Submissions and for Software Contained in Medical Devices”
+Usability study:
+Usability testing (OTC Study) was completed in 78 subjects to evaluate device human
+factors and label comprehension.
+These usability study tests demonstrate that the device and its labeling can meet with the
+requirement:
+1) the lay user can self-select themselves as being appropriate users of this device by the
+external box labeling, 2) the lay user can apply the treatment safely and correctly according to the
+instructions for use, and 3) the lay user can understand all indications, contraindications,
+warnings and precautions, and be able to identify whether they are within any contraindicated
+group; and be able to understand the user manual.
+
+11. Comparison to predicate device and conclusion
+The technological characteristics, features, specifications, materials, and intended use of IPL Hair
+Removal Device Joy Version, model: CB-027 is substantially equivalent to the predicate devices
+quoted above.
+The differences between the subject device and predicate devices do not raise new issues of
+safety or effectiveness.
+
+Predicate Device I
+
+Predicate Device II
+
+Remark
+
+Device Name and IPL Hair Removal Device
+Joy Version, Model: CBModel
+027
+
+iPulse SmoothSkin
+Gold
+
+PerfectSmooth (CB014)
+
+--
+
+510(k) Number
+
+Applying
+
+K160968
+
+K161428
+
+--
+
+Manufacturer
+
+Shenzhen CosBeauty
+Technology Co., Ltd.
+
+CyDen Ltd
+
+Shenzhen CosBeauty
+Technology Co., Ltd.
+
+--
+
+Intended Use
+
+The iPulse SmoothSkin The IPL Hair Removal SE
+The IPL Hair Removal
+Gold Hair Removal
+Device Joy Version is
+Device Joy Version is
+indicated for the removal System is indicated for an over-the-counter
+the removal of
+device intended for
+of unwanted hair. The
+device is also indicated for unwanted hair. The
+removal of unwanted
+the permanent reduction iPulse SmoothSkin Gold hair such
+in hair regrowth, defined is also indicated for the as but not limited to
+permanent reduction in small areas such as
+as the long-term, stable
+underarm and facial hair
+reduction in the number of hair regrowth, defined
+as the long-term,
+below the chin line and
+hairs regrowing when
+measured at 6, 9 and 12 stable reduction in the large areas
+number of hairs
+such as legs.
+months after the
+completion of a treatment regrowing when
+measured at 6, 9 and 12
+regime. The device is
+months after the
+used for adults with
+completion of a
+Fitzpatrick skin types I –
+treatment regime.
+IV.
+
+Source Energy
+
+Supplied by external
+adapter
+
+Elements of
+Comparison
+
+Subject Device
+
+AC Mains
+
+an external power
+supply
+
+SE
+Note 1
+
+‘Use’
+Classification
+
+OTC
+
+OTC
+
+OTC
+
+SE
+
+Device
+
+Class II
+
+Class II
+
+Class II
+
+SE
+
+Device Type
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+SE
+
+Wavelength (nm)
+
+510nm~1200nm
+
+510nm~1100nm
+
+475nm~1200nm
+
+SE
+
+Classification
+
+Note 2
+Max. Fluence
+
+5.1 [Joules/cm²]
+
+3-6 [Joules/cm²]
+
+4.7[Joules/cm²]
+
+(J/cm2)
+
+Note 3
+
+Spot Size (cm2) Body: 4.2 [cm²], Bikini and
+Face: 2 [cm²]
+
+Pulse duration
+
+SE
+
+9.20-11.20milliseconds
+
+3[cm²]
+
+4.5[cm²]
+
+SE
+Note 4
+
+2 ms- 10 ms
+
+11-13milliseconds
+
+SE
+
+Elements of
+Comparison
+
+Subject Device
+
+Predicate Device I
+
+Predicate Device II
+
+Xenon Arc Flashlamp SE
+
+Energy medium
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Pulsing Control
+
+Finger switch
+
+Finger switch
+
+Number of Output One channel
+Channels
+
+One channel
+
+Level 1: 11.77J@ 9- 18J @
+510nm~1200nm 510nm~1100nm
+Level 2: 14.12J@
+body 510nm~1200nm
+lamp Level 3: 17.12J@
+cartrid 510nm~1200nm
+ge
+Level 4: 19.95J@
+510nm~1200nm
+Level 5: 22,21J@
+510nm~1200nm
+
+Output energy
+AND Energy
+spectrum
+
+Finger switch
+
+Remark
+
+SE
+
+One channel
+
+SE
+
+Level 1: 11.5J @
+475nm~1200nm
+Level 2: 15.0J @
+475nm~1200nm
+Level 3: 17.0J@
+475nm~1200nm
+Level 4: 20.0J@
+475nm~1200nm
+
+SE
+Note 5
+
+Level 5: 22,0J@
+475nm~1200nm
+
+Level 1: 3.65J@
+512nm~1197nm
+Level 2: 4.59J@
+facial 512nm~1197nm
+lamp Level 3: 5.33J@
+cartrid 512nm~1197nm
+ge
+Level 4: 6.16J@
+512nm~1197nm
+Level 5: 7.04J@
+512nm~1197nm
+Level 1: 3.84J@
+511nm~1200nm
+Level 2: 4.92J@
+bikini 511nm~1200nm
+lamp Level 3: 5.43J@
+cartrid 511nm~1200nm
+ge
+Level 4: 6.23J@
+511nm~1200nm
+Level 5: 7.22J @
+511nm~1200nm
+
+Software/Firmwar Yes
+e/Microprocessor
+Control?
+
+Yes
+
+Yes
+
+SE
+
+60601Compliance Yes
+Yes
+Yes
+SE
+with Voluntary
+Comply with IEC 60601-1 Comply with IEC 60601- Comply with IEC
+Standards
+and IEC 60601-1-2,
+1 and IEC 60601-1-2,
+60601-1 and IEC
+IEC60601-2-57
+IEC60601-2-57，
+60601-1-2,IEC60601-257
+
+Predicate Device I
+
+Predicate Device II
+
+Remark
+
+Compliance* with No
+21 CFR 898
+
+No
+
+No
+
+SE
+
+Weight
+
+1Kg
+
+--
+
+SE
+
+Elements of
+Comparison
+
+Subject Device
+
+402g
+
+Note 1
+Dimensions
+
+126*78*200mm
+
+132*35*65mm (H*W*D) --
+
+SE
+Note 1
+
+Standards
+Biocompatibility
+
+All user directly contacting All user directly
+All user directly
+materials are compliance contacting materials are contacting materials
+compliance with
+are compliance with
+with ISO10993-5 and
+ISO10993-10
+ISO10993-5 and
+ISO10993-5 and
+requirements.
+ISO10993-10
+ISO10993-10
+requirements.
+requirements.
+
+SE
+
+Electrical Safety
+
+Comply with
+IEC60601-1 and
+IEC60601-2-57
+
+SE
+
+Comply with
+IEC 60601-1 and
+IEC 60601-2-57
+
+Comply with
+IEC 60601-1 and
+IEC 60601-2-57
+
+Comparison in Detail(s):
+Note 1:
+“Power Source(s)”, “Weight”, “Dimensions” is belong to basic characteristics. Although it is a little
+different from the predicate devices, it will not affect the main function and the intended use of the
+device. They all also comply with IEC 60601-1 requirements. So the differences will not raise any
+safety or effectiveness issue.
+Note 2:
+Although the Max. Fluence of subject device is a little larger than the one of the predicate device
+II, but comparing to Predicate device II, the energy density of subject device is less than 10
+Joules/cm². And they all comply with IEC 60601-1, IEC 60601-2-57 requirement.
+So the differences of function specification will not raise any safety or effectiveness issue.
+Note 3:
+Although the wavelength of subject device is a little different from the predicate devices, but they
+all comply with IEC 60601-1, IEC 60601-2-57 requirement.
+And the wavelength of subject device is in the range of the one of predicted devices
+“PerfectSmooth”
+So the differences of function specification will not raise any safety or effectiveness issue.
+
+Note 4:
+There are three types of “Spot Size (cm2)” of subject device, and there is minor difference
+between the subject device and the predicate device I, but in predicate device II, there is similar
+spot size to the size of bikini area /face lamp cartridge in subject device. And they all comply with
+IEC 60601-1,IEC60601-2-57 requirement.
+So the differences of Spot size will not raise any safety or effectiveness issue.
+Note 5:
+
+For IPL light, the energy spectrum is Continuous wavelength range. So even there is minor value
+difference on the energy spectrum between subject device and predicate devices, but the total
+energy output density (Max. Fluence value) is similar; and they comply with IEC60601-2-57
+Requirement. So the differences of energy spectrum will not raise any safety or effectiveness
+issue.
+And for facial lamp cartridge and bikini lamp cartridge, even the max output energy is lower than
+the data of predicate devices of K161428/K160968 due to the difference of spot size, but the total
+energy output density (Max. Fluence value) is similar; and the maximum output energy density of
+subject device for facial lamp cartridge is about 3.52 J/cm2; and 3.61 J/cm2 for bikini lamp
+cartridge. Comparing with the predicate device of K 160968, the value range of energy density of
+predicate device of K160968 is 3-6 J/cm2, which can cover the maximum output energy density
+of subject device for facial lamp cartridge and bikini lamp cartridge. The phototherapy
+effectiveness is crucially related to the output energy density and wavelength parameters for IPL,
+and the output energy of one pulse is minor different to predicate devices because of its spot
+window size. The spot size of device only affect the treatment target skin area per each pulse
+flashing, it do not raise any safety or effectiveness issue.
+So the differences of output energy for facial lamp cartridge and bikini lamp cartridge will not raise
+any safety or effectiveness issue.
+Finial Conclusion:
+The subject device “ IPL Hair Removal Device Joy Version, Model: CB-027” is substantial
+Equivalence to all predicate devices.
+
+

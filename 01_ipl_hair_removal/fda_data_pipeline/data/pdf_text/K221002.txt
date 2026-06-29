@@ -1,0 +1,892 @@
+June 1, 2022
+Shenzhen Ulike Smart Electronics Co.,Ltd
+℅ Tracy Che
+Registration engineer
+Feiying Drug & Medical Consulting Technical Service Group
+Rm 2401 Zhenye International Business Center,
+No. 3101-90, Qianhai Road
+Shenzhen, Guangdong 518052
+China
+Re: K221002
+Trade/Device Name: IPL Hair Removal Device, Model(s): UI04A, UI04B, UI04C
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: March 22, 2022
+Received: April 4, 2022
+Dear Tracy Che:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.04.33
+
+K221002 - Tracy Che
+
+Page 2
+
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801 and Part 809; medical device reporting (reporting of medical device-related adverse events) (21 CFR
+803) for devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Purva U. Pandya -S
+Purva Pandya
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+Shenzhen Ulike Smart Electronics Co.,Ltd
+
+510(k)s –Section 8. 510(k) Summary
+
+510(k) Summary K221002
+"510(k) Summary" as required by 21 CFR Part 807.92.
+I.
+
+Submitter
+Shenzhen Ulike Smart Electronics Co.,Ltd
+No.8, Keyuan Road, Yuehai Subb-district, Nanshan District, Shenzhen, Guangdong, China
+Post code: 518000
+Tel.: +86 15915373017
+Xiaoming Lin
+Regulation Manager
+Tel: +86 15915373017
+Email: rd5@ulikebeauty.com
+
+II. Device
+Name of Device: IPL Hair Removal Device
+Model(s): UI04A, UI04B, UI04C
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+
+III. Predicate Device
+Primary predicate device:
+Manufacturer
+CyDen Limited.
+
+Reference devices:
+Manufacturer
+Shen Zhen CosBeauty Co.,
+Ltd
+Dongguan Define Beauty
+Electronic Technology Co.
+Ltd
+
+Predicate Device
+iPulse SmoothSkin
+Hair Removal System
+
+Gold
+
+510(k) Number
+
+Approval Date
+
+K160968
+
+Apr.14, 2016
+
+Reference Device
+510(k) Number
+IPL Hair Removal Device
+K173813
+Joy Version, CB-027
+IPL HAIR REMOVAL SGK212318
+8025
+
+Approval Date
+Sept. 07, 2018
+Jan.14, 2022
+
+IV. Device Description
+IPL Hair Removal Device (Model: UI04A, UI04B, UI04C), is an over-the-counter, home-use and
+single-person-use device for hair reduction by using Intense Pulsed Light (IPL). It works below
+Page 1 of 7
+
+Shenzhen Ulike Smart Electronics Co.,Ltd
+
+510(k)s –Section 8. 510(k) Summary
+
+the skin's surface and does not involve any cutting or pulling, reducing hair growth with minimal
+pain.
+The device is only powered by the external power adapter and its IPL emission activation is by
+finger switch. This product adopts irreplaceable treatment window and is suitable for multiple hair
+removal areas (such as: lips, underarms, bikini lines, arms, legs, etc.). It contains a skin sensor to
+detect appropriate skin contact, if the device is not in full contact with the skin, the device cannot
+emit the treatment light pulses. Besides, the device has the cooling function that will be activated
+throughout the whole hair removal process to provide users with a more comfortable experience.
+IPL Hair Removal Device, model: UI04A, UI04B, UI04C have the same indication for use,
+performance, structure design and operation, the only deference is their enclosure color (UI04A is
+white, UI04B is mint green and UI04C is deep green).
+
+V. Indications for Use
+IPL Hair Removal Device is indicated for the removal of unwanted hair. The device is also
+indicated for the permanent reduction in hair regrowth, defined as the long-term, stable reduction
+in the number of hairs regrowing when measured at 6, 9 and 12 months after the completion of a
+treatment regime.
+
+VI. Materials
+Component
+name
+IPL Hair
+Removal Device
+(Enclosure and
+treatment
+window)
+
+Material of Component
+
+Body Contact Category
+
+ABS, PC,
+Crystal application
+
+Surface-contacting
+device: Intact skin
+
+Contact Duration
+Less than 24 hours
+
+We have tested the device for biocompatibility by a reliable third-party lab. For details, please
+refer to Section 16 “Biocompatibility Discussion”.
+
+VII.Comparison of Technological Characteristics With the Predicate Device
+The IPL Hair Removal Device has the same intended use, mode of action and similar operational
+characteristics as the predicate device. Any minor differences between the subject device and the
+listed predicate device and reference devices do no raise any issues of safety or efficacy.
+Performance data supports that the device is safe and as effective as the predicate device and
+reference devices for its intended use. Therefore, the IPL Hair Removal Device may be found
+substantially equivalent to its predicate device and reference devices.
+IPL Hair Removal Device is compared with the following Predicate Device and Reference
+Devices in terms of intended use, design, material, specifications, and performance:
+
+Page 2 of 7
+
+Shenzhen Ulike Smart Electronics Co.,Ltd
+
+510(k)s –Section 8. 510(k) Summary
+
+Comparison
+Elements
+
+Subject Device
+
+Predicate Device
+
+510(k)
+Number
+
+Pending
+
+K160968
+
+K173813
+
+K212318
+
+Trade name
+
+IPL Hair Removal
+Device
+(UI04A,
+UI04B, UI04C)
+
+iPulse
+SmoothSkin
+Gold Hair Removal
+System
+
+IPL
+Hair
+Removal
+Device Joy Version, CB027
+
+Manufacturer
+
+Shenzhen
+Ulike
+Smart
+Electronics
+Co.,Ltd
+
+Cyden Limited.
+
+Shen Zhen CosBeauty
+Co., Ltd
+
+IPL
+HAIR
+REMOVAL SG8025
+Dongguan Define
+Beauty Electronic
+Technology
+Co.
+Ltd
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+Same
+
+OHT
+
+OHT, GEX
+
+OHT
+
+OHT
+
+Same
+
+Class II
+
+Class II
+
+Class II
+
+Class II
+
+Same
+
+IPL Hair Removal
+Device is indicated
+for the removal of
+unwanted hair. The
+device
+is
+also
+indicated for the
+permanent reduction
+in hair regrowth,
+defined as the longterm, stable reduction
+in the number of hairs
+regrowing
+when
+measured at 6, 9 and
+12 months after the
+completion
+of
+a
+treatment regime.
+
+The
+iPulse
+SmoothSkin
+Gold
+Hair Removal System
+is indicated for the
+removal of unwanted
+hair.
+The
+iPulse
+Smoothskin Gold is
+also indicated for the
+permanent reduction
+in hair regrowth,
+defined as the longterm, stable reduction
+in the number of hairs
+regrowing
+when
+measured at 6, 9 and
+12 months after the
+completion
+of
+a
+treatment regime.
+
+The IPL Hair Removal
+Device Joy Version is
+indicated
+for
+the
+removal of unwanted
+hair. The device is also
+indicated
+for
+the
+permanent reduction in
+hair regrowth, defined
+as the long-term, stable
+reduction in the number
+of hairs regrowing when
+measured at 6, 9 and 12
+months
+after
+the
+completion
+of
+a
+treatment regime. The
+device is used for adults
+with Fitzpatrick skin
+types I - IV.
+
+The IPL Hair
+Removal (Model:
+SG-8025) is an
+over the Counter
+device intended for
+the removal of
+unwanted
+body
+and/or facial hair
+in adults. It is also
+intended
+for
+permanent
+reduction
+in
+unwanted
+hair.
+Permanent
+hair
+reduction
+is
+defined as the
+long-term stable
+reduction in the
+number of hairs regrowing
+when
+measured at 6. 9.
+and 12 months
+after
+the
+completion of a
+treatment regimen.
+
+Same,
+only
+wording
+difference
+
+OTC
+
+OTC
+
+OTC
+
+OTC
+
+Same
+
+Unknown
+
+Fitzpatrick skin types I -
+
+Unknown
+
+Different
+
+Regulation
+number
+Product code
+Device
+classification
+
+Indication for
+use/ Intended
+use
+
+Prescription
+or OTC
+Applicable
+
+Fitzpatrick
+
+Skin
+
+Reference Device 1
+
+Reference Device
+2
+
+Remark
+
+/
+/
+
+/
+
+Page 3 of 7
+
+Shenzhen Ulike Smart Electronics Co.,Ltd
+
+510(k)s –Section 8. 510(k) Summary
+
+Comparison
+Elements
+skin
+Treatment
+area
+
+Subject Device
+Types I-V
+large areas (e.g. arms,
+legs, chest) and small
+areas (e.g. fingers,
+lip)
+
+Device design
+Source
+Supplied by external
+energy
+adapter
+Power supply
+
+100-240V~, 50/60Hz
+
+60.5(W)x38(H)x169.
+7(L)mm
+Sterilization
+Not required
+Output specification
+Dimension
+
+Light source
+Energy
+medium
+Wavelength
+range
+Energy
+density
+
+Output
+energy
+
+Spot size
+Pulse
+duration
+Pulsing
+control
+Delivery
+device
+Output
+intensity level
+
+Predicate Device
+
+IV
+Large areas (legs, arms,
+back and abdomen), face
+(upper lip, chin and
+sideburns)
+
+Unknown
+
+External
+supply
+110V
+or
+50/60Hz
+
+Reference Device 1
+
+Power
+230V,
+
+Supplied
+adapter
+
+by
+
+external
+
+100-240 VAC, 50/60Hz
+
+Reference Device
+2
+
+Note 1
+Body and face
+
+Similar
+
+Supplied
+by
+external adapter
+
+Same
+
+Unknown
+
+Same
+
+205*76*56mm
+(H*W*D)
+Not required
+
+Different
+Note 2
+Same
+Same
+
+Unknown
+
+126*78*200mm
+
+Not required
+
+Not required
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Intense
+Light
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Xenon lamp
+
+550-1200mm
+
+510-1100nm
+
+510-1200nm
+
+530nm
+
+3.03-5.3J/cm²
+
+3-6J/cm²
+
+1.8~5.1J/cm²
+
+2.5J/cm²
+
+10.0~17.5J
+
+9~18J
+
+Body
+lamp
+cartridge
+
+11.77~22.21J
+510~1200nm
+
+Facial
+lamp
+cartridge
+
+3.65~7.04J
+512~1197nm
+
+Bikini
+3.84~7.22J
+lamp
+511~1200nm
+cartridge
+Body: 4.2cm²
+Bikini and face: 2.0cm²
+
+Remark
+
+Pulsed
+
+Same
+Similar
+Note 3
+Similar
+Note 4
+
+Level 1: 7.5J
+Level 2: 8.5J
+Level 3: 9.5J
+Level 4: 11J
+Level 5: 12J
+
+Similar
+Note 4
+
+3.0cm²
+
+Similar
+Note 5
+
+3.3cm²
+
+3cm2 (3cm by 1cm)
+
+7-10ms
+
+2ms to 10ms
+
+9.20~11.20ms
+
+1ms
+
+Similar
+Note 6
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Same
+
+Direct illumination to
+tissue
+
+Direct illumination to
+tissue
+
+Direct illumination to
+tissue
+
+Direct illumination
+to tissue
+
+Same
+
+5 Levels
+
+Unknown
+
+5 levels
+
+5 levels
+
+Same
+
+Page 4 of 7
+
+Shenzhen Ulike Smart Electronics Co.,Ltd
+
+510(k)s –Section 8. 510(k) Summary
+
+Comparison
+Elements
+
+Subject Device
+
+Software/
+Firmware/
+Yes
+Microprocess
+or Control?
+Additional features
+IEC 60601-1-2
+IEC 60601-1-11
+Electrical
+ANSI
+AAMI
+safety
+ES60601-1
+IEC 60601-2-57
+IEC 60601-2-83
+Eye safety
+IEC 62471
+Biocompatibi
+lity
+
+ISO 10993-5
+ISO 10993-10
+
+Predicate Device
+
+Reference Device 1
+
+Reference Device
+2
+
+Remark
+
+Same
+
+Yes
+
+Yes
+
+Yes
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-2-57
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-2-57
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-57
+
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+ISO 10993-12
+
+Unknown
+
+IEC 62471
+
+Same
+
+ISO 10993-5
+ISO 10993-10
+
+ISO 10993-5
+ISO 10993-10
+
+Same
+
+Similar
+
+Note 1:
+Though the applicable skin tone type is different from the reference devices, the commonly
+recognized applicable skin tone types for IPL hair removal device is mostly Fitzpatrick skin types
+I-IV or I-V. The applicable skin tone types of the subject device is Fitzpatrick skin types I-V and
+usability evaluation has been conducted to verify these skin types can use the device safely and
+effectively, so this difference will not raise any safety/ effectiveness problems.
+Note 2:
+Though the dimension is different from the predicate device and reference devices, this difference
+is insignificant and do not raise any safety/ effectiveness problems.
+Note 3:
+Though the wavelength of subject device is a little different from the predicate device, it’s within
+the range of reference device 1, and they all comply with IEC 60601-2-57/IEC 60601-2-83 and
+IEC 62471 requirements, so this difference will not raise any safety or effectiveness issue.
+Note 4:
+Though the energy density and the output energy of subject device is a little different from the
+predicate device and reference devices, the energy density and the output energy of subject device
+is within the range of the minimum and maximum value of the predicate device and reference
+devices, and they all comply with IEC 60601-2-57/IEC 60601-2-83 and IEC 62471 requirement,
+so this difference will not raise any safety or effectiveness issue.
+Note 5:
+
+Page 5 of 7
+
+Shenzhen Ulike Smart Electronics Co.,Ltd
+
+510(k)s –Section 8. 510(k) Summary
+
+There is minor difference in spot size between the subject device and the predicate device. The
+spot size is related to energy density and since the difference in energy density is not significant
+as explained in note 4, so this difference will not raise any safety or effectiveness issue.
+Note 6:
+Though the pulse duration of subject device is a little different from the predicate device, it’s
+basically within the range of the predicate and reference devices, and the subject device comply
+with IEC 60601-2-57/IEC 60601-2-83 and IEC 62471 requirement, so this difference will not
+raise any safety or effectiveness issue.
+
+VIII. Performance Data
+The following performance data were provided in support of the substantial equivalence
+determination.
+1) Biocompatibility Testing
+The biocompatibility evaluation for the body-contacting components of the IPL Hair Removal
+Device was conducted in accordance with the "Use of International Standard ISO 10993-1,
+'Biological Evaluation of Medical Devices –Part 1: Evaluation and Testing Within a Risk
+Management Process, Document Issued on September 4, 2020", as recognized by FDA. The
+following testing was performed to, and passed, including:
+ ISO 10993-5:2009, Biological Evaluation of Medical Devices –Par t 5: Tests for In Vitro
+Cytotoxicity
+ ISO 10993-10:2010, Biological Evaluation of Medical Devices –Par t 10: Tests for Irritation
+and Skin Sensitization
+2) Electrical Safety and EMC
+Electrical safety and EMC testing was performed to, and passed, as per the following standards:
+ IEC 60601-1-2 Medical electrical equipment –Part 1-2: General requirements for basic safety
+and essential performance –Collateral standard: electromagnetic compatibility
+ ANSI AAMI ES60601-1 Medical electrical equipment - Part 1: General requirements for basic
+safety and essential performance (IEC 60601-1:2005, MOD)
+ IEC 60601-1-11 Medical Electrical Equipment –Part 1: General Requirements for Basic
+Safety and Essential Performance –Collateral Standard: Requirements for Medical Electrical
+Equipment and Medical Electrical Systems Used in the Home Healthcare Environment
+ IEC 60601-2-57 Medical electrical equipment –Part 2-57: Particular requirements for the basic
+safety and essential performance of non-laser source equipment intended for therapeutic,
+diagnostic, monitoring and cosmetic/aesthetic use
+ IEC 60601-2-83 Medical electrical equipment - Part 2-83: Particular requirements for the basic
+safety and essential performance of home light therapy equipment
+3) Eye Safety
+ IEC 62471 Photobiological safety of lamps and lamp systems
+
+Page 6 of 7
+
+Shenzhen Ulike Smart Electronics Co.,Ltd
+
+510(k)s –Section 8. 510(k) Summary
+
+4) Software Verification and Validation
+Software documentation consistent with moderate level of concern was submitted in this 510(k).
+System validation testing presented in this 510(k) demonstrated that all software requirement
+specifications are met and all software hazards have been mitigated to acceptable risk levels.
+5) Usability
+The product usability has been evaluated and verified according to the following standard and
+FDA guidance
+ IEC 60601-1-6 Medical electrical equipment - Part 1-6: General requirements for basic safety
+and essential performance - Collateral standard: Usability
+ Applying Human Factors and Usability Engineering to Medical Devices, issued on
+FEBRUARY 2016
+Summary
+Based on the above performance as documented in this application, IPL Hair Removal Device
+was found to have a safety and effectiveness profile that is similar to the predicate device and
+reference devices.
+IX. Conclusions
+Based on the above analysis and non-clinical tests performed, it can be concluded that the subject
+device IPL Hair Removal Device is as safe, as effective, and performs as well as the legally
+marketed predicate device and reference devices.
+
+Page 7 of 7
+
+

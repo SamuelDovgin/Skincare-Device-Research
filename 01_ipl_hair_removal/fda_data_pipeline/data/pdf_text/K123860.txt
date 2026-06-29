@@ -1,0 +1,403 @@
+510(K) SUMMARY
+
+APR
+
+INMODE SR DEVICE
+510(k) Number K123860
+
+Applicant Name:
+Company Name:
+Address:
+
+InMode MD Ltd.
+Tavor Building, Shaar Yokcneam
+Yokneam 20692
+Israel
+Tel: +972-4-9097470
+Fax: ±972-4-9097471
+E-mail: ahavar2aasteinrac.com
+
+Contact Person:
+Official Correspondent: Ahava Stein
+Company Name:
+A. Stein - Regulatory Affairs Consulting Ltd.
+Address:
+20 Hata'as Str., Suite 102
+Kfar Saba 44425
+Israel
+Tel: +972-9-7670002
+Fax: +972-9-7668534
+E-mail: ahava6~asteinrac.com
+Date Prepared:
+
+December 6, 2012
+
+Trade Name:
+
+InMode SR IPL Device
+
+Classification Name: CFR Classification section 878.4810; (Product code ONF)
+Classification:
+
+Class 11 Medical Device
+
+Predicate Device:
+The InMode SR IPL device is substantially equivalent to the following predicate devices.
+Manufacturer
+Sciton
+
+Device
+Profile BBL
+
+510(k) No.
+K032460
+
+22013
+
+Device Description:
+The InMode SR IPL device is designed to deliver optical energy to the skin via a pre-cooled
+sapphire block. The good optical contact between sapphire block and skin is achieved by using
+water based gel. The device provides individual adjustment of light fluence and pulse duration to
+achieve maximum efficiency and safety for each patient. The hand piece has integrated skin
+cooling to enhance safety and comfort of the treatment.
+The InMode SR IPL device consists of an AC/DC power supply unit, water cooling system,
+controller, user interface including a LCD screen and functional buttons and IPL hand piece. The
+IPL hand piece is connected to the console via a cable. The hand piece comprises a flash lamp,
+reflector, water flow tube and cooled sapphire output window (10 x 30 mm).
+Following are the InMode SR IPL device specifications:
+Wavelength: 515 - 1200 nm
+2
+Energy Density (Fluence): 10-301J/cm
+Pulse Duration: 4-27 msec
+Pulse repetition rate: up to I Hz
+Spot/scan size: l0 x 30 mmn
+Skin cooling: Continuous contact cooling
+Intended Use/Indication for Use:
+The InMode SR IPL Device wavelengths (515-l200nm) are indicated for use for the following
+treatments:
+" The treatment of benign pigmented epidermal lesions, including dyschromia,
+hyperpigmentation, melasma, ephelides (freckles);
+" The treatment of benign cutaneous vascular lesions, including port wine stains, facial,
+truncal and leg telangiectasias, rosacea, erythema of rosacea, angiomas and spider
+angiomas, poikilodenna of Civatte, superficial leg veins and venlous malformations.
+Performance Standards:
+The lnMode SR IPL Device has been tested and complies with the following voluntary
+recognized standards:
+* lEC 60601-1, Medical Electrical Equipment - Part 1: General Requirements for Safety,
+1988; Amendment 1, 199 1-11, Amendment 2, 1995
+* IEC 60601-1-2, (Second Edition, 2001), Medical Electrical Equipment - Part 1-2: General
+Requirements for Safety - Collateral Standard: Electromagnetic Compatibility -Requirements and Tests
+" IEC 60601-1-4 Medical electrical equipment - Part I -4:General requirements for safety Collateral Standard: Programmable electrical medical systems
+* IEC 60601-2-57 standard; Medical Electrical Equipment - Part 2-57: Particular
+Requirements for the Basic Safety and Essential Performance of Non-Laser Light Source
+Equipment Intended for Therapeutic, Diagnostic, Monitoring and Cosmetic/Aesthetic Use
+Non-Clinical Performance Data:
+
+Not Applicable
+
+Clinical Performance Data:
+Not Applicable
+
+Substantial Equivalence:
+The indications for use and technological characteristics of the InMode SR IPL device are
+substantially equivalent to the indications for use and technological characteristics of the Profile
+BBL device.
+The design and components in the InMode SR IPL device, including the console (with power
+supply, software, cooling system and control and display panel) and the water-cooled hand piece
+(with cable and connector to console) are similar to the design and components found in the
+Profile BBL device.
+The performance specifications (including wavelength, fluence, pulse duration, pulse repetition
+rate, spot size and cooling) in InMode SR IPL device are similar to performance specifications in
+the Profile BBL device.
+Comparison Table I - Indication for Use Treatment of Vascular Lesions
+Device
+
+InMode SR
+
+Profile BBL
+
+Company
+510(k) No.
+Intended Use
+
+InMode MD
+K123860
+Treatment of benign cutaneous
+vascular lesions, including port
+wine stains, facial, truncal and leg
+telangiectasias, rosacea, erythema
+of rosacea, engiomas and spider
+angiomas, poikiloderma of Civatte,
+superficial leg veins and venous
+malformations
+515-l200nm
+5 80-1 200nm
+
+Sciton
+K032460
+Treatment of benign cutaneous
+vascular lesions, including port
+wine stains, facial, truncal and leg
+telangiectasias, rosacea, erythema
+of rosacea, engiomas and spider
+angiomas, poikiloderma of Civatte,
+superficial leg veins and venous
+malformations
+515-l400nm
+560-1 400nm
+590-1 400nm
+10-30 i/cm 2
+10-3Oms
+Up to l pp s
+Single pulse
+N/A
+
+Wavelength
+Energy density
+Pulse duration
+Pulse repetition rate
+Pulse sequence
+Delay between subpulses
+Spot size
+
+10-30 i/cm2
+5-3Oms
+1pp s
+Single Pulse
+N/A
+lOx3Omm
+
+lOxSOmm maximal, 7mm round
+minimal
+Contact Cooling (100 C-35 0 C)
+
+0C-25 0 C)
+Contact Cooling (I10
+-Cooling method
+Comparison Table 2 - Indication for Use Treatment of Pigments Lesions
+
+Device
+
+InMode SR
+
+Profile BBL
+
+InMode MD
+K123860
+Treatment of benign pigmented
+lesions including dyschromia,
+hyperpigmentation, melasma,
+eehelides (freckles)
+515-l200nm
+580-l200nmi
+
+-Company
+5 10(k) No.
+Intended Use
+
+_______________
+
+Wavelength
+
+Sciton
+K032460
+Treatment of benign pigmented
+lesions including dyschromia,
+hyperpigmentation, melasma,
+ephelides (freckles)
+
+5l5-l400nm
+560-l400nm
+
+Energy density
+
+10-30 J/cm 2
+
+590-I 400nm
+i/cm2
+
+Pulse duration
+Pulse repetition
+
+5-3Oms
+lpps
+
+10-3Oms
+Up to Ilpps
+
+-rate
+
+___________________
+
+__________________
+
+Pulse sequence
+Delay between sub-
+
+Single Pulse
+N/A
+
+Single pulse
+N/A
+
+pulses
+
+________________________________________
+
+________________________________________
+
+Spot size
+Cooling method
+
+l1x3Omm
+I
+0 C-25 0C)
+IContact Cooling (I10
+
+10-30
+
+_
+
+__
+
+IlOxSOmm maximal, 7mm round
+minimal
+Contact Cooling (10 0C-35 0 C)
+
+The safety features in the InMode SR IPL device are substantially equivalent to the safety
+features found in the predicate device. Any minor differences in the technological characteristics
+do not raise newv safety or effectiveness concerns. Furthermore, the new InMode SR IPL device
+underwent performance testing, including software validation testing, electrical and mechanical
+safety testing according to IEC 60601-I, electromagnetic compatibility testing according to IEC
+6060 1-1-2 and safety and essential performance testing of non-laser light source equipment
+according to lEG 6060 1-2-57. These performance tests demonstrated that the minor differences
+in the device software and specifications meet the system requirements and do not raise new
+safety or effectiveness concerns.
+Consequently, it can be concluded that the InMode SR IPL device is substantially equivalent to
+the predicate Profile BBL device and therefore, may be legally marketed in the USA.
+
+Conclusions:
+Based on the performance testing and comparison to predicate devices, the InMode SR IPL
+device is substantially equivalent to the predicate device listed above.
+
+'f v
+
+'00DEPARTMENT OF HEALTH & HUMAN SERVICES
+
+4.
+
+C'10903
+
+Inmode MD, Limited
+% A. Stein-Regulatory Affairs Consulting, Limited
+Ms. Ahava Stein
+General Manager
+20 Hata'as Street, Suite 102
+Kfar Saba, Israel 44425
+
+Public Health Service
+Food and Dnig Administration
+
+New Hampshire Avenue
+Document Control Center - W066-G609
+Silver Spring, MID 20993-0002
+
+Letter dated: April 2, 2013
+
+Re: K123860
+Trade/Device Name: InMode SR LPL Device
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+Regulatory Class: Class 11
+Product Code: ONF
+Dated: February 28, 2013
+Received: March 07, 2013
+Dear Ms. Stein:
+We have reviewed your Section 510(k) premarket notification of intent to market the device
+referenced above and have determined the device is substantially equivalent (for the indications
+for use stated in the enclosure) to legally marketed predicate devices marketed in interstate
+commerce prior to May 28, 1976, the enactment date of the Medical Device Amendments, or to
+devices that have been reclassified in accordance with the provisions of the Federal Food, Drug,
+and Cosmetic Act (Act) that do not require approval of a premarket approval application (PMA).
+You may, therefore, market the device, subject to the general controls provisions of the Act.
+The general controls provisions of the Act include requirements for annual registration, listing of
+devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration.
+If your device is classified (see above) into either class 11 (Special Controls) or class III (PMA), it
+may be subject to additional controls. Existing major regulations affecting your device can be
+found in the Code of Federal Regulations, Title 2 1, Parts 800 to 898. In addition, FDA may
+publish further announcements concerning your device in the Federal Register.
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean
+that FDA has made a determination that your device complies with other requirements of the Act
+or any Federal statutes and regulations administered by other Federal agencies. You must
+comply with all the Act's requirements, including, but not limited to: registration and listing (21
+CFR Part 807); labeling (21 CFR Part 80 1); medical device reporting (reporting of medical
+device-related adverse events) (21 CFR 803); good manufacturing practice requirements as set
+
+Page 2 - Ms. Ahava Stein
+forth in the quality systems (QS) regulation (21 CFR Part 820); and if applicable, the electronic
+product radiation control provisions (Sections 531-542 of the Act); 21 CER 1000-1050.
+If you desire specific advice for your device on our labeling regulation (21 CER Part 801), please
+go to http://wwwv.fda.gov/AbouitFDA/CentersOffices/CDRH/CDlRHOffiCeS/LICM IllSSO9htm for
+the Center for Devices and Radiological Health's (CDRH's) Office of Compliance. Also, please
+note the regulation entitled, "Misbranding by reference to premarket notification" (2 1CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21
+CFR Part 803), please go to http://,www.fdasgov/cdrh/iidr/ for the CDRH's Office of
+Surveillance and Biometrics/Division of Postmarket Surveillance.
+You may. obtain other general information on your responsibilities under the Act from the
+Division of Small Manufacturers, International and Consumer Assistance at its toll-free number
+(800) 638-2041 or (301) 796-7100 or at its Internet address
+http://www. fda.gov/cdrh/industry/support/index.htm i.
+
+Sincerely yours,
+
+Mark N.RMd__i?1 erson -S
+Mark N. Melkerson
+Acting Director
+Division of Surgical Devices
+Office of Device Evaluation
+Center for Devices and
+Radiological Health
+
+INDICATIONS FOR USE
+510(k) Number: K123860
+Device Name:
+
+InMode SR IPL Device
+
+Intended Use Statement:
+The InMode SR IPL Device wavelengths (515-1 200nm) are indicated for use for the
+following treatments:
+" The treatment of benign pigmented epidermal lesions, including dyschromia,
+hyperpignientation, melasma, ephelides (freckles);
+*
+
+The treatment of benign cutaneous vascular lesions, including port wine stains,
+facial, truncal and leg telangiectasias, rosacea, erythema of rosacea, angiomas
+and spider angiomas, poikiloderma of Civatte, superficial leg veins and venous
+malformations.
+
+Prescription Use
+
+4OR
+
+Over-The-Counter Use
+(Optional Format Subpart C)
+
+(Per 21 C.F.R. 801 Subpart D)
+
+(PLEASE DO NOT WRITE BELOW THIS LINE - CONTINUE ON ANOTHER PAGE IF NEEDED)
+
+Concurrence of MDM, Office of Device Evaluation (ODE)
+
+Neil R Ogden p
+201 3.03.27J-O537 -04'00'
+(Division Sign-Off) for MXM
+Division of Surgical Devices
+5 10(k) Number K123860
+Page 1 of 1
+
+Page 4-1
+
+

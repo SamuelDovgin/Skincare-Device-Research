@@ -1,0 +1,2 @@
+2026-06-12  total=272  new=n/a (first run)  codes=OHT  keywords=['intense pulsed light']
+2026-06-12  total=241  new=79  codes=OHT  keywords=['intense pulsed light', 'pulsed light', 'IPL']

@@ -1,0 +1,423 @@
+February 12, 2018
+
+Shenzhen Mareal Tech Co., Ltd
+℅ Rain Yip
+Official Correspondent
+Feiying Drug & Medical Consulting Technical Service Group
+Rm. 3005, Area B, Bldg.1, Southward Ruifeng Business Center
+Guimiao Road
+Shenzhen, 518000 Cn
+Re: K172883
+Trade/Device Name: Home Use Hair Removal Device/T1, T2, T3
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: January 12, 2018
+Received: January 16, 2018
+Dear Rain Yip:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. The general controls provisions of the Act include requirements for annual
+registration, listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding
+and adulteration. Please note: CDRH does not evaluate information related to contract liability warranties.
+We remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+
+Page 2 - Rain, Yip
+
+K172883
+
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803); good
+manufacturing practice requirements as set forth in the quality systems (QS) regulation (21 CFR Part 820);
+and if applicable, the electronic product radiation control provisions (Sections 531-542 of the Act); 21 CFR
+1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to http://www.fda.gov/MedicalDevices/Safety/ReportaProblem/default.htm for the CDRH's
+Office of Surveillance and Biometrics/Division of Postmarket Surveillance.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice
+(https://www.fda.gov/MedicalDevices/DeviceRegulationandGuidance/) and CDRH Learn
+(http://www.fda.gov/Training/CDRHLearn). Additionally, you may contact the Division of Industry and
+Consumer Education (DICE) to ask a question about a specific regulatory topic. See the DICE website
+(http://www.fda.gov/DICE) for more information or contact DICE by email (DICE@fda.hhs.gov) or phone
+(1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Jennifer R. Stevenson -S3
+For Binita S. Ashar, M.D., M.B.A., F.A.C.S.
+Director
+Division of Surgical Devices
+Office of Device Evaluation
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: January 31, 2017
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K172883
+Device Name
+
+Home Use Hair Removal Device
+
+Indications for Use (Describe)
+
+The Home Use Hair Removal Device is an over-the-counter device intended for removal of unwanted hair from small
+areas such as, but not limited to, underarm and facial hair below the chin line and large areas such as legs, in patients with
+Fitzpatrick Skin Phototypes I-V.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (8/14)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+510(k) Summary
+"510(k) Summary" as required by 21 CFR Part 807.92.
+Date: 2017.09.16
+I.
+
+Submitter
+Shenzhen Mareal Tech Co., Ltd
+403A Block, Xinlong Technology Park, No.50 Fengtang Road, Xintian Community, Fuyong
+Town, Bao'an District, Shenzhen, China
+Tel.: +86 755 2372 9558
+Tax: +86 755 2998 0779
+Libin Liu
+Tel: +86 188 2288 1173
+Email: 1935068684@qq.com
+
+II. Device
+Name of Device: Home Use Hair Removal Device
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Regulation Description: Laser surgical instrument for use in general and plastic surgery
+and in dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+
+III. Predicate Device
+1） The predicate devices are listed as below:
+Manufacturer
+Predicate Device
+
+510(k) Number
+
+Approval Date
+
+K161428
+
+March 23, 2017
+
+iPulse SmoothSkin Gold Hair
+K160968
+Removal System
+
+April 04, 2016
+
+Shen Zhen CosBeauty
+Perfectsmooth
+Co., Ltd
+CyDen Limited
+
+2） No reference devices were used in this submission.
+
+IV. Device Description
+The Home Use Hair Removal Device is a personal, light-based, hair reduction device intended to
+be sold over-the-counter directly to the end user. The device provides hair reduction using IPL
+
+1
+
+technology. And it consists of IPL main device and AC adapter, and a detachable lamp cap
+located in the IPL main device which is the source of optical radiation, namely a Xenon flashlamp.
+The Home Use Hair Removal Device includes three models, T1, T2 and T3. All three models are
+exactly the same with the exception of the LCD display contents (mainly as the symbol of
+treatment level). T1 and T3 both adopt shape identification to display the treatment levels, which
+T1 adopts fan-shaped display and T3 adopts rectangle-shaped display. And T2 direct adopts
+digital symbol to display treatment levels.
+
+V. Indications for Use
+The Home Use Hair Removal Device is an over-the-counter device intended for removal of
+unwanted hair from small areas such as, but not limited to, underarm and facial hair below
+the chin line and large areas such as legs, in patients with Fitzpatrick Skin Phototypes I-V.
+
+VI. Comparison of Technological Characteristics With the Predicate Device
+The Home Use Hair Removal Device has the same intended use, mode of action and similar
+operational characteristics as the predicate device. Any minor differences between the subject
+device and the listed predicate devices do no raise any issues of safety or efficacy. Performance
+data supports that the device is safe and as effective as the predicate device for its intended use.
+Therefore, the Home Use Hair Removal Device may be found substantially equivalent to its
+predicate device.
+Home Use Hair Removal Device is compared with the following Predicate Devices in terms of
+intended use, design, material, specifications, and performance.
+1) K161428, "PerfectSmooth", manufactured by "Shen Zhen CosBeauty Co., Ltd" in Guangdong,
+China
+2) K160968, "iPulse SmoothSkin Gold Hair Removal System ", manufactured by "CyDen
+Limited" in Wales, UK
+The following table shows similarities and differences of use, design, material, safety and
+effectiveness between the subject device and predicate devices.
+Information for predicate device was obtained from publicly available sources, including the
+510(k) Summary and device instruction manual. A technical comparison to the predicate is
+provided below:
+Comparison
+Elements
+
+Subject Device
+
+Predicate Device 1
+
+Predicate Device 2
+
+K Number
+
+Pending
+
+K161428
+
+K160968
+
+Common name
+
+Light Based
+The-Counter
+Removal
+
+Over- Light Based
+Hair The-Counter
+Removal
+
+Over- Light Based
+Hair The-Counter
+Removal
+
+OverHair
+
+2
+
+Comparison
+Elements
+
+Subject Device
+
+Trade name
+
+Home
+Use
+Hair
+PerfectSmooth
+Removal Device
+
+iPulse
+SmoothSkin
+Gold Hair Removal
+System
+
+Energy medium
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Pulse duration
+
+11-13 milliseconds
+
+11-13 milliseconds
+
+2-10 milliseconds
+
+Energy density
+
+4.8 J/cm²
+
+4.7J/cm²
+
+3~6 J/cm²
+
+Spot size
+
+3.9 cm²
+
+4.5 cm²
+
+3 (3cm by 1cm)
+
+Delivery device
+
+Direct illumination to Direct
+tissue
+tissue
+
+Pulsing control
+
+Finger switch
+
+Indication
+use/Intended use
+
+for
+
+Location for use
+
+Predicate Device 1
+
+Predicate Device 2
+
+illumination Direct
+tissue
+
+illumination
+
+Finger switch
+
+Finger switch
+
+The Home Use Hair
+Removal Device is an
+over-the-counter
+device intended for
+removal of unwanted
+hair such as but not
+limited to small areas
+such as underarm and
+facial hair below the
+chin line and large
+areas such as legs,
+with Fitzpatrick Skin
+Phototypes I-V.
+
+The PerfectSmooth is
+an over-the-counter
+device intended for
+removal of unwanted
+hair such as but not
+limited to small areas
+such as underarm and
+facial hair below the
+chin line and large
+areas such as legs.
+
+The
+iPulse
+SmoothSkin
+Gold
+Hair Removal System
+is indicated for the
+removal of unwanted
+hair.
+The
+iPulse
+Smoothskin Gold is
+also indicated for the
+permanent reduction
+in hair regrowth,
+defined as the longterm, stable reduction
+in the number of hairs
+regrowing
+when
+measured at 6, 9 and
+12 months after the
+completion
+of
+a
+treatment regime.
+
+OTC
+
+OTC
+
+OTC
+
+VII.Performance Data
+The following performance data were provided in support of the substantial equivalence
+determination.
+
+3
+
+1) Biocompatibility Testing
+The biocompatibility evaluation for the body-contacting components of the Home Use Hair
+Removal Device was conducted in accordance with the "Use of International Standard ISO
+10993-1, 'Biological Evaluation of Medical Devices –Part 1: Evaluation and Testing Within a
+Risk Management Process, Document Issued on June 16, 2016", as recognized by FDA. The
+battery of testing was performed to, and passed, including:
+ ISO 10993-5:2009/(R)2014, Biological Evaluation of Medical Devices –Par t 5: Tests for In
+Vitro Cytotoxicity
+ ISO 10993-10:2010, Biological Evaluation of Medical Devices –Par t 10: Tests for Irritation
+and Skin Sensitization
+2) Electrical Safety and Eye Safety
+Electrical safety and Eye safety testing was performed to, and passed, the following standards:
+ IEC 60601-1-2 Medical electrical equipment –Part 1-2: General requirements for basic safety
+and essential performance –Collateral standard: electromagnetic compatibility
+ IEC 60601-1 Medical electrical equipment –Part 1: General requirements for basic safety and
+essential performance
+ IEC 60601-1-11 Medical Electrical Equipment –Part 1: General Requirements for Basic
+Safety and Essential Performance –Collateral Standard: Requirements for Medical Electrical
+Equipment and Medical Electrical Systems Used in the Home Healthcare Environment
+ IEC 60601-2-57 Medical electrical equipment –Part 2-57: Particular requirements for the basic
+safety and essential performance of non-laser source equipment intended for therapeutic,
+diagnostic, monitoring and cosmetic/aesthetic use
+3) Eye Safety
+ IEC 62471 Photobiological safety of lamps and lamp systems
+4) Software Verification and Validation
+Software documentation consistent with moderate level of concern was submitted in this 510(k).
+System validation testing presented in this 510(k) demonstrated that all software requirement
+specifications are met and all software hazards have been mitigated to acceptable risk levels.
+Summary
+Based on the above performance as documented in this application, Home Use Hair Removal
+Device was found to have a safety and effectiveness profile that is similar to the predicate device.
+VIII.
+
+Conclusions
+
+In accordance with the Federal Food, Drug and Cosmetic Act, 21 CFR Part 807 and based on the
+comparison of intended use, design, materials and performance, the Home Use Hair Removal
+Device is to be concluded substantial equivalent to its predicate devices.
+
+4
+
+

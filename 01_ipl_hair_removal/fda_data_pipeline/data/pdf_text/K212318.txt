@@ -1,0 +1,442 @@
+January 14, 2022
+
+Dongguan Define Beauty Electronic Technology Co. Ltd
+℅ Helen Nan
+General Manager
+Cytech (Shenzhen) Enterprise Management Consulting Co.,Ltd.
+Room B204, Building 12 Hourui 2nd Industrial Zone,
+Bao'an District
+Shezhen, Guangdong 518128
+China
+Re: K212318
+Trade/Device Name: IPL Hair Removal SG-8025
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: December 7, 2021
+Received: December 14, 2021
+Dear Helen Nan:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.04.30
+
+K212318 - Helen Nan
+
+Page 2
+
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Purva U. Pandya -S
+Purva Pandya
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+东莞市定义美电子科技有限公司
+Dongguan Define Beauty Electronic Technology Co. Ltd
+
+510(k) Summary K212318
+(As required by 21 CFR 807.92(a))
+
+1.0 Submitter Information
+Company:
+Dongguan Define Beauty Electronic Technology
+Co. Ltd.
+Address
+No.10 Xiangya Road, Jichiling Village,
+Dalingshan Town, Dongguan, Guangdong,
+523812, CHINA
+Phone:
+0086-0769-89367468
+Contact
+Shaowu Wang
+Title:
+General Manager
+· Date: January 13, 2022
+2.0 Device Information
+Trade/Device Name:
+Model:
+Common Name:
+Device:
+Definition:
+Review Panel:
+Product Code:
+Submission Type:
+Regulation Number:
+Device Class:
+
+IPL HAIR REMOVAL SG-8025
+SG-8025
+IPL Hair Removal Device
+Light Based Over-The-Counter Hair Removal
+Over-the-counter device uses thermal energy to
+kill hair follicles for hair removal.
+General & Plastic Surgery
+OHT
+Traditional 510(k)
+CFR 878.4810
+Class II
+
+3.0 Predicate Device Information
+Trade/Device Name:
+IPL Salon Hair Reduction System
+510k Number:
+K181568
+Submitter:
+Medical Device Branch of Zhangzhou Easepal
+Industrial Co.,Ltd.
+4.0 Device Description
+The IPL HAIR REMOVAL SG-8025 is a personal, light-based, hair reduction
+device intended to be sold over-the-counter directly to the end user. The device
+provides hair reduction using Intense Pulsed Light (IPL) technology. It works
+below the skin's surface and does not involve any cutting or pulling, reducing hair
+growth with minimal pain. The device is only powered by the external power
+adapter and it’s IPL emission activation is by finger switch. The device contains a
+Xenon lamp and a skin sensor to detect appropriate skin contact. If the device is
+not properly applied to the treatment area (in full contact with the skin), the device
+cannot emit the treatment light pulses. The device is for single-person use only.
+Page
+
+1 of
+
+5
+
+东莞市定义美电子科技有限公司
+Dongguan Define Beauty Electronic Technology Co. Ltd
+
+5.0 Indications for Use
+The IPL HAIR REMOVAL (Model: SG-8025) is an over the counter device
+intended for the removal of unwanted body and/or facial hair in adults. It is also
+intended for permanent reduction in unwanted hair. Permanent hair reduction is
+defined as the long-term stable reduction in the number of hairs re-growing when
+measured at 6. 9. and 12 months after the completion of a treatment regimen.
+6.0 Comparison of Technological Characteristics with the Predicate Device
+Table
+Table 1 - Device Comparison Table
+
+Device Feature
+Trade Name
+510k number
+Classification
+Name
+Regulation
+Number
+Product code
+Use
+
+Indication for use
+
+Device Type
+Delivery device
+Source Energy
+Wavelength range
+Spot size
+
+Predicate Device
+IPL Salon Hair Reduction
+System
+K181568
+
+Subject Device
+IPL HAIR REMOVAL
+SG-8025
+K212318
+
+Light Based Over-The-Counter Hair Removal
+CFR 878.4810
+OHT
+OTC use
+The
+IPL Salon
+Hair
+The IPL Hair Removal
+Reduction System (Model:
+(Model: SG-8025) is an over
+F60001) is an over the
+the Counter device intended
+Counter device intended for
+for the removal of unwanted
+the removal of unwanted
+body and/or facial hair in
+body and/or facial hair in
+adults. It is also intended for
+adults. It is also intended for
+permanent reduction in
+permanent reduction in
+unwanted hair. Permanent
+unwanted hair. Permanent
+hair reduction is defined as
+hair reduction is defined as
+the
+long-term
+stable
+the
+long-term
+stable
+reduction in the number of
+reduction in the number of
+hairs
+re-growing
+when
+hairs
+re-growing
+when
+measured at 6. 9. and 12
+measured at 6. 9. and 12
+months after the completion
+months after the completion
+of a treatment regimen.
+of a treatment regimen.
+Intense Pulsed Light
+Intense Pulsed Light
+Direct illumination to tissue Direct illumination to tissue
+Device Design
+Supplied by external
+Supplied by external
+adapter
+adapter
+475-1200 nm
+530 nm
+Regular window: 4.5cm²
+3 cm²
+Facial adapter: 1.72cm²
+Page
+
+2 of
+
+5
+
+东莞市定义美电子科技有限公司
+Dongguan Define Beauty Electronic Technology Co. Ltd
+
+Pulse duration
+Pulse control
+Weight
+Output Intensity
+Level
+Max
+Energy
+density
+Output energy
+with facial
+adapter
+Dimensions
+Software/Firmwar
+e/Microprocessor
+Control?
+
+11-12 ms
+Finger switch
+650g
+
+1ms
+Finger switch
+220g
+
+5 level
+
+5 level
+
+Up to 5 J/cm²
+
+2.5 J/cm²
+
+Level 1: 8.62J
+Level 2: 9.45J
+Level 3: 10.64J
+Level 4: 11.48J
+Level 5: 12.70J
+143*69.5*43mm(H*W*D)
+
+Level 1: 7.5J
+Level 2: 8.5J
+Level 3: 9.5J
+Level 4: 11J
+Level 5: 12J
+205*76*56mm(H*W*D)
+
+Yes
+
+Yes
+
+Standards
+Yes
+Yes
+60601 Compliance
+Comply with IEC 60601-1 Comply with IEC 60601-1
+with
+Voluntary
+and
+IEC
+60601-1-2, and
+IEC
+60601-1-2,
+Standards
+IEC60601-2-57
+IEC60601-2-57
+All user directly contacting All user directly contacting
+materials are compliance materials are compliance
+Biocompatibility
+with ISO10993-5 and
+with ISO10993-5 and
+ISO10993-10 requirements. ISO10993-10 requirements.
+Comply with IEC60601-1 Comply with IEC60601-1
+Electrical Safety
+and IEC60601-2-57
+and IEC60601-2-57
+A brief summary of the similarities and differences between IPL Salon Hair
+Reduction System and IPL HAIR REMOVAL SG-8025 is included below:
+Similarities:
+The IPL Home Use Hair Removal Device has the same intended use, mode of
+action and similar operational characteristics as the predicate devices. Any minor
+differences between the subject device and the listed predicate devices do no raise
+any issues of safety or efficacy. Performance data supports that the device is safe
+and as effective as the predicate device for its intended use. Therefore, the IPL
+HAIR REMOVAL may be found substantially equivalent to its predicate device.
+Differences:
+Basic Characteristics
+“Weight”, “Dimensions” is belong to basic characteristics. Although it is a little
+different from the predicate device, it will not affect the main function and the
+intended use of the device. They all also comply with IEC 60601-1
+requirements. So the differences will not raise any safety or effectiveness issue.
+Page
+
+3 of
+
+5
+
+东莞市定义美电子科技有限公司
+Dongguan Define Beauty Electronic Technology Co. Ltd
+
+Max Energy Density
+Although the Max. Fluence of subject device is a little less than the the
+Predicate device, but they all comply with IEC 60601-1, IEC 60601-2-57
+requirement. So the differences of function specification will not raise any
+safety or effectiveness issue.
+Pulse Duration
+Although the Pulse Duration of subject device is less than the predicate device,
+the subject device comply with all electrical safety eye safety and EMC
+Standard, So the differences of pulse duration time will not raise any safety or
+effectiveness issue.
+Wavelength
+Although the wavelength of subject device is a little different from the predicate
+devices, but they all comply with IEC 60601-1, IEC 60601-2-57 requirement.
+And the wavelength of subject device is in the range of the one of predicted
+device. So the differences of function specification will not raise any safety or
+effectiveness issue.
+Spot Size
+There is minor difference in Spot size between the subject device and the
+predicate devices. And they all comply with IEC 60601-1, IEC60601-2-57
+requirement. So the differences of Spot size will not raise any safety or
+effectiveness issue.
+7.0 Non- Clinical Performance Data
+The following performance data were provided in support of the substantial
+equivalence determination.
+7.1 Biocompatibility Testing
+The biocompatibility evaluation for the body-contacting components of the IPL
+Home Use Hair Remover was conducted in accordance with the "Use of
+International Standard ISO 10993-1, 'Biological Evaluation of Medical Devices
+–Part 1: Evaluation and Testing Within a Risk Management Process, Document
+Issued on June 16, 2016", as recognized by FDA. The battery of testing was
+performed to, and passed, including:
+ ISO 10993-5:2009/(R)2014, Biological Evaluation of Medical Devices
+–Part 5: Tests for In Vitro Cytotoxicity
+ ISO 10993-10:2010/(R)2014, Biological Evaluation of Medical Devices
+–Part 10: Tests for Irritation and Skin Sensitization
+7.2 Electrical Safety
+ Electrical safety and Eye safety testing was performed to, and passed, the
+following standards:
+Page
+
+4 of
+
+5
+
+东莞市定义美电子科技有限公司
+Dongguan Define Beauty Electronic Technology Co. Ltd
+
+ IEC 60601-1-2 Medical electrical equipment –Part 1-2: General
+requirements for basic safety and essential performance –Collateral
+standard: electromagnetic compatibility
+ IEC 60601-1 Medical electrical equipment –Part 1: General requirements
+for basic safety and essential performance
+ IEC 60601-1-11 Medical Electrical Equipment –Part 1: General
+Requirements for Basic Safety and Essential Performance –Collateral
+Standard: Requirements for Medical Electrical Equipment and Medical
+Electrical Systems Used in the Home Healthcare Environment
+ IEC 60601-2-57 Medical electrical equipment –Part 2-57: Particular
+requirements for the basic safety and essential performance of non-laser
+source equipment intended for therapeutic, diagnostic, monitoring and
+cosmetic/aesthetic use
+7.3 Eye Safety
+ IEC 62471 Photobiological safety of lamps and lamp systems
+ ISO 14971 Medical Devices – Applications of Risk Management to
+Medical Devices
+7.4 Software Verification and Validation
+ Software documentation consistent with moderate level of concern was
+submitted in this 510(k). System validation testing presented in this 510(k)
+demonstrated that all software requirement specifications are met and all
+software hazards have been mitigated to acceptable risk levels.
+Based on the above performance as documented in this application, IPL HAIR
+REMOVAL SG-8025 was found to have a safety and effectiveness profile that
+is similar to the predicate devices.
+8.0 Clinical Performance Data
+No clinical tests was performed on the subject device.
+9.0 Conclusion:
+IPL HAIR REMOVAL SG-8025 was found to be substantially equivalent to the
+predicate devices and shares the same or similar indications for use, design,
+operational and functional features as the predicate devices. Any difference in the
+technological characteristics does not raise any new issues or concerns of safety or
+effectiveness.
+
+Page
+
+5 of
+
+5
+
+

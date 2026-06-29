@@ -1,0 +1,1234 @@
+October 11, 2023
+Shenzhen Lescolton Electrical Appliance Co., Ltd.
+℅ Gong Youshan
+RA Specialist
+Feiying Drug & Medical Consulting Technical Service Group
+Rm 2401 Zhenye International Business Center, No. 3101-90
+Qianhai Road
+Shenzhen, Guangdong 518052
+China
+Re: K232499
+Trade/Device Name: IPL Hair Removal Device (LS-T106, LS-T107, LS-T108)
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: August 16, 2023
+Received: August 17, 2023
+Dear Gong Youshan:
+We have reviewed your section 510(k) premarket notification of intent to market the device referenced above
+and have determined the device is substantially equivalent (for the indications for use stated in the enclosure)
+to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment
+date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the
+provisions of the Federal Food, Drug, and Cosmetic Act (the Act) that do not require approval of a premarket
+approval application (PMA). You may, therefore, market the device, subject to the general controls
+provisions of the Act. Although this letter refers to your product as a device, please be aware that some
+cleared products may instead be combination products. The 510(k) Premarket Notification Database
+available at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.06.04
+
+K232499 - Gong Youshan
+
+Page 2
+
+Additional information about changes that may require a new premarket notification are provided in the FDA
+guidance documents entitled "Deciding When to Submit a 510(k) for a Change to an Existing Device"
+(https://www.fda.gov/media/99812/download) and "Deciding When to Submit a 510(k) for a Software
+Change to an Existing Device" (https://www.fda.gov/media/99785/download).
+Your device is also subject to, among other requirements, the Quality System (QS) regulation (21 CFR Part
+820), which includes, but is not limited to, 21 CFR 820.30, Design controls; 21 CFR 820.90, Nonconforming
+product; and 21 CFR 820.100, Corrective and preventive action. Please note that regardless of whether a
+change requires premarket review, the QS regulation requires device manufacturers to review and approve
+changes to device design and production (21 CFR 820.30 and 21 CFR 820.70) and document changes and
+approvals in the device master record (21 CFR 820.181).
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR Part 803) for
+devices or postmarketing safety reporting (21 CFR Part 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR Part 4, Subpart
+A) for combination products; and, if applicable, the electronic product radiation control provisions (Sections
+531-542 of the Act); 21 CFR Parts 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Jianting
+Wang -S
+
+Digitally signed by
+Jianting Wang -S
+Date: 2023.10.11
+12:08:29 -04'00'
+
+For Tanisha Hithe
+Assistant Director
+DHT4A: Division of General Surgery Devices
+
+K232499 - Gong Youshan
+
+Page 3
+OHT4: Office of Surgical & Infection Control Devices,
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2023
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K232499
+
+Device Name
+
+IPL Hair Removal Device
+
+Indications for Use (Describe)
+
+The IPL Hair Removal Device is an over-the-counter device intended for removal of unwanted body and/ or facial hair.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (6/20)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+Shenzhen Lescolton Electrical Appliance Co., Ltd.
+
+510(k)s –510(k) Summary
+
+K232499 510(k) Summary
+“510(k) Summary” as required by 21 CFR Part 807.92.
+Date Prepared: 2023-09-29
+I.
+
+Submitter
+Shenzhen Lescolton Electrical Appliance Co., Ltd.
+Room 301, Building 04, No. A3, Fourth Industrial Zone, Heshuikou Community, Matian Street, Guangming District, Shenzhen, Guangdong,
+China
+Post code: 518105
+Tel.: 400 153 8008
+Qixiang Liu
+Management representative
+Tel: +86 13530009850
+Email: info@lescolton.com
+
+II. Device
+Name of Device: IPL Hair Removal Device
+Model(s): LS-T106, LS-T107,LS-T108
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+
+III. Predicate Device and Reference Device
+➢ Predicate Device
+Page 1 of 12
+
+Shenzhen Lescolton Electrical Appliance Co., Ltd.
+
+510(k)s –510(k) Summary
+
+Manufacturer
+
+Predicate Device
+
+510(k) Number
+
+IPL Cooling Hair Removal
+Shenzhen
+Jizhimei
+Device, Model(s): NBB01, K230360
+Technology Co., Ltd.
+NBB02
+
+Approval Date
+April 10, 2023
+
+➢ Reference Device1
+Manufacturer
+
+Reference Device
+
+510(k) Number
+
+IPL Hair Removal Device,
+Shenzhen
+BSX Model(s):
+BSXT101,
+Technology
+BSXT102, BSXT103,
+K230097
+Electronics Co., Ltd.
+BSXT105,
+BSXT106,
+BSXT108
+
+Approval Date
+
+April 6, 2023
+
+➢ Reference Device2
+Manufacturer
+
+Reference Device
+
+510(k) Number
+
+Hand-held IPL device (IPL
+Shenzhen
+IONKA
+Home Use Hair Removal
+Medical Technology
+K230739
+Device), Model: FZ-608,
+Co., Ltd.
+FZ-608G, FZ-100, FZ-200
+
+Approval Date
+
+May 26, 2023
+
+➢ Reference Device3
+Manufacturer
+
+Reference Device
+
+510(k) Number
+
+Shenzhen GSD Tech Light Based Hair Removal
+K230060
+Co., Ltd.
+Device GP592
+
+Page 2 of 12
+
+Approval Date
+March 3, 2023
+
+Shenzhen Lescolton Electrical Appliance Co., Ltd.
+
+510(k)s –510(k) Summary
+
+➢ Reference Device4
+Manufacturer
+
+Reference Device
+
+Shenzhen
+Yuwei
+Electronic Technology IPL Hair Removal Device
+Co., Ltd.
+
+510(k) Number
+
+Approval Date
+
+K220222
+
+April 26, 2022
+
+IV. Device Description
+IPL Hair Removal Device, is an over-the-counter, home-use device for unwanted hair reduction by using Intense Pulsed Light (IPL), and it
+has been designed three models with the same IPL technology for hair removal, which is model LS-T106, LS-T107 and LS-T108. The device
+works below the skin’s surface and does not involve any cutting or pulling, reducing hair growth with minimal pain.
+The device is only powered by the external power adapter and its IPL emission activation is by finger switch.
+The IPL Hair Removal Device has an irreplaceable light exit and it can cover an area of 3.2cm2 of LS-T106 and LS-T108, 3.7cm2 of LST107 that is suitable for multiple hair removal areas, such as face, lips, underarms, bikini lines, arms, legs, etc.
+The device contains a skin sensor to detect appropriate skin contact, if the light exit is not in full contact with the skin, the device cannot emit
+the treatment light pulses. Besides, the IPL Hair Removal Device has the cooling function, which will be activated throughout the whole hair
+removal process to cool down the treatment area’s temperature and provide the user with a better using experience.
+
+V. Indications for Use
+The IPL Hair Removal Device is an over-the-counter device intended for removal of unwanted body and/or facial hair.
+
+VI. Materials
+Model
+
+Contacted Component Name
+
+Page 3 of 12
+
+Materials
+
+Shenzhen Lescolton Electrical Appliance Co., Ltd.
+
+510(k)s –510(k) Summary
+
+LS-T106, LS-T107
+
+LS-T108
+
+Host of machine (including air outlet, treatment
+window, air inlet, buttons)
+
+PC+ABS
+
+Host of machine (including air outlet, treatment
+window, air inlet, buttons)
+
+PC+ABS
+
+Sapphire cold head (within treatment window)
+
+AL2O3
+
+We have tested the device for biocompatibility by a reliable third-party lab. For details, please refer to Section “013_Biocompatibility
+evaluation report of IPL Hair Removal Device”
+
+VII. Comparison of Technological Characteristics With the Predicate Device
+The IPL Hair Removal Device has the same intended use as the predicate. The technological characteristics such as wavelength, energy
+density, spot size and pulse duration, are similar to the predicate device and reference devices. Any minor differences between the subject
+device and the listed predicate device and reference devices do no raise any issues of safety or efficacy. Performance data supports that the
+device is safe and as effective as the predicate device and reference devices for its intended use.
+Therefore, the IPL Hair Removal Device may be found substantially equivalent to its predicate device and reference devices.
+Comparison Elements
+510(k) Number
+
+Subject Device
+
+Predicate Device
+
+Reference
+Device 1
+
+K232499
+
+K230360
+
+K230097
+
+Trade name
+
+IPL Hair Removal Device
+
+IPL Cooling Hair
+Removal Device
+
+IPL
+Hair
+Removal Device
+
+Manufacturer
+
+Shenzhen
+Lescolton
+Electrical Appliance Co., Ltd
+
+Shenzhen Jizhimei
+Technology
+Co.,
+Ltd.
+
+Shenzhen BSX
+Technology
+Electronics Co.,
+
+Page 4 of 12
+
+Reference Device 2
+K230739
+Hand-held
+IPL
+device (IPL Home
+Use Hair Removal
+Device)
+Shenzhen IONKA
+Medical Technology
+Co., Ltd.
+
+Reference
+Device 3
+
+Reference
+Device 4
+
+Remark
+
+K230060
+
+K220222
+
+/
+
+Light
+Based
+Hair Removal
+Device GP592
+
+IPL
+Hair
+Removal
+Device
+
+/
+
+Shenzhen GSD
+Tech Co., Ltd.
+
+Shenzhen
+Yuwei
+Electronic
+
+/
+
+Shenzhen Lescolton Electrical Appliance Co., Ltd.
+
+510(k)s –510(k) Summary
+
+Comparison Elements
+
+Subject Device
+
+Predicate Device
+
+Reference
+Device 1
+
+Reference Device 2
+
+Reference
+Device 3
+
+Ltd.
+Regulation number
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+Product code
+Device classification
+
+OHT
+Class II
+
+OHT
+Class II
+
+Indication for use/ Intended
+use
+
+The IPL Hair Removal
+Device is an over-thecounter device intended for
+removal of unwanted body
+and/ or facial hair.
+
+The IPL Cooling
+Hair
+Removal
+Device is an overthe-counter device
+intended
+for
+removal
+of
+unwanted
+body
+and/or facial hair.
+
+21
+878.4810
+OHT
+Class II
+
+CFR
+
+The IPL Hair
+Removal Device
+is an over-thecounter device
+intended
+for
+removal
+of
+unwanted body
+and/ or facial
+hair.
+
+Page 5 of 12
+
+21 CFR 878.4810
+OHT
+Class II
+
+IPL Home Use Hair
+Removal Device is
+indicated for the
+removal of unwanted
+hair. The device is
+also indicated
+for the permanent
+reduction in hair
+regrowth, defined as
+the long-term, stable
+reduction in the
+number of hairs
+regrowing
+when
+measured at 6, 9 and
+12 months after the
+completion of a
+treatment regime.
+
+21
+CFR
+878.4810
+OHT
+Class II
+Light
+based
+hair removal
+device is an
+over-thecounter device
+intended
+for
+removal
+of
+unwanted hair
+such as but not
+limited
+to
+small
+areas
+such
+as
+underarm and
+facial
+hair
+below the chin
+line and large
+areas such as
+legs, excluding
+patients with
+Fitzpatrick
+Skin
+Phototypes VI.
+
+Reference
+Device 4
+Technology
+Co., Ltd.
+21
+CFR
+878.4810
+OHT
+Class II
+
+Remark
+
+Same
+Same
+Same
+
+The IPL Hair
+Removal
+Device is an
+over-thecounter device Same
+intended
+for
+removal
+of
+unwanted body
+hair.
+
+Shenzhen Lescolton Electrical Appliance Co., Ltd.
+
+510(k)s –510(k) Summary
+
+Comparison Elements
+
+Subject Device
+
+Predicate Device
+
+Prescription or OTC
+
+OTC
+
+OTC
+
+Applicable skin
+
+Fitzpatrick skin types I-V
+
+Fitzpatrick
+types I-V
+
+Dimension
+
+LS-T106:
+202.3±0.8*38*56.2 mm
+LS-T107: 211.5*63.5*48.9
+mm
+LS-T108: 177.5*67*40 mm
+
+Light source
+
+Reference
+Device 1
+
+Reference Device 2
+
+OTC
+
+OTC
+
+Fitzpatrick Skin
+Types I-V
+
+Fitzpatrick
+Types I-V
+
+NBB01:
+47.6*54.3*240 mm
+NBB02-MAX:
+235*76*43 mm
+
+190 x 70 x 45
+mm
+
+FZ-608, FZ-608G:
+98*147*60(mm)
+FZ-100:
+198*71*44(mm)
+FZ-200:
+216*68*52(mm)
+
+Intense Pulsed Light
+
+Intense
+Light
+
+Intense
+Light
+
+Intense Pulsed Light
+
+Energy medium
+
+Xenon Arc lamp
+
+Xenon Arc lamp
+
+Xenon Arc lamp
+
+Xenon
+Flashlamp
+
+Wavelength range
+
+LS-T106: 610-1200nm
+LS-T107: 560-1200nm
+LS-T108: 470-1200nm
+
+550-1200mm
+
+470nm-1200nm
+
+510nm~1200nm
+
+skin
+
+Pulsed
+
+Page 6 of 12
+
+Pulsed
+
+Skin
+
+Arc
+
+Reference
+Device 3
+OTC
+Fitzpatrick
+Skin Types IV
+
+Reference
+Device 4
+OTC
+
+Remark
+Same
+
+Not publicly
+Same
+available
+
+Not publicly Not publicly Different
+Note 1
+available
+available
+
+Intense Pulsed
+Light
+Xenon
+Arc
+Flashlamp
+
+Not publicly
+available
+
+Intense Pulsed
+Same
+Light
+Xenon
+Arc
+Same
+Flashlamp
+Similar,
+the
+wavelength
+range of LST106 is within
+reference
+device 1, and
+the
+min
+610-1100nm
+wavelength
+(610nm)
+of
+LS-T106
+is
+identical
+to
+reference
+device 4.
+Note 2
+
+Shenzhen Lescolton Electrical Appliance Co., Ltd.
+
+510(k)s –510(k) Summary
+
+Comparison Elements
+
+Energy density
+
+Output energy
+
+Subject Device
+
+LS-T106: 2.0-4.87J/cm2
+LS-T107: 2.16-5.18J/cm2
+LS-T108: 2.0-5.62J/cm2
+
+LS-T106: 8/10/13J (±20%)
+LS-T107: 10/13/16J (±20%)
+LS-T108: 8/12/15J (±20%)
+
+Predicate Device
+
+2~5J/cm²
+(applicable
+for
+model NBB01)
+2~4J/cm²
+(applicable
+for
+model NBB02)
+
+Model NBB01:
+8 ~ 17.05J
+Model NBB02:
+7.14 ~ 13.62J
+
+Reference
+Device 1
+
+Reference Device 2
+
+Reference
+Device 3
+
+Reference
+Device 4
+
+Max 5.0 J/cm2
+
+FZ-608, FZ-608G:
+3.33 J/cm2
+FZ-100: 5.43 J/cm2
+FZ-200: 4.5 J/cm2
+
+4.93J/cm2
+Max
+
+Pure
+mode:
+5~10J (±20%)
+Armpit
+mode:
+6~10J (±20%)
+Body
+mode:
+6.5~11J (±20%)
+Bikini
+mode:
+8~12.5J (±20%)
+
+FZ-608, FZ-608G:
+Level 1: 4.16J
+Level 2: 4.36J
+Level 3: 5.1J
+Level 4: 6.1J
+Level 5: 6.96J
+Level 6: 7.96J
+Level 7: 8.63J
+Level 8: 9.13J
+
+Level 1: 8.82J
+(±20%)
+Level
+2:
+Not publicly 10.09J (±20%)
+Level
+3:
+available
+12.73J (±20%)
+Level
+4:
+14.24J (±20%)
+
+Page 7 of 12
+
+2.2~5.6 J/cm²
+
+Remark
+Similar,
+the
+energy density
+of LS-T106 is
+within
+predicate
+device
+of
+model NBB01,
+and the min
+energy density
+of LS-T106 is
+similar
+to
+reference
+device 4, the
+max
+energy
+density of LST106 is within
+reference
+device 4.
+Note 3
+Similar,
+consider
+the
+error ± 20%,
+the min output
+energy of LST106 is 6.4J
+which
+is
+within
+reference
+
+Shenzhen Lescolton Electrical Appliance Co., Ltd.
+
+510(k)s –510(k) Summary
+
+Comparison Elements
+
+Subject Device
+
+Predicate Device
+
+Reference
+Device 1
+
+Reference Device 2
+
+Reference
+Device 3
+
+Level 9: 10.0J
+
+Spot size
+
+3.6cm² (applicable
+for model NBB01
+and NBB02)
+
+3.0cm²±0.5cm2
+
+3.0cm²
+
+1.05cm*2.95c
+m (3.1cm2)
+
+Pulse duration
+
+LS-T106: 0.64-2.4ms
+LS-T107: 7.2-10.8ms
+LS-T108: 6.8-10.2ms
+
+6.4-7.2ms
+
+4-10ms
+
+0.5~0.8 ms
+
+1~3 ms
+
+Remark
+
+5: device 1 of
+armpit mode;
+the max output
+energy of LST106 is 15.6J
+which
+is
+within
+predicate
+device
+of
+model NBB01.
+Also,
+the
+output energy
+is
+within
+reference
+device 4.
+Note 3
+Similar,
+the
+spot size of
+LS-T106
+is
+similar
+to
+3.0cm²,4.1cm²
+reference
+device 1, 2, 3
+and 4.
+Note 4
+Similar,
+the
+min
+pulse
+8~14ms
+duration
+of
+LS-T106
+is
+Level
+16.76J
+(±20%)
+
+LS-T106: 3.2 cm2
+LS-T107: 3.7 cm2
+LS-T108: 3.2 cm2
+
+Page 8 of 12
+
+Reference
+Device 4
+
+Shenzhen Lescolton Electrical Appliance Co., Ltd.
+
+510(k)s –510(k) Summary
+
+Comparison Elements
+
+Subject Device
+
+Predicate Device
+
+Reference
+Device 1
+
+Reference Device 2
+
+Reference
+Device 3
+
+Reference
+Device 4
+
+Remark
+0.64ms which
+is
+within
+reference
+device 2, the
+max
+pulse
+duration
+of
+LS-T106
+is
+2.4ms which is
+within
+reference
+device 3.
+Note 5
+
+5 Levels
+
+FZ-608, FZ-608G: 9
+levels
+FZ-100: 9 levels
+FZ-200: 6 levels
+
+Not publicly
+1~5 levels
+available
+
+Different
+Note 6
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Same
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+
+ANSI
+AAMI
+ES60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+
+ANSI
+AAMI
+ES60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-111
+IEC 60601-257
+
+Same
+
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+
+Output intensity level
+
+LS-T106: 3 levels
+LS-T107: 3 levels
+LS-T108: 3 levels
+
+NBB01: 5 levels
+NBB02: 6 levels
+
+Software/
+Firmware/
+Microprocessor Control?
+
+Yes
+
+Electrical safety
+
+Eye safety
+Biocompatibility
+
+Page 9 of 12
+
+ANSI AAMI
+ES60601-1
+IEC 60601-1-2
+IEC 60601-111
+IEC 60601-283
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+
+Same
+Same
+
+Shenzhen Lescolton Electrical Appliance Co., Ltd.
+
+510(k)s –510(k) Summary
+
+Comparison Elements
+
+Subject Device
+
+Predicate Device
+
+Reference
+Device 1
+
+Reference Device 2
+
+Reference
+Device 3
+
+Reference
+Device 4
+
+ISO 10993-23
+
+Note 1:
+Though the dimension is different from the predicate device and reference device, this difference is insignificant and do not raise any safety
+or effectiveness problems.
+Note 2:
+Though the wavelength of subject device is different from the predicate device, the wavelength of the subject device can be basically covered
+by the reference device 1’s range. The wavelength range of LS-T106 is within reference device 1, and the min wavelength (610nm) of LST106 is identical to reference device 4, and they all comply with IEC 60601-2-83 and IEC 62471 requirements, so this difference will not
+raise any safety or effectiveness issue.
+Note 3:
+Though the energy density and the output energy of subject device is a little different from the predicate device and reference devices,
+consider the error ±20%, the energy density and the output energy of subject device is within the range of the minimum and maximum value
+of the predicate device and reference devices.
+The energy density of LS-T106 is within predicate device of model NBB01, and the min energy density of LS-T106 is similar to reference
+device 4, the max energy density of LS-T106 is within reference device 4.
+The min output energy of LS-T106 is 6.4J which is within reference device 1 of armpit mode; the max output energy of LS-T106 is 15.6J
+which is within predicate device of model NBB01. Also, the output energy is within reference device 4, and they all comply with IEC 606012-83 and IEC 62471 requirements, so this difference will not raise any safety or effectiveness issue.
+Note 4:
+There is minor difference in spot size between the subject device and the reference devices. The spot size is related to energy density while
+the energy density of subject device and predicate device is the same as explained in Note 3, the spot size of LS-T106 is similar to reference
+device 1, 2, 3 and 4, so this difference is not significant and will not raise any safety or effectiveness issue.
+
+Page 10 of 12
+
+Remark
+
+Shenzhen Lescolton Electrical Appliance Co., Ltd.
+
+510(k)s –510(k) Summary
+
+Note 5:
+Though the pulse duration of subject device is different from the predicate device, the range of LS-T107, LS-T108 is within reference device
+1. The min pulse duration of LS-T106 is 0.64ms which is within reference device 2, the max pulse duration of LS-T106 is 2.4ms which is
+within reference device3. In addition, the subject device comply with IEC 60601-2-83 and IEC 62471 requirement, so this difference will not
+raise any safety or effectiveness issue.
+Note 6:
+Though the output intensity level of subject device is different from the predicate device and reference devices, the wavelength, output energy
+and energy density of the subject device can be basically same with predicate device and reference devices as explained in Note 3, and they
+all comply with IEC 60601-2-83 and IEC 62471 requirements, so this difference will not raise any safety or effectiveness issue.
+
+VIII. Performance Data
+The following performance data were provided in support of the substantial equivalence determination.
+1) Biocompatibility Testing
+The biocompatibility evaluation for the body-contacting components of the IPL Hair Removal Device was conducted in accordance with the
+“Use of International Standard ISO 10993-1, 'Biological Evaluation of Medical Devices –Part 1: Evaluation and Testing Within a Risk
+Management Process, Document Issued on September 4, 2020”, as recognized by FDA. The following testing was performed to, and passed,
+including:
+➢ ISO 10993-5:2009, Biological evaluation of medical devices –Part 5: Tests for in vitro cytotoxicity
+➢ ISO 10993-10:2021, Biological evaluation of medical devices –Part 10: Tests for skin sensitization
+➢ ISO 10993-23:2021, Biological evaluation of medical devices –Part 23: Tests for skin irritation
+2) Electrical Safety and EMC
+Electrical safety and EMC testing was performed to, and passed, the following standards:
+➢ ANSI AAMI ES60601-1 Medical electrical equipment –Part 1: General requirements for basic safety and essential performance
+➢ IEC 60601-1-2 Medical electrical equipment - Part 1-2: General requirements for basic safety and essential performance - Collateral
+Standard: Electromagnetic disturbances - Requirements and tests
+Page 11 of 12
+
+Shenzhen Lescolton Electrical Appliance Co., Ltd.
+
+510(k)s –510(k) Summary
+
+➢ IEC 60601-1-11 Medical Electrical Equipment –Part 1: General Requirements for Basic Safety and Essential Performance –Collateral
+Standard: Requirements for Medical Electrical Equipment and Medical Electrical Systems Used in the Home Healthcare Environment
+➢ IEC 60601-2-83 Medical electrical equipment - Part 2-83: Particular requirements for the basic safety and essential performance of home
+light therapy equipment
+3) Eye Safety
+➢ IEC 62471 Photobiological safety of lamps and lamp systems
+4) Software Verification and Validation
+Software documentation consistent with moderate level of concern was submitted in this 510(k). System validation testing presented in this
+510(k) demonstrated that all software requirement specifications are met and all software hazards have been mitigated to acceptable risk
+levels.
+IX. Conclusions
+Based on the above analysis and non-clinical tests performed, it can be concluded that the subject device IPL Hair Removal Device is as safe,
+as effective, and performs as well as the legally marketed predicate device and reference device.
+
+Page 12 of 12
+
+

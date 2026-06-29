@@ -1,0 +1,433 @@
+August 31, 2022
+Shenzhen Desida Technology Co., Ltd.
+℅ Rain Yip
+Registration Engineer
+Feiying Drug & Medical Consulting Technical Service Group
+Contact Address
+Re: K221635
+Trade/Device Name: IPL sapphire ice cooling hair remove device
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: May 26, 2022
+Received: June 6, 2022
+Dear Rain Yip:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.05.00
+
+K221635 - Rain Yip
+
+Page 2
+
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Jianting Wang -S
+Jianting Wang
+Acting Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Indications for Use
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2023
+See PRA Statement below.
+
+510(k) Number (ifknown)
+
+K221635
+Device Name
+IPL sapphire cooling hair remove device, model: LBO6
+
+Indications for Use (Describe)
+
+IPL sapphire cooling hair remove device is an over-the-counter device intended for removal of unwanted body hair.
+
+Type of Use (Select one or both, as applicable)
+
+F
+
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+X Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+"An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number"
+FORM FDA 3881 (6120)
+
+Page 1 of 1
+
+PSC PublisAing Servics (301) 443-6740
+
+EF
+
+K221635
+Shenzhen Desida Technology Co., Ltd.
+510(k)s –510(k) Summary
+
+510(k) Summary
+"510(k) Summary" as required by 21 CFR Part 807.92.
+Date: 2022-05-26
+I.
+
+Submitter
+Shenzhen Desida Technology Co., Ltd.
+5th Floor, Building A, Sanmin Industrial Zone, Shilongzai, Shuitian Community, Shiyan Street,
+Baoan District, Shenzhen City, Guangdong Province, China
+Post code: 518109
+Tel.: +86 755 2822 7189
+Shuangcheng Yuan
+RD engineer
+Tel: +86 755 2822 7189
+Email: 184056776@qq.com
+
+II. Device
+Name of Device: IPL sapphire cooling hair remove device
+Model: LB06
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Classification Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+
+III. Predicate Device
+Primary predicate device:
+510(k) number: K210311
+Manufacturer: Shenzhen Mismon Technology Co.,Ltd.
+Trade name: Home Use IPL Beauty Device, MS-216B
+Product code: OHT
+Approval date: 07/23/2021
+Predicate device II:
+510(k) number: K161565
+Manufacturer: STETIC MEDICAL AESTHETICS DEVELOPMENT (SHENZHEN) CO. ,LTD
+Trade name: DUO, IPL-HH380-IT
+Product code: OHT, ONF
+Approval date: 09/01/2016
+Predicate device III:
+1/4
+
+Shenzhen Desida Technology Co., Ltd.
+510(k)s –510(k) Summary
+
+K221635
+
+510(k) number: K221001
+Manufacturer: Shenzhen Beauty Every Moment Intelligent Electric Co.,Ltd.
+Trade name: IPL Home Use Hair Removal Device, D-1198
+Product code: OHT
+Approval date: 05/12/2022
+
+IV. Device Description
+The IPL sapphire cooling hair remove device is a personal, light-based, hair reduction device
+intended to be sold over-the-counter directly to the end user. The device provides hair reduction
+using Intense Pulsed Light (IPL) technology, and it works below the skin's surface and does not
+involve any cutting or pulling, reducing hair growth with minimal pain. The device is only
+powered by the external adapter and its IPL emission activation is by finger switch. The device
+contains a Xenon lamp and a skin sensor to detect appropriate skin contact. If the device is not in
+full contact with the skin, the device cannot emit the light pulse.
+
+V. Indications for Use
+IPL sapphire cooling hair remove device is an over-the-counter device intended for removal of
+unwanted body hair.
+
+VI. Comparison of Technological Characteristics With the Predicate Device
+The subject device IPL sapphire cooling hair remove device has the same intended use, mode of
+action and similar operational characteristics as the predicate devices. Any minor differences
+between the subject device and the listed predicate devices do no raise any issues of safety or
+efficacy. Performance data supports that the device is safe and as effective as the predicate
+devices for its intended use. Therefore, the subject device may be found substantially equivalent
+to its predicate devices.
+The subject device is compared with the following Predicate Devices in terms of intended use,
+design, specifications, and performance:
+Comparison
+Primary predicate Predicate device Predicate device
+Subject Device
+Elements
+device K210311
+II K161565
+III K221001
+K Number
+Pending
+K210311
+K161565
+K221001
+IPL
+sapphire
+Home
+Use
+IPL
+IPL Home Use
+cooling
+hair
+DUO/IPLTrade name
+Beauty Device/MSHair
+Removal
+HH380-IT
+remove
+device
+216B
+Device/D-1198
+/LB06
+Wavelength
+640-1200nm
+510-1100nm
+480-1200nm
+530-1100nm
+range
+Xenon
+Arc Xenon
+Arc Xenon
+Arc Xenon
+Arc
+Energy medium
+Flashlamp
+Flashlamp
+Flashlamp
+Flashlamp
+Energy density
+3.0~5.1J/cm²
+2.5~4.5J/cm²
+5J/cm² Max.
+2.0~4.3J/cm²
+Spot size
+3.3cm²
+3.0cm²
+3.0cm²
+2.7cm²
+Pulse duration
+16~24ms
+9~12ms
+<20ms
+5~12ms
+
+2/4
+
+K221635
+Shenzhen Desida Technology Co., Ltd.
+510(k)s –510(k) Summary
+
+Comparison
+Elements
+Pulsing control
+Delivery device
+
+Subject Device
+Finger switch
+Direct illumination
+to tissue
+
+IPL
+sapphire
+cooling
+hair
+remove device is
+an
+over-theIndication
+for
+counter
+device
+use/Intended use
+intended
+for
+removal
+of
+unwanted
+body
+hair.
+
+Location for use
+
+OTC
+
+Primary predicate Predicate device
+device K210311
+II K161565
+Finger switch
+Finger switch
+Direct
+Direct illumination to
+illumination
+to
+tissue
+tissue
+The
+DUO
+(Model:
+IPLHH380-IT) is an
+over the Counter
+device intended
+for the removal of
+unwanted
+body
+and/or facial hair
+The Home Use IPL
+in adults. The
+Beauty Device is an
+DUO is also
+over-the-counter
+intended
+for
+device intended for
+permanent
+removal of unwanted
+reduction
+in
+hair such as but not
+unwanted
+hair.
+limited to small areas
+Permanent
+hair
+such as underarm
+reduction
+is
+and facial hair below
+defined as the
+the chin line and
+long-term stable
+large areas such as
+reduction in the
+legs.
+number of hairs
+regrowing when
+measured at 6. 9.
+and 12 months
+after
+the
+completion of a
+treatment
+regimen.
+OTC
+OTC
+
+Predicate device
+III K221001
+Finger switch
+Direct
+illumination
+to
+tissue
+
+IPL Home Use
+Hair
+Removal
+Device is an overthe-counter
+device intended
+for removal of
+unwanted body
+and/or facial hair.
+
+OTC
+
+VII.Performance Data
+The following performance data were provided in support of the substantial equivalence
+determination.
+1) Biocompatibility Safety
+The materials of the patient-directly contacting components of the subject device is performed the
+biocompatibility evaluation in accordance with the "Use of International Standard ISO 10993-1,
+'Biological Evaluation of Medical Devices –Part 1: Evaluation and Testing Within a Risk
+Management Process, Document issued on Sep. 4, 2020", as recognized by FDA. The battery of
+testing was performed to, and passed, including:
+3/4
+
+K221635
+Shenzhen Desida Technology Co., Ltd.
+510(k)s –510(k) Summary
+
+ ISO 10993-5 Biological Evaluation of Medical Devices –Part 5: Tests for In Vitro
+Cytotoxicity
+ ISO 10993-10 Biological Evaluation of Medical Devices –Part 10: Tests for Irritation and Skin
+Sensitization
+2) Electrical Safety
+Electrical safety and Eye safety testing was performed to, and passed, the following standards:
+ IEC 60601-1-2 Medical electrical equipment –Part 1-2: General requirements for basic safety
+and essential performance –Collateral standard: electromagnetic compatibility
+ IEC 60601-1 Medical electrical equipment –Part 1: General requirements for basic safety and
+essential performance
+ IEC 60601-1-11 Medical Electrical Equipment –Part 1: General Requirements for Basic
+Safety and Essential Performance –Collateral Standard: Requirements for Medical Electrical
+Equipment and Medical Electrical Systems Used in the Home Healthcare Environment
+ IEC 60601-2-83 Medical Electrical Equipment - Part 2-83: Particular Requirements For The
+Basic Safety And Essential Performance Of Home Light Therapy Equipment
+3) Eye Safety
+ IEC 62471 Photobiological safety of lamps and lamp systems
+4) Software Verification and Validation
+Software documentation consistent with moderate level of concern was submitted in this 510(k).
+System validation testing presented in this 510(k) demonstrated that all software requirement
+specifications are met and all software hazards have been mitigated to acceptable risk levels.
+Summary
+Based on the above performance as documented in this application, the subject device IPL
+sapphire cooling hair remove device was found to have a safety and effectiveness profile that is
+similar to the predicate device.
+VIII.
+
+Conclusions
+
+In accordance with the Federal Food, Drug and Cosmetic Act, 21 CFR Part 807 and based on the
+comparison of intended use, design, materials and performance, the subject device IPL sapphire
+cooling hair remove device is to be concluded substantial equivalent to its predicate device.
+
+4/4
+
+

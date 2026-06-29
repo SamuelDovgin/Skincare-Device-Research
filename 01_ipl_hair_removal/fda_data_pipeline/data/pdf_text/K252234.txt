@@ -1,0 +1,558 @@
+October 14, 2025
+Shenzhen Qiaochengli Technology Co., Ltd
+℅ Riley Chen
+RA Specialist
+Feiying Drug & Medical Consulting Technical Service Group
+Rm 2401, Zhenye International Business Center
+No. 3101-90, Qianhai Road
+Shenzhen, Guangdong 518052
+China
+Re: K252234
+Trade/Device Name: IPL Home Use Hair Removal Device (Models: FDA11, FDA12, FDA13, FDA14,
+FDA15, FDA16, FDA17, FDA18, FDA19, FDA20, FDA21S, FDA22S, FDA23S,
+FDA24S, FDA25, FDA26, FDA27, FDA28, FDA29S, FDA30S, FDA31S)
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: July 15, 2025
+Received: July 17, 2025
+Dear Riley Chen:
+We have reviewed your section 510(k) premarket notification of intent to market the device referenced above
+and have determined the device is substantially equivalent (for the indications for use stated in the enclosure)
+to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment
+date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the
+provisions of the Federal Food, Drug, and Cosmetic Act (the Act) that do not require approval of a premarket
+approval application (PMA). You may, therefore, market the device, subject to the general controls
+provisions of the Act. Although this letter refers to your product as a device, please be aware that some
+cleared products may instead be combination products. The 510(k) Premarket Notification Database
+available at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.08.00
+
+K252234 - Riley Chen
+
+Page
+
+2
+
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Additional information about changes that may require a new premarket notification are provided in the FDA
+guidance documents entitled "Deciding When to Submit a 510(k) for a Change to an Existing Device"
+(https://www.fda.gov/media/99812/download) and "Deciding When to Submit a 510(k) for a Software
+Change to an Existing Device" (https://www.fda.gov/media/99785/download).
+Your device is also subject to, among other requirements, the Quality System (QS) regulation (21 CFR Part
+820), which includes, but is not limited to, 21 CFR 820.30, Design controls; 21 CFR 820.90, Nonconforming
+product; and 21 CFR 820.100, Corrective and preventive action. Please note that regardless of whether a
+change requires premarket review, the QS regulation requires device manufacturers to review and approve
+changes to device design and production (21 CFR 820.30 and 21 CFR 820.70) and document changes and
+approvals in the device master record (21 CFR 820.181).
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR Part 803) for
+devices or postmarketing safety reporting (21 CFR Part 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR Part 4, Subpart
+A) for combination products; and, if applicable, the electronic product radiation control provisions (Sections
+531-542 of the Act); 21 CFR Parts 1000-1050.
+All medical devices, including Class I and unclassified devices and combination product device constituent
+parts are required to be in compliance with the final Unique Device Identification System rule ("UDI Rule").
+The UDI Rule requires, among other things, that a device bear a unique device identifier (UDI) on its label
+and package (21 CFR 801.20(a)) unless an exception or alternative applies (21 CFR 801.20(b)) and that the
+dates on the device label be formatted in accordance with 21 CFR 801.18. The UDI Rule (21 CFR
+830.300(a) and 830.320(b)) also requires that certain information be submitted to the Global Unique Device
+Identification Database (GUDID) (21 CFR Part 830 Subpart E). For additional information on these
+requirements, please see the UDI System webpage at https://www.fda.gov/medical-devices/device-advicecomprehensive-regulatory-assistance/unique-device-identification-system-udi-system.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+
+K252234 - Riley Chen
+
+Page
+
+3
+
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+YAN FU -S
+
+Digitally signed by YAN
+FU -S
+Date: 2025.10.14
+14:04:36 -04'00'
+
+for Tanisha Hithe
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical and
+Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 07/31/2026
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K252234
+
+Device Name
+
+IPL Home Use Hair Removal Device (Models: FDA11, FDA12, FDA13, FDA14, FDA15, FDA16, FDA17, FDA18, FDA19, FDA20,
+FDA21S, FDA22S, FDA23S, FDA24S, FDA25, FDA26, FDA27, FDA28, FDA29S, FDA30S, FDA31S)
+
+Indications for Use (Describe)
+
+IPL Home Use Hair Removal Device is an over-the-counter device intended for removal of unwanted body and/or facial
+hair.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (8/23)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+510(k) Summary - K252234
+"510(k) Summary" as required by 21 CFR Part 807.92.
+I.
+
+Submitter
+Shenzhen Qiaochengli Technology Co., Ltd
+Address: 1607, Building 2, Jingji Yujing Times Building, Huanggekeng Community, Longcheng
+Street, Longgang District, Shenzhen, Guangdong, China
+Post code: 518100
+Huang Quanhua
+Title: Quality supervisor
+Tel.: +86-18681107912
+Email: 1s4_5ogp59ash7@dingtalk.com
+Prepared date: 2025-10-10
+
+II. Device information
+Name of Device: IPL Home Use Hair Removal Device (Models: FDA11, FDA12, FDA13,
+FDA14, FDA15, FDA16, FDA17, FDA18, FDA19, FDA20, FDA21S, FDA22S, FDA23S,
+FDA24S, FDA25, FDA26, FDA27, FDA28, FDA29S, FDA30S, FDA31S)
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+
+III. Predicate Device
+Manufacturer
+Shenzhen Fansizhe
+Science And
+Technology Co., Ltd
+Qiaocheng Li
+(Dongguan) Medical
+Instruments Co., LTD
+
+Predicate Device
+
+510(k) Number
+
+Cleared Date
+
+Intense Pulsed Light (IPL) System
+(model: T013C, T015C, T015K)
+
+K221569
+
+June 30, 2022
+
+Intense pulsed light therapy
+apparatus (model: FDA01, FDA02,
+FDA03, FDA06, FDA07, FDA08,
+FDA04S, FDA05S, FDA06S,
+FDA07S, FDA09S, FDA10S)
+
+K241120
+
+June 24, 2024
+
+IV. Device Description
+IPL Home Use Hair Removal Device is an over-the-counter, home-use, light based device for
+unwanted hair removal by using Intense Pulsed Light (IPL) technology. The device works below
+the skin’s surface and does not involve any cutting or pulling, removing hair growth with minimal
+pain.
+Page 1 of 4
+
+The device includes 21 models (Models: FDA11, FDA12, FDA13, FDA14, FDA15, FDA16,
+FDA17, FDA18, FDA19, FDA20, FDA21S, FDA22S, FDA23S, FDA24S, FDA25, FDA26,
+FDA27, FDA28, FDA29S, FDA30S, FDA31S), and the model name with an “S” indicates that
+the model has a cooling function. The device is only powered by the external power adapter and
+its IPL emission activation is by a switch or auto light emission, and the device contains a skin
+sensor to detect appropriate skin contact, if the light outlet is not in full contact with the skin, the
+device cannot emit the treatment light pulses.
+
+V. Indications for Use
+IPL Home Use Hair Removal Device is an over-the-counter device intended for removal of
+unwanted body and/or facial hair.
+
+VI. Comparison of Technological Characteristics With the Predicate Device
+IPL Home Use Hair Removal Device has the same intended use as the predicate devices. The
+technological characteristics such as wavelength, energy density, spot size and pulse duration, are
+similar to the predicate devices. Any minor differences between the subject device and the listed
+predicate devices do not raise any issues of safety or efficacy. Performance data supports that the
+device is safe and as effective as the predicate devices for its intended use.
+IPL Home Use Hair Removal Device is compared with the following Predicate Devices in terms
+of intended use, design, specifications and performance:
+Comparison
+Elements
+510(k) Number
+
+Trade name
+
+Subject Device
+
+Primary predicate
+device
+
+Secondary predicate device
+
+Remark
+
+K252234
+IPL Home Use Hair
+Removal Device (Models:
+FDA11, FDA12, FDA13,
+FDA14, FDA15, FDA16,
+FDA17, FDA18, FDA19,
+FDA20, FDA21S, FDA22S,
+FDA23S, FDA24S, FDA25,
+FDA26, FDA27, FDA28,
+FDA29S, FDA30S,
+FDA31S)
+
+K221569
+
+K241120
+
+/
+
+Intense Pulsed Light
+(IPL) System, model:
+T013C, T015C, T015K
+
+Intense pulsed light therapy
+apparatus (FDA01, FDA02,
+FDA03, FDA06, FDA07,
+FDA08
+FDA04S, FDA05S,
+FDA06S, FDA07S,
+FDA09S, FDA10S)
+
+/
+
+Regulation
+number
+Product code
+Device
+classification
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+Same
+
+OHT
+
+OHT, ONF
+
+OHT
+
+Same
+
+Class II
+
+Class II
+
+Class II
+
+Same
+
+Indications for
+use/ Intended
+use
+
+IPL Home Use Hair
+Removal Device is an overthe-counter device intended
+for removal of unwanted
+body and/or facial hair.
+
+The Intense Pulsed Light
+(IPL) System is an overthe-counter device
+intended for the removal
+of unwanted body hair.
+
+Intense pulsed light therapy
+apparatus is an over-thecounter device intended for
+removal of unwanted body
+and/or facial hair.
+
+Same
+
+Page 2 of 4
+
+Comparison
+Elements
+
+Subject Device
+
+Prescription or
+OTC
+Environment of
+Use
+Design
+Power source
+
+An external power supply
+
+Power supply
+
+Input: 100-240V~, 50/60Hz
+
+Sterilization
+Light source
+Energy medium
+Wavelength
+range
+
+Primary predicate
+device
+
+Secondary predicate device
+
+Remark
+
+OTC
+
+OTC
+
+OTC
+
+Same
+
+Home use
+
+Home use
+
+Home use
+
+Same
+
+Hand-hold
+
+Hand-hold
+
+Same
+
+An external power supply
+
+Same
+
+Not required
+Intense Pulsed Light
+Xenon lamp
+
+Hand-hold
+An external power
+adapter
+Input: 100-240V ~
+50/60Hz，1.5A Max.
+Unknown
+Intense Pulsed Light
+Xenon Arc Flashlamp
+
+Input: 100-240V~,
+50/60Hz
+Not required
+Intense Pulsed Light
+Xenon lamp
+
+Same
+Same
+Same
+
+510-1200nm (±15nm)
+
+510nm~1200nm
+
+510-1200nm (±15nm)
+
+Same
+
+Similar
+
+Similar
+
+Energy density
+
+1.37~4.28J/cm2
+
+1.17~4.69J/cm² for
+T015C
+
+FDA01, FDA02, FDA03,
+FDA04S, FDA06, FDA06S,
+FDA07, FDA07S, FDA08,
+FDA10S: 1.2~2.64J/cm²
+FDA05S, FDA09S:
+1.3~3.5J/cm²
+
+Spot size
+
+3.5cm²
+
+3.5cm² for T015C
+
+3.0cm²
+
+Pulse duration
+
+3.5~4.5ms (±0.9ms)
+
+4~12ms for T015C
+
+3.5~4.5ms (±0.9ms)
+
+Pulsing control
+
+Finger switch
+
+Finger switch
+Direct illumination
+Tissue
+
+Delivery device
+
+Direct illumination to Tissue
+
+Software/
+Firmware/
+Microprocessor
+Control?
+
+Yes
+
+Yes
+
+to
+
+Finger switch
+
+Same as
+primary
+predicate
+Same as
+secondary
+predicate
+Same
+
+Direct illumination to tissue
+
+Same
+
+Yes
+
+Same
+
+VII. Performance Data
+The following performance data were provided in support of the substantial equivalence
+determination.
+1) Biocompatibility Testing
+The biocompatibility evaluation for the body-contacting components of the IPL Home Use Hair
+Removal Device was conducted in accordance with the “Use of International Standard ISO
+Page 3 of 4
+
+10993-1, 'Biological Evaluation of Medical Devices –Part 1: Evaluation and Testing Within a
+Risk Management Process, Document Issued on September 4, 2020”, as recommended by FDA.
+The following testing was performed to, and passed, including:
+ ISO 10993-5: 2009, Biological evaluation of medical devices –Part 5: Tests for in vitro
+cytotoxicity
+ ISO 10993-10: 2021, Biological evaluation of medical devices - Part 10: Tests for skin
+sensitization
+ ISO 10993-23: 2021, Biological evaluation of medical devices - Part 23: Tests for irritation
+2) Electrical Safety and EMC
+Electrical safety and EMC testing was performed to, and passed, as per the following standards:
+ IEC 60601-1: 2020, Medical electrical equipment - Part 1: General requirements for basic
+safety and essential performance
+ IEC 60601-1-2: 2020, Medical electrical equipment - Part 1-2: General requirements for basic
+safety and essential performance - Collateral Standard: Electromagnetic disturbances Requirements and tests
+ IEC 60601-1-11: 2020, Medical Electrical Equipment –Part 1-11: General Requirements for
+Basic Safety and Essential Performance –Collateral Standard: Requirements for Medical
+Electrical Equipment and Medical Electrical Systems Used in the Home Healthcare
+Environment
+ IEC 60601-2-83: 2022, Medical electrical equipment - Part 2-83: Particular requirements for
+the basic safety and essential performance of home light therapy equipment
+3) Eye Safety
+ IEC 62471: 2006, Photobiological safety of lamps and lamp systems
+4) Software Verification and Validation
+Software documentation consistent with Basic Documentation level of concern was submitted in
+this 510(k). System validation testing presented in this 510(k) demonstrated that all software
+requirement specifications are met and all software hazards have been mitigated to acceptable risk
+levels.
+VIII.
+
+Conclusions
+
+Based on the above analysis and non-clinical tests performed, it can be concluded that the subject
+device is as safe, as effective, and performs as well as the legally marketed predicate devices.
+
+Page 4 of 4
+
+

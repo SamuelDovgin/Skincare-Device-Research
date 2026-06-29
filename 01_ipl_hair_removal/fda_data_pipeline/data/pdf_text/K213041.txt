@@ -1,0 +1,729 @@
+November 18, 2021
+
+Glan Electronics Co., Ltd.
+℅ Iris Fung
+Official Correspondent
+SGS-CSTC Standards Technical Services Co., LTD
+198 Kezhu Road, ScienTech Park Guangzhou Economic & Tech
+Development District
+GuangZhou, Guangdong
+China
+Re: K213041
+Trade/Device Name: IPL Hair Removal, Model: OBT-02
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: September 14, 2021
+Received: September 22, 2021
+Dear Iris Fung:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.04.29
+
+K213041 - Iris Fung
+
+Page 2
+
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801 and Part 809); medical device reporting (reporting of medical device-related adverse events) (21 CFR
+803) for devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Purva U. Pandya -S
+Purva Pandya
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+Sponsor: Glan Electronics Co., Ltd.
+Subject Device: IPL Hair Removal, Model: OBT-02
+510(k) number: K213041
+
+Date of the summary prepared: November 2, 2021
+
+510(k) Summary
+This summary of 510(K) safety and effectiveness information is being submitted in accordance
+with the requirement of 21 CFR 807.92.
+1. Submitter’s Information
+Sponsor
+
+
+Company Name: Glan Electronics Co., Ltd.
+
+
+
+Address: A4 Building, Huafa Industrial Zone, Fuyuan 1st Road, Xinhe Community, Fuyong
+Town, Bao'an District, Shenzhen, China
+
+
+
+Phone: 0086-755-28910840
+
+
+
+Contact Person (including title): LISA PAN
+
+
+
+E-mail: lisa@glancap.com / lisa@glanelectronics.com
+
+Application Correspondent:
+ SGS-CSTC Standards Technical Services Co., Ltd.
+
+
+Address: 198 KEZHU Road, SCIENTECH Park Guangzhou Economic & Technology
+Development District, Guangzhou, Guangdong, CHINA
+
+
+
+Contact Person: Iris Fung
+
+
+
+Tel: + 86-32136908
+
+
+
+Email: Iris.Fung@sgs.com / jianda-lee@foxmail.com
+
+2. Subject Device Information
+
+
+Trade Name:
+
+IPL Hair Removal, Model: OBT-02
+
+
+
+Common Name:
+
+Light Based Over-The-Counter Hair Removal
+
+
+
+Classification name:
+
+
+
+Review Panel:
+
+Laser Surgical Instrument For Use In General And Plastic
+Surgery And In Dermatology
+General & Plastic Surgery
+
+
+
+Product Code:
+
+OHT
+
+
+
+Regulation Class:
+
+2
+
+
+
+Regulation Number:
+
+878.4810
+
+1
+
+Sponsor: Glan Electronics Co., Ltd.
+Subject Device: IPL Hair Removal, Model: OBT-02
+510(k) number: K213041
+3. Predicate Device Information
+
+Sponsor
+
+Medical Device Branch of
+Zhangzhou Easepal Industrial
+Co.,Ltd.
+
+STETIC MEDICAL
+AESTHETICS
+DEVELOPMENT
+(SHENZHEN) CO., LTD
+
+Device Name
+
+IPL Salon Hair Reduction
+System
+
+DUO
+
+iPulse SmoothSkin Gold
+Hair Removal System
+
+510(k) Number
+
+K181568
+
+K161565
+
+K160968
+
+Product Code
+
+OHT
+
+ONF, OHT
+
+OHT, GEX
+
+Regulation Number
+
+878.4810
+
+878.4810
+
+878.4810
+
+Regulation Class
+
+2
+
+2
+
+2
+
+CyDen Limited.
+
+4. Device Description
+IPL Hair Removal, Model: OBT-02, a small over-the-counter device, is a home-use device for the
+permanent reduction of hair growth based on Intense Pulsed Light (IPL). It works below the skin's
+surface and does not involve any cutting or pulling, reducing hair growth with minimal pain. A
+personal Light-Based Hair Removal System. Permanent hair reduction is defined as the longterm stable reduction in the number of hairs re-growing when measured at 6, 9 and 12 months
+after the completion of a treatment regimen. Emission activation is by finger switch. Device
+includes IPL DEVICE, Power supply and User manual. It is used AC Powered (100-240 V AC).
+The weight of the device is 220g, and the size is 150 x 75 x 45mm (H*W*D). The device
+incorporates Intense Pulse Light (IPL) technology. The purpose of the light is to heat the root
+where the hair grows.
+5. Intended Use / Indications for Use
+The IPL Hair Removal Device OBT-02 Version is indicated for the removal of unwanted hair. The
+device is also indicated for the permanent reduction in hair regrowth, defined as the long-term,
+stable reduction in the number of hairs re-growing when measured at 6, 9 and 12 months after
+the completion of a treatment regime. The device is used for adults.
+
+6. Test Summary
+6.1 IPL Hair Removal, Model: OBT-02 has been evaluated the safety and performance by lab
+bench testing as following:
+
+
+Electrical safety test according to AAMI/ANSI ES60601-1:2005(R) 2012 and A1:2012,
+IEC 60601-1-11:2015 and IEC 60601-2-57:2011 standards
+
+
+
+Electromagnetic compatibility test according to IEC 60601-1-2:2014 standard
+
+
+
+Biocompatibility test according to ISO10993-5; ISO 10993-10 Standard
+
+2
+
+Sponsor: Glan Electronics Co., Ltd.
+Subject Device: IPL Hair Removal, Model: OBT-02
+510(k) number: K213041
+
+
+Software verification and validation test according to the requirements of the FDA
+“Guidance for PreMarket Submissions and for Software Contained in Medical Devices”
+
+
+
+Bench performance testing conducted to demonstrate that the pulse duration, output
+energy, maximum fluence, and wavelength do not deviate in excess of the allotted 10%
+tolerance
+
+6.2 Materials
+There is one part of patient- directly contracting components in the subject device as the following
+list.
+Component of Device
+Requiring
+Biocompatibility
+IPL Lamp output window
+and case enclosure
+
+Material of
+Component
+ABS
+
+Body Contact
+Category
+(ISO 10993-1)
+Surface-contacting
+device: skin
+
+Contact Duration
+(ISO 10993-1)
+Maximum 30
+minutes(< 24hours)
+
+We provide ISO 10993-5, ISO 10993 -10 test reports for the following biocompatibility evaluation.
+- In-Vitro Cytotoxicity Testing
+- Skin Sensitization Testing
+- Skin Irritation Testing
+
+7. Comparison to predicate device and conclusion
+The technological characteristics, features, specifications, materials, and intended use of IPL Hair
+Removal, Model: OBT-02 is the same or similar to the predicate devices quoted above.
+The differences between the subject device and predicate devices do not raise new issues of
+safety or effectiveness.
+
+Predicate Device I
+
+Predicate Device II
+
+Predicate Device III
+
+Device Name and IPL Hair Removal,
+Model: OBT-02
+Model
+
+IPL Salon Hair
+Reduction System,
+Model: F60001
+
+DUO, Model:
+IPLHH380-IT
+
+iPulse SmoothSkin
+Gold Hair Removal
+System
+
+510(k) Number
+
+K213041
+
+K181568
+
+K161565
+
+K160968
+
+Manufacturer
+
+Glan Electronics Co.,
+Ltd.
+
+Medical Device Branch
+of Zhangzhou Easepal
+Industrial Co., Ltd.
+
+STETIC MEDICAL
+CyDen Limited.
+AESTHETICS
+DEVELOPMENT
+(SHENZHEN) CO., LTD
+
+Elements of
+Comparison
+
+Subject Device
+
+3
+
+Sponsor: Glan Electronics Co., Ltd.
+Subject Device: IPL Hair Removal, Model: OBT-02
+510(k) number: K213041
+Elements of
+Comparison
+
+Subject Device
+
+Predicate Device I
+
+Predicate Device II
+
+Intended Use
+
+The IPL Hair Removal The IPL Salon Hair
+The DUO (Model:
+The iPulse SmoothSkin
+Device OBT-02 Version Reduction System
+IPLHH380-IT) is an over Gold Hair Removal
+is indicated for the
+(Model: F60001) is an
+the Counter device
+System is indicated for
+removal of unwanted
+over the Counter device intended for the removal the removal of
+hair. The device is also intended for the removal of unwanted body
+unwanted hair. The
+indicated for the
+of unwanted body and/or and/or facial hair in
+iPulse SmoothSkin Gold
+permanent reduction in facial hair in adults. It is adults. The DUO is also is also indicated for the
+hair regrowth, defined as also intended for
+intended for permanent permanent reduction in
+the long-term, stable
+permanent reduction in reduction in unwanted hair regrowth, defined
+reduction in the number unwanted hair.
+hair. Permanent hair
+as the long-term, stable
+of hairs re-growing when Permanent hair
+reduction is defined as reduction in the number
+measured at 6, 9 and 12 reduction is defined as the long-term stable
+of hairs regrowing when
+months after the
+the long-term stable
+reduction in the number measured at 6, 9 and 12
+completion of a
+reduction in the number of hairs regrowing when months after the
+treatment regime. The of hairs re-growing when measured at 6. 9. And completion of a
+device is used for adults. measured at 6. 9. And 12 months after the
+treatment regime.
+12 months after the
+completion of a
+completion of a
+treatment regimen.
+treatment regimen.
+
+Source Energy
+
+Supplied by external
+adapter
+
+Supplied by external
+adapter
+
+Supplied by external
+adapter
+
+Predicate Device III
+
+AC Mains
+
+‘Use’
+Classification
+
+OTC
+
+OTC
+
+OTC
+
+OTC
+
+Device
+Classification
+
+Class II
+
+Class II
+
+Class II
+
+Class II
+
+Device Type
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Wavelength (nm)
+
+510nm~1100nm
+
+475nm~1200nm
+
+480nm~1200nm
+
+510nm~1100nm
+
+Max. Fluence
+(J/cm2)
+
+Max 4.0 [Joules/cm²]
+
+Max 5 [Joules/cm²]
+
+5 [Joules/cm²]
+
+6 [Joules/cm²]
+
+Spot Size (cm 2)
+
+3.0 cm²
+
+1.72 cm²or 3.02 cm²
+
+3 [cm²]
+
+3 [cm²]
+
+Level 1: 1.5 J/cm²
+
+Level 1: 2.8 J/cm2
+
+Level 1: 1.33 J/cm²
+
+Level 2: 1.9 J/cm²
+Level 3: 2.6 J/cm²
+Level 4: 3.7 J/cm²
+
+2
+
+Level 2: 3.1 J/cm
+Level 3: 3.5 J/cm 2
+Level 4: 3.8 J/cm2
+
+Level 2: 1.57 J/cm²
+Level 3: 1.80 J/cm²
+Level 4: 1.97 J/cm²
+
+Level 5: 4.0 J/cm²
+
+Level 5: 4.2 J/cm2
+
+Level 5: 2.23 J/cm²
+
+Pulse duration
+
+3 ms
+
+11-12 ms
+
+＜20 milliseconds
+
+2-10 ms
+
+Skin contact
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Light Intensity
+
+3 - 6 J/cm2
+
+4
+
+Sponsor: Glan Electronics Co., Ltd.
+Subject Device: IPL Hair Removal, Model: OBT-02
+510(k) number: K213041
+Elements of
+Comparison
+
+Subject Device
+
+Predicate Device I
+
+Predicate Device II
+
+Predicate Device III
+
+sensor
+Skin tone sensor
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Energy medium
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Pulsing Control
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Number of Output
+Channels
+
+One channel
+
+One channel
+
+One channel
+
+One channel
+
+Output Intensity
+Level
+
+5 levels
+
+5 levels
+
+5 levels
+
+--
+
+Software/Firmwar
+e/Microprocessor
+Control?
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+60601Compliance Yes
+Yes
+Yes
+Yes
+with Voluntary
+Comply
+with
+IEC
+Comply with IEC
+Comply with IEC 60601- Comply with IEC 60601Standards
+1 and IEC 60601-1-2,
+1 and IEC 60601-1-2,
+60601-1 and IEC
+60601-1 and IEC
+IEC60601-2-57
+IEC60601-2-57，
+60601-1-2,IEC60601-2- 60601-1-2, IEC62471
+57
+Compliance* with
+21 CFR 898
+
+No
+
+No
+
+No
+
+No
+
+Weight
+
+220g
+
+650g
+
+280g
+
+--
+
+Dimensions
+
+150*75*45 mm(H*W*D) 143*69.5*43mm(H*W*D) 130*70*30 mm(H*W*D)
+
+Biocompatibility
+
+All user directly
+All user directly
+contacting materials are contacting materials are
+compliance with
+compliance with
+ISO10993-5 and
+ISO10993-5 and
+ISO10993-10
+ISO10993-10
+requirements.
+requirements.
+
+All user directly
+All user directly
+contacting materials are contacting materials are
+compliance with
+compliance with
+ISO10993-5 and
+ISO10993-5, ISO
+ISO10993-10
+10993-12 and
+requirements.
+ISO10993-10
+requirements.
+
+Electrical Safety
+
+Comply with
+IEC60601-1 and
+IEC60601-2-57
+
+Comply with
+IEC 60601-1 and
+IEC 60601-2-57
+
+Comply with
+IEC 60601-1 and
+IEC 60601-2-57
+
+--
+
+Comply with
+IEC 60601-1
+
+Finial Conclusion:
+Based on the nonclinical testing conducted, the subject device “IPL Hair Removal, Model: OBT02” is as safe, as effective, and performs as well as the legally marketed predicate devices .
+
+5
+
+

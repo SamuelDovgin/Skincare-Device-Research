@@ -1,0 +1,651 @@
+November 25, 2025
+Dongguan Lide Electric Appliance Co., Ltd
+℅ Moy Meng
+RA Specialist
+Feiying Drug & Medical Consulting Technical Service Group
+Rm 2401 Zhenye International Business Center, No. 3101-90
+Qianhai Road
+Shenzhen, Guangdong 518052
+China
+Re: K253304
+Trade/Device Name: IPL Hair Removal Device (KA-10, KA-11, KA-11C, KA-11D, KA-18, KA-20,
+KA-21, KA-21C)
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: September 28, 2025
+Received: September 29, 2025
+Dear Moy Meng:
+We have reviewed your section 510(k) premarket notification of intent to market the device referenced above
+and have determined the device is substantially equivalent (for the indications for use stated in the enclosure)
+to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment
+date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the
+provisions of the Federal Food, Drug, and Cosmetic Act (the Act) that do not require approval of a premarket
+approval application (PMA). You may, therefore, market the device, subject to the general controls
+provisions of the Act. Although this letter refers to your product as a device, please be aware that some
+cleared products may instead be combination products. The 510(k) Premarket Notification Database
+available at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+
+K253304 - Moy Meng
+
+Page
+
+2
+
+Additional information about changes that may require a new premarket notification are provided in the FDA
+guidance documents entitled "Deciding When to Submit a 510(k) for a Change to an Existing Device"
+(https://www.fda.gov/media/99812/download) and "Deciding When to Submit a 510(k) for a Software
+Change to an Existing Device" (https://www.fda.gov/media/99785/download).
+Your device is also subject to, among other requirements, the Quality System (QS) regulation (21 CFR Part
+820), which includes, but is not limited to, 21 CFR 820.30, Design controls; 21 CFR 820.90, Nonconforming
+product; and 21 CFR 820.100, Corrective and preventive action. Please note that regardless of whether a
+change requires premarket review, the QS regulation requires device manufacturers to review and approve
+changes to device design and production (21 CFR 820.30 and 21 CFR 820.70) and document changes and
+approvals in the device master record (21 CFR 820.181).
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR Part 803) for
+devices or postmarketing safety reporting (21 CFR Part 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR Part 4, Subpart
+A) for combination products; and, if applicable, the electronic product radiation control provisions (Sections
+531-542 of the Act); 21 CFR Parts 1000-1050.
+All medical devices, including Class I and unclassified devices and combination product device constituent
+parts are required to be in compliance with the final Unique Device Identification System rule ("UDI Rule").
+The UDI Rule requires, among other things, that a device bear a unique device identifier (UDI) on its label
+and package (21 CFR 801.20(a)) unless an exception or alternative applies (21 CFR 801.20(b)) and that the
+dates on the device label be formatted in accordance with 21 CFR 801.18. The UDI Rule (21 CFR
+830.300(a) and 830.320(b)) also requires that certain information be submitted to the Global Unique Device
+Identification Database (GUDID) (21 CFR Part 830 Subpart E). For additional information on these
+requirements, please see the UDI System webpage at https://www.fda.gov/medical-devices/device-advicecomprehensive-regulatory-assistance/unique-device-identification-system-udi-system.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatory-
+
+K253304 - Moy Meng
+
+Page
+
+3
+
+assistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+YAN FU -S
+
+Digitally signed by
+YAN FU -S
+Date: 2025.11.25
+14:06:23 -05'00'
+
+for Tanisha Hithe
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical and
+Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+K253304
+
+Dongguan Lide Electric Appliance Co., Ltd
+510(k)s –510(k) Summary
+
+510(k) Summary
+K253304
+"510(k) Summary" as required by 21 CFR Part 807.92.
+Date prepared: 2025-11-13
+I.
+
+Submitter
+Dongguan Lide Electric Appliance Co., Ltd
+Building 2, No. 11 Yinhe Fifth Road, Shishuikou, Qiaotou Town, Dongguan City, Guangdong
+Province, China
+Contact person: Xiang Jinfeng
+Title: General manager
+Tel: +86 13414467133
+Email: 1519497841@qq.com
+
+II. Device Information
+Name of Device: IPL Hair Removal Device
+Model(s): KA-10, KA-11, KA-11C, KA-11D, KA-18, KA-20, KA-21, KA-21C
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+Regulation Number: 21 CRF 878.4810
+Product Code: OHT
+Review Panel: General & Plastic Surgery
+
+III. Predicate Device and Reference Device
+Predicate device 1:
+Manufacturer
+Predicate Device
+510(k) Number
+IPL Hair Removal Device Model(s): LS-T121, LS-T121A, LSShenzhen Lescolton Electrical T121B, LS-T121C, LS-T130, LS-T130A, LS-T130B, LS-T133, LSK241343
+T140
+Appliance Co., Ltd
+
+Cleared Date
+July 9, 2024
+
+Predicate device 2:
+Manufacturer
+Shenzhen
+Ulike
+Electronics Co.,Ltd.
+
+Predicate Device
+510(k) Number
+IPL Hair Removal Device
+Smart Model: UI06 PL, UI06 PN, UI06
+K223618
+JL, UI06 BR, UI06 DB, UI06 PR,
+UI06 OG, UI06 RD
+
+Cleared Date
+February 28,
+2023
+
+Reference device:
+
+Page 1 of 7
+
+Dongguan Lide Electric Appliance Co., Ltd
+510(k)s –510(k) Summary
+
+Manufacturer
+Reference Device
+Shenzhen
+Siken
+3D
+IPL Cooling Hair Removal Device
+Technology Development Co.,
+Model(s): SKB-2308
+Ltd.
+
+510(k) Number
+
+Cleared Date
+
+K232845
+
+November
+14, 2023
+
+IV. Device Description
+IPL Hair Removal Device, is an over-the-counter, home-use device for unwanted hair removing
+by using Intense Pulsed Light (IPL), and it has been designed eight models with the same IPL
+technology for hair removal, which is model: KA-10, KA-11, KA-11C, KA-11D, KA-18, KA-20,
+KA-21, KA-21C. The device works below the skin’s surface and does not involve any cutting or
+pulling, removing hair growth with minimal pain.
+The device is only powered by the external power adapter and its IPL emission activation is by
+finger switch or auto flash mode.
+The IPL Hair Removal Device has an irreplaceable flash window and it can cover an area of
+3.0cm2 for model KA-10, KA-11, KA-11C, KA-11D, and 3.3cm2 for model KA-18, KA-20, KA21, KA-21C, which is suitable for multiple hair removal areas, such as upper lip, armpit, bikini
+line, arms, legs, etc.
+The device contains a skin sensor to detect appropriate skin contact, if the flash window is not in
+full contact with the skin, the device cannot emit the treatment light pulses. Besides, the IPL Hair
+Removal Device has the sapphire cooling function (Model: KA-18, KA-20, KA-21) and ice
+cooling function (Model: KA-10, KA-11, KA-11C, KA-11D), which will be activated throughout
+the whole hair removal process to cool down the treatment area’s temperature and provide the
+user with a better using experience.
+
+V. Indications for Use
+The IPL Hair Removal Device is an over-the-counter device intended for removal of unwanted
+body and/ or facial hair.
+
+Page 2 of 7
+
+Dongguan Lide Electric Appliance Co., Ltd
+510(k)s –510(k) Summary
+
+VI. Comparison of Technological Characteristics With the Predicate Device
+The IPL Hair Removal Device has the same intended use as the predicate devices. The technological characteristics such as wavelength, energy
+density, spot size and pulse duration, are similar to the predicate devices and reference device. Any minor differences between the subject device
+and the listed predicate devices do no raise any issues of safety or efficacy. Performance data supports that the device is safe and as effective as the
+predicate devices for its intended use.
+Therefore, the IPL Hair Removal Device may be found substantially equivalent to its predicate devices.
+Comparison
+Elements
+510(k) Number
+
+K253304
+
+Trade name
+
+IPL Hair Removal Device
+
+Regulation number
+Product code
+Device classification
+
+21 CFR 878.4810
+OHT
+Class II
+
+Indication for use/
+Intended use
+
+The IPL Hair Removal Device
+is an over-the-counter device
+intended for removal of
+unwanted body and/or facial
+hair.
+
+Prescription or OTC
+
+OTC
+
+Applicable skin
+
+Fitzpatrick Skin Types I-IV
+
+Power supply
+
+INPUT:100~240V~50/60HZ
+
+Subject Device
+
+Predicate Device 1
+K241343
+IPL Hair Removal
+Device
+21 CFR 878.4810
+OHT
+Class II
+
+The IPL Hair Removal
+Device is an over-thecounter
+device
+intended for removal of
+unwanted body and/or
+facial hair.
+
+OTC
+Fitzpatrick skin types
+I-V
+100-240V, 50/60Hz
+
+Predicate Device 2
+K223618
+IPL Hair Removal Device
+21 CFR 878.4810
+OHT
+Class II
+IPL Hair Removal Device is
+indicated for the removal of
+unwanted hair. The device is
+also
+indicated
+for
+the
+permanent reduction in hair
+regrowth, defined as the longterm, stable reduction in the
+number of hairs regrowing
+when measured at 6, 9 and 12
+months after the completion of
+a treatment regime.
+OTC
+
+Reference Device
+
+Remark
+
+K232845
+IPL Cooling Hair Removal
+Device
+21 CFR 878.4810
+OHT
+Class II
+
+/
+/
+Same
+Same
+Same
+
+IPL Cooling Hair Removal
+Device is an over-the-counter
+device intended for removal of
+unwanted body hair.
+
+Same
+
+OTC
+
+Same
+
+Fitzpatrick Skin Types I-V
+
+Fitzpatrick Skin Types I-V
+
+Different
+
+100-240V, 50/60Hz
+
+Input: AC100~240V 50/60Hz
+
+Same
+Page 3 of 7
+
+Dongguan Lide Electric Appliance Co., Ltd
+510(k)s –510(k) Summary
+
+Comparison
+Elements
+510(k) Number
+
+Dimension
+
+Sterilization
+Light source
+Energy medium
+Wavelength range
+
+Energy density
+
+Spot size
+Pulse duration
+Pulsing control
+
+Subject Device
+K253304
+1.5A
+OUTPUT: 12V 4A 48W
+KA-10: 170*68*38mm
+KA-11: 167*66*37.5mm
+KA-11C: 170*68*38mm
+KA-11D: 170*68*38mm
+KA-18: 178*58*34mm
+KA-20: 178*58*34mm
+KA-21: 181*60*38mm
+KA-21C: 181*60*38mm
+Not required
+Intense Pulsed Light
+Xenon Arc Flashlamp
+600-1200nm (±30nm)
+KA-10, KA-11, KA-11C, KA11D: 2-4.67J/cm²
+(range in 1.6-5.6J/cm²)
+KA-18, KA-21, KA-21C:
+2.42-4.85J/cm²
+(range in 1.93-5.82J/cm²)
+KA-20: 2.72-4.55J/cm²
+(range in 2.18-5.46J/cm²)
+KA-10, KA-11, KA-11C, KA11D: 3.0cm²
+KA-18, KA-21, KA-21C, KA20: 3.3cm²
+10±3ms
+Finger switch
+
+Predicate Device 1
+
+Predicate Device 2
+
+Reference Device
+
+Remark
+
+K241343
+
+K223618
+
+K232845
+Output: DC12V 4A
+
+/
+
+LS-T130:
+182*110.6*56.6 mm
+
+58×34×179mm
+
+SKB-2308: 203*161*58mm
+
+Different
+
+Not required
+Intense Pulsed Light
+Xenon Arc lamp
+LS-T130: 600-1200nm
+
+Not required
+Intense Pulsed Light
+Xenon Arc Flashlamp
+560-1200mm
+
+Not required
+Intense Pulsed Light
+Xenon Arc Flashlamp
+SKB-2308: 530~1200nm
+
+Same
+Same
+Same
+Same
+
+LS-T130: 1.3~5.7J/cm2
+
+3~6 J/cm2
+
+SKB-2308: Max. 5.2J/cm²
+(range in 1.3~5.2J/cm²)
+
+Similar
+
+LS-T130: 3.6 cm2
+
+3.3cm²
+
+3cm²
+
+Similar
+
+LS-T130: 0.5-5ms
+Finger switch
+
+1ms~7ms
+Finger switch
+
+10±5ms
+Finger switch
+
+Similar
+Same
+Page 4 of 7
+
+Dongguan Lide Electric Appliance Co., Ltd
+510(k)s –510(k) Summary
+
+Comparison
+Elements
+510(k) Number
+
+Subject Device
+
+Predicate Device 1
+
+Predicate Device 2
+
+Reference Device
+
+Remark
+
+K253304
+KA-10, KA-11C, KA-11D: 9
+levels
+KA-11, KA-18, KA-21, KA21C: 5 levels
+KA-20: 3 levels
+
+K241343
+
+K223618
+
+K232845
+
+/
+
+LS-T130: 5 levels
+
+3 levels
+
+1 to 5 level
+
+Similar
+
+Software/ Firmware/
+Microprocessor
+Control?
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Same
+
+Electrical safety
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+
+Same
+
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+ISO 10993-23
+
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+ISO 10993-23
+
+IEC 62471
+
+Same
+
+ISO 10993-5
+ISO 10993-10
+
+Same
+
+Output intensity level
+
+Eye safety
+Biocompatibility
+
+ANSI AAMI ES60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-57
+IEC 60601-2-83
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+
+Page 5 of 7
+
+Dongguan Lide Electric Appliance Co., Ltd
+510(k)s –510(k) Summary
+
+VII.Performance Data
+The following performance data were provided in support of the substantial equivalence
+determination.
+1) Biocompatibility Evaluation
+The biocompatibility evaluation for the body-contacting components of the IPL Hair Removal
+Device was conducted in accordance with the "Use of International Standard ISO 10993-1,
+'Biological Evaluation of Medical Devices –Part 1: Evaluation and Testing Within a Risk
+Management Process, Document Issued on September 4, 2020", as recommended by FDA.
+
+
+ISO 10993-5: 2009, Biological evaluation of medical devices –Part 5: Tests for in vitro
+cytotoxicity
+
+
+
+ISO 10993-10: 2021, Biological evaluation of medical devices - Part 10: Tests for skin
+sensitization
+
+
+
+ISO 10993-23: 2021, Biological evaluation of medical devices - Part 23: Tests for
+irritation
+
+2) Electrical Safety and EMC
+Electrical safety and EMC testing was performed to, and passed, as per the following standards:
+ IEC 60601-1-2: 2020, Medical electrical equipment –Part 1-2: General requirements for
+basic safety and essential performance –Collateral standard: electromagnetic compatibility.
+
+
+IEC 60601-1: 2020, Medical electrical equipment - Part 1: General requirements for basic
+safety and essential performance.
+
+
+
+IEC 60601-1-11: 2020, Medical electrical equipment - Part 1-11: General requirements for
+basic safety and essential performance - Collateral Standard: Requirements for medical
+electrical equipment and medical electrical systems used in the home healthcare
+environment.
+
+
+
+IEC 60601-2-83: 2022, Medical electrical equipment - Part 2-83: Particular requirements
+for the basic safety and essential performance of home light therapy equipment.
+
+3) Eye Safety
+ IEC 62471:2006, Photobiological safety of lamps and lamp systems
+4) Software Verification and Validation
+Software documentation consistent with Basic Documentation of concern was submitted in this
+510(k). System validation testing presented in this 510(k) demonstrated that all software
+requirement specifications are met and all software hazards have been mitigated to acceptable risk
+levels.
+
+Page 6 of 7
+
+Dongguan Lide Electric Appliance Co., Ltd
+510(k)s –510(k) Summary
+
+VIII.
+
+Conclusions
+
+Based on the above analysis and non-clinical tests performed, it can be concluded that the subject
+device IPL Hair Removal Device is as safe, as effective, and performs as well as the legally
+marketed predicate devices.
+
+Page 7 of 7
+
+

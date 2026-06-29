@@ -1,0 +1,876 @@
+DEPARTMENT OF HEALTH & HUMAN SERVICES
+
+Public Health Service
+
+Food and Drug Administration
+10903 New Hampshire Avenue
+Document Control Center – WO66-G609
+Silver Spring, MD 20993-0002
+
+August 8, 2014
+EL Global Trade Ltd.
+Dr. Shlomit Segman
+Quality Assurance and Regulatory Affairs Manager
+Tzoran 4th Street
+P.O. Box 8242
+Netanya, 42504 - Israel
+Re: K140381
+Trade/Device Name: sensiLight/sensiLight plus
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser surgical instrument for use in general
+and plastic surgery and in dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: June 15, 2014
+Received: July 14, 2014
+Dear Dr. Segman:
+We have reviewed your Section 510(k) premarket notification of intent to market the device
+referenced above and have determined the device is substantially equivalent (for the indications
+for use stated in the enclosure) to legally marketed predicate devices marketed in interstate
+commerce prior to May 28, 1976, the enactment date of the Medical Device Amendments, or to
+devices that have been reclassified in accordance with the provisions of the Federal Food, Drug,
+and Cosmetic Act (Act) that do not require approval of a premarket approval application (PMA).
+You may, therefore, market the device, subject to the general controls provisions of the Act. The
+general controls provisions of the Act include requirements for annual registration, listing of
+devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability
+warranties. We remind you; however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it
+may be subject to additional controls. Existing major regulations affecting your device can be
+found in the Code of Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may
+publish further announcements concerning your device in the Federal Register.
+Please be advised that FDA’s issuance of a substantial equivalence determination does not mean
+that FDA has made a determination that your device complies with other requirements of the Act
+or any Federal statutes and regulations administered by other Federal agencies. You must
+comply with all the Act’s requirements, including, but not limited to: registration and listing (21
+
+Page 2 – Dr. Shlomit Segman
+CFR Part 807); labeling (21 CFR Part 801); medical device reporting (reporting of medical
+device-related adverse events) (21 CFR 803); good manufacturing practice requirements as set
+forth in the quality systems (QS) regulation (21 CFR Part 820); and if applicable, the electronic
+product radiation control provisions (Sections 531-542 of the Act); 21 CFR 1000-1050.
+If you desire specific advice for your device on our labeling regulation (21 CFR Part 801), please
+contact the Division of Small Manufacturers, International and Consumer Assistance at its tollfree number (800) 638-2041 or (301) 796-7100 or at its Internet address
+http://www.fda.gov/MedicalDevices/ResourcesforYou/Industry/default.htm. Also, please note
+the regulation entitled, sMisbranding by reference to premarket notifications (21CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21
+CFR Part 803), please go to
+http://www.fda.gov/MedicalDevices/Safety/ReportaProblem/default.htm for the CDRH’s Office
+of Surveillance and Biometrics/Division of Postmarket Surveillance.
+You may obtain other general information on your responsibilities under the Act from the
+Division of Small Manufacturers, International and Consumer Assistance at its toll-free number
+(800) 638-2041 or (301) 796-7100 or at its Internet address
+http://www.fda.gov/MedicalDevices/ResourcesforYou/Industry/default.htm.
+Sincerely yours,
+
+David Krause -S
+for
+
+Enclosure
+
+Binita S. Ashar, M.D., M.B.A., F.A.C.S.
+Director
+Division of Surgical Devices
+Office of Device Evaluation
+Center for Devices and
+Radiological Health
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: January 31, 2017
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+Kl40381
+Device Name
+
+sensiLight/sensiLight Plus
+
+Indications for Use (Describe)
+
+The sensiLight™/sensiLight™ Plus device is an over-the-counter device intended for the removal of unwanted hair. The
+sensiLight™/sensiLight™ Plus is also intended for permanent reduction in hair regrowth, defined as a long-term, stable
+reduction in the number of hairs regrowing when measured at 6, 9, and 12 months after the completion of treatment
+regimen.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+PLEASE DO NOT WRITE BELOW THIS LINE – CONTINUE ON A SEPARATE PAGE IF NEEDED.
+FOR FDA USE ONLY
+Concurrence of Center for Devices and Radiological Health (CDRH) (Signature)
+
+Neil R Ogden -S
+2014.08.07 11:38:18 -04'00'
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (1/14)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+th
+
+Tzoran 4 St, P.O.Box 8242, Netanya 42504, Israel
+Tel: +972-9-7889069
+Fax: +972-9-7734831
+
+EL Global Trade Ltd
+sensiLight – 510K submission
+
+RD-16044 A0
+
+510(K) SUMMARY FOR EL GLOBAL TRADE LTD.'S SENSILIGHT
+DATE PREPARED: FEB 10TH, 2014
+
+1.
+
+510(K) OWNER NAME
+EL Global Trade Ltd.
+Tzoran 4th st, P.O.Box 8242, Netanya 42504, Israel.
+Phone: +972-9-7889069, Fax: +972-9-7734831.
+Contact person name: Dr. Shlomit Segman, QA and RA manager
+Phone: +972-9-7889069, Fax: +972-9-7734831, E mail: Shlomit@elglobalt.com
+
+2.
+
+DEVICE NAME
+Common/Usual Name: Light based hair removal deices
+Proprietary/Trade name: sensiLight (sensiLight and sensiLight Plus)
+Classification: EL Global Trade Ltd.'s sensiLight device has been classified as Class
+II device under the following classification names:
+
+3.
+
+Classification Name
+
+Product
+Code
+
+Regulation
+Number
+
+Panel
+
+Light Based Over-TheCounter Hair Removal
+
+OHT
+
+878.4810
+
+General and Plastic
+Surgery
+
+PREDICATE DEVICES
+EL Global Trade Ltd.'s sensiLight device is substantially equivalent to the following
+Predicate Device:
+3.1 Home Skinovations Ltd.'s Glide device,
+cleared under 510(k) number K131870 at August 14th, 2013.
+3.2 Home Skinovations Ltd.'s Silk'n Flash N Go,
+cleared under 510(k) number K103184 at November 10th, 2010.
+
+DEVICE DESCRIPTION
+5-1
+5-2
+
+EL Global Trade Ltd
+sensiLight – 510K submission
+
+th
+
+Tzoran 4 St, P.O.Box 8242, Netanya 42504, Israel
+Tel: +972-9-7889069
+Fax: +972-9-7734831
+RD-16044 A0
+
+The sensiLight devices are pulsed light hair removal device. Light-based hair removal
+is based on the theory of selective photothermolysis in which optical energy is used to
+disable hair growth. The sensiLight devices are composed of a hand held applicator
+and an external power supply. The spot size (treatment area) in the sensiLight devices
+is 3 cm2.
+The device contains a lamp, a skin proximity sensor and a skin pigmentation sensor to
+detect appropriate skin tones. If the sensiLight is not properly applied (in full contact
+with the skin) or user skin tone is too dark/tanned, the sensiLight will not trigger a
+pulse.
+(*) The sensiLight Plus model contains in addition, a movement sensor to prevent
+pulse overlapping.
+Body contact materials were evaluated for biocompatibility with accordance to FDA’s
+Memorandum – #G95 1, May 1, 1995 and ISO 10993-1:2009.
+4.
+
+INTENDED USE
+The sensiLight is an over the counter devices intended for the removal of unwanted
+hair. The sensiLight is also intended for permanent reduction in hair regrowth,
+defined as a long-term, stable reduction in the number of hairs re-growing when
+measured at 6, 9, and 12 months after the completion of treatment regimen.
+
+5.
+
+TECHNOLOGICAL CHARACTERISTICS AND SUBSTANTIAL EQUIVALENCE
+Table 1 presented in the next pages, compares the similarities and differences of EL
+Global Trade Ltd.'s sensiLight device to the predicate devices manufactured by Home
+Skinovations Ltd. as identified above.
+
+th
+
+Tzoran 4 St, P.O.Box 8242, Netanya 42504, Israel
+Tel: +972-9-7889069
+Fax: +972-9-7734831
+
+EL Global Trade Ltd
+sensiLight – 510K submission
+
+Feature
+
+Intend of use
+
+Operation
+Principle
+
+Technology
+Comparison of
+treatment
+regime
+
+Safety
+
+RD-16036 A0
+
+EL Global Trade Ltd.
+sensiLight & sensiLight
+Plus
+
+Home Skinovations
+Ltd.
+Glide
+
+Home Skinovations
+Ltd.
+Silk'n Flash N Go
+
+-New Devices The sensiLight is an over
+the counter device
+intended for the removal
+of unwanted hair. The
+sensiLight is also
+intended for permanent
+reduction in hair
+regrowth, defined as a
+long-term, stable
+reduction in the number
+of hairs re-growing when
+measured at 6, 9, and 12
+months after the
+completion of treatment
+regime.
+Photothermolysis. Light
+energy is absorbed, heats
+the hair follicles and
+interrupts the growth
+cycle.
+
+510(k) no. K131870
+
+510(k) no. K103184
+
+Home Pulsed Light
+• The 1–4 treatments will
+be approximately two
+weeks apart
+• Followed by 5-7
+treatments plan fourweek time intervals.
+• Maintenance will be
+needed from time to time
+if growth is still visible
+
+o IEC 60601-1:2005/EN
+60601-1:2006. Medical
+electric equipment-Part 1
+General requirements for
+Basic safety and essential
+performance, 3rd Ed.
+
+EL Global Trade Ltd. 510(k)
+sensiLight
+
+TM
+
+The Glide device is an
+over the counter device
+intended for the removal of
+unwanted hair. The
+GlideTM device is also
+intended for permanent
+reduction in hair regrowth,
+defined as the long-term,
+stable reduction in the
+number of hairs regrowing
+when measured at 6, 9, and
+12 months after the
+completion of a treatment
+regime.
+
+The Flash N Go device is
+an over the counter device
+intended for the removal of
+unwanted hair. Flash N Go
+is also intended for
+permanent reduction in hair
+regrowth defined as a longterm, stable reduction in
+hair counts following a
+treatment regime.
+
+Photothermolysis. Light
+energy is absorbed, heats
+the hair follicles and
+interrupts the growth
+cycle.
+
+Photothermolysis. Light
+energy is absorbed, heats
+the hair follicles and
+interrupts the growth
+cycle.
+
+Home Pulsed Light
+• Treatments 1-4 – plan
+two weeks apart
+• Treatment 5-7 – plan four
+weeks apart
+• Treatment 8+ - treat as
+needed, until desired
+results are achieved.
+
+Home Pulsed Light
+• First 3-4 hair removal
+sessions will be
+approximately two weeks
+apart.
+• Sessions 5-7 will be
+approximately four weeks
+apart.
+• After, use again from
+time to time if and when
+needed, until long-term
+results are achieved.
+
+Maintenance – from time
+to time some upkeep may
+be needed if growth is
+still visible.
+o IEC 60601-1, Medical
+Electrical Equipment Part 1: General
+Requirements for Safety,
+1988; Amendment 1,
+1991 -11, Amendment 2,
+
+July 29, 2014
+
+5-3
+
+o IEC 60601-1, Medical
+Electrical Equipment Part 1: General
+Requirements for Safety,
+1988 (Second Edition).
+CONFIDENTIAL
+
+th
+
+Tzoran 4 St, P.O.Box 8242, Netanya 42504, Israel
+Tel: +972-9-7889069
+Fax: +972-9-7734831
+
+EL Global Trade Ltd
+sensiLight – 510K submission
+
+Feature
+
+EMC
+
+Optical
+aperture
+Emitted
+Spectrum
+Max energy
+level
+
+RD-16036 A0
+
+EL Global Trade Ltd.
+sensiLight & sensiLight
+Plus
+
+Home Skinovations
+Ltd.
+Glide
+
+Home Skinovations
+Ltd.
+Silk'n Flash N Go
+
+-New Devices -
+
+510(k) no. K131870
+
+510(k) no. K103184
+
+o IEC 60601-1-11:2010.
+1995.
+Medical electric
+o EN 6060 1-2-57: 2011
+equipment-Part 1:
+Medical electrical
+Collateral requirements
+equipment - Part 2-57:
+for medical electrical
+Particular requirements
+equipment and medical
+for the basic safety and
+electrical systems used in
+essential performance of
+the home healthcare
+non-laser light source
+environment.
+equipment intended for
+therapeutic, diagnostic,
+o IEC 60601-2-57:2011.
+monitoring and cosmeti
+Medical electrical
+equipment-Part 2:
+c/aesthetic use.
+Particular requirements
+o EN 62471: 2008
+for basic safety and
+Photobiological safety of
+essential performance of
+lamps and lamp systems.
+non-laser light source
+equipment intended for
+therapeutic, diagnostic,
+monitoring and
+cosmetics/aesthetic use
+o IEC 62471:2006 (First
+Edition) Photo-biological
+safety of lamps and lamp
+systems
+IEC 60601-1-2:2013
+IEC 60601-1-2 (2007),
+(Medical electrical
+Medical Electrical
+equipment –fourth Edition). Equipment - Part 1-2:
+General
+Part 1-2: General
+requirements for basic
+Requirements for Safety safety and essential
+Collateral Standard:
+performance – Collateral
+Electromagnetic
+standard: Electromagnetic
+Compatibility -compatibility –
+Requirements and Tests
+Requirements and tests
+Performance Features
+
+IEC 60601-1-2 (2004),
+Medical Electrical
+Equipment - Part 1-2:
+General
+Requirements for Safety Collateral Standard:
+Electromagnetic
+Compatibility -Requirements and Tests
+
+3 [cm2]
+
+2. 7 [cm2]
+
+6 [cm2]
+
+475-1200 [nm]
+
+475-1200 [nm]
+
+475-1200 [nm]
+
+5 [joules/cm2]
+
+5 [joules/cm2]
+
+5 [joules/cm2]
+
+EL Global Trade Ltd. 510(k)
+sensiLight
+
+July 29, 2014
+
+5-4
+
+CONFIDENTIAL
+
+th
+
+Tzoran 4 St, P.O.Box 8242, Netanya 42504, Israel
+Tel: +972-9-7889069
+Fax: +972-9-7734831
+
+EL Global Trade Ltd
+sensiLight – 510K submission
+
+Feature
+
+(fluence)
+User
+selectable
+Energy levels
+Single pulse
+duration
+Interval
+between
+pulses
+Power
+Supply
+
+RD-16036 A0
+
+EL Global Trade Ltd.
+sensiLight & sensiLight
+Plus
+
+Home Skinovations
+Ltd.
+Glide
+
+Home Skinovations
+Ltd.
+Silk'n Flash N Go
+
+-New Devices -
+
+510(k) no. K131870
+
+510(k) no. K103184
+
+3
+
+5
+500-800 [uSec]
+
+5
+500-800 [uSec]
+
+500-800 [uSec]
+
+~2 [Sec]
+
+1-3.4 [Sec], depending
+on energy level
+
+~ 3.5 [Sec]
+
+External power supply
+110-240 VAC, 50-60Hz
+to 19VDC, 1.8Amp
+
+External power supply 110240 VAC, 2Amp
+
+110-240 [VAC], 50-60
+[Hz]
+
+Safety Features
+Close contact
+detector
+
+Prevent the activation of
+the device while not in
+close contact with the
+skin.
+Optical – does not allow
+activation on dark skin
+
+Yes
+
+Yes
+
+Optical – does not allow
+activation on dark skin
+
+Optical – does not allow
+activation on dark skin
+
+In the sensiLight Plus
+(Second model)
+
+No
+
+No
+
+Fitzpatrick 4
+
+Fitzpatrick 4
+
+Fitzpatrick 4
+
+o Top, Side and Bottom
+shell - ABS/PC plastic
+(Acrylonitrile butadiene
+styrene/PolyCarbonate)
+o Optical Filter - Color
+glass which purpose is of
+an optical long pass filter
+tested for
+biocompatibility
+
+o Device outer body ABS/PC plastic
+(Acrylonitrile butadiene
+styrene/PolyCarbonate)
+o Optical Filter - Color
+glass which purpose is of
+an optical long pass filter
+tested for
+biocompatibility
+
+o Device outer body ABS/PC plastic
+(Acrylonitrile butadiene
+styrene/PolyCarbonate)
+o Optical Filter - Color
+glass which purpose is of
+an optical long pass filter
+tested for
+biocompatibility
+
+Overall Design The sensiLight device is
+
+The Glide device is light
+based hair removal
+system composed of a
+hand held applicator.
+
+The Flash N Go is light
+based hair removal
+system composed o f a
+base unit and hand-held
+applicator.
+
+Pigmentation
+level detector
+(*)
+Movement
+sensor
+Darkest skin
+allowed
+Materials
+
+light based hair removal
+system composed of a
+hand-held applicator.
+EL Global Trade Ltd. 510(k)
+sensiLight
+
+July 29, 2014
+
+5-5
+
+CONFIDENTIAL
+
+th
+
+Tzoran 4 St, P.O.Box 8242, Netanya 42504, Israel
+Tel: +972-9-7889069
+Fax: +972-9-7734831
+
+EL Global Trade Ltd
+sensiLight – 510K submission
+
+Feature
+
+Use
+Environment
+
+•
+
+•
+
+•
+
+6.
+
+RD-16036 A0
+
+EL Global Trade Ltd.
+sensiLight & sensiLight
+Plus
+
+Home Skinovations
+Ltd.
+Glide
+
+Home Skinovations
+Ltd.
+Silk'n Flash N Go
+
+-New Devices -
+
+510(k) no. K131870
+
+510(k) no. K103184
+
+Home Use
+
+Home Use
+
+Home Use
+
+The sensiLight device relies on the same technology: Intense Pulsed Light (IPL) which is
+the same as both predicate devices. The safety and efficacy of IPL treatment for hair
+reduction are governed by the following parameters:
+Wavelength of the light emitted: Defines the interaction with specific chromophores (the
+part of the molecule responsible for its color) such as melanin, hemoglobin and water.
+The sensiLight device and the predicate devices utilize exactly the same wavelength (475
+– 1200nm).
+Fluence/flux – defines the energy per area (e.g. joules per cm²) for the treatment. The
+sensiLight device and the predicate devices deliver exactly the same maximum energy (5
+joules/cm2).
+Pulse duration – Provides for an efficient heating of the target molecule but not its
+surroundings. The sensiLight device and the predicate devices utilize exactly the same
+pulse.
+PERFORMANCE DATA
+EL Global Trade Ltd's sensiLight has been successfully tested through bench, usability
+and safety tests to support the determination of substantial equivalence with predicate
+devices.
+The sensiLight device has been tested and complies with the following voluntary
+recognized standards:
+1. IEC 60601-1:2005/EN 60601-1:2006. Medical electric equipment-Part 1 General
+requirements for Basic safety and essential performance, 3rd Ed.
+2. IEC 60601-1-11:2010. Medical electric equipment-Part 1: Collateral requirements
+for medical electrical equipment and medical electrical systems used in the home
+healthcare environment.
+3. IEC 60601-2-57:2011. Medical electrical equipment-Part 2: Particular requirements
+for basic safety and essential performance of non-laser light source equipment
+intended for therapeutic, diagnostic, monitoring and cosmetics/aesthetic use.
+
+EL Global Trade Ltd. 510(k)
+sensiLight
+
+July 29, 2014
+
+5-6
+
+CONFIDENTIAL
+
+th
+
+Tzoran 4 St, P.O.Box 8242, Netanya 42504, Israel
+Tel: +972-9-7889069
+Fax: +972-9-7734831
+
+EL Global Trade Ltd
+sensiLight – 510K submission
+
+RD-16036 A0
+
+4. IEC 60601-1-11. Medical electric equipment-Part 1-11: General requirements for
+basic safety and essential performance - Collateral Standard: Requirements for
+medical electrical equipment and medical electrical systems used in the home
+healthcare environment.
+5. FCC part 15, Subpart B, Class B.
+6. IEC 60601-1-2:2007 Medical electrical equipment – Part 1-2: General requirements
+for basic safety and essential performance – Collateral standard: Electromagnetic
+compatibility – Requirements and tests.
+7. Software Validation was conducted according to IEC 62304:2006 - Medical device
+software - Software life cycle processes, and;
+FDA Guidance for the Content of Pre-Market Submissions for Software Contained in
+Medical Devices, dated May 11, 2005.
+8. ISO 10993-1:2009 – Biological evaluation of medical devices - Part 1: Evaluation
+and testing within a risk management process and with FDA’s Memorandum – #G95
+1, May 1, 1995, Use of International Standard ISO-10993, "Biological Evaluation of
+Medical Devices Part 1: Evaluation and Testing" (Blue Book Memo G95-1).
+9. IEC 60601-1-6:2010, Medical electrical equipment - Part 1-6: General requirements
+for basic safety and essential performance and IEC 62366:2007 – Medical devices –
+Application of usability engineering to medical devices - Collateral standard:
+Usability and FDA Guidance for Medical Device Use-Safety: Incorporating Human
+Factors Engineering into Risk Management (July18,2000) and ISO/IEC 14971:2007
+(BS EN ISO 14971:2012) Medical devices – Application of risk management to
+medical devices.
+10. IEC 62471:2006, Photo-biological safety of lamps and lamp systems.
+Tests results are supporting all labeling claims in order to establish substantial
+equivalency.
+
+7.
+
+SUBSTANTIAL EQUIVALENCE
+EL Global Trade Ltd.'s sensiLight is substantial equivalent to the predicate device
+selected in terms of indication for use, technology, performances, place of use, patient
+population and nature of body contact.
+The Substantial equivalent decision was received based on the following comparison with
+the predicate device:
+The design and components in the sensiLight, including the hand held applicator (with
+lamp, microcontroller, fan, skin color sensor, skin proximity sensor, indicator LEDs and
+operational button/s) are similar to the design and components found in the predicate
+devices (K131870 and K103184). The performance specifications (including light energy
+
+EL Global Trade Ltd. 510(k)
+sensiLight
+
+July 29, 2014
+
+5-7
+
+CONFIDENTIAL
+
+th
+
+Tzoran 4 St, P.O.Box 8242, Netanya 42504, Israel
+Tel: +972-9-7889069
+Fax: +972-9-7734831
+
+EL Global Trade Ltd
+sensiLight – 510K submission
+
+RD-16036 A0
+
+power, wavelength and pulse duration) are identical. The safety features found in the
+devices are the same, including the skin color sensor, skin proximity sensor, etc. These
+safety features in the sensiLight device are substantially equivalent to the safety features
+found in the predicate devices. Any minor differences in the technological characteristics
+do not raise new safety or effectiveness concerns. Furthermore, the new sensiLight device
+underwent performance testing, including software validation testing and electrical and
+mechanical safety testing according to IEC 60601-1 and electromagnetic compatibility
+testing according to IEC 60601-1-2. Usability testing was also successfully conducted.
+
+8.
+
+CONCLUSIONS
+The evaluation of our device performances demonstrates that it is as safe and as effective
+as the predicate devices.
+
+EL Global Trade Ltd. 510(k)
+sensiLight
+
+July 29, 2014
+
+5-8
+
+CONFIDENTIAL
+
+

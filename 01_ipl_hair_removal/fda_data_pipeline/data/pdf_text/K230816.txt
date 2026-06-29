@@ -1,0 +1,692 @@
+April 21, 2023
+Shangdong Huamei Technology Co., Ltd.
+℅ Ray Wang
+General Manger
+Beijing Believe-Med Technology Service Co., Ltd.
+Rm.912, Building #15, XiYueHui, No.5, YiHe North Rd.,
+FangShan District
+Beijing, 102401
+China
+Re: K230816
+Trade/Device Name: Intense Pulsed Light Treatment System
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: ONF
+Dated: March 23, 2023
+Received: March 24, 2023
+Dear Ray Wang:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.06.01
+
+K230816 - Ray Wang
+
+Page 2
+
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Jianting Wang -S
+Jianting Wang
+Acting Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Indications for Use
+
+Form Approved: 0MB No. 0910-0120
+Expiration Date: 06/30/2023
+See PRA Statement below.
+
+Submission Number (if known)
+
+K230816
+Device Name
+
+Intense Pulsed Light Treatment System (EROSE-YA)
+Indications for Use (Describe)
+
+The Intense Pulsed Light Treatment System (Model: HM-IPL-BB) are indicated for use in surgical
+and aesthetic applications in permanent hair removal, reduction of benign pigmented lesions and
+benign vascular lesions.
+Permanent hair reduction is defined as the long-term, stable reduction in the number of hairs
+regrowing when measured at 6, 9, and 12 months after the completion of a treatment regimen.
+
+Type of Use (Select one or both, as applicable)
+
+IZI Prescription Use (Part 21 CFR 801 Subpart D)
+
+D Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+"An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid 0MB number."
+
+510(k) Summary
+
+510(k) Summary
+This 510(k) Summary of 510(k) safety and effectiveness information is being submitted in accordance
+with requirements of SMDA 1990 and Title 21, CFR Section 807.92.
+The assigned 510(k) Number: K230816
+1.
+
+Date of Preparation: 03/23/2023
+
+2.
+
+Sponsor Identification
+Shangdong Huamei Technology Co., Ltd.
+No. 588, Changning Street, High-tech District, WeiFang, ShanDong, China, 261205
+Contact Person: Yugui Dong
+Position: Vice-general manager
+Tel: +86-15306469955
+Email: 2851353667@qq.com
+
+3.
+
+Designated Submission Correspondent
+Mr. Ray Wang
+Beijing Believe-Med Technology Service Co., Ltd.
+Rm.912, Building #15, XiYueHui, No.5, YiHe North Rd., FangShan District，Beijing City, China,
+102401
+Tel: +86-18910677558
+Fax: +86-10-56335780
+Email: information@believe-med.com
+
+1
+
+510(k) Summary
+
+4.
+
+Identification of Proposed Device
+Trade Name: Intense Pulsed Light Treatment System
+Common Name: Powered Light Based Non-Laser Surgical Instrument With Thermal Effect
+Model(s): EROSE-YA
+Regulatory Information:
+Classification Name: Powered Light Based Non-Laser Surgical Instrument With Thermal Effect
+Classification: II;
+Product Code: ONF;
+Regulation Number: 21 CFR 878.4810；
+Review Panel: General & Plastic Surgery;
+Indication For Use Statement:
+The Intense Pulsed Light Treatment System (Model: EROSE-YA)) is indicated for use in surgical
+and aesthetic applications in permanent hair removal, reduction of benign pigmented lesions and
+benign vascular lesions.
+Permanent hair reduction is defined as the long-term, stable reduction in the number of hairs
+regrowing when measured at 6, 9, and 12 months after the completion of a treatment regimen.
+Device Description:
+The EROSE-YA device is an intense pulsed light system which delivers intense pulsed light at
+wavelengths ranging from 430nm-1200nm. Intense Pulsed Light (IPL) systems work on the
+principles of selective thermolysis. That is, causing thermal damage to target chromophores by
+using light of appropriate wavelength in pulses that exceeds the chromophores’ thermal relaxation
+time but sparing normal skin by limiting the pulse width below the thermal relaxation time for skin.
+IPL systems are different from lasers in that they deliver many wavelengths in each pulse of light
+instead of just one wavelength. Generally, IPL enhances penetration without using excessive energy
+levels and enables targeting of specific chromophores.
+
+5.
+
+Identification of Predicate Device(s)
+510(k) Number
+K192521
+Predicate Device Name
+Intense Pulsed Light Treatment System
+Manufacturer
+Shangdong Huamei Technology Co., Ltd.
+Intended Use:
+2
+
+510(k) Summary
+
+The Intense Pulsed Light Treatment System (Model: HM-IPL-B8) are indicated for use in surgical
+and aesthetic applications in permanent hair removal, reduction of benign pigmented lesions and
+benign vascular lesions.
+Permanent hair reduction is defined as the long-term, stable reduction in the number of hairs
+regrowing when measured at 6, 9, and 12 months after the completion of a treatment regimen.
+6.
+
+Non-Clinical Test Conclusion
+Non clinical tests were conducted to verify that the proposed device met all design specifications as
+was Substantially Equivalent (SE) to the predicate device. The test results demonstrated that the
+proposed device complies with the following standards:
+a) IEC 60601-1-2 :2014/AMD1:2020, Medical Electrical Equipment - Part 1-2: General
+Requirements for Safety - Collateral Standard: Electromagnetic Compatibility -- Requirements and
+Tests.
+b) IEC 60601-1:2005+A1:2012+A2:2020, Medical electrical equipment - Part 1: General
+requirements for basic safety and essential performance
+c) IEC60601-2-57:2011, Medical electrical equipment -- Part 2-57: Particular requirements for the
+basic safety and essential performance of non-laser light source equipment intended for therapeutic,
+diagnostic, monitoring and cosmetic/aesthetic use
+d) ISO 10993-5:2009, Biological Evaluation of Medical Device, Part 5-Tests for Vitro cytotoxicity.
+e) ISO 10993-10:2010 Standard, Biological Evaluation of Medical Device, Part 10-Test for
+irritation and delay-type hypersensitivity.
+
+7.
+
+Clinical Test Conclusion
+No clinical study is included in this submission.
+
+3
+
+510(k) Summary
+
+8.
+
+Substantially Equivalent (SE) Comparison
+Table 1 General Comparison
+Predicate Device
+ITEM
+
+Proposed Device
+
+Intense Pulsed Light Treatment
+
+Remark
+
+System (K192521)
+Product Code
+
+ONF
+
+ONF
+
+SE
+
+Regulation No.
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+SE
+
+Class
+
+II
+
+II
+
+SE
+
+Intended Use
+
+The Intense Pulsed Light Treatment
+
+The
+
+System (Model: HM-IPL-B8) are
+
+Treatment
+
+indicated for use in surgical and
+
+HM-IPL-B8) are indicated for use
+
+aesthetic applications in permanent
+
+in
+
+hair removal, reduction of benign
+
+applications in permanent hair
+
+pigmented
+
+removal,
+
+lesions
+
+and
+
+benign
+
+Intense
+
+Pulsed
+
+Light
+
+System
+
+surgical
+
+(Model:
+
+and
+
+reduction
+
+aesthetic
+of
+
+benign
+
+vascular lesions.
+
+pigmented lesions and benign
+
+Permanent hair reduction is defined
+
+vascular lesions.
+
+as the long-term, stable reduction in
+
+Permanent
+
+the number of hairs regrowing
+
+defined as the long-term, stable
+
+when measured at 6, 9, and 12
+
+reduction in the number of hairs
+
+months after the completion of a
+
+regrowing when measured at 6, 9,
+
+treatment regimen.
+
+and
+
+hair
+
+12
+
+SE
+reduction
+
+months
+
+after
+
+is
+
+the
+
+completion of a treatment regimen.
+
+Table 2 Performance Comparison
+Predicate Device
+ITEM
+
+Proposed Device
+
+Intense Pulsed Light Treatment
+
+Remark
+
+System (K192521)
+Light source
+
+Intense pulsed light
+
+Intense pulsed light
+
+430-1200nm ， 530-1200nm ，
+
+430-1200nm ， 530-1200nm ，
+
+640-1200nm
+Wavelength
+
+Optional ： 480nm-1200nm ，
+560-1200nm，590-1200nm，
+
+SE
+
+640-1200nm
+Optional ： 480nm-1200nm ，
+
+SE
+
+560-1200nm，590-1200nm，
+
+690-1200nm，750nm-1200nm
+
+690-1200nm，750nm-1200nm
+
+Deliver system
+
+Sapphire
+
+Sapphire
+
+SE
+
+Energy density
+
+10-50J/cm2 ±20%error
+
+10-50J/cm2
+
+SE
+
+Pulse Delay
+
+5-50ms ±10%error
+
+5-50ms
+
+SE
+
+Pulse Width
+
+1-20ms ±10%error
+
+1-20ms
+
+SE
+
+Max. Power
+
+2000W
+
+2000W
+
+SE
+
+15mm×50mm; 80mm×40mm
+
+SE
+
+Spot size
+
+15mm×50mm; 80mm×40mm
+±20%error
+
+4
+
+510(k) Summary
+
+Table 3 Setting Comparison of Specified Indication for Use
+Predicate Device
+ITEM
+
+Proposed Device
+
+Intense Pulsed Light Treatment
+
+Remark
+
+System (K192521)
+permanent hair reduction
+Wavelength Range
+
+640-1200/690-1200/ 750-1200
+
+640-1200/690-1200/ 750-1200
+
+10-44
+
+10-44
+
+Pulse Width (ms)
+
+3-14
+
+3-14
+
+Pulse Delay (ms)
+
+16-32
+
+16-32
+
+Spot Size (mm)
+
+15mm×50mm; 80mm×40mm;
+
+15mm×50mm; 80mm×40mm;
+
+480-1200/530-1200/560-1200
+
+480-1200/530-1200/560-1200
+
+12-44
+
+12-44
+
+Pulse Width (ms)
+
+3-9
+
+3-9
+
+Pulse Delay (ms)
+
+16-32
+
+16-32
+
+Spot Size (mm)
+
+15mm×50mm; 80mm×40mm;
+
+15mm×50mm; 80mm×40mm;
+
+Wavelength Range
+
+530-1200/560-1200/
+
+530-1200/560-1200/
+
+(nm)
+
+590-1200
+
+590-1200
+
+10-42
+
+10-42
+
+Pulse Width (ms)
+
+3-8
+
+3-8
+
+Pulse Delay (ms)
+
+16-32
+
+16-32
+
+Spot Size (mm)
+
+15mm×50mm; 80mm×40mm;
+
+15mm×50mm; 80mm×40mm;
+
+(nm)
+Energy Range
+(J/cm2)
+
+SE
+
+pigmented lesions
+Wavelength Range
+(nm)
+Energy Range
+(J/cm2)
+
+SE
+
+vascular lesions
+
+Energy Range
+(J/cm2)
+
+SE
+
+5
+
+510(k) Summary
+
+Table 4 Safety Comparison
+ITEM
+Power supply
+Electrical
+Safety
+
+EMC
+Patient Contact
+Material
+
+Proposed Device
+EROSE-YA
+
+Predicate Device
+Intense Pulsed Light Treatment
+
+Remark
+
+System (K192521)
+
+110V±10% 60Hz
+
+110V±10% 60Hz
+
+The proposed devices were tested
+
+The proposed devices were tested
+
+to demonstrated to comply with
+
+to demonstrated to comply with
+
+IEC 60601-1
+
+IEC 60601-1
+
+The proposed devices were tested
+
+The proposed devices were tested
+
+to demonstrated to comply with
+
+to demonstrated to comply with
+
+IEC 60601-1-2
+
+IEC 60601-1-2
+
+Handpiece (Sapphire Crystal)
+
+Handpiece (Sapphire Crystal)
+
+SE
+SE
+
+SE
+
+SE
+
+Biocompatibility
+Cytotoxicity
+Irritation
+
+Sensitization
+
+9.
+
+No toxicity (ISO 10993-5)
+
+No toxicity (ISO 10993-5)
+
+Applied sample did not induce
+
+Applied sample did not induce
+
+irritation to skin. (ISO 10993 -10)
+
+irritation to skin. (ISO 10993 -10)
+
+The test article showed no
+
+The test article showed no
+
+signification evidence of causing
+
+signification evidence of causing
+
+skin sensitization in the guinea
+
+skin sensitization in the guinea
+
+pig .(ISO 10993-10)
+
+pig .(ISO 10993-10)
+
+SE
+SE
+
+SE
+
+Substantially Equivalent (SE) Conclusion
+Based on the comparison and analysis above, the proposed devices are determined to be
+Substantially Equivalent (SE) to the predicate devices.
+
+6
+
+

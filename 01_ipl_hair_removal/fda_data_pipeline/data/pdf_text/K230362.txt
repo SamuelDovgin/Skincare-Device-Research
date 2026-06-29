@@ -1,0 +1,712 @@
+September 11, 2023
+Shenzhen Leaflife Technology Co., Ltd
+Cheng Qiang
+Regulatory Affairs Manager
+4F, Bldg. C, JMD Industrial Park, No.39 Qingfeng Blvd.,
+Baolong Industrial Area, Longgang Dist.,
+Shenzhen, Guangdong 518116
+China
+Re: K230362
+Trade/Device Name: Planar LED mate
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: GEX
+Dated: February 9, 2023
+Received: February 10, 2023
+Dear Cheng Qiang:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+
+K230362 - Cheng Qiang
+
+Page 2
+
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+Tanisha L. Hithe -
+
+Tanisha L. S
+Hithe -S 2023.09.11
+13:30:31 -04'00'
+
+Tanisha Hithe, MS, MHS
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2023
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K230362
+
+Device Name
+
+Planar LED mate
+
+Indications for Use (Describe)
+
+The Planar LED mate is a prescription-use only device intended for removal of unwanted body and/or facial hair.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (6/20)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+K230362
+
+Page 1 of 9
+510(k) Premarket Notification Submission
+
+510(k) Summary
+In accordance with 21 CFR 807.92 the following summary of information is provided:
+
+I.
+
+SUBMITTER
+
+Shenzhen Leaflife Technology Co., Ltd
+4F, Bldg. C, JMD Industrial Park, No.39 Qingfeng Blvd., Baolong Industrial Area,
+Longgang Dist., Shenzhen, China
+Contact Person: Cheng Qiang
+Position: Regulatory Affairs Manager
+Phone: 086-(0)17875910506
+Fax: 086-0755-27215592
+
+Primary Contact Person:
+
+Cheng Qiang
+Regulatory Affairs Manager
+Shenzhen Leaflife Technology Co., Ltd
+Tel: 086-0755-27216609
+Fax: 086-0755-27215592
+Phone: 086-(0)17875910506
+Email: cq@leaflife.cn
+
+Secondary Contact Person:
+
+Vini Zeng
+Regulatory Affairs Specialist
+Shenzhen Leaflife Technology Co., Ltd
+Tel: 086-0755-27216609
+Fax: 086-0755-27215592
+Email: zengvini@gmial.com
+
+Date Prepared:
+
+06/09/2023
+
+K230362
+
+Page 2 of 9
+510(k) Premarket Notification Submission
+
+II.
+
+PROPOSED DEVICE
+
+Trade Name:
+
+Planar LED mate
+
+Model(s):
+
+LH-LNIRS
+
+Common Name:
+
+Powered Laser Surgical Instrument
+
+Classification Name:
+Regulation Class:
+
+Laser surgical instrument for use in general and plastic
+surgery and in dermatology (21 CFR 878.4810)
+II
+
+Product Code:
+Review Panel:
+
+GEX
+General & Plastic Surgery
+
+III. PREDICATE DEVICE
+
+Predicate device (Primary)
+510(k) Number:
+
+K142845
+
+Device Name:
+
+SILKPRO Laser Hair Removal System
+
+Manufacturer:
+
+Wuhan Lotuxs Technology Company, Ltd.
+
+Predicate device (1#)
+510(k) Number:
+
+K222316
+
+Device Name:
+
+IPL Hair Removal Device
+
+Manufacturer:
+
+Shenzhen Goodwind Technology Development CO., LTD
+
+Predicate device (2#)
+510(k) Number:
+
+K220103
+
+Device Name:
+
+LED Therapy Device
+
+Manufacturer:
+
+Shenzhen Leaflife Technology Co., Ltd
+
+The predicates have not been subject to a design-related recall.
+IV. DEVICE DESCRIPTION
+
+The Planar LED mate is a prescription-use only device intended for removal of
+unwanted body and/or facial hair. It utilizes a diode LED as a light source (780-850 nm).
+It works below the skin's surface and does not involve any cutting or pulling, reducing
+hair growth with minimal pain. The device is only powered by the external power
+adapter and its emission activation is by finger switch.
+The device contains a capacitive sensor to detect appropriate skin contact. If the
+device is not properly applied to the treatment area (in full contact with the skin),
+the device cannot emit the treatment light. The device is for single-person use only.
+
+K230362
+
+Page 3 of 9
+510(k) Premarket Notification Submission
+
+The proposed Planar LED mate is equipped with a light depilation function that is
+based on the theory of selective photo thermolysis. There is abundant melanin in the
+hair follicle and hair stem. The melanin is distributed amidst the cells between the
+hair ball substrate and it can be transferred to the structure of hair stems (such as
+medulla, cortex, and hair cuticle). The Near infrared light can precisely target the
+melanin and apply the depilation treatment selectively. After the melanin absorbs
+Near infrared light energy, the temperature rises, in this way, the surrounding hair
+follicle tissues are damaged, and the hairs are removed.
+The device has 5 level Output Intensity.
+V.
+
+INTENDED USE
+
+The Planar LED mate is a prescription-use only device intended for removal of
+unwanted body and/or facial hair.
+VI. COMPARISON OF TECHNOLOGICAL CHARACTERISTICS WITH THE PREDICATE
+
+DEVICE
+
+The Planar LED mate (LH-LNIRS) emits light energy to reduce hair growth, although
+compared to the predicate devices there may be differences in wavelengths, pulse
+durations, treatment spot sizes, and energy intensities. Please refer to the following
+table for details:
+
+K230362
+
+Page 4 of 9
+510(k) Premarket Notification Submission
+
+Item
+
+Proposed Device
+
+Predicate Device
+K142845 (Primary)
+
+Predicate Device (1#)
+K222316
+
+Predicate Device (2#)
+K220103
+
+Remark
+
+Device name
+
+Planar LED mate
+
+SILKPRO
+
+IPL Hair Removal Device
+
+LED Therapy Device
+
+/
+
+Product model
+
+LH-LNIRS
+
+/
+
+ZHFIPL-II, ZHF-IPL-III
+
+LM-LNIRA, LM-LNIRB
+
+/
+
+K number
+
+K230362
+
+K142845
+
+K222316
+
+K220103
+
+/
+
+Product code
+
+GEX
+
+OHT
+
+OHT
+
+OHT
+
+Same
+
+Classification
+regulation
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+Same
+
+K230362
+
+Page 5 of 9
+510(k) Premarket Notification Submission
+
+Item
+
+Proposed Device
+
+Predicate Device
+K142845 (Primary)
+
+SILKPRO is an over-the
+counter device intended for
+adjunctive use with shaving
+for hair removal sustained
+with periodic treatments.
+SILKPRO is also intended for
+permanent reduction in hair
+regrowth defined as a
+long-term, stable reduction
+in hair counts following a
+treatment regime.
+
+Predicate Device (1#)
+K222316
+
+The IPL Hair Removal
+Device is an
+over-the-counter device
+intended for removal of
+unwanted body hair.
+
+Predicate Device (2#)
+K220103
+The LED Therapy Device is
+intended for hair removal,
+permanent hair reduction
+on all skin types
+(Fitzpatrick skin type I-VI),
+including tanned skin.
+
+Remark
+
+Intended Use
+
+The Planar LED mate is a
+prescription-use only device
+intended for removal of
+unwanted body and/or facial
+hair.
+
+Prescription use
+or not
+
+Prescription use
+
+Over-The-Counter Use
+
+Over-The-Counter Use
+
+Prescription use
+
+Same
+
+Pulsing control
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Same
+
+Light Type
+
+Diode LED
+
+Diode laser
+
+IPL
+
+Diode LED
+
+Similar
+
+Light
+Wavelength
+
+780-850 nm
+
+810 nm
+
+510-1100nm
+
+780-850 nm
+
+Similar
+
+Permanent hair reduction
+is defined as the
+long-term, stable
+reduction in the number
+of hairs regrowing when
+measured at 6, 9, and 12
+months after the
+completion of a treatment
+regime.
+
+Same
+
+K230362
+
+Page 6 of 9
+510(k) Premarket Notification Submission
+
+Item
+
+Proposed Device
+
+Predicate Device
+K142845 (Primary)
+
+Predicate Device (1#)
+K222316
+
+Spot size
+
+8mm×8mm
+
+9mm×9mm
+
+ZHF-IPL-II: 3.6cm²
+ZHF-IPL-III: 4.1cm²
+
+Output
+Intensity
+
+9.5-25J/cm2
+
+5J/cm2, 10J/cm2, 15J/cm2,
+20J/cm2, 25J/cm2
+
+ZHF-IPL-II: 2.6~4.4J/cm²
+ZHF-IPL-III: 2.4~3.7J/cm²
+
+1-100J/cm2
+
+Similar
+
+Pulse Duration
+
+108-320ms
+
+/
+
+7.2~10.8ms
+
+3-400ms
+
+Similar
+
+/
+
+AC 220~240V 50/60 Hz
+or
+AC 100~120V 50/60 Hz
+
+Similar
+
+Power Supply
+
+AC 100-240V~ 50/60 Hz
+
+AC 100~240V 50/60 Hz
+
+Predicate Device (2#)
+K220103
+(17mm*22mm) 3.74cm2
+(LM-LNIRA)
+
+Remark
+Similar
+
+Discussion
+The Planar LED mate (LH-LNIRS) device, the K142845, and the K222316, devices are handheld devices, while the K220103 is a larger
+console device. The handheld designs allow them to be more easily transported and stored by users who can administer their own hair
+removal treatments. The wavelength range, pulse durations, and output intensities, of the Planar LED mate (LH-LNIRS) device are similar
+to those the K142845 and K222316 devices, although difference may lead to some differences in the results seen with over-the-counter
+devices such as K142845 (diode laser) and K221316 (IPL). The wavelength range characteristics of the Planar LED mate (LH-LNIRS) are
+considered to be essentially the same as the K220103 device, and while the maximum output intensity and maximum pulse duration are
+less, the Planar LED mate (LH-LNIRS) device’s output characteristics are considered to be acceptable for this prescription-use only device
+for the intended use of hair removal.
+
+K230362
+
+Page 7 of 9
+510(k) Premarket Notification Submission
+
+Item
+
+Proposed Device
+
+Predicate Device
+K142845 (Primary)
+
+Predicate Device (1#)
+K222316
+
+Predicate Device (2#)
+K220103
+
+Remark
+
+Cytotoxicity
+
+No Cytotoxicity
+
+No Cytotoxicity
+
+No Cytotoxicity
+
+/
+
+Same
+
+Sensitization
+
+No evidence of sensitization
+
+No evidence of
+sensitization
+
+No evidence of
+sensitization
+
+/
+
+Same
+
+Irritation
+
+No evidence of irritation
+
+No evidence of irritation
+
+No evidence of irritation
+
+/
+
+Same
+
+Comply with ANSI/AAMI
+ES60601-1
+
+Comply with ANSI/AAMI
+ES60601-1, IEC
+60601-1-11
+
+Comply with IEC
+60601-1.
+
+Same
+
+Electrical Safety
+
+Comply with ANSI/AAMI
+ES60601-1, IEC 60601-1-11
+
+EMC
+
+Comply with IEC 60601-1-2
+
+Comply with IEC
+60601-1-2
+
+Comply with IEC
+60601-1-2
+
+Comply with IEC
+60601-1-2
+
+Same
+
+Laser Safety
+
+Comply with IEC
+60601-2-83, IEC 62471
+
+Comply with IEC
+60601-2-22, IEC 60825
+
+Comply with IEC
+60601-2-83, IEC 62471
+
+Comply with IEC
+60601-2-57, IEC 62471
+
+Similar
+
+K230362
+
+Page 8 of 9
+510(k) Premarket Notification Submission
+
+VII. Non-Clinical Test Conclusion
+
+Non-clinical tests were conducted to verify that the proposed device met all design
+specifications as was Substantially Equivalent (SE) to the predicate devices. The test
+results demonstrated that the proposed device complies with the following
+standards:
+ANSI/AAMI ES60601-1:2005/(R) 2012 and A1:2012, C1:2009/(R)2012 and
+A2:2010/(R)2012, Medical electrical equipment — Part 1: General requirements for
+basic safety and essential performance
+IEC 60601-1-2:2014, Medical electrical equipment - Part 1-2: General requirements
+for basic safety and essential performance - Collateral Standard: Electromagnetic
+disturbances - Requirements and tests.
+IEC 60601-2-83, 2019 Medical electrical equipment - Part 2-83: Requirements for the
+basic safety and essential performance of home light therapy equipment.
+IEC 62471:2006, Photobiological safety of lamps and lamp systems.
+ISO 10993-5 Third Edition 2009-06-01, Biological Evaluation of Medical Devices - Part
+5: Tests For In Vitro Cytotoxicity. (Biocompatibility)
+ISO 10993-10 Third Edition 2010-08-01, Biological Evaluation of Medical Devices Part 10: Tests for Irritation and Skin Sensitization. (Biocompatibility)
+Performance Testing for Energy Output Accuracy.
+Software Verification and Validation Testing was conducted per “Guidance for the
+Content of Premarket Submissions for Software Contained in Medical Devices”, and
+the level of concern was determined to be Moderate for the proposed device.
+Usability and label comprehension study.
+VIII. CLINICAL TEST CONCLUSION
+
+No clinical study is included in this submission.
+
+K230362
+
+Page 9 of 9
+510(k) Premarket Notification Submission
+
+IX. CONCLUSIONS
+
+The Planar LED mate (LH-LNIRS) device and predicate devices emit pulsed light to
+reduce hair growth, and the information provided in this premarket notification
+supports that the device is substantially equivalent and that it can be used safely and
+effectively as a prescription-use only device intended for removal of unwanted body
+and/or facial hair.
+
+

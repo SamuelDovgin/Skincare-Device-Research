@@ -1,0 +1,1223 @@
+March 11, 2026
+Shenzhen Chuangtong Yigou Technology Co., Ltd.
+℅ Candice Qiu
+Registration specialist
+Feiying Drug & Medical Consulting Technical Service Group
+Rm.2401 Zhenye International Business Center
+# 3101-90, Qianhai Rd.
+Shenzhen, Guangdong 518052
+China
+Re: K254047
+Trade/Device Name: Hair Removal Device (CT10, CT10 Pro, CT11, CT11 Pro, CT12, CT12 Pro,
+CTU05, CTU07, CTU09, CTU012, CTU015, CTU X, DT015 Pro, DT015,
+DT017 Pro, DT017, DT025 Pro, DT025)
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: December 1, 2025
+Received: December 17, 2025
+Dear Candice Qiu:
+We have reviewed your section 510(k) premarket notification of intent to market the device referenced above
+and have determined the device is substantially equivalent (for the indications for use stated in the enclosure)
+to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment
+date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the
+provisions of the Federal Food, Drug, and Cosmetic Act (the Act) that do not require approval of a premarket
+approval application (PMA). You may, therefore, market the device, subject to the general controls
+provisions of the Act. Although this letter refers to your product as a device, please be aware that some
+cleared products may instead be combination products. The 510(k) Premarket Notification Database
+available at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.08.03
+
+K254047 - Candice Qiu
+
+Page 2
+
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Additional information about changes that may require a new premarket notification are provided in the FDA
+guidance documents entitled "Deciding When to Submit a 510(k) for a Change to an Existing Device"
+(https://www.fda.gov/media/99812/download) and "Deciding When to Submit a 510(k) for a Software
+Change to an Existing Device" (https://www.fda.gov/media/99785/download).
+Your device is also subject to, among other requirements, the Quality Management System Regulation
+(QMSR) (21 CFR Part 820), which includes, but is not limited to, ISO 13485 clause 7.3 (Design controls),
+ISO 13484 clause 8.3 (Nonconforming product), and ISO 13485 clause 8.5 (Corrective and preventative
+action). Please note that regardless of whether a change requires premarket review, the QMSR requires
+device manufacturers to review and approve changes to device design and production (ISO 13485 clause 7.3
+and 21 CFR 820.70) and document changes and approvals in the device master record (21 CFR 820.181).
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR Part 803) for
+devices or postmarketing safety reporting (21 CFR Part 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the Quality Management
+System Regulation (QMSR) (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR
+Part 4, Subpart A) for combination products; and, if applicable, the electronic product radiation control
+provisions (Sections 531-542 of the Act); 21 CFR Parts 1000-1050.
+All medical devices, including Class I and unclassified devices and combination product device constituent
+parts are required to be in compliance with the final Unique Device Identification System rule ("UDI Rule").
+The UDI Rule requires, among other things, that a device bear a unique device identifier (UDI) on its label
+and package (21 CFR 801.20(a)) unless an exception or alternative applies (21 CFR 801.20(b)) and that the
+dates on the device label be formatted in accordance with 21 CFR 801.18. The UDI Rule (21 CFR
+830.300(a) and 830.320(b)) also requires that certain information be submitted to the Global Unique Device
+Identification Database (GUDID) (21 CFR Part 830 Subpart E). For additional information on these
+requirements, please see the UDI System webpage at https://www.fda.gov/medical-devices/device-advicecomprehensive-regulatory-assistance/unique-device-identification-system-udi-system.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medical-
+
+K254047 - Candice Qiu
+
+Page 3
+
+devices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+signed by
+TANISHA Digitally
+TANISHA L. HITHE -S
+2026.03.11
+L. HITHE -S Date:
+23:34:00 -04'00'
+
+Tanisha Hithe
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical and
+Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2023
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K254047.IFU Final
+
+Device Name
+
+Hair Removal Device (CT10, CT10 Pro, CT11, CT11 Pro, CT12, CT12 Pro, CTU05, CTU07, CTU09, CTU012, CTU015, CTU X,
+DT015 Pro, DT015, DT017 Pro, DT017, DT025 Pro, DT025)
+
+Indications for Use (Describe)
+
+Hair Removal Device is indicated for the removal of unwanted hair. The device is also indicated for the permanent
+reduction in hair regrowth, defined as the long-term, stable reduction in the number of hairs regrowing when measured at
+6, 9 and 12 months after the completion of a treatment regime.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (6/20)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+K254047 –510(k) Summary
+
+510(k) Summary # K254047
+"510(k) Summary" as required by 21 CFR Part 807.92.
+Submitter
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+Room 2218, Rongchuang Zhihui Building A, Shangfen Community, Minzhi Street, Longhua District, Shenzhen, China
+Kingway Hong
+Manager
+Tel: +86 13410362992
+Email: kingway.hong@ctonetech.com
+Preparation Date: February 6, 2026
+
+I.
+
+Device
+Name of Device: Hair Removal Device
+Model(s): CT10, CT10 Pro, CT11, CT11 Pro, CT12, CT12 Pro, CTU05, CTU07, CTU09, CTU012, CTU015, CTU X, DT015 Pro, DT015, DT017,
+DT017 Pro, DT025 Pro, DT025.
+
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+
+II. Predicate Device and reference device
+
+Page 1 of 12
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+K254047 –510(k) Summary
+
+ For Model CT10, CT10 Pro, CT11, CT11 Pro, CT12, CT12 Pro
+Predicate device:
+510(k)
+Number
+
+Manufacturer
+
+Predicate Device
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd.
+
+Hand-held Hair Removal Device
+(Model: FZ-200A, FZ-201, FZ-202, CT05, CT06, K251000
+CT07, CT08, CT09)
+
+Approval
+Date
+July 01, 2025
+
+reference device:
+Manufacturer
+
+reference device
+
+IPL Cooling Hair Removal Device
+Shenzhen Siken 3D Technology Development Co.,
+(Model: SKB-1808)
+Ltd.
+
+510(k)
+Number
+
+Approval
+Date
+
+K232845
+
+November
+14, 2023
+
+ For Model CTU05, CTU07, CTU09, CTU012 , CTU015, CTU X
+Predicate device:
+Manufacturer
+
+Predicate Device
+
+Foshan Jindi Electric Appliance Co.,Ltd
+
+IPL Home Use Hair Removal Device
+(Model: JD-TM027)
+
+510(k)
+Number
+K252209
+
+Approval
+Date
+October 10,
+2025
+
+ For Model DT015 Pro, DT015, DT017, DT017 Pro, DT025, DT025 Pro
+Page 2 of 12
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+K254047 –510(k) Summary
+
+Predicate device:
+510(k)
+Number
+
+Manufacturer
+
+Predicate Device
+
+Shenzhen Ulike Smart Electronics Co.,Ltd.
+
+Ice Cooling IPL Hair Removal Device
+(Model: UI20S DB, UI20S RE, UI20S PW, UI20S
+K250942
+GP, UI20S GR, UI20S BK, UI20 DB, UI20 RE, UI20
+PW, UI20 GP, UI20 GR, UI20 BK)
+
+Approval
+Date
+Jully 11, 2025
+
+IV. Device Description
+Hair Removal Device, is an over-the-counter, home-use device for unwanted hair reduction by using Intense Pulsed Light (IPL), and it has
+been designed eighteen models with the same IPL technology for hair removal, which is model CT10, CT10 Pro, CT11, CT11 Pro, CT12,
+CT12 Pro, CTU05, CTU07, CTU09, CTU012, CTU015, CTU X, DT015 Pro, DT015, DT017, DT017 Pro, DT025 Pro, DT025. The device
+works below the skin’s surface and does not involve any cutting or pulling, reducing hair growth with minimal pain.
+The device is only powered by the external power adapter and its IPL emission activation is by finger switch.
+The Hair Removal Device has an irreplaceable light exit and it can cover an area of 3.0cm2 (Model CT10, CT10 Pro, CT11, CT11 Pro, CT12,
+CT12 Pro, CTU05, CTU07, CTU09, CTU012 , CTU015, CTU X) and 4.2cm2 (Model DT015 Pro, DT015, DT017, DT017 Pro, DT025, DT025 Pro)
+that is suitable for multiple hair removal areas, such as upper lip, chin, armpits, legs, arms, bikini area, chest, back, abdomen.
+The device contains a skin sensor to detect appropriate skin contact, if the light exit is not in full contact with the skin, the device cannot emit the
+treatment light pulses. Besides, the Hair Removal Device has the Ice-cooling function (Model: CT10, CT10 Pro, CT11, CT11 Pro, CT12, CT12)
+and Sapphire Ice-cooling function (Model: CTU05, CTU07, CTU09, CTU012, CTU015, CTU X, DT015 Pro, DT015, DT017, DT017 Pro, DT025
+Pro, DT025), which will be activated throughout the whole hair removal process to cool down the treatment area’s temperature and provide the
+user with a better using experience.
+
+V. Indications for Use
+Hair Removal Device is indicated for the removal of unwanted hair. The device is also indicated for the permanent reduction in hair regrowth,
+defined as the long-term, stable reduction in the number of hairs regrowing when measured at 6, 9 and 12 months after the completion of a
+treatment regime.
+
+Page 3 of 12
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+K254047 –510(k) Summary
+
+VI. Materials
+Component name
+
+Model
+
+Material of Component
+
+CT10, CT10 Pro, CT11,
+CT11 Pro, CT12, CT12 Pro
+
+Body Contact
+Category
+
+Contact
+Duration
+
+Surface-contacting
+device: Intact skin
+
+Less than 24
+hours
+
+AL-6063, PC+ABS AC2300,
+PC2805, Corning glass
+
+Host of device (including air outlet,
+treatment window, air inlet, buttons,
+filter)
+
+CTU05, CTU07, CTU09,
+CTU012, CTU015, CTU X
+DT015 Pro, DT015, DT017,
+DT017 Pro, DT025 Pro,
+DT025
+
+PC+ABS AC2300, PC2805, ABS
+15E1, Aluminium oxide, Corning
+glass
+PC+ ABS, PC, Aluminium oxide,
+Quartz glass
+
+VII.Comparison of Technological Characteristics With the Predicate Device
+The Hair Removal Device has the same intended use, mode of action and similar operational characteristics as the predicate device. Any
+minor differences between the subject device and the listed predicate device and reference device do no raise any issues of safety or efficacy.
+Performance data supports that the device is safe and as effective as the predicate device and reference device for its intended use. Therefore,
+the Hair Removal Device may be found substantially equivalent to its predicate device and reference device.
+Hair Removal Device is compared with the following Predicate Device and reference device in terms of intended use, design, material,
+specifications, and performance:
+
+
+For CT10, CT10 Pro, CT11, CT11 Pro, CT12, CT12 Pro
+
+Comparison
+Elements
+510(k) Number
+
+Subject Device
+Pending
+
+Predicate Device
+K251000
+
+Reference Device
+K232845
+
+Remark
+/
+Page 4 of 12
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+K254047 –510(k) Summary
+
+Comparison
+Elements
+510(k) Number
+Trade name
+Model
+Manufacturer
+Regulation
+number
+Product code
+Device
+classification
+
+Subject Device
+
+Predicate Device
+
+Pending
+Hair Removal Device
+CT10, CT10 Pro, CT11, CT11 Pro,
+CT12, CT12 Pro
+Shenzhen
+Chuangtong
+Technology Co., Ltd.
+
+Reference Device
+
+K251000
+Hand-held Hair Removal Device
+
+K232845
+IPL Cooling Hair Removal Device
+
+FZ-200A, FZ-201, FZ-202, CT05,
+SKB-1808
+CT06, CT07, CT08, CT09
+
+Yigou Shenzhen
+Chuangtong
+Technology Co., Ltd.
+
+Remark
+/
+/
+/
+
+Yigou Shenzhen Siken 3D Technology
+/
+Development Co., Ltd.
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+Same
+
+OHT
+
+OHT
+
+OHT
+
+Same
+
+Class II
+
+Class II
+
+Class II
+
+Same
+
+Hand-held Hair Removal Device is
+indicated for the removal of
+unwanted hair. The device is also
+indicated for
+the
+permanent
+reduction in hair regrowth, defined
+as the long-term, stable reduction in
+the number of hairs regrowing when
+measured at 6, 9 and 12 months after
+the completion of a treatment
+regime.
+
+IPL Cooling Hair Removal Device
+is an over-the-counter device
+Same
+intended for removal of unwanted
+body hair.
+
+Hair Removal Device is indicated
+for the removal of unwanted hair.
+The device is also indicated for the
+Indication for permanent reduction in hair
+use/ Intended regrowth, defined as the long-term,
+stable reduction in the number of
+use
+hairs regrowing when measured at 6,
+9 and 12 months after the
+completion of a treatment regime.
+
+Prescription or
+OTC
+OTC
+OTC
+Applicable skin Fitzpatrick Skin Types I-V
+Fitzpatrick skin types I-V
+Input: AC 100-240V, 50/60 Hz,
+Power supply
+0.8A
+100-240V, 50/60Hz, 0.8AMax
+Output: 24VDC, 1.5A
+
+OTC
+
+Same
+
+Fitzpatrick Skin Types I-V
+
+Same
+
+Input: AC100~240V 50/60Hz
+Output: DC12V 4A
+
+Same
+Page 5 of 12
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+K254047 –510(k) Summary
+
+Comparison
+Elements
+510(k) Number
+
+Subject Device
+Pending
+
+Predicate Device
+K251000
+FZ-200A: 199*68*58(mm)
+FZ-201: 179*64*39mm
+
+Reference Device
+
+Remark
+
+K232845
+
+/
+
+203*161*58mm
+
+Difference
+Note 1
+
+Not required
+Intense Pulsed Light
+Xenon Arc Flashlamp
+
+Same
+Same
+Same
+
+Dimension
+
+201(W)x71(H)x52(L)mm
+
+Sterilization
+Light source
+Energy medium
+Wavelength
+range
+
+Not required
+Intense Pulsed Light
+Xenon Arc lamp
+
+FZ-202: 202*132*93mm
+CT05, CT06:
+179*640*39(mm)
+CT07: 204*173*54(mm)
+CT08: 192*140*54(mm)
+CT09: 177*120*91(mm)
+Not required
+Intense Pulsed Light
+Xenon Arc lamp
+
+590nm-1200nm
+
+590-1200nm
+
+590-1200nm
+
+Same
+
+Energy density
+
+2-4.4J/cm²
+
+2-4.3 J/cm2
+
+Max. 4.8J/cm² (range in
+2.1~4.8J/cm²)
+
+Similar
+Note 2
+
+Output energy
+Spot size
+Pulse duration
+Pulsing control
+Output intensity
+level
+Software/
+Firmware/
+Microprocessor
+Control?
+
+6-13J(±20%)
+3.0cm2
+8-15ms
+Finger switch
+
+6-13 J
+3cm2
+2-6 ms
+Finger switch
+
+8-12J
+3cm2
+10±5ms
+Finger switch
+
+Same
+Same
+
+9 levels
+
+9 levels
+
+5 levels
+
+Same
+
+Yes
+
+Yes
+
+Yes
+
+Same
+
+Same
+
+Page 6 of 12
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+K254047 –510(k) Summary
+
+Comparison
+Elements
+510(k) Number
+Electrical safety
+Eye safety
+Biocompatibilit
+y
+
+
+
+Subject Device
+Pending
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+ISO 10993-23
+
+Predicate Device
+
+Reference Device
+
+K251000
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+IEC 62471
+
+K232845
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+IEC 62471
+
+ISO 10993-5
+ISO 10993-10
+
+ISO 10993-5
+ISO 10993-10
+
+Remark
+/
+Same
+Same
+Same
+
+For CTU05, CTU07, CTU09, CTU012 , CTU015, CTU X
+
+Comparison Elements
+510(k) Number
+Trade name
+Model
+Manufacturer
+Regulation number
+Product code
+Device classification
+
+Subject Device
+Pending
+Hair Removal Device
+CTU05, CTU07, CTU09, CTU012 , CTU015, CTU X
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd.
+21 CFR 878.4810
+OHT
+Class II
+Hair Removal Device is indicated for the removal of
+unwanted hair. The device is also indicated for the
+Indication for use/ Intended
+permanent reduction in hair regrowth, defined as the
+use
+long-term, stable reduction in the number of hairs
+regrowing when measured at 6, 9 and 12 months after
+
+Predicate Device
+
+Remark
+
+K252209
+IPL Home Use Hair Removal Device
+
+/
+/
+
+JD-TM027
+
+/
+
+Foshan Jindi Electric Appliance Co.,Ltd
+21 CFR 878.4810
+OHT
+Class II
+IPL Home Use Hair Removal Device is an
+over-the counter device intended for
+removal of unwanted hair.
+The device is also indicated for the
+permanent reduction in hair regrowth,
+
+/
+Same
+Same
+Same
+
+Same
+
+Page 7 of 12
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+K254047 –510(k) Summary
+
+Comparison Elements
+510(k) Number
+
+Subject Device
+
+Pending
+the completion of a treatment regime.
+
+Predicate Device
+
+/
+
+Remark
+
+Prescription or OTC
+Applicable skin
+
+OTC
+Fitzpatrick Skin Types I-V
+
+Power supply
+
+100-240V, 50/60 Hz
+
+K252209
+defined as the long-term, stable reduction in
+the number of hairs regrowing when
+measured at 6, 9 and 12 months after the
+completion of a treatment regime.
+OTC
+Fitzpatrick Skin Types I-V
+100~240V, 50/60Hz
+
+Dimension
+
+115(W)x69(H)x41(L)mm
+
+182*60*35mm
+
+Difference
+Note 1
+
+Sterilization
+Light source
+Energy medium
+
+Not required
+Intense Pulsed Light
+Xenon Arc lamp
+
+Not required
+Intense Pulsed Light
+Xenon Arc flashlamp
+
+Same
+Same
+Same
+
+Wavelength range
+
+560nm-1200nm
+
+550-1200nm
+
+Similar
+Note 2
+
+Energy density
+
+2.6-4.7J/cm²
+
+2± 0.4~8± 1.6J/cm2
+
+Similar
+Note 3
+
+Output energy
+
+8-14J(±20%)
+
+6± 1.2~24 ±4.8J
+
+Similar
+Note 3
+
+Spot size
+
+3.0cm2
+
+3.0± 0.2cm2
+
+Same
+
+Pulse duration
+
+1.52-8.32ms
+
+0.2± 0.04ms~10ms± 2ms
+
+Pulsing control
+Output intensity level
+Software/
+Firmware/
+Microprocessor Control?
+Electrical safety
+
+Finger switch
+5 levels
+
+Finger switch
+5levels~9levels
+
+Similar
+Note 4
+Same
+Same
+
+Yes
+
+Yes
+
+Same
+
+IEC 60601-1
+
+IEC 60601-1
+
+Same
+
+Same
+Same
+Same
+
+Page 8 of 12
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+K254047 –510(k) Summary
+
+Comparison Elements
+510(k) Number
+
+Eye safety
+Biocompatibility
+
+
+
+Pending
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+ISO 10993-23
+
+Subject Device
+
+Predicate Device
+
+K252209
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-57
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+ISO 10993-23
+
+/
+
+Remark
+
+Same
+Same
+
+For DT015 Pro, DT015, DT017, DT017 Pro, DT025, DT025 Pro
+
+Comparison Elements
+510(k) Number
+Trade name
+
+Subject Device
+Pending
+Hair Removal Device
+
+Model
+
+DT015 Pro, DT015, DT017, DT017 Pro, DT025,
+DT025 Pro
+
+Manufacturer
+Regulation number
+Product code
+Device classification
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd.
+21 CFR 878.4810
+OHT
+Class II
+Hair Removal Device is indicated for the removal of
+unwanted hair. The device is also indicated for the
+Indication for use/ Intended
+permanent reduction in hair regrowth, defined as the
+use
+long-term, stable reduction in the number of hairs
+regrowing when measured at 6, 9 and 12 months after
+
+Predicate Device
+K250942
+Ice Cooling IPL Hair Removal Device
+UI20S DB, UI20S RE, UI20S PW, UI20S
+GP, UI20S GR, UI20S BK, UI20 DB, UI20
+RE, UI20 PW, UI20 GP, UI20 GR, UI20
+BK
+Shenzhen Ulike Smart Electronics Co.,Ltd.
+21 CFR 878.4810
+OHT
+Class II
+Ice Cooling IPL Hair Removal Device with
+sapphire treatment window is indicated for
+the removal of unwanted hair. The device is
+also indicated for the permanent reduction in
+hair regrowth, defined as the long-term,
+
+Remark
+/
+/
+/
+/
+Same
+Same
+Same
+
+Same
+
+Page 9 of 12
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+K254047 –510(k) Summary
+
+Comparison Elements
+510(k) Number
+
+Subject Device
+
+Pending
+the completion of a treatment regime.
+
+Predicate Device
+
+Remark
+
+Prescription or OTC
+
+OTC
+
+Applicable skin
+
+Fitzpatrick Skin Types I-V
+
+K250942
+/
+stable reduction in the number of hairs
+regrowing when measured at 6, 9 and 12
+months after the completion of a treatment
+regime.
+OTC
+Same
+Fitzpatrick Skin Types I-V
+Same
+
+Power supply
+
+100-240V, 50/60 Hz
+
+100-240V~, 50/60Hz
+
+Same
+
+Dimension
+
+198(W)x64(H)x40(L)mm
+
+206.73mm*68.68mm*54.29mm
+
+Difference
+Note 1
+
+Sterilization
+Light source
+Energy medium
+
+Not required
+Intense Pulsed Light
+Xenon Arc lamp
+
+Not required
+Intense Pulsed Light
+Xenon Arc Flashlamp
+
+Wavelength range
+
+560nm-1200nm
+
+550-1200mm
+
+Same
+Same
+Same
+Similar
+
+Energy density
+
+2.1-5J/cm²
+
+1.65~6.92J/cm²
+
+Similar
+
+Output energy
+
+9.1-21J(±20%)
+
+4.29~27J
+
+Similar
+
+Spot size
+
+4.2cm2
+
+3.9cm²
+0.86-6.32ms
+
+Pulse duration
+
+0.86-5.96ms
+quadruple pulse
+
+double pulse
+quadruple pulse
+
+Pulsing control
+
+Finger switch
+
+Finger switch
+
+Note 2
+Note 3
+Note 3
+
+Similar
+Note 4
+
+Similar
+Note 5
+
+Same
+Page 10 of 12
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+K254047 –510(k) Summary
+
+Comparison Elements
+510(k) Number
+
+Pending
+
+Output intensity level
+
+5 levels
+
+Software/
+Firmware/
+Yes
+Microprocessor Control?
+
+Electrical safety
+
+Eye safety
+Biocompatibility
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+ISO 10993-23
+
+Subject Device
+
+K250942
+
+Predicate Device
+
+/
+
+Remark
+
+1-10 levels
+
+Difference
+Note 1
+
+Yes
+
+Same
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-57
+IEC 60601-2-83
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+ISO 10993-23
+
+Same
+
+Same
+Same
+
+VIII. Performance Data
+The following performance data were provided in support of the substantial equivalence determination.
+1) Biocompatibility Evaluation
+ The biocompatibility evaluation for the body-contacting components of the Hair Removal Device was conducted in accordance with the
+"Use of International Standard ISO 10993-1, 'Biological Evaluation of Medical Devices –Part 1: Evaluation and Testing Within a Risk
+Management Process, Document Issued on September 4, 2020", as recommended by FDA.
+
+2) Electrical Safety and EMC
+Electrical safety and EMC testing was performed to, and passed, as per the following standards:
+Page 11 of 12
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+K254047 –510(k) Summary
+
+ 60601-1-2:2014+A1:2020: General requirements for basic safety and essential performance – Collateral standard: electromagnetic
+compatibility.
+ IEC 60601-1:2005/AMD1:2012, Medical electrical equipment - Part 1: General requirements for basic safety and essential performance .
+ IEC 60601-1-11:2015/AMD1:2020 Medical electrical equipment - Part 1-11: General requirements for basic safety and essential
+performance - Collateral Standard: Requirements for medical electrical equipment and medical electrical systems used in the home
+healthcare environment.
+ IEC 60601-2-83:2019/AMD1:2022 Medical electrical equipment - Part 2-83: Particular requirements for the basic safety and essential
+performance of home light therapy equipment.
+3) Eye Safety
+
+ IEC 62471:2006 (first Eition) Photobiological safety of lamps and lamp systems.
+4) Software Verification and Validation
+
+Software documentation consistent with Basic Documentation Level was submitted in this 510(k). System validation testing presented
+in this 510(k) demonstrated that all software requirement specifications are met and all software hazards have been mitigated to
+acceptable risk levels.
+5) Usability
+The product usability has been evaluated and verified according to the following FDA guidance
+ Applying Human Factors and Usability Engineering to Medical Devices, issued on FEBRUARY 2016.
+IX. Conclusions
+
+Based on the above analysis and non-clinical tests performed, it can be concluded that the subject device Hair Removal Device is as safe, as
+effective, and performs as well as the legally marketed predicate device.
+
+Page 12 of 12
+
+

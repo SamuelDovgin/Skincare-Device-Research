@@ -1,0 +1,692 @@
+
+DEPARTMENT OF HEALTH & HUMAN SERVICES
+
+Public Health Service
+
+Food and Drug Administration
+10903 New Hampshire Avenue
+Document Control Center - WO66-G609
+Silver Spring, MD 20993-0002
+
+February 8, 2017
+Liaoning Sidey Optoelectronics Technologies Co., Ltd.
+Ə Ray Wang
+General Manager
+Beijing Believe Technology Service Co., Ltd.
+5-1206, Build 332, Dafangju, No.25
+Banbidian Rd., Liyuan Town, Tongzhou
+Beijing, 101121 CN
+Re: K163173
+Trade/Device Name: Handheld Diode Laser For Hair Removal
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And
+In Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: November 7, 2016
+Received: November 14, 2016
+Dear Ray Wang:
+We have reviewed your Section 510(k) premarket notification of intent to market the device
+referenced above and have determined the device is substantially equivalent (for the indications
+for use stated in the enclosure) to legally marketed predicate devices marketed in interstate
+commerce prior to May 28, 1976, the enactment date of the Medical Device Amendments, or to
+devices that have been reclassified in accordance with the provisions of the Federal Food, Drug,
+and Cosmetic Act (Act) that do not require approval of a premarket approval application (PMA).
+You may, therefore, market the device, subject to the general controls provisions of the Act. The
+general controls provisions of the Act include requirements for annual registration, listing of
+devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability
+warranties. We remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA),
+it may be subject to additional controls. Existing major regulations affecting your device can be
+found in the Code of Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may
+publish further announcements concerning your device in the Federal Register.
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean
+that FDA has made a determination that your device complies with other requirements of the Act
+or any Federal statutes and regulations administered by other Federal agencies. You must comply
+
+
+Page 2 - Ray Wang
+with all the Act's requirements, including, but not limited to: registration and listing (21 CFR
+Part 807); labeling (21 CFR Part 801); medical device reporting (reporting of medical devicerelated adverse events) (21 CFR 803); good manufacturing practice requirements as set forth in
+the quality systems (QS) regulation (21 CFR Part 820); and if applicable, the electronic product
+radiation control provisions (Sections 531-542 of the Act); 21 CFR 1000-1050.
+If you desire specific advice for your device on our labeling regulation (21 CFR Part 801), please
+contact the Division of Industry and Consumer Education at its toll-free number (800) 638-2041
+or (301) 796-7100 or at its Internet address
+http://www.fda.gov/MedicalDevices/ResourcesforYou/Industry/default.htm. Also, please note
+the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21
+CFR Part 803), please go to
+http://www.fda.gov/MedicalDevices/Safety/ReportaProblem/default.htm for the CDRH's Office
+of Surveillance and Biometrics/Division of Postmarket Surveillance.
+You may obtain other general information on your responsibilities under the Act from the
+Division of Industry and Consumer Education at its toll-free number (800) 638-2041 or (301)
+796-7100 or at its Internet address
+http://www.fda.gov/MedicalDevices/ResourcesforYou/Industry/default.htm.
+Sincerely,
+
+Jennifer R. Stevenson -S
+For Binita S. Ashar, M.D., M.B.A., F.A.C.S.
+Director
+Division of Surgical Devices
+Office of Device Evaluation
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: January 31, 2017
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K163173
+Device Name
+
+Handheld Diode Laser for Hair Removal
+
+Indications for Use (Describe)
+
+The Handheld Diode Laser for Hair Removal is an over-the-counter device intended for adjunctive use with shaving for
+hair removal sustained with periodic treatments. Handheld Diode Laser for Hair Removal is also intended for permanent
+reduction in hair regrowth defined as a long-term, stable reduction in hair counts following a treatment regime. permanent
+hair reduction is defined as long term, stable reduction in the number of hairs regrowing when measured out to 6, 9, and
+12 months after the completion of the treatment regimen.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (8/14)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+510(k) Summary
+
+Tab #7 510(k) Summary
+
+This 510(k) Summary of 510(k) safety and effectiveness information is being submitted in accordance with
+requirements of SMDA 1990 and Title 21, CFR Section 807.92.
+The assigned 510(k) Number: __K163173_____
+1.
+
+Date of Preparation
+11/07/2016
+
+2.
+
+Sponsor
+Liaoning Sidey Optoelectronics Technologies Co., Ltd.
+No.6 Building,No.262 Yueling Rd,high-tech industrial development zone,114044,Anshan,Liaoning,China
+Establishment Registration Number: Not yet registered or the Number
+Contact Person: Li Zhao
+Position: Registration Manager
+Tel: +86-10-56370050
+Fax: +86-10-56370076
+Email: small@honkonlaser.com
+
+3.
+
+Submission Correspondent
+Mr. Ray Wang
+Beijing Believe Technology Service Co., Ltd.
+5-1206, Build 332, DaFangJu, No.25 BanBiDian Rd.,
+LiYuan Town, TongZhou District, Beijing, 101121, China
+Tel: +86-10-18910677558
+Fax: +86-10-52214696
+Email: ray.wang@believe-med.com
+
+7‐1
+
+510(k) Summary
+4.
+
+Identification of Proposed Device
+Trade Name: Handheld Diode Laser for Hair Removal
+Common Name: Light Based Over-The-Counter Hair Removal
+Model(s): SD-BD01
+Regulatory Information:
+Classification Name: Light Based Over-The-Counter Hair Removal
+Classification: II;
+Product Code: OHT;
+Regulation Number: 21 CFR 878.4810；
+Review Panel: General & Plastic Surgery;
+Intended Use Statement:
+The Handheld Diode Laser for Hair Removal is an over-the-counter device intended for adjunctive use
+with shaving for hair removal sustained with periodic treatments. Handheld Diode Laser for Hair
+Removal is also intended for permanent reduction in hair regrowth defined as a long-term, stable reduction
+in hair counts following a treatment regime. permanent hair reduction is defined as long term, stable
+reduction in the number of hairs regrowing when measured out to 6, 9, and 12 months after the completion
+of the treatment regimen.
+
+5.
+
+Device Description
+The Handheld Diode Laser for Hair Removal is an Over-The-Counter device intended for adjunctive use
+with shaving for hair removal sustained with periodic treatments. The device is also intended for permanent
+reduction in hair regrowth defined as a long-term, stable reduction in hair counts following a treatment
+regime permanent hair reduction is defined as long term, stale reduction in the number of hairs regrowing
+when measured out of 6, 9, and 12 months after the completion of the treatment regimen.
+The Handheld Diode Laser for Hair Removal is a semiconductor diode laser system that delivers infrared
+light at a wavelength of nominally 808nm.
+Laser hair removal is based on the principles of selective photothermolysis (SPTL): a combination of the
+appropriate laser wavelength, pulse duration, and fluence can obtain optimal effect on a targeted tissue with
+minimal effect on surrounding tissue.
+Wavelengths of 808 nanometers (nm) are widely used in hair removal treatment, it is selectively absorbed
+by melanin in the hair shaft, damaging the follicular epithelium, and further causes hair loss, while the
+competing chromophores (oxyhemoglobin and water) absorb less energy at these wavelengths.
+
+7‐2
+
+510(k) Summary
+6.
+
+Identification of Predicate Device
+Predicate 1#:
+510(k) Number: K120737
+Product Name: TRIA Laser Hair Removal System
+Manufacturer: Tria Beauty, Inc.
+Predicate 2#:
+510(k) Number: K142845
+Product Name: SILKPRO Laser Hair Removal System
+Manufacturer: Wuhan Lotuxs Technology Company, Ltd.
+
+7.
+
+Non-Clinical Test Conclusion
+Non clinical tests were conducted to verify that the proposed device met all design specifications as was
+Substantially Equivalent (SE) to the predicate device. The test results demonstrated that the proposed
+device complies with the following standards:
+
+
+IEC 60601-1:2012 Medical Electrical Equipment - Part 1: General Requirements For Basic Safety
+And Essential Performance;
+
+
+
+IEC 60601-2-22:2007, Medical Electrical Equipment - Part 2-22: Particular Requirements For Basic
+Safety And Essential Performance Of Surgical, Cosmetic, Therapeutic And Diagnostic Laser
+Equipment;
+
+
+
+IEC 60825-1: 2007, Safety of laser products - Part 1: Equipment classification and requirements.
+
+
+
+IEC 60601-1-2:2007, Medical electrical equipment- Part 1-2: General requirements for basic safety
+and essential performance- Collateral standard: Electromagnetic compatibility- Requirements and
+tests.
+
+
+
+IEC 60601-1-11:2010, Medical electrical equipment - Part 1-11: General requirements for medical
+device equipment and medical electrical systems used in the home healthcare environment.
+
+
+
+ISO 10993-5:2009, Biological Evaluation of Medical Device, Part 5-Tests for Vitro cytotoxicity
+
+
+
+ISO 10993-10:2002/Amd. 1: 2006, Biological Evaluation of Medical Device, Part 10-Test for
+irritation and delay-type hypersensitivity AMENDMENT 1
+
+
+
+Performance Testing for Spot Size Accuracy.
+
+A Usability/Label Comprehension Study was conducted.
+Two smaller groups out of these participants were chosen to participate in a usability study in which the
+actual product along with its labeling would be tested.
+The first group of 13 participants consisted of 7 females, 6 males and their ages ranged from 19-71 years.
+Two participants with dark skin tone and one participant with blond hair were included in this group. It was
+explained to them what the study was all about and then were asked (two at a time) to pretend that they had
+just purchased the product and were to use it for the first.
+7‐3
+
+510(k) Summary
+The tester allowed ample time for the users to read/study the labeling, include information on retail box,
+name plate and Instruction Manual Rev: V 1.02, completely while recording questions and answering them.
+Then the actual use of the product was observed, remarks and questions were recorded.
+Then we revised the Instruction Manual form Rev: V 1.02 to Rev: V 1.03 according with the question from
+the tester.
+A second group of 10 participants was chosen for a second test. There were 5 females, 5 males and their
+ages ranged between 19 and 73 years.
+Again, after allowing ample time to read and study the Instruction Manual Rev: V 1.03, the questions
+asked came down to only 2 and they were not pertaining to safety or operation.
+Results
+For the first groups,
+1) All participants understood the “Skin Tone Chart”, Warnings, Indications and Contraindications;
+2) Three user refused to use the product after reading the determination as “Skin Tone Chart” and
+Indications, because skin tone and hair color;
+3) 9 of the remaining 10 users had questions.
+The inputs of the first groups needed some changes and additions to the Instruction Manual (Rev: V 1.02).
+For the second groups, the result showed that all (100%) participants were able to properly use the device
+and properly clean it with the labeling submitted.
+The inputs of the second test groups did not warrant any more changes and additions to the Instruction
+Manual (Rev: V 1.03).
+
+8.
+
+Clinical Test Conclusion
+No clinical study is included in this submission.
+
+7‐4
+
+510(k) Summary
+9.
+
+Substantially Equivalent (SE) Comparison
+Table 1 General Comparison
+
+Item
+
+Proposed Device
+
+Product Code
+Regulation Number
+Intended Use
+
+Predicate Device
+
+Predicate Device
+
+K120737
+
+K142845
+
+Remark
+
+OHT
+
+GEX
+
+OHT
+
+SE
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+SE
+
+The Handheld Diode Laser for Hair
+
+The TRIA is an
+
+The SILKPRO is an
+
+Removal is an over-the-counter
+
+over-the-counter device
+
+over-the-counter device
+
+device intended for adjunctive use
+
+intended for adjunctive use
+
+intended for adjunctive use
+
+with shaving for hair removal
+
+with shaving for hair removal
+
+with shaving for hair removal
+
+sustained with periodic treatments.
+
+sustained with periodic
+
+sustained with periodic
+
+Handheld Diode Laser for Hair
+
+treatments. TRIA is also
+
+treatments. SILKPRO is also
+
+Removal
+
+for
+
+intended for permanent
+
+intended for permanent
+
+hair
+
+reduction in hair regrowth
+
+reduction in hair regrowth
+
+regrowth defined as a long-term,
+
+defined as a long-term, stable
+
+defined as a long-term, stable
+
+stable reduction in hair counts
+
+reduction in hair counts
+
+reduction in hair counts
+
+following
+
+following a treatment regime.
+
+following a treatment regime.
+
+permanent hair reduction is defined
+
+permanent hair reduction is
+
+permanent hair reduction is
+
+as long term, stable reduction in the
+
+defined as long term, stable
+
+defined as long term, stable
+
+number of hairs regrowing when
+
+reduction in the number of
+
+reduction in the number of
+
+measured out to 6, 9, and 12
+
+hairs regrowing when
+
+hairs regrowing when
+
+months after the completion of the
+
+measured out to 6, 9, and 12
+
+measured out to 6, 9, and 12
+
+treatment regimen.
+
+months after the completion of
+
+months after the completion of
+
+the treatment regimen.
+
+the treatment regimen.
+
+is
+
+permanent
+
+also
+
+intended
+
+reduction
+
+a
+
+treatment
+
+in
+
+regime.
+
+Prescription/OTC
+
+OTC
+
+OTC
+
+Principle of
+
+Diode Laser
+
+Diode Laser
+
+SE
+
+OTC
+
+SE
+
+Diode Laser
+
+SE
+
+Operation
+
+7‐5
+
+510(k) Summary
+Table 2 Performance Comparison
+Item
+
+Predicate Device
+
+Predicate Device
+
+K120737
+
+K142845
+
+Diode Laser
+
+Diode Laser
+
+Diode Laser
+
+SE
+
+Laser Classification
+
+Class IV
+
+Class IV
+
+Class IV
+
+SE
+
+Laser Wavelength
+
+808 nm
+
+810 nm
+
+810 nm
+
+SE
+
+Spot Size
+
+Ø9mm (Round)
+
+Ø10mm (Round)
+
+9x9 mm
+
+Discussion 1
+
+Fluence
+
+5.5 - 21.2 J/cm2
+
+7-22 J/cm2
+
+5 - 25 J/cm2
+
+Laser Type
+
+Proposed Device
+
+2
+
+2
+
+5.5 J/cm , 11 J/cm , 16.5
+2
+
+Power Supply
+
+2
+
+2
+
+2
+
+2
+
+6 J/cm , 10 J/cm , 14
+2
+
+2
+
+Remark
+
+SE
+
+2
+
+2
+
+5 J/cm , 10 J/cm , 15 J/cm ,
+2
+
+2
+
+Discussion 2
+
+2
+
+J/cm , 21.2 J/cm
+
+J/cm , 18 J/cm , 22 J/cm
+
+20 J/cm , 25 J/cm
+
+AC 110V/50Hz-60Hz
+
+100-240 V 50/60Hz
+
+100-240 V 50/60Hz
+
+SE
+
+Discussion 1
+The proposed device is different in Spot Size from the predicate, the proposed devices’ pulse duration range is cover the predicates’ and both
+proposed device and predicate has same Fluence, therefore, this difference will not affect the substantially equivalency.
+
+Discussion 2
+The proposed device is different in fluence setting level from the predicate, the proposed devices’ pulse duration range is cover the
+predicates’ and both proposed device and predicate has same Fluence, therefore, this difference will not affect the substantially equivalency.
+
+7‐6
+
+510(k) Summary
+Table 3 Safety Comparison
+Item
+
+Proposed Device
+
+Predicate Device
+
+Remark
+
+Stainless steel and Sapphire in handpiece
+
+SE
+
+Patient Contact Materials and Biocompatibility
+Patient Contact
+
+Sapphire in handpiece and handpiece tip
+
+Materials
+
+(Stainless Steel)
+
+Cytotoxicity
+
+No Cytotoxicity
+
+Sensitization
+
+No evidence of sensitization
+
+Irritation
+
+No evidence of irritation
+
+Comply with ISO 10993-1
+SE
+
+EMC, Electrical and Laser Safety
+Electrical Safety
+
+Comply with IEC 60601-1, IEC
+
+Comply with IEC 60601-1, IEC
+
+SE
+
+60601-2-22
+
+60601-2-22
+
+EMC
+
+Comply with IEC 60601-1-2
+
+Comply with IEC 60601-1-2
+
+SE
+
+Laser Safety
+
+Comply with IEC 60601-2-22, IEC 60825
+
+Comply with IEC 60601-2-22, IEC 60825
+
+SE
+
+10. Substantially Equivalent (SE) Conclusion
+Based on the comparison and analysis above, the proposed device is determined to be Substantially
+Equivalent (SE) to the predicate device.
+
+7‐7
+
+

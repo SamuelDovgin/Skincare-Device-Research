@@ -1,0 +1,800 @@
+July 3, 2023
+Ivylaser (Beijing) Technology Co., Ltd.
+℅ Eva Li
+Consultant
+Microkn Medical Technology Service (Shanghai) Co.,Ltd.
+Room 901, No. 889, Pinglu Road, Jing'an District
+Shanghai (Shanghai Jing'an HUAFA Center)
+Shanghai, 200435
+China
+Re: K230025
+Trade/Device Name: IVYLASER Handhold Hair Removal Machine
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: January 4, 2023
+Received: January 4, 2023
+Dear Eva Li:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.06.03
+
+K230025 - Eva Li
+
+Page 2
+
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Jianting Wang -S
+Jianting Wang
+Acting Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2020
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K230025
+
+Device Name
+
+IVYLASER Handhold Hair Removal Machine
+
+Indications for Use (Describe)
+
+IVYLASER Handhold Hair Removal Machine is an over-the-counter device intended for adjunctive use with shaving for
+hair removal sustained with periodic treatments. IVYLASER is also intended for permanent hair reduction defined as the
+long-term, stable reduction in the number of hairs regrowing when measured at 6, 9, and 12 months after the completion
+of a treatment regime .
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (7/17)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+510(k) Summary
+K230025
+1. Contact information
+1.1. Applicant
+Applicant Name: Ivylaser (Beijing) Technology Co., Ltd.
+Address: Room 411, Building 3, No. 2 Shengfang Road, Daxing District,
+Beijing
+Contact Person: Yuan Xiujuan
+Title: General Manager Assistant
+Tel: 086-01060299801
+Email: yuanxiujuan@oriental-laser.com
+1.2. Consultant
+Company: Microkn Medical Technology Service (Shanghai) Co., Ltd.
+Address: Room 901, No. 889, Pinglu Road, Jing'an District, Shanghai
+(Shanghai Jing'an HUAFA Center)
+Contact Person: Heather. Wang
+Telephone: +86 13166194697
+Email: heather.wang@microkn.com
+1
+
+2. Device information
+•
+
+Trade Name: IVYLASER Handhold Hair Removal Machine
+
+•
+
+Model(s): iyoung mini-P, iyoung mini-GY, iyoung mini-GN
+
+•
+
+Classification: II
+
+•
+
+Product Code: OHT
+
+•
+
+Regulation Number: 21 CFR. 878.4810
+
+3. Intended use/Indications for Use
+IVYLASER Handhold Hair Removal Machine is an over-the-counter device
+intended for adjunctive use with shaving for hair removal sustained with
+periodic treatments. IVYLASER is also intended for permanent hair reduction
+defined as the long-term, stable reduction in the number of hairs regrowing
+when measured at 6, 9, and 12 months after the completion of a treatment
+regime.
+
+4. Legally Marketed Predicate Device
+Product name: SILKPRO Laser Hair Removal System
+510(k) Number: K142845
+Product Code: OHT
+Manufacture: Wuhan Lotuxs Technology Co., Ltd.
+
+2
+
+5. Description of the device
+The proposed device is an over-the-counter device intended for adjunctive use
+with shaving for hair removal sustained with periodic treatments. It is also
+intended for permanent hair reduction
+Three models (iyoung mini-P, iyoung mini-GY, iyoung mini-GN) are included
+in IVYLASER Handhold Hair Removal Machine series products, and they
+have the same intended purposes and working theories.
+
+3
+
+The main components list of proposed device shown in Table 1.
+Table 1 Main Components list of Proposed Device
+Description
+
+Quantity
+
+Function Description
+
+Device host
+
+1
+
+For removing hair from the body.
+
+Power
+
+1
+
+Provides stable current and voltage.
+
+adapter
+
+6. Non-Clinical Test conclusion
+Non clinical tests were conducted to verify that the proposed device met
+all design specifications as was Substantially Equivalent (SE) to the
+predicate device. The test results demonstrated that the proposed device
+complies with the following standards:
+•
+
+IEC 60601-1 Medical electrical device Part1: General requirements for
+basic safety and essential performance
+
+•
+
+IEC 60601-1-2 Medical electrical equipment- Part 1-2: General
+requirements for basic safety and essential performance- Collateral
+standard: Electromagnetic compatibility- Requirements and tests
+
+•
+
+IEC 60825-1 Safety of laser products -Part 1: Equipment classification
+and requirements
+
+•
+
+ISO 10993-5 Biological evaluation of medical devices -- Part 5: Tests
+for In Vitro cytotoxicity
+
+•
+
+ISO 10993-10 Biological evaluation of medical devices - Part 10:
+Tests for irritation and delayed-type hypersensitivity
+4
+
+7.Clinical Test Conclusion
+No clinical study is included in this submission.
+
+8.Predicate Devices
+Product name: SILKPRO Laser Hair Removal System
+510(k) Number: K142845
+Product Code: OHT
+Manufacture: Wuhan Lotuxs Technology Co., Ltd.
+
+9.Substantially Equivalent (SE) Comparison
+The IVYLASER Handhold Hair Removal Machine has been carefully
+compared to legally marketed devices with respect to intended use,
+configuration, performance comparison (Table 2), physical specifications
+comparison (Table 3) and safety comparison (Table 4).
+Table 1 General Comparison
+Item
+
+Proposed Device
+
+Predicate Device
+
+Remark
+
+OHT
+
+OHT
+
+SE
+
+K230025
+
+K142845
+
+/
+
+Classificati
+
+Laser Instrument,
+
+Laser Instrument,
+
+SE
+
+on Name
+
+Surgical, Powered
+
+Surgical, Powered
+
+Regulation
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+Product
+Code
+510K
+Number
+
+5
+
+SE
+
+Number
+Panel
+
+General & Plastic
+
+General & Plastic
+
+Surgery
+
+Surgery
+
+Class II
+
+Class II
+
+Class
+
+IVYLASER Handhold
+Hair Removal Machine
+is an over-the-counter
+device
+
+intended
+
+for
+
+adjunctive
+
+use
+
+with
+
+shaving
+
+for
+
+hair
+
+removal sustained with
+periodic
+Intended
+Use
+
+IVYLASER
+
+treatments.
+is
+
+also
+
+intended for permanent
+hair reduction defined
+as the long-term, stable
+reduction in the number
+of
+
+hairs
+
+regrowing
+
+when measured at 6, 9,
+and 12 months after the
+completion
+
+of
+
+a
+
+treatment regime.
+
+SILKPRO
+
+SE
+
+laser
+
+hair
+
+removal system adopts
+the 810nm diode laser,
+which targets on
+the hair follicle and
+slows the process of hair SE, with
+growth. It is used to differenc
+remove unwanted hair
+
+e in
+
+of body. SILKPRO is wording,
+also
+
+intended
+
+for while the
+hair
+
+actual
+
+reduction defined as the
+
+intended
+
+long-term,
+
+use are
+
+permanent
+
+stable
+
+reduction in the number the same.
+of hairs regrowing when
+measured at 6, 9, and 12
+months
+completion
+
+after
+
+the
+
+of
+
+a
+
+treatment regime.
+
+6
+
+SE
+
+IVYLASER Handhold
+Hair Removal Machine SILKPRO
+
+is
+
+an
+
+is an over-the-counter over-the-counter device
+device
+
+intended
+
+adjunctive
+
+use
+
+with use with shaving for hair
+
+shaving
+
+for
+
+hair removal sustained with
+
+removal sustained with periodic
+
+treatments.
+
+periodic
+
+is
+
+treatments. SILKPRO
+
+Indications IVYLASER
+for Use
+
+for intended for adjunctive
+
+is
+
+also
+
+also intended for permanent
+
+intended for permanent hair reduction defined as
+hair reduction defined the
+
+long-term,
+
+SE
+
+stable
+
+as the long-term, stable reduction in the number
+reduction in the number of hairs regrowing when
+of
+
+hairs
+
+regrowing measured at 6, 9, and 12
+
+when measured at 6, 9, months
+
+after
+
+the
+
+of
+
+a
+
+and 12 months after the completion
+completion
+
+of
+
+a treatment regime.
+
+treatment regime.
+
+Table 2 Performance Comparison
+Item
+
+Proposed Device
+
+Predicate Device
+
+Remark
+
+Laser Type
+
+Diode Laser
+
+Diode Laser
+
+SE
+
+Wavelength
+
+808nm
+
+810nm
+
+Discussion 1
+
+7
+
+15.43 J/cm2
+
+25J/cm2
+
+Discussion 2
+
+1.85 J/cm2, 3.09 J/cm2,
+
+5J/cm2, 10J/cm2,
+
+Discussion 2
+
+6.17J/cm2, 9.26 J/cm2,
+
+15J/cm2,
+
+15.43 J/cm2
+
+20J/cm2, 25J/cm2
+
+Laser Beam
+
+9mm×18mm
+
+9mm×9mm
+
+Pulse Width
+
+Maximum: 600ms
+
+Maximum: 408.1ms Discussion 3
+
+Minimum: 50ms
+
+Minimum: 68.06ms
+
+Maximum: 5hz
+
+Maximum: 1hz
+
+Minimum: 0.5hz
+
+Minimum: 0.24hz
+
+Max Energy
+Density (Per Sec)
+Energy Density
+(Per Sec)
+
+Frequency
+
+Discussion 2
+
+Discussion 3
+
+Table 3 Physical Specifications Comparison
+Item
+
+Proposed Device
+
+Predicate Device
+
+Remark
+
+Operating
+
+Temperature: 5~28℃;
+
+Temperature:
+
+Discussion
+
+Environment
+
+Humidity: <70%
+
++5℃~+40℃；
+
+4
+
+Humidity: ≤80%
+Storage
+
+Temperature: 10℃～
+
+Temperature:
+
+Discussion
+
+Environment
+
+30℃;
+
+-40℃～+55℃;
+
+4
+
+Humidity: 30%～75%; Humidity: ≤ 90%;
+Atmospheric pressure：
+
+Atmospheric
+
+860hPa～1060hPa
+
+pressure：700～
+1060hPa
+
+Input Voltage
+
+100～240V, 50/60Hz
+8
+
+100～240V,
+
+SE
+
+50/60Hz
+Usability
+
+Button operation
+
+Button operation
+
+SE
+
+Discussion 1
+The Proposed Device uses a wavelength of 808nm. The device is safe for
+human body according to IEC 60825-1 test report, report details please
+refer to VOL_017.
+Discussion 2
+There are some differences on the energy density and laser beam between
+proposed device and predicate device. The laser beam of the proposed
+device is larger than that of the predicate device. However, the energy
+density is lower of the proposed device, and both of the devices comply
+with IEC 60825-1. Therefore, the safety and effectiveness won’t be
+affected and they can be considered substantially equivalent in safety and
+effectiveness.
+Discussion 3
+The proposed device is different in pulse width and frequency from the
+predicate device. But the energy density of the proposed device is lower
+than the predicate device and both of the devices comply with IEC
+60825-1. Therefore, the safety and effectiveness won’t be affected and
+they can be considered substantially equivalent in safety and effectiveness.
+Discussion 4
+9
+
+There are some differences on the operating and storage environment
+between proposed device and predicate device. But the proposed device
+has passed the transportation test according to ASTM D4169-2016 and
+shelf life verification test, details please refer to VOL_014. Therefore, the
+safety and effectiveness won’t be affected and they can be considered
+substantially equivalent in safety and effectiveness.
+
+10
+
+Safety comparison has been done to validate the biocompatibility
+specification, EMC and safety of the device (Table 4).
+
+Table 4 Safety Comparison
+Item
+
+Proposed Device
+
+Predicate Device
+
+Remark
+
+Biocompatibility
+Cytotoxicity
+
+No Cytotoxicity
+
+No Cytotoxicity
+
+SE
+
+Skin
+
+No evidence of
+
+No evidence of
+
+SE
+
+sensitization
+
+sensitization
+
+sensitization
+
+Irritation
+
+No evidence of
+
+No evidence of
+
+irritation
+
+irritation
+
+SE
+
+EMC, Electrical and Laser Safety
+Electrical
+
+Comply with IEC
+
+Comply with IEC
+
+safety
+
+60601-1
+
+60601-1
+
+EMC
+
+Comply with IEC
+
+Comply with IEC
+
+60601-1-2
+
+60601-1-2
+
+Comply with IEC
+
+Comply with IEC
+
+60825-1
+
+60825-1
+
+Laser safety
+
+SE
+
+SE
+
+SE
+
+10.Substantially Equivalent (SE) Conclusion
+Based on the comparison and analysis above, the proposed device is
+determined to be Substantially Equivalent (SE) to the predicate device.
+11
+
+

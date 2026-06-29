@@ -1,0 +1,740 @@
+June 26, 2023
+ZhongShan Qizhe Technology Co., Ltd.
+℅ You Yijie
+Manager
+Qimmiq Medical Consulting Service Co., Ltd.
+RM.406, Building C, Run Science Park,
+No.18 Shenzhou Road, Huangpu
+Guangdong, Guangdong 510663
+China
+Re: K231215
+Trade/Device Name: IPL Hair Removal Device Model: Skin Expert Pro IPL 008, Skin Expert Pro IPL
+008S
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: April 20, 2023
+Received: April 28, 2023
+Dear You Yijie:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.06.03
+
+K231215 - You Yijie
+
+Page 2
+
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Jianting Wang -S
+Jianting Wang
+Acting Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2023
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+K231215
+Device Name
+
+IPL Hair Removal Device Model: Skin Expert Pro IPL 008, Skin Expert Pro IPL008S
+
+Indications for Use (Describe)
+
+The IPL Hair Removal device (Model: Skin Expert Pro IPL 008, Skin Expert Pro IPL 008S) is an Over the
+Counter device intended for the removal of unwanted body hair.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (6/20)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+510(k) Summary
+K231215
+1. Submitters Information
+Establishment Registration Information
+Name:
+Address:
+
+Zhongshan Qizhe Technology Co., Ltd
+23 Tongji West Road,Nantou Town,Zhongshan City
+(Room 902, Building 8, Hongji Industrial City Phase ll)
+
+Contact Person of applicant:
+Name:
+Address:
+TEL:
+Email:
+
+Gan Guiping
+23 Tongji West Road,Nantou Town,Zhongshan City
+(Room 902, Building 8, Hongji Industrial City Phase ll)
++86 13902957808
+peter@r-d.com.cn
+
+Contact Person of the Submission:
+Name:
+You Yijie
+Address:
+RM.406, Building C, Run Science Park, No.18
+Shenzhou Road, Huangpu, Guangzhou, Guangdong
+510663 P.R. China
+TEL:
+(+86)020-82245821
+FAX:
+(+86)020-82245821
+Email:
+jet.you@qimmiq-med.com
+Date of the summary prepared: Jun. 15, 2023
+
+2. Device Information
+Trade Name:
+Model:
+Classification name:
+Common or Usual Name:
+Review panel:
+Product code:
+Regulation Class:
+Regulation Number:
+
+IPL Hair Removal device
+Skin Expert Pro IPL 008
+Skin Expert Pro IPL 008S
+Light Based Over-The-Counter Hair Removal
+Powered Light Based Non-Laser Surgical Instrument With
+Thermal Effect
+General&Plastic Surgery
+OHT
+II
+878.4810
+
+3. Predicate Device Information
+Page 1/9
+
+Primary Predicate Device 1
+510(k) submitter/holder:
+510(K) Number:
+Trade Name
+Model
+Classification name
+Review panel
+Product code
+Regulation Class
+Regulation Number
+
+Primary Predicate Device 2
+510(k) submitter/holder:
+510(K) Number:
+Trade Name
+Model
+Classification name
+Review panel
+Product code
+Regulation Class
+Regulation Number
+
+Touchbeauty Beauty &
+(Shenzhen) Co., Ltd
+K183217
+IPL Hair Removal Device
+TB-1755
+
+Health
+
+Light Based Over-The-Counter Hair
+Removal
+General & Plastic Surgery
+OHT, ONF
+II
+878.4810
+
+Shenzhen Fansizhe Science and
+Technology Co., Ltd
+K223928
+IPL Hair Removal Device
+T016K
+Laser Surgical Instrument For Use In
+General And Plastic Surgery And In
+Dermatology
+General & Plastic Surgery
+OHT
+II
+878.4810
+
+4. Device description
+IPL Hair Removal device, models: Skin Expert Pro IPL 008, Skin Expert Pro IPL 008S are a small
+over-the-counter device for the reduction of hair growth based on Intense Pulsed Light (IPL). It
+works below the skin's surface and does not involve any cutting or pulling, reducing hair growth
+with minimal pain. The device is powered by the external power adaptor or built-in battery and its
+IPL emission activation is by a switch or auto light emission.
+IPL Hair Removal device, models: Skin Expert Pro IPL 008, Skin Expert Pro IPL 008S, contains a
+Xenon arc flashlamp, one built-in battery, a capacitive sensor to detect appropriate skin contact,
+and a skin color sensor to detect the skin tone. The skin color sensor is fixed in “Skin color
+recognition Window” of IPL Hair Removal device, and the device’s skin color sensor automatically
+detects skin tone for your protection when the device is powered on. If your skin tone is not in tone
+table suitable for treatment, the device must not be used. You need to identify your skin tone before
+treatment according to skin tone table, and confirm whether the product is applicable to you after
+the skin color sensor detects a skin tone. The capacitive sensor is assembled in the device probe
+of IPL Hair Removal device, if the device is not properly applied to the treatment area (in full
+contact with the skin), the device cannot emit the treatment light pulses.
+
+Page 2/9
+
+Based on the cooling technology, IPL Hair Removal device, models: Skin Expert Pro IPL 008, Skin
+Expert Pro IPL 008S, has cooling care functions. When the cooling care mode is enabled, it can
+reduce the excessive heat generated on the skin by the photon irradiation and do cooling
+compresses during hair removal.
+The IPL Hair Removal device, models: Skin Expert Pro IPL 008, Skin Expert Pro IPL 008S can be
+powered on built-in battery or cable adaptor. The built-in lithium battery can be recharged. When
+the capacity of battery is low, the battery icon "
+” display red on the screen. When the When
+battery icon "
+” display red with blinking for about 20s the device will turn off. The recharge
+time of the battery is about 3 hours and when full charged and turn on level 5 to treatment the
+using time about 45 mins.
+When the device is turned on under battery-powered and insert the adaptor with the device, the
+device will be shut down and to charge. If you want to treatment, you shall turn on the device again
+with the cable adaptor.
+When device is turned on under cable adaptor, then take off the adaptor, the device will be shut
+down. If you still want to treatment, you shall turn on the device again.
+
+The IPL Hair Removal Device includes main unit (including built-in battery), an adaptor, goggles
+and shaver.
+The device is intended to be used for adults aged over 18.
+
+Principle of operation:
+Hair has a growth cycle, which can be roughly divided into incubation period, growth period and
+decline period. The growth period hair has a complete structure such as hair follicles and hair
+shafts. The hair in the incubation period and the decline period does not have the hair follicle
+structure. The removal of excess hair is to take advantage of the characteristics of the anatomical
+structure of hair. The device based on the IPL technology emits a specific wavelength of the light
+and delivers the light to the skin. It is designed to help break the cycle of hair re-growth. Light
+energy is transferred through the skin's surface and is absorbed by melanin present in the hair
+shaft. The absorbed light energy is converted to heat energy below the surface of the skin, which
+disables the hair follicle preventing further growth. Therefore, the device achieves effective hair
+removal.
+
+5. Indications for Use
+IPL Hair Removal device, models: Skin Expert Pro IPL 008, Skin Expert Pro IPL 008S is an Overthe Counter device intended for the removal of unwanted body hair.
+
+Page 3/9
+
+6. Summary of technological characteristics of device compared to the predicate device1 (K183217) and
+predicate device2(K160968)
+SE
+Comparisons
+510K Number
+Classification
+Product Code
+FDA Class
+
+Indications for Use
+
+Environment of Use
+Design
+Patient Population
+
+Subject device
+(IPL Hair Removal device,
+model: Skin Expert Pro IPL 008,
+Skin Expert Pro IPL 008S)
+/
+21CFR 878.4810
+OHT
+II
+The IPL Hair Removal device(model:
+Skin Expert Pro IPL 008, Skin Expert
+Pro IPL 008S) is an Over the Counter
+device intended for the removal of
+unwanted body hair.
+Home use
+Hand-hold
+Adult
+
+Material of Patient
+contact components
+
+ABS for button, ABS for main housing,
+PC for Probe cover, PC for Light Exit
+Window, PC for Touch key-press ,
+Sapphire Crystal Cooling Compress
+
+Biocompability testing
+
+1.Type of contact: direct contact for
+users and patients.
+2.Nature of body contact category:
+Surface Contact class: A (<24 h)
+3.Meets ISO 10993- 5, ISO 10993-10
+
+Single Patient,
+multi-use
+Patient Interface
+Technology
+
+Predicate device 1
+(IPL Hair Removal Device, Model:
+TB-1755)
+K183217
+21CFR 878.4810
+OHT, ONF
+II
+The IPL Hair Removal device (model:
+TB-1755) is an Over the Counter
+device intended for the removal of
+unwanted body hair.
+Home use
+Hand-hold
+Adult
+
+Not public
+
+Predicate device 2
+(IPL Hair Removal Device, Model:
+T016K)
+
+Discussion of
+difference
+
+K223928
+21CFR 878.4810
+OHT
+II
+The IPL Hair Removal Device is an
+over-the-counter device intended for
+the removal of unwanted body hair.
+
+/
+Same
+Same
+Same
+
+Home use
+Hand-hold
+Adult
+PC for button, PC for main housing
+and Probe cover, Sapphire Crystal
+Cooling Compress
+
+Same
+Same
+Same
+
+Same
+
+Different
+(Discussion is
+indicated in D1)
+
+Not public
+
+1.Type of contact: direct contact for
+users and patients.
+2.Nature of body contact category:
+Surface Contact class: A (<24 h)
+3.Meets ISO 10993- 5, ISO 10993-10
+
+Same
+
+Yes
+
+Yes
+
+Yes
+
+Same
+
+Buttons
+Intense Pulse Light (IPL)
+
+Buttons
+Intense Pulse Light (IPL)
+
+Buttons
+Intense Pulse Light (IPL)
+
+Same
+Same
+
+Page 4/9
+
+SE
+Comparisons
+
+Subject device
+(IPL Hair Removal device,
+model: Skin Expert Pro IPL 008,
+Skin Expert Pro IPL 008S)
+
+Predicate device 1
+(IPL Hair Removal Device, Model:
+TB-1755)
+
+Predicate device 2
+(IPL Hair Removal Device, Model:
+T016K)
+
+153*185*52mm for Skin Expert Pro IPL
+008S
+Dimensions
+
+182*72.4*69.2mm
+
+90*44*225mm
+
+140*191*54mm for Skin Expert Pro IPL
+008S
+
+Finger switch
+One channel
+
+Same
+
+Direct Illumination to Tissue
+Yes
+
+Same
+Same
+
+ANSI AAMI ES60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+IEC 62471
+
+Different
+(Discussion is
+indicated in D9)
+
+An external power supply and built-in
+battery
+
+An external power supply
+
+An external power supply
+
+Light source
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Wavelength
+
+510nm~1100nm
+
+510-1100nm
+
+510nm~1200nm
+
+3.1cm2
+
+3.1 cm2
+
+3.3cm2
+
+Max. Fluence (J/cm2)
+
+3.8-5.5 J/cm2
+
+3.8-5.2 J/cm2
+
+1.45-5.73J/cm2
+
+Pulse duration
+
+3ms -9ms
+
+3ms
+
+4ms-12ms
+
+Output energy
+
+12J -18J
+
+12J-16J
+
+4.8J~18.9J
+
+Finger switch
+
+Finger switch
+
+One channel
+
+One channel
+
+Direct Illumination to Tissue
+
+Direct Illumination to Tissue
+
+Yes
+
+Yes
+
+ANSI AAMI ES60601-1
+IEC 60601-1-2
+ANSI/AAMI HA60601-1-11
+IEC 60601-2-83
+IEC 62471
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-57
+IEC 62471
+
+Spot Size
+
+Page 5/9
+
+Different
+(Discussion
+is
+indicated in D2)
+Different
+(Discussion
+is
+indicated in D3)
+Same
+Different
+(Discussion
+is
+indicated in D4)
+Different
+(Discussion is
+indicated in D5)
+Different
+(Discussion is
+indicated in D6)
+Different
+(Discussion is
+indicated in D7)
+Different
+(Discussion
+is
+indicated in D8)
+Same
+
+Power source
+
+Pulsing
+Control
+Output
+Channel
+Delivery
+Software
+Control
+Electrical
+safety, EMC,
+Biological
+Evaluation
+
+Discussion of
+difference
+
+SE
+Comparisons
+
+Subject device
+(IPL Hair Removal device,
+model: Skin Expert Pro IPL 008,
+Skin Expert Pro IPL 008S)
+ISO 10993-5
+ISO 10993-10
+IEC 62133-2
+
+Predicate device 1
+(IPL Hair Removal Device, Model:
+TB-1755)
+ISO 10993-5
+ISO 10993-10
+
+Predicate device 2
+(IPL Hair Removal Device, Model:
+T016K)
+
+Discussion of
+difference
+
+ISO 10993-5
+ISO 10993-10
+
+The discussion of differences exist between the subject and predicate devices is listed in following:
+D1: The subject device has been validated for cytotoxicity per ISO 10993- 5 and Irritation as well as Sensitization per ISO 10993-10 with positive results, therefore, the
+material difference of subject device with Predicate device 2 (K223928, Model: T016K) do not raise new questions of safety and effectiveness.
+D2: The difference of dimensions will not affect the safety and effectiveness.
+D3: The subject device has demonstrated electromagnetic compatibility and electrical safety by ANSI AAMI ES60601- 1 and ANSI AAMI IEC 60601-1-2 testing.
+Therefore, the difference does not raise the issue of product's safety and effectiveness.
+D4: Wavelength of subject device is same with predicate device 1 and similar with predicate device 2. The safety and effectiveness of the subject device is verified via
+tests according to ANSI AAMI ES60601-1, IEC60601-1-2, ANSI/AAMI HA60601-1-11, IEC 62471 and IEC 60601-2-83, so the differences do not affect the safety
+and effectiveness.
+D5: Spot Size of subject device is same with predicate device 1 but similar with predicate device 2. The safety and effectiveness of the subject device is verified via tests
+according to ANSI AAMI ES60601- 1, IEC60601-1-2, ANSI/AAMI HA60601-1-11, IEC 62471 and IEC 60601-2-83, so the differences do not affect the safety and
+effectiveness.
+D6: Max. Fluence of subject device is similar or within the range of predicate devices. The lower limit value of subject device is the same with predicate device 1, the
+range of subject device is covered by predicate device 2. The safety and effectiveness of the subject device is verified via tests according to ANSI AAMI ES60601-1,
+IEC60601-1-2, ANSI/AAMI HA60601-1-11, IEC 62471 and IEC 60601-2-83, so the differences do not affect the safety and effectiveness.
+D7: Pulse duration of subject device similar with predicate devices. The lower limit value of subject device is the same with predicate device 1, and the Pulse duration of
+subject device is similar with the range of predicate device 2. The safety and effectiveness of the subject device is verified via tests according to ANSI AAMI
+ES60601-1, IEC60601-1-2, ANSI/AAMI HA60601-1-11, IEC 62471 and IEC 60601-2-83, so the differences do not affect the safety and effectiveness.
+D8: Output energy of subject device is similar with predicate device1, and the range of subject device is covered by predicate device 2. The safety and effectiveness of
+the subject device is verified via tests according to ANSI AAMI ES60601-1, IEC60601-1-2, ANSI/AAMI HA60601-1-11, IEC 62471 and IEC 60601-2-83, so the
+differences do not affect the safety and effectiveness.
+Page 6/9
+
+D9: One of IEC 60601-2-83 and IEC 60601-2-57 is applicable for IPL Hair Removal device, so the difference does not affect the safety and effectiveness. The
+IEC 62133-2 is applicable for the built-in Lithium battery, and subject device is verified via tests according to ANSI AAMI ES60601-1, IEC60601-1-2, ANSI/AAMI
+HA60601-1-11, IEC 62471 and IEC 60601-2-83, so the difference does not affect the safety and effectiveness.
+
+Page 7/9
+
+7. Discussion of Non-Clinical Tests Performed for Safety and
+effectiveness are as follows
+The recognized consensus standards for safety of medical electrical equipment: ANSI AAMI
+ES60601-1, ANSI/AAMI HA60601-1-11, IEC 62133-2 for safety, IEC 60601-1-2 for electromagnetic
+compatibility, IEC 60601-2-83:2011 for performance and IEC 62304 for software verification are
+complied. See below table for details:
+Standards
+ANSI AAMIES606011:2005/(R)2012 A1:2012,
+C1:2009/(R)2012
+A2:2010/(R)2012 (Cons. Text)
+[Incl. AMD2:2021]
+IEC 60601-1-2: 2014
+
+ANSI/AAMI HA60601-111:2015 + A1:2021
+
+IEC 60601-2-83:2019
+
+Standards Name
+Medical Electrical Equipment - Part 1: General Requirements
+For Basic Safety And Essential Performance
+Medical Electrical Equipment -- Part 1-2: General Requirements
+For Basic Safety And Essential Performance -- Collateral
+Standard: Electromagnetic Disturbances -- Requirements And
+Tests
+Medical Electrical Equipment - Part 1-2: General Requirements
+For Basic Safety And Essential Performance - Collateral
+Standard: Electromagnetic Disturbances - Requirements And
+Tests
+Medical electrical equipment Part 2-83: Particular requirements
+for the basic safety and essential performance of home light
+therapy equipment
+
+IEC 62471: 2006
+
+Photobiological safety of lamps and lamp systems
+
+ISO 10993-5 Third edition
+2009-06-01
+ISO 10993-10 Third Edition
+2010-08-01
+
+Biological evaluation of medical devices - Part 5: Tests for in
+vitro cytotoxicity
+Biological evaluation of medical devices - Part 10: Tests for
+irritation and skin sensitization
+Secondary cells and batteries containing alkaline or other nonacid electrolytes - Safety requirements for portable sealed
+secondary cells, and for batteries made from them, for use in
+portable applications - Part 2: Lithium systems
+
+IEC 62133-2 Edition1.0 201702
+
+IEC 62304 Edition 1.1 2015-06
+Medical device software - Software life cycle processes
+CONSOLIDATED VERSION
+
+Software verification and validation was performed for the subject device in accordance with
+Guidance for the Content of Premarket Submissions for Software Contained in Medical Devices Guidance for Industry and FDA Staff, May 2005.
+
+8. Discussion of Clinical Accuracy Testing Performed
+There was no clinical testing performed.
+
+9. Conclusions
+Based on performance testing, comparison and analysis, the subject device IPL Hair Removal device,
+Page 8/9
+
+model: Skin Expert Pro IPL 008, Skin Expert Pro IPL 008S, is substantially equivalent to the predicate
+devices.
+
+Page 9/9
+
+

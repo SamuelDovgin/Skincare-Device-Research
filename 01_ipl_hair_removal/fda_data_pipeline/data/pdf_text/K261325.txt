@@ -1,0 +1,634 @@
+May 21, 2026
+Shenzhen Ulike Smart Electronics Co., Ltd.
+Blue Yang
+Registration Director
+810, Bldg. 1, Xunmei Science And Technology Plz., # 8 Keyuan Rd., Science Park Community
+Yuehai Sub-District, Nanshan District, Shenzhen 518000, Guangdong, P. R. China
+Shenzhen,
+China
+Re: K261325
+Trade/Device Name: Ice Cooling IPL Hair Removal Device (UI06S PR, UI06S PN, UI06S WH, UI06S
+PRU, UI06S PNU, UI06S WHU)
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: April 21, 2026
+Received: April 22, 2026
+Dear Blue Yang:
+We have reviewed your section 510(k) premarket notification of intent to market the device referenced above
+and have determined the device is substantially equivalent (for the indications for use stated in the enclosure)
+to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment
+date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the
+provisions of the Federal Food, Drug, and Cosmetic Act (the Act) that do not require approval of a premarket
+approval application (PMA). You may, therefore, market the device, subject to the general controls
+provisions of the Act. Although this letter refers to your product as a device, please be aware that some
+cleared products may instead be combination products. The 510(k) Premarket Notification Database
+available at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.08.03
+
+K261325 - Blue Yang
+
+Page 2
+
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Additional information about changes that may require a new premarket notification are provided in the FDA
+guidance documents entitled "Deciding When to Submit a 510(k) for a Change to an Existing Device"
+(https://www.fda.gov/media/99812/download) and "Deciding When to Submit a 510(k) for a Software
+Change to an Existing Device" (https://www.fda.gov/media/99785/download).
+Your device is also subject to, among other requirements, the Quality Management System Regulation
+(QMSR) (21 CFR Part 820), which includes, but is not limited to, ISO 13485 clause 7.3 (Design controls),
+ISO 13484 clause 8.3 (Nonconforming product), and ISO 13485 clause 8.5 (Corrective and preventative
+action). Please note that regardless of whether a change requires premarket review, the QMSR requires
+device manufacturers to review and approve changes to device design and production (ISO 13485 clause 7.3
+and 21 CFR 820.70) and document changes and approvals in the device master record (21 CFR 820.181).
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR Part 803) for
+devices or postmarketing safety reporting (21 CFR Part 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the Quality Management
+System Regulation (QMSR) (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR
+Part 4, Subpart A) for combination products; and, if applicable, the electronic product radiation control
+provisions (Sections 531-542 of the Act); 21 CFR Parts 1000-1050.
+All medical devices, including Class I and unclassified devices and combination product device constituent
+parts are required to be in compliance with the final Unique Device Identification System rule ("UDI Rule").
+The UDI Rule requires, among other things, that a device bear a unique device identifier (UDI) on its label
+and package (21 CFR 801.20(a)) unless an exception or alternative applies (21 CFR 801.20(b)) and that the
+dates on the device label be formatted in accordance with 21 CFR 801.18. The UDI Rule (21 CFR
+830.300(a) and 830.320(b)) also requires that certain information be submitted to the Global Unique Device
+Identification Database (GUDID) (21 CFR Part 830 Subpart E). For additional information on these
+requirements, please see the UDI System webpage at https://www.fda.gov/medical-devices/device-advicecomprehensive-regulatory-assistance/unique-device-identification-system-udi-system.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+
+K261325 - Blue Yang
+
+Page 3
+
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+TANISHA L.
+HITHE -S
+
+Digitally signed by TANISHA
+L. HITHE -S
+Date: 2026.05.21 00:02:15
+-04'00'
+
+Tanisha Hithe
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical and
+Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2023
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K261325
+
+Device Name
+
+Ice Cooling IPL Hair Removal Device (UI06S PR, UI06S PN, UI06S WH, UI06S PRU, UI06S PNU, UI06S WHU)
+
+Indications for Use (Describe)
+
+Ice Cooling IPL Hair Removal Device with sapphire treatment window is indicated for the removal of unwanted hair. The
+device is also indicated for the permanent reduction in hair regrowth, defined as the long-term, stable reduction in the
+number of hairs regrowing when measured at 6, 9 and 12 months after the completion of a treatment regime.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (6/20)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+Shenzhen Ulike Smart Electronics Co., Ltd.
+
+510(k) Summary
+
+K261325
+
+I. Submitter
+Shenzhen Ulike Smart Electronics Co.,Ltd.
+Address:810, Building 1, Xunmei Science and Technology Plaza, No. 8 Keyuan Road,
+Science Park Community, Yuehai Sub-District, Nanshan District, Shenzhen 518000,
+Guangdong, P.R. China
+Contact person: Blue Yang
+Email: blue@ulike.com
+The date the summary was prepared：05/07/2026
+II. Device
+Name of Device: Ice Cooling IPL Hair Removal Device
+Model(s): UI06S PR, UI06S PN, UI06S WH, UI06S PRU, UI06S PNU, UI06S WHU
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+III. Device Description
+Ice Cooling IPL Hair Removal Device is an over-the-counter, home-use and personal device
+for hair reduction by using Intense Pulsed Light (IPL) with safety and efficacy. It is designed
+with a lamp that can emit continuously double or triple pulses per shot. It works below the
+skin's surface and does not involve any cutting or pulling, reducing hair growth with nearly
+painless pain and nearly heatless.
+The device is only powered by the external power adapter and its IPL emission activation is
+by finger switch. This product adopts sapphire treatment window that is suitable for multiple
+hair removal areas. It contains a skin sensor to detect appropriate skin contact, if the device is
+not in full contact with the skin, the device cannot emit the treatment light pulses. Besides, the
+device has the ice cooling function that will be activated throughout the whole hair removal
+process to provide users with a more comfortable and safer experience.
+IV. Indications for Use
+Ice Cooling IPL Hair Removal Device with sapphire treatment window is indicated for the
+removal of unwanted hair. The device is also indicated for the permanent reduction in hair
+regrowth, defined as the long-term, stable reduction in the number of hairs regrowing when
+measured at 6, 9 and 12 months after the completion of a treatment regime.
+V. Comparison of Technological Characteristics With the Predicate Device
+The Ice Cooling IPL Hair Removal Device has the same intended use and similar
+operational characteristics as the predicate devices. Any minor differences between the
+1
+
+Shenzhen Ulike Smart Electronics Co., Ltd.
+
+subject device and the listed predicate devices do no raise any issues of safety or efficacy.
+Performance data supports that the device is safe and as effective as the predicate devices for
+its intended use. Therefore, the IPL Hair Removal Device may be found substantially
+equivalent to its predicate devices.
+Ice Cooling IPL Hair Removal Device is compared with the following legally marketed
+devices in terms of intended use, design, specifications and performance:
+Comparison Items
+
+Subject Device
+
+Predicate
+
+Predicate
+
+Remark
+
+510(k) number
+Trade Name
+
+K261325
+Ice Cooling IPL
+Hair Removal
+Device
+Shenzhen Ulike
+Smart Electronics
+Co., Ltd.
+
+K250194
+Ice Cooling IPL
+Hair Removal
+Device
+Shenzhen Ulike
+Smart Electronics
+Co., Ltd.
+
+K221002
+IPL Hair
+Removal Device
+
+/
+/
+
+/
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+OHT
+Class II
+
+OHT
+Class II
+
+Shenzhen Ulike
+Smart
+Electronics Co.,
+Ltd.
+21 CFR
+878.4810
+OHT
+Class II
+
+Ice Cooling IPL
+Hair Removal
+Device with
+sapphire treatment
+window is
+indicated for the
+removal of
+unwanted hair. The
+device is also
+indicated for the
+permanent
+reduction in hair
+regrowth, defined
+as the long-term,
+stable reduction in
+the number of
+hairs regrowing
+when measured at
+6, 9 and 12 months
+after the
+completion of a
+treatment regime.
+OTC
+
+Ice Cooling IPL
+Hair Removal
+Device with
+sapphire treatment
+window is
+indicated for the
+removal of
+unwanted hair.
+The device is also
+indicated for the
+permanent
+reduction in hair
+regrowth, defined
+as the long-term,
+stable reduction in
+the number of
+hairs regrowing
+when measured at
+6, 9 and 12
+months after the
+completion of a
+treatment regime.
+OTC
+
+Manufacturer
+
+Regulation
+number
+Product code
+Device
+classification
+Indication for use/
+Intended use
+
+Rx/ OTC
+
+Same
+Same
+Same
+
+IPL Hair
+Removal Device
+is indicated for
+the removal of
+unwanted hair.
+The device is
+also indicated for
+the permanent
+reduction in hair
+regrowth,
+defined as the
+long-term, stable
+reduction in the
+number of hairs
+regrowing when
+measured at 6, 9
+and 12 months
+after the
+completion of a
+treatment
+regime.
+
+Same
+
+OTC
+
+Same
+2
+
+Shenzhen Ulike Smart Electronics Co., Ltd.
+
+Applicable skin
+Treatment area
+
+Source energy
+
+Power supply
+Dimensions, mm
+Sterilization
+Light source
+Energy medium
+Wavelength range
+Energy density
+
+Fitzpatrick Skin
+Types I-V
+Large areas (e.g.
+arms, legs, chest)
+and small areas
+(e.g. lip)
+Supplied by
+external
+adapter
+100-240V~,
+50/60Hz
+179.0×58.2×37.2
+
+Fitzpatrick Skin
+Types I-V
+Large areas (e.g.
+arms, legs, chest)
+and small areas
+(e.g. lip)
+Supplied by
+external
+adapter
+100-240V~,
+50/60Hz
+179.0×58.2×37.2
+
+Not required
+Intense Pulsed
+Light
+Xenon Arc
+Flashlamp
+550nm-1200nm
+2.42-7.27J/cm²
+
+Not required
+Intense Pulsed
+Light
+Xenon Arc
+Flashlamp
+550nm-1200nm
+2.42-7.27J/cm²
+
+Fitzpatrick Skin
+Types I-V
+Large areas (e.g.
+arms, legs, chest)
+and small areas
+(e.g. lip)
+Supplied by
+external
+adapter
+100-240V~,
+50/60Hz
+60.5(W)×38(H)
+×169. 7(L)
+Not required
+Intense Pulsed
+Light
+Xenon Arc
+Flashlamp
+550-1200mm
+3.03-5.3J/cm²
+
+Same
+
+Same
+Same
+
+10.0~17.5J
+
+Same
+
+3.3cm²
+7-10ms
+
+Same
+Same
+
+Same
+
+Same
+
+Same
+Same
+Same
+Same
+Same
+
+UI06S PR,UI06S
+PN,UI06S WH:
+2.42-7.27J/cm²
+
+Output energy
+
+UI06S PRU,
+UI06S PNU,UI06S
+WHU：
+2.42-6.97J/cm²
+8-24J
+8-24J
+UI06S PR,UI06S
+PN,UI06S WH:
+8-24J
+
+Spot size
+Pulse duration
+
+UI06S PRU,
+UI06S PNU,UI06S
+WHU：8J~23J
+3.3cm²
+3.3cm²
+1.82-8.07ms
+1.82-8.07ms
+Multipulse
+multipulse
+UI06S PR,UI06S
+PN,UI06S WH:
+
+3
+
+Shenzhen Ulike Smart Electronics Co., Ltd.
+
+1.82-8.07ms
+
+Pulsing control
+Delivery device
+
+Output intensity
+level
+
+UI06S PRU,
+UI06S PNU,UI06S
+WHU：
+1.82ms~8.07ms
+Finger switch
+Finger switch
+Direct illumination Direct
+to tissue
+illumination to
+tissue
+UI06S PR,UI06S
+4 levels
+PN,UI06S WH: 4
+levels
+
+Finger switch
+Direct
+illumination to
+tissue
+5 Levels
+
+UI06S PRU,
+UI06S PNU,UI06S
+WHU：3 levels
+Software/Firmwar
+e/Microprocess or
+Control
+Electrical safety
+
+Yes
+
+Yes
+
+Yes
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-57
+IEC 60601-2-83
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-57
+IEC 60601-2-83
+
+Eye safety
+Biocompatibility
+
+ANSI AAMI ES
+60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-57
+IEC 60601-2-83
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+
+IEC 62471
+IEC 62471
+ISO 10993-5
+ISO 10993-5
+ISO 10993-10
+ISO 10993-10
+ISO 10993-23
+ISO 10993-23
+1. The software of UI06S PRU, UI06S PNU, UI06S WHU
+does not have previous Level 3 and changes the output
+energy of the maximum level from 24J into 23J. Moreover,
+the Strong Mode button of UI06S PRU, UI06S PNU, UI06S
+WHU is changed to the mode switch function.
+“a reusable single patient use device”changes into “a
+reusable multi-patient use device”
+
+Modifications
+
+VIII.
+
+Same
+Same
+
+this
+difference is
+insignificant
+and do not
+raise any
+safety or
+effectiveness
+problems.
+Same
+
+Same
+
+Same
+Same
+
+The changes
+haven’t
+raised any
+safety and
+effectiveness
+issues.
+SE
+
+Performance Data
+
+1) Software Verification and Validation
+Software documentation consistent with Basic Documentation Level was submitted in this
+4
+
+Shenzhen Ulike Smart Electronics Co., Ltd.
+
+510(k). System testing presented in this 510(k) demonstrated that all software requirement
+specifications are met and all software hazards have been mitigated to acceptable risk levels.
+2) Verification Report of Output Energy Density
+3) Verification Report of Pulse Width
+Conclusion: Based on the above analysis and non-clinical tests performed, it can be
+concluded that the subject device Ice Cooling IPL Hair Removal Device is as safe, as
+effective, and performs as well as the legally marketed predicate devices.
+
+5
+
+

@@ -1,0 +1,635 @@
+October 21, 2021
+
+Zhongshan Bisen Plastic Electronic Products Co., Ltd.
+℅ Mark Leung
+Consultant
+Shenzhen Joyantech Consulting Co.,Ltd.
+1713A, Block A, Zhongguan Times Square
+Liuxian Avenue, Xili Town
+Shenzhen, Guangdong 518000
+China
+Re: K212314
+Trade/Device Name: IPL Hair Removal Device
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: July 16, 2021
+Received: July 23, 2021
+Dear Mark Leung:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.04.29
+
+Page 2
+
+K212314 - Mark Leung
+
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801 and Part 809; medical device reporting (reporting of medical device-related adverse events) (21 CFR
+803) for devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Purva U. Pandya -S
+Purva Pandya
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+K212314
+Zhongshan Bisen Plastic Electronic Products Co., Ltd.
+Product: IPL Hair Removal Device
+
+Page 1 of 8
+VOL_005_510(k) Summary
+001_510(k) Summary
+Version: A/2
+
+510(k) Summary
+This summary of 510(K) safety and effectiveness information is submitted As Required by
+requirements of SMDA and 21 CFR §807.92.
+
+1. Administrative Information
+Submission Date
+Manufacturer
+information
+
+July 16, 2021
+Zhongshan Bisen Plastic Electronic Products Co., Ltd.
+Address:
+Second Floor, A Building, No.32 JianYe Road, Torch
+Development Zone
+Zhongshan City Guangdong, CN 528437.
+Contact person: Rao Guanhua
+TEL: +86(760)88297142
+E-Mail: 376299441@qq.com
+
+Submission
+Correspondent
+
+Establishment
+registration number
+
+Shenzhen Joyantech Consulting Co., Ltd.
+1713A, 17th Floor, Block A, Zhongguan Times Square, Liuxian
+Avenue, Xili Town, Nanshan District, Shenzhen, Guangdong
+Province, China.
+Contact person: Mr. Mark Leung; Mr. Field Fu
+E-Mail: mark_leung@cefda.com; field@cefda.com
+
+3010564031
+
+2. Device Information
+Type of 510(k)
+Submission:
+Device Name:
+Model:
+Classification Name:
+
+Traditional
+IPL Hair Removal Device
+BZ-0721
+
+Review Panel:
+
+Laser surgical instrument for use in general and plastic surgery
+and in dermatology
+General & Plastic Surgery
+
+Device Class:
+
+2
+
+Regulation Number:
+Product Code:
+
+3. Predicate Device
+
+878.4810
+OHT
+
+K212314
+Zhongshan Bisen Plastic Electronic Products Co., Ltd.
+
+Page 2 of 8
+VOL_005_510(k) Summary
+001_510(k) Summary
+
+Product: IPL Hair Removal Device
+
+Manufacturer:
+
+Shenzhen Bosidin Technology Co.,Ltd.
+
+Device Name:
+
+IPL Home Use Hair Removal Device
+
+Model:
+
+Version: A/2
+
+D-1128
+
+510(K) Number: K192432
+Product Code: OHT
+
+4. Device Description
+The IPL Hair Removal Device is a light-based device and an over-the-counter device which
+is expected to be sold directly to end users. The device provides hair reduction using
+Intense Pulsed Light (IPL) technology. The purpose of the light is to heat the root where
+the hair grows. It works below the skin's surface and does not involve any cutting or pulling,
+reducing hair growth with minimal pain.
+The device is only powered by the external power adapter and its IPL emission activation
+is by finger switch. The device has two working modes, an automatic mode and a manual
+mode. Each mode has 5 levels of output energy. The device contains a Xenon lamp that
+emits pulses of light (a total of 350000 pulses over the device’s lifetime) and a skin sensor
+to detect appropriate skin contact. If the device is not properly applied to the treatment area
+(in full contact with the skin), it will cannot emit the treatment light pulses.
+
+5. Intended Use/Indications for Use
+The IPL Hair Removal Device is an over-the-counter device intended for removal of
+unwanted body and/or facial hair.
+
+Page 3 of 8
+
+K212314
+VOL_005_510(k) Summary
+001_510(k) Summary
+
+Zhongshan Bisen Plastic Electronic Products Co., Ltd.
+Product: IPL Hair Removal Device
+
+Version: A/2
+
+6. Comparison with predicate device
+ID
+
+Comparison
+Items
+
+Subject Device
+
+Predicate Device (K192432)
+
+Comparison
+
+1
+
+Device name
+
+IPL Hair Removal Device
+
+IPL Home Use Hair Removal Device
+
+/
+
+2
+
+Model
+
+BZ-0721
+
+D-1128
+
+/
+
+Classification
+
+Laser surgical instrument for use in general and plastic
+
+Laser surgical instrument for use in general and plastic
+
+Name
+
+surgery and dermatology
+
+surgery and dermatology
+
+4
+
+Product Code
+
+OHT
+
+OHT
+
+Same
+
+5
+
+Regulation
+
+878.4810
+
+878.4810
+
+Same
+
+II
+
+II
+
+Same
+
+OTC
+
+OTC
+
+Same
+
+3
+
+Number
+6
+
+Class
+
+7
+
+Prescription or
+OTC
+
+8
+
+Same
+
+IPL Home Use Hair Removal Device is an over-the-counter
+
+Indications for
+
+The IPL Hair Removal Device is an over-the-counter device
+
+Use
+
+intended for removal of unwanted body and/or facial hair
+
+9
+
+Source Energy
+
+Supplied by external adapter
+
+Supplied by external adapter
+
+Same
+
+10
+
+Technology
+
+Intense Pulsed Light (IPL)
+
+Intense Pulsed Light (IPL)
+
+Same
+
+11
+
+Energy medium
+
+Xenon lamp
+
+Xenon lamp
+
+Same
+
+12
+
+Pulsing Control
+
+Finger switch
+
+Finger switch
+
+Same
+
+Direct illumination
+
+Direct illumination
+
+to tissue
+
+to tissue
+
+13
+
+Delivery device
+
+device intended for removal of unwanted body and/or facial
+
+Same
+
+hair.
+
+Same
+
+Page 4 of 8
+
+K212314
+VOL_005_510(k) Summary
+001_510(k) Summary
+
+Zhongshan Bisen Plastic Electronic Products Co., Ltd.
+Product: IPL Hair Removal Device
+
+ID
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+20
+
+21
+
+Comparison
+Items
+
+Subject Device
+
+Version: A/2
+
+Predicate Device (K192432)
+
+Comparison
+
+Regular window: 510-1100nm
+
+Comparable
+
+Filter window: 600-1100nm
+
+(1) See below
+
+Wavelength
+
+510nm~1100nm
+
+Energy density
+
+1.5-3.0 J/cm²
+
+Spot Size
+
+4cm²
+
+Output energy
+
+6.0J ~ 11.8J
+
+Pulse duration
+
+10.4ms
+
+Weight
+
+333g
+
+Dimension
+
+169.0x81.0x197.0mm (H x W x D)
+
+Applicable
+
+ANSI AAMI 60601-1
+
+IEC 60601-1
+
+standards
+
+IEC 60601-1-11
+
+IEC 60601-1-11
+
+IEC 60601-1-2
+
+IEC 60601-1-2
+
+IEC 60601-2-57
+
+IEC 60601-2-57
+
+ISO 10993-5
+
+ISO 10993-5
+
+ISO 10993-10
+
+ISO 10993-10
+
+2.0~4.0J/cm²
+
+Comparable
+(2) See below
+
+Regular window: 4.5cm², 2.0cm², 3.0cm²
+
+Comparable
+
+Filter window:2.5cm²
+
+(3) See below
+
+4.0J ~ 18.0J
+
+Comparable
+(4) See below
+
+7.5~14ms
+Unknown
+
+Comparable
+(5) See below
+Comparable
+(6) See below
+
+Unknown
+
+Comparable
+(6) See below
+
+Same
+
+Page 5 of 8
+
+K212314
+VOL_005_510(k) Summary
+001_510(k) Summary
+
+Zhongshan Bisen Plastic Electronic Products Co., Ltd.
+Product: IPL Hair Removal Device
+
+ID
+
+Comparison
+Items
+
+Version: A/2
+
+Subject Device
+
+Predicate Device (K192432)
+
+IEC 62471
+
+IEC 62471
+
+Comparison
+
+Note:
+(1) Wavelength:
+The wavelength range differences between the subject and predicate device do not raise new concerns of safety and effectiveness for the power
+output levels.
+(2) Energy density:
+The energy density range differences between the subject and predicate device do not raise new concerns of safety and effectiveness. The energy
+density is the amount of light energy delivered per unit area. The energy density range is calculated according to the following formula:
+!"#$%& (#")*+&(-//01) =
+
+!"#$"# &'&()* (,)
+.$/# .01& (234)
+
+--------------Formula 1
+
+(3) Spot Size:
+For the output spot size, there is a minor difference between the subject device and the predicate device. The spot size differences between the
+subject and predicate devices do not raise new concerns of safety and effectiveness.
+
+Page 6 of 8
+
+K212314
+Zhongshan Bisen Plastic Electronic Products Co., Ltd.
+Product: IPL Hair Removal Device
+
+VOL_005_510(k) Summary
+001_510(k) Summary
+Version: A/2
+
+(4) Output energy:
+The energy density is the amount of light energy delivered per unit area. According to the following formula, the output energy can be calculated.
+Output energy (J)= Energy density(J/cm2) × Spot Size (cm2) -------------Formula 2
+
+The output energy range of predicate device is 4.0J~18.0J. The output energy of subject device is within the range of predicate device. The output
+energy differences between the subject and predicate devices do not raise new concerns of safety and effectiveness.
+(5) Pulse duration:
+The pulse duration range of subject device is within the range of predicate device. The pulse differences between the subject and predicate devices
+do not raise new concerns of safety and effectiveness.
+(6) Weight and Dimension:
+The weight and dimension differences between subject and predicate devices do not raise new concerns of safety and effectiveness.
+
+K212314
+Zhongshan Bisen Plastic Electronic Products Co., Ltd.
+
+Page 7 of 8
+VOL_005_510(k) Summary
+001_510(k) Summary
+
+Product: IPL Hair Removal Device
+
+Version: A/2
+
+7. Non-Clinical Test Summary
+7.1. Electromagnetic Compatibility and Electrical Safety Test
+The subject device has passed safety and performance testing in according to following
+standards.
+1) ANSI
+AAMI ES60601-1:2005/(R)2012
+and
+A1:2012,
+C1:2009/(R)2012
+and
+A2:2010/(R)2012 Medical electrical equipment - Part 1: General requirements for basic
+safety and essential performance
+2) IEC 60601-1-2:2014 Medical electrical equipment - Part 1-2: General requirements for
+basic safety and essential performance - Collateral Standard: Electromagnetic
+disturbances - Requirements and tests
+3) IEC 60601-1-11:2015 Medical electrical equipment - Part 1-11: General requirements for
+basic safety and essential performance - Collateral Standard: Requirements for medical
+electrical equipment and medical electrical systems used in the home healthcare
+environment
+4) IEC 60601-2-57:2011 Medical Electrical Equipment - Part 2-57: Particular requirements for
+the basic safety and essential performance of non-laser light source equipment intended
+for therapeutic, diagnostic, monitoring and cosmetic/aesthetic use
+5) IEC 62471:2006 Photobiological safety of lamps and lamp systems
+
+7.2. Biocompatibility Test
+The subject device has passed biocompatibility tests in according to following standards.
+1) ISO 10993-5:2009 Biological evaluation of medical devices - Part 5: Tests for in vitro
+cytotoxicity
+2) ISO 10993-10:2010 Biological evaluation of medical devices - Part 10: Tests for irritation
+and skin sensitization
+
+7.3. Software Verification and Validation
+Software documentation consistent with moderate level of concern was submitted in this
+510(k). System validation testing presented in this 510(k) demonstrated that all software
+requirement specifications are met and all software hazards have been mitigated to
+acceptable risk levels.
+
+8. Clinical Study
+No new clinical performance data is reported in this submission.
+
+9. Conclusion
+The technological characteristics and indications for use for the subject device (IPL Hair
+Removal Device [Model: BZ-0721]) do not raise new types of questions regarding safety
+and effectiveness when compared to the predicate device (K192432). Based on its
+
+K212314
+Zhongshan Bisen Plastic Electronic Products Co., Ltd.
+Product: IPL Hair Removal Device
+
+Page 8 of 8
+VOL_005_510(k) Summary
+001_510(k) Summary
+Version: A/2
+
+technical characteristics, design, functional features, performance test data, and its
+indications for use as listed above, the subject device is considered to be substantially
+equivalent to the predicate device.
+
+

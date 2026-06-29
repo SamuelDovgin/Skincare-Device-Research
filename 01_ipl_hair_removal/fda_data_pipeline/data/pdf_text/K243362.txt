@@ -1,0 +1,201 @@
+K243362 - Adam Stephens
+
+Page
+
+1
+
+November 27, 2024
+CyDen Limited
+Adam Stephens
+Regulatory Engineer
+Block A, Bay Studios Business Park,
+Fabian Way, SA1 8QB
+Swansea,
+United Kingdom
+Re: K243362
+Trade/Device Name: SmoothSkin Pure Switch (SSC1)
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: October 29, 2024
+Received: October 29, 2024
+Dear Adam Stephens:
+We have reviewed your section 510(k) premarket notification of intent to market the device referenced above
+and have determined the device is substantially equivalent (for the indications for use stated in the enclosure)
+to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment
+date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the
+provisions of the Federal Food, Drug, and Cosmetic Act (the Act) that do not require approval of a premarket
+approval application (PMA). You may, therefore, market the device, subject to the general controls
+provisions of the Act. Although this letter refers to your product as a device, please be aware that some
+cleared products may instead be combination products. The 510(k) Premarket Notification Database
+available at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+
+K243362 - Adam Stephens
+
+Page
+
+2
+
+Additional information about changes that may require a new premarket notification are provided in the FDA
+guidance documents entitled "Deciding When to Submit a 510(k) for a Change to an Existing Device"
+(https://www.fda.gov/media/99812/download) and "Deciding When to Submit a 510(k) for a Software
+Change to an Existing Device" (https://www.fda.gov/media/99785/download).
+Your device is also subject to, among other requirements, the Quality System (QS) regulation (21 CFR Part
+820), which includes, but is not limited to, 21 CFR 820.30, Design controls; 21 CFR 820.90, Nonconforming
+product; and 21 CFR 820.100, Corrective and preventive action. Please note that regardless of whether a
+change requires premarket review, the QS regulation requires device manufacturers to review and approve
+changes to device design and production (21 CFR 820.30 and 21 CFR 820.70) and document changes and
+approvals in the device master record (21 CFR 820.181).
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR Part 803) for
+devices or postmarketing safety reporting (21 CFR Part 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR Part 4, Subpart
+A) for combination products; and, if applicable, the electronic product radiation control provisions (Sections
+531-542 of the Act); 21 CFR Parts 1000-1050.
+All medical devices, including Class I and unclassified devices and combination product device constituent
+parts are required to be in compliance with the final Unique Device Identification System rule ("UDI Rule").
+The UDI Rule requires, among other things, that a device bear a unique device identifier (UDI) on its label
+and package (21 CFR 801.20(a)) unless an exception or alternative applies (21 CFR 801.20(b)) and that the
+dates on the device label be formatted in accordance with 21 CFR 801.18. The UDI Rule (21 CFR
+830.300(a) and 830.320(b)) also requires that certain information be submitted to the Global Unique Device
+Identification Database (GUDID) (21 CFR Part 830 Subpart E). For additional information on these
+requirements, please see the UDI System webpage at https://www.fda.gov/medical-devices/device-advicecomprehensive-regulatory-assistance/unique-device-identification-system-udi-system.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatory-
+
+K243362 - Adam Stephens
+
+Page
+
+3
+
+assistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Yan Fu -S
+
+Digitally signed by Yan Fu
+-S
+Date: 2024.11.27 14:54:39
+-05'00'
+
+for Tanisha Hithe
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical & Infection Control Devices,
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 07/31/2026
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K243362
+
+Device Name
+
+SmoothSkin Pure Switch (SSC1)
+
+Indications for Use (Describe)
+
+The SmoothSkin Pure Switch is intended for the removal of unwanted hair. The SmoothSkin Pure
+Switch is also indicated for the permanent reduction in hair regrowth, defined as the long-term,
+stable reduction in the number of hairs regrowing when measured at 6, 9 and 12 months after the
+completion of a treatment regime.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (8/23)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+Same indications for use.
+
+Technological Comparison
+
+21 CFR 807.92(a)(6)
+
+The SSCl device has the same following characteristics.
+- The same intended use.
+- Operates with the same mode of actions.
+- Has the same technological characteristics.
+- Has the same shelf-life.
+- Is manufactured and packed in the same manner.
+- Has the same safety features.
+The following modification have been made to the SSCl device.
+- Electronic design changes to incorporate a cooling function.
+- Attachments to allow the user to use the device in difficult areas.
+- Energy Output Parameters 2 - 6J/cm2 vs 3-6J/cm2 for predicate
+
+Non-Clinical and/or Clinical Tests Sum��ary & Conclusions
+
+21 CFR 807.92(b)
+
+The device is compliant with the following Electrical Safety and Elecltromagnetic Compatibility standards.
+1) AAMI / IEC 60601-1 : Medical Electrical Equipment - Part 1: General Requirements For Basic Safety And Essential Performance
+2) IEC 60601-1-6 : Medical Electrical Equipment - Part 1-6: General re,quirements for basic safety and essential performance - Collateral
+standard: Usability
+3) IEC 60601-2-57 : Medical Electrical Equipment : Part 2-57: Particular requirements for the basic safety and essential performance of
+non-laser light source equipment intended for therapeutic, diagnostic, monitoring, cosmetic and aesthetic use
+4) IEC 60601-2-83 : Medical Electrical Equipment: Part 2-83: Particular requirement for the basic safety and essential performance of
+home light therapy equipment
+5) IEC 60601-1-2 : Part 1-2: General requirements for basic safety and essential performance - Collateral Standard: Electromagnetic
+disturbances - Requirements and tests
+6) IEC 62471 : Photobiological safety of lamps and lamp systems
+The device is compliant with the following Biocompatibility standards
+1) ISO 10993-1 : Biological evaluation of medical devices Part 1: Evaluation and testing within a risk management process
+2) ISO 10993-5 : Biological evaluation of medical devices Part 5: Tests for in vitro cytotoxicity
+3) ISO 10993-10 : Biological evaluation of medical devices Part 10: Tests for skin sensitization
+
+

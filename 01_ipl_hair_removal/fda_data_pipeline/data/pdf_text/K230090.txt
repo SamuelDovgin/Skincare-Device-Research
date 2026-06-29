@@ -1,0 +1,389 @@
+April 19, 2023
+Wuhan Lotuxs Technology Co., Ltd.
+℅ Na Wu
+Management Representative
+Tacro Guangzhou Branch
+501/E2, Future city, No.999 High-Tech Avenue
+(Free Trade Zone/Wuhan Area)
+Wuhan, 430206
+China
+Re: K230090
+Trade/Device Name: Diode Laser Hair Removal
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: January 4, 2023
+Received: January 12, 2023
+Dear Na Wu:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.06.01
+
+K230090 - Na Wu
+
+Page 2
+
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Colin K. Chen -S
+for
+
+Enclosure
+
+Jianting Wang
+Acting Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2020
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K230090
+
+Device Name
+
+Diode Laser Hair Removal
+
+Indications for Use (Describe)
+
+Diode Laser Hair Removal is an over-the-counter device intended for adjunctive use with shaving for hair removal
+sustained with periodic treatments. Diode Laser Hair Removal is also intended for permanent reduction in hair regrowth
+defined as a long-term, stable reduction in the number of hairs regrowing when measured at 6, 9, and 12 months after the
+completion of a treatment regime.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (7/17)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+K230090
+
+Page 1 of 4
+
+510(k)s –Section 6. 510(k) Summary
+
+510(k) Summary
+"510(k) Summary" as required by 21 CFR Part 807.92.
+Date: 2023-04-14
+I.
+
+Submitter
+Wuhan Lotuxs Technology Co.,Ltd.
+501/E2, Future city, No.999 high-tech Avenue,Wuhan 430206, China(Free Trade Zone/Wuhan
+Area)
+Tel.: +86 -27-87619668
+Na Wu (Management Representative)
+Tel: +86 13871252776
+Email: na.wu@lotuxs.com
+
+II. Correspondent Consultant
+
+Tacro Guangzhou Branch
+Rm. 501, No.55 West Tiyu Rd., Tianhe Dist., Guangzhou, Guangdong
+
+Gamma Zhang(RA manager)
+Tel: +86 13433933949
+Email: wbzhang@tacro.cn
+
+III. Device
+Type of 510(k): Traditional
+Common Name: Powered laser surgical instrument
+Trade Name: Diode Laser Hair Removal
+Model: LHR-V8S-810, LHR-V8-810, LHR-V4S-810, LHR-V4-810
+Classification Name: Light Based Over-The-Counter Hair
+Removal
+Regulation Number: 21 CFR 878.4810
+Review Panel: General & Plastic Surgery
+Regulatory Class: II
+Product Code: OHT
+
+IV. Predicate Device
+Applicant
+
+Predicate Device
+
+510(k) Number
+
+Wuhan Lotuxs
+Technology
+Company, Ltd.
+
+SILKPRO Laser Hair
+Removal System
+
+K142845
+
+K230090
+
+Page 2 of 4
+
+510(k)s –Section 6. 510(k) Summary
+
+V. Device Description
+
+The Diode Laser Hair Removal device models LHR-V8S-810, LHR-V8-810, LHR-V4S-810, and
+LHR-V4-810 emit pulses of invisible infrared laser light of 810nm wavelength that penetrates
+into the skin and is selectively absorbed by melanin in the hair follicles. This creates a localized
+thermal effect that disrupts hair growth from the hair follicles. The device contains a sensor that
+detects contact with the skin so that the device will only emit the infrared laser pulses when the
+sensor is in contact with the skin. The device also includes a skin cooling feature and the device
+is powered by an external AC/DC power adaptor.
+
+VI. Indications for Use
+Diode Laser Hair Removal is an over-the-counter device intended for adjunctive use with shaving
+for hair removal sustained with periodic treatments. SILKPRO is also intended for permanent
+reduction in hair regrowth defined as a long-term, stable reduction in the number of hairs
+regrowing when measured at 6, 9, and 12 months after the completion of a treatment regime.
+
+VII.Comparison of Technological Characteristics With the Predicate Device
+A technical comparison to the predicate is provided below:
+Comparison
+Elements
+K Number
+Trade name
+Model
+Classification name
+Product code
+
+Intended
+use/Indications for
+Use
+
+Laser Type
+Laser Material
+Wavelength
+Max Energy Density
+
+Subject Device
+
+Predicate Device
+
+Applying
+
+K142845
+
+Diode Laser Hair Removal
+
+SILKPRO Laser Hair Removal System
+
+LHR-V8S-810, LHR-V8-810, LHR-V4S/
+810, LHR-V4-810
+Light Based Over-The-Counter Hair Light Based
+Removal
+Removal
+OHT
+OHT
+
+Over-The-Counter
+
+Hair
+
+Diode Laser Hair Removal is an overthe-counter device intended for
+adjunctive use with shaving for hair
+removal sustained with periodic
+treatments. Diode Laser Hair Removal is
+also intended for permanent reduction in
+hair regrowth defined as a long-term,
+stable reduction in the number of hairs
+regrowing when measured at 6, 9, and 12
+months after the completion of a
+treatment regime.
+
+SILKPRO is an over-the-counter device
+intended for adjunctive use with shaving
+for hair removal sustained with periodic
+treatments. SILKPRO is also intended for
+permanent reduction in hair regrowth
+defined as a long-term, stable reduction in
+the number of hairs regrowing when
+measured at 6, 9, and 12 months after the
+completion of a treatment regime.
+
+Diode laser
+GaAs
+810nm
+
+Diode laser
+GaAs
+810nm
+
+LHR-V8S-810, LHR-V8-810: 9.0J/cm²
+LHR-V4S-810, LHR-V4-810: 7.0J/cm²
+
+25J/cm²
+
+K230090
+
+Page 3 of 4
+
+510(k)s –Section 6. 510(k) Summary
+
+Comparison
+Elements
+
+Subject Device
+
+Energy Density
+
+Treatment Window
+Size
+
+Predicate Device
+
+LHR-V8S-810, LHR-V8-810: 2.2J/cm ²,
+3.4J/cm², 4.5J/cm², 5.6J/cm², 7.0J/cm²,
+9.0J/cm²
+5J/cm², 10J/cm², 15J/cm²,
+LHR-V4S-810, LHR-V4-810: 2.0J/cm 20J/cm², 25J/cm²
+² ， 2.8J/cm ² ， 3.5J/cm ² 4.3J/cm ² ，
+5.3J/cm²，7.0J/cm²
+30mm×10mm
+
+9mm×9mm
+
+Safety feature
+
+Complied with IEC 60601-1,
+IEC 60601-1-11, IEC60601-12, IEC 60601-2-22 and IEC
+60825-1
+
+Complied with IEC 60601-1,
+IEC 60601-1-11, IEC60601-12, IEC 60601-2-22 and IEC
+60825-1
+
+Biocompatibility
+
+All body-contacting materials
+are complied with ISO10993-5
+and ISO 10993-10
+
+All body-contacting materials
+are complied with ISO10993-5
+and ISO 10993-10
+
+VIII.
+
+Performance Data
+
+The following performance data were provided in support of the substantial equivalence
+determination.
+1)Biocompatibility Testing
+The biocompatibility evaluation for the body-contacting components of Diode Laser Hair
+Removal was conducted in accordance with the "Use of International Standard ISO 10993-1,
+'Biological Evaluation of Medical Devices -Part 1: Evaluation and Testing Within a Risk
+Management Process, Document Issued on June 16, 2016", as recognized by FDA. The testing
+was performed to, and passed, including:
+ ISO 10993-5:2009/(R)2014, Biological Evaluation of Medical Devices –Part 5: Tests for In
+Vitro Cytotoxicity
+ ISO 10993-10:2010, Biological Evaluation of Medical Devices –Part 10: Tests for Irritation
+and Skin Sensitization
+2)Electrical, EMC, and laser output, Safety and Performance Testing
+Electrical, EMC, and laser output, Safety and Performance Testing was performed to, and passed,
+the following standards:
+
+K230090
+
+Page 4 of 4
+
+510(k)s –Section 6. 510(k) Summary
+
+ IEC 60601-1 Medical electrical equipment –Part 1: General requirements for basic safety and
+essential performance
+ IEC 60601-1-11 Medical electrical equipment –Part 1-11: General requirements for basic
+safety and essential performance –Collateral standard: Requirements for medical electrical
+equipment and medical electrical systems used in the home healthcare environment
+ IEC 60601-1-2 Medical electrical equipment –Part 1-2: General requirements for basic safety
+and essential performance –Collateral standard: electromagnetic compatibility –
+Requirements and tests
+ IEC 60601-2-22 Medical electrical equipment - Part 2-22: Particular requirements for basic
+safety and essential performance of surgical, cosmetic, therapeutic and diagnostic laser
+equipment
+ IEC 60825-1 Safety of laser products - Part 1: Equipment classification, and requirements
+Summary
+Based on the above performance as documented in this application, Diode Laser Hair Removal
+was found to have a safety and effectiveness profile that is same as the predicate device.
+
+VIII.
+
+Conclusions
+
+In accordance with the Federal Food, Drug and Cosmetic Act, 21 CFR Part 807 and based on
+the comparison of intended use, design, materials and performance, Diode Laser Hair Removal
+is considered to be substantially equivalent to the predicate device K142845.
+
+

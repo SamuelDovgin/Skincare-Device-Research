@@ -1,0 +1,675 @@
+July 7, 2022
+Shenzhen Mywin Technology Co., Ltd.
+℅ Jet Li
+Regulation manager
+Guangzhou KEDA Biological Tech Co., Ltd.
+6F, No.1 TianTai road, Science City, LuoGang District
+Guangzhou, Guangdong
+China
+Re: K221679
+Trade/Device Name: IPL Hair Remover, Model: G993, G996, G998 and G885
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: June 8, 2022
+Received: June 9, 2022
+Dear Jet Li:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.04.33
+
+K221679 - Jet Li
+
+Page 2
+
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Jianting
+Wang -S
+
+Digitally signed by
+Jianting Wang -S
+Date: 2022.07.07
+11:36:33 -04'00'
+
+Jianting Wang
+Acting Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Indications for Use
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2023
+See PRA Statement below.
+
+510(k) Number (ifknown)
+
+K221679
+Device Name
+
+IPL Hair Remover, model: G993, G996, G998 and G885
+
+Indications for Use (Describe)
+
+IPL Hair Remover is an over-the-counter device intended for removal of unwanted body and/or facial hair.
+
+Type of Use (Select one or both, as applicable)
+
+F
+
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+X Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+"An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number"
+FORM FDA 3881 (6120)
+
+Page 1 of 1
+
+PSC PublisAing Servics (301) 443-6740
+
+EF
+
+Sponsor:
+Subject Device:
+
+Shenzhen Mywin Technology Co., Ltd.
+IPL Hair Remover, Model: G993, G996, G998 and G885
+
+510(k) Summary - K221679
+
+This summary of 510(k) safety and effectiveness information is being submitted in accordance
+with the requirements of 21 CFR 807.92.
+
+1 Submitter Information
+Company Name: Shenzhen Mywin Technology Co., Ltd.
+Address: 2nd Floor, Building B, New Age gongrong Industrial Zone, No. 2, Shihuan Road,
+Shilong community, Shiyan Street, Baoan District, Shenzhen 518103, China
+Phone: +86-18902842323
+Contact Person (including title): Meiyun Liu (General Manager)
+E-mail: Szmywin@163.com
+
+Application Correspondent: Jet Li
+Company: Guangzhou KEDA Biological Technology Co., Ltd
+E-mail: med-jl@foxmail.com
+Phone: 86-18588874857
+Address: 6F, No.1 TianTai road, Science City, LuoGang District, GuangZhou City, China
+
+2 Subject Device Information
+Type of 510(k) submission: Special 510(k) Device Modification
+Common Name: IPL Hair Remover
+Model: G993, G996, G998 and G885
+Common Name: Light Based Over-The-Counter Hair Removal
+Classification Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+Review Panel: General & Plastic Surgery
+Product Code: OHT
+Regulation Number: 878.4810
+
+Report by Shenzhen Mywin Technology Co., Ltd.
+
+Page
+
+1 /7
+
+Sponsor:
+Subject Device:
+
+Shenzhen Mywin Technology Co., Ltd.
+IPL Hair Remover, Model: G993, G996, G998 and G885
+
+Regulation Class: 2
+
+3 Predicate device Information
+Legally existing device K211368
+Company Name:
+Common Name: IPL Hair Remover
+Model: G993, G996, G998 and G885
+Common Name: Powered Light Based Non-Laser Surgical Instrument With Thermal Effect
+Classification Name: Powered Light Based Non-Laser Surgical Instrument With Thermal
+Effect
+Review Panel: General & Plastic Surgery
+Product Code: ONF
+Regulation Number: 878.4810
+Regulation Class: 2
+
+Reference device K211185
+Common Name: IPL Home Use Hair Removal Device
+Model: D-1150, D-1171, D-1153, D-1155, D-1156, D-1126, D-1178, D-1187
+Common Name: Light Based Over-The-Counter Hair Removal
+Classification Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+Review Panel: General & Plastic Surgery
+Product Code: OHT
+Regulation Number: 878.4810
+Regulation Class: 2
+
+4 Device Description
+IPL Hair Remover Device (Model: G993, G996, G998 and G885), is an over-the-counter
+use device for removal of unwanted body and/or facial hair based on Intense Pulsed Light
+
+Report by Shenzhen Mywin Technology Co., Ltd.
+
+Page
+
+2 /7
+
+Sponsor:
+Subject Device:
+
+Shenzhen Mywin Technology Co., Ltd.
+IPL Hair Remover, Model: G993, G996, G998 and G885
+
+(IPL) treatment. The device package includes IPL DEVICE, Power supply and User
+manual. It is supplied by AC power supply (Input 100-240 V AC). The weight of the device
+is 215.1g, and the size is 188 × 76 × 49mm.The device incorporates Intense Pulse Light
+(IPL) technology. The purpose of the light is to heat the root where the hair grows.
+
+The device is equipped with a Xenon Lamp and a skin proximity sensor to detect
+appropriate skin contact. If the IPL Hair Remover Device is not properly applied to the
+treatment area (in full contact with the skin), the device cannot be triggered for pulse
+emitting. The device can be used for large areas on legs, arms, back and abdomen. The
+product can flash for 100,000 times. .
+
+5 Intended Use
+IPL Hair Remover is an over-the-counter device intended for removal of unwanted body
+and/or facial hair.
+
+6 Complied Standards
+IPL Hair Remover G993, G996, G998 and G885 complies with the following FDA
+recognized consensus standards:
+ Electrical safety test according to IEC 60601-1, IEC60601-1-11 and IEC 60601-257 standards
+ Electromagnetic compatibility test according to IEC 60601-1-2 standard
+ ISO 10993-5:2009/(R) 2014, Biological Evaluation of Medical Devices -- Part 5:
+Tests For In Vitro Cytotoxicity.
+ ISO 10993-10:2010, Biological Evaluation of Medical Devices - Part 10: Tests for
+Irritation and Skin Sensitization.
+
+7 Device modification description
+The only modification of subject device is Intended Use. The device has changed to overthe-counter use. Therefore, the User Manual and Box labelling has been adding
+
+Report by Shenzhen Mywin Technology Co., Ltd.
+
+Page
+
+3 /7
+
+Sponsor:
+Subject Device:
+
+Shenzhen Mywin Technology Co., Ltd.
+IPL Hair Remover, Model: G993, G996, G998 and G885
+
+corresponding use instructions for lay person user.
+
+8 Performance Testing
+As the modification of subject device as above, results in no technological characteristics
+changes, the tests and data utilized to demonstrate safety and efficacy of the predicate
+device (legally existing device) are suitable for use in the assessment of the subject
+devices.
+As there have been no changes to the performance of the subject device from the predicate
+device, this submission leverages performance and electrical testing provided in previous
+submission.
+
+9 Biocompatibility
+All the modified device materials which come in direct contact with the patient skin are
+biocompatible and identical to the materials used in the predicate device manufacturing. No
+biocompatibility test report is provided in this submission.
+
+10 Clinical performance
+Clinical performance is not deemed necessary.
+
+11 Comparison with predicate device
+Compare with predicate device (IPL Hair Remover K211368), the subject device is same in
+design principle, functions, material and the applicable standards. And the intended use of
+subject device is same to Reference device K211185. The differences between subject
+device and predicate devices do not raise any new questions of safety or effectiveness.
+Item
+
+Subject Device
+
+Predicate Device
+
+Reference Device
+Shenzhen Beauty Every
+
+Shenzhen Myw in
+
+Shenzhen Myw in
+
+Technology Co., Ltd.
+
+Technology Co., Ltd.
+
+Manufacturer
+
+Moment intelligent electric
+Co.,Ltd.
+
+K num ber
+
+TBD
+
+Report by Shenzhen Mywin Technology Co., Ltd.
+
+K211368
+
+K211185
+
+Page
+
+4 /7
+
+Sponsor:
+Subject Device:
+
+Shenzhen Mywin Technology Co., Ltd.
+IPL Hair Remover, Model: G993, G996, G998 and G885
+
+IPL Home Use Hair Removal
+
+Product Nam e
+
+IPL Hair Remover
+
+IPL Hair Remover
+
+Device
+
+G993, G996, G998 and
+
+G993, G996, G998 and
+
+D-1150, D-1171, D-1153, D-
+
+G885
+
+G885
+
+1155, D-1156, D-1126, D1178, D-1187
+
+Classification Name: Laser
+
+Classification Name:
+
+Classification Name: Laser
+
+surgical instrument for use in
+
+Pow ered Light Based Non-
+
+surgical instrument for use in
+
+general and plastic surgery
+
+Laser Surgical Instrument
+
+general and plastic surgery
+
+and in dermatology
+
+With Thermal Effect
+
+and in dermatology
+
+Regulation &
+
+Review Panel: General &
+
+Review Panel: General &
+
+Review Panel: General &
+
+Classification
+
+Plastic Surgery
+
+Plastic Surgery
+
+Plastic Surgery
+
+Product Code: OHT
+
+Product Code: ONF
+
+Product Code: OHT
+
+Regulation Number:
+
+Regulation Number:
+
+Regulation Number:
+
+878.4810
+
+878.4810
+
+878.4810
+
+Regulation Class: 2
+
+Regulation Class: 2
+
+Regulation Class: 2
+
+The IPL Hair Remover
+Device, Model: G993, G996,
+G998 and G885 is indicated
+for the removal of unw anted
+hair under the direction of a
+IPL Home Use Hair Removal
+IPL Hair Remover is an over-
+
+physician, after training by a
+
+Indications for
+
+the-counter device intended
+
+healthcare professional. The
+
+Use
+
+for removal of unw anted
+
+device is also indicated for
+
+body and/or facial hair.
+
+the permanent reduction in
+
+Device is an over-thecounter device intended for
+removal of unw anted body
+and/or facial hair.
+hair regrow th, defined as the
+long-term, stable reduction in
+the number of hairs regrow ing w hen measured at
+6, 9 and 12 months after the
+
+Report by Shenzhen Mywin Technology Co., Ltd.
+
+Page
+
+5 /7
+
+Sponsor:
+Subject Device:
+
+Shenzhen Mywin Technology Co., Ltd.
+IPL Hair Remover, Model: G993, G996, G998 and G885
+
+completion of a treatment
+regime. The device is used
+for adults.
+OTC Use
+
+Prescription Use
+
+OTC Use
+
+Source Energy
+
+Supplied by external adapter
+
+Supplied by external adapter
+
+Supplied by external adapter
+
+Device Type
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+Regular w indow : 530-
+
+Wavelength
+510nm ~ 1100nm
+
+510nm ~ 1100nm
+
+1100nm, 590-1100nm
+
+(nm)
+Filter w indow : 600-1100nm
+Max. Fluence
+
+Max 4.5 J/cm2
+
+Max 4.5 J/cm2
+
+Max 4.5 J/cm2
+
+Spot Size
+
+4.3 cm2
+
+4.3 cm2
+
+4.3 cm2
+
+Level 1: 1.8 J/cm2
+
+Level 1: 1.8 J/cm2
+
+Level 2: 2.3 J/cm2
+
+Level 2: 2.3 J/cm2
+
+Level 3: 3.2 J/cm2
+
+Level 3: 3.2 J/cm2
+
+Level 4: 4.4 J/cm2
+
+Level 4: 4.4 J/cm2
+
+Level 5: 4.5 J/cm2
+
+Level 5: 4.5 J/cm2
+
+Pulse duration
+
+3 ms
+
+3 ms
+
+Energy medium
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Pulsing Control
+
+Finger sw itch
+
+Finger sw itch
+
+Finger sw itch
+
+One channel
+
+One channel
+
+5 levels
+
+5 levels
+
+/
+
+Yes
+
+Yes
+
+/
+
+Weight
+
+215.1g
+
+215.1g
+
+/
+
+Dimensions
+
+188*76*49 mm (H*W*D)
+
+188*76*49 mm (H*W*D)
+
+/
+
+Electrical
+
+IEC 60601-1
+
+IEC 60601-1
+
+Light Intensity
+
+2.0 to 4.5 J/cm2
+
+7.5~12 ms
+
+Number of
+Output
+
+One channel
+
+Channels
+Output Intensity
+Level
+Softw are
+Control?
+
+Report by Shenzhen Mywin Technology Co., Ltd.
+
+IEC 60601-1
+
+Page
+
+6 /7
+
+Sponsor:
+Subject Device:
+
+safety, EMC
+
+Biocompatibility
+
+Shenzhen Mywin Technology Co., Ltd.
+IPL Hair Remover, Model: G993, G996, G998 and G885
+
+IEC 60601-1-11
+
+IEC 60601-1-11
+
+IEC 60601-1-2
+
+IEC 60601-1-2
+
+IEC 60601-1-2
+
+IEC 60601-1-11
+
+IEC 60601-2-57
+
+IEC 60601-2-57
+
+IEC 60601-2-57
+
+ISO10993-5
+
+ISO10993-5
+
+ISO10993-5
+
+ISO10993-10
+
+ISO10993-10
+
+ISO10993-10
+
+Note
+Although the indication for use of subject device is different to predicate device K211368,
+but it is only to simplify the statement of the legally existing predicate device and remove
+the prescription use statement, which is not involved with technical specifications. The
+revised indication for use of subject device in this submission also had been covered by the
+indication for use of the legally existing predicate device; which is same to Reference
+device K211185. And the subject device had been verify by usability study for its OTC use.
+So the difference does not affect the safety and effectiveness.
+
+12 Summary Prepared Date
+28 Jun. 2022
+
+Report by Shenzhen Mywin Technology Co., Ltd.
+
+Page
+
+7 /7
+
+

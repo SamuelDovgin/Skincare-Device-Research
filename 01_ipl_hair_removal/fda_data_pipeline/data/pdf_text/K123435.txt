@@ -1,0 +1,345 @@
+510(k) Summary
+
+FB121
+
+in accordance with 21 CFR 807.92 the following summary of information is provided:
+Sep 20,2012
+Beijing Sincoheren Science & Technology Development Co.,Ltd
+B-1105 Sinotrans Plaza 43# Xizhimen BeiDajie, Haidian District,
+Beijing, 100044, China
+Primary Contact Person: Mr. Xin Wang
+Quality Manager
+Beijing Sincoheren Science & Technology Development Co.,td
+Tel: +86-(0)10-82294249-8002
+Fax: +86-(0)10-82294249-8007
+Secondary Contact Person: Mike Gu
+Regulatory Manager
+Guangzhou Osmunda Medical Device Consulting Co., Ltd
+Tel: +86-20-62321333
+Fax: +86-20-86330253
+Device: Trade Name:* IPL Therapy System
+Common/Usual Name: Intense Pulsed Uight Therapy System
+Classification Names: Powered Uight Based Non-Laser Surgical Instrument with
+Thermal Effect
+Date:
+Submitter:
+
+Product Code:
+Regulation Number:
+Device Class:
+Submission Purpose:
+Predicate Device(s):
+Model
+Device Description:
+
+ONF
+21 CFR 878.4810
+Class 11
+New Device
+K(093627 IPULSELIGHT IPL SYSTEM
+SMCI-NYC; SMQ-NI(
+The IPL Therapy Systems is an Intense Pulsed Light Therapy
+System which delivers intense pulsed light at a wavelength
+ranging from G9Onm -l200nm. Intense Pulsed Light (IPI) systems
+work on the principles of selective photothermolysis. That is
+causing thermal damage to target chrornophores by using light
+of appropriated wavelength in pulses that exceeds the
+chromophores' thermal relaxation time but sparing normal skin
+by limiting the pulse width below the thermal relaxation time for
+skin.
+IPI Therapy System is different from lasers in that they deliver
+many, wavelengths in each pulse of light instead of just one
+wavelength. Generally, IPL enhances penetration without using
+excessive energy levels and enables targeting of specific
+chromophores.
+
+16
+
+The Sincoheren IPL Therapy. system controlled by computer is
+composed:
+-Main
+
+-LCD
+-Treatment
+
+unit
+
+monitor
+handle
+
+The embedded microprocessor monitors can control the system
+continually.
+The operating interface includes a full-LCD screen (8.0 inch), the
+key switch and emergency shut-off knob.
+LCD screen both shows the system work program, treatment
+parameters and number of light emitting. The treatment handle
+operated by hand comprises the intense emitter and
+transmission system.
+Differences between two models:
+The differences between SMO-NYC and SMQ-NI( are:
+-
+
+-
+
+The installation method was changed from stationary to
+mobile;
+The product shape:
+SMQL-NK
+S4Omm*GO0mm*
+500mm
+
+SMO-NYC
+490mm*S2Smm*95
+2mm
+
+(W*0*H)
+2 Overall size ll0mm*lG0mm*
+of cooling 37mm
+
+305mm*l6Omm*61
+mm
+
+Differences
+1 Overall size
+
+condenser
+
+___________________
+
+Please see the Appendix Afor IEC 60601-1 test report.
+the IPL Therapy Systems is designed, tested, and will be
+manufactured in accordance with both mandatory and voluntary
+standards:
+1. IEC 60601-iMedical equipment medical electrical
+
+17
+
+equipment - Part 1: General requirements for basi c
+safety and essential performance 1988+A1 1991 +
+A2: 1995
+2. IEC 60601-1-2 Edition 3:2007, Medical electrical
+equipment - Part 1-2: General requirements for basic
+safety and essential performance - Collateral
+standard: Electromagnetic compatibility Requirements and tests.
+Intended Use: The intense pulsed light therapy system is indicated for use in
+surgical, aesthetic and cosmetic application in the hair removal
+at a wavelength ranging from S9Onm - l200nm.
+
+Technology:
+
+Proposed device and predicate device use a light based NonLaser device that provides thermal effect including broad
+spectrum source devices such as Intense Pulse Light. Both
+devices emit Intense Pulsed Light (IPL) using Xenon Lamp.
+The proposed device emits IPL at a wavelength ranging from
+G9Onm-l200nm. The unit composes three parts: the main unit,
+control panel and treatment handle.
+The Intense Pulsed Light Therapy System employs the same
+fundamental scientific technology as its predicate devices.
+
+Determination of Summary of Non-Clinical Tests:
+Substantial Equivalence:
+The Intense Pulsed Light Therapy System and its applications
+comply with voluntary standards as detailed in Section 9, 11 and
+The following quality
+17 of this premarket submission.
+assurance measures were applied to the development of the
+system:
+* Risk Analysis
+* Requirements Reviews
+* Design Reviews
+* Raw materials verification
+* Testing on unit level (Module verification)
+* Integration testing (System verification)
+* Final acceptance testing (Validation)
+Performance testing (Verification)~
+*
+*
+
+18
+
+*
+
+Safety testing (Verification)
+
+Summary of Clinical Tests:
+The subject of this premarket submission, Intense Pulsed Light
+Therapy System, did not require clinical studies to support
+substantial equivalence.
+Th~e proposed device is Substantially Equivalent (SE) to the
+predicate device which is US legally market device. Therefore,
+the subject device is determined as safe and effectiveness.
+Conclusion: Beijing Sincoheren Science & Technology Development Co., Ltd
+considers the Intense Pulsed Light Therapy System to be as safe,
+as effective, and performance is substantially equivalent to the
+predicate device(s).
+
+19
+
+2A DEPARTMENT OF HEALTH & HUMAN SERVICES
+O
+
+Beijing Sincoheren S&T Development Company, Limited
+%/Guangzhou Osmunda Medical Device Consulting Company
+Mr. Mike Cu
+Regulatory Manager
+7' Floor 982 Congyun Road, Baiyun District
+Guangzhou, Guangdong
+China 510420
+
+Public Health Service
+Food and Drug Adminisjration
+10903 New Hampshire Avenue
+Document Control Center - W066-C,609
+Silver Spring, MD 20993-0002
+
+February 11, 2013
+
+Re: K123435
+Trade/Device Name: Intense Pulsed Light Therapy System
+
+Regulation Number: 21I CFR 878.48 10
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+Regulatory Class: 11
+Product Code: ONE
+Dated: December 20, 2012
+Received: December 26, 2012
+Dear Mr. Cu:
+We have reviewed your Section 510(k) premarket notification of intent to market the device
+referenced above and have determined the device is substantially equivalent (for the indications
+for use stated in the enclosure) to legally marketed predicate devices marketed in interstate
+commerce prior to May 28, 1976, the enactment date of the Medical Device Amendments, or to
+devices that have been reclassified in accordance with the provisions of the Federal Food, Drug,
+and Cosmetic Act (Act) that do not require approval of a premarket approval application (PMA).
+You may, therefore, market the device, subject to the general controls provisions of the Act.
+The general controls provisions of the Act include requirements for annual registration, listing of
+devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration.
+If your device is classified (see above) into either class 11 (Special Controls) or class III (PMA),
+it may be subject to such additional controls. Existing major regulations affecting your device
+can be found in the Code of Federal Regulations, Title 2 1, Parts 800 to 898. In addition, FDA
+may publish further announcements concerning your device in the Federal Register.
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean
+that FDA has made a determination that your device complies with other requirements of the Act
+or any Federal statutes and regulations administered by other Federal agencies. You must
+comply with all the Act's requirements, including, but not limited to: registration and listing (21
+
+Page 2 - Mr. Mike Gu
+CFR Part 807); labeling (21 CFR Part 801); good maniufacturing practice requirements as set
+forth in the quality systems (QS) regulation (21 CFR Part 820); and if applicable, the electronic
+product radiation control provisions (Sections 531-542 of the Act); 21 CFR 1000-1050.
+This letter will allow you to begin marketing your device as described in your Section 510(k)
+premarket notification. The FDA finding of substantial equivalence of your device to a legally
+marketed predicate device results in a classification for your device and thus, permits your
+device to proceed to the market.
+If you desire specific advice for your device on our labeling regulation (21 CFR Part 80 1), please
+contact the Office of Compliance at (240) 276-0115. Also, please note the regulation entjtled,
+"Misbranding by reference to premarket notification" (2ICFR Part 807.97). You may obtain
+other general information on your responsibilities under the Act from the Division of Small
+Manufacturers, International and Consumer Assistance at its toll-free number (800) 638-2041 or
+(240) 276-3150 or at its Internet address http://www.fda.uov/cdrh/industrv/suport/index.html.
+Sincerely yours,
+
+For
+
+Pe ter
+Mark N. Melkerson
+Acting Director
+Division of Surgical Devices
+Office of Device Evaluation
+Center for Devices and
+Radiological Health
+Enclosure
+
+'aRmm -S
+
+510(k) Number (if known):
+
+K(123435
+
+Device Name: Intense Pulsed Light Therapy System
+
+Indications for Use:
+
+The intense pulsed light therapy system is indicated for use in surgical, aesthetic and cosmetic
+application in the hair removal at a wavelength ranging from 690-1200nm.
+SKIN TYPES
+CONDITIONS
+
+_____
+
+11
+
+11
+
+IV
+
+V
+
+VI
+
+690-1200
+
+690-1200
+
+690-1200
+
+690-1200
+
+690-1200
+
+N/A
+
+Density
+
+35-45i/cM2
+
+30-40ij/cm2
+
+25-30 J/cm2
+
+20-35ij/CM 2
+
+20-25 i/cm2
+
+Program
+
+Program3
+
+Program2
+
+Program2
+
+Programi
+
+Programi
+
+1
+HAIR
+
+Wave
+
+REMOVAL
+
+length
+(nm)
+
+Prescription Use X
+(Part 21 CIFR 801 Subpart D)
+
+AND/OR
+
+Over-The-Counter Use___
+(Part 21 CIFR 801 Subpart C)
+
+(PLEASE DO NOT WRITE BELOW THIS LINE - CONTINUE ON ANOTHER PAGE IFNEEDED)
+Concurrence of CDRH, Office of Device Evaluation (ODE)
+
+Neil ROgden,
+z
+2013.02.08 15:30:58 -05'00'
+(Division Sign-Off)
+Division of Surgical Devices
+S1O(k) Number K123435
+
+

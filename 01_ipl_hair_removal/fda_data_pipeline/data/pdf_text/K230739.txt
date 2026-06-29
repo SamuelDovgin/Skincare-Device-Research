@@ -1,0 +1,854 @@
+May 26, 2023
+Shenzhen IONKA Medical Technology Co., Ltd.
+Yu Yeap
+Registered Engineer
+Room 601, No. 3, Jiazitang Second Industrial Zone,
+Jiazitang Community, Fenghuang Street, Guang
+Shenzhen, Guangdong 518132
+China
+Re: K230739
+Trade/Device Name: Hand-held IPL device (IPL Home Use Hair Removal Device), Model: FZ-608,
+FZ-608G, FZ-100, FZ-200
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: March 7, 2023
+Received: March 17, 2023
+Dear Yu Yeap:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.06.02
+
+K230739 - Yu Yeap
+
+Page 2
+
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Jianting Wang -S
+Jianting Wang
+Acting Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2023
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K230739
+
+Device Name
+
+Hand-held IPL device (IPL Home Use Hair Removal Device), Model: FZ-608, FZ-608G, FZ-100, FZ-200
+
+Indications for Use (Describe)
+
+Hand-held IPL device is indicated for the removal of unwanted hair. The device is also indicated for the permanent
+reduction in hair regrowth, defined as the long-term, stable reduction in the number of hairs regrowing when measured at
+6, 9 and 12 months after the completion of a treatment regime.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (6/20)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+Sponsor:
+Subject Device:
+
+Shenzhen IONKA Medical Technology Co., Ltd.
+Hand-held IPL device (IPL Home Use Hair Removal Device), Model: FZ-608,
+FZ-608G, FZ-100, FZ-200
+
+510(k) Summary
+K230739
+This summary of 510(k) safety and effectiveness information is being submitted in
+accordance with the requirements of 21 CFR 807.92.
+
+1
+
+Submitter Information
+Company Name: Shenzhen IONKA Medical Technology Co., Ltd.
+Address: Room 601, No. 3, Jiazitang Second Industrial Zone, Jiazitang Community,
+Fenghuang Street, Guangming District, Shenzhen, 518132, China
+Tel.: +86 755 23406031
+Fax.: +86 755 23406031
+Contact Person (including title): Chen Dongfa (General Manager)
+E-mail: info@tzwm.com
+
+2
+
+Subject Device Information
+Type of 510(k) submission: Traditional 510(k) Device Submission
+Trade Name: Hand-held IPL device (IPL Home Use Hair Removal Device)
+Model: FZ-608, FZ-608G, FZ-100, FZ-200
+Common Name: Light Based Over-The-Counter Hair Removal
+Classification Name: Laser surgical instrument for use in general and plastic surgery and
+indermatology
+Review Panel: General & Plastic Surgery
+Product Code: OHT
+Regulation Number: 878.4810
+Regulation Class: 2
+
+3
+
+Predicate device Information
+Legally existing device K221214
+Trade Name: Hand-held IPL device (IPL Home Use Hair Removal Device)
+Model: FZ-608, FZ-608G, FZ-100, FZ-200
+Common Name: Powered Light Based Non-Laser Surgical Instrument WithThermal
+Effect
+Classification Name: Powered Light Based Non-Laser Surgical Instrument With Thermal
+Effect
+Review Panel: General & Plastic Surgery
+Product Code: ONF
+Regulation Number: 878.4810
+Regulation Class: 2
+Reference device K222432
+
+Report by Shenzhen IONKA Medical Technology Co., Ltd.
+
+Page 1 / 7
+
+Sponsor:
+Subject Device:
+
+Shenzhen IONKA Medical Technology Co., Ltd.
+Hand-held IPL device (IPL Home Use Hair Removal Device), Model: FZ-608,
+FZ-608G, FZ-100, FZ-200
+
+Trade Name: IPL Hair Removal Device
+Model: KCA423, KCA437, KCA439
+Common Name: Light Based Over-The-Counter Hair Removal
+Classification Name: Laser surgical instrument for use in general and plastic surgery and
+in dermatology
+Review Panel: General & Plastic Surgery
+Product Code: OHT
+Regulation Number: 878.4810
+Regulation Class: 2
+4
+
+Device Description
+The IPL Home Use Hair Removal Device is a personal, light-based, hair reduction
+device intended to be sold over-the-counter directly to the end user. The device provides
+hair reduction using Intense Pulsed Light (IPL) technology, and it works below the skin's
+surface and does not involve any cutting or pulling, reducing hair growth with minimal
+pain.
+The IPL Home Use Hair Removal Device is composed of a hand-held applicator and an
+external power supply. The spot size (treatment area) in the IPL Home Use Hair
+Removal Device is 3cm². The device contains a lamp, a skin proximity sensor. If the IPL
+Home Use Hair Removal Device is not properly applied (in full contact with the skin), the
+device will not trigger a pulse.
+The IPL Home Use Hair Removal Device includes FZ-608, FZ-608G, FZ-100, and
+FZ-200 four models. Their intended use, performance, structure design and operation
+are basically identical, with the differences mainly contains product appearance, energy
+output range and its equipped power supply model. The model difference is embodied in:
+#1) energy output level of model FZ-608 and FZ-608G has 9 levels, corresponding to an
+output range of 4.16J~10J; model FZ-100 has 9 levels, corresponding to an output
+range of 5.7J~16.26J, and model FZ-200 has 6 levels, corresponding to an output range
+of 4.6J~13,5J; #2) the main unit FZ-608 and FZ-608G can be supplied by the power
+adaptor (model: SHCSP2402000FUS), and the main unit FZ-100 and FZ-200 can only
+be supplied by the power adaptor (model: SHCY-SP2401500EUS), the adapters have
+been approved in accordance with IEC 62368-1 and tested with equipment, considering
+as a part of this ME equipment.
+
+5
+
+Intended Use
+IPL Home Use Hair Removal Device is indicated for the removal of unwanted hair. The
+device is also indicated for the permanent reduction in hair regrowth, defined as the
+long-term, stable reduction in the number of hairs regrowing when measured at 6, 9 and
+12 months after the completion of a treatment regime.
+
+6
+
+Complied Standards
+Hand-held IPL device (IPL Home Use Hair Removal Device), Model: FZ-608, FZ-608G,
+FZ-100, FZ-200 complies with the following FDA recognized consensus standards:
+
+Report by Shenzhen IONKA Medical Technology Co., Ltd.
+
+Page 2 / 7
+
+Sponsor:
+Subject Device:
+
+Shenzhen IONKA Medical Technology Co., Ltd.
+Hand-held IPL device (IPL Home Use Hair Removal Device), Model: FZ-608,
+FZ-608G, FZ-100, FZ-200
+
+ Electrical safety test according to AAMI/ANSI ES60601-1, IEC60601-1-11 and
+
+IEC 60601-2-83 standards
+ Electromagnetic compatibility test according to IEC 60601-1-2 standard
+ ISO 10993-5:2009/(R) 2014, Biological Evaluation of Medical Devices -- Part 5:
+
+Tests For In Vitro Cytotoxicity.
+ ISO 10993-10:2010, Biological Evaluation of Medical Devices - Part 10: Tests
+
+for Irritation and Skin Sensitization.
+7
+
+Device modification description
+The only modification of subject device is Intended Use. The device has changed to
+over-the-counter use. Therefore, the User Manual and Box labelling has been adding
+corresponding use instructions for lay person user.
+
+8
+
+Performance Testing
+As the modification of subject device as above, results in no technological characteristics
+changes, the tests and data utilized to demonstrate safety and efficacy of the predicate
+device (legally existing device) are suitable for use in the assessment of the subject
+devices.
+As there have been no changes to the performance of the subject device from the
+predicate device, this submission leverages performance and electrical testing provided
+in previous submission.
+Meanwhile, self-select and usability testing (OTC Study) was completed in 24 subjects
+to evaluate device human factors and label comprehension. These study tests
+demonstrate that the subject device and its labeling can meet the requirement: 1) the lay
+user can self-select themselves as being appropriate users of this device by the external
+box labeling, 2) the lay user can apply the treatment safely and correctly according to the
+instructions for use, and 3) the lay user can understand all indications, contraindications,
+warnings and precautions, and be able to identify whether they are within any
+contraindicated group; and be able to understand the user manual.
+
+9
+
+Biocompatibility
+All the modified device materials which come in direct contact with the patient skin are
+biocompatible and identical to the materials used in the predicate device manufacturing.
+No biocompatibility test report is provided in this submission.
+
+10 Clinical performance
+Clinical performance is not deemed necessary.
+11 Comparison with predicate device
+Compare with predicate device (Hand-held IPL device (IPL Home Use Hair Removal
+Device) K221214), the subject device is same in design principle, functions, material and
+the applicable standards. And the intended use of subject device is same to Reference
+device K222432. The differences between subject device and predicate devices do not
+raise any new questions of safety or effectiveness.
+Report by Shenzhen IONKA Medical Technology Co., Ltd.
+
+Page 3 / 7
+
+Sponsor:
+Subject Device:
+
+Shenzhen IONKA Medical Technology Co., Ltd.
+Hand-held IPL device (IPL Home Use Hair Removal Device), Model: FZ-608,
+FZ-608G, FZ-100, FZ-200
+
+Item
+
+Subject Device
+
+Predicate Device
+
+Manufacturer
+
+Shenzhen IONKA Medical Technology Co., Ltd.
+
+Shenzhen IONKA Medical Technology Co., Ltd.
+
+K number
+
+K230739
+
+K221214
+
+Hand-held IPL device (IPL Home Use Hair Removal
+
+Hand-held IPL device (IPL Home Use Hair Removal
+
+Device)
+
+Device)
+
+Model: FZ-608, FZ-608G, FZ-100, FZ-200
+
+Model: FZ-608, FZ-608G, FZ-100, FZ-200
+
+Product Name
+
+Reference Device
+Hunan
+
+Guangye
+
+Biotechnology
+
+Co., Ltd.
+K222432
+IPL Hair Removal Device
+Model: KCA423, KCA437, KCA439
+Classification Name: Laser surgical
+
+Classification Name: Laser surgical instrument for use in
+
+Classification Name: Powered Light Based Non-Laser
+
+instrument for use in general and
+
+general and plastic surgery and in dermatology
+
+Surgical Instrument With Thermal Effect
+
+plastic surgery and in dermatology
+
+Regulation &
+
+Review Panel: General & Plastic Surgery
+
+Review Panel: General & Plastic Surgery
+
+Review Panel: General & Plastic
+
+Classification
+
+Product Code: OHT
+
+Product Code: ONF
+
+Surgery
+
+Regulation Number: 878.4810
+
+Regulation Number: 878.4810
+
+Product Code: OHT
+
+Regulation Class: 2
+
+Regulation Class: 2
+
+Regulation Number: 878.4810
+Regulation Class: 2
+
+IPL home use hair removal device is indicated for patient
+removal of unwanted hair by using a selective
+IPL Home Use Hair Removal Device is indicated for the
+removal of unwanted hair. The device is also indicated
+Indications for
+
+for the permanent reduction in hair regrowth, defined as
+
+Use
+
+the long-term, stable reduction in the number of hairs
+regrowing when measured at 6, 9 and 12 months after
+the completion of a treatment regime.
+
+photothermal treatment under the direction of a
+physician, after training by a healthcare professional.
+The IPL home use hair removal device is also intended
+for permanent reduction in unwanted hair. Permanent
+hair reduction is defined as the long-term stable
+reduction in the number of hairs regrowing when
+measured at 6. 9. and 12 months after the completion of
+a treatment regimen.
+The device is used for adults with Fitzpatrick skin types I
+
+Report by Shenzhen IONKA Medical Technology Co., Ltd.
+
+Page 4 / 7
+
+IPL
+
+Hair
+
+indicated
+
+Removal
+
+Device
+
+is
+
+for
+
+removal
+
+of
+
+the
+
+unwanted hair. The device is also
+indicated
+
+for
+
+the
+
+permanent
+
+reduction in hair regrowth, defined
+as the long-term, stable reductionin
+the number of hairs regrowing
+when measured at 6, 9 and 12
+months after the completion of a
+treatment regime.
+
+Sponsor:
+Subject Device:
+
+Shenzhen IONKA Medical Technology Co., Ltd.
+Hand-held IPL device (IPL Home Use Hair Removal Device), Model: FZ-608,
+FZ-608G, FZ-100, FZ-200
+
+Item
+
+Subject Device
+
+Predicate Device
+
+Reference Device
+
+– IV.
+OTC Use
+
+Prescription Use
+
+OTC Use
+
+Source Energy
+
+Supplied by external adapter
+
+Supplied by external adapter
+
+Supplied by external adapter
+
+Device Type
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+510nm~1200nm
+
+510nm~1200nm
+
+475-1200nm
+
+Wavelength
+(nm)
+Spot Size
+
+3 cm
+
+2
+
+3 cm
+
+FZ-608, FZ-608G:
+
+FZ-100:
+
+Level 1: 4.16J
+
+Level 1: 5.7J
+
+Level 2: 4.36J
+
+Level 2: 6.5J
+
+Level 3: 5.1J
+
+Level 3: 8.06J
+
+Energy output
+
+Level 4: 6.1J
+
+Level 4: 9.73J
+
+range
+
+Level 5: 6.96J
+
+Level 5: 11.96J
+
+Level 6: 7.96J
+
+Level 6: 14.1J
+
+Level 7: 8.63J
+
+Level 7: 15.13J
+
+Level 8: 9.13J
+
+Level 8: 15.33J
+
+Level 9: 10.0J
+
+Level 9: 16.26J
+
+Max. energy
+output density
+
+FZ-608, FZ-608G: 3.33 J/cm
+FZ-100: 5.43 J/cm
+FZ-200: 4.5 J/cm
+
+2
+
+2
+
+2
+
+FZ-200:
+Level 1: 4.6J
+Level 2: 5.7J
+Level 3: 6.63J
+Level 4: 8.66J
+Level 5: 11.3J
+Level 6: 13.5J
+
+2
+
+3 cm
+
+FZ-608, FZ-608G:
+
+FZ-100:
+
+Level 1: 4.16J
+
+Level 1: 5.7J
+
+Level 2: 4.36J
+
+Level 2: 6.5J
+
+Level 3: 5.1J
+
+Level 3: 8.06J
+
+Level 4: 6.1J
+
+Level 4: 9.73J
+
+Level 5: 6.96J
+
+Level 5: 11.96J
+
+Level 6: 7.96J
+
+Level 6: 14.1J
+
+Level 7: 8.63J
+
+Level 7: 15.13J
+
+Level 8: 9.13J
+
+Level 8: 15.33J
+
+Level 9: 10J
+
+Level 9: 16.26J
+
+FZ-608, FZ-608G: 3.33 J/cm
+FZ-100: 5.43 J/cm
+FZ-200: 4.5 J/cm
+
+2
+
+2
+
+FZ-200:
+Level 1: 4.6J
+Level 2: 5.7J
+Level 3: 6.63J
+
+7.35J to 15J
+
+Level 4: 8.66J
+Level 5: 11.3J
+Level 6: 13.5J
+
+2
+
+5 J/cm
+
+2
+
+2
+
+Pulse duration
+
+0.5~0.8 ms
+
+0.5~0.8 ms
+
+7~10ms
+
+Energy medium
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Pulsing Control
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Delivery device
+
+Direct illumination to tissue
+
+Direct illumination to tissue
+
+Direct illumination to tissue
+
+Report by Shenzhen IONKA Medical Technology Co., Ltd.
+
+Page 5 / 7
+
+Sponsor:
+Subject Device:
+
+Shenzhen IONKA Medical Technology Co., Ltd.
+Hand-held IPL device (IPL Home Use Hair Removal Device), Model: FZ-608,
+FZ-608G, FZ-100, FZ-200
+
+Item
+
+Subject Device
+
+Predicate Device
+
+Reference Device
+
+Skin proximity
+
+Sensor fixed in device and can be moved to treatment
+
+Sensor fixed in device and can be moved to treatment
+
+Sensor fixed in device and can be
+
+sensor
+
+part
+
+part
+
+moved to treatment part
+
+One channel
+
+One channel
+
+One channel
+
+FZ-608, FZ-608G: 9 levels
+
+FZ-608, FZ-608G: 9 levels
+
+FZ-100: 9 levels
+
+FZ-100: 9 levels
+
+FZ-200: 6 levels
+
+FZ-200: 6 levels
+
+Yes
+
+Yes
+
+Yes
+
+Handheld
+
+Handheld
+
+Handheld
+
+FZ-608, FZ-608G: 1.515kg
+
+FZ-608, FZ-608G: 1.515kg
+
+KCA423: 223g
+
+FZ-100: 1.515kg
+
+FZ-100: 1.515kg
+
+KCA437: 255g
+
+FZ-200: 1.1kg
+
+FZ-200: 1.1kg
+
+KCA439: 235g
+
+FZ-608, FZ-608G: 98*147*60(mm)
+
+FZ-608, FZ-608G: 98*147*60(mm)
+
+KCA423: 164.82*76.4*40mm
+
+FZ-100: 198*71*44(mm)
+
+FZ-100: 198*71*44(mm)
+
+KCA437: 162*76.7*43.2mm
+
+FZ-200: 216*68*52(mm)
+
+FZ-200: 216*68*52(mm)
+
+KCA439: 162.2*77.9*42.4mm
+
+AAMI/ANSI ES60601-1
+IEC 60601-1-11
+IEC 60601-2-83
+IEC 60601-1-2
+ISO10993-5
+ISO10993-10
+
+AAMI/ANSI ES60601-1
+IEC 60601-1-11
+IEC 60601-2-83
+IEC 60601-1-2
+ISO10993-5
+ISO10993-10
+
+IEC 60601-1
+IEC 60601-1-11
+IEC 60601-2-83
+IEC 60601-1-2
+ISO10993-5
+ISO10993-10
+
+Number of
+output channel
+Energy output
+level
+Software
+Control?
+Structure
+design
+Weight
+
+Dimensions
+
+Electrical
+safety, EMC
+Biocompatibility
+
+Report by Shenzhen IONKA Medical Technology Co., Ltd.
+
+7 levels
+
+Page 6 / 7
+
+Sponsor:
+Subject Device:
+
+Shenzhen IONKA Medical Technology Co., Ltd.
+Hand-held IPL device (IPL Home Use Hair Removal Device), Model: FZ-608,
+FZ-608G, FZ-100, FZ-200
+
+Although the indication for use of subject device is different to predicate device
+K221214, but it is only to simplify the statement of the legally existing predicate device
+and remove the prescription use statement, which is not involved with technical
+specifications. The revised indication for use of subject device in this submission also
+had been covered by the indication for use of the legally existing predicate device;
+which is same to Reference device K222432. And the subject device had been verify by
+usability study for its OTC use. So the difference does not affect the safety and
+effectiveness.
+12 Summary Prepared Date
+7 March. 2023
+
+Report by Shenzhen IONKA Medical Technology Co., Ltd.
+
+Page 7 / 7
+
+

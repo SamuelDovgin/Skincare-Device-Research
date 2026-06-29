@@ -1,0 +1,470 @@
+YBK Investment Inc.
+
+A-Tone IPI System 510(K)
+
+3. 510(k) Summary
+
+MAY 30 2014
+
+Submitter:
+Yong Kim
+Meditime by YBK Investment
+675 Brea Canyon Rd. Ste.8
+Walnut, CA 91789
+Tel: 909-274-7700
+
+Official Correspondent:
+Joyce Bang
+Provision Consulting Group
+1915 White Star Dr.
+Diamond Bar, CA 91765
+Tel: 909-680-8562
+Fax: 909-274-7086
+
+Device Information
+Trade Name: A-Tone IPL System
+Common Name: Powered Light Based Non-Laser Surgical Instrument With Thermal Effect
+Classification Name: Laser surgical instrument for use in general and plastic surgery and in dermatology
+Product Code: ONF
+Regulation Number: 21 CFR Part 878.4810
+Device Class: Class II
+Date of submission: 6/3/2013
+
+General Description
+Intense pulsed light system is a unit for general surgery and in dermatology using intense Pulsed Light
+system intended to cut, destroy, or remove tissue by light energy emitted by flash lamp. It is a light
+source with a wavelength range of approximately S3Onm-1lO0nm.
+This equipment is composed of the main body and a hand piece which is an irradiation device, and, as
+an accessory part, protective goggles for protection of the worker.
+Operation principle: This equipment is controlled by a micro-processor interfaced to a LCD touch
+screen control panel. The computer controls start and stop of the treatment and on and off of the
+equipment. When the key switch of the system is turned clockwise, the main power will be inputted,
+which will be conveyed to the hand piece through the control board.
+Meanwhile, the control board connected to the touch screen is connected to the lamp of the hand piece
+and controls the same, and controls the whole system through the data connected to the touch screen
+control panel. When the switch of the hand piece is pressed, the lamp will radiate light, which will be
+outputted after being filtered to a certain wavelength (530nm'-1100nm) by the two filters of the hand
+piece.
+
+1
+
+A-Tone IPI System 510(K)
+
+YBK Investment Inc.
+
+Indication for Use
+A-tone systems are indicated for permanent hair reduction, and the treatment of benign vascular and
+pigmented lesions.
+Permanent hair reduction is defined as the long-term, stable reduction in the number of hairs
+regrowing when measured at 6, 9, and 12 months after the completion of a treatment regime.
+Predicate Devices:
+The subject device is substantially equivalent to the following predicate devices:
+* StarLuxTM Pulsed Light System (K041086)
+* Intense Pulsed Light (IPL) Systems (K122995)
+
+Comparison to Predicate Devices:
+The A-Tone has a substantially equivalent intended use as the identified predicates, StarLuxTM Pulsed
+Light System (K041086), Intense Pulsed Light (IPL) Systems (K122995). The A-Tone IPL System is Intense
+pulsed light system is a unit for general surgery and in dermatology using Intense Pulsed Light system
+intended to cut, destroy, or remove tissue by light energy emitted by flash lamp. it is a light source with
+a wavelength range of approximately 530nm-1100nm. The system is same or similar to other
+commercially available products based on the light source, intended use, applications, the claims, the
+spectrum and functioning characteristics.
+The A-Tone IPL system, StarLuxTM Pulsed Light System (K041086), Intense Pulsed Light (IPL) Systems
+(K122995) are similar in fundamental scientific technology. These predicate devices and A-tone IPL
+System have been designed, manufactured and tested in compliance with FDA's Class 11special controls
+guidance document Guidance on the Content and Organization of a Premarket Notification for a Medical
+Laser
+
+Performance Data:
+All of the data consistent with the recommendations in the FDA guidance document Guidance on the
+Content and Organization of a Premarket Notification for a Medical Laser. The A-Tone IPL System has
+been tested and complies with the following voluntary recognized standards:
+* EN 1041 [1998-02] Information supplied by the manufacturer with medical devices
+EN 980 [2003] Graphical symbols for use in the labeling of medical devices
+*
+*
+*
+*
+*
+*
+*
+*
+
+ISO 9001 t2008-12-15) Quality management systems
+ISO 13485 [2003-7-15] Medical devices - Quality management systems
+ISO 14971 12007] Medical devices - Application of risk management to medical devices
+EN 60601-1 Medical Electrical Equipment -- Part 1: General Requirements for Safety;
+Electromagnetic Compatibility
+IEC 60601-1-2 [2007] Medical electrical equipment- Part 1-2: General Requirements for Safety Collateral Standard: Electromagnetic Compatibility
+IEC 60601-1-4 [2000] Medical electrical equipment- Part 1: General requirements for Safety 4th
+Collateral standard: Programmable electrical medical systems
+IEC 60601-2-22 [1996] Medical electrical equipment - Part 2: Particular Requirements for the
+Safety of Diagnostic and Therapeutic Laser equipment
+2
+
+YBK Investment Inc.
+
+A-Tone IPI System 510(K)
+
+IEC 60825-1 [2007) Safety of laser products~ Part 1: Equipment classification and requirements
+
+Nan-Clinical Performance Data:
+Not Applicable
+Clinical Performance Data:
+Not Applicable
+Substantial Equivalence Comparison chart
+Prouc nme
+
+-TneStarLuxTM
+
+AT NGNERIG
+Maufctre
+
+OJD
+
+Pulsed Light
+system
+
+Intense Pulsed Light (IPL)
+Systems
+
+PALOMAR MEDICAL
+PRODUCTS, INC
+
+Beijing KES Biology
+Technology Co., Ltd.
+
+510(k) number
+
+current submission
+
+K041086
+
+K122995
+
+Light source
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+emitted by
+
+flash lamp
+
+flash lamp
+
+flash lamp
+
+Hand piece, foot switch,
+goggles 'goggles
+
+Hand piece, foot switch,
+
+touch screen
+
+touch screen
+
+Hand piece, foot switch,
+acsois
+acesoisgoggles
+Operation
+
+touch screen
+
+A-tone system is intended
+use for permanent hair
+reduction, and the
+treatment of benign
+vascular and pigmented
+StarLuxTM System is
+lein.The
+lesins.intended for treatment of
+Permanent hair reduction is inflammatory acne and
+
+The Intense Pulsed Light (IPL)
+Systems (inclusive of the
+handpiece used to deliver
+pulsed-light energy) are
+indicated for use in surgical,
+aesthetic and cosmetic
+applications in permanent
+hair removal, skin
+
+Intended use
+
+defined as the long-term,
+stable reduction in the
+number of hairs regrowing
+when measured at 6, 9, and
+12 months after the
+completion of a treatment
+regime.
+
+for the treatment of
+cutaneous lesions,
+including warts, scars and
+striae,
+
+rejuvenation, reduction of
+pigmented lesions, acne
+therapy, freckle, vascular
+lesions and facial blemish
+removal.
+
+Energy spectrum
+
+530nm-llO0nm
+
+400-l200nm
+
+43Onm-l200nm
+
+Spot size
+
+12 x 38mm
+
+l6x4Gmm, 12x28mm,
+10 x 15 mm
+
+12mm X 50mm
+
+Fluence
+
+Up to 25J/cm2
+
+Up to 50 J/cm2
+
+Up to GJ/cm2
+
+3
+
+YBK Investment Inc.
+
+A-Tone IPI System 510(K)
+
+Pulse type
+
+Single, multiple
+
+Single
+
+single, multiple
+
+Pulse duration
+
+1-2Oms
+
+1-500 ms
+
+1"20ms
+
+Pulse delay
+
+5-6Oms
+
+N/A
+
+S'S0ms
+
+Repetition rate
+
+1Hz
+
+up to 2Hz
+
+0.2Hz; 2Hz
+
+delivery system
+
+Direct coupling through
+coated filter light guide
+
+Direct coupling through
+coated filter light guide
+
+Direct coupling through
+coated filter light guide
+
+Electrical
+requirements
+
+A23V,5Hz9A1020V5/6Hz220V±20V
+z A1020V
+AC20V5
+
+06
+
+z110V±20V,
+
+Continuous contact
+Cotiuou cntat oolng
+Cooin meho
+Contiuous cntact oolingcooling
+Coolin metho
+device
+11:21 CFR 878.4810
+11:21 CFR 878.4810
+classification
+GEX
+ONF
+Product Code
+Delivery system
+
+BIG
+
+Bk7, fused silica, sapphire
+
+50Hz or
+60Hz
+
+Continuous contact cooling
+______________
+
+11:21 CFR 878.4810
+ONIF
+Saphr
+
+Safety and Effectiveness
+The A-Tone IPt system and predicate devices are same or similar in light source, range of spectrum,
+application, and are non- sterilized products. Differences in the specifications between the A-tone IPt
+system and the predicates do not result in different performance or raise new questions of safety or
+effectiveness.
+The safety features in the A-Tone IPt System are substantially equivalent to the safety features found in
+the predicate device. Any minor differences in the technological characteristics do not raise new safety
+or effectiveness concerns. Furthermore, the A-Tone IPt System underwent performance testing,
+including software validation testing, electrical and mechanical safety testing according to EN 60601-1,
+electromagnetic compatibility testing according to IEC 6060 1-1-2. These performance tests
+demonstrated that the minor differences in the device software and specifications meet the system
+requirements and do not raise new safety or effectiveness concerns. Thus, the A-Tone IPt system should
+not raise new issues of safety and effectiveness and isjudged to be substantially equivalent to the
+mentioned predicate devices to be legally marketed in the USA.
+Conclusions:
+Based on the performance testing and comparison to predicate devices, the A-Tone IPL system is
+substantially equivalent to the predicate device listed above.
+
+4
+
+DEPARTMENT OF HEALTH & HUMAN SERVICES
+
+Public I-ahh Service
+Fodu
+
+rgAmnsrto
+
+10New Hampshire Avenue
+
+May 30, 2Q14
+YBK Investment Incorporated
+%Ms. Joyce Bang
+Provision Consulting Group
+1915 White Star Drive
+Diamond Bar, California 91765
+Re: Kl317l2
+Trade/Device Name: A-Tone IPL system
+Regulation Number: 21 CER 878.48 10
+Regulation Name: Laser surgical instrument for use in
+general and plastic surgery and in dermatology
+Regulatory Class: Class 11
+Product Code: OINF
+Dated: May 8, 2014
+Received: May 13, 2014
+Dear Ms. Bang:
+We have reviewed your Section 510(k ) premarket notification of intent to market the device
+referenced above and have determined the device is substantially equivalent (for the indications
+for use stated in the enclosure) to legally marketed predicate devices marketed in interstate
+commerce prior to May 28, 1976, the enactment date of the Medical Device Amendments, or to
+devices that have been reclassified in accordance with the provisions of the Federal Food, Drug,
+and Cosmetic Act (Act) that do not require approval of a premarket approval application (PMA).
+You may, therefore, market the device, subject to the general controls provisions of the Act. The
+general controls provisions of the Act include requirements for annual registration, listing of
+devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability
+warranties. We remind you; however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class 11 (Special Controls) or class III (PMA), it
+may be subject to additional controls. Existing major regulations affecting your device can be
+found in the Code of Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may
+publish further announcements concerning your device in the Federal Register.
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean
+that FDA has made a determination that your device complies with other requirements of the Act
+or any Federal statutes and regulations administered by other Federal agencies. You must
+comply with all the Act's requirements, including, but not limited to: registration and listing (21
+CFR Part 807); labeling (21 CFR Part 80 1); medical device reporting (reporting of medical
+
+Page 2 - Ms. Joyce Bang
+device-related adverse events) (21 CFR 803); good manufacturing practice requirements as set
+forth in the quality systems (QS) regulation (21 CFR Part 820); and if applicable, the electronic
+product radiation control provisions (Sections 531-542 of the Act); 21 CFR 1000- 1050.
+If you desire specific advice for your device on our labeling regulation (21 CFR Part 80 1), please
+contact the Division of Industry and Consumer Education at its toll-free number (800) 638-2041
+or (301) 796-7100 or at its Internet address
+http://www.fda.eov/MedicalDevicestResourcesforYou/Industry/default.htm. Also, please note
+the regulation entitled, "Misbranding by reference to premarket notification" (2I1CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21
+CFR Part 803), please go to
+httn)7f/www~fda.aov/MedicalDevices/SafetvReportaProblem/default.htm for the CDRH 's Office
+of Surveillance and Biometrics/Division of Postmarket Surveillance.
+You may obtain other general information on your responsibilities under the Act from the
+Division of Industry and Consumer Education at its toll-free number (800) 638-2041 or (301)
+796-7100 or at its Internet address
+httD://www.fda.gov/MedicalDevicesResourcsforYouindustry/defaullt.htmr.
+Sincerely yours,
+
+David Krause -S
+for
+
+Enclosure
+
+Binita S.Ashar, M.D., M.B.A., F.A.C.S.
+Director
+Division of Surgical Devices
+Office of Device Evaluation
+Center for Devices and
+Radiological Health
+
+510(k) Number (if known)
+K13 1712
+Device Name
+A-Tone IPL system
+
+Indications for Use (Describe)
+A-tone sy'stems are indicated for permanent hair reduction, and the treatment of benign vascular and pigmented lesions.
+Permanent hair reduction is defined as the Iong-term, stable reduction in the number of hairs regrowing when measured at
+6, 9. and 12 months after the completion of a treatment regime.
+
+Type of Use (Select one or both, as applicable)
+
+S Prescuiption Use (Part 21 CFR 801 Subpart D)
+
+COver-The-Counter Use (21 CFA 801 Subpart C)
+
+PLEASE DO NOT WRITE BELOW THIS LINE - CONTINUE ON A SEPARATE PAGE IF NEEDED.
+FOR FDA USE ON LY
+Concunriwe of Center for Devices and Radiological Health (CDRH) (Signatuire)
+
+Neil ROgden -S
+2014.05.30 15:03:02 -04'00'
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*D0 NOT SEND YOUR COMPLETED FORM TO THE PRtA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information Is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of Information. Send comments regarding this burden estimate or any other aspect
+of this Information collection, Including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStafffja.hhs.gov
+
+'An agency may not conduct or sponsor and a person Isnot required to respond to. a collection of
+information unless it displays a currently valid OMB number.'
+FORM FDA 3881 (1114),
+
+Page I of I
+
+e..,,,nu.
+
+

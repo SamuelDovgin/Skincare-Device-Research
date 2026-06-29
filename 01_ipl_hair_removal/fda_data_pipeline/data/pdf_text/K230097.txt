@@ -1,0 +1,757 @@
+Shenzhen BSX Technology Electronics Co., Ltd.
+℅ Riley Chen
+Registration engineer
+Feiying Drug & Medical Consulting Technical Service Group
+Rm 2401 Zhenye International Business Center, No. 3101-90,
+Qianhai Road
+Shenzhen, Guangdong 518052
+China
+
+April 6, 2023
+
+Re: K230097
+Trade/Device Name: IPL Hair Removal Device, Model(s): BSXT101, BSXT102, BSXT103,
+BSXT105, BSXT106, BSXT108
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: December 28, 2022
+Received: January 13, 2023
+Dear Riley Chen:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.06.01
+
+K230097 - Riley Chen
+
+Page 2
+
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Colin K. Chen -S
+for
+
+Enclosure
+
+Jianting Wang
+Acting Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2023
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+/
+
+Device Name
+
+IPL Hair Removal Device
+Model(s): BSXT101, BSXT102, BSXT103, BSXT105, BSXT106, BSXT108
+
+Indications for Use (Describe)
+
+The IPL Hair Removal Device is an over-the-counter device intended for removal of unwanted body and/ or facial hair.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (6/20)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+K230097
+
+Shenzhen BSX Technology Electronics Co., Ltd.
+
+510(k)s –Section 8. 510(k) Summary
+
+510(k) Summary
+"510(k) Summary" as required by 21 CFR Part 807.92.
+I.
+
+Submitter
+Shenzhen BSX Technology Electronics Co., Ltd.
+Rm101&2/F~4/F, Building No.13, Ailian Industrial Park, Wulian Community, LongGang District,
+ShenZhen, 518116, GuangDong, P.R. China.
+Tel.: +86-0755-28719103
+Hong Li
+Regulation Assistant
+Tel: +86 18133439986
+Email: 1013540630@qq.com
+
+II. Device
+Name of Device: IPL Hair Removal Device
+Model(s): BSXT101, BSXT102, BSXT103, BSXT105, BSXT106, BSXT108
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+
+III. Predicate Device
+Primary predicate device:
+Manufacturer
+Predicate Device
+510(k) Number
+Medical Device Branch of
+IPL Salon Hair Reduction
+Zhangzhou
+Easepal
+K181568
+System (Model: F60001)
+Industrial Co.,Ltd.
+
+Approval Date
+
+Manufacturer
+Shenzhen
+Junbobeauty
+Technology Co., Ltd.
+Shenzhen
+Leaflife
+Technology Co., Ltd
+
+Reference Device
+510(k) Number
+IPL
+HAIR
+REMOVAL
+K220669
+HANDSET, Model: IPL-666
+
+Approval Date
+
+Leaf Smooth
+
+Nov. 19, 2021
+
+Sep. 11, 2018
+
+Reference devices:
+
+K212697
+
+May 16, 2022
+
+IV. Device Description
+IPL Hair Removal Device (Model: BSXT101, BSXT102, BSXT103, BSXT105, BSXT106,
+BSXT108), is an over-the-counter, home-use and personal device for hair reduction by using
+Page 1 of 5
+
+Shenzhen BSX Technology Electronics Co., Ltd.
+
+510(k)s –Section 8. 510(k) Summary
+
+Intense Pulsed Light (IPL). It works below the skin’s surface and does not involve any cutting or
+pulling, reducing hair growth with minimal pain.
+The device is only powered by the external power adapter (a.c.100~240V 50/60Hz) and its IPL
+emission activation is by finger switch. It contains a skin sensor to detect appropriate skin contact,
+if the Light Outlet of the device is not in full contact with the skin, the device cannot trigger a
+light pulse. The device have six models and these models share the same performance, structure
+and operation, the only difference is their enclosure color.
+
+V. Indications for Use
+The IPL Hair Removal Device is an over-the-counter device intended for removal of unwanted
+body and/ or facial hair.
+
+VI. Materials
+Component name
+
+Material of Component
+
+Body Contact Category
+
+Contact Duration
+
+IPL Hair Removal
+Device
+
+ABS
+
+Surface-contacting
+device: Intact skin
+
+Less than 24 hours
+
+We have tested the device for biocompatibility by a reliable third-party lab. For details, please
+refer to Section 16 “Biocompatibility Discussion”.
+
+VII. Comparison of Technological Characteristics With the Predicate Device
+The IPL Hair Removal Device has the same intended use as the predicate and reference devices.
+The technological characteristics such as wavelength, energy density, spot size and pulse duration,
+are similar to the predicate device and reference devices. Any minor differences between the
+subject device and the listed predicate device and reference devices do no raise any issues of
+safety or efficacy. Performance data supports that the device is safe and as effective as the
+predicate device and reference devices for its intended use. Therefore, the IPL Hair Removal
+Device may be found substantially equivalent to its predicate device and reference devices.
+Comparison
+Elements
+
+Subject Device
+
+Predicate Device
+
+Reference Device 1
+
+Reference Device 2
+
+510(k)
+Number
+
+Pending
+
+K181568
+
+K220669
+
+K212697
+
+/
+
+IPL Hair Removal
+Device
+
+IPL Salon Hair
+Reduction System,
+Model: F60001
+
+Leaf Smooth
+
+/
+
+Shenzhen
+BSX
+Technology
+Electronics Co., Ltd.
+21 CFR 878.4810
+
+Medical Device Branch
+of Zhangzhou Easepal
+Industrial Co.,Ltd.
+21 CFR 878.4810
+
+Trade name
+
+Manufacturer
+Regulation
+
+IPL
+HAIR
+REMOVAL
+HANDSET
+Model: IPL-666
+Shenzhen
+Junbobeauty
+Technology Co., Ltd.
+21 CFR 878.4810
+
+Shenzhen Leaflife
+Technology
+Co.,
+Ltd
+21 CFR 878.4810
+
+Remark
+
+/
+Same
+
+Page 2 of 5
+
+Shenzhen BSX Technology Electronics Co., Ltd.
+
+510(k)s –Section 8. 510(k) Summary
+
+Comparison
+Elements
+number
+Product code
+Device
+classification
+
+Indication for
+use/ Intended
+use
+
+Prescription
+or OTC
+Applicable
+skin
+Device design
+Source
+energy
+
+Subject Device
+
+Predicate Device
+
+Reference Device 1
+
+Reference Device 2
+
+Remark
+
+OHT
+
+OHT
+
+OHT
+
+OHT
+
+Same
+
+Class II
+
+Class II
+
+Class II
+
+Class II
+
+Same
+
+The
+IPL
+Hair
+Removal Device is
+an over-the-counter
+device intended for
+removal
+of
+unwanted body and/
+or facial hair.
+
+The IPL Salon Hair
+Reduction
+System
+(Model: F60001) is an
+over the Counter device
+intended for the removal
+of
+unwanted
+body
+and/or facial hair in
+adults. It is also intended
+for permanent reduction
+in
+unwanted
+hair.
+Permanent
+hair
+reduction is defined as
+the long-term stable
+reduction in the number
+of hairs re-growing
+when measured at 6. 9.
+and 12 months after the
+completion
+of
+a
+treatment regimen.
+
+IPL
+HAIR
+REMOVAL
+HANDSET is an
+over-the-counter
+device intended for
+removal of unwanted
+body and/or facial
+hair.
+
+The Leaf Smooth is
+an over-the-counter
+device intended for
+removal
+of
+unwanted
+body
+and/or facial hair.
+
+Same
+
+OTC
+
+OTC
+
+OTC
+
+OTC
+
+Same
+
+/
+
+Fitzpatrick
+Types I-V
+
+/
+
+Same
+
+Powered by external
+power adapter
+100~240V AC Input
+12V3A DC Output
+
+Supplied
+by
+external adapter
+
+Same
+
+/
+
+Same
+
+124*83*48.5mm
+
+/
+
+Different
+
+186g
+Not required
+
+/
+Not required
+
+Different
+Same
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Same
+
+Xenon Arc Flashlamp
+
+Xenon Quartz Tube
+
+Intense Pulsed Light
+Xenon
+Arc
+Flashlamp
+
+475nm~1200nm
+
+470nm ~1100nm
+
+475-1100nm
+
+Similar
+
+Fitzpatrick
+Types I-V
+
+Skin
+
+Supplied by external
+adapter
+
+Supplied
+adapter
+
+Power supply
+
+100-240V, 50/60Hz
+
+100-240V AC; 50/60 Hz
+
+Dimension
+
+190 x 70 x 45 mm
+
+Weight
+Approx. 225 g
+Sterilization
+Not required
+Output specification
+Light source
+Intense Pulsed Light
+Energy
+Xenon Arc lamp
+medium
+Wavelength
+470nm-1200nm
+range
+
+by
+
+external
+
+143*69.5*43mm
+(H*W*D)
+650g
+Not required
+
+Skin
+
+Same
+
+Page 3 of 5
+
+Shenzhen BSX Technology Electronics Co., Ltd.
+
+510(k)s –Section 8. 510(k) Summary
+
+Comparison
+Elements
+
+Subject Device
+
+Energy
+Max 5.0 J/cm2
+density
+3.0cm²± 0.5cm2
+Spot size
+Pulse
+4-10ms
+duration
+Pulsing
+Finger switch
+control
+Delivery
+Direct illumination
+device
+to tissue
+Output
+5 Levels
+intensity level
+Software/
+Firmware/
+Yes
+Microprocess
+or Control?
+Additional features
+ANSI
+AAMI
+ES60601-1
+Electrical
+IEC 60601-1-2
+safety
+IEC 60601-1-11
+IEC 60601-2-83
+Eye safety
+IEC 62471
+Biocompatibi ISO 10993-5
+lity
+ISO 10993-10
+
+Predicate Device
+
+Reference Device 1
+
+Reference Device 2
+
+Remark
+
+Max 5.0 [J/cm²]
+
+1.3~2.49J/cm²
+
+4-6J/cm²
+
+Similar
+
+1.72 cm² or 3.02 cm²
+
+3cm2
+
+3.8cm2
+
+Same
+
+11-12 ms
+
+11.5-15ms
+
+2-10ms
+
+Similar
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Same
+
+Direct illumination to
+tissue
+
+Direct illumination to
+tissue
+
+Direct illumination
+to tissue
+
+Same
+
+5 Levels
+
+5 Levels
+
+6 Levels
+
+Same
+
+Yes
+
+Yes
+
+Yes
+
+Same
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-2-57
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+
+/
+ISO10993-5
+ISO10993-10
+
+IEC 62471
+ISO10993-5
+ISO10993-10
+
+ANSI/AAMI
+ES60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-57
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+
+Same
+
+Same
+Same
+
+VIII. Non-clinical studies and performance data
+Non-clinical tests were conducted to verify that the IPL Hair Removal Device meets all design
+specifications which supports the conclusion that it’s Substantially Equivalent (SE) to the
+predicate device and reference devices. The test results demonstrated that the subject device
+complies with the following standards:
+1) Biocompatibility Testing
+The device has been tested for biocompatibility, it complies with the following standards:
+ ISO 10993-5:2009, Biological Evaluation of Medical Devices –Par t 5: Tests for In Vitro
+Cytotoxicity
+ ISO 10993-10:2010, Biological Evaluation of Medical Devices –Par t 10: Tests for Irritation
+and Skin Sensitization
+2) Electrical Safety and EMC
+
+Page 4 of 5
+
+Shenzhen BSX Technology Electronics Co., Ltd.
+
+510(k)s –Section 8. 510(k) Summary
+
+Electrical safety and EMC testing was performed to, and passed, as per the following standards:
+ IEC 60601-1-2 Medical electrical equipment –Part 1-2: General requirements for basic safety
+and essential performance –Collateral standard: electromagnetic compatibility
+ ANSI AAMI ES60601-1 Medical electrical equipment - Part 1: General requirements for basic
+safety and essential performance
+ IEC 60601-1-11 Medical Electrical Equipment –Part 1: General Requirements for Basic
+Safety and Essential Performance –Collateral Standard: Requirements for Medical Electrical
+Equipment and Medical Electrical Systems Used in the Home Healthcare Environment
+ IEC 60601-2-83 Medical electrical equipment - Part 2-83: Particular requirements for the basic
+safety and essential performance of home light therapy equipment
+3) Eye Safety
+ IEC 62471 Photobiological safety of lamps and lamp systems
+4) Software Verification and Validation
+Software verification and validation test according to the requirements of the FDA “Guidance for
+Pre Market Submissions and for Software Contained in Medical Devices”
+5) Usability
+The product usability has been evaluated and verified according to the FDA guidance “Applying
+Human Factors and Usability Engineering to Medical Devices”, issued on FEBRUARY 2016.
+IX. Conclusions
+Based on the above analysis and non-clinical tests performed, it can be concluded that the subject
+device IPL Hair Removal Device is as safe, as effective, and performs as well as the legally
+marketed predicate device and reference devices.
+
+Page 5 of 5
+
+

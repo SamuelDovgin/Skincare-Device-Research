@@ -1,0 +1,696 @@
+Additional Information I to K122995 - Attachment 11 510(k) Summary
+
+Attachment 11 510(k) SummaryJA
+This 510(k) Summary of 510(k) safety and effectiveness information is being submitted in accordance
+with requirements of SMDA 1990 and 21 CER 807.92.
+The assigned 5 10(k) Number: K122995
+1.
+
+Date of Submission: September 17, 2012
+
+2.
+
+Sponsor
+Beijing KES Biology Technology Co., Ltd.
+Building E, No.28 Langfa Yifa Industrial Park,
+Daxing District, Beijing, 102613, China
+Contact Person: Mr. Xun Zeng
+Position: Vice President
+Tel: +86-10-84405668
+Fax: +86-10-84404920
+Email: info(a keslaser.com
+
+3.
+
+Submission Correspondent
+Ms. Diana Hong & Mr. Tarzan Wang
+Mid-Link Consulting Co., Ltd
+P.O. Box 237-023, Shanghai, 200237, China
+Tel: +86-21-22815850
+Fax: 240-238-7587
+Email: info(camid-link.net
+
+4.
+
+Proposed Device Identification
+Proposed Device Name: Intense Pulsed Light (IPL) Systems
+Proposed Device Model: MED-2 10, MED-230
+Classification: Class 11
+Product Code: ONE
+Regulation Number: 21 CFRZ 878.48 10
+Review Panel: General and Plastic Surgery
+
+22 01
+
+Additional Information I to K 122995 - Attachment 115 10O(k) Summary
+
+Intended Use Statemnent:
+The Intense Pulsed Light (IPL) Systems (inclusive of the handpiece used to deliver pulsed-light
+energy) are indicated for use in surgical, aesthetic and cosmetic applications in permanent hair
+reduction, treatment of pigmented lesions, moderate inflammatory acne vulgaris. ephelides (freckles),
+and vascular lesions.
+Skin Types
+Conditions
+
+1
+
+II
+
+111
+
+IV
+
+V
+
+Hair
+
+640-1200
+
+640-1200
+
+640-1200
+
+690-1200
+
+750-1200
+
+480-1200
+
+530-1200
+
+530-1200
+
+560-1200
+
+560-1200
+
+Pigmented
+
+lesions
+
+Filter*
+
+Acne
+
+setting and
+
+vulgaris
+
+wavelength
+
+430-1200
+
+430-1200
+
+430-1200
+
+480-1200
+
+530-1200
+
+Ephelides
+
+rag
+
+480-1200
+
+480-1200
+
+530-1200
+
+530-1200
+
+530-1200
+
+530-1200
+
+530-1200
+
+560-1200
+
+560-1200
+
+590-1200
+
+Vascular
+lesions
+5.
+
+Predicate Device Identification
+510(k) Number: K093627
+Product Name: IPULSELIGHT IPL SYSTEM
+Manufacturer: Shanghai APOLO Medical Technology Co., Ltd
+
+6.
+
+Device Description
+The Intense Pulsed Light (IPL) Systems are intense pulsed light system which delivers intense pulsed
+light at a wavelength ranging from 430nm-l1200nm. Intense Pulsed Light (IPL) systems work on the
+principles of selective thermolysis. That is, causing thermal damage to target chromophores by using
+light of appropriate wavelength in pulses that exceeds the chromophores' thermal relaxation time but
+sparing normal skin by limiting the pulse width below the thermal relaxation time for skin.
+IPL Systems are different from lasers in that they deliver many wvavelengths in each pulse of light
+instead of just one wavelength. Generally, IPL enhances penetration wvithout using excessive energy
+levels and enables targeting of specific chromophores.
+Based on this, the LPL Systems (inclusive of the handpicce used to deliver pulsed-light energy) are
+indicated for use in surgical, aesthetic and cosmetic applications in permanent hair reduction,
+treatment of pigmented lesions, moderate inflammatory acne vulgaris, ephelides (freckles), and
+vascular lesions.
+
+7.
+
+Non-Clinical Test Conclusion
+Bench tests were conducted to verify that the proposed device met all design specifications as was
+11-2
+
+Additional Information Ito K122995 - Attachment 11 510(k) Summary
+
+Substantially Equivalent (SE) to the predicate device. The test results demonstrated that the proposed
+device complies with the following standards:
+>
+
+IEC 60601-1: 1988 ±AI:1991±A2:1995. Medical Electrical Equipment - Part 1: General
+requirements for safety.
+
+>
+
+IEC 60601-1-2: 2007, Medical Electrical Equipment - Part 1-2: General requirements for basic
+safety and essential performance
+
+-
+
+Collateral Standard: Electromagnetic compatibility-
+
+Requirements and tests.
+>
+
+ISO 10993-5: 2009, Biological evaluation of medical devices - Part 5: Tests for In Vitro
+cytotoxicity.
+
+>
+
+ISO 10993-10: 2010, Biological evaluation of medical devices - Part 10: 'Vests for irritation and
+skin sensitization.
+
+8.
+
+Substantially Equivalent Comparison
+Table II-I SE Comparison____
+
+___________
+
+Proposed Device
+
+Predicate Device
+
+Intense Pulsed Light (IPL) Systems
+
+IPULSELIGHT IPL SYSTEM (K(093627)
+
+Product Code
+
+ONF
+
+ONF
+
+Regulation No.
+
+21 CFR 87&4810
+
+Class
+
+II
+
+ITEM
+
+.21
+
+Theintense Pulsed Light (tPL) Systems (inclusive of
+the handpiece used to deliver pulsed-light energy) are
+Inene
+Ue
+
+indicated for use in surgical, aesthetic and cosmetic
+applications in permanent hair reduction, treatment of
+pigmented lesions, moderate
+
+inflammatory
+
+acne
+
+vulgaris, ephelides (freckles), and vascular lesions,
+
+_______________
+________________________________________
+
+CFR 878.48 10
+
+II
+IPulseLight IPL System ([HS 300C, HS 650)
+are identical with regard to indications for
+use including recommended filters to be
+used with Fitzpatrick skin type. Both models
+are intended for medical use in the treatment
+of the following dermnatologic conditions:
+Permanent hair reduction- long-term stable
+reduction in number of hairs re-growing
+after a treatment regimen. Treatment of. Moderate inflammatory acne vulgaris Benign pigmented epidermal lesions
+including dyschromia, hyperpigmentton,
+melasma, ephelides (freckles). - Cutaneous
+lesions including scars - Benign cutaneous
+vascular lesions including port wine stains,
+hemangionr. fhicial, truncal and leg
+telangiectasias, erythemna of rosacca, leg
+veins, spider anglomas and venous
+malformations. The integrated thermal
+cooling is indicated for use in cooling the
+epidermis at the treatment site prior to,
+during, and after light treatment in general
+aesthetic dermatologic and plastic surgery
+procedures. - Reduce pain during light
+treatment (via partial anesthesia from
+cooling) - Reduce discomfort during and/or
+associated with light treatment - Minimize
+thermal injury, including thermal necrosis, to
+non-target skin and skin structures during
+and/or associated with light treatment, thus
+reducing possible complications such as
+scabbing. scarring, hyper - and/or hypo
+pigmentation -Allow the use of higher light
+or laser fluencies for light treatments (such
+asfor hair removal and the treatment of
+vascular or pigmented lesions) - Reduce
+potential side effects of light treatments
+(such as for hair removal and the treatment
+
+11-3
+
+Additional Information Ito K122995 - Attachment 11 510(k) Summary
+
+Intense pulsed light
+
+Light source
+
+430-1200nm, 530-l200nm, 640-l200rn,
+Waveengh
+Otioal.480120nm,560120nm,590120nm,
+Wavlenth
+ptina: 40-100n, 50-200m, 90-200m,
+690-l200nim, 750 -1200nm
+
+of vascular or pigmented lesions)
+Intense pulsed light
+420nm-1200, 510-I 200nm, 560-1200nm,
+610-1200mm. 640-l200nm (Standard):
+480m1 200, 585-1200nm, 90-l200nm,
+755-1200nm (Options)
+
+Deliver system
+
+Sapphire
+
+Sapphire
+
+Energy density
+
+I 0-60J/cm'
+
+l0-60j/cm
+
+Pulse sequence
+
+I-IS pulses
+
+I-1S pulses
+
+Pulse delay
+
+5 - S0ms
+
+5 - 5oms
+
+Pulse width
+
+l-2Oms
+
+2-2Oms
+
+2
+
+MED-210: l5mmXS0mm (optional: l2mmX33mm,
+l~mmX3Smm)
+
+Spot size
+
+MED-230: A: I2mmnX33mm: B: l~mmXS0mm
+
+12,55mm, I5x50mm (Standard); 12xlI2mm,
+12x25rnm, 12x50mm, 15x55mm, 15x45mm
+(Options)
+
+(optional: I SmmX3Smm)
+Power Supply
+MaX. power
+consumption
+
+220V±20V SOt-k or I IOV±2OV 6OHz
+
+100/1IIOV, 50-60H-Z or 230>260V. 50-6011Z
+
+MED-210:1I400 WMED-230:2000 W
+
+1200 W
+
+Electrical Safety
+
+Comply with IEC 60601I-1
+
+Comply with IEC 60601 -1
+
+EMC
+
+Comply with tEC 60601-1-2
+
+Comply with 1EC 60601-1-2
+
+Table 11-2 Setting Comparison of Specified Indication for Use
+Proposed Device
+ITEM
+
+-Intense
+
+Predicate Device
+
+Pulsed Light (IPL) Systems
+
+IPULSELIGHT IPL SYSTEM (K093627)
+
+(MED-2 10, MED-230)
+
+(HS 300C, HS5650)
+
+Wavelength Range (mm)
+
+640-1200/690-1200/ 750-1200
+
+610-1200/640-1200/690-1200
+
+Energy Range (J/cm2)
+
+10-44
+
+10-46
+
+Pulse Duration (ins)
+
+3-14
+
+4-15
+
+Pulse Delay (rus)
+
+16-32
+
+15-30
+
+12mm X33mm: l~mmXS0mm
+
+12x25inm,l2x3Smm, l2xS0mm, 15x35mm,
+
+I~nnX35mm
+
+l5x4Smm
+
+Wavelength Range (n)
+
+480-1200/530-1200/560-1200
+
+510-I1200/560-1200
+
+Energy Ransge (J/cm2)
+
+1244
+
+I14-46
+
+Pulse Duration (ins)
+
+3-9
+
+Pulse Delay tins)
+
+16-32
+
+15-30
+
+12mm X33mn , l~mmXS5inm
+
+12x25im.I2x3Smm, l2xS0ini I1x3Sim,
+
+l~mmX3Sini
+
+15x45mmn
+
+Wavelength Range (nm)
+
+430-I1200/480-1200/530-1200
+
+420-1200/510-12001560-1200
+
+Energy Range (J/ein2)
+
+1040
+
+1042
+
+Pulse Duration (mns)
+
+3-8
+
+3-9
+
+permanent hair reduction
+
+Spot Size (mm)
+pigmented lesions
+
+Spot Size (mm)
+
+-
+
+-2-9
+
+moderate inflammatory acne vulgaris
+
+11-4
+
+Additional Information Ito K122995 - Attachment 11 510(k) Summary
+
+16-32
+
+Pulse Delay (ins)
+
+12mmn
+X33mn;n l~nmmXS0mmn
+Spot Size (mim)
+
+15-30
+12x25mmr,l2x3Smmn, 12,50mmn,
+
+l5mmnX35mmr
+
+15x45mmn
+
+Wavelength Range (nns)
+
+480-1200/530-1200
+
+510-1200
+
+Energy Range (J/cm2)
+
+10-42
+
+1244
+
+Pulse Duration taus)
+
+3-8
+
+3-9
+
+Sx3Smmn,
+
+ephelides (freckles)
+
+Pulse Delay (ons)
+Spot Size (mm)
+
+16-32
+
+15-30
+
+12mmn
+X33mm, l~nmmXS0min
+
+l2x2Smin,l2x3Smam, 12x50mmn, lx3Smmn,
+
+I~minX35nmin
+
+15x45imm
+
+vascular lesions
+Wavelength Range (nm)
+
+530-1 2001560-12001
+59-10510-I
+
+Energy Range (J/em2)
+
+10-4?
+
+10-44
+
+Pulse Duration (ins),
+
+3-8
+
+3-9
+
+Pulse Delay (ins)
+
+200/560-1200
+
+16-32
+
+15-30
+
+12mmu X33n;n l~nmmXS0nmm
+
+12x25mm1n~2x35mm, 12x00ntm, 15x35mnr
+
+l1miX3Smm
+
+l~x4Smmn
+
+Spot Size (mmn)
+
+Difference in intended use. wavelength, spot size, power supply, Max. power consumption and
+setting of specified indication for use between the proposed and predicate device are discussed in the
+5 10(k) submission documents, it is concluded that these differences will not affect the effectiveness
+and safety of the proposed device.
+The proposed device, Intense Pulsed Light (IPL) Systems, are determined to be Substantially
+Equivalent (SE) to the predicate device, IPULSELIOI-T IPL SYSTEM (K093627), in respect of
+safety and effectiveness.
+
+1l-5
+
+DEPARTMENT OF HEALTH & HUMAN SERVICES
+
+$
+
+.
+
+Public Health Service
+
+Food and Drug Administration
+Document Control Center - W066-0609
+Silver Spring, MID 20993-0002
+
+Beijing Kes Biology Technology.Company, Limited
+%Mid-Link Consulting Company, Limited
+Ms. Diana Hong
+Correspondent, General Manager
+
+January 22, 2013
+
+P.O. Box 237-023
+Shanghai, China 200237
+Re: K122995
+Trade/Device Name: Intense Pulsed Light (IPL) Systems
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+Regulatory Class: 11
+Product Code: ONF
+Dated: December 26, 2012
+Received: December 31, 2012
+Dear Ms. Hong:
+We have reviewed your Section 5 10(k) premarket notification of intent to market the device
+referenced above and have determined the device is substantially equivalent (for the indications
+for use stated in the enclosure) to legally marketed predicate devices marketed in interstate
+commerce prior to May 28, 1976, the enactment date of the Medical Device Amendments, or to
+devices that have been reclassified in accordance with the provisions of the Federal Food, Drug,
+and Cosmetic Act (Act) that do not require approval of a premarket approval application (PMA).
+You may, therefore, market the device, subject to the general controls provisions of the Act.
+The general controls provisions of the Act include requirements for annual registration, listing of
+devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration.
+If your device is classified (see above) into either class 11 (Special Controls) or class III (PMA),
+it may be subject to such additional controls. Existing major regulations affecting your device
+.can be found in the Code of Federal Regulations, Title 2 1, Parts 800 to 898. In addition, FDA
+may publish further announcements concerning your device in the Federal Regzister.
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean
+that FDA has made a determination that your device complies with other requirements of the Act
+or any Federal statutes and regulations administered by other Federal agencies. You must
+comply with all the Act's requirements, including, but not limited to: registration and listing (21
+CFR Part 807); labeling (21 CFR. Part 801); good manufacturing practice requirements as set~
+
+Page 2 - Ms. Diana Hong
+forth in the quality systems (QS) regulation (21 CER Part 820); and if applicable, the electronic
+product radiation control provisions (Sections. 531- 5 42 of the Act); 21 CER 1000-1050.
+This letter will allow you to begin marketing your device as described in your Section 510(k)
+premarket notification. The FDA finding of substantial equivalence of your device to a legally
+marketed predicate device results in a classification for your device and thus, permits your
+device to proceed to the market
+If you desire specific advice for your device on our labeling regulation (21 CFR Part 80 1), please
+contact the Office of Compliance at (240) 276-0115. Also, please note the regulation entitled,
+"Misbranding by reference to premarket notification" (2ICFR Part 807.97). You may obtain
+other general information on your responsibilities under the Act from the Division of Small
+Manufacturers, International and Consumer Assistance at its toll-free number (800) 638-2041 or
+(240) 276-3150 or at its Internet address http://wwwk.fda.ov/cdrh/indutry/uor/index.html.
+Sincerely yours,
+
+Peter D.flRumm -S
+Mark N. Melkerson
+Acting Director
+Division of Surgical Devices
+Office of Device Evaluation
+Center for Devices and
+Radiological Health
+Enclosure
+
+Premarket Notification 510(k) Submission
+
+Section 11Indications for Use
+
+Project #:MOO22Ol2B2a
+
+Section 11 Indications for Use
+5 10(k) Number:
+Device Name: Intense Pulsed Light (IPL) Systems
+Indications for Use:
+The Intense Pulsed Light (IPL) Systems (inclusive of the handpiece used to deliver pulsed-light energy)
+are indicated for use in surgical, aesthetic and cosmetic applications in permanent hair removal, skin
+rejuvenation, reduction of pigmented lesions, acne therapy, freckle, vascular lesions and facial blemish
+removal.
+
+DOVER-T HE-COUNTER USE
+(21 CFR 801 SubpartC)
+
+ZPRESCRIPTION USE
+(Part 21 CFR 801 Subpart D)
+
+(PLEASE DO NOT WRITE BELOW THIS LINE-CONTINUE ON ANOTHER PAGE OF NEEDED)
+Concurrence of CDRH, Office of Device Evaluation (ODE)
+Page I of I
+
+Neil ROgden
+2013.01.18 08:52:24 -05'00'
+(Division Sign-Off)
+Division of Surgical Devices
+510(k) Number
+
+V
+
+

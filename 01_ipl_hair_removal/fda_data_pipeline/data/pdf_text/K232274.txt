@@ -1,0 +1,574 @@
+September 28, 2023
+
+Lumenessa Corp
+℅ Xuexia Ren
+Director Chengdu Office
+Delta Technology Service (Shenzhen) Co., Ltd.
+1-01, Building 1&1-01 A-01, Building3, No.15 Jinhui Rd.
+Kengzi Subdistrict, Pingshan District
+Shenzhen, 518118
+China
+Re: K232274
+Trade/Device Name: IPL hair removal device
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: July 28, 2023
+Received: July 31, 2023
+Dear Xuexia Ren:
+We have reviewed your section 510(k) premarket notification of intent to market the device referenced above
+and have determined the device is substantially equivalent (for the indications for use stated in the enclosure)
+to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment
+date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the
+provisions of the Federal Food, Drug, and Cosmetic Act (the Act) that do not require approval of a premarket
+approval application (PMA). You may, therefore, market the device, subject to the general controls
+provisions of the Act. Although this letter refers to your product as a device, please be aware that some
+cleared products may instead be combination products. The 510(k) Premarket Notification Database
+available at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+
+K232274 - Xuexia Ren
+
+Page 2
+
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Additional information about changes that may require a new premarket notification are provided in the FDA
+guidance documents entitled "Deciding When to Submit a 510(k) for a Change to an Existing Device"
+(https://www.fda.gov/media/99812/download) and "Deciding When to Submit a 510(k) for a Software
+Change to an Existing Device" (https://www.fda.gov/media/99785/download).
+Your device is also subject to, among other requirements, the Quality System (QS) regulation (21 CFR Part
+820), which includes, but is not limited to, 21 CFR 820.30, Design controls; 21 CFR 820.90, Nonconforming
+product; and 21 CFR 820.100, Corrective and preventive action. Please note that regardless of whether a
+change requires premarket review, the QS regulation requires device manufacturers to review and approve
+changes to device design and production (21 CFR 820.30 and 21 CFR 820.70) and document changes and
+approvals in the device master record (21 CFR 820.181).
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR Part 803) for
+devices or postmarketing safety reporting (21 CFR Part 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR Part 4, Subpart
+A) for combination products; and, if applicable, the electronic product radiation control provisions (Sections
+531-542 of the Act); 21 CFR Parts 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+
+K232274 - Xuexia Ren
+
+Page 3
+
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Tanisha L.
+Hithe -S
+
+Tanisha L. Hithe -S
+2023.09.28
+10:57:51 -04'00'
+
+Tanisha Hithe
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2023
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K232274
+
+Device Name
+
+IPL hair removal device
+
+Indications for Use (Describe)
+
+The product is an over-the-counter device intended for removal of unwanted body and facial hair.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (6/20)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+Sponsor:
+
+Lumenessa Corp
+
+Subject Device:
+
+IPL hair removal device, Model: LS101, LS102
+
+Document Name:
+
+FDA 510(k) Submission Report
+
+Chapter 6. 510(k) Summary
+
+510(k) Summary
+K232274
+This summary of 510(K) safety and effectiveness information is being submitted in accordance with the
+requirement of 21 CFR 807.92.
+1. Submitter’s Information
+ 510(k) Owner’s Name: Lumenessa Corp
+ Establishment Registration Number: Applying
+ Address: 10606 Shoemaker Ave #A, Santa Fe Springs, CA 90670
+ Tel: 1-408-5623072121
+ Fax: /
+ Contact Person: Peter Kim (Vice President)
+ Email: peter@lumenessa.com
+ Date Prepared: September 26, 2023
+Application Correspondent:
+Contact Person: Ms. Ren Xuexia
+Delta Technology Service(Shenzhen) Co., Ltd.
+Address: 1-01, Building 1&1-01 A-01, Building3, No.15 Jinhui Rd., Kengzi Subdistrict, Pingshan
+District, Shenzhen, 518118, China
+ Tel: +86-18030755441
+ Email: renxuexia@deltates.com
+
+
+
+
+2. Subject Device Information
+ Common Name: Light Based Over-The-Counter Hair Removal
+ Trade Name: IPL hair removal device (Model: LS101, LS102)
+ Classification Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+ Review Panel: General & Plastic Surgery
+ Product Code: OHT
+ Regulation Number: 878.4810
+ Regulation Class: II
+3. Predicate Device Information
+Predicate Device 1 Information
+ Common Name: Light based over the counter hair removal system
+ 510(k) Number: K160968
+ Sponsor: CyDen Limited.
+ Trade Name: iPulse SmoothSkin Gold Hair Removal Device
+ Classification Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+
+Report by Lumenessa Corp
+
+Page 11 of 39
+
+Sponsor:
+
+Lumenessa Corp
+
+Subject Device:
+
+IPL hair removal device, Model: LS101, LS102
+
+Document Name:
+
+FDA 510(k) Submission Report
+
+
+
+
+
+
+Review Panel: General & Plastic Surgery
+Product Code: OHT, GEX
+Regulation Number: 878.4810
+Regulation Class: II
+
+Predicate Device 2 Information
+Common Name: Light Based Over-The-Counter Hair Removal
+510(k) Number: K161428
+Sponsor: Shen Zhen CosBeauty Co., Ltd
+Trade Name: PerfectSmooth
+Classification Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+ Review Panel: General & Plastic Surgery
+ Product Code: OHT
+ Regulation Number: 878.4810
+ Regulation Class: II
+
+
+
+
+
+
+4. Device Description
+IPL hair removal device is a personal, light-based, hair reduction device intended to be sold over-thecounter directly to the end user. The device provides hair reduction using Intense Pulsed Light (IPL)
+technology. It works below the skin's surface and does not involve any cutting or pulling, reducing hair
+growth with minimal pain. The device is only powered by the external power adapter and its IPL emission
+activation is by finger switch. The device contains a Xenon lamp and a skin tone sensor to detect
+appropriate skin contact. If the device is not properly applied to the treatment area (in full contact with the
+skin), the device cannot be triggered a pulse emitting.
+The IPL hair removal device includes LS101 and LS102 two models. Their intended use, performance,
+structure design and operation are identical, with the different color of grip part. The difference does not
+affect or change the intended use of the device.
+5. Intended Use / Indications for Use
+The product is an over-the-counter device intended for removal of unwanted body and facial hair.
+6. Test Summary
+IPL hair removal device, Model: LS101, LS102 has been evaluated for the safety and performance by lab
+bench testing as following:
+1) Biocompatibility Testing
+The biocompatibility evaluation for the body-contacting components of the subject device was conducted
+in accordance with the "Use of International Standard ISO 10993-1, "Biological evaluation of medical
+devices - Part 1: Evaluation and testing within a risk management process", as recognized by FDA,
+including:
+ ISO 10993-5:2009 Biological evaluation of medical devices Part 5: Tests for In Vitro Cytotoxicity
+ ISO 10993-10:2010 Biological evaluation of medical devices-Part 10:Tests for irritation and skin
+sensitization
+ ISO 10993-10:2021 Biological evaluation of medical devices-Part 10:Tests for skin sensitization
+
+Report by Lumenessa Corp
+
+Page 12 of 39
+
+Sponsor:
+
+Lumenessa Corp
+
+Subject Device:
+
+IPL hair removal device, Model: LS101, LS102
+
+Document Name:
+
+FDA 510(k) Submission Report
+
+2) Electrical Safety and Eye Safety
+ IEC 60601-1 Medical electrical equipment –Part 1: General requirements for basic safety and
+essential performance
+ IEC 60601-1-2 Medical electrical equipment –Part 1-2: General requirements for basic safety and
+essential performance –Collateral standard: electromagnetic compatibility
+ IEC 60601-1-11 Medical Electrical Equipment –Part 1: General Requirements for Basic Safety
+and Essential Performance –Collateral Standard: Requirements for Medical Electrical Equipment
+and Medical Electrical Systems Used in the Home Healthcare Environment
+ IEC 60601-2-57 Medical electrical equipment –Part 2-57: Particular requirements for the basic
+safety and essential performance of non-laser source equipment intended for therapeutic,
+diagnostic, monitoring and cosmetic/aesthetic use
+3) Eye Safety
+ IEC 62471 Photobiological safety of lamps and lamp systems
+4) Software Verification and Validation
+Software documentation consistent with moderate level of concern was submitted in this 510(k). System
+validation testing presented in this 510(k) demonstrated that all software requirement specifications are
+met and all software hazards have been mitigated to acceptable risk levels.
+5) OTC Usability Study
+An OTC Usability Study was enrolled a total of 20 participant and was conducted to provide a basis for the
+Company to gather data from the layperson relative to level of labeling understanding of what the device
+is, what the device does and how to operate the device. This Study was completed successfully and the
+results were no issues or negative comments.
+7. Comparison to predicate device and conclusion
+The technological characteristics, features, specifications, materials, and intended use of IPL hair removal
+device (Model: LS101, LS102) is substantially equivalent to the predicate devices quoted above.
+The differences between the subject device and predicate devices do not raise new question of safety or
+effectiveness.
+Elements of
+Comparison
+
+Subject Device
+
+Predicate Device 1
+
+Predicate Device 2
+
+Remark
+
+Device Name
+
+IPL hair removal device
+Model: LS101, LS102
+
+iPulse SmoothSkin Gold
+Hair Removal Device
+
+PerfectSmooth
+
+--
+
+510(k) Number
+
+K232274
+
+K160968
+
+K161428
+
+--
+
+The product is an overthe-counter device
+Indications for Use intended for removal of
+unwanted body and
+facial hair.
+
+Report by Lumenessa Corp
+
+The PerfectSmooth is an
+over-the-counter device
+The iPulse SmoothSkin
+intended for removal of
+Gold Hair Removal System unwanted hair such as but
+SE
+is an over the counter
+not limited to small areas
+Note 1
+such as underarm and
+device intended for the
+removal of unwanted hair. facial hair below the chin
+line and large areas such
+as legs.
+
+Page 13 of 39
+
+Sponsor:
+
+Lumenessa Corp
+
+Subject Device:
+
+IPL hair removal device, Model: LS101, LS102
+
+Document Name:
+
+FDA 510(k) Submission Report
+
+Elements of
+Comparison
+
+Subject Device
+
+Wavelength range 523nm ~ 1100nm
+
+Predicate Device 1
+
+Predicate Device 2
+
+Remark
+
+510-1100nm
+
+≥510nm
+
+SE
+Note 2
+SE
+
+Energy medium
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Energy density
+
+3.2-6.5J/cm²
+
+3-6J/cm2
+
+4.7 J/cm²
+
+Spot size
+
+Standard care head:
+3cm2(30mm*10mm)
+Precision care head:
+1.2cm2(12mm*10mm)
+
+3cm2 (3cm by 1cm)
+
+4.5 cm²
+
+SE
+Note 2
+
+Pulse duration
+
+<10 ms
+
+2ms to 10ms
+
+11-13 ms
+
+SE
+Note 4
+
+Pulsing control
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+SE
+
+Delivery device
+
+Direct illumination to
+tissue
+
+Direct illumination to tissue
+
+Direct illumination to
+tissue
+
+SE
+
+Location for use
+
+OTC
+
+OTC
+
+OTC
+
+SE
+
+Biocompatibility
+
+ISO 10993-5,
+ISO 10993-10
+
+ISO 10993-5,
+ISO 10993-10
+
+ISO 10993-5,
+ISO 10993-10
+
+SE
+
+Electrical Safety
+
+IEC 60601-1,
+IEC 60601-1-11,
+IEC 60601-2-57
+
+IEC 60601-1,
+IEC 60601-1-11,
+IEC 60601-2-57
+
+IEC 60601-1,
+IEC 60601-1-11,
+IEC 60601-2-57
+
+SE
+
+EMC
+
+IEC 60601-1-2
+
+IEC 60601-1-2
+
+IEC 60601-1-2
+
+SE
+
+Eye Safety
+
+IEC 62471
+
+IEC 62471
+
+IEC 62471
+
+SE
+
+SE
+Note 3
+
+Comparison in Detail(s):
+Note 1:
+The “Indications for Use” of subject device is described in a different way than the predicate devices, but
+they show that the actual use of the device is similar, namely "removal of unwanted hair".
+So the differences of description will not raise any safety or effectiveness issue.
+Note 2:
+Although the “Wavelength range” and “Spot size” of subject device are a little different from the predicate
+devices, they all comply with IEC 60601-1, IEC 60601-2-57 requirement.
+So the differences of function specification will not raise any safety or effectiveness issue.
+Note 3:
+Although the “Energy density” of subject device is a little different from the predicate devices, they all
+comply with IEC 60601-1, IEC 60601-2-57 requirement. And the Energy density of subject device is in the
+range of the predicate device 1.
+So the differences of function specification will not raise any safety or effectiveness issue.
+Note 4:
+
+Report by Lumenessa Corp
+
+Page 14 of 39
+
+Sponsor:
+
+Lumenessa Corp
+
+Subject Device:
+
+IPL hair removal device, Model: LS101, LS102
+
+Document Name:
+
+FDA 510(k) Submission Report
+
+Although the “Pulse duration” of subject device is a little different from the predicate devices, they all
+comply with IEC 60601-1, IEC 60601-2-57 requirement. And the Pulse duration of subject device is almost
+identical to the predicate device 1.
+So the differences of function specification will not raise any safety or effectiveness issue.
+Summary:
+The subject device "IPL hair removal device, model: LS101, LS102" is Substantial Equivalent to the
+predicate devices.
+8. Conclusion
+In accordance with the Federal Food, Drug and Cosmetic Act, 21 CFR Part 807 and based on the
+comparison of intended use, design, materials and performance, the subject device "IPL hair removal
+device, model: LS101, LS102" is to be concluded substantial equivalent to its predicate devices.
+
+Report by Lumenessa Corp
+
+Page 15 of 39
+
+

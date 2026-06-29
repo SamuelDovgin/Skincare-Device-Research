@@ -1,0 +1,608 @@
+November 19, 2021
+
+Shenzhen Leaflife Technology Co., Ltd
+Cheng Qiang
+Regulatory Registration Supervisor
+4 F,Bldg. C, JMD Industrial Park, No.39 Qingfeng Blvd.,
+Baolong Industrial Area, Longgang District
+Shenzhen, Guangdong 518116
+China
+Re: K212697
+Trade/Device Name: Leaf Smooth
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: August 18, 2021
+Received: August 25, 2021
+Dear Cheng Qiang:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.04.29
+
+K212697 - Cheng Qiang
+
+Page 2
+
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801 and Part 809); medical device reporting (reporting of medical device-related adverse events) (21 CFR
+803) for devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Purva U. Pandya -S
+Purva Pandya
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+K212697
+
+Page 1 of 8
+510(k) Premarket Notification Submission
+
+510(k) Summary
+In accordance with 21 CFR 807.92 the following summary of information is provided:
+
+I.
+
+SUBMITTER
+
+Shenzhen Leaflife Technology Co., Ltd
+4F, Bldg. C JMD Industrial Park, No.39 Qingfeng Blvd., Baolong Industrial Area,
+Longgang Dist., Shenzhen, RP China
+Phone: 086-(0)17875910506
+Fax: 086-0755-27215592
+
+Primary Contact Person:
+
+Cheng Qiang
+Regulatory registration supervisor
+Shenzhen Leaflife Technology Co., Ltd
+Phone: 086-(0)17875910506
+Tel: 086-0755-27216609
+Fax: 086-0755-27215592
+Email: cq@leaflife.com
+
+Date Prepared:
+
+08/20/2021
+
+K212697
+
+Page 2 of 8
+510(k) Premarket Notification Submission
+
+II.
+
+PROPOSED DEVICE
+
+Trade Name:
+
+Leaf Smooth
+
+Model(s):
+
+LH-LIPLB
+
+Common Name:
+
+Light Based Over-The-Counter Hair Removal
+
+Classification Name:
+Regulation Number:
+
+Laser surgical instrument for use in general and plastic
+surgery and in dermatology
+21 CFR 878.4810
+
+Regulation Class:
+
+II
+
+Product Code:
+Review Panel:
+
+OHT
+General & Plastic Surgery
+
+III. PREDICATE DEVICE
+
+Predicate device 1#
+
+IPL Home Use Hair Removal Device, Model D-1128:
+K192432
+
+Predicate device 2#
+
+IPL Salon Hair Reduction System, Model F60001:
+K181568
+
+Predicate device 3#
+
+iPulse SmoothSkin Gold Hair Removal System, K160968
+
+The predicate has not been subject to a design-related recall.
+
+IV. DEVICE DESCRIPTION
+
+The Leaf Smooth (LH-LIPLB) is a personal, light-based, hair reduction device intended
+to be sold over-the-counter directly to the end user. The device provides hair
+reduction using Intense Pulsed Light (IPL) technology. It works below the skin's surface
+and does not involve any cutting or pulling, reducing hair growth with minimal pain.
+The device is only powered by the external power adapter and its IPL emission
+activation is by finger switch.
+The device contains a Xenon Arc Flashlamp, capacitive sensor to detect appropriate
+skin contact and a skin sensor to detect appropriate skin color. If the device is not
+properly applied to the treatment area (in full contact with the skin), the device
+cannot emit the treatment light pulses. The device is for single-person use only.
+The Leaf Smooth has 6 levels output intensity.
+
+K212697
+
+Page 3 of 8
+510(k) Premarket Notification Submission
+
+V.
+
+INTENDED USE
+
+The Leaf Smooth is an over-the-counter device intended for removal of unwanted
+body and/or facial hair.
+VI. COMPARISON OF TECHNOLOGICAL CHARACTERISTICS WITH THE PREDICATE
+
+DEVICE
+The Leaf Smooth (LH-LIPLB) has same intended use as the predicate devices.
+Technological characteristics such as fluence, laser wavelength, spot size, and pulse
+duration, of the Leaf Smooth device are similar to those of the predicate devices.
+
+K212697
+
+Page 4 of 8
+510(k) Premarket Notification Submission
+
+Item
+
+Proposed Device
+
+Predicate Device
+
+Predicate Device
+
+Predicate Device
+
+K192432(Primary)
+
+K181568
+
+K160968
+
+IPL Home Use Hair Removal
+
+IPL Salon Hair Reduction
+
+Device
+
+System
+
+On pending
+
+K192432
+
+Product code
+
+OHT
+
+Classification
+regulation
+
+21 CFR 878.4810
+
+Device name
+
+Leaf Smooth (LH-LIPLB)
+
+K number
+
+Indications for
+Use
+
+Prescription use
+or not
+
+The Leaf Smooth is an
+over-the-counter device
+intended for removal of
+unwanted body and/or facial
+hair.
+
+OTC
+
+Remark
+
+iPulse SmoothSkin Gold
+
+/
+
+K181568
+
+K160968
+
+/
+
+OHT
+
+OHT
+
+OHT
+
+Same
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+Same
+
+IPL Home Use Hair Removal
+Device is an over-the-counter
+device intended for removal of
+unwanted body and/or facial
+hair
+
+The IPL Salon Hair Reduction
+System (Model: F60001) is
+an over the Counter device
+intended for the removal of
+unwanted body and/or facial
+hair in adults. It is also
+intended for permanent
+reduction in unwanted hair.
+Permanent hair reduction is
+defined as the long-term
+stable reduction in the
+number of hairs re-growing
+when measured at 6, 9 and
+12 months after the
+completion of a treatment
+regimen.
+
+The iPulse SmoothSkin Gold
+Hair Removal System is
+indicated for the removal of
+unwanted hair. The iPulse
+Smoothskin Gold is also
+indicated for the permanent
+reduction in hair regrowth,
+defined as the long-term,
+stable reduction in the number
+of hairs regrowing when
+measured at 6, 9 and 12
+months after the completion of
+a treatment regime.
+
+Same
+
+OTC
+
+OTC
+
+OTC
+
+Same
+
+K212697
+
+Page 5 of 8
+510(k) Premarket Notification Submission
+
+Item
+
+Proposed Device
+
+Predicate Device
+
+Predicate Device
+
+Predicate Device
+
+K192432(Primary)
+
+K181568
+
+K160968
+
+Remark
+
+Pulsing control
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Same
+
+Delivery device
+
+Direct illumination to tissue
+
+Direct illumination to tissue
+
+Direct illumination to tissue
+
+Direct illumination to tissue
+
+Same
+
+Energy medium
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Same
+
+Wavelength
+range
+
+475-1100 nm
+
+510-1100nm
+
+475-1200nm
+
+510-1100nm
+
+Similar
+
+Spot size
+
+3.8 cm2
+
+4.5 cm2, 2.0 cm2, 3.0 cm2
+
+3 cm2
+
+Similar
+
+Fluence
+
+4-6 J/cm2
+
+2.0-4.0 J/cm2, 2.5-4.5 J/cm2
+
+Max 5 J/cm2
+
+3-6 J/cm2
+
+Similar
+
+Pulse Duration
+
+2-10ms
+
+7.5-14ms
+
+11-12ms
+
+2-10ms
+
+Similar
+
+3.02 cm2
+1.72 cm2
+
+K212697
+
+Page 6 of 8
+510(k) Premarket Notification Submission
+
+Item
+
+Proposed Device
+
+Predicate Device
+
+Predicate Device
+
+Predicate Device
+
+K192432
+
+K181568
+
+K160968
+
+Remark
+
+Biocompatibility
+Cytotoxicity
+
+No Cytotoxicity
+
+No Cytotoxicity
+
+No Cytotoxicity
+
+No Cytotoxicity
+
+Same
+
+Sensitization
+
+No evidence of sensitization
+
+No evidence of sensitization
+
+No evidence of sensitization
+
+No evidence of sensitization
+
+Same
+
+Irritation
+
+No evidence of irritation
+
+No evidence of irritation
+
+No evidence of irritation
+
+No evidence of irritation
+
+Same
+
+Comply with IEC 60601-1,
+
+Comply with IEC 60601-1,
+
+Comply with IEC 60601-1,
+
+IEC 60601-1-11
+
+IEC 60601-1-11
+
+IEC 60601-1-11
+
+Comply with IEC 60601-1-2
+
+Comply with IEC 60601-1-2
+
+Comply with IEC 60601-1-2
+
+Comply with IEC 60601-1-2
+
+Comply with IEC 60601-2-57,
+
+Comply with IEC 60601-2-57,
+
+Comply with IEC 60601-2-57,
+
+Comply with IEC 60601-2-57,
+
+IEC 62471
+
+IEC 62471
+
+IEC 62471
+
+IEC 62471
+
+EMC, Electrical and Laser Safety
+Electrical
+Safety
+EMC
+Light Safety
+
+Comply with ANSI/AAMI
+ES60601-1,
+IEC 60601-1-11
+
+Same
+Same
+Same
+
+K212697
+
+Page 7 of 8
+510(k) Premarket Notification Submission
+
+VII. Non-Clinical Test Conclusion
+
+Non-clinical tests were conducted to verify that the proposed device met all design
+specifications as was Substantially Equivalent (SE) to the predicate device. The test
+results demonstrated that the proposed device complies with the following
+standards:
+ANSI/AAMI ES60601-1:2005/(R) 2012 and A1:2012, C1:2009/(R)2012 and
+A2:2010/(R)2012, Medical electrical equipment — Part 1: General requirements for
+basic safety and essential performance
+IEC 60601-1-2:2014, Medical electrical equipment - Part 1-2: General requirements
+for basic safety and essential performance - Collateral Standard: Electromagnetic
+disturbances - Requirements and tests.
+IEC 60601-1-11:2015, Medical electrical equipment - Part 1-11 General requirements
+for basic safety and essential performance - Collateral Standard: Requirements for
+medical electrical equipment and medical electrical systems used in the home
+healthcare environment.
+IEC 60601-2-57:2011, Medical electrical equipment - Part 2-57: Particular
+requirements for the basic safety and essential performance of non-laser light source
+equipment intended for therapeutic, diagnostic, monitoring and cosmetic/aesthetic
+use.
+IEC 62471:2006, Photobiological safety of lamps and lamp systems.
+ISO 10993-5 Third Edition 2009-06-01, Biological Evaluation of Medical Devices - Part
+5: Tests For In Vitro Cytotoxicity. (Biocompatibility)
+ISO 10993-10 Third Edition 2010-08-01, Biological Evaluation of Medical Devices Part 10: Tests for Irritation and Skin Sensitization. (Biocompatibility)
+Performance Testing for Spot Size Accuracy and Energy Output Accuracy.
+Software documentation consistent with moderate level of concern was submitted
+in this 510(k). System validation testing presented in this 510(k) demonstrated that
+all software requirement specifications are met and all software hazards have been
+mitigated to acceptable risk levels.
+
+VIII. CLINICAL TEST CONCLUSION
+
+No clinical study is included in this submission.
+
+K212697
+
+Page 8 of 8
+510(k) Premarket Notification Submission
+
+IX. SUBSTANTIALLY EQUIVALENT (SE) CONCLUSION
+
+The Leaf Smooth device has the same intended use and similar technology to those
+of the predicate devices. Performance testing conducted on the Leaf Smooth
+device supports that the Leaf Smooth can be used safely and effectively for the
+indications for use stated above.
+Based on the comparison and analysis above, the proposed device is determined
+to be Substantially Equivalent (SE) to the predicate devices.
+
+

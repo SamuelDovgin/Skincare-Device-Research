@@ -1,0 +1,194 @@
+gio
+b3l rv
+510(k) SUMMARY OF SAFETY AND EFFECTIVENESS
+Home Skinovations Ltd.
+NV121
+Silk'n Flash N Go
+This summary of safety and effectiveness information is being submitted in
+accordance with the requirements of the SMDA 1990 and 21 CFR 807.92.
+
+Submitter's information
+Name:
+
+Home Skinovations Ltd.
+
+Address:
+
+Apolo building, POB 533, Yokneam 20692, Israel
+
+Contact:
+
+Dr. Amnir Waldman VP Regulatory Affairs
+
+Device information
+Trade/Proprietary name:
+
+Silk'n Flash N Go
+
+Common/Usual name:
+
+Light based hair removal device
+
+Classification name:
+
+Laser surgical instrument for use in general and plastic
+surgery and in dermatology (21 CRE §878.48 10)
+
+Product code:
+
+GEX
+
+Predicate devices
+* Flash N Go (K082298), by Home Skinovations Ltd.
+* TRJA Laser Hair Removal Systemn(K090820),by Tria Beauty, Inc.
+o EpiLight and PhotoDerm HR (K991935), by ESC Medical system Inc.
+Intended use:
+The Flash N Go device is an over the counter device intended for the removal of
+unwanted hair. Flash N Go is also intended for permanent reduction in hair regrowth
+defined as a long-term, stable reduction in hair counts following a treatment regime.
+Device Description:
+The Flash N Go hair removal system is a pulsed light system composed of a base unit
+and hand held applicator.
+Performance data:
+The device complies with the following U.S. Food and Drug Administration
+performance standards: 21CRF § 1040. 10 & 1040.1 1. Clinical data was collected in a
+prospective multisite clinical study.
+
+Substantial Equivalence:
+The Flash N Go system is substantial equivalent to its predicate devices. The data in
+this 510Ok submission demonstrate that the Flash N Go system is identical to the
+cleared Flash N' Go, and shares the same intended use as other predicate devices.
+Therefore is substantial equivalent to its predicate devices. Details are provided in
+Substantial equivalent section of this submission.
+Based upon an analysis of the overall performance characteristic for the device, Home
+Skinovations Ltd. believes that no significant diffeences exit. Therefore the Silk'n
+Flash N Go should raise no new issues of safety or- effectiveness.
+
+October 21, 201 0
+Date
+
+Dr. Amir Waldman,
+VP Regulatory Affairs
+Home Skinovations Ltd.
+
+DEPARTMENT OF HEALTH & HUMAN SERVICES
+
+Public Health Service
+
+Food1 and Drug Adminnistation
+I 0903 New Illarrpshire Avenue
+lDocument Contr ol Roomn -W066-G609
+
+Silver Spring, 1\11 20993-0002
+
+Home Skinovations Ltd.
+%/ Dr. Amir Waldman
+Vice President, Regulatory Affairs
+
+Apolo Building, P.O. Box 533
+Yokneam 20692, Israel
+
+NV
+
+o21
+021
+
+Re: K103184
+Trade/Device Name: Silk'n Flash N Go
+Regulation Number: 21 CFR 878.481 0
+Regulation Name: Laser surgical instrument for use in general and
+plastic surgery and in dermatology
+Regulatory Class: Class LI
+Product Code: ORT
+Dated: October 21, 201 0
+Received: October 29, 2010
+Dear Dr. Waldman:
+We have reviewed your Section 5 10(k) premarket notification of intent to market the device
+referenced above and have determined the device is substantially equivalent (for the indications
+for use stated in the enclosure) to legally marketed predicate devices marketed in interstate
+commerce prior to May 28, 1976, the enactment date of the Medical Device Amendments, or to
+devices that have been reclassified in accordance with the provisions of the Federal Food, Drug,
+and Cosmetic Act (Act) that do not require approval of a premarket approval application
+(PMA). You may, therefore, market the device, subject to the general controls provisions of the
+Act. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding
+and adulteration. Please note: CDRHi does not evaluate information related to contract liability
+warranties. We remind you; however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it
+may be subject to additional controls. Existing major regulations affecting your device can be
+found in the Code of Federal Regulations, Title 2 1, Parts 800 to 898. In additidn, FDA may
+publish further announcements concerning your device in the Federal Register.
+
+Page 2 - Dr. Amir Waldman
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean
+that FDA has made a determination that your device complies with other requirements of the Act
+or any Federal statutes and regulations administered by other Federal agencies. You must
+comply with all the Act's requirements, including, but not limited to: registration and listing (21
+CFR Part 807); labeling (21 CFR Part 801); medical device reporting (reporting of medical
+device-related adverse events) (21 CFR 803); good manufacturing practice requirements as set
+forth in the quality systems (QS) regulation (21 CFR Part 820); and if applicable, the electronic
+product radiation control provisions (Sections 53 1-542 of the Act); 21 CER 1000-1050.
+If you desire specific advice for your device on our labeling regulation (21 CFR Part 801), please
+go to http://www.fda.pov/AboutFDA/CentersOffices/CDIl-H/CDRHOffices/ucm II 5809.hitm for
+the Center for Devices and Radiological Health's (CDRFI's) Office of Compliance. Also, please
+note the regulation entitled, "Misbranding by reference to premarket notification" (2l1CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21
+CFR Part 803), please go toI
+littp://www.fda.gov/MedicalDevices/Safety/ReportaProblemi/default.htm for the CDRH's Office
+of Surveillance and Biomnetrics/Division of Postmarket Surveillance.
+You may obtain other general information on your responsibilities under the Act from the
+Division of Small Manufacturers, International and Consumer Assistance at its toll-free number
+(800) 638-2041 or (301) 796-7 100 or at its Internet address
+http://www.fda.gov/MedicalDevices/ResourcesforYou/Industry/default.htm.
+Sincerely yI rs,
+
+Mark
+Mekri
+Director
+Division of Surgical, Orthopedic
+And Restorative Devices
+Office of Device Evaluation
+Center for Devices and
+Radiological Health
+Enclosure
+
+510(k) Number (if known)
+Device Name
+
+NO SI
+
+Y'/
+
+Flash N Go
+
+Indications For Use:
+
+NOV 1 0 20-10
+
+Flash N Go is an over the counter device intended for the removal of unwanted hair.
+Flash N Go is also intended for permanent reduction in hair regrowth defined as a
+long-term, stable reduction in hair counts following a treatment regime.
+
+(PLEASE DO NOT WRITE BELOW THIS LINE - CONTINUE ON ANOTHER PAGE IF
+NEEDED)
+Concurrence of CDRIT, Office of Device Evaluation (ODE)
+
+Prescription Use____OR
+(Per 21 CFR 801.109)
+
+'ybI uC
+
+DS
+
+(Division Sign-O)
+Division of Surgical, Orthopedic,
+
+and Restorative Devices
+
+5l10(k) Number..os~t
+
+Over The Counter Use X
+
+(Optional Format 1-2-96)
+
+

@@ -1,0 +1,538 @@
+August 12, 2022
+Beijing Globalipl Development Co., Ltd.
+℅ Ray Wang
+General Manager
+Beijing Believe-Med Technology Service Co., Ltd.
+Rm.912, Building #15, XiYueHui, No.5, YiHe North Rd.,
+FangShan District
+Beijing, Beijing 102401
+China
+Re: K220385
+Trade/Device Name: Intense Pulsed Light Equipment
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: ONF
+Dated: February 9, 2022
+Received: February 10, 2022
+Dear Ray Wang:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.05.00
+
+K220385 - Ray Wang
+
+Page 2
+
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Jianting Wang -S
+Jianting Wang
+Acting Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Indications for Use
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2023
+See PRA Statement below.
+
+510(k) Number (ifknown)
+
+K220385
+Device Name
+US 500 Intense Pulsed Light Equipment
+
+Indications for Use (Describe)
+
+The US 500 Intense Pulsed Light Equipment is indicated for use in surgical and aesthetic applications in permanent hair
+removal. Permanent hair removal is defined as the long-term, stable reduction in the number of hairs regrowing when
+measured at 6, 9, and 12 months after the completion of a treatment regimen.
+
+Type of Use (Select one or both, as applicable)
+X Prescription Use (Part 21 CFR 801 Subpart D)
+
+E Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+"An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number"
+FORM FDA 3881 (6120)
+
+Page 1 of 1
+
+PSC PublisAing Servics (301) 443-6740
+
+EF
+
+K220385
+
+Page 1 of 4
+
+510(k) Summary
+
+This 510(k) Summary of 510(k) safety and effectiveness information is being submitted in accordance
+with requirements of SMDA 1990 and Title 21, CFR Section 807.92.
+1.
+
+Date of Preparation:2022/08/12
+
+2.
+
+Sponsor Identification
+Beijing Globalipl Development Co., Ltd.
+F-8 Qunyinghui Building, Jinyuan Rd.32, Daxing Economic Development Zone, Beijing, China
+102628
+Contact Person: Liu Jun
+Position: QA Manager
+Tel: +86-15169727366
+Fax: +86-10-60212336
+Email:register@globalipl.com
+
+3.
+
+Designated Submission Correspondent
+Mr. Ray Wang
+Beijing Believe-Med Technology Service Co., Ltd.
+Rm.912, Building #15, XiYueHui, No.5, YiHe North Rd., FangShan District, Beijing, 102401,
+China
+Tel: +86-18910677558
+Fax: +86-10-56335780
+Email: ray.wang@believe-med.com
+
+K220385
+
+Page 2 of 4
+
+510(k) Summary
+
+4.
+
+Identification of Proposed Device
+Trade Name: Intense Pulsed Light Equipment
+Common Name: Powered Light Based Non-Laser Surgical Instrument With Thermal Effect
+
+Regulatory Information
+Classification Name: Powered Light Based Non-Laser Surgical Instrument With Thermal Effect
+Classification: II
+Product Code: ONF
+Regulation Number: 878.4810
+Review Panel: General & Plastic Surgery
+Indication For Use Statement:
+The US 500 Intense Pulsed Light Equipment is indicated for use in surgical and aesthetic
+applications in permanent hair reduction. Permanent hair reduction is defined as the long-term,
+stable reduction in the number of hairs regrowing when measured at 6, 9, and 12 months after the
+completion of a treatment regimen.
+Device Description:
+The US500 Intense Pulsed Light Equipment is a device that emits intense pulsed light in order to
+achieve hair reduction. The light source is a Xenon lamp that emits light which is filtered to include
+suitable wavelengths for hair reduction. The device is electrically powered, and main components
+include the console which includes electrical components and a touchscreen user interface, the IPL
+handpiece and cable, and a footswitch. The light pulses are emitted from the handpiece which is
+water cooled. The device is for prescription use only.
+5.
+
+Identification of Predicate Device(s)
+510(k) Number: K161286
+Product Name: IPL Therapy Machine
+Manufacturer: Beijing ADSS Development Co., Ltd
+
+6.
+
+Non-Clinical Test Conclusion
+Non clinical tests were conducted to verify that the proposed device met all design specifications.
+The test results demonstrated that the proposed device conforms to the following standards:
+
+
+
+IEC 60601-1:2012, Medical Electrical Equipment –Part 1: General requirements for basic safety
+and essential performance.
+
+
+
+EC 60601-1-2:2014, Medical Electrical Equipment-Part 1-2: General Requirements For Basic
+Safety
+
+And
+
+Essential
+
+Performance
+
+Compatibility-Requirements And Tests
+
+-
+
+Collateral
+
+Standard:
+
+Electromagnetic
+
+K220385
+
+Page 3 of 4
+
+510(k) Summary
+
+
+
+IEC 60601-2-57:2011, Medical electrical equipment – Part 2-57: Particular requirements for the
+basic safety and essential performance of non-laser light source equipment intended for therapeutic,
+diagnostic, monitoring and cosmetic/aesthetic use
+
+
+
+IEC 62471:2006 Photobiological safety of lamps and lamp system
+
+
+
+ISO 10993-5: 2009 Biological Evaluation Of Medical Devices -- Part 5: Tests For In Vitro
+Cytotoxicity
+
+
+
+ISO 10993-10: 2010 Biological Evaluation Of Medical Devices - Part 10: Tests For Irritation And
+Skin Sensitization.
+
+7.
+
+Clinical Test Conclusion
+A clinical study was not considered to be needed for this 510(k).
+
+8.
+
+Substantially Equivalent (SE) Comparison
+Table 6-1 General Comparison
+
+Item
+
+Proposed Device
+
+Predicate Device
+
+Remark
+
+Device Name
+
+Intense
+
+IPL Therapy Machine
+
+/
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+SAME
+
+General & Plastic
+
+General & Plastic
+
+SAME
+
+Surgery
+
+Surgery
+
+Class
+
+II
+
+II
+
+SAME
+
+Product Code
+
+ONF
+
+ONF
+
+SAME
+
+Common Name
+
+Powered
+
+Based
+
+Powered Light Based Non-Laser
+
+SAME
+
+Non-Laser Surgical Instrument
+
+Surgical Instrument With Thermal
+
+With Thermal Effect
+
+Effect
+
+The US 500 Intense Pulsed
+
+The VE2000 device is indicated
+
+SIMILAR
+
+Light Equipment is indicated
+
+for use in surgical, aesthetic
+
+The subset
+
+for use in surgical and aesthetic
+
+applications in permanent hair
+
+indication
+
+applications in permanent hair
+
+reduction, reduction of benign
+
+for use for
+
+reduction.
+
+pigmented lesions and benign
+
+hair
+
+reduction is defined as the
+
+vascular lesions.
+
+reduction
+
+long-term, stable reduction in
+
+Permanent hair reduction is
+
+is the same
+
+the number of hairs regrowing
+
+defined as the long-term, stable
+
+when measured at 6, 9, and 12
+
+reduction in the number of hairs
+
+months after the completion of
+
+regrowing when measured at 6, 9,
+
+a treatment regimen.
+
+and 12 months after the
+
+Pulsed
+
+Light
+
+Equipment
+Classification
+Regulation
+Classification Panel
+
+Indication for use
+
+Light
+
+Permanent
+
+hair
+
+completion of a treatment
+regimen.
+
+K220385
+
+Page 4 of 4
+
+510(k) Summary
+
+Table 6-2 Performance Comparison
+ITEM
+
+Proposed Device
+
+Predicate Device
+
+Remark
+
+Light source
+
+Intense pulsed light
+
+Intense pulsed light
+
+SAME
+
+480nm – 1200nm;
+Wavelength
+
+640nm-1200nm,
+
+590nm – 1200nm;
+
+SIMILAR
+
+640nm – 1200nm
+Deliver system
+
+Sapphire
+
+Sapphire
+
+SAME
+
+Energy density
+
+1-40J/cm²
+
+1-50J/cm²
+
+SIMILAR
+
+Pulse Width
+
+1.0-9.9ms, adjustable
+
+1-25ms
+
+SIMILAR
+
+Pulse Interval
+
+1 – 99 ms
+
+1 – 50 ms
+
+SIMILAR
+
+1–4s
+
+1 – 4s
+
+SAME
+
+Pulse Number
+
+1-6
+
+1-6
+
+SAME
+
+Max. Power
+
+2200VA
+
+2200VA
+
+SAME
+
+Spot size
+
+15 x 50mm
+
+12 x 30 mm
+
+SIMILAR
+
+Compressor closed circuit water
+chiller with integrated heat
+exchanger.
+
+SIMILAR
+
+Cooling mode
+
+close‐cycle water cooling+ air
+Contact cooling
+
+Power supply
+
+AC 110/230V 50/60Hz
+
+110V, 50Hz
+
+SIMILAR
+
+Light output
+interval
+
+9.
+
+Conclusion
+The US500 Intense Pulse Light Equipment proposed device in this 510(k) uses the same IPL
+technology that is used in the predicate device K161286. Differences between the proposed device
+and predicate device do not raise new types of questions regarding safety and effectiveness, and
+performance testing demonstrates that the proposed device can be used safely and effectively for the
+proposed indications for use. The proposed US500 Intense Pulse Light Equipment device is
+considered to be substantially equivalent to the predicate K161286 device.
+
+

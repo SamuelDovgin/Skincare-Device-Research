@@ -1,0 +1,739 @@
+June 24, 2024
+Qiaocheng Li (Dongguan) Medical Instruments Co., LTD
+Drug & Medical Consulting Technical Service Group
+China
+
+Da
+
+r use stated in the enclosure)
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.06.10
+
+-
+
+2
+
+.
+
+guidance documents entitled "Deciding When to Su
+(
+g Device" (
+
+).
+
+-products/guidance-
+
+-
+
+-
+
+-reporting-
+
+-products
+-
+
+-
+
+-devices/medical-devicemdr-how-report-medical-device-
+
+-device-reporting-
+
+.
+
+For
+devices/device-advice-comprehensive-assistance
+(
+-and-continuing-education/cdrh-learn).
+
+-emitting products, including
+-
+
+-
+
+advice-comprehensive-
+
+3
+
+-assistance/contact-us-divisionDIC
+
+.gov/medical-devices/device-and-consumer-education-dice
+-
+
+I
+
+DEPARTMENT OF HEAL TH AND HUMAN SERVICES
+Food and Drug Administration
+
+Indications for Use
+
+Form Approved: 0MB No. 0910-0120
+Expiration Date: 07/31/2026
+See PRA Statement below.
+
+===================
+Submission Number (if known)
+K241120
+Device Name
+
+Intense pulsed light therapy apparatus (FDA01,FDA02,FDA03,FDA04S, FDA05S,FDA06,
+FDA06S,FDA07,FDA07S,FDA08,FDA09S,FDA10S)
+Indications for Use (Describe)
+
+Intense pulsed light therapy apparatus is an over-the-counter device intended for removal of
+unwanted body and/or facial hair.
+
+Type of Use (Select one or both, as applicable)
+
+D Prescription Use (Part 21 CFR 801 Subpart D)
+
+IZ] Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+'�n agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid 0MB number."
+
+Qiaocheng Li (Dongguan) Medical Instruments Co., LTD
+
+510(k)s –510(k) Summary
+
+510(k) Summary
+K241120
+"510(k) Summary" as required by 21 CFR Part 807.92.
+I.
+
+Submitter
+Qiaocheng Li (Dongguan) Medical Instruments Co., LTD
+Room 302, Building 5, No.6, Lianhu Baoyuan Road, Tangxia Town, Dongguan City, Guangdong
+Province, China
+Post code: 523712
+Huang Quanhua
+Title: Quality supervisor
+Tel.: +86-18681107912
+Email: 1s4_5ogp59ash7@dingtalk.com
+Date: 2024.05.27
+
+II. Device
+Name of Device: Intense pulsed light therapy apparatus
+Model(s): FDA01, FDA02, FDA03, FDA04S, FDA05S, FDA06, FDA06S, FDA07, FDA07S,
+FDA08, FDA09S, FDA10S
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+
+III. Predicate Device & Reference Device
+Predicate devices:
+Manufacturer
+
+Predicate Device
+510(k) Number
+Intense pulsed light device,
+Model(s): DE01A-B, DE01A-G,
+Zhuzhou
+Goldenhot
+DE01B-B, DE01BG, DE01C-B,
+Medical
+Technology
+K231613
+DE01C-G, DE02A-B, DE02A-G,
+Co., Ltd.
+DE02B-B, DE02B-G, DE02C-B,
+DE02C-G.
+Shenzhen
+Fansizhe
+Intense Pulsed Light (IPL) System,
+Science
+And
+K221569
+model T013C, T015C, T015K
+Technology Co., Ltd
+
+Cleared Date
+
+Jul. 31, 2023
+
+Jun. 30, 2022
+
+Reference device:
+Page 1 of 7
+
+Qiaocheng Li (Dongguan) Medical Instruments Co., LTD
+
+510(k)s –510(k) Summary
+
+Manufacturer
+
+Reference Device
+
+Glan Electronics Co., Ltd.
+
+IV. Device Description
+
+IPL Hair Removal Device, model
+OBT-02
+
+510(k) Number
+
+Cleared Date
+
+K213041
+
+Nov. 18, 2021
+
+Intense pulsed light therapy apparatus is an over-the-counter, home-use, light based device for
+unwanted hair reduction by using Intense Pulsed Light (IPL) technology. The device works below
+the skin’s surface and does not involve any cutting or pulling, reducing hair growth with minimal
+pain.
+The device includes 12 models (Model: FDA01, FDA02, FDA03, FDA04S, FDA05S, FDA06,
+FDA06S, FDA07, FDA07S, FDA08, FDA09S, FDA10S), the model name with an “S” indicates
+that the model has a cooling function. The device is only powered by the external power adapter
+and its IPL emission activation is by a switch or auto light emission, and the device contains a
+skin sensor to detect appropriate skin contact, if the light exit is not in full contact with the skin,
+the device cannot emit the treatment light pulses.
+
+V. Indications for Use
+Intense pulsed light therapy apparatus is an over-the-counter device intended for removal of
+unwanted body and/or facial hair.
+
+VI. Materials
+Component name
+
+Material of Component
+
+Body Contact Category
+
+Contact Duration
+
+Intense
+pulsed
+light
+therapy
+apparatus
+(light
+outlet, enclosure)
+
+ABS+PC+POM
+
+Surface-contacting
+device: Intact skin
+
+Less than 24 hours
+
+VII.Comparison of Technological Characteristics With the Predicate Device
+Intense pulsed light therapy apparatus has the same intended use as the predicate devices. The
+technological characteristics such as wavelength, energy density, spot size and pulse duration, are
+similar to the predicate devices and reference device. Any minor differences between the subject
+device and the listed predicate devices do no raise any issues of safety or efficacy. Performance
+data supports that the device is safe and as effective as the predicate devices and reference device
+for its intended use.
+Intense pulsed light therapy apparatus is compared with the following Predicate Devices in terms
+of intended use, design, specifications and performance:
+
+Page 2 of 7
+
+Qiaocheng Li (Dongguan) Medical Instruments Co., LTD
+
+510(k)s –510(k) Summary
+
+Comparison
+Elements
+510(k) Number
+Trade name
+
+Model
+
+Regulation number
+Product code
+Device
+classification
+
+Indication for use/
+Intended use
+
+Subject Device
+K241120
+Intense pulsed light therapy
+apparatus
+
+Primary Predicate
+Device
+K231613
+Intense pulsed light device
+
+21 CFR 878.4810
+OHT
+
+DE01A-B, DE01A-G,
+DE01B-B, DE01BG,
+DE01C-B, DE01C-G,
+DE02A-B, DE02A-G,
+DE02B-B, DE02B-G,
+DE02C-B, DE02C-G.
+21 CFR 878.4810
+OHT
+
+Class II
+
+Class II
+
+FDA01, FDA02, FDA03,
+FDA06, FDA07, FDA08
+FDA04S, FDA05S, FDA06S,
+FDA07S, FDA09S, FDA10S
+
+Intense pulsed light therapy
+apparatus is an over-thecounter device intended for
+removal of unwanted body
+and/or facial hair.
+
+The Intense pulsed light
+device is an over-thecounter device, intended
+for removal of unwanted
+body and/or facial hair.
+
+Secondary predicate
+device
+
+Reference device
+
+Remark
+
+K221569
+Intense Pulsed Light (IPL)
+System
+
+K213041
+IPL
+Hair
+Device
+
+/
+
+T013C, T015C, T015K
+
+OBT-02
+
+/
+
+21 CFR 878.4810
+OHT, ONF
+
+21 CFR 878.4810
+OHT
+
+Same
+Same
+
+Class II
+
+Class II
+
+Same
+
+The Intense Pulsed Light
+(IPL) System is an over-thecounter device intended for
+the removal of unwanted
+body hair.
+
+The IPL Hair Removal
+Device OBT-02 Version
+is indicated for the
+removal of unwanted
+hair. The device is also
+indicated
+for
+the
+permanent reduction in
+hair regrowth, defined as
+the long-term, stable
+reduction in the number
+of hairs re-growing when
+measured at 6, 9 and 12
+months
+after
+the
+completion
+of
+a
+
+Same
+
+Removal
+
+/
+
+Page 3 of 7
+
+Qiaocheng Li (Dongguan) Medical Instruments Co., LTD
+
+510(k)s –510(k) Summary
+
+Comparison
+Elements
+
+Subject Device
+
+Primary Predicate
+Device
+
+Secondary predicate
+device
+
+Reference device
+
+Remark
+
+treatment regime. The
+device is used for adults.
+Prescription
+OTC
+Environment
+Use
+Design
+
+or
+
+OTC
+
+OTC
+
+OTC
+
+OTC
+
+Same
+
+Home use
+
+Home use
+
+Home use
+
+Home use
+
+Same
+
+Hand-hold
+
+Hand-hold
+
+Hand-hold
+
+Same
+
+Power source
+
+An external power supply
+
+An external power adapter
+
+An external power adapter
+
+Unknown
+Supplied by external
+adapter
+
+Power supply
+
+Input: 100-240V~, 50/60Hz
+
+Similar
+
+Not required
+Intense Pulsed Light
+Xenon lamp
+510-1200nm (±15nm)
+FDA01, FDA02, FDA03,
+FDA04S, FDA06, FDA06S,
+FDA07, FDA07S, FDA08,
+FDA10S: 1.2~2.64J/cm²
+
+Input:
+100-240V
+50/60Hz，1.5A Max.
+Unknown
+Intense Pulsed Light
+Xenon Arc Flashlamp
+510nm~1200nm
+
+100-240 V AC
+
+Sterilization
+Light source
+Energy medium
+Wavelength range
+
+Input: AC 100 ～ 240V ,
+50/60 Hz, 1.0A
+Not required
+Intense Pulsed Light
+Xenon Flashlamp
+510nm~1200nm
+
+Not required
+Intense Pulsed Light
+Xenon Arc Flashlamp
+510-1100nm
+
+Same
+Same
+Same
+Same
+
+1.2~4.1 J/cm2
+
+1.17~4.69J/cm² for T015C
+
+1.5-4.0J/cm2
+
+Similar
+
+3.9 cm2
+Body
+mode:
+(±2.0)ms
+Face
+mode:
+(±2.0)ms
+Bikini mode:
+
+3.5cm² for T015C
+
+3.0cm2
+
+Similar
+
+4~12ms for T015C
+
+3ms
+
+Similar
+
+Energy density
+
+of
+
+~
+
+Same
+
+FDA05S, FDA09S:
+Spot size
+
+Pulse duration
+
+1.3~3.5J/cm²
+3.0cm²
+
+3.5~4.5ms (±0.9ms)
+
+7.0~9.0
+8.0~10.0
+9.0~11.0
+Page 4 of 7
+
+Qiaocheng Li (Dongguan) Medical Instruments Co., LTD
+
+510(k)s –510(k) Summary
+
+Comparison
+Elements
+
+Subject Device
+
+Primary Predicate
+Device
+
+Secondary predicate
+device
+
+Reference device
+
+Pulsing control
+Output
+intensity
+level
+
+Finger switch
+
+(±2.0)ms
+Finger switch
+
+5 levels
+
+5 levels
+
+Delivery device
+
+Direct illumination to tissue
+
+Direct
+Tissue
+
+Software/
+Firmware/
+Microprocessor
+Control?
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+ISO 10993-23
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+ISO 10993-23
+
+ANSI AAMI ES60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+IEC 62471
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-57
+Unknown
+
+ISO 10993-5
+ISO 10993-10
+
+ISO 10993-5
+ISO 10993-10
+
+Electrical safety
+Eye safety
+Biocompatibility
+
+Illumination
+
+to
+
+Remark
+
+Finger switch
+
+Finger switch
+
+Same
+
+Unknown
+
+5 Levels
+
+Same
+
+Direct illumination
+to tissue
+
+Same
+
+Same
+
+Direct
+Tissue
+
+Illumination
+
+to
+
+Same
+Same
+Same
+
+Page 5 of 7
+
+Qiaocheng Li (Dongguan) Medical Instruments Co., LTD
+
+510(k)s –510(k) Summary
+
+VIII. Performance Data
+The following performance data were provided in support of the substantial equivalence
+determination.
+1) Biocompatibility Testing
+The biocompatibility evaluation for the body-contacting components of the Intense Pulsed Light
+Therapy Apparatus was conducted in accordance with the “Use of International Standard ISO
+10993-1, 'Biological Evaluation of Medical Devices –Part 1: Evaluation and Testing Within a
+Risk Management Process, Document Issued on September 4, 2020”, as recognized by FDA. The
+following testing was performed to, and passed, including:
+ ISO 10993-5: 2009, Biological evaluation of medical devices –Par t 5: Tests for in vitro
+cytotoxicity
+ ISO 10993-10: 2021, Biological evaluation of medical devices - Part 10: Tests for skin
+sensitization
+ ISO 10993-23: 2021, Biological evaluation of medical devices - Part 23: Tests for irritation
+2) Electrical Safety and EMC
+Electrical safety and EMC testing was performed to, and passed, as per the following standards:
+ IEC 60601-1 Medical electrical equipment - Part 1: General requirements for basic safety and
+essential performance
+ IEC 60601-1-2 Medical electrical equipment - Part 1-2: General requirements for basic safety
+and essential performance - Collateral Standard: Electromagnetic disturbances Requirements and tests
+ IEC 60601-1-11 Medical Electrical Equipment –Part 1-11: General Requirements for Basic
+Safety and Essential Performance –Collateral Standard: Requirements for Medical Electrical
+Equipment and Medical Electrical Systems Used in the Home Healthcare Environment
+ IEC 60601-2-83 Medical electrical equipment - Part 2-83: Particular requirements for the basic
+safety and essential performance of home light therapy equipment
+3) Eye Safety
+ IEC 62471 Photobiological safety of lamps and lamp systems
+4) Software Verification and Validation
+Software documentation consistent with moderate level of concern was submitted in this 510(k).
+System validation testing presented in this 510(k) demonstrated that all software requirement
+specifications are met and all software hazards have been mitigated to acceptable risk levels.
+5) Usability
+The product usability has been evaluated according to the following FDA guidance:
+ Applying Human Factors and Usability Engineering to Medical Devices, issued on
+FEBRUARY 2016
+
+Page 6 of 7
+
+Qiaocheng Li (Dongguan) Medical Instruments Co., LTD
+
+510(k)s –510(k) Summary
+
+Summary
+Based on the above performance as documented in this application, the Intense Pulsed Light
+Therapy Apparatus was found to have a safety and effectiveness profile that is similar to the
+predicate devices.
+IX. Conclusions
+Based on the above analysis and non-clinical tests performed, it can be concluded that the subject
+device is as safe, as effective, and performs as well as the legally marketed predicate devices.
+
+Page 7 of 7
+
+

@@ -1,0 +1,240 @@
+510(k) Report for IPL system - Section 3 510(k) Surtunary
+Report SN: A2009-05-06
+
+Section 3 510(k) Summary
+
+NOV
+
+As required by 807.97
+The assigned 5 10(k) Number is
+Sponsor
+
+k
+
+68
+
+0 4r
+
+'
+
+Shenzhen GSD Tech. Co., Ltd
+703,Building A, Futian TianAn Hi-tech,
+Venture Park, Shenzhen; Guang Dong, China, 518040
+Ms. Qiu Xiaoming
+Tel:+86-755-83433154
+Fax: +86-755-83432881
+Email: jwygsd@126.com
+
+Submission
+Correspondent
+
+Ms. Diana Hong / Mr. Tarzan Wang
+Shanghai Mid-Link Business Consulting Co., Ltd
+Sute 8D, No.19, Lane 999, Zhongshan No.2 Road(S)
+Shanghai, 200030, China
+Tel: +86-21-64264467
+Fax: 240-238-7587
+Email: diana.hong(Thmid-link.net
+
+Proposed Product
+Trade Name
+Model
+Product Code:
+Regulation Number:
+Device Class:
+
+GSD Intense Pulsed Light System
+GP666C4 & GP666C
+GEX
+21 CFR 878.4810
+Class II
+
+Submission Purpose:
+
+New Device
+
+Predicate Device:
+
+Angelite Family of Intense Pulsed Light System (K083915)
+SkinStation System(K030897)
+Radiancy Mistral Device(K072331)
+
+Device Description
+
+The GSD Intense Pulsed Light System (GP666C4 and
+GP666C) is an intense pulsed light system which delivers
+intense pulsed light at a wavelength ranging from
+400nm-1200nm. Intense Pulsed Light (IPL) systems work on
+the principles of selective photothermolysis. That is, causing
+3-1
+
+510(k) Report for [PL system -Section 3 510(k) S~uimarv
+Report SN: A2009-05-06
+
+(
+
+thermal damage to target chromophores by using light of
+appropriate wavelength in pulses that exceeds the
+chromophores' thermal relaxation time but sparing normal
+skin by limiting the pulse width below the thermal relaxation
+time for skin.
+Test Conclusion
+
+The GSD Intense Pulsed Light system is designed, tested and
+will be manufactured in accordance with both mandatory and
+voluntary standards, including:
+IEC 60601-1, Medical Electrical Equipment - Part 1: General
+Requirements for Safety, 1988; Amendment 1, 1991-11,
+Amendment 2, 1995.
+IEC 60601-1-2, Medical Electrical Equipment - Part 1-2:
+General Requirements for Safety - Collateral standard:
+Electromagnetic Compatibility - Requirements and Tests
+(Edition 2: 2001 with Amendment 1: 2004; Edition 2.1
+(Edition 2: 2001 consolidated with Amendment 1:2004)
+
+SE Determination
+
+The proposed device is Substantially Equivalent (SE) to the
+predicate device which is US legally market device.
+Therefore, the subject device is determined as safe and
+effectiveness.
+
+Intended
+Use/Indication for Use
+
+The GSD Intense Pulsed Light System (inclusive of the
+handpieces used to deliver pulsed-light energy) is indicated
+for use in surgical, asthetic and cosmetic applications in the
+treatment of acne, treatment of benign pigmented lesions,
+hair removal, treatment of vascular lesions as following:
+1. Intense Pulsed Light energy wavelengths from
+500-1200nm are indicated for the treatment of
+pigmented lesions, hair removal, and treatment of
+vascular lesions.
+2. Intense Pulsed Light energy wavelengths from
+400nm-1200nm are indicated for the treatment of acne.
+3. Intense Pulsed Light energy wavelengths from
+750nm-1200nm are indicated for the treatment of
+benign pigmented lesions, hair removal, and treatment
+of vascular lesions.
+3-2
+
+DEPARTMENT OF HEALTH & HUMAN SERVICES
+
+Public Health Service
+Food and Drug Administration
+10903 New Hampshire Avenue
+Document Control Room W-066-0609
+Silver Spring, MD 20993-0002
+
+Shenzhen GSD Tech Co., Ltd.
+
+tN0V ] 6 2009
+
+% Shanghai Mid-Link
+Business Consulting Co., Ltd.
+Ms. Diana Hong, General Manager
+Suite 8D, No. 19, Lane 999
+Zhongshan No. 2 Road(S)
+Shanghai, 200030, China
+Re: K091664
+Trade/Device Name: GSD Intense Pulsed Light System
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser surgical instrument for use in general and plastic surgery
+and in dermatology
+Regulatory Class: Class 11
+Product Code: ONF
+Dated: November 5 2009
+Received: November 9, 2009
+Dear Ms. Hong:
+We have reviewed your Section 510(k) premarket notification of intent to market the device
+referenced above and have determined the device is substantially equivalent (for the indications
+for use stated in the enclosure) to legally marketed predicate devices marketed in interstate
+commerce prior to May 28, 1976, the enactment date of the Medical Device Amendments, or to
+devices that have been reclassified in accordance with the provisions of the Federal Food, Drug,
+and Cosmetic Act (Act) that do not require approval of a premarket approval application (PMA).
+You may, therefore, market the device, subject to the general controls provisions of the Act. The
+general controls provisions of the Act include requirements for annual registration, listing of
+devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it
+may be subject to additional controls. Existing major regulations affecting your device can be
+found in the Code of Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may
+publish further announcements concerning your device in the Federal Register.
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean
+that FDA has made a determination that your device complies with other requirements of the Act
+or any Federal statutes and regulations administered by other Federal agencies. You must
+
+Page 2 - Ms. Diana Hong
+comply with all the Act's requirements, including, but not limited to: registration and listing (21
+CFR Part 807); labeling (21 CFR Part 801); medical device reporting (reporting of medical
+device-related adverse events) (21 CFR 803); good manufacturing practice requirements as set
+forth in the quality systems (QS) regulation (21 CFR Part 820); and if applicable, the electronic
+product radiation control provisions (Sections 531-542 of the Act); 21 CFR 1000-1050.
+If you desire specific advice for your device on our labeling regulation (21 CFR Part 801), please
+go to http://www.fda.gov/AboutFDA/CentersOffices/CDRH/CDRHOffices/ucmI 15809.htm for
+the Center for Devices and Radiological Health's (CDRH's) Office of Compliance. Also, please
+note the regulation entitled, "Misbranding by reference to premarket notification" (21CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21
+CFR Part 803), please go to http://www.fda.gov/cdrh/mdr/ for the CDRH's Office of
+Surveillance and Biometrics/Division of Postmarket Surveillance.
+You may obtain other general information on your responsibilities under the Act from the
+Division of Small Manufacturers, International and Consumer Assistance at its toll-free number
+(800) 638-2041 or (301) 796-7100 or at its Internet address
+http://www.fda. gov/cdrh/industrv/support/index.html.
+Sincerely yours,
+
+Mark N. Melkerson
+Director
+Division of Surgical, Orthopedic
+and Restorative Devices
+Office of Device Evaluation
+Center for Devices and
+Radiological Health
+Enclosure
+
+Indication For Use
+510(k) Number (if known):
+Device Name:
+
+Pending
+
+GSD Intense Pulsed Light System
+
+Indications for Use:
+The GSD Intense Pulsed Light System (inclusive of the handpieces used to deliver
+pulsed-light energy) is indicated for use in surgical, asthetic and cosmetic applications
+in the treatment of acne , treatment of benign pigmented lesions, hair removal,
+treatment of vascular lesions as following:
+1. Intense Pulsed Light energy wavelengths from 500-1200nm are indicated for the
+treatment of pigmented lesions, hair removal, and treatment of vascular lesions.
+2. Intense Pulsed Light energy wavelengths from 400nm-1200nm are indicated for
+the treatment of acne.
+3.. Intense Pulsed Light energy wavelengths from 750nm-1200nm are indicated for
+the treatment of pigmented lesions, hair removal, and treatment of vascular lesions
+
+Prescription Use
+I
+(Part 21 CFR 801 Subpart D)
+
+AND/OR
+
+Over-The-Counter Use
+(21 CFR 801 Subpart C)
+
+(PLEASE DO NOT WRITE BELOW THIS LINE-CONTINUE ON ANOTHER PAGE OF NEEDED)
+
+Concurrence of CDRH, Office of Device Evaluation (ODE)
+
+(Divsion Sign-Off)
+Division of Surgical, Orthopedic,
+and Restorative Devices
+Page 1 of
+
+5 10(k) Numbrber.
+
+]J
+
+1
+
+

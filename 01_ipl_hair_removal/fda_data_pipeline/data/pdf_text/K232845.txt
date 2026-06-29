@@ -1,0 +1,341 @@
+November 14, 2023
+
+Shenzhen Siken 3D Technology Development Co., Ltd.
+℅ Rain Yip
+Registration Engineer
+Feiying Drug and Medical Consulting Technical Service Group
+Rm 2401 ZhenYe International Business Center, No. 3101-90,
+Qianhai Road, Nanshan District
+Shenzhen, Guangdong 518000
+China
+Re: K232845
+Trade/Device Name: IPL Cooling Hair Removal Device
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: September 6, 2023
+Received: September 14, 2023
+Dear Rain Yip:
+We have reviewed your section 510(k) premarket notification of intent to market the device referenced above
+and have determined the device is substantially equivalent (for the indications for use stated in the enclosure)
+to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment
+date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the
+provisions of the Federal Food, Drug, and Cosmetic Act (the Act) that do not require approval of a premarket
+approval application (PMA). You may, therefore, market the device, subject to the general controls
+provisions of the Act. Although this letter refers to your product as a device, please be aware that some
+cleared products may instead be combination products. The 510(k) Premarket Notification Database
+available at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.06.05
+
+K232845 - Rain Yip
+
+Page 2
+
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Additional information about changes that may require a new premarket notification are provided in the FDA
+guidance documents entitled "Deciding When to Submit a 510(k) for a Change to an Existing Device"
+(https://www.fda.gov/media/99812/download) and "Deciding When to Submit a 510(k) for a Software
+Change to an Existing Device" (https://www.fda.gov/media/99785/download).
+Your device is also subject to, among other requirements, the Quality System (QS) regulation (21 CFR Part
+820), which includes, but is not limited to, 21 CFR 820.30, Design controls; 21 CFR 820.90, Nonconforming
+product; and 21 CFR 820.100, Corrective and preventive action. Please note that regardless of whether a
+change requires premarket review, the QS regulation requires device manufacturers to review and approve
+changes to device design and production (21 CFR 820.30 and 21 CFR 820.70) and document changes and
+approvals in the device master record (21 CFR 820.181).
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR Part 803) for
+devices or postmarketing safety reporting (21 CFR Part 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR Part 4, Subpart
+A) for combination products; and, if applicable, the electronic product radiation control provisions (Sections
+531-542 of the Act); 21 CFR Parts 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+
+K232845 - Rain Yip
+
+Page 3
+
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+Tanisha L. Hithe
+
+Tanisha L. -S
+Hithe -S 2023.11.14
+08:21:23 -05'00'
+
+Tanisha Hithe
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2023
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K232845
+
+Device Name
+
+IPL Cooling Hair Removal Device, model: SKB-1808, SKB-2308, SKB-2128N, SKB-2188N
+
+Indications for Use (Describe)
+
+IPL Cooling Hair Removal Device is an over-the-counter device intended for removal of unwanted body hair.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (6/20)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+Shenzhen Siken 3D Technology Development Co., Ltd.
+510(k)s –Section 8. 510(k) Summary
+
+510(k) Summary
+"510(k) Summary" as required by 21 CFR Part 807.92.
+K232845
+Date: 2023-10-12
+I.
+
+Submitter
+Shenzhen Siken 3D Technology Development Co., Ltd.
+4th Building,No.33 Left East Avenue,Songgang, Bao'an District, Shenzhen, Guangdong, China
+Post code: 518105
+Tel.: +86 755 2769 7523
+Jingquan Liu
+R&D director
+Tel.: +86 150 1255 5680
+Email: liudirector@siken3d.com
+
+II. Device
+Name of Device: IPL Cooling Hair Removal Device
+Model(s): SKB-1808, SKB-2308, SKB-2128N, SKB-2188N
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Classification Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+
+III. Predicate Device
+Predicate device:
+510(k) number: K230097
+Manufacturer: Shenzhen BSX Technology Electronics Co., Ltd.
+Trade name: IPL Hair Removal Device, BSXT101
+Product code: OHT
+Approval date: April 6, 2023
+
+IV. Device Description
+The subject device IPL Cooling Hair Removal Device is a personal, light-based, hair reduction
+device intended to be sold over-the-counter directly to the end user. The device provides hair
+reduction using Intense Pulsed Light (IPL) technology, and it works below the skin's surface and
+does not involve any cutting or pulling, reducing hair growth with minimal pain.
+
+1/4
+
+Shenzhen Siken 3D Technology Development Co., Ltd.
+510(k)s –Section 8. 510(k) Summary
+
+The IPL Cooling Hair Removal Device is only powered by the external power adapter and its IPL
+emission activation is by finger switch. The device contains a Xenon lamp and its built-in skin
+sensor to detect appropriate skin contact. If the device is not properly and fully applied to the
+treated skin, the device will not emit the light pulse. Also, the subject device is equipped with
+cooling function to cool down the skin temperature and give a user a better experience, but this
+function has no other therapeutic use.
+There are SKB-1808, SKB-2308, SKB-2128N, and SKB-2188N four models in this application.
+Their work principle, function, intended use, structure, and composition are the same, with
+differences being product appearance, and wavelength range, also their energy outputs are slight
+differences, but these parameters are within the predicate device.
+
+V. Indications for Use
+IPL Cooling Hair Removal Device is an over-the-counter device intended for removal of
+unwanted body hair.
+
+VI. Comparison of Technological Characteristics With the Predicate Device
+The subject device IPL Cooling Hair Removal Device has the same intended use, mode of action
+and similar operational characteristics as the predicate device. Any minor differences between the
+subject device and the listed predicate device do no raise any issues of safety or efficacy.
+Performance data supports that the device is safe and as effective as the predicate device for its
+intended use. Therefore, the subject device may be found substantially equivalent to its predicate
+device.
+The subject device is compared with the following Predicate Device in terms of intended use,
+design, specifications, and performance:
+Comparison
+Subject Device
+Predicate device K230097
+Elements
+K Number
+Pending
+K230097
+IPL Cooling Hair Removal
+Trade name
+Device, SKB-1808, SKB-2308, IPL Hair Removal Device,
+BSXT101
+SKB-2128N, SKB-2188N
+SKB-1808: 590~1200nm
+SKB-2308: 530~1200nm
+470-1200nm
+Wavelength range
+SKB-2128N: 550~1200nm
+SKB-2188N: 550~1200nm
+Energy medium
+Xenon Arc Flashlamp
+Xenon Arc Flashlamp
+SKB-1808: Max. 4.8J/cm² (range
+in 2.1~4.8J/cm²)
+SKB-2308: Max. 5.2J/cm² (range
+in 1.3~5.2J/cm²)
+Energy density
+SKB-2128N: Max. 4.4J/cm² (range Max.5.0J/cm²
+in 1.6~4.4J/cm²)
+SKB-2188N: Max. 4.4J/cm² (range
+in 1.6~4.4J/cm²)
+
+2/4
+
+Shenzhen Siken 3D Technology Development Co., Ltd.
+510(k)s –Section 8. 510(k) Summary
+
+Comparison
+Elements
+Spot size
+Pulse duration
+Pulsing control
+Delivery device
+
+Subject Device
+
+3cm²
+10±5ms
+Finger switch
+Direct illumination to tissue
+IPL Cooling Hair Removal Device
+Indication
+for is an over-the-counter device
+use/Intended use
+intended for removal of unwanted
+body hair.
+Location for use
+OTC
+
+Predicate device K230097
+(3±0.5)cm²
+4~10ms
+Finger switch
+Direct illumination to tissue
+The IPL Hair Removal Device is
+an
+over-the-counter
+device
+intended for removal of unwanted
+body and/ or facial hair.
+OTC
+
+VII.Performance Data
+The following performance data were provided in support of the substantial equivalence
+determination.
+1) Biocompatibility Safety
+The materials of the patient-directly contacting components of the subject device is performed the
+biocompatibility evaluation in accordance with the "Use of International Standard ISO 10993-1,
+'Biological Evaluation of Medical Devices –Part 1: Evaluation and Testing Within a Risk
+Management Process, Document issued on Sep. 4, 2020", as recognized by FDA. The battery of
+testing was performed to, and passed, including:
+ ISO 10993-5 Biological Evaluation of Medical Devices –Part 5: Tests for In Vitro
+Cytotoxicity
+ ISO 10993-10 Biological Evaluation of Medical Devices –Part 10: Tests for Irritation and Skin
+Sensitization
+2) Electrical Safety and EMC Safety
+Electrical safety and Eye safety testing was performed to, and passed, the following standards:
+ IEC 60601-1-2 Medical electrical equipment –Part 1-2: General requirements for basic safety
+and essential performance –Collateral standard: electromagnetic compatibility
+ IEC 60601-1 Medical electrical equipment –Part 1: General requirements for basic safety and
+essential performance
+ IEC 60601-1-11 Medical Electrical Equipment –Part 1: General Requirements for Basic
+Safety and Essential Performance –Collateral Standard: Requirements for Medical Electrical
+Equipment and Medical Electrical Systems Used in the Home Healthcare Environment
+ IEC 60601-2-83 Medical Electrical Equipment - Part 2-83: Particular Requirements For The
+Basic Safety And Essential Performance Of Home Light Therapy Equipment
+3) Eye Safety
+ IEC 62471 Photobiological safety of lamps and lamp systems
+4) Software Verification and Validation
+Software documentation consistent with moderate level of concern was submitted in this 510(k).
+System validation testing presented in this 510(k) demonstrated that all software requirement
+specifications are met and all software hazards have been mitigated to acceptable risk levels.
+Summary
+
+3/4
+
+Shenzhen Siken 3D Technology Development Co., Ltd.
+510(k)s –Section 8. 510(k) Summary
+
+Based on the above performance as documented in this application, the subject device was found
+to have a safety and effectiveness profile that is similar to the predicate device.
+VIII.
+
+Conclusions
+
+In accordance with the Federal Food, Drug and Cosmetic Act, 21 CFR Part 807 and based on the
+comparison of intended use, design, materials and performance, the subject device IPL Cooling
+Hair Removal Device is to be concluded substantial equivalent to its predicate device.
+
+4/4
+
+

@@ -1,0 +1,468 @@
+Traditional Pre-market Notification KO24093
+Additional Information
+March 13,2003
+
+JUN 1 9 2003
+
+510(k) Summary
+
+Table 1- Administrative Information
+Category:
+-
+
+Sponsor:
+Correspondent:
+Contact Numbers:
+Device Common Name
+Device Proprietary Name
+Device Classification Name
+Device Classification
+Predicate Devices
+Predicate Device
+Manufacturer(s)
+Predicate Device Reference(s)
+Predicate Device Classification
+Name(s)
+Predicate Device
+Classification(s)
+
+Date Summary Was Prepared:
+
+Comments
+
+Lumenis, Inc.
+2400 Condensa Street
+Santa Clara, CA 95051
+Andrea L. Ruth, RAC
+Senior Associate 11, Regulatory Affairs
+408.764.3235
+
+Laser Powered Surgical Instrument (and Accessories)
+Lumenis Family of Intense Pulsed-Light (IPL) and IPL/Nd:YAG
+Laser Systems
+Laser Surgical Instrument for Use in General and planstic
+Surqery and in Dermatology
+21 CFR 5 878.4810
+IPL Quantum Family; VascuLiqht Family; Lyra'"; GentleYAGTM
+Lumenis; Lumenis; Laserscope; Candela
+K020839; K020839; K020021; KO22951
+
+Laser Surgical Instrument for Use in General and Plastic Surgery
+and in Dermatology
+21 CFR 5878.4810
+
+March 13,2003.
+
+Description of the Device: Lumenis Family of Intense Pulsed-Light (IPL) and
+IPL/Nd:YAG laser systems are comprised of the following main components:
+
+* A light/laser system console (including software and control electronics);
+
+* A control and display panel; and
+* One or more attached hand-piecets), which may have integrated skin cooling
+components.
+Intended Use: The Lumenis Family of Intense Pulsed-Light (IPL) and IPL/Nd:YAG
+laser systems (and the delivery accessories that are used with them to deliver light
+and/or laser energy) are intended for use in surgical, aesthetic and cosmetic
+applications requiring selective photothermolysis (photocoagulation or coagulation)
+and hemostasis of soft tissue in the medical specialties of general and plastic surgery,
+and dermatology.
+
+LUMENIS,INC.
+
+MODIFIED
+rPL A M ) IPWD:YAGCOMBlNATION PRODUCTFAMILIES
+
+5
+
+Traditional Pre-market Notification KO24093
+Additional Information
+March 13,2003
+
+Table 2 - Comparison to Predicate Devices:
+Predicate
+Device
+
+510(k)
+Reference
+
+This device
+
+Lumenis VascuLight
+or IPL Quantum
+Families
+
+Laserscope LyraTM
+
+Candela
+GentleYAG
+
+KO20839
+
+KO20021
+
+KO22951
+
+Photocoagulation,
+photothermolysis and
+hemostsis
+
+Treatment of facial
+wrinkles
+
+Treatment of
+facial wrinkles
+
+Same
+
+Nd:YAG
+
+Nd:YAG
+
+Same
+
+Same
+
+Same
+
+Same
+Same
+Same
+
+1064 nm
+Up to 250 J/cm2
+
+1064 nm
+10 to 70 J/cm’
+
+10 to SO ms
+1-10 pps
+3mm, 5mm,
+lOmm
+Fiber w/cooling
+aiming beam
+sapphire crystal
+115/230V
+
+3 ms
+1 Hz
+
+Current
+
+su brnission
+Photocoagulation,
+photothermolysis
+and hemostsis
+
+Pulse
+Pulse Rate
+
+See indications for
+use statement
+IPL and
+I PL/Nd :YAG
+combination
+Coherent and noncoherent light
+515 - 1200 nm
+1064nm
+Up to 150 J/crn2
+2 to 16 ms
+(to 48 ms triple
+pulsed)
+0.33 Hz
+
+Spot Size
+
+6mm
+
+Intended Use
+Device
+Description
+Output Energy
+Used
+Energy
+Confiquration
+Fluence
+
+Same
+Same
+Same
+
+Beam Delivery
+Electricity
+Simultaneous
+Delivery?
+Single Use?
+Sterilized?
+Manufacturer
+Device
+Classification
+
+Cooling Handpiece
+115/230V
+
+Same
+
+12 mm
+Lens-coupled
+optical fiber with
+hand-piece
+230V
+
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+Lumenis
+Lumenis
+Laserscope
+Candela
+11; 21 CFR 6
+11; 21 CFR 5
+11; 21 CFR 6
+11; 21 CFR §
+878.4810, GEX
+878.4810, GEX
+878.4810, GEX
+878.4810, GEX
+Summary of the Clinical Data: Clinical data was provided to demonstrate that the
+Lumenis Family of IPL and IPL/Nd:YAG laser (1064 nm) systems are safe and
+effective, when indicated in specific applications in the medical specialties of general
+and plastic surgery, and dermatology.
+
+Conclusion: The Lumenis Family of Intense Pulsed-Light (IPL) and IPL/Nd:YAG
+laser systems were shown to be substantially equivalent to the predicate devices
+cleared in K020839. The Lumenis Family of Intense Pulsed-Light (IPL) and
+IPL/Nd:YAG laser systems has identical intended use, as well as functional and
+design features as the currently marketed predicate devices. The only change is
+expansion of labeled indications for use, which fall within the scope of the intended
+use.
+
+LUMENIS,1NC.
+MODlFIED fPL AND IPWD:YAG COMBINATlON PRODUCT FAMILIES
+
+6
+
+48
+
+@“’m*,b
+
+{
+‘b
+
+DEPARTMENT OF HEALTH& HUMAN SERVICES
+
+x+l.m
+JUN 1 9 2003
+
+Public Health Service
+
+Food and Drug Administration
+9200 Corporate Boulevard
+Rockville MD 20850
+
+Ms. Andrea L. Ruth, RAC
+Regulatory Affairs
+Lumenis, Inc.
+2400 Condensa Street
+Santa Clara, California 9505 1
+Re: KO24093
+Trademevice Name: Lumenis Family of Intense Pulsed-Light (IPL)
+and IPL/Nd:YAG Laser Systems
+Regulation Number: 2 1 CFR 878.4810
+Regulation Name: Laser surgical instrument for use in general
+and plastic surgery and in dermatology
+Regulatory Class: I1
+Product Code: GEX
+Dated: March 13,2003
+Received: March 2 1, 2003
+Dear Ms. Ruth:
+We have reviewed your Section 5 1O(k) premarket notification of intent to market the device
+referenced above and have determined the device is substantially equivalent (for the indications
+for use stated in the enclosure) to legally marketed predicate devices marketed in interstate
+commerce prior to May 28, 1976, the enactment date of the Medical Device Amendments, or to
+devices that have been reclassified in accordance with the provisions of the Federal Food, Drug,
+and Cosmetic Act (Act) that do not require approval of a premarket approval application (PMA).
+You may, therefore, market the device, subject to the general controls provisions of the Act. The
+general controls provisions of the Act include requirements for annual registration, listing of
+devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration.
+If your device is classified (see above) into either class I1 (Special Controls) or class 111(PMA), it
+may be subject to such additional controls. Existing major regulations affecting your device can
+be found in the Code of Federal Regulations, Title 2 1, Parts 800 to 898. In addition, FDA may
+publish further announcements concerning your device in the Federal Register.
+Please be advised that FDA’s issuance of a substantial equivalence determination does not mean
+that FDA has made a determination that your device complies with other requirements of the Act
+or any Federal statutes and regulations administered by other Federal agencies. You must
+comply with all the Act’s requirements, including, but not limited to: registration and listing (21
+CFR Part 807); labeling (2 1 CFR Part 80 1); good manufacturing practice requirements as set
+forth in the quality systems (QS) regulation (2 1 CFR Part 820); and if applicable, the electronic
+product radiation control provisions (Sections 53 1-542 of the Act); 21 CFR 1000-1050.
+
+Page 2 - Ms. Andrea L. Ruth, RAC
+
+This letter will allow you to begin marketing your device as described in your Section 5 1O(k)
+premarket notification. The FDA finding of substantial equivalence of your device to a legally
+marketed predicate device results in a classification for your device and thus, permits your device
+to proceed to the market.
+
+If you desire specific advice for your device on our labeling regulation (2 1 CFR Part 80 l), please
+contact the Office of Compliance at (301) 594-4659. Additionally, for questions on the
+promotion and advertising of your device, please contact the Office of Compliance at (301) 5944639. Also, please note the regulation entitled, “Misbranding by reference to premarket
+notification” (21CFR Part 807.97) you may obtain. Other general information on your
+responsibilities under the Act may be obtained from the Division of Small Manufacturers,
+International and Consumer Assistance at its toll-free number (800) 638-2041 or (301) 443-6597
+or at its Internet address httd/www.fda.gov/cdrh/dsma/dsmamain.html
+Sincerely yours,
+
+WCelia M. Witten, Ph.D., M.D.
+Director
+Division of General, Restorative
+and Neurological Devices
+Office of Device Evaluation
+Center for Devices and
+Radiological Health
+Enclosure
+
+Traditional Pre-market Notification KO24093
+Additional Information
+March 13,2003
+
+Attachment 2
+Indications for Use Statement as Requested by FDA
+
+SlO(k) Number (if Known): KO24093
+Device Name:
+
+Lumenis Family of Intense Pulsed-Light (IPL) Systems
+Combination IPL / Nd:YAG Svstems and the Real Time Chiller
+
+&
+
+Indications For Use:
+The Lumenis Family of Intense Pulsed-Light (IPL) systems and combination
+IPL/Nd:YAG laser systems (and the delivery accessories that are used with them to
+deliver light and/or laser energy) are indicated for use in surgical, aesthetic and
+cosmetic applications requiring selective photothermolysis (photocoagulation or
+coagulation) $d hemostasis of soft tissue in the medical specialties of general and
+plastic surgery, and dermatology as follows:
+
+Intense Pulsed Light Energy/Wavelengths (515 - 1200 nm):
+
+* The treatment of tattoos and benign pigmented epidermal and cutaneous lesions
+including warts, scars and striae;
+
+* The treatment of benign cutaneous vascular lesions, including port wine stains,
+hemangiomas, facial, truncal and leg telangiectasias, rosacea, melasma, angiomas
+and spider angiomas, poikiloderma of Civatte, leg veins and venous
+malformations;
+
+* The removal of unwanted hair from all skin types, and to effect stable long-term,
+or permanent*, hair reduction in skin types I-VI through selective targeting of
+melanin in hair follicles;
+
+Permanent hair reduction is defined as a long-term stable reduction in the number of hairs regrowing
+after a treatment regimen.
+
+-
+
+Continued on Following Page***
+
+(PLEASE DO NOT WRITE BELOW THIS LINE - CONTINUE ON ANOTHER PAGE IF NEEDED)
+
+Concurrence of CDRH, Office of Device Evaluation (ODE)
+
+Prescription Use
+(Per 21 CFR 801.109)
+
+6
+
+OR
+
+Over-The-Counter Use
+(Optional Format 1-2-96)
+
+LUMENIS.INC.
+MfJOlFrED IPL AKV IP~JNLxYAGCOMBlNATlON PROr?UCr FAMILIES
+
+7
+
+Traditional Re-market Notification KO24093
+Additional Information
+March 13,2003
+
+510(k) Number (if Known):
+Device Name:
+
+KO24093
+
+Lumenis Family of Intense Pulsed-Light
+(IPL) Systems
+Combination IPL / Nd:YAG Systems and the Real Time Chiller
+
+&
+
+***Continued from Previous Page***
+
+Indications For Use:
+
+Nd:YAG Laser Wavelength (1064 nm):
+
+*
+
+The coagulation and hemostasis of vascular lesions and soft tissue, including:
+
+* Treatment and clearance of superficial and deep telangiectasias
+(venulectasias) and reticular veins (0.1 - 4.0 mm diameter) of the leg;
+
+* The non-ablative treatment of facial wrinkles.
+The Real Time Chiller is indicated for use in cooling the epidermis at the treatment site
+prior to, during and after light or laser treatment in general surgery, plastic surgery and
+dermatology to:
+Reduce pain during and/or associated with light or laser treatment (via partial
+anesthesia from cooling);
+Reduce discomfort during and/or associated with light or laser treatment;
+Minimize thermal injury, including thermal necrosis, to non-target skin and skin
+structures during and/or associated with light or laser treatment, thus reducing
+possible complications such as scabbing, scarring, hyper- and/or
+hypo pigmentation;
+Allow the use of higher light or laser fluences for light or laser treatments (such
+as for hair removal and the treatment of vascular or pigmented lesions); and
+Reduce potential side effects of light or laser treatments (such as for hair removal
+and the treatment of vascular or pigmented lesions).
+(PLEASE DO NOT WRITE BELOW THIS LINE - CONTINUE ON ANOTHER PAGE IF NEEDED)
+
+Concurrence of CDRH, Office of Device Evaluation (ODE)
+
+Prescription Use
+
+OC
+
+(Per 21 CFR 801.109)
+
+Division of General, Restorative
+and Neurological Devices
+
+LUMENIS,INC.
+
+'-- -
+
+ln'
+
+5 1O(k) Number K 6 2 ' l o ~
+
+4Nn IPl/"D:YAG COMBPJATXONPRODUCTF M U E S
+
+COiiF!iIL+*,i L'?
+
+8
+
+

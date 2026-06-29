@@ -1,0 +1,1067 @@
+December 29, 2025
+Shenzhen Fansizhe Science And Technology Co., Ltd.
+℅ Youshan Gong
+RA Specialist
+Feiying Drug & Medical Consulting Technical Service Group
+Rm.2401 Zhenye International Business Center
+# 3101-90, Qianhai Rd.
+Shenzhen, Guangdong 518052
+China
+Re: K253881
+Trade/Device Name: Intense Pulsed Light (IPL) System (Models: T033KQ, T033KD, T033KF,
+T033MQ, T033MD, T033MF, T055KQ, T055KD, T055KH, T505KQ, T505KH,
+T505KF, SL-B505WM)
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: November 27, 2025
+Received: December 4, 2025
+Dear Youshan Gong:
+We have reviewed your section 510(k) premarket notification of intent to market the device referenced above
+and have determined the device is substantially equivalent (for the indications for use stated in the enclosure)
+to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment
+date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the
+provisions of the Federal Food, Drug, and Cosmetic Act (the Act) that do not require approval of a premarket
+approval application (PMA). You may, therefore, market the device, subject to the general controls
+provisions of the Act. Although this letter refers to your product as a device, please be aware that some
+cleared products may instead be combination products. The 510(k) Premarket Notification Database
+available at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.08.02
+
+K253881 - Youshan Gong
+
+Page
+
+2
+
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Additional information about changes that may require a new premarket notification are provided in the FDA
+guidance documents entitled "Deciding When to Submit a 510(k) for a Change to an Existing Device"
+(https://www.fda.gov/media/99812/download) and "Deciding When to Submit a 510(k) for a Software
+Change to an Existing Device" (https://www.fda.gov/media/99785/download).
+Your device is also subject to, among other requirements, the Quality System (QS) regulation (21 CFR Part
+820), which includes, but is not limited to, 21 CFR 820.30, Design controls; 21 CFR 820.90, Nonconforming
+product; and 21 CFR 820.100, Corrective and preventive action. Please note that regardless of whether a
+change requires premarket review, the QS regulation requires device manufacturers to review and approve
+changes to device design and production (21 CFR 820.30 and 21 CFR 820.70) and document changes and
+approvals in the device master record (21 CFR 820.181).
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR Part 803) for
+devices or postmarketing safety reporting (21 CFR Part 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR Part 4, Subpart
+A) for combination products; and, if applicable, the electronic product radiation control provisions (Sections
+531-542 of the Act); 21 CFR Parts 1000-1050.
+All medical devices, including Class I and unclassified devices and combination product device constituent
+parts are required to be in compliance with the final Unique Device Identification System rule ("UDI Rule").
+The UDI Rule requires, among other things, that a device bear a unique device identifier (UDI) on its label
+and package (21 CFR 801.20(a)) unless an exception or alternative applies (21 CFR 801.20(b)) and that the
+dates on the device label be formatted in accordance with 21 CFR 801.18. The UDI Rule (21 CFR
+830.300(a) and 830.320(b)) also requires that certain information be submitted to the Global Unique Device
+Identification Database (GUDID) (21 CFR Part 830 Subpart E). For additional information on these
+requirements, please see the UDI System webpage at https://www.fda.gov/medical-devices/device-advicecomprehensive-regulatory-assistance/unique-device-identification-system-udi-system.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+
+K253881 - Youshan Gong
+
+Page
+
+3
+
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+for Tanisha Hithe
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical and
+Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 07/31/2026
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K253881
+
+Device Name
+
+Intense Pulsed Light (IPL) System (Models: T033KQ, T033KD, T033KF, T033MQ, T033MD, T033MF, T055KQ, T055KD,
+T055KH, T505KQ, T505KH, T505KF, SL-B505WM)
+
+Indications for Use (Describe)
+
+Intense Pulsed Light (IPL) System is an over-the-counter device intended for removal of unwanted body hair.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (8/23)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+K253881 510(k) Summary
+“510(k) Summary” as required by 21 CFR Part 807.92.
+Date Prepared: 2025-12-23
+I.
+
+Submitter
+Shenzhen Fansizhe Science And Technology Co., Ltd
+2nd, 3rd And 4th floors, No.11, Henggangxia Industrial Zone, Xiangshan Community, Xinqiao Street, Bao'an District, Shenzhen Guangdong,
+CN 518125
+Post code: 518125
+Endang Cheng
+Title: General Manager
+Tel: +86 18617061709
+E-mail: ChengEndang1001@163.com
+
+II. Device
+Name of Device: Intense Pulsed Light (IPL) System (Models: T033KQ, T033KD, T033KF, T033MQ, T033MD, T033MF, T055KQ,
+T055KD, T055KH, T505KQ, T505KH, T505KF, SL-B505WM)
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+
+Page 1 of 13
+
+III. Predicate Device and Reference Device
+ Predicate Device
+Manufacturer
+Shenzhen Fansizhe
+Science And
+Technology Co., Ltd
+
+Predicate Device
+Intense Pulsed Light (IPL) System,
+Model: T033KQ, T033KD, T033KF
+T033MQ, T033MD, T033MF
+T055KQ, T055KD, T055KH
+
+510(k) Number
+
+Reference Device
+Ice Cooling IPL Hair Removal Device (UI20 DB, UI20 RE, UI20 GP,
+UI20 PW, UI20S DB, UI20S RE, UI20S PW, UI20S GP, UI20 WH,
+UI20 GR, UI20 BS, UI20 MP, UI20 BL, UI20 PN, UI20 BR, UI20WG,
+UI20S WH, UI20S GR, UI20S BS, UI20S MP)
+
+510(k) Number
+
+K251173
+
+ Reference Device 1
+Manufacturer
+Shenzhen Ulike Smart
+Electronics Co.,Ltd.
+
+K241998
+
+IV. Device Description
+Intense Pulsed Light (IPL) System (Models: T033KQ, T033KD, T033KF, T033MQ, T033MD, T033MF, T055KQ, T055KD, T055KH,
+T505KQ, T505KH, T505KF, SL-B505WM) are a small over-the-counter device for the removal of hair growth based on Intense Pulsed Light
+(IPL). It works below the skin's surface and does not involve any cutting or pulling, reducing hair growth with minimal pain. The device is
+only powered by the power adapter and its IPL emission activation is by a switch or auto light emission.
+Intense Pulsed Light (IPL) System, all models, contains a Xenon arc flashlamp, and a touch chip to detect appropriate skin contact. If the
+device is not properly applied to the treatment area (in full contact with the skin), the device cannot emit the treatment light pulses.
+Based on the cooling technology, Intense Pulsed Light (IPL) System, models: T033KQ, T033KD, T033KF, T055KQ, T055KD, T055KH,
+T505KQ, T505KH, T505KF, SL-B505WM, has cooling care functions. When the cooling care mode is enabled, it can reduce the excessive
+heat generated on the skin by the photon irradiation and do cooling compresses during hair removal.
+Page 2 of 13
+
+All models have single pulse, dual pulse and three pulse functions.
+The Intense Pulsed Light (IPL) System includes main unit, an adaptor and goggles.
+The device is intended to be used for adults aged over 18.
+
+V. Indications for Use
+Intense Pulsed Light (IPL) System is an over-the-counter device intended for removal of unwanted body hair.
+
+VI. Materials
+Model
+
+Contacted Component Name
+
+Materials
+
+T033KQ, T033KD,
+T033KF, T033MQ,
+T033MD, T033MF,
+T055KQ, T055KD,
+T055KH, T505KQ,
+T505KH, T505KF, SLB505WM
+
+Host of machine (including air outlet, treatment
+window, air inlet, buttons)
+
+ABS, PC
+
+We have tested the device for biocompatibility by a reliable third-party lab. For details, please refer to Section “Biocompatibility Discussion”
+
+VII.Comparison of Technological Characteristics with the Predicate Device
+The Intense Pulsed Light (IPL) System has the same intended use, mode of action and similar operational characteristics as the predicate
+device. Any minor differences between the subject device and the listed predicate devices do not raise any issues of safety or efficacy.
+Performance data supports that the device is safe and as effective as the predicate device for its intended use. Therefore, the Intense Pulsed
+Light (IPL) System may be found substantially equivalent to its predicate device.
+
+Page 3 of 13
+
+Intense Pulsed Light (IPL) System is compared with the following Predicate Devices in terms of intended use, design, material, specifications
+and performance:
+Comparison
+Elements
+
+Predicate
+Device
+
+Subject Device
+
+Reference Device
+
+T033KQ,
+T033KD,
+T033KF
+
+Model
+
+T033KQ,
+T033KD,
+T033KF
+
+T033MQ,
+T033MD,
+T033MF
+
+T055KQ,
+T055KD,
+T055KH
+
+T505KQ,
+T505KH,
+T505KF, SLB505WM
+
+T033MQ,
+T033MD,
+T033MF
+
+Remark
+UI20 DB
+
+T055KQ,
+T055KD,
+T055KH
+510(k) Number
+
+Trade name
+
+Manufacturer
+
+Regulation
+number
+Product code
+
+K253881
+
+K251173
+
+K241998
+
+/
+
+Intense Pulsed Light (IPL) System
+
+Intense Pulsed
+Light (IPL)
+System
+
+Ice Cooling IPL Hair
+Removal Device
+
+/
+
+Shenzhen Fansizhe Science And Technology Co., Ltd
+
+Shenzhen
+Fansizhe
+Science And
+Technology
+Co., Ltd
+
+Shenzhen Ulike
+Smart Electronics
+Co.,Ltd.
+
+/
+
+21 CFR 878.4810
+
+Same
+
+OHT
+
+Same
+
+21 CFR
+878.4810
+OHT
+
+21 CFR 878.4810
+OHT
+
+Page 4 of 13
+
+Comparison
+Elements
+
+Predicate
+Device
+
+Subject Device
+
+Reference Device
+
+T033KQ,
+T033KD,
+T033KF
+
+Model
+
+T033KQ,
+T033KD,
+T033KF
+
+T033MQ,
+T033MD,
+T033MF
+
+T055KQ,
+T055KD,
+T055KH
+
+T505KQ,
+T505KH,
+T505KF, SLB505WM
+
+T033MQ,
+T033MD,
+T033MF
+
+Remark
+UI20 DB
+
+T055KQ,
+T055KD,
+T055KH
+Device
+classification
+
+Indication for
+use/ Intended
+use
+
+Class II
+
+Class II
+
+The Intense Pulsed Light (IPL) System is an over-the-counter device
+intended for the removal of unwanted body hair.
+
+The Intense
+Pulsed Light
+(IPL) System is
+an over-thecounter device
+intended for the
+removal of
+unwanted body
+hair.
+
+Class II
+Ice Cooling IPL Hair
+Removal Device
+with sapphire
+treatment window is
+indicated for the
+removal of
+unwanted hair. The
+device is also
+indicated for the
+permanent reduction
+in hair regrowth,
+defined as
+the long-term, stable
+
+Page 5 of 13
+
+Same
+
+Same
+
+Comparison
+Elements
+
+Predicate
+Device
+
+Subject Device
+
+Reference Device
+
+T033KQ,
+T033KD,
+T033KF
+
+Model
+
+T033KQ,
+T033KD,
+T033KF
+
+T033MQ,
+T033MD,
+T033MF
+
+T055KQ,
+T055KD,
+T055KH
+
+T505KQ,
+T505KH,
+T505KF, SLB505WM
+
+T033MQ,
+T033MD,
+T033MF
+
+Remark
+UI20 DB
+
+T055KQ,
+T055KD,
+T055KH
+reduction in the
+number of hairs
+regrowing when
+measured at 6, 9 and
+12 months after the
+completion of a
+treatment regime.
+Prescription or
+OTC
+Applicable
+skin
+Sterilization
+
+OTC
+Fitzpatrick skin types I-IV
+Not required
+
+Light source
+
+Intense Pulsed Light
+
+Energy
+medium
+
+Xenon Arc lamp
+
+Page 6 of 13
+
+OTC
+
+OTC
+
+Fitzpatrick skin
+types I-IV
+Not required
+Intense Pulsed
+Light
+Xenon Arc
+lamp
+
+Fitzpatrick Skin
+Types I-V
+Not required
+
+Same
+Same
+Same
+
+Intense Pulsed Light
+
+Same
+
+Xenon Arc lamp
+
+Same
+
+Comparison
+Elements
+
+Predicate
+Device
+
+Subject Device
+
+Reference Device
+
+T033KQ,
+T033KD,
+T033KF
+
+Model
+
+T033KQ,
+T033KD,
+T033KF
+
+T033MQ,
+T033MD,
+T033MF
+
+T505KQ,
+T505KH,
+T505KF, SLB505WM
+
+T055KQ,
+T055KD,
+T055KH
+
+T033MQ,
+T033MD,
+T033MF
+
+Remark
+UI20 DB
+
+T055KQ,
+T055KD,
+T055KH
+Wavelength
+range
+
+560
+(±20nm)~1200n
+m
+
+560
+(±20nm)~1200n
+m
+
+560
+(±20nm)~1200n
+m
+
+560
+(±20nm)~1200n
+m
+
+Max. Output
+energy (J)
+
+26.5J
+
+28J
+
+25J
+
+26.5J
+
+Max. Energy
+density (J/cm²)
+
+8.03J/cm²
+
+8.48J/cm²
+
+8.33J/cm²
+
+8.03J/cm²
+
+Page 7 of 13
+
+560
+(±20nm)~1200n
+m
+T033KQ,
+T033KD,
+T033KF: 16.7J
+T033MQ,
+T033MD,
+T033MF: 17.7J
+T055KQ,
+T055KD,
+T055KH: 15.8J
+T033KQ,
+T033KD,
+T033KF:
+5.1J/cm²
+
+550nm~1200nm
+
+Same
+
+26J
+
+Similar
+
+6.67J/cm²
+
+Similar
+
+Comparison
+Elements
+
+Predicate
+Device
+
+Subject Device
+
+Reference Device
+
+T033KQ,
+T033KD,
+T033KF
+
+Model
+
+T033KQ,
+T033KD,
+T033KF
+
+T033MQ,
+T033MD,
+T033MF
+
+T055KQ,
+T055KD,
+T055KH
+
+T505KQ,
+T505KH,
+T505KF, SLB505WM
+
+T033MQ,
+T033MD,
+T033MF
+
+Remark
+UI20 DB
+
+T055KQ,
+T055KD,
+T055KH
+T033MQ,
+T033MD,
+T033MF:
+5.4J/cm²
+T055KQ,
+T055KD,
+T055KH:
+5.3J/cm²
+
+Pulse width of
+single pulse
+
+Spot size
+
+0.4-12 ms
+
+3.3cm²
+
+0.4-12 ms
+
+3.3cm²
+
+0.4-12 ms
+
+3.0cm²
+
+Page 8 of 13
+
+0.4-12 ms
+
+0.4-12 ms
+
+0.88-3.20 ms
+
+Similar
+
+3.3cm²
+
+T033KQ,
+T033KD,
+T033KF:
+3.3cm²
+T033MQ,
+T033MD,
+
+3.9cm²
+
+Same
+
+Comparison
+Elements
+
+Predicate
+Device
+
+Subject Device
+
+Reference Device
+
+T033KQ,
+T033KD,
+T033KF
+
+Model
+
+T033KQ,
+T033KD,
+T033KF
+
+T033MQ,
+T033MD,
+T033MF
+
+T055KQ,
+T055KD,
+T055KH
+
+T505KQ,
+T505KH,
+T505KF, SLB505WM
+
+T033MQ,
+T033MD,
+T033MF
+
+Remark
+UI20 DB
+
+T055KQ,
+T055KD,
+T055KH
+T033MF:
+3.3cm²
+T055KQ,
+T055KD,
+T055KH:
+3.0cm²
+Output
+intensity level
+Pulsing control
+Software/
+Firmware/
+Microprocesso
+r Control?
+
+1~5 levels
+
+1~5 levels
+
+1~5 levels
+
+1~5 levels
+
+1~5 levels
+
+1~10 levels
+
+Same
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Same
+
+Yes
+
+Yes
+
+Yes
+
+Same
+
+Operating
+
+Temperature: 5-26℃
+
+Temperature: 530℃
+
+Temperature: 5-30℃
+
+environment
+
+Relative humidity: 20-90%,
+Relative
+Page 9 of 13
+
+Same
+Relative humidity: 5-
+
+Comparison
+Elements
+
+Predicate
+Device
+
+Subject Device
+
+Reference Device
+
+T033KQ,
+T033KD,
+T033KF
+
+Model
+
+T033KQ,
+T033KD,
+T033KF
+
+T033MQ,
+T033MD,
+T033MF
+
+T055KQ,
+T055KD,
+T055KH
+
+T505KQ,
+T505KH,
+T505KF, SLB505WM
+
+T033MQ,
+T033MD,
+T033MF
+
+Remark
+UI20 DB
+
+T055KQ,
+T055KD,
+T055KH
+without condensation
+Atmospheric Pressure: 70
+
+humidity: 2090%,
+without
+condensation
+
+kPa to 106 kPa
+
+90%,
+Atmospheric
+Pressure: 80 kPa to
+106 kPa
+
+Atmospheric
+Pressure: 70
+kPa to 106 kPa
+Temperature: -20 -55 ℃
+Storage and
+Relative humidity: 5-95%,
+transportation
+without condensation
+environment
+Atmospheric Pressure:70
+
+Page 10 of 13
+
+Temperature: 20 -55 ℃
+
+Temperature: -10 55 ℃
+
+Relative
+humidity: 595%,
+
+Relative humidity: 590%,
+Atmospheric
+
+Same
+
+Comparison
+Elements
+
+Predicate
+Device
+
+Subject Device
+
+Reference Device
+
+T033KQ,
+T033KD,
+T033KF
+
+Model
+
+T033KQ,
+T033KD,
+T033KF
+
+T033MQ,
+T033MD,
+T033MF
+
+T055KQ,
+T055KD,
+T055KH
+
+T505KQ,
+T505KH,
+T505KF, SLB505WM
+
+T033MQ,
+T033MD,
+T033MF
+
+Remark
+UI20 DB
+
+T055KQ,
+T055KD,
+T055KH
+kPa to 106 kPa
+
+without
+condensation
+
+Pressure:50 kPa to
+106 kPa
+
+Atmospheric
+Pressure:70
+kPa to 106 kPa
+
+Electrical
+safety
+Eye safety
+Biocompatibili
+ty
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+ISO 10993-23
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+
+Page 11 of 13
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+ISO 10993-23
+
+Same
+Same
+Same
+
+VIII. Performance Data
+The following performance data were provided in support of the substantial equivalence determination.
+1) Biocompatibility Testing
+ The tissue-contacting materials of subject device are identical to the predicate device K251173. Furthermore, the material of Surfacecontacting components of all models are Acrylonitrile-butadienestyrene plastic (ABS) and Polycarbonate (PC), which outlined in Section
+B of Attachment G in Use of International Standard ISO 10993-1, "Biological evaluation of medical devices - Part 1: Evaluation and
+testing within a risk management process" released by the FDA on September 8, 2023. Thus, no biocompatibility test data were provided
+for this submission.
+2) Electrical Safety and EMC
+Electrical safety and EMC testing was performed to, and passed, the following standards:
+ IEC 60601-1: 2005+ AMD1: 2012+ AMD2: 2020 Medical electrical equipment –Part 1: General requirements for basic safety and
+essential performance
+ IEC 60601-1-2: 2014+A1: 2020 Medical electrical equipment - Part 1-2: General requirements for basic safety and essential performance Collateral Standard: Electromagnetic disturbances - Requirements and tests
+ IEC 60601-1-11: 2015+AMD1: 2020 Medical Electrical Equipment –Part 1: General Requirements for Basic Safety and Essential
+Performance –Collateral Standard: Requirements for Medical Electrical Equipment and Medical Electrical Systems Used in the Home
+Healthcare Environment
+ IEC 60601-2-83: 2019+AMD1: 2022 Medical electrical equipment - Part 2-83: Particular requirements for the basic safety and essential
+performance of home light therapy equipment
+3) Performance Testing
+ Performance verification testing on energy output, fluence, and pulse duration
+4) Eye Safety
+
+Page 12 of 13
+
+ IEC 62471: 2006 Photobiological safety of lamps and lamp systems
+5) Software Verification and Validation
+Software documentation consistent with Basic Documentation Level was submitted in this 510(k) as recommended by FDA Guidance
+"Content of Premarket Submissions for Device Software Functions (2023)". System validation testing presented in this 510(k) demonstrated
+that all software requirement specifications are met and all software hazards have been mitigated to acceptable risk levels.
+IX. Conclusions
+Based on the above analysis and non-clinical tests performed, it can be concluded that the subject device Intense Pulsed Light (IPL) System is
+as safe, as effective, and performs as well as the legally marketed predicate device.
+
+Page 13 of 13
+
+

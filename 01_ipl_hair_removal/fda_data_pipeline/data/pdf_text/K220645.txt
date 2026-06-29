@@ -1,0 +1,559 @@
+April 27, 2022
+
+Shenzhen Qianyu Technology Co., Ltd.
+℅ Klem Hou
+RA Manager
+Guangzhou Tianke Testing Technology Service Co., Ltd.
+Room 106-1, 1st Floor, Building A, No. 1, Xin'an Road,
+Yonghe Economic Zone, Huangpu District
+Guangzhou, Guangdong 510000
+China
+Re: K220645
+Trade/Device Name: Hand-held IPL device (JOVS Hair Removal Device)
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: March 2, 2022
+Received: March 4, 2022
+Dear Klem Hou:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.04.32
+
+K220645 - Klem Hou
+
+Page 2
+
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Purva U. Pandya -S
+Purva Pandya
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Indications for Use
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2023
+See PRA Statement below.
+
+510(k) Number (ifknown)
+
+K220645
+Device Name
+
+Hand-held IPL device (JOVS Hair Removal Device)
+
+Indications for Use (Describe)
+
+Hand-held IPL device (JOVS Hair Removal Device) is an over-the-counter device intended for removal of unwanted
+body and/or facial hair.
+
+Type of Use (Select one or both, as applicable)
+
+F
+
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+X Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+"An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number"
+FORM FDA 3881 (6120)
+
+Page 1 of 1
+
+PSC PublisAing Servics (301) 443-6740
+
+EF
+
+510(k) Summary - K220645
+1. Submitter
+Shenzhen Qianyu Technology Co., Ltd.
+Room 1002, Building A2, KeXing Science Park, No.15 Keyuan Road, Nanshan District,
+Shenzhen, Guangdong Province, China
+Post code: 518100
+Tel.: +86 158 1380 6593
+Klem Hou
+RA manager
+Tel: +86 178 7557 1727
+Email: pharmaklem@outlook.com
+2. Device
+Name of Device: Hand-held IPL device (JOVS Hair Removal Device)
+Model(s): JR5C-E, JR5C-W, JR5C-OG, JR5-E, JR5-W, JR5-OG
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Classification Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+3. Predicate device(s)
+Manufacturer
+
+Predicate Device
+IPulse
+
+CyDen Ltd
+
+SmoothSkin
+
+Gold
+
+510(k) Number
+Hair
+
+Removal Device
+
+SHENZHEN JVK MEDICAL
+
+Hand-held IPL device (JOVS
+
+INSTRUMETS CO., LTD
+
+Graphene Hair Removal Device)
+
+K160968
+
+K214113
+
+4. Device description
+Hand-held IPL device (JOVS Hair Removal Device) is a personal, light-based, hair reduction device.
+
+The device contains a Xenon lamp and provides hair reduction by Intense Pulsed Light (IPL)
+technology and does not involve any cutting or pulling, reducing hair growth with minimal pain.
+The device is only powered by the external power adapter and its IPL emission activation is by
+finger switch. The device is for single-person use only.
+Hand-held IPL device (JOVS Hair Removal Device) includes JR5C-E, JR5C-W, JR5C-OG, JR5-E,
+JR5-W, JR5-OG. Their intended use, performance, structure design and operation are basically
+identical, with the different color appearance.
+5. Indications for Use
+Hand-held IPL device (JOVS Hair Removal Device) is an over-the-counter device intended for
+removal of unwanted body and/or facial hair.
+6. Comparison of Technological Characteristics with the Predicate Device(s)
+Hand-held IPL device (JOVS Hair Removal Device) has the same intended use, mode of action and
+similar operational characteristics as the predicate devices. Any minor differences between the
+subject device and the listed predicate devices do no raise any issues of safety or efficacy.
+Performance data supports that the device is safe and as effective as the predicate device for its
+intended use.
+Hand-held IPL device (JOVS Hair Removal Device) is compared with the following Predicate
+Devices in terms of intended use, design, material, specifications, and performance:
+1) K160968(Primary Predicate Device), " IPulse SmoothSkin Gold Hair Removal Device ",
+manufactured by " CyDen Ltd " in Swansea, United Kingdom
+2) K214113, "Hand-held IPL device (JOVS Graphene Hair Removal Device)", manufactured by
+"SHENZHEN JVK MEDICAL INSTRUMETS CO., LTD " in Guangdong, China
+Comparison
+Elements
+
+Subject Device
+
+Primary Predicate
+Device 1
+(K160968)
+
+Predicate Device 2
+(K214113)
+
+Remark
+
+Device name
+
+Hand-held
+IPL IPulse SmoothSkin
+device (JOVS Hair Gold Hair Removal
+Removal Device)
+Device
+
+Hand-held
+IPL
+device
+(JOVS
+-Graphene
+Hair
+Removal Device)
+
+Model
+
+JR5C-E, JR5C-W,
+JR5C-OG, JR5-E,
+JR5-W, JR5-OG
+
+JOC-910-Yellow
+JOC-910-Emerald
+
+--
+
+--
+
+Comparison
+Elements
+
+Subject Device
+
+Primary Predicate
+Device 1
+(K160968)
+
+Predicate Device 2
+(K214113)
+
+Remark
+
+Classification
+Name
+
+Laser
+surgical
+instrument for use in
+general and plastic
+surgery
+and
+dermatology
+
+Laser
+Surgical
+Instrument For Use
+In General And
+Plastic Surgery And
+In Dermatology
+
+Laser
+surgical
+instrument for use in
+general and plastic
+surgery
+and
+dermatology
+
+SE
+
+Product code
+
+OHT
+
+OHT
+
+OHT
+
+SE
+
+Regulation
+number
+
+878.4810
+
+878.4810
+
+878.4810
+
+SE
+
+Class
+
+II
+
+II
+
+II
+
+SE
+
+Prescription or
+OTC
+
+OTC
+
+OTC
+
+OTC
+
+SE
+
+Indications for
+use
+
+The
+iPulse
+SmoothSkin Gold
+Hair
+Removal
+System is indicated
+for the removal of
+unwanted hair. The
+iPulse SmoothSkin
+Hand-held
+IPL
+Gold
+is
+also
+device (JOVS Hair
+indicated for the
+Removal Device) is
+permanent
+an over-the-counter
+reduction in hair
+device intended for
+regrowth, defined as
+removal
+of
+the
+long-term,
+unwanted
+body
+stable reduction in
+and/or facial hair.
+the number
+of hairs regrowing
+when measured at 6,
+9 and 12 months
+after the completion
+of a
+treatment regime.
+
+The Hand-held IPL
+device
+(JOVS
+Graphene
+Hair
+Removal Device) is
+an over-the-counter SE
+device intended for
+removal
+of
+unwanted
+body
+and/or facial hair.
+
+Source Energy
+
+Supplied by external
+adapter
+
+Supplied by external
+adapter
+
+Supplied
+by
+external adapter
+
+SE
+
+Subject Device
+
+Primary Predicate
+Device 1
+(K160968)
+
+Predicate Device 2
+(K214113)
+
+Remark
+
+Technology
+
+Intense Pulsed Light
+(IPL)
+
+Intense Pulsed Light
+(IPL)
+
+Intense Pulsed Light
+(IPL)
+
+SE
+
+Energy
+medium
+
+Xenon lamp
+
+Xenon lamp
+
+Xenon lamp
+
+SE
+
+Pulsing
+Control
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+SE
+
+Delivery
+device
+
+Direct illumination
+to tissue
+
+Direct illumination
+to tissue
+
+Direct illumination
+to tissue
+
+SE
+
+Wavelength
+
+590nm~1200nm
+
+510-1100nm
+
+590nm~1200nm
+
+SE
+
+Energy density
+
+1.83~5.14 J/cm2
+
+3-6J/cm2
+
+2.9~5.4 J/cm2
+
+SE
+
+Spot size
+
+3.5cm2
+
+3cm2
+
+3.4cm2
+
+SE
+
+Output energy
+
+6.4~18 J
+
+9.0-18.0J
+
+9.8~18.4 J
+
+SE
+
+Pulse duration
+
+5.5~9.5 ms
+
+2~10ms
+
+5.5~9.5 ms
+
+SE
+
+Comparison
+Elements
+
+7. Performance Data
+The following performance data are provided in support of the substantial equivalence
+determination.
+1) Electrical Safety and Eye Safety
+Electrical safety and Eye safety testing has been performed to, and passed, the following standards:
+
+
+IEC 60601-1-2 Medical electrical equipment –Part 1-2: General requirements for basic safety
+and essential performance –Collateral standard: electromagnetic compatibility
+
+
+
+IEC 60601-1 Medical electrical equipment –Part 1: General requirements for basic safety and
+essential performance
+
+
+
+IEC 60601-1-11 Medical Electrical Equipment –Part 1: General Requirements for Basic Safety
+and Essential Performance –Collateral Standard: Requirements for Medical Electrical
+
+Equipment and Medical Electrical Systems Used in the Home Healthcare Environment
+
+
+IEC 60601-2-83 Medical Electrical Equipment – Part 2-83: Particular Requirements For The
+Basic Safety And Essential Performance Of Home Light Therapy Equipment
+
+2) Software Verification and Validation
+Software documentation consistent with moderate level of concern is submitted in this 510(k).
+System validation testing presented in this 510(k) demonstrated that all software requirement
+specifications have been met and all software hazards have been mitigated to acceptable risk levels.
+3)Usability
+Usability testing has been performed to, and passed, the following standards:
+
+
+IEC 60601-1-6 Medical electrical equipment –Part 1-6: General requirements for safety –
+Collateral standard: Usability
+
+Summary
+Based on the above performance as documented in this application, the Hand-held IPL device
+(JOVS Hair Removal Device) is found to have a safety and effectiveness profile that is similar to
+the predicate device.
+8. Conclusions
+Based on the comparison of intended use, design, materials and performance, the Hand-held IPL
+device (JOVS Hair Removal Device) is considered to be substantially equivalent to its predicate
+device.
+
+

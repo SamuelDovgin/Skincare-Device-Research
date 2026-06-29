@@ -1,0 +1,761 @@
+July 9, 2024
+Shenzhen Lescolton Electrical Appliance Co., Ltd
+℅ Youshan Gong
+RA Specialist
+Feiying Drug & Medical Consulting Technical Service Group
+Rm 2401 Zhenye International Business Center, No. 3101-90,
+Qianhai Road
+Shenzhen, Guangdong 518052
+China
+Re: K241343
+Trade/Device Name: IPL Hair Removal Device (LS-T121, LS-T121A, LS-T121B, LS-T121C, LST130, LS-T130A, LST130B, LS-T133, LS-T135, LS-T136, LS-T137, LS-T134,
+LS-T138, LS-T139, LS-T140)
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: May 11, 2024
+Received: May 13, 2024
+Dear Youshan Gong:
+We have reviewed your section 510(k) premarket notification of intent to market the device referenced above
+and have determined the device is substantially equivalent (for the indications for use stated in the enclosure)
+to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment
+date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the
+provisions of the Federal Food, Drug, and Cosmetic Act (the Act) that do not require approval of a premarket
+approval application (PMA). You may, therefore, market the device, subject to the general controls
+provisions of the Act. Although this letter refers to your product as a device, please be aware that some
+cleared products may instead be combination products. The 510(k) Premarket Notification Database
+available at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.07.00
+
+K241343 - Youshan Gong
+
+Page
+
+2
+
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Additional information about changes that may require a new premarket notification are provided in the FDA
+guidance documents entitled "Deciding When to Submit a 510(k) for a Change to an Existing Device"
+(https://www.fda.gov/media/99812/download) and "Deciding When to Submit a 510(k) for a Software
+Change to an Existing Device" (https://www.fda.gov/media/99785/download).
+Your device is also subject to, among other requirements, the Quality System (QS) regulation (21 CFR Part
+820), which includes, but is not limited to, 21 CFR 820.30, Design controls; 21 CFR 820.90, Nonconforming
+product; and 21 CFR 820.100, Corrective and preventive action. Please note that regardless of whether a
+change requires premarket review, the QS regulation requires device manufacturers to review and approve
+changes to device design and production (21 CFR 820.30 and 21 CFR 820.70) and document changes and
+approvals in the device master record (21 CFR 820.181).
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR Part 803) for
+devices or postmarketing safety reporting (21 CFR Part 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR Part 4, Subpart
+A) for combination products; and, if applicable, the electronic product radiation control provisions (Sections
+531-542 of the Act); 21 CFR Parts 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+for
+
+Yan Fu -S
+Tanisha Hithe
+
+Digitally signed by Yan Fu -S
+Date: 2024.07.09 09:34:36
+-04'00'
+
+K241343 - Youshan Gong
+
+Page
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+
+Enclosure
+
+3
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 07/31/2026
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K241343
+
+Device Name
+
+IPL Hair Removal Device Model(s): LS-T121, LS-T121A, LS-T121B, LS-T121C, LS-T130, LS-T130A, LS-T130B, LS-T133, LST135, LS-T136, LS-T137, LS-T134, LS-T138, LS-T139, LS-T140
+
+Indications for Use (Describe)
+
+The IPL Hair Removal Device is an over-the-counter device intended for removal of unwanted body and/or facial hair.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (8/23)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+Shenzhen Lescolton Electrical Appliance Co., Ltd
+
+510(k)s –K241343 510(k) Summary
+
+K241343 510(k) Summary
+“510(k) Summary” as required by 21 CFR Part 807.92.
+Date Prepared: 2024-6-17
+I.
+
+Submitter
+Shenzhen Lescolton Electrical Appliance Co., Ltd
+Room 301, Building 04, No. A3, Fourth Industrial Zone, Heshuikou Community, Matian Street, Guangming District, Shenzhen, Guangdong,
+China
+Post code: 518100
+Tel.: 400 153 8008
+Qixiang Liu
+Management representative
+Tel: +86-13530009850
+E-mail: info@lescolton.com
+
+II. Device
+Name of Device: IPL Hair Removal Device
+Model(s): LS-T121, LS-T121A, LS-T121B, LS-T121C, LS-T130, LS-T130A, LS-T130B, LS-T133, LS-T135, LS-T136, LS-T137, LS-T134,
+LS-T138, LS-T139, LS-T140
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+
+III. Predicate Device and Reference Device
+
+Page 1 of 9
+
+Shenzhen Lescolton Electrical Appliance Co., Ltd
+
+510(k)s –K241343 510(k) Summary
+
+ Predicate Device
+
+
+For LS-T133/135/136/137, LS-T134/138/139/140
+Manufacturer
+
+Predicate Device
+
+510(k) Number
+
+Shen Zhen CosBeauty
+Co., Ltd.
+
+IPL Hair Removal Device Joy
+Version
+
+K173813
+
+
+
+For LS-T121/121A/121B/121C, LS-T130/130A/130B
+Manufacturer
+
+Predicate Device
+
+510(k) Number
+
+Shenzhen Lescolton
+Electrical Appliance
+Co., Ltd
+
+IPL Hair Removal Device
+
+K232499
+
+ Reference Device
+
+
+For LS-T133/135/136/137, LS-T134/138/139/140
+Manufacturer
+
+Reference Device
+
+510(k) Number
+
+Shenzhen Jizhimei
+Technology Co., Ltd.
+
+IPL Cooling Hair Removal
+Device
+
+K230360
+
+
+
+For LS-T121/121A/121B/121C, LS-T130/130A/130B
+Manufacturer
+
+Reference Device
+
+510(k) Number
+
+Shenzhen IONKA
+Medical Technology
+
+Hand-held IPL device (IPL
+Home Use Hair Removal
+
+K230739
+
+Page 2 of 9
+
+Shenzhen Lescolton Electrical Appliance Co., Ltd
+
+510(k)s –K241343 510(k) Summary
+
+Manufacturer
+
+Reference Device
+
+Co., Ltd.
+
+Device)
+
+510(k) Number
+
+IV. Device Description
+IPL Hair Removal Device, is an over-the-counter, home-use device for unwanted hair reduction by using Intense Pulsed Light (IPL), and it
+has been designed 15 models with the same IPL technology for hair removal, which is model LS-T121/121A/121B/121C, LST130/130A/130B, LS-T133/135/136/137, LS-T134/138/139/140. The device works below the skin ’ s surface and does not involve any
+cutting or pulling, reducing hair growth with minimal pain.
+The device is only powered by the external power adapter and its IPL emission activation is by finger switch.
+IPL Hair Removal Device is a Pulsed Light system which emits intense pulsed light (IPL) at a wavelength ranging from 510-1200nm and
+600-1200nm. The device works on the principles of selective photothermolysis. That is, causing thermal damage to target chromophores by
+using light of appropriate wavelength in pulses that exceeds the chromophores’ thermal relaxation time but sparing normal skin by limiting
+the pulse width below the thermal relaxation time for skin.
+
+V. Indications for Use
+The IPL Hair Removal Device is an over-the-counter device intended for removal of unwanted body and/or facial hair.
+
+VI. Materials
+Model
+LST121/121A/121B/121C,
+LS-T130/130A/130B, LST133/135/136/137, LST134/138/139/140
+
+Contacted Component Name
+
+Host of machine (including air outlet, treatment
+window, air inlet, buttons)
+
+Page 3 of 9
+
+Materials
+PC, ABS, PC+ABS,
+ADC12, Al2O3
+(fineness>99.995%),
+PEEK+30％GF,
+PC2805+POM
+
+Shenzhen Lescolton Electrical Appliance Co., Ltd
+
+510(k)s –K241343 510(k) Summary
+
+We have tested the device for biocompatibility by a reliable third-party lab. For details, please refer to Section Biocompatibility Discussion.
+
+VII.Comparison of Technological Characteristics With the Predicate Device
+The IPL Hair Removal Device has the same intended use as the predicate. The technological characteristics such as wavelength, energy
+density, spot size and pulse duration, are similar to the predicate device and reference devices. Any minor differences between the subject
+device and the listed predicate device and reference devices do no raise any issues of safety or efficacy. Performance data supports that the
+device is safe and as effective as the predicate device and reference devices for its intended use.
+IPL Hair Removal Device is compared with the following Predicate Devices in terms of intended use, design, material, specifications and
+performance:
+1．For LS-T133/135/136/137, LS-T134/138/139/140
+
+Compariso
+n
+Elements
+
+Subject device
+
+Predicate Device
+
+Reference Device
+
+510(k)
+Number
+
+K241343
+
+K173813
+
+K230360
+
+Trade
+name
+
+IPL Hair Removal Device
+
+IPL Hair Removal Device
+Joy Version
+
+IPL Cooling Hair
+Removal Device
+
+Shenzhen Lescolton Electrical
+Appliance Co., Ltd
+
+Shen Zhen CosBeauty Co.,
+Ltd.
+
+Shenzhen Jizhimei
+Technology Co., Ltd.
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+OHT
+
+OHT
+
+OHT
+
+Manufactur
+er
+Regulation
+number
+Product
+
+Page 4 of 9
+
+Shenzhen Lescolton Electrical Appliance Co., Ltd
+
+510(k)s –K241343 510(k) Summary
+
+Compariso
+n
+Elements
+
+Subject device
+
+Predicate Device
+
+Reference Device
+
+Class II
+
+Class II
+
+Class II
+
+Indication
+for use/
+Intended
+use
+
+The IPL Hair Removal Device is
+an over-the-counter device
+intended for removal of
+unwanted body and/ or facial
+hair.
+
+The IPL Hair Removal
+Device Joy Version is
+indicated for the removal
+of unwanted hair. The
+device is also indicated for
+the permanent reduction in
+hair regrowth, defined as
+the long-term, stable
+reduction in the number of
+hairs regrowing when
+measured at 6, 9 and 12
+months after the
+completion of a treatment
+regime. The device is used
+for adults with Fitzpatrick
+skin types I – IV.
+
+The IPL Cooling Hair
+Removal Device is an
+over-the-counter
+device intended for
+removal of unwanted
+body and/or facial
+hair.
+
+Prescriptio
+n or OTC
+
+OTC
+
+OTC
+
+OTC
+
+Wavelengt
+h range
+
+LS-T133/135/136/137: 5101200nm
+LS-T134/138/139/140: 5101200nm
+
+510nm~1200nm Max
+
+550-1200mm
+
+code
+Device
+classificati
+on
+
+Page 5 of 9
+
+Shenzhen Lescolton Electrical Appliance Co., Ltd
+
+510(k)s –K241343 510(k) Summary
+
+Compariso
+n
+Elements
+
+Subject device
+
+Energy
+density
+
+LS-T133/135/136/137: 1.8～
+5J/cm2
+LS-T134/138/139/140: 1.7～
+4.7J/cm2
+
+5.1 J/cm²
+
+Spot size
+
+LS-T133/135/136/137: 5.2 cm2
+LS-T134/138/139/140: 5.6 cm2
+
+Body: 4.2 [cm²], Bikini
+area and Face: 2 [cm²]
+
+Pulse
+duration
+
+LS-T133/135/136/137: 9.2011.20ms
+LS-T134/138/139/140: 9.2011.20ms
+
+9.20~11.20milliseconds
+
+6.4-7.2ms
+
+Predicate Device
+
+Reference Device
+2~5J/cm² (applicable
+for model NBB01)
+2~4J/cm² (applicable
+for model NBB02)
+3.6cm² (applicable for
+model NBB01 and
+NBB02)
+
+2．For LS-T121/121A/121B/121C, LS-T130/130A/130B
+
+Compariso
+n
+Elements
+
+Subject device
+
+Predicate Device
+
+Reference Device
+
+510(k)
+Number
+
+K241343
+
+K232499
+
+K230739
+
+Trade
+name
+
+IPL Hair Removal Device
+
+IPL Hair Removal Device
+
+Manufactur
+
+Shenzhen Lescolton Electrical
+
+Shenzhen Lescolton
+
+Page 6 of 9
+
+Hand-held IPL device
+(IPL Home Use Hair
+Removal
+Device)
+Shenzhen IONKA
+
+Shenzhen Lescolton Electrical Appliance Co., Ltd
+
+510(k)s –K241343 510(k) Summary
+
+Compariso
+n
+Elements
+
+Subject device
+
+Predicate Device
+
+Reference Device
+
+er
+
+Appliance Co., Ltd
+
+Electrical Appliance Co.,
+Ltd
+
+Medical Technology
+Co., Ltd.
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+OHT
+
+OHT
+
+OHT
+
+Class II
+
+Class II
+
+Class II
+
+The IPL Hair Removal
+Device is an over-thecounter device intended
+for removal of unwanted
+body and/ or facial hair.
+
+IPL Home Use Hair
+Removal Device is
+indicated for the
+removal of unwanted
+hair. The device is
+also indicated
+for the permanent
+reduction in hair
+regrowth, defined as
+the long-term, stable
+reduction in the
+number of hairs
+regrowing when
+measured at 6, 9 and
+12 months after the
+completion of a
+treatment regime.
+
+Regulation
+number
+Product
+code
+Device
+classificati
+on
+
+Indication
+for use/
+Intended
+use
+
+The IPL Hair Removal Device is
+an over-the-counter device
+intended for removal of
+unwanted body and/ or facial
+hair.
+
+Page 7 of 9
+
+Shenzhen Lescolton Electrical Appliance Co., Ltd
+
+510(k)s –K241343 510(k) Summary
+
+Compariso
+n
+Elements
+
+Subject device
+
+Predicate Device
+
+Reference Device
+
+Prescriptio
+n or OTC
+
+OTC
+
+OTC
+
+OTC
+
+Wavelengt
+h range
+
+LS-T121: 600-1200nm
+LS-T130: 600-1200nm
+
+LS-T106: 610-1200nm
+LS-T107: 560-1200nm
+LS-T108: 470-1200nm
+
+510nm~1200nm
+
+Energy
+density
+
+LS-T121: 2.5-6.0J/cm2
+LS-T130: 1.3～5.7 J/cm2
+
+LS-T106: 2.0-4.87J/cm2
+LS-T107: 2.16-5.18J/cm2
+LS-T108: 2.0-5.62J/cm2
+
+FZ-608, FZ-608G:
+3.33 J/cm2
+FZ-100: 5.43 J/cm2
+FZ-200: 4.5 J/cm2
+
+Spot size
+
+LS-T121: 3.2 cm2
+LS-T130: 3.6 cm2
+
+Pulse
+duration
+
+LS-T121: 9-12ms
+LS-T130: 0.5-5ms
+
+LS-T106: 3.2 cm2
+LS-T107: 3.7 cm2
+LS-T108: 3.2 cm2
+LS-T106: 0.64-2.4ms
+LS-T107: 7.2-10.8ms
+LS-T108: 6.8-10.2ms
+
+3.0cm²
+0.5~0.8 ms
+
+VIII. Performance Data
+The following performance data were provided in support of the substantial equivalence determination.
+1) Biocompatibility Testing
+The biocompatibility evaluation for the body-contacting components of the subject device was conducted in accordance with the “Use of
+International Standard ISO 10993-1, 'Biological Evaluation of Medical Devices 
+Part 1: Evaluation and Testing Within a Risk Management
+Process”, as recognized by FDA. The following testing was performed to, and passed, including:
+Part 5: Tests for in vitro cytotoxicity
+ ISO 10993-5:2009, Biological evaluation of medical devices 
+ ISO 10993-10:2021, Biological evaluation of medical devices 
+Part 10: Tests for skin sensitization
+Page 8 of 9
+
+Shenzhen Lescolton Electrical Appliance Co., Ltd
+
+510(k)s –K241343 510(k) Summary
+
+ ISO 10993-23:2021, Biological evaluation of medical devices 
+Part 23: Tests for skin irritation
+2) Electrical Safety and EMC
+Electrical safety and EMC testing was performed to, and passed, the following standards:
+ IEC 60601-1:2005/AMD2:2020 Medical electrical equipment 
+Part 1: General requirements for basic safety and essential performance
+ IEC 60601-1-2:2014+A1:2020 Medical electrical equipment - Part 1-2: General requirements for basic safety and essential performance
+- Collateral Standard: Electromagnetic disturbances - Requirements and tests
+ IEC 60601-1-11:2015+A1:2020 Medical Electrical Equipment 
+Part 1: General Requirements for Basic Safety and Essential
+Collateral Standard: Requirements for Medical Electrical Equipment and Medical Electrical Systems Used in the Home
+Performance 
+Healthcare Environment
+ IEC 60601-2-83:2019 Medical electrical equipment - Part 2-83: Particular requirements for the basic safety and essential performance of
+home light therapy equipment
+3) Eye Safety
+
+ IEC 62471:2006 Photobiological safety of lamps and lamp
+systems
+4) Software Verification and Validation
+Software documentation consistent with basic documentation level was submitted in this 510(k). System validation testing presented in this
+510(k) demonstrated that all software requirement specifications are met and all software hazards have been mitigated to acceptable risk
+levels.
+IX. Conclusions
+Based on the above analysis and non-clinical tests performed, it can be concluded that the subject device IPL Hair Removal Device is as safe,
+as effective, and performs as well as the legally marketed predicate device and reference device.
+
+Page 9 of 9
+
+

@@ -1,0 +1,721 @@
+DEPARTMENT OF HEALTH & HUMAN SERVICES
+
+Public Health Service
+
+Food and Drug Administration
+10903 New Hampshire Avenue
+Document Control Center - WO66-G609
+Silver Spring, MD 20993-0002
+
+August 4, 2016
+
+Beijing Adss Development Co., Ltd
+℅ Ray Wang
+General Manager
+Beijing Believe Technology Services Co., Ltd.
+5-1206, Build 332, Dafangju, No.25 Banbidian Rd.
+Liyuan Town, Tongzhou District, Beijing, 101121 CN
+Re: K161286
+Trade/Device Name: Ipl Therapy Machine
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And
+In Dermatology
+Regulatory Class: Class II
+Product Code: ONF
+Dated: May 3, 2016
+Received: May 9, 2016
+Dear Ray Wang:
+We have reviewed your Section 510(k) premarket notification of intent to market the device
+referenced above and have determined the device is substantially equivalent (for the indications
+for use stated in the enclosure) to legally marketed predicate devices marketed in interstate
+commerce prior to May 28, 1976, the enactment date of the Medical Device Amendments, or to
+devices that have been reclassified in accordance with the provisions of the Federal Food, Drug,
+and Cosmetic Act (Act) that do not require approval of a premarket approval application (PMA).
+You may, therefore, market the device, subject to the general controls provisions of the Act. The
+general controls provisions of the Act include requirements for annual registration, listing of
+devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability
+warranties. We remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA),
+it may be subject to additional controls. Existing major regulations affecting your device can be
+found in the Code of Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may
+publish further announcements concerning your device in the Federal Register.
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean
+that FDA has made a determination that your device complies with other requirements of the Act
+
+Page 2 - Ray Wang
+or any Federal statutes and regulations administered by other Federal agencies. You must comply
+with all the Act's requirements, including, but not limited to: registration and listing (21 CFR
+Part 807); labeling (21 CFR Part 801); medical device reporting (reporting of medical devicerelated adverse events) (21 CFR 803); good manufacturing practice requirements as set forth in
+the quality systems (QS) regulation (21 CFR Part 820); and if applicable, the electronic product
+radiation control provisions (Sections 531-542 of the Act); 21 CFR 1000-1050.
+If you desire specific advice for your device on our labeling regulation (21 CFR Part 801), please
+contact the Division of Industry and Consumer Education at its toll-free number (800) 638-2041
+or (301) 796-7100 or at its Internet address
+http://www.fda.gov/MedicalDevices/ResourcesforYou/Industry/default.htm. Also, please note
+the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21
+CFR Part 803), please go to
+http://www.fda.gov/MedicalDevices/Safety/ReportaProblem/default.htm for the CDRH's Office
+of Surveillance and Biometrics/Division of Postmarket Surveillance.
+You may obtain other general information on your responsibilities under the Act from the
+Division of Industry and Consumer Education at its toll-free number (800) 638-2041 or (301)
+796-7100 or at its Internet address
+http://www.fda.gov/MedicalDevices/ResourcesforYou/Industry/default.htm.
+Sincerely yours,
+
+Christopher J. Ronk -S
+For
+
+Enclosure
+
+Binita S. Ashar, M.D., M.B.A., F.A.C.S.
+Director
+Division of Surgical Devices
+Office of Device Evaluation
+Center for Devices and Radiological Health
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: January 31, 2017
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K161286
+Device Name
+
+IPL Therapy Machine
+
+Indications for Use (Describe)
+
+The VE2000 device is indicated for use in surgical, aesthetic applications in permanent hair reduction, reduction of benign
+pigmented lesions and benign vascular lesions.
+Permanent hair reduction is defined as the long-term, stable reduction in the number of hairs regrowing when measured at
+6, 9, and 12 months after the completion of a treatment regimen
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (8/14)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+510(k) Summary
+
+Tab #7 510(k) Summary
+This 510(k) Summary of 510(k) safety and effectiveness information is being submitted in accordance
+with requirements of SMDA 1990 and Title 21, CFR Section 807.92.
+The assigned 510(k) Number: K161286
+1.
+
+Date of Preparation: 07/31/2016
+
+2.
+
+Sponsor Identification
+Beijing ADSS Development Co., Ltd
+F6, Xiandao Bldg., Jinyuan Rd. 36, Daxing Economic Development zone, Beijing, China, 102628
+Establishment Registration Number: Not yet registered or the Number
+Contact Person: Gao Yurong
+Position: sales manager
+Tel: 86-10-83625120
+Fax:86-10-83625121
+Email: gyr@adss.com.cn
+
+3.
+
+Designated Submission Correspondent
+Mr. Ray Wang
+Beijing Believe Technology Service Co., Ltd.
+5-1206, Build 332, DaFangJu, No.25 BanBiDian Rd.,
+LiYuan Town, TongZhou District, Beijing, 101121, China
+Tel: +86-10-59120817
+Fax: +86-10-52214696
+Email: ray.wang@believe-med.com
+
+7-1
+
+510(k) Summary
+
+4.
+
+Identification of Proposed Device
+Trade Name: IPL Therapy Machine
+Common Name: Powered Light Based Non-Laser Surgical Instrument With Thermal Effect
+Model(s): VE2000
+
+Regulatory Information:
+Classification Name:
+Laser surgical instrument for use in general and plastic surgery and in dermatology；
+Classification: II;
+Product Code: ONF;
+Regulation Number: 21 CFR 878.4810；
+Review Panel: General & Plastic Surgery;
+
+Intended Use Statement:
+The VE2000 device is indicated for use in surgical, aesthetic applications in permanent hair
+reduction, reduction of benign pigmented lesions and benign vascular lesions.
+Permanent hair reduction is defined as the long-term, stable reduction in the number of hairs
+regrowing when measured at 6, 9, and 12 months after the completion of a treatment regimen.
+Skin Types
+Conditions
+
+Filter setting
+
+I
+
+II
+
+III
+
+hair removal
+
+and wave
+
+640-1200
+
+640-1200
+
+640-1200
+
+pigmented lesions
+
+length rang
+
+480-1200
+
+480-1200
+
+480-1200
+
+590-1200
+
+590-1200
+
+590-1200
+
+vascular lesions
+
+Device Description:
+The VE2000 device are intense pulsed light system which delivers intense pulsed light at a
+wavelength ranging from 480nm-1200nm. Intense Pulsed Light (IPL) systems work on the principles
+of selective thermolysis. That is, causing thermal damage to target chromophores by using light of
+appropriate wavelength in pulses that exceeds the chromophores’ thermal relaxation time but sparing
+normal skin by limiting the pulse width below the thermal relaxation time for skin.
+IPL Systems are different from lasers in that they deliver many wavelengths in each pulse of light
+instead of just one wavelength. Generally, IPL enhances penetration without using excessive energy
+levels and enables targeting of specific chromophores.
+Based on this,The VE2000 device (inclusive of the handpiece used to deliver pulsed-light energy)
+7-2
+
+510(k) Summary
+
+are indicated for use in surgical, aesthetic and cosmetic applications in permanent hair removal,
+reduction of pigmented lesions and vascular lesions.
+5.
+
+Identification of Predicate Device(s)
+510(k) Number: K122995
+Predicate Device Name: Intense Pulsed Light (IPL) Systems
+Manufacturer: Beijing KES Biology Technology Co., Ltd.
+
+6.
+
+Non-Clinical Test Conclusion
+Non clinical tests were conducted to verify that the proposed device met all design specifications as
+was Substantially Equivalent (SE) to the predicate device. The test results demonstrated that the
+proposed device complies with the following standards:
+a)IEC 60601-1-2:2007, Medical Electrical Equipment - Part 1-2: General Requirements for
+Safety - Collateral Standard: Electromagnetic Compatibility -- Requirements and Tests.
+b)IEC 60601-1:2005/A1:2012, Medical electrical equipment - Part 1: General requirements for
+basic safety and essential performance
+c)IEC60601-2-57:2011, Medical electrical equipment -- Part 2-57: Particular requirements for
+the basic safety and essential performance of non-laser light source equipment intended for
+therapeutic, diagnostic, monitoring and cosmetic/aesthetic use
+
+7.
+
+Clinical Test Conclusion
+No clinical study is included in this submission.
+
+7-3
+
+510(k) Summary
+
+8.
+
+Substantially Equivalent (SE) Comparison
+Table 9-1 General Comparison
+Predicate Device
+
+Proposed Device
+
+ITEM
+
+Intense Pulsed Light (IPL)
+
+VE2000
+
+Product Code
+Regulation
+No.
+
+Remark
+
+Systems(K122995)
+
+ONF
+
+ONF
+
+SE
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+SE
+
+II
+
+II
+
+SE
+
+Class
+
+The VE2000 device is indicated
+
+Intended Use
+
+for use in surgical, aesthetic
+
+Intense Pulsed Light (IPL) Systems
+
+applications in permanent hair
+
+(inclusive of the handpiece used to
+
+reduction, reduction of benign
+
+deliver pulsed-light energy) are
+
+pigmented lesions and benign
+
+indicated for use in surgical,
+
+vascular lesions.
+
+aesthetic and cosmetic applications
+
+Permanent
+
+hair
+
+reduction
+
+is
+
+in permanent hair removal,
+
+defined as the long-term, stable
+
+reduction of pigmented lesions,
+
+reduction in the number of hairs
+
+acne therapy, freckles, vascular
+
+regrowing when measured at 6, 9,
+
+lesions and facial blemish.
+
+and
+
+12
+
+months
+
+after
+
+SE
+
+the
+
+completion of a treatment regimen
+
+7-4
+
+510(k) Summary
+
+Table 9-2 Performance Comparison
+ITEM
+Light source
+
+Proposed Device
+VE2000
+Intense pulsed light
+
+Predicate Device
+Intense Pulsed Light (IPL)
+
+Remark
+
+Systems(K122995)
+Intense pulsed light
+
+SE
+
+430-1200nm, 530-1200nm,
+Wavelength
+
+480nm—1200nm
+
+640-1200nm,
+
+590nm—1200nm
+
+Optional: 480-1200nm,
+
+640nm—1200nm
+
+560-1200nm, 590-1200nm,
+
+SE
+
+690-1200nm, 750 -1200nm
+Deliver system
+
+Sapphire
+
+Sapphire
+
+SE
+2
+
+Energy density
+
+1-50J/cm²
+
+10-60J/cm
+
+Analysis 1
+
+Pulse Delay
+
+1-50ms
+
+5 - 50ms
+
+Analysis 1
+
+Pulse Width
+
+1-25ms
+
+1-20ms
+
+Analysis 1
+
+Max. Power
+
+2200W
+
+2000 W
+
+SE
+
+MED-210: 15mmX50mm
+(optional: 12mmX33mm,
+12x30mm
+
+Spot size
+
+15mmX35mm )
+MED-230:
+
+Analysis 1
+
+A：12mm X33mm;
+B：15mmX50mm (optional:
+15mmX35mm)
+
+Table 9-3 Setting Comparison of Specified Indication for Use
+ITEM
+
+Proposed Device
+VE2000
+
+Predicate Device
+Intense Pulsed Light (IPL)
+
+Remark
+
+Systems(K122995)
+
+permanent hair reduction
+Wavelength Range
+
+640-1200
+
+640-1200/690-1200/ 750-1200
+
+10-44
+
+10-44
+
+Pulse Width (ms)
+
+3-14
+
+3-14
+
+Pulse Delay (ms)
+
+16-32
+
+16-32
+
+12x30mm
+
+12mm X33mm; 15mmX50mm
+
+(nm)
+Energy Range
+(J/cm2)
+
+Spot Size (mm)
+
+SE
+
+15mmX35mm
+
+pigmented lesions
+Wavelength Range
+(nm)
+Energy Range
+(J/cm2)
+Pulse Width (ms)
+
+480-1200
+
+480-1200/530-1200/560-1200
+
+12-44
+
+12-44
+
+3-9
+
+3-9
+
+SE
+
+7-5
+
+510(k) Summary
+
+Pulse Delay (ms)
+Spot Size (mm)
+
+16-32
+
+16-32
+
+12x30mm
+
+12mm X33mm; 15mmX50mm
+15mmX35mm
+
+vascular lesions
+Wavelength Range
+
+530-1200/560-1200/
+
+590-1200
+
+(nm)
+Energy Range
+
+590-1200
+
+10-42
+
+10-42
+
+Pulse Width (ms)
+
+3-8
+
+3-8
+
+Pulse Delay (ms)
+
+16-32
+
+16-32
+
+12x30mm
+
+12mm X33mm; 15mmX50mm
+
+(J/cm2)
+
+Spot Size (mm)
+
+SE
+
+15mmX35mm
+
+Analysis 1:
+The Energy density, Pulse width and Pulse delay of proposed device is very similar to that of predicate
+device, the difference is very slight, and only in the range, but because the proposed device has narrow
+IFU scope and same IFU setting with the predicate device, the current parameter range is available for the
+indication for use of proposed device. Therefore, the slight difference is considered to have no effect on
+effectiveness and safe.
+Table 9-4 Safety Comparison
+ITEM
+
+Power supply
+Electrical
+Safety
+
+EMC
+Patient Contact
+Material
+
+Proposed Device
+VE2000
+110V 50Hz
+
+Predicate Device
+Intense Pulsed Light (IPL)
+
+Remark
+
+Systems(K122995)
+220V±20V 50Hz or
+110V±20V 60Hz
+
+The proposed devices were
+
+The proposed devices were
+
+tested to demonstrated to
+
+tested to demonstrated to
+
+comply with IEC 60601-1
+
+comply with IEC 60601-1
+
+The proposed devices were
+
+The proposed devices were
+
+tested to demonstrated to
+
+tested to demonstrated to
+
+comply with IEC 60601-1-2
+
+comply with IEC 60601-1-2
+
+Handpiece
+
+Handpiece
+
+SE
+
+SE
+
+SE
+
+SE
+
+Biocompatibility
+Cytotoxicity
+Irritation
+
+Sensitization
+
+No toxicity (ISO 10993-5)
+
+No toxicity (ISO 10993-5)
+
+Applied sample did not
+
+Applied sample did not induce
+
+induce irritation to skin. (ISO
+
+irritation to skin. (ISO
+
+10993-10)
+
+10993-10)
+
+The test article showed no
+
+The test article showed no
+
+signification evidence of
+
+signification evidence of
+
+SE
+SE
+
+SE
+7-6
+
+510(k) Summary
+
+causing skin sensitization
+the guinea pig .(ISO
+
+in
+
+causing skin sensitization
+
+in
+
+the guinea pig .(ISO 10993-10)
+
+10993-10)
+
+9.
+
+Substantially Equivalent (SE) Conclusion
+Based on the comparison and analysis above, the proposed devices are determined to be
+Substantially Equivalent (SE) to the predicate devices.
+
+7-7
+
+

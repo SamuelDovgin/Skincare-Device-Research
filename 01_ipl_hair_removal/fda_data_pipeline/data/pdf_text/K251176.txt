@@ -1,0 +1,1271 @@
+August 14, 2025
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+Libin Liu
+General Manager
+201, 301, Building 28, Cuigang Industrial Zone 2, Huaide
+Community, Fuyong Street, Baoan District, Shenzhen City,
+Shenzhen, 518103
+China
+Re: K251176
+Trade/Device Name: IPL Hair Removal Device (Model(s): T14B, T16B, T19B, T15B, T17C, T18B,
+T21A, T21B, T21C, T21D, T22A, T22B, T25B, T25C)
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: April 15, 2025
+Received: April 16, 2025
+Dear Libin Liu:
+We have reviewed your section 510(k) premarket notification of intent to market the device referenced above
+and have determined the device is substantially equivalent (for the indications for use stated in the enclosure)
+to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment
+date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the
+provisions of the Federal Food, Drug, and Cosmetic Act (the Act) that do not require approval of a premarket
+approval application (PMA). You may, therefore, market the device, subject to the general controls
+provisions of the Act. Although this letter refers to your product as a device, please be aware that some
+cleared products may instead be combination products. The 510(k) Premarket Notification Database
+available at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+
+K251176 - Libin Liu
+
+Page 2
+
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Additional information about changes that may require a new premarket notification are provided in the FDA
+guidance documents entitled "Deciding When to Submit a 510(k) for a Change to an Existing Device"
+(https://www.fda.gov/media/99812/download) and "Deciding When to Submit a 510(k) for a Software
+Change to an Existing Device" (https://www.fda.gov/media/99785/download).
+Your device is also subject to, among other requirements, the Quality System (QS) regulation (21 CFR Part
+820), which includes, but is not limited to, 21 CFR 820.30, Design controls; 21 CFR 820.90, Nonconforming
+product; and 21 CFR 820.100, Corrective and preventive action. Please note that regardless of whether a
+change requires premarket review, the QS regulation requires device manufacturers to review and approve
+changes to device design and production (21 CFR 820.30 and 21 CFR 820.70) and document changes and
+approvals in the device master record (21 CFR 820.181).
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR Part 803) for
+devices or postmarketing safety reporting (21 CFR Part 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR Part 4, Subpart
+A) for combination products; and, if applicable, the electronic product radiation control provisions (Sections
+531-542 of the Act); 21 CFR Parts 1000-1050.
+All medical devices, including Class I and unclassified devices and combination product device constituent
+parts are required to be in compliance with the final Unique Device Identification System rule ("UDI Rule").
+The UDI Rule requires, among other things, that a device bear a unique device identifier (UDI) on its label
+and package (21 CFR 801.20(a)) unless an exception or alternative applies (21 CFR 801.20(b)) and that the
+dates on the device label be formatted in accordance with 21 CFR 801.18. The UDI Rule (21 CFR
+830.300(a) and 830.320(b)) also requires that certain information be submitted to the Global Unique Device
+Identification Database (GUDID) (21 CFR Part 830 Subpart E). For additional information on these
+requirements, please see the UDI System webpage at https://www.fda.gov/medical-devices/device-advicecomprehensive-regulatory-assistance/unique-device-identification-system-udi-system.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+
+K251176 - Libin Liu
+
+Page 3
+
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+signed by
+TANISHA Digitally
+TANISHA L. HITHE -S
+2025.08.14
+L. HITHE -S Date:
+15:36:15 -04'00'
+
+Tanisha Hithe
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical and
+Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 07/31/2026
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K251176
+
+Device Name
+
+IPL Hair Removal Device (Model(s): T14B, T16B, T19B, T15B, T17C, T18B, T21A, T21B, T21C, T21D, T22A, T22B, T25B,
+T25C)
+
+Indications for Use (Describe)
+
+The IPL Hair Removal Device is an over-the-counter device indicated for the removal of unwanted hair such as but not
+limited to small areas such as underarm and facial hair below the chin line and large areas such as legs.
+The device is also indicated for the permanent reduction in hair regrowth, defined as the long term, stable reduction in the
+amount of hair regrowing when measured at 6, 9 and 12 months after the completion of a treatment regime.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (8/23)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+040_510(k) Summary
+
+K251176 - 510(k) Summary
+"510(k) Summary" as required by 21 CFR Part 807.92.
+1. Submitter Information
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+201, 301, Building 28, Cuigang Industrial Zone 2, Huaide Community, Fuyong Street,
+Baoan District, Shenzhen City, Guangdong Province, China.
+Post Code: 518103
+LIU LIBIN
+General Manager
+Tel.: +86 18344147065
+Email: wuxiaotian@mlays.com
+Date Prepared: August 8, 2025
+2. Device Information
+Trade name:
+Model(s):
+Common Name:
+Regulation Class:
+Product Code:
+Review Panel:
+Regulation Number:
+Regulation Description:
+Submission Type:
+3. Predicate Device
+Manufacturer
+Shenzhen
+Intelligent
+Technology
+Ltd.
+
+IPL Hair Removal Device
+T14B, T16B, T19B, T15B, T17C, T18B, T21A, T21B,
+T21C, T21D, T22A, T22B, T25B, T25C
+Light Based Over-The-Counter Hair Removal
+Class II
+OHT
+General & Plastic Surgery
+21CFR 878.4810
+Laser surgical instrument for use in general and plastic
+surgery
+Traditional 510(k)
+
+Predicate Device
+
+Mlay Ice Cooling IPL Home Use Hair
+Removal Device (Model(s):T10B,
+Co., T10C, T15A, T17A, T18A,
+T14A, T16A, T19A)
+Intense Pulsed Light (IPL)
+Shenzhen Fansizhe
+System, model: T023K, T023A,
+Science
+and
+T023B, T023C, T023D, T023E,
+Technology
+Co.,
+T021K, T021A, T001A, T001B,
+Ltd.
+T001M, T001N, T011C, T016K
+Shenzhen
+Ulike
+Ice Cooling IPL Hair Removal
+Smart Electronics
+Device
+Co., Ltd.
+Shenzhen
+Ulike IPL Hair
+Removal Device
+
+510k
+Number
+
+Decision Date
+
+K241106 April 22, 2024
+
+K223928
+
+March
+2023
+
+28,
+
+K242039
+
+October
+2024
+
+25,
+
+K230122 January
+
+17,
+1 / 13
+
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+040_510(k) Summary
+Smart Electronics
+Co., Ltd.
+
+2023
+
+4. Device Description
+The IPL Hair Removal Device is a personal, light-based, hair reduction device
+intended to be sold over-the-counter directly to the end user.
+The device provides hair reduction using Intense Pulsed Light technology(suitable for
+model T21A, T21B and T22A, T22B). The device provides hair reduction using
+Intense Pulsed Light technology and cooling technology (suitable for model T14B,
+T16B, T19B, T15B, T17C, T18B, T21C, T21D, T25B, T25C).
+The Intense Pulsed Light technology works below the skin's surface and does not
+involve any cutting or pulling, reducing hair growth with minimal pain. The device is
+only powered by the external power adapter and its IPL emission activation is by
+finger switch. The device contains a Quartz glass Xenon lamp and a skin sensor to
+detect appropriate skin contact. If the device is not properly and fully applied to the
+skin of the treatment area, the device will not emit light pulses; If the device is
+properly and fully applied to the skin of the treatment area, the device can emit light
+pulses in as quickly as 0.5 seconds. In automatic mode, it supports continuous
+flashing and automatic light emission.
+In auto-recognition skin color mode, the skin tone sensor can detect and identify the
+color of skin, and determine the required intensity based on the recognized skin color.
+Make sure the skin tone sensor is in full contact with the skin. If a valid skin color is
+detected, the corresponding energy level is displayed. If it is not in full contact with
+the skin, the energy level is 0 and no light pulses are emitted.
+The cooling technology based on the temperature difference electrical phenomenon
+through the semiconductor cooling chip inside the IPL main device and uses the
+principle of the Peltier effect to achieve the purpose of cooling function. The cooling
+panel is located around the light-emitting window (suitable for model T14B, T16B,
+T19B) and does not affect the irradiated area (spot size) of the light outlet; The
+cooling panel is constructed with sapphire, (suitable for model T15B, T17C, T18B,
+T21C, T21D, T25B, T25CB) and does not affect the irradiated area (spot size) of the
+light outlet.
+The device is available in two designs: straight-panel and gun-shaped, both featuring
+a compact and lightweight form factor. Moreover, The enterprise has reserved an
+ample quantity of lamp heads to ensure maintenance accessibility and end-user
+convenience.
+5. Indications for Use
+The IPL Hair Removal Device is an over-the-counter device indicated for the removal
+2 / 13
+
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+040_510(k) Summary
+of unwanted hair such as but not limited to small areas such as underarm and facial
+hair below the chin line and large areas such as legs.
+The device is also indicated for the permanent reduction in hair regrowth, defined as
+the long term, stable reduction in the amount of hair regrowing when measured at 6, 9
+and 12 months after the completion of a treatment regime.
+
+6. Comparison of Technological Characteristics With the Predicate Device
+The IPL Hair Removal Device has the same intended use, mode of action and similar
+operational characteristics as the predicate devices. Any minor differences between
+the subject device and the listed predicate devices do no raise any issues of safety or
+efficacy. Performance data supports that the device is safe and as effective as the
+predicate device for its intended use. Therefore, the IPL Hair Removal Device may be
+found substantially equivalent to its predicate device.
+
+3 / 13
+
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+040_510(k) Summary
+
+The IPL Hair Removal Device is compared with the following Predicate Devices in terms of intended use, design, material, specifications, and
+performance:
+Comparison
+Elements
+K Number
+
+Subject Device
+
+Predicate Device 1
+
+Predicate Device 2
+
+Predicate Device 3
+
+Predicate Device 4
+
+Comparison
+
+Pending
+
+K241106
+
+K242039
+
+K230122
+
+/
+
+Trade name
+
+IPL Hair Removal
+Device, Model(s):
+T14B, T16B, T19B,
+T15B, T17C, T18B,
+T21A, T21B, T21C,
+T21D, T22A, T22B,
+T25B, T25C
+
+Ice Cooling IPL Home
+Use Hair Removal;
+Device Model(s):
+T10B, T10C, T15A,
+T17A, T18A, T14A,
+T16A, T19A
+
+K223928
+Intense Pulsed Light
+(IPL) System, model:
+T023K, T023A,
+T023B, T023C,
+T023D, T023E,
+T021K, T021A,
+T001A, T001B,
+T001M, T001N,
+T011C, T016K
+
+Ice Cooling IPL Hair
+Removal
+Device
+
+IPL Hair Removal
+Device
+
+/
+
+Manufacturer
+
+Shenzhen Mlay
+Intelligent Technology
+Co., Ltd.
+
+Shenzhen Mlay
+Intelligent Technology
+Co., Ltd.
+
+Shenzhen Fansizhe
+Science and
+Technology Co., Ltd
+
+Smart Electronics
+
+/
+
+Co., Ltd.
+
+Shenzhen
+Ulike
+Smart Electronics
+Co.,Ltd.
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+Same
+
+OHT
+
+OHT
+
+OHT
+
+OHT
+
+OHT
+
+Same
+
+Class II
+
+Class II
+
+Class II
+
+Class II
+
+Class II
+
+Same
+
+OTC
+
+OTC
+
+OTC
+
+OTC
+
+OTC
+
+Same
+
+Regulation
+number
+Product code
+Device
+classification
+Location for
+use
+
+Shenzhen Ulike
+
+4 / 13
+
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+040_510(k) Summary
+Comparison
+Elements
+
+Subject Device
+
+Predicate Device 1
+
+Predicate Device 2
+
+Predicate Device 3
+
+Predicate Device 4
+
+Comparison
+
+Applicable
+skin
+
+Fitzpatrick Skin
+Phototypes I-V
+
+Fitzpatrick Skin
+Phototypes I-V
+
+Unknown
+
+Fitzpatrick Skin
+Types I-V
+
+Fitzpatrick Skin
+Types I-V
+
+Same
+
+Treatment area
+
+Small areas such as
+underarm and facial
+hair below the chin
+line and large areas
+such as legs.
+
+Large areas(e.g. legs)
+and small
+areas(e.g.underarm,
+facial hair
+below the chin line)
+
+Unknown
+
+large areas (e.g. arms,
+legs, chest) and small
+areas (e.g. lip)
+
+large areas (e.g. arms,
+legs, chest) and small
+areas (e.g. lip)
+
+Same
+
+Power source
+
+An external power
+supply
+
+An external power
+supply
+
+an external power
+supply
+
+Supplied by external
+adapter
+
+Supplied by external
+adapter
+
+Same
+
+T10B, T10C, T15A,
+T17A, T18A:
+48W(12V 4A)
+T14A, T16A, T19A:
+input AC100-240V;
+50/60Hz; 2.5A
+
+Unknown
+
+100-240V~,
+50/60Hz
+
+100-240V~,
+50/60Hz
+
+SE
+NOTE 1
+
+T10B:
+186.8*59.7*42.0 mm
+T10C:186.8*59.7*42.
+0 mm
+T15A:
+
+116*217.8*42mm for
+T023K, T023A,
+T023B, T023C,
+T023D and T023E,
+73.2*81.1*202.2mm
+
+206.73mm*68.68mm*
+54.29mm
+
+60mm*38mm*170mm
+
+SE
+NOTE 1
+
+Power supply
+
+Dimension
+
+T14B,T16B,T19B:
+AC 100-240V,
+50/60Hz, 2.5A MAX
+T15B, T17C, T18B,
+T21A, T21B, T21C,
+T21D, T22A, T22B,
+T25B, T25C:
+AC 100-240V,
+50/60Hz, 1.5A
+T14B:123.8*49.4*176
+.1mm
+T16B:122.0*46.8*175
+.0mm
+T19B:137.0*59.0*197
+
+5 / 13
+
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+040_510(k) Summary
+Comparison
+Elements
+
+Sterilization
+
+Subject Device
+
+Predicate Device 1
+
+Predicate Device 2
+
+.0mm
+T15B:163.0*66.0*43.
+0mm
+T17C:169.5*80.1*52.
+3mm
+T18B:171.0*65.2*45.
+5mm
+T21A:153.6*82.5*50.
+3mm
+T21B:153.6*82.5*50.
+3mm
+T21C:153.6*82.5*50.
+3mm
+T21D:153.6*82.5*50.
+3mm
+T22A:135.8*84.6*49.
+5mm
+T22B:135.8*84.6*49.
+5mm
+T25B:164.0*63.5*41.
+0mm
+T25C:164.0*63.5*41.
+0mm
+Not required
+
+163.0*66.0*43.0 mm
+T17A:
+169.5*80.1*52.3 mm
+T18A:
+171.0*65.2*45.5 mm
+T14A:
+123.8*49.4*176.1 mm
+T16A:
+122.0*46.8*175.0 mm
+T19A:
+137.0*59.0*197.0 mm
+
+for T021K and T021A
+182*78*151mm for
+T001A, T001B,
+T001M
+and T001N,
+211*138*60mm for
+T011C,
+90*44*225mm for
+T016K
+
+Not required
+
+Not required
+
+Predicate Device 3
+
+Predicate Device 4
+
+Comparison
+
+Not required
+
+Not required
+
+Same
+
+6 / 13
+
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+040_510(k) Summary
+Comparison
+Elements
+Wavelength
+range
+Energy
+medium
+
+Subject Device
+
+Predicate Device 1
+
+Predicate Device 2
+
+Predicate Device 3
+
+Predicate Device 4
+
+Comparison
+
+510~1200nm
+
+510~1200nm
+
+510~1200nm
+
+550-1200mm
+
+560-1200nm
+
+SE
+NOTE 2
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Same
+
+Light Source
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Same
+
+Pulsing control
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Same
+
+Delivery
+device
+Max. Fluence
+(J/cm2 )
+
+Direct illumination
+tissue
+
+Direct illumination
+tissue
+
+Direct illumination
+tissue
+
+Direct illumination to
+tissue
+
+Direct illumination to
+tissue
+
+Same
+
+5.90J/cm2
+
+5.23J/cm2
+
+5.75J/cm2
+
+6.41J/c m2
+
+7.2J/cm2
+
+3.1cm2, 3.5cm2,
+3.9cm2
+
+3.5cm2, 3.9cm2
+
+3.0cm2, 3.3cm2,
+3.6cm2, 4.0cm2
+
+3.9cm²
+
+3.3cm²
+1.15-6.2ms
+
+SE
+NOTE 2
+
+Spot size
+Pulse duration
+Software /
+Firmware
+Microprocesso
+r Control?
+Availability of
+skin sensors
+(that used to
+identify the
+
+SE
+NOTE 2
+SE
+NOTE 2
+
+0.4~5.5ms
+
+0.5~8.0ms
+
+4 ~ 12ms
+
+0.93ms~3.50ms Single
+pulse Double pulse
+Triple pulse
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Same
+
+Presence
+
+Presence
+
+Presence
+
+Presence
+
+Presence
+
+Same
+
+7 / 13
+
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+040_510(k) Summary
+Comparison
+Elements
+presence or
+absence of
+skin areas)
+Cooling
+function
+Skin
+pigmentation
+sensor
+
+Indication for
+use /
+intended use
+
+Subject Device
+
+Predicate Device 1
+
+Predicate Device 2
+
+Predicate Device 3
+
+Predicate Device 4
+
+Comparison
+
+Presence
+
+Presence
+
+Presence
+
+Presence
+
+Presence
+
+Same
+
+Detect appropriate
+skin tones
+
+No
+
+Detect appropriate
+skin tones
+
+Detect appropriate
+skin tones
+
+No
+
+SE
+NOTE 3
+
+The IPL Hair Removal
+Device is an
+over-the-counter
+device indicated for
+the removal of
+unwanted hair such as
+but not limited to
+small areas such as
+underarm and facial
+hair below the chin
+line and large areas
+such as legs.
+The device is also
+indicated for the
+permanent reduction
+in hair regrowth,
+
+The Ice Cooling IPL
+Home Use Hair
+Removal Device is an
+over-the-counter
+device indicated for
+the removal of
+unwanted hair such as
+but not limited to
+small areas such as
+underarm and facial
+hair below the chin
+line and large areas
+such as legs.
+The device is also
+indicated for the
+permanent reduction
+
+Ice Cooling IPL Hair
+
+IPL Hair Removal
+
+Removal Device with
+
+Device is indicated
+
+sapphire treatment
+
+for the removal of
+
+window is indicated
+
+unwanted hair. The
+
+The Intense Pulsed
+Light (IPL) System is
+an over - the - counter
+device intended for the
+removal of unwanted
+body hair.
+
+for the removal of
+unwanted hair. The
+device is also
+indicated for the
+permanent reduction
+in hair regrowth,
+defined as the
+long-term, stable
+reduction in the
+
+device is also
+indicated for the
+permanent reduction
+in hair regrowth,
+
+Same
+
+defined as the longterm, stable reduction
+in the number of
+hairs regrowing when
+measured at 6, 9 and
+12 months after the
+
+8 / 13
+
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+040_510(k) Summary
+Comparison
+Elements
+
+Subject Device
+
+Predicate Device 1
+
+defined as the long
+term, stable reduction
+in the amount of hair
+regrowing when
+measured at 6, 9 and
+12 months after the
+completion of a
+treatment regime.
+
+in hair regrowth,
+defined as the long
+term, stable reduction
+in the amount of hair
+regrowing when
+measured at 6, 9 and
+12 months after the
+completion of a
+treatment regime.
+
+IEC60601-1:2005+A
+MD1:2012+AMD2:20
+20 CVS
+Electrical
+safety
+statement &
+EMC safety
+statement
+
+IEC60601-1-6:2010+
+AMD1:2013+AMD2:
+2020 CSV
+IEC60601-1-11:2015+
+AMD1:2020 CVS
+IEC60601-1-2:2014/A
+MD1:2020
+IEC TS
+60601-4-2:2024
+
+Photobiologica
+l statement
+
+IEC60601-2-57:2011
+IEC60601-2-83:2019+
+
+IEC60601-1:2005+A
+MD1:2012+AMD2:20
+20 CVS
+IEC60601-1-6:2010+
+AMD1:2013+AMD2:
+2020 CSV
+IEC60601-1-11:2015+
+AMD1:2020 CVS
+IEC60601-1-2:2014/A
+MD1:2020
+IEC60601-2-57:2011
+IEC60601-2-83:2019+
+
+Predicate Device 2
+
+Predicate Device 3
+
+Predicate Device 4
+
+number of hairs
+
+completion of a
+treatment regime.
+
+regrowing
+
+Comparison
+
+when measured at 6, 9
+and 12 months after
+the completion of a
+treatment regime.
+
+ANSI AAMI
+ES60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+
+IEC 62471
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-57
+IEC 60601-2-83
+
+IEC 62471
+
+ANSI
+
+AAMI
+
+ES60601-1
+IEC 60601-1-2
+
+SE
+
+IEC 60601-1-11
+
+NOTE 4
+
+IEC 60601-2-57
+IEC 60601-2-83
+
+IEC 62471
+
+SE
+NOTE 4
+
+9 / 13
+
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+040_510(k) Summary
+Comparison
+Elements
+
+Materials
+statement
+
+Subject Device
+
+Predicate Device 1
+
+AMD1:2022 CSV
+
+AMD1:2022 CSV
+IEC62471:2006
+
+IEC62471:2006 &
+IEC62471:2008
+ISO10993-1:2018
+ISO10993-5:2009
+ISO10993-10:2021
+ISO10993-23:2021
+
+ISO10993-1:2018
+ISO10993-5:2009
+ISO10993-10:2021
+ISO10993-23:2021
+
+Predicate Device 2
+
+ISO 10993-5
+ISO 10993-10
+
+Predicate Device 3
+
+ISO 10993-5
+ISO 10993-10
+ISO 10993-23
+
+Predicate Device 4
+
+Comparison
+
+ISO 10993-5
+
+SE
+
+ISO 10993-10
+
+NOTE 4
+
+Comparison in details:
+NOTE 1: Although the "power supply", "Product appearance", "Dimensions", "Weight", "Environment for operation" and "Environment for
+storage" of subject device is a little different from the predicate devices, it will not affect the main function and the intended use of the
+subject device as they all also comply with IEC60601-1 requirements. Besides, the subtle change of the physical characteristics will not
+affect the critical functions or normal use.
+NOTE 2: Although the "Wavelength range", "Spot size", "Energy density", and "pulse duration" of subject device is a little different from the
+predicate devices; they are very similar, and it will not affect the main function and the intended use of the subject device as they all also comply
+with IEC60601-1, IEC60601-1-6, IEC60601-11 requirements, so these parameters' differences will not raise any safety or effectiveness issue.
+Also, the "Wavelength range", "Spot size", "Energy density", and "pulse duration" of the subject device is different from the predicate, but its
+value is within the range of other predicate devices. so this parameter's difference will not raise any safety or effectiveness issue.
+NOTE 3:Although there is a difference of the skin pigmentation sensor between the subject device and predicate device 1, but the predicate
+device 2 and 3 also have the skin pigmentation sensor to detect appropriate skin tones, so such difference would not raise safety or effectiveness
+issue.
+10 / 13
+
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+040_510(k) Summary
+
+NOTE 4: According to the FDA regulation classification and device characteristics, the subject device belongs to the OHT product code, the
+regulation recommends that such products comply with the IEC62471 standard requirements. In addition, the relevant tests shall be selected to
+prove the safety and effectiveness of the subject device according to its design characteristics and features. The battery of testing was
+performed to, and passed, including:
+1) The subject device is powered by an external device and belongs to an active medical device, so the device needs to be tested for 'electrical
+safety and electromagnetic compatibility' in accordance with the requirements of the standard IEC60601-1 and IEC60601-1-2;
+2) And the subject device belongs to a medical electrical equipment, so the device needs to be tested for the 'General requirements for basic
+safety and essential performance - Collateral standard: Usability' in accordance with the requirements of the standard IEC60601-1-6;
+3) And the subject device belongs to a household medical device, so the device needs to be tested for 'the requirements for medical electrical
+equipment and medical electrical systems used in the home healthcare environment' in accordance with the requirements of the standard
+IEC60601-1-11;
+4) And the subject device is a household light source (non-laser) equipment, so the device needs to be tested for 'the particular requirements for
+the basic safety and essential performance of such devices' in accordance with the requirements of the standard IEC60601-2-57 and/or
+IEC60601-2-83.
+
+11 / 13
+
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+040_510(k) Summary
+7. Performance Data
+The following performance data were provided in support of the substantial
+equivalence determination.
+1) Biocompatibility Testing
+The biocompatibility evaluation for the body-contacting components of the subject
+device was conducted in accordance with the "Use of International Standard ISO
+10993-1, Biological Evaluation of Medical Devices-Part 1: Evaluation and Testing
+Within a Risk Management Process", as recognized by FDA. The battery of testing
+was performed to, and passed, including:
+ ISO 10993-5:2009 Biological evaluation of medical devices - Part 5: Tests for in
+vitro cytotoxicity
+ ISO 10993-10:2021 Biological evaluation of medical devices - Part 10:
+Tests for irritation and skin sensitization
+ ISO 10993-23:2021 Biological evaluation of medical devices - Part 23:
+Tests for irritation
+2) Electrical Safety and EMC Safety
+Electrical safety and Eye safety testing was performed to, and passed, the following
+standards:
+ IEC 60601-1 Medical electrical equipment - Part 1: General requirements for
+basic safety and essential performance (IEC 60601-1:2005 MOD) [Including
+Amendment 2 (2021)]
+ IEC 60601-1-2:2014/AMD1:2020 Medical electrical equipment - Part 1-2:
+General requirements for basic safety and essential performance - Collateral
+Standard: Electromagnetic disturbances - Requirements and tests
+ IEC60601-1-6:2010/AMD1:2013/AMD2:2020 Medical electrical equipment Part 1-6: General requirements for basic safety and essential performance Collateral standard: Usability
+ IEC 60601-1-11 Medical Electrical Equipment -- Part 1-11: General requirements
+for basic safety and essential performance -- Collateral Standard: Requirements
+for medical electrical equipment and medical electrical equipment and medical
+electrical systems used in the home healthcare environment (IEC
+60601-1-11:2015 MOD) [Including Amendment1 (2021)]
+ IEC 60601-2-57:2011 Medical Electrical Equipment - Part 2-57:
+Particular requirements for the basic safety and essential performance of nonlaser light source equipment intended for therapeutic diagnostic
+monitoring and cosmetic/aesthetic use
+ IEC 60601-2-83:2019/AMD1:2022 Medical Electrical Equipment - Part
+2-83: Particular requirements for the basic safety and essential performance of
+home light therapy equipment
+3) Eye Safety
+ IEC 62471:2006 Photobiological safety of lamps and lamp systems
+12 / 13
+
+Shenzhen Mlay Intelligent Technology Co., Ltd.
+040_510(k) Summary
+4) Software Verification and Validation
+In this 510(k) submission, the software documentation are the basic documentation .
+System validation testing presented in this 510(k) demonstrated that all software
+requirement specifications are met and all software hazards have been mitigated to
+acceptable risk levels.
+
+Summary
+Based on the above performance as documented in this application, the subject device
+IPL Hair Removal Device was found to have a safety and effectiveness profile that
+is similar to the predicate device.
+8. Conclusion
+In accordance with the Federal Food, Drug and Cosmetic Act, 21 CFR Part 807 and
+based on the comparison of intended use, design, materials and performance, the
+subject device IPL Hair Removal Device is to be concluded substantially equivalent
+to its predicate devices.
+
+13 / 13
+
+

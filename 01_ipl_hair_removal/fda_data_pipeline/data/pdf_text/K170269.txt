@@ -1,0 +1,627 @@
+DEPARTMENT OF HEALTH & HUMAN SERVICES
+
+Public Health Service
+
+Food and Drug Administration
+10903 New Hampshire Avenue
+Document Control Center - WO66-G609
+Silver Spring, MD 20993-0002
+
+May 3, 2017
+Oriental Inspiration Limited
+Andy Wu
+Director
+Unit 607, The Lakeside 2, West Wing, No. 10
+Science Park West Avenue
+Hong Kong, CN
+Re: K170269
+Trade/Device Name: Hee Hr Mini
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And
+In Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: October 17, 2016
+Received: January 27, 2017
+Dear Andy Wu:
+We have reviewed your Section 510(k) premarket notification of intent to market the device
+referenced above and have determined the device is substantially equivalent (for the indications
+for use stated in the enclosure) to legally marketed predicate devices marketed in interstate
+commerce prior to May 28, 1976, the enactment date of the Medical Device Amendments, or to
+devices that have been reclassified in accordance with the provisions of the Federal Food, Drug,
+and Cosmetic Act (Act) that do not require approval of a premarket approval application (PMA).
+You may, therefore, market the device, subject to the general controls provisions of the Act. The
+general controls provisions of the Act include requirements for annual registration, listing of
+devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability
+warranties. We remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA),
+it may be subject to additional controls. Existing major regulations affecting your device can be
+found in the Code of Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may
+publish further announcements concerning your device in the Federal Register.
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean
+that FDA has made a determination that your device complies with other requirements of the Act
+or any Federal statutes and regulations administered by other Federal agencies. You must comply
+
+Page 2 - Andy Wu
+
+K170269
+
+with all the Act's requirements, including, but not limited to: registration and listing (21 CFR
+Part 807); labeling (21 CFR Part 801); medical device reporting (reporting of medical devicerelated adverse events) (21 CFR 803); good manufacturing practice requirements as set forth in
+the quality systems (QS) regulation (21 CFR Part 820); and if applicable, the electronic product
+radiation control provisions (Sections 531-542 of the Act); 21 CFR 1000-1050.
+If you desire specific advice for your device on our labeling regulation (21 CFR Part 801), please
+contact the Division of Industry and Consumer Education at its toll-free number (800) 638-2041
+or (301) 796-7100 or at its Internet address
+http://www.fda.gov/MedicalDevices/ResourcesforYou/Industry/default.htm. Also, please note
+the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21
+CFR Part 803), please go to
+http://www.fda.gov/MedicalDevices/Safety/ReportaProblem/default.htm for the CDRH's Office
+of Surveillance and Biometrics/Division of Postmarket Surveillance.
+You may obtain other general information on your responsibilities under the Act from the
+Division of Industry and Consumer Education at its toll-free number (800) 638-2041 or (301)
+796-7100 or at its Internet address
+http://www.fda.gov/MedicalDevices/ResourcesforYou/Industry/default.htm.
+Sincerely,
+
+Jennifer R. Stevenson -S
+For Binita S. Ashar, M.D., M.B.A., F.A.C.S.
+Director
+Division of Surgical Devices
+Office of Device Evaluation
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: January 31, 2017
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K170269
+Device Name
+
+HEE HR Mini
+
+Indications for Use (Describe)
+
+HEE HR Mini is an over-the-counter device intended for the removal of unwanted hair. The HEE HR Mini is also
+intended for permanent reduction in hair regrowth, defined as a long-term, stable reduction in the number of hairs
+regrowing when measured at 6, 9, and 12 months after the completion of treatment regimen.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (8/14)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+Department of Health and Human Services
+Centre of Device and Radiological Health
+Office of Device Evaluation
+Traditional 510(k) section
+
+510(K) SUMMARY OF SAFETY AND EFFECTIVENESS INFORMATION
+as required by section 21 CFR 807.92
+
+1. Submitter of 510(K):
+Company Name:
+Address:
+Contact person:
+TEL:
+FAX:
+E‐mail:
+Date of Prepared:
+
+Oriental Inspiration Limited
+Unit 607, The Lakeside 2, West Wing, No. 10 Science Park West
+Avenue, Hong Kong Science Park, Shatin, N.T. Hong Kong.
+Mr. Andy Wu
++(852) 2687 3496
++(852) 2687 4148
+andy_wu@netop.com.hk
+
+10/20/2016
+
+2. Proposed Device and code:
+Device Trade Name:
+
+HEE HR Mini
+
+Regulation Medical
+
+General & Plastic Surgery
+
+Specialty
+Product Code:
+
+OHT
+
+Regulation number
+
+878.4810
+
+Device Class
+
+2
+
+3. Predicate Device:
+510(K)
+
+Trade or Proprietary or Model Name
+
+Manufacturer
+
+K140381
+
+sensiLight (sensiLight and sensiLight Plus)
+
+EL Global Trade Ltd.
+
+K141242
+
+Glide device
+
+Home skinovations Ltd
+
+4. Description of Proposed Device:
+The HEE HR Mini devices are pulsed light hair removal device. Light‐based hair removal is based on
+the theory of selective photothermolysis in which optical energy is used to disable hair growth. The
+HR Mini devices are composed of a hand held applicator and an external power supply. The spot
+size (treatment area) in the HR Mini devices is 3 cm2. The device contains a lamp, a skin proximity
+1/5
+
+sensor and a skin color sensor to detect appropriate skin tones. If the HR Mini is not properly
+applied (in full contact with the skin) or user skin tone is too dark/tanned, the HR Mini will not
+trigger a pulse.
+The device has an on/off button, skin color sensor, light exit window, flash button, led indicator,
+two intensity button, socket for battery charging.
+5. Intended for Use
+HEE HR Mini is an over‐the‐counter device intended for the removal of unwanted hair. The HEE
+HR Mini is also intended for permanent reduction in hair regrowth, defined as a long‐term,
+stable reduction in the number of hairs regrowing when measured at 6, 9, and 12 months after
+the completion of treatment regimen.
+6. Technical and Performance
+The following table compares the device to the predicate device with basic technological
+characteristics.
+New device
+Predicate device
+Predicate device
+Remark
+Parameter
+K140381
+K141242
+‐(to be assigned)
+510(k)
+Number
+sensiLight (sensiLight and
+Glide device
+‐Device Name HEE HR Mini
+sensiLight
+Plus)
+and Model
+Manufacturer Oriental Inspiration
+Regulation
+Number
+Intend of use
+
+Operation
+
+EL Global Trade Ltd.
+
+Home skinovations Ltd
+
+‐‐
+
+878.4810
+
+878.4810
+
+SE
+
+HEE HR Mini is an
+over‐the‐counter device
+intended for the removal
+of unwanted hair. The
+HEE HR Mini is also
+intended for permanent
+reduction in hair
+regrowth, defined as a
+long‐term, stable
+reduction in the number
+of hairs regrowing when
+measured at 6, 9, and 12
+months after the
+completion of treatment
+regimen.
+
+The sensiLight is an over
+the counter device
+intended for the removal
+of unwanted hair. The
+sensiLight is also intended
+for permanent reduction
+in hair regrowth, defined
+as a long‐term, stable
+reduction in the number
+of hairs re‐growing when
+measured at 6, 9, and 12
+months after the
+completion of treatment
+regimen.
+
+The Glide device is an over SE
+the counter device
+intended for the removal of
+unwanted hair. The Glide
+device is also intended for
+permanent reduction in
+hair regrowth, defined as a
+long‐term, stable reduction
+in the number of hairs
+re‐growing when measured
+at 6, 9, and 12 months afte
+the completion of
+treatment regimen.
+
+Photothermolysis. Light
+
+Photothermolysis. Light
+
+Photothermolysis. Light
+
+Limited
+878.4810
+
+2/5
+
+SE
+
+Principle
+
+energy is absorbed,
+heats
+the hair follicles and
+interrupts the growth
+cycle.
+Home Pulsed Light
+
+energy is absorbed, heats
+the hair follicles and
+interrupts the growth
+cycle.
+
+energy is absorbed, heats
+the hair follicles and
+interrupts the growth
+cycle.
+
+Home Pulsed Light
+
+Home Pulsed Light
+
+SE
+
+• The 1–4 treatments
+will be approximately
+two weeks apart
+• Followed by 5‐7
+treatments plan four
+week time intervals.
+• Treatments 8 and
+after: Treat as needed
+until decided results are
+achieved
+
+• The 1–4 treatments will
+be approximately two
+weeks apart
+• Followed by 5‐7
+treatments plan four week
+time intervals.
+• Maintenance will be
+needed from time to time
+if growth is still visible
+
+SE
+
+Safety
+
+IEC 60601‐1:2005
+IEC 60601‐1‐11:2010
+IEC 60601‐2‐57:2011
+IEC 62471:2006
+IEC 60601‐1‐2:2013
+
+IEC 60601‐1:2005
+IEC 60601‐1‐11:2010
+IEC 60601‐2‐57:2011
+IEC 62471:2006
+IEC 60601‐1‐2:2013
+
+• The 1–4 treatments
+will
+be approximately two
+weeks apart
+• Followed by 5‐7
+treatments plan four
+week time intervals.
+• Treatments 8 and
+after: Treat as needed
+until decided results are
+achieved
+IEC 60601‐1:2005
+IEC 60601‐2‐57:2011
+IEC 60601‐1‐2:2013
+IEC 62471:2006
+
+Optical
+aperture
+
+3 [cm ]
+
+2.7 [cm2]
+
+Same as
+
+Emitted
+Spectrum
+Max energy
+level
+(fluence)
+User
+selectable
+Energy levels
+
+475-1200 [nm]
+
+475-1200 [nm]
+
+475-1200 [nm]
+
+K140381, and
+different with
+K141242,
+Note 1
+SE
+
+5 [joules/cm2]
+
+5 [joules/cm2]
+
+5 [joules/cm2]
+
+SE
+
+8
+
+3
+
+5
+
+Different
+with
+
+Technology
+Comparison
+of treatment
+regime
+
+2
+
+Performance Features
+3 [cm2]
+
+500‐800 [uSec]
+Single pulse
+duration
+OTC
+Use
+Classification
+Power Supply External power supply
+
+SE
+
+500‐800 [uSec]
+
+500‐800 [uSec]
+
+K141242, and
+K140381,
+Note 1
+SE
+
+OTC
+
+OTC
+
+SE
+
+External power supply
+
+External power supply
+
+SE
+
+3/5
+
+100‐240 VAC, 50‐60Hz
+0.8A
+
+110‐240 VAC, 50‐60Hz
+to 19VDC, 1.8A
+
+100‐240 VAC, 50‐60Hz
+2A
+
+Note 1
+
+Safety Features
+Close contact
+detector
+
+Prevent the activation of
+the device while not in
+close contact with the
+skin.
+
+Prevent the activation of
+the device while not in
+close contact with the
+skin.
+
+Prevent the activation of
+the device while not in
+close contact with the
+skin.
+
+SE
+
+Pigmentation
+level detector
+Darkest skin
+allowed
+Materials
+
+Optical – does not allow
+activation on dark skin
+
+Optical – does not allow
+activation on dark skin
+
+Optical – does not allow
+activation on dark skin
+
+SE
+
+Fitzpatrick 4
+
+Fitzpatrick 4
+
+Fitzpatrick 4
+
+SE
+
+Top, Side and Bottom
+shell ‐ ABS/PC plastic
+(Acrylonitrile butadiene
+styrene/PolyCarbonate)
+
+Top, Side and Bottom shell ‐ Device outer body ABS/PC plastic (Acrylonitrile ABS/PC plastic
+butadiene
+(Acrylonitrile butadiene
+styrene/PolyCarbonate)
+styrene/PolyCarbonate)
+
+Optical Filter ‐ Color
+glass which purpose is of
+an optical long pass
+filter tested for
+biocompatibility
+
+Optical Filter ‐ Color glass
+which purpose is of an
+Optical Filter ‐ Color glass
+optical long pass filter tested which purpose is of an
+for biocompatibility
+optical long pass filter
+tested for
+biocompatibility
+
+Overall Design The HEE HR Mini device
+is light based hair
+removal system
+composed of a
+hand‐held applicator.
+
+The sensiLight device is
+light based hair removal
+system composed of a
+hand‐held applicator.
+
+The Glide device is light
+based hair removal
+system composed of a
+hand held applicator.
+
+SE
+
+SE
+
+Note 1
+Although it is a little different from the predicate devices, it will not affect the main function and the intended use of
+the device. They all also comply with safety and performance requirements. So the differences will not raise any safety
+or effectiveness issue.
+
+7. PERFORMANCE DATA
+The testing for HEE HR Mini included performance, software, electrical safety, EMC,
+biocompatibility and bench. HEE HR Mini passed all testing in support of the substantial
+equivalence determination:
+7.1.
+
+Biocompatibility testing
+
+The biocompatibility evaluation for the HEE HR Mini was conducted in accordance with
+International Standard ISO 10993‐1 “Biological Evalua on of Medical Devices − Part 1: Evalua on
+4/5
+
+and Testing Within a Risk Management Process.” As dictated by the application and duration of
+contact with the intact skin, the enclosure of testing included the following tests:
+ Cytotoxicity
+ Sensitization
+ Irritation
+7.2.
+
+Electrical safety and electromagnetic compatibility
+
+Electrical safety, performance and EMC testing were conducted on the HEE HR Mini. The device
+with compliance with the IEC 60601‐1, IEC 60601‐1‐11, IEC 60601‐2‐57 and IEC 62471 standards for
+safety and the IEC 60601‐1‐2 standard for EMC.
+7.3.
+
+Software Verification and Validation Testing
+
+Software verification and validation testing were conducted and documentation was provided as
+recommended by FDA’s Guidance for Industry and FDA Staff, “Guidance for the Content of
+Premarket Submissions for Software Contained in Medical Devices.” The software for this device
+was considered as a “Moderate” level of concern.
+8. Conclusions:
+The proposed device has the same intended use and similar characteristics as the predicate device,
+the sensiLight (sensiLight and sensiLight Plus) (K140381) and Glide device (K141242). Meanwhile,
+performance testing, bench testing, and safety report documentation supplied in this submission
+demonstrates that any differences in their technological characteristics do not raise any new
+questions of safety or effectiveness.
+Based on performance testing, the proposed device is Substantially Equivalent (SE) to the predicate
+device.
+
+5/5
+
+

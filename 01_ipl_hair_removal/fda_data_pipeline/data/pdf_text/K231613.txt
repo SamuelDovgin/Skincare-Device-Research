@@ -1,0 +1,812 @@
+July 31, 2023
+Zhuzhou Goldenhot Medical Technology Co., Ltd.
+℅ Candice Qui
+Registration Engineer
+Feiying Drug & Medical Consulting Technical Service Group
+Rm 2401 Zhenye International Business Center, No. 3101-90
+Qianhai Road
+Shenzhen, Guangdong 518052
+China
+Re: K231613
+Trade/Device Name: Intense pulsed light device, Model(s): DE01A-B, DE01A-G, DE01B-B, DE01BG, DE01C-B, DE01C-G, DE02A-B, DE02A-G, DE02B-B, DE02B-G, DE02C-B,
+DE02C-G.
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: June 1, 2023
+Received: June 2, 2023
+Dear Candice Qui:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.06.03
+
+K231613 - Candice Qui
+
+Page 2
+
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Jianting Wang -S
+Jianting Wang
+Acting Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2023
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K231613
+
+Device Name
+
+Intense pulsed light device
+Model(s): DE01A-B, DE01A-G, DE01B-B, DE01B-G, DE01C-B, DE01C-G, DE02A-B, DE02A-G, DE02B-B, DE02B-G, DE02C-B,
+DE02C-G
+
+Indications for Use (Describe)
+
+The Intense pulsed light device is an over-the-counter device, intended for removal of unwanted body and/or facial hair.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (6/20)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+Zhuzhou Goldenhot Medical Technology Co.,Ltd.
+
+510(k)s –Section 8. 510(k) Summary
+
+510(k) Summary - K231613
+"510(k) Summary" as required by 21 CFR Part 807.92.
+I.
+
+Submitter
+Zhuzhou Goldenhot Medical Technology Co.,Ltd.
+Room 301, Plant C-3, Phase 5, Xinma Power Innovation Park, No. 889, Xianyue huan Road,
+Majiahe Street,Tianyuan District, Zhuzhou City, Hunan Province, China
+Post code: 412007
+Tel.: +86 0731 28589339
+Liu Xianwu
+Deputy Manager
+Tel: +86 13808497058
+Email: 2850977367@qq.com
+
+II. Device
+Name of Device: Intense pulsed light device
+Model(s): DE01A-B, DE01A-G, DE01B-B, DE01B-G, DE01C-B, DE01C-G, DE02A-B,
+DE02A-G, DE02B-B, DE02B-G, DE02C-B, DE02C-G
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+
+III. Predicate Device and Reference Device
+Predicate device:
+Manufacturer
+
+Predicate Device
+510(k) Number
+Intense Pulsed Light (IPL)
+System
+(T023K, T023A, T023B,
+Shenzhen Fansizhe Science
+T023C, T023D, T023E, K223928
+And Technology Co., Ltd
+T021K, T021A, T001A,
+T001B, T001M, T001N,
+T011C, T016K)
+
+Approval Date
+
+March 28, 2023
+
+Reference device:
+Manufacturer
+
+Reference Device
+IPL HAIR REMOVAL
+
+Shenzhen
+Junbobeauty
+Technology Co., Ltd
+HANDSET (IPL-666)
+
+510(k) Number
+
+Approval Date
+
+K220669
+
+May 16, 2022
+
+Page 1 of 7
+
+Zhuzhou Goldenhot Medical Technology Co.,Ltd.
+
+510(k)s –Section 8. 510(k) Summary
+
+IV. Device Description
+The Intense pulsed light device is a personal, light-based, hair reduction device. The device
+provides hair reduction using IPL technology. Of which, the Device includes DE01A-B, DE01AG, DE01B-B, DE01B-G, DE01C-B, DE01C-G, DE02A-B, DE02A-G, DE02B-B, DE02B-G,
+DE02C-B, DE02C-G twelve models. All have adopted the same structure design, consisting of
+Intense pulsed light device main body and power adapter two parts, and one non-removable lamp
+head (light-emitting treatment window) located in the main body which is the source of optical
+radiation, namely a Xenon flashlamp. Meanwhile, the device is powered from power adapter via
+an external power. The difference of all models is mainly product size, appearance, sapphire, skin
+color recognition function and enclosure color, DE01A series means without sapphire and skin
+color recognition function. DE01B series means with sapphire, but without skin color recognition
+function. DE01C series means with sapphire and skin color recognition function. DE02A series
+means without sapphire and skin color recognition function. DE02B series means with sapphire,
+but without skin color recognition function. DE02C series means with sapphire and skin color
+recognition function. Letter -B the enclosure color is blue, letter -G is green, which do not affect
+the intended use.
+
+V. Indications for Use
+The Intense pulsed light device is an over-the-counter device, intended for removal of unwanted
+body and/or facial hair.
+
+VI. Materials
+Component
+name
+Intense pulsed
+light device
+(Enclosure)
+
+Material of Component
+
+Body Contact Category
+
+ABS, PC, POM
+
+Surface-contacting
+device: Intact skin
+
+Contact Duration
+Less than 24 hours
+
+We have tested the device for biocompatibility by a reliable third-party lab. For details, please
+refer to Section 16 “Biocompatibility Discussion”.
+
+VII.Comparison of Technological Characteristics With the Predicate Device
+The Intense pulsed light device has the same intended use, mode of action and similar operational
+characteristics as the predicate device. Any minor differences between the subject device and the
+listed predicate device and reference device do no raise any issues of safety or efficacy.
+Performance data supports that the device is safe and as effective as the predicate device and
+reference device for its intended use. Therefore, the Intense pulsed light device may be found
+substantially equivalent to its predicate device and reference device.
+Page 2 of 7
+
+Zhuzhou Goldenhot Medical Technology Co.,Ltd.
+
+510(k)s –Section 8. 510(k) Summary
+
+Intense pulsed light device is compared with the following Predicate Device and Reference
+Device in terms of intended use, design, material, specifications, and performance:
+Comparison
+Elements
+
+Subject Device
+
+510(k)
+Number
+
+Pending
+
+K223928
+
+Intense pulsed light
+device
+Model: DE01A-B,
+DE01A-G, DE01BB, DE01B-G,
+DE01C-B, DE01CG, DE02A-B,
+DE02A-G, DE02BB, DE02B-G,
+DE02C-B, DE02CG
+Zhuzhou Goldenhot
+Medical
+Technology
+Co.,Ltd
+
+Intense Pulsed Light
+(IPL) System
+Model: T023K,
+T023A, T023B,
+IPL HAIR REMOVAL
+T023C, T023D,
+HANDSET
+T023E, T021K,
+Model: IPL-666
+T021A, T001A,
+T001B, T001M,
+T001N, T011C,
+T016K
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+Same
+
+OHT
+
+OHT
+
+OHT
+
+Same
+
+Class II
+
+Class II
+
+Class II
+
+Same
+
+Trade name
+
+Manufacturer
+Regulation
+number
+Product code
+Device
+classification
+
+The Intense pulsed
+light device is an
+Indication for over-the-counter
+use/ Intended device, intended for
+use
+removal
+of
+unwanted
+body
+and/or facial hair.
+
+Prescription
+or OTC
+Applicable
+skin
+
+OTC
+Fitzpatrick
+Types I-V
+
+Predicate Device
+
+Reference Device
+
+K220669
+
+Remark
+
+/
+
+/
+
+Shenzhen Fansizhe
+Shenzhen Junbobeauty
+Science
+And
+/
+Technology Co., Ltd
+Technology Co., Ltd
+
+The Intense Pulsed
+Light (IPL) System
+is an over-thecounter device
+
+IPL HAIR REMOVAL
+HANDSET is an overthe-counter
+device
+Same
+intended for removal of
+intended for the unwanted body and/or
+removal of unwanted facial hair.
+body hair.
+
+OTC
+
+OTC
+
+Same
+
+Skin Fitzpatrick
+Skin Fitzpatrick skin types I
+Same
+Phototypes I-V
+-V
+Page 3 of 7
+
+Zhuzhou Goldenhot Medical Technology Co.,Ltd.
+
+510(k)s –Section 8. 510(k) Summary
+
+Comparison
+Elements
+
+Subject Device
+
+Treatment
+area
+
+Small areas such as
+bikini line.
+Large areas such as
+arms, legs.
+
+Predicate Device
+Used on facial hair
+below the chin line,
+arms,
+legs,
+underarms,
+bikini
+line.
+
+Reference Device
+
+Remark
+
+Used on facial hair
+below the chin line,
+Similar
+arms, legs, underarms,
+bikini line.
+
+Device design
+Power source
+
+Power supply
+
+Dimension
+
+An external power An external power
+supply
+supply
+Input: AC 100 ～
+240V , 50/60 Hz,
+Unknown
+1.0A
+Output: 24V⎓2.5A
+116*217.8*42mm
+DE01A-B, DE01A- for T023K, T023A,
+G:
+T023B, T023C,
+218(W)x77(H)x97( T023D and T023E
+L)mm
+DE01B-B, DE01B- 73.2*81.1*202.2mm
+G,
+DE01C-B, for T021K and
+T021A
+DE01C-G:
+218(W)x77(H)x103
+(L)mm DE02A-B, 182*78*151mm for
+T001A, T001B,
+DE02A-G:
+178(W)x67(H)x150 T001M and T001N
+(L)mm
+211*138*60mm for
+DE02B-B, DE02B- T011C
+G,
+DE02C-B,
+DE02C-G:
+90*44*225mm for
+183(W)x67(H)x150 T016K
+(L)mm
+
+Sterilization
+Not required
+Output specification
+Intense
+Pulsed
+Light source
+Light
+Energy
+Xenon Flashlamp
+medium
+Wavelength
+510-1200nm
+range
+Energy
+Body mode: 1.2 ~
+4.1 J/cm2
+density
+
+Supplied by external
+Same
+adapter
+100-240V AC Input
+12V3A DC Output
+
+Different
+
+124 x83 x 48.5mm
+
+Different
+
+Not required
+
+Not required
+
+Same
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Same
+
+Xenon
+Flashlamp
+
+Arc Xenon Quartz Tube
+
+Similar
+
+510-1200nm
+
+470-1100 nm
+
+Similar
+
+5.5J/cm2 for T023K,
+
+1.3-2.49 J/cm²
+
+Similar
+
+Page 4 of 7
+
+Zhuzhou Goldenhot Medical Technology Co.,Ltd.
+
+510(k)s –Section 8. 510(k) Summary
+
+Comparison
+Elements
+
+Output energy
+
+Spot size
+
+Pulse duration
+
+Subject Device
+
+Predicate Device
+
+T023A, T023B,
+T023C, T023D and
+T023E,
+4.8J/cm2 for T021K
+and T021A,
+Face mode : 1.2 ~
+4.7J/cm2 for T001A,
+4.1 J/cm2
+Bikini mode: 1.2 ~
+T001B, T001M and
+4.1 J/cm2
+T001N,
+5.75J/cm2
+for
+T011C,
+5.73J/cm2
+for
+T016K
+6.5J ~ 16.6J for
+T023K,
+T023A,
+T023B,
+T023C,
+T023D and T023E
+5.6J ~ 14.5J for
+Body: 6.4-14.0 J
+T021K and T021A
+Face: 5.6-11.9 J
+7.3J ~ 18.6J for
+Bikini line: 5.7T001A,
+T001B,
+12.8 J
+T001M and T001N
+5.3 J ~ 20.7J for
+T011C
+4.8J ~ 18.9J for
+T016K
+3.0cm2 for T023K,
+T023A,
+T023B,
+T023C,
+T023D,
+T023E, T021K and
+T021A,
+3.9 cm2
+4.0cm2 for T001A,
+T001B, T001M and
+T001N,
+3.6cm2 for T011C,
+3.3cm2 for T016K
+Body
+mode: 4 ~ 12ms
+7.0±2.0 ~ 9.0±2.0
+ms
+Face mode: 8.0±2.0
+~ 10.0±2.0 ms
+
+Reference Device
+
+Level 1: 3.92J
+Level 2: 4.72J
+Level 3: 5.62J
+Level 4: 6.49J
+Level 5: 7.48J
+
+3 cm²
+
+11.5-15 ms
+
+Remark
+
+Similar
+
+Similar
+
+Similar
+
+Page 5 of 7
+
+Zhuzhou Goldenhot Medical Technology Co.,Ltd.
+
+510(k)s –Section 8. 510(k) Summary
+
+Comparison
+Elements
+
+Subject Device
+
+Predicate Device
+
+Reference Device
+
+Remark
+
+Bikini
+mode:
+9.0±2.0 ~ 11.0±2.0
+ms
+Pulsing
+Finger switch
+control
+Delivery
+Direct illumination
+device
+to tissue
+Output
+5 Levels
+intensity level
+Software/
+Firmware/
+Yes
+Microprocess
+or Control?
+Additional features
+
+Electrical
+safety
+
+Eye safety
+Biocompatibil
+ity
+
+Finger switch
+
+Finger switch
+
+Same
+
+Direct illumination Direct illumination to
+Same
+to tissue
+tissue
+Unknown
+
+5 Levels
+
+Same
+
+Yes
+
+Yes
+
+Same
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-6
+IEC 60601-1-11
+IEC 60601-2-83
+
+ANSI
+AAMI
+ES60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC60601-2-83
+
+IEC 60601-1,
+IEC 60601-1-2
+IEC 60601-1-11,
+IEC60601-2-83,
+IEC 62471
+
+Same
+
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+ISO 10993-23
+
+IEC 62471
+
+IEC 62471
+
+Same
+
+ISO 10993-5
+ISO 10993-10
+
+ISO 10993-5
+ISO 10993-10
+
+Same
+
+VIII. Performance Data
+The following performance data were provided in support of the substantial equivalence
+determination.
+1) Biocompatibility Testing
+The biocompatibility evaluation for the body-contacting components of the IPL Hair Removal
+Device was conducted in accordance with the "Use of International Standard ISO 10993-1,
+'Biological Evaluation of Medical Devices –Part 1: Evaluation and Testing Within a Risk
+Management Process, Document Issued on September 4, 2020", as recognized by FDA. The
+following testing was performed to, and passed, including:
+ ISO 10993-5:2009, Biological evaluation of medical devices –Part 5: Tests for in vitro
+cytotoxicity
+ ISO 10993-10:2021, Biological evaluation of medical devices –Part 10: Tests for skin
+sensitization
+
+Page 6 of 7
+
+Zhuzhou Goldenhot Medical Technology Co.,Ltd.
+
+510(k)s –Section 8. 510(k) Summary
+
+
+
+ISO 10993-23:2021, Biological evaluation of medical devices –Part 23: Tests for skin
+irritation
+
+2) Electrical Safety and EMC
+Electrical safety and EMC testing was performed to, and passed, as per the following standards:
+ IEC 60601-1-2 Medical electrical equipment –Part 1-2: General requirements for basic safety
+and essential performance –Collateral standard: electromagnetic compatibility
+
+
+ANSI AAMI ES60601-1 Medical electrical equipment - Part 1: General requirements for
+basic safety and essential performance (IEC 60601-1:2005, MOD)
+
+
+
+IEC 60601-1-6 Medical electrical equipment - Part 1-6: General requirements for basic
+safety and essential performance - Collateral standard: Usability
+
+
+
+IEC 60601-1-11 Medical electrical equipment - Part 1-11: General requirements for basic
+safety and essential performance - Collateral Standard: Requirements for medical electrical
+equipment and medical electrical systems used in the home healthcare environment
+
+
+
+IEC 60601-2-83 Medical electrical equipment - Part 2-83: Particular requirements for the
+basic safety and essential performance of home light therapy equipment
+
+3) Eye Safety
+
+
+IEC 62471 Photobiological safety of lamps and lamp systems
+
+4) Software Verification and Validation
+Software documentation consistent with moderate level of concern was submitted in this 510(k).
+System validation testing presented in this 510(k) demonstrated that all software requirement
+specifications are met and all software hazards have been mitigated to acceptable risk levels.
+5) Usability
+The product usability has been evaluated and verified according to the following FDA guidance
+ Applying Human Factors and Usability Engineering to Medical Devices, issued on
+FEBRUARY 2016
+
+IX. Conclusions
+Based on the above analysis and non-clinical tests performed, it can be concluded that the subject
+device Intense pulsed light device is as safe, as effective, and performs as well as the legally
+marketed predicate device and reference device.
+
+Page 7 of 7
+
+

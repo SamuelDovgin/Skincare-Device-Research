@@ -1,0 +1,46 @@
+{
+  "_README": "Hand-verified subject-device specs read directly from each 510(k) summary's comparison table (isolating the SUBJECT device from predicate/reference columns). fluence_jcm2 = cleared MAX energy density of the subject device. energy_j = max output energy per the filing (for multi-pulse devices this is the summed pulse-train total, not single-pulse). light_source: ipl=Xenon flashlamp IPL; diode=diode laser/LED (NOT IPL, swept into OHT). null energy_j = not captured/!stated.",
+
+  "K253881": {"fluence_jcm2": 8.48, "energy_j": 28, "spot_cm2": 3.3, "wavelength_nm": "560-1200", "pulse_ms": "0.4-12", "models": "T033/T055/T505/SL-B505WM", "light_source": "ipl", "note": "Fansizhe Special 510(k); single+dual+triple pulse; 8.48 is the cleared max (T033M)"},
+  "K251173": {"fluence_jcm2": 5.4, "energy_j": 17.7, "spot_cm2": 3.3, "wavelength_nm": "560-1200", "pulse_ms": "0.4-12", "models": "T033/T055/T002/T050", "light_source": "ipl", "note": "Fansizhe original 2025 clearance; single+dual pulse"},
+  "K223928": {"fluence_jcm2": 5.75, "energy_j": 20.7, "spot_cm2": 3.6, "wavelength_nm": "510-1200", "pulse_ms": "4-12", "models": "T023/T021/T001/T011/T016", "light_source": "ipl", "note": "Fansizhe 510nm family"},
+  "K221569": {"fluence_jcm2": 4.03, "energy_j": 16.1, "spot_cm2": 4.0, "wavelength_nm": "510-1200", "pulse_ms": "4-12", "models": "T013C/T015C/T015K", "light_source": "ipl", "note": "Fansizhe 510nm predicate"},
+
+  "K260518": {"fluence_jcm2": 6.41, "energy_j": null, "spot_cm2": 4.2, "wavelength_nm": "530-1200", "pulse_ms": "0.7-3.6", "models": "SL-B352/B301/B330/B371 family", "light_source": "ipl", "note": "Semlamp direct; single+dual+triple + SHR button"},
+
+  "K261325": {"fluence_jcm2": 7.27, "energy_j": null, "spot_cm2": 3.3, "wavelength_nm": "530-1100", "pulse_ms": "", "models": "Ulike (Sapphire Air family)", "light_source": "ipl", "note": "Ulike; double/triple pulses per shot; subject 2.42-7.27"},
+  "K251984": {"fluence_jcm2": 7.27, "energy_j": null, "spot_cm2": 3.3, "wavelength_nm": "530-1100", "pulse_ms": "", "models": "Ulike Ice Cooling IPL", "light_source": "ipl", "note": "Ulike; subject 2.42-7.27; triple/multi"},
+  "K250194": {"fluence_jcm2": 7.27, "energy_j": null, "spot_cm2": 3.9, "wavelength_nm": "530-1100", "pulse_ms": "", "models": "Ulike Ice Cooling IPL", "light_source": "ipl", "note": "Ulike; subject 2.42-7.27; triple/multi"},
+  "K250253": {"fluence_jcm2": 7.27, "energy_j": null, "spot_cm2": 3.5, "wavelength_nm": "", "pulse_ms": "", "models": "Dongguan Boyuan IPL", "light_source": "ipl", "note": "subject 2.18-7.27"},
+  "K260742": {"fluence_jcm2": 6.92, "energy_j": null, "spot_cm2": 3.9, "wavelength_nm": "530-1100", "pulse_ms": "", "models": "Ulike IPL", "light_source": "ipl", "note": "Ulike; subject 1.65-6.92; multipulse irregular"},
+  "K250942": {"fluence_jcm2": 6.92, "energy_j": null, "spot_cm2": 4.5, "wavelength_nm": "530-1100", "pulse_ms": "", "models": "Ulike dual-lamp IPL", "light_source": "ipl", "note": "Ulike; subject 1.65-6.92"},
+  "K241998": {"fluence_jcm2": 6.67, "energy_j": null, "spot_cm2": 4.5, "wavelength_nm": "550-1200", "pulse_ms": "", "models": "Ulike UI20 series", "light_source": "ipl", "note": "Ulike UI20; subject 1.67-6.67; this is the widely-cited reference device"},
+  "K250938": {"fluence_jcm2": 6.67, "energy_j": null, "spot_cm2": 4.5, "wavelength_nm": "530-1100", "pulse_ms": "", "models": "Ulike IPL (Gentle/Face/Body/Bikini modes)", "light_source": "ipl", "note": "Ulike; subject 1.8-6.67; USHR 6.67"},
+  "K250384": {"fluence_jcm2": 6.67, "energy_j": null, "spot_cm2": 4.5, "wavelength_nm": "530-1100", "pulse_ms": "", "models": "El Global Trade IPL", "light_source": "ipl", "note": "Ulike-style private label; subject 1.8-6.67 (Bikini mode 6.67)"},
+  "K252209": {"fluence_jcm2": 6.67, "energy_j": null, "spot_cm2": 3.9, "wavelength_nm": "", "pulse_ms": "", "models": "Foshan Jindi IPL", "light_source": "ipl", "note": "subject 1.67-6.67"},
+  "K242039": {"fluence_jcm2": 6.41, "energy_j": null, "spot_cm2": 3.9, "wavelength_nm": "530-1100", "pulse_ms": "", "models": "Ulike Ice Cooling IPL", "light_source": "ipl", "note": "Ulike; subject 2.79-6.41"},
+  "K243030": {"fluence_jcm2": 6.0, "energy_j": null, "spot_cm2": null, "wavelength_nm": "", "pulse_ms": "", "models": "Ulike IPL", "light_source": "ipl", "note": "subject 6 J/cm2"},
+  "K230122": {"fluence_jcm2": 5.1, "energy_j": null, "spot_cm2": 4.2, "wavelength_nm": "", "pulse_ms": "", "models": "Ulike IPL", "light_source": "ipl", "note": "subject ~1.8-5.1 (approx; table ambiguous)"},
+
+  "K252618": {"fluence_jcm2": 6.56, "energy_j": null, "spot_cm2": 3.9, "wavelength_nm": "", "pulse_ms": "", "models": "Alovea IPL (3 models)", "light_source": "ipl", "note": "Max 6.56 J/cm2"},
+  "K253666": {"fluence_jcm2": 6.48, "energy_j": null, "spot_cm2": 5.4, "wavelength_nm": "510-1200", "pulse_ms": "", "models": "Mlay IPL", "light_source": "ipl", "note": "stated 'maximum fluence 6.48J/cm2'; large 5.4cm2 spot"},
+  "K253754": {"fluence_jcm2": 6.0, "energy_j": null, "spot_cm2": 4.1, "wavelength_nm": "", "pulse_ms": "", "models": "Philips Lumea IPL", "light_source": "ipl", "note": "stated '6 J/cm2 (Max)'"},
+  "K251176": {"fluence_jcm2": 5.9, "energy_j": null, "spot_cm2": 4.0, "wavelength_nm": "510-1200", "pulse_ms": "", "models": "Mlay T14B/T19B/T21C/T25B etc", "light_source": "ipl", "note": "per K253666 predicate listing: 5.90 J/cm2"},
+  "K251707": {"fluence_jcm2": 5.89, "energy_j": null, "spot_cm2": 3.3, "wavelength_nm": "", "pulse_ms": "", "models": "Huachuangtong IPL", "light_source": "ipl", "note": "subject 1.52-5.89"},
+  "K253304": {"fluence_jcm2": 4.85, "energy_j": null, "spot_cm2": 3.6, "wavelength_nm": "", "pulse_ms": "", "models": "Dongguan Lide KA-10/11/20", "light_source": "ipl", "note": "nominal max 4.85 (range to 5.82)"},
+  "K241106": {"fluence_jcm2": 5.23, "energy_j": null, "spot_cm2": 4.2, "wavelength_nm": "", "pulse_ms": "", "models": "Mlay T14A/T16A/T19A/T17A/T18A", "light_source": "ipl", "note": "subject 1.84-5.23"},
+  "K251000": {"fluence_jcm2": 5.43, "energy_j": null, "spot_cm2": 4.2, "wavelength_nm": "", "pulse_ms": "", "models": "Chuangtong/IONKA FZ-100/608", "light_source": "ipl", "note": "FZ-100 5.43 J/cm2"},
+  "K254047": {"fluence_jcm2": 4.8, "energy_j": null, "spot_cm2": 4.2, "wavelength_nm": "", "pulse_ms": "", "models": "Chuangtong Yigou IPL", "light_source": "ipl", "note": "Max 4.8 (range 2.1-4.8)"},
+  "K260594": {"fluence_jcm2": 5.0, "energy_j": null, "spot_cm2": null, "wavelength_nm": "", "pulse_ms": "", "models": "Xiazhifeng FL-B511/513 (24 models)", "light_source": "ipl", "note": "Max 5.0 J/cm2"},
+
+  "K143003": {"fluence_jcm2": 9.0, "energy_j": null, "spot_cm2": 3.3, "wavelength_nm": "530-1100", "pulse_ms": "", "models": "iPulse / CyDen IPL", "light_source": "ipl", "note": "subject 'Up to 9 J/cm2'; the 7-10 in table is a reference"},
+  "K242710": {"fluence_jcm2": 6.0, "energy_j": null, "spot_cm2": 4.2, "wavelength_nm": "510-1200", "pulse_ms": "", "models": "Jianchao R3C16 IPL", "light_source": "ipl", "note": "stated 'Max.6.0 J/cm2'; a variant filter sub-table lists up to 7.5 - verify; 7-10 is reference"},
+  "K122280": {"fluence_jcm2": 5.0, "energy_j": null, "spot_cm2": 6.0, "wavelength_nm": "475-1200", "pulse_ms": "5", "models": "Cyden Flash N'Go", "light_source": "ipl", "note": "subject ~5 J/cm2 (OCR-garbled table); predicate Shaser was 9; large 6cm2 spot"},
+  "K190820": {"fluence_jcm2": 4.5, "energy_j": null, "spot_cm2": 4.5, "wavelength_nm": "550-1200", "pulse_ms": "", "models": "Kam Yuen / Aimanfun IPL", "light_source": "ipl", "note": "subject Max Fluence 4.5; 6-10 is reference"},
+  "K250171": {"fluence_jcm2": 6.56, "energy_j": null, "spot_cm2": null, "wavelength_nm": "600-1200", "pulse_ms": "", "models": "Yang WO IPL", "light_source": "ipl", "note": "subject 2.75-6.56"},
+  "K232274": {"fluence_jcm2": 6.5, "energy_j": null, "spot_cm2": 4.5, "wavelength_nm": "510-1100", "pulse_ms": "", "models": "Lumenessa IPL", "light_source": "ipl", "note": "subject 3.2-6.5"},
+
+  "K230362": {"fluence_jcm2": 25.0, "energy_j": null, "spot_cm2": 4.1, "wavelength_nm": "780-850", "pulse_ms": "", "models": "Leaflife (diode LED)", "light_source": "diode", "note": "NOT IPL - 780-850nm diode LED; settings 5/10/15/20/25 J/cm2"},
+  "K230025": {"fluence_jcm2": 15.43, "energy_j": null, "spot_cm2": null, "wavelength_nm": "808-810", "pulse_ms": "", "models": "Ivylaser (810nm diode)", "light_source": "diode", "note": "NOT IPL - 810nm diode laser; subject 15.43 J/cm2"},
+  "K230090": {"fluence_jcm2": 9.0, "energy_j": null, "spot_cm2": null, "wavelength_nm": "810", "pulse_ms": "", "models": "Lotuxs LHR-V8/V4 (810nm diode)", "light_source": "diode", "note": "NOT IPL - 810nm diode laser; subject max 9.0 J/cm2"}
+}

@@ -1,0 +1,258 @@
+JUti - 1 2O04
+510(k) Summary
+McCue Energist ULTRA TM Pulsed Light System
+This 510(k) summary of safety and effectiveness for the McCue Energist ULTRA pulsed
+light system by McCue PIc is submitted in accordance with the requirements of the Safe
+Medical Device Act (SMDA) of 1990 and follows the Office of Device Evaluation (ODE)
+guidance concerning the organisation and content of a 510(k) summary.
+Aplicant:
+Address:
+Contact Person:
+Telephone:
+Preparation Date:
+Device Trade
+Name:
+Common Name:
+Classification
+Name
+Legally-Marketed
+Predicate
+Devices:
+
+McCue PIc
+Unit 27 Solent Indust. Estate, Hedge End, S
+Steven Peach (General and Technical Manager)
+44 1489 795668
+19th February 2004
+McCue Energist ULTRA TM
+
+S023-2FY. England
+outhampton
+
+Intense Pulsed Light System
+Laser surgical instrument for use in General and Plastic surgery and Dermatology
+21 CFR 878.4810
+Product Code: GEX
+Panel: 79
+The McCue Energist ULTRAT M is substantially equivalent to the following
+currently marketed devices:
+Lumenis, Inc. FPL Quantum, K020839
+Radiancy, Inc. SpaTouch, K020856
+Radiancy, Inc. Skin Station, K030897
+Palomar, Inc. EsteLux, K020453, K020941
+Alderm/MBC, Prolite/Plasmalite, K013365, K022568, K023081
+
+System
+Description:
+
+The McCue Energist ULTRA TM is a light-based medical device that delivers a
+beam of pulsed non-ionising radiation in the region of 530nm to 950nm. The
+system has been designed to be compact and self-contained that includes:
+* Control console unit
+* Display panel
+* Power supply
+* Cooling system
+* Removable handpiece with integrated switch, lamp, filter and glass
+
+coupling block
+
+intended
+
+Use:
+
+The McCue Energist ULTRA' m VPL Intense Pulsed Light System is intended for
+permanent hair reduction. It is also indicated for photocoagulation of
+dermatological vascular lesions, photothermolysis of blood vessels and the
+treatment of benign pigmented lesions.
+Intense Pulsed light Energy / wavelengths (530 - 950nm)
+The 530-950nm intense pulsed wavelengths are indicated for:
+The treatment of benign pigmented epidermal and cutaneous lesions
+including warts, scars and striae.
+The treatment of benign cutaneous vascular lesions including port wine
+stains, hemangiomas, facial, truncal and leg telangiectasias, rosacea,
+melasma, angiomas and spider angiomas, poikiloderma of Civatte, leg
+veins, facial veins and venous malformations.
+
+1201
+51 OK summary for ultra 7.doc 25/05/2004
+
+issue 7
+
+page I of 2
+
+*
+
+Intense Pulsed light Energy / wavelengths (610 - 950nm)
+The 610-950nm intense pulsed wavelengths are indicated for:
+The removal of unwanted hair from all skin types, and to effect stable
+long-term or permanent" hair reduction in skin types I - V through
+selective targeting of melanin in hair follicles.
+
+Performance
+Data:
+Conclusion:
+
+Permanent hair reduction is defined as a long-term stable reduction in the
+number of hairs regrowing after a treatment regimen.
+The differences in specifications of the McCue Energist ULTRATM and the
+predicate devices do not result in different performance or raise new questions of
+safety and efficacy.
+Based on the foregoing, the McCue Energist ULTRATM system is substantially
+equivalent to the legally-marketed predicate devices.
+
+1202
+510K summary for ultra 7.doc 25/05/2004
+
+issue 7
+
+page 2 of 2
+
+DEPARTMENT OF HEALTH & HUMAN SERVICES
+
+Public Health Service
+
+Food and Drug Administration
+9200 Corporate Boulevard
+
+JUN - 12004
+
+Rockville MD 20850
+
+McCue PLC
+c/o Mr. John W. Howlett
+British Standards Institution
+Maylands Avenue
+Hemel Hempstead
+Herts HP2 4SQ
+United Kingdom
+Re: K040659
+Trade/Device Name: McCue Energist ULTRATM VPL Intense Pulsed Light System
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser surgical instrument for use in general and
+plastic surgery and in dermatology
+Regulatory Class: IL
+Product Code: GEX
+Dated: May 12, 2004
+Received: May 20, 2004
+Dear Mr. Howlett:
+We have reviewed your Section 510(k) premarket notification of intent to market the device
+referenced above and have determined the device is substantially equivalent (for the indications
+for use stated in the enclosure) to legally marketed predicate devices marketed in interstate
+or to
+commerce prior to May 28, 1976, the enactment date of the Medical Device Amendments,
+Drug,
+devices that have been reclassified in accordance with the provisions of the Federal Food,
+(PMA).
+and Cosmetic Act (Act) that do not require approval of a premarket approval application
+The
+You may, therefore, market the device, subject to the general controls provisions of the Act.
+of
+general controls provisions of the Act include requirements for annual registration, listing
+and
+misbranding
+against
+devices, good manufacturing practice, labeling, and prohibitions
+adulteration.
+it
+If your device is classified (see above) into either class IX(Special Controls) or class III (PMA),
+can
+device
+may be subject to such additional controls. Existing major regulations affecting your
+may
+be found in the Code of Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA
+publish further announcements concerning your device in the Federal Re ister.
+mean
+Please be advised that FDA's issuance of a substantial equivalence determination does not
+Act
+that FDA has made a determination that your device complies with other requirements of the
+or any Federal statutes and regulations administered by other Federal agencies. You must
+(21
+comply with all the Act's requirements, including, but not limited to: registration and listing
+CFR Part 807); labeling (21 CFR Part 801); good manufacturing practice requirements as set
+forth in the quality systems (QS) regulation (21 CFR Part 820); and if applicable, the electronic
+product radiation control provisions (Sections 531-542 of the Act); 21 CFR 1000-1050.
+
+Page 2 - Mr. John W. Howlett
+510(k)
+This letter will allow you to begin marketing your device as described in your Section
+a legally
+premarket notification. The FDA finding of substantial equivalence of your device to
+device
+your
+permits
+marketed predicate device results in a classification for your device and thus,
+to proceed to the market.
+801), please
+If you desire specific advice for your device on our labeling regulation (21 CFR Part
+entitled,
+contact the Office of Compliance at (301) 594-4659. Also, please note the regulation
+obtain
+"Misbranding by reference to premarket notification" (21CFR Part 807.97). You may
+Small
+other general information on your responsibilities under the Act from the Division of
+or
+Manufacturers, International and Consumer Assistance at its toll-free number (800) 638-2041
+(301) 443-6597 or at its Internet address http://www.fda.gov/cdrh/dsma/dsmamain.html
+Sincerely yours,
+
+V Celia M. Witten, Ph.D., M.D.
+Director
+Division of General, Restorative
+and Neurological Devices
+Office of Device Evaluation
+Center for Devices and Radiological Health
+
+Enclosure
+
+Indications for Use
+510(k) Number (if known):
+Device Name:
+
+K040659
+
+McCue Enerpist ULTRAT VPL Intense Pulsed Light System
+
+Indications for Use:
+The McCue Energist ULTRA TM VPL Intense Pulsed Light System is intended for permanent hair reduction. It is
+also indicated for photocoagulation of dermatological vascular lesions, photothermolysis of blood vessels and the
+treatment of benign pigmented lesions.
+*
+
+Intense Pulsed light Energy / wavelengths (530 - 950nm)
+The 530-950nm intense pulsed wavelengths are indicated for:
+The treatment of benign pigmented epidermal and cutaneous lesions including warts, scars and striae.
+The treatment of benign cutaneous vascular lesions including port wine stains, hemangiomas, facial, truncal
+and leg telangiectasias, rosacea, melasma, angiomas and spider angiormas, poikiloderma of Civatte, leg
+veins, facial veins and venous malformations.
+
+*
+
+Intense Pulsed light Energy / wavelengths (610- 950nm)
+The 610-950nm intense pulsed wavelengths are indicated for:
+The removal of unwanted hair from all skin types, and to effect stable long-term or permanent hair
+reduction in skin types I - V through selective targeting of melanin in hair follicles.
+
+Permanent hair reduction is defined as a long-term stable reduction in the number of hairs regrowing after a
+treatment regimen.
+
+Prescription Use X
+(Part 21 CFR 801 Subpart D)
+
+OR
+
+Over-The-Counter Use
+(21 CFR 807 Subpart C)
+
+(PLEASE DO NOT WRITE BELOW THIS LFNE-CONT[NUE ON ANOTHER PAGE OF NEEDED)
+Concurrence of CDRH, Office of Device Evaluation (ODE)
+Page I of I
+
+(Division Sign-Off)
+Division of General, Restorative,
+and Neurological Devices
+D2
+510(k) Number
+
+/LVO6S-?
+
+

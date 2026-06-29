@@ -1,0 +1,588 @@
+May 15, 2020
+
+Shanghai Apolo Medical Technology Co., Ltd.
+Felix Li
+RA Supervisor
+4F, Building A, No.388, Yindu Road, Xuhui District
+Shanghai, Shanghai 200231
+China
+Re: K200746
+Trade/Device Name: IPL Treatment Systems
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: ONF
+Dated: March 9, 2020
+Received: March 23, 2020
+Dear Felix Li:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.04.15
+
+K200746 - Felix Li
+
+Page 2
+
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Kejing
+Chen -S
+
+Digitally signed by
+Kejing Chen -S
+Date: 2020.05.15
+16:28:12 -04'00'
+
+Colin Kejing Chen
+Acting Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+Section 2-Indication For Use
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2020
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+k200746
+Device Name
+
+IPL Treatment System
+
+Indications for Use (Describe)
+
+The IPL treatment system is intended for medical use in the treatment of the following dermatologic conditions:
+- Permanent hair reduction- long-term stable reduction in number of hairs re-growing after a treatment regimen;
+- Moderate inflammatory acne vulgaris;
+- Benign pigmented epidermal lesions including dyschromia, hyperpigmentation, melasma, ephelides (freckles);
+- Cutaneous lesions including scars;
+- Benign cutaneous vascular lesions including port wine stains, hemangiomas, facial truncal and leg telangiectasias,
+erythema of rosacea, leg veins, spider angiomas and venous malformations.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (7/17)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+K200746
+Section 3-510(k) Summary
+
+Section 3-510(k) summary
+I Submitter
+Shanghai Apolo Medical Technology Co., Ltd.
+4F, Building A, No.388, Yindu Road, Xuhui District, Shanghai 200231, China
+Establishment Registration Number: 3007120647
+Contact person: Felix Li
+Position: Regulatory Affairs
+Phone: +86-138 4919 0618
+Fax: +86-21-34622840
+E-mail: liqiang@apolo.com.cn
+Date of preparation: Apr 28th, 2020
+II Proposed Device
+Trade Name of Device:
+Common name:
+Regulation Number:
+Regulatory Class:
+Product code:
+Review Panel
+
+IPL Treatment Systems
+Laser surgical instrument for use in general and plastic surgery
+and in dermatology
+21 CFR 878.4810
+Class II
+ONF
+General & Plastic Surgery
+
+III Predicate Devices
+510(k) Number:
+Trade name:
+Common name:
+Classification:
+Product Code:
+
+K093627
+iPulseLight IPL System (HS 300C, HS 650)
+Laser surgical instrument for use in general and plastic
+surgery and in dermatology
+Class II
+ONF
+
+Manufacturer
+
+Shanghai APOLO Medical Technology Co., Ltd.
+
+IV Device description
+The IPL Treatment Systems utilizes an intense, visible, broad-spectrum pulse of light
+that when used with interchangeable filters, allowing it to selectively heat the target
+Ⅲ-1
+
+Section 3-510(k) Summary
+
+for different indications. The optical component is intended to drive the IPL energy to
+concentrate where the optical energy has selectively heated the target.
+The Intense pulsed light (IPL) is a type of intensive, broadband, coherent light source
+which has a wavelength spectrum of 420 nm -1200 nm. The light-based component
+delivers optical energy that is absorbed by specific chromophores in the skin, which
+is converted to heat, according to the principle of selective photothermolysis.
+The proposed device consists of the main unit, control panel and the treatment
+handpiece(s).
+V Indication for use
+The IPL treatment systems is intended for medical use in the treatment of the
+following dermatologic conditions:
+- Permanent hair reduction- long-term stable reduction in number of hairs
+re-growing after a treatment regimen;
+- Moderate inflammatory acne vulgaris;
+- Benign pigmented epidermal lesions including dyschromia, hyperpigmentation,
+melasma, ephelides (freckles);
+- Cutaneous lesions including scars;
+- Benign cutaneous vascular lesions including port wine stains, hemangiomas,
+facial truncal and leg telangiectasias, erythema of rosacea, leg veins, spider
+angiomas and venous malformations.
+VI Comparison of technological characteristics with the predicate devices
+Item
+Product
+Code
+Regulation
+No.
+Class
+Indication
+for use
+
+Proposed device
+
+Predicate device
+(K093627)
+
+Discussion
+
+ONF
+
+ONF
+
+Identical
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+Identical
+
+Class II
+The IPL treatment
+systems is intended for
+medical use in the
+treatment of the following
+dermatologic conditions:
+- Permanent hair
+reduction- long-term
+
+Class II
+iPulseLight IPL System (HS
+300C, HS 650) are identical
+with regard to indications
+for use including
+recommended filters to be
+used with Fitzpatrick skin
+type. Both models are
+
+Identical
+The
+indications
+of
+the
+proposed
+device
+covered by
+the
+
+Ⅲ-2
+
+Section 3-510(k) Summary
+
+-
+
+-
+
+-
+
+stable reduction in
+number of hairs
+re-growing after a
+treatment regimen;
+Moderate
+inflammatory acne
+vulgaris;
+Benign pigmented
+epidermal lesions
+including dyschromia,
+hyperpigmentation,
+melasma, ephelides
+(freckles);
+Cutaneous lesions
+including scars;
+Benign cutaneous
+vascular lesions
+including port wine
+stains, hemangiomas,
+facial truncal and leg
+telangiectasias,
+erythema of rosacea,
+leg veins, spider
+angiomas and venous
+malformations.
+
+intended for medical use in
+the treatment of the
+following dermatologic
+conditions:
+- Permanent hair
+reduction- long-term
+stable reduction in
+number of hairs
+re-growing after a
+treatment regimen.
+- Treatment of:
+
+Moderate
+inflammatory acne
+vulgaris
+
+Benign pigmented
+epidermal lesions
+including
+dyschromia,
+hyperpigmentation,
+melasma,
+ephelides
+(freckles).
+
+Cutaneous lesions
+including scars
+
+Benign cutaneous
+vascular lesions
+including port wine
+stains,
+hemangiomas,
+facial, truncal and
+leg telangiectasia,
+erythema of
+rosacea, leg veins,
+spider anglomas
+and venous
+malformations.
+The integrated thermal
+cooling is indicated for use
+in cooling the epidermis at
+Ⅲ-3
+
+predicate.
+The cooling
+system
+is
+an integral
+part of the
+device.
+
+Section 3-510(k) Summary
+
+Light source Intense pulsed light
+(Xenon Flash Lamp)
+Wavelength 420 – 1200 nm
+
+the treatment site prior to,
+during, and after light
+treatment in general
+aesthetic dermatologic and
+plastic surgery procedures.
+- Reduce pain during light
+treatment (via partial
+anesthesia from
+cooling)
+- Reduce discomfort
+during and/or
+associated with light
+treatment
+- Minimize thermal injury,
+including thermal
+necrosis, to non-target
+skin and skin structures
+during and/or
+associated with light
+treatment, thus reducing
+possible complications
+such as scabbing,
+scarring, hyper - and/or
+hypo pigmentation
+- Allow the use of higher
+light or laser fluencies
+for light treatments
+(such as for hair
+removal and the
+treatment of vascular or
+pigmented lesions)
+- Reduce potential side
+effects of light
+treatments (such as for
+hair removal and the
+treatment of lesions)
+Intense pulsed light (Xenon Identical
+Flash Lamp)
+420 – 1200 nm
+Identical
+Ⅲ-4
+
+Section 3-510(k) Summary
+
+range
+Hanpiece
+ports
+Structure
+
+Energy
+output
+Pulse width
+Pulse
+duration
+Spot size
+Filters
+
+Fluences
+
+Output
+mode
+
+HS-650K&HS-660K: 2
+HS620K, HS-300CK &
+HS-310K: 1
+HS-650K&HS-660K:
+Vertical
+HS620K, HS-300CK &
+HS-310K: Table top
+4.1-50.8 J/cm2
+
+HS 650: 2
+HS 300C: 1
+
+Identical
+
+HS 650: Vertical
+HS 300C: Table top
+
+Identical
+
+10-50 J/cm2
+
+Equivalent
+
+5-20 ms
+5-50 ms
+
+2-20 ms
+5-50 ms
+
+Equivalent
+Identical
+
+12*35mm, 15*50mm
+
+12*35mm, 15*50mm
+
+Identical
+
+420 -1200nm: Acne;
+510 -1200nm: Acne,
+vascular, pigment;
+560 -1200nm: Acne,
+vascular, pigment;
+610-1200nm: Hair
+removal;
+640-1200nm: Hair
+removal;
+690-1200nm: Hair
+removal;
+420 -1200nm:
+4.1-50.8J/cm2;
+510 -1200nm: 3.8-47
+J/cm2;
+560 -1200nm: 3.7-43.3
+J/cm2;
+610-1200nm: 3.5-38.7
+J/cm2;
+640-1200nm:
+3.3-37.4J/cm2;
+690-1200nm:
+3.1-33.4J/cm2;
+Pulse mode
+
+420 -1200nm: Acne;
+510 -1200nm: Acne,
+vascular, pigment;
+560 -1200nm: Acne,
+vascular, pigment;
+610-1200nm: Hair removal;
+640-1200nm: Hair removal;
+690-1200nm: Hair removal;
+
+Identical
+
+420 -1200nm: 10-50J/cm2;
+510 -1200nm: 9.2-46.35
+J/cm2;
+560 -1200nm: 9-42.6 J/cm2;
+610-1200nm: 8.5-38.1
+J/cm2;
+640-1200nm: 8-36.8J/cm2;
+690-1200nm:
+7.6-32.9J/cm2;
+
+The
+fluences for
+each filter
+are at
+similar
+energy
+level,
+considered
+equivalent.
+
+Pulse mode
+
+Identical
+
+Ⅲ-5
+
+Section 3-510(k) Summary
+
+Deliver
+materials
+Cooling
+method
+
+Direct sapphire Coupling
+
+Direct sapphire Coupling
+
+Identical
+
+HS-650K&HS-660K:
+TEC and circulating water & Equivalent
+Water cooling, forced-air air
+cooling, copper and TEC;
+HS620K,
+HS-300CK&HS-310K:
+Water cooling and
+forced-air cooling,
+
+VII Non-Clinical Testing
+A series of tests have been performed to verity that the proposed device met all
+design specification. The test result demonstrated that the proposed device complies
+with the following standards:
+Electrical safety and electromagnetic compatibility
+ IEC 60601-1: 2005+corr.1:2006+Corr.2.2007+A1:2012 Medical electrical
+equipment - Part 1: General requirements for basic safety and essential
+performance
+ IEC 60601-1-2:2014 Medical electrical equipment -Part 1-2: General
+requirements for basic safety and essential performance-Collateral Standard:
+Electromagnetic disturbances - Requirements and tests
+ IEC 60601-2-57: 2011 Medical electrical equipment Part 2: Particular
+requirements for the basic safety and essential performance of non-laser light
+source equipment intended for therapeutic, diagnostic, monitoring and
+cosmetic/aesthetic use
+Biocompatibility Evaluation:
+The contact material of the proposed device is identical to that of the iPulseLight IPL
+System cleared in K093627.
+Per FDA’s Biocompatibility Guidance issued on June 16, 2016 and with regard to
+Table A.1 Evaluation Tests for consideration in ISO, “Use of international Standard
+ISO 10993-1, Biological evaluation of medical - Part 1: Evaluation and testing within
+a risk management process,” the following tests performed on the material which
+contacts with human for Biocompatibility:
+ Cytotoxicity;
+ Skin irritation;
+ Skin Sensitization.;
+Ⅲ-6
+
+Section 3-510(k) Summary
+
+VIII Clinical Testing
+It is not applicable.
+Ⅸ Conclusion
+Base on the performance testing and validation studies that the subject device is
+substantially equivalent to the predicate device.
+
+Ⅲ-7
+
+

@@ -1,0 +1,698 @@
+Touchbeauty Beauty & Health (Shenzhen) Co., Ltd.
+Ə-HW/L
+Regulation Manager
+Guangzhou KEDA Testing Tech Co., Ltd.
+6F, No.1 TianTai road, Science City, LuoGang District
+GuangZhou, CN
+
+)HEUXDU\
+
+Re: K183217
+Trade/Device Name: IPL Hair Removal Device
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT ONF
+Dated: November 10, 2018
+Received: November 19, 2018
+Dear Jet Li:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.03.05
+
+K183217 - Jet Li
+
+Page 2
+
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/CombinationProducts/GuidanceRegulatoryInformation/ucm597488.htm); good
+manufacturing practice requirements as set forth in the quality systems (QS) regulation (21 CFR Part 820)
+for devices or current good manufacturing practices (21 CFR 4, Subpart A) for combination products; and, if
+applicable, the electronic product radiation control provisions (Sections 531-542 of the Act); 21 CFR 10001050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to http://www.fda.gov/MedicalDevices/Safety/ReportaProblem/default.htm.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice
+(https://www.fda.gov/MedicalDevices/DeviceRegulationandGuidance/) and CDRH Learn
+(http://www.fda.gov/Training/CDRHLearn). Additionally, you may contact the Division of Industry and
+Consumer Education (DICE) to ask a question about a specific regulatory topic. See the DICE website
+(http://www.fda.gov/DICE) for more information or contact DICE by email (DICE@fda.hhs.gov) or phone
+(1-800-638-2041 or 301-796-7100).
+Sincerely,
+Digitally signed by
+Neil R
+Neil R Ogden -S
+2019.02.15
+Ogden -S Date:
+08:56:30 -05'00'
+
+)RU Binita S. Ashar, M.D., M.B.A., F.A.C.S.
+Director
+Division of Surgical Devices
+Office of Device Evaluation
+Center for Devices and Radiological Health
+Enclosure
+
+'(3$570(172)+($/7+$1'+80$16(59,&(6
+)RRGDQG'UXJ$GPLQLVWUDWLRQ
+
+)RUP$SSURYHG20%1R
+([SLUDWLRQ'DWH-DQXDU\
+
+,QGLFDWLRQVIRU8VH
+
+6HH35$6WDWHPHQWEHORZ
+
+ N 1XPEHU LINQRZQ
+.
+'HYLFH1DPH
+
+,3/+DLU5HPRYDO'HYLFH 0RGHO7%
+
+,QGLFDWLRQVIRU8VH 'HVFULEH
+
+7KH,3/+DLU5HPRYDO'HYLFH 0RGHO7% LVDQ2YHUWKH&RXQWHUGHYLFHLQWHQGHGIRUWKHUHPRYDO
+RIXQZDQWHGERG\KDLU
+
+7\SHRI8VH 6HOHFWRQHRUERWKDVDSSOLFDEOH
+3UHVFULSWLRQ8VH 3DUW&)56XESDUW' 
+
+2YHU7KH&RXQWHU8VH &)56XESDUW& 
+
+&217,18(21$6(3$5$7(3$*(,)1(('('
+7KLVVHFWLRQDSSOLHVRQO\WRUHTXLUHPHQWVRIWKH3DSHUZRUN5HGXFWLRQ$FWRI
+'21276(1'<285&203/(7(')250727+(35$67$))(0$,/$''5(66%(/2:
+7KHEXUGHQWLPHIRUWKLVFROOHFWLRQRILQIRUPDWLRQLVHVWLPDWHGWRDYHUDJHKRXUVSHUUHVSRQVHLQFOXGLQJWKH
+WLPHWRUHYLHZLQVWUXFWLRQVVHDUFKH[LVWLQJGDWDVRXUFHVJDWKHUDQGPDLQWDLQWKHGDWDQHHGHGDQGFRPSOHWH
+DQGUHYLHZWKHFROOHFWLRQRILQIRUPDWLRQ6HQGFRPPHQWVUHJDUGLQJWKLVEXUGHQHVWLPDWHRUDQ\RWKHUDVSHFW
+RIWKLVLQIRUPDWLRQFROOHFWLRQLQFOXGLQJVXJJHVWLRQVIRUUHGXFLQJWKLVEXUGHQWR
+'HSDUWPHQWRI+HDOWKDQG+XPDQ6HUYLFHV
+)RRGDQG'UXJ$GPLQLVWUDWLRQ
+2IILFHRI&KLHI,QIRUPDWLRQ2IILFHU
+3DSHUZRUN5HGXFWLRQ$FW 35$ 6WDII
+35$6WDII#IGDKKVJRY
+³$QDJHQF\PD\QRWFRQGXFWRUVSRQVRUDQGDSHUVRQLVQRWUHTXLUHGWRUHVSRQGWRDFROOHFWLRQRI
+LQIRUPDWLRQXQOHVVLWGLVSOD\VDFXUUHQWO\YDOLG20%QXPEHU´
+)250)'$ 
+
+Page of
+
+36&3XEOLVKLQJ6HUYLFHV  ()
+
+K183217
+
+K183217 510(k) Summary
+This summary of 510(k) safety and effectiveness information is being submitted in accordance with
+the requirements of SMDA and 21 CFR 878.4810.
+
+1.
+
+Submitter Information
+
+
+
+Company Name: Touchbeauty Beauty & Health (Shenzhen) Co., Ltd.
+
+
+
+Establishment Registration Number: Applying
+
+
+
+Address: 7/F, Marina Bay Centre A, South of Xinhua Road, Bao’an Centre Area, Xin’an Street
+Bao’an District, Shenzhen, China.
+
+
+
+Phone: +86 755-3366 2222
+
+
+
+FAX: +86 755-3366 8880
+
+
+
+Contact Person (including title): Aaron Zhai (Engineer)
+
+
+
+E-mail: bz@touchbeauty.com
+
+2.
+
+Application Correspondent
+
+
+
+Company Name: Guangzhou KEDA Testing Tech Co., Ltd.
+
+
+
+Address: 6F, No.1 TianTai road, Science City, LuoGang District, GuangZhou City, China
+
+
+
+Contact Person: Mr. Jet Li
+
+
+
+Title: Regulation Manager
+
+
+
+Tel: +86-20-22325619
+
+
+
+Email: med-jl@foxmail.com
+
+3.
+
+Subject Device Information
+
+
+
+Type of 510(k) submission: Traditional
+
+
+
+Common Name: Light Based Over-The-Counter Hair Removal
+
+
+
+Trade Name: IPL Hair Removal Device
+
+
+
+Classification Name: Laser surgical instrument for use in general and plastic surgery and in
+
+1
+
+dermatology
+
+
+Review Panel: General & Plastic Surgery
+
+
+
+Product Code: OHT
+
+
+
+Regulation Number: 21 CFR 878.4810
+
+
+
+Regulation Class: 2
+
+4.
+
+Predicate Device Information
+
+Trade Name
+
+510(k) number
+
+Product Code
+
+Approval Date
+
+CyDen Limited
+
+iPulse SmoothSkin Gold
+Hair Removal System
+
+K160968
+
+OHT
+
+April 14, 2016
+
+Shen Zhen
+CosBeauty Co., Ltd
+
+Perfectsmooth
+
+K161428
+
+OHT
+
+March 23, 2017
+
+Sponsor
+
+5.
+
+Device Description
+IPL Hair Removal Device Model: TB-1755, a small over-the-counter device for the permanent
+reduction of hair growth based on Intense Pulsed Light (IPL). It works below the skin's surface
+and does not involve any cutting or pulling, reducing hair growth with minimal pain. A personal
+Light-Based Hair Removal System. Emission activation is by finger switch. Device includes a
+treatment window head, an adaptor and goggles. The size of the device is about 185 x 72.4 x
+69.2mm (H x W x D). The device incorporates Intense Pulse Light (IPL) technology. The
+purpose of the light is to heat the root where the hair grows.
+The device contains a Xenon Lamp and a skin proximity sensor to detect appropriate skin
+contact. If the IPL Hair Removal Device is not properly applied to the treatment area (in full
+contact with the skin), the device cannot be triggered a pulse emitting.
+
+6.
+
+Intended Use
+The IPL Hair Removal Device (Model: TB-1755) is an Over the Counter device intended
+for the removal of unwanted body hair.
+
+7.
+
+Test Summary
+IPL Hair Removal Device has been evaluated the safety and performance by lab bench
+testing according to the following standards:
+
+
+IEC 60601-1, Medical Electrical Equipment - Part 1: General Requirements for
+Safety, 2005+A1:2012
+
+2
+
+
+
+IEC 60601-1-2, Medical electrical equipment - Part 1-2: General requirements for
+basic safety and essential performance - Collateral standard: Electromagnetic
+compatibility -Requirements and tests, 2014
+
+
+
+IEC 60601-1-11 Medical Electrical Equipment –Part 1: General Requirements for
+Basic Safety and Essential Performance –Collateral Standard: Requirements for
+Medical Electrical Equipment and Medical Electrical Systems Used in the Home
+Healthcare Environment
+
+
+
+IEC 60601-2-57 Medical electrical equipment –Part 2-57: Particular requirements
+for the basic safety and essential performance of non-laser source equipment
+intended for therapeutic, diagnostic, monitoring and cosmetic/aesthetic use
+
+
+
+ISO 10993-5:2009/(R) 2014, Biological Evaluation Of Medical Devices -- Part 5:
+Tests For In Vitro Cytotoxicity.
+
+
+
+ISO 10993-10:2010, Biological Evaluation of Medical Devices - Part 10: Tests For
+Irritation And Skin Sensitization.
+
+
+
+Guidance for the Content of Premarket Submissions for Software Contained in
+Medical Devices - Guidance for Industry and FDA Staff
+
+8.
+
+Comparison to Predicate Device
+
+Compare with predicate devices, the subject device is very similar in design principle, intended
+use, indications for use, functions, material and the applicable standards. The differences
+between subject device and predicate devices do not raise any new questions of safety or
+effectiveness.
+Elements of
+Comparison
+
+Subject Device
+
+Primary Predicate Device 1
+
+Product
+
+Touchbeauty Beauty &
+Health (Shenzhen) Co.,
+Ltd.
+IPL Hair Removal
+
+Name
+
+Device
+
+Removal System
+
+510(K) No.
+
+Applying
+
+K160968
+
+Manufacturer
+
+CyDen Limited.
+iPulse SmoothSkin Gold Hair
+
+Predicate Device 2
+Shen Zhen CosBeauty
+Co., Ltd
+
+Verdict
+--
+
+Perfectsmooth
+
+--
+
+K161428
+
+_
+
+3
+
+Elements of
+Comparison
+
+Subject Device
+
+Primary Predicate Device 1
+
+Predicate Device 2
+
+Verdict
+
+The iPulse SmoothSkin Gold
+Hair Removal System is
+indicated for the removal of
+unwanted hair. The iPulse
+The IPL Hair Removal
+
+SmoothSkin Gold is also
+
+Device (Model: TB-
+
+indicated for the permanent
+
+Indications
+
+1755) is an Over the
+
+reduction in hair regrowth,
+
+for Use
+
+Counter device intended
+
+defined as the long-term,
+
+for the removal of
+
+stable reduction in the
+
+unwanted body hair.
+
+number of hairs regrowing
+when measured at 6, 9 and
+12 months after the
+completion of a treatment
+
+The IPL Hair Removal
+Device Joy Version is
+an over-the-counter
+device intended for
+removal of unwanted
+hair such as but not
+limited to small areas
+
+SE
+Note 1
+
+such as underarm and
+facial hair below the
+chin line and large
+areas such as legs.
+
+regime.
+IFU Type
+Classification
+Product Code
+Device Type
+
+Over-The-Counter
+
+Over-The-Counter
+
+Over-The-Counter
+
+SE
+
+OHT
+
+OHT
+
+OHT
+
+SE
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+SE
+
+AC Mains
+
+an external power supply
+
+SE
+Note 2
+SE
+
+Device Design
+Power source an external power supply
+Light source
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Wavelength
+
+510nm~1100nm
+
+510nm~1100nm
+
+475nm~1200nm
+
+Spot Size
+
+3.1 cm2
+
+3 cm2
+
+4.5 cm2
+
+SE
+Note 2
+
+Max. Fluence
+(J/cm 2)
+
+3.8-5.2 J/cm²
+
+3-6 J/cm²
+
+4.7 J/cm²
+
+SE
+Note 2
+
+Pulse duration
+
+3 milliseconds
+
+2-10 milliseconds
+
+11-13 milliseconds
+
+Output energy
+
+12-16 J
+
+9-18 J
+
+﹤22 J
+
+SE
+Note 2
+
+Pulsing
+Control
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+SE
+
+Output
+Channel
+
+One channel
+
+One channel
+
+One channel
+
+SE
+
+Delivery
+
+Direct Illumination to
+
+Direct Illumination to Tissue
+
+Direct Illumination to
+
+SE
+
+SE
+Note 2
+
+SE
+Note 2
+
+4
+
+Elements of
+Comparison
+
+Subject Device
+
+Primary Predicate Device 1
+
+Predicate Device 2
+
+Verdict
+
+Device
+
+Tissue
+
+Tissue
+
+Software
+Control
+
+Yes
+
+Yes
+
+Yes
+
+SE
+
+Dimensions
+
+182*72.4*69.2mm
+
+132*35*65mm
+
+-
+
+SE
+Note 2
+
+FDA-Recognized Standards
+IEC 60601-1
+IEC 60601-1-2
+
+Electrical
+safety, EMC,
+Biological
+Evaluation
+
+IEC 60601-1-11
+IEC 60601-2-57
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+
+IEC 60601-1
+
+IEC 60601-1
+
+IEC 60601-1-2
+
+IEC 60601-1-2
+
+IEC 62471
+
+IEC 60601-2-57
+
+SE
+
+ISO 10993-5
+
+IEC 62471
+
+Note3
+
+ISO 10993-10
+
+ISO 10993-5
+
+ISO 10993-12
+
+ISO 10993-10
+
+Note 1
+Although there is little difference about the indication for use, the application of the subject device
+is only the removal unwanted hair, such as back, legs &arms, armpits and bikini areas, except the
+face and other delicate areas. Besides, the subject device isn’t applied to long-term, stable
+reduction. This difference does not affect the safety and effectiveness.
+Note 2
+Although the device design between the predicate devices and subject device are mainly equivalent,
+the specifications of subject device are not completely same. Even so the key specifications of subject
+device is similar to the predict devices’, or under their ranges. After all, the safety and effectiveness of
+the subject device is verified via tests, so the differences do not affect the safety and effectiveness.
+Note 3
+Although the subject takes more applicable FDA-recognized standards for reference, so the
+differences do not affect the safety and effectiveness.
+
+9. Conclusion
+The subject device, IPL Hair Removal Device (Model: TB-1755), is substantially equivalent to the
+predicate devices.
+
+10. Summary Prepared Date
+14 Feb 2019
+
+5
+
+

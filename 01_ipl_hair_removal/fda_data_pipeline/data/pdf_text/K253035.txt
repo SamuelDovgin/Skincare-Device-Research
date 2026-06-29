@@ -1,0 +1,669 @@
+November 19, 2025
+Gu'an Yeolight Smart Electronics Co., Ltd
+℅ Bing Huang
+RA Engineer
+Feiying Drug & Medical Consulting Technical Service Group
+Rm 2401 Zhenye International Business Center, No. 3101-90
+Qianhai Road
+Shenzhen, Guangdong 518082
+China
+Re: K253035
+Trade/Device Name: IPL Hair Removal Device (SYL001AZ, SYL002AZ)
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: September 21, 2025
+Received: September 22, 2025
+Dear Bing Huang:
+We have reviewed your section 510(k) premarket notification of intent to market the device referenced above
+and have determined the device is substantially equivalent (for the indications for use stated in the enclosure)
+to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment
+date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the
+provisions of the Federal Food, Drug, and Cosmetic Act (the Act) that do not require approval of a premarket
+approval application (PMA). You may, therefore, market the device, subject to the general controls
+provisions of the Act. Although this letter refers to your product as a device, please be aware that some
+cleared products may instead be combination products. The 510(k) Premarket Notification Database
+available at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.08.02
+
+K253035 - Bing Huang
+
+Page
+
+2
+
+Additional information about changes that may require a new premarket notification are provided in the FDA
+guidance documents entitled "Deciding When to Submit a 510(k) for a Change to an Existing Device"
+(https://www.fda.gov/media/99812/download) and "Deciding When to Submit a 510(k) for a Software
+Change to an Existing Device" (https://www.fda.gov/media/99785/download).
+Your device is also subject to, among other requirements, the Quality System (QS) regulation (21 CFR Part
+820), which includes, but is not limited to, 21 CFR 820.30, Design controls; 21 CFR 820.90, Nonconforming
+product; and 21 CFR 820.100, Corrective and preventive action. Please note that regardless of whether a
+change requires premarket review, the QS regulation requires device manufacturers to review and approve
+changes to device design and production (21 CFR 820.30 and 21 CFR 820.70) and document changes and
+approvals in the device master record (21 CFR 820.181).
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR Part 803) for
+devices or postmarketing safety reporting (21 CFR Part 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR Part 4, Subpart
+A) for combination products; and, if applicable, the electronic product radiation control provisions (Sections
+531-542 of the Act); 21 CFR Parts 1000-1050.
+All medical devices, including Class I and unclassified devices and combination product device constituent
+parts are required to be in compliance with the final Unique Device Identification System rule ("UDI Rule").
+The UDI Rule requires, among other things, that a device bear a unique device identifier (UDI) on its label
+and package (21 CFR 801.20(a)) unless an exception or alternative applies (21 CFR 801.20(b)) and that the
+dates on the device label be formatted in accordance with 21 CFR 801.18. The UDI Rule (21 CFR
+830.300(a) and 830.320(b)) also requires that certain information be submitted to the Global Unique Device
+Identification Database (GUDID) (21 CFR Part 830 Subpart E). For additional information on these
+requirements, please see the UDI System webpage at https://www.fda.gov/medical-devices/device-advicecomprehensive-regulatory-assistance/unique-device-identification-system-udi-system.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn).
+
+K253035 - Bing Huang
+
+Page
+
+Additionally, you may contact the Division of Industry and Consumer Education (DICE) to ask a question
+about a specific regulatory topic. See the DICE website (https://www.fda.gov/medical-devices/deviceadvice-comprehensive-regulatory-assistance/contact-us-division-industry-and-consumer-education-dice) for
+more information or contact DICE by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-7967100).
+Sincerely,
+Digitally signed by
+
+Hithe
+Tanisha Hithe Tanisha
+Date: 2025.11.19
+11:06:12 -05'00'
+
+Tanisha Hithe
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical and
+Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+3
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2023
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K253035
+
+Device Name
+
+IPL Hair Removal Device (SYL001AZ, SYL002AZ)
+
+Indications for Use (Describe)
+
+The IPL Hair Removal Device is an over-the-counter device intended for removal of unwanted body and/ or facial hair.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (6/20)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+Gu'an Yeolight Smart Electronics Co.,Ltd
+510(k)s –510(k) Summary
+
+510(k) Summary
+K253035
+
+As required by 21 CFR Part 807.92.
+Date: 2025-10-24
+I.
+
+Submitter
+Gu'an Yeolight Smart Electronics Co.,Ltd
+Room 203 Building 1 beside No.12, Dongfang Street, High-Tech Zones, Gu'an, Langfang, Hebei
+Province
+Post code: 065500
+Tel.: +86 0316-8018688
+Junrui Liu
+Title: Quality Assurance Department Manager
+Tel.: +86-17732613441
+Email: liujr@yeolight.com
+
+II. Device
+Name of Device: IPL Hair Removal Device
+Model(s): SYL001AZ,SYL002AZ
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Classification Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+
+III. Predicate Device & Reference Device
+Predicate device:
+Manufacturer
+Shenzhen Lescolton
+Electrical Appliance Co.,
+Ltd.
+Glan Electronics Co., Ltd.
+
+Predicate Device
+IPL Hair Removal Device
+
+510(k) Number
+K232499
+
+Cleared Date
+October 11,
+2023
+
+IPL Hair Removal,(Model:OBT02)
+
+K213041
+
+November 18,
+2021
+
+IV. Device Description
+
+Page 1 of 8
+
+Gu'an Yeolight Smart Electronics Co.,Ltd
+510(k)s –510(k) Summary
+
+The IPL Hair Removal Device provides hair reduction using Intense Pulsed Light (IPL) technology,
+and it works below the skin's surface and does not involve any cutting or pulling, reducing hair growth
+with minimal pain.
+The IPL Hair Removal Device is only powered by the external power adapter and its IPL emission
+activation is by finger switch. The device contains of main unit, power adapter and protective goggles.
+The device contains a skin sensor to detect appropriate skin contact, if the light emitting window is not
+in full contact with the skin, the device cannot emit the treatment light pulses. Besides, the IPL Hair
+Removal Device has the cooling function, which will be activated throughout the whole hair removal
+process to cool down the treatment area’s temperature by the Sapphire and provide the user with a
+better using experience.
+There are SYL001AZ and SYL002AZ two models in this application. Their work principle, function,
+intended use, structure, appearance and composition are the same, with the only difference in treatment
+level.
+The IPL Hair Removal Device has the components shown as following illustration:
+
+Page 2 of 8
+
+Gu'an Yeolight Smart Electronics Co.,Ltd
+510(k)s –510(k) Summary
+
+V. Indications for Use
+The IPL Hair Removal Device is an over-the-counter device intended for removal of unwanted body
+and/ or facial hair.
+
+VI. Comparison of Technological Characteristics With the Predicate Device
+IPL Hair Removal Device is compared with the following Predicate Devices in terms of intended use,
+design, specifications, and performance:
+
+Page 3 of 8
+
+Gu'an Yeolight Smart Electronics Co.,Ltd
+510(k)s –510(k) Summary
+
+Comparison Elements
+
+Subject Device
+
+Predicate Device 1
+
+Predicate Device 2
+
+Remark
+
+510(k) Number
+
+Pending
+
+K232499
+
+K213041
+
+/
+
+Trade name
+
+IPL Hair Removal Device
+
+IPL Hair Removal Device
+
+IPL Hair Removal
+
+/
+
+SYL002AZ
+
+LS-T106, LS-T107, LS-T108
+
+OBT-02
+
+/
+
+Manufacturer
+
+Gu'an Yeolight Smart Electronics Co.,Ltd
+
+Shenzhen Lescolton
+Electrical Appliance Co., Ltd
+
+Glan Electronics Co.,
+Ltd.
+
+/
+
+Regulation number
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+Same
+
+Product code
+
+OHT
+
+OHT
+
+OHT
+
+Same
+
+Device classification
+
+Class II
+
+Class II
+
+Class II
+
+Same
+
+Prescription or OTC
+
+OTC
+
+OTC
+
+OTC
+
+Same
+
+The IPL Hair Removal Device is an over-thecounter device intended for removal of
+unwanted body and/ or facial hair.
+
+The IPL Hair Removal Device is an
+over-the counter device intended for
+removal of unwanted body and/ or
+facial hair.
+
+The IPL Hair Removal Device
+OBT-02 Version is indicated for
+the removal of unwanted hair.
+The device is also indicated for
+the permanent reduction in
+hair regrowth, defined as the
+long-term, stable reduction in the
+number of hairs re-growing
+when measured at 6, 9 and 12
+months after the completion of a
+treatment regime. The device is
+used for adults.
+
+Same
+
+Applicable skin
+
+Fitzpatrick skin types I-V
+
+Fitzpatrick skin types I-V
+
+Not publicly available
+
+Same
+
+Power supply
+
+Out: AC 100V - 240V,50Hz/60Hz,1.5A
+Input: DC 24V, 2.5A
+
+Not publicly available
+
+AC Powered (100-240 V AC)
+
+Same
+
+Model
+
+Indication for
+Intended use
+
+SYL001AZ
+
+use/
+
+Page 4 of 8
+
+Gu'an Yeolight Smart Electronics Co.,Ltd
+510(k)s –510(k) Summary
+
+Comparison Elements
+
+Subject Device
+
+Predicate Device 1
+
+Predicate Device 2
+
+Remark
+
+Dimension
+
+About 235mm × 105mm × 40mm
+
+LS-T106: 202.3±0.8*38*56.2 mm
+LS-T107: 211.5*63.5*48.9 mm
+LS-T108: 177.5*67*40 mm
+
+150*75*45 mm(H*W*D)
+
+Different
+Note 1
+
+Light source
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Same
+
+Energy medium
+
+Xenon Arc lamp
+
+Xenon Arc lamp
+
+Xenon Arc Flashlamp
+
+Same
+
+LS-T106: 610-1200nm
+LS-T107: 560-1200nm
+LS-T108: 470-1200nm
+
+510nm~1100nm
+
+Similar
+Note 2
+
+Wavelength range
+
+Energy density
+
+Output energy
+
+Spot size
+(Treatment area)
+Pulse duration
+
+510nm-1200nm
+Level 1: 1.52J/cm²
+Level 2: 2.27J/cm²
+Level 3: 3.03J/cm²
+Level 4: 3.79J/cm²
+Level 5: 4.55J/cm²
+Level 1: 5.0J
+Level 2: 7.5J
+Level 3: 10J
+Level 4: 12.5J
+Level 5: 15J
+
+Level 1: 1.52J/cm²
+Level 2: 3.03J/cm²
+Level 3: 4.55J/cm²
+
+LS-T106: 2.0-4.87J/cm2
+LS-T107: 2.16-5.18J/cm2
+LS-T108: 2.0-5.62J/cm2
+
+Level 1: 5J
+Level 2: 10J
+Level 3: 15J
+
+LS-T106: 8/10/13J (±20%)
+LS-T107: 10/13/16J (±20%)
+LS-T108: 8/12/15J (±20%)
+
+3.3 cm²
+
+1.1ms-8.25ms
+
+Output intensity level
+
+5 levels
+
+Software/ Firmware/
+Microprocessor
+
+Yes
+
+3 levels
+
+LS-T106: 3.2 cm2
+LS-T107: 3.7 cm2
+LS-T108: 3.2 cm2
+LS-T106: 0.64-2.4ms
+LS-T107: 7.2-10.8ms
+LS-T108: 6.8-10.2ms
+LS-T106: 3 levels
+LS-T107: 3 levels
+LS-T108: 3 levels
+Yes
+
+Level 1: 1.5 J/cm²
+Level 2: 1.9 J/cm²
+Level 3: 2.6 J/cm²
+Level 4: 3.7 J/cm²
+Level 5: 4.0 J/cm²
+Level 1: 4.5 J
+Level 2: 5.7 J
+Level 3: 7.8 J
+Level 4: 11.1 J
+Level 5: 12 J
+
+Similar
+Note 2
+
+Similar
+Note 2
+
+3.0 cm²
+
+Same
+
+3 ms
+
+Similar
+Note 3
+
+5 levels
+
+Same
+
+Yes
+
+Same
+Page 5 of 8
+
+Gu'an Yeolight Smart Electronics Co.,Ltd
+510(k)s –510(k) Summary
+
+Comparison Elements
+
+Subject Device
+
+Predicate Device 1
+
+Predicate Device 2
+
+Remark
+
+Electrical safety
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+
+Comply with IEC 606011 and IEC 60601-1-2,
+IEC60601-2-57
+
+Same
+
+Eye safety
+
+IEC 62471
+
+IEC 62471
+
+Not publicly available
+
+Same
+
+Biocompatibility
+
+ISO 10993-5,
+ISO 10993-10,
+ISO 10993-23
+
+ISO 10993-5
+
+All user directly contacting
+materials are compliance with
+ISO10993-5 and ISO10993-10
+requirements.
+
+Same
+
+Control?
+
+ISO 10993-10
+
+Page 6 of 8
+
+Gu'an Yeolight Smart Electronics Co.,Ltd
+510(k)s –510(k) Summary
+
+VII.Performance Data
+The following performance data were provided in support of the substantial equivalence determination.
+1) Biocompatibility Safety
+The materials of the patient-directly contacting components of the subject device is performed the
+biocompatibility evaluation in accordance with the “Use of International Standard ISO 10993-1,
+'Biological Evaluation of Medical Devices –Part 1: Evaluation and Testing Within a Risk
+Management Process, Document Issued on September 4, 2020”, as recommended by FDA. The
+following testing was performed to, and passed, including:
+ ISO 10993-5: 2009, Biological evaluation of medical devices –Par t 5: Tests for in vitro
+cytotoxicity
+ ISO 10993-10: 2021, Biological evaluation of medical devices - Part 10: Tests for skin
+sensitization
+ ISO 10993-23: 2021, Biological evaluation of medical devices - Part 23: Tests for irritation
+2) Electrical Safety and EMC Safety
+Electrical safety and Eye safety testing was performed to, and passed, the following standards:
+ IEC 60601-1-2 Edition 4.1 2020-09 CONSOLIDATED VERSION, Medical electrical equipment
+–Part 1-2: General requirements for basic safety and essential performance –Collateral standard:
+electromagnetic compatibility
+ IEC 60601-1 Edition 3.2 2020-08 CONSOLIDATED VERSION, Medical electrical equipment –
+Part 1: General requirements for basic safety and essential performance
+ IEC 60601-1-11 Edition 2.1 2020-07 CONSOLIDATED VERSION, Medical Electrical
+Equipment –Part 1: General Requirements for Basic Safety and Essential Performance –Collateral
+Standard: Requirements for Medical Electrical Equipment and Medical Electrical Systems Used
+in the Home Healthcare Environment
+ IEC 60601-2-83:2022, Medical Electrical Equipment - Part 2-83: Particular Requirements For The
+Basic Safety And Essential Performance Of Home Light Therapy Equipment
+3) Eye Safety
+ IEC 62471:2006 Photobiological safety of lamps and lamp systems
+4) Software Verification and Validation
+Software documentation consistent with Basic Documentation of concern was submitted in this
+510(k). System validation testing presented in this 510(k) demonstrated that all software requirement
+specifications are met and all software hazards have been mitigated to acceptable risk levels.
+Summary
+Based on the above performance as documented in this application, the subject device was found to
+have a safety and effectiveness profile that is similar to the predicate devices.
+VIII.
+
+Conclusions
+
+Page 7 of 8
+
+Gu'an Yeolight Smart Electronics Co.,Ltd
+510(k)s –510(k) Summary
+
+In accordance with the Federal Food, Drug and Cosmetic Act, 21 CFR Part 807 and based on the
+comparison of intended use, design and performance, it can be concluded that the IPL Hair Removal
+Device is as safe, as effective, and performs as well as the legally marketed predicate devices.
+
+Page 8 of 8
+
+

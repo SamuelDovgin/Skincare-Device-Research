@@ -1,0 +1,847 @@
+March 26, 2025
+Shenzhen Ulike Smart Electronics Co.,Ltd.
+Blue Yang
+Registration Director
+810, Building 1, Xunmei Science and Technology Plaza, No. 8
+Keyuan Road, Science Park Community, Yuehai Sub-District
+Shenzhen, 518000
+China
+Re: K250194
+Trade/Device Name: Ice Cooling IPL Hair Removal Device (UI06S PR, UI06S PN, UI06S WH)
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: January 23, 2025
+Received: January 23, 2025
+Dear Blue Yang:
+We have reviewed your section 510(k) premarket notification of intent to market the device referenced above
+and have determined the device is substantially equivalent (for the indications for use stated in the enclosure)
+to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment
+date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the
+provisions of the Federal Food, Drug, and Cosmetic Act (the Act) that do not require approval of a premarket
+approval application (PMA). You may, therefore, market the device, subject to the general controls
+provisions of the Act. Although this letter refers to your product as a device, please be aware that some
+cleared products may instead be combination products. The 510(k) Premarket Notification Database
+available at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.07.05
+
+K250194 - Blue Yang
+
+Page 2
+
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Additional information about changes that may require a new premarket notification are provided in the FDA
+guidance documents entitled "Deciding When to Submit a 510(k) for a Change to an Existing Device"
+(https://www.fda.gov/media/99812/download) and "Deciding When to Submit a 510(k) for a Software
+Change to an Existing Device" (https://www.fda.gov/media/99785/download).
+Your device is also subject to, among other requirements, the Quality System (QS) regulation (21 CFR Part
+820), which includes, but is not limited to, 21 CFR 820.30, Design controls; 21 CFR 820.90, Nonconforming
+product; and 21 CFR 820.100, Corrective and preventive action. Please note that regardless of whether a
+change requires premarket review, the QS regulation requires device manufacturers to review and approve
+changes to device design and production (21 CFR 820.30 and 21 CFR 820.70) and document changes and
+approvals in the device master record (21 CFR 820.181).
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR Part 803) for
+devices or postmarketing safety reporting (21 CFR Part 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR Part 4, Subpart
+A) for combination products; and, if applicable, the electronic product radiation control provisions (Sections
+531-542 of the Act); 21 CFR Parts 1000-1050.
+All medical devices, including Class I and unclassified devices and combination product device constituent
+parts are required to be in compliance with the final Unique Device Identification System rule ("UDI Rule").
+The UDI Rule requires, among other things, that a device bear a unique device identifier (UDI) on its label
+and package (21 CFR 801.20(a)) unless an exception or alternative applies (21 CFR 801.20(b)) and that the
+dates on the device label be formatted in accordance with 21 CFR 801.18. The UDI Rule (21 CFR
+830.300(a) and 830.320(b)) also requires that certain information be submitted to the Global Unique Device
+Identification Database (GUDID) (21 CFR Part 830 Subpart E). For additional information on these
+requirements, please see the UDI System webpage at https://www.fda.gov/medical-devices/device-advicecomprehensive-regulatory-assistance/unique-device-identification-system-udi-system.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+
+K250194 - Blue Yang
+
+Page 3
+
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+signed by
+TANISHA L. Digitally
+TANISHA L. HITHE -S
+2025.03.26
+HITHE -S Date:
+16:53:55 -04'00'
+
+Tanisha Hithe
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical and
+Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+510(k) Summary of K250194
+I. Submitter
+Shenzhen Ulike Smart Electronics Co.,Ltd.
+Address: 810, Building 1, Xunmei Science and Technology Plaza, No. 8 Keyuan Road, Science Park Community, Yuehai Sub-District, Nanshan District, Shenzhen
+518000, Guangdong, P.R. China
+Contact person: Blue Yang
+Email: blue@ulike.com
+The date the summary was prepared：3/19/2025
+II. Device
+Name of Device: Ice Cooling IPL Hair Removal Device
+Model(s): UI06S PR, UI06S PN, UI06S WH
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+III.
+
+Legally Marketed Predicate Devices
+Legally
+Marketed
+Predicate Devices
+
+Predicate Device 1
+
+Predicate Device 2
+
+Predicate Device 3
+
+510(k) number
+
+K242039
+
+K230122
+
+K221002
+
+Trade Name
+
+Ice Cooling IPL Hair Removal
+Device
+
+IPL Hair Removal Device
+
+IPL Hair Removal Device
+
+Manufacturer
+
+Shenzhen Ulike Smart Electronics
+Co., Ltd.
+
+Shenzhen
+Ulike
+Electronics Co., Ltd.
+
+Smart
+
+Shenzhen Ulike Smart Electronics
+Co., Ltd.
+
+Regulation number
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+Product code
+
+OHT
+
+OHT
+
+OHT
+
+Device classification
+
+Class II
+
+Class II
+
+Class II
+
+IV. Device Description
+Ice Cooling IPL Hair Removal Device is an over-the-counter, home-use and personal device for hair reduction by using Intense Pulsed Light (IPL). It is designed
+with a lamp that can emit continuously double or triple pulses per shot. It works below the skin's surface and does not involve any cutting or pulling, reducing hair
+growth with nearly painless pain.
+The device is only powered by the external power adapter and its IPL emission activation is by finger switch. This product adopts sapphire treatment window that is
+suitable for multiple hair removal areas. It contains a skin sensor to detect appropriate skin contact, if the device is not in full contact with the skin, the device cannot
+emit the treatment light pulses. Besides, the device has the ice cooling function that will be activated throughout the whole hair removal process to provide users with
+a more comfortable experience.
+V. Indications for Use
+Ice Cooling IPL Hair Removal Device with sapphire treatment window is indicated for the removal of unwanted hair. The device is also indicated for the permanent
+reduction in hair regrowth, defined as the long-term, stable reduction in the number of hairs regrowing when measured at 6, 9 and 12 months after the completion of a
+treatment regime.
+VI. Comparison of Technological Characteristics with the Predicate Device
+The Ice Cooling IPL Hair Removal Device has the same intended use and similar operational characteristics as the predicate device. Any minor differences between
+the subject device and the listed predicate device do no raise any issues of safety or efficacy. Performance data supports that the device is safe and as effective as the
+predicate device for its intended use. Therefore, the IPL Hair Removal Device may be found substantially equivalent to its predicate device.
+Ice Cooling IPL Hair Removal Device is compared with the following legally marketed devices in terms of intended use, design, specifications and performance:
+
+Comparison Items
+
+Subject Device
+
+Predicate Device 1
+
+Predicate Device 2
+
+Predicate Device 3
+
+Remark
+
+510(k) number
+
+/
+
+K242039
+
+K230122
+
+K221002
+
+/
+
+Trade Name
+
+Ice Cooling IPL
+Hair
+Removal
+Device
+
+Ice Cooling IPL
+Hair
+Removal
+Device
+
+IPL Hair Removal
+Device
+
+IPL Hair Removal
+Device
+
+/
+
+Manufacturer
+
+Shenzhen
+Ulike
+Smart Electronics
+Co., Ltd.
+
+Shenzhen
+Ulike
+Smart Electronics
+Co., Ltd.
+
+Shenzhen
+Ulike
+Smart Electronics
+Co., Ltd.
+
+Shenzhen
+Ulike
+Smart
+Electronics
+Co., Ltd.
+
+/
+
+Regulation number
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+Same
+
+Product code
+
+OHT
+
+OHT
+
+OHT
+
+OHT
+
+Same
+
+Device
+classification
+
+Class II
+
+Class II
+
+Class II
+
+Class II
+
+Same
+
+Indication for use/
+Intended use
+
+Ice Cooling IPL
+Hair
+Removal
+Device
+with
+sapphire treatment
+window is indicated
+for the removal of
+unwanted hair. The
+device
+is
+also
+indicated for the
+permanent
+reduction in hair
+regrowth, defined
+as the long-term,
+
+Ice Cooling IPL
+Hair
+Removal
+Device
+with
+sapphire treatment
+window is indicated
+for the removal of
+unwanted hair. The
+device
+is
+also
+indicated for the
+permanent
+reduction in hair
+regrowth, defined
+as the long-term,
+
+IPL Hair Removal
+Device is indicated
+for the removal of
+unwanted hair. The
+device
+is
+also
+indicated for the
+permanent
+reduction in hair
+regrowth, defined
+as the long-term,
+stable reduction in
+the number of hairs
+regrowing
+when
+
+IPL Hair Removal
+Device is indicated
+for the removal of
+unwanted hair. The
+device
+is
+also
+indicated for the
+permanent reduction
+in hair regrowth,
+defined
+as
+the
+long-term,
+stable
+reduction
+in
+the
+number of hairs
+regrowing
+when
+
+Same
+
+Prescription
+OTC
+
+or
+
+stable reduction in
+the number of hairs
+regrowing
+when
+measured at 6, 9
+and 12 months after
+the completion of a
+treatment regime.
+
+stable reduction in
+the number of hairs
+regrowing
+when
+measured at 6, 9
+and 12 months after
+the completion of a
+treatment regime.
+
+measured at 6, 9
+and 12 months after
+the completion of a
+treatment regime.
+
+measured at 6, 9 and
+12 months after the
+completion
+of
+a
+treatment regime.
+
+OTC
+
+OTC
+
+OTC
+
+OTC
+
+Applicable skin
+
+Fitzpatrick
+Types I-V
+
+Skin
+
+Fitzpatrick
+Types I-V
+
+Skin
+
+Treatment area
+
+Large areas (e.g.
+arms, legs, chest)
+and small areas
+(e.g. lip)
+
+Large areas (e.g.
+arms, legs, chest)
+and small areas
+(e.g. lip)
+
+Source energy
+
+Supplied
+external
+adapter
+
+Supplied
+external
+adapter
+
+Power supply
+
+100-240V~,
+50/60Hz
+
+100-240V~,
+50/60Hz
+
+Dimension
+
+179.0*58.2*37.2m
+m
+
+Sterilization
+
+Not required
+
+Fitzpatrick
+Types I-V
+
+Skin
+
+Fitzpatrick
+Types I-V
+
+Same
+Skin
+
+Same
+
+Large areas (e.g.
+arms, legs, chest)
+and small areas
+(e.g. lip)
+
+Large areas (e.g.
+arms, legs, chest) and
+small areas (e.g. lip)
+
+Same
+
+Supplied
+external
+adapter
+
+Supplied by external
+adapter
+
+Same
+
+100-240V~,
+50/60Hz
+
+100-240V~, 50/60Hz
+
+Same
+
+206.73mm*68.68m
+m*54.29mm
+
+60×38×170mm
+
+60.5(W)x38(H)x169.
+7(L)mm
+
+SE
+Note 1
+
+Not required
+
+Not required
+
+Not required
+
+Same
+
+Intense Pulsed Light
+
+Same
+
+Device design
+by
+
+by
+
+by
+
+Output specification
+Light source
+
+Intense
+
+Pulsed
+
+Intense
+
+Pulsed
+
+Intense
+
+Pulsed
+
+Light
+
+Light
+
+Energy medium
+
+Xenon
+Flashlamp
+
+Xenon Arc Flashlamp
+
+Same
+
+Wavelength range
+
+550nm-1200nm
+
+550-1200mm
+
+560-1200mm
+
+550-1200mm
+
+Same
+
+Energy density
+
+2.42-7.27J/cm²
+
+2.79J/cm2~6.41J/c
+m²
+
+2.4-7.2J/cm²
+
+3.03-5.3J/cm²
+
+SE
+Note 2
+
+Output energy
+
+8-24J
+
+10.9J~25J
+
+9.9~19.8J
+
+10.0~17.5J
+
+SE
+Note 3
+
+Spot size
+
+3.3cm²
+
+3.9cm²
+
+3.3cm²
+
+3.3cm²
+
+Same
+
+Pulse duration
+
+1.82-8.07ms
+multipulse
+
+0.93ms~3.50ms
+multipulse
+
+1.15-6.2ms
+
+7-10ms
+
+SE
+Note 4
+
+Pulsing control
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Same
+
+Delivery device
+
+Direct illumination
+to tissue
+
+Direct illumination
+to tissue
+
+Direct illumination
+to
+tissue
+
+Direct illumination to
+tissue
+
+Same
+
+Output
+level
+
+4 levels
+
+1-10 Levels
+
+5 Levels
+
+5 Levels
+
+SE
+Note 5
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Same
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+
+ANSI AAMI ES
+60601-1
+IEC 60601-1-2
+
+ANSI AAMI
+60601-1
+IEC 60601-1-2
+
+intensity
+
+Software/Firmware
+/Microprocess or
+Control?
+
+Arc
+
+Xenon
+Flashlamp
+
+Light
+Arc
+
+Xenon
+Flashlamp
+
+Arc
+
+Additional features
+Electrical safety
+
+ES
+
+Same
+
+IEC 60601-2-57
+IEC 60601-2-83
+
+IEC 60601-2-57
+IEC 60601-2-83
+
+IEC 60601-1-11
+IEC 60601-2-57
+IEC 60601-2-83
+
+IEC 60601-1-11
+IEC 60601-2-57
+IEC 60601-2-83
+
+Eye safety
+
+IEC 62471
+
+IEC 62471
+
+IEC 62471
+
+IEC 62471
+
+Same
+
+Biocompatibility
+
+ISO 10993-5
+ISO 10993-10
+ISO 10993-23
+
+ISO 10993-5
+ISO 10993-10
+ISO 10993-23
+
+ISO 10993-5
+ISO 10993-10
+
+ISO 10993-5
+ISO 10993-10
+
+Same
+
+Note 1:
+The dimension belongs to basic characteristics. Although there is the dimension difference between subject device and the predicate devices, but it will not affect the
+function and intended use of the device, and they all comply with IEC 60601-1 requirements, so the difference will not raise safety and effectiveness issue.
+Note 2:
+Although there is a minor difference of the energy density between the subject device and predicate devices, but the energy density of subject device is very similar to
+the value of the predicate device 2, and they all comply with IEC 60601-2-57/IEC 60601-2-83 and IEC 62471 requirements, so such minor difference would not raise
+safety or effectiveness issue.
+Note 3:
+Although there is a minor difference of the output energy between the subject device and predicate device, but the output energy of subject device is within the range
+of the value of the predicate device 1, and they all comply with IEC 60601-2-57/IEC 60601-2-83 and IEC 62471 requirements, so such minor difference would not
+raise safety or effectiveness issue.
+Note 4:
+Although there is a minor difference of the pulse width between the subject device and predicate devices, it is within the pulse width value of the predicate device 3.
+Regarding the multipulse, the subject device operated on multipulse while the predicate device 2 also operated on multipulse. In addition, the subject device comply
+
+with IEC 60601-2-83 and IEC 62471 requirement, so this difference will not raise any safety or effectiveness issue.
+Note 5:
+Though the subject device has 4 energy levels, which is different from the predicate devices, this difference is insignificant and do not raise any safety or
+effectiveness problems.
+VIII.
+
+Performance Data
+
+The following performance data were provided in support of the substantial equivalence determination.
+1) Biocompatibility Testing
+The biocompatibility evaluation for the body-contacting components of the IPL Hair Removal Device was conducted in accordance with the "Use of
+International Standard ISO 10993-1, 'Biological Evaluation of Medical Devices–Part 1: Evaluation and Testing Within a Risk Management Process,
+Document", as recognized by FDA. The following testing was performed to, and passed, including:
+> ISO 10993-10:2021, Biological evaluation of medical devices Part 10: Tests for skin sensitization
+> ISO 10993-23:2021, Biological evaluation of medical devices Part 23: Tests for irritation
+> ISO 10993-5: 2009, Biological Evaluation of Medical Devices - Part 5: Tests For In Vitro Cytotoxicity
+2) Electrical Safety and EMC
+Electrical safety and EMC testing was performed to, and passed, as per the following standards:
+> IEC 60601- 1:2005+A1:2012+A2:2020 Medical electrical equipment - Part 1: General requirements for basic safety and essential performance
+> IEC 60601- 1-2:2014+A1:2020 Medical electrical equipment - Part 1-2: General requirements for basic safety and essential performance -Collateral
+Standard: Electromagnetic disturbances - Requirements and tests
+> IEC 60601- 1- 11:2015+A1:2020 Medical Electrical Equipment– Part 1- 11: General Requirements for Basic Safety and Essential Performance
+–Collateral Standard: Requirements for Medical Electrical Equipment and Medical Electrical Systems Used in the Home Healthcare Environment
+> IEC 60601-2-57:2011 Medical electrical equipment–Part 2-57: Particular requirements for the basic safety and essential performance of non-laser
+source equipment intended for therapeutic, diagnostic, monitoring and cosmetic/aesthetic use
+> IEC 60601-2-83:2022 Medical electrical equipment - Part 2-83: Particular requirements for the basic safety and essential performance of home light
+therapy equipment
+
+3) Light Safety
+> IEC 62471:2006 Photobiological safety of lamps and lamp systems
+4) Software Verification and Validation
+Software documentation consistent with Basic Docum ent ati on Level was submitted in this 510(k). System testing presented in this 510(k)
+demonstrated that all software requirement specifications are met and all software hazards have been mitigated to acceptable risk levels.
+5) Usability
+The product usability has been evaluated and validated according to the following standard and FDA guidance.
+> IEC 60601-1-6:2005+2012+2020 Medical electrical equipment - Part 1-6: General requirements for basic safety and essential performance - Collateral
+standard: Usability
+>Applying Human Factors and Usability Engineering to Medical Devices, issued on FEBRUARY 2016
+Conclusion: Based on the above analysis and non-clinical tests performed, it can be concluded that the subject device Ice Cooling IPL Hair Removal Device is as
+safe, as effective, and performs as well as the legally marketed predicate devices.
+
+

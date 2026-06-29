@@ -1,0 +1,481 @@
+DEPARTMENT OF HEALTH & HUMAN SERVICES
+
+Public Health Service
+
+Food and Drug Administration
+10903 New Hampshire Avenue
+Document Control Center – WO66-G609
+Silver Spring, MD 20993-0002
+
+June 18, 2015
+iPulse Limited
+Dr. Michael Kiernan
+Chief Scientific Officer
+Technium 2, Kings Road, The Docks
+Swansea, Wales SA1 8PJ, Wales, United Kingdom
+Re: K143003
+Trade Name: iPulse SmoothSkin Gold Hair Removal System
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser surgical instrument for use in general and
+plastic surgery and in dermatology
+Regulatory Class: Class II
+Product Code: OHT, ONX, GEX
+Dated: May 15, 2015
+Received: May 18, 2015
+Dear Dr. Kiernan:
+We have reviewed your Section 510(k) premarket notification of intent to market the device
+referenced above and have determined the device is substantially equivalent (for the indications
+for use stated in the enclosure) to legally marketed predicate devices marketed in interstate
+commerce prior to May 28, 1976, the enactment date of the Medical Device Amendments, or to
+devices that have been reclassified in accordance with the provisions of the Federal Food, Drug,
+and Cosmetic Act (Act) that do not require approval of a premarket approval application (PMA).
+You may, therefore, market the device, subject to the general controls provisions of the Act. The
+general controls provisions of the Act include requirements for annual registration, listing of
+devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability
+warranties. We remind you; however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA),
+it may be subject to additional controls. Existing major regulations affecting your device can be
+found in the Code of Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may
+publish further announcements concerning your device in the Federal Register.
+Please be advised that FDA’s issuance of a substantial equivalence determination does not mean
+that FDA has made a determination that your device complies with other requirements of the Act
+or any Federal statutes and regulations administered by other Federal agencies. You must
+comply with all the Act’s requirements, including, but not limited to: registration and listing (21
+CFR Part 807); labeling (21 CFR Part 801); medical device reporting (reporting of medical
+device-related adverse events) (21 CFR 803); good manufacturing practice requirements as set
+
+Page 2 – Dr. Michael Kiernan
+forth in the quality systems (QS) regulation (21 CFR Part 820); and if applicable, the electronic
+product radiation control provisions (Sections 531-542 of the Act); 21 CFR 1000-1050.
+If you desire specific advice for your device on our labeling regulation (21 CFR Part 801), please
+contact the Division of Small Manufacturers, International and Consumer Assistance at its tollfree number (800) 638-2041 or (301) 796-7100 or at its Internet address
+http://www.fda.gov/MedicalDevices/ResourcesforYou/Industry/default.htm. Also, please note
+the regulation entitled, sMisbranding by reference to premarket notifications (21CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21
+CFR Part 803), please go to
+http://www.fda.gov/MedicalDevices/Safety/ReportaProblem/default.htm for the CDRH’s Office
+of Surveillance and Biometrics/Division of Postmarket Surveillance.
+You may obtain other general information on your responsibilities under the Act from the
+Division of Small Manufacturers, International and Consumer Assistance at its toll-free number
+(800) 638-2041 or (301) 796-7100 or at its Internet address
+http://www.fda.gov/MedicalDevices/ResourcesforYou/Industry/default.htm.
+Sincerely yours,
+
+Jennifer R. Stevenson
+-S
+For Binita S. Ashar, M.D., M.B.A., F.A.C.S.
+Director
+Division of Surgical Devices
+Office of Device Evaluation
+Center for Devices and
+Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: January 31, 2017
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K143003
+Device Name
+
+iPulse SmoothSkin Gold Hair Removal System
+
+Indications for Use (Describe)
+
+The iPulse SmoothSkin Gold Hair Removal System is indicated for the removal of unwanted hair. The iPulse Smoothskin
+Gold is also indicated for the permanent reduction in hair regrowth, defined as the long-term, stable reduction in the
+number of hairs regrowing when measured at 6, 9 and 12 months after the completion of a treatment regime.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+PLEASE DO NOT WRITE BELOW THIS LINE – CONTINUE ON A SEPARATE PAGE IF NEEDED.
+FOR FDA USE ONLY
+Concurrence of Center for Devices and Radiological Health (CDRH) (Signature)
+
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (1/14)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+Page 1 of 4
+Traditional 510(k) Premarket Notification
+iPulse Smoothskin Gold
+
+3.0
+
+iPulse Ltd
+Page 14
+
+510(K) SUMMARY
+
+Submission Date:
+
+15th October 2014
+
+Submitter Information
+Company Name:
+Company Address:
+
+iPulse Limited.
+Technium 2, Kings Road, Swansea, Wales, UK SA1 8PJ
+
+Contact Person:
+
+Dr Mike Kiernan
+UK +44 1792 485 519
+mkiernan@cyden.com
+
+Device Information
+Trade Name:
+
+iPulse SmoothSkin Gold Hair Removal System
+
+Common Name:
+
+Light based over the counter hair removal system
+
+Classification Name:
+
+Laser surgical instrument for use in general and plastic
+surgery and dermatology
+
+Device Class:
+
+21 CFR 878.4810
+
+Predicate Devices:
+
+iPulse Smoothskin Hair Removal System
+K130315
+CyDen Limited
+The Shaser HRS2 IPL Hair Removal System
+K120080
+ShaserInc
+mē
+K131649
+Syneron Beauty Ltd
+
+A comparison of the key technological characteristics of the iPulse Smoothskin Gold
+System to the predicate devices is provided in Table 1.
+
+CONFIDENTIAL
+
+Page 2 of 4
+Traditional 510(k) Premarket Notification
+iPulse Smoothskin Gold
+
+Device Name
+
+iPulse Ltd
+Page 15
+
+PREDICATE DEVICES
+Shaser HRS2 IPL
+
+mē
+
+K120080
+
+K131649
+
+DEVICE
+iPulse Smooth Skin
+Gold
+K143003
+
+K Number
+
+iPulse Hair Removal
+System
+K130315
+
+Manufacturer
+
+CyDen Ltd
+
+ShaserInc
+
+Syneron Beauty Ltd
+
+iPulse Ltd
+
+Energy Medium
+Wavelength
+Range
+Pulse Duration
+
+Xenon Arc Flashlamp
+530-1100nm
+
+Xenon Arc Flashlamp
+650-1100nm*
+
+Xenon Arc Flashlamp
+550-1200nm
+
+Xenon Arc Flashlamp
+510-1100nm
+
+Variable Single pulse
+25milliseconds.
+to
+Double Pulse 20ms
+on, 60 ms off.
+2
+7-10J/cm
+2
+3cm (1.3cm by 2.4
+cm)
+Direct Illumination
+To Tissue
+Finger switch
+Optical
+Measurement
+Removable from
+Base Unit.
+
+30 milliseconds
+
+~5ms
+
+2ms to 10ms
+
+Up to 9J/cm2
+3.3cm2 (3.3cm by
+1.0cm)
+Direct Illumination to
+Tissue
+Finger Switch
+Electrical Contact
+
+3-6J/cm
+2
+3cm
+
+Energy Density
+Spot Size
+Delivery Device
+Pulsing Control
+Skin Tone Sensor
+
+Specific
+Indications for
+Use
+
+Sensor moveable to
+treatment site
+The iPulse Hair
+Removal System is
+an Over-the-counter
+device intended for
+the removal of
+unwanted hair.
+
+2
+
+9J/cm
+2
+2cm (1cm by 2cm)
+Direct Illumination to
+Tissue
+Finger switch
+Optical
+Measurement
+Integral to Base Unit
+Sensor fixed in base
+unit, treatment site
+moved to sensor
+The Shaser HRS2 is
+an Over-the-counter
+device intended for
+the removal of
+unwanted hair. It is
+also intended for
+permanent reduction
+in unwanted hair.
+Permanent hair
+reduction is defined
+as the long-term
+stable reduction in
+the numbers of hairs
+regrowing when
+measured at 6,9 and
+12 months after the
+completion of a
+treatment regimen.
+
+Direct Illumination to
+Tissue
+Finger switch
+Optical
+Measurement
+Integral to device.
+Continuous
+measurement.
+
+The me is an overthe-counter device
+indicated for the
+removal of unwanted
+hair. Me is also
+intended for
+permanent in hair
+growth following an
+initial treatment
+regimen with or
+without maintenance
+when measured at
+6,9 and 12 months.
+
+Table 1: Predicate Device Comparison
+
+CONFIDENTIAL
+
+2
+
+The iPulse
+SmoothSkin Gold
+Hair Removal System
+is indicated for the
+removal of unwanted
+hair. The iPulse
+Smoothskin Gold is
+also indicated for the
+permanent reduction
+in hair regrowth,
+defined as the longterm, stable
+reduction in the
+number of hairs
+regrowing when
+measured at 6, 9 and
+12 months after the
+completion of a
+treatment regime.
+
+Page 3 of 4
+Traditional 510(k) Premarket Notification
+iPulse Smoothskin Gold
+
+iPulse Ltd
+Page 16
+
+Device Description
+The iPulse SmoothSkin Hair Removal System is an intense pulsed light (IPL) system
+consisting of:
+Handset – contained within the handset is the Capacitor, Capacitor Charger,
+Control electronics, Optics (Lamp, Filter, Reflector, Light Pipe), Trigger
+mechanism and Skin Tone / proximity Sensors (STS);
+External Power Supply – used to convert the electricity from the mains
+supply (either 110V or 230V, 50/60Hz) to a lower DC value, typically 24V. This
+power supply unit is an “off-the-shelf” component which meets all the
+relevant electrical safety standards.
+Intended Use
+The iPulse SmoothSkin Gold Hair Removal System is an over the counter device
+intended for the removal of unwanted hair.
+Indications for Use
+The iPulse SmoothSkin Gold Hair Removal System is indicated for the removal of
+unwanted hair. The iPulse Smoothskin Gold is also indicated for the permanent
+reduction in hair regrowth, defined as the long-term, stable reduction in the number
+of hairs regrowing when measured at 6, 9 and 12 months after the completion of a
+treatment regime.
+Performance Data – Non Clinical
+Nonclinical, clinical and usability testing has been completed on the iPulse
+SmoothSkin Hair Removal System. Nonclinical testing included biocompatibility,
+electrical safety and software testing.
+Usability testing was completed in 24 subjects to evaluate device human factors and
+label comprehension.
+Performance Data – Clinical
+Clinical testing was conducted in 50 subjects at a single treatment center. Each
+subject received 12 weekly treatments to the selected body location. Prior to
+treatment the site was shaved and any hair trimmings removed. The treatment was
+performed by a suitable operator to ensure consistency of coverage thus enabling
+accurate efficacy determination. The device output setting for each subject was
+determined by the measured skin tone at the actual treatment site.
+
+CONFIDENTIAL
+
+Page 4 of 4
+Traditional 510(k) Premarket Notification
+iPulse Smoothskin Gold
+
+iPulse Ltd
+Page 17
+
+Hair counts were performed on a fixed area located at the center of the treatment
+site using templates and skin landmarks. All treatment sites were photographed
+prior to each treatment and at the review point. All subjects were shaved one week
+prior to both baseline and the 6 and 12 month review points thus ensuring hair
+count consistency.
+Hair counts in the selected area on each subject were determined by 2 independent
+assessors and the results averaged. The percentage difference in hair count pre and
+post treatment was calculated and a Paired Sample t-test used to compare means.
+Only cases where the pre and post treatment hair count areas could be clearly
+identified on the clinical photographs were analysed.
+The efficacy results are provided in Table 2.
+Number of Subjects at 6 Months
+Post Treatment
+Hair Reduction at 6 Months Post
+Treatment
+
+SmoothSkin Gold
+50
+
+Number of Subjects at 12 Months
+Post Treatment
+Hair Reduction at 12 Months Post
+Treatment
+% of Subjects met success (>30%
+hair reduction) on all body areas at
+12 months post-treatment. Subject
+Success is defined as greater than
+30% hair reduction at all treatment
+sites at 12 months.*
+
+43.9%
+33
+36.0%
+66.7%
+
+* The SmoothSkin Gold clinical study only used single treatment sites on
+individual subjects.
+
+Table 2: Clinical Efficacy Results
+Substantial Equivalence
+The iPulse SmoothSkin Gold Hair Removal System has the same intended use, mode
+of action and similar operational characteristics as the predicate devices. Any minor
+differences between the iPulse Smoothskin Gold Hair Removal System and the listed
+predicate devices do not raise any issues of safety or efficacy. Performance data
+supports that the device is as safe and as effective as the predicate devices for its
+intended use. Therefore, the iPulse SmoothSkin Gold Hair Removal System may be
+found substantially equivalent to its predicate devices.
+
+CONFIDENTIAL
+
+

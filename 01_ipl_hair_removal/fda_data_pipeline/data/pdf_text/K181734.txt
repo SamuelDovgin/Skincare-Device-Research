@@ -1,0 +1,451 @@
+September 19, 2018
+Home Well Trading LTD
+Martin Gurovich
+VP R&D
+Omar Hodge Building, Road Town
+Tortola, Vg
+Re: K181734
+Trade/Device Name: Beurer IPL 8500 device/ IPL VelvetSkin Pro
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument for use in General and Plastic Surgery and in Dermatology
+Regulatory Class: Class II
+Product Code: OHT, ONF
+Dated: June 26, 2018
+Received: July 2, 2018
+Dear Martin Gurovich:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.02.14
+
+Page 2 - Martin Gurovich
+
+K181734
+
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/CombinationProducts/GuidanceRegulatoryInformation/ucm597488.htm); good
+manufacturing practice requirements as set forth in the quality systems (QS) regulation (21 CFR Part 820)
+for devices or current good manufacturing practices (21 CFR 4, Subpart A) for combination products; and, if
+applicable, the electronic product radiation control provisions (Sections 531-542 of the Act); 21 CFR 10001050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to http://www.fda.gov/MedicalDevices/Safety/ReportaProblem/default.htm.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice
+(https://www.fda.gov/MedicalDevices/DeviceRegulationandGuidance/) and CDRH Learn
+(http://www.fda.gov/Training/CDRHLearn). Additionally, you may contact the Division of Industry and
+Consumer Education (DICE) to ask a question about a specific regulatory topic. See the DICE website
+(http://www.fda.gov/DICE) for more information or contact DICE by email (DICE@fda.hhs.gov) or phone
+(1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+David Krause -S
+for Binita S. Ashar, M.D., M.B.A., F.A.C.S.
+Director
+Division of Surgical Devices
+Office of Device Evaluation
+Center for Devices and Radiological Health
+Enclosure
+
+Home Well Trading Ltd
+
+Omar Hodge Building, Road Town,
+Virging Island (British) VG 1110
+
+Beurer IPL 8500 device – 510K submission
+
+RD-18043 A0
+
+SECTION 04
+
+BEURER IPL 8500 DEVICE
+AN OVER-THE-COUNTER HOME USE DEVICE INTENDED FOR HAIR
+REDUCTION BASED ON INTENSE PULSED LIGHT (IPL)
+
+INDICATION FOR USE STATEMENT
+
+………………………………………………………………………………………………………
+Home Well Trading Ltd. 510(k)
+June 25, 2018
+CONFIDENTIAL
+Beurer IPL 8500 Device
+04-1
+
+K181734
+
+K181734
+
+Home Well Trading Ltd
+
+Omar Hodge Building, Road Town,
+Virging Island (British) VG 1110
+
+Beurer IPL 8500 device – 510K submission
+
+RD-18043 A0
+
+SECTION 05
+
+BEURER IPL 8500 DEVICE
+AN OVER-THE-COUNTER HOME USE DEVICE INTENDED FOR HAIR
+REDUCTION BASED ON INTENSE PULSED LIGHT (IPL)
+
+510(K) SUMMARY
+
+………………………………………………………………………………………………………
+Home Well Trading Ltd. 510(k)
+June 26, 2018
+Beurer IPL 8500 Device
+5-1
+
+Omar Hodge Building, Road Town,
+Virging Island (British) VG 1110
+
+Home Well Trading Ltd
+
+Beurer IPL 8500 device – 510K submission
+
+RD-18043 A0
+
+510(K) SUMMARY FOR HOME WELL TRADING LTD.'S BEURER IPL 8500
+DEVICE
+DATE PREPARED: JUNE 26TH, 2017
+
+1.
+
+510(K) OWNER NAME
+Home Well Trading Ltd.
+Omar Hodge Building, Tortola, British Virgin Islands
+Phone: (213) 335-3521.
+Contact person name: Martin Gurovich, VP R&D
+Phone: (213) 335-3521, E mail: ra_qa@homewellt.com
+
+2.
+
+DEVICE NAME
+
+Common/Usual Name: Light based hair removal devices
+Proprietary/Trade name: Beurer IPL 8500 device or VelvetSkin Pro
+Classification: Beurer IPL 8500 device by Home Well Trading Ltd. has been
+classified as Class II device under the following classification names:
+
+Classification Name
+
+Product
+Code
+
+Regulation
+Number
+
+Panel
+
+878.4810
+
+General and Plastic
+Surgery
+
+Light Based Over-TheCounter Hair Removal
+and
+
+OHT
+
+Powered Light Based
+
+and
+
+Non-Laser Surgical
+
+ONF
+
+Instrument With Thermal
+Effect
+………………………………………………………………………………………………………
+Home Well Trading Ltd. 510(k)
+June 26, 2018
+Beurer IPL 8500 Device
+5-2
+
+Home Well Trading Ltd
+
+Omar Hodge Building, Road Town,
+Virging Island (British) VG 1110
+
+Beurer IPL 8500 device – 510K submission
+
+3.
+
+RD-18043 A0
+
+PREDICATE DEVICES
+Beurer IPL 8500 device by Home Well Trading Ltd. is substantially equivalent to
+the following Predicate Devices:
+3.1 EL Global Trade Ltd.'s sensiLight Mini device,
+cleared under 510(k) numbers: K161089 on July 8, 2016.
+3.2 Conair Corporation's Lumilisse hair remover,
+cleared under 510(k) number K172791 on January 18, 2018.
+
+4.
+
+DEVICE DESCRIPTION
+The Beurer IPL 8500 device is an intense pulse light hair reduction device.
+Phototherapy (Light-based) hair reduction is based on the theory of selective
+photothermolysis in which optical energy is used to disable hair re-growth. The
+Beurer IPL 8500 device is composed of a hand-held applicator and an external
+power supply/charger. The spot size (treatment area) in the Beurer IPL 8500 device
+is 4.5 cm² or 2 cm2 (for large and precise treatment windows, respectively).
+The device contains a lamp, a skin proximity and pigmentation sensor allowing
+application only on compatible skin tones and while in full contact with the treated
+area. If the Beurer IPL 8500 device is not properly applied (in full contact with the
+skin) or user skin tone is too dark/tanned, the device will provide indications on the
+faulty conditions and will not trigger a pulse.
+Body contact materials were evaluated for biocompatibility with accordance to
+FDA’s Memorandum – #G95 1, May 1, 1995 and ISO 10993-1:2009.
+
+………………………………………………………………………………………………………
+Home Well Trading Ltd. 510(k)
+June 26, 2018
+Beurer IPL 8500 Device
+5-3
+
+Home Well Trading Ltd
+
+Omar Hodge Building, Road Town,
+Virging Island (British) VG 1110
+
+Beurer IPL 8500 device – 510K submission
+
+5.
+
+RD-18043 A0
+
+INTENDED USE
+The Beurer IPL 8500 device is an over the counter device intended for removal of
+unwanted body and/or facial hair in adults. The Beurer IPL 8500 device is also
+intended for permanent reduction in unwanted hair. Permanent hair reduction is
+defined as a long-term, stable reduction in the number of hairs re-growing when
+measured at 6, 9, and 12 months after the completion of treatment regimen.
+
+6.
+
+TECHNOLOGICAL CHARACTERISTICS AND SUBSTANTIAL EQUIVALENCE
+The Beurer IPL 8500 device relies on the same technology as both predicate
+devices: Intense Pulsed Light (IPL). The safety and efficacy of IPL treatment for
+hair reduction are governed by the following parameters:
+•
+
+Wavelength of the emitted light (spectrum): Defines the interaction with
+specific chromophores (the part of the molecule responsible for its color) such
+as melanin, hemoglobin and water. The Beurer IPL 8500 device and the
+predicate devices utilize the same spectrum as the sensiLight mini predicate
+device (475-1200nm) and as the Lumilisse predicate device (550-1200nm).
+
+•
+
+Fluence/flux – defines the energy per area (e.g. joules per cm²) for the treatment.
+The Beurer IPL 8500 device and the predicate devices deliver exactly the same
+maximum energy (5 joules/cm2).
+
+•
+
+Pulse duration – Provides for an efficient heating of the target molecule but not
+its surroundings. The Beurer IPL 8500 device and the predicate device
+sensiLight mini have exactly the same pulse duration.
+
+………………………………………………………………………………………………………
+Home Well Trading Ltd. 510(k)
+June 26, 2018
+Beurer IPL 8500 Device
+5-4
+
+Home Well Trading Ltd
+
+Omar Hodge Building, Road Town,
+Virging Island (British) VG 1110
+
+Beurer IPL 8500 device – 510K submission
+7.
+
+RD-18043 A0
+
+PERFORMANCE DATA (BENCH)
+Beurer IPL 8500 device by Home Well Trading Ltd. has been successfully tested
+through bench and safety tests to support the determination of substantial
+equivalence with predicate devices.
+The Beurer IPL 8500 device has been tested and complies with the following
+voluntary recognized standards:
+1. IEC 60601-1:2012/EN 60601-1:2013 (Ed. 3.1). Medical electric equipmentPart 1 General requirements for Basic safety and essential performance.
+2. IEC 60601-1-11:2015 (Ed. 2). Medical electric equipment-Part 1: Collateral
+requirements for medical electrical equipment and medical electrical systems
+used in the home healthcare environment.
+3. IEC 60601-2-57:2011 (Ed. 1). Medical electrical equipment-Part 2: Particular
+requirements for basic safety and essential performance of non-laser light
+source equipment intended for therapeutic, diagnostic, monitoring and
+cosmetics/aesthetic use.
+4. FCC part 15, Subpart B, Class B.
+5. IEC 60601-1-2:2014 (Ed. 4) Medical electrical equipment – Part 1-2: General
+requirements for basic safety and essential performance – Collateral standard:
+Electromagnetic compatibility – Requirements and tests.
+6. IEC 62471:2006 (Ed. 1). Photo-biological safety of lamps and lamp systems.
+7. Software Validation was conducted according to IEC 62304:2006 - Medical
+device software - Software life cycle processes, and; FDA Guidance for the
+Content of Pre-Market Submissions for Software Contained in Medical
+Devices, dated May 11, 2005.
+8. ISO 10993-1:2009 – Biological evaluation of medical devices - Part 1:
+Evaluation and testing within a risk management process and with FDA’s
+Memorandum – #G95 1, May 1, 1995, Use of International Standard ISO10993, "Biological Evaluation of Medical Devices Part 1: Evaluation and
+Testing" (Blue Book Memo G95-1).
+
+………………………………………………………………………………………………………
+Home Well Trading Ltd. 510(k)
+June 26, 2018
+Beurer IPL 8500 Device
+5-5
+
+Home Well Trading Ltd
+
+Omar Hodge Building, Road Town,
+Virging Island (British) VG 1110
+
+Beurer IPL 8500 device – 510K submission
+
+RD-18043 A0
+
+9. ISO/IEC 14971:2007 (BS EN ISO 14971:2012) Medical devices – Application
+of risk management to medical devices.
+10. CB IEC 62133:2012. Secondary cells and batteries containing alkaline or other
+non-acid electrolytes - Safety requirements for portable sealed secondary cells,
+and for batteries made from them, for use in portable applications.
+11. UN 38.3 Recommendations on the Transport of Dangerous Goods, Model
+Regulations: Lithium Battery Transporation
+*For the complete list of tests and applicable standards see Beurer IPL 8500 device
+Traceability Analysis, RD-18203 (Appendix C- subsection 037).
+Tests results are supporting all labeling claims in order to establish substantial
+equivalency.
+Human Factors Validation Testing
+A human Factors Validation Testing was done to evaluate the HFE/ UE concerns,
+including label comprehension/self-selection and usability/user interface studies
+(one arm, simulated use and summative evaluation). In both studies, participants
+had received the labeling materials of the device, and given enough time to read it
+according to their own wish.
+Labeling Comprehension/ Self Selection Study was aimed at demonstrating
+potential user comprehension of the device labeling (mainly the outer package) in
+order to decide if device use is appropriate for her. It had included three main
+questions regarding the intended use of the device, treatment areas and possibility
+to use the device according to the contraindication, with correct answers: „Yes“ or
+„No“, explenation and further validation by the moderator. A total of 25
+participants, 4 men and 21 women, from age 23 to 75 years old (37 ± 14 years old)
+were enrolled to this study. Participants had different educational levels, as obtained
+by REALM testing with 28% below 9th grade level. All participants had met the
+
+………………………………………………………………………………………………………
+Home Well Trading Ltd. 510(k)
+June 26, 2018
+Beurer IPL 8500 Device
+5-6
+
+Home Well Trading Ltd
+
+Omar Hodge Building, Road Town,
+Virging Island (British) VG 1110
+
+Beurer IPL 8500 device – 510K submission
+
+RD-18043 A0
+
+inclusion/ exclusion criteria and signed ICF. 100% of the participants had reported
+correct answers, as further validated by the moderator (κ=1).
+Usability/ User Interface Study was aimed at demonstrating the OTC user can
+correctly use the device, based on the labeling material for the intended aesthetic
+puspose. The study was focused on four use scenarios including 25 relevant tasks:
+“Getting to know the device and device set-up” (7 tasks), “self-preparation” (9
+tasks), “device usage” (7 tasks) and “after usage” (2 tasks). None of the participants
+had required assistance from the moderator while performing the tasks. Altogether,
+all tasks were completed by 100% of the participants, and the success rate (pass
+criteria) was 100% per each task scenario.
+In addition, in the follow up satisfaction questionnaire, filled by 18 of the 20 users,
+all participants (18) commented that the device usage is easy and clear with an
+average result of 4.4±0.2, using a 1-5 discrete scale (when 1 represents worst and 5
+represents best). Labeling and instructions comprehension result was 4.1±0.2 and
+overall satisfaction was at 4.1±0.2. Two participants found the device to be
+somewhat heavy and a single user found the trigger less mode to be unnecessary.
+These two demonstrate that the intended OTC users can understand the package
+labeling, correctly choose the device and use it for the indicated aesthetic use, based
+solely on reading the lableling materials.
+8.
+
+CLINICAL PERFORMANCE DATA
+No new clinical performance data is reported in this submission.
+
+………………………………………………………………………………………………………
+Home Well Trading Ltd. 510(k)
+June 26, 2018
+Beurer IPL 8500 Device
+5-7
+
+Home Well Trading Ltd
+
+Omar Hodge Building, Road Town,
+Virging Island (British) VG 1110
+
+Beurer IPL 8500 device – 510K submission
+9.
+
+RD-18043 A0
+
+SUBSTANTIAL EQUIVALENCE
+Beurer IPL 8500 device by Home Well Trading Ltd. is substantially equivalent to
+the selected predicate devices in terms of indication for use, technology,
+performance, areas of usage, patient population and nature of body contact.
+The Substantial equivalence decision was based on the following comparison with
+the predicate devices:
+The design and components in the Beurer IPL 8500 device, including the hand-held
+applicator (with lamp, microcontroller, fan, skin color and proximity sensors,
+indicator LEDs and operational button/s), are similar to the design and components
+found in the predicate devices (K161089 and K172791). The performance
+specifications (including light energy power, wavelength and pulse duration) are
+identical. The safety features found in the devices are the same, including the skin
+color sensor, skin proximity sensor, etc. These safety features in the Beurer IPL
+8500 device are substantially equivalent to the safety features found in the predicate
+devices. Any minor differences in the technological characteristics do not raise new
+safety or effectiveness concerns. Furthermore, the new Beurer IPL 8500 device
+underwent performance testing, including software validation testing and electrical
+and mechanical safety testing according to IEC 60601-1 and electromagnetic
+compatibility testing according to IEC 60601-1-2.
+
+10.
+
+CONCLUSIONS
+The evaluation of our device performances and comparison to the predicate devices
+demonstrate that it is as safe and as effective as the predicate devices.
+
+………………………………………………………………………………………………………
+Home Well Trading Ltd. 510(k)
+June 26, 2018
+Beurer IPL 8500 Device
+5-8
+
+

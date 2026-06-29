@@ -1,0 +1,1894 @@
+December 1, 2023
+Hebei Zhemai Technology Co.,Ltd
+Ray Wang
+Official Correspondent
+1st FL, N of No.1 Warehouse, W of Shuichang Rd,
+N of Beiyi Rd, Yanjiao Development Zone, Sanhe
+Langfang, Hebei 065201
+China
+Re: K232708
+Trade/Device Name: Intense pulsed light therapy device
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: ONF
+Dated: September 4, 2023
+Received: September 5, 2023
+Dear Ray Wang:
+We have reviewed your section 510(k) premarket notification of intent to market the device referenced above
+and have determined the device is substantially equivalent (for the indications for use stated in the enclosure)
+to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment
+date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the
+provisions of the Federal Food, Drug, and Cosmetic Act (the Act) that do not require approval of a premarket
+approval application (PMA). You may, therefore, market the device, subject to the general controls
+provisions of the Act. Although this letter refers to your product as a device, please be aware that some
+cleared products may instead be combination products. The 510(k) Premarket Notification Database
+available at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.06.05
+
+K232708 - Ray Wang
+
+Page
+
+2
+
+Additional information about changes that may require a new premarket notification are provided in the FDA
+guidance documents entitled "Deciding When to Submit a 510(k) for a Change to an Existing Device"
+(https://www.fda.gov/media/99812/download) and "Deciding When to Submit a 510(k) for a Software
+Change to an Existing Device" (https://www.fda.gov/media/99785/download).
+Your device is also subject to, among other requirements, the Quality System (QS) regulation (21 CFR Part
+820), which includes, but is not limited to, 21 CFR 820.30, Design controls; 21 CFR 820.90, Nonconforming
+product; and 21 CFR 820.100, Corrective and preventive action. Please note that regardless of whether a
+change requires premarket review, the QS regulation requires device manufacturers to review and approve
+changes to device design and production (21 CFR 820.30 and 21 CFR 820.70) and document changes and
+approvals in the device master record (21 CFR 820.181).
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR Part 803) for
+devices or postmarketing safety reporting (21 CFR Part 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR Part 4, Subpart
+A) for combination products; and, if applicable, the electronic product radiation control provisions (Sections
+531-542 of the Act); 21 CFR Parts 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn).
+
+K232708 - Ray Wang
+
+Page
+
+Additionally, you may contact the Division of Industry and Consumer Education (DICE) to ask a question
+about a specific regulatory topic. See the DICE website (https://www.fda.gov/medical-devices/deviceadvice-comprehensive-regulatory-assistance/contact-us-division-industry-and-consumer-education-dice) for
+more information or contact DICE by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-7967100).
+Sincerely,
+Tanisha L. Hithe -
+
+Tanisha L. S
+Hithe -S 2023.12.01
+15:06:55 -05'00'
+
+Tanisha Hithe
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+3
+
+Tab#15 User Manual
+
+Intense pulsed light therapy device
+Model: FI-L06
+
+User Manual
+Caution: Federal law restricts this device to sale by or on the order of a physician.
+
+Hebei Zhemai Technology Co.,Ltd
+1
+
+Catalogue
+Foreword ............................................................................................................................................. 3
+Special Note ........................................................................................................................................ 4
+Chapter 1 Symbol Description ........................................................................................................... 5
+Chapter 2 Clinical Application ........................................................................................................... 7
+Chapter 3 Technical Parameters ....................................................................................................... 10
+Chapter 4 Working Principle ............................................................................................................ 12
+Chapter 5 Installation and Commissioning ...................................................................................... 14
+Chapter 6 Instructions for Use ..........................................................................................................18
+Chapter 7 Maintenance ..................................................................................................................... 22
+Chapter 8 Contact Us ........................................................................................................................32
+
+2
+
+Foreword
+You are welcome to use the Intense pulsed light therapy device. The Intense pulsed light therapy
+device produced by our company is a high-tech product independently developed by our company
+and has independent intellectual property rights.
+This manual is applicable to the Intense pulsed light therapy device,the model is FI-L06.
+After receiving the device, first check the accessories according to the packaging label. If the
+accessories delivered with the device are incomplete, please contact us according to the contact
+information in Chapter 8.
+
+User Notice
+If you are using the Intense pulsed light therapy device for the first time, be sure to read this
+manual carefully before powering up.
+It is recommended not to use this device in the presence of electromagnetic interference, vibration
+and other disturbing environmental conditions. During use, this device will not interfere with other
+instruments/device.
+Avoid using this Intense pulsed light device in the presence of flammable anesthetics or oxidizing
+gases such as nitrous oxide and oxygen. When there is enough oxygen in the air, some materials,
+such as cotton and wool, are easily ignited by the high temperatures generated by the normal
+operation of an Intense pulsed light device. Solvents and flammable solutions used for cleaning or
+sterilization should evaporate before using the laser device.
+The discarded parts produced by scrapping or replacing the Intense pulsed light therapy device
+should be sent to the designated institution or manufacturer for professional treatment to avoid
+polluting the environment.
+The power supply device should be grounded reliably.
+All contents of this document are protected by copyright laws. Without the express written
+permission of the company, any organization or individual may not copy or store this manual in a
+database or retrieval system.
+
+3
+
+Special Note
+
+Warning
+Intense pulsed light therapy device can emit high-intensity infrared laser beams, and in order to
+protect the eyes, users and patients are required to wear appropriate safety goggles in accordance
+with (NOHD) standards.
+Please note the following:
+Do not point the laser directly at the eyes and skin.
+When the device is working, do not cut off the power.
+Be sure to familiarize yourself with the structure and specifications of the device before use.
+
+4
+
+Chapter 1 Symbol Description
+
+Number
+
+Symbol
+
+Interpretation
+
+1
+
+Manufacturer
+
+2
+
+Manufacturing Date
+
+3
+
+Serial Number
+
+4
+
+General warning signs
+
+5
+
+Do not throw away electrical and electronic products at will,
+and dispose of them separately in the designated garbage area
+
+6
+
+Type BF applied part
+The applied components meet the requirements of the
+standard IEC 60601-1 to provide protection against electric
+shock, especially regarding the leakage current not greater
+than the value of human injury
+
+7
+
+Laser Output Warning Label
+
+8
+
+No Pushing
+
+5
+
+9
+
+Laser radiation label
+
+10
+
+Follow the user manual
+
+11
+
+Key switch
+
+12
+
+Emergency stop switch
+
+13
+
+Medical Device Labels for Restricted Sale
+
+14
+
+Foot pedal
+
+15
+
+Emergency Stop Switch Label
+
+16
+
+Up label
+
+17
+
+Fragile label
+
+18
+
+Keep dry
+
+19
+
+Don't scroll
+
+6
+
+Chapter 2 Clinical Application
+2.1 Indication For Use
+The Intense pulsed light therapy device is indicated for use in surgical and aesthetic
+applications in permanent hair removal.
+Permanent hair reduction is defined as the long-term, stable reduction in the number of hairs
+regrowing when measured at 6, 9, and 12 months after the completion of a treatment regimen.
+
+2.2 Clinical features
+This product has novel design, stable operation, short irradiation time, lasting effect,
+convenient operation, good clinical effect and high safety factor.
+Convenience: Human-machine interface - touch screen, intuitive and easy to use, so its
+operation is simple and convenient.
+Permanent Hair Removal: It is suitable for hair of all skin tones and has a good hair removal
+effect.
+Safety: stable performance, long service life, and real-time control by intelligent
+microprocessor.
+
+2.3 Potential risks
+The most common complications of Intense pulsed light therapy device are postoperative
+local erythema and follicular edema, most of which resolve spontaneously within a few hours.
+Rare
+
+complications
+
+are
+
+localized
+
+crusting,
+
+purpura,
+
+blisters,
+
+hyperpigmentation
+
+or
+
+hypopigmentation, and increased sebum production. Adverse reactions after hair removal are
+mainly related to energy density and epidermal melanin content, and are also significantly related
+to seasonal changes, treatment sites, and solar radiation. Adhering to preoperative and
+postoperative guidance and correct operation can reduce adverse reactions.
+
+2.4 Processing method
+(The following processing steps and methods are for reference only, the actual parameters
+and operating procedures are subject to clinical use)
+
+2.4.1 Preoperative preparation
+1) For patients with dark skin, sun radiation should be avoided as much as possible before
+surgery. It is best to use sunscreen for 4 to 6 weeks. For those with a tendency to
+pigmentation, hydroquinone can be added to prevent it.
+2) The treated area must be skin-prepared prior to treatment, so hair, oil and dirt should be
+thoroughly shaved.
+
+7
+
+2.4.2 Anesthesia
+Whether anesthesia is required during treatment should be determined according to the
+treatment site and size, whether it is a sensitive area, and the patient's pain. Generally, only topical
+anesthesia can be used.
+
+2.5 Clinical considerations
+1) Generally closely related to energy density, treatment outcome and inflammatory status after
+skin damage. High energy density is more effective, but at the same time, the inflammatory
+response is greater; the deep skin is also damaged. The energy is processed starting at low
+energy and gradually increasing the energy density until better results are achieved.
+2) The maximum energy allowed is inversely proportional to the skin pigment. Generally, the
+skin is darker and has a lower energy density to reduce the absorption of more light energy
+into heat by the epidermis. A good cooling system is very important to the treatment, to
+protect the skin from burns to the greatest extent, and it is better for dark skin.
+3) Shave excess hair before surgery, as excess hair absorbs energy and heats it on the epidermis,
+which may cause partial skin burns and damage the probe.
+4) A good cooling system will reduce the temperature of the skin. Cold probes help to increase
+allowable energy density and partial anesthesia. Cooling is highly recommended throughout
+the treatment, especially for darker skin. Dark skin absorbs energy more easily than light
+skin.
+
+2.6 Intense pulse light handle cleaning
+When the treatment is complete, remove the handle, clean the top of the handle with a
+relatively soft cotton cloth and keep it dry.
+1) Cleaning process
+After processing is complete, exit the operating program and turn off the power of the device.
+Soak a soft cotton cloth in 75% alcohol and wipe the top of the handle clean until the alcohol
+has evaporated again. Then wipe the surface marks with the soft cotton cloth.
+2) Warning message
+Intense pulsed light processing precision optical components, please avoid falling and make
+them subject to blunt force impact or not allowed to open, otherwise the intense pulse light
+module will not emit light normally; This is a large impact of the intense pulse light output.
+The surface cleanliness of the optical crystal, therefore, before use Inspection and proper
+cleaning. The handle transfer system should avoid serious damage caused by bending during
+use.
+
+2.7 Contraindications
+
+
+Tanned skin (has been exposed to the sun or used tanning beds in the past three to four
+
+8
+
+weeks) or has recently used a self-tanning lotion
+
+
+Diseases stimulated by light (Lupus, Epilepsy…)
+
+
+
+Use of photosensitizing medications such as: tetracycline or herbal (St John’s Wort) etc.
+
+
+
+Use of anticoagulants or has a history of bleeding coagulopathies.
+
+
+
+Fragile and dry skin. Use of Accutane (isotrenoin) Roaccutane or Tretinoin – Retin A for
+the treatment of acne in the previous 6-12 months.
+
+
+
+Active infections: herpetic lesions, cold sores (place on anti-viral medication
+pre-treatment)
+
+
+
+Any inflammatory skin condition (e.g. eczema, etc.), in the area to be treated.
+
+
+
+Pregnancy or trying to conceive.
+
+
+
+Tattoos, permanent make-up, suspicious pigmented lesions (can treat around them)
+
+
+
+History of keloidal scarring
+
+
+
+For Hair Reduction - Electrolysis, waxing or plucking in last 6 weeks (target has been
+removed)
+
+
+
+Planning to be in the sun following treatment
+
+
+
+Diabetes (unless under control)
+
+
+
+Cancer, in particular, skin cancer
+
+
+
+Hormonal Disorders (unless under control)
+
+9
+
+Chapter 3 Technical Parameters
+3.1 Technical parameters
+Model
+
+FI-L06
+
+Light source
+
+Intense pulsed light
+
+LCD screen
+
+LCD touch screen 7 inches
+
+Wavelength
+
+650nm-1200nm
+
+Spot size
+
+3.2cm2 (8mm×40mm2)
+
+Pulse length
+
+0.1-25ms
+
+Energy density
+
+1-50J/cm2
+
+Pulse-frequency
+
+1-10Hz
+
+Cooling
+
+Air cooling+water cooling
+
+Input voltage
+
+110V 60Hz
+
+size
+
+89.6*57.7*94.3cm (package)
+79*49*95cm (device)
+
+weight
+
+50kg (device)
+65kg (package)
+
+3.2 Conditions of use
+3.2.1 Working conditions:
+a) Ambient temperature range: 15℃~30℃;
+b) Relative humidity range: ≤80%;
+c) Atmospheric pressure range: 860hPa~1060hPa;
+d) Power supply: AC 110V, 60Hz.
+
+3.2.2 Transportation and storage environment
+a) Do not place the product in a separate enclosure unless proper ventilation is provided;
+b) No insulation;
+c) Keep away from chemical substances and corrosive substances;
+d) Dustproof;
+e) Special protection controller (LCD screen), handle and crystal, fragile, no pressure.
+3.2.3 Shelf Life
+5 years
+Note: The maximum IPL emission number (maximum IPL lens flash) of xenon lamp tube
+before performance degradation is 100000 times.
+
+3.3 Electromagnetic Interference
+
+10
+
+The Intense pulsed light therapy device complies with IEC 60601-1-2 "Electromagnetic
+Compatibility requirements and tests". Part of IEC 60601-1-2 addresses the issue of unintended
+RF emissions from products. Accidental emissions from products may interfere with the
+performance of other nearby equipment. Emissions from Intense pulsed light therapy device have
+been reduced to practical levels without affecting function. If interference from an intense pulsed
+light therapy device is suspected, ensure that the intense pulsed light therapy device is plugged
+into an AC power source not shared by the affected device. If the interference persists, move the
+Intense pulsed light therapy device or affected equipment to another room.
+
+11
+
+Chapter 4 Working Principle
+4.1 System principle
+Intense pulsed light is a non-laser light source, which is incoherent light composed of single
+or multiple pulse sequences, and has the characteristics of wide spectral range and high energy
+density. The light source of the Intense pulsed light therapy device is a xenon lamp. Its basic
+working principle is that the trigger applies a high voltage to the xenon gas to trigger the
+ionization of the xenon gas. Internal xenon avalanche ionization, xenon converts and releases the
+charged energy in the form of high-intensity light radiation, and this discharge process is a pulse.
+The parameters required in the treatment process, such as energy density, etc., should be set
+by the user according to the actual situation.
+
+4.2 System
+The Intense pulsed light therapy device consists of six modules, namely control system, user
+interface, power supply, laser emission and delivery system, cooling system and safety features.
+As shown in Figure 4.1.
+Figure 4.1 Block Diagram of Intense pulsed light therapy device System
+
+4.2.1 Control system
+The control system consists of a microprocessor, a control circuit and a detection circuit. The
+control module is highly automated. Users need to turn on the power switch, the key switch, and
+release the emergency switch. After the system is turned on, the system will automatically perform
+system self-checking, processing parameter calls and other actions. After system initialization,
+self-checking, and parameter calling, press the foot switch and the control module will adjust it.
+The pulse parameters of each release energy, and alarm when the system is abnormal.
+
+4.2.2 User Interface
+The display module is mainly composed of a touch screen and a liquid crystal display. The
+touch screen consists of a touch detection component and a touch screen controller. The touch
+detection component is installed on the front of the LCD to detect the user's touch position and
+
+12
+
+send it to the touch screen controller after receiving. The main function of the touch screen is to
+receive touch information, convert it into the coordinates of the touch point, and then send it to the
+CPU, where it can receive and execute commands from the CPU. And finally realize the
+man-machine operation display.
+
+4.2.3 Power
+The power module is mainly composed of photon pulse power, DC 12V switching power
+supply and energy storage capacity. The photon power consists of a charging part, a pre-burning
+part of the xenon lamp and a discharging part. The DC 12V switching power supply converts input
+AC to output DC, providing DC 12V power for fans and semiconductor cooling parts.
+
+4.2.4 Intense pulsed light emission and delivery system
+In the standby state, when the switch button on the handle is triggered, the xenon lamp will
+emit a strong pulse of light through the light spot emission window on the handle.
+
+4.2.5 Cooling system
+The cooling system consists of a fan and a water circulation system. After the device is
+turned on, the cooling system starts to work. The fans air-cool the electrical components of the
+main unit and the insulated distributor, removing heat generated by the airflow within the machine.
+The internal circulating water is replaced in time and takes away the heat generated by the
+processing handle, and is sent to the water temperature cooling system.
+
+4.2.6 Security Features
+Intense pulsed light therapy device provides enough safety features to ensure the normal
+operation of the system, such as key switch, emergency stop switch, internal safety interlock,
+protective casing and alarm system to immediately shut down the system in an emergency, press
+the red mushroom Shaped emergency stop switch to terminate IPL energy discharge. The red
+switch is used to turn off the power in an emergency. Press it and the power can now be turned off.
+After turning clockwise, the machine will continue to work. Or the machine keeps shutting down.
+The Intense pulsed light therapy device contains a "normally closed" safety shutter that
+prevents IPL emission when in the closed position. The shutter will only open when the system is
+in ready mode and the foot switch is pressed.
+The alarm system consists of buzzer alarm and symbol alarm. Detailed warnings and faults
+are described below.
+Water flow alarm: there is no water or no water circulation inside, the indicator light
+is displayed, and the alarm sound follows. In response, the machine will immediately stop all
+work.
+Water temperature alarm: when the temperature is higher than the system setting:
+55 ℃, the indicator light shows this, and an alarm sound is issued at the same time. In response,
+the machine will immediately stop all work.
+
+13
+
+Chapter 5 Installation and Commissioning
+Installation and commissioning of device must be done by qualified professionals and
+technicians trained by the manufacturer.
+
+5.1 Model FI-L06
+5.1.1 Accessories
+Treatment handle
+Screen
+
+Handle interface
+
+Key switch
+Emergency
+switch
+
+stop
+
+Movable castor
+
+14
+
+5.1.2 Accessories of the device
+
+5.1.3 Water inlet procedure
+Open the rear of the device as shown below
+
+15
+
+5.1.4 Connect the pedals as shown below.
+
+5.1.5 After the above operations are completed, please connect offline.
+Method: The water contact CPC on the treatment handle plug points to the water CPC socket.
+The method is the same as connecting the power system. When you hear the sound "pa" twice, it
+means the connection is successful. As follows.
+
+16
+
+5.1.6 After inserting the therapy handle, turn on the power, then turn the power
+emergency switch and the key switch to ensure the machine is powered on.
+5.1.7 Change the water every 2 or 3 months, here's how to drain it.
+
+5.1.8 Handle connection
+
+Insert the handle socket until a "click" sound means a good handle connection.
+
+17
+
+Chapter 6 Instructions for Use
+6.1 General Instructions
+The Intense pulsed light therapy device is an intense pulsed light system that provides intense
+pulsed light in the wavelength range of 650nm-1200nm. Intense pulsed light (IPL) therapy device
+employ the principle of selective thermal decomposition. That is, thermal damage to the target
+chromophore is achieved by using light of an appropriate wavelength in a pulse that exceeds the
+thermal relaxation time of the chromophore, but by limiting the pulse width below the thermal
+relaxation time of the skin. Thermal damage to the target chromophore is caused by using light of
+an appropriate wavelength, but preserving normal skin by limiting the pulse width to a pulse width
+below the skin's thermal relaxation time.
+Intense pulsed light differ from lasers in that they provide multiple wavelengths in each light
+pulse, rather than just one. In general, IPL enhances penetration without using excessive energy
+levels and is able to target specific chromophores. Based on this, the Intense pulsed light therapy
+device is indicated for use in surgical and aesthetic applications in permanent hair removal.
+
+WARNING ： HAZARDOUS EXPOSURE IF THE CONTROLS AND REGULATIONS ARE NOT
+USED OR PERFORMED IN THE SPECIFIC METHODS OF THE LASER SYSTEM BEFORE USE
+OR OPERATION.
+
+6.2 Start the program
+Once filled with water, proceed as follows：
+1) Check that the handle adapter is plugged into the treatment head of the device. (Note： The
+handle must be connected to the specified position above, otherwise the device will operate
+incorrectly.)
+2) Check that the foot switch is also connected to the field marked "foot switch".
+3) After the above steps 1 and 2 are completed, insert the three-core power plug into an
+AC110V socket that can withstand the corresponding current.
+4) Turn on the rocker switch on the back of the chassis, rotate the key clockwise from "off" 90
+degrees to "on", then turn the emergency stop switch to the right to enter the release state, at
+this time the hair removal instrument is turned on, and the touch screen displays the startup
+image.
+5) After waiting for a few minutes, the Intense pulsed light therapy device will automatically
+complete the preheating and enter the standby mode screen. (If there is a problem with the
+
+18
+
+cooling system, the temperature cannot be controlled to increase to the specified temperature,
+it is regarded as a device failure, the device cannot enter standby mode, and always remains
+in the initial startup image).
+
+6.3 System Control
+6.3.1 Initial interface and main interface
+
+Figure 1 Startup interface, enter Figure 2 after 2 seconds
+
+Figure 2 Enter the language options: select English and enter Figure 3
+
+19
+
+Figure 3 Enter the automatic protection detection of the instrument,
+enter Figure 4 after 10 seconds
+Enter the function options, select the treatment item and enter Figure 4
+
+Figure 4 Work interface, parameter adjustment settings
+
+20
+
+1）
+
+Click the energy button
+
+choose
+
+increase energy,
+
+2）
+
+Click the energy button
+
+choose
+
+flip up mode,
+
+3）
+4）Click
+5）
+
+click
+
+Increase cooling intensity, click
+
+reduce energy
+flip down mode
+
+Reduce cooling intensity
+
+button to enter the working state, click again to enter the standby state
+The temporary counter shown here is used to count the number of glows, and
+
+will be zero when returning to the main interface where the device is turned off
+6）
+
+Water temperature detection
+
+7）
+
+The total number of luminous counts is used here to permanently save
+
+the total usage times.
+
+6.3.2 Parameter adjustment settings
+The appropriate therapeutic parameters were selected according to the required treatment
+mode and patient status.
+
+21
+
+Chapter 7 Maintenance
+7.1 System maintenance
+System repairs should be performed by a Zheone certified service engineer. For training and
+information, please contact your local Zheone representative.
+
+7.2 Cleaning and Disinfection
+7.2.1 Cleaning external surfaces
+The outside of the IPL can be cleaned with a soft cloth moist with mild soapy water solution,
+do not use harsh detergent. To disinfect the exterior of the laser system, wipe it with a soft cloth
+stained with 75% medical alcohol. Cleaning frequency should be once a week, in frequent use can
+be appropriate to increase the cleaning frequency.
+Warn
+Do not attempt to access any internal components. Electrical shock and/or
+accidental laser exposure may result.
+Do not spray or pour 75% medical alcohol directly on the system console.
+
+7.2.2 Cleaning the system touch screen display clean the system touch screen display
+with a damp soft cloth
+Warn
+Do not spray or pour 75% medical alcohol directly onto the system console
+or control screen, or you may damage the console, touch screen, and system
+electronics.
+
+7.2.3 Cleaning the handle
+7.2.3.1 Cleaning the protective windows
+The protective window is an optical device. Essentially, with use, it breaks down, and once
+broken, the protective window must be replaced. However, inspection and cleaning after each
+procedure will extend its life.
+Warn
+Hair from the patient may collect on the windows. During treatment, windows may
+need to be washed regularly. This window must be cleaned using the techniques
+described below.
+
+22
+
+Cautious
+If the window is not properly maintained, debris can build up on the surface of the
+window, causing permanent damage to the window and ultimately to the phone
+optics.
+Warn
+Before checking the window, the system must be shut down. Always wear the correct
+glasses when the system is on. Serious eye injury can occur in the event of an
+accidental laser emission.
+Notice
+Stick and cotton applicator are needed, but do not use products that contain
+adhesives.
+λ Make sure the system is turned off.
+λ If necessary, place a small amount of 75% medical alcohol on a cotton swab; Shake excess
+alcohol off the cotton swab before cleaning the protective window.
+λ Gently wipe the surface of the window.
+λ Check the window. If necessary, clean the window again with a new cotton-tipped applicator.
+Notice
+Windows must be kept clean before treating patients. Chips, pits, cracks, or burns in
+Windows are not acceptable. Windows with these abnormalities must be replaced. If
+the exception on the window cannot be resolved, you must replace the window.
+7.2.3.2 Tips for cleaning your phone
+Sterilize patients who use 75% medical alcohol. Windows should be cleaned as described in
+"Cleaning Protective Windows".
+Warn
+Before disinfecting the handle tips, make sure the system is turned off or in standby
+mode. Always wear appropriate protective glasses when the system is turned on. If
+accidental laser emission occurs, it can cause serious damage to the eyes.
+
+7.2.4 Handling of handle components
+For infection control reasons, disinfecting the handle and then disposed of according to local
+agency policies and procedures.
+
+23
+
+7.3 Calibration procedure
+If self-calibration fails, Zheone authorized personnel should perform the following
+calibration. Questions regarding this procedure should be directed to your local Zheone
+representative.
+Disclaimer Warning
+Calibration is a service procedure and can only be performed by a Zheone-certified
+service engineer or a customer who has attended and passed a Zheone-certified service
+training course. Adjustments by anyone other than a trained Zheone service engineer or
+certified customer will void any existing manufacturer's warranty on the instrument.
+A service manual for this system can be purchased from the Zheone Microservice
+Department, however, possession of service instructions or service tools does not
+authorize the repair or modification of the Zheone Microsystem by non-certified
+personnel.
+
+7.3.1 Equipment
+λ Laser safety glasses for everyone in the room (produces the appropriate optimum density at
+the wavelength).
+λ Lambda laser energy meter, the meter used must have received a NIST traceable calibration or
+a calibration to an applicable standard (international) within the past 12 months (in the U.S.).
+
+7.3.2 Calibration Instructions
+λ Places the laser energy meter in a convenient location so that the sensor head can be easily
+accessed with a mobile phone. Set the meter display unit to power mode.
+λ Remove the handle tip and place the handle laser hole in front of the energy meter sensor
+head.
+λ Provides power for the system.
+λ Select the low flux range, small spot size, and set the repetition rate to 1 Hz.
+λ Puts the system in ready mode.
+λ Press the foot switch and fire a shot in the energy meter.
+λ Record the corresponding reading on the energy meter.
+λ Repeat steps 4 to 7 for the handle selectable intermediate and higher flux settings, and set the
+repetition rate to 4 Hz.
+λ Zheone authorized personnel will compare the recorded data to a standard energy meter and
+then take further steps to complete the calibration.
+Notice
+
+24
+
+The distance from the energy meter sensor to the laser aperture should not
+exceed 10mm and should remain constant. The window surface must be parallel to
+the meter sensor surface.
+
+Cautious
+Work by any unauthorized person will void all warranties.
+
+7.4 Check or replace the protection tube of the power supply
+Turn off all power switches, unplug the power cord, open the fuse protector with a small
+screwdriver, and turn it counterclockwise. Then remove the fuse protector; replace the fuse
+protector only with the standard model specified by the device supplier. (Model of fuse protector:
+10A/250VAC) Put in the fuse protector and jacket, and tighten the jacket clockwise. Plug the back
+of the device into the power cord, turn on the power switch and key switch, and test if the machine
+works properly.
+
+7.5 Maintenance of cooling system
+Please check regularly whether the cooling fan is working properly. If the cooling fan or
+cooling module does not work, the device cannot exchange heat with the outside, and the heat will
+accumulate inside the machine, which will cause the laser to not work properly or even damage
+the machine.
+When the maintenance personnel test the machine, they should check the water storage
+capacity, water quality and cooling capacity of the water tank. If there is any abnormality, please
+add or change the water in time.
+
+25
+
+7.6 EMC
+Table 1: Guidance and manufacturer´s declaration – electromagnetic emission – for all
+EQUIPMENT AND SYSTEMS
+Guidance and manufacturer's declaration - electromagneticemissions
+The Intense pulsed light therapy device is intended for use in the electromagnetic environment
+specified below. The customer or user of the equipment should ensure that it is used in such an
+environment.
+Emissions Test
+
+Compliance
+
+Electromagnetic Environment Guidance
+The Intense pulsed light therapy device
+uses RF energy only for its internal
+
+RF emissions
+
+Group 1
+
+CISPR 11
+
+function. Therefore its RF emissions are
+very low and are not likely to cause any
+interference
+
+in
+
+nearby
+
+electronic
+
+equipment
+RF emissions
+
+Class A
+
+CISPR 11
+Harmonic emissions
+
+Not applicable
+
+IEC 61000-3-2
+Voltage
+
+fluctuations
+
+flicker emissions
+IEC 61000-3-3
+
+The Intense pulsed light therapy device is
+suitable for use in all establishments, other
+than domestic establishments and those
+directly
+
+connected
+
+to
+
+the
+
+public
+
+low-voltage power supply network that
+
+/
+Not applicable
+
+supplies buildings used for domestic
+purposes
+
+26
+
+Table 2: Guidance and manufacturer's declaration – electromagnetic immunity – for all
+EQUIPMENT and SYSTEMS
+Guidance and manufacturer's declaration - electromagnetic immunity
+The Intense pulsed light therapy device is intended for use in the electromagnetic
+environment specified below. The user of the equipment should make sure that it is used
+in such an environment.
+IEC 60601 Test Compliance
+Immunity
+Electromagnetic
+Level
+Test
+Level
+Environment - Guidance
+Electrostatic
+discharge (ESD)
+IEC 61000-4-2
+
+Electrostatic
+transient / burst
+IEC 61000-4-4
+
+Surge
+IEC 61000-4-5
+
+Voltage
+dips,
+short
+interruptions
+and
+voltage
+variations on
+power supply
+input lines
+IEC 61000-4-11
+
+± 8 kV contact
+
+± 8 kV contact
+
+±2 kV, ±4 kV, ±8
+kV, ±15 kV air
+
+±2 kV, ±4 kV, ±8
+kV, ±15 kV air
+
+±2 kV for
+power supply lines
+100 kHz repetition
+frequency
+±1 kV for
+input / output
+lines
+±0.5kV,
+±1kV
+differential mode
+line-line
+±0.5kV,
+±1kV,
+±2kV differential
+mode line-ground
+0 % UT
+(100 % dip in UT )
+for 0.5 cycle at 0°,
+45°,
+90°,
+135°,
+180°, 225°, 270°,
+and 315°
+0 % UT
+(100 % dip in UT )
+for 1 cycle at 0°
+70 % UT
+(30 % dip in UT )
+for 25/30 cyclesat
+0°
+0 % UT
+(100 % dip in UT )
+for 250/300 cycle
+at 0°
+
+±2 kV for
+power
+supply
+lines
+100 kHz repetition
+frequency
+±0.5kV,
+±1kV
+differential mode
+line-line
+±0.5kV,
+±1kV,
+±2kV differential
+mode line-ground
+0 % UT
+(100 % dip in UT )
+for 0.5 cycle at 0°,
+45°,
+90°,
+135°,
+180°, 225°, 270°,
+and 315°
+0 % UT
+(100 % dip in UT )
+for 1 cycle at 0°
+70 % UT
+(30 % dip in UT )
+for 25/30 cyclesat
+0°
+0 % UT
+(100 % dip in UT )
+for 250/300 cycle
+at 0°
+
+Floor
+should
+be
+wood,
+concrete or ceramic tile. If
+floors are covered
+with
+synthetic material, the relative
+humidity should be at least
+30%
+
+Mains power quality should be
+that of a typical commercial or
+hospital environment
+
+Mains power quality should be
+that of a typical commercial or
+hospital environment
+
+Mains power quality should be
+that of a typical commercial or
+hospital environment. If the
+user of the equipment requires
+continued operation during
+power mains interruptions, it is
+recommended
+that
+the
+equipment be powered from
+an uninterruptible
+power
+supply or a battery
+
+Power frequency magnetic
+fields should be at levels
+characteristic of a typical
+30 A/m, 50/60Hz
+30 A/m, 50/60Hz
+location
+in
+a
+typical
+commercial
+or
+hospital
+environment
+Note: UT is the a.c. mains voltage prior to application of the test level.
+Power
+frequency (50 /
+60
+Hz)
+magnetic field
+IEC 61000-4-8
+
+27
+
+Table 3: Guidance and MANUFACTURER’S declaration – electromagnetic IMMUNITY
+Guidance and manufacturer's declaration - electromagnetic immunity
+The Intense pulsed light therapy device is intended for use in the electromagnetic
+environment specified below. The customer or the user of the Intense pulsed light therapy
+device should assure that it is used in such an environment.
+IEC 60601 Compliance
+Electromagnetic
+Environment
+Immunity Test
+Test Level
+Level
+Guidance
+Portable and mobile RF communications
+equipment should be used no closer to
+any part of the Intense pulsed light
+therapy device, including cables, than the
+3Vrms
+3Vrms
+Conducted RF
+recommended
+separation
+distance
+150kHz to
+150kHz to
+IEC 61000-4-6
+calculated from the equation applicable to
+80MHz
+80MHz
+6 Vrms
+6 Vrms
+the frequency of the transmitter.
+150 kHz to
+150 kHz to
+Recommended separation distance
+80 MHz
+80 MHz
+outside ISM
+outside ISM
+3.5
+d  
+P
+V1 
+bandsa
+bandsa
+
+
+Radiated RF
+IEC 61000-4-3
+
+3V/m
+80MHz to
+2.7GHz
+
+3V/m
+
+3.5
+d  
+P
+E1 
+80MHz to 800MHz
+d 
+
+7 
+E 
+1 
+
+P
+
+800MHz to 2.7GHz
+
+Where P is the maximum output power
+rating of the transmitter in watts (W)
+according
+to
+the
+transmitter
+manufacturer and d is the recommended
+separation distance in meters (m).
+Field strengths from fixed RF transmitter,
+as determined by an electromagnetic site
+survey, a should be less than the
+compliance level in each frequency range.
+b
+
+Interference may occur in the vicinity of
+equipment marked with the following
+symbol:
+
+Note 1: At 80 MHz and 800 MHz, the higher frequency range applies.
+Note 2: These guidelines may not apply in all situations. Electromagnetic propagation is
+affected by absorption and reflection from structures, objects and people.
+
+28
+
+a The ISM (industrial, scientific and medical) bands between 0.15 MHz and 80 MHz are
+6.765 MHz to 6.795 MHz; 13.553 MHz to 13.567 MHz; 26.957 MHz to 27.283 MHz; and
+40.66 MHz to 40.70 MHz. The amateur radio bands between 0.15 MHz and 80 MHz are 1.8
+MHz to 2.0 MHz, 3.5 MHz to 4.0 MHz, 5.3 MHz to 5.4 MHz, 7 MHz to 7.3 MHz, 10.1
+MHz to 10.15
+
+MHz, 14 MHz to 14.2 MHz, 18.07 MHz to 18.17 MHz, 21.0 MHz to 21.4
+
+MHz, 24.89 MHz to
+
+24.99 MHz, 28.0 MHz to 29.7 MHz and 50.0 MHz to 54.0 MHz.
+
+b The compliance levels in the ISM frequency bands between 150 kHz and 80 MHz and in
+the frequency range 80 MHz to 2.7 GHz are intended to decrease the likelihood that
+mobile/portable communications equipment could cause interference if it is inadvertently
+brought into patient areas. For this reason, an additional factor of 10/3 has been incorporated
+into the formulae used in calculating the recommended separation distance for transmitters
+in these frequency ranges.
+c Field strengths from fixed transmitters, such as base stations for radio (cellular/cordless)
+telephones and land mobile radios, amateur radio, AM and FM radio broadcast and TV
+broadcast cannot be predicted theoretically with accuracy. To assess the electromagnetic
+environment due to fixed RF transmitters, an electromagnetic site survey should be
+considered. If the measured field strength in the location in which the IPL is used exceeds the
+applicable RF compliance level above, the IPL should be observed to verify normal
+operation. If abnormal performance is observed, additional measures may be necessary, such
+as re-orienting or relocating the Intense pulsed light therapy device.
+d Over the frequency range 150 kHz to 80 MHz, field strengths should be less than 3 V/m.
+
+29
+
+Table 4: Recommended separation distances between portable and mobile RF
+communications equipment and the EQUIPMENT or SYSTEM
+Recommended
+mobile
+
+separation
+
+distances
+
+between
+
+portable
+
+and
+
+RF communications equipment and the Intense pulsed light therapy
+
+device
+System
+The
+Intense
+pulsed light therapy device is intended for use in an electromagnetic environment
+in which radiated RF disturbances are controlled. The customer or the user of the IPL can
+help prevent electromagnetic interference by maintaining a minimum distance between
+portable and mobile RF communications equipment (transmitters) and the Intense pulsed light
+therapy device as recommended below, according to the maximum output power of the
+communications equipment.
+Rated
+
+150 kHz ～ 80 MHz
+
+80 MHz ～ 800 MHz
+
+3.5
+d 
+ P
+ V1 
+
+3.5 
+d 
+P
+
+E 1 
+
+0.01
+
+0.12
+
+0.12
+
+0.23
+
+0.1
+
+0.38
+
+0.38
+
+0.73
+
+1
+
+1.2
+
+1.2
+
+2.3
+
+10
+
+3.8
+
+3.8
+
+7.3
+
+100
+
+12
+
+12
+
+23
+
+maximum
+output of
+transmitter
+
+800 MHz ～ 2.5 GHz
+d
+
+7
+
+
+ E 1
+
+P
+
+W
+
+For
+
+transmitters
+
+rated
+
+at
+
+a
+
+maximum
+
+output
+
+power
+
+not
+
+listed
+
+above,
+
+the
+
+recommended separation distance d in meters (m) can be estimated using the equation
+
+applicable to the frequency of the transmitter, where P is the maximum output power rating of
+the transmitter in watts (W) according to the transmitter manufacturer.
+Note 1: At 80 MHz and 800 MHz, the separation distance for the higher frequency range
+applied.
+Note 2: These guidelines may not apply in all situations. Electromagnetic
+propagation is affected by absorption and reflection from structures, objects and people.
+
+30
+
+Table 5: Recommended Specifications for Enclosure Port Immunity to RF Wireless
+Communications Equipment
+Recommended separation distances between RF wireless communications
+equipment
+The device is intended for use in an electromagnetic environment in which radiated RF
+disturbances are controlled. The customer or the user of the device can help prevent
+electromagnetic interference by maintaining a minimum distance between RF wireless
+communications equipment and the device as recommended below, according to the maximum
+output power of the communications equipment.
+Maximum
+IEC
+Electromagnetic
+Frequency
+Compliance
+Distance
+Power
+60601
+Environment MHz
+Level
+Guidance
+W
+Test Level
+385
+1.8
+0.3
+27
+27
+RF wireless
+communications
+450
+2
+0.3
+28
+28
+equipment should be
+710
+used no closer to any
+745
+0.2
+0.3
+9
+9
+part of the device,
+780
+including cables, than
+810
+the
+recommended
+870
+2
+0.3
+28
+28
+separation distance
+930
+calculated
+from the
+1720
+equation applicable to
+1845
+2
+0.3
+28
+28
+the frequency of the
+1970
+transmitter.
+2450
+2
+0.3
+28
+28
+Recommended
+5240
+separation distance
+5500
+
+5785
+
+0.2
+
+0.3
+
+9
+
+9
+
+Where P is the maximum
+output power rating of
+the
+ransmitter
+in
+watts
+(W) according to the
+transmitter
+manufacturer and d is
+the
+recommended
+separation distance in
+meters
+(m).Field
+strengths from fixed RF
+transmitter,
+as
+determinedby
+an
+electromagnetic
+site
+survey, should be less
+than the compliance
+level in each frequency
+range. Interference may
+occur in the vicinity of
+equipment marked with
+the following symbol:
+
+Note: These guidelines may not apply in all situations. Electromagnetic propagation is affected
+by absorption and reflection from structures, objects and people.
+
+31
+
+Chapter 8 Contact Us
+Hebei Zhemai Technology Co., Ltd.
+Tel: 0086-10-18678802036
+After-sales service department
+Email: feijiakeji@zoho.com.cn
+
+Home: http://www.ftelaser.cn/
+
+Address: 1st Floor, North of No.1 Warehouse, West of Shuichang Road, North of Beiyi
+Road, Yanjiao Development Zone, Sanhe, Langfang, Hebei, China, 065201
+
+32
+
+Premarket Notification 510(k) Submission
+
+510(k) Summary
+
+510(k) Summary
+This 510(k) Summary of 510(k) safety and effectiveness information is being submitted in accordance
+with requirements of SMDA 1990 and 21 CFR 807.92.
+The assigned 510(k) Number:
+
+K232708
+
+1.
+
+Date of Preparation: 11/09/2023
+
+2.
+
+Sponsor
+Hebei Zhemai Technology Co.,Ltd
+1st Floor, North of No.1 Warehouse, West of Shuichang Road, North of Beiyi Road, Yanjiao
+Development Zone, Sanhe, Langfang, Hebei, China, 065201
+Contact Person: Yuting Qu
+Position: Sales Manager
+Tel: +86-18678802036
+Email: feijiakeji@zoho.com.cn
+
+3.
+
+Submission Correspondent
+Contact Person: Ray Wang
+Tel: +86-18910677558
+Fax: +86-10-56335780
+Email: information@believe-med.com
+
+4.
+
+Proposed Device Identification
+Trade Name: Intense pulsed light therapy device
+Common Name: Powered Light Based Non-Laser Surgical Instrument With Thermal Effect
+Model(s): FI-L06
+Regulatory Information:
+Classification Name: Powered Light Based Non-Laser Surgical Instrument With Thermal Effect
+Classification: II
+Product Code: ONF
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+Review Panel: General & Plastic Surgery
+Indication For Use Statement:
+6-1
+
+Premarket Notification 510(k) Submission
+
+510(k) Summary
+
+The Intense pulsed light therapy device is indicated for use in surgical and aesthetic applications
+in permanent hair removal.
+Permanent hair reduction is defined as the long-term, stable reduction in the number of hairs
+regrowing when measured at 6, 9, and 12 months after the completion of a treatment regimen.
+
+5.
+
+Device Description
+
+The Intense pulsed light therapy device is an intense pulsed light system which delivers intense
+pulsed light at a wavelength ranging from 650-1200nm. Intense Pulsed Light (IPL) systems work
+on the principles of selective thermolysis. That is, causing thermal damage to target chromophores
+by using light of appropriate wavelength in pulses that exceeds the chromophores’ thermal
+relaxation time but sparing normal skin by limiting the pulse width below the thermal relaxation
+time for skin.
+IPL Systems are different from lasers in that they deliver many wavelengths in each pulse of light
+instead of just one wavelength. Generally, IPL enhances penetration without using excessive
+energy levels and enables targeting of specific chromophores.
+Based on this, the Intense pulsed light therapy device is indicated for use in surgical and aesthetic
+applications in permanent hair removal.
+
+6.
+
+Predicate Device Identification
+Predicate Device:
+510(k) Number: K192519
+Product Name: Multi-modality workstation
+Model: AAD Dual Light
+Manufacturer: Beijing Superlaser Technology Co., Ltd.
+
+7.
+
+Non-Clinical Test Conclusion
+Non clinical tests were conducted to verify that the proposed device met all design specifications
+as was Substantially Equivalent (SE) to the predicate device. The test results demonstrated that
+the proposed device complies with the following standards:
+
+
+IEC 60601-1-2:2020 Medical electrical equipment - Part 1-2: General requirements for basic
+safety and essential performance - Collateral Standard: Electromagnetic disturbances Requirements and tests
+
+
+
+AAMI/ANSI ES 60601-1: 2012 Medical electrical equipment - Part 1: General requirements
+for basic safety and essential performance
+
+
+
+IEC 60601-2-57: 2011 Medical Electrical Equipment - Part 2-57: Particular requirements for
+6-2
+
+Premarket Notification 510(k) Submission
+
+510(k) Summary
+
+the basic safety and essential performance of non-laser light source equipment intended for
+therapeutic, diagnostic, monitoring and cosmetic/aesthetic use
+
+
+ISO 10993-5: 2009 Biological evaluation of medical device - Part 5: Tests for in vitro
+cytotoxicity
+
+
+
+ISO 10993-10: 2010 Biological evaluation of medical devices - Part 10: irritation and skin
+sensitization
+
+
+
+8.
+
+ISO 14971: 2019 Medical devices - Application of risk management to medical devices
+
+Clinical Test Conclusion
+No clinical study is included in this submission.
+
+9.
+
+Substantially Equivalent (SE) Comparison
+Table 6-1 General Comparison
+ITEM
+
+Proposed Device
+
+Predicate Device (K192519)
+
+Remark
+
+Product Code
+
+ONF
+
+ONF
+
+SAME
+
+Regulation No.
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+SAME
+
+Class
+
+II
+
+II
+
+SAME
+
+The Intense pulsed light therapy
+
+The Multi-modality workstation (inclusive
+
+device is indicated for use in
+
+of the handpiece used to deliver pulsed-light
+
+surgical and aesthetic applications
+
+energy) is indicated for use in surgical and
+
+in permanent hair removal.
+
+aesthetic applications in permanent hair
+
+Permanent
+Indication for Use
+
+hair
+
+reduction
+
+is
+
+removal, reduction of benign pigmented
+
+defined as the long-term, stable
+
+lesions and benign vascular lesions.
+
+reduction in the number of hairs
+
+Permanent hair reduction is defined as the
+
+regrowing when measured at 6, 9,
+
+long-term, stable reduction in the number of
+
+and
+
+the
+
+hairs regrowing when measured at 6, 9, and
+
+treatment
+
+12 months after the completion of a
+
+12
+
+completion
+
+months
+of
+
+after
+a
+
+regimen.
+
+SAME
+
+treatment regimen.
+
+Table 6-2 Performance Comparison
+ITEM
+Light source
+
+Proposed Device
+Intense pulsed light
+(Xenon Lamp)
+
+Predicate Device (K192519)
+
+Remark
+
+Intense pulsed light
+
+Different 1
+
+520-650nm
+Wavelength
+
+650-1200nm
+
+800-1200nm
+540-800nm
+
+SAME
+
+640-1200nm
+Deliver system
+
+Sapphire
+
+Sapphire
+
+SAME
+
+Energy density
+
+1-50J/cm2
+
+1-50 J/cm2
+
+SAME
+
+6-3
+
+Premarket Notification 510(k) Submission
+
+510(k) Summary
+
+Pulse Width
+
+0.1-25ms
+
+1-25ms
+
+SAME
+
+Max. Power
+
+1500W
+
+3500VA
+
+Different 2
+
+Small: 40×12 mm
+Spot size
+
+8×40mm
+
+Large: 46×16mm
+
+Different 3
+
+Ex-Large: 60×20mm
+
+Table 6-3 Hair removal Comparison
+ITEM
+
+Proposed Device
+
+Predicate Device (K192519)
+
+Remark
+
+Wavelength Range (nm)
+
+650—1200
+
+640—1200
+
+SAME
+
+Energy Range (J/cm )
+
+1-50
+
+5-40
+
+Different 4
+
+Pulse Width (ms)
+
+0.1-25
+
+1-25
+
+SAME
+
+2
+
+Small: 40×12 mm
+Spot Size (mm)
+
+8×40
+
+Large: 46×16mm
+
+Different 3
+
+Ex-Large: 60×20mm
+
+Analysis 1:
+Xenon lamp is a light source output of Intense pulsed light, and the system controls the energy
+emitted by the xenon lamp. Intense pulsed light is emitted by the xenon lamp. As far as we know,
+the predicate device also uses xenon lamps to generate Intense pulsed light, so in terms of light
+source type, we are the same as the predicate device, and there is no difference between the two.
+
+Analysis 2:
+The proposed device is different in Max. Power from the predicate device. By complying with
+AAMI/ANSI/ES 60601-1 and IEC 60601-1-2, the results shown that the Max. Power of the
+proposed device will not raise any issues in safety and effectiveness. Therefore, this difference
+will not affect safety and effectiveness of the proposed device.
+
+Analysis 3:
+The proposed device is different in Spot Size from the predicate device, Spot size only affects the
+area of treatment, not affect the therapeutic effect. Therefore, this difference will not affect the
+safety and effectiveness.
+Analysis 4:
+The proposed device only has slight difference in Energy Range with the predicate device. The
+Energy Range of the proposed device is within the allowable error range of the predicate device,
+which can justify that the difference in the parameter of Energy Range will not raise new safety
+issues of the proposed device. And the bench tests conducted on the proposed device is same with
+the predicate device, the results of which could support the substantially equivalency with
+predicate device. So the slight difference is considered to have no effect on effectiveness and
+safety.
+6-4
+
+Premarket Notification 510(k) Submission
+
+510(k) Summary
+
+10. Substantially Equivalent (SE) Conclusion
+The conclusions drawn from the nonclinical tests demonstrate that the device is as safe, as
+effective, and performs as well as or better than the legally marketed device (K192519).
+
+6-5
+
+

@@ -1,0 +1,772 @@
+August 29, 2024
+Shenzhen Junmei Technology Co., Ltd.
+℅ Youshan Gong
+RA Specialist
+Feiying Drug & Medical Consulting Technical Service Group
+Rm 2401 Zhenye International Business Center, No. 3101-90,
+Qianhai Road
+Shenzhen, Guangdong 518052
+China
+Re: K241881
+Trade/Device Name: IPL Hair Removal Device (JM-843, JM-865, JM-638)
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: June 21, 2024
+Received: June 28, 2024
+Dear Youshan Gong:
+We have reviewed your section 510(k) premarket notification of intent to market the device referenced above
+and have determined the device is substantially equivalent (for the indications for use stated in the enclosure)
+to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment
+date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the
+provisions of the Federal Food, Drug, and Cosmetic Act (the Act) that do not require approval of a premarket
+approval application (PMA). You may, therefore, market the device, subject to the general controls
+provisions of the Act. Although this letter refers to your product as a device, please be aware that some
+cleared products may instead be combination products. The 510(k) Premarket Notification Database
+available at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.07.02
+
+K241881 - Youshan Gong
+
+Page
+
+2
+
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Additional information about changes that may require a new premarket notification are provided in the FDA
+guidance documents entitled "Deciding When to Submit a 510(k) for a Change to an Existing Device"
+(https://www.fda.gov/media/99812/download) and "Deciding When to Submit a 510(k) for a Software
+Change to an Existing Device" (https://www.fda.gov/media/99785/download).
+Your device is also subject to, among other requirements, the Quality System (QS) regulation (21 CFR Part
+820), which includes, but is not limited to, 21 CFR 820.30, Design controls; 21 CFR 820.90, Nonconforming
+product; and 21 CFR 820.100, Corrective and preventive action. Please note that regardless of whether a
+change requires premarket review, the QS regulation requires device manufacturers to review and approve
+changes to device design and production (21 CFR 820.30 and 21 CFR 820.70) and document changes and
+approvals in the device master record (21 CFR 820.181).
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR Part 803) for
+devices or postmarketing safety reporting (21 CFR Part 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR Part 4, Subpart
+A) for combination products; and, if applicable, the electronic product radiation control provisions (Sections
+531-542 of the Act); 21 CFR Parts 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn).
+
+K241881 - Youshan Gong
+
+Page
+
+Additionally, you may contact the Division of Industry and Consumer Education (DICE) to ask a question
+about a specific regulatory topic. See the DICE website (https://www.fda.gov/medical-devices/deviceadvice-comprehensive-regulatory-assistance/contact-us-division-industry-and-consumer-education-dice) for
+more information or contact DICE by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-7967100).
+Sincerely,
+signed
+TANISHA Digitally
+by TANISHA L.
+L. HITHE - HITHE -S
+Date: 2024.08.29
+14:10:22 -04'00'
+S
+
+Tanisha Hithe
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical & Infection Control Devices,
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+3
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 07/31/2026
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K241881
+
+Device Name
+
+IPL Hair Removal Device (JM-843, JM-865, JM-638)
+
+Indications for Use (Describe)
+
+The IPL Hair Removal Device is an over-the-counter device intended for removal of unwanted body and/or facial hair.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (8/23)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+SHENZHEN JUNMEI TECHNOLOGY CO., LTD.
+
+510(k)s –510(k) Summary_K241881
+
+K241881 510(k) Summary
+“510(k) Summary” as required by 21 CFR Part 807.92.
+Date Prepared: 2024-8-28
+I.
+
+Submitter
+SHENZHEN JUNMEI TECHNOLOGY CO., LTD.
+Plant 4301, Yili Science Park, No.596-4, Dahe Village, Guancheng Community, Guanhu Street, Longhua District, Shenzhen,
+Guangdong, China
+Post code: 518100
+Tel.: 0755-29015600
+Guo Zenghui
+Management representative
+Tel: +86-13510281409
+E-mail: 810452380@qq.com
+
+II. Device
+Name of Device: IPL Hair Removal Device
+Model(s): JM-843,JM-865,JM-638
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+
+III. Predicate Device and Reference Device
+
+
+Predicate Device
+Page 1 of 8
+
+SHENZHEN JUNMEI TECHNOLOGY CO., LTD.
+
+510(k)s –510(k) Summary_K241881
+
+
+
+
+
+Manufacturer
+
+Predicate Device
+
+Shenzhen Beauty
+EveryMoment
+intelligent electric
+Co.,Ltd.
+
+510(k)
+Number
+
+IPL Home Use Hair
+Removal Device
+
+K221001
+
+Manufacturer
+
+Reference Device
+
+Shenzhen Jianchao
+Intelligent
+Technology Co.,
+Ltd.
+
+510(k)
+Number
+
+Hair Removal Device
+
+K232575
+
+Manufacturer
+
+Reference Device
+
+Shenzhen BSX
+Technology
+Electronics Co., Ltd.
+
+510(k)
+Number
+
+IPL Hair Removal Device
+
+K230097
+
+Reference Device 1
+
+Reference Device 2
+
+IV. Device Description
+IPL Hair Removal Device, is an over-the-counter, home-use device for unwanted hair reduction by using Intense Pulsed
+Light (IPL), and it has been designed 3 models with the same IPL technology for hair removal, which is model JM-843,JM865,JM-638. The device works below the skin’s surface and does not involve any cutting or pulling, reducing hair growth
+Page 2 of 8
+
+SHENZHEN JUNMEI TECHNOLOGY CO., LTD.
+
+510(k)s –510(k) Summary_K241881
+
+with minimal pain.
+The device is only powered by the external power adapter and its IPL emission activation is by finger switch.
+IPL Hair Removal Device is a Pulsed Light system which emits intense pulsed light (IPL) at a wavelength ranging from 5301200nm and 500-1200nm. The device works on the principles of selective photothermolysis. That is, causing thermal
+damage to target chromophores by using light of appropriate wavelength in pulses that exceeds the chromophores ’
+thermal relaxation time but sparing normal skin by limiting the pulse width below the thermal relaxation time for skin.
+
+V. Indications for Use
+The IPL Hair Removal Device is an over-the-counter device intended for removal of unwanted body and/or facial hair.
+
+VI. Materials
+Model
+
+Contacted Component Name
+
+Materials
+
+JM-843,JM-865,JM638
+
+Host of machine (including air outlet,
+treatment window, air inlet, buttons)
+
+ABS, PC
+
+We have tested the device for biocompatibility by a reliable third-party lab. For details, please refer to Section
+Biocompatibility evaluation report.
+
+VII. Comparison of Technological Characteristics With the Predicate Device
+The IPL Hair Removal Device has the same intended use as the predicate. The technological characteristics such as
+wavelength, energy density, spot size and pulse duration, are similar to the predicate device and reference devices. Any
+minor differences between the subject device and the listed predicate device and reference devices do no raise any issues
+of safety or efficacy. Performance data supports that the device is safe and as effective as the predicate device and
+reference devices for its intended use.
+
+Page 3 of 8
+
+SHENZHEN JUNMEI TECHNOLOGY CO., LTD.
+
+510(k)s –510(k) Summary_K241881
+
+IPL Hair Removal Device is compared with the following Predicate Devices in terms of intended use, design, material,
+specifications and performance:
+Comparison Elements
+Model
+510(k) Number
+Trade name
+
+Manufacturer
+
+Regulation number
+Product code
+Device classification
+
+Indication
+for
+Intended use
+
+Subject Device
+JM-843, JM-865
+
+Predicate Device
+JM-638
+
+D-1189
+
+Pending
+
+Reference
+Device 1
+R2815-G Pro,
+R2815-G
+K232575
+
+K221001
+IPL Home Use
+Hair Removal
+IPL Hair Removal Device
+Hair
+Removal
+Device
+Device
+Shenzhen
+Shenzhen Beauty
+Jianchao
+SHENZHEN JUNMEI TECHNOLOGY CO., EveryMoment
+Intelligent
+LTD.
+intelligent
+Technology
+electric Co.,Ltd.
+Co., Ltd.
+21
+CFR
+21 CFR 878.4810
+21 CFR 878.4810
+878.4810
+OHT
+OHT
+OHT
+Class II
+Class II
+Class II
+IPL Home Use
+Hair
+Removal
+Device is an over
+The IPL Hair Removal Device is an over-the
+use/
+-the-counter
+-counter device intended for removal of
+device intended
+unwanted body and/ or facial hair.
+for removal of
+unwanted body
+and/or facial hair.
+
+Page 4 of 8
+
+Hair Removal
+Device is an
+over-thecounter device
+intended for
+removal
+of
+unwanted
+body
+hair
+and/or facial
+hair.
+
+Reference
+Device 2
+
+Remark
+
+BSXT101
+K230097
+IPL
+Hair
+Removal
+Device
+Shenzhen
+BSX
+Technology
+Electronics
+Co., Ltd.
+21
+CFR
+878.4810
+OHT
+Class II
+The IPL Hair
+Removal
+Device is an
+over-thecounter
+device
+intended for
+removal of
+unwanted
+body and/ or
+facial hair.
+
+/
+/
+
+/
+
+Same
+Same
+Same
+
+Same
+
+SHENZHEN JUNMEI TECHNOLOGY CO., LTD.
+
+510(k)s –510(k) Summary_K241881
+
+Comparison Elements
+Prescription or OTC
+Applicable skin
+Power supply
+Dimension
+Sterilization
+Light source
+Energy medium
+Wavelength range
+Energy density
+
+Output energy
+
+Subject Device
+
+Predicate Device
+
+OTC
+
+OTC
+
+Reference
+Device 1
+
+OTC
+Fitzpatrick
+Fitzpatrick skin Fitzpatrick
+Fitzpatrick skin types I-V
+Skin Types Itypes I-V
+Skin Types I-V
+V
+100-240V,
+100-240V,
+100-240V,
+100-240V,
+100-240V, 50/60Hz
+50/60Hz
+50/60Hz
+50/60Hz
+50/60Hz
+190 x 70 x 45
+194*91*55 mm
+194*117*45mm
+132*80*52 mm 197*60*38 mm
+mm
+Not required
+Not required
+Not required
+Not required
+Not required
+Intense Pulsed Intense Pulsed Intense Pulsed Intense
+Intense Pulsed Light
+Light
+Light
+Light
+Pulsed Light
+Xenon
+Arc Xenon Arc
+Xenon Arc lamp
+Xenon Arc lamp Xenon Arc lamp
+lamp
+lamp
+530nm~1200nm
+500nm~1200nm 550~1100nm
+530~1200nm
+470~1200nm
+1.20 ～ 4.00 2.0~4.3J/cm²
+Max
+5.0
+Max 5.2 J/cm2
+1.94～5.45 J/cm2
+2
+2
+(±20%)
+J/cm
+J/cm
+Pure mode:
+Body:
+5~10J
+6/7.5/9/10.5/12
+8J～15J, ±20%
+(±20%)
+Face:
+Armpit
+BODY: 8/10/11.5/13/15 J
+4.5J～10J, ±20% 6/7.5/9/10.5/12
+mode: 6~10J
+FACE:
+Mode
+1: Bikini:
+5-14.5J
+(±20%)
+8.5/9.5/10.5/11.5/12.5 J
+4.5/6/7.5/8.5/10 6/7.5/9/10.5/12
+Body mode:
+PRIVATE
+PARTS:
+Underarm:
+J
+6.5~11J
+8.5/10/11/12.5/13.5 J
+7.5/8.6/9.7/10.8/
+(±20%)
+ALL: 8.5 J
+12
+Bikini mode:
+(±20%)
+8~12.5J
+Page 5 of 8
+
+OTC
+
+Reference
+Device 2
+
+Remark
+Same
+Same
+Same
+Different
+Note 1
+Same
+Same
+Same
+Same
+Similar
+Note 2
+
+Similar
+Note 2
+
+SHENZHEN JUNMEI TECHNOLOGY CO., LTD.
+
+510(k)s –510(k) Summary_K241881
+
+Comparison Elements
+
+Subject Device
+
+Predicate Device
+
+Reference
+Device 1
+
+Reference
+Device 2
+
+Remark
+
+(±20%)
+Spot size
+
+3.3cm²± 0.25cm2
+
+3.0cm²± 0.25cm2
+
+3.0cm²
+
+Pulse duration
+
+10.2±1ms
+
+9.0±1 ms
+
+5~12ms+/-20%
+
+3.4cm²±
+0.5cm2
+8.5±2.5ms
+
+Pulsing control
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+1~5 levels
+
+1~5 levels
+
+1~9 levels
+
+Finger
+switch
+1~5 levels
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Output intensity level
+1~5 levels
+Software/
+Firmware/
+Yes
+Microprocessor Control?
+
+Electrical safety
+
+Eye safety
+Biocompatibility
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-57
+
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+ISO 10993-23
+
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+ISO 10993-23
+
+IEC 62471
+
+Note 1:
+Page 6 of 8
+
+ISO 10993-5
+ISO 10993-10
+
+3.0cm²±
+0.5cm2
+
+Similar
+Note 3
+
+4-10ms
+
+Same
+Same
+Same
+Same
+
+ANSI AAMI
+ES60601-1
+IEC 60601-1
+IEC 60601-1IEC 60601-1-2
+2
+IEC 60601-1-11
+Same
+IEC 60601-1IEC 60601-211
+83
+IEC 60601-283
+IEC 62471
+IEC 62471
+Same
+ISO 10993-5
+ISO 10993-5
+ISO 10993-10
+ISO 10993- Same
+ISO 10993-23 10
+
+SHENZHEN JUNMEI TECHNOLOGY CO., LTD.
+
+510(k)s –510(k) Summary_K241881
+
+Though the dimension is different from the predicate device and reference device, this difference is insignificant and do
+not raise any safety or effectiveness problems.
+Note 2:
+Though the energy density and the output energy of subject device is a little different from the predicate device and
+reference device, consider the error ±20%, the energy density and the output energy of subject device is similar to the
+predicate device and reference device, and they all comply with IEC 60601-2-83 and IEC 62471 requirements, so this
+difference will not raise any safety or effectiveness issue.
+Note 3:
+There is minor difference in spot size between the subject device and the reference device. The spot size is related to
+energy density while the energy density of subject device and predicate device is the same as explained in Note 2, so this
+difference is not significant and will not raise any safety or effectiveness issue.
+
+VIII.Performance Data
+The following performance data were provided in support of the substantial equivalence determination.
+1) Biocompatibility Testing
+The biocompatibility evaluation for the body-contacting components of the subject device was conducted in accordance
+with the “Use of International Standard ISO 10993-1, 'Biological Evaluation of Medical Devices –Part 1: Evaluation and
+Testing Within a Risk Management Process”, as recognized by FDA. The following testing was performed to, and passed,
+including:
+ ISO 10993-5:2009, Biological evaluation of medical devices –Part 5: Tests for in vitro cytotoxicity
+ ISO 10993-10:2021, Biological evaluation of medical devices –Part 10: Tests for skin sensitization
+ ISO 10993-23:2021, Biological evaluation of medical devices –Part 23: Tests for skin irritation
+2) Electrical Safety and EMC
+Electrical safety and EMC testing was performed to, and passed, the following standards:
+ IEC 60601-1 Medical electrical equipment –Part 1: General requirements for basic safety and essential performance
+Page 7 of 8
+
+SHENZHEN JUNMEI TECHNOLOGY CO., LTD.
+
+510(k)s –510(k) Summary_K241881
+
+IEC 60601-1-2 Medical electrical equipment - Part 1-2: General requirements for basic safety and essential
+performance - Collateral Standard: Electromagnetic disturbances - Requirements and tests
+ IEC 60601-1-11 Medical Electrical Equipment –Part 1: General Requirements for Basic Safety and Essential Performance
+–Collateral Standard: Requirements for Medical Electrical Equipment and Medical Electrical Systems Used in the Home
+Healthcare Environment
+ IEC 60601-2-83 Medical electrical equipment - Part 2-83: Particular requirements for the basic safety and essential
+performance of home light therapy equipment
+
+
+3) Eye Safety
+
+
+IEC 62471 Photobiological safety of lamps and lamp systems
+
+4) Software Verification and Validation
+Software documentation consistent with basic documentation level was submitted in this 510(k). System validation testing
+presented in this 510(k) demonstrated that all software requirement specifications are met and all software hazards have
+been mitigated to acceptable risk levels.
+5) Performance (bench) testing
+Verification Report of Times of Flash: The valid IPL emission number (IPL shot counts) of the lamp tube is used to as the
+service life of the IPL Hair Removal Device. The service life as 300,000 times.
+In order to verify and assure the performance, function and quality of the IPL Hair Removal Device, we have conducted the
+verification of output energy density, pulse duration time, valid times of flashes and Cold Compress Temperature.
+IX. Conclusions
+Based on the above analysis and non-clinical tests performed, it can be concluded that the subject device IPL Hair Removal
+Device is as safe, as effective, and performs as well as the legally marketed predicate device and reference device.
+
+Page 8 of 8
+
+

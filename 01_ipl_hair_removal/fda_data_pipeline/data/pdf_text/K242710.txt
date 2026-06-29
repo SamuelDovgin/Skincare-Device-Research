@@ -1,0 +1,811 @@
+December 6, 2024
+Shenzhen Jianchao Intelligent Technology Co., Ltd.
+℅ Riley Chen
+RA Engineer
+Feiying Drug & Medical Consulting Technical Service Group
+Rm 2401 Zhenye International Business Center, No. 3101-90
+Qianhai Road
+Shenzhen, Guangdong 518052
+China
+Re: K242710
+Trade/Device Name: Hair Removal Device (R3C16-P, R3C16-W, R3C16-G, R3C16-P Pro, R3C16-W
+Pro, R3C16-G Pro, R3505-W, R3505-B, R3505-W Pro, R3505-B Pro)
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: September 5, 2024
+Received: September 9, 2024
+Dear Riley Chen:
+We have reviewed your section 510(k) premarket notification of intent to market the device referenced above
+and have determined the device is substantially equivalent (for the indications for use stated in the enclosure)
+to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment
+date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the
+provisions of the Federal Food, Drug, and Cosmetic Act (the Act) that do not require approval of a premarket
+approval application (PMA). You may, therefore, market the device, subject to the general controls
+provisions of the Act. Although this letter refers to your product as a device, please be aware that some
+cleared products may instead be combination products. The 510(k) Premarket Notification Database
+available at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+
+K242710 - Riley Chen
+
+Page
+
+2
+
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Additional information about changes that may require a new premarket notification are provided in the FDA
+guidance documents entitled "Deciding When to Submit a 510(k) for a Change to an Existing Device"
+(https://www.fda.gov/media/99812/download) and "Deciding When to Submit a 510(k) for a Software
+Change to an Existing Device" (https://www.fda.gov/media/99785/download).
+Your device is also subject to, among other requirements, the Quality System (QS) regulation (21 CFR Part
+820), which includes, but is not limited to, 21 CFR 820.30, Design controls; 21 CFR 820.90, Nonconforming
+product; and 21 CFR 820.100, Corrective and preventive action. Please note that regardless of whether a
+change requires premarket review, the QS regulation requires device manufacturers to review and approve
+changes to device design and production (21 CFR 820.30 and 21 CFR 820.70) and document changes and
+approvals in the device master record (21 CFR 820.181).
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR Part 803) for
+devices or postmarketing safety reporting (21 CFR Part 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR Part 4, Subpart
+A) for combination products; and, if applicable, the electronic product radiation control provisions (Sections
+531-542 of the Act); 21 CFR Parts 1000-1050.
+All medical devices, including Class I and unclassified devices and combination product device constituent
+parts are required to be in compliance with the final Unique Device Identification System rule ("UDI Rule").
+The UDI Rule requires, among other things, that a device bear a unique device identifier (UDI) on its label
+and package (21 CFR 801.20(a)) unless an exception or alternative applies (21 CFR 801.20(b)) and that the
+dates on the device label be formatted in accordance with 21 CFR 801.18. The UDI Rule (21 CFR
+830.300(a) and 830.320(b)) also requires that certain information be submitted to the Global Unique Device
+Identification Database (GUDID) (21 CFR Part 830 Subpart E). For additional information on these
+requirements, please see the UDI System webpage at https://www.fda.gov/medical-devices/device-advicecomprehensive-regulatory-assistance/unique-device-identification-system-udi-system.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+
+K242710 - Riley Chen
+
+Page
+
+3
+
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Yan Fu -S
+
+Digitally signed by Yan Fu
+-S
+Date: 2024.12.06 13:50:30
+-05'00'
+
+for Tanisha Hithe
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical and
+Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 07/31/2026
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K242710
+
+Device Name
+
+Name of Device: Hair Removal Device
+Model(s): R3C16-P, R3C16-W, R3C16-G, R3C16-P Pro, R3C16-W Pro, R3C16-G Pro, R3505-W, R3505-B, R3505-W Pro, R3505-B
+Pro
+
+Indications for Use (Describe)
+
+Hair Removal Device is an over-the-counter device intended for removal of unwanted body hair and/or
+facial hair.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (8/23)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+Shenzhen Jianchao Intelligent Technology Co., Ltd.
+510(k)s – 510(k) Summary
+
+510(k) Summary: K242710
+"510(k) Summary" as required by 21 CFR Part 807.92.
+I.
+
+Submitter
+Shenzhen Jianchao Intelligent Technology Co., Ltd.
+Rm301, Bldg.25, No.68 Hexiu West Road, Fuhai St., Baoan, Shenzhen, CN
+Post code: 518107
+Fax: +86-0755-86961489
+Fred Li
+Title: Director
+Tel.: +86 18675507170
+Email: fred@vellcolife.com
+Date of preparation: 2024-09-06
+
+II. Device
+Name of Device: Hair Removal Device
+Model(s): R3C16-P, R3C16-W, R3C16-G, R3C16-P Pro, R3C16-W Pro, R3C16-G Pro,
+R3505-W, R3505-B, R3505-W Pro, R3505-B Pro
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+
+III. Predicate Device & Reference Device
+Predicate device:
+Predicate Device
+Hair
+Removal
+Device
+(R2815-G Pro, R2815-G)
+Ipulse Smoothskin Gold Hair
+Removal Device
+IPL Hair Removal Device
+
+Manufacturer
+510(k) Number
+Shenzhen Jianchao Intelligent
+K232575
+Technology Co., Ltd.
+
+Product code
+
+Cyden Limited
+
+K160968
+
+OHT, GEX
+
+SHENZHEN BORRIA
+TECHNOLOGY CO., LTD.
+
+K232939
+
+OHT
+
+OHT
+
+Reference device:
+Reference Device
+IPL Hair Removal Device Joy
+Version (CB-027)
+iPulse Hair Removal System
+
+Manufacturer
+510(k) Number
+Shen Zhen CosBeauty Co.,
+K173813
+Ltd
+CyDen, Ltd.
+K130315
+
+Product code
+OHT
+OHT
+
+Page 1 of 6
+
+Shenzhen Jianchao Intelligent Technology Co., Ltd.
+510(k)s – 510(k) Summary
+
+IV. Device Description
+Hair Removal Device (Model: R3C16-P, R3C16-W, R3C16-G; R3C16-P Pro, R3C16-W Pro, R3C16-G
+Pro, R3505-W, R3505-B, R3505-W Pro, R3505-B Pro), is an over-the-counter, home-use and personal
+device for hair reduction based on Intense Pulsed Light (IPL). It works below the skin’s surface and
+does not involve any cutting or pulling, reducing hair growth with minimal pain.
+Hair Removal Device includes two series (R3C16 series and R3505 series) with a total of 10 models.
+The two series products adopt identical intended use, similar performance and operation, consisting of
+IPL host and power adapter, which the host is mainly composed of lamp tube, filter, display screen,
+buttons, thermoelectric cooler, fan, and DC socket.
+The device is only powered by the external power adapter. The device is fitted with a skin sensor to
+detect appropriate skin contact, if the treatment window of the device is not in full contact with the skin,
+the device cannot emit light pulses, and the IPL emission activation is by manual finger switch or auto
+light emission. All models of the Hair Removal Device have a cooling function for a better hair removal
+experience, but the main difference is that the model with “Pro” in the model name is equipped with
+sapphire while the model without “Pro” uses metal treatment window surface. The difference of design
+between models are listed below:
+Model (s)
+R3C16-P
+
+Enclosure color
+Purple
+
+Cooling function
+Metal cooling
+
+White
+Golden
+Purple
+White
+Golden
+White
+Black
+White
+Black
+
+Metal cooling
+Metal cooling
+Sapphire cooling
+Sapphire cooling
+Sapphire cooling
+Metal cooling
+Metal cooling
+Sapphire cooling
+Sapphire cooling
+
+R3C16-W
+R3C16-G
+R3C16-P Pro
+R3C16-W Pro
+R3C16-G Pro
+R3505-W
+R3505-B
+R3505-W Pro
+R3505-B Pro
+
+Product drawing
+
+V. Indications for Use
+Hair Removal Device is an over-the-counter device intended for removal of unwanted body hair and/or
+facial hair.
+Comparison of Indications for Use: The indications for use of the subject device is comparable to the
+indications for use of the predicate device.
+
+VI. Comparison of Technological Characteristics With the Predicate Device
+The Hair Removal Device has the same indications for use, mode of action and similar operational
+characteristics as the predicate devices. Any minor differences between the subject device and the listed
+predicate devices do no raise any issues of safety or efficacy. Performance data supports that the device
+Page 2 of 6
+
+Shenzhen Jianchao Intelligent Technology Co., Ltd.
+510(k)s – 510(k) Summary
+
+is safe and as effective as the predicate devices for its intended use. Therefore, the Hair Removal Device
+may be found substantially equivalent to its predicate devices.
+Hair Removal Device is compared with the following predicate devices and reference devices in terms
+of intended use, design, specifications and performance:
+
+Page 3 of 6
+
+Shenzhen Jianchao Intelligent Technology Co., Ltd.
+510(k)s – 510(k) Summary
+
+Comparison
+Elements
+
+Subject Device
+
+Predicate Device 1
+
+Predicate Device 2
+
+Predicate device 3
+
+Reference Device 1
+
+Reference Device 2
+
+Remark
+
+510(k)
+Number
+
+K242710
+
+K232575
+
+K160968
+
+K232939
+
+K173813
+
+K130315
+
+/
+
+Trade name
+
+Hair Removal Device
+
+Hair Removal Device
+
+iPulse SmoothSkin Gold
+Hair Removal System
+
+IPL Hair Removal Device
+
+IPL Hair Removal Device
+Joy Version
+
+iPulse Hair Removal
+System
+
+/
+
+Model (s)
+
+R3C16-P, R3C16-W, R3C16G, R3C16-P Pro, R3C16-W
+Pro, R3C16-G Pro
+R3505-W, R3505-B, R3505-W
+Pro, R3505-B Pro
+
+R2815-G Pro, R2815-G
+
+/
+
+BR223, BR225
+
+CB-027
+
+/
+
+/
+
+Hair Removal Device is an
+over-the-counter
+device
+intended for removal of
+unwanted body hair and/or
+facial hair.
+
+Hair Removal Device is an
+over-the-counter
+device
+intended for removal of
+unwanted body hair and/or
+facial hair.
+
+The iPulse SmoothSkin
+Gold Hair Removal System
+is indicated for the removal
+of unwanted hair. The iPulse
+Smoothskin Gold is also
+indicated for the permanent
+reduction in hair regrowth,
+defined as the long-term,
+stable reduction in the
+number of hairs regrowing
+when measured at 6, 9 and
+12
+months
+after
+the
+completion of a treatment
+regime.
+
+The IPL Hair Removal
+Device is indicated for the
+removal for unwanted
+hair. The IPL Hair
+Removal Device is also
+indicated
+for
+the
+permanent reduction in
+hair regrowth, defined as
+the
+long-term,
+stable
+reduction in the number of
+hairs regrowing when
+measured at 6, 9 and 12
+months
+after
+the
+completion
+of
+the
+treatment regime.
+
+The IPL Hair Removal
+Device Joy Version is
+indicated for the removal
+of unwanted hair. The
+device is also indicated for
+the permanent reduction in
+hair regrowth, defined as
+the
+long-term,
+stable
+reduction in the number of
+hairs regrowing when
+measured at 6, 9 and 12
+months
+after
+the
+completion of a treatment
+regime. The device is used
+for adults with Fitzpatrick
+skin types I - IV.
+
+The iPulse Hair
+Removal System is
+an Over-the-counter
+device intended for
+the
+removal
+of
+unwanted hair.
+
+Same
+
+OTC
+
+OTC
+
+OTC
+
+OTC
+
+OTC
+
+OTC
+
+Same
+
+An external power supply
+
+An external power supply
+
+External Power supply
+
+External Power supply
+
+100~240V, 50/60Hz
+
+110V or 230V, 50/60Hz
+
+Not public
+
+Supplied
+by
+external
+adapter
+100~240V, 50/60Hz
+
+Supplied by external
+power converter
+Not public
+
+194*117*45mm
+
+Not public
+
+Not public
+
+126*78*200mm
+
+Not public
+
+Different
+
+Not required
+
+Not required
+
+Not required
+
+Not required
+
+Not public
+
+Same
+
+Indication for
+use/ Intended
+use
+
+Prescription or
+OTC
+Device design
+Source energy
+
+Power supply
+100~240V, 50/60Hz
+Dimension
+R3C16 series: 185*70*40mm
+(mm)
+R3505 series: 198*117*51mm
+Sterilization
+Not required
+Output specification
+
+Page 4 of 6
+
+Same
+Same
+
+Shenzhen Jianchao Intelligent Technology Co., Ltd.
+510(k)s – 510(k) Summary
+
+Comparison
+Elements
+Light source
+Energy
+medium
+Wavelength
+range
+
+Energy density
+
+Spot size
+
+Pulse duration
+Pulsing control
+Delivery
+device
+Output
+intensity level
+Software/
+Firmware/
+Microprocesso
+r Control?
+
+Subject Device
+
+Predicate Device 1
+
+Predicate Device 2
+
+Predicate device 3
+
+Reference Device 1
+
+Reference Device 2
+
+Remark
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Same
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Intense Pulsed Light
+Xenon
+Arc
+Flashlamp
+
+530~1200nm
+
+530-1200nm
+
+510-1100nm
+
+510~1100nm
+
+510-1200nm
+
+530-1100nm
+
+Same
+
+3-6J/cm2
+
+Max.6.0J/cm2
+
+1.8~5.1J/cm²
+
+7-10J/cm2
+
+Similar
+
+3cm2 (3cm by 1cm)
+
+3.36cm²
+
+Body: 4.2cm²
+Bikini and face: 2.0cm²
+
+3cm2 (1.3cm by 2.4
+cm)
+
+Similar
+
+R3C16-P, R3C16-W, R3C16G: 1.56J/cm2~4.69J/cm2 ;
+R3C16-P Pro, R3C16-W Pro,
+R3C16-G
+Pro:
+1.39J/cm2~4.17J/cm2
+R3505-W,
+R3505-B:
+3.57J/cm2~7.5J/cm2;
+R3505-W Pro, R3505-B Pro:
+3.03J/cm2~6.36J/cm2
+R3C16-P, R3C16-W, R3C16G: 3.2±0.25cm²
+R3C16-P Pro, R3C16-W Pro,
+R3C16-G Pro: 3.6±0.25cm²
+R3505-W,
+R3505-B:
+2.8±0.25cm²;
+R3505-W Pro, R3505-B Pro:
+3.3±0.25cm²
+
+Max. 5.2J/cm2
+(range
+1.2J/cm2~5.2J/cm2)
+
+3.4±0.25 cm²
+
+R3C16 series: 6-11ms
+R3505 series: 11~12ms
+
+8.5±2.5ms
+(range in 6ms~11ms)
+
+Finger switch
+
+Finger switch
+Direct illumination
+tissue
+
+Direct illumination to tissue
+
+in
+
+to
+
+2ms to 10ms
+
+8~12ms
+
+9.2~11.2ms
+
+Finger switch
+
+Finger switch
+Direct illumination
+tissue
+
+Finger switch
+Direct illumination
+tissue
+
+Direct illumination to tissue
+
+to
+
+to
+
+Variable Single pulse: 25ms
+Double Pulse: 20ms
+on, 60ms off.
+Finger switch
+Direct Illumination
+To Tissue
+
+Same
+
+Similar
+Same
+Same
+
+9 levels
+
+9 levels
+
+Not public
+
+Not public
+
+5 levels
+
+Not public
+
+Same
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Not public
+
+Same
+
+Page 5 of 6
+
+Shenzhen Jianchao Intelligent Technology Co., Ltd.
+510(k)s – 510(k) Summary
+
+VII. Non-Clinical Testing
+The following performance data were provided in support of the substantial equivalence determination.
+ ISO 10993-5: 2009, Biological evaluation of medical devices –Par t 5: Tests for in vitro cytotoxicity
+ ISO 10993-10: 2021, Biological evaluation of medical devices - Part 10: Tests for skin sensitization
+ ISO 10993-23: 2021, Biological evaluation of medical devices - Part 23: Tests for irritation
+ IEC 60601-1: 2020, Medical electrical equipment - Part 1: General requirements for basic safety and essential performance
+ IEC 60601-1-2: 2020, Medical electrical equipment - Part 1-2: General requirements for basic safety and essential performance Collateral Standard: Electromagnetic disturbances - Requirements and tests
+ IEC 60601-1-11: 2020, Medical Electrical Equipment –Part 1-11: General Requirements for Basic Safety and Essential Performance –
+Collateral Standard: Requirements for Medical Electrical Equipment and Medical Electrical Systems Used in the Home Healthcare
+Environment
+ IEC 60601-2-83: 2022, Medical electrical equipment - Part 2-83: Particular requirements for the basic safety and essential performance of
+home light therapy equipment
+ IEC 62471: 2006, Photobiological safety of lamps and lamp systems
+ IEC 60601-1-6: 2020, Medical electrical equipment - Part 1-6: General requirements for basic safety and essential performance Collateral standard: Usability
+VIII.
+
+Clinical Testing
+
+Not applicable.
+IX. Conclusions
+Based on the above analysis and non-clinical tests performed, it can be concluded that the subject device is as safe, as effective, and performs
+as well as the legally marketed predicate devices.
+
+Page 6 of 6
+
+

@@ -1,0 +1,146 @@
+October 1, 2025
+Shenzhen Ulike Smart Electronics Co., Ltd.
+Yang Blue
+Registration Director
+810, Bldg 1,Xunmei Science & Technology Plaza,No.8 Keyuan Rd
+Science Park Community, Yuehai Sub-District, Nanshan Dist
+Shenzhen, Guangdong 518000
+China
+Re: K252804
+Trade/Device Name: Ice Cooling IPL Hair Removal Device (UI20S BK, UI20S BS, UI20S DB, UI20S
+GP, UI20S GR, UI20S MP, UI20S PW, UI20S RE, UI20S WH, UI20WG;UI20
+BK, UI20 BL, UI20 BR, UI20 BS, UI20 DB, UI20 GP, UI20 GR, UI20 MP, UI20
+PN, UI20 PW, UI20 RE, UI20 WH; UI06 PN, UI06 PL, UI06 JL, UI06 BR, UI06
+DB,UI06 PR, UI06 OG,UI06RD,UI06 WH, UI06 MG, UI06 OB, UI06 LY, UI06
+IG; UI06S PR, UI06S PN, UI06S WH, UI06S PRU, UI06S PNU, UI06S WHU;
+UI04 MK, UI04 BN, UI04 BU, UI04 CB, UI04 GY, UI04 LG, UI04 DG, UI04
+PL, UI04 PN, UI04 SD, UI04 SG, UI04 MG; UI04S PP, UI04S BU, UI04S WH,
+UI04S PN; MI01 LP, MI01 CB, MI01 GR, MI01 PP, MI01 RM, MI01 WG, MI01
+WH, MI01 BK)
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: September 3, 2025
+Received: September 3, 2025
+Dear Yang Blue:
+We have reviewed your section 510(k) premarket notification of intent to market the device referenced above
+and have determined the device is substantially equivalent (for the indications for use stated in the enclosure)
+to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment
+date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the
+provisions of the Federal Food, Drug, and Cosmetic Act (the Act) that do not require approval of a premarket
+approval application (PMA). You may, therefore, market the device, subject to the general controls
+provisions of the Act. Although this letter refers to your product as a device, please be aware that some
+
+K252804 - Yang Blue
+
+Page
+
+2
+
+cleared products may instead be combination products. The 510(k) Premarket Notification Database
+available at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Additional information about changes that may require a new premarket notification are provided in the FDA
+guidance documents entitled "Deciding When to Submit a 510(k) for a Change to an Existing Device"
+(https://www.fda.gov/media/99812/download) and "Deciding When to Submit a 510(k) for a Software
+Change to an Existing Device" (https://www.fda.gov/media/99785/download).
+Your device is also subject to, among other requirements, the Quality System (QS) regulation (21 CFR Part
+820), which includes, but is not limited to, 21 CFR 820.30, Design controls; 21 CFR 820.90, Nonconforming
+product; and 21 CFR 820.100, Corrective and preventive action. Please note that regardless of whether a
+change requires premarket review, the QS regulation requires device manufacturers to review and approve
+changes to device design and production (21 CFR 820.30 and 21 CFR 820.70) and document changes and
+approvals in the device master record (21 CFR 820.181).
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR Part 803) for
+devices or postmarketing safety reporting (21 CFR Part 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR Part 4, Subpart
+A) for combination products; and, if applicable, the electronic product radiation control provisions (Sections
+531-542 of the Act); 21 CFR Parts 1000-1050.
+All medical devices, including Class I and unclassified devices and combination product device constituent
+parts are required to be in compliance with the final Unique Device Identification System rule ("UDI Rule").
+The UDI Rule requires, among other things, that a device bear a unique device identifier (UDI) on its label
+and package (21 CFR 801.20(a)) unless an exception or alternative applies (21 CFR 801.20(b)) and that the
+dates on the device label be formatted in accordance with 21 CFR 801.18. The UDI Rule (21 CFR
+830.300(a) and 830.320(b)) also requires that certain information be submitted to the Global Unique Device
+Identification Database (GUDID) (21 CFR Part 830 Subpart E). For additional information on these
+requirements, please see the UDI System webpage at https://www.fda.gov/medical-devices/device-advicecomprehensive-regulatory-assistance/unique-device-identification-system-udi-system.
+
+K252804 - Yang Blue
+
+Page
+
+3
+
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+signed by
+TANISHA Digitally
+TANISHA L. HITHE -S
+2025.10.01
+L. HITHE -S Date:
+19:51:39 -04'00'
+
+Tanisha Hithe
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical and
+Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+I
+
+Indications for Use
+Please type in the marketing application/submission number, if it is known. This
+textbox will be left blank for original applications/submissions.
+
+K252804
+
+?
+
+Please provide the device trade name(s).
+Ice Cooling IPL Hair Removal Device (Ul20S BK, U120S BS, UI20S DB, UI20S GP, U120S GR, U120S MP,
+U120S PW, Ul20S RE, Ul20S WH, Ul20WG ; U120 BK, U120 BL, U120 BR, U120 BS, U120 DB, U120 GP,
+U120 GR, U120 MP, U120 PN, U120 PW, U120 RE, U120 WH; U106 PN, Ul06 PL, U106 JL, U106 BR, U106
+DB,UI06 PR, U106 OG,Ul06RD,Ul06 WH, Ul06 MG, Ul06 OB, Ul06 LY, Ul06 IG; Ul06S PR, Ul06S PN,
+U106S WH, U106S PRU, U106S PNU, U106S WHU; U104 MK, U104 BN, U104 BU, U104 CB, U104 GY, U104
+LG, U104 DG, U104 PL, U104 PN, U104 SD, U104 SG, U104 MG; U104S PP, UI04S BU, UI04S WH, UI04S
+PN; MIO1 LP, MIO1 CB, MIO1 GR, MIO1 PP, MIO1 RM, MIO1 WG, MIO1 WH, MIO1 BK)
+Please provide your Indications for Use below.
+Ice Cooling IPL Hair Removal Device with sapphire treatment window is indicated for the removal of
+unwanted hair. The device is also indicated for the permanent reduction in hair regrowth, defined as the
+long-term, stable reduction in the number of hairs regrowing when measured at 6, 9 and 12 months after
+the completion of a treatment regime.
+
+I
+
+Please select the types of uses (select one or both, as
+applicable).
+
+D Prescription Use (Part 21 CFR 801 Subpart D)
+
+SOver-The-Counter Use (21 CFR 801 Subpart C)
+
+

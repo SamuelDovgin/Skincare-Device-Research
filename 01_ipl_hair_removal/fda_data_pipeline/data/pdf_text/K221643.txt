@@ -1,0 +1,405 @@
+October 21, 2022
+Shenzhen Desida Technology Co., Ltd.
+℅ Amos Zou
+RA Engineer
+Shenzhen CT Bio-Tech Co., Ltd.
+Room 408, Comprehensive Building, Building 6,
+Xusheng Building, Xixiang Street, Baoan District
+Shenzhen, Guangdong 518102
+China
+Re: K221643
+Trade/Device Name: Hair Removal Device (Model: IPL-D26, IPL-D19)
+Regulation Number: 21 CFR 878.4810
+Regulation Name:
+Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: May 30, 2022
+Received: June 6, 2022
+Dear Amos Zou:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.05.01
+
+K221643 - Amos Zou
+
+Page 2
+
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+
+Sincerely,
+
+Jianting Wang -S
+Jianting Wang
+Acting Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+‐
+
+001_510K Summary_K221643
+Version:1.0
+
+Department of Health and Human Services
+Centre of Device and Radiological Health
+Office of Device Evaluation
+Traditional 510(k) section
+
+510(K) SUMMARY OF SAFETY AND EFFECTIVENESS
+INFORMATION
+as required by section 21 CFR 807.92
+1.
+
+Submitter of 510(K):
+Sponsor：
+Company Name:
+
+Shenzhen Desida Technology Co., Ltd.
+
+Address:
+
+5F, Building A, Sanmin Industrial Zone, Shilongzai, Shuitian Community, Shiyan
+Street, Baoan District, Shenzhen City, Guangdong Province，China.
+
+Contact person:
+
+Mr.Gong Yong
+
+TEL:
+
++86-755-28227189/13689585641
+
+FAX:
+
++86 -755-28227189
+
+E‐mail:
+
+184056776@qq.com
+40888122@qq.com
+
+Date of Prepared:
+
+May 30,2022
+
+Application Correspondent:
+
+2.
+
+Company Name:
+
+Shenzhen CT Bio-Tech co., Ltd
+
+Address:
+Contact person:
+
+Room 408,Comprehensive Building,Building 6,Xusheng Building,Xixiang
+street,Baoan District,Shenzhen,,Guangdong.518126,China
+Amos Zou
+
+TEL:
+
++86-15015249549
+
+E‐mail:
+
+amos.zou@139.com
+
+Date of Prepared:
+
+May 30, 2022
+
+Proposed Device and code:
+Device Trade Name:
+
+Hair Removal Device(Model:IPL-D26,IPL-D19)
+
+Regulation Medical Specialty
+
+General & Plastic Surgery
+
+Product Code:
+
+OHT
+
+Page 1 of 4
+
+001_510K Summary_K221643
+Version:1.0
+
+3.
+
+Device classification Name:
+
+Light Based Over-The-Counter Hair Removal
+
+Regulation number
+
+21 CFR 878.4810
+
+Regulation Description
+
+Laser surgical instrument for use in general and plastic surgery and in
+dermatology.
+
+Device Class
+
+II
+
+Sterilization facility
+
+Not applicable
+
+Type:
+
+Traditional
+
+Predicate Device:
+510(K)
+K160968
+
+4.
+
+Trade or Proprietary or Model Name
+Ipulse Smoothskin Gold Hair Removal Device
+
+Manufacturer
+Cyden Limited
+
+Description of Proposed Device:
+The Hair Removal Devices (Model:IPL-D26,IPL-D19) are pulsed light hair removal devices. The IPL-D26 and
+IPL-D19 models use the same components and have the same features except for their color. The IPL-D26 is white
+and IPLD19 is red. The device uses light pulses to produce hair removal, and the effect of the device is based on the
+theory of selective photothermolysis in which optical energy is used to disable hair growth. The IPL-D26 and IPLD19 devices are each composed of a hand held applicator and an external power supply. Each applicator contains a
+xenon lamp, a skin color sensor and a skin proximity sensor. The xenon lamp emits the pulsed light flashes to
+produce hair removal. The skin color sensor is to ensure that the light will be emitted only to skin color appropriate
+for the device. The contact sensor is to ensure that the light pulses will not be emitted unless the applicator in full
+contact with the skin. The spot size (treatment area) in the Hair Removal Device devices is 3 cm²
+
+5.
+
+Indications for Use
+The Hair Removal Devices (models IPL-D26 and IPL-D19) are over the counter devices intended for the
+removal of unwanted hair. The devices are intended for permanent reduction in hair regrowth, defined as a long
+‐term, stable reduction in the number of hairs re‐growing when measured at 6, 9, and 12 months after the
+completion of treatment regimen.
+
+6.
+
+Device Comparison Table
+The following table compares the device to the predicate device with basic technological characteristics.
+Subject Device 1
+Predicate Device
+Remark
+
+510(k) Number
+Device Name and
+Model
+
+K221643
+Hair Removal Device
+(Model:IPL-D26,IPL-D19)
+
+K160968
+Ipulse Smoothskin
+Removal Device
+
+Manufacturer
+
+Shenzhen Desida Technology Co., Ltd.
+Xenon Arc Flashlamp
+
+Cyden Limited
+Xenon Arc Flashlamp
+
+‐same
+
+500nm-1200nm
+
+510-1100nm
+
+Similar
+
+2-4 milliseconds
+
+2ms to 10ms
+
+Similar
+
+Enerty Medium
+Wavelength
+Range
+Pulse Duration
+Energy Density
+Treatment
+window
+
+1.8-4.9 J/cm²
+3cm² (3cm by 1cm)
+
+3-6J/cm²
+3cm² (3cm by 1cm)
+
+Page 2 of 4
+
+Gold
+
+Hair
+
+‐‐‐
+
+Similar
+Same
+
+001_510K Summary_K221643
+Version:1.0
+
+Delivery Device
+Pulsing Control
+Skin Tone Sensor
+Indications for
+Use
+
+Use Environment
+
+Direct Illumination to Tissue
+Finger switch
+
+Direct Illumination to Tissue
+
+Optical Measurement
+Integral to device.
+Continuous measurement.
+
+Optical Measurement
+Integral to device.
+Continuous measurement.
+The iPulse SmoothSkin Gold Hair
+Removal System is indicated for the
+removal of unwanted hair. The iPulse
+SmoothSkin Gold is also indicated for
+the permanent reduction in hair
+regrowth, defined as the long-term,
+stable reduction in the number of
+hairs regrowing when measured at 6,
+9 and 12 months after the completion
+of a treatment regime.
+
+Same
+
+Over-the-counter
+
+Same
+
+Finger switch
+
+The Hair Removal Devices (models
+IPL-D26 and IPL-D19) are over the
+counter devices intended for the
+removal of unwanted hair. The devices
+are intended for permanent reduction in
+hair regrowth, defined as a long‐term,
+stable reduction in the number of hairs
+re‐growing when measured at 6, 9, and
+12 months after the completion of
+treatment regimen.
+Over-the-counter
+
+Same
+Same
+
+Same
+
+7. PERFORMANCE DATA
+The testing for Hair Removal Device included performance, software, electrical safety, EMC, biocompatibility and
+bench. Hair Removal Device passed all testing in support of the substantial equivalence determination:
+7.1. Biocompatibility testing
+
+The biocompatibility evaluation for the Hair Removal Devicewas conducted in accordance with
+International Standard ISO 10993‐1 “Biological Evaluation of Medical Devices − Part 1: Evaluation and
+Testing Within a Risk Management Process.” As dictated by the application and duration of contact with
+the intact skin, the enclosure of testing included the following tests:
+
+Cytotoxicity
+Sensitization
+
+Irritation
+
+7.2. Electrical safety and electromagnetic compatibility
+Electrical safety, performance and EMC testing were conducted on the Hair Removal Device. The device with
+compliance with the IEC 60601‐1, IEC 60601‐1‐11, IEC 60601-2-57,IEC 60601‐2‐83 and IEC 62471
+standards for safety and the IEC 60601‐1‐2 standard for EMC.
+7.3.
+
+Software Verification and Validation Testing
+
+Software verification and validation testing were conducted and documentation was provided as
+recommended by FDA’s Guidance for Industry and FDA Staff, “Guidance for the Content of Premarket
+Submissions for Software Contained in Medical Devices.” The software for this device was considered as a
+“Moderate” level of concern.
+7.4 Usability
+Usability testing has been performed to, and passed, the following standards:
+ IEC 60601-1-6 Medical electrical equipment –Part 1-6: General requirements for safety – Collateral
+standard: Usability
+
+8.
+
+Conclusions:
+The proposed IPL Hair Removal Device models IPL-D26 and IPL-D19 in this 510(k) use the same IPL
+technology that is used in the K160968 predicate device and the proposed device models are for the same
+intended use as the predicate device. Differences between the proposed device models and predicate device
+do not raise new types of questions regarding safety and effectiveness, and performance testing supports that
+Page 3 of 4
+
+001_510K Summary_K221643
+Version:1.0
+
+the proposed device can be used safely and effectively for the proposed indications for use. The proposed IPL
+Hair Removal Device models IPL-D26 and IPL-D19 are considered to be substantially equivalent to the
+K160968 predicate device.
+
+Page 4 of 4
+
+

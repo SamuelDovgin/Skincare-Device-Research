@@ -1,0 +1,1091 @@
+March 25, 2020
+Beijing Globalipl Development Co., Ltd.
+℅ Ray Wang
+General Manager
+Beijing Believe-Med Technology Service Co., Ltd.
+Rm. 912, Building #15, XiYueHui,
+No. 5, YiHe North Rd., FangShan District
+Beijing, 102401 Cn
+Re: K193328
+Trade/Device Name: IPL + Diode Laser Machine
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: ONF, GEX
+Dated: November 29, 2019
+Received: December 2, 2019
+Dear Ray Wang:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.04.14
+
+K193328 - Ray Wang
+
+Page 2
+
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Jessica Mavadia-shukla -S
+Jessica Mavadia-Shukla, PhD
+Acting Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2020
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K193328
+Device Name
+
+Trade Name: IPL + Diode Laser machine
+Model: US419
+Indications for Use (Describe)
+
+The IPL + Diode Laser machine (inclusive of the handpiece used to deliver pulsed-light energy) is indicated for use in
+surgical, and aesthetic applications in permanent hair reduction, reduction of benign pigmented lesions and benign
+vascular lesions，and (inclusive of the handpiece used to deliver diode laser energy) is intended for hair removal,
+permanent hair reduction on all skin types (Fitzpatrick skin type I-VI), including tanned skin.
+Permanent hair reduction is defined as the long-term, stable reduction in the number of hairs regrowing when measured at
+6, 9, and 12 months after the completion of a treatment regime.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (7/17)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+7-1
+
+EF
+
+510(k) Summary
+
+Tab #8 510(k) Summary
+This 510(k) Summary of 510(k) safety and effectiveness information is being submitted in accordance
+with requirements of SMDA 1990 and Title 21, CFR Section 807.92.
+The assigned 510(k) Number: K193328
+1.
+
+Date of Preparation
+02/28/2020
+
+2.
+
+Sponsor
+Beijing Globalipl Development Co.,Ltd.
+F-8 Qunyinghui Building, Jinyuan Rd.32, Daxing Economic Development Zone, Beijing, China
+102628
+Contact Person: Li Ye
+Position: Certification Department Manager
+Tel: +86-18865721581
+Fax: +86-534-2756245
+Email: Liye@globalipl.com
+
+3.
+
+Submission Correspondent
+Mr. Ray Wang
+Beijing Believe-Med Technology Service Co., Ltd.
+Rm.912, Building #15, XiYueHui, No.5, YiHe North Rd.,
+FangShan District, BeiJing, China 102401
+Tel: +86-18910677558
+Fax: +86-10-56335780
+Email: ray.wang@believe-med.com
+
+8-1
+
+510(k) Summary
+
+4.
+
+Identification of Proposed Device
+Trade Name: IPL + Diode Laser machine
+Common Name: Powered Light Based Non-Laser Surgical Instrument With Thermal Effect；
+Powered Laser Surgical Instrument
+Model(s): US419
+
+Regulatory Information:
+Classification Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology；
+Classification: II;
+Product Code: ONF, GEX;
+Regulation Number: 21 CFR 878.4810；
+Review Panel: General & Plastic Surgery;
+Indication For Use:
+The IPL + Diode Laser machine (inclusive of the handpiece used to deliver pulsed-light energy) is
+indicated
+
+for
+
+use
+
+in
+
+surgical,
+
+and
+
+aesthetic
+
+applications
+
+in
+
+permanent hair
+
+reduction, reduction of benign pigmented lesions and benign vascular lesions，and (inclusive of the
+handpiece used to deliver diode laser energy)is intended for hair removal, permanent hair reduction
+on all skin types (Fitzpatrick skin type I-VI), including tanned skin.
+Permanent hair reduction is defined as the long-term, stable reduction in the number of hairs
+regrowing when measured at 6, 9, and 12 months after the completion of a treatment regime.
+
+5.
+
+Device Description
+The proposed device, IPL + Diode Laser machine (inclusive of the handpiece used to deliver
+pulsed-light energy) is indicated for use in surgical, and aesthetic applications in permanent hair
+removal, reduction of benign pigmented lesions and benign vascular lesions，and (inclusive of the
+handpiece used to deliver diode laser energy)is intended for hair removal, permanent hair reduction
+on all skin types (Fitzpatrick skin type I-VI), including tanned skin.
+IPL are intense pulsed light system which delivers intense pulsed light at a wavelength ranging from
+480nm-1200nm. Intense Pulsed Light (IPL) systems work on the principles of selective thermolysis.
+That is, causing thermal damage to target chromophores by using light of appropriate wavelength in
+pulses that exceeds the chromophores’ thermal relaxation time but sparing normal skin by limiting the
+pulse width below the thermal relaxation time for skin.
+IPL are different from lasers in that they deliver many wavelengths in each pulse of light instead of
+just one wavelength. Generally, IPL enhances penetration without using excessive energy levels and
+enables targeting of specific chromophores.
+8-2
+
+510(k) Summary
+
+Diode Laser machine is based on the principles of selective photothermolysis (SPTL): a combination
+of the appropriate laser wavelength, pulse duration, and fluence can obtain optimal effect on a
+targeted tissue with minimal effect on surrounding tissue.
+Wavelengths of 808 nanometers (nm) are widely used in hair removal treatment, it is selectively
+absorbed by melanin in the hair shaft, damaging the follicular epithelium, and further causes hair loss,
+while the competing chromophores (oxyhemoglobin and water) absorb less energy at these
+wavelengths.
+The user could power on the device and use the key switch to start the system, and then set the output
+parameter, when the setting is done, the user could use the handpiece to aim the area to be treated by
+808 nm laser delivering , the laser emitting could be triggered by foot switch controlled by user.
+
+Function module description
+a. Control Panel
+The module uses the microcontroller as the heart, utilizes the LCD screen to display all prompt
+information and the system state information to complete the human-machine interaction function,
+and realizes the device parameters settings and accurate control of the output IPL/laser energy by
+the operator.
+b. Main Control Module
+The module uses the microcontroller as the heart, receives the IPL/laser energy parameters and
+work instructions from the control panel and detects the footswitch state; Utilizes the sensors of
+temperature, humidity, liquid level and flow to detect the parameters such as temperature,
+humidity and water flow during system working, and according to the detected values to calculate
+the dew point temperature; Controls and detects the work state of constant current board module
+as well as the temperature and humidity control system; Uploads the state data and alarm
+information of water circulation system, cooling system, handpiece module and constant current
+board module during system working.
+c. Constant current board module
+The module uses the high-power MOS as the heart, receives the IPL/laser energy parameters from
+the main control module, supplies the IPL/laser with constant drive current which corresponding
+to the received IPL/laser energy parameters to drive the IPL/laser to emit light. The module also
+has the detection function of over-current, over-voltage, over-temperature and handpiece state, and
+uploads the detected data to the control module.
+d. Temperature and humidity control system
+The system mainly includes the condenser, cold plate, water circulation subsystem and fans. The
+microcontroller of main control module according to the temperature, humidity parameter detected
+by the sensors to control the working state of the condenser, cold plate and cooling fan to meet the
+temperature and humidity requirements during the IPL/laser working.
+8-3
+
+510(k) Summary
+
+e. Handpiece module
+Handpiece module is the heart of the device, which is the execution unit of the device and
+completes the IPL/laser emission function. The module is mainly composed of
+
+IPL/laser,
+
+sapphire, temperature and humidity sensor, data storage chips, cooling components and water flow
+path. The IPL/laser emits light to output energy, temperature and humidity sensors detects the
+temperature and humidity parameters during handpiece working, the cooling components and
+water flow path take away the heat of the IPL/laser to prevent it from being damaged caused by
+over-temperature, so prolongs the service life of the IPL/laser.
+
+8-4
+
+510(k) Summary
+
+6.
+
+Identification of Predicate Device
+Predicate Device 1:
+510(k) Number: K161286
+Product Name: IPL Therapy Machine
+Manufacturer: BEIJING ADSS DEVELOPMENT CO., LTD.
+Predicate Device 2:
+510(k) Number: K192516
+Product Name: Diode Laser 808nm
+Manufacturer: Beijing Superlaser Technology Co., Ltd.
+
+7.
+
+Non-Clinical Test Conclusion
+Non clinical tests were conducted to verify that the proposed device met all design specifications as
+was Substantially Equivalent (SE) to the predicate device. The test results demonstrated that the
+proposed device complies with the following standards:
+
+
+IEC 60601-1:2012 Medical Electrical Equipment - Part 1: General Requirements For Basic
+Safety And Essential Performance;
+
+
+
+IEC 60601-2-22 Edition 3.1 2012-10, Medical Electrical Equipment - Part 2-22: Particular
+Requirements For Basic Safety And Essential Performance Of Surgical, Cosmetic, Therapeutic
+And Diagnostic Laser Equipment.
+
+
+
+IEC 60825-1:2014, Safety of laser products - Part 1: Equipment classification and
+requirements.
+
+
+
+IEC60601-2-57:2011, Medical electrical equipment -- Part 2-57: Particular requirements for
+the basic safety and essential performance of non-laser light source equipment intended for
+therapeutic, diagnostic, monitoring and cosmetic/aesthetic use
+
+
+
+IEC 62471 First edition 2006-07 Photobiological safety of lamps and lamp systems
+
+
+
+IEC 60601-1-2:2014 , Medical electrical equipment - Part 1-2: General requirements for basic
+safety and essential performance - Collateral Standard: Electromagnetic disturbances Requirements and tests
+
+
+
+ISO 10993-5 Third Edition 2009-06-01, Biological Evaluation Of Medical Devices - Part 5:
+Tests For In Vitro Cytotoxicity. (Biocompatibility)
+
+
+
+ISO 10993-10 Third Edition 2010-08-01, Biological Evaluation Of Medical Devices - Part 10:
+Tests For Irritation And Skin Sensitization. (Biocompatibility)
+
+8.
+
+Clinical Test Conclusion
+No clinical study is included in this submission.
+
+8-5
+
+510(k) Summary
+
+9.
+
+Substantially Equivalent (SE) Comparison
+Table 7-1 General Comparison
+
+Item
+
+Predicate
+
+Predicate
+
+Device 1
+
+Device 2
+
+K161286
+
+K192516
+
+ONF;GEX
+
+ONF
+
+GEX
+
+SE
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+21 CFR 878.4810
+
+SE
+
+Proposed Device
+
+Product Code
+Regulation
+Number
+
+The IPL + Diode Laser
+machine (inclusive of the
+handpiece used to deliver
+pulsed-light
+
+energy)
+
+is
+
+indicated for use in surgical,
+and aesthetic applications in
+permanent
+
+hair
+
+reduction,
+
+reduction
+
+of
+
+benign
+
+pigmented
+
+lesions
+
+and
+
+benign vascular lesions，and
+(inclusive of the handpiece
+used to deliver diode laser
+Intended Use
+
+energy)is intended for hair
+removal,
+
+permanent
+
+hair
+
+reduction on all skin types
+(Fitzpatrick skin type I-VI),
+including tanned skin.
+Permanent hair reduction is
+defined as the long-term,
+stable
+
+reduction
+
+in
+
+the
+
+number of hairs regrowing
+when measured at 6, 9, and
+12
+
+months
+
+after
+
+the
+
+completion of a treatment
+regime.
+Configuration
+
+The
+
+Remark
+
+VE2000
+
+device is indicated
+
+The Diode Laser
+
+for use in surgical,
+
+808nm is intended
+
+aesthetic
+
+for hair removal,
+
+applications
+
+in
+
+permanent
+
+hair
+
+reduction,
+
+permanent
+
+hair
+
+reduction on all
+skin
+
+types
+
+(Fitzpatrick
+
+skin
+
+benign
+
+type
+
+I-VI),
+
+pigmented lesions
+
+including tanned
+
+and
+
+skin.
+
+reduction
+
+of
+
+benign
+
+vascular lesions.
+
+Permanent
+
+hair
+
+Permanent
+
+hair
+
+reduction
+
+is
+
+reduction
+
+is
+
+defined
+
+the
+
+long-term, stable
+
+stable
+
+reduction in the
+
+reduction in the
+
+number of hairs
+
+number of hairs
+
+regrowing
+
+regrowing
+
+measured at 6, 9,
+
+defined
+
+as
+
+long-term,
+
+when
+
+measured at
+6,
+
+9,
+
+and
+
+and
+12
+
+12
+
+as
+
+SE
+
+the
+
+when
+months
+
+after
+
+the
+
+months after the
+
+completion of a
+
+completion of a
+
+treatment regime.
+
+treatment regimen
+
+Main Unit
+
+Main Unit
+
+Main Unit
+
+SE
+
+Handpiece
+
+Handpiece
+
+Handpiece
+
+SE
+
+Foot Control
+
+Foot Control
+
+Foot Control
+
+SE
+
+8-6
+
+510(k) Summary
+
+Table 7-2 Performance Comparison(IPL)
+Proposed Device
+
+ITEM
+
+Predicate Device1
+IPL Therapy Machine(K161286)
+
+Light source
+
+Remark
+
+Intense pulsed light
+
+Intense pulsed light
+
+480-1200 nm
+
+480nm—1200nm
+
+590-1200 nm
+
+590nm—1200nm
+
+640-1200 nm
+
+640nm—1200nm
+
+Deliver system
+
+Sapphire
+
+Sapphire
+
+SE
+
+Energy density
+
+1~40J/cm2
+
+1-50J/cm²
+
+Analysis 1
+
+Max. Power
+
+2200VA
+
+2200W
+
+SE
+
+640-1200
+
+640-1200
+
+SE
+
+Energy Range (J/cm )
+
+11-40
+
+10-44
+
+Analysis 1
+
+Pulse Width (ms)
+
+16-32
+
+3-14
+
+Analysis 1
+
+Pulse Delay (ms)
+
+5-14
+
+16-32
+
+Analysis 1
+
+15*50
+
+12*30
+
+Analysis 1
+
+480-1200
+
+480-1200
+
+SE
+
+Energy Range (J/cm )
+
+10-40
+
+12-44
+
+Analysis 1
+
+Pulse Width (ms)
+
+16-32
+
+3-9
+
+Analysis 1
+
+Pulse Delay (ms)
+
+3-8
+
+16-32
+
+Analysis 1
+
+Spot Size (mm2)
+
+15*50
+
+12*30
+
+Analysis 1
+
+Wavelength
+
+SE
+SE
+
+permanent hair reduction
+Wavelength Range (nm)
+2
+
+2
+
+Spot Size (mm )
+
+pigmented lesions
+Wavelength Range (nm)
+2
+
+vascular lesions
+Wavelength Range (nm)
+
+590-1200
+
+590-1200
+
+SE
+
+Energy Range (J/cm2)
+
+10-40
+
+10-42
+
+Analysis 1
+
+Pulse Width (ms)
+
+16-32
+
+3-8
+
+Analysis 1
+
+Pulse Delay (ms)
+
+5-9
+
+16-32
+
+Analysis 1
+
+15*50
+
+12*30
+
+Analysis 1
+
+2
+
+Spot Size (mm )
+Analysis 1
+
+The proposed device is different in energy density, energy range, pulse width and pulse delay from the
+predicate device. Buy the IPL system of the proposed device has passed the IEC60601-2-57 and
+IEC62471 test, the IPL performance of the proposed device can be guaranteed. By complying with
+non-clinical test conducted, the proposed device is determined to be substantially equivalency with
+predicate device.
+
+8-7
+
+510(k) Summary
+
+Table 7-3 Performance Comparison (Diode Laser )
+Predicate Device 2
+Item
+
+Proposed Device
+
+Diode Laser 808nm
+
+Remark
+
+K192516
+Laser Type
+
+Diode Laser
+
+Diode Laser
+
+SE
+
+Laser Classification
+
+Class IV
+
+Class IV
+
+SE
+
+Laser Wavelength
+
+808 nm
+
+808 nm
+
+SE
+
+Spot Size
+
+13*13mm2
+
+1.2 cm2
+
+Analysis 2
+
+Fluence
+
+1~69J/c m2
+
+1-70J/ cm2
+
+Analysis 2
+
+1-20 Hz
+
+Analysis 2
+
+5~400ms
+
+SE
+
+Frequency
+Pulse Duration
+
+SHR:1-10Hz
+LHR:1-3 Hz
+5~400ms
+
+Analysis 2
+The proposed device is different in Spot Size，Fluence，Frequency and Pulse Duration from the predicate
+device. Buy the Diode Laser system of the proposed device has passed the IEC60601-2-22 and
+IEC60825-1 test, the Diode Laser performance of the proposed device can be guaranteed. By complying
+with non-clinical test conducted, the proposed device is determined to be substantially equivalency with
+predicate device.
+
+8-8
+
+510(k) Summary
+
+Table 7-4 Safety Comparison
+
+Item
+
+Proposed Device
+
+Predicate Device1
+
+Predicate Device 2
+
+IPL Therapy
+
+Diode Laser 808nm
+
+Machine (K161286)
+
+(K192516)
+
+Remark
+
+Patient Contact Materials and Biocompatibility
+Patient
+Contact
+Materials
+Cytotoxicity
+Sensitization
+Irritation
+
+IPL + Diode Laser
+
+IPL handpiece
+
+Diode Laser handpiece
+
+No Cytotoxicity
+
+No Cytotoxicity
+
+No Cytotoxicity
+
+No evidence of
+
+No evidence of
+
+No evidence of
+
+sensitization
+
+sensitization
+
+sensitization
+
+No evidence of
+
+No evidence of
+
+No evidence of
+
+irritation
+
+irritation
+
+irritation
+
+handpiece
+
+SE
+
+SE
+
+EMC, Electrical and Laser Safety
+Comply with IEC
+Electrical
+
+60601-1, IEC
+
+Comply with IEC
+
+Safety
+
+60601-2-22，
+
+60601-1
+
+IEC60601-2-57
+EMC
+
+60601-1, IEC
+
+Comply with IEC
+
+Comply with IEC
+
+60601-1-2
+
+60601-1-2
+
+60601-1-2
+
+IEC 60601-2-22,
+
+Comply with
+
+IEC 60825 ,
+
+IEC60601-2-57
+
+IEC60601-2-57
+Power Supply
+
+AC110V， 50/60Hz
+
+Dimension
+
+620x610x1290mm
+
+430x 590 x 1360 mm
+
+Weight
+
+78kg
+
+45kg
+
+AC 110V 50Hz
+
+SE
+
+60601-2-22
+
+Comply with IEC
+Comply with
+
+Laser Safety
+
+Comply with IEC
+
+SE
+
+Comply with IEC
+60601-2-22, IEC
+
+SE
+
+60825
+AC 110V/60Hz or
+
+SE
+
+250V 50Hz
+598x440x1093mm
+60Kg
+
+Analysis 3
+Analysis 3
+
+Analysis 3
+The proposed device is different in Dimension and Weight from the predicate device. but
+device has passed the
+
+the proposed
+
+IEC 60601-1-2，IEC 60601-1，IEC 60601-2-22, IEC60601-2-57，IEC 60825 test,
+
+we believe these differences will not affect the effectiveness and safety compared with the predicate
+device., the proposed device is determined to be substantially equivalency with predicate device.
+
+8-9
+
+510(k) Summary
+
+10. Substantially Equivalent (SE) Conclusion
+Based on the comparison and analysis above, the proposed device is determined to be Substantially
+Equivalent (SE) to the predicate device.
+
+8-10
+
+

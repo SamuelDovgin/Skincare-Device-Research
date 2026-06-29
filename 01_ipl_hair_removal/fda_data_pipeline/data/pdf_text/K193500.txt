@@ -1,0 +1,769 @@
+Lumenis Ltd.
+℅ Jonathan Kahan
+Regulatory Counsel
+Hogan Lovells US LLP
+555 Thirteenth Street NW
+Washington, District of Columbia 20004
+Re: K193500
+Trade/Device Name: Stellar M22 for Intense Pulsed Light (IPL) and Laser System
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: GEX, ONF, ONG
+Dated: December 17, 2019
+Received: December 17, 2019
+Dear Jonathan Kahan:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.04.12
+
+K193500 - Jonathan Kahan
+
+Page 2
+
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Jessica Mavadiashukla -S
+Jessica Mavadia-Shukla
+Acting Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+
+Enclosure
+
+Indications for Use Statement
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Indications for Use
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: January 31, 2017
+See PRA Statement on last page
+
+510(k) Number (if known)
+
+K193500
+Device Name
+
+Stellar M22 for Intense Pulsed Light (IPL) and Laser system
+Indications for Use (Describe)
+
+The subject Stellar M22 has connection capability with the following available treatment handpieces,
+for multi-application treatment options. All handpieces are designed for aesthetic and dermatological
+skin procedure applications, as follows:
+
+
+
+
+
+
+The Intense Pulsed Light (IPL) handpiece with a spectrum of 400-1200 nm (with 9
+different filters) is indicated for:
+o
+
+Benign epidermal lesions, including dyschromia, hyperpigmentation, melasma, and
+ephelides (freckles)
+
+o
+
+Cutaneous lesions, including warts, scars and striae
+
+o
+
+Benign cutaneous vascular lesions, including port wine stains, hemoangiomas, facial,
+truncal and leg telangiectasias, erythema of rosacea, angiomas and spider
+angiomas, poikiloderma of Civatte, leg veins and venous malformations
+
+o
+
+Removal of unwanted hair and to effect stable long term, or permanent* hair
+reduction in skin types I-V through selective targeting of melanin in hair follicles
+
+o
+
+Mild to moderate inflammatory Acne (Acne vulgaris)
+
+The Nd:YAG Laser handpiece with a wavelength of 1064 nm (Multi-Spot Nd:YAG) is
+indicated for:
+o
+
+The coagulation and hemostasis of vascular lesions and soft tissue, including the
+treatment and clearance of superficial and deep telangiectasias (venulectasias) and
+reticular veins (0.1-4.0 mm. diameter) of the leg
+
+o
+
+The removal of unwanted hair and to effect table long term, or permanent* hair
+reduction in skin types I-V through selective targeting of melanin in hair follicles
+
+o
+
+The non-ablative treatment of facial wrinkles
+
+ResurFX module and handpiece, with wavelength of 1565 nm, is indicated for:
+o
+
+Use in dermatological procedures requiring fractional skin resurfacing and
+
+73
+
+0684
+
+coagulation of soft tissue
+
+
+The Q-Switched Nd:YAG Laser Handpiece with a wavelength of 1064 nm is indicated
+for:
+o
+
+Removal of dark tattoos
+
+o
+
+Treatment of pigmented lesions
+
+*Note
+Permanent hair reduction is defined as long-term, stable reduction in the number of hairs
+regrowing when measured at 6, 9, and 12 months after completion of treatment regime.
+
+Type of Use (Select one or both, as applicable)
+
+☒ Prescription Use (Part 21 CFR 801 Subpart D)
+
+☐ Over-The-Counter Use (21 CFR 801 Subpart
+C)
+
+PLEASE DO NOT WRITE BELOW THIS LINE – CONTINUE ON A SEPARATE PAGE IF NEEDED.
+FOR FDA USE ONLY
+Concurrence of Center for Devices and Radiological Health (CDRH) (Signature)
+
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response,
+including the time to review instructions, search existing data sources, gather and maintain the data
+needed and complete and review the collection of information. Send comments regarding this burden
+estimate or any other aspect of this information collection, including suggestions for reducing this
+burden, to:
+Department of Health and Human
+Services Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA)
+Staff PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (1/14)
+
+Page 1 of 1 FDA
+
+PSC Publishing Services (301) 443-6
+
+74
+
+0685
+
+K193500
+
+510(k) SUMMARY
+Stellar M22 for Intense Pulsed Light (IPL) and Laser System
+Submitter's Name, Address, Telephone Number, Contact Person and Date Prepared
+Lumenis Ltd.
+6 Hakidma Street PO Box 240
+Yokneam Industrial Park
+Yokneam 2069204, Israel
+Phone: +972-4-9599000
+Facsimile: +972-4-9599230
+Contact Person: Shlomit Segman, RA Senior Manager
+Date Prepared: December 17, 2019
+
+Name of the device:
+Stellar M22 for Intense Pulsed Light (IPL) and Laser system
+Classification Name:
+Powered Laser Surgical Instrument
+Regulation Class:
+Class II
+Product Code:
+GEX (21 C.F.R. § 878.4810)
+Subsequent Product Codes:
+ONF, ONG
+Predicate Device:
+M22 System (K170060)
+Intended Use
+The Lumenis Stellar M22 has connection capability with the following available treatment
+handpieces, for multi-application treatment options. All handpieces are designed for aesthetic and
+dermatological skin procedure applications, as follows:
+
+66
+
+0677
+
+
+
+
+
+
+
+The Stellar Intense Pulsed Light (IPL) handpiece with a spectrum of 400-1200 nm (with
+9 different filters) is indicated for:
+o
+
+Benign epidermal lesions, including dyschromia, hyperpigmentation, melasma, and
+ephelides (freckles)
+
+o
+
+Cutaneous lesions, including warts, scars and striae
+
+o
+
+Benign cutaneous vascular lesions, including port wine stains, hemoangiomas, facial,
+truncal and leg telangiectasias, erythema of rosacea, angiomas and spider
+angiomas, poikiloderma of Civatte, leg veins and venous malformations
+
+o
+
+Removal of unwanted hair and to effect stable long term, or permanent* hair
+reduction in skin types I-V through selective targeting of melanin in hair follicles
+
+o
+
+Mild to moderate inflammatory Acne (Acne vulgaris)
+
+The Nd:YAG Laser handpiece with a wavelength of 1064 nm (Multi-Spot Nd:YAG) is
+indicated for:
+o
+
+The coagulation and hemostasis of vascular lesions and soft tissue, including the
+treatment and clearance of superficial and deep telangiectasias (venulectasias) and
+reticular veins (0.1-4.0 mm. diameter) of the leg
+
+o
+
+The removal of unwanted hair from all skin types, and to effect table long term, or
+permanent* hair reduction in skin types I-V through selective targeting of melanin in
+hair follicles
+
+o
+
+The non-ablative treatment of facial wrinkles
+
+ResurFX module and handpiece, with wavelength of 1565 nm, is indicated for:
+o
+
+
+
+Use in dermatological procedures requiring fractional skin resurfacing and
+coagulation of soft tissue
+
+The Q-Switched Nd:YAG Laser Handpiece with a wavelength of 1064 nm is indicated
+for:
+o
+
+Removal of dark tattoos
+
+o
+
+Treatment of pigmented lesions
+
+*Note: Permanent hair reduction is defined as long-term, stable reduction in the number of
+hairs regrowing when measured at 6, 9, and 12 months after completion of treatment regime.
+
+67
+
+0678
+
+Device Description
+The subject Stellar M22 for Intense Pulsed Light (IPL) and Laser System is a multi-application, multitechnology platform with four (4) available treatment handpieces:
+
+
+
+
+
+Stellar Intense Pulsed Light (IPL) handpiece;
+Multi-Spot Nd:YAG laser handpiece;
+ResurFX non-ablative laser handpiece;
+Q-Switched Nd:YAG laser handpiece.
+
+The following accessories are provided with and/or may be purchased independently for each of
+the four (4) available treatment handpieces of the Stellar M22 for Intense Pulsed Light (IPL) and
+Laser Systems:
+
+
+The Stellar IPL handpiece has nine (9) different filters available: Cut-off filters of 515,
+560, 590,615, 640, 695 and 755 nm, Notch Filters of 400-600 & 800-1200 nm and 530650& 900-1200 nm. Further, the IPL handpiece has three (3) Sapphire Cool LightGuides
+available with sizes of: 15mm x 35mm, 8mm x 15 mm, 6 mm diameter.
+
+
+
+The Multi-Spot Nd:YAG handpiece has three (3) different LightGuides available in sizes
+of: 2mm x 4mm, 6 mm, and 9 mm.
+
+
+
+The ResurFX handpiece has two (2) different treatment tips available: SapphireCool and
+Precision tips
+
+
+
+The Q-Switched Nd:YAG handpiece has both disposable and gold plated metal
+treatment tips available. The disposable treatment tips and metal treatment tips are
+available in seven (7) different sizes of: 2, 2.5, 3.5, 4, 5, 6 and 8 mm.
+
+Technological Characteristics
+The intended use and indications for use of the Stellar M22 for Intense Pulsed Light (IPL) and Laser
+Systems are the same as the predicate device. In addition, the same technological characteristics
+and principles of operation apply for the Stellar M22 for Intense Pulsed Light (IPL) and Laser
+Systems and the predicate device.
+Comparison table of the technological characteristics of the Stellar M22 for Intense Pulsed Light
+(IPL) and Laser System compared to the predicate device is provided below:
+Stellar M22
+(subject device)
+Principle of Operation
+Device Components
+
+Cleared M22 and
+ResurFX Systems
+(K170060)
+Selective
+photothermolysis
+System console
+Four (4) available
+treatment handpieces:
+ Universal
+Intense Pulsed
+Light (IPL)
+
+Selective
+photothermolysis
+System console
+Four (4) available
+treatment handpieces:
+ Stellar Intense
+Pulsed Light
+(IPL)
+
+Comparison
+
+Same as predicate
+Same as predicate
+
+68
+
+0679
+
+
+
+
+
+
+
+
+
+Multi-Spot
+Nd:YAG laser
+handpiece
+Q-Switched
+Nd:YAG laser
+handpiece
+ResurFX nonablative laser
+module and
+handpiece
+
+
+
+
+
+Multi-Spot
+Nd:YAG laser
+handpiece
+Q-Switched
+Nd:YAG laser
+handpiece
+ResurFX nonablative laser
+module and
+handpiece
+
+Monitor Display
+
+12”
+
+8.4”
+
+Software operating
+system
+IPL Handpiece
+Wavelength
+Pulse duration
+(msec)
+Operational
+wavelengths
+
+Windows 10 Embedded
+
+Windows CE 5
+
+400-1200 nm
+Up to 20 msec – single
+pulse
+The IPL handpiece
+comes with 9 filters for
+various wavelengths:
+ Cut-off filters: 515,
+560, 590, 615, 640,
+695, 755 nm
+ Acne Filter (Notch
+filter 400-600 and
+800-1200)
+ Vascular Filter
+(Notch filter 530-650
+& 900-1200)
+
+400-1200 nm
+Up to 20 msec – single
+pulse
+The IPL handpiece
+comes with 10 filters for
+various wavelengths:
+ Cut-off filters: 515,
+560, 590, 615, 640,
+695, 755 nm
+ Acne Filter (Notch
+filter 400-600 and
+800-1200)
+ Vascular Filter
+(Notch filter 530-650
+& 900-1200)
+ KTP filter (525-585
+nm)
+Height: 40 mm
+
+SapphireCool
+LightGuides
+
+Height: 55 mm
+
+Spot sizes (cm2)
+
+8x15 mm (1.20 cm2)
+15x35 mm (5.25 cm2)
+6 mm round (0.3 cm2)
+Up to 35 or 56 J/cm2,
+upon tip size
+Up to 1 Hz
+Yes, 1, 2, and 3 pulses,
+varying fluence per
+pulse (AOPT mode)
+0 to10 °C (Rectangular)
+0 to 15°C (Round)
+
+Maximum Fluence
+Pulse Rate [Hz]
+Multiple Sequential
+Pulsing
+Contact sapphire
+cooling temperature
+
+8x15 mm (1.20 cm2)
+15x35 mm (5.25 cm2)
+6 mm round (0.3 cm2)
+Up to 35 or 56 J/cm2,
+upon tip size
+Up to 1 Hz
+Yes, 1, 2, and 3 pulses,
+varying fluence per
+pulse (AOPT mode)
+4 to 10°C
+
+Substantially
+equivalent
+Substantially
+equivalent
+Same as predicate
+Same as predicate
+Same as predicate
+but without the
+KTP filter
+
+Substantially
+equivalent – minor
+modification to
+dimension
+Same as predicate
+
+Same as predicate
+Same as predicate
+Same as predicate
+
+Substantially
+Equivalent -
+
+69
+
+0680
+
+Treatment screens
+
+Treatment present with
+additional basic
+treatment presets
+
+Treatment present
+
+LightGuide
+recognition
+
+Yes
+
+N/A
+
+Multi-Spot Nd:YAG Handpiece
+Operational
+1064 nm
+Wavelength
+Spot sizes (mm)
+2x4, 6, 9
+Maximum Fluence
+
+Pulse rate
+Multiple Sequential
+Pulsing
+Contact sapphire
+cooling temperature
+ResurFX Handpiece
+Operational
+Wavelength
+Maximum Energy
+Type of Laser
+Tip treatment width
+
+Scanner
+Scanner shapes
+
+Treatment screens
+
+Substantially
+equivalent – Minor
+software update to
+platform
+Substantially
+Equivalent –
+Addition of minor
+Hardware and
+software features
+to recognize
+connected fibers
+
+1064 nm
+
+Same as predicate
+
+2x4, 1.5, 6, 9
+
+Up to 225 J/cm2 upon tip
+size (due to removal of
+the 1.5 mm tip)
+Up to 1 Hz
+1, 2, and 3
+
+Up to 600 J/cm2 upon tip
+size
+
+Substantially
+Equivalent
+Substantially
+Equivalent
+
+Up to 1 Hz
+1, 2, and 3
+
+Same as predicate
+Same as predicate
+
+-4 to 10 °C
+
+4 to 10°C
+
+Substantially
+Equivalent
+
+1565 nm
+
+1565 nm
+
+Same as predicate
+
+Up to 40 or 70 mJ per
+micro-beam, upon tip
+Er:Glass Fiber-laser with
+scanner
+18 mm Sapphire Cool
+Tip
+18 mm Precision Tip
+Dual axis scanner
+Line, square, rectangle,
+circle, donut, hexagon,
+vertical line, and vertical
+rectangle
+Treatment present with
+additional basic
+treatment presets
+
+Up to 40 or 70 mJ per
+micro-beam, upon tip
+Er:Glass Fiber-laser with
+scanner
+18 mm Sapphire Cool
+Tip
+18 mm Precision Tip
+Dual axis scanner
+Line, square, rectangle,
+circle, donut, hexagon,
+vertical line, and vertical
+rectangle
+Treatment present
+
+Same as predicate
+
+Q-Switched Nd:YAG Handpiece
+Operational
+1064 nm
+Wavelength
+
+1064 nm
+
+Same as predicate
+Same as predicate
+
+Same as predicate
+Same as predicate
+
+Substantially
+equivalent – Minor
+software update to
+platform
+Same as predicate
+
+70
+
+0681
+
+Spot sizes (mm,
+diameter)
+
+Disposable tips: 2.0, 2.5,
+3.5 and 5.0 mm
+Gold plated metal tips:
+2.0, 2.5, 3.5, 4.0, 5.0,
+6.0 and 8.0 mm
+
+Disposable tips: 2.0, 2.5,
+3.5 and 5.0 mm
+Gold plated metal tips:
+2.0, 2.5, 3.5, 4.0, 5.0,
+6.0 and 8.0 mm
+
+Same as predicate
+
+Maximum Fluence
+
+Up to 14 J/cm2, upon tip
+size
+6-8
+0.5-5.0
+
+Up to 14 J/cm2, upon tip
+size
+6-8
+0.5-5.0
+
+Same as predicate
+
+Yes
+
+N/A
+
+Pulse Duration (nsec)
+Pulse Rate (Hz)
+Software
+Remote access
+capabilities
+
+Same as predicate
+Same as predicate
+Substantially
+Equivalent –
+Addition of minor
+software features
+for internal
+company use
+
+Performance Data
+The following tests were performed to validate the modifications to the device:
+
+
+
+
+
+
+Design verification and validation testing
+Risk analysis activities in compliance with ISO 14971
+Electrical safety in accordance with IEC 60601-1 and EMC in accordance with IEC 60601-12
+IPL compatibility testing as required to conform with IEC 60601-2-57
+Software verification and validation
+
+Conclusions
+Stellar M22 for Intense Pulsed Light (IPL) and Laser system has the same intended use and similar
+indications, principles of operation, and technological characteristics as M22 System. The minor
+differences in the Stellar M22 for Intense Pulsed Light (IPL) and Laser system’s technological
+characteristics do not raise any new questions of safety or effectiveness. Performance data
+demonstrates that the Stellar M22 for Intense Pulsed Light (IPL) and Laser system is as safe and
+effective as M22 System. Thus, the Stellar M22 for Intense Pulsed Light (IPL) and Laser system is
+substantially equivalent to its predicate devices.
+
+71
+
+0682
+
+

@@ -1,0 +1,840 @@
+October 10, 2025
+Foshan Jindi Electric Appliance Co., Ltd
+℅ Tracy Che
+Registration Specialist
+Feiying Drug & Medical Consulting Technical Service Group
+Rm 2401 Zhenye International Business Center
+No. 3101-90, Qianhai Road
+Shenzhen, Guangdong 518052
+China
+Re: K252209
+Trade/Device Name: IPL Home Use Hair Removal Device (JD-TM016, JD-TM023, JD-TM027, JDTM028, JD-TM032)
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: July 15, 2025
+Received: July 15, 2025
+Dear Tracy Che:
+We have reviewed your section 510(k) premarket notification of intent to market the device referenced above
+and have determined the device is substantially equivalent (for the indications for use stated in the enclosure)
+to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment
+date of the Medical Device Amendments, or to devices that have been reclassified in accordance with the
+provisions of the Federal Food, Drug, and Cosmetic Act (the Act) that do not require approval of a premarket
+approval application (PMA). You may, therefore, market the device, subject to the general controls
+provisions of the Act. Although this letter refers to your product as a device, please be aware that some
+cleared products may instead be combination products. The 510(k) Premarket Notification Database
+available at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.08.00
+
+K252209 - Tracy Che
+
+Page 2
+
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+Additional information about changes that may require a new premarket notification are provided in the FDA
+guidance documents entitled "Deciding When to Submit a 510(k) for a Change to an Existing Device"
+(https://www.fda.gov/media/99812/download) and "Deciding When to Submit a 510(k) for a Software
+Change to an Existing Device" (https://www.fda.gov/media/99785/download).
+Your device is also subject to, among other requirements, the Quality System (QS) regulation (21 CFR Part
+820), which includes, but is not limited to, 21 CFR 820.30, Design controls; 21 CFR 820.90, Nonconforming
+product; and 21 CFR 820.100, Corrective and preventive action. Please note that regardless of whether a
+change requires premarket review, the QS regulation requires device manufacturers to review and approve
+changes to device design and production (21 CFR 820.30 and 21 CFR 820.70) and document changes and
+approvals in the device master record (21 CFR 820.181).
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR Part 803) for
+devices or postmarketing safety reporting (21 CFR Part 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR Part 4, Subpart
+A) for combination products; and, if applicable, the electronic product radiation control provisions (Sections
+531-542 of the Act); 21 CFR Parts 1000-1050.
+All medical devices, including Class I and unclassified devices and combination product device constituent
+parts are required to be in compliance with the final Unique Device Identification System rule ("UDI Rule").
+The UDI Rule requires, among other things, that a device bear a unique device identifier (UDI) on its label
+and package (21 CFR 801.20(a)) unless an exception or alternative applies (21 CFR 801.20(b)) and that the
+dates on the device label be formatted in accordance with 21 CFR 801.18. The UDI Rule (21 CFR
+830.300(a) and 830.320(b)) also requires that certain information be submitted to the Global Unique Device
+Identification Database (GUDID) (21 CFR Part 830 Subpart E). For additional information on these
+requirements, please see the UDI System webpage at https://www.fda.gov/medical-devices/device-advicecomprehensive-regulatory-assistance/unique-device-identification-system-udi-system.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+
+K252209 - Tracy Che
+
+Page 3
+
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+signed by
+TANISHA Digitally
+TANISHA L. HITHE -S
+2025.10.10
+L. HITHE -S Date:
+16:39:54 -04'00'
+
+Tanisha Hithe
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical and
+Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+Indications for Use
+Please type in the marketing application/submission number, if it is known. This
+textbox will be left blank for original applications/submissions.
+
+K252209
+
+?
+
+Please provide the device trade name(s).
+
+?
+
+IPL Home Use Hair Removal Device (JD-TM016, JD-TM023, JD-TM027, JD-TM028, JD-TM032)
+Please provide your Indications for Use below.
+
+?
+
+IPL Home Use Hair Removal Device is an over-the-counter device intended for removal of unwanted hair.
+The device is also indicated for the permanent reduction in hair regrowth, defined as the long-term, stable
+reduction in the number of hairs regrowing when measured at 6, 9 and 12 months after the completion of
+a treatment regime.
+
+Please select the types of uses (select one or both, as
+applicable).
+
+IPL Home Use Hair Removal Device
+
+D Prescription Use (Part 21 CFR 801 Subpart D)
+[gJ Over-The-Counter Use (21 CFR 801 Subpart C)
+
+?
+
+Page 9 of49
+
+Foshan Jindi Electric Appliance Co.,Ltd
+
+510(k)s –510(k) Summary
+
+510(k) Summary
+K252209
+"510(k) Summary" as required by 21 CFR Part 807.92.
+I.
+
+Contact details
+Applicant name: Foshan Jindi Electric Appliance Co.,Ltd
+Applicant address: No.13 Baiye Avenue, Xiqiao Science and Technology Industrial Park, Xiqiao Town,
+Nanhai District Foshan Guangdong China
+Post code: 528211
+Applicant contact: Zhaozhi Li
+Position: Legal Person
+Applicant contact phone: +86 18316578883
+Applicant contact Email: renyigea@126.com
+Prepared date: 2025-9-8
+
+II. Device
+Name of Device: IPL Home Use Hair Removal Device
+Model(s): JD-TM016, JD-TM023, JD-TM027, JD-TM028, JD-TM032
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+
+III. Legally Marketed Predicate Device & Reference Device
+Predicate device:
+Manufacturer
+Predicate Device
+510(k) Number
+Shenzhen Ulike Smart IPL Home Use Hair Removal
+K230122
+Electronics Co., Ltd.
+Device
+
+Approval Date
+2023.04.10
+
+Reference devices:
+Manufacturer
+Reference Device
+510(k) Number
+CyDen, Ltd.
+iPulse Hair Removal System K130315
+Shenzhen Ulike Smart Ice Cooling IPL Hair
+K241998
+Electronics Co.,Ltd.
+Removal Device
+
+Approval Date
+2013.07.12
+2024.12.13
+
+IV. Device Description
+Page 1 of 7
+
+Foshan Jindi Electric Appliance Co.,Ltd
+
+510(k)s –510(k) Summary
+
+IPL Home Use Hair Removal Device is an over-the-counter, home-use and personal device for hair
+reduction by using Intense Pulsed Light (IPL). It works below the skin's surface and does not involve any
+cutting or pulling, reducing hair growth with minimal pain.
+IPL Home Use Hair Removal Device includes five models, JD-TM016, JD-TM023, JD-TM027, JDTM028, JD-TM032. The five models adopt identical intended use, similar performance, operation and
+structure, with main differences in appearance, dimensions and weight, and light output parameters.
+Models JD-TM016, JD-TM023 are single pulse devices while models JD-TM027, JD-TM028 and JDTM032 are double pulses devices. The device is only powered by the external power adapter. This device
+adopts sapphire flash outlet that is suitable for multiple hair removal areas.
+The device is fitted with a skin sensor to detect appropriate skin contact, if the flash outlet of the device is
+not in full contact with the skin, the device cannot emit light pulses, and the IPL emission activation is by
+manual finger switch or auto light emission. The device has a cooling function that will be activated
+throughout the whole hair removal process to provide users with a more comfortable experience.
+
+V. Indications for Use
+IPL Home Use Hair Removal Device is indicated for the removal of unwanted hair. The device is also
+indicated for the permanent reduction in hair regrowth, defined as the long-term, stable reduction in the
+number of hairs regrowing when measured at 6, 9 and 12 months after the completion of a treatment
+regime.
+
+VI. Comparison of Technological Characteristics With the Predicate Device
+The IPL Home Use Hair Removal Device has the same intended use, mode of action and similar
+operational characteristics as the predicate device. Any minor differences between the subject device and
+the listed predicate device and reference devices do no raise any issues of safety or efficacy. Performance
+data supports that the device is safe and as effective as the predicate device and reference devices for its
+intended use. Therefore, the IPL Home Use Hair Removal Device may be found substantially equivalent to
+its predicate device and reference devices.
+IPL Home Use Hair Removal Device is compared with the following Predicate Device and Reference
+Devices in terms of intended use, design, material, specifications, and performance:
+
+Page 2 of 7
+
+Foshan Jindi Electric Appliance Co.,Ltd
+
+510(k)s –510(k) Summary
+
+Comparison Elements
+510(k) Number
+Trade name
+Manufacturer
+Model
+Regulation number
+Product code
+Device classification
+
+Indication for use/ Intended use
+
+Prescription or OTC
+
+Subject Device
+
+Predicate Device
+
+Reference Device 1
+
+Reference Device 2
+
+Remark
+
+K252209
+
+K230122
+
+K130315
+
+K241998
+
+/
+
+iPulse Hair Removal
+
+IPL Home Use Hair Removal Device
+
+IPL Home Use Hair
+Removal Device
+
+Ice Cooling IPL Hair
+Removal Device
+
+/
+/
+
+Foshan Jindi Electric Appliance Co.,Ltd
+JDTM016
+
+JDTM02
+3
+21 CFR 878.4810
+OHT
+Class II
+
+JDTM027
+
+JDTM028
+
+JD-TM032
+
+IPL Home Use Hair Removal Device is an over-thecounter device intended for removal of unwanted hair.
+The device is also indicated for the permanent
+reduction in hair regrowth, defined as the long-term,
+stable reduction in the number of hairs regrowing
+when measured at 6, 9 and 12 months after the
+completion of a treatment regime.
+
+OTC
+
+System
+
+Shenzhen Ulike Smart
+Electronics Co.,Ltd.
+
+CyDen, Ltd.
+
+Shenzhen Ulike Smart
+Electronics Co.,Ltd.
+
+UI04 SD, UI04 DG
+
+/
+
+/
+
+21 CFR 878.4810
+OHT
+Class II
+
+21 CFR 878.4810
+OHT
+Class II
+
+IPL Home Use Hair
+Removal
+Device
+is
+indicated for the removal
+of unwanted hair. The
+device is also indicated
+for
+the
+permanent
+reduction
+in
+hair
+regrowth, defined as the
+long-term,
+stable
+reduction in the number
+of hairs regrowing when
+measured at 6, 9 and 12
+months
+after
+the
+completion of a treatment
+regime.
+
+The
+iPulse
+Hair
+Removal System is an
+over-the-counter device
+intended for the removal
+of unwanted hair.
+
+OTC
+
+OTC
+
+21 CFR 878.4810
+OHT
+Class II
+Ice Cooling IPL Hair
+Removal Device with
+sapphire
+treatment
+window is indicated for
+the removal of unwanted
+hair.
+The device is also
+indicated
+for
+the
+permanent reduction in
+hair regrowth, defined as
+the long-term, stable
+reduction in the number
+of hairs regrowing when
+measured at 6, 9 and 12
+months
+after
+the
+completion
+of
+a
+treatment regime.
+OTC
+
+Same
+Same
+Same
+
+Same
+
+Same
+
+Applicable skin
+
+Fitzpatrick skin types I-V
+
+Fitzpatrick skin types I-V
+
+Not publicly available
+
+Fitzpatrick Skin Types IV
+
+Same
+
+Treatment area
+
+Limbs, armpits, back, chest, bikini and small areas
+(e.g.lip)
+
+Large areas (e.g.arms,
+legs, chest) and small
+areas (e.g.lip)
+
+Leg, arm, bikini, and
+underarm
+
+Large areas (e.g.arms,
+legs, chest) and small
+areas (e.g.lip)
+
+Same
+
+Supplied by external
+adapter
+100~240V, 50/60Hz
+
+Supplied by external
+adapter
+100~240V, 50/60Hz
+
+Supplied by external
+adapter
+100~240V, 50/60Hz
+
+Device design
+Energy source
+
+Supplied by external adapter
+
+Power supply
+
+100~240
+
+100~240
+
+100~240
+
+100~240
+
+100~240
+
+Same
+Same
+Page 3 of 7
+
+Foshan Jindi Electric Appliance Co.,Ltd
+
+510(k)s –510(k) Summary
+
+Comparison Elements
+
+Dimension
+Sterilization
+Output specification
+Light source
+Energy medium
+Wavelength range
+
+Energy density
+
+Output energy
+
+Subject Device
+V,
+50/60Hz
+
+V,
+50/60Hz
+
+V,
+50/60Hz
+
+V,
+50/60Hz
+
+V,
+50/60Hz
+
+180*100
+*47mm
+
+179*60*
+36mm
+
+182*60*
+35mm
+
+180*100
+*48mm
+
+170*62*
+37mm
+
+Not required
+Intense Pulsed Light
+Xenon Arc flashlamp
+
+Predicate Device
+
+Reference Device 1
+
+Reference Device 2
+
+Remark
+
+60mm x 38mm x 170mm
+
+Not publicly available
+
+Not publicly available
+
+Different
+
+Not required
+
+Not required
+
+Not required
+
+Same
+
+Intense Pulsed Light
+Xenon Arc flashlamp
+
+Intense Pulsed Light
+Xenon Arc flash lamp
+
+Intense Pulsed Light
+Xenon Arc flash lamp
+
+Same
+Same
+
+530-1100nm
+
+550-1200mm
+
+Similar
+
+7-10J/cm²
+
+1.67~6.67J/cm²
+
+Similar
+
+21~30J
+
+6.5~26J
+
+Similar
+
+3.3cm²
+
+3cm²
+
+3.9cm²
+
+Similar
+
+1.15-6.2ms
+
+Variable - Single pulse
+25milliseconds.
+Double Pulse 20ms on,
+60 ms off.
+
+0.88~3.20ms Multipulse
+
+Similar
+
+Finger switch
+Direct illumination to
+tissue
+Not publicly available
+
+Finger switch
+Direct illumination to
+tissue
+1-10 Levels
+
+Same
+
+Yes
+
+Yes
+
+Same
+
+Not publicly available
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+
+Same
+
+Not publicly available
+
+IEC 62471
+
+Same
+
+550±
+550±
+600±
+550±
+600±
+15~1200 15~1200 15~1200 15~1200 15~1200 560-1200nm
+nm
+nm
+nm
+nm
+nm
+2±
+2±
+2±
+2±
+2±
+0.4~5.5
+0.4~7± 0.4~8± 0.4~8± 0.4~7± 2.4-7.2J/cm2
+±
+1.4J/cm2 1.6J/cm2 1.6J/cm2 1.4J/cm2
+1.1J/cm2
+6±
+6±
+6±
+6±
+6±
+1.2~24
+9.9~19.8J
+1.2~18
+1.2~20
+1.2~24
+1.2~21
+±4.8J
+±3.6J
+±4J
+±4.8J
+±4.2J
+
+Spot size
+
+3.3±
+0.2cm2
+
+3.0±
+0.2cm2
+
+Pulse duration
+
+10ms±
+2ms
+
+10ms±
+2ms
+
+Pulsing control
+
+Finger switch
+
+3.0±
+0.2cm2
+0.2±
+0.04ms10ms±
+2ms
+
+3.3±
+0.2cm2
+0.2±
+0.04ms10ms±
+2ms
+
+3.0±
+0.2cm2
+0.2±
+0.04ms10ms±
+2ms
+
+Delivery device
+
+Direct illumination to tissue
+
+Output intensity level
+Software/
+Firmware/
+Microprocessor Control?
+Additional features
+
+5 levels~9 levels
+
+Finger switch
+Direct illumination
+tissue
+5 levels
+
+Yes
+
+Yes
+
+Electrical safety
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-57
+
+Eye safety
+
+IEC 62471
+
+to
+
+ANSI AAMI ES60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-57
+IEC 60601-2-83
+IEC 62471
+
+Same
+Different
+
+Page 4 of 7
+
+Foshan Jindi Electric Appliance Co.,Ltd
+
+510(k)s –510(k) Summary
+
+Comparison Elements
+
+Biocompatibility
+
+Subject Device
+ISO 10993-5
+ISO 10993-10
+ISO 10993-23
+
+Predicate Device
+
+ISO 10993-5
+ISO 10993-10
+
+Reference Device 1
+
+Not publicly available
+
+Reference Device 2
+ISO 10993-5
+ISO 10993-10
+ISO 10993-23
+
+Remark
+
+Same
+
+Page 5 of 7
+
+Foshan Jindi Electric Appliance Co.,Ltd
+
+510(k)s –510(k) Summary
+
+VII. Non-Clinical Testing
+The following performance data were provided in support of the substantial equivalence determination.
+1) Biocompatibility Testing
+The biocompatibility evaluation for the body-contacting components of the IPL Home Use Hair Removal
+Device was conducted in accordance with the "Use of International Standard ISO 10993-1, 'Biological
+Evaluation of Medical Devices –Part 1: Evaluation and Testing Within a Risk Management Process,
+Document Issued on September 4, 2020", as recognized by FDA. The following testing was performed to,
+and passed, including:
+ ISO 10993-5 Third edition 2009-06-01, Biological Evaluation of Medical Devices - Par t 5: Tests for
+In Vitro Cytotoxicity
+ ISO 10993-10 Fourth edition 2021-11, Biological evaluation of medical devices - Part 10: Tests for
+skin sensitization
+ ISO 10993-23 First edition 2021-01, Biological evaluation of medical devices - Part 23: Tests for
+irritation
+2) Electrical Safety and EMC
+Electrical safety and EMC testing was performed to, and passed, as per the following standards:
+ IEC 60601-1 Edition 3.2 2020-08 CONSOLIDATED VERSION, Medical electrical equipment - Part 1:
+General requirements for basic safety and essential performance
+ IEC 60601-1-2 Edition 4.1 2020-09 CONSOLIDATED VERSION, Medical electrical equipment Part 1-2: General requirements for basic safety and essential performance - Collateral standard:
+electromagnetic compatibility
+ IEC 60601-1-11 Edition 2.1 2020-07 CONSOLIDATED VERSION, Medical Electrical Equipment Part 1: General Requirements for Basic Safety and Essential Performance - Collateral Standard:
+Requirements for Medical Electrical Equipment and Medical Electrical Systems Used in the Home
+Healthcare Environment
+ IEC 60601-2-57 Edition 1.0 2011-01, Medical electrical equipment - Part 2-57: Particular requirements
+for the basic safety and essential performance of non-laser light source equipment intended for therapeutic,
+diagnostic, monitoring and cosmetic/aesthetic use.
+3) Eye Safety
+ IEC 62471 First edition 2006-07, Photobiological safety of lamps and lamp systems
+4) Software Verification and Validation
+
+Software documentation consistent with Basic Documentation level was submitted in this 510(k).
+System validation testing presented in this 510(k) demonstrated that all software requirement
+specifications are met and all software hazards have been mitigated to acceptable risk levels.
+5) Usability
+The product usability has been evaluated and verified according to the following FDA guidance
+ Applying Human Factors and Usability Engineering to Medical Devices, issued on FEBRUARY 2016
+Page 6 of 7
+
+Foshan Jindi Electric Appliance Co.,Ltd
+
+510(k)s –510(k) Summary
+
+VIII.
+
+Conclusions
+
+Based on the above analysis and non-clinical tests performed, it can be concluded that the subject device
+IPL Home Use Hair Removal Device is as safe, as effective, and performs as well as the legally marketed
+predicate device.
+
+Page 7 of 7
+
+

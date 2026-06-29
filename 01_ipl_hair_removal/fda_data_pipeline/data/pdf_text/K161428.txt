@@ -1,0 +1,408 @@
+
+
+DEPARTMENT OF HEALTH & HUMAN SERVICES
+
+Public Health Service
+
+Food and Drug Administration
+10903 New Hampshire Avenue
+Document Control Center - WO66-G609
+Silver Spring, MD 20993-0002
+
+March 23, 2017
+Shen Zhen CosBeauty Co., Ltd.
+Ə Yuchen Che
+Registered Engineer
+Feiying Drug & Medical Consulting Technical Service Group
+Room 3005, Area B, Bldg.1, Southward Ruifeng Business Center,
+Guimiao Road
+Shenzhen, 518000 CN Guangdong
+Re: K161428
+Trade/Device Name: PerfectSmooth
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: January 5, 2017
+Received: January 9, 2017
+Dear Mr. Che:
+We have reviewed your Section 510(k) premarket notification of intent to market the device
+referenced above and have determined the device is substantially equivalent (for the indications
+for use stated in the enclosure) to legally marketed predicate devices marketed in interstate
+commerce prior to May 28, 1976, the enactment date of the Medical Device Amendments, or to
+devices that have been reclassified in accordance with the provisions of the Federal Food, Drug,
+and Cosmetic Act (Act) that do not require approval of a premarket approval application (PMA).
+You may, therefore, market the device, subject to the general controls provisions of the Act. The
+general controls provisions of the Act include requirements for annual registration, listing of
+devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability
+warranties. We remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA),
+it may be subject to additional controls. Existing major regulations affecting your device can be
+found in the Code of Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may
+publish further announcements concerning your device in the Federal Register.
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean
+that FDA has made a determination that your device complies with other requirements of the Act
+or any Federal statutes and regulations administered by other Federal agencies. You must comply
+
+
+
+Page 2 - Yuchen Che
+with all the Act's requirements, including, but not limited to: registration and listing (21 CFR
+Part 807); labeling (21 CFR Part 801; medical device reporting (reporting of medical devicerelated adverse events) (21 CFR 803); good manufacturing practice requirements as set forth in
+the quality systems (QS) regulation (21 CFR Part 820); and if applicable, the electronic product
+radiation control provisions (Sections 531-542 of the Act); 21 CFR 1000-1050.
+If you desire specific advice for your device on our labeling regulation (21 CFR Part 801), please
+contact the Division of Industry and Consumer Education at its toll-free number (800) 638-2041
+or (301) 796-7100 or at its Internet address
+http://www.fda.gov/MedicalDevices/ResourcesforYou/Industry/default.htm. Also, please note
+the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21
+CFR Part 803), please go to
+http://www.fda.gov/MedicalDevices/Safety/ReportaProblem/default.htm for the CDRH's Office
+of Surveillance and Biometrics/Division of Postmarket Surveillance.
+You may obtain other general information on your responsibilities under the Act from the
+Division of Industry and Consumer Education at its toll-free number (800) 638-2041 or (301)
+796-7100 or at its Internet address
+http://www.fda.gov/MedicalDevices/ResourcesforYou/Industry/default.htm.
+Sincerely yours,
+
+Jennifer R.
+Stevenson -S
+
+For Binita S. Ashar, M.D., M.B.A., F.A.C.S.
+Director
+Division of Surgical Devices
+Office of Device Evaluation
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: January 31, 2017
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K161428
+Device Name
+
+PerfectSmooth (Model: CB-014)
+
+Indications for Use (Describe)
+
+The PerfectSmooth is an over-the-counter device intended for removal of unwanted hair such as but not limited to small
+areas such as underarm and facial hair below the chin line and large areas such as legs.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (8/14)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+510(k) Summary
+“510(k) Summary” as required by section 807.92(c).
+(1) Applicant information:
+Applicant:
+
+Shen Zhen CosBeauty Co., Ltd
+UnitA-3F, Qiao De Industrial Park, Tian Liao, Guang Ming District,
+Shenzhen, China
+
+Contact person:
+
+Nicole Hu
+
+Phone number:
+
++86 1831 685 8036
+
+Fax number:
+
++86 755 8629 0505
+
+Email:
+
+lizan@cos-beauty.com
+
+Application date:
+
+2016.05.04
+
+Application reason
+
+New device, for the first time to apply.
+
+(2) Device name:
+Trade name/Model:
+
+PerfectSmooth /CB-014
+
+Common name:
+
+Light Based Over-The-Counter Hair Removal
+
+Regulation name:
+
+Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+
+Regulatory class:
+
+Class II
+
+Regulation number:
+
+21 CFR 878.4810
+
+Product code
+
+OHT
+
+Review panel:
+
+General & Plastic Surgery
+
+(3) Predicate device:
+iPulse SmoothSkin Gold Hair Removal System, cleared Apr. 14, 2016 (K160968)
+
+(4) Description of device:
+The PerfectSmooth is a personal, light-based, hair reduction device intended to be sold
+over-the-counter directly to the end user. The device provides hair reduction using IPL technology.
+And it consists of IPL base unit and AC adapter, and a detachable lamp cap located in the IPL base
+unit which is the source of optical radiation, namely a Xenon flashlamp. The device is power from
+AC adapter via an external power.
+
+(5) Intended use / indications:
+The PerfectSmooth is an over-the-counter device intended for removal of unwanted hair such
+as but not limited to small areas such as underarm and facial hair below the chin line and large areas
+such as legs.
+Page 1 of 3
+
+(6) Performance data:
+Nonclinical, performance and usability testing has been completed on the PerfectSmooth.
+Nonclinical testing included biocompatibility, electrical safety and software testing.
+Biocompatibility test: The body-contacting components of the device (mainly is plastic enclosure)
+were tested according to ISO 10993-1 for skin-contacting biocompatibility:
+
+
+ISO 10993-5:2009/(R) 2014, Biological Evaluation Of Medical Devices -- Part 5: Tests For In
+Vitro Cytotoxicity.
+
+
+
+ISO 10993-10:2010, Biological Evaluation Of Medical Devices - Part 10: Tests For Irritation
+And Skin Sensitization.
+
+Electrical safety:
+
+
+IEC 60601-1 Medical electrical equipment –Part 1: General requirements for basic safety and
+essential performance
+
+
+
+IEC 60601-1-2 Medical electrical equipment –Part 1-2: General requirements for basic safety
+and essential performance –Collateral standard: electromagnetic compatibility
+
+
+
+IEC 60601-2-57 Medical electrical equipment –Part 2-57: Particular requirements for the basic
+safety and essential performance of non-laser source equipment intended for therapeutic,
+diagnostic, monitoring and cosmetic/aesthetic use
+
+Eye safety:
+
+
+IEC 62471 Photobiological safety of lamps and lamp systems
+
+Software verification and validation:
+
+
+Software documentation consistent with moderate level of concern was submitted in this
+510(k). System validation testing presented in this 510(k) demonstrated that all software
+requirement specifications are met and all software hazards have been mitigated to acceptable
+risk levels.
+
+Usability study:
+
+
+Usability testing (OTC Study) was completed in 20 subjects to evaluate device human factors
+and label comprehension.
+In addition to the above, the Performance testing also included appearance, function, package
+
+and reliability testing of the finished product, to in order to the integrity and quality of the device.
+
+(7) Comparison to predicate device
+The PerfectSmooth has the same intended use, mode of action and similar operational
+characteristics as the predicate device. Any minor differences between the targeted device and the
+listed predicate device do not raise any issues of safety or efficacy. Performance data supports that
+the device is as safe and as effective as the predicate device for its intended use. Therefore, the
+PerfectSmooth may be found substantially equivalent to its predicate device.
+Information for predicate device was obtained from publicly available sources, including the
+510(k) Summary and device instruction manual. A technical comparison to the predicate is provided
+
+Page 2 of 3
+
+below.
+/
+
+Targeted device
+Light
+
+Common name
+
+Based
+
+Predicate device
+Over-The-Counter Light
+
+Hair Removal
+
+Based
+
+Over-The-Counter
+
+Hair Removal
+iPulse
+
+SmoothSkin
+
+Gold
+
+Trade name
+
+PerfectSmooth
+
+Energy medium
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Pulse duration
+
+11-13milliseconds
+
+2-10milliseconds
+
+Energy density
+
+4.7 J/
+
+3-6J/
+
+Spot size
+
+4.5
+
+3 (3cm by 1cm)
+
+Delivery device
+
+Direct illumination to tissue
+
+Direct illumination to tissue
+
+Pulsing control
+
+Finger switch
+
+Finger switch
+
+Optical
+
+measurement
+
+Hair
+
+Removal System
+
+removable
+
+Optical Measurement
+
+from base unit
+
+Skin tone sensor
+
+Sensor fixed in base unit and can be
+
+Integral to device.
+Continuous measurement.
+
+moved to treatment part
+
+The iPulse SmoothSkin Gold Hair
+Removal System is indicated for the
+The
+
+PerfectSmooth
+
+is
+
+an removal of unwanted hair. The
+
+over-the-counter device intended iPulse Smoothskin Gold is also
+Indications
+use/Intended use
+
+for
+
+for removal of unwanted hair such indicated
+
+for
+
+the
+
+permanent
+
+as but not limited to small areas reduction in hair regrowth, defined
+such as underarm and facial hair as the long-term, stable reduction in
+below the chin line and large areas the number of hairs regrowing
+such as legs.
+
+when measured at 6, 9 and 12
+months after the completion of a
+treatment regime.
+
+Location for use
+
+OTC
+
+OTC
+
+(8) Conclusion:
+Based on the comparison and analysis, the PerfectSmooth is determined to be Substantially
+Equivalent (SE) to the predicate device.
+
+Page 3 of 3
+
+

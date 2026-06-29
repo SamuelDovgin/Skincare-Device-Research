@@ -1,0 +1,662 @@
+DEPARTMENT OF HEALTH & HUMAN SERVICES
+
+Public Health Service
+
+Food and Drug Administration
+10903 New Hampshire Avenue
+Document Control Center – WO66-G609
+Silver Spring, MD 20993-0002
+
+August 17, 2014
+Wellquest International Incorporated
+Ə0U5REHUW6HLSOH5$&
+Emergo Global Consulting, LLC
+816 Congress Avenue, Suite 1400
+Austin, Texas 78701
+Re: K132518
+Trade/Device Name: NuBrilliance Pulsed Light Hair Removal System
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser surgical instrument for use in general
+and plastic surgery and in dermatology
+Regulatory Class: Class II
+Product Code: ONF
+Dated: July 14, 2014
+Received: July 16, 2014
+Dear Mr. Seiple:
+We have reviewed your Section 510(k) premarket notification of intent to market the device
+referenced above and have determined the device is substantially equivalent (for the indications
+for use stated in the enclosure) to legally marketed predicate devices marketed in interstate
+commerce prior to May 28, 1976, the enactment date of the Medical Device Amendments, or to
+devices that have been reclassified in accordance with the provisions of the Federal Food, Drug,
+and Cosmetic Act (Act) that do not require approval of a premarket approval application (PMA).
+You may, therefore, market the device, subject to the general controls provisions of the Act. The
+general controls provisions of the Act include requirements for annual registration, listing of
+devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability
+warranties. We remind you; however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it
+may be subject to additional controls. Existing major regulations affecting your device can be
+found in the Code of Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may
+publish further announcements concerning your device in the Federal Register.
+Please be advised that FDA’s issuance of a substantial equivalence determination does not mean
+that FDA has made a determination that your device complies with other requirements of the Act
+or any Federal statutes and regulations administered by other Federal agencies. You must
+comply with all the Act’s requirements, including, but not limited to: registration and listing (21
+CFR Part 807); labeling (21 CFR Part 801); medical device reporting (reporting of medical
+
+Page 2 – Mr. Robert Seiple, RAC
+device-related adverse events) (21 CFR 803); good manufacturing practice requirements as set
+forth in the quality systems (QS) regulation (21 CFR Part 820); and if applicable, the electronic
+product radiation control provisions (Sections 531-542 of the Act); 21 CFR 1000-1050.
+If you desire specific advice for your device on our labeling regulation (21 CFR Part 801), please
+contact the Division of Industry and Consumer Education at its toll-free number (800) 638-2041
+or (301) 796-7100 or at its Internet address
+http://www.fda.gov/MedicalDevices/ResourcesforYou/Industry/default.htm. Also, please note
+the regulation entitled, sMisbranding by reference to premarket notifications (21CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21
+CFR Part 803), please go to
+http://www.fda.gov/MedicalDevices/Safety/ReportaProblem/default.htm for the CDRH’s Office
+of Surveillance and Biometrics/Division of Postmarket Surveillance.
+You may obtain other general information on your responsibilities under the Act from the
+Division of Industry and Consumer Education at its toll-free number (800) 638-2041 or (301)
+796-7100 or at its Internet address
+http://www.fda.gov/MedicalDevices/ResourcesforYou/Industry/default.htm.
+Sincerely yours,
+
+David Krause -S
+for
+
+Enclosure
+
+Binita S. Ashar, M.D., M.B.A., F.A.C.S.
+Director
+Division of Surgical Devices
+Office of Device Evaluation
+Center for Devices and
+Radiological Health
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: December 31, 2013
+
+Indications for Use
+
+See PRA Statement on last page.
+
+510(k) Number (if known)
+
+K132518
+Device Name
+
+NuBrilliance Pulsed Light Hair Removal System
+Indications for Use (Describe)
+
+The Wellquest NuBrilliance Pulsed Light Hair Removal system device is an over-the-counter device intended for the removal of
+unwanted hair. The NuBrilliance Pulsed Light Hair Removal System is also intended for permanent reduction in hair regrowth,
+defined as a long-term, stable reduction in the number of hairs regrowing when measured at 6, 9,a nd 12 months after the completion
+of the treatment regimen.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+PLEASE DO NOT WRITE BELOW THIS LINE – CONTINUE ON A SEPARATE PAGE IF NEEDED.
+FOR FDA USE ONLY
+Concurrence of Center for Devices and Radiological Health (CDRH) (Signature)
+
+FORM FDA 3881 (9/13)
+
+Page 1 of 2
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+
+FORM FDA 3881 (9/13)
+
+Page 2 of 2
+
+Wellquest International Ltd.
+Traditional 510(k) Premarket Submission
+NuBrilliance Pulsed Light Hair Removal System
+510(k) Summary
+1. Submission Sponsor
+Wellquest International, Inc.
+230 Fifth Ave. Suite 808
+New York, NY 10001
+USA
+Phone: 212 689 9094
+Fax: 212 213 1599
+Contact: Ms. Yveth Kan
+2. Submission Correspondent
+Emergo Group
+816 Congress Avenue, Suite 1400
+Austin, TX 78701
+Cell Phone: (940) 390.0961
+Office Phone: (512) 327.9997
+Fax: (512) 327.9998
+Contact: Robert Seiple, RAC, Senior Consultant, QA/RA
+Email: project.management@emergogroup.com
+3. Date Prepared
+09 August 2013
+4. Device Identification
+Trade/Proprietary Name: NuBrilliance Pulsed Light Hair Removal System
+Common/Usual Name: Light-based hair removal device
+Classification Name:
+Light-based, over-the-counter hair removal device
+Classification Regulation:
+21CFR 878.4810
+Product Code:
+OHT
+Device Class:
+Class II
+Classification Panel:
+General and Plastic Surgery
+5. Predicate Devices
+Home Skinovations Silk’n Flash N Go Light. K103184
+
+Page 5-1
+
+6. Device Description
+General Information:
+The NuBrilliance Pulsed Light Hair Removal System is a home-use, medical-esthetic
+device for long term Hair Reduction based on Intensive Pulse Light (IPL) technology. The
+NuBrilliance Pulsed Light Hair Removal System works below the skin’s surface and
+therefore does not involve any cutting or pulling, reducing pain and preventing new hair
+growth. The NuBrilliance Pulsed Light Hair Removal System consists of the following
+main components: Base unit and applicator, Base-Applicator cable, and an AC cord.
+The Base Unit comprises the User Interface (display/LEDs, buttons, etc.), the connection
+cable to the Applicator, the power cable to the grid as well as internal parts such
+electronics board/s and mechanical parts (fans, holders, etc.).
+The Applicator is a hand held part used to remove unwanted body hair by applying the
+Nu Brilliance Pulsed Light Hair Removal treatment on areas such underarms, bikini line,
+arms and legs. It comprises a triggering button, a replaceable lamp sub-assembly, an
+optical safety feature as well as internal electro-mechanical parts.
+The replaceable lamp cartridge is located inside the applicator inner body.
+The Base Unit provides the User Interface which includes the following controls:
+•
+Power on/off button
+•
+Energy level selection button ("-" or "+")
+•
+Six energy level lights - lights up green when energy level is determined
+•
+Cartridge lamp – slowly flashes red when the cartridge requires
+replacement
+7. Intended Use
+The Wellquest NuBrilliance Pulsed Light Hair Removal System device is an over-thecounter device intended for the removal of unwanted hair. The NuBrilliance Pulsed
+Light Hair Removal System is also intended for permanent reduction in hair
+regrowth, defined as a long-term, stable reduction in the number of hairs regrowing
+when measured at 6, 9, and 12 months after the completion of treatment regimen.
+8. Substantial Equivalence Discussion
+The following table compares the NuBrilliance Pulsed Light Hair Removal System
+device to the predicate device, Silk’n Flash N Go hair removal device, with respect to
+intended use, technological characteristics and principles of operation, providing
+more detailed information regarding the basis for the determination of substantial
+equivalence.
+
+Page 5-2
+
+Manufacturer
+Trade Name
+510(k) Number
+Product Code
+Regulation
+Number
+Regulation
+Name
+Indications for
+Use
+
+Risk
+Classification
+Principles of
+operation:
+
+Sterile
+Single-Use
+
+Table 5A – Comparison of Characteristics
+Wellquest International, Home Skinovations Ltd
+Inc.
+NuBrilliance Pulsed Light
+Silk’n Flash N Go
+Hair Removal System
+K132518
+K103184
+OHT
+OHT
+21CFR 878.4810
+21CFR 878.4810
+
+NuBrilliance Pulsed
+Light Hair Removal
+System Comparison
+to Predicate
+N/A
+Identical
+Identical
+
+Laser surgical instrument
+for use in general and
+plastic surgery and in
+dermatology1
+The Wellquest
+NuBrilliance Pulsed Light
+Hair Removal System
+device is an over-thecounter device intended
+for the removal of
+unwanted hair. The
+NuBrilliance Pulsed Light
+Hair Removal System is
+also intended for
+permanent reduction in
+hair regrowth, defined as
+a long-term, stable
+reduction in the number
+of hairs regrowing when
+measured at 6, 9, and 12
+months after the
+completion of treatment
+regimen.
+II
+
+Laser surgical instrument
+for use in general and
+plastic surgery and in
+dermatology
+The Silk’n Flash N Go
+device is an over the
+counter device intended
+for the removal of
+unwanted hair. Flash N
+Go is also intended for
+permanent reduction in
+hair regrowth defined as a
+long term, stable
+reduction in hair counts
+following a treatment
+regime.
+
+Identical
+
+II
+
+Identical
+
+LEDs produce light of
+specific wavelengths
+which acts upon the hair
+follicles to retard hair
+growth.
+No
+No
+
+LEDs produce light of
+specific wavelengths
+which acts upon hair
+follicles to retard hair
+growth.
+No
+No
+
+Identical
+
+1
+
+Indications for Use
+for the Wellquest
+device changed at
+the request of the
+Agency. At the
+FDA’s direction, the
+Wellquest
+Indications For Use
+are now more
+explicit than the
+predicate device
+
+Identical
+Identical
+
+Product code OHT is the best fit for these devices. However please note that neither the Wellquest
+NuBrilliance Pulsed Light Hair Removal System device or the Skinovations Silk’n Flash N Go devices utilize
+laser (coherent) light. Both the subject and predicate devices utilize normal light produced by LEDs.
+
+Page 5-3
+
+Manufacturer
+Trade Name
+Shelf Life
+Battery
+Operated
+AC Powered
+Safety Feature:
+close contact
+detectors
+Safety Feature:
+Pigmentation
+Level Detector
+Darkest Skin
+allowed
+Complies with
+ISO 10993
+biocompatibility
+testing
+Electrical Safety
+Testing ISO
+60601 and other
+relevant
+standards
+Conditions of
+Use
+Optical aperture
+
+Wellquest International,
+Inc.
+NuBrilliance Pulsed Light
+Hair Removal System
+Yes
+No
+
+Home Skinovations Ltd
+
+Yes – 110-240VAC, 50-60
+Hz
+Yes
+
+Yes – 110-240VAC, 50-60
+Hz
+Yes - optical
+
+Identical
+
+Yes
+
+Yes – optical – does not
+allow activation on dark
+skin
+Fitzpatrick 4
+
+Identical
+
+Yes
+
+Presumed, not mentioned
+in 510(k)
+
+Assumed equivalent
+
+Testing passed
+
+Presumed, not mentioned
+in 510(k)
+
+Assumed equivalent
+
+Fitzpatrick 4
+
+Silk’n Flash N Go
+Yes
+No
+
+OTC product for in-home OTC product for in-home
+use
+use
+BASIC PERFORMANCE COMPARISON
+2
+7 cm
+6 cm2
+
+Page 5-4
+
+NuBrilliance Pulsed
+Light Hair Removal
+System Comparison
+to Predicate
+Identical
+Identical
+
+Identical
+
+Identical
+
+Identical
+Essentially identical.
+Marketing
+considerations lead
+to the selection of a
+larger optical
+aperture in order to
+treat a slightly larger
+area per pulse.
+Since the energy
+flux and the emitted
+spectrum are
+identical, this larger
+treatment area
+raises no safety
+concerns.
+
+Manufacturer
+
+Wellquest International,
+Inc.
+NuBrilliance Pulsed Light
+Hair Removal System
+475 nm
+5 joules/cm2
+6 levels
+
+Home Skinovations Ltd
+
+Single pulse
+duration
+Interval
+between pulses
+
+4-5mSec
+
+4-5mSec
+
+~ 3 Sec
+
+~ 3.5 Sec
+
+Power Supply
+Safety Features
+– - Optical Close
+contact detector
+Pigmentation
+Level Detector
+Darkest Skin
+allowed
+
+110-240 VAC, 50-60 Hz
+Yes
+
+110-240 VAC, 50-60 Hz
+Yes
+
+Optical – does not allow
+activation on dark skin
+Fitzpatrick 4
+
+Optical – does not allow
+activation on dark skin
+Fitzpatrick 4
+
+Trade Name
+Spectral Filter
+Emitted Energy
+User-selectable
+energy levels
+
+Silk’n Flash N Go
+475 nm
+5 joules/cm2
+5 levels
+
+Page 5-5
+
+NuBrilliance Pulsed
+Light Hair Removal
+System Comparison
+to Predicate
+Identical
+Identical
+Similar – no impact
+to safety or efficacy.
+Marketing
+considerations lead
+to the
+implementation of
+one more energy
+level for user
+comfort. Since the
+emitted energy flux
+and the spectrum
+are identical, this
+additional level
+raises no safety
+concerns.
+Identical
+Essentially identical.
+Improved
+electronics lead to a
+slightly shorter time
+between pulses for
+further user
+comfort. Since the
+energy flux and the
+spectrum are
+identical, the 0.5 sec
+difference in the
+interval between
+pulses raises no
+safety concerns.
+Identical
+Identical
+Identical
+Identical
+
+9. Non-Clinical Performance Data
+The following are listed as “Recognized Consensus Standards” for Product Code
+OHT:
+• ANSI/IESNA RP27.2-2000 Recommended Practice for Photobiological Safety for
+Lamps and Lamp Systems – Measurement Techniques
+• ANSI/IESNA RP-27.3-2007 Recommended Practice for Photobiological Safety for
+Lamps – Risk Group Classification and Labeling
+• IEC 62471 First edition 2006-2007 Photobiological safety of lamps and lamp
+systems
+• ANSI/IESNA RP 27.1-2005 Recommended Practice for Photobiological Safety for
+Lamps and Lamp Systems General Requirements
+Testing performed to address the performance of the NuBrilliance Pulsed Light Hair
+Removal System and support substantial equivalence include:
+Electrical & Electronic Safety:
+• ISO 60601-1:2010, 3rd edition – Medical Electrical Equipment – Part 1: General
+Requirements for Safety. All requirements were met . Testing included EN
+61000 – various parts: Generic Standards, emission standards for residential,
+commercial and light industrial environments: immunity for residential,
+commercial and light industrial environments, Testing and Measurement
+Techniques; Radiated radio frequency electromagnetic yield immunity tests,
+electrical fast transient burst immunity test, surge immunity tests. Voltage drops,
+short interruptions, voltage variations immunity tests. All requirements were
+met.
+• ISO 60601-1-2, Edition 3, 2007. Medical Electrical Equipment - Part 1-2: General
+Requirements for Safety- Collateral standard: Electromagnetic Compatibility –
+Requirements. Al requirements were met.
+• FCC title 47 and ANSI C63.4-2003. American National Standards for Methods
+and Measurements of Radio – Noise emissions from low voltage electrical and
+electronic equipment in the range from 9kHz to 4kHz. All requirements were
+met.
+• IEC 62471 First edition 2006-2007 Photobiological safety of lamps and lamp
+systems All requirements were met.
+Biocompatibility
+• ISO 10993-1:2009 Biological evaluation of medical devices – Part 1, Evaluation
+and testing.
+• ISO 10993-5:2009 Biological evaluation of medical devices – Part 5 – Tests for in
+vitro cytotoxicity.
+• ISO 10993-10:2010 Biological evaluation of medical devices – Part 10 – Tests for
+irritation and skin sensitization.
+
+Page 5-6
+
+According to ISO 10993-1:2009 with respect to the applied part for superficial (skin
+surface device) treatment with contact duration of less than 24h (in fact, the contact
+duration is of a few seconds or less for each pulse) the NuBrilliance Pulsed Light Hair
+Removal System should comply with Cytotoxicity, Sensitization and Irritation tests
+according to ISO 10993-5:2009 and ISO 10993-10:2009.
+The NuBrilliance Pulsed Light Hair Removal System is a device for permanent reduction
+of hair growth which comes into direct body skin contact through the optical filter. The
+applied optical filter/colored glass has been commercially available in different IPL
+devices with similar properties for several years.
+The current optical filter/color glass successfully passed the supplier’s cytotoxicity test
+according to ISO 10993-5:2009 (See RD-10044 "IPL Study Protocol- Cytotoxicity Test for
+IPL Filter", RD-10045 "IPL Cytotoxicity Test for IPL Filter") by examining for cytotoxic
+effect on L-929 fibroblast cells and showed no cytotoxic effect. The Irritation test was
+conducted according to ISO 10933-10:2010 on New Zealand white rabbits’ skin in order
+to assess the skin irritation. According to this test the NuBrilliance Pulsed Light Hair
+Removal System optical filter was classified as "non-irritant". The Sensitization test was
+conducted according to ISO 10993-10:2010 to evaluate the allergenic potential or
+sensitizing capacity of the NuBrilliance Pulsed Light Hair Removal System filter on guinea
+pigs. The results indicated that the test group did not show any hypersensitivity
+response.
+Usability Testing:
+Usability testing was conducted to assure that the user could follow the directions
+provided to safely use the device in accordance with the information provided. Twenty
+subjects were enrolled in the Usability Study and were provided the User Manual and
+instructed to read it carefully. No guidance was provided. Subjects were then
+introduced to task scenarios simulating the use of the device for independent treatment
+simulations under the investigators observation.
+The results clearly indicate that the User Manual for the NuBrilliance device provides
+adequate guidance for independent home use hair reduction treatment and the
+NuBrilliance device is easy to learn and manipulate and is appropriate for home use
+treatment.
+Summary
+As part of demonstrating safety and effectiveness of the Wellquest NuBrilliance Pulsed
+Light Hair Removal System device and in showing substantial equivalence to the
+predicate devices that are subject to this 510(k) submission. Wellquest completed a
+number of tests test as listed above. The Wellquest NuBrilliance Pulsed Light Hair
+Removal System device meets all the requirements for overall design, biocompatibility,
+and electrical safety which confirm that the output meets the design inputs and
+specifications. The Device passed all testing stated above as shown by the acceptable
+results obtained.
+Page 5-7
+
+10. Clinical Testing
+There was no clinical testing required to support the medical device as the
+indications for use is equivalent to the predicate device. These types of devices,
+including the predicate devices, have been on the market for many years with a
+proven safety and efficacy for the use of the device. The non-clinical testing detailed
+in this submission supports the substantial equivalence of the device.
+11. Statement of Substantial Equivalence
+By definition, a device is substantially equivalent to a predicate device when the
+device has the same intended use and the same technological characteristics as the
+previously cleared predicate device.
+It has been shown in this 510(k) submission that the differences between the
+NuBrilliance Pulsed Light Hair Removal System and the predicate device do not raise
+any questions regarding its safety and effectiveness. The NuBrilliance Pulsed Light
+Hair Removal System device, as designed and manufactured, is determined to be
+substantially equivalent to the referenced predicate device.
+
+Page 5-8
+
+

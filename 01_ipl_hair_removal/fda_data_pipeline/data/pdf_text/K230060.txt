@@ -1,0 +1,316 @@
+March 3, 2023
+Shenzhen GSD Tech Co., Ltd.
+Huifang Yao
+Regulatory Engineer
+Building A, JUNSD Hi-Tech Park, West of Bao’An RD.
+Watch & Clock Base, Guangming District
+Shenzhen, Guangdong 518106
+China
+Re: K230060
+Trade/Device Name: Light Based Hair Removal Device GP592
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT,
+Dated: January 9, 2023
+Received: January 9, 2023
+Dear Huifang Yao:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.05.02
+
+K230060 - Huifang Yao
+
+Page 2
+
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Jianting Wang -S
+Jianting Wang
+Acting Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2023
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K230060
+
+Device Name
+
+Light Based Hair Removal Device GP592
+
+Indications for Use (Describe)
+
+Light based hair removal device is an over-the-counter device intended for removal of unwanted hair such as but not
+limited to small areas such as underarm and facial hair below the chin line and large areas such as legs, excluding patients
+with Fitzpatrick Skin Phototypes VI.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (6/20)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+Shenzhen GSD Tech Co., Ltd
+Premarket Notification 510(k) – Light Based Hair Removal Device GP592
+
+Section 005
+
+510(k) Summary
+Date Prepared: 2023-01-09
+This 510(k) Summary is being submitted in accordance with requirements of Title 21
+CFR Section 807.92.
+1. Submitter information
+Shenzhen GSD Tech Co., Ltd
+Add.: Building A, JUNSD Hi-Tech Park, West of Bao’An RD. Watch & Clock
+Base, Guangming District, Shenzhen, China 518106
+Establishment Registration Number: 3006580954
+Contact Person: Huifang Yao
+Position: Regulatory Engineer
+Phone: +86 15018526594
+E-mail: zoe.yao190322@qq.com.com
+2. Device information
+Device name: Light Based Hair Removal Device GP592
+Trade name: Light Based Hair Removal Device
+Model number: GP592
+Regulation number: 21CFR 878.4810
+Regulation name: Light Based Over-The-Counter Hair Removal
+Regulatory class: II
+Panel: General & Plastic Surgery
+Product code: OHT
+3. Predicate device information
+510(k) Number: K180383
+Device Name: Light Based Hair Removal Device
+Manufacturer: Shenzhen GSD Tech Co., Ltd.
+4. Device description
+The Light Based Hair Removal Device is a personal, light-based, hair reduction
+device intended to be sold over-the counter directly to the end user. The device
+provides hair reduction using IPL technology. The device consists of IPL main
+body and adapter two parts, and a lamp cap located in the main body which is the
+source of optical radiation, namely a Xenon flashlamp. Meanwhile, the device is
+powered from adapter via an external power.
+5. Intended use
+The Light based hair removal device is an over-the-counter device intended for
+removal of unwanted hair such as but not limited to small areas such as underarm
+1/3
+
+Shenzhen GSD Tech Co., Ltd
+Premarket Notification 510(k) – Light Based Hair Removal Device GP592
+
+Section 005
+
+and facial hair below the chin line and large areas such as legs, excluding patients
+with Fitzpatrick Skin Phototypes VI.
+6. Technological characteristics and substantial equivalence:
+Description
+510 (k) number
+Common name
+
+Subject device
+
+Predicate device
+
+Trade name/model
+No.
+Energy medium
+Pulse duration
+
+Pending
+Light Based Over-The-Counter Hair
+Removal
+Light Based Hair Removal Device
+Model: GP592
+Xenon Arc Flashlamp
+1~3milliseconds
+
+K180383
+Light Based Over-The-Counter Hair
+Removal
+Light Based Hair Removal Device
+Model: GP586
+Xenon Arc Flashlamp
+2~3milliseconds
+
+Energy density
+
+4.93J/cm2 Max.
+
+4.2J/cm2 Max.
+
+Spot size
+Delivery device
+
+1.05cm*2.95cm (3.1cm2)
+Direct illumination to tissue
+
+1.05cm*2.95cm (3.1cm2)
+Direct illumination to tissue
+
+Pulsing control
+Finger switch
+Indication
+for Light based hair removal device is an
+use/Intended use
+over-the-counter device intended for
+removal of unwanted hair such as but
+not limited to small areas such as
+underarm and facial hair below the
+chin line and large areas such as legs,
+excluding patients with Fitzpatrick
+Skin Phototypes VI.
+Location for use
+OTC
+
+/
+Same
+/
+Same
+Similar
+Note 1
+Similar
+Note 1
+Same
+Same
+
+Finger switch
+Same
+Light based hair removal device is an Same
+over-the-counter device intended for
+removal of unwanted hair such as but
+not limited to small areas such as
+underarm and facial hair below the
+chin line and large areas such as legs,
+excluding patients with Fitzpatrick
+Skin Phototypes VI.
+OTC
+Same
+
+Note 1: Though the pulse duration and energy density are little different from the
+predicate device, they comply with the requirements of safety and
+performance related standards, and the differences are not likely to raise
+different questions of safety or effectiveness issue or adversely affect patient
+safety.
+7. Nonclinical tests submitted
+ Safety test
+IEC 60601-1: 2005+A1: 2012+A2:2020
+Medical electrical equipment - Part1: General requirements for basic safety and
+essential performance
+IEC 60601-1-11: 2015
+Medical electrical equipment - Part 1-11: General requirements for basic safety
+and essential performance - Collateral Standard: Requirements for medical
+electrical equipment and medical electrical systems used in the home healthcare
+2/3
+
+Remark
+
+Shenzhen GSD Tech Co., Ltd
+Premarket Notification 510(k) – Light Based Hair Removal Device GP592
+
+Section 005
+
+environment
+ EMC test
+IEC 60601-1-2: 2020
+Medical electrical equipment - Part 1-2: General requirements for basic safety and
+essential performance - Collateral standard: Electromagnetic disturbancesRequirements and tests
+ Reliability test
+IEC 62471: 2006
+Photobiological safety of lamps and lamp systems
+IEC 60601-2-83: 2019
+Medical electrical equipment - Part 2-83: General requirements for basic safety
+and essential performance of home light therapy equipment
+ Biocompatibility test
+ISO 10993-5: 2009
+Biological evaluation of medical devices - Part 5: Tests for in vitro cytotoxicity
+ISO 10993-10: 2021
+Biological evaluation of medical devices – Part 10: Tests for skin sensitization
+ISO 10993-23：2021
+Biological evaluation of medical device — Part 23: Tests for skin irritation
+None of the tests demonstrated any design characteristics that may
+adversely affect patient safety. It is our conclusion that the subject device
+tested met all relevant requirements of the aforementioned tests.
+
+8. Conclusion
+The subject devices have the same intended use and same technological
+characteristics as the predicate device. Moreover the differences between the
+subject and predicate don’t raise different questions of safety or effectiveness.
+Thus, the subject device is substantially equivalent to the Predicate Device.
+
+3/3
+
+

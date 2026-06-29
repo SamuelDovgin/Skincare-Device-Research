@@ -1,0 +1,251 @@
+
+DEPARTMENT OF HEALTH & HUMAN SERVICES
+
+Public Health Service
+
+Food and Drug Administration
+10903 New Hampshire Avenue
+Document Control Center - WO66-G609
+Silver Spring, MD 20993-0002
+
+July 8, 2016
+El Global Trade Ltd
+Yael Liebes-Peer
+RA/ QA Manager
+8 Tzoran St,
+P.O. Box 8242
+Netanya, 4250604 IL
+Re: K161089
+Trade/Device Name: Sensilight Mini
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And
+In Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: June 1, 2016
+Received: June 6, 2016
+Dear Yael Liebes-Peer:
+We have reviewed your Section 510(k) premarket notification of intent to market the device
+referenced above and have determined the device is substantially equivalent (for the indications
+for use stated in the enclosure) to legally marketed predicate devices marketed in interstate
+commerce prior to May 28, 1976, the enactment date of the Medical Device Amendments, or to
+devices that have been reclassified in accordance with the provisions of the Federal Food, Drug,
+and Cosmetic Act (Act) that do not require approval of a premarket approval application (PMA).
+You may, therefore, market the device, subject to the general controls provisions of the Act. The
+general controls provisions of the Act include requirements for annual registration, listing of
+devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability
+warranties. We remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA),
+it may be subject to additional controls. Existing major regulations affecting your device can be
+found in the Code of Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may
+publish further announcements concerning your device in the Federal Register.
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean
+that FDA has made a determination that your device complies with other requirements of the Act
+or any Federal statutes and regulations administered by other Federal agencies. You must comply
+with all the Act's requirements, including, but not limited to: registration and listing (21 CFR
+
+
+Page 2 - Yael Liebes-Peer
+Part 807); labeling (21 CFR Part 801); medical device reporting (reporting of medical devicerelated adverse events) (21 CFR 803); good manufacturing practice requirements as set forth in
+the quality systems (QS) regulation (21 CFR Part 820); and if applicable, the electronic product
+radiation control provisions (Sections 531-542 of the Act); 21 CFR 1000-1050.
+If you desire specific advice for your device on our labeling regulation (21 CFR Part 801), please
+contact the Division of Industry and Consumer Education at its toll-free number (800) 638-2041
+or (301) 796-7100 or at its Internet address
+http://www.fda.gov/MedicalDevices/ResourcesforYou/Industry/default.htm. Also, please note
+the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21
+CFR Part 803), please go to
+http://www.fda.gov/MedicalDevices/Safety/ReportaProblem/default.htm for the CDRH's Office
+of Surveillance and Biometrics/Division of Postmarket Surveillance.
+You may obtain other general information on your responsibilities under the Act from the
+Division of Industry and Consumer Education at its toll-free number (800) 638-2041 or (301)
+796-7100 or at its Internet address
+http://www.fda.gov/MedicalDevices/ResourcesforYou/Industry/default.htm.
+Sincerely yours,
+
+Jennifer R. Stevenson -A
+For Binita S. Ashar, M.D., M.B.A., F.A.C.S.
+Director
+Division of Surgical Devices
+Office of Device Evaluation
+Center for Devices and Radiological Health
+Enclosure
+
+K161089
+
+sensiLight Mini
+
+The sensiLight Mini is an over the counter device intended for the removal of unwanted hair.
+The sensiLight Mini is also intended for permanent reduction in hair regrowth, defined as a long-term,
+stable reduction in the number of hairs re-growing when measured at 6, 9, and 12 months after the
+completion of treatment regimen.
+
+th
+
+Tzoran 8 St, P.O.Box 8242, Netanya 4250608, Israel
+Tel: +972-9-7889069
+Fax: +972-9-7734831
+
+EL Global Trade Ltd
+
+sensiLight Mini – K161089 amendment
+
+RD-17063 A0
+
+510(K) SUMMARY FOR EL GLOBAL TRADE LTD.'S SENSILIGHT MINI
+DATE PREPARED: MAY 19TH, 2016
+1.
+
+510(K) OWNER NAME
+EL Global Trade Ltd.
+Tzoran 8th st, P.O.Box 8242, Netanya 425068, Israel.
+Phone: +972-9-7889069, Fax: +972-9-7734831.
+Contact person name: Dr. Yael Liebes-Peer, RA/ QA Manager
+Phone: +972-9-7889069, Fax: +972-9-7734831, E mail: Yael@sensica.com
+
+2.
+
+DEVICE NAME
+Common/Usual Name: Light based hair removal deices
+Proprietary/Trade name: sensiLight Mini
+Classification: EL Global Trade Ltd.'s sensiLight Mini device has been classified
+as Class II device under the following classification names:
+
+3.
+
+Classification Name
+
+Product
+Code
+
+Regulation
+Number
+
+Panel
+
+Light Based Over-TheCounter Hair Removal
+
+OHT
+
+878.4810
+
+General and Plastic
+Surgery
+
+PREDICATE DEVICES
+EL Global Trade Ltd.'s sensiLight Mini device is substantially equivalent to the
+following Predicate Devices:
+3.1 EL Global Trade Ltd.'s sensiLight Mini device,
+cleared under 510(k) number K140527 at June 19th, 2014.
+3.2 Home Skinovations Ltd.'s Silk'n Glide device,
+cleared under 510(k) number K141242 at May 8th, 2014.
+
+EL Global Trade Ltd. 510(k)
+sensiLight Mini
+
+May 19th, 2016
+5-2
+
+CONFIDENTIAL
+
+th
+
+Tzoran 8 St, P.O.Box 8242, Netanya 4250608, Israel
+Tel: +972-9-7889069
+Fax: +972-9-7734831
+
+EL Global Trade Ltd
+
+sensiLight Mini – K161089 amendment
+4.
+
+RD-17063 A0
+
+DEVICE DESCRIPTION
+The sensiLight Mini device is a pulsed light hair removal device. Light-based hair
+removal is based on the theory of selective photothermolysis in which optical
+energy is used to disable hair growth. The sensiLight Mini device is composed of
+a hand held applicator and an external power supply. The spot size (treatment
+area) in the sensiLight Mini device is 3 cm2.
+The device contains a lamp, a skin proximity sensor and a skin pigmentation
+sensor to detect appropriate skin tones. If the sensiLight Mini is not properly
+applied (in full contact with the skin) or user skin tone is too dark/tanned, the
+sensiLight Mini will not trigger a pulse.
+
+5.
+
+INTENDED USE/ INDICATIONS FOR USE
+The sensiLight Mini is an over the counter device intended for the removal of
+unwanted hair. The sensiLight Mini is also intended for permanent reduction in
+hair regrowth, defined as a long-term, stable reduction in the number of hairs regrowing when measured at 6, 9, and 12 months after the completion of treatment
+regimen.
+
+6.
+
+PERFORMANCE DATA
+The sensiLight Mini device is identical in all details to the sensiLight Mini device
+cleared under K140527. No new performance data is reported in this submission.
+
+7.
+
+NON-CLINICAL (BENCH) PERFORMANCE DATA
+The sensiLight Mini device is identical in all details to the sensiLight Mini device
+cleared under K140527. No new non-clinical performance data is reported in this
+submission.
+
+EL Global Trade Ltd. 510(k)
+sensiLight Mini
+
+May 19th, 2016
+5-3
+
+CONFIDENTIAL
+
+th
+
+EL Global Trade Ltd
+
+Tzoran 8 St, P.O.Box 8242, Netanya 4250608, Israel
+Tel: +972-9-7889069
+Fax: +972-9-7734831
+
+sensiLight Mini – K161089 amendment
+8.
+
+RD-17063 A0
+
+CLINICAL PERFORMANCE DATA
+No new clinical performance data is reported in this submission.
+
+9.
+
+SUBSTANTIAL EQUIVALENCE
+EL Global Trade Ltd.'s sensiLight Mini is identical to the to the sensiLight Mini
+device previously cleared under K140527. The indications for use and
+technological characteristics of the sensiLight Mini device are substantially
+equivalent to the indications for use and technological characteristics of the
+previously cleared sensiLight Mini device (K140527) and Glide device
+(K141242).
+Consequently, it can be concluded that the sensiLight Mini device is substantially
+equivalent to the Predicate sensiLight Mini and Glide devices, cleared under
+510(k) K140527 and K141242, and therefore, may be legally marketed in the
+USA.
+
+10.
+
+CONCLUSIONS
+Based on the performance testing and comparison to predicate devices, the
+sensiLight Mini device is substantially equivalent to the previously cleared
+sensiLight Mini and Glide predicate devices.
+
+EL Global Trade Ltd. 510(k)
+sensiLight Mini
+
+May 19th, 2016
+5-4
+
+CONFIDENTIAL
+
+

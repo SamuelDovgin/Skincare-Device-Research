@@ -1,0 +1,469 @@
+October 7, 2021
+
+Guangzhou Haoxingwan Technology Co., Ltd.
+℅ Iris Wang
+Consultant
+Shenzhen Joyantech Consulting Co.,Ltd.
+1713A, Block A, Zhongguan Times Square, Liuxian Avenue,
+Xil Town
+Shenzhen, Guangdong 518000
+China
+Re: K210376
+Trade/Device Name: Superior Hair Remover
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: August 21, 2021
+Received: August 27, 2021
+Dear Iris Wang:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.04.28
+
+K210376 - Iris Wang
+
+Page 2
+
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Purva U. Pandya -S
+Purva Pandya
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+510(k) Summary
+K210376
+This summary of 510(K) safety and effectiveness information is submitted As Required by
+requirements of SMDA and 21 CFR §807.92.
+
+1. Administrative Information
+Submission Date
+Manufacturer
+
+February04, 2021
+Guangzhou Haoxingwan Technology Co., Ltd.
+Address:
+Room 718, No.9, Linhe West Road, Tianhe District,
+Guangzhou, Guangdong, 510000, China.
+Contact person: Mr. Chun Tao
+TEL: +86-18929315726
+E-Mail: taoc@myusmile.com
+
+Submission
+Correspondent
+
+Shenzhen Joyantech Consulting Co., Ltd.
+1713A, 17th Floor, Block A, Zhongguan Times Square, Liuxian
+Avenue, Xili Town, Nanshan District, Shenzhen, Guangdong
+Province, China.
+Contact person: Mr. Field Fu; Ms. Iris Wang;
+E-Mail: iris@cefda.com; field@cefda.com
+
+Establishment
+
+3015527463
+
+registration number
+
+2. Device Information
+Type of 510(K):
+
+Traditional
+
+Submission:
+Device Name:
+Model:
+Classification Name:
+
+Superior Hair Remover
+T31, T61
+Light Based Over-The-Counter Hair Removal
+
+Review Panel:
+
+General & Plastic Surgery
+
+Device Class:
+
+2
+Page 1 of 6
+
+Regulation Number:
+Product Code:
+
+878.4810
+OHT
+
+3. Predicate Device
+Manufacturer:
+
+Shenzhen Bosidin Technology Co. Ltd.
+
+Device Name:
+
+IPL Home Use Hair Removal Device
+
+Model:
+
+D-1128, D-1103, D-1119, D-1129, D-1130
+
+510(k) Number:
+
+K192432
+
+Product Code:
+
+OHT
+
+4. Device Description
+The Superior Hair Remover, an over-the-counter device, is a home-use device for the removal of
+unwanted hair from body parts. The device provides hair reduction using Intense Pulse Light(IPL)
+technology. It works below the skin's surface and does not involve any cutting or pulling, reducing
+hair growth with minimal pain. The device can detect appropriate skin contact. If the device is not
+properly applied to the treatment area (in full contact with the skin), the device cannot emit the
+treatment light pulses. The device can flash for 300,000 times.
+The device is composed of a hand-held handle, a main unit, an external power cord, and eye
+protector, two attachable flash heads. It is used AC Powered (100-240V AC, 50/60Hz).
+The Superior Hair Remover includes T31 and T61 two models. Their indications for use, working
+principle, mode of action, operating mode, over-temperature protection function, structure design,
+button function, skin contact detection function, treatment area, spot size and operation are basically
+identical, with the minor differences contains product appearance, control buttons on touch panel,
+light intensity levels.
+
+5. Intended Use/ Indications for Use
+The Superior Hair Remover is an over the-counter device intended for removal of unwanted body
+and/or facial hair.
+
+6. Comparison with Predicate Device
+Page 2 of 6
+
+The subject device The Superior Hair Remover, Model: T31, T61 is substantially equivalent to the
+predicate device(K192432). This conclusion is based upon comparison on intended use,
+technological characteristics, materials and applicable safety standards. The difference between the
+subject device and predicate device do not raise any issues on the device safety and effectiveness.
+The detailed device comparison information is described in VOL_012.
+Items
+
+Subject Device
+
+Device Name
+
+Superior
+
+and Model
+
+Model: T31, T61
+
+Hair
+
+Remover,
+
+Predicate Device (K192432)
+
+Comparison
+
+IPL Home Use Hair Removal
+
+N/A
+
+Device,
+Model(s): D-1128, D-1103,
+D-1119, D-1129, D-1130
+
+Product code
+
+OHT
+
+OHT
+
+SE
+
+Regulation
+
+878.4810
+
+878.4810
+
+SE
+
+Device class
+
+2
+
+2
+
+SE
+
+Location for use
+
+OTC
+
+OTC
+
+SE
+
+Intended Use
+
+The Superior Hair Remover
+
+IPL Home Use Hair Removal
+
+SE
+
+is an over the-counter
+
+Device is an over-the-counter
+
+device intended for removal
+
+device intended for removal
+
+of unwanted body and/or
+
+of unwanted body and/or
+
+facial hair.
+
+facial hair.
+
+AC mains
+
+Powered by external power
+
+Different
+
+adapter
+
+Note 1
+
+number
+
+Source Energy
+
+Device Type
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+SE
+
+Energy medium
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+SE
+
+Wavelength (nm)
+
+510nm~1100nm
+
+Regular window:
+
+SE
+
+510nm~1100nm
+Filter window: 6001100nm
+Energy
+
+density
+
+2
+
+(J/cm )
+
+3.1~5.0 J/cm
+
+2
+
+(applicable for model T31)
+2.6~5.1 J/cm
+
+2
+
+2.0~4.0J/cm²
+
+Different
+
+(applicable for model D-1128,
+
+Note 2
+
+D-1119, D-1129, D-1130)
+
+(applicable for model T61)
+
+2.5~4.5J/cm²
+(applicable for model D-1103)
+
+Spot Size (cm2)
+
+Standard flash head:
+
+Regular window:
+
+Different
+
+3.6cm²,
+
+4.5cm², 2.0cm², 3.0cm²
+
+Note 3
+
+Attachable flash heads:
+
+Filter window: 2.5cm²
+
+2cm², 1cm²
+Page 3 of 6
+
+Pulse duration
+
+11milliseconds
+
+7.5~14milliseconds
+
+SE
+
+Pulsing Control
+
+Finger switch
+
+Finger switch
+
+SE
+
+Delivery device
+
+Direct illumination
+
+Direct illumination
+
+SE
+
+to tissue
+
+to tissue
+
+Discussion of Comparable Items:
+1) Note1:
+“Source Energy” is a little different between subject device and predicate device, but the subject
+device comply with IEC 60601-1 requirements. So the differences will not raise new safety or
+effectiveness issue.
+2) Note2:
+The maximum energy density of subject device is minor different from predicate device.
+But the subject device complies with IEC 60601-1, IEC60601-2-57 requirements. So the differences
+of function specification will not raise new safety or effectiveness issue.
+
+3) Note3:
+Although it is a little different between subject device and predicate device, the spot size of device
+only affects the treatment target skin area per each pulse flashing, and the light density of different
+spot size is also in the range of energy density declared by subject device. And the subject device
+complies with IEC60601-1, IEC60601-2-57 requirement.
+Therefore, the differences of spot size will not raise new safety or effectiveness issue.
+
+7. Non-Clinical Test Summary
+7.1. Electromagnetic Compatibility and Electrical Safety Test
+The subject device has been tested in compliance with the following standards:
+1) AAMI/IEC 60601-1:2005+AMD 1: 2012 Medical electrical equipment - Part 1: General
+requirements for basic safety and essential performance
+2) IEC 60601-1-2:2014 Medical electrical equipment - Part 1-2: General requirements for
+basic safety and essential performance - Collateral Standard: Electromagnetic
+disturbances - Requirements and tests
+3) IEC 60601-1-11:2015 Medical electrical equipment - Part 1-11: General requirements for
+basic safety and essential performance - Collateral Standard: Requirements for medical
+electrical equipment and medical electrical systems used in the home healthcare
+environment
+4) IEC 62471: 2006 Photobiological safety of lamps and lamp systems
+Page 4 of 6
+
+5) IEC 60601-2-57:2011 Medical Electrical Equipment - Part 2-57: Particular requirements for the
+basic safety and essential performance of non-laser light source equipment intended for therapeutic,
+diagnostic, monitoring and cosmetic/aesthetic use
+
+7.2. Biocompatibility Test
+The subject device has been tested in compliance with the following standards:
+1) ISO 10993-5:2009 Biological evaluation of medical devices - Part 5: Tests for in vitro
+cytotoxicity
+2) ISO 10993-10:2010 Biological evaluation of medical devices - Part 10: Tests for irritation
+and skin sensitization
+
+7.3. Performance Test-Bench
+Nonclinical, performance testing has been completed on the subject device.
+
+7.4. Software Verification
+The software documentation of the subject device was provided in accordance with FDA guidance
+document “Guidance for the Content of Premarket Submissions for Software Contained in Medical
+Devices” issued May 11, 2005.
+
+7.5. Usability study
+Usability testing was completed in 60 subjects to evaluate device human factors and labeling
+comprehension.
+A Human Factors Usability study was conducted using 60 participants to demonstrate the
+participants were capable of reading the instructions for use and labeling, and were then able to use
+the Superior Hair Remover correctly. The Usability study of Superior Hair Remover was conducted
+to ensure that the device user interface has been designed such that use errors that occur during
+use of the device that could cause harm or degrade medical treatment are either eliminated or
+reduced to the extent possible.
+
+7.6. Clinical Study
+No clinical testing was performed.
+
+8. Conclusion
+Page 5 of 6
+
+The subject device Superior Hair Remover (Model: T31, T61) is substantially equivalent to the
+predicate device (K192432). This conclusion is based upon comparison on intended use,
+technological characteristics and applicable safety standards. Any difference in the technological
+characteristics does not raise any new issues or concerns of safety or effectiveness.
+
+Page 6 of 6
+
+

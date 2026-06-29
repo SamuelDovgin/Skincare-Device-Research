@@ -1,0 +1,1172 @@
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+510(k)s –510(k) Summary K251000
+
+510(k) Summary #K251000
+"510(k) Summary" as required by 21 CFR Part 807.92.
+I.
+
+Submitter
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+Room 2218, Rongchuang Zhihui Building A, Shangfen Community, Minzhi Street, Longhua District, Shenzhen, China
+Kingway Hong
+Manager
+Tel: +86 13410362992
+Email: kingway.hong@ctonetech.com
+
+II. Preparation date: 6/30/2025
+III. Device
+Name of Device: Hand-held Hair Removal Device
+Model(s): FZ-200A, FZ-201, FZ-202, CT05, CT06, CT07, CT08, CT09.
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+
+IV. Predicate Device and Reference Devices
+Predicate device:
+Page 1/9
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+510(k)s –510(k) Summary K251000
+
+Manufacturer
+
+Predicate Device
+510(k) Number
+Hand-held IPL device (IPL
+Home Use Hair Removal
+Shenzhen IONKA Medical
+Device),
+K230739
+Technology Co., Ltd.
+(Model: FZ-608, FZ-608G,
+FZ-100, FZ-200)
+
+Approval Date
+May 26, 2023
+
+Reference devices:
+Manufacturer
+Shen Zhen CosBeauty Co.,
+Ltd
+
+Shenzhen Ulike Smart
+Electronics Co.,Ltd
+
+Reference Devices
+IPL Hair Removal Device
+Joy Version, CB-027
+
+510(k) Number
+K173813
+
+IPL Hair Removal Device
+Model(s): UI06 PL, UI06
+PN, UI06 JL, UI06 BR, UI06 K223618
+DB, UI06 PR, UI06 OG,
+UI06 RD
+
+Approval Date
+Sept. 07, 2018
+
+Feb 28, 2023
+
+V. Device Description
+Hand-held Hair Removal Device, is an over-the-counter, home-use device for unwanted hair reduction by using Intense Pulsed Light (IPL),
+and it has been designed eight models with the same IPL technology for hair removal, which is model FZ-200A, FZ-201, FZ-202, CT05,
+CT06, CT07, CT08, CT09. The device works below the skin’s surface and does not involve any cutting or pulling, reducing hair growth
+with minimal pain.
+The device is only powered by the external power adapter and its IPL emission activation is by finger switch.
+The Hand-held Hair Removal Device has an irreplaceable light exit and it can cover an area of 3.0cm2 (Model BFZ-200A, FZ-201, FZ-202,
+CT05, CT06, CT07, CT08, CT09) that is suitable for multiple hair removal areas, such as upper lip, chin, underarms, legs, arms, bikini area,
+chest, back, abdomen.
+Page 2/9
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+510(k)s –510(k) Summary K251000
+
+The device contains a skin sensor to detect appropriate skin contact, if the light exit is not in full contact with the skin, the device cannot emit
+the treatment light pulses. Besides, the Hand-held Hair Removal Device has the cooling function (suitable for model CT05, CT06, CT07,
+CT08, CT09), which can be activated throughout the whole hair removal process to cool down the treatment area’s temperature and provide
+the user with a better using experience.
+
+VI. Indications for Use
+Hand-held Hair Removal Device is indicated for the removal of unwanted hair. The device is also indicated for the permanent reduction in
+hair regrowth, defined as the long-term, stable reduction in the number of hairs regrowing when measured at 6, 9 and 12 months after the
+completion of a treatment regime.
+
+VII.Materials
+Component
+name
+Hand-held Hair
+Removal Device
+
+Material of Component
+
+Body Contact Category
+
+PC, ABS, POM
+
+Surface-contacting
+device: Intact skin
+
+Contact Duration
+Less than 24 hours
+
+VIII. Comparison of Technological Characteristics With the Predicate Device
+The Hand-held Hair Removal Device has the same intended use, mode of action and similar operational characteristics as the predicate
+device. Any minor differences between the subject device and the listed predicate device and reference devices do no raise any issues of
+safety or efficacy. Performance data supports that the device is safe and as effective as the predicate device and reference devices for its
+intended use. Therefore, the Hand-held Hair Removal Device may be found substantially equivalent to its predicate device and reference
+devices.
+Hand-held Hair Removal Device is compared with the following Predicate Device and Reference Devices in terms of intended use, design,
+material, specifications, and performance:
+
+Page 3/9
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+510(k)s –510(k) Summary K251000
+
+Comparison
+Elements
+510(k) Number
+
+Subject Device
+
+Predicate Device
+
+Reference device 1
+
+Remark
+
+Reference device 2
+
+K251000
+
+K230739
+
+K173813
+
+K223618
+
+/
+
+Trade name
+
+Hand-held Hair Removal
+Device
+Model: FZ-200A, FZ-201,
+FZ-202, CT05, CT06, CT07,
+CT08, CT09
+
+Hand-held IPL device (IPL Home
+Use Hair Removal
+Device)
+Model: FZ-608, FZ-608G, FZ-100,
+FZ-200
+
+IPL Hair Removal Device
+Joy Version, CB-027
+
+IPL Hair Removal
+Device
+
+/
+
+Manufacturer
+
+Shenzhen
+Chuangtong
+Yigou Technology Co., Ltd.
+21 CFR 878.4810
+OHT
+Class II
+Hand-held Hair Removal
+Device is indicated for the
+removal of unwanted hair.
+The device is also indicated
+for the permanent reduction
+in hair regrowth, defined as
+stable
+the
+long-term,
+reduction in the number of
+hairs
+regrowing
+when
+measured at 6, 9 and 12
+months after the completion
+of a treatment regime.
+
+Shenzhen IONKA Medical
+Technology Co., Ltd.
+21 CFR 878.4810
+OHT
+Class II
+IPL Home Use Hair Removal
+Device is indicated for the
+removal of unwanted hair. The
+device is also indicated for the
+permanent reduction in hair
+regrowth, defined as the long-term,
+stable reduction in the number of
+hairs regrowing when measured at
+6, 9 and 12 months after
+the completion of a treatment
+regime.
+
+Shenzhen Ulike Smart
+Electronics Co.,Ltd.
+21 CFR 878.4810
+OHT
+Class II
+IPL Hair Removal Device is
+indicated for the removal of
+unwanted hair. The device is
+also indicated for the
+permanent reduction in hair
+regrowth, defined as the long
+term, stable reduction in the
+number of hairs regrowing
+when measured at 6, 9 and 12
+months after the completion
+of a treatment regime.
+
+/
+
+OTC
+Fitzpatrick skin types I-V
+upper lip, chin, underarms, l
+egs, arms, bikini area, chest,
+back, abdomen
+
+OTC
+Fitzpatrick skin types I-V
+Unknown
+
+Shen Zhen CosBeauty Co.,
+Ltd
+21 CFR 878.4810
+OHT
+Class II
+The IPL Hair Removal
+Device Joy Version is
+indicated for the removal of
+unwanted hair. The device
+is also indicated for the
+permanent reduction in hair
+regrowth, defined as the
+long-term, stable reduction
+in the number of hairs
+regrowing when measured
+at 6, 9 and 12 months after
+the completion of a
+treatment
+regime.
+The
+device is used for adults
+with Fitzpatrick skin types I
+- IV.
+OTC
+Fitzpatrick skin types I-IV
+Large areas (legs, arms,
+back and abdomen), face
+(upper lip, chin and
+sideburns)
+
+OTC
+Fitzpatrick skin types I-V
+Large areas (e.g. arms, legs,
+chest) and small areas (e.g.
+lip)
+
+Same
+Same
+Same
+
+Regulation number
+Product code
+Device classification
+Indication for use/
+Intended use
+
+Prescription or OTC
+Applicable skin
+Treatment area
+
+Same
+Same
+Same
+Same
+
+Page 4/9
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+510(k)s –510(k) Summary K251000
+
+Dimension
+
+FZ-200A: 199*68*58(mm)
+FZ-201: 179*64*39mm
+FZ-202: 202*132*93mm
+CT05, CT06:
+179*640*39(mm)
+CT07: 204*173*54(mm)
+CT08: 192*140*54(mm)
+CT09: 177*120*91(mm)
+
+FZ-608,
+FZ-608G:
+98*147*60(mm)
+FZ-100: 198*71*44(mm)
+FZ-200: 216*68*52(mm)
+
+126*78*200mm
+
+58×34×179mm
+(W x H x D)
+
+Difference
+Note 1
+
+Power supply
+
+Unknown
+
+100-240 VAC, 50/60Hz
+
+100-240 VAC, 50/60Hz
+
+Same
+
+Sterilization
+Light source
+Energy medium
+Wavelength range
+
+100-240V,
+50/60Hz,
+0.8AMax
+Not required
+Intense Pulsed Light
+Xenon Arc lamp
+590-1200nm
+
+Not required
+Intense Pulsed Light
+Xenon Arc lamp
+510-1200mm
+
+Not required
+Intense Pulsed Light
+Xenon Arc Flash lamp
+510-1200nm
+
+Not required
+Intense Pulsed Light
+Xenon Arc Flash lamp
+560-1200nm
+
+Energy density
+
+2-4.3 J/cm2
+
+FZ-608, FZ-608G: 3.33 J/cm2
+FZ-100: 5.43 J/cm2
+FZ-200: 4.5 J/cm2
+
+1.8~5.1J/cm2
+
+3~6 J/cm2
+
+Same
+Same
+Same
+Similar
+Note 2
+Similar
+Note 3
+
+Output energy
+
+6-13 J
+
+Body lamp cartridge:
+11.77~22.21J, 510-1200nm
+Facial lamp cartridge: 3.657.04J, 512-1197nm
+Bikini lamp cartridge: 3.847.22J, 511-1200nm
+
+9.9~19.8J
+
+Similar
+Note 3
+
+Spot size
+
+3cm2
+
+FZ-608, FZ-608G:
+Level 1: 4.16J
+Level 2: 4.36J
+Level 3: 5.1J
+Level 4: 6.1J
+Level 5: 6.96J
+Level 6: 7.96J
+Level 7: 8.63J
+Level 8: 9.13J
+Level 9: 10.0J
+3cm2
+
+3.3cm2
+
+Pulse duration
+
+2-6 ms
+
+0.5-0.8ms
+
+Body: 4.2cm2
+Bikini and face: 2.0cm2
+9.2~11.2ms
+
+Pulsing control
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Similar
+Note 4
+Similar
+Note 5
+Same
+
+Output intensity level
+
+9 levels
+
+FZ-608, FZ-608G: 9 levels
+FZ-100: 9 levels
+
+5
+
+3
+
+Same
+
+1ms~7ms
+
+Page 5/9
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+510(k)s –510(k) Summary K251000
+
+Software/ Firmware/
+Microprocessor
+Control?
+Electrical safety
+
+Eye safety
+Biocompatibility
+
+Yes
+
+FZ-200: 6 levels
+Yes
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+Unknown
+ISO 10993-5
+ISO 10993-10
+
+Yes
+
+Yes
+
+Same
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-2-57
+
+ANSI AAMI ES 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+
+Same
+
+Unknown
+ISO 10993-5
+ISO 10993-10
+
+Same
+Same
+
+IX. Performance Data
+The following performance data were provided in support of the substantial equivalence determination.
+1) Biocompatibility Evaluation
+ The biocompatibility evaluation for the body-contacting components of the Hand-held Hair Removal Device was conducted in accordance
+with the "Use of International Standard ISO 10993-1, 'Biological Evaluation of Medical Devices –Part 1: Evaluation and Testing Within
+a Risk Management Process, Document Issued on September 4, 2020", as recognized by FDA.
+2) Electrical Safety and EMC
+Electrical safety and EMC testing was performed to, and passed, as per the following standards:
+ IEC 60601-1-2, Edition 4.1 2020-09, Medical electrical equipment –Part 1-2: General requirements for basic safety and essential
+performance –Collateral standard: electromagnetic compatibility.
+ IEC 60601-1, Edition 3.2 2020-08, Medical electrical equipment - Part 1: General requirements for basic safety and essential performance .
+ IEC 60601-1-11, Edition 2.1 2020-07, Medical electrical equipment - Part 1-11: General requirements for basic safety and essential
+performance - Collateral Standard: Requirements for medical electrical equipment and medical electrical systems used in the home
+healthcare environment.
+Page 6/9
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+510(k)s –510(k) Summary K251000
+
+ IEC 60601-2-83, 2019+AMD1:2022, Medical electrical equipment - Part 2-83: Particular requirements for the basic safety and essential
+performance of home light therapy equipment.
+3) Eye Safety
+ IEC 62471, First edition 2006-07, Photobiological safety of lamps and lamp systems
+4) Software Verification and Validation
+Software documentation consistent with basic documentation level of concern was submitted in this 510(k). System validation testing
+presented in this 510(k) demonstrated that all software requirement specifications are met and all software hazards have been mitigated to
+acceptable risk levels.
+5) Usability
+The product usability has been evaluated and verified according to the following FDA guidance
+ Applying Human Factors and Usability Engineering to Medical Devices, issued on FEBRUARY 2016.
+X. Conclusions
+Based on the above analysis and non-clinical tests performed, it can be concluded that the subject device Hand-held Hair Removal Device is
+as safe, as effective, and performs as well as the legally marketed predicate device.
+
+Page 7/9
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2023
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K251000
+
+Device Name
+
+Hand-held Hair Removal Device (FZ-200A, FZ-201, FZ-202, CT05, CT06, CT07, CT08, CT09)
+
+Indications for Use (Describe)
+
+Hand-held Hair Removal Device is indicated for the removal of unwanted hair. The device is also indicated for the
+permanent reduction in hair regrowth, defined as the long-term, stable reduction in the number of hairs regrowing when
+measured at 6, 9 and 12 months after the completion of a treatment regime.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (6/20)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+510(k)s –510(k) Summary K251000
+
+510(k) Summary #K251000
+"510(k) Summary" as required by 21 CFR Part 807.92.
+I.
+
+Submitter
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+Room 2218, Rongchuang Zhihui Building A, Shangfen Community, Minzhi Street, Longhua District, Shenzhen, China
+Kingway Hong
+Manager
+Tel: +86 13410362992
+Email: kingway.hong@ctonetech.com
+
+II. Preparation date: 6/30/2025
+III. Device
+Name of Device: Hand-held Hair Removal Device
+Model(s): FZ-200A, FZ-201, FZ-202, CT05, CT06, CT07, CT08, CT09.
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+
+IV. Predicate Device and Reference Devices
+Predicate device:
+Page 1/9
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+510(k)s –510(k) Summary K251000
+
+Manufacturer
+
+Predicate Device
+510(k) Number
+Hand-held IPL device (IPL
+Home Use Hair Removal
+Shenzhen IONKA Medical
+Device),
+K230739
+Technology Co., Ltd.
+(Model: FZ-608, FZ-608G,
+FZ-100, FZ-200)
+
+Approval Date
+May 26, 2023
+
+Reference devices:
+Manufacturer
+Shen Zhen CosBeauty Co.,
+Ltd
+
+Shenzhen Ulike Smart
+Electronics Co.,Ltd
+
+Reference Devices
+IPL Hair Removal Device
+Joy Version, CB-027
+
+510(k) Number
+K173813
+
+IPL Hair Removal Device
+Model(s): UI06 PL, UI06
+PN, UI06 JL, UI06 BR, UI06 K223618
+DB, UI06 PR, UI06 OG,
+UI06 RD
+
+Approval Date
+Sept. 07, 2018
+
+Feb 28, 2023
+
+V. Device Description
+Hand-held Hair Removal Device, is an over-the-counter, home-use device for unwanted hair reduction by using Intense Pulsed Light (IPL),
+and it has been designed eight models with the same IPL technology for hair removal, which is model FZ-200A, FZ-201, FZ-202, CT05,
+CT06, CT07, CT08, CT09. The device works below the skin’s surface and does not involve any cutting or pulling, reducing hair growth
+with minimal pain.
+The device is only powered by the external power adapter and its IPL emission activation is by finger switch.
+The Hand-held Hair Removal Device has an irreplaceable light exit and it can cover an area of 3.0cm2 (Model BFZ-200A, FZ-201, FZ-202,
+CT05, CT06, CT07, CT08, CT09) that is suitable for multiple hair removal areas, such as upper lip, chin, underarms, legs, arms, bikini area,
+chest, back, abdomen.
+Page 2/9
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+510(k)s –510(k) Summary K251000
+
+The device contains a skin sensor to detect appropriate skin contact, if the light exit is not in full contact with the skin, the device cannot emit
+the treatment light pulses. Besides, the Hand-held Hair Removal Device has the cooling function (suitable for model CT05, CT06, CT07,
+CT08, CT09), which can be activated throughout the whole hair removal process to cool down the treatment area’s temperature and provide
+the user with a better using experience.
+
+VI. Indications for Use
+Hand-held Hair Removal Device is indicated for the removal of unwanted hair. The device is also indicated for the permanent reduction in
+hair regrowth, defined as the long-term, stable reduction in the number of hairs regrowing when measured at 6, 9 and 12 months after the
+completion of a treatment regime.
+
+VII.Materials
+Component
+name
+Hand-held Hair
+Removal Device
+
+Material of Component
+
+Body Contact Category
+
+PC, ABS, POM
+
+Surface-contacting
+device: Intact skin
+
+Contact Duration
+Less than 24 hours
+
+VIII. Comparison of Technological Characteristics With the Predicate Device
+The Hand-held Hair Removal Device has the same intended use, mode of action and similar operational characteristics as the predicate
+device. Any minor differences between the subject device and the listed predicate device and reference devices do no raise any issues of
+safety or efficacy. Performance data supports that the device is safe and as effective as the predicate device and reference devices for its
+intended use. Therefore, the Hand-held Hair Removal Device may be found substantially equivalent to its predicate device and reference
+devices.
+Hand-held Hair Removal Device is compared with the following Predicate Device and Reference Devices in terms of intended use, design,
+material, specifications, and performance:
+
+Page 3/9
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+510(k)s –510(k) Summary K251000
+
+Comparison
+Elements
+510(k) Number
+
+Subject Device
+
+Predicate Device
+
+Reference device 1
+
+Remark
+
+Reference device 2
+
+K251000
+
+K230739
+
+K173813
+
+K223618
+
+/
+
+Trade name
+
+Hand-held Hair Removal
+Device
+Model: FZ-200A, FZ-201,
+FZ-202, CT05, CT06, CT07,
+CT08, CT09
+
+Hand-held IPL device (IPL Home
+Use Hair Removal
+Device)
+Model: FZ-608, FZ-608G, FZ-100,
+FZ-200
+
+IPL Hair Removal Device
+Joy Version, CB-027
+
+IPL Hair Removal
+Device
+
+/
+
+Manufacturer
+
+Shenzhen
+Chuangtong
+Yigou Technology Co., Ltd.
+21 CFR 878.4810
+OHT
+Class II
+Hand-held Hair Removal
+Device is indicated for the
+removal of unwanted hair.
+The device is also indicated
+for the permanent reduction
+in hair regrowth, defined as
+stable
+the
+long-term,
+reduction in the number of
+hairs
+regrowing
+when
+measured at 6, 9 and 12
+months after the completion
+of a treatment regime.
+
+Shenzhen IONKA Medical
+Technology Co., Ltd.
+21 CFR 878.4810
+OHT
+Class II
+IPL Home Use Hair Removal
+Device is indicated for the
+removal of unwanted hair. The
+device is also indicated for the
+permanent reduction in hair
+regrowth, defined as the long-term,
+stable reduction in the number of
+hairs regrowing when measured at
+6, 9 and 12 months after
+the completion of a treatment
+regime.
+
+Shenzhen Ulike Smart
+Electronics Co.,Ltd.
+21 CFR 878.4810
+OHT
+Class II
+IPL Hair Removal Device is
+indicated for the removal of
+unwanted hair. The device is
+also indicated for the
+permanent reduction in hair
+regrowth, defined as the long
+term, stable reduction in the
+number of hairs regrowing
+when measured at 6, 9 and 12
+months after the completion
+of a treatment regime.
+
+/
+
+OTC
+Fitzpatrick skin types I-V
+upper lip, chin, underarms, l
+egs, arms, bikini area, chest,
+back, abdomen
+
+OTC
+Fitzpatrick skin types I-V
+Unknown
+
+Shen Zhen CosBeauty Co.,
+Ltd
+21 CFR 878.4810
+OHT
+Class II
+The IPL Hair Removal
+Device Joy Version is
+indicated for the removal of
+unwanted hair. The device
+is also indicated for the
+permanent reduction in hair
+regrowth, defined as the
+long-term, stable reduction
+in the number of hairs
+regrowing when measured
+at 6, 9 and 12 months after
+the completion of a
+treatment
+regime.
+The
+device is used for adults
+with Fitzpatrick skin types I
+- IV.
+OTC
+Fitzpatrick skin types I-IV
+Large areas (legs, arms,
+back and abdomen), face
+(upper lip, chin and
+sideburns)
+
+OTC
+Fitzpatrick skin types I-V
+Large areas (e.g. arms, legs,
+chest) and small areas (e.g.
+lip)
+
+Same
+Same
+Same
+
+Regulation number
+Product code
+Device classification
+Indication for use/
+Intended use
+
+Prescription or OTC
+Applicable skin
+Treatment area
+
+Same
+Same
+Same
+Same
+
+Page 4/9
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+510(k)s –510(k) Summary K251000
+
+Dimension
+
+FZ-200A: 199*68*58(mm)
+FZ-201: 179*64*39mm
+FZ-202: 202*132*93mm
+CT05, CT06:
+179*640*39(mm)
+CT07: 204*173*54(mm)
+CT08: 192*140*54(mm)
+CT09: 177*120*91(mm)
+
+FZ-608,
+FZ-608G:
+98*147*60(mm)
+FZ-100: 198*71*44(mm)
+FZ-200: 216*68*52(mm)
+
+126*78*200mm
+
+58×34×179mm
+(W x H x D)
+
+Difference
+Note 1
+
+Power supply
+
+Unknown
+
+100-240 VAC, 50/60Hz
+
+100-240 VAC, 50/60Hz
+
+Same
+
+Sterilization
+Light source
+Energy medium
+Wavelength range
+
+100-240V,
+50/60Hz,
+0.8AMax
+Not required
+Intense Pulsed Light
+Xenon Arc lamp
+590-1200nm
+
+Not required
+Intense Pulsed Light
+Xenon Arc lamp
+510-1200mm
+
+Not required
+Intense Pulsed Light
+Xenon Arc Flash lamp
+510-1200nm
+
+Not required
+Intense Pulsed Light
+Xenon Arc Flash lamp
+560-1200nm
+
+Energy density
+
+2-4.3 J/cm2
+
+FZ-608, FZ-608G: 3.33 J/cm2
+FZ-100: 5.43 J/cm2
+FZ-200: 4.5 J/cm2
+
+1.8~5.1J/cm2
+
+3~6 J/cm2
+
+Same
+Same
+Same
+Similar
+Note 2
+Similar
+Note 3
+
+Output energy
+
+6-13 J
+
+Body lamp cartridge:
+11.77~22.21J, 510-1200nm
+Facial lamp cartridge: 3.657.04J, 512-1197nm
+Bikini lamp cartridge: 3.847.22J, 511-1200nm
+
+9.9~19.8J
+
+Similar
+Note 3
+
+Spot size
+
+3cm2
+
+FZ-608, FZ-608G:
+Level 1: 4.16J
+Level 2: 4.36J
+Level 3: 5.1J
+Level 4: 6.1J
+Level 5: 6.96J
+Level 6: 7.96J
+Level 7: 8.63J
+Level 8: 9.13J
+Level 9: 10.0J
+3cm2
+
+3.3cm2
+
+Pulse duration
+
+2-6 ms
+
+0.5-0.8ms
+
+Body: 4.2cm2
+Bikini and face: 2.0cm2
+9.2~11.2ms
+
+Pulsing control
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Similar
+Note 4
+Similar
+Note 5
+Same
+
+Output intensity level
+
+9 levels
+
+FZ-608, FZ-608G: 9 levels
+FZ-100: 9 levels
+
+5
+
+3
+
+Same
+
+1ms~7ms
+
+Page 5/9
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+510(k)s –510(k) Summary K251000
+
+Software/ Firmware/
+Microprocessor
+Control?
+Electrical safety
+
+Eye safety
+Biocompatibility
+
+Yes
+
+FZ-200: 6 levels
+Yes
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+Unknown
+ISO 10993-5
+ISO 10993-10
+
+Yes
+
+Yes
+
+Same
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-2-57
+
+ANSI AAMI ES 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+
+Same
+
+Unknown
+ISO 10993-5
+ISO 10993-10
+
+Same
+Same
+
+IX. Performance Data
+The following performance data were provided in support of the substantial equivalence determination.
+1) Biocompatibility Evaluation
+ The biocompatibility evaluation for the body-contacting components of the Hand-held Hair Removal Device was conducted in accordance
+with the "Use of International Standard ISO 10993-1, 'Biological Evaluation of Medical Devices –Part 1: Evaluation and Testing Within
+a Risk Management Process, Document Issued on September 4, 2020", as recognized by FDA.
+2) Electrical Safety and EMC
+Electrical safety and EMC testing was performed to, and passed, as per the following standards:
+ IEC 60601-1-2, Edition 4.1 2020-09, Medical electrical equipment –Part 1-2: General requirements for basic safety and essential
+performance –Collateral standard: electromagnetic compatibility.
+ IEC 60601-1, Edition 3.2 2020-08, Medical electrical equipment - Part 1: General requirements for basic safety and essential performance .
+ IEC 60601-1-11, Edition 2.1 2020-07, Medical electrical equipment - Part 1-11: General requirements for basic safety and essential
+performance - Collateral Standard: Requirements for medical electrical equipment and medical electrical systems used in the home
+healthcare environment.
+Page 6/9
+
+Shenzhen Chuangtong Yigou Technology Co., Ltd
+510(k)s –510(k) Summary K251000
+
+ IEC 60601-2-83, 2019+AMD1:2022, Medical electrical equipment - Part 2-83: Particular requirements for the basic safety and essential
+performance of home light therapy equipment.
+3) Eye Safety
+ IEC 62471, First edition 2006-07, Photobiological safety of lamps and lamp systems
+4) Software Verification and Validation
+Software documentation consistent with basic documentation level of concern was submitted in this 510(k). System validation testing
+presented in this 510(k) demonstrated that all software requirement specifications are met and all software hazards have been mitigated to
+acceptable risk levels.
+5) Usability
+The product usability has been evaluated and verified according to the following FDA guidance
+ Applying Human Factors and Usability Engineering to Medical Devices, issued on FEBRUARY 2016.
+X. Conclusions
+Based on the above analysis and non-clinical tests performed, it can be concluded that the subject device Hand-held Hair Removal Device is
+as safe, as effective, and performs as well as the legally marketed predicate device.
+
+Page 7/9
+
+

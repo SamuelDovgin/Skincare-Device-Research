@@ -1,0 +1,634 @@
+DEPARTMENT OF HEALTH & HUMAN SERVICES
+
+Public Health Service
+
+Food and Drug Administration
+10903 New Hampshire Avenue
+Document Control Center – WO66-G609
+Silver Spring, MD 20993-0002
+
+July 1, 2015
+Wuhan Lotuxs Technology Company, Ltd.
+Ms. Wu Na
+Regulatory Manager
+R&D Building B1 of B, C, D Block, Wuhan National Biological Industry Base
+Wuhan, Hubei 430075
+People’s Republic of China
+Re: K142845
+Trade/Device Name: SILKPRO Laser Hair Removal System
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser surgical instrument for use in general and plastic surgery
+and in dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: May 28, 2015
+Received: June 4, 2015
+Dear Ms. Na:
+We have reviewed your Section 510(k) premarket notification of intent to market the device
+referenced above and have determined the device is substantially equivalent (for the indications
+for use stated in the enclosure) to legally marketed predicate devices marketed in interstate
+commerce prior to May 28, 1976, the enactment date of the Medical Device Amendments, or to
+devices that have been reclassified in accordance with the provisions of the Federal Food, Drug,
+and Cosmetic Act (Act) that do not require approval of a premarket approval application (PMA).
+You may, therefore, market the device, subject to the general controls provisions of the Act. The
+general controls provisions of the Act include requirements for annual registration, listing of
+devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability
+warranties. We remind you; however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it
+may be subject to additional controls. Existing major regulations affecting your device can be
+found in the Code of Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may
+publish further announcements concerning your device in the Federal Register.
+Please be advised that FDA’s issuance of a substantial equivalence determination does not mean
+that FDA has made a determination that your device complies with other requirements of the Act
+or any Federal statutes and regulations administered by other Federal agencies. You must
+
+Page 2 – Ms. Wu Na
+comply with all the Act’s requirements, including, but not limited to: registration and listing (21
+CFR Part 807); labeling (21 CFR Part 801); medical device reporting (reporting of medical
+device-related adverse events) (21 CFR 803); good manufacturing practice requirements as set
+forth in the quality systems (QS) regulation (21 CFR Part 820); and if applicable, the electronic
+product radiation control provisions (Sections 531-542 of the Act); 21 CFR 1000-1050.
+If you desire specific advice for your device on our labeling regulation (21 CFR Part 801), please
+contact the Division of Industry and Consumer Education at its toll-free number (800) 638-2041
+or (301) 796-7100 or at its Internet address
+http://www.fda.gov/MedicalDevices/ResourcesforYou/Industry/default.htm. Also, please note
+the regulation entitled, sMisbranding by reference to premarket notifications (21CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21
+CFR Part 803), please go to
+http://www.fda.gov/MedicalDevices/Safety/ReportaProblem/default.htm for the CDRH’s Office
+of Surveillance and Biometrics/Division of Postmarket Surveillance.
+You may obtain other general information on your responsibilities under the Act from the
+Division of Industry and Consumer Education at its toll-free number (800) 638-2041 or (301)
+796-7100 or at its Internet address
+http://www.fda.gov/MedicalDevices/ResourcesforYou/Industry/default.htm.
+Sincerely yours,
+
+David Krause -S
+for
+
+Enclosure
+
+Binita S. Ashar, M.D., M.B.A., F.A.C.S.
+Director
+Division of Surgical Devices
+Office of Device Evaluation
+Center for Devices and
+Radiological Health
+
+K142845
+
+SILKPRO Laser Hair Removal System
+
+007_510 (k) Summary
+
+510(k) Submission
+
+SILKPRO Laser Hair Removal System
+
+510(k) Submission
+
+510(k) Summary
+[As required by 21 CFR 807.92]
+
+1. Date Prepared [21 CFR807.92 (a) (1)]
+August 24, 2014
+
+2. Submitter’s Information [21 CFR807.92 (a) (1)]
+Name of Sponsor:
+Address:
+
+Wuhan Lotuxs Technology Co., Ltd.
+R&D Building B1 of B, C, D Block, Wuhan National Biological
+Industry Base, No.666 High-tech Avenue, East Lake
+High-tech Development Zone, Wuhan, P.R.C.
+
+Contact Name:
+
+Wu Na
+
+Telephone No.:
+
++86-27-87619668
+
+Fax No.:
+
++86-27-87515058
+
+Email Address:
+
+na.wu@lotuxs.com
+
+3. Trade Name, Common Name, Classification [21 CFR807.92 (a)
+(2)]
+Trade Name:
+Common Name:
+
+SILKPRO Laser Hair Removal System
+Powered laser surgical instrument
+
+Classification:
+
+878.4810 Laser Instrument, Surgical, Powered
+
+Product code:
+
+OHT
+
+Classification Panel:
+Device Class:
+
+General & Plastic Surgery
+II
+
+4. Identification of Predicate Device(s) [21 CFR 807.92(a) (3)]
+The identified predicates within this submission are as follows:
+TRIA Beauty, Inc., TRIA Laser Hair Removal System has been cleared by FDA
+510(k) Summary
+
+7-1
+
+SILKPRO Laser Hair Removal System
+
+510(k) Submission
+
+through 510(k) No.K090820 (Decision Date – Dec 23, 2009),
+
+5. Description of the Device [21 CFR 807.92(a) (4)]
+The SILKPRO Laser Hair Removal System emits a pulse of laser light, which heats up
+the dark pigment inside the hair and deactivates the follicles in the skin that produce
+hair.
+
+6. Intended Use [21 CFR 807.92(a)(5)]
+SILKPRO laser hair removal system adopts the 810nm diode laser, which targets on
+the hair follicle and slows the process of hair growth. It is used to remove unwanted hair
+of body. SILKPRO is also intended for permanent hair reduction defined as the
+long-term, stable reduction in the number of hairs regrowing when measured at 6, 9,
+and 12 months after the completion of a treatment regime.
+
+7. Technological Characteristics [21 CFR 807.92(a)(6)]
+Laser Type
+Laser Material
+Wavelength
+
+Diode laser
+GaAs
+810nm
+
+Max Energy Density
+Energy Density
+Laser Beam
+Power Capacity
+Electric Parameter
+Laser Type
+Working
+Environment
+
+25J/cm2
+5J/cm2、10J/cm2、15J/cm2、20J/cm2、25J/cm2
+
+Storage/Transportat
+ion environment
+Weight
+
+9mm×9mm
+100～240V, 50/60Hz
+AC100～240V, 50/60Hz , 60W
+Class 4
+Ambient Temperature：+5℃～+40℃；
+relative humidity：≤80%；
+Atmospheric Pressure: 700_1060hPa
+Ambient Temperature：-40℃～+55℃；
+relative humidity：≤90%；
+Atmospheric Pressure: 700_1060hPa
+700g
+
+8. Substantial Equivalence [21 CFR 807.92(b) (1) and 807.92]
+8.1 Intended uses:
+
+510(k) Summary
+
+7-2
+
+SILKPRO Laser Hair Removal System
+
+510(k) Submission
+
+Table 1 Intended Use Comparison
+ID
+
+Comparison
+Item
+
+1
+
+Intended
+Use
+
+Proposed Device
+SILKPRO
+SILKPRO is an over-thecounter device intended for
+adjunctive use with shaving for
+hair removal sustained with
+periodic treatments. SILKPRO
+is also intended for permanent
+reduction in hair regrowth
+defined as a long-term, stable
+reduction in hair counts
+following a treatment regime.
+
+Predicate Device
+TRIA
+TRIA is an over-the-counter
+device intended for adjunctive
+use with shaving for hair
+removal
+sustained
+with
+periodic treatments. TRIA is
+also intended for permanent
+reduction in hair regrowth
+defined as a long-term, stable
+reduction in hair counts
+following a treatment regime.
+
+8.2 Comparison table
+Table 2 General Comparison
+ID
+
+Comparison
+
+Proposed Device
+
+Predicate Device
+
+Item
+
+SILKPRO
+
+TRIA
+
+2
+2.1
+
+General
+Classification Name
+
+Laser Instrument, Surgical, Laser Instrument, Surgical,
+Powered
+
+Powered
+
+2.2
+
+Product Code
+
+OHT
+
+GEX
+
+2.3
+
+Regulation Number
+
+878.4810
+
+878.4810
+
+2.4
+
+Panel
+
+General & Plastic Surgery
+
+General & Plastic Surgery
+
+2.5
+
+Class
+
+Class II
+
+Class II
+
+3
+
+Performance
+
+3.1
+
+Laser Type
+
+Diode laser
+
+Diode laser
+
+3.2
+
+Laser Material
+
+GaAs
+
+GaAs
+
+3.3
+
+Wavelength
+
+810nm
+
+810nm
+
+3.4
+
+Max Energy Density
+
+25J/cm2
+
+22J/cm2
+
+Energy Density
+
+5J/cm2, 10J/cm2, 15J/cm2,
+20J/cm2, 25J/cm2
+9mm×9mm
+
+6J/cm2, 10J/cm2, 14J/cm2,
+18J/cm2, 22J/cm2
+Φ 10mm (Round)
+
+3.5
+3.6
+
+Laser Beam
+
+4
+
+510(k) Summary
+
+Physical Specifications
+
+7-3
+
+SILKPRO Laser Hair Removal System
+
+ID
+
+510(k) Submission
+
+Comparison
+
+Proposed Device
+
+Predicate Device
+
+Item
+
+SILKPRO
+
+TRIA
+
+Temperature
+4.1
+
+Operating
+
++5℃～+40℃；
+
++5℃～+40℃；
+
+4.2
+
+Transport/ Storage
+
+-40℃～+55℃
+
+-40℃～+55℃
+
+Relative humidity
+4.3
+
+Operating
+
+≤ 80%
+
+≤ 80%
+
+4.4
+
+Transport/ Storage
+
+≤ 90%
+
+≤ 90%
+
+Atmospheric Pressure
+4.5
+
+Operating
+
+700_1060hPa
+
+700_1060hPa
+
+4.6
+
+Transport/ Storage
+
+700_1060hPa
+
+700_1060hPa
+
+5
+
+Power Supply
+
+5.1
+
+Power Capacity
+
+AC100～240V, 50/60Hz, 60W
+
+5.2
+
+Input Voltage
+
+100～240V,50/60Hz
+
+6
+6.1
+
+Human factors (operation characteristic)
+Usability
+
+Button operation
+
+7
+
+7.1
+
+AC100 ～ 240V, 50/60Hz,
+37VA
+100～240V,50/60Hz
+
+Button operation,
+
+Biocompatibility
+
+Evaluation
+
+8
+
+Compliance with
+
+Compliance with
+
+ISO 10993-1
+
+ISO 10993-1
+
+ISO 10993-5
+
+ISO 10993-5
+
+ISO 10993-10
+
+ISO 10993-10
+
+Electrical & Mechanical safety& Thermal safety
+Type of protection
+
+8.1
+
+against electric
+
+Class I
+
+Class I
+
+Ordinary equipment.
+
+Ordinary equipment.
+
+shock
+Degree of protection
+8.2
+
+against harmful
+ingress of liquid
+
+The electrical, mechanical and The electrical, mechanical
+8.3
+
+Evaluation
+
+510(k) Summary
+
+thermal safety evaluation is
+
+and thermal safety evaluation
+
+conducted as per the
+
+is conducted as per the
+
+requirements of the standard
+
+requirements of the standard
+7-4
+
+SILKPRO Laser Hair Removal System
+
+ID
+
+510(k) Submission
+
+Comparison
+
+Proposed Device
+
+Predicate Device
+
+Item
+
+SILKPRO
+
+TRIA
+
+IEC 60601-1.
+9
+9.1
+
+IEC 60601-1.
+
+Electromagnetic Compatibility
+EMC Evaluation
+
+Complying with
+
+Complying with
+
+IEC 60601-1-2
+
+IEC 60601-1-2
+
+8.4 Discussion of Differences:
+It is reasonable that there are some differences between our new device and its
+predicate. All of parameters comply with 21CFR1020.33 and related IEC standards.
+We did not use any new technology in this system, so those differences between our
+new system and its predicate do not affect the safety and effectiveness (SE).
+Review of ID 1 - Intended use, both are the same, so the SE is not affected.
+Review of ID 2 - General, both are the same, so the SE is not affected.
+Review of ID 3 - Performance, except three items as below, both are the same, so the
+SE is not affected.
+3.4 Max Energy Density, The proposed device is 25J/cm2 and the predicate device
+is 22J/cm2, both of them comply with IEC 60601-2-22 and IEC 60825-1.
+Therefore, they can be considered substantially Equivalent in safety and
+effectiveness. So the SE is not affected.
+3.5 Energy Density, The proposed device is 5J/cm2, 10J/cm2, 15J/cm2, 20J/cm2,
+25J/cm2 and the predicate device is 6J/cm2, 10J/cm2, 14J/cm2, 18J/cm2, 22J/
+cm2, both of them comply with IEC 60601-2-22 and IEC 60825-1. Therefore,
+they can be considered substantially Equivalent in safety and effectiveness. So
+the SE is not affected.
+3.6 Laser Beam, The proposed device is 9mm×9mm and the predicate device is Φ
+10mm (Round), both of them comply with IEC 60601-2-22 and IEC 60825-1.
+Therefore, they can be considered substantially Equivalent in safety and
+effectiveness. So the SE is not affected.
+Review of ID 4 - Physical Specifications, Temperature, Relative humidity and
+Atmospheric Pressure are comparable, so the SE is not affected
+Review of ID 5 - Power Supply, both of them comply with IEC 60601-1 and IEC
+60601-1-2. Therefore, they can be considered Substantially Equivalent in safety and
+effectiveness. So the SE is not affected.
+510(k) Summary
+
+7-5
+
+SILKPRO Laser Hair Removal System
+
+510(k) Submission
+
+Review of ID 6 - Human factors, both are the same, so the SE is not affected.
+Review of ID 7 - Biocompatibility, both are the same, so the SE is not affected.
+Review of ID 8 - Electrical & Mechanical safety& Thermal safety, both are the same, so
+the SE is not affected.
+Review of ID 9 - EMC, both are the same, so the SE is not affected.
+A Human Factors Usability study was conducted to demonstrate that a layperson was
+capable of reading the User Manual for the SILKPRO, understood the directions for use,
+and was able to correctly use the device for the intended use of hair removal as
+directed in the User Manual. This testing included correct attachment of the power cord,
+recognizing when the device was activated, correct placement and movement of the
+device at the targeted site, and understanding of when and where the device was not to
+be used. There were no failures in terms of correct selection of appropriate site for
+treatment or correct application of laser to the targeted site.
+
+9. Conclusion [21 CFR 807.92(b) (3)]
+In accordance with the Federal Food, Drug and Cosmetic Act, 21 CFR Part 807 and
+based on the information provided in this premarket notification, Wuhan Lotuxs
+Technology Co., Ltd. concludes that SILKPRO Laser Hair Removal System is
+substantially equivalent to predicate devices with regard to safety and effectiveness.
+
+510(k) Summary
+
+7-6
+
+

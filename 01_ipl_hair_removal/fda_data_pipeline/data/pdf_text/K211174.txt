@@ -1,0 +1,570 @@
+September 1, 2021
+
+Shenzhen Qiaochengli Technology Co., Ltd.
+℅ Jet Li
+Regulation Manager
+Guangzhou KEDA Biological Tech Co., Ltd.
+6F, No.1 TianTai road, Science City, LuoGang District
+GuangZhou, Guangdong
+China
+Re: K211174
+Trade/Device Name: IPL Hair Removal
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: July 18, 2021
+Received: July 23, 2021
+Dear Jet Li:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.04.27
+
+K211174 - Jet Li
+
+Page 2
+
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Purva U. Pandya -S
+Purva Pandya
+Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+Sponsor:
+
+Shenzhen Qiaochengli Technology Co., Ltd.
+
+Subject Device:
+
+IPL HAIR REMOVAL, Model: TFDA06S
+
+510(k) number:
+
+K211174
+
+510(k) Summary
+
+Date of the summary prepared: August 27, 2021
+
+510(k) Summary
+This summary of 510(K) safety and effectiveness information is being submitted in accordance
+with the requirement of 21 CFR 807.92.
+1. Submitter’s Information
+Sponsor
+
+
+Company Name: Shenzhen Qiaochengli Technology Co., Ltd.
+
+
+
+Address: 501-5, rujun building, 105 Zhongxing Road, Ma‟antang community, Bantian street,
+Longgang District, Shenzhen City, Guangdong Province,China
+
+
+
+Phone: +86-0755-23072580
+
+
+
+Fax: +86-0755-23072580
+
+
+
+Contact Person (including title): LiPing Zhou
+
+
+
+E-mail: 2323980316@qq.com
+
+Application Correspondent:
+ Company Name: Guangzhou KEDA Biological Tech Co., Ltd.
+
+
+Address: 6F, No.1 TianTai road, Science City, LuoGang District, GuangZhou City, China
+
+
+
+Contact Person: Mr. Jet Li
+
+
+
+Tel: +86-18588874857
+
+
+
+Email: Med-jl@foxmail.com
+
+2. Subject Device Information
+
+
+Trade Name:
+
+IPL HAIR REMOVAL, Model: TFDA06S
+
+
+
+Common Name:
+
+
+
+Classification name:
+
+
+
+Review Panel:
+
+Powered Light Based Non-Laser Surgical Instrument With
+Thermal Effect
+Laser Surgical Instrument For Use In General And Plastic
+Surgery And Dermatoloty
+General & Plastic Surgery
+
+
+
+Product Code:
+
+ONF
+
+
+
+Regulation Class:
+
+2
+
+
+
+Regulation Number:
+
+878.4810
+
+Page 1 of 4
+
+Shenzhen Qiaochengli Technology Co., Ltd.
+
+Sponsor:
+Subject Device:
+
+IPL HAIR REMOVAL, Model: TFDA06S
+
+510(k) number:
+
+K211174
+
+3. Predicate Device Information
+
+Sponsor
+
+Medical Device Branch of Zhangzhou
+Easepal Industrial Co.,Ltd.
+
+Kam Yuen Plastic Products Ltd.
+
+Device Name
+
+IPL Salon Hair Reduction System
+
+Aimanfun Lumea Comfort
+
+510(k) Number
+
+K181568
+
+K190820
+
+Regulation
+Number
+
+878.4810
+
+878.4810
+
+Regulation Class
+
+2
+
+2
+
+4. Device Description
+IPL HAIR REMOVAL, Model: TFDA06S, a portable device, is a prescription home-use device for
+the permanent reduction of hair growth based on Intense Pulsed Light (IPL). It works below the
+skin's surface and does not involve any cutting or pulling, reducing hair growth with minimal pain.
+It is a personal Light-Based Hair Removal System. Permanent hair reduction is defined as the
+long-term stable reduction in the number of hairs re-growing when measured at 6, 9 and 12
+months after the completion of a treatment regimen. Emission activation is by finger switch.
+Device includes IPL DEVICE, Power supply and User manual. It is used AC Powered (100-240 V
+AC). The weight of the device is 260g, and the size is 185.4 × 68.5 × 41.4mm (H*W*D). The
+device adopts the international photonic beauty IPL technology. The purpose of the light is to heat
+the root where the hair grows.
+5. Indications for Use
+The IPL HAIR REMOVAL Device (Model: TFDA06S) is indicated for the removal of unwanted hair
+under the direction of a physician，after training by a healthcare professional. The device is also
+indicated for the permanent reduction in hair regrowth, defined as the long-term, stable reduction
+in the number of hairs re-growing when measured at 6, 9 and 12 months after the completion of a
+treatment regime. The device is used for adults.
+6. Test Summary
+Non clinical testing:
+IPL HAIR REMOVAL (Model: TFDA06S) has been evaluated the safety and performance by lab
+bench testing as following:
+
+
+Electrical safety test according to IEC 60601-1, IEC60601-1-11 and IEC 60601-2-57
+standards
+
+
+
+Electromagnetic compatibility test according to IEC 60601-1-2 standard
+
+
+
+ISO 10993-5:2009/(R) 2014, Biological Evaluation of Medical Devices -- Part 5: Tests For In
+Vitro Cytotoxicity.
+
+
+
+ISO 10993-10:2010, Biological Evaluation of Medical Devices - Part 10: Tests for Irritation
+and Skin Sensitization.
+Page 2 of 4
+
+Sponsor:
+
+
+
+Shenzhen Qiaochengli Technology Co., Ltd.
+
+Subject Device:
+
+IPL HAIR REMOVAL, Model: TFDA06S
+
+510(k) number:
+
+K211174
+
+Software verification and validation test according to the requirements of the FDA “Guidance
+for PreMarket Submissions and for Software Contained in Medical Devices”
+
+Clinical testing: No clinical trial is necessary in the submission.
+
+7. Comparison to predicate device and conclusion
+The technological characteristics, features, specifications, materials, and intended use of IPL
+HAIR REMOVAL (Model: TFDA06S) is substantially equivalent to the predicate devices quoted
+above.
+
+The Substantial equivalence decision was based on the following comparison with the
+predicate devices:
+
+Elements of
+Comparison
+
+Subject Device
+
+Predicate Device I
+(Primary)
+
+Predicate Device (II)
+
+Remark
+
+Device Name
+and Model
+
+IPL HAIR REMOVAL,
+Model: TFDA06S
+
+IPL Salon Hair Reduction
+System, Model: F60001
+
+Aimanfun Lumea Comfort
+(Model: A-2788)
+
+--
+
+510(k) Number
+
+K211174
+
+K181568
+
+K190820
+
+--
+
+Manufacturer
+
+Shenzhen Qiaochengli
+Technology Co., Ltd.
+
+Medical Device Branch of
+Zhangzhou Easepal
+Industrial Co., Ltd.
+
+Kam Yuen Plastic Products
+Ltd.
+
+Indications for
+Use
+
+The IPL HAIR REMOVAL The IPL Salon Hair
+The Aimanfun Lumea
+Device (Model: TFDA06S) Reduction System (Model: Comfort (Model: A-2788) is
+is indicated for the removal F60001) is an over the
+indicated for patient
+of unwanted hair under the Counter device intended
+removal of unwanted hair
+direction of a physician， for the removal of
+by using a selective
+unwanted body and/or
+after training by a
+photothermal treatment
+facial hair in adults. It is
+healthcare professional.
+under the direction of a
+also intended for
+The device is also
+indicated for the permanent permanent reduction in
+physician，after training by
+reduction in hair regrowth, unwanted hair.
+a healthcare professional.
+defined as the long-term, Permanent hair reduction The Aimanfun Lumea
+is defined as the long-term
+stable reduction in the
+Comfort is also intended
+number of hairs re-growing stable reduction in the
+when measured at 6, 9 and number of hairs re-growing for permanent reduction in
+unwanted hair. Permanent
+when measured at 6. 9.
+12 months after the
+hair reduction is defined as
+completion of a treatment And 12 months after the
+regime. The device is used completion of a treatment the long-term stable
+regimen.
+for adults.
+reduction in the number of
+hairs regrowing when
+measured at 6. 9. and 12
+
+--
+
+Same
+
+Page 3 of 4
+
+Sponsor:
+
+Shenzhen Qiaochengli Technology Co., Ltd.
+
+Subject Device:
+
+IPL HAIR REMOVAL, Model: TFDA06S
+
+510(k) number:
+
+K211174
+
+Elements of
+Comparison
+
+Predicate Device I
+(Primary)
+
+Subject Device
+
+Remark
+
+Predicate Device (II)
+months after the
+completion of a treatment
+regimen.
+
+Source Energy
+
+Supplied by external
+adapter
+
+„Use‟
+Classification
+
+Supplied by external
+adapter
+
+Supplied by external
+adapter
+
+Same
+
+Same
+
+Prescription use
+
+OTC
+
+Prescription use
+
+Class II
+
+Class II
+
+Class II
+
+Device Type
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Same
+
+Wavelength (nm)
+
+470nm~1200nm
+
+475nm~1200nm
+
+475~1200nm
+
+Similar
+
+Max 4.83 [Joules/cm²]
+
+Max 5.0 [Joules/cm²]
+
+Max 4.5 [Joules/cm²]
+
+Spot Size (cm )
+
+2
+
+3 cm²
+
+1.72 cm²or 3.02 cm²
+
+3.0 cm²
+
+Same
+
+Pulse duration
+
+11-12 ms
+
+11-12 ms
+
+3 milliseconds
+
+Same
+
+Energy medium
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Xenon Arc Flashlamp
+
+Same
+
+Device
+Classification
+
+Max. Fluence
+2
+
+(J/cm )
+
+60601Complianc Yes
+e with Voluntary Comply with IEC 60601-1
+Standards
+and IEC 60601-1-2,
+IEC60601-2-57
+Weight
+Dimensions
+
+Yes
+
+Yes
+
+Comply with IEC 60601-1
+and IEC 60601-1-2,
+IEC60601-2-57
+
+Comply with IEC
+
+Same
+
+Similar
+
+Same
+
+60601-1 and IEC 60601-12,IEC60601-2-57
+
+260g
+
+650g
+
+200g
+
+Similar
+
+185.4*68.5*41.4 mm
+(H*W*D)
+
+143*69.5*43mm(H*W*D)
+
+138.9*82*47.3mm(H*W*D)
+
+Similar
+
+Finial Conclusion:
+Based on the nonclinical testing conducted, the subject device “IPL HAIR REMOVAL, Model:
+TFDA06S” is as safe, as effective, and performs as well as the legally marketed predicate
+devices.
+
+Page 4 of 4
+
+

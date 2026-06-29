@@ -1,0 +1,714 @@
+April 10, 2023
+
+Shenzhen Jizhimei Technology Co., Ltd.
+℅ Riley Chen
+Registration Engineer
+Feiying Drug & Medical Consulting Technical Service Group
+Rm 2401 Zhenye International Business Center, No. 3101-90
+Qianhai Road
+Shenzhen, Guangdong 518052
+China
+Re: K230360
+Trade/Device Name: IPL Cooling Hair Removal Device, Model(s): NBB01, NBB02
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: February 10, 2023
+Received: February 10, 2023
+Dear Riley Chen:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.06.01
+
+K230360 - Riley Chen
+
+Page 2
+
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+for
+
+Colin K. Chen -S
+Jianting Wang
+Acting Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Food and Drug Administration
+
+Form Approved: OMB No. 0910-0120
+Expiration Date: 06/30/2023
+
+Indications for Use
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+K230360
+
+Device Name
+
+IPL Cooling Hair Removal Device
+Model(s): NBB01, NBB02
+
+Indications for Use (Describe)
+
+The IPL Cooling Hair Removal Device is an over-the-counter device intended for removal of unwanted body and/or facial
+hair.
+
+Type of Use (Select one or both, as applicable)
+Prescription Use (Part 21 CFR 801 Subpart D)
+
+Over-The-Counter Use (21 CFR 801 Subpart C)
+
+CONTINUE ON A SEPARATE PAGE IF NEEDED.
+This section applies only to requirements of the Paperwork Reduction Act of 1995.
+*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*
+The burden time for this collection of information is estimated to average 79 hours per response, including the
+time to review instructions, search existing data sources, gather and maintain the data needed and complete
+and review the collection of information. Send comments regarding this burden estimate or any other aspect
+of this information collection, including suggestions for reducing this burden, to:
+Department of Health and Human Services
+Food and Drug Administration
+Office of Chief Information Officer
+Paperwork Reduction Act (PRA) Staff
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+FORM FDA 3881 (6/20)
+
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740
+
+EF
+
+K230360
+Shenzhen Jizhimei Technology Co., Ltd.
+
+510(k)s –Section 8. 510(k) Summary
+
+510(k) Summary
+"510(k) Summary" as required by 21 CFR Part 807.92.
+I.
+
+Submitter
+Shenzhen Jizhimei Technology Co., Ltd.
+Building A203, Building A/B, Zone B, Gonghe Community, Shajing Street, Baoan District,
+Shenzhen, China
+Post code: 518100
+Tel.: +86 0755-86953535
+Guo Miaosi
+Legal representative
+Tel: +86 15976876862
+Email: 794796654@qq.com
+
+II. Device
+Name of Device: IPL Cooling Hair Removal Device
+Model(s): NBB01, NBB02
+Common or Usual Name: Light Based Over-The-Counter Hair Removal
+Regulation Name: Laser surgical instrument for use in general and plastic surgery and in
+dermatology
+Regulatory Class: II
+Product Code: OHT
+Regulation Number: 21 CFR 878.4810
+
+III. Predicate Devices
+ Primary Predicate Device
+Manufacturer
+
+Primary Predicate Device
+
+510(k) Number
+
+Shenzhen
+Qianyu Hand-held IPL device (JOVS
+K220645
+Technology Co., Ltd.
+Hair Removal Device)
+
+Approval Date
+April 27, 2022
+
+ Secondary Predicate Device
+Manufacturer
+
+Predicate Device
+
+510(k) Number
+
+IPL Hair Removal Device,
+Shenzhen Ulike Smart
+Model(s): UI04A, UI04B, K221002
+Electronics Co.,Ltd
+UI04C
+
+IV. Device Description
+Page 1 of 6
+
+Approval Date
+June 1, 2022
+
+Shenzhen Jizhimei Technology Co., Ltd.
+
+510(k)s –Section 8. 510(k) Summary
+
+IPL Cooling Hair Removal Device, is an over-the-counter, home-use device for unwanted hair
+reduction by using Intense Pulsed Light (IPL), and it has been designed two models with the same
+IPL technology for hair removal, which is model NBB01 and NBB02. The device works below
+the skin’s surface and does not involve any cutting or pulling, reducing hair growth with minimal
+pain.
+The device is only powered by the external power adapter and its IPL emission activation is by
+finger switch. The IPL Cooling Hair Removal Device has an irreplaceable light exit and it can
+cover an area of 3.6cm2 that is suitable for multiple hair removal areas, such as face, lips,
+underarms, bikini lines, arms, legs, etc. The device contains a skin sensor to detect appropriate
+skin contact, if the light exit is not in full contact with the skin, the device cannot emit the
+treatment light pulses. Besides, the IPL Cooling Hair Removal Device has the cooling function,
+which will be activated throughout the whole hair removal process to cool down the treatment
+area’s temperature and provide the user with a better using experience.
+
+V. Indications for Use
+The IPL Cooling Hair Removal Device is an over-the-counter device intended for removal of
+unwanted body and/or facial hair.
+
+VI. Materials
+Component name
+
+Material of Component
+
+Body Contact Category
+
+Contact Duration
+
+IPL Cooling Hair
+Removal Device
+(Enclosure and
+light exit)
+
+PC, ABS
+
+Surface-contacting
+device: Intact skin
+
+Less than 24 hours
+
+We have tested the device for biocompatibility by a reliable third-party lab. For details, please refer
+to Section 16 “Biocompatibility Discussion”.
+
+VII.Comparison of Technological Characteristics With the Predicate Device
+The IPL Cooling Hair Removal Device (model: NBB01, NBB02) has the same intended use,
+mode of action and similar operational characteristics as the predicate devices. Any minor
+differences between the subject device and the listed predicate devices do no raise any issues of
+safety or efficacy. Performance data supports that the subject device is safe and as effective as the
+predicate devices for its intended use. Therefore, the IPL Cooling Hair Removal Device may be
+found substantially equivalent to its predicate devices.
+Comparison
+Elements
+510(k)
+Number
+Trade name
+
+Subject Device
+
+Primary Predicate Device
+
+K230360
+
+K220645
+
+K221002
+
+/
+
+Hand-held
+IPL
+device
+(JOVS
+Hair
+Removal
+Device)
+
+IPL
+Hair
+Removal
+Device,
+Model(s):
+UI04A, UI04B, UI04C
+
+/
+
+IPL
+Cooling
+Removal Device
+
+Hair
+
+Page 2 of 6
+
+Predicate Device
+
+Remark
+
+Shenzhen Jizhimei Technology Co., Ltd.
+
+510(k)s –Section 8. 510(k) Summary
+
+Comparison
+Elements
+
+Subject Device
+
+Primary Predicate Device
+
+Predicate Device
+
+Shenzhen
+Jizhimei
+Technology Co., Ltd.
+21 CFR 878.4810
+
+Shenzhen
+Qianyu
+Technology Co., Ltd.
+21 CFR 878.4810
+
+Shenzhen Ulike Smart
+Electronics Co.,Ltd
+21 CFR 878.4810
+
+OHT
+
+OHT
+
+OHT
+
+Same
+
+Class II
+
+Class II
+
+Class II
+
+Same
+
+The IPL Cooling Hair
+Removal Device is an
+over-the-counter device
+intended for removal of
+unwanted body and/or
+facial hair.
+
+Hand-held
+IPL
+device
+(JOVS
+Hair
+Removal
+Device) is an over-thecounter device intended for
+removal of unwanted body
+and/or facial hair.
+
+IPL
+Hair
+Removal
+Device is indicated for
+the removal of unwanted
+hair. The device is also
+indicated
+for
+the
+permanent reduction in
+hair regrowth, defined as
+the long-term, stable
+reduction in the number
+of hairs regrowing when
+measured at 6, 9 and 12
+months
+after
+the
+completion of a treatment
+regime.
+
+Same
+
+OTC
+
+OTC
+
+OTC
+
+Same
+
+Fitzpatrick skin types I-V
+
+Unknown
+
+Fitzpatrick skin types I-V
+
+Same
+
+100-240V, 50/60Hz
+
+Unknown
+
+100-240V, 50/60Hz
+
+Same
+
+external Supplied by external
+adapter
+
+Supplied by external
+adapter
+
+Same
+
+Unknown
+
+60.5(W)x38(H)x169.7(L)
+mm
+
+Different
+Note 1
+
+No
+
+No
+
+Same
+
+550-1200mm
+
+590nm~1200nm
+
+550-1200mm
+
+Same
+
+Light source
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Intense Pulsed Light
+
+Same
+
+Energy
+medium
+
+Xenon Arc Flashlamp
+
+Xenon lamp
+
+Xenon Arc Flashlamp
+
+Same
+
+Energy
+density
+
+2~5./cm² (applicable for
+model NBB01)
+2~4J/cm² (applicable for
+model NBB02)
+
+1.83~5.14J/cm²
+
+3.03-5.3J/cm²
+
+Similar
+Note 2
+
+Manufacturer
+Regulation
+number
+Product code
+Device
+classification
+
+Indication for
+use/ Intended
+use
+
+Prescription
+or OTC
+Applicable
+skin
+Source energy
+Power supply
+
+Dimension
+Sterilization
+Wavelength
+range
+
+Supplied
+adapter
+
+by
+
+NBB01:
+47.6*54.3*240 mm
+NBB02-MAX:
+235*76*43 mm
+No
+
+Page 3 of 6
+
+Remark
+/
+Same
+
+Shenzhen Jizhimei Technology Co., Ltd.
+
+510(k)s –Section 8. 510(k) Summary
+
+Comparison
+Elements
+
+Output energy
+
+Subject Device
+
+Primary Predicate Device
+
+Model NBB01:
+8 ~ 17.05J
+
+Predicate Device
+
+Remark
+
+6.4~18 J
+
+10~17.5J
+
+Similar
+Note 2
+
+Unknown
+
+5 levels
+
+Similar
+
+3.5cm²
+
+3.3cm²
+
+Similar
+
+6.4-7.2ms
+
+5.5~9.5 ms
+
+7-10ms
+
+Similar
+Note 3
+
+Finger switch
+
+Finger switch
+
+Finger switch
+
+Same
+
+Direct illumination tissue
+
+Direct
+tissue
+
+Yes
+
+Yes
+
+Yes
+
+ISO10993-5
+ISO10993-10
+
+Unknown
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-83
+
+Model NBB02:
+7.14 ~ 13.62J
+Output
+intensity level
+Spot size
+Pulse duration
+Pulsing
+control
+Delivery
+device
+Software/
+Firmware/
+Microprocess
+or Control?
+Biocompatibil
+ity
+Electrical
+Safety
+
+NBB01: 5 levels
+NBB02: 6 levels
+3.6cm² (applicable for
+model
+NBB01
+and
+NBB02)
+
+Direct
+tissue
+
+illumination
+
+to
+
+illumination
+
+to
+
+ISO10993-5
+ISO10993-10
+IEC 60601-1-2
+IEC 60601-1-11
+ANSI AAMI ES60601-1
+IEC 60601-2-57
+IEC 60601-2-83
+
+Same
+
+Same
+
+Same
+
+Same
+
+Note 1:
+Though the dimension is different from the predicate device, this difference is insignificant and
+do not raise any safety/effectiveness problems.
+Note 2:
+Though the energy density and the output energy of subject device is a little different from the
+primary predicate device, the energy density and the output energy of subject device is within the
+range of the minimum and maximum value of the primary predicate device, and the device
+complies with IEC 60601-2-83 and IEC 62471 requirements, so this difference will not raise any
+safety or effectiveness issue.
+Note 3:
+Though the pulse duration of subject device is different from the primary predicate device, it’s
+basically within the range of the primary predicate device, and the subject device complies with
+Page 4 of 6
+
+Shenzhen Jizhimei Technology Co., Ltd.
+
+510(k)s –Section 8. 510(k) Summary
+
+IEC IEC 60601-2-83 and IEC 62471 requirements, so this difference will not raise any safety or
+effectiveness issue.
+
+VIII. Performance Data
+The following performance data were provided in support of the substantial equivalence
+determination.
+1) Biocompatibility Testing
+The biocompatibility evaluation for the body-contacting components of the IPL Cooling Hair
+Removal Device was conducted in accordance with the “Use of International Standard ISO
+10993-1, 'Biological Evaluation of Medical Devices –Part 1: Evaluation and Testing Within a
+Risk Management Process, Document Issued on September 4, 2020”, as recognized by FDA.
+The following testing was performed to, and passed, including:
+ ISO 10993-5:2009 Biological Evaluation of Medical Devices –Part 5: Tests for In Vitro
+Cytotoxicity
+ ISO 10993-10:2010 Biological Evaluation of Medical Devices –Part 10: Tests for Irritation
+and Skin Sensitization
+2) Electrical Safety and EMC
+Electrical safety and EMC testing was performed to, and passed, the following standards:
+ ANSI AAMI ES60601-1 Medical electrical equipment –Part 1: General requirements for basic
+safety and essential performance
+ IEC 60601-1-2 Medical electrical equipment - Part 1-2: General requirements for basic safety
+and essential performance - Collateral Standard: Electromagnetic disturbances Requirements and tests
+ IEC 60601-1-11 Medical Electrical Equipment –Part 1: General Requirements for Basic
+Safety and Essential Performance –Collateral Standard: Requirements for Medical Electrical
+Equipment and Medical Electrical Systems Used in the Home Healthcare Environment
+ IEC 60601-2-83 Medical electrical equipment - Part 2-83: Particular requirements for the basic
+safety and essential performance of home light therapy equipment
+3) Eye Safety
+ IEC 62471 Photobiological safety of lamps and lamp systems
+4) Software Verification and Validation
+Software documentation consistent with moderate level of concern was submitted in this 510(k).
+System validation testing presented in this 510(k) demonstrated that all software requirement
+specifications are met and all software hazards have been mitigated to acceptable risk levels.
+IX. Conclusions
+
+Page 5 of 6
+
+Shenzhen Jizhimei Technology Co., Ltd.
+
+510(k)s –Section 8. 510(k) Summary
+
+Based on the above analysis and non-clinical tests performed, it can be concluded that the subject
+device IPL Cooling Hair Removal Device is as safe, as effective, and performs as well as the
+legally marketed predicate devices.
+
+Page 6 of 6
+
+

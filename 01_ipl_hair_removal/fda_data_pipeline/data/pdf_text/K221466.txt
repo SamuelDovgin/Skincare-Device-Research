@@ -1,0 +1,506 @@
+August 12, 2022
+Shenzhen Century Dongyuan Technology Co Ltd.
+℅ You Yijie
+Manager
+Qimmiq Medical Consulting Service Co., Ltd.
+RM.406, Building C, Run Science Park,
+No.18 Shenzhou Road, Huangpu
+Guangzhou, Guangdong 510663
+China
+Re: K221466
+Trade/Device Name: IPL Hair Removal Device, model: AI01, AI06, AI08, AI16, AI17
+Regulation Number: 21 CFR 878.4810
+Regulation Name: Laser Surgical Instrument For Use In General And Plastic Surgery And In
+Dermatology
+Regulatory Class: Class II
+Product Code: OHT
+Dated: May 19, 2022
+Received: May 19, 2022
+Dear You Yijie:
+We have reviewed your Section 510(k) premarket notification of intent to market the device referenced
+above and have determined the device is substantially equivalent (for the indications for use stated in the
+enclosure) to legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the
+enactment date of the Medical Device Amendments, or to devices that have been reclassified in accordance
+with the provisions of the Federal Food, Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA). You may, therefore, market the device, subject to the general
+controls provisions of the Act. Although this letter refers to your product as a device, please be aware that
+some cleared products may instead be combination products. The 510(k) Premarket Notification Database
+located at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm identifies combination
+product submissions. The general controls provisions of the Act include requirements for annual registration,
+listing of devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability warranties. We
+remind you, however, that device labeling must be truthful and not misleading.
+If your device is classified (see above) into either class II (Special Controls) or class III (PMA), it may be
+subject to additional controls. Existing major regulations affecting your device can be found in the Code of
+Federal Regulations, Title 21, Parts 800 to 898. In addition, FDA may publish further announcements
+concerning your device in the Federal Register.
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+www.fda.gov
+
+Doc ID# 04017.05.00
+
+K221466 - You Yijie
+
+Page 2
+
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean that FDA
+has made a determination that your device complies with other requirements of the Act or any Federal
+statutes and regulations administered by other Federal agencies. You must comply with all the Act's
+requirements, including, but not limited to: registration and listing (21 CFR Part 807); labeling (21 CFR Part
+801); medical device reporting (reporting of medical device-related adverse events) (21 CFR 803) for
+devices or postmarketing safety reporting (21 CFR 4, Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reportingcombination-products); good manufacturing practice requirements as set forth in the quality systems (QS)
+regulation (21 CFR Part 820) for devices or current good manufacturing practices (21 CFR 4, Subpart A) for
+combination products; and, if applicable, the electronic product radiation control provisions (Sections 531542 of the Act); 21 CFR 1000-1050.
+Also, please note the regulation entitled, "Misbranding by reference to premarket notification" (21 CFR Part
+807.97). For questions regarding the reporting of adverse events under the MDR regulation (21 CFR Part
+803), please go to https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reportingmdr-how-report-medical-device-problems.
+For comprehensive regulatory information about medical devices and radiation-emitting products, including
+information about labeling regulations, please see Device Advice (https://www.fda.gov/medicaldevices/device-advice-comprehensive-regulatory-assistance) and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn). Additionally, you may contact the
+Division of Industry and Consumer Education (DICE) to ask a question about a specific regulatory topic. See
+the DICE website (https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatoryassistance/contact-us-division-industry-and-consumer-education-dice) for more information or contact DICE
+by email (DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+Sincerely,
+
+Jianting Wang -S
+Jianting Wang
+Acting Assistant Director
+DHT4A: Division of General Surgery Devices
+OHT4: Office of Surgical
+and Infection Control Devices
+Office of Product Evaluation and Quality
+Center for Devices and Radiological Health
+Enclosure
+
+'(3$570(172)+($/7+$1'+80$16(59,&(6
+)RRGDQG'UXJ$GPLQLVWUDWLRQ
+
+)RUP$SSURYHG20%1R
+([SLUDWLRQ'DWH
+
+,QGLFDWLRQVIRU8VH
+
+See PRA Statement below.
+
+ N 1XPEHU(if known)
+
+K221466
+'HYLFH1DPH
+
+,3/+DLU5HPRYDO'HYLFHPRGHO$,$,$,$,$,
+
+,QGLFDWLRQVIRU8VH(Describe)
+
+7KH,3/+DLU5HPRYDO'HYLFH 0RGHO$,$,$,$,$, LVLQWHQGHGIRUWKHUHPRYDORIXQZDQWHGERG\
+KDLU
+
+7\SHRI8VH(Select one or both, as applicable)
+
+•
+
+3UHVFULSWLRQ8VH 3DUW&)56XESDUW' 
+
+2YHU7KH&RXQWHU8VH &)56XESDUW& 
+
+&217,18(21$6(3$5$7(3$*(,)1(('('
+7KLVVHFWLRQDSSOLHVRQO\WRUHTXLUHPHQWVRIWKH3DSHUZRUN5HGXFWLRQ$FWRI
+'21276(1'<285&203/(7(')250727+(35$67$))(0$,/$''5(66%(/2:
+7KHEXUGHQWLPHIRUWKLVFROOHFWLRQRILQIRUPDWLRQLVHVWLPDWHGWRDYHUDJHKRXUVSHUUHVSRQVHLQFOXGLQJWKH
+WLPHWRUHYLHZLQVWUXFWLRQVVHDUFKH[LVWLQJGDWDVRXUFHVJDWKHUDQGPDLQWDLQWKHGDWDQHHGHGDQGFRPSOHWH
+DQGUHYLHZWKHFROOHFWLRQRILQIRUPDWLRQ6HQGFRPPHQWVUHJDUGLQJWKLVEXUGHQHVWLPDWHRUDQ\RWKHUDVSHFW
+RIWKLVLQIRUPDWLRQFROOHFWLRQLQFOXGLQJVXJJHVWLRQVIRUUHGXFLQJWKLVEXUGHQWR
+'HSDUWPHQWRI+HDOWKDQG+XPDQ6HUYLFHV
+)RRGDQG'UXJ$GPLQLVWUDWLRQ
+2IILFHRI&KLHI,QIRUPDWLRQ2IILFHU
+3DSHUZRUN5HGXFWLRQ$FW 35$ 6WDII
+PRAStaff@fda.hhs.gov
+“An agency may not conduct or sponsor, and a person is not required to respond to, a collection of
+information unless it displays a currently valid OMB number.”
+)250)'$ 
+
+Page 1 of 1
+
+36&3XEOLVKLQJ6HUYLFHV  ()
+
+K221466
+
+Page 1 of 4
+
+Section 5: 510(K) Summary
+1. Submitter’s Information
+Establishment Registration Information:
+Name:
+Shenzhen Century Dongyuan Technology Co Ltd.
+Address:
+Floor 2, Building B1, Gonghe Fourth Industrial Zone,
+Shajing Street, Bao'an District, Shenzhen City,
+Guangdong Province China
+Contact Person of applicant:
+Name:
+He Wang
+Address:
+Floor 2, Building B1, Gonghe Fourth Industrial
+Zone, Shajing Street, Bao'an District, Shenzhen
+City, Guangdong Province China
+TEL:
++86 13798450554
+Email:
+aijofi01@163.com
+Contact Person of the Submission:
+Name:
+You Yijie
+Address:
+RM.406, Building C, Run Science Park, No.18
+Shenzhou Road, Huangpu, Guangzhou,
+Guangdong 510663 P.R.China
+TEL:
+(+86)020-82245821
+FAX:
+(+86)020-82245821
+Email:
+jet.you@qimmiq-med.com
+Date prepared: May 13, 2022
+
+2. Device Information
+Trade Name:
+Classification name:
+Common or Usual Name:
+Review panel:
+Product code:
+Regulation Class:
+Regulation Number:
+
+IPL Hair Removal Device, model: AI01, AI06, AI08, AI16,
+AI17
+Light Based Over-The-Counter Hair Removal
+Powered Light Based Non-Laser Surgical Instrument With
+Thermal Effect
+General & Plastic Surgery
+OHT
+II
+878.4810
+
+3. Predicate Device Information
+澳
+
+K221466
+
+510(k) submitter/holder:
+
+Page 2 of 4
+
+Trade Name:
+
+Shenzhen Century Dongyuan Technology Co
+Ltd.
+K212897
+IPL Hair Removal Device
+
+Model:
+
+AI01
+
+Classification name:
+
+Powered Light Based Non-Laser Surgical
+Instrument With Thermal Effect
+General & Plastic Surgery
+ONF
+II
+878.4810
+
+510(K) Number:
+
+Review panel:
+Product code:
+Regulation Class:
+Regulation Number:
+
+4. Device description
+IPL Hair Removal Device, models: AI01, AI06, AI08, AI16, AI17 are hand-held overthe-counter devices for the permanent reduction of hair growth based on Intense
+Pulsed Light (IPL). The device is powered by an external power adapter and its IPL
+emission activation is by finger switch. The device contains a Xenon arc flashlamp, a
+skin sensor to detect appropriate skin contact, and a skin color detection system to
+detect the skin color. If the device is not properly applied to the treatment area (in full
+contact with the skin), the device cannot emit the treatment light pulses. The skin
+color detection system detects whether a skin tone is suitable for treatment. If the
+skin tone is not in the range suitable for treatment, the device is designed to not emit
+the treatment light pulses. The light pulses are selectively absorbed by the hair
+follicles, which results in the hair follicles being temporarily heated. This results in a
+reduction of hair growth from the treated hair follicles.
+
+5. Indications for Use
+The IPL Hair Removal Device (Model: AI01, AI06, AI08, AI16, AI17) is intended for
+the removal of unwanted body hair.
+
+6. Summary of technological characteristics of device
+compared to the predicate devices (K212897)
+SE
+Comparisons
+
+Subject device
+(IPL Hair Removal Device,
+model: AI01, AI06, AI08, AI16, AI17)
+/
+21CFR 878.4810
+
+510K Number
+Classification
+
+Product Code
+
+OHT
+
+Predicate device
+(IPL Hair Removal Device,
+model: AI01)
+K212897
+21CFR 878.4810
+
+ONF
+
+Discussion of
+difference
+/
+Same
+
+Technical
+Method
+equivalent, have
+same
+Classification
+
+regulation
+澳
+
+K221466
+
+FDA Class
+Model
+
+Page 3 of 4
+
+II
+AI01, AI06, AI08, AI16, AI17
+The IPL Hair Removal Device (Model:
+AI01, AI06, AI08, AI16, AI17) is intended
+for the removal of unwanted body hair.
+Over-The-Counter Use
+
+II
+AI01
+The IPL Hair Removal Device
+(Model: AI01) is intended for the
+removal of unwanted body hair.
+Prescription Use
+
+Same
+/
+
+Hand-held
+
+Hand-held
+
+Same
+
+Patient Population
+
+Adult
+
+Adult
+
+Same
+
+Technology
+Dimensions
+Power source
+Light source
+Wavelength
+Spot Size
+Max. Fluence
+(J/cm2)
+Pulse duration
+Output energy
+Pulsing
+Control
+Skin contact sensor
+Skin Tone detection
+Software
+Control
+Electrical
+safety, EMC,
+Biological
+Evaluation
+
+Intense Pulse Light (IPL)
+140*203*56
+an external power supply
+Xenon Arc Flashlamp
+510nm~1100nm
+3.1 cm2
+
+Intense Pulse Light (IPL)
+140*203*56
+an external power supply
+Xenon Arc Flashlamp
+510nm~1100nm
+3.1 cm2
+
+3.8-5.2 J/cm²
+
+3.8-5.2 J/cm²
+
+Same
+Same
+Same
+Same
+Same
+Same
+Same
+
+3 milliseconds
+12-16 J
+
+3 milliseconds
+12-16 J
+
+Finger switch
+
+Finger switch
+
+Yes
+Yes
+
+Yes
+No
+
+Yes
+
+Yes
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-57
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+
+IEC 60601-1
+IEC 60601-1-2
+IEC 60601-1-11
+IEC 60601-2-57
+IEC 62471
+ISO 10993-5
+ISO 10993-10
+
+Indications for Use
+Type of use
+Design
+
+Same
+Different
+
+Same
+Same
+Same
+Same
+Different
+Same
+Same
+
+7. Discussion of Non-Clinical Tests Performed for Safety and
+effectiveness are as follows
+The modifications to the device have been designed and assessed under design
+control processes compliant with FDA 21 CFR 820. A risk analysis was conducted to
+assess the impact of the changes on the subject device using internal design control
+procedures and a fault tree analysis described in the FDA-recognized version of ISO
+14971.
+These risks were mitigated using planned measures that included testing to
+recognized FDA consensus standards. Changes in software were verified and
+validated using the software development process.
+Non-clinical testing listed in the table below was performed to demonstrate that the
+device can be used safely and effectively for the proposed indications for use.
+
+澳
+
+K221466
+
+Standards
+ANSI AAMI ES606011:2005/(R)2012 and
+A1:2012
+
+IEC 60601-1-2: 2014
+
+IEC 60601-1-11: 2015
+
+ISO 60601-2-57: 2011
+
+IEC 62471: 2006
+ISO 10993-5:2009
+ISO 10993-10:2010
+IEC
+62304:2006+A1:2015
+
+Standards Name
+Medical Electrical Equipment - Part 1:
+General Requirements For Basic Safety
+And Essential Performance
+Medical Electrical Equipment -- Part 12: General Requirements For Basic
+Safety And Essential Performance -Collateral Standard: Electromagnetic
+Disturbances -- Requirements And
+Tests
+Medical Electrical Equipment - Part 1-2:
+General Requirements For Basic Safety
+And Essential Performance - Collateral
+Standard: Electromagnetic
+Disturbances - Requirements And
+Tests
+Particular requirements for the basic
+safety and essential performance of
+non-laser light source equipment
+intended for therapeutic, diagnostic,
+monitoring and cosmetic/aesthetic use
+Photobiological safety of lamps and
+lamp systems
+Biological evaluation of medical devices
+- Part 5: Tests for in vitro cytotoxicity
+Biological evaluation of medical devices
+- Part 10: Tests for irritation and skin
+sensitization
+Medical device software - Software life
+cycle processes
+
+Page 4 of 4
+
+Results
+Pass
+Pass
+
+Pass
+
+Pass
+
+Pass
+Pass
+Pass
+Pass
+
+8. Discussion of Clinical Accuracy Testing Performed
+There was no clinical testing performed.
+
+9. Conclusions
+The subject device IPL Hair Removal Device models AI01, AI06, AI08, AI16, and
+AI17, in this 510(k) use the same IPL technology that is used in the predicate device
+K212897. Differences between the subject device models and predicate device do
+not raise new types of questions regarding safety and effectiveness, and
+performance testing demonstrates that the proposed device can be used safely and
+effectively for the proposed indications for use. The proposed IPL Hair Removal
+Device is considered to be substantially equivalent to the predicate K212897 device.澳
+
+澳
+
+
