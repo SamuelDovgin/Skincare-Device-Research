@@ -68,7 +68,7 @@
 
 ---
 
-## Shipping (to buyer location (redacted))
+## Shipping (to buyer location — address redacted)
 | Option | Cost | Transit |
 |---|---|---|
 | US Air Freight (tax/customs incl.) | $40 | 8–12 business days |
@@ -80,7 +80,7 @@
 
 ## Order Status (as of 2026-06-12)
 - 06-11: Agreed to order **1x T055, white** (or black with 3rd-party logo if available), 25J triple-pulse version
-- Shipping address provided: (personal address redacted)
+- Shipping address provided to rep *(personal address redacted — kept private)*
 - 06-12: Order card created for **T055 black**; quoted total **$72.80** = $53 product (new-customer discount) + $14.50 sea freight (Alibaba Logistics DAP, 31–44 business days) + $5.30 platform tax. Pending buyer tax ID + payment; rep offered next-day shipment after payment.
 - 06-12: Buyer paused — realized 25J is a 3-pulse total, pivoted interest to T023 IGBT / T058; rep then confirmed T023 IGBT is *also* 3-pulse total (for the 25J headline) and T058 is unavailable
 - 06-14: Rep sent T023A measurement video — single flash 18.23J, double flash 19.42J total. Reframes the T023A as a genuine single-pulse 6.08 J/cm² device (see T023 IGBT section above)
