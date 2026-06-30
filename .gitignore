@@ -1,0 +1,5 @@
+# transient backups (viewer regenerator writes these)
+*.bak
+*.orig
+*.tmp
+*~
