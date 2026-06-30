@@ -60,6 +60,51 @@ pre.raw{background:#1f2430;color:#e7e9ee;padding:18px 20px;border-radius:10px;ov
 .cell .cap{font-size:11px;color:var(--muted);padding:4px 6px;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .note{font-size:12px;color:var(--muted);margin:2px 0 14px}
 @media(max-width:860px){.layout{flex-direction:column}.side{position:static;width:100%;flex:1}.doc{padding:20px}}
+
+/* cite-enhance */
+.cite{display:inline-block;font:inherit;border:0;background:transparent;padding:0;margin:0 .5px;cursor:pointer;color:var(--accent);font-weight:600;border-bottom:1px dotted currentColor;line-height:inherit}
+.cite::before{content:"["}.cite::after{content:"]"}
+.cite:hover,.cite:focus,.cite.on{color:var(--accent2);outline:none;background:rgba(0,0,0,.04);border-radius:3px}
+#citebackdrop{position:fixed;inset:0;background:rgba(15,18,24,.45);z-index:9998;opacity:0;transition:opacity .15s}
+#citebackdrop[hidden]{display:none}#citebackdrop.show{opacity:1}
+#citepop{position:fixed;z-index:9999;max-width:390px;width:max-content}
+#citepop[hidden]{display:none}
+#citepop .cp-card{position:relative;background:var(--card,#fff);color:var(--ink,#1f2430);border:1px solid var(--line,#e5e7eb);border-radius:12px;box-shadow:0 12px 38px rgba(0,0,0,.20);padding:13px 15px;font-size:13px;line-height:1.5;max-height:60vh;overflow:auto}
+#citepop .cp-src{font-weight:700;font-size:11.5px;letter-spacing:.02em;color:var(--accent);margin:0 28px 6px 0;text-transform:uppercase}
+#citepop .cp-quote{color:var(--ink,#1f2430)}
+#citepop .cp-quote.cp-empty{color:var(--muted,#6b7280);font-style:italic}
+#citepop .cp-link{display:inline-block;margin-top:11px;font-size:12px;font-weight:600;color:var(--accent);text-decoration:none}
+#citepop .cp-link:hover{text-decoration:underline}
+#citepop .cp-close{position:absolute;top:6px;right:8px;border:0;background:transparent;color:var(--muted,#6b7280);font-size:20px;line-height:1;cursor:pointer;padding:2px 6px;display:none}
+#citepop.sheet{left:0;right:0;bottom:0;top:auto!important;max-width:none;width:auto}
+#citepop.sheet .cp-card{border-radius:16px 16px 0 0;border-left:0;border-right:0;border-bottom:0;padding:18px 20px calc(26px + env(safe-area-inset-bottom));font-size:15px;max-height:72vh}
+#citepop.sheet .cp-src{font-size:12px}
+#citepop.sheet .cp-close{display:block;font-size:26px;top:10px;right:12px}
+#citepop.sheet .cp-link{font-size:14px}
+
+/* ---- Start-here guided landing ---- */
+.navbtn-start{background:linear-gradient(100deg,var(--accent),var(--accent2));color:#fff;font-weight:700;margin-bottom:8px}
+.navbtn-start:hover{opacity:.93;background:linear-gradient(100deg,var(--accent),var(--accent2))}
+.navbtn-start.active{background:linear-gradient(100deg,var(--accent),var(--accent2));color:#fff;opacity:1}
+.st-lead{font-size:14.5px;color:#374151;margin:-6px 0 22px;max-width:780px}
+.st-hero{display:block;width:100%;text-align:left;cursor:pointer;border:1px solid var(--accent);border-left:5px solid var(--accent);background:#fff;border-radius:12px;padding:16px 18px;margin:0 0 8px;transition:.15s}
+.st-hero:hover{box-shadow:0 6px 18px rgba(0,0,0,.08);transform:translateY(-1px)}
+.st-kick{font-size:11px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--accent)}
+.st-hero h3{margin:6px 0 4px;font-size:18.5px;color:var(--ink)}
+.st-hero p{margin:0;font-size:13.5px;color:var(--muted)}
+.st-hero .st-go{display:inline-block;margin-top:10px;font-size:13px;font-weight:700;color:var(--accent)}
+.st-h{font-size:12.5px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin:28px 0 12px;font-weight:700}
+.st-path{list-style:none;counter-reset:st;margin:0;padding:0;display:grid;gap:10px}
+.st-path li{counter-increment:st;display:flex;gap:14px;align-items:flex-start;cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:12px 14px;background:var(--card);transition:.15s}
+.st-path li:hover{border-color:var(--accent);transform:translateX(2px);box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.st-path li::before{content:counter(st);flex:0 0 26px;height:26px;width:26px;margin-top:1px;border-radius:50%;background:var(--accent);color:#fff;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center}
+.st-path b{display:block;font-size:14.5px;color:var(--ink)}
+.st-path em{font-style:normal;font-size:12.5px;color:var(--muted)}
+.st-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px}
+.st-chip{display:block;text-align:left;text-decoration:none;cursor:pointer;border:1px solid var(--line);border-radius:9px;padding:10px 12px;background:var(--card);font-size:13.5px;font-weight:600;color:var(--ink);transition:.15s}
+.st-chip:hover{border-color:var(--accent);background:#fafbfc}
+.st-chip span{display:block;font-size:11.5px;font-weight:400;color:var(--muted);margin-top:2px}
+.st-chip.int{border-color:var(--accent);background:linear-gradient(100deg,rgba(0,0,0,.02),transparent)}
 </style></head><body>
 <div class="topbar">
   <a class="home" href="../index.html">← All Research</a>
@@ -68,6 +113,7 @@ pre.raw{background:#1f2430;color:#e7e9ee;padding:18px 20px;border-radius:10px;ov
 </div>
 <div class="layout">
   <nav class="side">
+    <button class="navbtn navbtn-start" data-t="start">🧭 Start here</button>
     <h3>Documents</h3>
     <button class="navbtn" data-t="doc0">Tria Precision Marketplace Assessment</button>
 <button class="navbtn" data-t="doc1">Used Tria Value And Wear Pricing</button>
@@ -77,6 +123,22 @@ pre.raw{background:#1f2430;color:#e7e9ee;padding:18px 20px;border-radius:10px;ov
 <a class="navbtn" href="#data">🗂️ Data files (1)</a>
   </nav>
   <div class="main">
+    <section class="doc" id="start">
+    <h1>Start here</h1>
+    <p class="st-lead">A short thread that evaluates one concrete opportunity — a <b>$50 used Tria Precision</b> — and the 810nm diode-laser landscape around it.</p>
+    <div class="st-hero" data-go="doc0" role="button" tabindex="0"><div class="st-kick">Read this first</div><h3>Is the $50 Tria Precision worth it?</h3><p>The verdict: a conditional yes — but only as a small-area dark-hair tool, not for the pigment/redness goal. How it stacks up against the IPL shortlist.</p><span class="st-go">Open this document →</span></div>
+    <div class="st-h">Then read, in order</div>
+    <ol class="st-path">
+    <li data-go="doc2" role="button" tabindex="0"><div><b>810nm diode alternatives vs IPL</b><em>The wider field — DermRays / CurrentBody, Epilaser, SilkPro, prosumer — and when IPL still wins.</em></div></li>
+    <li data-go="doc1" role="button" tabindex="0"><div><b>Used Tria value &amp; wear pricing</b><em>What used Trias actually sell for, the cosmetic/battery wear model, and $40/$45/$50 negotiation thresholds.</em></div></li>
+    <li data-go="doc3" role="button" tabindex="0"><div><b>Marketplace seller activity analysis</b><em>Deep dive on the specific listing — age, batch-posting, and sold-history caveats.</em></div></li>
+    </ol>
+    <div class="st-h">Source files</div>
+    <div class="st-grid">
+    <div class="st-chip" data-go="pdfs" role="button" tabindex="0">📄 Source PDFs<span>Tria 4X &amp; Precision IFUs</span></div>
+    <div class="st-chip" data-go="data" role="button" tabindex="0">🗂️ Data files<span>Sanitized marketplace snapshot</span></div>
+    </div>
+    </section>
     <section class="doc" id="doc0"><div class="dtools"><span class="dpath">📄 09_tria_precision_marketplace_assessment.md</span><span class="spacer"></span><span class="seg"><button class="segbtn active" data-for="doc0" data-mode="r">Rendered</button><button class="segbtn" data-for="doc0" data-mode="m">Raw&nbsp;.md</button></span><a class="openmd" href="09_tria_precision_marketplace_assessment.md" target="_blank" rel="noopener">Open file ↗</a></div><div class="rendered" id="doc0_r"></div><pre class="raw" id="doc0_m" hidden></pre></section>
 <section class="doc" id="doc1"><div class="dtools"><span class="dpath">📄 10_used_tria_value_and_wear_pricing.md</span><span class="spacer"></span><span class="seg"><button class="segbtn active" data-for="doc1" data-mode="r">Rendered</button><button class="segbtn" data-for="doc1" data-mode="m">Raw&nbsp;.md</button></span><a class="openmd" href="10_used_tria_value_and_wear_pricing.md" target="_blank" rel="noopener">Open file ↗</a></div><div class="rendered" id="doc1_r"></div><pre class="raw" id="doc1_m" hidden></pre></section>
 <section class="doc" id="doc2"><div class="dtools"><span class="dpath">📄 11_810nm_diode_laser_alternatives_vs_ipl.md</span><span class="spacer"></span><span class="seg"><button class="segbtn active" data-for="doc2" data-mode="r">Rendered</button><button class="segbtn" data-for="doc2" data-mode="m">Raw&nbsp;.md</button></span><a class="openmd" href="11_810nm_diode_laser_alternatives_vs_ipl.md" target="_blank" rel="noopener">Open file ↗</a></div><div class="rendered" id="doc2_r"></div><pre class="raw" id="doc2_m" hidden></pre></section>
@@ -120,6 +182,116 @@ function setMode(id,mode){
 render();
 document.querySelectorAll('.navbtn[data-t]').forEach(b=>b.onclick=()=>show(b.dataset.t));
 document.querySelectorAll('.segbtn').forEach(b=>b.onclick=()=>setMode(b.dataset.for,b.dataset.mode));
-const first=document.querySelector('.navbtn[data-t]'); if(first)show(first.dataset.t);
+document.querySelectorAll('[data-go]').forEach(el=>{el.addEventListener('click',()=>show(el.dataset.go));el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();show(el.dataset.go);}});});
+document.querySelectorAll('.side a.navbtn[href^="#"]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();location.hash=a.getAttribute('href').slice(1);}));
+function showHash(){var h=decodeURIComponent(location.hash.slice(1));var t=h&&document.getElementById(h);if(t&&t.classList.contains('doc')){show(h);return true;}return false;}
+window.addEventListener('hashchange',showHash);
+if(!showHash())show('start');
 </script>
+<script>/*cite-enhance*/
+(function(){
+  if(window.__citeEnhanced) return; window.__citeEnhanced=true;
+  var back=document.createElement('div'); back.id='citebackdrop'; back.hidden=true;
+  var pop=document.createElement('div'); pop.id='citepop'; pop.hidden=true;
+  pop.setAttribute('role','dialog'); pop.setAttribute('aria-modal','false'); pop.setAttribute('aria-live','polite');
+  pop.innerHTML='<div class="cp-card"><button type="button" class="cp-close" aria-label="Close">×</button><div class="cp-src"></div><div class="cp-quote"></div><a class="cp-link" target="_blank" rel="noopener">Open full source ↗</a></div>';
+  document.body.appendChild(back); document.body.appendChild(pop);
+  var srcEl=pop.querySelector('.cp-src'), qEl=pop.querySelector('.cp-quote'),
+      linkEl=pop.querySelector('.cp-link'), closeEl=pop.querySelector('.cp-close');
+  var canHover=window.matchMedia('(hover:hover) and (pointer:fine)').matches;
+  var hideT=null, current=null;
+
+  function fill(el){
+    srcEl.textContent=el.dataset.title||('Source '+el.dataset.n);
+    var ev=el.dataset.evidence||'';
+    if(ev){qEl.textContent=ev; qEl.classList.remove('cp-empty');}
+    else{qEl.textContent='No quote was extracted for this source — open it to read the original.'; qEl.classList.add('cp-empty');}
+    if(el.dataset.url){linkEl.href=el.dataset.url; linkEl.style.display='';}
+    else linkEl.style.display='none';
+  }
+  function setCur(el){ if(current)current.classList.remove('on'); current=el; if(el)el.classList.add('on'); }
+  function positionFloat(el){
+    var r=el.getBoundingClientRect(), pr=pop.getBoundingClientRect();
+    var top=r.top-pr.height-8; if(top<8) top=r.bottom+8;
+    top=Math.max(8,Math.min(top,window.innerHeight-pr.height-8));
+    var left=r.left+r.width/2-pr.width/2;
+    left=Math.max(8,Math.min(left,window.innerWidth-pr.width-8));
+    pop.style.top=top+'px'; pop.style.left=left+'px';
+  }
+  function openFloat(el){
+    clearTimeout(hideT); setCur(el); fill(el);
+    pop.classList.remove('sheet'); back.hidden=true;
+    pop.style.visibility='hidden'; pop.hidden=false;
+    requestAnimationFrame(function(){ positionFloat(el); pop.style.visibility=''; });
+  }
+  function openSheet(el){
+    clearTimeout(hideT); setCur(el); fill(el);
+    pop.classList.add('sheet'); pop.style.top=''; pop.style.left='';
+    back.hidden=false; pop.hidden=false;
+    requestAnimationFrame(function(){ back.classList.add('show'); });
+  }
+  function close(){ pop.hidden=true; back.hidden=true; back.classList.remove('show'); pop.classList.remove('sheet'); setCur(null); }
+  function scheduleHide(){ hideT=setTimeout(close,160); }
+
+  pop.addEventListener('mouseenter',function(){ if(canHover) clearTimeout(hideT); });
+  pop.addEventListener('mouseleave',function(){ if(canHover) scheduleHide(); });
+  closeEl.addEventListener('click',close);
+  back.addEventListener('click',close);
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape') close(); });
+  window.addEventListener('scroll',function(){ if(current && !pop.classList.contains('sheet')) close(); },true);
+  window.addEventListener('resize',close);
+
+  function bind(el){
+    if(canHover){
+      el.addEventListener('mouseenter',function(){ clearTimeout(hideT); openFloat(el); });
+      el.addEventListener('mouseleave',scheduleHide);
+      el.addEventListener('focus',function(){ openFloat(el); });
+      el.addEventListener('blur',scheduleHide);
+      el.addEventListener('click',function(e){ e.preventDefault(); openFloat(el); });
+    }else{
+      el.addEventListener('click',function(e){ e.preventDefault(); (pop.hidden||current!==el)?openSheet(el):close(); });
+    }
+  }
+  function citeData(md){
+    var map={}, lines=md.split('\n');
+    var headRe=/^#{1,6}\s+.*\b(sources|references|bibliography)\b/i;
+    var last=-1; for(var i=0;i<lines.length;i++) if(headRe.test(lines[i])) last=i;
+    if(last<0) return map;
+    var entryRe=/^\s*(\d+)\.\s+(.*)$/, urlRe=/https?:\/\/[^\s)>\]]+/;
+    for(var j=last+1;j<lines.length;j++){
+      var ln=lines[j]; if(/^#{1,6}\s/.test(ln)) break;
+      var m=entryRe.exec(ln); if(!m) continue;
+      var n=m[1], rest=m[2], um=rest.match(urlRe), url='', title=rest, ev='';
+      if(um){ url=um[0].replace(/[.,;]+$/,''); title=rest.slice(0,um.index); ev=rest.slice(um.index+um[0].length); }
+      title=title.replace(/[*_`]/g,'').replace(/\s*[—–-]\s*$/,'').trim();
+      ev=ev.replace(/^\s*[—–-]\s*/,'').replace(/[*_`]/g,'').trim();
+      map[n]={title:title,url:url,evidence:ev};
+    }
+    return map;
+  }
+  function enhance(container,map){
+    if(!container||!Object.keys(map).length) return 0;
+    var n=0;
+    container.querySelectorAll('a').forEach(function(a){
+      var t=(a.textContent||'').trim(); var m=/^\[(\d+)\]$/.exec(t); if(!m) return;
+      var num=m[1], d=map[num]; if(!d) return;
+      var b=document.createElement('button');
+      b.className='cite'; b.type='button'; b.textContent=num;
+      b.dataset.n=num; b.dataset.title=d.title; b.dataset.evidence=d.evidence;
+      b.dataset.url=d.url||a.getAttribute('href')||'';
+      b.setAttribute('aria-label','Citation '+num+'. '+(d.title||'')+'. '+(d.evidence||''));
+      a.replaceWith(b); bind(b); n++;
+    });
+    return n;
+  }
+  function run(){
+    try{
+      if(typeof DOCS==='undefined') return;
+      DOCS.forEach(function(d){ enhance(document.getElementById(d.id+'_r'), citeData(d.md)); });
+    }catch(e){}
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',run); else run();
+})();
+</script>
+
 </body></html>

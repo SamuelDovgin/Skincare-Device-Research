@@ -8,19 +8,42 @@
 .c:hover{transform:translateY(-3px);border-color:var(--a)}
 .c .e{font-size:30px}.c h2{font-size:18px;margin:10px 0 6px}.c p{color:#9aa3b2;font-size:13px;margin:0 0 12px}
 .c .stat{font-size:12px;color:#cbd3e1;background:#0f1218;border:1px solid #242b38;border-radius:20px;padding:3px 10px;display:inline-block;margin-right:6px}
+.c .start{display:block;color:#cbd3e1;font-size:12.5px;background:#0f1218;border:1px solid #242b38;border-radius:9px;padding:8px 11px;margin-top:6px;cursor:pointer;transition:.15s}
+.c .start:hover{border-color:var(--a);color:#fff}
+.c .start b{color:var(--a);font-weight:600}
+.start-panel{background:#141925;border:1px solid #242b38;border-radius:16px;padding:22px 26px;margin:0 0 34px}
+.start-panel h2{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:#e7e9ee;margin:0 0 6px}
+.start-panel .sub{color:#9aa3b2;font-size:13px;margin:0 0 8px}
+.goal{display:grid;grid-template-columns:215px 1fr;gap:4px 22px;padding:13px 0;border-top:1px solid #242b38;align-items:baseline}
+.goal .gl{font-size:14.5px;font-weight:600;color:#e7e9ee}
+.goal .gl .tag{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:#fff;background:#e74c3c;border-radius:20px;padding:2px 8px;margin-left:6px;vertical-align:middle}
+.goal .gd{font-size:13.5px;color:#9aa3b2;line-height:1.55}
+.goal .gd a{color:#cbd3e1;font-weight:600;text-decoration:none;border-bottom:1px solid #3a4150}
+.goal .gd a:hover{color:#fff;border-color:#fff}
+.bl{font-size:13px;color:#9aa3b2;line-height:1.6;margin:16px 0 0;padding-top:16px;border-top:1px solid #242b38}
+.bl b{color:#e7e9ee}
+@media(max-width:600px){.goal{grid-template-columns:1fr;gap:3px}}
 .c .go{color:var(--a);font-size:13px;font-weight:600;margin-top:12px;display:inline-block}
 .foot{color:#6b7280;font-size:12px;margin-top:40px}
 </style></head><body><div class="wrap">
 <h1 class="h">🔬 Skincare Device Research</h1>
-<p class="s">A personal research archive on at-home skincare & light-therapy devices — spec analysis, FDA clearances, supplier sourcing, and buying recommendations across four device categories.</p>
+<p class="s">A personal research archive on at-home skincare & light-therapy devices — spec analysis, FDA clearances, supplier sourcing, and buying recommendations across <section class="start-panel">
+<h2>🧭 New here? Pick your goal</h2>
+<p class="sub">Each category opens to a guided <b>“Start here”</b> page with a recommended reading order. Or jump straight to the highest-value document for what you want to do:</p>
+<div class="goal"><div class="gl">Even skin tone, redness &amp; dark spots <span class="tag">primary goal</span></div><div class="gd">Don’t lead with IPL — it can <em>worsen</em> pigment in pigment-prone skin. Start with the reframe → <a href="01_ipl_hair_removal/index.html#doc7">IPL · Alternatives &amp; strategy</a> and the <a href="01_ipl_hair_removal/index.html#doc11">Skin-rejuvenation reality check</a>. For texture/collagen → <a href="03_fractional_laser_resurfacing/index.html">Fractional resurfacing</a>.</div></div>
+<div class="goal"><div class="gl">Remove hair</div><div class="gd">Go to <a href="01_ipl_hair_removal/index.html#doc6">IPL · Final recommendation</a> for the best-value pick. Weighing a used Tria laser? → <a href="02_diode_laser_hair_removal/index.html">Diode laser hair removal</a>.</div></div>
+<div class="goal"><div class="gl">Smooth texture &amp; build collagen</div><div class="gd">Start with <a href="03_fractional_laser_resurfacing/index.html">Fractional resurfacing · Overview</a>, then <a href="03_fractional_laser_resurfacing/index.html#doc2">In-office vs at-home</a> to set expectations.</div></div>
+<div class="goal"><div class="gl">Soothe pain / aid recovery</div><div class="gd">See <a href="04_red_light_therapy_handheld/index.html#doc3">Handheld red light · The decision</a> for the ranked pick.</div></div>
+<p class="bl"><b>Bottom line:</b> no at-home IPL device — branded or OEM — is FDA-cleared for anything but hair removal. For the hair goal the best OEM target is the <b>Fansizhe T023A</b>; the lowest-risk branded pick is the <b>Nood Flasher 2.0</b>. For pigment/redness, lead with tinted SPF + topicals + LED — not IPL.</p>
+</section>
 <div class="cards"><a class="c" style="--a:#e74c3c" href="01_ipl_hair_removal/index.html">
       <div class="e">💡</div><h2>IPL Hair Removal</h2>
-      <p>At-home IPL device research — FDA 510(k) clearances, supplier catalogs (Fansizhe / Semlamp), ideal specs, and a final recommendation.</p><span class="stat">14 docs</span><span class="stat">10 PDFs</span><div class="go">Open research →</div></a><a class="c" style="--a:#9b59b6" href="02_diode_laser_hair_removal/index.html">
+      <p>At-home IPL device research — FDA 510(k) clearances, supplier catalogs (Fansizhe / Semlamp), ideal specs, and a final recommendation.</p><span class="stat">14 docs</span><span class="stat">10 PDFs</span><span class="start" onclick="event.stopPropagation();event.preventDefault();location.href='01_ipl_hair_removal/index.html#doc6';">▶ Start with <b>Final recommendation</b></span><div class="go">Open research →</div></a><a class="c" style="--a:#9b59b6" href="02_diode_laser_hair_removal/index.html">
       <div class="e">🔦</div><h2>Diode Laser Hair Removal</h2>
-      <p>Tria 4X / Precision assessment, used-market value &amp; wear pricing, and 810nm diode laser alternatives vs IPL.</p><span class="stat">4 docs</span><span class="stat">3 PDFs</span><div class="go">Open research →</div></a><a class="c" style="--a:#1abc9c" href="03_fractional_laser_resurfacing/index.html">
+      <p>Tria 4X / Precision assessment, used-market value &amp; wear pricing, and 810nm diode laser alternatives vs IPL.</p><span class="stat">4 docs</span><span class="stat">3 PDFs</span><span class="start" onclick="event.stopPropagation();event.preventDefault();location.href='02_diode_laser_hair_removal/index.html#doc0';">▶ Start with <b>Is the $50 Tria worth it?</b></span><div class="go">Open research →</div></a><a class="c" style="--a:#1abc9c" href="03_fractional_laser_resurfacing/index.html">
       <div class="e">✨</div><h2>Fractional Laser Resurfacing</h2>
-      <p>At-home vs in-office, device landscape, the 1927nm vs 1450nm question, suppliers, sourcing templates &amp; owner&#x27;s guides.</p><span class="stat">14 docs</span><div class="go">Open research →</div></a><a class="c" style="--a:#e67e22" href="04_red_light_therapy_handheld/index.html">
+      <p>At-home vs in-office, device landscape, the 1927nm vs 1450nm question, suppliers, sourcing templates &amp; owner&#x27;s guides.</p><span class="stat">14 docs</span><span class="start" onclick="event.stopPropagation();event.preventDefault();location.href='03_fractional_laser_resurfacing/index.html';">▶ Start with <b>Thread overview</b></span><div class="go">Open research →</div></a><a class="c" style="--a:#e67e22" href="04_red_light_therapy_handheld/index.html">
       <div class="e">🔴</div><h2>Handheld Red Light Therapy</h2>
-      <p>11 Alibaba handheld RLT devices — full spec comparison, specs OCR&#x27;d from listing images, and a ranking for hands / back / carpal tunnel.</p><span class="stat">4 docs</span><span class="stat">92 images</span><div class="go">Open research →</div></a></div>
+      <p>11 Alibaba handheld RLT devices — full spec comparison, specs OCR&#x27;d from listing images, and a ranking for hands / back / carpal tunnel.</p><span class="stat">4 docs</span><span class="stat">92 images</span><span class="start" onclick="event.stopPropagation();event.preventDefault();location.href='04_red_light_therapy_handheld/index.html#doc3';">▶ Start with <b>The decision</b></span><div class="go">Open research →</div></a></div>
 <p class="foot">Self-contained static site · generated from the repository's markdown research. Open any card to browse that category's documents, tables, and source files.</p>
 </div></body></html>
