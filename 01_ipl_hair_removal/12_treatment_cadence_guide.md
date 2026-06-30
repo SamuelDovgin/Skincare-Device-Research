@@ -5,6 +5,8 @@
 
 > ⚠️ Not medical advice. This synthesizes peer-reviewed and clinical-guidance sources (AAD, StatPearls, PubMed/PMC, DermNet, Cleveland Clinic) plus manufacturer protocols. Always follow your device's manual and skin-tone chart, and see a dermatologist for irritation or pigment changes.
 
+> ⚡ **Interactive version:** [**Open the IPL Cadence Planner →**](cadence_planner.html) — toggle General/Aggressive protocols, see the treatment timeline, energy-ramp, results projection, body-area cadence, and cited research quotes, all tuned to this device. *(Open the `cadence_planner.html` file in a browser, or use the "Cadence Planner" link in the web viewer's sidebar.)*
+
 ---
 
 ## ⭐ The honest bottom line (read this first)
