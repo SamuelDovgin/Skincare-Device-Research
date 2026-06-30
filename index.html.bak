@@ -1,0 +1,26 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Skincare Device Research</title><link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20100%20100%27%3E%3Ctext%20y%3D%27.9em%27%20font-size%3D%2790%27%3E%F0%9F%94%AC%3C/text%3E%3C/svg%3E"><link rel="apple-touch-icon" href="appicon-180.png"><link rel="manifest" href="site.webmanifest"><meta name="theme-color" content="#0f1218"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Skincare Research"><style>
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:#0f1218;color:#e7e9ee;line-height:1.6}
+.wrap{max-width:1080px;margin:0 auto;padding:54px 22px}
+.h{font-size:34px;margin:0 0 6px}.s{color:#9aa3b2;margin:0 0 36px;font-size:15px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.c{display:block;text-decoration:none;color:#e7e9ee;background:#181d27;border:1px solid #242b38;border-radius:16px;padding:22px;transition:.15s}
+.c:hover{transform:translateY(-3px);border-color:var(--a)}
+.c .e{font-size:30px}.c h2{font-size:18px;margin:10px 0 6px}.c p{color:#9aa3b2;font-size:13px;margin:0 0 12px}
+.c .stat{font-size:12px;color:#cbd3e1;background:#0f1218;border:1px solid #242b38;border-radius:20px;padding:3px 10px;display:inline-block;margin-right:6px}
+.c .go{color:var(--a);font-size:13px;font-weight:600;margin-top:12px;display:inline-block}
+.foot{color:#6b7280;font-size:12px;margin-top:40px}
+</style></head><body><div class="wrap">
+<h1 class="h">🔬 Skincare Device Research</h1>
+<p class="s">A personal research archive on at-home skincare & light-therapy devices — spec analysis, FDA clearances, supplier sourcing, and buying recommendations across four device categories.</p>
+<div class="cards"><a class="c" style="--a:#e74c3c" href="01_ipl_hair_removal/index.html">
+      <div class="e">💡</div><h2>IPL Hair Removal</h2>
+      <p>At-home IPL device research — FDA 510(k) clearances, supplier catalogs (Fansizhe / Semlamp), ideal specs, and a final recommendation.</p><span class="stat">14 docs</span><span class="stat">10 PDFs</span><div class="go">Open research →</div></a><a class="c" style="--a:#9b59b6" href="02_diode_laser_hair_removal/index.html">
+      <div class="e">🔦</div><h2>Diode Laser Hair Removal</h2>
+      <p>Tria 4X / Precision assessment, used-market value &amp; wear pricing, and 810nm diode laser alternatives vs IPL.</p><span class="stat">4 docs</span><span class="stat">3 PDFs</span><div class="go">Open research →</div></a><a class="c" style="--a:#1abc9c" href="03_fractional_laser_resurfacing/index.html">
+      <div class="e">✨</div><h2>Fractional Laser Resurfacing</h2>
+      <p>At-home vs in-office, device landscape, the 1927nm vs 1450nm question, suppliers, sourcing templates &amp; owner&#x27;s guides.</p><span class="stat">14 docs</span><div class="go">Open research →</div></a><a class="c" style="--a:#e67e22" href="04_red_light_therapy_handheld/index.html">
+      <div class="e">🔴</div><h2>Handheld Red Light Therapy</h2>
+      <p>11 Alibaba handheld RLT devices — full spec comparison, specs OCR&#x27;d from listing images, and a ranking for hands / back / carpal tunnel.</p><span class="stat">4 docs</span><span class="stat">92 images</span><div class="go">Open research →</div></a></div>
+<p class="foot">Self-contained static site · generated from the repository's markdown research. Open any card to browse that category's documents, tables, and source files.</p>
+</div></body></html>
