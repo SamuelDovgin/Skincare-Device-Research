@@ -8,7 +8,7 @@
 <link rel="apple-touch-icon" href="appicon-180.png">
 <meta name="theme-color" content="#c0392b">
 <style>
-:root{--accent:#c0392b;--accent2:#e74c3c;--bg:#f6f7f9;--card:#fff;--ink:#1f2430;--muted:#6b7280;--line:#e5e7eb;--good:#16a34a;}
+:root{--accent:#c0392b;--accent2:#e74c3c;--bg:#f6f7f9;--card:#fff;--ink:#1f2430;--muted:#6b7280;--line:#e5e7eb;--good:#16a34a;--blue:#2563eb;--amber:#d9a441;}
 *{box-sizing:border-box}
 body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55}
 a{color:var(--accent)}
@@ -48,21 +48,28 @@ input[type=range]{flex:1;min-width:180px;accent-color:var(--accent)}
 .quote .src{font-size:12px;color:var(--muted)}
 .quote .src a{font-weight:600}
 table{border-collapse:collapse;width:100%;font-size:12.5px;margin-top:6px}
-th,td{border:1px solid var(--line);padding:7px 9px;text-align:left}
-thead th{background:var(--accent);color:#fff}
+th,td{border:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top}
+thead th{background:var(--accent);color:#fff;position:sticky;top:0}
 tbody tr:nth-child(even){background:#fafbfc}
-.warn{background:#fff4f4;border:1px solid #f3c0c0;border-radius:10px;padding:12px 14px;font-size:13px}
+.warn{background:#fff4f4;border:1px solid #f3c0c0;border-radius:10px;padding:12px 14px;font-size:13px;margin-bottom:10px}
 .warn b{color:var(--accent)}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
 @media(max-width:720px){.two{grid-template-columns:1fr}}
 .disc{font-size:11.5px;color:var(--muted);margin-top:6px}
+.tag{display:inline-block;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;padding:2px 7px;border-radius:20px;color:#fff}
+.evhd{font-weight:700}
+.pill{font-size:11px;border:1px solid var(--line);border-radius:20px;padding:3px 10px;background:#fff;cursor:pointer}
+.pill.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+details{border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:8px 0;background:#fafbfc}
+summary{cursor:pointer;font-weight:600;font-size:13.5px}
+details p{font-size:13px;margin:8px 0 0}
 </style>
 </head>
 <body>
 <div class="topbar">
   <a href="index.html">← IPL docs</a> &nbsp;·&nbsp; <a href="../index.html">All Research</a>
   <h1>⚡ IPL Cadence Planner — Hair Removal</h1>
-  <p>Interactive, research-backed schedule &amp; energy guide for your device. Pick a protocol below.</p>
+  <p>Clinically-grounded schedule, energy &amp; parameter guide — selective photothermolysis, dose-response, and the trials behind it.</p>
 </div>
 
 <div class="wrap">
@@ -78,13 +85,13 @@ tbody tr:nth-child(even){background:#fafbfc}
       <span class="chip">Modes <b>single &amp; double/split pulse</b></span>
       <span class="chip">Class <b>home hair-removal IPL</b></span>
     </div>
-    <p class="note" style="margin-top:10px">Your ~6.3 J/cm² sits at the <b>top of the home-IPL band</b> (market leaders cap ≈6–6.5 J/cm²) — fluence is the #1 efficacy lever, so this device is well-positioned. <a href="https://www.trialaser.com/blogs/news/ipl-vs-laser-for-hair-removal" target="_blank" rel="noopener">[fluence ref]</a></p>
+    <p class="note" style="margin-top:10px">~6.3 J/cm² is <b>above the studied home-IPL class</b> (Silk'n-type devices ≈5 J/cm²; Braun/Philips cap ≈6–6.5) and squarely in the range shown to drive follicles into catagen — but well below clinic diode/alexandrite (20–40 J/cm²). Realistic expectation: <b>~50–75% long-term reduction</b> on suitable hair/skin, not the 80–90% marketing figure. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10218747/" target="_blank" rel="noopener">[Hendricks 2023]</a></p>
   </div>
 
   <!-- PROTOCOL SELECTOR -->
   <div class="card">
     <h2>1 · Choose your protocol</h2>
-    <p class="sub">Both are manufacturer-validated and safe at home fluences. Aggressive = the maximum cadence with backing; it is <i>not proven to beat</i> General, but it's the ceiling worth using.</p>
+    <p class="sub">All three are evidence- or manufacturer-grounded. The cutting-edge finding: within the hair-cycle window, the <b>shorter</b> tested interval gave a <i>better final result</i> (not just faster) — so don't let spacing drift long. There's no evidence that going below ~2 weeks helps, and mechanism argues against it.</p>
     <div class="seg" id="seg">
       <button data-p="general" class="active">🟢 General</button>
       <button data-p="aggressive">🔴 Aggressive</button>
@@ -108,19 +115,19 @@ tbody tr:nth-child(even){background:#fafbfc}
   <!-- ENERGY -->
   <div class="card">
     <h2>3 · Energy &amp; settings (per session)</h2>
-    <p class="sub">Fluence drives results — ramp to the <b>highest comfortable level</b>, don't chase frequency. Patch-test first.</p>
+    <p class="sub">Fluence is the strongest efficacy lever — and on a fixed-fluence home device, <b>double-pulse is your "fluence substitute."</b> Patch-test first.</p>
     <div class="two">
       <div>
         <svg id="energy" viewBox="0 0 440 220" role="img" aria-label="Energy ramp by session"></svg>
-        <p class="note">Start a notch below max for 1–2 sessions to acclimate, then hold at your highest comfortable energy.</p>
+        <p class="note">Start a notch below max for 1–2 sessions to acclimate, then hold at your highest comfortable energy. <b>Going too low isn't just weak — sub-threshold dosing can even provoke paradoxical regrowth on the face/neck.</b> <a href="https://academic.oup.com/asj/article/44/5/NP347/7595708" target="_blank" rel="noopener">[Inoue 2024]</a></p>
       </div>
       <div>
         <table>
           <thead><tr><th>Setting</th><th>When to use</th></tr></thead>
           <tbody>
-            <tr><td><b>Single pulse</b> (19 J in 1 flash)</td><td>Tolerant areas (legs, arms) once acclimated — max punch per pass.</td></tr>
-            <tr><td><b>Double / split pulse</b> (19 J across 2)</td><td>Face·lip, bikini, underarms, sensitive or easily-reddened skin — epidermis cools between flashes, lower peak heat. <a href="https://www.ncbi.nlm.nih.gov/books/NBK580525/" target="_blank" rel="noopener">[TRT ref]</a></td></tr>
-            <tr><td><b>Energy level</b></td><td>Highest comfortable; if redness lasts &gt;1–3 days, drop a level &amp; switch to split pulse.</td></tr>
+            <tr><td><b>Single pulse</b> (19 J in 1 flash)</td><td>First 1–2 sessions, face, and higher-melanin/sensitive areas — priority is avoiding epidermal overheating.</td></tr>
+            <tr><td><b>Double / split pulse</b> (19 J across 2)</td><td>Coarse/dense body hair (legs, axillae, bikini) once acclimated. Splitting lets the epidermis cool between sub-pulses while the follicle integrates heat — the clinical pulse-stacking rationale. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3390232/" target="_blank" rel="noopener">[ref]</a></td></tr>
+            <tr><td><b>Energy level</b></td><td>Highest comfortable (durable reduction tracks dose). If redness lasts &gt;1–3 days, drop a level &amp; use split pulse.</td></tr>
             <tr><td><b>Coverage</b></td><td>Methodical grid, slight overlap; shave first so light reaches the follicle.</td></tr>
           </tbody>
         </table>
@@ -131,7 +138,7 @@ tbody tr:nth-child(even){background:#fafbfc}
   <!-- RESULTS PROJECTION -->
   <div class="card">
     <h2>4 · Expected results (research-anchored)</h2>
-    <p class="sub">Drag to see typical cumulative hair reduction by session. Curve anchored to home-IPL studies; individual results vary with hair/skin type &amp; energy.</p>
+    <p class="sub">Drag to see typical cumulative reduction by session. Curve anchored to home-IPL studies; results vary with hair/skin type &amp; energy.</p>
     <div class="sliderrow">
       <label for="sess" style="font-size:13px">After <b id="sesslabel">6</b> sessions:</label>
       <input type="range" id="sess" min="1" max="8" value="6" step="1">
@@ -139,7 +146,7 @@ tbody tr:nth-child(even){background:#fafbfc}
     </div>
     <svg id="results" viewBox="0 0 920 300" role="img" aria-label="Expected hair reduction curve"></svg>
     <div class="legend">
-      <span><span class="dot" style="background:var(--accent)"></span> Cumulative reduction (with full course)</span>
+      <span><span class="dot" style="background:var(--accent)"></span> Cumulative reduction (full course)</span>
       <span><span class="dot" style="background:#c9ccd2"></span> Regrowth if you stop (no maintenance)</span>
     </div>
     <p class="note" id="resnote" style="margin-top:10px"></p>
@@ -148,11 +155,74 @@ tbody tr:nth-child(even){background:#fafbfc}
   <!-- BODY AREAS -->
   <div class="card">
     <h2>5 · By body area</h2>
-    <p class="sub">Cadence &amp; effectiveness vary by site (it tracks how dark/coarse the hair is). Tap an area.</p>
+    <p class="sub">Cadence &amp; effectiveness vary by site (it tracks how dark/coarse the hair is, and the site's hair-cycle length). Tap an area.</p>
     <div class="areabtns" id="areabtns"></div>
     <div class="plan" id="areaplan"></div>
     <p class="note" id="areanote" style="margin-top:10px"></p>
     <p class="note">Effectiveness = % of patients reaching ≥75% clearance after 3 professional treatments (755 nm, 948-patient study). <a href="https://pubmed.ncbi.nlm.nih.gov/31579971/" target="_blank" rel="noopener">[PubMed 31579971]</a></p>
+  </div>
+
+  <!-- ============ DEEP DIVE: THE SCIENCE ============ -->
+
+  <!-- SELECTIVE PHOTOTHERMOLYSIS -->
+  <div class="card">
+    <h2>🔬 The science — selective photothermolysis &amp; thermal damage time</h2>
+    <p class="sub">Why the cadence and energy rules exist, at the level of the follicle. (Anderson &amp; Parrish 1983; Altshuler "extended theory" 2001.)</p>
+    <svg id="spt" viewBox="0 0 920 340" role="img" aria-label="Selective photothermolysis diagram"></svg>
+    <p class="note" style="margin-top:8px">The killer target for <b>permanent</b> reduction is the <b>bulge stem-cell niche (~1.5 mm)</b> + matrix — but those cells are barely pigmented. The melanin "heater" sits in the hair shaft/bulb, <b>spatially separated</b> from the target, so heat must <i>diffuse</i> outward. That diffusion time (the <b>Thermal Damage Time, ~170–1000 ms</b>) — not the short Thermal Relaxation Time — is the timescale that matters. <a href="https://jcasonline.com/thermal-kinetic-selectivity-and-lasers/" target="_blank" rel="noopener">[JCAS]</a> <a href="https://pubmed.ncbi.nlm.nih.gov/12030874/" target="_blank" rel="noopener">[TDT study]</a></p>
+  </div>
+
+  <!-- PARAMETER TARGETS -->
+  <div class="card">
+    <h2>🎯 Evidence-based parameter targets</h2>
+    <p class="sub">The numbers behind hair-removal light, and what they mean for your device.</p>
+    <div style="overflow-x:auto"><table>
+      <thead><tr><th>Parameter</th><th>Value (literature)</th><th>So for you…</th></tr></thead>
+      <tbody>
+        <tr><td>Epidermis TRT</td><td>~3–10 ms</td><td>Skin sheds heat fast — the basis for pulse-splitting &amp; cooling.</td></tr>
+        <tr><td>Hair-follicle TRT</td><td>~10–100 ms (terminal hair ≈100 ms)</td><td>Follicle holds heat ~10× longer than epidermis → the safety window.</td></tr>
+        <tr><td>Thermal Damage Time (target)</td><td>~170–1000 ms</td><td>Why longer/stacked pulses work; follicle damage is ~pulsewidth-independent 30–400 ms.</td></tr>
+        <tr><td>Inter-pulse delay (double pulse)</td><td>~10–12 ms (20–40 ms darker skin)</td><td>Long enough to cool epidermis, short enough that the follicle integrates heat.</td></tr>
+        <tr><td>Fluence — clinic</td><td>diode 20–40, alexandrite 10–20+, IPL ≤40 J/cm²</td><td>Reference ceiling; your 6.3 is far below — hence "max comfortable + more sessions."</td></tr>
+        <tr><td>Fluence — your device</td><td><b>≈6.3 J/cm²</b> (home class ≈5)</td><td>Above the studied Silk'n class; use double-pulse to raise cumulative follicular dose.</td></tr>
+        <tr><td>Target epidermal temp ceiling</td><td>&lt; ~70 °C</td><td>Above this → burns/PIH; the reason not to over-stack or over-energize.</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">Sources: <a href="https://www.ncbi.nlm.nih.gov/books/NBK580525/" target="_blank" rel="noopener">StatPearls IPL</a> · <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7190465/" target="_blank" rel="noopener">Hirsutism review</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/15065902/" target="_blank" rel="noopener">Svaasand &amp; Nelson 2004</a>. TRT/TDT values are model-derived and vary by source.</p>
+  </div>
+
+  <!-- FLUENCE DOSE-RESPONSE -->
+  <div class="card">
+    <h2>📈 Why "max comfortable energy" — the dose-response</h2>
+    <p class="sub">Higher fluence buys more <b>durable</b> reduction, even when short-term counts look similar. The cleanest home-device dataset is the Tria 810 nm laser, which tested 3 fluences in the same people over 8 sessions:</p>
+    <svg id="dose" viewBox="0 0 920 260" role="img" aria-label="Fluence dose-response"></svg>
+    <p class="note" style="margin-top:8px"><b>Tria home laser, 12-month reduction:</b> 7 J/cm² → 44% · 12 J → 49% · 20 J → 65% <a href="https://pubmed.ncbi.nlm.nih.gov/22886431/" target="_blank" rel="noopener">[Wheeland 2012]</a>. In an alexandrite dose study, the <b>lowest fluence (5 J) plateaued at 56%</b> while 15–20 J kept rising to ~81% at 6 months <a href="https://pubmed.ncbi.nlm.nih.gov/15663662/" target="_blank" rel="noopener">[via Bjerring 2004]</a>. And home IPL at ~5 J/cm² delivered only 46–52% vs 85–88% for a clinic diode <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10218747/" target="_blank" rel="noopener">[Hendricks 2023]</a>. Takeaway: you can't change your device's J/cm², so maximize <i>safe</i> dose via highest comfortable energy + double-pulse + finishing the full course.</p>
+  </div>
+
+  <!-- EVIDENCE TABLE -->
+  <div class="card">
+    <h2>📑 The evidence table</h2>
+    <p class="sub">The key studies behind every recommendation here. Filter by topic; each row links to the source.</p>
+    <div id="evfilter" style="display:flex;flex-wrap:wrap;gap:7px;margin-bottom:12px"></div>
+    <div style="overflow-x:auto"><table id="evtable"></table></div>
+    <p class="note" style="margin-top:8px">⚠️ Evidence caveat: the best systematic review found only <b>5 long-term RCTs (223 patients), none high-quality</b>; <b>no RCT randomizes interval</b> (4 vs 8 wk) and none compares fixed vs as-needed retreatment. Interval evidence rests on Bouzari's retrospective gradient + hair-cycle physiology. <a href="https://aura.abdn.ac.uk/server/api/core/bitstreams/fc97152d-1aa6-4a5e-8c9d-b4ea642bf156/content" target="_blank" rel="noopener">[Krasniqi 2022]</a></p>
+  </div>
+
+  <!-- CUTTING EDGE CAUTIONS -->
+  <div class="card">
+    <h2>⚠️ Cutting-edge nuances most guides skip</h2>
+    <details open><summary>1 · Under-dosing can backfire — paradoxical hypertrichosis</summary>
+      <p>Heat <i>below</i> the follicle's thermolysis threshold can trigger an inflammatory/wound-healing response that converts fine vellus hair to coarse terminal hair. Pooled incidence ~<b>3%</b> (range 0.34–10%), strongly concentrated on <b>face &amp; neck</b>, and far higher in <b>men (33%) vs women (9%)</b>. Most relevant to <i>low-fluence home devices</i> used on hormonal areas. Mitigate: use <b>adequate (not timid) energy</b>, be cautious treating the male face/neck/beard, and use daily sun protection (protective, OR 0.41). <a href="https://pubmed.ncbi.nlm.nih.gov/34057666/" target="_blank" rel="noopener">[Snast 2021]</a> <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12040530/" target="_blank" rel="noopener">[Moriguchi 2025]</a></p>
+    </details>
+    <details><summary>2 · IPL has the weakest <i>long-term</i> evidence of the light modalities</summary>
+      <p>In the best systematic review, IPL long-term reduction <b>declined from 52.7% toward 27%</b> over time, while alexandrite (35–84%) and diode (33–69%) held up better. Translation: expect good early thinning but <b>plan on indefinite maintenance</b> — and don't expect permanent "done." <a href="https://aura.abdn.ac.uk/server/api/core/bitstreams/fc97152d-1aa6-4a5e-8c9d-b4ea642bf156/content" target="_blank" rel="noopener">[Krasniqi 2022]</a></p>
+    </details>
+    <details><summary>3 · Body site matters more than you'd think — legs beat the face long-term</summary>
+      <p>Outcome tracks the site's hair-cycle length more than the device: long-cycle sites (legs ~12-mo cycle) gave the <b>greatest long-term reduction</b>, while fast-cycling face (~6-mo cycle, often finer/hormonal hair) underperforms and needs more sessions + maintenance. Spend your effort where it pays. <a href="https://pubmed.ncbi.nlm.nih.gov/18027066/" target="_blank" rel="noopener">[Sadighha 2009]</a></p>
+    </details>
+    <details><summary>4 · More sessions help — with diminishing returns on the <i>permanent</i> fraction</summary>
+      <p>Going from 3 → 6 sessions added <b>~20% short-term but only ~10% long-term</b> reduction. Coarse hair in darker skin can keep climbing past 6 (Nd:YAG "achievers" 5%→56% across sessions 3→6). So finish 6–8, then judge by regrowth. <a href="https://aura.abdn.ac.uk/server/api/core/bitstreams/fc97152d-1aa6-4a5e-8c9d-b4ea642bf156/content" target="_blank" rel="noopener">[Galadari/Krasniqi]</a> <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2840900/" target="_blank" rel="noopener">[Mittal 2008]</a></p>
+    </details>
   </div>
 
   <!-- HAIR CYCLE -->
@@ -160,7 +230,7 @@ tbody tr:nth-child(even){background:#fafbfc}
     <h2>Why spacing beats frequency — the hair cycle</h2>
     <p class="sub">IPL only destroys a follicle in its <b>anagen</b> (growth) phase. Only part of your hair is anagen at once, so you wait for the next cohort — treating daily can't beat this ceiling.</p>
     <svg id="cycle" viewBox="0 0 920 230" role="img" aria-label="Hair growth cycle diagram"></svg>
-    <p class="note" style="margin-top:8px">Per-session ceiling ≈ <b>10–25%</b> (the anagen fraction present that day) — not raised by treating sooner. <a href="https://www.aad.org/public/cosmetic/hair-removal/laser-hair-removal-faqs" target="_blank" rel="noopener">[AAD]</a> <a href="https://www.ncbi.nlm.nih.gov/books/NBK507861/" target="_blank" rel="noopener">[StatPearls]</a></p>
+    <p class="note" style="margin-top:8px">Per-session ceiling ≈ <b>10–25%</b> (the anagen fraction present that day). <a href="https://www.aad.org/public/cosmetic/hair-removal/laser-hair-removal-faqs" target="_blank" rel="noopener">[AAD]</a> <a href="https://www.ncbi.nlm.nih.gov/books/NBK507861/" target="_blank" rel="noopener">[StatPearls]</a></p>
   </div>
 
   <!-- RESEARCH QUOTES -->
@@ -186,47 +256,61 @@ const PROTO = {
   general:{name:'General', freq:'Every 2 weeks', sessions:'~8', span:14,
     weeks:[0,2,4,6,8,10,12,14], maint:'Every 4 weeks',
     energy:'Ramp to max comfortable by session 2–3',
-    blurb:'The most-studied home-IPL schedule (Philips Lumea + the home-IPL efficacy trials, which hit 70–83% reduction with 6 biweekly sessions). Just as effective as weekly, with less effort and lower irritation risk. Best default for most people.',
-    src:'Philips Lumea IFU · PMC4509583'},
+    blurb:'The most-studied home-IPL schedule (Philips Lumea + the home-IPL efficacy trials, which hit 70–83% reduction with 6 biweekly sessions). Best default for most people — just as effective as weekly with less effort and irritation.',
+    src:'Philips Lumea IFU · Gold 2010 (PMC4509583)'},
   aggressive:{name:'Aggressive', freq:'Once a week', sessions:'8–12', span:12,
     weeks:[0,1,2,3,4,5,6,7,8,9,10,11,12], maint:'Every 4 weeks',
     energy:'Max comfortable every pass (after 1–2 ramp sessions)',
-    blurb:'The maximum cadence with manufacturer backing — Braun Silk-expert Pro 5 recommends weekly for the first 4–12 weeks. It is NOT proven to beat the biweekly schedule (the kill rate is gated by the hair cycle), but it is safe at home fluences and is the ceiling worth using. Do NOT exceed once a week per area.',
-    src:'Braun Silk-expert Pro 5 manual'},
+    blurb:'The maximum cadence with manufacturer backing — Braun Silk-expert Pro 5 recommends weekly for 4–12 weeks. The interval data (Bouzari: 45-day beat 90-day at the same endpoint) support NOT spacing too far apart, but no study shows weekly beats biweekly, and the hair cycle caps the per-session kill. Safe at home fluences. Do NOT exceed once a week per area.',
+    src:'Braun Silk-expert Pro 5 · Bouzari 2005'},
   maintenance:{name:'Maintenance', freq:'Every 4 weeks', sessions:'ongoing', span:20,
     weeks:[0,4,8,12,16,20], maint:'Stretch to 4–8 wks as regrowth slows',
     energy:'Hold your established max comfortable energy',
-    blurb:'After the initial course, top up every ~4 weeks (or at first regrowth). Follicles recover and new ones enter anagen over months, so periodic upkeep is needed indefinitely — IPL hair reduction drifts down without it.',
-    src:'Philips/Braun touch-up guidance'}
+    blurb:'After the initial course, top up every ~4 weeks (or at first regrowth). IPL long-term reduction drifts down without upkeep (52.7%→27% in the best review), so maintenance is indefinite — follicles recover and new ones enter anagen over months.',
+    src:'Philips/Braun touch-up · Krasniqi 2022'}
 };
 const AREAS = {
-  underarm:{name:'Underarms', clear:'90%', initial:'Every 1–2 weeks', maint:'Every 4 weeks', note:'Best-responding area — coarse, dark, deeply-rooted hair. Use split pulse if sensitive.'},
+  underarm:{name:'Underarms', clear:'90%', initial:'Every 1–2 weeks', maint:'Every 4 weeks', note:'Best-responding area — coarse, dark, deeply-rooted hair. Double-pulse once acclimated.'},
   bikini:{name:'Bikini', clear:'82%', initial:'Every 1–2 weeks', maint:'Every 4 weeks', note:'2nd-best responder. Sensitive skin → split pulse, lower a level.'},
-  legs:{name:'Legs', clear:'79%', initial:'Every 2 weeks', maint:'Every 4–8 weeks', note:'Slow hair cycle = best LONG-TERM reduction. Large area — single pulse for speed, work a grid.'},
+  legs:{name:'Legs', clear:'79%', initial:'Every 2 weeks', maint:'Every 4–8 weeks', note:'Slow hair cycle = BEST long-term reduction (legs beat face). Large area — double-pulse for coarse hair, work a grid.'},
   arms:{name:'Arms', clear:'~High', initial:'Every 2 weeks', maint:'Every 4–8 weeks', note:'Responds well when hair is dark/coarse.'},
-  face:{name:'Upper lip / chin', clear:'Variable', initial:'Every 2 weeks', maint:'Every 4 weeks', note:'Fast-cycling but often finer / hormone-driven hair → ongoing maintenance. Split pulse. Keep well away from the eyes.'}
+  face:{name:'Upper lip / chin', clear:'Variable', initial:'Every 2 weeks', maint:'Every 4 weeks', note:'Fast-cycling but often finer / hormone-driven hair → ongoing maintenance. Use ADEQUATE energy (under-dosing here risks paradoxical regrowth, esp. in men). Keep away from eyes.'}
 };
-// research-anchored cumulative reduction by session (6 ≈ 70% matches PMC4509583 69.8%)
 const CURVE=[0,15,28,40,52,62,70,74,78];
 const QUOTES=[
- {q:'Most patients can have laser hair removal once every 4 to 6 weeks… you may see a 10% to 25% reduction in hair after the first treatment.',s:'American Academy of Dermatology',u:'https://www.aad.org/public/cosmetic/hair-removal/laser-hair-removal-faqs'},
- {q:'The hair matrix is only sensitive to laser treatment during the anagen phase… 4 to 6 sessions spaced 4 to 6 weeks apart are the minimum required.',s:'StatPearls — Laser Hair Removal',u:'https://www.ncbi.nlm.nih.gov/books/NBK507861/'},
- {q:'Laser hair removal at short intervals results in inadequate time for initiation of anagen phase… an interval of 1–2 months between sessions is optimum.',s:'IJDVL — laser hair removal review',u:'https://ijdvl.com/methods-to-overcome-poor-responses-and-challenges-of-laser-hair-removal-in-dark-skin/'},
- {q:'[Home facial IPL] six sessions every two weeks… 83.3% reduction at the 1-month follow-up.',s:'PMC4509583 — home IPL study',u:'https://pmc.ncbi.nlm.nih.gov/articles/PMC4509583/'},
- {q:'Increasing treatment sessions from 3 to 6 improved percentage hair reduction by 20% short-term and 10% long-term.',s:'Krasniqi 2022 systematic review',u:'https://aura.abdn.ac.uk/server/api/core/bitstreams/fc97152d-1aa6-4a5e-8c9d-b4ea642bf156/content'},
- {q:'Begin with one session per week for 4–12 weeks… maintenance every 1–2 months.',s:'Braun Silk-expert Pro 5',u:'https://us.braun.com/en-us/female-hair-removal/ipls/silk-expert-pro-ipl'},
- {q:'90%… axilla, 82%… bikini, 79%… lower extremities experienced 75% or more clearance after three treatments.',s:'PubMed 31579971 — 948-patient study',u:'https://pubmed.ncbi.nlm.nih.gov/31579971/'}
+ {q:'Suitably brief pulses of selectively absorbed optical radiation can cause selective damage to pigmented structures.',s:'Anderson & Parrish 1983 (the founding theory)',u:'https://pubmed.ncbi.nlm.nih.gov/6836297/'},
+ {q:'Photothermal damage to the follicle is shown to be almost independent of laser pulse duration up to 100 ms… the most important optimization parameter is the cooling efficiency.',s:'Svaasand & Nelson 2004',u:'https://pubmed.ncbi.nlm.nih.gov/15065902/'},
+ {q:'45-day interval: 78.1%; 60-day: 45.8%; 90-day: 28.7% (P<0.0001).',s:'Bouzari 2005 — interval comparison',u:'https://pubmed.ncbi.nlm.nih.gov/15663662/'},
+ {q:'Increasing treatment sessions from 3 to 6 improved percentage hair reduction by 20% short-term and 10% long-term.',s:'Galadari 2003 / Krasniqi 2022 review',u:'https://aura.abdn.ac.uk/server/api/core/bitstreams/fc97152d-1aa6-4a5e-8c9d-b4ea642bf156/content'},
+ {q:'Home-use IPL 52%/46.3% vs professional diode 85%/88%.',s:'Hendricks 2023 (home vs clinic RCT)',u:'https://pmc.ncbi.nlm.nih.gov/articles/PMC10218747/'},
+ {q:'20 J/cm²: 73% at 1 month, 65% at 12 months (home 810 nm laser dose-response).',s:'Wheeland 2012 — Tria',u:'https://pubmed.ncbi.nlm.nih.gov/22886431/'},
+ {q:'If the heat generated by the laser is below the temperature required for thermolysis… it may induce an inflammatory reaction.',s:'Inoue 2024 — paradoxical hypertrichosis',u:'https://academic.oup.com/asj/article/44/5/NP347/7595708'},
+ {q:'Most patients can have laser hair removal once every 4 to 6 weeks… 10% to 25% reduction after the first treatment.',s:'American Academy of Dermatology',u:'https://www.aad.org/public/cosmetic/hair-removal/laser-hair-removal-faqs'}
+];
+const EVIDENCE=[
+ {cat:'Interval', t:'Bouzari 2005', d:'Diode, face/neck, retrospective', f:'45 vs 60 vs 90-day interval', r:'45d 78.1% > 60d 45.8% > 90d 28.7% (same endpoint)', k:'Shorter interval → better FINAL result, not just faster', u:'https://pubmed.ncbi.nlm.nih.gov/15663662/'},
+ {cat:'Interval', t:'StatPearls', d:'Clinical guidance', f:'4–6 wk (face) / 8–12 wk (body)', r:'4–6 sessions min; maintenance q6–12 mo', k:'Interval anchored to body-site anagen length', u:'https://www.ncbi.nlm.nih.gov/books/NBK507861/'},
+ {cat:'Fluence', t:'Bjerring 2004', d:'Alexandrite dose study, N=14', f:'5/10/15/20 J/cm²', r:'5J plateaued 56%; 15–20J rose to ~81% @6mo', k:'Higher fluence → more DURABLE reduction', u:'https://pubmed.ncbi.nlm.nih.gov/15663662/'},
+ {cat:'Fluence', t:'Wheeland 2012 (Tria)', d:'Home 810 nm laser, N=13', f:'7 / 12 / 20 J/cm², 8 monthly', r:'12-mo: 44% / 49% / 65%', k:'Clean home-device dose-response', u:'https://pubmed.ncbi.nlm.nih.gov/22886431/'},
+ {cat:'Fluence', t:'Hendricks 2023', d:'Within-patient RCT, axillae N=15', f:'Home IPL 4.5–5 vs diode 6–8 J/cm²', r:'IPL 46–52% vs diode 85–88%', k:'Home fluence sits low on the dose curve', u:'https://pmc.ncbi.nlm.nih.gov/articles/PMC10218747/'},
+ {cat:'Sessions', t:'Galadari 2003', d:'RCT, N=100, face', f:'3 vs 6 sessions', r:'+20% short-term, +10% long-term', k:'More sessions help; diminishing returns long-term', u:'https://aura.abdn.ac.uk/server/api/core/bitstreams/fc97152d-1aa6-4a5e-8c9d-b4ea642bf156/content'},
+ {cat:'Sessions', t:'Mittal 2008', d:'Nd:YAG, N=59, ST IV–V', f:'up to 6 sessions', r:'"Achievers" 3rd 5% → 6th 56%', k:'Coarse/dark-skin hair keeps climbing past 6', u:'https://pmc.ncbi.nlm.nih.gov/articles/PMC2840900/'},
+ {cat:'Home IPL', t:'Gold 2010 (Silk’n)', d:'Home IPL, face', f:'≤5 J/cm², biweekly ×6', r:'83.3% @1mo, 78.1% @3mo', k:'Best-published home facial protocol', u:'https://pmc.ncbi.nlm.nih.gov/articles/PMC4509583/'},
+ {cat:'Home IPL', t:'Emerson/Town 2009', d:'Home IPL', f:'≤5 J/cm², biweekly ×6', r:'78% @1mo, 72% @3mo; 95% had some reduction', k:'Replicates biweekly home efficacy', u:'https://pubmed.ncbi.nlm.nih.gov/20725562/'},
+ {cat:'Long-term', t:'Krasniqi 2022', d:'Systematic review, 5 RCTs/223 pts', f:'all modalities, ≥1 cycle f/u', r:'Alex 35–84%, NdYAG 30–74%, Diode 33–69%, IPL 53→27%', k:'IPL weakest long-term; legs > face', u:'https://aura.abdn.ac.uk/server/api/core/bitstreams/fc97152d-1aa6-4a5e-8c9d-b4ea642bf156/content'},
+ {cat:'Long-term', t:'Sadighha 2009', d:'Meta-analysis, 3 sessions', f:'≥6-mo follow-up', r:'Diode 57.5% > Alex 54.7% > Ruby 52.8% > NdYAG 42.3%', k:'~3 sessions ≈ 50–60%', u:'https://pubmed.ncbi.nlm.nih.gov/18027066/'},
+ {cat:'Safety', t:'Snast 2021', d:'Systematic review, 9,733 pts', f:'paradoxical hypertrichosis', r:'Pooled 3% (1–6%); face/neck; modality/interval no effect', k:'Real risk; under-dosing implicated', u:'https://pubmed.ncbi.nlm.nih.gov/34057666/'},
+ {cat:'Safety', t:'Moriguchi 2025', d:'Retrospective, N=318', f:'paradoxical hypertrichosis by sex', r:'Men 33.3% vs women 9.0% (p<0.05)', k:'Men’s face/neck higher risk', u:'https://pmc.ncbi.nlm.nih.gov/articles/PMC12040530/'},
+ {cat:'Physics', t:'Altshuler 2001 / JCAS', d:'Extended theory of selective photothermolysis', f:'TRT vs TDT', r:'Follicle TDT ~170–1000 ms ≫ TRT', k:'Justifies long/stacked pulses', u:'https://jcasonline.com/thermal-kinetic-selectivity-and-lasers/'},
+ {cat:'Physics', t:'Svaasand & Nelson 2004', d:'Biophysics modeling', f:'pulse duration & cooling', r:'Damage ~pulsewidth-independent to 100 ms; cooling is key', u:'https://pubmed.ncbi.nlm.nih.gov/15065902/', kHide:true, k:'Cooling efficiency = top safety lever'}
 ];
 
-let cur='general', curArea='underarm';
-
+let cur='general', curArea='underarm', evFilter='All';
 function el(id){return document.getElementById(id)}
-function plan(p){
-  return `<div class="stat"><div class="k">Frequency</div><div class="v">${p.freq}</div></div>
+function plan(p){return `<div class="stat"><div class="k">Frequency</div><div class="v">${p.freq}</div></div>
   <div class="stat"><div class="k">Initial sessions</div><div class="v">${p.sessions}</div></div>
   <div class="stat"><div class="k">Then maintenance</div><div class="v small">${p.maint}</div></div>
-  <div class="stat"><div class="k">Energy</div><div class="v small">${p.energy}</div></div>`;
-}
+  <div class="stat"><div class="k">Energy</div><div class="v small">${p.energy}</div></div>`;}
 function drawTimeline(p){
   const W=920,padL=30,padR=30,y=78, span=p.span, x0=padL, x1=W-padR;
   const wk=w=>x0+(x1-x0)*(w/span);
@@ -243,91 +327,100 @@ function drawTimeline(p){
 }
 function drawEnergy(p){
   const W=440,H=220,padL=40,padB=40,padT=20,padR=15;
-  const n = p.name==='Aggressive'?7:(p.name==='Maintenance'?6:6);
-  const levels=[]; for(let i=0;i<n;i++){levels.push(i===0?70:(i===1?85:100));}
+  const n=p.name==='Aggressive'?7:6; const levels=[]; for(let i=0;i<n;i++){levels.push(i===0?70:(i===1?85:100));}
   if(p.name==='Maintenance') levels.fill(100);
-  const bw=(W-padL-padR)/n*0.6, gap=(W-padL-padR)/n;
-  let s=`<line x1="${padL}" y1="${H-padB}" x2="${W-padR}" y2="${H-padB}" stroke="#d7dade"/>`;
-  s+=`<text x="6" y="${padT+8}" font-size="10" fill="#6b7280">100%</text>`;
-  s+=`<text x="10" y="${H-padB}" font-size="10" fill="#6b7280">0</text>`;
-  for(let i=0;i<n;i++){const h=(H-padB-padT)*(levels[i]/100); const x=padL+gap*i+ (gap-bw)/2; const y=H-padB-h;
-    s+=`<rect x="${x}" y="${y}" width="${bw}" height="${h}" rx="4" fill="${levels[i]===100?'#c0392b':'#e9a39c'}"/>`;
-    s+=`<text x="${x+bw/2}" y="${y-6}" font-size="10" fill="#1f2430" text-anchor="middle">${levels[i]}%</text>`;
-    s+=`<text x="${x+bw/2}" y="${H-padB+15}" font-size="10" fill="#6b7280" text-anchor="middle">S${i+1}</text>`;
-  }
+  const gap=(W-padL-padR)/n, bw=gap*0.6;
+  let s=`<line x1="${padL}" y1="${H-padB}" x2="${W-padR}" y2="${H-padB}" stroke="#d7dade"/><text x="6" y="${padT+8}" font-size="10" fill="#6b7280">100%</text><text x="14" y="${H-padB}" font-size="10" fill="#6b7280">0</text>`;
+  for(let i=0;i<n;i++){const h=(H-padB-padT)*(levels[i]/100); const x=padL+gap*i+(gap-bw)/2; const y=H-padB-h;
+    s+=`<rect x="${x}" y="${y}" width="${bw}" height="${h}" rx="4" fill="${levels[i]===100?'#c0392b':'#e9a39c'}"/><text x="${x+bw/2}" y="${y-6}" font-size="10" fill="#1f2430" text-anchor="middle">${levels[i]}%</text><text x="${x+bw/2}" y="${H-padB+15}" font-size="10" fill="#6b7280" text-anchor="middle">S${i+1}</text>`;}
   s+=`<text x="${padL}" y="14" font-size="11" font-weight="700" fill="#1f2430">Energy level by session</text>`;
   el('energy').innerHTML=s;
 }
 function drawResults(sess){
   const W=920,H=300,padL=46,padB=42,padT=24,padR=20;
-  const xs=s=>padL+(W-padL-padR)*((s-1)/7);
-  const ys=r=>H-padB-(H-padB-padT)*(r/100);
+  const xs=s=>padL+(W-padL-padR)*((s-1)/7), ys=r=>H-padB-(H-padB-padT)*(r/100);
   let s='';
   for(let g=0;g<=100;g+=25){const y=ys(g); s+=`<line x1="${padL}" y1="${y}" x2="${W-padR}" y2="${y}" stroke="#eef0f2"/><text x="${padL-8}" y="${y+4}" font-size="10" fill="#6b7280" text-anchor="end">${g}%</text>`;}
-  // regrowth dashed (if stop after current sess, drifts toward ~30%)
-  let reg=`M ${xs(sess)} ${ys(CURVE[sess])}`;
-  for(let i=1;i<=3;i++){ if(sess+i<=8) reg+=` L ${xs(sess+i)} ${ys(Math.max(30,CURVE[sess]-7*i))}`;}
+  let reg=`M ${xs(sess)} ${ys(CURVE[sess])}`; for(let i=1;i<=3;i++){ if(sess+i<=8) reg+=` L ${xs(sess+i)} ${ys(Math.max(30,CURVE[sess]-7*i))}`;}
   s+=`<path d="${reg}" fill="none" stroke="#c9ccd2" stroke-width="3" stroke-dasharray="6 5"/>`;
-  // main curve
-  let d='';
-  for(let i=1;i<=8;i++){d+=(i===1?'M':'L')+` ${xs(i)} ${ys(CURVE[i])} `;}
+  let d=''; for(let i=1;i<=8;i++){d+=(i===1?'M':'L')+` ${xs(i)} ${ys(CURVE[i])} `;}
   s+=`<path d="${d}" fill="none" stroke="#c0392b" stroke-width="3.5"/>`;
-  for(let i=1;i<=8;i++){const on=i<=sess; s+=`<circle cx="${xs(i)}" cy="${ys(CURVE[i])}" r="${i===sess?7:4}" fill="${on?'#c0392b':'#e9b8b3'}"/>`;
-    s+=`<text x="${xs(i)}" y="${H-padB+16}" font-size="10" fill="#6b7280" text-anchor="middle">${i}</text>`;}
-  // marker
-  s+=`<line x1="${xs(sess)}" y1="${ys(CURVE[sess])}" x2="${xs(sess)}" y2="${H-padB}" stroke="#c0392b" stroke-dasharray="3 3" opacity=".5"/>`;
-  s+=`<text x="${xs(sess)}" y="${ys(CURVE[sess])-12}" font-size="13" font-weight="800" fill="#c0392b" text-anchor="middle">${CURVE[sess]}%</text>`;
-  // annotation
+  for(let i=1;i<=8;i++){const on=i<=sess; s+=`<circle cx="${xs(i)}" cy="${ys(CURVE[i])}" r="${i===sess?7:4}" fill="${on?'#c0392b':'#e9b8b3'}"/><text x="${xs(i)}" y="${H-padB+16}" font-size="10" fill="#6b7280" text-anchor="middle">${i}</text>`;}
+  s+=`<line x1="${xs(sess)}" y1="${ys(CURVE[sess])}" x2="${xs(sess)}" y2="${H-padB}" stroke="#c0392b" stroke-dasharray="3 3" opacity=".5"/><text x="${xs(sess)}" y="${ys(CURVE[sess])-12}" font-size="13" font-weight="800" fill="#c0392b" text-anchor="middle">${CURVE[sess]}%</text>`;
   s+=`<text x="${xs(6)}" y="${ys(70)-26}" font-size="10.5" fill="#16a34a" text-anchor="middle">studies: 70–83% @ 6 sessions</text>`;
-  s+=`<text x="${padL}" y="14" font-size="11" font-weight="700" fill="#1f2430">Cumulative hair reduction vs. sessions</text>`;
-  s+=`<text x="${(W)/2}" y="${H-6}" font-size="10.5" fill="#6b7280" text-anchor="middle">number of sessions</text>`;
-  el('results').innerHTML=s;
-  el('sesslabel').textContent=sess; el('redout').textContent=CURVE[sess]+'%';
-  el('resnote').innerHTML=`At <b>${sess}</b> session(s): ≈<b>${CURVE[sess]}%</b> reduction. Home-IPL trials report <b>69.8% after 6 biweekly sessions</b> and <b>78–83% at the 1-month follow-up</b> (PMC4509583, JCAD). Without maintenance, IPL reduction drifts down over months (dashed) — long-term IPL has been measured falling from ~53% toward ~27%.`;
+  s+=`<text x="${padL}" y="14" font-size="11" font-weight="700" fill="#1f2430">Cumulative hair reduction vs. sessions</text><text x="${W/2}" y="${H-6}" font-size="10.5" fill="#6b7280" text-anchor="middle">number of sessions</text>`;
+  el('results').innerHTML=s; el('sesslabel').textContent=sess; el('redout').textContent=CURVE[sess]+'%';
+  el('resnote').innerHTML=`At <b>${sess}</b> session(s): ≈<b>${CURVE[sess]}%</b> reduction. Home-IPL trials report <b>69.8% after 6 biweekly sessions</b> and <b>78–83% at 1-month follow-up</b> (Gold 2010, Emerson/Town 2009). Without maintenance, IPL drifts down (dashed) — long-term IPL measured falling from ~53% → ~27%.`;
+}
+function drawDose(){
+  const W=920,H=260,padL=50,padB=46,padT=24,padR=20;
+  const data=[{f:'7 J/cm²',v:44},{f:'12 J/cm²',v:49},{f:'20 J/cm²',v:65},{f:'home IPL ~5',v:49,alt:true},{f:'clinic diode',v:86,alt:true}];
+  const gap=(W-padL-padR)/data.length, bw=gap*0.55;
+  let s=`<line x1="${padL}" y1="${H-padB}" x2="${W-padR}" y2="${H-padB}" stroke="#d7dade"/>`;
+  for(let g=0;g<=100;g+=25){const y=H-padB-(H-padB-padT)*(g/100); s+=`<line x1="${padL}" y1="${y}" x2="${W-padR}" y2="${y}" stroke="#eef0f2"/><text x="${padL-8}" y="${y+4}" font-size="10" fill="#6b7280" text-anchor="end">${g}%</text>`;}
+  data.forEach((b,i)=>{const h=(H-padB-padT)*(b.v/100); const x=padL+gap*i+(gap-bw)/2; const y=H-padB-h;
+    s+=`<rect x="${x}" y="${y}" width="${bw}" height="${h}" rx="5" fill="${b.alt?'#c9ccd2':'#c0392b'}"/><text x="${x+bw/2}" y="${y-6}" font-size="11" font-weight="700" fill="#1f2430" text-anchor="middle">${b.v}%</text><text x="${x+bw/2}" y="${H-padB+16}" font-size="10.5" fill="#6b7280" text-anchor="middle">${b.f}</text>`;});
+  s+=`<text x="${padL}" y="14" font-size="11" font-weight="700" fill="#1f2430">Tria home-laser dose-response (12-mo) + home-vs-clinic reference</text>`;
+  el('dose').innerHTML=s;
+}
+function drawSPT(){
+  // left: follicle anatomy; right: timescale
+  let s='';
+  // skin surface + epidermis
+  s+=`<rect x="20" y="40" width="360" height="26" fill="#f3d9b5" stroke="#e3c79a"/><text x="26" y="57" font-size="11" fill="#7a5a2a">epidermis (TRT ~3–10 ms — cools fast)</text>`;
+  s+=`<rect x="20" y="66" width="360" height="250" fill="#fbeee0"/>`;
+  // follicle slanted
+  s+=`<path d="M150 66 L150 250 Q150 300 195 300 Q240 300 240 250 L240 66 Z" fill="#f6e2cf" stroke="#d9b48c"/>`;
+  // hair shaft (heater)
+  s+=`<rect x="183" y="66" width="14" height="190" rx="6" fill="#c0392b"/>`;
+  s+=`<ellipse cx="195" cy="270" rx="34" ry="30" fill="#c0392b" opacity=".85"/>`;
+  s+=`<text x="250" y="120" font-size="11.5" fill="#c0392b" font-weight="700">melanin = "heater"</text><text x="250" y="136" font-size="10.5" fill="#6b7280">(shaft + bulb absorb light)</text>`;
+  // bulge target
+  s+=`<circle cx="240" cy="150" r="10" fill="#16a34a"/><text x="262" y="154" font-size="11.5" fill="#16a34a" font-weight="700">bulge stem cells = TARGET (~1.5 mm)</text>`;
+  s+=`<text x="250" y="284" font-size="11" fill="#16a34a" font-weight="700">matrix/bulb (2–7 mm)</text>`;
+  // diffusion arrows
+  s+=`<text x="206" y="150" font-size="14" fill="#d9a441">↗</text>`;
+  s+=`<text x="20" y="334" font-size="10.5" fill="#6b7280">Heat must DIFFUSE from the pigmented heater to the unpigmented target → that takes time (TDT).</text>`;
+  // right: timescale (log-ish) 1 .. 1000 ms
+  const X0=470,X1=900,Y=120; const lx=ms=>X0+(X1-X0)*(Math.log10(ms)/3); // 1..1000
+  s+=`<text x="${X0}" y="50" font-size="12" font-weight="700" fill="#1f2430">Timescales (log ms)</text>`;
+  s+=`<line x1="${X0}" y1="${Y}" x2="${X1}" y2="${Y}" stroke="#d7dade"/>`;
+  [1,10,100,1000].forEach(t=>{const x=lx(t); s+=`<line x1="${x}" y1="${Y-4}" x2="${x}" y2="${Y+4}" stroke="#9aa3b2"/><text x="${x}" y="${Y+18}" font-size="10" fill="#6b7280" text-anchor="middle">${t}ms</text>`;});
+  function band(a,b,y,c,lab){s+=`<rect x="${lx(a)}" y="${y}" width="${lx(b)-lx(a)}" height="16" rx="6" fill="${c}" opacity=".85"/><text x="${lx(a)}" y="${y-4}" font-size="10.5" fill="#1f2430">${lab}</text>`;}
+  band(3,10,Y-70,'#2563eb','epidermis TRT 3–10ms');
+  band(10,100,Y-44,'#d9a441','follicle TRT 10–100ms');
+  band(170,1000,Y+34,'#c0392b','TDT 170–1000ms (the one that matters)');
+  s+=`<text x="${X0}" y="${Y+78}" font-size="10.5" fill="#6b7280">Pulse/stack should sit above epidermal TRT (so skin cools)</text><text x="${X0}" y="${Y+92}" font-size="10.5" fill="#6b7280">but reach toward TDT (so the follicle target dies).</text>`;
+  el('spt').innerHTML=s;
 }
 function drawCycle(){
-  const phases=[
-   {n:'ANAGEN',d:'Active growth — melanin-rich, follicle deep & attached',c:'#c0392b',tag:'✓ TARGETABLE',targ:true},
-   {n:'CATAGEN',d:'Regression — melanin drops, follicle detaching',c:'#d9a441',tag:'✗ poor target',targ:false},
-   {n:'TELOGEN',d:'Resting — shallow, often unpigmented, detached',c:'#9aa3b2',tag:'✗ invisible to IPL',targ:false}
-  ];
-  const W=920,bw=270,gap=30,x0=20,y=40,h=120;
-  let s='';
+  const phases=[{n:'ANAGEN',d:'Active growth — melanin-rich, follicle deep & attached',c:'#c0392b',tag:'✓ TARGETABLE'},{n:'CATAGEN',d:'Regression — melanin drops, follicle detaching',c:'#d9a441',tag:'✗ poor target'},{n:'TELOGEN',d:'Resting — shallow, often unpigmented, detached',c:'#9aa3b2',tag:'✗ invisible to IPL'}];
+  const x0=20,y=40,h=120,bw=270,gap=30; let s='';
   phases.forEach((p,i)=>{const x=x0+i*(bw+gap);
-    s+=`<rect x="${x}" y="${y}" width="${bw}" height="${h}" rx="12" fill="${p.targ?'#fdeceb':'#f5f6f7'}" stroke="${p.c}" stroke-width="${p.targ?3:1.5}"/>`;
-    s+=`<text x="${x+16}" y="${y+30}" font-size="16" font-weight="800" fill="${p.c}">${p.n}</text>`;
-    s+=`<text x="${x+16}" y="${y+54}" font-size="11.5" fill="#1f2430">${wrap(p.d,34).map((l,j)=>`<tspan x="${x+16}" dy="${j?15:0}">${l}</tspan>`).join('')}</text>`;
-    s+=`<text x="${x+16}" y="${y+h-14}" font-size="12" font-weight="700" fill="${p.c}">${p.tag}</text>`;
-    if(i<2) s+=`<text x="${x+bw+gap/2}" y="${y+h/2}" font-size="20" fill="#c9ccd2" text-anchor="middle">→</text>`;
-  });
-  s+=`<text x="${x0}" y="${y+h+38}" font-size="12" fill="#6b7280">Only the anagen cohort can be killed each session; the rest are "invisible." You wait weeks for the next cohort to enter anagen — which is why <tspan font-weight="700" fill="#1f2430">spacing (not daily zapping) is what works.</tspan></text>`;
+    s+=`<rect x="${x}" y="${y}" width="${bw}" height="${h}" rx="12" fill="${i===0?'#fdeceb':'#f5f6f7'}" stroke="${p.c}" stroke-width="${i===0?3:1.5}"/><text x="${x+16}" y="${y+30}" font-size="16" font-weight="800" fill="${p.c}">${p.n}</text>`;
+    s+=`<text x="${x+16}" y="${y+54}" font-size="11.5" fill="#1f2430">${wrap(p.d,34).map((l,j)=>`<tspan x="${x+16}" dy="${j?15:0}">${l}</tspan>`).join('')}</text><text x="${x+16}" y="${y+h-14}" font-size="12" font-weight="700" fill="${p.c}">${p.tag}</text>`;
+    if(i<2) s+=`<text x="${x+bw+gap/2}" y="${y+h/2}" font-size="20" fill="#c9ccd2" text-anchor="middle">→</text>`;});
+  s+=`<text x="${x0}" y="${y+h+38}" font-size="12" fill="#6b7280">Only the anagen cohort can be killed each session; the rest are "invisible." You wait weeks for the next cohort — <tspan font-weight="700" fill="#1f2430">spacing, not daily zapping, is what works.</tspan></text>`;
   el('cycle').innerHTML=s;
 }
 function wrap(t,n){const w=t.split(' ');let l=[],c='';w.forEach(x=>{if((c+x).length>n){l.push(c.trim());c=x+' ';}else c+=x+' ';});if(c.trim())l.push(c.trim());return l;}
-
-function areaBtns(){
-  el('areabtns').innerHTML=Object.keys(AREAS).map(k=>`<button data-a="${k}" class="${k===curArea?'active':''}">${AREAS[k].name}</button>`).join('');
-  el('areabtns').querySelectorAll('button').forEach(b=>b.onclick=()=>{curArea=b.dataset.a;areaBtns();renderArea();});
+function areaBtns(){el('areabtns').innerHTML=Object.keys(AREAS).map(k=>`<button data-a="${k}" class="${k===curArea?'active':''}">${AREAS[k].name}</button>`).join('');el('areabtns').querySelectorAll('button').forEach(b=>b.onclick=()=>{curArea=b.dataset.a;areaBtns();renderArea();});}
+function renderArea(){const a=AREAS[curArea];el('areaplan').innerHTML=`<div class="stat"><div class="k">Effectiveness</div><div class="v">${a.clear}</div></div><div class="stat"><div class="k">Initial cadence</div><div class="v small">${a.initial}</div></div><div class="stat"><div class="k">Maintenance</div><div class="v small">${a.maint}</div></div>`;el('areanote').innerHTML='<b>'+a.name+':</b> '+a.note;}
+function renderQuotes(){el('quotes').innerHTML=QUOTES.map(q=>`<div class="quote"><p>“${q.q}”</p><div class="src">— <a href="${q.u}" target="_blank" rel="noopener">${q.s}</a></div></div>`).join('');}
+function renderEvidence(){
+  const cats=['All',...[...new Set(EVIDENCE.map(e=>e.cat))]];
+  el('evfilter').innerHTML=cats.map(c=>`<span class="pill ${c===evFilter?'active':''}" data-c="${c}">${c}</span>`).join('');
+  el('evfilter').querySelectorAll('.pill').forEach(p=>p.onclick=()=>{evFilter=p.dataset.c;renderEvidence();});
+  const rows=EVIDENCE.filter(e=>evFilter==='All'||e.cat===evFilter);
+  let s=`<thead><tr><th>Topic</th><th>Study</th><th>Design</th><th>Tested</th><th>Result</th><th>Takeaway</th></tr></thead><tbody>`;
+  s+=rows.map(e=>`<tr><td><span class="tag" style="background:${catColor(e.cat)}">${e.cat}</span></td><td><a href="${e.u}" target="_blank" rel="noopener"><b>${e.t}</b></a></td><td>${e.d}</td><td>${e.f}</td><td>${e.r}</td><td>${e.k||''}</td></tr>`).join('');
+  s+=`</tbody>`; el('evtable').innerHTML=s;
 }
-function renderArea(){
-  const a=AREAS[curArea];
-  el('areaplan').innerHTML=`<div class="stat"><div class="k">Effectiveness</div><div class="v">${a.clear}</div></div>
-  <div class="stat"><div class="k">Initial cadence</div><div class="v small">${a.initial}</div></div>
-  <div class="stat"><div class="k">Maintenance</div><div class="v small">${a.maint}</div></div>`;
-  el('areanote').innerHTML='<b>'+a.name+':</b> '+a.note;
-}
-function renderQuotes(){
-  el('quotes').innerHTML=QUOTES.map(q=>`<div class="quote"><p>“${q.q}”</p><div class="src">— <a href="${q.u}" target="_blank" rel="noopener">${q.s}</a></div></div>`).join('');
-}
-function setProto(p){cur=p; const P=PROTO[p];
-  el('seg').querySelectorAll('button').forEach(b=>b.classList.toggle('active',b.dataset.p===p));
-  el('plan').innerHTML=plan(P); el('blurb').innerHTML='<b>'+P.name+':</b> '+P.blurb;
-  drawTimeline(P); drawEnergy(P);
-}
+function catColor(c){return {Interval:'#2563eb',Fluence:'#c0392b',Sessions:'#7c3aed',Home:'#0891b2','Home IPL':'#0891b2','Long-term':'#16a34a',Safety:'#d9a441',Physics:'#475569'}[c]||'#6b7280';}
+function setProto(p){cur=p;const P=PROTO[p];el('seg').querySelectorAll('button').forEach(b=>b.classList.toggle('active',b.dataset.p===p));el('plan').innerHTML=plan(P);el('blurb').innerHTML='<b>'+P.name+':</b> '+P.blurb;drawTimeline(P);drawEnergy(P);}
 el('seg').querySelectorAll('button').forEach(b=>b.onclick=()=>setProto(b.dataset.p));
 el('sess').oninput=e=>drawResults(+e.target.value);
-
-setProto('general'); drawResults(6); areaBtns(); renderArea(); drawCycle(); renderQuotes();
+setProto('general'); drawResults(6); areaBtns(); renderArea(); drawSPT(); drawDose(); drawCycle(); renderEvidence(); renderQuotes();
 </script>
 </body>
 </html>

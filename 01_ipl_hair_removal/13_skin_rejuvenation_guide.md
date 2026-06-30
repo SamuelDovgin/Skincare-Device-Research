@@ -3,7 +3,7 @@
 **Your device:** 3 cm² window · up to **19 J/flash** · single- or double/split-pulse · **≈ 6.3 J/cm²** — a **hair-removal IPL.**
 **Question:** how often to use it for the most effective *skin rejuvenation* (sun spots, redness, texture, fine lines)?
 
-> ⚠️ **Read the verdict first.** IPL photorejuvenation is real and well-studied — but for **professional** devices at **12–40 J/cm²** with **swappable short-wavelength filters.** Your unit is a low-fluence, hair-removal-optimized IPL, and home IPL is **FDA-cleared for hair removal only** [9] — so using it for rejuvenation is **off-label**, under-dosed, and on the face carries serious eye/pigment risks. This guide gives the evidence-based cadence *if you still choose to try it on the body*, plus exactly why results will be limited and where the danger is. Not medical advice.
+> ⚠️ **Read the verdict first.** IPL photorejuvenation is real and well-studied — but for **professional** devices at **12–40 J/cm²** with **swappable short-wavelength filters.** Your unit is a low-fluence, hair-removal-optimized IPL, and home IPL is **FDA-cleared for hair removal only** [[9]](https://fda.innolitics.com/device/K230739) — so using it for rejuvenation is **off-label**, under-dosed, and on the face carries serious eye/pigment risks. This guide gives the evidence-based cadence *if you still choose to try it on the body*, plus exactly why results will be limited and where the danger is. Not medical advice.
 
 ---
 
@@ -11,9 +11,9 @@
 
 For real rejuvenation, your hair-removal IPL is **the wrong tool**, for two independent reasons — and a third (safety) that matters most on the face:
 
-1. **Fluence gap (under-dosed 2–6×).** Clinics treat pigment at **16–20 J/cm²** and faces at **12–18 J/cm²**, on devices that reach **up to 40 J/cm²** [1][3][8]. Your device delivers **~6.3 J/cm²** — at or *below* the bottom of the rejuvenation range. Fluence is what actually heats a sun-spot or vessel enough to clear it; below threshold you warm the target without clearing it. [B-fluence]
-2. **Wrong filter (wavelength mismatch).** Rejuvenation uses **short cutoff filters (~515–560 nm)** so the light is absorbed by *surface* pigment and vessels. Hair-removal IPL deliberately uses a **longer cutoff (~590–650 nm)** to skip the shallow wavelengths and drive energy **deep to the follicle** [2]. So a hair device aims its energy in the *opposite* direction from where sun spots and redness live — and most home units have a **single fixed filter** you can't change. [2]
-3. **The face is where rejuvenation is wanted — and where IPL is most dangerous** (eyes + melasma + burns). See Safety below. [1][3][4]
+1. **Fluence gap (under-dosed 2–6×).** Clinics treat pigment at **16–20 J/cm²** and faces at **12–18 J/cm²**, on devices that reach **up to 40 J/cm²** [[1]](https://dermnetnz.org/topics/intense-pulsed-light-therapy)[[3]](https://pmc.ncbi.nlm.nih.gov/articles/PMC5418955/)[[8]](https://pmc.ncbi.nlm.nih.gov/articles/PMC3390232/). Your device delivers **~6.3 J/cm²** — at or *below* the bottom of the rejuvenation range. Fluence is what actually heats a sun-spot or vessel enough to clear it; below threshold you warm the target without clearing it. [B-fluence]
+2. **Wrong filter (wavelength mismatch).** Rejuvenation uses **short cutoff filters (~515–560 nm)** so the light is absorbed by *surface* pigment and vessels. Hair-removal IPL deliberately uses a **longer cutoff (~590–650 nm)** to skip the shallow wavelengths and drive energy **deep to the follicle** [[2]](https://www.ncbi.nlm.nih.gov/books/NBK580525/). So a hair device aims its energy in the *opposite* direction from where sun spots and redness live — and most home units have a **single fixed filter** you can't change. [[2]](https://www.ncbi.nlm.nih.gov/books/NBK580525/)
+3. **The face is where rejuvenation is wanted — and where IPL is most dangerous** (eyes + melasma + burns). See Safety below. [[1]](https://dermnetnz.org/topics/intense-pulsed-light-therapy)[[3]](https://pmc.ncbi.nlm.nih.gov/articles/PMC5418955/)[[4]](https://pubmed.ncbi.nlm.nih.gov/25111558/)
 
 **Net:** expect **minor, incidental** benefit at best — possibly some light lightening of **dark sun spots on the body** over a long series — and **not** reliable photofacial-grade clearing of pigment, redness, or wrinkles. The single most effective "rejuvenation routine" with this exact device is an honest *"this isn't the right device for that"* — see [Better options](#-if-rejuvenation-is-the-real-goal-better-routes).
 
@@ -21,12 +21,12 @@ For real rejuvenation, your hair-removal IPL is **the wrong tool**, for two inde
 
 ## 📅 If you still want to try it (body only): the evidence-based cadence
 
-Professional IPL photorejuvenation is a **series of 4–6 sessions, spaced ~3–4 weeks apart** (range 3–6 weeks); the effect is **cumulative** across the series, not delivered in one big session. [1][2][4]
+Professional IPL photorejuvenation is a **series of 4–6 sessions, spaced ~3–4 weeks apart** (range 3–6 weeks); the effect is **cumulative** across the series, not delivered in one big session. [[1]](https://dermnetnz.org/topics/intense-pulsed-light-therapy)[[2]](https://www.ncbi.nlm.nih.gov/books/NBK580525/)[[4]](https://pubmed.ncbi.nlm.nih.gov/25111558/)
 
 | Phase | Cadence | Sessions | Notes |
 |------|---------|----------|-------|
-| **Initial series** | **Every 3–4 weeks** (do **not** go shorter than 3 weeks) | **4–6** | Lets the epidermis fully heal between passes; pigment/vascular clearing accrues across the series. [1][2][4] |
-| **Results window** | (no treating) | — | **Collagen remodeling unfolds over 6–12 months** *after* the series — patience, not frequency, is what compounds texture/line results. [6][7] |
+| **Initial series** | **Every 3–4 weeks** (do **not** go shorter than 3 weeks) | **4–6** | Lets the epidermis fully heal between passes; pigment/vascular clearing accrues across the series. [[1]](https://dermnetnz.org/topics/intense-pulsed-light-therapy)[[2]](https://www.ncbi.nlm.nih.gov/books/NBK580525/)[[4]](https://pubmed.ncbi.nlm.nih.gov/25111558/) |
+| **Results window** | (no treating) | — | **Collagen remodeling unfolds over 6–12 months** *after* the series — patience, not frequency, is what compounds texture/line results. [[6]](https://pmc.ncbi.nlm.nih.gov/articles/PMC5064677/)[[7]](https://pmc.ncbi.nlm.nih.gov/articles/PMC12433457/) |
 | **Maintenance** | Every few months (weakly evidenced; clinic convention ~6–12 mo) | as needed | Touch-ups for recurring pigment/redness. [flagged: not strongly evidenced] |
 
 **Key contrast with your hair-removal routine:** rejuvenation spacing is **wider** than hair removal (every 3–4 weeks vs every 1–2 weeks). Do **not** carry over the weekly/biweekly hair cadence to facial-type rejuvenation — that's too frequent and just stacks heat injury.
@@ -37,8 +37,8 @@ Professional IPL photorejuvenation is a **series of 4–6 sessions, spaced ~3–
 
 Two evidence-backed reasons there's a floor on spacing:
 
-1. **The benefit is cumulative over a spaced series, not dose-dumped.** Every authoritative source frames results as accruing over 3–6 sessions ~3–4 weeks apart; crowding them closer doesn't substitute for the series — it just stacks epidermal heat, raising **burn and post-inflammatory hyperpigmentation (PIH)** risk with no documented efficacy gain. [1][2][4]
-2. **Collagen remodeling runs for months, not days.** Neocollagenesis **begins ~6 weeks** post-treatment and **increases out to 6–12 months** [6][7]. The texture/wrinkle payoff you're waiting for unfolds over that window *regardless* of how tightly you book sessions — so the ~3–4-week interval is essentially the **minimum** (epidermal-healing) spacing, and going tighter cannot speed the dermal result. [6][7]
+1. **The benefit is cumulative over a spaced series, not dose-dumped.** Every authoritative source frames results as accruing over 3–6 sessions ~3–4 weeks apart; crowding them closer doesn't substitute for the series — it just stacks epidermal heat, raising **burn and post-inflammatory hyperpigmentation (PIH)** risk with no documented efficacy gain. [[1]](https://dermnetnz.org/topics/intense-pulsed-light-therapy)[[2]](https://www.ncbi.nlm.nih.gov/books/NBK580525/)[[4]](https://pubmed.ncbi.nlm.nih.gov/25111558/)
+2. **Collagen remodeling runs for months, not days.** Neocollagenesis **begins ~6 weeks** post-treatment and **increases out to 6–12 months** [[6]](https://pmc.ncbi.nlm.nih.gov/articles/PMC5064677/)[[7]](https://pmc.ncbi.nlm.nih.gov/articles/PMC12433457/). The texture/wrinkle payoff you're waiting for unfolds over that window *regardless* of how tightly you book sessions — so the ~3–4-week interval is essentially the **minimum** (epidermal-healing) spacing, and going tighter cannot speed the dermal result. [[6]](https://pmc.ncbi.nlm.nih.gov/articles/PMC5064677/)[[7]](https://pmc.ncbi.nlm.nih.gov/articles/PMC12433457/)
 
 ---
 
@@ -46,20 +46,20 @@ Two evidence-backed reasons there's a floor on spacing:
 
 *(This is for proper rejuvenation IPL; your device will touch only the top of this list, weakly.)*
 
-1. **Sun spots / solar lentigines / dyschromia — STRONGEST.** Pigment responds best (e.g., 62% of patients >50% improvement, 23% >75% on hands). [3] This is the *only* category your low-fluence device might lightly affect (on the body). [B]
-2. **Facial redness / telangiectasia / rosacea — STRONG.** IPL's original use; ~82% improve in pooled data. Needs short-filter + adequate fluence your device lacks. [B][8]
+1. **Sun spots / solar lentigines / dyschromia — STRONGEST.** Pigment responds best (e.g., 62% of patients >50% improvement, 23% >75% on hands). [[3]](https://pmc.ncbi.nlm.nih.gov/articles/PMC5418955/) This is the *only* category your low-fluence device might lightly affect (on the body). [B]
+2. **Facial redness / telangiectasia / rosacea — STRONG.** IPL's original use; ~82% improve in pooled data. Needs short-filter + adequate fluence your device lacks. [B][[8]](https://pmc.ncbi.nlm.nih.gov/articles/PMC3390232/)
 3. **Texture / pores — MODERATE–STRONG** (~83% improved in a pooled review). [B]
 4. **Overall photoaging score — MODERATE** (largely driven by the pigment + redness clearing above). [B]
-5. **Wrinkles / collagen "tightening" — WEAKEST.** Real but modest (~49% >50% wrinkle improvement); "not as dramatic as ablative resurfacing." [8][B]
+5. **Wrinkles / collagen "tightening" — WEAKEST.** Real but modest (~49% >50% wrinkle improvement); "not as dramatic as ablative resurfacing." [[8]](https://pmc.ncbi.nlm.nih.gov/articles/PMC3390232/)[B]
 
 ---
 
 ## 🧴 Most-effective + safest way to use *this* device for "rejuvenation"
 
 - **Body sun spots only — not the face.** If you experiment, target isolated **dark sun/age spots on the body** (hands, forearms, chest *below the collarbone*), on light, untanned skin. Spacing **every 3–4 weeks**, 4–6 passes, expect modest lightening at best.
-- **Do NOT use it on or near the face for rejuvenation, and never near the eyes.** Home IPL ships **without orbital eye shields**; the iris and retina are exactly the pigment IPL targets — documented injuries include uveitis, iris atrophy, and permanent glare/photophobia. [1][2]
+- **Do NOT use it on or near the face for rejuvenation, and never near the eyes.** Home IPL ships **without orbital eye shields**; the iris and retina are exactly the pigment IPL targets — documented injuries include uveitis, iris atrophy, and permanent glare/photophobia. [[1]](https://dermnetnz.org/topics/intense-pulsed-light-therapy)[[2]](https://www.ncbi.nlm.nih.gov/books/NBK580525/)
 - **Use the double/split-pulse mode** (19 J across 2 flashes) if you try it — splitting energy lets the epidermis **cool between flashes**, lowering peak skin heating and burn risk vs a single 19 J flash. [A][B]
-- **Patch test** a single spot first and wait 48–72 h; **shave** the area (no hair in the path); **zero tanning** before/after; SPF 30+ daily (essential — sun after IPL drives PIH/melasma). [6]
+- **Patch test** a single spot first and wait 48–72 h; **shave** the area (no hair in the path); **zero tanning** before/after; SPF 30+ daily (essential — sun after IPL drives PIH/melasma). [[6]](https://pmc.ncbi.nlm.nih.gov/articles/PMC5064677/)
 - **Highest comfortable energy** still matters (fluence drives what little effect you'll get), but you cannot close the gap to clinic fluences — don't push past comfort/safety to chase it. [B]
 
 ---
@@ -68,10 +68,10 @@ Two evidence-backed reasons there's a floor on spacing:
 
 Rejuvenation means treating the face, which is exactly where IPL is riskiest:
 
-- **Eyes (most serious).** "IPL can damage pigmented ocular tissues such as the retina; eye protection… is critical." [2] Periocular IPL has caused **iris atrophy, uveitis, anisocoria, permanent photophobia**. [1] Home devices lack proper shields — **keep IPL away from the eye area entirely.**
-- **Melasma — can be worsened or newly triggered.** IPL is only a **third-line** melasma option, has high recurrence (**24% relapse within 24 weeks**, PIH up to ~31%), and can *induce* melasma-like hyperpigmentation even in type III–IV skin. If you have melasma, **don't.** [3][4]
-- **Burns / PIH, especially darker or tanned skin.** IPL is best for **Fitzpatrick I–III**; experts **recommend against IPL in types V–VI** (burns, hyper-/hypopigmentation, scarring), and second-degree facial burns are documented even in type IV. Never treat **tanned** skin. [5][7]
-- **Contraindications:** recent sun/self-tanner; photosensitizing meds (isotretinoin within ~6 mo, tetracyclines, fluoroquinolones); pregnancy/breastfeeding; active cold sores (IPL can trigger HSV); tattoos/moles in the field; history of skin cancer in the area. [2][8]
+- **Eyes (most serious).** "IPL can damage pigmented ocular tissues such as the retina; eye protection… is critical." [[2]](https://www.ncbi.nlm.nih.gov/books/NBK580525/) Periocular IPL has caused **iris atrophy, uveitis, anisocoria, permanent photophobia**. [[1]](https://dermnetnz.org/topics/intense-pulsed-light-therapy) Home devices lack proper shields — **keep IPL away from the eye area entirely.**
+- **Melasma — can be worsened or newly triggered.** IPL is only a **third-line** melasma option, has high recurrence (**24% relapse within 24 weeks**, PIH up to ~31%), and can *induce* melasma-like hyperpigmentation even in type III–IV skin. If you have melasma, **don't.** [[3]](https://pmc.ncbi.nlm.nih.gov/articles/PMC5418955/)[[4]](https://pubmed.ncbi.nlm.nih.gov/25111558/)
+- **Burns / PIH, especially darker or tanned skin.** IPL is best for **Fitzpatrick I–III**; experts **recommend against IPL in types V–VI** (burns, hyper-/hypopigmentation, scarring), and second-degree facial burns are documented even in type IV. Never treat **tanned** skin. [[5]](https://pmc.ncbi.nlm.nih.gov/articles/PMC13012588/)[[7]](https://pmc.ncbi.nlm.nih.gov/articles/PMC12433457/)
+- **Contraindications:** recent sun/self-tanner; photosensitizing meds (isotretinoin within ~6 mo, tetracyclines, fluoroquinolones); pregnancy/breastfeeding; active cold sores (IPL can trigger HSV); tattoos/moles in the field; history of skin cancer in the area. [[2]](https://www.ncbi.nlm.nih.gov/books/NBK580525/)[[8]](https://pmc.ncbi.nlm.nih.gov/articles/PMC3390232/)
 - **Stop and see a dermatologist** for blistering, crusting, burns, or new dark/light patches.
 
 ---
@@ -80,7 +80,7 @@ Rejuvenation means treating the face, which is exactly where IPL is riskiest:
 
 Because this device is off-label and under-powered for it, the higher-yield options are:
 
-- **In-clinic IPL/BBL photofacial** — correct fluence + filters + eye shields + clinician titration. The right tool for sun spots, redness, and rosacea. [1][8]
+- **In-clinic IPL/BBL photofacial** — correct fluence + filters + eye shields + clinician titration. The right tool for sun spots, redness, and rosacea. [[1]](https://dermnetnz.org/topics/intense-pulsed-light-therapy)[[8]](https://pmc.ncbi.nlm.nih.gov/articles/PMC3390232/)
 - **Topicals with real evidence** — daily **broad-spectrum SPF** (the #1 anti-photoaging intervention), a **retinoid** (collagen + texture + pigment), vitamin C, azelaic acid; topical tranexamic acid/hydroquinone for melasma (under guidance).
 - **Other device classes** for texture/lines — fractional non-ablative laser or microneedling (see this repo's `03_fractional_laser_resurfacing/`).
 - Keep this device for **what it's cleared and good at: hair removal** (see `12_treatment_cadence_guide.md`).
