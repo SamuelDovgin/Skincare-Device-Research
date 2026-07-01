@@ -111,7 +111,7 @@ The retail SKUs use **A-series codes** that don't appear on the English brand pa
 
 ## G. Is MimiSilk just a rebranded YDUNVIE? — and how to buy
 
-**MimiSilk Iris (✅ specs pulled this pass):** 1450nm, **12 mJ single-beam max** ("~¼ of clinical-equipment energy"), **100 µm × 30 µm microbeam**, targets dermis ~300–600 µm (acne marks ≤200 µm), **5–10 min full-face**, **$599** (reg $699), **2-yr warranty + 90-day money-back**, ships to US/CA/AU/EU + selected Asia. Claims "FDA-Cleared" (**no K-number given**), self-describes as **"MimiSilk (Danish beauty science)."**
+**MimiSilk Iris (✅ specs pulled this pass):** 1450nm, **12 mJ single-beam max** ("~¼ of clinical-equipment energy"), **100 µm × 30 µm microbeam**, targets dermis ~300–600 µm (acne marks ≤200 µm), **5–10 min full-face**, **$599** (reg $699), **2-yr warranty + 90-day money-back**, ships to US/CA/AU/EU + selected Asia. Claims "FDA-Cleared" (**no K-number given**), self-describes as **"MimiSilk (Danish beauty science)."** (MimiSilk holds no patents of its own — [14](14_mimisilk_iris_tria_patent_analysis.md) has a claim-by-claim, ⚠️ not-legal-advice read of whether it might read on Tria's still-active patents instead.)
 
 **The verdict on the rebrand question:**
 - The **spec fingerprint is essentially identical to the YDUNVIE Iris (A7)**: same 1450nm, same ~12 mJ ceiling, same 100 µm microbeam, same fractional acne-mark/pore/fine-line indications. That's a strong match — consistent with the Reddit/myernk trail that MimiSilk = a relabeled YDUNVIE/Jiangsu Unimed device.

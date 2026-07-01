@@ -534,7 +534,7 @@ Patents came up twice in this research: once as the *only* primary source for Tr
 
 **Company milestones per Alma's own history (not individually patent-linked this pass):** AFT/IPL patent 2003, unipolar RF 2004, Erbium Pixel fractional-ablative 2006, cold-ultrasound shear-wave 2007, microplasma (Opus/Accent Prime) later-era.
 
-**Not found:** any patent held by Jiangsu Unimed or under the "YDUNVIE" name, or under "MimiSilk" (see §1 for the full negative-result writeup on both).
+**Not found:** any patent held by Jiangsu Unimed or under the "YDUNVIE" name, or under "MimiSilk" (see §1 for the full negative-result writeup on both). MimiSilk holding no patents of its own raises the natural next question — could its Iris device be reading on someone *else's* patent, i.e. Tria's? [14](14_mimisilk_iris_tria_patent_analysis.md) works through that claim-by-claim (⚠️ not legal advice).
 
 **Explicitly NOT used:** US 7,703,458 / US 8,474,463 (assignee **Cutera, Inc.**, an unrelated company) — a more specific-looking "12 Hz max, 2–7 Hz typical, ~400–500 pulses/zone, ~7,000 pulses full-face" figure traces to *these* Cutera patents, not Tria. Flagged here so it doesn't get misattributed to Tria in a future pass; deliberately excluded from the block list above so the aggregator never picks it up.
 

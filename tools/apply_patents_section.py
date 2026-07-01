@@ -84,6 +84,7 @@ CSS_BLOCK = """
 .pt-mchip{border:1px solid var(--line);background:var(--card);border-radius:20px;padding:4px 12px;font-size:12px;font-weight:600;color:var(--ink);cursor:pointer}
 .pt-mchip.active{background:var(--ink);color:#fff;border-color:var(--ink)}
 .patent[hidden],.pt-tl-row[hidden]{display:none}
+.patents[hidden],.pt-timeline[hidden]{display:none}
 .pt-timeline{display:flex;flex-direction:column;gap:2px}
 .pt-tl-year{font-size:16px;font-weight:800;color:var(--accent);margin:18px 0 4px;padding-top:6px;border-top:1px solid var(--line)}
 .pt-tl-year:first-child{margin-top:0;border-top:0}
