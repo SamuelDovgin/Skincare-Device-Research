@@ -121,7 +121,7 @@ This is exactly **why your double/split-pulse mode helps**: the inter-pulse dela
 | Topic | Study | Design | Tested | Result | Takeaway |
 |---|---|---|---|---|---|
 | **Interval** | Bouzari 2005 [[33]](https://pubmed.ncbi.nlm.nih.gov/15663662/) | Diode, face/neck, retrospective | 45 vs 60 vs 90-day | **45d 78.1% > 60d 45.8% > 90d 28.7%** (same endpoint, P<0.0001) | Shorter interval → better *final* result, not just faster — don't let spacing drift long |
-| **Fluence** | Bjerring 2004 [[34]](https://pubmed.ncbi.nlm.nih.gov/15663662/) | Alexandrite dose study, N=14 | 5/10/15/20 J/cm² | 5J **plateaued at 56%**; 15–20J rose to **~81%** @6mo | Higher fluence → more *durable* reduction |
+| **Fluence** | Drosner 2001 [[34]](https://doi.org/10.1078/1615-1615-00034) | Alexandrite dose-response study | 5/10/15/20 J/cm² | 5J **plateaued at 56%**; 15–20J rose to **~81%** @6mo | Higher fluence → more *durable* reduction |
 | **Fluence (home)** | Wheeland 2012 (Tria) [[35]](https://pubmed.ncbi.nlm.nih.gov/22886431/) | Home 810nm laser, N=13 | 7/12/20 J/cm², ×8 | 12-mo: **44% / 49% / 65%** | Clean home-device dose-response |
 | **Home vs clinic** | Hendricks 2023 [[28]](https://pmc.ncbi.nlm.nih.gov/articles/PMC10218747/) | Within-patient RCT, axillae N=15 | home IPL ~5 vs diode 6–8 J/cm² | **IPL 46–52% vs diode 85–88%** | Home fluence sits low on the dose curve |
 | **Sessions** | Galadari 2003 / Krasniqi [[14]](https://aura.abdn.ac.uk/server/api/core/bitstreams/fc97152d-1aa6-4a5e-8c9d-b4ea642bf156/content) | RCT, N=100, face | 3 vs 6 sessions | **+20% short-term, +10% long-term** | More sessions help; diminishing returns on the permanent fraction |
@@ -139,6 +139,8 @@ This is exactly **why your double/split-pulse mode helps**: the inter-pulse dela
 3. **Body site beats device.** Long-cycle sites (legs) give the best long-term reduction; fast-cycling face underperforms — spend effort where it pays. [[39]](https://pubmed.ncbi.nlm.nih.gov/18027066/)
 
 > ⚡ All of this is interactive in the **[Cadence Planner](cadence_planner.html)** — photothermolysis diagram, dose-response chart, and a filterable version of this evidence table.
+
+> 🔬 **Note this is session-to-session cadence (weeks), a different timescale from flash-to-flash timing (milliseconds).** If you're weighing a single high-fluence flash against a device's "accumulated fluence over N flashes" claim, see **[15_multi_flash_thermal_accumulation.md](15_multi_flash_thermal_accumulation.md)** — it works out how fast sub-pulses actually need to fire for heat to add up at the follicle, and applies it to this repo's own single-vs-multi-pulse device evidence.
 
 ---
 
@@ -192,7 +194,7 @@ Eye protection near the face; never treat over tattoos or moles; follow your dev
 31. JCAS — *Thermal kinetic selectivity and lasers* (TRT/TDT). https://jcasonline.com/thermal-kinetic-selectivity-and-lasers/ — "TDT is much longer than the TRT"; epidermis TRT "1–10 ms," follicles "10–100 ms."
 32. Svaasand & Nelson 2004, *J Biomed Opt.* https://pubmed.ncbi.nlm.nih.gov/15065902/ — "damage… almost independent of laser pulse duration up to 100 ms"; "most important optimization parameter is the cooling efficiency."
 33. Bouzari 2005 — interval comparison. https://pubmed.ncbi.nlm.nih.gov/15663662/ — "45-day interval: 78.1%; 60-day: 45.8%; 90-day: 28.7% (P<0.0001)."
-34. Bjerring/Christiansen 2004 — alexandrite dose-response. https://pubmed.ncbi.nlm.nih.gov/15663662/ — 5/10/15/20 J/cm²: 5J plateaued ~56%, 15–20J rose to ~81% at 6 mo. *(per-fluence figures via abstract extract)*
+34. Drosner et al. 2001 — alexandrite dose-response. https://doi.org/10.1078/1615-1615-00034 — 5/10/15/20 J/cm²: 5J plateaued ~56%, 15–20J rose to ~81% at 6 mo. *(Secondary-indexed dose-response paper; useful for the fluence principle, not an IPL-specific home-device trial.)*
 35. Wheeland 2012 — Tria home laser dose-response. https://pubmed.ncbi.nlm.nih.gov/22886431/ — "20 J/cm²: 73% at 1 month, 65% at 12 months."
 36. Mittal 2008 — Nd:YAG session-count. https://pmc.ncbi.nlm.nih.gov/articles/PMC2840900/ — "achievers" 3rd 5% → 6th 56% (P<0.0001).
 37. Snast 2021 — paradoxical hypertrichosis meta-analysis. https://pubmed.ncbi.nlm.nih.gov/34057666/ — "3% (95% CI 1–6)… modality and interval had no effect."

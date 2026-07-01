@@ -1,0 +1,49 @@
+<svg viewBox="0 0 920 345" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timing ladder comparing epidermis, follicle, and stem-cell timescales against real clinical and device pulse intervals">
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}</style>
+<rect x="0" y="0" width="920" height="345" fill="#ffffff"/>
+<text x="60" y="24" font-size="14.5" font-weight="700" fill="#1f2430">Where does a real flash-to-flash interval need to sit?</text>
+<text x="60" y="41" font-size="11.5" fill="#6b7280">Log-scale timeline (1ms–1000ms): literature timescales (left) vs. real measured clinical/device intervals (right)</text>
+
+<defs>
+<pattern id="hatch" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+<rect width="7" height="7" fill="#eef0f2"/>
+<line x1="0" y1="0" x2="0" y2="7" stroke="#9aa3b2" stroke-width="2.5"/>
+</pattern>
+</defs>
+
+<!-- Row 1: epidermis TRT -->
+<text x="204.1" y="68" font-size="11" font-weight="700" fill="#1f2430">Epidermis TRT — 3–10ms</text>
+<rect x="204.1" y="72" width="135.9" height="14" rx="6" fill="#2563eb" opacity="0.85"/>
+
+<!-- Row 2: follicle TRT -->
+<text x="340" y="106" font-size="11" font-weight="700" fill="#1f2430">Hair-shaft / follicle TRT — 10–100ms</text>
+<rect x="340" y="110" width="260" height="14" rx="6" fill="#d9a441" opacity="0.9"/>
+
+<!-- Row 3: clinical fixed-spot multi-pulse delay -->
+<text x="340" y="144" font-size="11" font-weight="700" fill="#0d9488">Clinical fixed-spot multi-pulse delay — 10–40ms</text>
+<rect x="340" y="148" width="156.5" height="14" rx="6" fill="#0d9488" opacity="0.9"/>
+
+<!-- Row 4: SHR / in-motion interval -->
+<text x="600" y="182" font-size="11" font-weight="700" fill="#16a34a">SHR / "in-motion" interval — 100–200ms (5–10Hz)</text>
+<rect x="600" y="186" width="78.2" height="14" rx="6" fill="#16a34a" opacity="0.9"/>
+
+<!-- Row 5: this device's actual interval — undisclosed -->
+<text x="521.75" y="220" font-size="11" font-weight="700" fill="#6b7280" text-anchor="middle">Your device's double/triple-pulse interval — UNDISCLOSED</text>
+<rect x="261.7" y="224" width="520.1" height="14" rx="6" fill="url(#hatch)" stroke="#9aa3b2" stroke-width="1"/>
+<text x="521.75" y="234.5" font-size="9.5" font-weight="700" fill="#6b7280" text-anchor="middle">?</text>
+
+<!-- Row 6: stem cell TDT -->
+<text x="860" y="258" font-size="11" font-weight="700" fill="#c0392b" text-anchor="end">Stem-cell TDT — 170–1000ms (≈400ms optimal)</text>
+<rect x="659.9" y="262" width="200.1" height="14" rx="6" fill="#c0392b" opacity="0.9"/>
+
+<!-- axis -->
+<line x1="80" y1="295" x2="860" y2="295" stroke="#d7dade"/>
+<g font-size="11" fill="#6b7280" text-anchor="middle">
+<line x1="80" y1="291" x2="80" y2="299" stroke="#9aa3b2"/><text x="80" y="312">1ms</text>
+<line x1="340" y1="291" x2="340" y2="299" stroke="#9aa3b2"/><text x="340" y="312">10ms</text>
+<line x1="600" y1="291" x2="600" y2="299" stroke="#9aa3b2"/><text x="600" y="312">100ms</text>
+<line x1="860" y1="291" x2="860" y2="299" stroke="#9aa3b2"/><text x="860" y="312">1000ms</text>
+</g>
+
+<text x="60" y="330" font-size="10.5" fill="#1f2430">Clinical multi-pulse and SHR both publish timing inside the follicle's cooling window. Your device's "accumulated" total does not disclose timing at all.</text>
+</svg>

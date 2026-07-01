@@ -4,6 +4,8 @@
 
 Confidence: ✅ verified (peer-reviewed / FDA) · ⚠️ marketing/company study · 🔍 inferred.
 
+**Jump to the absolute numbers:** §3d converts all of this into **total joules delivered in one full-face session** for every device — **C+B Original ≈ 2.3–3.0 kJ, C+B Perméa ≈ 0.8–1.3 kJ, Fraxel ≈ 1–6 kJ, home YDUNVIE/Iris ≈ 180 J, home Tria ≈ 70–145 J** — cross-checked two independent ways. Patents and primary-source PDFs behind every number are indexed in §9 and §10.
+
 ---
 
 ## 1. The four parameters that actually define a fractional treatment
@@ -132,6 +134,8 @@ Tria gives us more to work with than YDUNVIE/MimiSilk: it **discloses a coverage
 | **Fraxel re:store** | **750–3,000 MTZ/cm²** ✅ | 5–29% | higher | 250–800 µm (1550nm) |
 
 > **The number you wanted:** per session, both the home Iris/MimiSilk **and the Tria FRX** deliver roughly **1/10th to 1/30th the MTZ density and ~20× less coverage than Clear + Brilliant on high** — *quantifying* the "it's the density" hypothesis. All three 1440/1450nm devices sit at the **same wavelength-set depth**, so depth doesn't separate them; **the gap is density/coverage, full stop.** (C+B density derived from its 10% coverage ÷ ~100–140 µm MTZ area; depth column shown by wavelength to make clear it's *not* the differentiator within 1440nm.)
+>
+> *(§3d below converts all of this into one absolute number — total joules delivered per full-face session — for every device including Clear + Brilliant itself, and tightens C+B's own density to a single ~650 MTZ/cm² once the spot size is confirmed at a fixed 140 µm for both handpieces.)*
 
 ### The cumulative caveat (this is the home device's one real argument)
 Home devices are used **far more often**. At 2–3×/week for ~12 weeks (~30 sessions):
@@ -184,6 +188,84 @@ So matching **one** high-density C+B session takes **~24 home sessions**; matchi
 
 ---
 
+## 3d. Total per-session energy (J) — the full head-to-head, including Clear + Brilliant itself
+
+§3b derived total joules for the *home* devices from "180 J full-face." The missing half — Clear + Brilliant's and Fraxel's own total-session energy — isn't published anywhere I could find (checked: neither device's FDA 510(k) summary, IFU, nor manufacturer literature states a total-joules-per-treatment figure directly). It has to be derived the same way, then cross-checked two independent ways. Doing that for every device finally puts **one number** — total energy actually delivered to your face in one sitting — on the same axis for the whole lineup.
+
+### New primary-source inputs (this pass)
+| Device | Spec | Value | Source |
+|---|---|---|---|
+| C+B **Original** | max pulse rate | **<400 Hz** | ✅ Solta service manual + NCT05027282 protocol (agree) |
+| C+B Original | max average power | **2.5 W** | ✅ same two sources |
+| C+B **Perméa** | max pulse rate | **<150 Hz** | ✅ same two sources |
+| C+B Perméa | max average power | **0.9 W** | ✅ same two sources |
+| C+B (both handpieces) | spot size | **fixed 140 µm** (shared optics) | ✅ Solta service manual — *tighter than the 110–180µm previously cited for Perméa in §4b, which likely described the broader 1927nm device class rather than this specific handpiece* |
+| C+B Original's own FDA filing | energy setting vs predicate | operates at **"pre-determined energy settings (the lower end of the range in the predicate)"** (Fraxel IV SR) | ✅ K110349 510(k) summary — direct primary-source confirmation that C+B is deliberately the gentler member of the family (§1's framing) |
+| C+B protocol | area/time device cap | **3,200 cm² OR 40 min**, whichever first (combined 8-pass protocol); stock single-handpiece key = **800 cm² OR 40 min** | ✅ NCT05027282 protocol + service manual |
+| Tria SRL | pulse repetition rate | **~15 Hz** (disclosed range 10–20 Hz; the patent's broader claims span 0.5–75 Hz across product variants) | 🔍 Tria-assignee patent US 9,308,390 B2 — *platform patent; not certainly the exact SRL factory preset* |
+| Fraxel (Dual platform) | pulse rate | up to **2,900 MTZ/s** | ✅ Solta Fraxel Dual brochure |
+| Fraxel, full-face, **1550nm channel** | **total energy, direct figure** | **3–6 kJ** | ✅ Friedman & Dover, *Dermatol Surg* 2022 (peer-reviewed) — names "Fraxel Dual," not "re:store" specifically (naming caveat below) |
+| Fraxel, full-face, **1927nm channel** | **total energy, direct figure** | **1–2 kJ** | ✅ same source |
+| (sanity check) full-face area | **343–371 cm²** (3D scan, with/without eyes+mouth) | ✅ USPTO applicator patent (US 11058207) — confirms this doc's ~400 cm² estimate is reasonable, slightly conservative |
+
+A genuinely useful catch buried in the protocol doc: **3,200 cm² ÷ ~400 cm²/face ≈ 8** — the device's *own* area cap is almost exactly "8 passes over one face," independently confirming the "8 passes" framing §3 already used for C+B's 5/7.5/10% coverage levels.
+
+### Why Hz × mJ isn't the shortcut it looks like
+The instinct is to multiply max pulse rate × max pulse energy to get power, then power × time = total J. That breaks here: **400 Hz × 9 mJ = 3.6 W, which exceeds the Original handpiece's own 2.5 W average-power ceiling** — the device cannot run flat-out on both dials simultaneously (150 Hz × 5 mJ = 0.75 W *does* clear Perméa's 0.9 W cap, with headroom — so the two handpieces aren't even governed the same way). **Average power is the real ceiling spec; use *that* × active time, not Hz × mJ.**
+
+### Method A — average power × active time (Original/Perméa)
+No source states *active firing time* separately from the ~40-minute device/appointment cap, so this method has real spread — shown here as a band, not a point estimate:
+
+| Setting | Active time (estimate) | C+B Original (2.5 W) | C+B Perméa (0.9 W) |
+|---|---|---|---|
+| Conservative | 15 min (900 s) | 2,250 J | 810 J |
+| Moderate | 20 min (1,200 s) | 3,000 J | 1,080 J |
+| Device-imposed ceiling | 40 min (2,400 s) | 6,000 J | 2,160 J |
+
+### Method B — coverage/density × area × per-MTZ energy (cross-check, from §3's own numbers)
+Using the literature coverage levels (Original: 5/7.5/10% @ 8 passes; Perméa assumed the same envelope per the Brauer 1927nm low-density protocol in §3c) and the now-confirmed **140 µm spot for both handpieces**, over a ~400 cm² face:
+
+| Device, setting | Density (MTZ/cm²) | Total MTZs/session | × mJ | **Total J/session** |
+|---|---|---|---|---|
+| C+B Original, low (5%) | ~325 | ~130,000 | 9 mJ | **~1,170 J** |
+| C+B Original, med (7.5%) | ~487 | ~195,000 | 9 mJ | **~1,755 J** |
+| **C+B Original, high (10%)** | **~650** | **~260,000** | **9 mJ** | **~2,340 J** |
+| C+B Perméa, high (10%, assumed) | ~650 | ~260,000 | 5 mJ | **~1,300 J** |
+
+*(This also tightens §3b/§4b's earlier 650–1,270 MTZ/cm² range for C+B-high — that range came from spot-size uncertainty between 100–140 µm; the service manual's confirmed fixed 140 µm spot means ~650 MTZ/cm² is the better single estimate, and the 1,270 upper bound was likely an overestimate.)*
+
+### The two methods converge — that's the confidence check
+Original: **~2,250–3,000 J** (power method, plausible active-time band) vs **~2,340 J** (density method) — agree within ~25%. Perméa: **~810–1,300 J** — same story. That convergence from two *independent* derivations (one from electrical/optical device limits, one from published clinical coverage literature) is why the **~2.3–3 kJ (Original) / ~0.8–1.3 kJ (Perméa)** range is trustworthy as an order-of-magnitude, even with no manufacturer-stated total.
+
+### Tria — upgraded from "assumed same as YDUNVIE" to an independent estimate
+§3b previously *assumed* Tria's total session energy was "the same ballpark as YDUNVIE (~180–360 J)" because no Tria rep-rate was known. A Tria-assignee patent (US 9,308,390 B2) discloses **~15 Hz** (10–20 Hz embodiment) — combined with the IFU's own verified dwell times ([13](13_tria_smoothbeauty_owners_guide.md)), that's now a real, independently-derived number instead of an assumption:
+
+| Tria level | mJ/pulse | Full-face time | Total pulses (@15 Hz) | **Total J/session** | Range (@10–20 Hz) |
+|---|---|---|---|---|---|
+| L1 | 5 mJ | 120 s | 1,800 | **~9 J** | 6–12 J |
+| L2 | 10 mJ | 240 s | 3,600 | **~36 J** | 24–48 J |
+| **L3 (full course)** | **12 mJ** | **600 s** | **9,000** | **~108 J** | **72–144 J** |
+
+So Tria at its highest level delivers an *independently-estimated* ~70–145 J full-face — **below**, not equal to, YDUNVIE's stated 180 J. This tightens (and if anything slightly worsens) the density-gap story from §3b rather than changing its conclusion. 🔍 Caveat: the patent is a platform document covering multiple Tria product variants (its disclosed pulse-energy ranges — 2–30 mJ etc. — are broader than the SRL's actual 5–12 mJ), so 15 Hz isn't certainly the SRL's exact factory preset — treat as the best available estimate, not a confirmed spec. **PaloVia could not be added to this table**: its pulse energy (8–15 mJ, 1410nm) is confirmed from its own clinical paper, but no source gives its rep-rate or session time, and its FDA summary (mirrored in §10) has no specs table — total J for PaloVia is *not computable* from anything currently available, not estimated.
+
+### Fraxel — the direct figure beats the back-calculation, and that mismatch is itself informative
+Friedman & Dover's peer-reviewed total-energy figures (3–6 kJ @1550nm, 1–2 kJ @1927nm, full face) are the most directly authoritative numbers in this whole table — an actual stated total, not derived. But back-calculating from a separately-published *representative setting* (30 mJ, 23% coverage, a Samsung Medical Center photorejuvenation protocol, ~100µm MTZ) gives **~35 kJ** — roughly 6–10× higher. Don't average these away: the gap is a real signal that **"coverage %" and "total J" are reported inconsistently across the Fraxel literature** (different studies, different pass-count conventions, different fractions of the face actually carried to that density) — the same unit-confusion trap §1 already warns about, just showing up between two *clinical* papers this time, not just marketing copy. **Use the direct 3–6 kJ figure as the headline** (✅ peer-reviewed, stated outright); treat the ~35 kJ figure as an upper-bound sanity flag, not a contradiction to resolve. Also note the naming caveat: Friedman & Dover discuss the modern **"Fraxel Dual"** platform, not "re:store" by name — re:store is the 1550nm-only predecessor system, so its 1550nm-channel number is the relevant analog, not a confirmed re:store-specific figure.
+
+### The full lineup, one axis: total joules, one full-face session
+| Device | Wavelength | Total J / session | Basis | Confidence |
+|---|---|---|---|---|
+| **Home — YDUNVIE Iris Ice / MimiSilk** | 1450nm | **~180 J** | directly published spec | ⚠️ marketing spec, cross-checked twice in §3b |
+| **Home — Tria SRL, L3/highest** | 1440nm | **~70–145 J** (≈108 J central) | Hz (patent) × IFU dwell time × mJ | 🔍 independently derived, platform-patent Hz |
+| **Home — PaloVia** | 1410nm | **not computable** | pulse energy confirmed (8–15 mJ); no rep-rate or session-time source found anywhere, including its FDA summary | — insufficient data, not estimated |
+| **C+B Perméa, high** | 1927nm | **~0.8–1.3 kJ** | avg-power×time **and** density×area, converge | ✅/🔍 two independent methods agree |
+| **C+B Original, high** | 1440nm | **~2.3–3.0 kJ** | avg-power×time **and** density×area, converge | ✅/🔍 two independent methods agree |
+| **Fraxel-class, 1927nm channel** | 1927nm | **~1–2 kJ** | direct peer-reviewed figure | ✅ ("Fraxel Dual" branding, not re:store by name) |
+| **Fraxel-class, 1550nm channel** | 1550nm | **~3–6 kJ** (one back-calc outlier ~35 kJ, flagged above) | direct peer-reviewed figure | ✅ (same naming caveat) |
+
+**The number you actually asked for:** one full-face Clear + Brilliant Original session, on high, delivers on the order of **~2,300 J** (central estimate, ~2,250–3,000 J across both methods) — roughly **~22× more total energy than one Tria session** at its highest level (~108 J central; ~15–40× depending on which method/assumption you anchor to) and **~13× more than YDUNVIE's home 1450nm device** (180 J). Fraxel runs higher still (~3–6 kJ at 1550nm). The entire gap is throughput (Hz × coverage × time), not intensity — the same conclusion §3b reached from the density side, now confirmed from the absolute-energy side, anchored by C+B's own service manual and a Tria patent rather than assumption.
+
+---
+
 ## 4. Lever 3 — Depth: set by WAVELENGTH, not by home-vs-clinic (corrected)
 
 > **Correction (you were right to push on this).** An earlier draft treated depth as a home-vs-clinic "gap." That's wrong at matched wavelength. **Depth is dominated by wavelength**, via water absorption — so comparing a 1440nm home device's quoted depth to a 1440nm C+B's quoted depth tells you almost nothing. Depth is a lever you pull by **choosing the wavelength**, *not* a place where clinic beats home.
@@ -214,7 +296,7 @@ Good instinct to ask. Microbeam **diameter** is a real, separate variable — an
 | Device | Microbeam / MTZ diameter |
 |--------|--------------------------|
 | Manstein original fractional concept | ~**60 µm or 140 µm** incidence (Gaussian) |
-| **Clear + Brilliant** | **fixed ~140 µm**; Perméa 110–180 µm |
+| **Clear + Brilliant** | **fixed 140 µm, both handpieces** ✅ (Solta service manual — supersedes an earlier ⚠️ 110–180 µm Perméa estimate from secondary literature; see §3d) |
 | **Fraxel re:store** | MTZ ~**100 µm** dia (e.g. 20 mJ/60 µm spot → 100 µm × 300 µm deep) |
 | Home (MimiSilk Iris) | ~**100 µm** (stated) |
 | General MTZ range | **~50–200 µm**, grows with skin temperature (93→147 µm as 0→45 °C) |
@@ -271,6 +353,8 @@ Beam diameter:    home ~100µm/12mJ ≈ 150 J/cm²  ≥  C+B 140µm/9mJ ≈ 58 J
                   (small spot = higher fluence; home's diameter RISK is drift/defocus → dose-control, §4b)
 Coverage/density: home (~30–180 MTZ/cm², ~0.3–1.5%/session, est.)
                      vs  C+B high (~650–1,270 MTZ/cm², 10%)  ≈ 10–30× lower → THE gap (quantified §3b)
+Total session J:  home (~70–180 J)  vs  C+B high (~2,300–3,000 J)  ≈ ~13–22× lower
+                     → same gap, confirmed from the absolute-energy side (§3d)
 Cumulative dose:  home (open-ended, painless, single-λ, manual)
                      < C+B (4–6 sessions, numbed, dual-λ, scanned, to endpoint) → the other gap
 ```
@@ -290,6 +374,40 @@ Cumulative dose:  home (open-ended, painless, single-λ, manual)
 
 ---
 
+## 9. Patents referenced in this analysis
+
+Patents came up twice in this research: once as the *only* primary source for Tria's pulse rate (no FDA filing or IFU states it), and once as a 3D-scan source for facial surface area. Listed here with what each actually discloses, so a future pass doesn't have to re-derive it:
+
+| Patent | Assignee | What it discloses | Used for |
+|---|---|---|---|
+| [**US 9,308,390 B2**](https://patents.google.com/patent/US9308390B2/en) — "Devices and methods for radiation-based dermatological treatments" | **Tria Beauty, Inc.** (confirmed via Google Patents assignee history) | Pulse rate embodiments: "0.5–75 Hz," "2–30 Hz," "10–20 Hz, e.g., about 15 Hz"; pulse energy "2–30 mJ" / "5–20 mJ" / "10–15 mJ"; a 4-minute session "effective for about 300 cm², e.g., full-face"; the 0.25–5% home-use coverage envelope already cited in §3b | §3b (coverage envelope) and §3d (Tria's independently-derived total-J estimate) |
+| [**US 11,058,207**](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11058207) — "Precision applicator" | (face-measurement/applicator patent) | 3D facial scan data: **371.1 cm²** face surface area including eyes/mouth, **343.1 cm²** excluding eyes/nostrils/mouth | §3d (cross-check for the ~400 cm² full-face-area assumption used throughout §3b/§3d) |
+| ~~US 7,703,458 / US 8,474,463~~ — explicitly **NOT used** | **Cutera, Inc.** — an unrelated company | A more specific-looking "12 Hz max, 2–7 Hz typical, ~400–500 pulses/zone, ~7,000 pulses full-face" figure traces to *these* Cutera patents, not Tria. Flagged here so it doesn't get misattributed to Tria in a future pass. | — (deliberately excluded) |
+
+**Not located:** no patent or filing discloses a pulse repetition rate for Clear + Brilliant (its rep rate came from the Solta service manual and the NCT05027282 protocol — both primary, neither a patent — see §10), nor for PaloVia or the YDUNVIE/MimiSilk Iris family (their rep rates remain unconfirmed; §3d/§3b flag this explicitly rather than estimating one).
+
+---
+
+## 10. Primary-source PDFs (mirrored in this repo)
+
+Every PDF below was fetched and verified (opened and read, not just downloaded) during this research pass, then mirrored into [`quantified_gap_source_docs/`](quantified_gap_source_docs/) so the links survive even if the original hosting disappears — same practice as [`tria_smoothbeauty/source_docs/`](tria_smoothbeauty/source_docs/) for doc 13.
+
+| File | What it is | Used for |
+|---|---|---|
+| [nct05027282-clearbrilliant-trial-protocol.pdf](quantified_gap_source_docs/nct05027282-clearbrilliant-trial-protocol.pdf) | Clinical trial protocol (Prot_SAP_000), Clear + Brilliant Touch, §2.1.2 | Pulse rate (<400Hz/<150Hz), area/time device caps (§3d) |
+| [solta-clearbrilliant-service-manual.pdf](quantified_gap_source_docs/solta-clearbrilliant-service-manual.pdf) | Solta C+B Service Manual, doc #30469 Rev E, §10.0–10.2 | Independent confirmation of pulse rate, average power, fixed 140µm spot (§3d, §4b) |
+| [fraxel-dual-product-brochure.pdf](quantified_gap_source_docs/fraxel-dual-product-brochure.pdf) | Solta Fraxel Dual product brochure (6pp) | Pulse rate (≤2,900 MTZ/s), 1550/1927nm pulse energy range (§3d) |
+| [us-patent-9308390-tria-laser.pdf](quantified_gap_source_docs/us-patent-9308390-tria-laser.pdf) | US 9,308,390 B2 full patent (Tria Beauty) | Tria pulse-rate estimate (§3d); see §9 |
+| [us-patent-11058207-facial-surface-area.pdf](quantified_gap_source_docs/us-patent-11058207-facial-surface-area.pdf) | US 11,058,207 full patent | Full-face area cross-check (§3d); see §9 |
+| [fda-510k-k110349-clearbrilliant-original.pdf](quantified_gap_source_docs/fda-510k-k110349-clearbrilliant-original.pdf) | FDA 510(k) summary, **Clear+Brilliant Original**, 2011 | Predicate = Fraxel IV SR (K063808); confirms C+B runs **"pre-determined energy settings (the lower end of the range in the predicate)"** — direct primary-source support for "C+B is the gentler member of the family" (§1, §3d) |
+| [fda-510k-k120433-clearbrilliant-permea.pdf](quantified_gap_source_docs/fda-510k-k120433-clearbrilliant-permea.pdf) | FDA 510(k) summary, **Clear+Brilliant Perméa** line extension, 2012 | Predicates = C+B Original (K110349) + Fraxel DUAL 1550/1927 (K101490); confirms Perméa runs at "the same low power settings of the predicate" |
+| [fda-510k-k130459-tria-fan.pdf](quantified_gap_source_docs/fda-510k-k130459-tria-fan.pdf) | FDA 510(k) summary, **Tria FAN System**, 2013 | Predicates include Palomar LOI (K090525) and **Solta Fraxel Re:Fine** (multiple K-numbers); confirms 1450±50nm, periorbital-wrinkles-only indication |
+| [fda-510k-k090525-palovia-loi-system.pdf](quantified_gap_source_docs/fda-510k-k090525-palovia-loi-system.pdf) | FDA 510(k) summary, **"LOI System"** (Palomar Medical Technologies), 2009 | The filing behind the retail "PaloVia" device — note the FDA filing itself never uses the name "PaloVia," only "LOI System"; predicates include **Fraxel Laser System (Fraxel SR1500, Re:store™), K070284** — independent confirmation that "re:store" is a real, separately-cleared device name, not just informal branding |
+
+**Checked but not mirrorable** (paywalled/blocked, linked externally instead in Sources below): the Friedman & Dover 2022 *Dermatol Surg* paper (PMC blocks direct download without a browser session — read via the PMC article page instead) and the PaloVia ScienceDirect device-description paper (403, subscription-gated).
+
+---
+
 ### Sources
 - [Skin Therapy Letter — Fractional Laser Treatment for Pigmentation & Texture](https://www.skintherapyletter.com/hyperpigmentation/fractional-laser-treatment/) (Fraxel density 750–3,000 MTZ/cm², coverage 5–29%, depth 250–800 µm; C+B coverage levels)
 - [JDD — The 1440nm & 1927nm Nonablative Fractional Diode Laser review](https://jddonline.com/articles/article-the-1440-nm-and-1927-nm-nonablative-fractional-diode-laser-current-trends-and-future-directi-S1545961620S00s3X/) (C+B depths, energy levels)
@@ -305,3 +423,13 @@ Cumulative dose:  home (open-ended, painless, single-λ, manual)
   - [High- vs Low-Density fractional for hypertrophic postburn scars — RCT, high-density wins (PubMed 31851017)](https://pubmed.ncbi.nlm.nih.gov/31851017/)
   - [Lower-fluence/higher-density vs higher-fluence/lower-density CO₂ fractional, split-face, evaluator-blinded (PubMed 21070459)](https://pubmed.ncbi.nlm.nih.gov/21070459/)
   - [Nonablative Fractional Resurfacing in Skin of Color — evidence review (PMC5605208)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5605208/) · [Lasers in Melasma — Indian Pigmentary Expert consensus (PMC5724305)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5724305/) · [Fractional resurfacing neocollagenesis over months (PMC7028380)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7028380/) · [cumulative-coverage formula explainer (Cocoon, ⚠️ manufacturer)](https://www.cocoonlaser.com/fractional-photothermolysis-density-coverage-percentage-explained-clinic-investment-faq/)
+- **§3d / §9 / §10 (total session energy, patents, mirrored PDFs) — primary sources, all mirrored in [`quantified_gap_source_docs/`](quantified_gap_source_docs/) except where noted:**
+  - Solta Clear+Brilliant Service Manual, doc #30469 Rev E (manufacturer service manual, third-party hosted) — [mirrored copy](quantified_gap_source_docs/solta-clearbrilliant-service-manual.pdf) · [original](http://www.frankshospitalworkshop.com/equipment/documents/various_equipment/service_manuals/various/Solta%20C,%20B%20Dermatological%20Laser%20-%20Service%20manual.pdf)
+  - Clear+Brilliant Touch clinical trial protocol "Prot_SAP_000" (NCT05027282) — [mirrored copy](quantified_gap_source_docs/nct05027282-clearbrilliant-trial-protocol.pdf) · [original](https://cdn.clinicaltrials.gov/large-docs/82/NCT05027282/Prot_SAP_000.pdf)
+  - Solta Fraxel Dual product brochure — [mirrored copy](quantified_gap_source_docs/fraxel-dual-product-brochure.pdf) · [original](https://www.dansysgroup.com/dan/pdf/Fraxel-Dual-Product-Brochure.pdf)
+  - [Friedman & Dover 2022 — 1,550nm/1,927nm NAFL best-practices & treatment-setting recommendations, *Dermatol Surg* 48(2):195–200 (PMC8806037)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8806037/) ✅ peer-reviewed — direct total-energy-per-face figures (3–6 kJ @1550nm, 1–2 kJ @1927nm); could not be auto-mirrored (PMC blocks direct PDF download)
+  - [Samsung Medical Center 1550nm photorejuvenation protocol — 30mJ/level 8/23% coverage representative setting (ResearchGate 318733002)](https://www.researchgate.net/publication/318733002) ✅ peer-reviewed-adjacent — the back-calculation outlier discussed in §3d
+  - Tria patent US 9,308,390 B2 — [mirrored copy](quantified_gap_source_docs/us-patent-9308390-tria-laser.pdf) · [Google Patents](https://patents.google.com/patent/US9308390B2/en)
+  - Facial surface-area patent US 11,058,207 — [mirrored copy](quantified_gap_source_docs/us-patent-11058207-facial-surface-area.pdf) · [USPTO PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11058207)
+  - FDA 510(k) summaries — [K110349 C+B Original](quantified_gap_source_docs/fda-510k-k110349-clearbrilliant-original.pdf) · [K120433 C+B Perméa](quantified_gap_source_docs/fda-510k-k120433-clearbrilliant-permea.pdf) · [K130459 Tria FAN](quantified_gap_source_docs/fda-510k-k130459-tria-fan.pdf) · [K090525 PaloVia/"LOI System"](quantified_gap_source_docs/fda-510k-k090525-palovia-loi-system.pdf) (all mirrored; all four are narrative substantial-equivalence statements with no specs tables, per CDRH's standard 510(k) summary format)
+  - [PaloVia ("LOI System") device-description paper — 8–15mJ, 1410±5nm, 10ms pulse, 210–250µm-deep microcolumns (ScienceDirect, abs. only)](https://www.sciencedirect.com/science/article/abs/pii/S0190962212001430) ⚠️ full text paywalled (403), abstract only — no rep-rate or session-time data found

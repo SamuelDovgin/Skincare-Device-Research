@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1100" viewBox="0 0 1500 1100" role="img" aria-labelledby="title desc">
+  <title id="title">IPL research evidence map</title>
+  <desc id="desc">Categorized map of the cited IPL research papers and what each evidence cluster supports.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f7f8fb}
+      .title{font:700 34px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#18202f}
+      .sub{font:500 16px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#5b6474}
+      .lane-title{font:700 20px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#18202f}
+      .box-title{font:700 16px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#18202f}
+      .txt{font:500 13px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#344054}
+      .small{font:600 11px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#667085}
+      .paper{font:700 12px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#233043}
+      .muted{fill:#6b7280}
+      .line{fill:none;stroke:#a9b2c3;stroke-width:2;stroke-linecap:round}
+      .dash{fill:none;stroke:#b7c0ce;stroke-width:2;stroke-dasharray:7 8;stroke-linecap:round}
+      .card{rx:8;stroke-width:1.5}
+    </style>
+  </defs>
+  <rect class="bg" width="1500" height="1100"/>
+
+  <text x="70" y="70" class="title">IPL evidence map: what the cited research actually proves</text>
+  <text x="70" y="102" class="sub">Best-cited in the IPL archive = most decision-useful evidence anchors, grouped by claim strength and practical implication.</text>
+
+  <rect x="600" y="155" width="300" height="120" rx="8" fill="#ffffff" stroke="#1f6feb" stroke-width="2"/>
+  <text x="750" y="187" text-anchor="middle" class="box-title">Core IPL Question</text>
+  <text x="750" y="217" text-anchor="middle" class="txt">Which claims are supported?</text>
+  <text x="750" y="240" text-anchor="middle" class="txt">Hair, skin, cadence, safety</text>
+
+  <path class="line" d="M750 275 L750 318"/>
+  <rect x="570" y="318" width="360" height="92" rx="8" fill="#eef6ff" stroke="#1f6feb"/>
+  <text x="750" y="347" text-anchor="middle" class="box-title">Bottom line</text>
+  <text x="750" y="374" text-anchor="middle" class="txt">Credible for hair reduction</text>
+  <text x="750" y="396" text-anchor="middle" class="txt">Not proven as a home photofacial</text>
+
+  <text x="85" y="168" class="lane-title">Mechanism &amp; Parameters</text>
+  <rect class="card" x="70" y="190" width="370" height="165" fill="#fff7ed" stroke="#f59e0b"/>
+  <text x="92" y="222" class="box-title">What it proves</text>
+  <text x="92" y="250" class="txt">Selective photothermolysis:</text>
+  <text x="92" y="272" class="txt">wavelength + fluence + pulse timing</text>
+  <text x="92" y="294" class="txt">+ cooling decide whether heat is selective.</text>
+  <text x="92" y="327" class="paper">Anderson 1983 | Svaasand 2004</text>
+  <text x="92" y="346" class="paper">StatPearls IPL | Current Trends IPL</text>
+
+  <text x="1045" y="168" class="lane-title">Home Hair Reduction</text>
+  <rect class="card" x="1030" y="190" width="400" height="165" fill="#ecfdf3" stroke="#16a34a"/>
+  <text x="1052" y="222" class="box-title">What it proves</text>
+  <text x="1052" y="250" class="txt">Low-fluence home IPL can reduce dark hair</text>
+  <text x="1052" y="272" class="txt">in selected users after repeated sessions.</text>
+  <text x="1052" y="294" class="txt">Long-term permanence is weaker.</text>
+  <text x="1052" y="327" class="paper">Gold 2010/2015 | Alster 2009 | Elm 2010</text>
+  <text x="1052" y="346" class="paper">Hendricks 2023 | Krasniqi 2022</text>
+
+  <path class="line" d="M440 273 C500 273 520 335 570 352"/>
+  <path class="line" d="M1030 273 C970 273 950 335 930 352"/>
+
+  <text x="85" y="448" class="lane-title">Cadence, Dose &amp; Body Site</text>
+  <rect class="card" x="70" y="470" width="370" height="180" fill="#f0f9ff" stroke="#0ea5e9"/>
+  <text x="92" y="502" class="box-title">What it proves</text>
+  <text x="92" y="530" class="txt">Fluence, enough sessions, body site,</text>
+  <text x="92" y="552" class="txt">and hair-cycle timing drive results.</text>
+  <text x="92" y="574" class="txt">Daily use is not supported.</text>
+  <text x="92" y="607" class="paper">Bouzari 2005 | Drosner 2001</text>
+  <text x="92" y="626" class="paper">Wheeland 2012 | Hirsutism update</text>
+  <path class="dash" d="M440 560 C505 560 528 418 570 390"/>
+
+  <text x="1045" y="448" class="lane-title">Professional Rejuvenation</text>
+  <rect class="card" x="1030" y="470" width="400" height="180" fill="#fdf2f8" stroke="#db2777"/>
+  <text x="1052" y="502" class="box-title">What it proves</text>
+  <text x="1052" y="530" class="txt">Professional IPL can improve lentigines,</text>
+  <text x="1052" y="552" class="txt">redness/telangiectasia, texture, and</text>
+  <text x="1052" y="574" class="txt">photoaging when filters/fluence fit.</text>
+  <text x="1052" y="607" class="paper">Bitter 2003 | Solar lentigines | M22</text>
+  <text x="1052" y="626" class="paper">Arch Derm Res 2021 | Real-world IPL</text>
+  <path class="dash" d="M1030 560 C970 560 946 418 930 390"/>
+
+  <text x="85" y="728" class="lane-title">Safety Limits</text>
+  <rect class="card" x="70" y="750" width="370" height="185" fill="#fff1f2" stroke="#e11d48"/>
+  <text x="92" y="782" class="box-title">What it proves</text>
+  <text x="92" y="810" class="txt">Pigment-prone, tanned, darker, facial,</text>
+  <text x="92" y="832" class="txt">melasma, and periocular use changes</text>
+  <text x="92" y="854" class="txt">the risk/benefit equation.</text>
+  <text x="92" y="887" class="paper">Melasma review | MLH cohort</text>
+  <text x="92" y="906" class="paper">FST IV-VI review | Burn case | AAO eye</text>
+
+  <text x="1045" y="728" class="lane-title">Under-Dosing &amp; Alternatives</text>
+  <rect class="card" x="1030" y="750" width="400" height="185" fill="#f5f3ff" stroke="#7c3aed"/>
+  <text x="1052" y="782" class="box-title">What it proves</text>
+  <text x="1052" y="810" class="txt">Low thermal dosing can backfire on</text>
+  <text x="1052" y="832" class="txt">face/neck hair; safer pigment/redness</text>
+  <text x="1052" y="854" class="txt">foundation is SPF + topicals + LED.</text>
+  <text x="1052" y="887" class="paper">Snast 2021 | Moriguchi 2025</text>
+  <text x="1052" y="906" class="paper">Red LED RCT | Yellow LED melasma study</text>
+
+  <path class="line" d="M440 842 C528 800 534 455 570 400"/>
+  <path class="line" d="M1030 842 C955 800 944 455 930 400"/>
+
+  <rect x="520" y="720" width="460" height="245" rx="8" fill="#ffffff" stroke="#475467" stroke-width="1.5"/>
+  <text x="750" y="754" text-anchor="middle" class="box-title">Decision Rule</text>
+  <text x="548" y="794" class="txt">1. Use home IPL mainly for dark-hair reduction.</text>
+  <text x="548" y="824" class="txt">2. Judge devices by real J/cm2, filter, pulse mode, cooling.</text>
+  <text x="548" y="854" class="txt">3. Treat skin rejuvenation as off-label extrapolation.</text>
+  <text x="548" y="884" class="txt">4. Keep melasma/PIH/eyes out of home IPL plans.</text>
+  <text x="548" y="914" class="txt">5. Put pigment/redness foundation on SPF, topicals, LED.</text>
+
+  <rect x="70" y="1000" width="1360" height="48" rx="8" fill="#ffffff" stroke="#d0d5dd"/>
+  <text x="92" y="1031" class="small">Read with 14_ipl_research_evidence_map.md. Evidence strength is claim-specific: strong for mechanism and professional IPL; moderate for home hair reduction; weak/directly unproven for home IPL rejuvenation.</text>
+</svg>

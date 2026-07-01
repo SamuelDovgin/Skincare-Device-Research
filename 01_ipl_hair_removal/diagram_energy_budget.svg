@@ -1,0 +1,53 @@
+<svg viewBox="0 0 920 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart comparing measured single and double flash fluence against the catalog triple-pulse claim and a hypothetical true-stacking reference">
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}</style>
+<rect x="0" y="0" width="920" height="300" fill="#ffffff"/>
+<text x="60" y="22" font-size="14.5" font-weight="700" fill="#1f2430">Stacking vs. splitting: what the T023A's own measurements show</text>
+<text x="60" y="38" font-size="11.5" fill="#6b7280">Seller measurement video, 2026-06-14 (single + double flash) vs. catalog/FDA-bench triple-pulse total vs. a hypothetical true-stacking reference</text>
+
+<defs>
+<pattern id="hatch2" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+<rect width="7" height="7" fill="#f6dfda"/>
+<line x1="0" y1="0" x2="0" y2="7" stroke="#c0392b" stroke-width="2"/>
+</pattern>
+</defs>
+
+<!-- gridlines -->
+<g font-size="10.5" fill="#6b7280" text-anchor="end">
+<line x1="60" y1="250" x2="880" y2="250" stroke="#d7dade"/><text x="52" y="253">0</text>
+<line x1="60" y1="195" x2="880" y2="195" stroke="#eef0f2"/><text x="52" y="198">5</text>
+<line x1="60" y1="140" x2="880" y2="140" stroke="#eef0f2"/><text x="52" y="143">10</text>
+<line x1="60" y1="85" x2="880" y2="85" stroke="#eef0f2"/><text x="52" y="88">15</text>
+<line x1="60" y1="30" x2="880" y2="30" stroke="#eef0f2"/><text x="52" y="33">20</text>
+</g>
+<text x="20" y="140" font-size="10.5" fill="#6b7280" text-anchor="middle" transform="rotate(-90 20 140)">J/cm²</text>
+
+<!-- bar 1: single flash, measured -->
+<rect x="111.25" y="183.1" width="102.5" height="66.9" rx="4" fill="#c0392b"/>
+<text x="162.5" y="173.1" font-size="13" font-weight="800" fill="#1f2430" text-anchor="middle">6.08</text>
+<text x="162.5" y="266" font-size="10.5" fill="#1f2430" text-anchor="middle">Single flash</text>
+<text x="162.5" y="279" font-size="9.5" fill="#16a34a" text-anchor="middle">measured</text>
+
+<!-- bar 2: double flash total, measured -->
+<rect x="316.25" y="178.8" width="102.5" height="71.2" rx="4" fill="#c0392b" opacity="0.8"/>
+<text x="367.5" y="168.8" font-size="13" font-weight="800" fill="#1f2430" text-anchor="middle">6.47</text>
+<text x="367.5" y="266" font-size="10.5" fill="#1f2430" text-anchor="middle">Double flash total</text>
+<text x="367.5" y="279" font-size="9.5" fill="#16a34a" text-anchor="middle">measured (+6.5%)</text>
+
+<!-- bar 3: triple flash total, catalog claim -->
+<rect x="521.25" y="158.4" width="102.5" height="91.6" rx="4" fill="url(#hatch2)" stroke="#c0392b" stroke-width="1.5"/>
+<text x="572.5" y="148.4" font-size="13" font-weight="800" fill="#1f2430" text-anchor="middle">8.33</text>
+<text x="572.5" y="266" font-size="10.5" fill="#1f2430" text-anchor="middle">Triple flash total</text>
+<text x="572.5" y="279" font-size="9.5" fill="#c0392b" text-anchor="middle">catalog/FDA-bench, unverified</text>
+
+<!-- bar 4: hypothetical true stacking -->
+<rect x="726.25" y="49.4" width="102.5" height="200.6" rx="4" fill="none" stroke="#9aa3b2" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="777.5" y="39.4" font-size="13" font-weight="800" fill="#6b7280" text-anchor="middle">≈18.2</text>
+<text x="777.5" y="266" font-size="10.5" fill="#6b7280" text-anchor="middle">"If 3 flashes truly</text>
+<text x="777.5" y="279" font-size="10.5" fill="#6b7280" text-anchor="middle">stacked independently"</text>
+
+<!-- annotation arrow between bar1/2 showing near-flat step -->
+<text x="265" y="160" font-size="10" fill="#16a34a" text-anchor="middle">2nd flash adds only +1.2J —</text>
+<text x="265" y="172" font-size="10" fill="#16a34a" text-anchor="middle">energy split, not stacked</text>
+
+<text x="60" y="295" font-size="10.5" fill="#1f2430">Hypothetical bar 4 assumes each of 3 flashes independently matched the single-flash fluence — a reference line, not a measurement.</text>
+</svg>

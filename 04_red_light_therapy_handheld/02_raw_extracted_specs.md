@@ -1,6 +1,6 @@
 # Raw Extracted Specs — Handheld RLT Listings
 
-Per-listing dumps: text attributes + image-OCR findings. Collected 2026-06-29. See 01_handheld_rlt_spec_comparison.md for the synthesized table & ranking.
+Per-listing dumps: text attributes + image-OCR findings where available. Collected 2026-06-29; L12 added 2026-06-30 from supplied Alibaba page text. See 01_handheld_rlt_spec_comparison.md for the synthesized table & ranking.
 
 ## L1
 ```
@@ -91,5 +91,18 @@ VERDICT: an L1-architecture clone (cheaper, credible maker, +frequency control &
 ```
 L11 SunPlus: 12 domed lenses 660/850nm, 4000mAh cordless, adjustable brightness + timer, fold-out kickstand, vented, well finished. STRONGEST CERT WALL: ISO9001, ISO13485(medical QMS), MDSAP, TGA, ETL, TUV Rheinland, CE, FCC, RoHS, PSE, SGS. KEY IMG: L11_img10 (certs), L11_img9 (spec table - WRONG MODEL).
 RED FLAG: only spec table (img9) is for a DIFFERENT model LF48 (120 LEDs, 48W, 4WL 660/850/415/590, 24V mains) - borrowed specs, NOT the handheld. IRRADIANCE: NOT STATED. No real dims/weight/total power for the actual handheld. $45.28 (priciest mini).
-VERDICT: premium = paying for battery portability + broad compliance story, NOT measured output. Cannot beat L1/L2 (no irradiance, borrowed specs). Best certification story of all 11, but irradiance is king for this use case.
+VERDICT: premium = paying for battery portability + broad compliance story, NOT measured output. Cannot beat L1/L2 (no irradiance, borrowed specs). Best certification story of the image-archived set, but irradiance is king for this use case.
+```
+
+---
+
+## L12 — Ideatherapy RL-series portable lamp (added 2026-06-30)
+```
+SOURCE: supplied Alibaba page text for IDEATHERAPY New Design Portable RL series Remote Control Red Light Lamp Led Therapy Red Light Therapy Device for Travel Home Use.
+URL: https://www.alibaba.com/product-detail/IDEATHERAPY-New-Design-Portable-RL-series_1601723705554.html
+SUPPLIER: Shenzhen Idea Light Limited, Shenzhen CN, 12 yrs on Alibaba; 4.7/5 store rating (1279), <=2h response time, >=96% on-time delivery, 10% reorder rate. Main markets listed: United States, Australia, Netherlands, Austria, Canada.
+PRODUCT: Ideatherapy RL-series red light lamp / LED therapy device. NOT IPL. Wavelengths 660nm + 850nm. Application fields: home use, clinic, commercial, beauty center. Type: Standing. LED quantity options: 24pcs, 12pcs, 27pcs, 35pcs. Target area: body. Feature: health care. Beam angle: 30 degrees. Input voltage range: 100-240V AC. Title says remote control and portable/travel/home use.
+PRICE/MOQ: $44-109, MOQ 3 pieces. Page text showed estimated shipping $15.55 for 3 pieces and estimated delivery in 32-43 business days.
+IRRADIANCE: NOT STATED. POWER PER LED / TOTAL POWER: NOT STATED. BATTERY/RUNTIME: NOT STATED. SIZE/WEIGHT: NOT STATED. CERTIFICATIONS: not listed in supplied text. IMAGES: not archived yet.
+VERDICT: credible Ideatherapy/Idea Light supplier and correct 660/850nm pair, but this is a multi-variant standing/portable lamp listing with no dose-relevant output specs. Add to vendor-watch list, not the buy list. Ask for exact model, LED count, dimensions, battery/corded status, and irradiance meter photos at contact and 1 inch.
 ```

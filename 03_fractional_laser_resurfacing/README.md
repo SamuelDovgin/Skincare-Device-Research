@@ -2,7 +2,7 @@
 
 Research thread: finding an **at-home device that improves skin quality — pigmentation/PIH, tone/brightness, and long-term collagen/fine lines** — ideally approaching what an in-office **Clear + Brilliant** delivers.
 
-> **Distinct from the parent repo.** The top-level `IPL Device Research` project is about **broadband IPL for hair removal + redness**. This subfolder is a *different device class*: **non-ablative fractional infrared lasers** (Clear + Brilliant, Fraxel, Tria, NIRA, YDUNVIE). Different chromophore (water, not melanin/hemoglobin), different goal (resurfacing/collagen, not hair).
+> **Distinct from the IPL hair-removal thread.** The top-level `Skincare Device Research` repo also covers **broadband IPL for hair removal + redness**. This subfolder is a *different device class*: **non-ablative fractional infrared lasers** (Clear + Brilliant, Fraxel, Tria, NIRA, YDUNVIE). Different chromophore (water, not melanin/hemoglobin), different goal (resurfacing/collagen, not hair).
 
 ## TL;DR
 
@@ -38,6 +38,7 @@ Research thread: finding an **at-home device that improves skin quality — pigm
 ## Status / open items
 - **Verified this pass:** Clear+Brilliant Touch (1440/1927nm specs), NIRA (K163137/K222685), Tria FAN (K130459), PaloVia (K090525), RéAura (1435nm+Solta), Jiangsu Unimed (K182498 valid).
 - **Tria specs upgraded ⚠️→✅ from primary-source IFU** ([13](13_tria_smoothbeauty_owners_guide.md)): SmoothBeauty/Age-Defying/FRX are one device (model SRL) — 1440nm diode, **5–12 mJ/pulse**, Class 1, indication = periorbital wrinkles only (IFU explicitly **not** for pigment/dyschromia/freckles/veins). Manuals mirrored at `tria_smoothbeauty/source_docs/`.
+- **Source-doc mirroring started:** key quantified-gap PDFs are mirrored in `quantified_gap_source_docs/` (Clear+Brilliant FDA summaries/service manual/protocol, Tria/PaloVia FDA summaries, Fraxel brochure, and supporting patents), and Tria SmoothBeauty manuals are mirrored in `tria_smoothbeauty/source_docs/`.
 - **Partially resolved:** MimiSilk Iris ≈ YDUNVIE Iris (A7) by spec-fingerprint (1450nm, 12 mJ, 100 µm microbeam), but MimiSilk doesn't disclose the YDUNVIE/Jiangsu Unimed link (claims "Danish") and sells only the 1450nm model. Model codes mapped: A9=Iris Ice, A8=Dora(1927nm), A7=Iris. See [05](05_ydunvie_catalog.md).
 - **Open (high-value):** Confirm **Dora is truly 1927nm** (retail copy conflicts with 1450nm) — *the* spec for the pigment goal. Does Iris Ice **Plus**/A9 out-perform base Iris or just add UX/cert? Real clinical efficacy of home NAF vs Clear+Brilliant? Buyable 1927nm home device with credible PIH-safety data? → [07](07_future_research_plan.md).
-- **Not yet done:** primary 510(k) PDFs not yet mirrored into the repo (planned in Phase 1).
+- **Still to mirror:** NIRA, RéAura, Jiangsu Unimed/YDUNVIE, and other secondary 510(k)/manual PDFs that are cited elsewhere in the landscape docs.

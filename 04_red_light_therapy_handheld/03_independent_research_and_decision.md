@@ -1,6 +1,6 @@
 # Independent Research, Listing Audit, and Buying Decision
 
-**Date checked:** 2026-06-29  
+**Date checked:** 2026-06-29; L12 added 2026-06-30  
 **Use case:** hands, wrist/carpal tunnel symptoms, localized back pain  
 **Bottom line:** If I had to buy one from these listings today, I would buy **L1 - AZURETHERAPY AL60**. If the seller confirms exactly which current RTL12-C variant ships and provides fresh meter photos, **L2** becomes a very close second.
 
@@ -151,6 +151,7 @@ Current listing/manufacturer pages checked:
 | **L9 MINI60PRO standing** | **Low for individual buyer** | Images confirm MINI60PRO kit/goggles family, but no spec table; listing MOQ makes it wholesale. | Out. |
 | **L10 Redfy RT60** *(added)* | **Medium** | Images confirm 12 dual-chip domed lenses, 660/850 1:1, 4000mAh, "12pcs×5W Medical LED / 60W" marketing, frequency-adjustable, carry case. Redfy is a real large RLT contract manufacturer. No RT60 spec table, no irradiance; cert logos are factory-level, not unit-specific; listing padded with 12 unrelated panels. | Best value + truest "5W red+NIR" match, but no measured output — confirm irradiance before buying. |
 | **L11 SunPlus** *(added)* | **Medium** | Images confirm 12 domed lenses, 660/850, 4000mAh, adjustable brightness/timer, and the broadest cert wall of all (ISO 9001, ISO 13485, MDSAP, TGA, ETL, TÜV, CE, FCC, RoHS, PSE, SGS). But the only spec table belongs to a different model (LF48: 120 LEDs, 48W, 24V mains); no irradiance for the handheld; priciest mini. | Best compliance story; weak on disclosed output and honesty of spec sheet. |
+| **L12 Ideatherapy RL-series** *(added from supplied page text)* | **Low-medium** | Supplied Alibaba page text confirms Shenzhen Idea Light / Ideatherapy, 660/850nm, 30 degree beam, 100-240V AC, LED-count options 12/24/27/35, type "Standing," price $44-109, MOQ 3. No images archived yet. | Not IPL and not a clean handheld pick. Credible supplier, but no irradiance/power/dimensions/battery/certs; ask for exact model and meter readings before considering. |
 
 ---
 
@@ -187,6 +188,7 @@ For **L1**, add: "Please confirm whether 190 mW/cm2 is measured with red+NIR on 
 8. **L3 - 12pcs "8W" Panel**: best controls, no output proof.
 9. **L4 - 60W 3-wavelength**: skip despite 1060nm.
 10. **L8 - Face Panel**: wrong form factor.
-11. **L9 - MINI60PRO standing**: not a single-unit purchase.
+11. **L12 - Ideatherapy RL-series** *(added)*: credible supplier and correct 660/850nm, but text-only, multi-variant, no irradiance, MOQ 3, and not really the handheld use case.
+12. **L9 - MINI60PRO standing**: not a single-unit purchase.
 
-My actual purchasing move: **buy L1**, message L2 in parallel, and only switch to L2 if the seller confirms the exact current RTL12-C variant with documented contact/3in irradiance. Of the two added contenders, **L10 (Redfy)** is the one I'd keep on the shortlist as a value alternative — but only after it supplies a contact-distance irradiance reading, since that single missing number is what separates it from L1.
+My actual purchasing move: **buy L1**, message L2 in parallel, and only switch to L2 if the seller confirms the exact current RTL12-C variant with documented contact/3in irradiance. Of the added contenders, **L10 (Redfy)** is the one I'd keep on the shortlist as a value alternative — but only after it supplies a contact-distance irradiance reading, since that single missing number is what separates it from L1. **L12 (Ideatherapy RL-series)** is useful to track as an Idea Light/Ideatherapy red-NIR lamp option, but it is not IPL and does not have enough dose data to rank as a serious buy.
