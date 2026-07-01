@@ -4,7 +4,7 @@
 
 Confidence: ✅ verified (peer-reviewed / FDA) · ⚠️ marketing/company study · 🔍 inferred.
 
-**Jump to the absolute numbers:** §3d converts all of this into **total joules delivered in one full-face session** for every device — **C+B Original ≈ 2.3–3.0 kJ, C+B Perméa ≈ 0.8–1.3 kJ, Fraxel ≈ 1–6 kJ, home YDUNVIE/Iris ≈ 180 J, home Tria ≈ 70–145 J** — cross-checked two independent ways. Patents and primary-source PDFs behind every number are indexed in §9 and §10.
+**Jump to the absolute numbers:** §3d converts all of this into **total joules delivered in one full-face session** for every device — **C+B Original ≈ 2.3–3.0 kJ, C+B Perméa ≈ 0.8–1.3 kJ, Fraxel ≈ 1–6 kJ, home YDUNVIE/Iris ≈ 180 J, home Tria ≈ 70–145 J** — cross-checked two independent ways. Patents and primary-source PDFs behind every number are indexed in §9 and §10; what the big patent-holders' recent filings suggest about future products is in §11.
 
 ---
 
@@ -413,6 +413,25 @@ Every PDF below was fetched and verified (opened and read, not just downloaded) 
 | [fda-510k-k090525-palovia-loi-system.pdf](quantified_gap_source_docs/fda-510k-k090525-palovia-loi-system.pdf) | FDA 510(k) summary, **"LOI System"** (Palomar Medical Technologies), 2009 | The filing behind the retail "PaloVia" device — note the FDA filing itself never uses the name "PaloVia," only "LOI System"; predicates include **Fraxel Laser System (Fraxel SR1500, Re:store™), K070284** — independent confirmation that "re:store" is a real, separately-cleared device name, not just informal branding |
 
 **Checked but not mirrorable** (paywalled/blocked, linked externally instead in Sources below): the Friedman & Dover 2022 *Dermatol Surg* paper (PMC blocks direct download without a browser session — read via the PMC article page instead) and the PaloVia ScienceDirect device-description paper (403, subscription-gated).
+
+---
+
+## 11. Future tech signals — what Solta, Cynosure, and the OEM makers are filing now
+
+The patents in §9 explain the devices that already exist; this asks what's coming. Verified via direct Google Patents assignee lookups on the companies whose IP underpins this whole category.
+
+### Solta Medical / Bausch Health — active, but the innovation is going into RF, not new laser wavelengths
+Solta's filing rate is modest but real and continuous — roughly one to two granted patents a year since 2021, all confirmed via [soltapatents.com](https://www.soltapatents.com/) (Solta's own virtual-marking page):
+- **US 11,833,364 B2** (filed 2021, granted 2023) — a descending RF power-step profile + active cryogen cooling + dielectric spacer frames to cut *pain* during Thermage-style RF heating. 🔍 Signal: higher-energy, higher-efficacy RF sessions with less discomfort — a comfort/dose-ceiling lift for the professional platform, not a consumer feature.
+- **US 12,114,908 B2** (filed 2022, granted 2024) — replaces heated-canister cryogen pressurization with an active pump for faster startup and tighter cooling control. Workflow/safety improvement for existing RF handpieces.
+- **US 12,156,688 B2** (filed 2019, granted 2024) — a flat-blade (not conical-needle) RF microelectrode array for a next-gen **fractional-RF microneedling** applicator — adjacent to, but distinct from, the laser-based Fraxel/C+B line this doc is about.
+- **Fraxel FTX** (launched April 2025, per Bausch Health's own release) is a real new *product* — 20% smaller, dual 1550/1927nm, with "Intelligent Optical Tracking (AccuTRAC)" for consistent pulse firing — but the underlying scanner/tracking patent family (US 2008/0015556 A1 / US 2011/0087201 A1) traces back to **2007–2011** and was merely *reassigned* among Bausch/Solta entities in Nov 2025, not freshly filed. ⚠️ The "AccuTRAC" name itself has no independently confirmed patent number. **Read this as: Solta is refining and repackaging the existing scanner/RF IP into smaller, more comfortable professional devices — it is not inventing a new energy modality, and none of this activity is consumer/handheld.** Solta also actively litigates this IP (sued Sciton over Halo/ProFractional in 2019; settled) — a company still guarding, not abandoning, its position.
+
+### Cynosure & Alma Lasers — visibly pivoting away from light-based hair/skin devices entirely
+Both companies hold foundational IP this whole category traces to (§1/§9), but their 2021–2026 filings show a **sharp decline in filing rate** (Cynosure: ~9 filings vs. 61 in the prior five-year window) and what little is new is exclusively **clinic-grade RF/microwave skin-tightening** — kilowatt-scale power, console-driven, nothing home-safe or fluence-limited. Cynosure was also absorbed into **Cynosure Lutronic** (Korean PE firm Hahn & Company merged it with Lutronic in April 2024) — another sign of industry consolidation rather than organic device R&D. 🔍 Signal: the professional-device makers see *light-based* skin treatment as mature, and are redirecting R&D budget to RF/microwave — this repo's home-vs-clinic gap (§3d) is being driven from the *supply side* by professional devices getting more capable in a direction (RF) that home devices in this category don't compete in at all.
+
+### The OEM/consumer side — dormant (Jiangsu Unimed/YDUNVIE) and unlikely to close the gap soon
+Nothing new to add beyond §9's already-confirmed finding that Jiangsu Unimed/YDUNVIE holds no patents (only a trademark) — there's no visible sign of a home-fractional-laser manufacturer investing in genuinely new IP. **Bottom line:** if anything narrows the home-vs-clinic gap in the next few years, the signal in hand says it won't come from a stronger home fractional laser — it's more likely to come from the same AI/sensor-driven-personalization pattern already shipping in the sibling IPL category ([01/06](../01_ipl_hair_removal/06_final_recommendation.md) — Ulike's unpatented skin-tone-adaptive dosing), applied by whichever Chinese OEM moves first, rather than from Solta, Cynosure, or Alma bringing their professional IP down-market.
 
 ---
 

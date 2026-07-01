@@ -291,6 +291,23 @@ Tria's own patent lineage traces further back than the company itself — its fo
 
 ---
 
+## Future tech signals — is a better 810nm home diode coming?
+
+Short answer: **not from Tria, and not obviously from anyone else either.** The patents explain the devices that exist; this looks at what the biggest names in this specific category are filing *now*.
+
+### Tria's patent pipeline is dead — the real story is the acquisition
+Direct assignee searches (cross-checked against several false-positive matches — generic "laser/skin-sensing" vocabulary keeps surfacing Hydrafacial, Cynosure, and Dyson patents under loose keyword search) found **no new Tria utility patent filed after roughly 2016–2018.** The one connected-device patent that did surface — EP 3,108,392 A1, "Internet connected dermatological devices and systems" (filed 2015; wireless skin sensors + cloud dashboard + coaching feedback, exactly the kind of app-connected feature you'd expect a "smart Tria" to ship) — has legal status **Withdrawn**. It's a dead filing, not active IP. ✅ Verified via Tria's own [official patents page](https://www.trialaser.com/pages/patents).
+
+**Corporate context that explains why:** Tria (legal entity Channel Investments, LLC) was **acquired by CurrentBody / The Beauty Tech Group in October 2024** ✅ (the same Beauty Tech Group whose CurrentBody-branded diode laser is, per this doc's own findings above, rebadged Wuhan Lotuxs hardware). The Beauty Tech Group listed on the London Stock Exchange in 2025 and has since announced a "Tria Relaunch 2026" — but the announcement language ("stronger, smarter, more refined") is pure marketing copy with **zero disclosed new technical capability** (no new wavelength, sensor, or connectivity claim), and no patent filings back it up. **Read this as: Tria is no longer an R&D-driving device company — it's a legacy brand being refreshed and re-marketed inside a beauty-tech holding company that also owns a rebadged-OEM competitor product.** That's a genuinely different category of company than "device pioneer still innovating," and it changes what "buying a Tria" *means* going forward — expect design refreshes and repackaging, not new hardware capability.
+
+### The professional-device makers whose IP underpins this category are pivoting away from it
+Cynosure (which licensed the foundational MGH hair-removal patent from Palomar) and Alma Lasers — the companies whose IP legitimizes diode/IPL hair removal generally — show **sharply declining filing rates** in this space over 2021–2026 (Cynosure: ~9 filings vs. 61 in the prior 5-year window), and what they *are* filing is exclusively **clinic-grade RF/microwave skin-tightening** (kilowatt-scale power, console-driven, not remotely home-safe), not anything fluence-limited or app-connected for consumer hair removal. 🔍 Read together with Tria's dead pipeline, the signal is: **the companies with real laser/IPL hair-removal R&D budgets have moved on to skin-tightening; home hair-removal is being treated as a mature, saturated category**, left to OEM rebadging (DermRays/SilkPro/CurrentBody sharing one Wuhan Lotuxs factory) rather than genuine new hardware.
+
+### What would actually be new, if anyone builds it
+Given Ulike's playbook in the sibling IPL category ([01](../01_ipl_hair_removal/06_final_recommendation.md) — AI-driven skin-tone-adaptive dosing, shipping ahead of any visible patent), the plausible next real advance in home diode lasers would be the same idea applied here: a Chinese OEM shipping real-time skin-tone sensing to auto-throttle fluence, rather than any Western brand inventing a new wavelength or optical architecture. Nothing found in this search suggests that's imminent specifically for 810nm diode devices — it's an inference from the adjacent category's pattern, not a citable filing.
+
+---
+
 ## Sources Checked
 
 **Tria / predicate diode laser**

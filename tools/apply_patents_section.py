@@ -19,6 +19,13 @@ needs to contain the word "patent" (any ## heading text works, any doc, any fold
 The same patent cited in multiple docs within one folder is de-duplicated into a
 single card that lists every doc it's used in.
 
+A second, separate convention: a `## Future tech signals` heading (must contain
+that exact phrase, case-insensitive) marks a free-form markdown section — prose,
+tables, whatever — that gets carried onto the same Patents page verbatim, rendered
+client-side by the page's own marked.js (see FUTURE_HEAD_RE below). Unlike patent
+blocks this is NOT parsed into structured fields; it's just forwarded as raw
+markdown inside a <script type="text/markdown"> tag and rendered on load.
+
 Usage:  python3 tools/apply_patents_section.py            (apply, in-place)
         python3 tools/apply_patents_section.py --check     (report only, exit 1 if work pending)
 """
@@ -29,6 +36,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 CHECK = "--check" in sys.argv
 
 SECTION_RE = re.compile(r'^##\s+.*\bpatents?\b.*$', re.I | re.M)
+FUTURE_HEAD_RE = re.compile(r'^##\s+.*\bfuture tech\b.*$', re.I | re.M)
 NEXT_H2_RE = re.compile(r'^##\s+(?!#)', re.M)
 DIVIDER_RE = re.compile(r'^---\s*$', re.M)
 BLOCK_RE = re.compile(r'^###\s+(.+?)\s*$', re.M)
@@ -48,9 +56,44 @@ CSS_BLOCK = """
 .patent .pt-used a{color:var(--muted);text-decoration:underline}
 .patent .pt-links{margin-top:6px}
 .patent .pt-links a{font-size:12px;font-weight:600;color:var(--accent);text-decoration:none;margin-right:14px}
+.future-tech-wrap{margin-top:32px;padding-top:20px;border-top:2px dashed var(--line)}
+.future-tech-wrap>p.note:first-of-type{margin-top:0}
 """
 
 pending = 0
+
+
+def section_body(text, heading_match):
+    """Slice from just after a ## heading to the next ##(not###)/---/EOF."""
+    start = heading_match.end()
+    end = len(text)
+    nh2 = NEXT_H2_RE.search(text, start)
+    if nh2:
+        end = min(end, nh2.start())
+    div = DIVIDER_RE.search(text, start)
+    if div:
+        end = min(end, div.start())
+    return text[start:end]
+
+
+def extract_future_tech(md_path):
+    """Return raw markdown body text for each '## Future tech...' section in this doc."""
+    text = md_path.read_text()
+    h1m = H1_RE.search(text)
+    doc_title = h1m.group(1) if h1m else md_path.name
+    out = []
+    for sec in FUTURE_HEAD_RE.finditer(text):
+        body = section_body(text, sec).strip()
+        if body:
+            out.append({"body": body, "doc_file": md_path.name, "doc_title": doc_title})
+    return out
+
+
+def collect_folder_future_tech(folder):
+    items = []
+    for md in sorted(folder.glob("*.md")):
+        items.extend(extract_future_tech(md))
+    return items
 
 
 def extract_patents(md_path):
@@ -60,15 +103,7 @@ def extract_patents(md_path):
     doc_title = h1m.group(1) if h1m else md_path.name
     out = []
     for sec in SECTION_RE.finditer(text):
-        start = sec.end()
-        end = len(text)
-        nh2 = NEXT_H2_RE.search(text, start)
-        if nh2:
-            end = min(end, nh2.start())
-        div = DIVIDER_RE.search(text, start)
-        if div:
-            end = min(end, div.start())
-        body = text[start:end]
+        body = section_body(text, sec)
         blocks = list(BLOCK_RE.finditer(body))
         for i, b in enumerate(blocks):
             title = b.group(1).strip()
@@ -112,7 +147,24 @@ def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def render_section(patents):
+def render_future_tech(items):
+    if not items:
+        return ""
+    blocks = []
+    for it in items:
+        md = it["body"].replace("</script", "<\\/script")
+        blocks.append(
+            f'<p class="note" style="margin-top:22px">From <a href="{esc(it["doc_file"])}">{esc(it["doc_title"])}</a>:</p>'
+            f'<script type="text/markdown" class="future-md">{md}</script>'
+        )
+    return (
+        '<div class="future-tech-wrap"><h2>Where this is headed</h2>'
+        + "".join(blocks)
+        + "</div>"
+    )
+
+
+def render_section(patents, future_tech=None):
     cards = []
     for p in patents:
         used = " · ".join(f'<a href="{esc(f)}">{esc(t)}</a>' for f, t in p["used_in"])
@@ -130,7 +182,9 @@ def render_section(patents):
     return (
         '<section class="doc" id="patents"><h1>Patents</h1>'
         f'<p class="note">{note}</p>'
-        f'<div class="patents">{"".join(cards)}</div></section>'
+        f'<div class="patents">{"".join(cards)}</div>'
+        + render_future_tech(future_tech or [])
+        + "</section>"
     )
 
 
@@ -144,6 +198,30 @@ def inject_css(html):
     if idx == -1:
         return html, False
     return html[:idx] + CSS_BLOCK + html[idx:], True
+
+
+FUTURE_MD_JS = """<script>/*future-md-render*/
+(function(){
+  function run(){
+    document.querySelectorAll('script.future-md').forEach(function(s){
+      if(typeof marked==='undefined') return;
+      var d=document.createElement('div'); d.className='future-tech';
+      d.innerHTML=marked.parse(s.textContent); s.replaceWith(d);
+    });
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',run); else run();
+})();
+</script>
+"""
+
+
+def inject_future_md_renderer(html):
+    if "/*future-md-render*/" in html:
+        return html, False
+    idx = html.rfind("</body>")
+    if idx == -1:
+        return html, False
+    return html[:idx] + FUTURE_MD_JS + html[idx:], True
 
 
 def inject_section(html, section_html):
@@ -191,25 +269,28 @@ def inject_nav_trigger(html, count):
 def process_folder(folder):
     global pending
     patents = collect_folder_patents(folder)
-    if not patents:
+    future_tech = collect_folder_future_tech(folder)
+    if not patents and not future_tech:
         return
     index = folder / "index.html"
     if not index.exists():
         return
     html = index.read_text()
-    section_html = render_section(patents)
+    section_html = render_section(patents, future_tech)
     html, css_changed = inject_css(html)
+    html, js_changed = inject_future_md_renderer(html)
     html, sec_action = inject_section(html, section_html)
     html, nav_changed = inject_nav_trigger(html, len(patents))
-    changed = css_changed or bool(sec_action) or nav_changed
+    changed = css_changed or js_changed or bool(sec_action) or nav_changed
+    label = f"{len(patents)} patent(s)" + (f", {len(future_tech)} future-tech block(s)" if future_tech else "")
     if changed:
         pending += 1
-        print(f"  {folder.name}: {len(patents)} patent(s) — {sec_action or 'section unchanged'}"
-              f"{', +css' if css_changed else ''}{', +nav' if nav_changed else ''}")
+        print(f"  {folder.name}: {label} — {sec_action or 'section unchanged'}"
+              f"{', +css' if css_changed else ''}{', +js' if js_changed else ''}{', +nav' if nav_changed else ''}")
         if not CHECK:
             index.write_text(html)
     else:
-        print(f"  {folder.name}: {len(patents)} patent(s), already up to date")
+        print(f"  {folder.name}: {label}, already up to date")
 
 
 if __name__ == "__main__":

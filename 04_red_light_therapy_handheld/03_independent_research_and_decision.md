@@ -216,3 +216,23 @@ None of L1/L2/L7/L10/L11 (AZURETHERAPY, Ideatherapy, Redfy, SunPlus) hold any fi
 - **Link:** https://patents.google.com/patent/US6602275B1/en
 
 **Corrections made during this research, worth remembering:** Baby Quasar is manufactured by Quasar Bio-Tech, Inc. (dba Silver Bay LLC) — not by Apira Science, despite shared "Quasar" branding; the two are unrelated companies. US 9,308,389 B2 ("Light therapy apparatus and methods") is *not* an Apira Science patent — it belongs to Biolux Research Holdings (intra-oral light therapy), an unrelated field. Photomedex's real product line (XTRAC) is excimer-laser-based, not LED — no Photomedex LED patent was found. Apira Science does hold **US 2014/0350643 A1** ("Phototherapy apparatus for skin treatment," red/yellow/blue/green/IR wearable LED array), but it's a published application that went abandoned, not a granted patent.
+
+---
+
+## Future tech signals — what Joovv, Apira, and a new cosmetics entrant are filing now
+
+The patents above explain where this technology came from. This looks at the two named device-specialist brands' *recent* activity, plus a genuinely new kind of competitor entering the category.
+
+### Joovv — filing, but nothing that signals a new product category
+Joovv's official [patent page](https://joovv.com/pages/patent) lists 9 utility + 14 design patents; three identifiable 2022–2024 applications are the closest thing to a forward signal, and none of them describe new light or networking technology:
+- **US 12,017,084 B2** (filed 2022, granted 2024) — mounting/mechanical accessories (door mounts, wheeled stands, wall brackets). Hardware ecosystem expansion, not a new device.
+- **US 2023/0285769 A1** (filed 2023) — formalizes multi-device "lead/follow/neutral" sync plus remote/clinician smartphone control. ⚠️ **Status: abandoned** — didn't survive prosecution.
+- **WO 2023/055772 A1** (filed 2022) — adds Recovery/Ambient/Alarm-Clock modes, dual-die red+IR chips, portable IP22 units, app session tracking. ⚠️ **Status: ceased.**
+
+Two of the three most recent filings lapsed. 🔍 Signal: Joovv's 2022–2024 R&D is incremental and defensive (mounts, sync protocols, app layers on an unchanged light engine) — nothing here suggests a new light modality or a materially different product is coming soon.
+
+### Apira Science — genuinely dormant at the patent level
+Despite ongoing marketing claims of "worldwide patents" across the iGrow, iDerma, Revage670, and newly-launched (~Q4 2024) GroWell product lines, exhaustive searching found **zero granted or pending filings** after the already-known abandoned 2014 application. GroWell — Apira's most recent product push — shipped with **no new patent filed at all.** ✅ This is a clean, verified negative finding, not a search gap: treat Apira's "patents" marketing language as referring solely to older, already-lapsed IP.
+
+### The real disruption signal: a cosmetics conglomerate, not a device specialist
+**L'Oréal** unveiled a flexible LED face mask at CES 2026 (January 2026), developed with LED partner iSmart — an ultra-thin silicone mask delivering 630nm red + 830nm NIR via a skin-safe microcircuit, auto-timed 10-minute sessions, paired with an AI skin-diagnostic "Cell BioPrint"-style lab-on-chip feeding a "Longevity AI Cloud." Global launch is slated for **2027**. ⚠️ No patent has been filed or published yet — as a CES-unveiled product it's likely still within the 18-month USPTO pre-publication window, so this is product/press intelligence, not a citable filing. **Why this matters more than Joovv's or Apira's incremental activity:** it's a cosmetics giant, not a device specialist, entering the flexible-wearable-LED category with an AI-diagnostic angle and global retail distribution — the same kind of move that let Ulike reshape the home-IPL category from outside the incumbent set ([01/06](../01_ipl_hair_removal/06_final_recommendation.md)). For the cheap Alibaba-panel devices this doc is actually about, none of this changes anything near-term (unpatented commodity hardware either way) — but it's a real signal about where the *category*, not just this folder's specific listings, is headed.
