@@ -2,7 +2,7 @@
 
 **The question:** Ulike (and most home-IPL brands now) markets an **"SHR mode"** — Super Hair Removal — that fires *successive low-energy flashes* instead of one strong pulse, on the promise that the heat "accumulates" to a higher effective dose and destroys the follicle more gently. Does that actually work at the follicle, and can you *see* whether a given set of parameters crosses the threshold for real hair damage? This doc explains the physics, pins down what Ulike's SHR actually delivers, and pairs with an **interactive simulator** where you set the flash energy, count, timing, skin tone and hair type and watch the epidermis, the follicle, and the deep stem-cell target each heat up — and whether any of them crosses the damage line.
 
-> 🔥 **[▶ Open the interactive SHR & Multi-Flash Thermal Simulator](shr_thermal_simulator.html)** — drag the parameters, compare a single flash to a multi-flash train, and see the three heating curves and the verdict update live. (Open `shr_thermal_simulator.html` in a browser, or via the ⚡ tool link in the IPL viewer.)
+> 🔥 **[▶ Open the interactive SHR & Multi-Flash Thermal Simulator](shr_thermal_simulator.html)** — pick an FDA-pulse-width-verified device (or go manual), set energy per-flash **or as one total that splits across your pulse count**, and watch the epidermis, follicle, and deep stem-cell target heat up live. It flags whether the follicle crosses the damage threshold **and** whether the **skin crosses its burn threshold** (driven by fluence, pulse width, skin tone & cooling), and compares a single flash to a multi-flash train. (Open `shr_thermal_simulator.html` in a browser, or via the 🔥 tool link in the IPL viewer.)
 
 > ⚠️ Not medical advice. This synthesizes peer-reviewed laser/IPL-physics literature, Ulike's own published specs plus third-party technical reviews, and this repo's device research. The simulator is a **teaching model** — an illustrative lumped-parameter thermal integrator calibrated to published TRT/TDT values — not a validated Monte-Carlo simulation. Use it for intuition about **timing and stacking**, not to predict a number for your skin. This is the *millisecond-to-second* flash-timing question — a different timescale from the week-to-week **session cadence** in [12_treatment_cadence_guide.md](12_treatment_cadence_guide.md), and a companion to the device-specific [15_multi_flash_thermal_accumulation.md](15_multi_flash_thermal_accumulation.md).
 
@@ -87,17 +87,35 @@ And the dose lever remains the clearest signal in the home-device data: a home 8
 
 ---
 
-## 5. How to use the simulator
+## 5. The device data — what's actually disclosed
 
-Open **[shr_thermal_simulator.html](shr_thermal_simulator.html)** and try, in order:
+You can only pick a device in the simulator if its **pulse width is disclosed in an FDA 510(k) filing** — otherwise you enter parameters manually. This is deliberate: it stops the tool from fabricating specs. The honest state of the data, pulled from this repo's [FDA data pipeline](fda_data_pipeline/) (`verified_specs.json`) and [03_fda_510k_analysis.md](03_fda_510k_analysis.md):
 
-1. **Ulike Air 10 — SHR** (the default). Note the gentle sawtooth and the sub-threshold verdict. Then **drag the gap from 250 → 40 ms** — the single most important thing to feel. Watch stacking appear.
-2. **Ulike Air 3 — single pulse** vs. **Clinical fixed-spot stack**. Both cross via the *peak* pathway — one with a single big flash, one by stacking three fast sub-pulses.
-3. **Pro SHR (in-motion)**. The *accumulation* pathway crossing threshold without a painful peak — the SHR ideal.
-4. **Under-dosed**. The failure mode: too weak, too slow, too few. Then fix it one slider at a time.
-5. Flip **"compare against a single flash"** on any multi-flash scenario to see the same total energy spent as one flash instead — the real single-vs-multi tradeoff.
+| Device (family) | FDA 510(k) | Max fluence | Spot | **Pulse width** | Modes | **Inter-pulse gap** |
+|---|---|---|---|---|---|---|
+| **Ulike** UI20 / Sapphire Air | K241998 | 6.67 J/cm² | 3.9 cm² | **0.88–3.20 ms** ✅ | single / dual / triple + SHR | ✗ not in filing (~250 ms marketed) |
+| **Fansizhe** T023A *(repo pick)* | K223928 | 6.08 J/cm² † | 3.0 cm² | **4–12 ms** ✅ | single / dual | ✗ not disclosed |
+| **Fansizhe** T033 / T055 | K253881 | 8.48 J/cm² ‡ | 3.3 cm² | **0.4–12 ms** ✅ | single / dual / triple | ✗ not disclosed |
+| **Fansizhe** T013C / T015 | K221569 | 4.03 J/cm² | 4.0 cm² | **4–12 ms** ✅ | single | n/a |
+| **Semlamp** SL-B352 family | K260518 | 6.41 J/cm² | 4.2 cm² | **0.7–3.6 ms** ✅ | single / dual / triple + **SHR button** | ✗ not disclosed |
+| **IONKA / Chuangtong** FZ-608/100/200 | K230739 | 5.43 J/cm² | 3.0 cm² | **0.5–0.8 ms** ✅ | single | n/a |
+| **Cyden** Flash&Go | K122280 | 5.0 J/cm² | 6.0 cm² | **5 ms** ✅ | single | n/a |
 
-Sliders: **gap** (the hero — under vs. over follicle TRT), **flash count**, **fluence per flash**, **pulse duration**, **skin tone** (darker → epidermis heats toward the burn zone), **hair coarseness/darkness** (coarse-dark → heats harder, cools slower), and **contact cooling** (Ulike-style sapphire, on/off).
+† Video-measured single flash (cleared family baseline 5.5 J/cm²). ‡ The 8.48 headline is a **summed** three-sub-pulse total, not a single-flash figure.
+
+**The one spec nobody publishes is the inter-pulse gap** — the millisecond delay between sub-pulses in a dual/triple/SHR mode. It's the single most important number for whether multi-flash "accumulation" is real (Section 2), and it appears in **no** FDA filing, catalog, or manual found in this research. That's why the simulator flags it "not disclosed" and hands it to you. Ulike's ~250 ms is a *marketed SHR repetition* cadence (4 flashes/s), not a filed intra-burst gap. Many more Ulike-family and competitor filings exist (K250194, K251984, K260742, Mlay, Philips Lumea, Alovea…) but omit pulse width entirely, so they're reachable only via **Manual**.
+
+## 6. How to use the simulator
+
+Open **[shr_thermal_simulator.html](shr_thermal_simulator.html)**:
+
+1. **Pick a device** from the dropdown (or a 🧪 illustrative scenario, or Manual). The panel shows exactly what's FDA-verified (green) vs. not disclosed (red).
+2. **Feel the hero dial.** On the Ulike default, drag the **gap from 250 → 40 ms** — the single most important thing to see. Stacking appears as the gap drops under the follicle's cooling time.
+3. **Check skin safety.** Watch the **Skin burn risk** gauge. Then shorten the **pulse width** (or pick IONKA's 0.5–0.8 ms), darken the skin, and turn **cooling off** — the epidermis climbs into the burn zone while the follicle barely changes, because the skin's short TRT makes it far more pulse-width-sensitive. This is why real devices pair short pulses with strong contact cooling.
+4. **Split a total.** Switch energy input to **"Total energy (J) ÷ pulses"**, set the spot size, and enter e.g. **28 J across 3 pulses** (the Fansizhe T033 triple claim) — the tool divides it into per-flash fluence and shows whether the split can match one strong flash.
+5. **Compare** single vs. multi with the checkbox, and try the **Pro SHR** scenario to see the accumulation pathway cross threshold without a painful peak.
+
+Controls: energy (**per-flash J/cm²** or **total J ÷ pulses**) · **spot size** · **gap** (hero) · **flash count** · **pulse width** (drives skin safety) · **skin tone** · **hair coarseness** · **contact cooling** · single-flash compare. A built-in `SANITY()` self-test sweeps 10,000+ parameter combinations and asserts the physics stays monotonic and bounded (run it from the browser console).
 
 ---
 
@@ -132,5 +150,6 @@ Sliders: **gap** (the hero — under vs. over follicle TRT), **flash count**, **
 16. Barolet D. Low-fluence high-rep diode, 12-month. *Lasers Surg Med* 2012 — 15 J/cm² @5 Hz, significant permanent reduction. https://pubmed.ncbi.nlm.nih.gov/22437967/
 17. Wheeland RG. Home 810 nm laser dose-response. 2012 — 7/12/20 J/cm² → 44/49/65% at 12 mo. https://pubmed.ncbi.nlm.nih.gov/22886431/
 18. Ulike Air 10 specifications (dual xenon, up to 4 flashes, ≈26 J burst, ≈6.67 J/cm², ~4 flashes/s SHR, sapphire cooling ≈20 °C) — manufacturer specs + third-party technical review. https://www.scienceoverfluff.com/p/ulike-technical-review-and-results
+19. FDA 510(k) subject-device pulse-width specs (K241998 Ulike UI20 0.88–3.20 ms; K223928 Fansizhe 4–12 ms; K253881 0.4–12 ms; K260518 Semlamp 0.7–3.6 ms; K230739 IONKA 0.5–0.8 ms; K122280 Cyden 5 ms) — this repo's [FDA data pipeline](fda_data_pipeline/) `verified_specs.json` + [03_fda_510k_analysis.md](03_fda_510k_analysis.md), read directly from each 510(k) summary. Searchable at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm
 
-*Compiled 2026-07-01. Numbered citations are peer-reviewed/StatPearls sources on TRT/TDT/SHR physics and the SHR clinical trials; Ulike device figures are from the manufacturer and a third-party technical review (source 18). Pairs with the interactive [shr_thermal_simulator.html](shr_thermal_simulator.html) and the device-specific analysis in [15_multi_flash_thermal_accumulation.md](15_multi_flash_thermal_accumulation.md).*
+*Compiled 2026-07-01 (device-picker & skin-safety update). Numbered citations are peer-reviewed/StatPearls sources on TRT/TDT/SHR physics and the SHR clinical trials; Ulike device figures are from the manufacturer and a third-party technical review (source 18). Pairs with the interactive [shr_thermal_simulator.html](shr_thermal_simulator.html) and the device-specific analysis in [15_multi_flash_thermal_accumulation.md](15_multi_flash_thermal_accumulation.md).*

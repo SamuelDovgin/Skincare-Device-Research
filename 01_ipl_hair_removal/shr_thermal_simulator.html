@@ -27,6 +27,21 @@ svg{max-width:100%;height:auto;display:block}
 .presetbtns button small{display:block;font-weight:400;color:var(--muted);font-size:11px}
 .presetbtns button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
 .presetbtns button.active small{color:#ffe}
+.devrow{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:10px}
+select#device{font-size:14px;font-weight:600;padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink);min-width:300px;max-width:100%;cursor:pointer}
+.scenbtns{display:flex;flex-wrap:wrap;gap:6px}
+.scenbtns button{border:1px dashed #b9bfca;background:#fff;border-radius:9px;padding:7px 11px;cursor:pointer;font-size:12px;color:var(--muted)}
+.scenbtns button.active{background:var(--ink);color:#fff;border-style:solid;border-color:var(--ink)}
+.deviceinfo{font-size:12.5px;background:#fafbfc;border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:6px}
+.deviceinfo .dname{font-weight:700;font-size:13.5px}
+.deviceinfo .provrow{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.cgrouphd{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:20px 0 10px;border-bottom:1px solid var(--line);padding-bottom:4px}
+.esum{grid-column:1/-1;font-size:12.5px;background:#fff8f3;border:1px solid #f0d3c4;border-radius:10px;padding:10px 13px}
+.esum b{color:var(--accent)}
+.prov{display:inline-block;font-size:11px;border-radius:20px;padding:3px 9px;border:1px solid var(--line);background:#fff;white-space:nowrap}
+.prov.ok{border-color:#bfe6c9;background:#f2fbf5;color:#16733a}
+.prov.no{border-color:#f3c0c0;background:#fff5f5;color:#b03030}
+.prov.est{border-color:#eadfae;background:#fffaf0;color:#9a7b1f}
 .ctrls{display:grid;grid-template-columns:1fr 1fr;gap:10px 26px}
 @media(max-width:720px){.ctrls{grid-template-columns:1fr}}
 .ctl{margin:2px 0}
@@ -108,32 +123,62 @@ sup a{text-decoration:none;font-weight:700;color:var(--accent);font-size:11px}
 
   <!-- PRESETS + CONTROLS -->
   <div class="card">
-    <h2>1 · Pick a scenario, then tune it</h2>
-    <p class="sub">Presets load real-world-ish settings; every slider is live. Watch the chart and the verdict update.</p>
-    <div class="presetbtns" id="presets"></div>
-    <p class="note" id="presetnote" style="margin:8px 0 16px"></p>
+    <h2>1 · Choose a device — or enter manually</h2>
+    <p class="sub">Only devices whose <b>pulse width is disclosed in an FDA 510(k) filing</b> are listed. <b>Inter-pulse gap is published for none of them</b> (a real data gap), so multi-pulse timing is yours to set. Anything else → <b>Manual</b>. The dashed buttons are illustrative physics scenarios, not specific products.</p>
+    <div class="devrow">
+      <select id="device"></select>
+      <div class="scenbtns" id="scenarios"></div>
+    </div>
+    <div class="deviceinfo" id="deviceinfo"></div>
 
+    <h3 class="cgrouphd">Energy — per-flash, or one total that splits across pulses</h3>
+    <div class="ctrls">
+      <div class="ctl" style="grid-column:1/-1">
+        <label style="margin-bottom:6px">How to set energy</label>
+        <div class="seg" id="emode">
+          <button data-m="flu" class="active">Per-flash fluence (J/cm²)</button>
+          <button data-m="tot">Total energy (J) ÷ pulses</button>
+        </div>
+      </div>
+      <div class="ctl" id="ctl_flu">
+        <label>Fluence per flash <span class="val" id="v_flu"></span></label>
+        <input type="range" id="flu" min="0.4" max="10" step="0.1" value="1.7">
+        <div class="hint">Energy density in each individual flash (J/cm²). A single-pulse home device runs ~5–6.5; a split / SHR sub-flash ~1.5–2.</div>
+      </div>
+      <div class="ctl" id="ctl_tot" style="display:none">
+        <label>Total energy, all pulses <span class="val" id="v_tot"></span></label>
+        <input type="range" id="tot" min="1" max="40" step="0.5" value="20">
+        <div class="hint">One total in Joules, split evenly across the pulse count → per-flash J/cm² = total ÷ spot ÷ pulses. Exactly how "26 J over 4 flashes" works out.</div>
+      </div>
+      <div class="ctl">
+        <label>Spot / window size <span class="val" id="v_spot"></span></label>
+        <input type="range" id="spot" min="1" max="6" step="0.1" value="3.9">
+        <div class="hint">Converts Joules ↔ J/cm². Ulike ≈3.9 cm²; Fansizhe ≈3.0–4.0; a large window (Cyden ≈6) dilutes fluence.</div>
+      </div>
+      <div class="esum" id="esum"></div>
+    </div>
+
+    <h3 class="cgrouphd">Timing &amp; pulse count — the part that decides stacking</h3>
     <div class="ctrls">
       <div class="ctl hero">
         <label>Gap between flashes <span><span class="tag">the hero dial</span> <span class="val" id="v_gap"></span></span></label>
         <input type="range" id="gap" min="5" max="400" step="5" value="250">
-        <div class="hint">Edge-to-edge delay. <b>Under the follicle's ~10–100 ms cooling time → heat stacks. Over it → each flash resets.</b> Ulike SHR ≈ 250 ms (4/s); pro SHR ≈ 100 ms (10 Hz); clinical fixed-spot stacking ≈ 10–40 ms.</div>
+        <div class="hint">Edge-to-edge delay. <b>Under the follicle's ~10–100 ms cooling time → heat stacks. Over it → each flash resets.</b> Ulike SHR ≈ 250 ms (4/s); pro SHR ≈ 100 ms (10 Hz); clinical fixed-spot stacking ≈ 10–40 ms. <b>Not disclosed by any home device</b> — an honest unknown.</div>
       </div>
       <div class="ctl">
         <label>Number of flashes <span class="val" id="v_n"></span></label>
         <input type="range" id="n" min="1" max="20" step="1" value="10">
-        <div class="hint">One strong shot, or many weak ones (SHR / in-motion pass hits a spot repeatedly).</div>
+        <div class="hint">One strong shot, or many weak ones (an SHR / in-motion pass hits a spot repeatedly).</div>
       </div>
       <div class="ctl">
-        <label>Fluence per flash <span class="val" id="v_flu"></span></label>
-        <input type="range" id="flu" min="0.5" max="10" step="0.1" value="1.7">
-        <div class="hint">Energy density in each individual flash (J/cm²). Ulike's 26 J burst ÷ 4 ÷ ~3.9 cm² ≈ 1.7 J/cm² per sub-flash; a single-pulse home device runs ~5–6.5.</div>
+        <label>Pulse duration (width) <span class="val" id="v_dur"></span></label>
+        <input type="range" id="dur" min="0.4" max="60" step="0.2" value="10">
+        <div class="hint"><b>Drives skin safety directly.</b> For the same J/cm², a <i>shorter</i> pulse spikes the epidermis hotter (less time to shed heat); a longer one is gentler on skin but bleeds peak follicle temperature. FDA-disclosed widths run ~0.4–12 ms.</div>
       </div>
-      <div class="ctl">
-        <label>Pulse duration <span class="val" id="v_dur"></span></label>
-        <input type="range" id="dur" min="1" max="60" step="1" value="10">
-        <div class="hint">How long each flash lasts. Longer spares the epidermis but bleeds peak follicle temperature.</div>
-      </div>
+    </div>
+
+    <h3 class="cgrouphd">Skin, hair &amp; options</h3>
+    <div class="ctrls">
       <div class="ctl">
         <label>Skin tone (Fitzpatrick) <span class="val" id="v_skin"></span></label>
         <input type="range" id="skin" min="1" max="6" step="1" value="3">
@@ -146,13 +191,13 @@ sup a{text-decoration:none;font-weight:700;color:var(--accent);font-size:11px}
       </div>
       <div class="ctl">
         <label style="margin-bottom:6px">Contact cooling</label>
-        <label class="toggle"><input type="checkbox" id="cool" checked> Sapphire / ice cooling ON <span class="note" style="font-weight:400">(Ulike-style, skin held ≈20 °C)</span></label>
+        <label class="toggle"><input type="checkbox" id="cool" checked> Sapphire / ice cooling ON <span class="note" style="font-weight:400">(skin held ≈20 °C)</span></label>
         <div class="hint">Actively pulls heat out of the epidermis and lowers its floor — lets you push fluence without burning.</div>
       </div>
       <div class="ctl">
         <label style="margin-bottom:6px">Compare against a single flash</label>
         <label class="toggle"><input type="checkbox" id="cmp" checked> Overlay one flash of the <b>same total energy</b></label>
-        <div class="hint">The fair test: is it better to spend all your Joules in one strong flash, or split them across many? (dashed gray = the single-flash follicle curve).</div>
+        <div class="hint">The fair test: spend all your Joules in one strong flash, or split them across many? (dashed gray = the single-flash follicle curve).</div>
       </div>
     </div>
   </div>
@@ -173,7 +218,7 @@ sup a{text-decoration:none;font-weight:700;color:var(--accent);font-size:11px}
       <div class="g"><div class="k">Peak follicle temp</div><div class="v" id="pf">—</div><div class="cap" id="pfcap"></div><div class="bar"><i id="pfbar"></i></div></div>
       <div class="g"><div class="k">Bulge damage dose</div><div class="v" id="pd">—</div><div class="cap" id="pdcap">cumulative, CEM43-style</div><div class="bar"><i id="pdbar"></i></div></div>
       <div class="g"><div class="k">Peak epidermis temp</div><div class="v" id="pe">—</div><div class="cap" id="pecap"></div><div class="bar"><i id="pebar"></i></div></div>
-      <div class="g"><div class="k">Total energy delivered</div><div class="v" id="pt">—</div><div class="cap">sum of all flashes</div></div>
+      <div class="g"><div class="k">Skin burn risk</div><div class="v" id="ps">—</div><div class="cap" id="pscap"></div><div class="bar"><i id="psbar"></i></div></div>
     </div>
 
     <div class="verdict" id="verdict"></div>
@@ -283,19 +328,58 @@ sup a{text-decoration:none;font-weight:700;color:var(--accent);font-size:11px}
 
 <script>
 /* ---------- data ---------- */
-const PRESETS = {
-  ulike_shr:{label:'Ulike Air 10 — SHR', sub:'4 flashes/s · low fluence · sapphire cooling', gap:250,n:12,flu:1.7,dur:10,skin:3,hair:70,cool:true,cmp:true,
-    note:'Ulike’s flagship "SHR" mode: many gentle ~1.7 J/cm² flashes at ~250 ms spacing while gliding, held cool by sapphire. Watch the follicle peak stay modest (comfortable) while the green stem-cell curve slowly creeps — the accumulation bet. Try raising the flash count (a longer in-motion pass) vs. lowering it.'},
-  ulike_air3:{label:'Ulike Air 3 — single pulse', sub:'one stronger flash per press', gap:250,n:1,flu:6,dur:15,skin:3,hair:70,cool:true,cmp:false,
-    note:'Traditional IPL: one stronger flash. The follicle spikes high (peak pathway) from a single shot. Gentler-cooling but a real single-flash dose.'},
-  clinical_stack:{label:'Clinical fixed-spot stack', sub:'3 sub-pulses, 20 ms apart', gap:20,n:3,flu:3,dur:3,skin:3,hair:70,cool:true,cmp:true,
-    note:'The real fast-stacking technique: short sub-pulses 20 ms apart — inside the follicle’s cooling time, so each builds on the last and the peak climbs. This is what genuine pulse-stacking looks like (and what Ulike SHR is NOT).'},
-  pro_shr:{label:'Pro SHR (in-motion)', sub:'fast cadence, sustained heating', gap:55,n:14,flu:2.7,dur:15,skin:3,hair:70,cool:true,cmp:false,
-    note:'Professional SHR: many pulses at a fast cadence (~10 Hz) while the applicator glides. The gap (55 ms) is inside the follicle’s cooling time, so heat never fully resets — the follicle holds a sustained plateau above the 45 °C damage floor and the deep stem-cell dose builds across the train WITHOUT a single painful spike. This is the accumulation pathway crossing threshold, and the version with clinical trial support. (A lumped model like this treats every pulse as hitting one spot; real in-motion spreads energy, so read this as the per-spot thermal envelope, not one press.)'},
-  fansizhe:{label:'Your Fansizhe T023A', sub:'measured single flash, 6.08 J/cm²', gap:250,n:1,flu:6.08,dur:15,skin:3,hair:70,cool:false,cmp:false,
-    note:'The device this repo chose: a single measured 6.08 J/cm² flash. Compare it against splitting the same energy — flip on "compare" and raise the flash count to see what you’d give up.'},
-  weak:{label:'Under-dosed', sub:'few, weak, slow flashes', gap:300,n:3,flu:1.2,dur:12,skin:3,hair:35,cool:true,cmp:true,
-    note:'The failure mode: fluence too low, flashes too few and too slow, hair too fine. Neither pathway reaches threshold — the follicle barely warms and the dose never builds. On face/neck this sub-threshold heat can even trigger paradoxical regrowth.'}
+/* Devices whose PULSE WIDTH is disclosed in an FDA 510(k) filing. Inter-pulse gap is disclosed for
+   NONE of them — gapNote records the honest unknown. Specs from this repo's fda_data_pipeline/verified_specs.json
+   + 03_fda_510k_analysis.md; Ulike pulse width & cadence also from manufacturer/third-party review. */
+const DEVICES = {
+  ulike_ui20:{brand:'Ulike', model:'UI20 / Sapphire Air (SHR mode)', k:'K241998',
+    wl:'550–1200 nm', fluMax:6.67, spot:3.9, pulseLo:0.88, pulseHi:3.20, modes:'single / dual / triple + SHR (~4 flashes/s)',
+    gapNote:'intra-burst gap NOT in the FDA filing; ~250 ms is the marketed SHR cadence (4/s), ~500 ms AutoGlide',
+    cfg:{emode:'flu',flu:1.67,n:4,gap:250,dur:2,spot:3.9,skin:3,hair:70,cool:true,cmp:false},
+    note:'Ulike’s signature SHR: one burst of up to 4 sub-flashes (~1.67 J/cm² each; 26 J / 6.67 J/cm² total) repeated ~4×/s while gliding. Loaded as the literal 4-flash burst — watch it sit sub-threshold at 250 ms, then RAISE the flash count (a glide pass hits a spot several times) and/or drag the gap dial down.'},
+  fansizhe_t023:{brand:'Fansizhe', model:'T023A — this repo’s pick', k:'K223928',
+    wl:'510–1200 nm', fluMax:6.08, spot:3.0, pulseLo:4, pulseHi:12, modes:'single / dual pulse',
+    gapNote:'double-pulse gap not disclosed; a seller video showed the 2nd flash adds only ~1.2 J',
+    cfg:{emode:'flu',flu:6.08,n:1,gap:60,dur:8,spot:3.0,skin:3,hair:70,cool:true,cmp:false},
+    note:'The device this repo chose. Single flash video-measured at 18.23 J / 6.08 J/cm² (FDA-cleared family baseline 5.5). One shot → peak pathway. Turn on "compare" and raise the flash count to see what splitting the same energy would cost.'},
+  fansizhe_t033:{brand:'Fansizhe', model:'T033 / T055 — high-fluence', k:'K253881',
+    wl:'560–1200 nm', fluMax:8.48, spot:3.3, pulseLo:0.4, pulseHi:12, modes:'single / dual / triple pulse',
+    gapNote:'the "8.48 J/cm²" headline is a SUMMED 3-sub-pulse total; inter-pulse gap not disclosed (see doc 15)',
+    cfg:{emode:'flu',flu:5.4,n:1,gap:60,dur:6,spot:3.3,skin:3,hair:75,cool:true,cmp:true},
+    note:'The high-fluence catalog star. Cleared single-pulse ≈5.4 J/cm²; the 8.48 headline is the 3-sub-pulse SUM. Switch to "Total ÷ pulses", enter 28 J across 3 pulses, and test whether the split matches one strong flash — the exact question doc 15 asks.'},
+  fansizhe_t013:{brand:'Fansizhe', model:'T013C / T015 — predicate', k:'K221569',
+    wl:'510–1200 nm', fluMax:4.03, spot:4.0, pulseLo:4, pulseHi:12, modes:'single pulse',
+    gapNote:'single-pulse device — no inter-pulse gap',
+    cfg:{emode:'flu',flu:4.03,n:1,gap:60,dur:8,spot:4.0,skin:3,hair:70,cool:true,cmp:false},
+    note:'A lower-fluence predicate (4.03 J/cm², larger 4 cm² window) — see how a weaker single flash lands versus the T023A.'},
+  semlamp_b352:{brand:'Semlamp', model:'SL-B352 family — real SHR button', k:'K260518',
+    wl:'530–1200 nm', fluMax:6.41, spot:4.2, pulseLo:0.7, pulseHi:3.6, modes:'single / dual / triple + dedicated SHR button',
+    gapNote:'has an actual SHR button in the filing, but its pulse cadence is not disclosed',
+    cfg:{emode:'flu',flu:2.1,n:6,gap:200,dur:2,spot:4.2,skin:3,hair:70,cool:true,cmp:false},
+    note:'One of the few home devices whose FDA filing lists a dedicated SHR button (plus single/dual/triple). Short pulses (0.7–3.6 ms). Loaded in an SHR-like multi-flash mode; the cadence is an estimate — set it yourself.'},
+  ionka_fz:{brand:'IONKA / Chuangtong', model:'FZ-608 / FZ-100 / FZ-200', k:'K230739',
+    wl:'510–1200 nm', fluMax:5.43, spot:3.0, pulseLo:0.5, pulseHi:0.8, modes:'single pulse',
+    gapNote:'single-pulse device — no inter-pulse gap',
+    cfg:{emode:'flu',flu:5.0,n:1,gap:60,dur:0.7,spot:3.0,skin:3,hair:70,cool:true,cmp:false},
+    note:'The ultra-short-pulse case: 0.5–0.8 ms. Best device for feeling how a very short pulse spikes the EPIDERMIS hotter for the same fluence — drag pulse-width down and watch skin-burn risk climb.'},
+  cyden_flashngo:{brand:'Cyden', model:'Flash&Go — large window', k:'K122280',
+    wl:'475–1200 nm', fluMax:5.0, spot:6.0, pulseLo:5, pulseHi:5, modes:'single pulse',
+    gapNote:'single-pulse device — no inter-pulse gap',
+    cfg:{emode:'flu',flu:5.0,n:1,gap:60,dur:5,spot:6.0,skin:3,hair:70,cool:false,cmp:false},
+    note:'Fixed 5 ms pulse, big 6 cm² window (energy spread over more skin), and no sapphire cooling in this older design — see how the missing cooling raises skin risk.'},
+  manual:{brand:'✏️ Manual entry', model:'set every parameter yourself', k:null,
+    wl:'—', fluMax:null, spot:3.9, pulseLo:null, pulseHi:null, modes:'you choose',
+    gapNote:'nothing is locked — this is for any device not listed, or free exploration',
+    cfg:{emode:'flu',flu:5,n:1,gap:60,dur:8,spot:3.9,skin:3,hair:70,cool:true,cmp:false},
+    note:'Free exploration. Enter whatever fluence, pulse width, timing, spot and skin/hair you like.'}
+};
+const SCENARIOS = {
+  clinical_stack:{label:'Clinical fast-stack', cfg:{emode:'flu',flu:3,n:3,gap:20,dur:3,spot:3.0,skin:3,hair:70,cool:true,cmp:true},
+    note:'ILLUSTRATIVE physics (not a specific product): the real fast-stacking technique — 3 short sub-pulses 20 ms apart, inside the follicle’s cooling time, so the peak climbs. What genuine pulse-stacking looks like.'},
+  pro_shr:{label:'Pro SHR (in-motion)', cfg:{emode:'flu',flu:2.7,n:14,gap:55,dur:15,spot:3.9,skin:3,hair:70,cool:true,cmp:false},
+    note:'ILLUSTRATIVE physics (not a specific product): professional in-motion SHR — many pulses at ~10 Hz. The gap sits inside the follicle’s cooling time, so a sustained sub-coagulation plateau builds a damaging deep-target dose without a painful spike. The version with clinical-trial support.'},
+  underdosed:{label:'Under-dosed (fails)', cfg:{emode:'flu',flu:1.2,n:3,gap:300,dur:12,spot:3.9,skin:3,hair:35,cool:true,cmp:true},
+    note:'ILLUSTRATIVE physics (not a specific product): the failure mode — fluence too low, flashes too few and too slow, hair too fine. Neither pathway reaches threshold.'}
 };
 const QUOTES=[
  {q:'Repeated and fast emission of pulses of low energy progressively heats the chromophore to temperatures of 45–50° over a period of time and safeguards the epidermis from overheating as opposed to a sudden rise in temperature to 65° in conventional systems.',s:'Arsiwala & Majid 2019 — progressive photothermolysis',u:'https://ijdvl.com/methods-to-overcome-poor-responses-and-challenges-of-laser-hair-removal-in-dark-skin/'},
@@ -330,12 +414,14 @@ const SOURCES=[
    Lumped 3-node explicit integrator (dt = 0.5 ms). Absolute °C, baseline 35.
    Nodes: epidermis (Te), follicle/bulb = melanin heater (Tf), bulge stem cells (Tbg, driven only by diffusion from Tf).
    Calibrated so a single ~6 J/cm² flash on dark hair drives the follicle to ~68 °C — the classic coagulation figure. */
-const Tb=35, DT=0.5;                       // baseline °C, timestep ms
+const Tb=35, DT=0.25;                      // baseline °C, timestep ms (fine enough to resolve sub-ms pulses)
 const AF0=5.0, AE0=3.4;                     // heating coefficients (°C per J/cm² of retained energy)
 const TAU_EFAST=8, TAU_ECOOL=45, ESINK=22; // epidermis: fast diffusion to body temp; slow extraction to cold plate
 const TAU_DIFF=120, TAU_BG=500;            // follicle->bulge diffusion & bulge hold time constants (ms) -> sets TDT window
 const T_COAG=65, T_SUSTAIN=45, T_EPI_DANGER=65, T_EPI_WARN=58;
 const DOSE_THRESH=6;                        // illustrative °C·s of deep-target heat above 40° for "meaningful" damage
+const EDOSE_HIGH=2.5, EDOSE_MOD=0.6;        // illustrative epidermal thermal-load bands (°C·s above 44°)
+const TCAP=100;                             // vaporization ceiling — above ~100° water boils & the linear model is invalid
 const SKIN_MEL=[null,0.5,0.7,1.0,1.35,1.7,2.1];  // Fitzpatrick I..VI epidermal absorption multiplier
 
 function hairParams(h){                     // h: 0..100 slider
@@ -351,27 +437,31 @@ function simulate(p){
   const steps=Math.ceil(tEnd/DT);
   // flash windows (start,end) in ms
   const fl=[]; for(let k=0;k<p.n;k++){const s=k*(p.dur+p.gap); fl.push([s,s+p.dur]);}
-  let Te=Tb,Tf=Tb,Tbg=Tb, doseBg=0, peakTf=Tb,peakTe=Tb,peakTbg=Tb, secAbove=0;
+  let Te=Tb,Tf=Tb,Tbg=Tb, doseBg=0, doseE=0, peakTf=Tb,peakTe=Tb,peakTbg=Tb, secAbove=0;
   const arr={t:[],Te:[],Tf:[],Tbg:[]};
   const sampleEvery=Math.max(1,Math.round(steps/520));  // ~520 plot points
   for(let i=0;i<=steps;i++){
-    const t=i*DT;
-    // heating: any active flash deposits energy over its duration
-    let onFlux=0; for(const f of fl){ if(t>=f[0]&&t<f[1]){onFlux=1;break;} }
-    if(onFlux){ Te+=aE*p.flu/p.dur*DT; Tf+=aF*p.flu/p.dur*DT; }
+    const t=i*DT, t1=t+DT;
+    // heating: deposit energy ∝ this step's exact overlap with a flash window (correct for any dur vs DT,
+    // including sub-ms pulses where a binary on/off test would over-count and over-heat)
+    let onTime=0; for(const f of fl){ const ov=Math.min(t1,f[1])-Math.max(t,f[0]); if(ov>0) onTime+=ov; }
+    if(onTime>0){ Te+=aE*p.flu/p.dur*onTime; Tf+=aF*p.flu/p.dur*onTime; }
     // cooling / diffusion (explicit Euler)
     Te+= -(Te-Tb)/TAU_EFAST*DT;                 // fast diffusion to adjacent tissue (~body temp)
     if(p.cool) Te+= -(Te-ESINK)/TAU_ECOOL*DT;   // extra extraction to the sapphire/ice plate
     Tf+= -(Tf-Tb)/tauF*DT;
     Tbg+= ((Tf-Tbg)/TAU_DIFF - (Tbg-Tb)/TAU_BG)*DT;
     if(Te<ESINK)Te=ESINK;
+    if(Tf>TCAP)Tf=TCAP; if(Te>TCAP)Te=TCAP; if(Tbg>TCAP)Tbg=TCAP;  // clamp at vaporization ceiling
     // cumulative thermal exposure of the deep target: area above 40 °C (°C·s), illustrative
     if(Tbg>40) doseBg += (Tbg-40)*(DT/1000);
     if(Tbg>=T_SUSTAIN) secAbove+=DT/1000;
+    // cumulative epidermal thermal load: area above 44 °C (°C·s) — the skin-burn accumulation metric
+    if(Te>44) doseE += (Te-44)*(DT/1000);
     if(Tf>peakTf)peakTf=Tf; if(Te>peakTe)peakTe=Te; if(Tbg>peakTbg)peakTbg=Tbg;
     if(i%sampleEvery===0){arr.t.push(t);arr.Te.push(Te);arr.Tf.push(Tf);arr.Tbg.push(Tbg);}
   }
-  return {arr,fl,tEnd,peakTf,peakTe,peakTbg,doseBg,secAbove,
+  return {arr,fl,tEnd,peakTf,peakTe,peakTbg,doseBg,doseE,secAbove,
           totalE:p.n*p.flu, aF,aE,tauF};
 }
 
@@ -425,7 +515,7 @@ function verdict(sim){
   const warmFollicle = sim.peakTf>=52;
   let cls,head,lines=[];
   if(coag){cls='yes';head='✓ Likely meaningful follicle damage — via the peak (coagulation) pathway';
-    lines.push('The follicle peaks at '+fmt(sim.peakTf)+'° — past the ~65° coagulation threshold. A single strong flash denatures follicular protein directly.');}
+    lines.push('The follicle peaks at '+fmt(sim.peakTf)+'°'+(sim.peakTf>=TCAP-0.5?' (model-capped at ~100° — that regime vaporizes/chars tissue; read it as "far past destruction," not a literal number)':'')+' — past the ~65° coagulation threshold. A strong-enough flash denatures follicular protein directly.');}
   else if(dose){cls='yes';head='✓ Likely meaningful damage — via the accumulation (SHR) pathway';
     lines.push('The follicle never spikes high (peak '+fmt(sim.peakTf)+'°, comfortable), but successive flashes keep the deep target above the sustained-damage floor long enough that the cumulative dose ('+fmt(sim.doseBg,1)+' units) clears threshold. This is exactly how SHR is meant to work — gentle peak, damaging dose.');}
   else if(coag===false && partialDose && warmFollicle){cls='partial';head='◐ Borderline for this single exposure';
@@ -434,14 +524,21 @@ function verdict(sim){
   else {cls='no';head='✗ Sub-threshold for this exposure';
     lines.push('Neither pathway reaches threshold on this pass: peak '+fmt(sim.peakTf)+'°, accumulated dose '+fmt(sim.doseBg,1)+' units. The energy is too low, too spread out in time, or the hair too fine to build damaging heat here.');
     lines.push('This models one exposure. Home SHR devices lean on <b>repetition</b> — many overlapping passes per session, 8–12 sessions, plus a possible non-thermal apoptotic pathway (Omi 2017) — so gentle-per-flash is by design. But note the flip side: ⚠ sub-threshold heat on hormonal areas (face/neck) can provoke <b>paradoxical regrowth</b>, so "barely warm" is not automatically safe there.');}
-  // safety line
-  if(sim.peakTe>=T_EPI_DANGER)lines.push({w:'⚠ Epidermis peaks at '+fmt(sim.peakTe)+'° — in the burn / pigment-change zone. Lower fluence, lengthen the pulse, or keep contact cooling on.'});
-  else if(sim.peakTe>=T_EPI_WARN)lines.push('Epidermis peaks at '+fmt(sim.peakTe)+'° — warm but under the burn zone.');
-  else lines.push('Epidermis stays safe (peak '+fmt(sim.peakTe)+'°).');
+  // skin-safety line (acute peak + cumulative load)
+  const sr=skinRisk(sim);
+  if(sr.lvl==='HIGH') lines.push({w:'⚠ Skin burn risk HIGH — epidermis peaks '+fmt(sim.peakTe)+'° (cumulative load '+fmt(sim.doseE,1)+' °C·s). Lower fluence, lengthen the pulse (shorter pulses spike the surface hotter for the same J/cm²), keep contact cooling on, and ease off on darker skin.'});
+  else if(sr.lvl==='MODERATE') lines.push('△ Skin burn risk MODERATE — epidermis peaks '+fmt(sim.peakTe)+'° (load '+fmt(sim.doseE,1)+' °C·s). Contact cooling and a slightly longer pulse pull it down.');
+  else lines.push('Skin safe — epidermis peaks '+fmt(sim.peakTe)+'° (load '+fmt(sim.doseE,1)+' °C·s), both in range.');
   const v=$('verdict'); v.className='verdict '+cls;
   v.innerHTML='<b>'+head+'</b>'+lines.map(l=>typeof l==='string'?`<div class="line">${l}</div>`:`<div class="line warn">${l.w}</div>`).join('');
 }
 
+// classify epidermal / skin-burn risk from BOTH the acute peak and the cumulative load
+function skinRisk(sim){
+  if(sim.peakTe>=T_EPI_DANGER || sim.doseE>=EDOSE_HIGH) return {lvl:'HIGH', col:'var(--accent)', why:'acute peak in the burn zone and/or heavy cumulative load'};
+  if(sim.peakTe>=T_EPI_WARN || sim.doseE>=EDOSE_MOD)    return {lvl:'MODERATE', col:'var(--amber)', why:'warm — watch fluence, pulse width & cooling'};
+  return {lvl:'LOW', col:'var(--good)', why:'peak and cumulative load both in the safe range'};
+}
 function gauges(sim){
   // follicle peak
   $('pf').textContent=fmt(sim.peakTf)+'°C';
@@ -456,14 +553,17 @@ function gauges(sim){
   $('pdcap').textContent='of illustrative damage threshold';
   $('pdbar').style.width=clamp(dpct,2,100)+'%';
   $('pdbar').style.background = dpct>=100?'var(--good)':dpct>=40?'var(--amber)':'#c9ccd2';
-  // epidermis
+  // epidermis peak
   $('pe').textContent=fmt(sim.peakTe)+'°C';
   $('pe').style.color = sim.peakTe>=T_EPI_DANGER?'var(--accent)':sim.peakTe>=T_EPI_WARN?'var(--amber)':'var(--good)';
-  $('pecap').textContent = sim.peakTe>=T_EPI_DANGER?'burn / pigment-risk zone':'within safe range';
+  $('pecap').textContent = sim.peakTe>=T_EPI_DANGER?'burn / pigment-risk zone':'peak (acute) temperature';
   $('pebar').style.width=clamp(sim.peakTe/80*100,2,100)+'%';
   $('pebar').style.background = sim.peakTe>=T_EPI_DANGER?'var(--accent)':sim.peakTe>=T_EPI_WARN?'var(--amber)':'var(--good)';
-  // total energy
-  $('pt').textContent=fmt(sim.totalE,1)+' J/cm²';
+  // skin-burn risk (peak + cumulative)
+  const sr=skinRisk(sim);
+  $('ps').textContent=sr.lvl; $('ps').style.color=sr.col;
+  $('pscap').textContent='load '+fmt(sim.doseE,1)+' °C·s · '+sr.why;
+  $('psbar').style.width=clamp(sim.doseE/EDOSE_HIGH*100,3,100)+'%'; $('psbar').style.background=sr.col;
 }
 
 function cmpVerdict(p,sim,simCmp){
@@ -489,49 +589,130 @@ function cmpVerdict(p,sim,simCmp){
 }
 
 /* ---------- wire up ---------- */
+let emode='flu';  // 'flu' = set per-flash fluence; 'tot' = set one total in Joules, split across pulses
 function readParams(){
-  return {gap:+$('gap').value,n:+$('n').value,flu:+$('flu').value,dur:+$('dur').value,
-          skin:+$('skin').value,hair:+$('hair').value,cool:$('cool').checked,cmp:$('cmp').checked};
+  const spot=+$('spot').value, n=Math.max(1,+$('n').value);
+  const flu = emode==='tot' ? (+$('tot').value)/spot/n : +$('flu').value;
+  return {gap:+$('gap').value, n, flu, dur:+$('dur').value, spot,
+          skin:+$('skin').value, hair:+$('hair').value,
+          cool:$('cool').checked, cmp:$('cmp').checked};
 }
 const FITZ=['','I (very fair)','II (fair)','III (medium)','IV (olive)','V (brown)','VI (deep)'];
 function hairLbl(h){return h<25?'fine / light':h<50?'medium':h<80?'coarse / dark':'very coarse / black';}
 function run(){
   const p=readParams();
-  // labels
+  const totalJ=p.flu*p.spot*p.n, totalFlu=p.flu*p.n;
   $('v_gap').textContent=p.gap+' ms'+(p.gap<100?'  ⚡stacks':p.gap>200?'  ✕resets':'');
   $('v_n').textContent=p.n+(p.n===1?' flash':' flashes');
-  $('v_flu').textContent=fmt(p.flu,1)+' J/cm²';
-  $('v_dur').textContent=p.dur+' ms';
+  $('v_flu').textContent=fmt(p.flu,2)+' J/cm²';
+  $('v_tot').textContent=fmt(+$('tot').value,1)+' J';
+  $('v_spot').textContent=fmt(p.spot,1)+' cm²';
+  $('v_dur').textContent=p.dur+' ms'+(p.dur<1.5?'  ⚠ short→hot skin':'');
   $('v_skin').textContent=FITZ[p.skin];
   $('v_hair').textContent=hairLbl(p.hair);
+  $('esum').innerHTML=`<b>${fmt(totalJ,1)} J</b> total (${fmt(totalFlu,2)} J/cm²) across <b>${p.n}</b> pulse${p.n>1?'s':''} · <b>${fmt(p.flu,2)} J/cm²</b> per flash · spot ${fmt(p.spot,1)} cm²`;
   $('cmpleg').style.display=(p.cmp && p.n>1)?'inline-flex':'none';
   const sim=simulate(p);
-  // comparison = one flash carrying the same TOTAL energy, capped at a device-plausible 8 J/cm²
-  const cmpFlu = Math.min(8, p.n*p.flu);
-  const simCmp = (p.cmp && p.n>1) ? simulate({...p,n:1,flu:cmpFlu}) : null;
-  draw(sim,simCmp);
-  gauges(sim);
-  verdict(sim);
-  cmpVerdict(p,sim,simCmp);
+  const cmpFlu=Math.min(8,p.n*p.flu);
+  const simCmp=(p.cmp && p.n>1) ? simulate({...p,n:1,flu:cmpFlu}) : null;
+  draw(sim,simCmp); gauges(sim); verdict(sim); cmpVerdict(p,sim,simCmp);
 }
-function setPreset(key){
-  const P=PRESETS[key];
-  $('gap').value=P.gap;$('n').value=P.n;$('flu').value=P.flu;$('dur').value=P.dur;
-  $('skin').value=P.skin;$('hair').value=P.hair;$('cool').checked=P.cool;$('cmp').checked=P.cmp;
-  document.querySelectorAll('#presets button').forEach(b=>b.classList.toggle('active',b.dataset.k===key));
-  $('presetnote').textContent=P.note;
+function setEmode(m,silent){
+  const spot=+$('spot').value, n=Math.max(1,+$('n').value);
+  if(m==='tot' && emode!=='tot') $('tot').value=fmt((+$('flu').value)*spot*n,1);   // carry current per-flash → total
+  if(m==='flu' && emode!=='flu') $('flu').value=fmt((+$('tot').value)/spot/n,2);    // carry current total → per-flash
+  emode=m;
+  document.querySelectorAll('#emode button').forEach(b=>b.classList.toggle('active',b.dataset.m===m));
+  $('ctl_flu').style.display = m==='flu'?'':'none';
+  $('ctl_tot').style.display = m==='tot'?'':'none';
+  if(!silent) run();
+}
+function applyCfg(c){
+  $('spot').value=c.spot; $('n').value=c.n; $('gap').value=c.gap; $('dur').value=c.dur;
+  $('skin').value=c.skin; $('hair').value=c.hair; $('cool').checked=c.cool; $('cmp').checked=c.cmp;
+  $('flu').value=c.flu; $('tot').value=fmt(c.flu*c.spot*c.n,1);
+  setEmode(c.emode||'flu', true);
+}
+function deviceInfoHTML(d){
+  const prov=[];
+  prov.push(d.k?`<span class="prov ok">FDA ${d.k}</span>`:`<span class="prov est">no FDA lock</span>`);
+  if(d.wl&&d.wl!=='—') prov.push(`<span class="prov">${d.wl}</span>`);
+  if(d.fluMax) prov.push(`<span class="prov">max ${d.fluMax} J/cm²</span>`);
+  prov.push(`<span class="prov">spot ${d.spot} cm²</span>`);
+  prov.push(d.pulseLo!=null
+    ? `<span class="prov ok">pulse ${d.pulseLo===d.pulseHi?d.pulseLo:d.pulseLo+'–'+d.pulseHi} ms · disclosed</span>`
+    : `<span class="prov est">pulse width: you set it</span>`);
+  prov.push(`<span class="prov no">inter-pulse gap: not disclosed</span>`);
+  return `<div class="dname">${d.brand} — ${d.model}</div><div style="margin-top:5px">${d.note}</div>`
+       + `<div class="provrow">${prov.join('')}</div>`
+       + `<div class="note" style="margin-top:8px"><b>Modes:</b> ${d.modes}. <b>Gap:</b> ${d.gapNote}.</div>`;
+}
+function selectDevice(key){
+  const d=DEVICES[key]; if(!d) return;
+  $('device').value=key;
+  document.querySelectorAll('#scenarios button').forEach(b=>b.classList.remove('active'));
+  applyCfg(d.cfg);
+  $('deviceinfo').innerHTML=deviceInfoHTML(d);
   run();
 }
-// build presets
-$('presets').innerHTML=Object.entries(PRESETS).map(([k,P])=>`<button data-k="${k}">${P.label}<small>${P.sub}</small></button>`).join('');
-document.querySelectorAll('#presets button').forEach(b=>b.onclick=()=>setPreset(b.dataset.k));
-['gap','n','flu','dur','skin','hair'].forEach(id=>$(id).oninput=run);
+function selectScenario(key){
+  const s=SCENARIOS[key]; if(!s) return;
+  document.querySelectorAll('#scenarios button').forEach(b=>b.classList.toggle('active',b.dataset.k===key));
+  $('device').value='manual';
+  applyCfg(s.cfg);
+  $('deviceinfo').innerHTML=`<div class="dname">🧪 ${s.label} — illustrative scenario</div><div style="margin-top:5px">${s.note}</div><div class="provrow"><span class="prov est">not a specific product</span><span class="prov no">timing illustrative</span></div>`;
+  run();
+}
+$('device').innerHTML=Object.entries(DEVICES).map(([k,d])=>`<option value="${k}">${d.brand} — ${d.model}${d.k?' · '+d.k:''}</option>`).join('');
+$('device').onchange=e=>selectDevice(e.target.value);
+$('scenarios').innerHTML=Object.entries(SCENARIOS).map(([k,s])=>`<button data-k="${k}">🧪 ${s.label}</button>`).join('');
+document.querySelectorAll('#scenarios button').forEach(b=>b.onclick=()=>selectScenario(b.dataset.k));
+document.querySelectorAll('#emode button').forEach(b=>b.onclick=()=>setEmode(b.dataset.m));
+['gap','n','flu','tot','dur','skin','hair','spot'].forEach(id=>$(id).oninput=run);
 ['cool','cmp'].forEach(id=>$(id).onchange=run);
-// research render
 $('quotes').innerHTML=QUOTES.map(q=>`<div class="quote"><p>“${q.q}”</p><div class="src">— <a href="${q.u}" target="_blank" rel="noopener">${q.s}</a></div></div>`).join('');
 $('sources').innerHTML=SOURCES.map(([id,txt,u])=>`<li id="${id}">${txt} <a href="${u}" target="_blank" rel="noopener">↗</a></li>`).join('');
+
+/* ---------- SANITY(): sweep combinations + assert physical invariants (run from console/eval) ---------- */
+function SANITY(){
+  const base={gap:60,n:1,flu:5,dur:8,skin:3,hair:70,cool:true,cmp:false,spot:3.9};
+  const S=o=>simulate({...base,...o});
+  const fin=v=>Number.isFinite(v);
+  const viol=[]; const chk=(c,m)=>{ if(!c) viol.push(m); };
+  // 1. broad grid — no NaN/Inf, temps in sane bounds, doses >= 0
+  const G={flu:[0.5,2,5,8,10],dur:[0.4,1,3,10,30,60],n:[1,3,8,20],gap:[5,20,60,150,300],skin:[1,3,6],hair:[0,50,100],cool:[true,false]};
+  let grid=0;
+  for(const flu of G.flu)for(const dur of G.dur)for(const n of G.n)for(const gap of G.gap)for(const skin of G.skin)for(const hair of G.hair)for(const cool of G.cool){
+    const r=S({flu,dur,n,gap,skin,hair,cool}); grid++;
+    if(!(fin(r.peakTf)&&fin(r.peakTe)&&fin(r.peakTbg)&&fin(r.doseBg)&&fin(r.doseE))){viol.push('NaN/Inf @'+JSON.stringify({flu,dur,n,gap,skin,hair,cool}));continue;}
+    if(r.peakTf<Tb-0.01||r.peakTe<ESINK-0.01||r.peakTbg<Tb-0.5) viol.push('sub-baseline temp @'+JSON.stringify({flu,dur,n,gap}));
+    if(r.peakTf>TCAP+0.5||r.peakTe>TCAP+0.5) viol.push('over-cap temp '+fmt(r.peakTf)+'/'+fmt(r.peakTe)+' @'+JSON.stringify({flu,dur,n,gap,skin,hair}));
+    if(r.doseBg<0||r.doseE<0) viol.push('negative dose @'+JSON.stringify({flu,dur,n,gap}));
+  }
+  // 2. monotonic in fluence (follicle peak)
+  chk(S({flu:2}).peakTf<S({flu:5}).peakTf && S({flu:5}).peakTf<S({flu:9}).peakTf,'follicle peak not monotonic in fluence');
+  // 3. shorter pulse -> hotter epidermis (same fluence)
+  chk(S({flu:6,dur:2}).peakTe > S({flu:6,dur:20}).peakTe,'epidermis should get hotter as pulse shortens');
+  // 4. pulse width hits epidermis at least as hard as follicle
+  chk((S({flu:6,dur:2}).peakTe-S({flu:6,dur:20}).peakTe) >= (S({flu:6,dur:2}).peakTf-S({flu:6,dur:20}).peakTf)-1e-6,'pulse-width effect should be strongest on epidermis');
+  // 5. darker skin -> hotter epidermis; 6. cooling never raises epidermis peak
+  chk(S({skin:6}).peakTe>S({skin:1}).peakTe,'darker skin should raise epidermis peak');
+  chk(S({cool:true}).peakTe<=S({cool:false}).peakTe+1e-6,'cooling should not raise epidermis peak');
+  // 7. stacking: shorter gap -> higher-or-equal follicle peak (multi-flash)
+  chk(S({n:4,flu:3,gap:20}).peakTf >= S({n:4,flu:3,gap:300}).peakTf-1e-6,'shorter gap should stack peak higher');
+  // 8. coarser/darker hair -> hotter follicle
+  chk(S({hair:100}).peakTf>S({hair:0}).peakTf,'coarser hair should raise follicle peak');
+  // 9. total-energy split identity
+  {const spot=3.9,totJ=20,n=4,per=totJ/spot/n; chk(Math.abs(per*n*spot-totJ)<1e-9,'total-split identity broken');}
+  // 10. calibration anchor: 6 J/cm² dark-hair single flash approaches coagulation
+  chk(S({flu:6,dur:8,hair:70,n:1}).peakTf>=60,'calibration drift: 6 J/cm² dark single flash below ~60°');
+  // 11. more flashes never REDUCE the deep-target dose (same per-flash), at a stacking gap
+  chk(S({n:12,flu:2.7,gap:55}).doseBg >= S({n:4,flu:2.7,gap:55}).doseBg-1e-6,'more flashes should not lower accumulated dose');
+  return {gridCombos:grid, invariantChecks:11, violations:viol.length, ok:viol.length===0, detail:viol.slice(0,15)};
+}
+
 // go
-setPreset('ulike_shr');
+selectDevice('ulike_ui20');
 </script>
 </body>
 </html>
