@@ -252,18 +252,35 @@ def find_sibling_chip(html, marker):
 
 
 def inject_nav_trigger(html, count):
-    if 'data-go="patents"' in html or 'href="#patents"' in html:
-        return html, False
-    chip_sibling = find_sibling_chip(html, 'data-go="pdfs"') or find_sibling_chip(html, 'data-go="data"')
-    if chip_sibling:
-        chip = '<div class="st-chip" data-go="patents" role="button" tabindex="0">📜 Patents<span>Primary patents behind the devices in this folder</span></div>'
-        insert_at = chip_sibling.end()
-        return html[:insert_at] + chip + html[insert_at:], True
-    idx = html.rfind("</nav>")
-    if idx == -1:
-        return html, False
-    link = f'<a class="navbtn" href="#patents">📜 Patents ({count})</a>\n  '
-    return html[:idx] + link + html[idx:], True
+    """Two independent triggers, added separately so both can coexist:
+    (1) a chip inside the 'Start here' panel's own content (only visible while
+        viewing that panel — folders 01/02's richer nav has this pattern), and
+    (2) a plain link in the ALWAYS-VISIBLE <nav class="side"> sidebar (folders
+        03/04's only mechanism, and — this matters — 01/02 need it too, since
+        their sidebar's existing "Source PDFs"/"Data files" links are visible
+        from every doc, not just from 'Start here', and Patents should be
+        equally reachable, not one extra click behind a specific panel)."""
+    changed = False
+    if 'data-go="patents"' not in html:
+        chip_sibling = find_sibling_chip(html, 'data-go="pdfs"') or find_sibling_chip(html, 'data-go="data"')
+        if chip_sibling:
+            chip = '<div class="st-chip" data-go="patents" role="button" tabindex="0">📜 Patents<span>Primary patents behind the devices in this folder</span></div>'
+            insert_at = chip_sibling.end()
+            html = html[:insert_at] + chip + html[insert_at:]
+            changed = True
+    if 'href="#patents"' not in html:
+        nav_m = re.search(r'<nav class="side">.*?</nav>', html, re.S)
+        if nav_m and ('href="#pdfs"' in nav_m.group(0) or 'href="#data"' in nav_m.group(0) or 'href="#gallery"' in nav_m.group(0) or 'href="#source-docs"' in nav_m.group(0)):
+            idx = nav_m.end() - len("</nav>")
+            link = f'<a class="navbtn" href="#patents">📜 Patents ({count})</a>\n  '
+            html = html[:idx] + link + html[idx:]
+            changed = True
+        elif html.rfind("</nav>") != -1:
+            idx = html.rfind("</nav>")
+            link = f'<a class="navbtn" href="#patents">📜 Patents ({count})</a>\n  '
+            html = html[:idx] + link + html[idx:]
+            changed = True
+    return html, changed
 
 
 def process_folder(folder):
