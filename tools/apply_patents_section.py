@@ -4,20 +4,35 @@ folder's viewable Patents page (a `#patents` section + sidebar link/chip in its
 index.html). Idempotent — safe to re-run after the viewer HTML is regenerated
 externally (see the site-viewer-regenerator memory).
 
-Authoring convention (in any *.md file, anywhere a patent is worth citing):
+Authoring convention (in any *.md file, anywhere a patent OR trademark is worth
+citing):
 
     ## 9. Patents referenced in this analysis
 
     ### US 9,308,390 B2 — Devices and methods for radiation-based dermatological treatments
-    - **Assignee:** Tria Beauty, Inc.
+    - **Company:** Tria Beauty
+    - **Type:** Utility Patent
+    - **Filed:** 2012-04-10
+    - **Granted:** 2016-04-12
+    - **Assignee:** Tria Beauty, Inc. (now Aesthete Holding Corporation, 2025 reassignment)
     - **Discloses:** one or two sentences on what it actually claims/discloses.
     - **Link:** https://patents.google.com/patent/US9308390B2/en
     - **Mirrored PDF:** quantified_gap_source_docs/us-patent-9308390-tria-laser.pdf
 
-`Mirrored PDF` is optional (omit if not locally mirrored). The section heading only
-needs to contain the word "patent" (any ## heading text works, any doc, any folder).
-The same patent cited in multiple docs within one folder is de-duplicated into a
-single card that lists every doc it's used in.
+`Company` is the SHORT canonical grouping key used to build the company-filter
+menu — use the SAME string for every filing from one company's lineage (e.g.
+always "Tria Beauty", never "SpectraGenics" for one block and "Tria Beauty" for
+another) even if `Assignee` spells out a longer reassignment history in prose.
+`Type` is free text but should be one of "Utility Patent" / "Design Patent" /
+"Trademark" so the timeline can badge it consistently. `Filed`/`Granted` are
+YYYY-MM-DD (a bare YYYY is fine if that's all that's known); use "Pending" for
+`Granted` if not yet granted/registered. `Assignee` and `Mirrored PDF` are
+optional; `Company`, `Type`, `Filed`, `Discloses`, and `Link` are expected on
+every block (missing ones degrade gracefully — the page just shows less).
+
+The section heading only needs to contain the word "patent" (any ## heading text
+works, any doc, any folder). The same patent cited in multiple docs within one
+folder is de-duplicated into a single card that lists every doc it's used in.
 
 A second, separate convention: a `## Future tech signals` heading (must contain
 that exact phrase, case-insensitive) marks a free-form markdown section — prose,
@@ -40,9 +55,10 @@ FUTURE_HEAD_RE = re.compile(r'^##\s+.*\bfuture tech\b.*$', re.I | re.M)
 NEXT_H2_RE = re.compile(r'^##\s+(?!#)', re.M)
 DIVIDER_RE = re.compile(r'^---\s*$', re.M)
 BLOCK_RE = re.compile(r'^###\s+(.+?)\s*$', re.M)
-FIELD_RE = re.compile(r'^-\s+\*\*(Assignee|Discloses|Link|Mirrored PDF):\*\*\s*(.+?)\s*$', re.M)
+FIELD_RE = re.compile(r'^-\s+\*\*(Company|Type|Filed|Granted|Assignee|Discloses|Link|Mirrored PDF):\*\*\s*(.+?)\s*$', re.M)
 H1_RE = re.compile(r'^#\s+(.+?)\s*$', re.M)
 NUMBER_PREFIX_RE = re.compile(r'^(US|USD|EP|CN|WO)\s*[\d,]+')
+YEAR_RE = re.compile(r'(\d{4})')
 
 CSS_BLOCK = """
 /* patents-section */
@@ -56,6 +72,26 @@ CSS_BLOCK = """
 .patent .pt-used a{color:var(--muted);text-decoration:underline}
 .patent .pt-links{margin-top:6px}
 .patent .pt-links a{font-size:12px;font-weight:600;color:var(--accent);text-decoration:none;margin-right:14px}
+.patent .pt-dates{font-size:11.5px;color:var(--muted);margin:2px 0}
+.pt-type{display:inline-block;font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.03em;padding:2px 7px;border-radius:20px;margin-bottom:6px}
+.pt-t-util{background:#e8f0fe;color:#1a56c4}
+.pt-t-design{background:#fdeee3;color:#b45309}
+.pt-t-tm{background:#e9f7ef;color:#0f7b45}
+.pt-tabs{display:flex;gap:8px;margin:14px 0 10px}
+.pt-tab{border:1px solid var(--line);background:var(--card);border-radius:8px;padding:6px 14px;font-size:13px;font-weight:600;color:var(--muted);cursor:pointer}
+.pt-tab.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.pt-menu{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.pt-mchip{border:1px solid var(--line);background:var(--card);border-radius:20px;padding:4px 12px;font-size:12px;font-weight:600;color:var(--ink);cursor:pointer}
+.pt-mchip.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+.patent[hidden],.pt-tl-row[hidden]{display:none}
+.pt-timeline{display:flex;flex-direction:column;gap:2px}
+.pt-tl-year{font-size:16px;font-weight:800;color:var(--accent);margin:18px 0 4px;padding-top:6px;border-top:1px solid var(--line)}
+.pt-tl-year:first-child{margin-top:0;border-top:0}
+.pt-tl-row{display:flex;align-items:center;gap:10px;padding:6px 4px;border-bottom:1px solid var(--line);font-size:13px;flex-wrap:wrap}
+.pt-tl-date{font-size:11.5px;color:var(--muted);min-width:92px}
+.pt-tl-row a{color:var(--ink);font-weight:600;text-decoration:none;flex:1;min-width:200px}
+.pt-tl-row a:hover{color:var(--accent)}
+.pt-tl-company{font-size:11.5px;color:var(--muted);font-style:italic}
 .future-tech-wrap{margin-top:32px;padding-top:20px;border-top:2px dashed var(--line)}
 .future-tech-wrap>p.note:first-of-type{margin-top:0}
 """
@@ -107,16 +143,29 @@ def extract_patents(md_path):
         blocks = list(BLOCK_RE.finditer(body))
         for i, b in enumerate(blocks):
             title = b.group(1).strip()
-            if not NUMBER_PREFIX_RE.match(title):
-                continue
             bstart = b.end()
             bend = blocks[i + 1].start() if i + 1 < len(blocks) else len(body)
             chunk = body[bstart:bend]
             fields = {k: v.strip() for k, v in FIELD_RE.findall(chunk)}
+            # Validity: either a real patent-number-style title (catches old-schema
+            # blocks with no Type field), OR an explicit Company/Type pair (catches
+            # trademarks and non-US patent numbers like TWI/JP/KR that don't start
+            # with a familiar prefix). Either way Link is mandatory.
+            looks_like_patent_number = bool(NUMBER_PREFIX_RE.match(title))
+            has_explicit_fields = "Company" in fields and "Type" in fields
+            if not (looks_like_patent_number or has_explicit_fields):
+                continue
             if "Link" not in fields:
                 continue
+            company = fields.get("Company", "").strip()
+            if not company:
+                company = fields.get("Assignee", "Unknown").split("(")[0].split("—")[0].split("→")[-1].strip() or "Unknown"
             out.append({
                 "title": title,
+                "company": company,
+                "type": fields.get("Type", "Utility Patent"),
+                "filed": fields.get("Filed", ""),
+                "granted": fields.get("Granted", ""),
                 "assignee": fields.get("Assignee", ""),
                 "discloses": fields.get("Discloses", ""),
                 "link": fields["Link"],
@@ -125,6 +174,20 @@ def extract_patents(md_path):
                 "doc_title": doc_title,
             })
     return out
+
+
+def sort_key(item):
+    """Chronological sort key: prefer Filed, fall back to Granted, undated last."""
+    for field in ("filed", "granted"):
+        m = YEAR_RE.search(item.get(field, ""))
+        if m:
+            val = item[field]
+            year = m.group(1)
+            rest = val[m.end():].lstrip("-/. ") or "01-01"
+            if re.match(r'^\d{2}-\d{2}', rest):
+                return f"{year}-{rest[:5]}"
+            return f"{year}-01-01"
+    return "9999-99-99"
 
 
 def dedupe_key(title):
@@ -164,25 +227,72 @@ def render_future_tech(items):
     )
 
 
+TYPE_CLASS = {"utility patent": "pt-t-util", "design patent": "pt-t-design", "trademark": "pt-t-tm"}
+
+
+def type_class(t):
+    return TYPE_CLASS.get(t.strip().lower(), "pt-t-util")
+
+
 def render_section(patents, future_tech=None):
+    by_company = OrderedDict()
+    for p in sorted(patents, key=lambda x: x["company"]):
+        by_company.setdefault(p["company"], []).append(p)
+
     cards = []
     for p in patents:
         used = " · ".join(f'<a href="{esc(f)}">{esc(t)}</a>' for f, t in p["used_in"])
-        links = f'<a href="{esc(p["link"])}" target="_blank" rel="noopener">🔗 View patent</a>'
+        links = f'<a href="{esc(p["link"])}" target="_blank" rel="noopener">🔗 View</a>'
         if p["mirrored"]:
             links = f'<a href="{esc(p["mirrored"])}" target="_blank">📄 Mirrored PDF</a>' + links
+        dates = " · ".join(filter(None, [
+            f"Filed {esc(p['filed'])}" if p["filed"] else "",
+            f"Granted {esc(p['granted'])}" if p["granted"] else "",
+        ]))
         cards.append(
-            f'<div class="patent"><a class="pt-num" href="{esc(p["link"])}" target="_blank" rel="noopener">{esc(p["title"])}</a>'
-            f'<div class="pt-meta">{esc(p["assignee"])}</div>'
-            f'<div class="pt-desc">{esc(p["discloses"])}</div>'
+            f'<div class="patent" data-company="{esc(p["company"])}" data-type="{esc(p["type"])}">'
+            f'<span class="pt-type {type_class(p["type"])}">{esc(p["type"])}</span>'
+            f'<a class="pt-num" href="{esc(p["link"])}" target="_blank" rel="noopener">{esc(p["title"])}</a>'
+            f'<div class="pt-meta">{esc(p["company"])}{" — " + esc(p["assignee"]) if p["assignee"] and p["assignee"] != p["company"] else ""}</div>'
+            + (f'<div class="pt-dates">{dates}</div>' if dates else "")
+            + f'<div class="pt-desc">{esc(p["discloses"])}</div>'
             f'<div class="pt-used">Used in: {used}</div>'
             f'<div class="pt-links">{links}</div></div>'
         )
-    note = "Patents behind the science and the specific devices covered in this folder — assignee, what each discloses, and which doc relies on it."
+
+    menu = ['<button class="pt-mchip active" data-company="__all__">All (' + str(len(patents)) + ")</button>"]
+    for company, items in by_company.items():
+        menu.append(f'<button class="pt-mchip" data-company="{esc(company)}">{esc(company)} ({len(items)})</button>')
+
+    timeline_items = sorted(patents, key=sort_key)
+    tl_rows = []
+    last_year = None
+    for p in timeline_items:
+        key = sort_key(p)
+        year = key[:4] if key != "9999-99-99" else "Undated"
+        if year != last_year:
+            tl_rows.append(f'<div class="pt-tl-year">{esc(year)}</div>')
+            last_year = year
+        date_label = p["filed"] or p["granted"] or "date unknown"
+        tl_rows.append(
+            f'<div class="pt-tl-row" data-company="{esc(p["company"])}" data-type="{esc(p["type"])}">'
+            f'<span class="pt-tl-date">{esc(date_label)}</span>'
+            f'<span class="pt-type {type_class(p["type"])}">{esc(p["type"])}</span>'
+            f'<a href="{esc(p["link"])}" target="_blank" rel="noopener">{esc(p["title"])}</a>'
+            f'<span class="pt-tl-company">{esc(p["company"])}</span></div>'
+        )
+
+    note = "Patents and trademarks behind the science and the specific devices covered in this folder — filter by company or view chronologically."
     return (
         '<section class="doc" id="patents"><h1>Patents</h1>'
         f'<p class="note">{note}</p>'
-        f'<div class="patents">{"".join(cards)}</div>'
+        '<div class="pt-tabs">'
+        '<button class="pt-tab active" data-view="cards">By company</button>'
+        '<button class="pt-tab" data-view="timeline">Timeline</button>'
+        "</div>"
+        f'<div class="pt-menu">{"".join(menu)}</div>'
+        f'<div class="patents" data-view-panel="cards">{"".join(cards)}</div>'
+        f'<div class="pt-timeline" data-view-panel="timeline" hidden>{"".join(tl_rows)}</div>'
         + render_future_tech(future_tech or [])
         + "</section>"
     )
@@ -222,6 +332,60 @@ def inject_future_md_renderer(html):
     if idx == -1:
         return html, False
     return html[:idx] + FUTURE_MD_JS + html[idx:], True
+
+
+PATENTS_UI_JS = """<script>/*patents-ui*/
+(function(){
+  function run(){
+    document.querySelectorAll('#patents').forEach(function(sec){
+      var tabs=sec.querySelectorAll('.pt-tab');
+      var panels=sec.querySelectorAll('[data-view-panel]');
+      var chips=sec.querySelectorAll('.pt-mchip');
+      var company='__all__';
+      function applyFilter(){
+        sec.querySelectorAll('.patent,[data-view-panel="timeline"] .pt-tl-row').forEach(function(el){
+          el.hidden = company!=='__all__' && el.dataset.company!==company;
+        });
+        sec.querySelectorAll('.pt-tl-year').forEach(function(y){
+          var next=y.nextElementSibling, anyVisible=false;
+          while(next && !next.classList.contains('pt-tl-year')){
+            if(!next.hidden) anyVisible=true;
+            next=next.nextElementSibling;
+          }
+          y.hidden=!anyVisible;
+        });
+      }
+      tabs.forEach(function(t){
+        t.addEventListener('click',function(){
+          tabs.forEach(function(x){x.classList.remove('active');});
+          t.classList.add('active');
+          var view=t.dataset.view;
+          panels.forEach(function(p){ p.hidden = p.dataset.viewPanel!==view; });
+        });
+      });
+      chips.forEach(function(c){
+        c.addEventListener('click',function(){
+          chips.forEach(function(x){x.classList.remove('active');});
+          c.classList.add('active');
+          company=c.dataset.company;
+          applyFilter();
+        });
+      });
+    });
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',run); else run();
+})();
+</script>
+"""
+
+
+def inject_patents_ui_js(html):
+    if "/*patents-ui*/" in html:
+        return html, False
+    idx = html.rfind("</body>")
+    if idx == -1:
+        return html, False
+    return html[:idx] + PATENTS_UI_JS + html[idx:], True
 
 
 def inject_section(html, section_html):
@@ -296,9 +460,10 @@ def process_folder(folder):
     section_html = render_section(patents, future_tech)
     html, css_changed = inject_css(html)
     html, js_changed = inject_future_md_renderer(html)
+    html, js2_changed = inject_patents_ui_js(html)
     html, sec_action = inject_section(html, section_html)
     html, nav_changed = inject_nav_trigger(html, len(patents))
-    changed = css_changed or js_changed or bool(sec_action) or nav_changed
+    changed = css_changed or js_changed or js2_changed or bool(sec_action) or nav_changed
     label = f"{len(patents)} patent(s)" + (f", {len(future_tech)} future-tech block(s)" if future_tech else "")
     if changed:
         pending += 1

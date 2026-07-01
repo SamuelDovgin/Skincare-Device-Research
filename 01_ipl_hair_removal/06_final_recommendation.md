@@ -313,47 +313,313 @@ Single-pulse pigment targeting is also where IPL's PIH risk is highest (doc 07).
 
 ## Patents behind these devices
 
-Two research passes (Google Patents assignee search + CNIPA/company-site cross-checks) turned up the foundational IPL patents this whole category descends from, plus what could actually be verified for the specific OEM brands recommended above. The honest picture: the foundational science has strong, well-documented patents; the cheap Chinese OEM brands mostly don't — which is itself a useful data point when weighing "branded vs OEM."
+Three research passes turned up the foundational IPL patents this whole category descends from, plus everything findable for the specific brands recommended above — including trademarks, which hadn't been researched before. Use the **Patents** page's company menu/timeline to browse; the honest picture is that the foundational science has strong, well-documented patents, the biggest consumer brand (Ulike) files constantly, and the cheapest OEM brands mostly don't — a real data point when weighing "branded vs OEM."
+
+— **Foundational physics (MGH / ESC / Alma)** —
 
 ### US 5,405,368 A — Method and apparatus for therapeutic electromagnetic treatment
+- **Company:** ESC / Lumenis
+- **Type:** Utility Patent
+- **Filed:** 1992-10-20
+- **Granted:** 1995-04-11
 - **Assignee:** ESC Inc. (later ESC Medical Systems → Lumenis Ltd.); inventor Shimon Eckhouse, credited with writing the first patent describing broadband IPL in detail.
-- **Discloses:** Variable-iris exposure area, skin energy densities 6–20 J/cm², flashlamp linear energy density 100–300 J/cm, water cooling for high-repetition use, 500–650nm optical filtering for oxyhemoglobin targeting, variable pulse-width circuit spanning 10⁻⁵–10⁻¹s — the broadband-flashlamp foundation ESC's EpiLight/PhotoDerm hair-removal products (and by extension the whole home-IPL category) trace to.
+- **Discloses:** Variable-iris exposure area, skin energy densities 6–20 J/cm², flashlamp linear energy density 100–300 J/cm, water cooling for high-repetition use, 500–650nm optical filtering for oxyhemoglobin targeting — the broadband-flashlamp foundation ESC's EpiLight/PhotoDerm hair-removal products (and by extension the whole home-IPL category) trace to.
 - **Link:** https://patents.google.com/patent/US5405368A/en
 - **Mirrored PDF:** patents_source_docs/us-patent-5405368-esc-broadband-ipl.pdf
 
 ### US 8,950,406 B2 — Method and apparatus for light-based hair removal
+- **Company:** Alma Lasers
+- **Type:** Utility Patent
+- **Filed:** 2008-09-03
+- **Granted:** 2015-02-10
 - **Assignee:** Alma Lasers Ltd.
-- **Discloses:** The more IPL-specific successor to the laser-centric foundational patents below — coherent-or-incoherent light 750–1500nm (optimal 780–1000nm), band-pass/low-pass filtering, 3–20 J/cm² fluence, rapid low-fluence pulse trains, optional contact/spray cooling. A closer match to "filtered broadband flashlamp" than US 5,735,844 A, which is laser-centric despite being the more historically cited hair-removal patent.
+- **Discloses:** The more IPL-specific successor to the laser-centric US 5,735,844 A below — coherent-or-incoherent light 750–1500nm (optimal 780–1000nm), band-pass/low-pass filtering, 3–20 J/cm² fluence, rapid low-fluence pulse trains, optional contact/spray cooling.
 - **Link:** https://patents.google.com/patent/US8950406B2/en
 - **Mirrored PDF:** patents_source_docs/us-patent-8950406-alma-lasers-ipl.pdf
 
 ### US 5,735,844 A — Hair removal using optical pulses
+- **Company:** Palomar / MGH
+- **Type:** Utility Patent
+- **Filed:** 1996-01-30
+- **Granted:** 1998-04-07
 - **Assignee:** The General Hospital Corporation (Massachusetts General Hospital); exclusively licensed to Palomar Medical Technologies in 1995.
-- **Discloses:** Beam ≥8mm, treatment area 0.75–1cm² for multi-follicle single-shot destruction, fluence 10–200 J/cm² (preferred 30–50), sapphire contact cooled 4–15°C, 680–1200nm targeting melanin while avoiding water/hemoglobin bands. The single most consequential hair-removal patent in the industry's licensing history — Palomar successfully defended it in USPTO re-examination and licensed it to Cynosure, Candela, Syneron, Laserscope, and Cutera. Caveat: its specification is laser-centric (ruby/alexandrite/Nd:YAG/diode), not explicitly broadband-flashlamp — foundational to light-based hair removal broadly, not IPL specifically (see US 8,950,406 B2 above for the closer IPL match).
+- **Discloses:** Beam ≥8mm, treatment area 0.75–1cm² for multi-follicle single-shot destruction, fluence 10–200 J/cm² (preferred 30–50), sapphire contact cooled 4–15°C, 680–1200nm targeting melanin. The single most consequential hair-removal patent in the industry's licensing history — licensed to Cynosure, Candela, Syneron, Laserscope, and Cutera. Laser-centric, not explicitly broadband-flashlamp (see US 8,950,406 B2 for the closer IPL match).
 - **Link:** https://patents.google.com/patent/US5735844A/en
 - **Mirrored PDF:** patents_source_docs/us-patent-5735844-anderson-hair-removal.pdf
 
-### CN 216820441 U — 一种脱毛机的散热装置 (Heat dissipation device for a hair removal machine)
-- **Assignee:** Shenzhen Fansizhe Science And Technology Co., Ltd.
-- **Discloses:** Parallel L-shaped heat pipes (ultrapure-water + copper-powder inner-wall coating) conducting heat from a Peltier cooler's hot side to a finned radiator. A genuine Fansizhe-specific utility patent — but on thermal management, not on the optical/filter/fluence design that actually determines treatment output.
-- **Link:** https://patents.google.com/patent/CN216820441U/zh
+— **Philips (Lumea)** —
 
-### EP 4,205,708 B1 — Skin care assembly
+### EP 3,840,679 B1 — Handheld device for performing a treatment operation on skin
+- **Company:** Philips
+- **Type:** Utility Patent
+- **Filed:** 2019-08-21
+- **Granted:** 2022-03-02
+- **Assignee:** Koninklijke Philips N.V.
+- **Discloses:** Handheld treatment-device ergonomics/control architecture underlying the Lumea line.
+- **Link:** https://patents.google.com/patent/EP3840679B1/en
+
+### EP 4,081,149 B1 — Providing feedback on a treatment operation performed on a body part
+- **Company:** Philips
+- **Type:** Utility Patent
+- **Filed:** 2020-12-15
+- **Granted:** 2024-09-25
+- **Assignee:** Koninklijke Philips N.V.
+- **Discloses:** App-connectivity feedback loop — the patent basis for Lumea's companion-app coaching feature.
+- **Link:** https://patents.google.com/patent/EP4081149B1/en
+
+### US 12,279,683 — Skin treatment device with stiffness/indentation sensing
+- **Company:** Philips
+- **Type:** Utility Patent
+- **Filed:** 2020-06-02
+- **Granted:** 2025-04-22
+- **Assignee:** Koninklijke Philips N.V.
+- **Discloses:** A displaceable probe measuring skin stiffness/indentation to auto-tune settings per body area — a genuinely new sensor modality (mechanical, not optical). See the "Future tech signals" section below for more on this.
+- **Link:** https://patents.google.com/patent/US12279683/en
+
+### US 12,465,293 — Body-part auto-identification (ML model)
+- **Company:** Philips
+- **Type:** Utility Patent
+- **Filed:** 2019-08-20
+- **Granted:** 2025-11-11
+- **Assignee:** Koninklijke Philips N.V.
+- **Discloses:** ML model (88% claimed accuracy) auto-identifies which body part is being treated from sensor signals, shared across Philips' IPL/shaver/ultrasound/massage lines.
+- **Link:** https://patents.google.com/patent/US12465293/en
+
+### US 12,243,225 — Carbonized-hair detection for treatment-coverage mapping
+- **Company:** Philips
+- **Type:** Utility Patent
+- **Filed:** 2019-09-20
+- **Granted:** 2025-03-04
+- **Assignee:** Koninklijke Philips N.V.
+- **Discloses:** Detects hair carbonization/curling in images to map which skin areas were already treated — a real-time coverage-map feature.
+- **Link:** https://patents.google.com/patent/US12243225/en
+
+### US 12,491,374 — Contact sensing via optical diffuser + camera
+- **Company:** Philips
+- **Type:** Utility Patent
+- **Filed:** 2019-12-20
+- **Granted:** 2025-12-09
+- **Assignee:** Koninklijke Philips N.V.
+- **Discloses:** Optical diffuser + internal camera detects skin contact without a dedicated sensor — a cost-reduction play.
+- **Link:** https://patents.google.com/patent/US12491374/en
+
+### US 12,285,209 — Smartphone-as-sensor treatment device
+- **Company:** Philips
+- **Type:** Utility Patent
+- **Filed:** 2020-04-21
+- **Granted:** 2025-04-29
+- **Assignee:** Koninklijke Philips N.V.
+- **Discloses:** Device recess holds a smartphone, using its camera via internal optics for skin-tone/contact sensing plus app connectivity, instead of a dedicated sensor.
+- **Link:** https://patents.google.com/patent/US12285209/en
+
+### US 12,035,978 B2 — Determining position/orientation of a handheld device
+- **Company:** Philips
+- **Type:** Utility Patent
+- **Filed:** 2020-01-22
+- **Granted:** 2024-07-16
+- **Assignee:** Koninklijke Philips N.V.
+- **Discloses:** Motion-tracking to know where on the body the handpiece is — supports coverage-mapping/auto-personalization features.
+- **Link:** https://patents.google.com/patent/US12035978B2/en
+
+### US 12,076,578 & US 11,910,901 — dual/modular treatment heads
+- **Company:** Philips
+- **Type:** Utility Patent
+- **Filed:** 2018-08-13 / priority 2014
+- **Granted:** 2024-09-03 / 2024
+- **Assignee:** Koninklijke Philips N.V.
+- **Discloses:** Modular/dual treatment-head architecture; proximity-based force modulation (epilator-adjacent, marginal IPL relevance).
+- **Link:** https://patents.google.com/patent/US12076578B2/en
+
+### LUMEA — word mark (Philips)
+- **Company:** Philips
+- **Type:** Trademark
+- **Filed:** 2010-03-01
+- **Granted:** 2011-03-08 (Reg. No. 3,927,903)
+- **Assignee:** Koninklijke Philips N.V.
+- **Discloses:** Covers "electric hair removing apparatus based on IPL and/or laser technology... IPL epilator."
+- **Link:** https://trademarks.justia.com/790/80/lumea-79080666.html
+
+— **Braun (Silk-expert, P&G/Gillette-owned brand)** —
+
+### US 11,123,573 — Skin-tone sensor embedded in treatment-light array
+- **Company:** Braun
+- **Type:** Utility Patent
+- **Filed:** 2018-01-31
+- **Granted:** 2021-09-21
+- **Assignee:** Braun GmbH
+- **Discloses:** Embeds the skin-tone photodiode directly in the treatment-light array via a circular polarizer, reading reflectance at the exact treatment spot — the IP basis for SensoAdapt.
+- **Link:** https://patents.google.com/patent/US11123573/en
+
+### US 11,285,336 B2 — Light-based epilation device (anti-flash/anti-seizure)
+- **Company:** Braun
+- **Type:** Utility Patent
+- **Filed:** 2018-07-18
+- **Granted:** 2022-03-29
+- **Assignee:** Braun GmbH
+- **Discloses:** Quasi-continuous LED array design with anti-flash/anti-seizure safety mechanism.
+- **Link:** https://patents.google.com/patent/US11285336B2/en
+
+### US 10,524,861 B2 — Hair removal device
+- **Company:** Braun
+- **Type:** Utility Patent
+- **Filed:** 2017-01-30
+- **Granted:** 2020-01-07
+- **Assignee:** Braun GmbH
+- **Link:** https://patents.google.com/patent/US10524861B2/en
+
+### US 10,413,748 B2 — Skin treatment device
+- **Company:** Braun
+- **Type:** Utility Patent
+- **Filed:** 2017-01-30
+- **Granted:** 2019-09-17
+- **Assignee:** Braun GmbH
+- **Link:** https://patents.google.com/patent/US10413748B2/en
+
+### SENSOADAPT — word mark (Braun)
+- **Company:** Braun
+- **Type:** Trademark
+- **Filed:** 2015-02-09
+- **Granted:** 2015-07-14 (Reg. No. 4,771,023); re-filed/renewed 2023-12-21, registered 2025-01-28 (Reg. No. 7,665,658)
+- **Assignee:** Braun GmbH
+- **Discloses:** Covers "intense pulsed light hair removal device for in-home use."
+- **Link:** https://trademarkelite.com/trademark/trademark-detail/79161361/SENSOADAPT
+
+**Note:** Gillette/P&G (Braun's parent) hold hair-growth *chemistry* patents (e.g. US 7,727,516 B2 "Reduction of hair growth") but no IPL *hardware* patents — Braun GmbH files all the device IP under its own name, not Gillette/P&G. SENSEIQ and the bare "SILK-EXPERT" word mark could not be independently confirmed via automated search (USPTO TESS blocked direct fetch) — flagged as unconfirmed, not negative.
+
+— **Ulike (Shenzhen Ulike Smart Electronics / Hangzhou Ulike Technology) — the most active filer found in this entire repo** —
+
+### EP 4,205,708 B1 — Skin care assembly (sapphire ice-cooling)
+- **Company:** Ulike
+- **Type:** Utility Patent
+- **Filed:** 2022-08-19
+- **Granted:** 2025-01-22
 - **Assignee:** Shenzhen Ulike Smart Electronics Co., Ltd.
-- **Discloses:** Sapphire cold-compress member (350–450mm² contact surface) with Peltier-effect thermoelectric refrigeration maintaining 15–45°C during treatment, aluminum heat-dissipation member with integrated heat pipes, accommodating an opposite phototherapeutic light source. This is the real technical patent behind Ulike's marketed "Sapphire Ice-Cooling Technology" — the most substantive OEM-brand patent found across this whole search.
+- **Discloses:** Sapphire cold-compress member (350–450mm² contact) with Peltier thermoelectric refrigeration to 15–45°C, integrated heat-pipe dissipation. The real technical patent behind "Sapphire Ice-Cooling Technology" — the single most substantive OEM-brand patent found in this whole IPL search.
 - **Link:** https://patents.google.com/patent/EP4205708B1/en
 
+### EP 4,260,899 B1 / EP 4,331,430 B1 — Skin care assembly family (cooling continuations)
+- **Company:** Ulike
+- **Type:** Utility Patent
+- **Filed:** 2022-08-19 / priority 2021-11-15
+- **Granted:** 2026-02-18 / 2026-03-04
+- **Assignee:** Shenzhen Ulike Smart Electronics Co., Ltd.
+- **Discloses:** Same cooling family as EP 4,205,708 B1 — continuations, not new inventions; confirms Ulike is building a defensive patent thicket around the cooling mechanism.
+- **Link:** https://patents.google.com/patent/EP4260899B1/en
+
+### WO 2022/082837 A1 (+ US/CA family) — Hair removal device
+- **Company:** Ulike
+- **Type:** Utility Patent
+- **Filed:** 2020-10-29
+- **Granted:** Published 2022-04-28 (US2022/0387103A1, CA3222518A1 filed 2022-08-19, pending)
+- **Assignee:** Shenzhen Ulike Smart Electronics Co., Ltd. (inventor Yuping Pan)
+- **Discloses:** Head unit with a cold-compression portion surrounded by an illumination portion — dual hair-removal + skincare function.
+- **Link:** https://patents.google.com/patent/WO2022082837A1/en
+
+### US 12,127,788 B1 — Beauty instrument
+- **Company:** Ulike
+- **Type:** Utility Patent
+- **Filed:** 2023-12-01
+- **Granted:** 2024-10-29
+- **Assignee:** Shenzhen Ulike Smart Electronics Co., Ltd.
+- **Link:** https://patents.google.com/patent/US12127788B1/en
+
+### TWI847282 B — Beauty device, contact-type beauty device, and skin caring assembly
+- **Company:** Ulike
+- **Type:** Utility Patent (Taiwan)
+- **Filed:** 2022-09-23
+- **Granted:** 2024-07-01
+- **Assignee:** Shenzhen Ulike Smart Electronics Co., Ltd.
+- **Discloses:** Contact-sensing beauty/IPL assembly.
+- **Link:** https://patents.google.com/patent/TWI847282B/en
+
+### EP 4,491,218 A1 — Beauty face mask
+- **Company:** Ulike
+- **Type:** Utility Patent
+- **Filed:** 2024-05-13
+- **Granted:** Pending (published 2025-01-15)
+- **Assignee:** Shenzhen Ulike Smart Electronics Co., Ltd.
+- **Discloses:** A new product line — LED/beauty face mask, not hair removal. Ulike expanding beyond IPL, same direction as the L'Oréal/Shark Beauty entrants documented in [04](../04_red_light_therapy_handheld/03_independent_research_and_decision.md).
+- **Link:** https://patents.google.com/patent/EP4491218A1/en
+
+### WO 2025/208863 A1 — Control method for pulsed light device
+- **Company:** Ulike
+- **Type:** Utility Patent
+- **Filed:** 2024-11-08
+- **Granted:** Pending (published 2025-10-09)
+- **Assignee:** Shenzhen Ulike Smart Electronics Co., Ltd.
+- **Discloses:** IPL control-algorithm claims — the closest visible patent lead toward the unpatented "SkinSensor" AI dosing feature flagged in Future tech signals below.
+- **Link:** https://patents.google.com/patent/WO2025208863A1/en
+
+**Also on file (2025–2026, pending, PCT/national filings signaling expansion beyond IPL into ultrasonic/RF/EMS beauty devices):** WO2025/000843, WO2025/040030, WO2025/195441, WO2026/056479, WO2026/026908, WO2026/045552, WO2026/056416, WO2026/051665 (cosmetics/skin-care/ultrasonic-beauty-device control); EU Registered Community Designs EM151334600001S (muscle stimulator) and EM151333980001S filed 2026-02-12 — a genuine diversification signal, not just IPL refinement. **Design patents (device-housing refreshes, ~15+ found, 2020–2025):** USD942,684 · USD1,010,219 · USD1,012,305 · USD1,027,203 · USD1,057,970 · USD1,059,628 · USD1,064,302 · USD1,075,025 · USD1,082,143 · USD1,083,156 · USD1,090,882 · USD1,090,884 · USD1,095,860 (all Shenzhen Ulike Smart Electronics, all ornamental only — full links on the app's Patents page under the Ulike filter). Ulike's own marketing claims "over 1,000 global patents" (Dec 2025) — plausible given this breadth, not independently verified in full.
+
+### ULIKE — word mark family, including an active TTAB opposition
+- **Company:** Ulike
+- **Type:** Trademark
+- **Filed:** 2016-06-27 (earliest of several serials)
+- **Granted:** 2017-02-21 (Reg. 5,145,532) — **cancelled 2021-11-09**; several later serials (90871284, 97055311, 97171133, 98174233) filed 2021–2023 for expanded goods (electronics, aloe/medical gels — a wellness-category expansion)
+- **Assignee:** Shenzhen Ulike Smart Electronics Co., Ltd.
+- **Discloses:** Notably, Serial 90,367,467 (filed 2020-12-08) is under **active TTAB opposition by Kimberly-Clark Worldwide, Inc.** (Opposition No. 91297010, published for opposition 2025-01-14) — the goods classes include breast-nursing pads, which overlaps Kimberly-Clark's feminine-hygiene product lines. A real, ongoing trademark dispute, not a settled fact.
+- **Link:** https://ttabvue.uspto.gov/ttabvue/v?pno=91297010
+
+**Not found:** standalone trademark filings for "Air 10," "Air 3," "SkinSensor," or "Sapphire Ice-Cooling" — these appear to be unregistered marketing/feature names used under the parent ULIKE mark, not separately filed.
+
+— **Fansizhe, Semlamp, Nood — the thin OEM tier** —
+
+### CN 216820441 U — Heat dissipation device for a hair removal machine
+- **Company:** Fansizhe
+- **Type:** Utility Patent (China)
+- **Filed:** 2021-11-25
+- **Granted:** 2022-06-24
+- **Assignee:** Shenzhen Fansizhe Science And Technology Co., Ltd.
+- **Discloses:** Parallel L-shaped heat pipes conducting heat from a Peltier cooler to a finned radiator — thermal management only, not the optical/filter/fluence design that determines treatment output.
+- **Link:** https://patents.google.com/patent/CN216820441U/zh
+
+### US 2021/0045807 A1 — Hair removal device and method based on LED light source
+- **Company:** Fansizhe
+- **Type:** Utility Patent
+- **Filed:** 2020-03-11
+- **Granted:** Published 2021-02-18 (status unconfirmed — likely pending/abandoned)
+- **Assignee:** Shenzhen Fansizhe Science And Technology Co., Ltd.
+- **Discloses:** LED hair-removal panel (750nm or 940nm infrared via PWM), active fan+radiator cooling, NTC over-temperature alarm. Note: this is an LED-based design, a different optical architecture than Fansizhe's actual flashlamp IPL product line.
+- **Link:** https://patents.google.com/patent/US20210045807A1/en
+
 ### USD 1,123,247 — Hair remover (design patent)
+- **Company:** Semlamp
+- **Type:** Design Patent
+- **Filed:** 2024-11-12
+- **Granted:** 2026-04-21
 - **Assignee:** Shenzhen Semlamp Intelligent Technology Co., Ltd.
-- **Discloses:** Ornamental design only (device shape/appearance) — no functional or optical claims. Semlamp's own site separately announced an "appearance design patent" for a handheld beauty device (likely covering the SL-B136 skin-tone-sensor variant), but no patent number for that specific claim could be located despite checking Google Patents, CNIPA, and the company's own site.
+- **Discloses:** Ornamental design only. Semlamp's own site separately announced an "appearance design patent" for the SL-B136 skin-tone-sensor variant, but no patent number for that specific claim could be located despite checking Google Patents, CNIPA, and the company's own site.
 - **Link:** https://patents.google.com/patent/USD1123247S1/en
 
+### AILAVIE — word mark (Semlamp)
+- **Company:** Semlamp
+- **Type:** Trademark
+- **Filed:** 2020-08-05
+- **Granted:** Registered, Reg. No. 6,299,759
+- **Assignee:** Shenzhen Semlamp Intelligent Technology Co., Ltd.
+- **Discloses:** Covers cuticle pushers, tweezers, depilation appliances, laser hair-removal apparatus, LED masks, massage/medical apparatus.
+- **Link:** https://trademarks.justia.com/900/94/ailavie-90094832.html
+
 ### USD 1,018,981 — Hair removal device (design patent)
-- **Assignee:** Shenzhen Beauty Every Moment Intelligent Electric Co., Ltd. — the manufacturer independently linked to Nood's "Flasher 2.0" via FDA MAUDE adverse-event records (same manufacturer holds FDA 510(k) K211922 for an IPL hair-removal device).
-- **Discloses:** Ornamental design only; cannot be confirmed to depict the exact Flasher 2.0 model (design patents don't name products). **Nood itself holds no patent** — its marketing describes the Flasher 2.0 as "patent-pending" only, with no granted patent found under the Nood/Nood Ventures name.
+- **Company:** Nood
+- **Type:** Design Patent
+- **Filed:** 2022-03-28
+- **Granted:** 2024-03-19
+- **Assignee:** Shenzhen Beauty Every Moment Intelligent Electric Co., Ltd. (深圳市美时美刻智能电器有限公司) — the manufacturer independently linked to Nood's "Flasher 2.0" via FDA MAUDE adverse-event records (holds FDA 510(k) K211922 for an IPL hair-removal device).
+- **Discloses:** Ornamental design only; cannot be confirmed to depict the exact Flasher 2.0 model.
 - **Link:** https://patents.google.com/patent/USD1018981S1/en
 
-**Not found despite real effort:** a granted, numbered patent for Semlamp's SL-B136 "appearance patent" claim; any Ulike/Nood/Fansizhe patent on the actual flashlamp/filter/pulse-control design (as opposed to cooling or ornamental design) — consistent with this repo's broader finding that OEM/ODM IPL factories tend to have thin or unpatented core optical designs, licensing or copying the foundational physics above instead.
+### NOOD — word mark family
+- **Company:** Nood
+- **Type:** Trademark
+- **Filed:** ~2021-08-03 (earliest serial 90858061); Reg. No. 7,227,280 covers "at-home IPL hair removal devices"
+- **Granted:** Registered (multiple serials, incl. 98240856, 88230726)
+- **Assignee:** Nood Ventures LLC (some earlier filings under "Nood Inc.")
+- **Discloses:** **Nood itself holds no patent** — its marketing describes the Flasher 2.0 as "patent-pending" only. It does hold a real trademark portfolio (5 total filings, including "PRECISIONPULSE") and is involved in at least two TTAB opposition proceedings (91298074, 91304468) — a genuine legal dispute, not just a registration.
+- **Link:** https://uspto.report/TM/98240856
+
+**Not found despite real effort:** a granted, numbered patent for Semlamp's SL-B136 "appearance patent" claim; any Ulike/Nood/Fansizhe patent on the actual flashlamp/filter/pulse-control design (as opposed to cooling or ornamental design); any Fansizhe trademark at all (US or CN). Consistent with this repo's broader finding that OEM/ODM IPL factories tend to have thin or unpatented core optical designs, licensing or copying the foundational physics above instead.
 
 ---
 

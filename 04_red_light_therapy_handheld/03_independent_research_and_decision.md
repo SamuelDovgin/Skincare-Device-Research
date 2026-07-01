@@ -197,25 +197,148 @@ My actual purchasing move: **buy L1**, message L2 in parallel, and only switch t
 
 ## Patents behind this category
 
-None of L1/L2/L7/L10/L11 (AZURETHERAPY, Ideatherapy, Redfy, SunPlus) hold any findable patent — checked directly against Google Patents under each brand and its identified manufacturer, plus the marketing claims themselves ("103 patents," "patents registered in 108 countries," etc.), none of which could be matched to an actual filing. This is the expected outcome for Shenzhen OEM/ODM panel resellers, not a research gap. What *does* exist, and is genuinely worth knowing, is where this whole device category's underlying technology comes from:
+None of L1/L2/L7/L10/L11 (AZURETHERAPY, Ideatherapy, Redfy, SunPlus) hold any findable patent — checked directly against Google Patents under each brand and its identified manufacturer, plus the marketing claims themselves ("103 patents," "patents registered in 108 countries," etc.), none of which could be matched to an actual filing. This is the expected outcome for Shenzhen OEM/ODM panel resellers, not a research gap. What *does* exist, and is genuinely worth knowing, is where this whole device category's underlying technology comes from, plus the branded players who've since entered it — including two, Shark Beauty and Solawave/Therabody, not previously covered in this repo.
+
+— **Foundational photobiomodulation IP** —
 
 ### US 5,259,380 A — Light therapy system
-- **Assignee:** originally Amcor Electronics Ltd, now Syro Research & Development Technologies Ltd. Inventors Emanuel Mendes, Yonatan Lison. Priority Nov. 1987, granted Nov. 1993.
-- **Discloses:** LED array at 660nm±25 (red) or 940nm±25 (infrared), continuous or pulsed, 15 mW/cm² (red continuous) to 270mW peak (infrared pulsed), claiming skin-ulcer/post-op-wound/musculoskeletal treatment (89% improvement vs. 41% placebo cited in the specification). This is the strongest single candidate for "where this technology comes from" — 231 forward citations on Google Patents (the highest of any candidate checked), the earliest priority date of any candidate found, and claims that land almost exactly on the 660nm/850nm split this entire product category uses.
+- **Company:** Amcor / Syro Research
+- **Type:** Utility Patent
+- **Filed:** priority 1987-11
+- **Granted:** 1993-11
+- **Assignee:** originally Amcor Electronics Ltd, now Syro Research & Development Technologies Ltd. Inventors Emanuel Mendes, Yonatan Lison.
+- **Discloses:** LED array at 660nm±25 (red) or 940nm±25 (infrared), continuous or pulsed, 15 mW/cm² (red continuous) to 270mW peak (infrared pulsed), claiming skin-ulcer/post-op-wound/musculoskeletal treatment. The strongest single candidate for "where this technology comes from" — 231 forward citations (the highest of any candidate checked), the earliest priority date found, and claims landing almost exactly on the 660nm/850nm split this entire product category uses.
 - **Link:** https://patents.google.com/patent/US5259380A/en
 - **Mirrored PDF:** patents_source_docs/us-patent-5259380-mendes-led-light-therapy.pdf
 
-### US 7,744,590 B2 — Red to near-infrared photobiomodulation treatment of the visual system in visual system disease or injury
+### US 7,744,590 B2 — Red to near-infrared photobiomodulation treatment of the visual system
+- **Company:** Medical College of Wisconsin
+- **Type:** Utility Patent
 - **Assignee:** Medical College of Wisconsin Research Foundation, Inc. — **not NASA**, despite this technology's "NASA LED" reputation. NASA (Marshall Space Flight Center) funded the underlying LED-array research via SBIR contracts to Quantum Devices Inc. and Dr. Harry Whelan's lab; the patent itself is held by the Medical College of Wisconsin. Inventors Janis T. Eells, Margaret T. T. Wong-Riley, Harry T. Whelan.
-- **Discloses:** 630–1000nm (preferred 670/830/880), 10–90 mW/cm² (preferred 25–50), 1–3 min/session, 0.5–20 J/cm². Mechanism: stimulating cytochrome-c-oxidase activity to restore mitochondrial ATP production. The clearest documented paper trail from the actual NASA-funded HEALS program into an issued patent — but correct the common "NASA patent" framing when citing this.
+- **Discloses:** 630–1000nm (preferred 670/830/880), 10–90 mW/cm² (preferred 25–50), cytochrome-c-oxidase mechanism. Correct the common "NASA patent" framing when citing this.
 - **Link:** https://patents.google.com/patent/US7744590B2/en
 
 ### US 6,602,275 B1 — Device and method for therapeutic treatment of living organisms
-- **Assignee:** individual inventor Jana Sullivan (2000), later reassigned to Kevin Sullivan (2010) — not a company.
-- **Discloses:** Red 630nm + IR 880nm + blue 470nm + green 565nm + amber 590nm LED array, 10–30 W/cm² claimed, general wellness/wound/pain/"meridian" mechanism framing. 116 forward citations — second-strongest candidate by citation count, and arguably closer to the vague, broad "wellness" marketing language these Alibaba listings actually use than the more clinical Mendes/Lison patent above.
+- **Company:** Sullivan (individual)
+- **Type:** Utility Patent
+- **Filed:** 2000
+- **Assignee:** individual inventor Jana Sullivan, later reassigned to Kevin Sullivan (2010) — not a company.
+- **Discloses:** Red 630nm + IR 880nm + blue 470nm + green 565nm + amber 590nm LED array, 10–30 W/cm² claimed. 116 forward citations — second-strongest by citation count, closer to the vague "wellness" marketing language these Alibaba listings use than the more clinical Mendes/Lison patent.
 - **Link:** https://patents.google.com/patent/US6602275B1/en
 
-**Corrections made during this research, worth remembering:** Baby Quasar is manufactured by Quasar Bio-Tech, Inc. (dba Silver Bay LLC) — not by Apira Science, despite shared "Quasar" branding; the two are unrelated companies. US 9,308,389 B2 ("Light therapy apparatus and methods") is *not* an Apira Science patent — it belongs to Biolux Research Holdings (intra-oral light therapy), an unrelated field. Photomedex's real product line (XTRAC) is excimer-laser-based, not LED — no Photomedex LED patent was found. Apira Science does hold **US 2014/0350643 A1** ("Phototherapy apparatus for skin treatment," red/yellow/blue/green/IR wearable LED array), but it's a published application that went abandoned, not a granted patent.
+— **Joovv** —
+
+### US 11,253,719 B2 (+ US 10,478,635 B1) — Photobiomodulation therapy systems and methods
+- **Company:** Joovv
+- **Type:** Utility Patent
+- **Filed:** 2019-10-10 (priority 2018-12-20)
+- **Granted:** 2022-02-22 (10,478,635: 2019-11-19)
+- **Assignee:** Joovv, Inc.
+- **Discloses:** Networked/multi-panel light-therapy system with "lead/follow/neutral" sync modes, broad 100–1000nm claim.
+- **Link:** https://patents.google.com/patent/US11253719B2/en
+
+### US 12,017,084 B2 — Photobiomodulation therapy device accessories
+- **Company:** Joovv
+- **Type:** Utility Patent
+- **Filed:** 2022-09-21
+- **Granted:** 2024-06-25
+- **Assignee:** Joovv, Inc.
+- **Discloses:** Mounting/mechanical hardware only (door mounts, wheeled stands, wall brackets) — no new light or networking tech.
+- **Link:** https://patents.google.com/patent/US12017084B2/en
+
+### US 2023/0285769 A1 & WO 2023/055772 A1 — later filings, both lapsed
+- **Company:** Joovv
+- **Type:** Utility Patent
+- **Filed:** 2023-05-15 / 2022-09-28
+- **Granted:** **Abandoned** / **Ceased**
+- **Assignee:** Joovv, Inc.
+- **Discloses:** Formalized "lead/follow/neutral" multi-device sync + remote/clinician smartphone control; Recovery/Ambient/Alarm-Clock modes, dual-die red+IR chips, IP22 portable units, app session tracking. Neither survived prosecution — a real signal that Joovv's most recent R&D didn't pan out into granted IP.
+- **Link:** https://patents.google.com/patent/US20230285769A1/en
+
+### USD 877,920 / USD 1,004,789 — Photobiomodulation therapy device (design)
+- **Company:** Joovv
+- **Type:** Design Patent
+- **Filed:** 2019-06-18 / 2021-10-01
+- **Granted:** 2020-03-10 / 2023-11-14
+- **Assignee:** Joovv, Inc.
+- **Link:** https://patents.google.com/patent/USD877920S1/en
+
+### JOOVV — word/logo mark family
+- **Company:** Joovv
+- **Type:** Trademark
+- **Filed:** 2017-01-08 (word mark, Reg. 5,255,788); 2020-03-23 (logo mark, Reg. 6,178,547); 2020-11-19 (Reg. 6,625,741, Class 45 social networking)
+- **Granted:** Registered (all three)
+- **Assignee:** Joovv, Inc.
+- **Discloses:** ~23 total trademark filings per uspto.report; no standalone marks found for "Go," "Mini," "Solo," "Elite," or "Duo" (one, "JOOVV DUO," Serial 88838020, sits pending) — those product names ride under the house mark.
+- **Link:** https://trademarks.justia.com/872/92/joovv-87292811.html
+
+— **Apira Science — genuinely dormant** —
+
+### US 2014/0350643 A1 — Phototherapy apparatus for skin treatment
+- **Company:** Apira Science
+- **Type:** Utility Patent
+- **Filed:** 2014-05-23 (priority 2013-05-23)
+- **Granted:** **Abandoned** — published application only, never granted
+- **Assignee:** Apira Science, Inc.
+- **Discloses:** Wearable hands-free LED array (red 628–694nm, yellow 568–590nm, blue 405–476nm, green 514–543nm, IR 700–1090nm) for hair/scalp/skin conditions — ATP/keratin-production framing, no irradiance figures given.
+- **Link:** https://patents.google.com/patent/US20140350643A1/en
+
+**Not found:** any Apira Science filing after 2014, despite ongoing "worldwide patents" marketing across iGrow, iDerma, Revage670, and the newly-launched (~Q4 2024) GroWell — GroWell shipped with **zero new patent filed**. Treat Apira's "patents" marketing language as referring solely to this one lapsed 2014 application.
+
+— **L'Oréal — new entrant** —
+
+**LED face mask (unnamed as of this writing), announced CES 2026, launch 2027.** Developed with LED partner **I-Smart Developments Limited** (corrected from an earlier "iSmart" misspelling in this repo) — ultra-thin flexible silicone mask, 630nm red + 830nm NIR, paired with an AI skin-diagnostic "Cell BioPrint"-style lab-on-chip feeding a "Longevity AI Cloud." No patent or trademark found yet for the mask itself (likely still in the 18-month USPTO pre-publication window) — I-Smart Developments independently holds 6 USPTO trademarks (one, Serial ~90715083, Class 3 cosmetics, registered 2021-05-17). This is tracked as product/press intelligence, not a citable filing — a cosmetics conglomerate entering the flexible-wearable-LED category L'Oréal itself didn't previously occupy.
+
+— **Shark Beauty (SharkNinja) — brand new, in-house IP, entering fast** —
+
+### US 12,653,352 — Water-recycling personal care device
+- **Company:** Shark Beauty
+- **Type:** Utility Patent
+- **Filed:** 2024-11-13
+- **Granted:** 2026 (granted)
+- **Assignee:** SharkNinja Operating LLC
+- **Discloses:** Housing/reservoir/dispenser/collection-system for a cleaning-agent-dispensing facial tool — matches FacialPro Glow's hydro-exfoliating mechanism. No LED/wavelength content.
+- **Link:** patents.justia.com (SharkNinja Operating LLC listing)
+
+### USD 1,068,086 — Skin care device (design)
+- **Company:** Shark Beauty
+- **Type:** Design Patent
+- **Granted:** 2025-03-25
+- **Assignee:** SharkNinja Operating LLC
+- **Discloses:** Almost certainly a Shark Beauty facial-device housing (mask or handheld) — SharkNinja has several more 2024–2026 design grants under its name not individually itemized here.
+- **Link:** https://patents.justia.com/patent/D1068086
+
+### SHARK CRYOGLOW / SHARK FACIALPRO — word marks
+- **Company:** Shark Beauty
+- **Type:** Trademark
+- **Filed:** 2025 (Serials 98484290 / 99327672)
+- **Granted:** Pending
+- **Assignee:** SharkNinja Operating LLC
+- **Discloses:** SHARK CRYOGLOW covers "power-operated skin care apparatus; therapeutic facial masks; electronic LED light-therapy devices." SHARK FACIALPRO covers "electric face pore vacuum cleaner; cosmetic apparatus."
+- **Link:** https://uspto.report/TM/98484290
+
+**No LED-engine utility patent found for CryoGlow itself** — the best public technical disclosure is its **FDA 510(k) K242796** (filed ~Sept 2024, Class II, 21 CFR 878.4810), which cites **TheraFace PRO (K230293, Therabody)** as its predicate device for substantial equivalence. No evidence CryoGlow's LED engine derives from a named photobiomodulation IP holder (Quantum Devices, Apira, Joovv, MCW — none cited); this reads as genuine in-house hardware integration, not OEM rebadging, though a Chinese ODM source for the underlying LED PCB/driver remains plausible but undocumented. SharkNinja holds ~5,200 patents worldwide across its whole appliance business (~25 new products/year) — skincare is a brand-new, currently tiny slice of that, with identifiable IP starting only in 2024.
+
+— **Bonus: Solawave & Therabody — not previously covered in this repo** —
+
+### SOLAWAVE — word mark
+- **Company:** Solawave
+- **Type:** Trademark
+- **Filed:** first use 2020-08-05
+- **Granted:** Registered
+- **Assignee:** Solawave, Inc.
+- **Link:** https://uspto.report/TM/90185508
+
+### THERAFACE / THERAFACE PRO — word marks
+- **Company:** Therabody
+- **Type:** Trademark
+- **Filed:** ~2022-03 (THERAFACE PRO)
+- **Granted:** Registered
+- **Assignee:** Therabody, Inc.
+- **Discloses:** TheraFace PRO is the FDA predicate device cited in Shark CryoGlow's own 510(k) filing above — the two companies are directly linked via regulatory paperwork, not just category overlap.
+- **Link:** https://trademarks.justia.com/973/05/theraface-97305269.html
+
+**Corrections made during this research, worth remembering:** Baby Quasar is manufactured by Quasar Bio-Tech, Inc. (dba Silver Bay LLC) — not by Apira Science, despite shared "Quasar" branding. US 9,308,389 B2 ("Light therapy apparatus and methods") is *not* an Apira Science patent — it belongs to Biolux Research Holdings (intra-oral light therapy). Photomedex's real product line (XTRAC) is excimer-laser-based, not LED — no Photomedex LED patent was found. L'Oréal's LED-mask partner is **I-Smart Developments Limited**, not "iSmart."
 
 ---
 

@@ -261,33 +261,183 @@ So if the question is "should I hunt for another 810 nm thing instead of this $5
 
 ## Patents behind these devices
 
-Tria's own patent lineage traces further back than the company itself — its founders came directly from the team that built the original clinical LightSheer diode laser. The OEM alternatives (DermRays/CurrentBody, ViQure) mostly don't have their own patents; Epilaser is the one alternative with real, verifiable IP of its own.
+Tria's own patent lineage traces further back than the company itself — its founders came directly from the team that built the original clinical LightSheer diode laser, and the full portfolio (16 patents, 5 trademarks) is now mapped below, including which are still active vs. expired. The OEM alternatives (DermRays/CurrentBody, ViQure) mostly don't have their own patents; Epilaser is the one alternative with real, verifiable IP of its own.
+
+— **Foundational (Palomar/MGH)** —
 
 ### US 5,735,844 A — Hair removal using optical pulses
+- **Company:** Palomar / MGH
+- **Type:** Utility Patent
+- **Filed:** 1996-01-30
+- **Granted:** 1998-04-07
 - **Assignee:** The General Hospital Corporation (Massachusetts General Hospital); exclusively licensed to Palomar Medical Technologies in 1995.
-- **Discloses:** The foundational selective-photothermolysis hair-removal patent — beam ≥8mm, 0.75–1cm² treatment area, fluence 10–200 J/cm² (preferred 30–50), sapphire contact cooled 4–15°C, 680–1200nm melanin-selective. Licensed to Cynosure, Candela, Syneron, Laserscope, and Cutera — the most consequential patent in hair-removal licensing history. (Also cited in [01_ipl_hair_removal](../01_ipl_hair_removal/06_final_recommendation.md) as the shared foundational patent for light-based hair removal generally.)
+- **Discloses:** The foundational selective-photothermolysis hair-removal patent — beam ≥8mm, 0.75–1cm² treatment area, fluence 10–200 J/cm² (preferred 30–50), sapphire contact cooled 4–15°C, 680–1200nm melanin-selective. Licensed to Cynosure, Candela, Syneron, Laserscope, and Cutera — the most consequential patent in hair-removal licensing history. (Also cited in [01_ipl_hair_removal](../01_ipl_hair_removal/06_final_recommendation.md).)
 - **Link:** https://patents.google.com/patent/US5735844A/en
 - **Mirrored PDF:** patents_source_docs/us-patent-5735844-anderson-hair-removal.pdf
 
+— **Tria / SpectraGenics / Aesthete Holding Corporation — full portfolio** —
+
+All 16 US patents below share one assignment chain: **SpectraGenics Inc. → Tria Beauty Inc. → Channel Investments, LLC → Aesthete Holding Corporation** (current as of 2025-08-26). **8 of the 16 are now expired** (fee-related or full-lifetime lapse) — notably the entire *original hair-removal core* (7,118,563 / 7,250,045 / 7,452,356) and design patent D535,746. Only 6 remain active, and all 6 are fractional/sensor/hardware family — none of the core hair-removal patents are still active. The "Future tech signals" section below covers why (the IP is alive as a corporate asset; the hair-removal-specific claims themselves have lapsed).
+
 ### US 7,118,563 B2 — Self-contained, diode-laser-based dermatologic treatment apparatus
-- **Assignee:** originally SpectraGenics, Inc. (renamed Tria Beauty in 2008), reassigned to Tria Beauty, Inc. 2012-01-19. Filed Feb. 2003, granted Oct. 2006. Inventors include Robert E. Grove, who co-developed the original clinical LightSheer diode laser at Coherent/Lumenis in 1993 before founding SpectraGenics.
-- **Discloses:** ~800nm diode, repeatedly discusses laser hair removal / hair-regrowth inhibition, fluence 10–40 J/cm². Tria's direct engineering ancestor — this is the patent that turned the clinical LightSheer concept into a self-contained, battery-powered home device.
+- **Company:** Tria Beauty
+- **Type:** Utility Patent
+- **Filed:** 2004-02-19
+- **Granted:** 2006-10-10 — **Expired** (2025-03-19)
+- **Assignee:** originally SpectraGenics, Inc.; inventors include Robert E. Grove, who co-developed the original clinical LightSheer diode laser at Coherent/Lumenis in 1993 before founding SpectraGenics.
+- **Discloses:** ~800nm diode, laser hair removal/hair-regrowth inhibition, fluence 10–40 J/cm². Tria's direct engineering ancestor — turned the clinical LightSheer concept into a self-contained, battery-powered home device.
 - **Link:** https://patents.google.com/patent/US7118563B2/en
 - **Mirrored PDF:** patents_source_docs/us-patent-7118563-tria-diode-laser.pdf
 
 ### US 7,250,045 B2 — Self-contained, eye-safe hair-regrowth-inhibition apparatus and method
-- **Assignee:** SpectraGenics, Inc. → Tria Beauty, Inc. Filed Feb. 2004, granted Jul. 2007. Inventors Tobin C. Island, Robert E. Grove, Mark V. Weckwerth.
-- **Discloses:** Spot size 0.25–5cm² (preferred ~0.8cm²), fluence 4–100 J/cm² (preferred ~20), sapphire output window thermally bonded to a heat-removal element (thermoelectric-cooled heatsink or phase-change thermal battery), AlGaAs laser diode bars at ~800nm with an optical diffuser for eye safety, pulse duration 10ms–1s, 0.1–2Hz repetition, battery-powered/direct-drive/self-contained. The clearest "home hair-removal device" patent in this whole search — explicitly designed for unsupervised consumer use, not a clinical console.
+- **Company:** Tria Beauty
+- **Type:** Utility Patent
+- **Filed:** 2004-02-19
+- **Granted:** 2007-07-31 — **Expired** (2024-02-19)
+- **Assignee:** SpectraGenics, Inc. Inventors Tobin C. Island, Robert E. Grove, Mark V. Weckwerth.
+- **Discloses:** Spot size 0.25–5cm² (preferred ~0.8cm²), fluence 4–100 J/cm² (preferred ~20), sapphire output window thermally bonded to a heat-removal element, AlGaAs laser diode bars at ~800nm with an optical diffuser for eye safety, battery-powered/direct-drive/self-contained. The clearest "home hair-removal device" patent in this whole search.
 - **Link:** https://patents.google.com/patent/US7250045B2/en
 - **Mirrored PDF:** patents_source_docs/us-patent-7250045-tria-hairregrowth-inhibition.pdf
 
-**Note on Tria's broader platform patent:** US 9,308,390 B2 (cited in [03_fractional_laser_resurfacing/08](../03_fractional_laser_resurfacing/08_clear_brilliant_quantified_gap.md) for the 1440nm SmoothBeauty/FRX device) is confirmed to *also* cover 810nm hair removal — its specification explicitly states "radiation source 14 may be a laser configured for and/or operated at a wavelength of about 810 nm for providing hair removal treatment." It's a shared-platform patent across both of Tria's product lines, not resurfacing-exclusive — but US 7,118,563 B2 / US 7,250,045 B2 above remain the dedicated hair-removal-specific filings.
+### US 7,452,356 — Eye-safe dermatologic treatment apparatus
+- **Company:** Tria Beauty
+- **Type:** Utility Patent
+- **Filed:** 2004-02-19
+- **Granted:** 2008-11-18 — **Expired** (2024-02-19)
+- **Assignee:** SpectraGenics, Inc.
+- **Link:** https://patents.google.com/patent/US7452356B2/en
 
-### Manufacturer patents for the alternatives
-- **DermRays / SilkPro / CurrentBody** (all the same manufacturer, **Wuhan Lotuxs Technology**, founder Dr. Yang Lin — the existing doc's framing of SilkPro as a separate device using Tria as an FDA predicate undersells this: they're the same hardware line): **CN204050688U** ("portable semiconductor laser hair removal device," 2014) and **CN104546127B** ("movable trigger type laser hair removal device treatment head," filed 2015/granted 2017 — motion+pressure-sensor interlock). Chinese-only filings, no US patent found. Links: https://patents.google.com/patent/CN204050688U/en · https://patents.google.com/patent/CN104546127B/en
-- **Epilaser** (SPOT camera-guided follicle-targeting technology, assignee family S&Y Enterprises LLC → Epilady 2000 LLC → **EPIP LLC**): **US 9,364,684 B2** ("Aesthetic treatment device and method") plus continuations US 9,480,529, 9,962,557, and 10,912,611. The one alternative brand in this doc with a real, verifiable, non-design patent family. Link: https://patents.google.com/patent/US9364684B2/en
-- **CurrentBody**: not a separate IP holder — uses the same K230090/Lotuxs hardware as DermRays, so no independent patent.
-- **ViQure**: no assignee patent located after multiple search angles — likely OEM-sourced without its own IP, consistent with this repo's broader OEM-thin-patent pattern.
+### US 7,413,567 — Optical sensor and method for identifying the presence of skin
+- **Company:** Tria Beauty
+- **Type:** Utility Patent
+- **Filed:** 2004-02-25
+- **Granted:** 2008-08-19 — Expired (2025-12-06)
+- **Assignee:** SpectraGenics Inc.
+- **Discloses:** Skin-contact detection sensor — supporting hardware for the eye-safety/interlock system.
+- **Link:** https://patents.google.com/patent/US7413567B2/en
+
+### US 7,981,111 B2 — Method and apparatus for the treatment of benign pigmented lesions
+- **Company:** Tria Beauty
+- **Type:** Utility Patent
+- **Filed:** 2004-02-25
+- **Granted:** 2011-07-19 — Expired (2024-02-25)
+- **Assignee:** Tria Beauty Inc / SpectraGenics Inc
+- **Discloses:** Thermal injury confined to the epidermis via rapid heating/cooling; also discusses collagen generation for wrinkle reduction and acne. Not 1440nm/fractional-specific — a general thermal-pulse pigmented-lesion patent, off to the side of both the hair-removal and fractional-resurfacing lines.
+- **Link:** https://patents.google.com/patent/US7981111B2/en
+
+### USD 535,746 — Portable hair removal device (design)
+- **Company:** Tria Beauty
+- **Type:** Design Patent
+- **Filed:** 2005-06-09
+- **Granted:** 2007-01-23 — Expired (full design term)
+- **Assignee:** Tria Beauty Inc
+- **Link:** https://patents.google.com/patent/USD535746S1/en
+
+### US 8,551,104 B2 — Self-contained, diode-laser-based dermatologic treatment apparatus (continuation)
+- **Company:** Tria Beauty
+- **Type:** Utility Patent
+- **Filed:** 2006-10-10
+- **Granted:** 2013-10-08 — Expired (2024-12-21)
+- **Assignee:** Tria Beauty Inc
+- **Link:** https://patents.google.com/patent/US8551104B2/en
+
+### US 8,518,027 — Phototherapy device thermal control apparatus and method
+- **Company:** Tria Beauty
+- **Type:** Utility Patent
+- **Filed:** 2009-10-28
+- **Granted:** 2013-08-27 — **Active** (expires 2031-08-22)
+- **Assignee:** Tria Beauty Inc
+- **Link:** https://patents.google.com/patent/US8518027B2/en
+
+### US 8,512,322 B1 — Antimicrobial layer for optical output window
+- **Company:** Tria Beauty
+- **Type:** Utility Patent
+- **Filed:** 2010-04-30
+- **Granted:** 2013-08-20 — **Active** (expires 2030-12-28)
+- **Assignee:** Tria Beauty Inc
+- **Link:** https://patents.google.com/patent/US8512322B1/en
+
+### US 8,709,003 B2 — Capacitive sensing method and device for detecting skin
+- **Company:** Tria Beauty
+- **Type:** Utility Patent
+- **Filed:** 2008-08-08
+- **Granted:** 2014-04-29 — **Active** (expires 2027-02-23)
+- **Assignee:** Tria Beauty Inc
+- **Link:** https://patents.google.com/patent/US8709003B2/en
+
+### US 10,342,617 B2 / US 10,342,618 B2 — Phototherapy thermal control / hair-regrowth-inhibition continuations
+- **Company:** Tria Beauty
+- **Type:** Utility Patent
+- **Filed:** 2013-10-07 / 2014-02-03
+- **Granted:** 2019-07-09 (both) — Expired (2026-03-20 / 2026-05-07)
+- **Assignee:** Tria Beauty Inc
+- **Link:** https://patents.google.com/patent/US10342617B2/en
+
+**Fractional-specific siblings (US 8,523,849 B2, US 8,679,102 B2, US 8,685,008 B2, US 9,308,390 B2 — all "Devices and methods for radiation-based dermatological treatments," filed 2012, all currently Active):** cited in full in [03_fractional_laser_resurfacing/08](../03_fractional_laser_resurfacing/08_clear_brilliant_quantified_gap.md) since they're the SmoothBeauty/FRX (1440nm) patents specifically — not repeated here to avoid duplication, but the same corporate assignment chain applies. Note on scope: US 9,308,390 B2's specification also explicitly states "radiation source 14 may be a laser configured for and/or operated at a wavelength of about 810 nm for providing hair removal treatment" — a shared-platform patent across both of Tria's product lines.
+
+**Foreign family (from Tria's own patents page, https://www.trialaser.com/pages/patents, no individual dates fetched):** EU 1996349, EU 1996521, EU 2165969, EU 2302182; JP 1278420, JP 1457740, JP 1486435, JP 4361081, JP 4361082, JP 4361083, JP 4361149.
+
+### TRIA BEAUTY — word mark family
+- **Company:** Tria Beauty
+- **Type:** Trademark
+- **Filed:** 2008-06-11 (Serial 77978617, Reg. 3,756,135; Serial 77496271); 2008-09 (Serial 77573265, Reg. 3,822,558)
+- **Granted:** Registered/renewed
+- **Assignee:** Channel Investments, LLC
+- **Discloses:** Covers hand-held battery/electrical hair-removal devices, hand-held facial-rejuvenation/skincare/acne devices, and non-medicated skincare preparations across the three registrations.
+- **Link:** https://trademarks.justia.com/779/78/tria-beauty-77978617.html
+
+### TRIA HAIR REMOVAL LASER PRECISION — word mark
+- **Company:** Tria Beauty
+- **Type:** Trademark
+- **Filed:** 2013-06-19
+- **Granted:** 2014-06-10 (Reg. 4,549,126; Sections 8&15 accepted 2020-08-30)
+- **Assignee:** Channel Investments, LLC
+- **Discloses:** Covers hand-held laser apparatus for hair removal/regrowth reduction — the Tria Precision.
+- **Link:** https://trademarks.justia.com/859/63/tria-hair-removal-85963672.html
+
+### SMOOTHBEAUTY LASER — word mark
+- **Company:** Tria Beauty
+- **Type:** Trademark
+- **Filed:** 2016-11-17
+- **Granted:** 2019-08-20 (Reg. 5,840,074)
+- **Assignee:** Channel Investments, LLC
+- **Discloses:** Covers skincare preparations plus hand-held laser devices for facial rejuvenation/acne.
+- **Link:** https://trademarks.justia.com/872/40/smoothbeauty-87240759.html
+
+**Not found:** independently-registered marks for "Tria FRX," "Tria Age-Defying," or "Tria 4X" — these appear to be unregistered product names layered on top of the registered marks above, not standalone USPTO filings.
+
+— **The alternatives** —
+
+### CN 204050688 U / CN 104546127 B / CN 204202283 U / CN 205542513 U / CN 204128255 U / CN 203971205 U — Wuhan Lotuxs Technology patent family
+- **Company:** DermRays / SilkPro / CurrentBody (Wuhan Lotuxs)
+- **Type:** Utility Patent (China)
+- **Filed:** 2014–2015 (cluster)
+- **Granted:** Granted (all)
+- **Assignee:** Wuhan Lotuxs Technology (founder Dr. Yang Lin, ex-Spectra-Physics/Osram/nLight)
+- **Discloses:** Core device (CN204050688U, "portable semiconductor laser hair removal device," 2014) and treatment head with motion+pressure-sensor interlock (CN104546127B, filed 2015/granted 2017), plus supporting utility models: deionized cooling recirculation loop, emergency-stop mechanism, PWM-based TEC temperature control, and a "semiconductor fractional/dot-matrix laser facial skin-aging treatment device." All Chinese-only filings, no US patent found. This is one hardware line sold under three brand names — DermRays, SilkPro, and CurrentBody's own laser are the same manufacturer.
+- **Link:** https://patents.google.com/patent/CN204050688U/en
+
+### DERMRAYS / Lotuxs Laser Limited — trademark family
+- **Company:** DermRays / SilkPro / CurrentBody (Wuhan Lotuxs)
+- **Type:** Trademark
+- **Filed:** 2023-03-08 (image mark, Serial 97828118); DERMRAYS word mark Serial 98232499 (application accepted, awaiting examiner)
+- **Granted:** Pending
+- **Assignee:** Lotuxs Laser Limited — the umbrella trademark holder (6 total marks) behind Wuhan Lotuxs Technology's consumer brands
+- **Discloses:** DERMRAYS covers cosmetic pencils, depilatory creams/wax, hair-removing cream, makeup preparations. Separately, **SILKPRO USA** (Reg. 5,913,786, filed 2019-05-01, registered 2019-11-19, active) is held by a *different* correspondent entity — suggesting SilkPro USA is a distinct US distributor licensing/rebranding the Lotuxs hardware, not Lotuxs filing directly.
+- **Link:** https://uspto.report/TM/98232499
+
+### US 9,364,684 B2 (+ continuations) — Aesthetic treatment device and method
+- **Company:** Epilaser
+- **Type:** Utility Patent
+- **Filed:** 2013-05-28 (priority EP12173261.4, 2012-06-22)
+- **Granted:** 2016-11-01
+- **Assignee:** S&Y Enterprises LLC → Epilady 2000 LLC → **EPIP LLC** (inventors Yehuda Poran, Oren Aharon)
+- **Discloses:** SPOT camera-guided follicle-targeting technology. Continuations: **US 9,480,529 B2** (filed 2013-05-28, granted 2016-11-01) — same title; **US 9,962,557 B2** (filed 2016-05-16, granted 2018-05-08) — multi-illumination system with imaging to locate follicles/lesions across multiple light sources on an optical bench; **US 10,912,611 B2** (filed 2016-02-01, granted 2021-02-09) — motorized cylindrical-lens laser modules that auto-locate targets via parallax/3D imaging. The one alternative brand in this doc with a real, verifiable, non-design patent family, and the most technically sophisticated (auto-targeting) of any device in this folder.
+- **Link:** https://patents.google.com/patent/US9364684B2/en
+
+**Trademark gap worth knowing:** the word mark **EPILASER** (Serial/App 74722809) is actually owned by **Palomar Medical Products, Inc.** — an older, unrelated registration, not EPIP LLC. No Epilady/EPIP-owned "Epilaser" trademark registration was found — a potential naming-rights gap for the brand.
+
+**CurrentBody:** not a separate IP holder — uses the same Wuhan Lotuxs hardware as DermRays, so no independent patent. **ViQure:** no assignee patent or trademark located after multiple search angles (the only "Viqure" trademark hit found, Serial 97294454, belongs to an unrelated company — Shenzhen Viatom Technology, filed for colon-hydrotherapy apparatus, not hair removal) — likely OEM-sourced without its own IP, consistent with this repo's broader OEM-thin-patent pattern. **EpiPro:** no USPTO trademark record found.
 
 ---
 
@@ -298,7 +448,7 @@ Short answer: **not from Tria, and not obviously from anyone else either.** The 
 ### Tria's patent pipeline is dead — the real story is the acquisition
 Direct assignee searches (cross-checked against several false-positive matches — generic "laser/skin-sensing" vocabulary keeps surfacing Hydrafacial, Cynosure, and Dyson patents under loose keyword search) found **no new Tria utility patent filed after roughly 2016–2018.** The one connected-device patent that did surface — EP 3,108,392 A1, "Internet connected dermatological devices and systems" (filed 2015; wireless skin sensors + cloud dashboard + coaching feedback, exactly the kind of app-connected feature you'd expect a "smart Tria" to ship) — has legal status **Withdrawn**. It's a dead filing, not active IP. ✅ Verified via Tria's own [official patents page](https://www.trialaser.com/pages/patents).
 
-**Corporate context that explains why:** Tria (legal entity Channel Investments, LLC) was **acquired by CurrentBody / The Beauty Tech Group in October 2024** ✅ (the same Beauty Tech Group whose CurrentBody-branded diode laser is, per this doc's own findings above, rebadged Wuhan Lotuxs hardware). The Beauty Tech Group listed on the London Stock Exchange in 2025 and has since announced a "Tria Relaunch 2026" — but the announcement language ("stronger, smarter, more refined") is pure marketing copy with **zero disclosed new technical capability** (no new wavelength, sensor, or connectivity claim), and no patent filings back it up. **Read this as: Tria is no longer an R&D-driving device company — it's a legacy brand being refreshed and re-marketed inside a beauty-tech holding company that also owns a rebadged-OEM competitor product.** That's a genuinely different category of company than "device pioneer still innovating," and it changes what "buying a Tria" *means* going forward — expect design refreshes and repackaging, not new hardware capability.
+**Corporate context that explains why:** Tria (legal entity Channel Investments, LLC) was **acquired by CurrentBody / The Beauty Tech Group in October 2024** ✅ (the same Beauty Tech Group whose CurrentBody-branded diode laser is, per this doc's own findings above, rebadged Wuhan Lotuxs hardware). The Beauty Tech Group listed on the London Stock Exchange in 2025 and has since announced a "Tria Relaunch 2026" — but the announcement language ("stronger, smarter, more refined") is pure marketing copy with **zero disclosed new technical capability** (no new wavelength, sensor, or connectivity claim), and no patent filings back it up. **The patent assignment record confirms and extends this chain**: Tria's own patents (e.g. US 9,308,390 B2 and US 8,679,102 B2, both cited in [03/08](../03_fractional_laser_resurfacing/08_clear_brilliant_quantified_gap.md)) show a full reassignment history of **Tria Beauty, Inc. → Athyrium Opportunities Fund → Channel Investments, LLC → Aesthete Holding Corporation (2025-08-26, the current holder)** — one more link in the ownership chain than the acquisition news alone reveals, and dated *after* the CurrentBody deal, suggesting a further internal restructuring of the IP itself. **Read this as: Tria is no longer an R&D-driving device company — it's a legacy brand being refreshed and re-marketed inside a beauty-tech holding company that also owns a rebadged-OEM competitor product.** That's a genuinely different category of company than "device pioneer still innovating," and it changes what "buying a Tria" *means* going forward — expect design refreshes and repackaging, not new hardware capability.
 
 ### The professional-device makers whose IP underpins this category are pivoting away from it
 Cynosure (which licensed the foundational MGH hair-removal patent from Palomar) and Alma Lasers — the companies whose IP legitimizes diode/IPL hair removal generally — show **sharply declining filing rates** in this space over 2021–2026 (Cynosure: ~9 filings vs. 61 in the prior 5-year window), and what they *are* filing is exclusively **clinic-grade RF/microwave skin-tightening** (kilowatt-scale power, console-driven, not remotely home-safe), not anything fluence-limited or app-connected for consumer hair removal. 🔍 Read together with Tria's dead pipeline, the signal is: **the companies with real laser/IPL hair-removal R&D budgets have moved on to skin-tightening; home hair-removal is being treated as a mature, saturated category**, left to OEM rebadging (DermRays/SilkPro/CurrentBody sharing one Wuhan Lotuxs factory) rather than genuine new hardware.

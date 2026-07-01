@@ -379,16 +379,162 @@ Cumulative dose:  home (open-ended, painless, single-λ, manual)
 Patents came up twice in this research: once as the *only* primary source for Tria's pulse rate (no FDA filing or IFU states it), and once as a 3D-scan source for facial surface area. Each is listed below in the repo's standard patent-block format (machine-readable — `tools/apply_patents_section.py` aggregates these into the folder's viewable **Patents** page in the sidebar), followed by what each actually discloses so a future pass doesn't have to re-derive it.
 
 ### US 9,308,390 B2 — Devices and methods for radiation-based dermatological treatments
-- **Assignee:** Tria Beauty, Inc. (confirmed via Google Patents assignee history)
+- **Company:** Tria Beauty
+- **Type:** Utility Patent
+- **Filed:** 2012-04-10 (priority 2011-02-03)
+- **Granted:** 2016-04-12 — Expired-Fee Related (2032-02-03 term)
+- **Assignee:** originally Tria Beauty, Inc.; reassigned through Athyrium Opportunities Fund → Channel Investments, LLC → **Aesthete Holding Corporation (2025-08-26, the current assignee)** — confirmed via this patent's own Google Patents assignment history, and consistent with Tria's 2024 acquisition by CurrentBody/The Beauty Tech Group (see [02/11](../02_diode_laser_hair_removal/11_810nm_diode_laser_alternatives_vs_ipl.md)'s Patents/Future-tech sections).
 - **Discloses:** Pulse rate embodiments: "0.5–75 Hz," "2–30 Hz," "10–20 Hz, e.g., about 15 Hz"; pulse energy "2–30 mJ" / "5–20 mJ" / "10–15 mJ"; a 4-minute session "effective for about 300 cm², e.g., full-face"; the 0.25–5% home-use coverage envelope already cited in §3b. Used for §3b (coverage envelope) and §3d (Tria's independently-derived total-J estimate).
 - **Link:** https://patents.google.com/patent/US9308390B2/en
 - **Mirrored PDF:** quantified_gap_source_docs/us-patent-9308390-tria-laser.pdf
 
+### US 8,679,102 B2 — Devices and methods for radiation-based dermatological treatments
+- **Company:** Tria Beauty
+- **Type:** Utility Patent
+- **Filed:** 2012-04-10
+- **Granted:** 2014-03-25 — **Active** (expires 2032-02-03)
+- **Assignee:** same lineage as above — currently Aesthete Holding Corporation (2025 reassignment).
+- **Discloses:** Same title as US 9,308,390 B2 above — an earlier-granted sibling in the same family, not a duplicate citation. Explicitly discusses "fractional treatment," "non-ablative fractional treatment," and "skin resurfacing, skin rejuvenation, wrinkle treatment," with wavelengths spanning "1400–1550nm" (covers the SmoothBeauty/FRX's actual 1440nm) and ~1926nm (Perméa/Dora-adjacent territory).
+- **Link:** https://patents.google.com/patent/US8679102B2/en
+
+### US 8,523,849 B2 / US 8,685,008 B2 — Radiation-based dermatological devices and methods (same family)
+- **Company:** Tria Beauty
+- **Type:** Utility Patent
+- **Filed:** 2012-02-03 / 2012-04-10
+- **Granted:** 2013-09-03 / 2014-04-01 — both **Active** (expire 2032-02-03)
+- **Assignee:** Aesthete Holding Corporation (same chain as above)
+- **Discloses:** Additional siblings in the same fractional-patent family as 9,308,390/8,679,102 — not individually re-described here to avoid repetition. Full Tria portfolio (16 patents, 5 trademarks, including the hair-removal-specific ones and current active/expired status of each) is catalogued in [02/11](../02_diode_laser_hair_removal/11_810nm_diode_laser_alternatives_vs_ipl.md).
+- **Link:** https://patents.google.com/patent/US8523849B2/en
+
 ### US 11,058,207 — Precision applicator
-- **Assignee:** (face-measurement/applicator patent — assignee not a dermatology-device company; included for its measurement data, not its device)
+- **Company:** Precision Applicator patent (unrelated co.)
+- **Type:** Utility Patent
+- **Assignee:** face-measurement/applicator patent — assignee not a dermatology-device company; included for its measurement data, not its device.
 - **Discloses:** 3D facial scan data: **371.1 cm²** face surface area including eyes/mouth, **343.1 cm²** excluding eyes/nostrils/mouth. Used for §3d's cross-check of the ~400 cm² full-face-area assumption used throughout §3b/§3d.
 - **Link:** https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11058207
 - **Mirrored PDF:** quantified_gap_source_docs/us-patent-11058207-facial-surface-area.pdf
+
+— **Palomar Medical Technologies / MGH — historical (pre-Cynosure)** —
+
+### US 6,997,923 B2 — Method and apparatus for fractional photothermolysis
+- **Company:** Palomar / MGH
+- **Type:** Utility Patent
+- **Filed:** 2001-12-27
+- **Granted:** 2006-02-14
+- **Assignee:** Palomar Medical Technologies + General Hospital Corporation (MGH). Co-inventor Dieter Manstein (with R. Rox Anderson, Gregory B. Altshuler).
+- **Discloses:** Already the foundational entry for this doc — see the Sources/earlier discussion. Cross-referenced here as part of Palomar's own historical portfolio.
+- **Link:** https://patents.google.com/patent/US6997923B2/en
+
+### US 7,351,252 B2 — Method and apparatus for photothermal treatment of tissue at depth
+- **Company:** Palomar / MGH
+- **Type:** Utility Patent
+- **Filed:** 2003-06-19
+- **Granted:** 2008-04-01
+- **Assignee:** Palomar Medical Technologies + General Hospital Corporation
+- **Link:** https://patents.google.com/patent/US7351252B2/en
+
+**Also on file (Palomar/MGH, 2004–2010, applications/continuations, not individually detailed):** US2004/0093042A1 (parent of 7,351,252), US2006/0020309A1 ("lattices of EMR-treated islets"), US2006/0122668A1 and US2007/0073308A1 (both "Method and apparatus for EMR treatment" continuations), US2008/0186591A1 ("dermatological device having a zoom lens system"), US2008/0294150A1 ("Photoselective Islets In Skin And Other Tissues"), US2010/0036295A1 (fractional deformation/treatment), WO2008/083305A2 (fractional ablation, references Palomar's 1540 handpiece), WO2002/069825A2 = CN1568163A (earliest-era Palomar filing, pub. 2002-09).
+
+### US 8,475,507 B2 — Handheld apparatus for use by a non-physician consumer to fractionally resurface the skin of the consumer
+- **Company:** Solta Medical
+- **Type:** Utility Patent
+- **Filed:** 2011-02-01
+- **Granted:** 2013-07-02
+- **Assignee:** Solta Medical, Inc. (inventors Dewey/Bradley/DeBenedictis)
+- **Discloses:** 1.42–1.45µm handheld consumer fractional device — matches the PaloVia/home-NAFL concept almost exactly, but postdates PaloVia's 2009 FDA submission by two years, so it's Solta's *next-generation* consumer patent, not PaloVia's original IP.
+- **Link:** https://patents.google.com/patent/US8475507B2/en
+
+— **Solta Medical / Bausch Health — active filer, concentrated on Thermage RF** —
+
+### US 20080015556 A1 / US 20110087201 A1 — Apparatus and Method for Adjustable Fractional Optical Dermatological Treatment
+- **Company:** Solta Medical
+- **Type:** Utility Patent
+- **Granted:** Published 2008-01 / 2011-04
+- **Assignee:** originally Reliant Technologies, Inc. → Reliant Technologies, LLC (2021 merger) → Solta Medical, Inc. — **reassigned among Bausch Health/Solta Medical Ireland entities as recently as November 2025**, indicating this is still the live IP base for Fraxel's optical-tracking system (marketed as "AccuTRAC" on the 2025 Fraxel FTX), not a fresh filing.
+- **Discloses:** The original scanner/optical-tracking system that made Fraxel's uniform coverage possible.
+- **Link:** https://patents.google.com/patent/US20080015556A1/en
+
+### WO 2008/052198 A2 — Methods of increasing skin permeability by treatment with electromagnetic radiation
+- **Company:** Solta Medical
+- **Type:** Utility Patent
+- **Granted:** Published 2008-05
+- **Assignee:** Reliant Technologies, Inc.
+- **Discloses:** Basis for the later Perméa (1927nm) permeability-enhancement technology.
+- **Link:** https://patents.google.com/patent/WO2008052198A2/en
+
+### US 11,833,364 B2 — Tissue treatment apparatus and systems with pain mitigation
+- **Company:** Solta Medical
+- **Type:** Utility Patent
+- **Filed:** 2021
+- **Granted:** 2023-12
+- **Assignee:** Solta Medical Inc
+- **Discloses:** Descending RF power-step profile + active cryogen pre/post-cooling + dielectric spacer frames to cut pain during Thermage-style RF heating.
+- **Link:** https://patents.google.com/patent/US11833364B2/en
+
+### US 12,114,908 B2 — Methods and apparatus for pumping coolant to an energy delivery device
+- **Company:** Solta Medical
+- **Type:** Utility Patent
+- **Filed:** 2022
+- **Granted:** 2024-10
+- **Assignee:** Solta Medical Ireland Ltd
+- **Discloses:** Active-pump cryogen pressurization replacing heated canisters — faster startup, lower explosion risk.
+- **Link:** https://patents.google.com/patent/US12114908B2/en
+
+### US 12,156,688 B2 — Microblade structure and method of treating tissue
+- **Company:** Solta Medical
+- **Type:** Utility Patent
+- **Filed:** 2019
+- **Granted:** 2024-12
+- **Assignee:** Solta Medical Ireland Ltd
+- **Discloses:** Flat-blade (not conical-needle) RF microelectrode array in a diamond pattern — next-gen fractional-RF microneedling applicator, adjacent to but distinct from the laser-based Fraxel/C+B line.
+- **Link:** https://patents.google.com/patent/US12156688B2/en
+
+### SOLTA MEDICAL / THERMAGE / THERMAGE FLX / THERMAFRAX — trademark family
+- **Company:** Solta Medical
+- **Type:** Trademark
+- **Filed:** 2008-10-10 (SOLTA MEDICAL) / 2017-03-02 (THERMAGE) / 2016-01-04 (THERMAGE FLX) / 2005-12-15 (THERMAFRAX)
+- **Granted:** 2011-01-11 (Reg. 3,905,770) / 2018-10-01 / 2018-10-02 (Reg. 5,576,239, Sec 8&15 accepted 2024) / 2009-06-15
+- **Assignee:** Solta Medical, Inc. (THERMAFRAX filed under Reliant Technologies, LLC — confirms the Reliant→Solta chain independently via trademark records, not just patents)
+- **Link:** https://tsdr.uspto.gov/statusview/sn86864482
+
+**Not resolved (search-blocked, need manual USPTO TESS lookup):** exact serial/registration numbers for "FRAXEL," "CLEAR + BRILLIANT," and "PERMÉA" — ownership is confirmed via press releases as Solta Medical, Inc. (Bausch Health subsidiary) for all three, Permea launched 2012 as a Clear+Brilliant handpiece, but precise trademark filing data wasn't independently verified this pass.
+
+— **Alma Lasers** —
+
+### US 9,333,371 / US 11,135,444 — Variable intensity laser treatments of the skin
+- **Company:** Alma Lasers
+- **Type:** Utility Patent
+- **Granted:** 2016-05 (parent) / 2021 (continuation)
+- **Assignee:** Alma Lasers Ltd.
+- **Link:** https://patents.google.com/patent/US11135444B2/en
+
+### US 9,421,261 — Thermal treatment of the skin surface with nanoparticles
+- **Company:** Alma Lasers
+- **Type:** Utility Patent
+- **Granted:** 2016-08
+- **Assignee:** Alma Lasers Ltd.
+- **Discloses:** Nanoparticle coatings that facilitate selective removal from the skin surface after thermal treatment.
+- **Link:** https://patents.google.com/patent/US9421261B2/en
+
+### US 8,906,418 — Thermal treatment of a pilosebaceous unit with nanoparticles
+- **Company:** Alma Lasers
+- **Type:** Utility Patent
+- **Granted:** 2014-12
+- **Assignee:** Alma Lasers Ltd.
+- **Link:** https://patents.google.com/patent/US8906418B2/en
+
+### US 20250018220 A1 / GB 2631784 A — Laser Applicator
+- **Company:** Alma Lasers
+- **Type:** Utility Patent
+- **Filed:** 2023-07-14
+- **Granted:** Pending
+- **Assignee:** Alma Lasers Ltd.
+- **Discloses:** Modular tip with wireless magnetic ID, motorized optical-element positioning, roller-cooling contact — console-driven, clinic-only.
+- **Link:** https://patents.google.com/patent/US20250018220A1/en
+
+**Company milestones per Alma's own history (not individually patent-linked this pass):** AFT/IPL patent 2003, unipolar RF 2004, Erbium Pixel fractional-ablative 2006, cold-ultrasound shear-wave 2007, microplasma (Opus/Accent Prime) later-era.
+
+**Not found:** any patent held by Jiangsu Unimed or under the "YDUNVIE" name, or under "MimiSilk" (see §1 for the full negative-result writeup on both).
 
 **Explicitly NOT used:** US 7,703,458 / US 8,474,463 (assignee **Cutera, Inc.**, an unrelated company) — a more specific-looking "12 Hz max, 2–7 Hz typical, ~400–500 pulses/zone, ~7,000 pulses full-face" figure traces to *these* Cutera patents, not Tria. Flagged here so it doesn't get misattributed to Tria in a future pass; deliberately excluded from the block list above so the aggregator never picks it up.
 
