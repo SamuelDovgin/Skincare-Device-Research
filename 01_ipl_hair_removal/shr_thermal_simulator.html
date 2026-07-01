@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SHR & Multi-Flash Thermal Simulator — IPL Hair Removal</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%94%A5%3C/text%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="appicon-180.png">
+<meta name="theme-color" content="#c0392b">
+<style>
+:root{--accent:#c0392b;--accent2:#e74c3c;--bg:#f6f7f9;--card:#fff;--ink:#1f2430;--muted:#6b7280;--line:#e5e7eb;--good:#16a34a;--blue:#2563eb;--amber:#d9a441;--purple:#7c3aed;}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55}
+a{color:var(--accent)}
+.topbar{position:sticky;top:0;z-index:20;background:linear-gradient(100deg,var(--accent),var(--accent2));color:#fff;padding:12px 20px;box-shadow:0 2px 10px rgba(0,0,0,.12)}
+.topbar a{color:#fff;opacity:.92;text-decoration:none;font-size:13px}
+.topbar h1{margin:5px 0 2px;font-size:20px}
+.topbar p{margin:0;font-size:12.5px;opacity:.9;max-width:940px}
+.wrap{max-width:1060px;margin:22px auto;padding:0 18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin-bottom:18px;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card h2{font-size:17px;margin:0 0 4px}
+.card .sub{font-size:12.5px;color:var(--muted);margin:0 0 14px}
+.note{font-size:12px;color:var(--muted)}
+svg{max-width:100%;height:auto;display:block}
+.presetbtns{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:6px}
+.presetbtns button{border:1px solid var(--line);background:#fff;border-radius:10px;padding:8px 13px;cursor:pointer;font-size:13px;font-weight:600;text-align:left;line-height:1.25}
+.presetbtns button small{display:block;font-weight:400;color:var(--muted);font-size:11px}
+.presetbtns button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.presetbtns button.active small{color:#ffe}
+.ctrls{display:grid;grid-template-columns:1fr 1fr;gap:10px 26px}
+@media(max-width:720px){.ctrls{grid-template-columns:1fr}}
+.ctl{margin:2px 0}
+.ctl label{display:flex;justify-content:space-between;align-items:baseline;font-size:13px;font-weight:600;margin-bottom:2px}
+.ctl label .val{color:var(--accent);font-weight:800;font-variant-numeric:tabular-nums}
+.ctl .hint{font-size:11px;color:var(--muted);margin-top:1px}
+input[type=range]{width:100%;accent-color:var(--accent);margin:2px 0}
+.ctl.hero{background:#fff8f3;border:1px solid #f0d3c4;border-radius:10px;padding:8px 12px}
+.ctl.hero label{font-size:13.5px}
+.ctl.hero label .tag{font-size:9px;background:var(--accent);color:#fff;padding:2px 6px;border-radius:20px;letter-spacing:.04em;text-transform:uppercase;font-weight:800}
+.seg{display:inline-flex;flex-wrap:wrap;gap:6px;background:#f0f1f4;border-radius:12px;padding:5px}
+.seg button{border:0;background:transparent;color:var(--ink);padding:7px 13px;border-radius:9px;cursor:pointer;font-size:13px;font-weight:600}
+.seg button.active{background:var(--accent);color:#fff;box-shadow:0 1px 4px rgba(192,57,43,.4)}
+.toggle{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;cursor:pointer;user-select:none;margin:2px 0}
+.toggle input{width:auto;accent-color:var(--accent);transform:scale(1.15)}
+.gauges{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:4px}
+.g{background:#fafbfc;border:1px solid var(--line);border-radius:10px;padding:11px 13px}
+.g .k{font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.g .v{font-size:22px;font-weight:800;margin-top:2px;line-height:1;font-variant-numeric:tabular-nums}
+.g .cap{font-size:11px;color:var(--muted);margin-top:3px}
+.bar{height:7px;border-radius:5px;background:#eceef1;overflow:hidden;margin-top:7px}
+.bar > i{display:block;height:100%;border-radius:5px}
+.verdict{margin-top:14px;padding:13px 15px;border-radius:11px;font-size:13.5px;border-left:5px solid var(--muted);background:#fafbfc}
+.verdict.yes{border-color:var(--good);background:#f2fbf5}
+.verdict.partial{border-color:var(--amber);background:#fffaf0}
+.verdict.no{border-color:var(--accent);background:#fff5f5}
+.verdict b{font-size:14.5px}
+.verdict .line{margin-top:6px;font-size:12.5px;color:var(--ink)}
+.verdict .line.warn{color:var(--accent);font-weight:600}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:var(--muted);margin-top:10px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.swatch{width:16px;height:3px;border-radius:2px;display:inline-block}
+.swatch.dash{background:none;border-top:2px dashed}
+table{border-collapse:collapse;width:100%;font-size:12.5px;margin-top:6px}
+th,td{border:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top}
+thead th{background:var(--accent);color:#fff}
+tbody tr:nth-child(even){background:#fafbfc}
+.blurb{margin:12px 0 0;padding:12px 14px;border-left:4px solid var(--accent2);background:#fff8f3;border-radius:0 8px 8px 0;font-size:13px}
+.warn{background:#fff4f4;border:1px solid #f3c0c0;border-radius:10px;padding:12px 14px;font-size:13px;margin-bottom:10px}
+.warn b{color:var(--accent)}
+.two{display:grid;grid-template-columns:1.15fr 1fr;gap:22px}
+@media(max-width:820px){.two{grid-template-columns:1fr}}
+.quote{border:1px solid var(--line);border-radius:12px;padding:13px 15px;margin-bottom:10px;background:#fafbfc}
+.quote p{margin:0 0 7px;font-size:13px;font-style:italic}
+.quote .src{font-size:11.5px;color:var(--muted)}
+.quote .src a{font-weight:600}
+details{border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:8px 0;background:#fafbfc}
+summary{cursor:pointer;font-weight:600;font-size:13.5px}
+details p{font-size:13px;margin:8px 0 0}
+.pathcard{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:#fafbfc}
+.pathcard h3{margin:0 0 6px;font-size:14.5px}
+.pathcard.p1 h3{color:var(--accent)} .pathcard.p2 h3{color:var(--good)}
+.pathcard p{font-size:12.8px;margin:6px 0 0}
+.disc{font-size:11.5px;color:var(--muted);margin-top:8px}
+.chip{display:inline-block;background:#fff;border:1px solid var(--line);border-radius:20px;padding:4px 11px;font-size:12px;margin:3px 4px 0 0}
+.chip b{color:var(--accent)}
+.tag2{display:inline-block;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;padding:2px 7px;border-radius:20px;color:#fff}
+ol.src{font-size:12px;color:var(--ink);padding-left:22px}
+ol.src li{margin-bottom:7px}
+sup a{text-decoration:none;font-weight:700;color:var(--accent);font-size:11px}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <a href="index.html">← IPL docs</a> &nbsp;·&nbsp; <a href="../index.html">All Research</a> &nbsp;·&nbsp; <a href="15_multi_flash_thermal_accumulation.md">Multi-flash write-up</a>
+  <h1>🔥 SHR &amp; Multi-Flash Thermal Simulator</h1>
+  <p>Set the parameters and watch how the <b>epidermis</b>, <b>hair follicle</b>, and the deep <b>stem-cell target</b> heat up over time — and whether successive flashes (Ulike-style "SHR" / stacked pulses) actually push past the threshold for follicle damage. <b>Timing is the hero variable.</b></p>
+</div>
+
+<div class="wrap">
+
+  <!-- INTRO -->
+  <div class="card">
+    <h2>What this shows — and what it can't</h2>
+    <p class="sub">The question behind Ulike's "SHR mode" and every "8.33 J/cm² over 3 flashes" claim: <i>do successive flashes add up as heat at the follicle, and does that heat reach a damaging threshold?</i></p>
+    <p style="font-size:13.5px;margin:0 0 8px">A single flash heats the pigmented hair shaft/bulb fast, then it cools. Fire again <b>before</b> it cools and the heat stacks higher; fire again <b>after</b> it cools and you've just re-dosed a weaker shot. Meanwhile the epidermis (which you must protect) and the deep, unpigmented <b>bulge stem cells</b> (the target for <i>permanent</i> reduction, reached only by slow heat diffusion) each run on their own clock. This tool integrates a simple <b>lumped-parameter thermal model</b> of all three so you can see the interplay.</p>
+    <div class="warn"><b>Read this as a teaching model, not a lab measurement.</b> It uses published thermal-relaxation and thermal-damage-time values (cited below) to reproduce the <i>qualitative physics</i> — the shapes, the timing thresholds, the tradeoffs. The absolute temperatures and the "damage threshold" are illustrative and deliberately conservative; real follicle heating depends on melanin distribution, blood perfusion, spot size and optical scattering that a lumped model can't resolve. Use it to build intuition about <b>timing and stacking</b>, not to predict a number for your skin. Not medical advice.</p>
+  </div>
+
+  <!-- PRESETS + CONTROLS -->
+  <div class="card">
+    <h2>1 · Pick a scenario, then tune it</h2>
+    <p class="sub">Presets load real-world-ish settings; every slider is live. Watch the chart and the verdict update.</p>
+    <div class="presetbtns" id="presets"></div>
+    <p class="note" id="presetnote" style="margin:8px 0 16px"></p>
+
+    <div class="ctrls">
+      <div class="ctl hero">
+        <label>Gap between flashes <span><span class="tag">the hero dial</span> <span class="val" id="v_gap"></span></span></label>
+        <input type="range" id="gap" min="5" max="400" step="5" value="250">
+        <div class="hint">Edge-to-edge delay. <b>Under the follicle's ~10–100 ms cooling time → heat stacks. Over it → each flash resets.</b> Ulike SHR ≈ 250 ms (4/s); pro SHR ≈ 100 ms (10 Hz); clinical fixed-spot stacking ≈ 10–40 ms.</div>
+      </div>
+      <div class="ctl">
+        <label>Number of flashes <span class="val" id="v_n"></span></label>
+        <input type="range" id="n" min="1" max="20" step="1" value="10">
+        <div class="hint">One strong shot, or many weak ones (SHR / in-motion pass hits a spot repeatedly).</div>
+      </div>
+      <div class="ctl">
+        <label>Fluence per flash <span class="val" id="v_flu"></span></label>
+        <input type="range" id="flu" min="0.5" max="10" step="0.1" value="1.7">
+        <div class="hint">Energy density in each individual flash (J/cm²). Ulike's 26 J burst ÷ 4 ÷ ~3.9 cm² ≈ 1.7 J/cm² per sub-flash; a single-pulse home device runs ~5–6.5.</div>
+      </div>
+      <div class="ctl">
+        <label>Pulse duration <span class="val" id="v_dur"></span></label>
+        <input type="range" id="dur" min="1" max="60" step="1" value="10">
+        <div class="hint">How long each flash lasts. Longer spares the epidermis but bleeds peak follicle temperature.</div>
+      </div>
+      <div class="ctl">
+        <label>Skin tone (Fitzpatrick) <span class="val" id="v_skin"></span></label>
+        <input type="range" id="skin" min="1" max="6" step="1" value="3">
+        <div class="hint">Darker skin = more epidermal melanin = the epidermis absorbs more and heats toward the burn zone.</div>
+      </div>
+      <div class="ctl">
+        <label>Hair coarseness / darkness <span class="val" id="v_hair"></span></label>
+        <input type="range" id="hair" min="0" max="100" step="1" value="70">
+        <div class="hint">Coarse, dark hair holds more melanin (heats harder) and cools slower (longer follicle TRT).</div>
+      </div>
+      <div class="ctl">
+        <label style="margin-bottom:6px">Contact cooling</label>
+        <label class="toggle"><input type="checkbox" id="cool" checked> Sapphire / ice cooling ON <span class="note" style="font-weight:400">(Ulike-style, skin held ≈20 °C)</span></label>
+        <div class="hint">Actively pulls heat out of the epidermis and lowers its floor — lets you push fluence without burning.</div>
+      </div>
+      <div class="ctl">
+        <label style="margin-bottom:6px">Compare against a single flash</label>
+        <label class="toggle"><input type="checkbox" id="cmp" checked> Overlay one flash of the <b>same total energy</b></label>
+        <div class="hint">The fair test: is it better to spend all your Joules in one strong flash, or split them across many? (dashed gray = the single-flash follicle curve).</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CHART + VERDICT -->
+  <div class="card">
+    <h2>2 · How everything heats — and whether it crosses threshold</h2>
+    <p class="sub">Temperature of each structure over time. Cross a threshold line and that damage pathway is in play.</p>
+    <svg id="chart" viewBox="0 0 980 420" role="img" aria-label="Temperature of epidermis, follicle and stem-cell target over time"></svg>
+    <div class="legend">
+      <span><span class="swatch" style="background:var(--blue)"></span> Epidermis (protect this)</span>
+      <span><span class="swatch" style="background:var(--accent)"></span> Hair follicle / bulb (the heater)</span>
+      <span><span class="swatch" style="background:var(--good)"></span> Bulge stem cells (permanent-reduction target)</span>
+      <span id="cmpleg"><span class="swatch dash" style="border-color:#9aa3b2"></span> Single flash, same total energy (≤8 J/cm²)</span>
+    </div>
+
+    <div class="gauges" style="margin-top:16px">
+      <div class="g"><div class="k">Peak follicle temp</div><div class="v" id="pf">—</div><div class="cap" id="pfcap"></div><div class="bar"><i id="pfbar"></i></div></div>
+      <div class="g"><div class="k">Bulge damage dose</div><div class="v" id="pd">—</div><div class="cap" id="pdcap">cumulative, CEM43-style</div><div class="bar"><i id="pdbar"></i></div></div>
+      <div class="g"><div class="k">Peak epidermis temp</div><div class="v" id="pe">—</div><div class="cap" id="pecap"></div><div class="bar"><i id="pebar"></i></div></div>
+      <div class="g"><div class="k">Total energy delivered</div><div class="v" id="pt">—</div><div class="cap">sum of all flashes</div></div>
+    </div>
+
+    <div class="verdict" id="verdict"></div>
+  </div>
+
+  <!-- SINGLE VS MULTI -->
+  <div class="card">
+    <h2>3 · The core tradeoff — one strong flash vs. many weak ones</h2>
+    <p class="sub">Same Joules, split two ways. This is the actual decision behind "SHR mode" and split-pulse settings.</p>
+    <div class="two">
+      <div class="pathcard p1">
+        <h3>⚡ One strong flash — the "peak" pathway</h3>
+        <p>All the energy arrives at once, so the follicle spikes to a high peak temperature (often <b>&gt;65 °C</b>) and coagulates protein <i>immediately</i>. This is classic selective photothermolysis. It's efficient at killing the follicle in one shot — but that same peak lands on the epidermis too, so it hurts more and needs strong cooling. Best when hair is dark/coarse and the device can deliver real single-flash fluence (5–6+ J/cm²).</p>
+      </div>
+      <div class="pathcard p2">
+        <h3>🔁 Many weak flashes — the "accumulation" pathway</h3>
+        <p>Each flash is gentle (low peak, comfortable), but if they arrive fast enough relative to the <b>deep target's</b> slow cooling, the <b>stem-cell dose builds up</b> across the sequence — the "gradual bulk heating to ~45–48 °C" that SHR markets. It's gentler on skin and great for pain/comfort. The catch: it only works if the flashes are frequent enough and there are enough of them. Split the energy too thin, too slow, or too few times and <b>neither</b> pathway reaches threshold.</p>
+      </div>
+    </div>
+    <div class="blurb" id="cmpverdict"></div>
+  </div>
+
+  <!-- THE ULIKE CASE -->
+  <div class="card">
+    <h2>4 · The Ulike case — what "SHR mode" and "4 flashes" actually mean</h2>
+    <p class="sub">Ulike (Air 10 / Air 3 / X) markets an "SHR mode." Here's the honest read on what it delivers, mapped onto the physics above.</p>
+    <div>
+      <span class="chip">Air 10 burst: <b>up to 4 flashes</b> (2 lamps ×2)</span>
+      <span class="chip">Burst energy <b>≈26 J</b></span>
+      <span class="chip">Effective <b>≈6.67 J/cm²</b> for the whole burst</span>
+      <span class="chip">≈<b>1.7 J/cm²</b> per sub-flash</span>
+      <span class="chip">SHR cadence <b>≈4 flashes/s</b> (≈250 ms apart)</span>
+      <span class="chip">AutoGlide <b>≈2 flashes/s</b> (500 ms)</span>
+      <span class="chip">Sapphire cooling <b>≈20 °C</b></span>
+    </div>
+    <p style="font-size:13.5px;margin-top:14px">Two things fall straight out of the model when you load the <b>Ulike Air 10 SHR</b> preset:</p>
+    <ol style="font-size:13.3px;margin:6px 0 0;padding-left:20px">
+      <li><b>The ~250 ms cadence is far slower than the follicle's ~10–100 ms cooling time</b>, so successive flashes do <i>not</i> stack into a higher follicle <i>peak</i> — the peak stays modest and comfortable (that's the whole point of "nearly painless"). Ulike's SHR is <b>not</b> the fast 10–40 ms fixed-spot stacking that raises peak temperature.</li>
+      <li><b>Its bet is the accumulation pathway.</b> 250 ms is on the same order as the deep target's slow thermal-damage-time window (~170–1000 ms), so <i>if</i> a spot gets hit enough times (an in-motion pass, not one press), the bulge dose can creep up. Whether it clears threshold depends on total flash count, per-flash fluence, and hair darkness — exactly the sliders above. On fine or light hair, the model shows it struggling to get there.</li>
+    </ol>
+    <p class="note" style="margin-top:12px">This mirrors the write-up's conclusion for the Fansizhe "triple-pulse" mode: an "accumulated fluence" headline (26 J, 6.67 J/cm²) is only meaningful if the timing supports stacking, and the honest lever remains <b>the highest comfortable single-flash fluence plus finishing the full course</b>. SHR's real, evidence-backed advantage is <b>comfort/safety at equal efficacy</b> — see the trials in §6. <a href="15_multi_flash_thermal_accumulation.md">Full multi-flash write-up →</a></p>
+  </div>
+
+  <!-- TWO CLOCKS -->
+  <div class="card">
+    <h2>5 · Why timing rules everything — the two clocks</h2>
+    <p class="sub">Every threshold in this tool comes from these published timescales. Heat "sticks" only when energy arrives faster than the target sheds it.</p>
+    <div style="overflow-x:auto"><table>
+      <thead><tr><th>Structure</th><th>Timescale</th><th>What it means for flash timing</th></tr></thead>
+      <tbody>
+        <tr><td>Epidermis (TRT)</td><td>~3–10 ms<sup><a href="#s2">2</a></sup><sup><a href="#s3">3</a></sup></td><td>Sheds heat fast → the basis for pulse-splitting &amp; contact cooling. Keep gaps &gt; this so skin recovers.</td></tr>
+        <tr><td>Hair follicle / shaft (TRT)</td><td>~10–100 ms (terminal ≈100)<sup><a href="#s4">4</a></sup><sup><a href="#s5">5</a></sup><sup><a href="#s6">6</a></sup></td><td><b>The stacking threshold.</b> Gaps under this → flashes build a higher peak. Gaps over it → no peak gain.</td></tr>
+        <tr><td>Stem-cell target — Thermal Damage Time</td><td>~170–1000 ms (optimal ≈400)<sup><a href="#s7">7</a></sup><sup><a href="#s8">8</a></sup><sup><a href="#s9">9</a></sup></td><td><b>The accumulation window.</b> Heat must be <i>sustained</i> this long to diffuse to the unpigmented target. This is why "many pulses over ~1 s" (SHR) can work.</td></tr>
+        <tr><td>Epidermal safety ceiling</td><td>&lt; ~65 °C<sup><a href="#s3">3</a></sup></td><td>Above this → burns / pigment change. The reason not to over-stack or over-fluence, especially on darker skin.</td></tr>
+      </tbody>
+    </table></div>
+    <p style="font-size:13.3px;margin-top:12px">Two named mechanisms describe the accumulation pathway. <b>Progressive photothermolysis:</b> "Repeated and fast emission of pulses of low energy progressively heats the chromophore to temperatures of 45–50° over a period of time and safeguards the epidermis from overheating."<sup><a href="#s10">10</a></sup> And the <b>extended theory of selective photothermolysis</b> (Altshuler 2001), which introduced Thermal Damage Time — the time for the whole target, heater <i>plus</i> the non-absorbing structure it must warm by diffusion, to reach damaging temperature.<sup><a href="#s7">7</a></sup></p>
+  </div>
+
+  <!-- SHR EVIDENCE -->
+  <div class="card">
+    <h2>6 · The clinical evidence on SHR / low-fluence high-rep hair removal</h2>
+    <p class="sub">SHR is the one multi-pulse technique with real hair-removal trial data. The pattern: usually <b>comparable</b> to single-pass high fluence, occasionally better, reliably <b>less painful</b> — and it works by a many-pulses-in-motion delivery, not 2–4 shots at a fixed spot.</p>
+    <div style="overflow-x:auto"><table>
+      <thead><tr><th>Study</th><th>Comparison</th><th>Result</th></tr></thead>
+      <tbody>
+        <tr><td>Braun 2009<sup><a href="#s11">11</a></sup></td><td>SHR (5–10 J/cm², 10 Hz) vs. single-pass (25–40 J/cm², 1 Hz)</td><td>Comparable <b>86–91%</b> reduction; SHR much less painful</td></tr>
+        <tr><td>Omi 2017<sup><a href="#s12">12</a></sup></td><td>Dynamic 10 Hz/10 J/cm² vs. static 1 Hz/30 J/cm²</td><td>No significant difference (<b>41.4%</b>, both); long-term effect attributed to <b>apoptosis</b>, not just bulk heating</td></tr>
+        <tr><td>Koo 2014<sup><a href="#s13">13</a></sup></td><td>Soprano SHR in-motion vs. LightSheer single-pass</td><td>40.7% vs. 33.5% (n.s.); SHR significantly less pain</td></tr>
+        <tr><td>Li 2016<sup><a href="#s14">14</a></sup></td><td>Same laser, SHR vs. high-fluence mode</td><td>SHR slightly better (<b>90.2% vs. 87%</b>) and far less painful (VAS 2.75 vs. 6.75)</td></tr>
+        <tr><td>Wanitphakdeedecha 2012<sup><a href="#s15">15</a></sup></td><td>Diode SHR vs. Nd:YAG single-pass high-fluence</td><td>Nd:YAG <b>won</b> (54.2% vs. 35.7%) — SHR isn't universally superior</td></tr>
+        <tr><td>Barolet 2012<sup><a href="#s16">16</a></sup></td><td>Low-fluence (15 J/cm²) alone at 5 Hz</td><td>Significant permanent reduction after 4 monthly sessions</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note" style="margin-top:10px">Note the fluences: clinical SHR uses <b>5–15 J/cm²</b> per pulse and dozens of pulses per pass. A home device at ~1.7 J/cm²/sub-flash is well below that per-pulse — which is why the model treats home "SHR" as a <i>comfort-forward, accumulation-dependent</i> mode whose ceiling is set by how many times a spot is actually hit.</p>
+  </div>
+
+  <!-- DOSE RESPONSE -->
+  <div class="card">
+    <h2>7 · The lever that most reliably matters: dose</h2>
+    <p class="sub">Across the cleanest home-device data, higher <i>single</i>-flash fluence buys more durable reduction. Splitting energy thinner rarely beats spending it as fluence.</p>
+    <div style="overflow-x:auto"><table>
+      <thead><tr><th>Fluence</th><th>12-month hair reduction</th><th>Source</th></tr></thead>
+      <tbody>
+        <tr><td>7 J/cm²</td><td>44%</td><td rowspan="3">Wheeland 2012, home 810 nm laser dose-response<sup><a href="#s17">17</a></sup></td></tr>
+        <tr><td>12 J/cm²</td><td>49%</td></tr>
+        <tr><td>20 J/cm²</td><td>65%</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note" style="margin-top:10px">Takeaway for a home user: you can't change your device's J/cm², so maximize <i>safe</i> dose — highest comfortable single-flash energy, contact cooling on, and complete the full course. Multi-flash "SHR" is a comfort tool, not a shortcut to more dose. And beware the flip side: heat <b>below</b> threshold on hormonal areas (face/neck) can provoke <b>paradoxical regrowth</b> rather than reduction.</p>
+  </div>
+
+  <!-- QUOTES -->
+  <div class="card">
+    <h2>📚 The research, in their words</h2>
+    <div id="quotes"></div>
+  </div>
+
+  <!-- SOURCES -->
+  <div class="card">
+    <h2>📑 Sources</h2>
+    <ol class="src" id="sources"></ol>
+    <p class="disc">Educational synthesis of dermatology/laser-physics literature plus this repo's device research; Ulike specs are from the manufacturer and third-party technical reviews (see §4). The thermal model is an illustrative lumped-parameter integrator calibrated to the cited TRT/TDT values — not a validated Monte-Carlo simulation and not medical advice. Follow your device manual and a dermatologist's guidance.</p>
+  </div>
+
+</div>
+
+<script>
+/* ---------- data ---------- */
+const PRESETS = {
+  ulike_shr:{label:'Ulike Air 10 — SHR', sub:'4 flashes/s · low fluence · sapphire cooling', gap:250,n:12,flu:1.7,dur:10,skin:3,hair:70,cool:true,cmp:true,
+    note:'Ulike’s flagship "SHR" mode: many gentle ~1.7 J/cm² flashes at ~250 ms spacing while gliding, held cool by sapphire. Watch the follicle peak stay modest (comfortable) while the green stem-cell curve slowly creeps — the accumulation bet. Try raising the flash count (a longer in-motion pass) vs. lowering it.'},
+  ulike_air3:{label:'Ulike Air 3 — single pulse', sub:'one stronger flash per press', gap:250,n:1,flu:6,dur:15,skin:3,hair:70,cool:true,cmp:false,
+    note:'Traditional IPL: one stronger flash. The follicle spikes high (peak pathway) from a single shot. Gentler-cooling but a real single-flash dose.'},
+  clinical_stack:{label:'Clinical fixed-spot stack', sub:'3 sub-pulses, 20 ms apart', gap:20,n:3,flu:3,dur:3,skin:3,hair:70,cool:true,cmp:true,
+    note:'The real fast-stacking technique: short sub-pulses 20 ms apart — inside the follicle’s cooling time, so each builds on the last and the peak climbs. This is what genuine pulse-stacking looks like (and what Ulike SHR is NOT).'},
+  pro_shr:{label:'Pro SHR (in-motion)', sub:'fast cadence, sustained heating', gap:55,n:14,flu:2.7,dur:15,skin:3,hair:70,cool:true,cmp:false,
+    note:'Professional SHR: many pulses at a fast cadence (~10 Hz) while the applicator glides. The gap (55 ms) is inside the follicle’s cooling time, so heat never fully resets — the follicle holds a sustained plateau above the 45 °C damage floor and the deep stem-cell dose builds across the train WITHOUT a single painful spike. This is the accumulation pathway crossing threshold, and the version with clinical trial support. (A lumped model like this treats every pulse as hitting one spot; real in-motion spreads energy, so read this as the per-spot thermal envelope, not one press.)'},
+  fansizhe:{label:'Your Fansizhe T023A', sub:'measured single flash, 6.08 J/cm²', gap:250,n:1,flu:6.08,dur:15,skin:3,hair:70,cool:false,cmp:false,
+    note:'The device this repo chose: a single measured 6.08 J/cm² flash. Compare it against splitting the same energy — flip on "compare" and raise the flash count to see what you’d give up.'},
+  weak:{label:'Under-dosed', sub:'few, weak, slow flashes', gap:300,n:3,flu:1.2,dur:12,skin:3,hair:35,cool:true,cmp:true,
+    note:'The failure mode: fluence too low, flashes too few and too slow, hair too fine. Neither pathway reaches threshold — the follicle barely warms and the dose never builds. On face/neck this sub-threshold heat can even trigger paradoxical regrowth.'}
+};
+const QUOTES=[
+ {q:'Repeated and fast emission of pulses of low energy progressively heats the chromophore to temperatures of 45–50° over a period of time and safeguards the epidermis from overheating as opposed to a sudden rise in temperature to 65° in conventional systems.',s:'Arsiwala & Majid 2019 — progressive photothermolysis',u:'https://ijdvl.com/methods-to-overcome-poor-responses-and-challenges-of-laser-hair-removal-in-dark-skin/'},
+ {q:'The follicle’s thermal damage time is the amount of time required for diffusion of delivered laser energy from the treated hair to follicular-associated hair stem cells. This can range from 170 to 1000 msec.',s:'Rogachefsky 2002 — thermal damage time',u:'https://pubmed.ncbi.nlm.nih.gov/12030874/'},
+ {q:'Suitably brief pulses of selectively absorbed optical radiation can cause selective damage to pigmented structures.',s:'Anderson & Parrish 1983 — selective photothermolysis (the founding theory)',u:'https://pubmed.ncbi.nlm.nih.gov/6836297/'},
+ {q:'A novel diode laser with low level fluence (5–10 J/cm²) with a high repetition rate at 10 Hz… was found to be comparable with a 86–91% hair reduction [vs. traditional high-fluence single pass].',s:'Braun 2009 — SHR vs. single-pass',u:'https://pubmed.ncbi.nlm.nih.gov/19916262/'},
+ {q:'The long-term depilation effect was better explained by induced apoptotic cell death in the follicles rather than any other mechanism.',s:'Omi 2017 — histology of dynamic vs. static mode',u:'https://pmc.ncbi.nlm.nih.gov/articles/PMC5515709/'},
+ {q:'Delay times between sequential pulses are routinely 10 to 12 ms to accommodate epidermal TRT… a 20-to-40 ms delay is advised for patients with darker skin types.',s:'StatPearls — IPL therapy',u:'https://www.ncbi.nlm.nih.gov/books/NBK580525/'}
+];
+const SOURCES=[
+ ['s1','Anderson RR, Parrish JA. Selective photothermolysis. <i>Science</i> 1983.','https://pubmed.ncbi.nlm.nih.gov/6836297/'],
+ ['s2','Kono T, et al. Theoretical review of pigmented lesion treatment in Asian skin. <i>Laser Ther</i> 2016 — basal-layer TRT 1.6–2.8 ms.','https://pmc.ncbi.nlm.nih.gov/articles/PMC5108992/'],
+ ['s3','Gade A, et al. Intense Pulsed Light (IPL) Therapy. <i>StatPearls</i> 2024 — inter-pulse delay 10–12 ms (20–40 ms darker skin); epidermal ceiling.','https://www.ncbi.nlm.nih.gov/books/NBK580525/'],
+ ['s4','Byalakere Shivanna C, et al. FRAC3 vs long-pulse Nd:YAG hair removal. <i>J Cosmet Dermatol</i> 2022 — hair-shaft TRT 10–100 ms.','https://pmc.ncbi.nlm.nih.gov/articles/PMC9541334/'],
+ ['s5','Goel A, Rai K. Facial laser hair reduction. <i>J Clin Aesthet Dermatol</i> 2022 — terminal-follicle TRT 10–50 ms.','https://pmc.ncbi.nlm.nih.gov/articles/PMC9239120/'],
+ ['s6','Bhat YJ, et al. Laser treatment in hirsutism. <i>Dermatol Pract Concept</i> 2020 — terminal-hair TRT ≈100 ms.','https://pmc.ncbi.nlm.nih.gov/articles/PMC7190465/'],
+ ['s7','Altshuler GB, et al. Extended theory of selective photothermolysis. <i>Lasers Surg Med</i> 2001 — Thermal Damage Time.','https://jcasonline.com/thermal-kinetic-selectivity-and-lasers/'],
+ ['s8','Rogachefsky AS, et al. Super-long-pulsed 810 nm diode & the concept of thermal damage time. <i>Dermatol Surg</i> 2002 — TDT 170–1000 ms; optimal ≈400 ms.','https://pubmed.ncbi.nlm.nih.gov/12030874/'],
+ ['s9','Ataie-Fashtami L, et al. Simulation of diode hair-removal thermal damage. <i>Photomed Laser Surg</i> 2011 — narrower 200–400 ms TDT for hair.','https://pubmed.ncbi.nlm.nih.gov/21417915/'],
+ ['s10','Arsiwala SZ, Majid IM. Overcoming poor responses in dark skin. <i>IJDVL</i> 2019 — progressive photothermolysis (45–50 °C).','https://ijdvl.com/methods-to-overcome-poor-responses-and-challenges-of-laser-hair-removal-in-dark-skin/'],
+ ['s11','Braun M. Low fluence high rep-rate vs high fluence low rep-rate 810 nm diode. <i>J Drugs Dermatol</i> 2009 — 86–91%, comparable.','https://pubmed.ncbi.nlm.nih.gov/19916262/'],
+ ['s12','Omi T. Static vs dynamic 810 nm diode hair removal. <i>Laser Ther</i> 2017 — no significant difference; apoptosis mechanism.','https://pmc.ncbi.nlm.nih.gov/articles/PMC5515709/'],
+ ['s13','Koo B, et al. Low-fluence multi-pass vs high-fluence single-pass 810 diode. <i>Lasers Surg Med</i> 2014.','https://pubmed.ncbi.nlm.nih.gov/24752608/'],
+ ['s14','Li W, et al. SHR vs HR 810 nm diode, axillary hair. <i>J Cosmet Laser Ther</i> 2016 — 90.2% vs 87%; less pain.','https://pubmed.ncbi.nlm.nih.gov/27419804/'],
+ ['s15','Wanitphakdeedecha R, et al. Diode SHR vs Nd:YAG single-pass. <i>JEADV</i> 2012 — Nd:YAG won (54.2% vs 35.7%).','https://pubmed.ncbi.nlm.nih.gov/21923659/'],
+ ['s16','Barolet D. Low-fluence high-rep diode, 12-month. <i>Lasers Surg Med</i> 2012 — 15 J/cm² @5 Hz, significant permanent reduction.','https://pubmed.ncbi.nlm.nih.gov/22437967/'],
+ ['s17','Wheeland RG. Home 810 nm laser dose-response. 2012 — 7/12/20 J/cm² → 44/49/65% at 12 mo.','https://pubmed.ncbi.nlm.nih.gov/22886431/'],
+ ['s18','Ulike Air 10 official specs (dual xenon, up to 4 flashes, ~26 J burst, sapphire cooling) & third-party technical review.','https://www.scienceoverfluff.com/p/ulike-technical-review-and-results']
+];
+
+/* ---------- thermal model ----------
+   Lumped 3-node explicit integrator (dt = 0.5 ms). Absolute °C, baseline 35.
+   Nodes: epidermis (Te), follicle/bulb = melanin heater (Tf), bulge stem cells (Tbg, driven only by diffusion from Tf).
+   Calibrated so a single ~6 J/cm² flash on dark hair drives the follicle to ~68 °C — the classic coagulation figure. */
+const Tb=35, DT=0.5;                       // baseline °C, timestep ms
+const AF0=5.0, AE0=3.4;                     // heating coefficients (°C per J/cm² of retained energy)
+const TAU_EFAST=8, TAU_ECOOL=45, ESINK=22; // epidermis: fast diffusion to body temp; slow extraction to cold plate
+const TAU_DIFF=120, TAU_BG=500;            // follicle->bulge diffusion & bulge hold time constants (ms) -> sets TDT window
+const T_COAG=65, T_SUSTAIN=45, T_EPI_DANGER=65, T_EPI_WARN=58;
+const DOSE_THRESH=6;                        // illustrative °C·s of deep-target heat above 40° for "meaningful" damage
+const SKIN_MEL=[null,0.5,0.7,1.0,1.35,1.7,2.1];  // Fitzpatrick I..VI epidermal absorption multiplier
+
+function hairParams(h){                     // h: 0..100 slider
+  const x=h/100;
+  return {mF:0.45+1.15*x,            // melanin/absorption 0.45..1.6
+          tauF:15+80*x};             // follicle TRT 15..95 ms
+}
+function simulate(p){
+  const hp=hairParams(p.hair);
+  const mE=SKIN_MEL[p.skin]||1, aF=AF0*hp.mF, aE=AE0*mE, tauF=hp.tauF;
+  const total=p.n*p.dur+(p.n-1)*p.gap;      // active+gaps
+  const tEnd=Math.max(650, total+700);      // let the bulge finish rising/falling
+  const steps=Math.ceil(tEnd/DT);
+  // flash windows (start,end) in ms
+  const fl=[]; for(let k=0;k<p.n;k++){const s=k*(p.dur+p.gap); fl.push([s,s+p.dur]);}
+  let Te=Tb,Tf=Tb,Tbg=Tb, doseBg=0, peakTf=Tb,peakTe=Tb,peakTbg=Tb, secAbove=0;
+  const arr={t:[],Te:[],Tf:[],Tbg:[]};
+  const sampleEvery=Math.max(1,Math.round(steps/520));  // ~520 plot points
+  for(let i=0;i<=steps;i++){
+    const t=i*DT;
+    // heating: any active flash deposits energy over its duration
+    let onFlux=0; for(const f of fl){ if(t>=f[0]&&t<f[1]){onFlux=1;break;} }
+    if(onFlux){ Te+=aE*p.flu/p.dur*DT; Tf+=aF*p.flu/p.dur*DT; }
+    // cooling / diffusion (explicit Euler)
+    Te+= -(Te-Tb)/TAU_EFAST*DT;                 // fast diffusion to adjacent tissue (~body temp)
+    if(p.cool) Te+= -(Te-ESINK)/TAU_ECOOL*DT;   // extra extraction to the sapphire/ice plate
+    Tf+= -(Tf-Tb)/tauF*DT;
+    Tbg+= ((Tf-Tbg)/TAU_DIFF - (Tbg-Tb)/TAU_BG)*DT;
+    if(Te<ESINK)Te=ESINK;
+    // cumulative thermal exposure of the deep target: area above 40 °C (°C·s), illustrative
+    if(Tbg>40) doseBg += (Tbg-40)*(DT/1000);
+    if(Tbg>=T_SUSTAIN) secAbove+=DT/1000;
+    if(Tf>peakTf)peakTf=Tf; if(Te>peakTe)peakTe=Te; if(Tbg>peakTbg)peakTbg=Tbg;
+    if(i%sampleEvery===0){arr.t.push(t);arr.Te.push(Te);arr.Tf.push(Tf);arr.Tbg.push(Tbg);}
+  }
+  return {arr,fl,tEnd,peakTf,peakTe,peakTbg,doseBg,secAbove,
+          totalE:p.n*p.flu, aF,aE,tauF};
+}
+
+/* ---------- rendering ---------- */
+const $=id=>document.getElementById(id);
+function fmt(x,d=0){return x.toFixed(d);}
+function clamp(x,a,b){return Math.max(a,Math.min(b,x));}
+
+function draw(sim, simCmp){
+  const W=980,H=420,padL=52,padR=170,padT=18,padB=46;
+  const ymin=18, ymax=Math.max(80, Math.ceil((Math.max(sim.peakTf,simCmp?simCmp.peakTf:0)+6)/5)*5);
+  const tEnd=sim.tEnd;
+  const X=t=>padL+(W-padL-padR)*(t/tEnd);
+  const Y=T=>H-padB-(H-padB-padT)*((T-ymin)/(ymax-ymin));
+  let s='';
+  // danger zone (epidermal) shading
+  s+=`<rect x="${padL}" y="${Y(ymax)}" width="${W-padL-padR}" height="${Y(T_EPI_DANGER)-Y(ymax)}" fill="#c0392b" opacity="0.05"/>`;
+  // y gridlines
+  for(let T=20;T<=ymax;T+=10){const y=Y(T); s+=`<line x1="${padL}" y1="${y}" x2="${W-padR}" y2="${y}" stroke="#eef0f2"/><text x="${padL-8}" y="${y+4}" font-size="10.5" fill="#6b7280" text-anchor="end">${T}°</text>`;}
+  // threshold lines
+  s+=`<line x1="${padL}" y1="${Y(T_COAG)}" x2="${W-padR}" y2="${Y(T_COAG)}" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6 4"/><text x="${W-padR-4}" y="${Y(T_COAG)-5}" font-size="10.5" fill="#c0392b" text-anchor="end" font-weight="700">follicle coagulation ≈65° · epidermal burn zone</text>`;
+  s+=`<line x1="${padL}" y1="${Y(T_SUSTAIN)}" x2="${W-padR}" y2="${Y(T_SUSTAIN)}" stroke="#d9a441" stroke-width="1.6" stroke-dasharray="6 4"/><text x="${W-padR-4}" y="${Y(T_SUSTAIN)-5}" font-size="10.5" fill="#b5852a" text-anchor="end" font-weight="700">sustained-damage floor ≈45°</text>`;
+  // x axis ticks
+  const xt = tEnd<=800?200 : tEnd<=2000?500 : 1000;
+  for(let t=0;t<=tEnd;t+=xt){const x=X(t); s+=`<line x1="${x}" y1="${H-padB}" x2="${x}" y2="${H-padB+4}" stroke="#9aa3b2"/><text x="${x}" y="${H-padB+18}" font-size="10.5" fill="#6b7280" text-anchor="middle">${t>=1000?(t/1000)+'s':t+'ms'}</text>`;}
+  s+=`<text x="${(padL+W-padR)/2}" y="${H-6}" font-size="11" fill="#6b7280" text-anchor="middle">time since first flash</text>`;
+  s+=`<text x="14" y="${(padT+H-padB)/2}" font-size="11" fill="#6b7280" text-anchor="middle" transform="rotate(-90 14 ${(padT+H-padB)/2})">temperature (°C)</text>`;
+  // flash markers
+  for(const f of sim.fl){const x=X(f[0]); s+=`<rect x="${x}" y="${H-padB-6}" width="${Math.max(1.5,X(f[1])-X(f[0]))}" height="6" fill="#c0392b" opacity="0.55"/>`;}
+  // baseline
+  s+=`<line x1="${padL}" y1="${Y(Tb)}" x2="${W-padR}" y2="${Y(Tb)}" stroke="#c9ccd2" stroke-width="1" stroke-dasharray="2 3"/>`;
+  // helper to build a polyline path
+  const path=(xs,ys)=>{let d='';for(let i=0;i<xs.length;i++){d+=(i?'L':'M')+X(xs[i]).toFixed(1)+' '+Y(clamp(ys[i],ymin,ymax)).toFixed(1)+' ';}return d;};
+  // comparison single-flash follicle (behind)
+  if(simCmp){s+=`<path d="${path(simCmp.arr.t,simCmp.arr.Tf)}" fill="none" stroke="#9aa3b2" stroke-width="2" stroke-dasharray="3 4"/>`;}
+  // the three curves
+  s+=`<path d="${path(sim.arr.t,sim.arr.Tbg)}" fill="none" stroke="#16a34a" stroke-width="2.6"/>`;
+  s+=`<path d="${path(sim.arr.t,sim.arr.Te)}" fill="none" stroke="#2563eb" stroke-width="2.4"/>`;
+  s+=`<path d="${path(sim.arr.t,sim.arr.Tf)}" fill="none" stroke="#c0392b" stroke-width="3"/>`;
+  // peak dots + labels
+  const lastI=sim.arr.t.length-1;
+  s+=`<circle cx="${X(sim.arr.t[lastI])}" cy="${Y(clamp(sim.arr.Tbg[lastI],ymin,ymax))}" r="3.5" fill="#16a34a"/>`;
+  el_chart_html(s);
+}
+function el_chart_html(s){$('chart').innerHTML=s;}
+
+function verdict(sim){
+  const coag = sim.peakTf>=T_COAG;
+  const dose = sim.doseBg>=DOSE_THRESH;
+  const partialDose = sim.doseBg>=DOSE_THRESH*0.4;
+  const warmFollicle = sim.peakTf>=52;
+  let cls,head,lines=[];
+  if(coag){cls='yes';head='✓ Likely meaningful follicle damage — via the peak (coagulation) pathway';
+    lines.push('The follicle peaks at '+fmt(sim.peakTf)+'° — past the ~65° coagulation threshold. A single strong flash denatures follicular protein directly.');}
+  else if(dose){cls='yes';head='✓ Likely meaningful damage — via the accumulation (SHR) pathway';
+    lines.push('The follicle never spikes high (peak '+fmt(sim.peakTf)+'°, comfortable), but successive flashes keep the deep target above the sustained-damage floor long enough that the cumulative dose ('+fmt(sim.doseBg,1)+' units) clears threshold. This is exactly how SHR is meant to work — gentle peak, damaging dose.');}
+  else if(coag===false && partialDose && warmFollicle){cls='partial';head='◐ Borderline for this single exposure';
+    lines.push('Peak ('+fmt(sim.peakTf)+'°) is below coagulation and the accumulated dose ('+fmt(sim.doseBg,1)+' units) is only partway to threshold. One pass like this drives thinning/miniaturization and delay rather than dependable destruction — tighten the gap, add flashes, or raise fluence to push it over.');
+    lines.push('Real-world home-device reduction (≈50–75%) accrues over many passes across 8–12 sessions — this model shows the thermal load of a <b>single</b> exposure, which is why "borderline" here is normal, not a dead end.');}
+  else {cls='no';head='✗ Sub-threshold for this exposure';
+    lines.push('Neither pathway reaches threshold on this pass: peak '+fmt(sim.peakTf)+'°, accumulated dose '+fmt(sim.doseBg,1)+' units. The energy is too low, too spread out in time, or the hair too fine to build damaging heat here.');
+    lines.push('This models one exposure. Home SHR devices lean on <b>repetition</b> — many overlapping passes per session, 8–12 sessions, plus a possible non-thermal apoptotic pathway (Omi 2017) — so gentle-per-flash is by design. But note the flip side: ⚠ sub-threshold heat on hormonal areas (face/neck) can provoke <b>paradoxical regrowth</b>, so "barely warm" is not automatically safe there.');}
+  // safety line
+  if(sim.peakTe>=T_EPI_DANGER)lines.push({w:'⚠ Epidermis peaks at '+fmt(sim.peakTe)+'° — in the burn / pigment-change zone. Lower fluence, lengthen the pulse, or keep contact cooling on.'});
+  else if(sim.peakTe>=T_EPI_WARN)lines.push('Epidermis peaks at '+fmt(sim.peakTe)+'° — warm but under the burn zone.');
+  else lines.push('Epidermis stays safe (peak '+fmt(sim.peakTe)+'°).');
+  const v=$('verdict'); v.className='verdict '+cls;
+  v.innerHTML='<b>'+head+'</b>'+lines.map(l=>typeof l==='string'?`<div class="line">${l}</div>`:`<div class="line warn">${l.w}</div>`).join('');
+}
+
+function gauges(sim){
+  // follicle peak
+  $('pf').textContent=fmt(sim.peakTf)+'°C';
+  $('pf').style.color = sim.peakTf>=T_COAG?'var(--good)':sim.peakTf>=52?'var(--amber)':'var(--muted)';
+  $('pfcap').textContent = sim.peakTf>=T_COAG?'≥65° — coagulation reached':'below 65° coagulation';
+  $('pfbar').style.width=clamp(sim.peakTf/80*100,2,100)+'%';
+  $('pfbar').style.background = sim.peakTf>=T_COAG?'var(--good)':sim.peakTf>=52?'var(--amber)':'#c9ccd2';
+  // dose
+  const dpct=sim.doseBg/DOSE_THRESH*100;
+  $('pd').textContent=fmt(dpct)+'%';
+  $('pd').style.color = dpct>=100?'var(--good)':dpct>=40?'var(--amber)':'var(--muted)';
+  $('pdcap').textContent='of illustrative damage threshold';
+  $('pdbar').style.width=clamp(dpct,2,100)+'%';
+  $('pdbar').style.background = dpct>=100?'var(--good)':dpct>=40?'var(--amber)':'#c9ccd2';
+  // epidermis
+  $('pe').textContent=fmt(sim.peakTe)+'°C';
+  $('pe').style.color = sim.peakTe>=T_EPI_DANGER?'var(--accent)':sim.peakTe>=T_EPI_WARN?'var(--amber)':'var(--good)';
+  $('pecap').textContent = sim.peakTe>=T_EPI_DANGER?'burn / pigment-risk zone':'within safe range';
+  $('pebar').style.width=clamp(sim.peakTe/80*100,2,100)+'%';
+  $('pebar').style.background = sim.peakTe>=T_EPI_DANGER?'var(--accent)':sim.peakTe>=T_EPI_WARN?'var(--amber)':'var(--good)';
+  // total energy
+  $('pt').textContent=fmt(sim.totalE,1)+' J/cm²';
+}
+
+function cmpVerdict(p,sim,simCmp){
+  if(!simCmp){
+    $('cmpverdict').innerHTML = p.n<=1
+      ? '<b>You’re already on a single flash.</b> Raise the flash count (and keep "compare" on) to pit a multi-flash train against one flash of the same total energy.'
+      : '<b>Turn on "compare against a single flash"</b> to see the tradeoff: the same total energy (<b>'+fmt(sim.totalE,1)+' J/cm²</b>) spent as one flash instead of '+p.n+' small ones.';
+    return;
+  }
+  const single=simCmp.peakTf, multi=sim.peakTf;
+  const dsingle=simCmp.doseBg, dmulti=sim.doseBg;
+  const cmpFlu=Math.min(8,sim.totalE), capped=sim.totalE>8;
+  let msg=`<b>Your ${fmt(sim.totalE,1)} J/cm² total, two ways.</b> `;
+  msg+=`As one flash${capped?` (a real device tops out ~8 J/cm², so capped there)`:``} → follicle <b>${fmt(single)}°</b> (dose ${fmt(dsingle,1)}); as your ${p.n} small flashes → peak <b>${fmt(multi)}°</b> (dose ${fmt(dmulti,1)}). `;
+  if(single>=T_COAG && multi<T_COAG){
+    msg+=`Here the <b>single flash wins on the peak pathway</b> — splitting the energy dropped the follicle below coagulation. Splitting only pays off if the accumulated dose makes up the difference (it ${dmulti>=DOSE_THRESH?'does':'does not'} here).`;
+  } else if(multi>=T_COAG || dmulti>dsingle*1.15){
+    msg+=`Here splitting <b>helps the accumulation pathway</b> — the deep-target dose is higher across many flashes than in one shot, the SHR rationale. Comfort is better too (lower peak).`;
+  } else {
+    msg+=`The two are close. When peaks and doses tie, pick the single flash for simplicity and dose reliability, or the split for comfort — that's the honest state of the evidence (SHR trials mostly show <i>comparable</i> efficacy, less pain).`;
+  }
+  $('cmpverdict').innerHTML=msg;
+}
+
+/* ---------- wire up ---------- */
+function readParams(){
+  return {gap:+$('gap').value,n:+$('n').value,flu:+$('flu').value,dur:+$('dur').value,
+          skin:+$('skin').value,hair:+$('hair').value,cool:$('cool').checked,cmp:$('cmp').checked};
+}
+const FITZ=['','I (very fair)','II (fair)','III (medium)','IV (olive)','V (brown)','VI (deep)'];
+function hairLbl(h){return h<25?'fine / light':h<50?'medium':h<80?'coarse / dark':'very coarse / black';}
+function run(){
+  const p=readParams();
+  // labels
+  $('v_gap').textContent=p.gap+' ms'+(p.gap<100?'  ⚡stacks':p.gap>200?'  ✕resets':'');
+  $('v_n').textContent=p.n+(p.n===1?' flash':' flashes');
+  $('v_flu').textContent=fmt(p.flu,1)+' J/cm²';
+  $('v_dur').textContent=p.dur+' ms';
+  $('v_skin').textContent=FITZ[p.skin];
+  $('v_hair').textContent=hairLbl(p.hair);
+  $('cmpleg').style.display=(p.cmp && p.n>1)?'inline-flex':'none';
+  const sim=simulate(p);
+  // comparison = one flash carrying the same TOTAL energy, capped at a device-plausible 8 J/cm²
+  const cmpFlu = Math.min(8, p.n*p.flu);
+  const simCmp = (p.cmp && p.n>1) ? simulate({...p,n:1,flu:cmpFlu}) : null;
+  draw(sim,simCmp);
+  gauges(sim);
+  verdict(sim);
+  cmpVerdict(p,sim,simCmp);
+}
+function setPreset(key){
+  const P=PRESETS[key];
+  $('gap').value=P.gap;$('n').value=P.n;$('flu').value=P.flu;$('dur').value=P.dur;
+  $('skin').value=P.skin;$('hair').value=P.hair;$('cool').checked=P.cool;$('cmp').checked=P.cmp;
+  document.querySelectorAll('#presets button').forEach(b=>b.classList.toggle('active',b.dataset.k===key));
+  $('presetnote').textContent=P.note;
+  run();
+}
+// build presets
+$('presets').innerHTML=Object.entries(PRESETS).map(([k,P])=>`<button data-k="${k}">${P.label}<small>${P.sub}</small></button>`).join('');
+document.querySelectorAll('#presets button').forEach(b=>b.onclick=()=>setPreset(b.dataset.k));
+['gap','n','flu','dur','skin','hair'].forEach(id=>$(id).oninput=run);
+['cool','cmp'].forEach(id=>$(id).onchange=run);
+// research render
+$('quotes').innerHTML=QUOTES.map(q=>`<div class="quote"><p>“${q.q}”</p><div class="src">— <a href="${q.u}" target="_blank" rel="noopener">${q.s}</a></div></div>`).join('');
+$('sources').innerHTML=SOURCES.map(([id,txt,u])=>`<li id="${id}">${txt} <a href="${u}" target="_blank" rel="noopener">↗</a></li>`).join('');
+// go
+setPreset('ulike_shr');
+</script>
+</body>
+</html>
