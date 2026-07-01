@@ -41,7 +41,7 @@
 
 <!-- bar 4: hypothetical true stacking -->
 <rect x="726.25" y="49.4" width="102.5" height="200.6" rx="4" fill="none" stroke="#9aa3b2" stroke-width="2" stroke-dasharray="6 5"/>
-<text x="777.5" y="39.4" font-size="13" font-weight="800" fill="#6b7280" text-anchor="middle">≈18.2</text>
+<text x="777.5" y="90" font-size="13" font-weight="800" fill="#6b7280" text-anchor="middle">≈18.2</text>
 <text x="777.5" y="266" font-size="10.5" fill="#6b7280" text-anchor="middle">"If 3 flashes truly</text>
 <text x="777.5" y="279" font-size="10.5" fill="#6b7280" text-anchor="middle">stacked independently"</text>
 

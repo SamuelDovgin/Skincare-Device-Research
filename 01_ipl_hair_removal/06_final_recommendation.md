@@ -308,3 +308,49 @@ Ask every seller, verbatim:
 
 ### Safety note specific to this plan
 Single-pulse pigment targeting is also where IPL's PIH risk is highest (doc 07). For discrete sun spots on lighter (Fitzpatrick I–III) skin it is a legitimate, effective technique; on pigment-prone skin the same single pulse that clears a lentigo can trigger post-inflammatory hyperpigmentation. Patch test, start low, and re-read doc 07 before treating the face.
+
+---
+
+## Patents behind these devices
+
+Two research passes (Google Patents assignee search + CNIPA/company-site cross-checks) turned up the foundational IPL patents this whole category descends from, plus what could actually be verified for the specific OEM brands recommended above. The honest picture: the foundational science has strong, well-documented patents; the cheap Chinese OEM brands mostly don't — which is itself a useful data point when weighing "branded vs OEM."
+
+### US 5,405,368 A — Method and apparatus for therapeutic electromagnetic treatment
+- **Assignee:** ESC Inc. (later ESC Medical Systems → Lumenis Ltd.); inventor Shimon Eckhouse, credited with writing the first patent describing broadband IPL in detail.
+- **Discloses:** Variable-iris exposure area, skin energy densities 6–20 J/cm², flashlamp linear energy density 100–300 J/cm, water cooling for high-repetition use, 500–650nm optical filtering for oxyhemoglobin targeting, variable pulse-width circuit spanning 10⁻⁵–10⁻¹s — the broadband-flashlamp foundation ESC's EpiLight/PhotoDerm hair-removal products (and by extension the whole home-IPL category) trace to.
+- **Link:** https://patents.google.com/patent/US5405368A/en
+- **Mirrored PDF:** patents_source_docs/us-patent-5405368-esc-broadband-ipl.pdf
+
+### US 8,950,406 B2 — Method and apparatus for light-based hair removal
+- **Assignee:** Alma Lasers Ltd.
+- **Discloses:** The more IPL-specific successor to the laser-centric foundational patents below — coherent-or-incoherent light 750–1500nm (optimal 780–1000nm), band-pass/low-pass filtering, 3–20 J/cm² fluence, rapid low-fluence pulse trains, optional contact/spray cooling. A closer match to "filtered broadband flashlamp" than US 5,735,844 A, which is laser-centric despite being the more historically cited hair-removal patent.
+- **Link:** https://patents.google.com/patent/US8950406B2/en
+- **Mirrored PDF:** patents_source_docs/us-patent-8950406-alma-lasers-ipl.pdf
+
+### US 5,735,844 A — Hair removal using optical pulses
+- **Assignee:** The General Hospital Corporation (Massachusetts General Hospital); exclusively licensed to Palomar Medical Technologies in 1995.
+- **Discloses:** Beam ≥8mm, treatment area 0.75–1cm² for multi-follicle single-shot destruction, fluence 10–200 J/cm² (preferred 30–50), sapphire contact cooled 4–15°C, 680–1200nm targeting melanin while avoiding water/hemoglobin bands. The single most consequential hair-removal patent in the industry's licensing history — Palomar successfully defended it in USPTO re-examination and licensed it to Cynosure, Candela, Syneron, Laserscope, and Cutera. Caveat: its specification is laser-centric (ruby/alexandrite/Nd:YAG/diode), not explicitly broadband-flashlamp — foundational to light-based hair removal broadly, not IPL specifically (see US 8,950,406 B2 above for the closer IPL match).
+- **Link:** https://patents.google.com/patent/US5735844A/en
+- **Mirrored PDF:** patents_source_docs/us-patent-5735844-anderson-hair-removal.pdf
+
+### CN 216820441 U — 一种脱毛机的散热装置 (Heat dissipation device for a hair removal machine)
+- **Assignee:** Shenzhen Fansizhe Science And Technology Co., Ltd.
+- **Discloses:** Parallel L-shaped heat pipes (ultrapure-water + copper-powder inner-wall coating) conducting heat from a Peltier cooler's hot side to a finned radiator. A genuine Fansizhe-specific utility patent — but on thermal management, not on the optical/filter/fluence design that actually determines treatment output.
+- **Link:** https://patents.google.com/patent/CN216820441U/zh
+
+### EP 4,205,708 B1 — Skin care assembly
+- **Assignee:** Shenzhen Ulike Smart Electronics Co., Ltd.
+- **Discloses:** Sapphire cold-compress member (350–450mm² contact surface) with Peltier-effect thermoelectric refrigeration maintaining 15–45°C during treatment, aluminum heat-dissipation member with integrated heat pipes, accommodating an opposite phototherapeutic light source. This is the real technical patent behind Ulike's marketed "Sapphire Ice-Cooling Technology" — the most substantive OEM-brand patent found across this whole search.
+- **Link:** https://patents.google.com/patent/EP4205708B1/en
+
+### USD 1,123,247 — Hair remover (design patent)
+- **Assignee:** Shenzhen Semlamp Intelligent Technology Co., Ltd.
+- **Discloses:** Ornamental design only (device shape/appearance) — no functional or optical claims. Semlamp's own site separately announced an "appearance design patent" for a handheld beauty device (likely covering the SL-B136 skin-tone-sensor variant), but no patent number for that specific claim could be located despite checking Google Patents, CNIPA, and the company's own site.
+- **Link:** https://patents.google.com/patent/USD1123247S1/en
+
+### USD 1,018,981 — Hair removal device (design patent)
+- **Assignee:** Shenzhen Beauty Every Moment Intelligent Electric Co., Ltd. — the manufacturer independently linked to Nood's "Flasher 2.0" via FDA MAUDE adverse-event records (same manufacturer holds FDA 510(k) K211922 for an IPL hair-removal device).
+- **Discloses:** Ornamental design only; cannot be confirmed to depict the exact Flasher 2.0 model (design patents don't name products). **Nood itself holds no patent** — its marketing describes the Flasher 2.0 as "patent-pending" only, with no granted patent found under the Nood/Nood Ventures name.
+- **Link:** https://patents.google.com/patent/USD1018981S1/en
+
+**Not found despite real effort:** a granted, numbered patent for Semlamp's SL-B136 "appearance patent" claim; any Ulike/Nood/Fansizhe patent on the actual flashlamp/filter/pulse-control design (as opposed to cooling or ornamental design) — consistent with this repo's broader finding that OEM/ODM IPL factories tend to have thin or unpatented core optical designs, licensing or copying the foundational physics above instead.

@@ -376,13 +376,21 @@ Cumulative dose:  home (open-ended, painless, single-λ, manual)
 
 ## 9. Patents referenced in this analysis
 
-Patents came up twice in this research: once as the *only* primary source for Tria's pulse rate (no FDA filing or IFU states it), and once as a 3D-scan source for facial surface area. Listed here with what each actually discloses, so a future pass doesn't have to re-derive it:
+Patents came up twice in this research: once as the *only* primary source for Tria's pulse rate (no FDA filing or IFU states it), and once as a 3D-scan source for facial surface area. Each is listed below in the repo's standard patent-block format (machine-readable — `tools/apply_patents_section.py` aggregates these into the folder's viewable **Patents** page in the sidebar), followed by what each actually discloses so a future pass doesn't have to re-derive it.
 
-| Patent | Assignee | What it discloses | Used for |
-|---|---|---|---|
-| [**US 9,308,390 B2**](https://patents.google.com/patent/US9308390B2/en) — "Devices and methods for radiation-based dermatological treatments" | **Tria Beauty, Inc.** (confirmed via Google Patents assignee history) | Pulse rate embodiments: "0.5–75 Hz," "2–30 Hz," "10–20 Hz, e.g., about 15 Hz"; pulse energy "2–30 mJ" / "5–20 mJ" / "10–15 mJ"; a 4-minute session "effective for about 300 cm², e.g., full-face"; the 0.25–5% home-use coverage envelope already cited in §3b | §3b (coverage envelope) and §3d (Tria's independently-derived total-J estimate) |
-| [**US 11,058,207**](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11058207) — "Precision applicator" | (face-measurement/applicator patent) | 3D facial scan data: **371.1 cm²** face surface area including eyes/mouth, **343.1 cm²** excluding eyes/nostrils/mouth | §3d (cross-check for the ~400 cm² full-face-area assumption used throughout §3b/§3d) |
-| ~~US 7,703,458 / US 8,474,463~~ — explicitly **NOT used** | **Cutera, Inc.** — an unrelated company | A more specific-looking "12 Hz max, 2–7 Hz typical, ~400–500 pulses/zone, ~7,000 pulses full-face" figure traces to *these* Cutera patents, not Tria. Flagged here so it doesn't get misattributed to Tria in a future pass. | — (deliberately excluded) |
+### US 9,308,390 B2 — Devices and methods for radiation-based dermatological treatments
+- **Assignee:** Tria Beauty, Inc. (confirmed via Google Patents assignee history)
+- **Discloses:** Pulse rate embodiments: "0.5–75 Hz," "2–30 Hz," "10–20 Hz, e.g., about 15 Hz"; pulse energy "2–30 mJ" / "5–20 mJ" / "10–15 mJ"; a 4-minute session "effective for about 300 cm², e.g., full-face"; the 0.25–5% home-use coverage envelope already cited in §3b. Used for §3b (coverage envelope) and §3d (Tria's independently-derived total-J estimate).
+- **Link:** https://patents.google.com/patent/US9308390B2/en
+- **Mirrored PDF:** quantified_gap_source_docs/us-patent-9308390-tria-laser.pdf
+
+### US 11,058,207 — Precision applicator
+- **Assignee:** (face-measurement/applicator patent — assignee not a dermatology-device company; included for its measurement data, not its device)
+- **Discloses:** 3D facial scan data: **371.1 cm²** face surface area including eyes/mouth, **343.1 cm²** excluding eyes/nostrils/mouth. Used for §3d's cross-check of the ~400 cm² full-face-area assumption used throughout §3b/§3d.
+- **Link:** https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11058207
+- **Mirrored PDF:** quantified_gap_source_docs/us-patent-11058207-facial-surface-area.pdf
+
+**Explicitly NOT used:** US 7,703,458 / US 8,474,463 (assignee **Cutera, Inc.**, an unrelated company) — a more specific-looking "12 Hz max, 2–7 Hz typical, ~400–500 pulses/zone, ~7,000 pulses full-face" figure traces to *these* Cutera patents, not Tria. Flagged here so it doesn't get misattributed to Tria in a future pass; deliberately excluded from the block list above so the aggregator never picks it up.
 
 **Not located:** no patent or filing discloses a pulse repetition rate for Clear + Brilliant (its rep rate came from the Solta service manual and the NCT05027282 protocol — both primary, neither a patent — see §10), nor for PaloVia or the YDUNVIE/MimiSilk Iris family (their rep rates remain unconfirmed; §3d/§3b flag this explicitly rather than estimating one).
 

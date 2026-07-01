@@ -192,3 +192,27 @@ For **L1**, add: "Please confirm whether 190 mW/cm2 is measured with red+NIR on 
 12. **L9 - MINI60PRO standing**: not a single-unit purchase.
 
 My actual purchasing move: **buy L1**, message L2 in parallel, and only switch to L2 if the seller confirms the exact current RTL12-C variant with documented contact/3in irradiance. Of the added contenders, **L10 (Redfy)** is the one I'd keep on the shortlist as a value alternative — but only after it supplies a contact-distance irradiance reading, since that single missing number is what separates it from L1. **L12 (Ideatherapy RL-series)** is useful to track as an Idea Light/Ideatherapy red-NIR lamp option, but it is not IPL and does not have enough dose data to rank as a serious buy.
+
+---
+
+## Patents behind this category
+
+None of L1/L2/L7/L10/L11 (AZURETHERAPY, Ideatherapy, Redfy, SunPlus) hold any findable patent — checked directly against Google Patents under each brand and its identified manufacturer, plus the marketing claims themselves ("103 patents," "patents registered in 108 countries," etc.), none of which could be matched to an actual filing. This is the expected outcome for Shenzhen OEM/ODM panel resellers, not a research gap. What *does* exist, and is genuinely worth knowing, is where this whole device category's underlying technology comes from:
+
+### US 5,259,380 A — Light therapy system
+- **Assignee:** originally Amcor Electronics Ltd, now Syro Research & Development Technologies Ltd. Inventors Emanuel Mendes, Yonatan Lison. Priority Nov. 1987, granted Nov. 1993.
+- **Discloses:** LED array at 660nm±25 (red) or 940nm±25 (infrared), continuous or pulsed, 15 mW/cm² (red continuous) to 270mW peak (infrared pulsed), claiming skin-ulcer/post-op-wound/musculoskeletal treatment (89% improvement vs. 41% placebo cited in the specification). This is the strongest single candidate for "where this technology comes from" — 231 forward citations on Google Patents (the highest of any candidate checked), the earliest priority date of any candidate found, and claims that land almost exactly on the 660nm/850nm split this entire product category uses.
+- **Link:** https://patents.google.com/patent/US5259380A/en
+- **Mirrored PDF:** patents_source_docs/us-patent-5259380-mendes-led-light-therapy.pdf
+
+### US 7,744,590 B2 — Red to near-infrared photobiomodulation treatment of the visual system in visual system disease or injury
+- **Assignee:** Medical College of Wisconsin Research Foundation, Inc. — **not NASA**, despite this technology's "NASA LED" reputation. NASA (Marshall Space Flight Center) funded the underlying LED-array research via SBIR contracts to Quantum Devices Inc. and Dr. Harry Whelan's lab; the patent itself is held by the Medical College of Wisconsin. Inventors Janis T. Eells, Margaret T. T. Wong-Riley, Harry T. Whelan.
+- **Discloses:** 630–1000nm (preferred 670/830/880), 10–90 mW/cm² (preferred 25–50), 1–3 min/session, 0.5–20 J/cm². Mechanism: stimulating cytochrome-c-oxidase activity to restore mitochondrial ATP production. The clearest documented paper trail from the actual NASA-funded HEALS program into an issued patent — but correct the common "NASA patent" framing when citing this.
+- **Link:** https://patents.google.com/patent/US7744590B2/en
+
+### US 6,602,275 B1 — Device and method for therapeutic treatment of living organisms
+- **Assignee:** individual inventor Jana Sullivan (2000), later reassigned to Kevin Sullivan (2010) — not a company.
+- **Discloses:** Red 630nm + IR 880nm + blue 470nm + green 565nm + amber 590nm LED array, 10–30 W/cm² claimed, general wellness/wound/pain/"meridian" mechanism framing. 116 forward citations — second-strongest candidate by citation count, and arguably closer to the vague, broad "wellness" marketing language these Alibaba listings actually use than the more clinical Mendes/Lison patent above.
+- **Link:** https://patents.google.com/patent/US6602275B1/en
+
+**Corrections made during this research, worth remembering:** Baby Quasar is manufactured by Quasar Bio-Tech, Inc. (dba Silver Bay LLC) — not by Apira Science, despite shared "Quasar" branding; the two are unrelated companies. US 9,308,389 B2 ("Light therapy apparatus and methods") is *not* an Apira Science patent — it belongs to Biolux Research Holdings (intra-oral light therapy), an unrelated field. Photomedex's real product line (XTRAC) is excimer-laser-based, not LED — no Photomedex LED patent was found. Apira Science does hold **US 2014/0350643 A1** ("Phototherapy apparatus for skin treatment," red/yellow/blue/green/IR wearable LED array), but it's a published application that went abandoned, not a granted patent.

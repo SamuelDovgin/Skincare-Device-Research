@@ -115,6 +115,25 @@ For **pigment/PIH/brightness**, the right physics is **1927nm fractional** (Perm
 
 ---
 
+## 8. The patent behind "fractional" itself
+
+Every device on this page — Clear + Brilliant, Fraxel, Tria, PaloVia, YDUNVIE — implements the same underlying concept: fractional photothermolysis, treating only a fraction of the skin surface in a grid of microscopic injury columns. That concept has a real, specific, foundational patent, not just Manstein's well-known 2004 paper.
+
+### US 6,997,923 B2 — Method and apparatus for EMR treatment
+- **Assignee:** The General Hospital Corporation (Massachusetts General Hospital) + Palomar Medical Technologies, Inc.
+- **Discloses:** Concentrating radiation into discrete 3-D "treatment portions" (islands of thermal damage) within untreated tissue, with a treatment-to-total-volume "fill factor" of 0.1–90% (preferably <50%) — the patent-claim expression of the "microscopic treatment zone" concept. Filed Dec. 2001 (priority Dec. 2000), granted Feb. 2006. Co-inventor **Dieter Manstein** (with R. Rox Anderson and Gregory B. Altshuler) — the same Manstein whose 2004 paper is cited throughout this repo. Notably assigned to MGH + Palomar, not Reliant Technologies (maker of the original Fraxel) — a competing Reliant application on the same concept went abandoned, and the IP was later cross-licensed industry-wide via a "Fractional Technology Open Patent Program."
+- **Link:** https://patents.google.com/patent/US6997923B2/en
+- **Mirrored PDF:** patents_source_docs/us-patent-6997923-manstein-fractional-photothermolysis.pdf
+
+### US 8,475,507 B2 — Handheld apparatus for use by a non-physician consumer to fractionally resurface the skin of the consumer
+- **Assignee:** Solta Medical, Inc. Filed Feb. 2011, granted Jul. 2013. Inventors Dewey/Bradley/DeBenedictis.
+- **Discloses:** 1.42–1.45µm handheld consumer fractional device — matches the PaloVia/home-NAFL concept almost exactly, but postdates PaloVia's 2009 FDA submission by two years, so it's Solta's *next-generation* consumer patent, not PaloVia's original IP (PaloVia's own device traces to the same foundational US 6,997,923 B2 above, via co-assignee Palomar).
+- **Link:** https://patents.google.com/patent/US8475507B2/en
+
+**Not found:** any patent held by Jiangsu Unimed or under the "YDUNVIE" name — direct Google Patents queries (assignee-scoped and unscoped) for both names returned zero results. Only a USPTO *trademark* registration (Serial 88541477, for the YDUNVIE mark itself) exists. Consistent with this repo's broader pattern of Chinese OEM manufacturers skipping formal patent filings. (Tria's and Clear+Brilliant's own patents are cited in [08](08_clear_brilliant_quantified_gap.md) rather than repeated here.)
+
+---
+
 ### Sources (this brief)
 - [Clear + Brilliant Touch clinical protocol (NCT05027282)](https://clinicaltrials.gov/study/NCT05027282) — 1440/1927nm combination
 - [The 1440nm and 1927nm Nonablative Fractional Diode Laser — JDD review](https://jddonline.com/articles/article-the-1440-nm-and-1927-nm-nonablative-fractional-diode-laser-current-trends-and-future-directi-S1545961620S00s3X/) — depths, targets
