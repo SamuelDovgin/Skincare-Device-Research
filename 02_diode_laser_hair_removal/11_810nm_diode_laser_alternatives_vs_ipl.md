@@ -38,6 +38,8 @@ This is the most direct alternative to the used Precision.
 | Technology | 810 nm diode laser |
 | Fluence | Current manual: 7-20 J/cm2 |
 | Levels | 5 |
+| Pulse duration | **~300-350 ms** (long pulse; from patent US 7,250,045 — the 4X IFU omits it; NOT the "20 ms" of reviews) |
+| Peak optical power | ~46 W (patent worked example: 20 J/cm² in 350 ms at 46 W) |
 | Runtime | Tria product page says around 30 minutes per full charge |
 | Use plugged in | No |
 | Price | Current official retail page listed $599.99 |
@@ -295,7 +297,7 @@ All 16 US patents below share one assignment chain: **SpectraGenics Inc. → Tri
 - **Filed:** 2004-02-19
 - **Granted:** 2007-07-31 — **Expired** (2024-02-19)
 - **Assignee:** SpectraGenics, Inc. Inventors Tobin C. Island, Robert E. Grove, Mark V. Weckwerth.
-- **Discloses:** Spot size 0.25–5cm² (preferred ~0.8cm²), fluence 4–100 J/cm² (preferred ~20), sapphire output window thermally bonded to a heat-removal element, AlGaAs laser diode bars at ~800nm with an optical diffuser for eye safety, battery-powered/direct-drive/self-contained. The clearest "home hair-removal device" patent in this whole search.
+- **Discloses:** **Pulse duration nominally 300–350 ms** (claimed range 10 ms–1 s; preferred 200–600 ms), with an explicit worked example — *"to produce 20 J/cm² in 350 ms with a 9 mm by 9 mm output area requires an optical peak power of only 46 watts."* **Peak optical power 30–60 W** (average ~8 W). Spot size 0.25–5cm² (preferred ~0.8cm² = 9×9 mm), fluence 4–100 J/cm² (preferred ~20), sapphire output window thermally bonded to a heat-removal element, AlGaAs laser diode bars at ~800nm with an optical diffuser for eye safety, battery-powered/direct-drive/self-contained. The clearest "home hair-removal device" patent in this whole search — **and the definitive hard source that Tria fires a LONG ~300–400 ms pulse, not the "20 ms spike" repeated across third-party reviews** (a 20 J/cm² pulse in 20 ms would demand ~1000 W; Tria is a ~40 W device). Because peak power is fixed, pulse length scales with the selected fluence/level (~140 ms at 7 J/cm² → ~350–400 ms at 20). Cross-verified against the **Tria Precision IFU** (in this folder), which states verbatim *"MAX PULSE DURATION: 400 ms"* and *"MAX OUTPUT LASER RADIATION: 40 W"*; the **Tria 4X IFU** omits pulse duration entirely. Full analysis + interactive model: [13_tria_diode_thermal_simulation.md](13_tria_diode_thermal_simulation.md) / [tria_diode_simulator.html](tria_diode_simulator.html).
 - **Link:** https://patents.google.com/patent/US7250045B2/en
 - **Mirrored PDF:** patents_source_docs/us-patent-7250045-tria-hairregrowth-inhibition.pdf
 
