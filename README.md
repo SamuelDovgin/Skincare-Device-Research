@@ -1,8 +1,8 @@
 # Skincare Device Research
 
-Research into at-home, light-based skincare devices for **facial redness/erythema, hyperpigmentation, post-inflammatory hyperpigmentation (PIH), and evening skin tone**, plus **hair removal** and **skin-quality (collagen) rejuvenation** as parallel goals. Budget-conscious; covers branded, retail, and Chinese OEM/Alibaba sourcing.
+Research into at-home, light- and energy-based skincare devices for **facial redness/erythema, hyperpigmentation, post-inflammatory hyperpigmentation (PIH), and evening skin tone**, plus **hair removal** and **skin-quality (collagen) rejuvenation** as parallel goals. Budget-conscious; covers branded, retail, and Chinese OEM/Alibaba sourcing.
 
-The repo is organized by **product type** into four projects:
+The repo is organized by **product type** into seven projects:
 
 | Folder | Product class | Goal |
 |--------|---------------|------|
@@ -10,6 +10,9 @@ The repo is organized by **product type** into four projects:
 | [`02_diode_laser_hair_removal/`](02_diode_laser_hair_removal/) | Diode lasers (Tria 810nm & alternatives) | Targeted hair removal |
 | [`03_fractional_laser_resurfacing/`](03_fractional_laser_resurfacing/) | Non-ablative fractional lasers | Skin quality — pigment + collagen |
 | [`04_red_light_therapy_handheld/`](04_red_light_therapy_handheld/) | Handheld red/NIR LED therapy | Local pain/recovery adjuncts |
+| [`05_market_patent_intelligence/`](05_market_patent_intelligence/) | Market + patent intelligence | Cross-category ownership, IP, and product teardown |
+| [`06_non_fractional_lasers/`](06_non_fractional_lasers/) | Non-fractional lasers | 1064nm / 1450nm / LLLT laser claims that are not fractional resurfacing |
+| [`07_radio_frequency_skin_tightening/`](07_radio_frequency_skin_tightening/) | Radiofrequency (RF) skin tightening | Collagen/laxity devices, home RF, RF microneedling risk |
 
 ## TL;DR
 
@@ -18,6 +21,8 @@ The repo is organized by **product type** into four projects:
 3. **If buying a device for the hair goal:** best OEM target = **Fansizhe T023A** (510nm filter, sapphire cooling; FDA K223928 baseline 5.5 J/cm², and a **seller video on 2026-06-14 measured a real 18.23J / 6.08 J/cm² single flash** — the highest verified single-pulse fluence in the dataset). Budget single-pulse fallback = **Fansizhe T001M/T001A**. Lowest-risk branded option = **Nood Flasher 2.0** ($169, FDA-cleared, 510nm, warranty). See **[01 / doc 06](01_ipl_hair_removal/06_final_recommendation.md)**.
 4. **For skin quality (collagen/pigment), the device class is non-ablative fractional resurfacing**, not IPL or hair lasers — a different thread entirely. See **[`03_fractional_laser_resurfacing/`](03_fractional_laser_resurfacing/)**.
 5. **For localized pain/recovery, handheld red-light devices are a separate, adjunctive project.** Evidence is mixed for carpal tunnel/back/hand pain, so output documentation and conservative dosing matter more than "5W" marketing. See **[`04_red_light_therapy_handheld/`](04_red_light_therapy_handheld/)**.
+6. **DermRays Revive belongs in a new non-fractional laser lane, not the Clear + Brilliant lane.** FDA K231910 confirms a 1064nm, 400 ms, 5-10 J/cm², 15mm, prescription-use laser for hair removal + wrinkles — interesting, but not fractional resurfacing. See **[`06_non_fractional_lasers/`](06_non_fractional_lasers/)**.
+7. **Radiofrequency is now its own collagen/tightening project.** Home RF has a real FDA pathway for mild-to-moderate wrinkle reduction, while RF microneedling is a higher-risk medical procedure flagged by FDA in 2025. See **[`07_radio_frequency_skin_tightening/`](07_radio_frequency_skin_tightening/)**.
 
 ---
 
@@ -71,6 +76,39 @@ Handheld red/NIR LED devices for **hands, wrist/carpal-tunnel symptoms, and loca
 
 **Supporting material:** 92 archived listing images in [`listing_images/`](04_red_light_therapy_handheld/listing_images/) for L1-L11, a text-only supplied Alibaba capture for L12, plus the project [README](04_red_light_therapy_handheld/README.md).
 
+## 05 — Market & patent intelligence · [`05_market_patent_intelligence/`](05_market_patent_intelligence/)
+
+Cross-category research on who owns the technology, what the buzzy devices really are, where the market is heading, and what has moved off-patent.
+
+| # | File | What it covers |
+|---|------|----------------|
+| 01 | [Overview](05_market_patent_intelligence/01_overview.md) | Executive summary of product, patent, and market findings |
+| 02 | [Patent landscape](05_market_patent_intelligence/02_patent_landscape.md) | Foundational IPL/laser/RF/LED patents, expiry map, and active filing themes |
+| 03 | [Market map teardown](05_market_patent_intelligence/03_market_map_teardown.md) | What popular devices actually are under the hood |
+| 04 | [Market size trends](05_market_patent_intelligence/04_market_size_trends.md) | Category sizing, growth rates, and consumer-device trend lines |
+| 05 | [Frontier & emerging tech](05_market_patent_intelligence/05_frontier_emerging_tech.md) | AI dosing, sensors, home RF, 1064nm, and what is real vs hype |
+| 06 | [Patent search playbook](05_market_patent_intelligence/06_patent_search_playbook.md) | How to keep researching patents without inventing numbers |
+
+## 06 — Non-fractional lasers · [`06_non_fractional_lasers/`](06_non_fractional_lasers/)
+
+Real lasers that are **not** fractional resurfacing devices: DermRays Revive, 1064nm home/Rx laser claims, 810nm wide-window hair lasers, NIRA-like non-fractional warmers, and LYMA/LLLT boundary cases.
+
+| # | File | What it covers |
+|---|------|----------------|
+| 01 | [Non-fractional laser science](06_non_fractional_lasers/01_non_fractional_laser_science.md) | Fractional vs non-fractional geometry, 1064nm physics, and why DermRays is not a Clear + Brilliant analog |
+| 02 | [Device landscape](06_non_fractional_lasers/02_device_landscape.md) | DermRays Revive, 810nm wide-window devices, NIRA, LYMA, and pro 1064nm context |
+| 03 | [DermRays Revive deep dive](06_non_fractional_lasers/03_dermrays_revive_deep_dive.md) | FDA K231910 specs, claims vs clearance, patent signal, and verification checklist |
+
+## 07 — Radiofrequency skin tightening · [`07_radio_frequency_skin_tightening/`](07_radio_frequency_skin_tightening/)
+
+RF devices for collagen remodeling, mild wrinkles, laxity, and skin tightening — separated from lasers/IPL/LED because RF heats by electrical impedance, not optical absorption.
+
+| # | File | What it covers |
+|---|------|----------------|
+| 01 | [RF science brief](07_radio_frequency_skin_tightening/01_rf_science_brief.md) | Mechanism, tissue heating, device geometries, home vs pro RF, and evidence expectations |
+| 02 | [Initial device landscape](07_radio_frequency_skin_tightening/02_initial_device_landscape.md) | NEWA, TriPollar, CurrentBody, Silk'n, Medicube, Thermage, and RF microneedling buckets |
+| 03 | [Patent & regulatory notes](07_radio_frequency_skin_tightening/03_patent_regulatory_notes.md) | Thermage patent anchor, FDA PAY category, CurrentBody K232424, and FDA RF microneedling warning |
+
 ---
 
 ## Status / open items
@@ -78,3 +116,5 @@ Handheld red/NIR LED devices for **hands, wrist/carpal-tunnel symptoms, and loca
 - **Open — IPL:** real Alibaba per-unit pricing, MOQ, and single/sample-unit availability for the OEM IPL models remain partly unconfirmed; prices in docs 02/06 are estimates.
 - **Open — fractional lasers:** verify whether YDUNVIE Dora is truly 1927nm, whether Iris Ice Plus materially improves on A9/base Iris, and whether a buyable 1927nm home device has credible PIH-safety data.
 - **Open — red light therapy:** seller-supplied irradiance meter photos and exact current variant confirmation are still needed before treating Alibaba RLT specs as purchase-grade.
+- **Open — non-fractional lasers:** obtain DermRays Revive IFU/manual, label photos, eye-protection requirements, and independent output/thermal testing.
+- **Open — RF:** build a device-by-device comparison, verify K-numbers for Silk'n/TriPollar/Medicube variants, and run an Alibaba RF supplier scan.

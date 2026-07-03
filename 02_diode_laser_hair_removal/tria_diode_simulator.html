@@ -10,6 +10,7 @@
 <style>
 :root{--accent:#6d28d9;--accent2:#8b5cf6;--bg:#f6f7f9;--card:#fff;--ink:#1f2430;--muted:#6b7280;--line:#e5e7eb;--good:#16a34a;--blue:#2563eb;--amber:#d9a441;--red:#c0392b;--mel:#8b5a2b;--water:#0891b2;}
 *{box-sizing:border-box}
+html,body{max-width:100%;overflow-x:hidden}
 body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55}
 a{color:var(--accent)}
 .topbar{position:sticky;top:0;z-index:20;background:linear-gradient(100deg,var(--accent),var(--accent2));color:#fff;padding:12px 20px;box-shadow:0 2px 10px rgba(0,0,0,.12)}
@@ -95,6 +96,7 @@ tbody tr:nth-child(even){background:#fafbfc}
 .disc{font-size:11.5px;color:var(--muted);margin-top:8px}
 ol.src{font-size:12px;padding-left:22px} ol.src li{margin-bottom:7px}
 sup a{text-decoration:none;font-weight:700;color:var(--accent);font-size:11px}
+@media(max-width:640px){.topbar{padding:10px 14px}.topbar h1{font-size:17px;line-height:1.25}.topbar p{font-size:12px}.wrap{margin:12px auto;padding:0 10px}.card{padding:16px 13px;border-radius:10px;margin-bottom:12px}.card h2{font-size:16px}.devrow{display:grid;grid-template-columns:minmax(0,1fr);gap:8px}select#device{width:100%;min-width:0}.scenbtns,.presetbtns{display:grid;grid-template-columns:1fr;gap:6px}.scenbtns button,.presetbtns button{text-align:left}.ctrls{gap:12px}.ctl label{display:block}.ctl label .val{display:block;margin-top:2px}.seg{display:grid;grid-template-columns:1fr;width:100%}.seg button{width:100%;text-align:center;padding:9px 10px}.gauges,.chromo-now{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.g,.cq{padding:10px}.g .v{font-size:19px}.legend{gap:8px}.legend span{align-items:flex-start}.two{gap:10px}.two>*{min-width:0;max-width:100%;overflow-x:auto}.pathcard{padding:12px}.pathcard p{font-size:12.5px}.quote{padding:11px}.quote p{font-size:12.5px}table{width:100%;min-width:680px;max-width:none;font-size:12px;table-layout:fixed}th,td{padding:6px 7px;min-width:0;overflow-wrap:anywhere}svg{width:100%;max-height:70vh}.blurb,.warn,.verdict{font-size:12.8px;padding:11px 12px}.deviceinfo{padding:11px 12px}.prov{white-space:normal}}
 </style>
 </head>
 <body>

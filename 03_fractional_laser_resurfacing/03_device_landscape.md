@@ -22,7 +22,7 @@ Ranked by **how close they are to an efficacious (in-office, fractional) treatme
 | **Focuslight 1470nm home concept** | China OEM module | 1470nm ✅ | Yes ✅ | 6–12 mJ/spot, 1.5 W ✅ | collagen/texture (OEM platform) | ★★★ tech, not a finished product |
 | **LYMA Laser / PRO** | UK, **on sale** | 808nm + 620nm ✅ | No (LLLT/PBM) ✅ | 62.5 mW/cm² ✅ | low-level photobiomodulation | ★ different category (not resurfacing) |
 | **JOVS 4D / mask (Qianyu)** | China, on sale | 660 + 850nm VCSEL ✅ | No (PBM mask) ✅ | 40–100 mW/cm² ✅ | wrinkle/PBM | ★ different category |
-| **DermRays Revive (Lotuxs)** | China, on sale | 1064nm ✅ | No ✅ | 5–10 J/cm², Rx ✅ | wrinkle/hair removal | ★ different wavelength & class |
+| **DermRays Revive (Lotuxs)** | China, on sale | 1064nm ✅ | No ✅ | 5–10 J/cm², Rx ✅ | wrinkle/hair removal | ★ moved to [non-fractional lasers](../06_non_fractional_lasers/) |
 
 ---
 
@@ -84,9 +84,9 @@ Ranked by **how close they are to an efficacious (in-office, fractional) treatme
 - ✅ **FDA:** K244020 (JM1/JM2B) **660 + 850nm VCSEL**, 40–100 mW/cm². Also IPL hair-removal clearances (K214113, K220645).
 - **Verdict:** wearable PBM/red-light, not resurfacing.
 
-### DermRays Revive (Wuhan Lotuxs) — 1064nm, wrong category ★
+### DermRays Revive (Wuhan Lotuxs) — 1064nm, non-fractional; moved to its own lane ★
 - ✅ **FDA:** K231910. **1064nm diode, 400ms, 5–10 J/cm², 15mm spot, prescription use.** For wrinkles + hair removal.
-- **Verdict:** different wavelength (targets via different mechanism), and **Rx not OTC** — not a Clear + Brilliant analog.
+- **Verdict:** legitimate and worth tracking, but it is a **non-fractional 1064nm spot laser**, not a Clear + Brilliant analog. Full notes now live in [`../06_non_fractional_lasers/`](../06_non_fractional_lasers/).
 
 ---
 
