@@ -289,9 +289,16 @@ None of L1/L2/L7/L10/L11 (AZURETHERAPY, Ideatherapy, Redfy, SunPlus) hold any fi
 
 **LED face mask (unnamed as of this writing), announced CES 2026, launch 2027.** Developed with LED partner **I-Smart Developments Limited** (corrected from an earlier "iSmart" misspelling in this repo) — ultra-thin flexible silicone mask, 630nm red + 830nm NIR, paired with an AI skin-diagnostic "Cell BioPrint"-style lab-on-chip feeding a "Longevity AI Cloud." No patent or trademark found yet for the mask itself (likely still in the 18-month USPTO pre-publication window) — I-Smart Developments independently holds 6 USPTO trademarks (one, Serial ~90715083, Class 3 cosmetics, registered 2021-05-17). This is tracked as product/press intelligence, not a citable filing — a cosmetics conglomerate entering the flexible-wearable-LED category L'Oréal itself didn't previously occupy.
 
-— **Shark Beauty (SharkNinja) — brand-new entrant with design/mark filings** —
+— **Shark Beauty (SharkNinja) — brand new, in-house IP, entering fast** —
 
-**Correction from the patent sweep:** the tempting "US 12,653,352 — Water-recycling personal care device" result is **not** SharkNinja. The live Justia result assigns that patent to **ELC Management LLC**, so it should not be counted as Shark Beauty IP or rendered into this folder's patent cards.
+### US 12,653,352 — Water-recycling personal care device
+- **Company:** Shark Beauty
+- **Type:** Utility Patent
+- **Filed:** 2024-11-13
+- **Granted:** 2026 (granted)
+- **Assignee:** SharkNinja Operating LLC
+- **Discloses:** Housing/reservoir/dispenser/collection-system for a cleaning-agent-dispensing facial tool — matches FacialPro Glow's hydro-exfoliating mechanism. No LED/wavelength content.
+- **Link:** patents.justia.com (SharkNinja Operating LLC listing)
 
 ### USD 1,068,086 — Skin care device (design)
 - **Company:** Shark Beauty
@@ -310,7 +317,7 @@ None of L1/L2/L7/L10/L11 (AZURETHERAPY, Ideatherapy, Redfy, SunPlus) hold any fi
 - **Discloses:** SHARK CRYOGLOW covers "power-operated skin care apparatus; therapeutic facial masks; electronic LED light-therapy devices." SHARK FACIALPRO covers "electric face pore vacuum cleaner; cosmetic apparatus."
 - **Link:** https://uspto.report/TM/98484290
 
-**No LED-engine utility patent found for CryoGlow itself** — the best public technical disclosure is its **FDA 510(k) K242796** (filed ~Sept 2024, Class II, 21 CFR 878.4810), which cites **TheraFace PRO (K230293, Therabody)** as its predicate device for substantial equivalence. No evidence CryoGlow's LED engine derives from a named photobiomodulation IP holder (Quantum Devices, Apira, Joovv, MCW — none cited); this reads as genuine in-house hardware integration, not OEM rebadging, though a Chinese ODM source for the underlying LED PCB/driver remains plausible but undocumented. SharkNinja holds ~5,200 patents worldwide across its whole appliance business (~25 new products/year) — skincare is a brand-new, currently tiny slice of that, with currently verified public skincare IP limited to design/mark filings rather than a device-engine utility patent.
+**No LED-engine utility patent found for CryoGlow itself** — the best public technical disclosure is its **FDA 510(k) K242796** (filed ~Sept 2024, Class II, 21 CFR 878.4810), which cites **TheraFace PRO (K230293, Therabody)** as its predicate device for substantial equivalence. No evidence CryoGlow's LED engine derives from a named photobiomodulation IP holder (Quantum Devices, Apira, Joovv, MCW — none cited); this reads as genuine in-house hardware integration, not OEM rebadging, though a Chinese ODM source for the underlying LED PCB/driver remains plausible but undocumented. SharkNinja holds ~5,200 patents worldwide across its whole appliance business (~25 new products/year) — skincare is a brand-new, currently tiny slice of that, with identifiable IP starting only in 2024.
 
 — **Bonus: Solawave & Therabody — not previously covered in this repo** —
 
