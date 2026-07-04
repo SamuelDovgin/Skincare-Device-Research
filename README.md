@@ -21,8 +21,8 @@ The repo is organized by **product type** into seven projects:
 3. **If buying a device for the hair goal:** best OEM target = **Fansizhe T023A** (510nm filter, sapphire cooling; FDA K223928 baseline 5.5 J/cm², and a **seller video on 2026-06-14 measured a real 18.23J / 6.08 J/cm² single flash** — the highest verified single-pulse fluence in the dataset). Budget single-pulse fallback = **Fansizhe T001M/T001A**. Lowest-risk branded option = **Nood Flasher 2.0** ($169, FDA-cleared, 510nm, warranty). See **[01 / doc 06](01_ipl_hair_removal/06_final_recommendation.md)**.
 4. **For skin quality (collagen/pigment), the device class is non-ablative fractional resurfacing**, not IPL or hair lasers — a different thread entirely. See **[`03_fractional_laser_resurfacing/`](03_fractional_laser_resurfacing/)**.
 5. **For localized pain/recovery, handheld red-light devices are a separate, adjunctive project.** Evidence is mixed for carpal tunnel/back/hand pain, so output documentation and conservative dosing matter more than "5W" marketing. See **[`04_red_light_therapy_handheld/`](04_red_light_therapy_handheld/)**.
-6. **DermRays Revive belongs in a new non-fractional laser lane, not the Clear + Brilliant lane.** FDA K231910 confirms a 1064nm, 400 ms, 5-10 J/cm², 15mm, prescription-use laser for hair removal + wrinkles — interesting, but not fractional resurfacing. See **[`06_non_fractional_lasers/`](06_non_fractional_lasers/)**.
-7. **Radiofrequency is now its own collagen/tightening project.** Home RF has a real FDA pathway for mild-to-moderate wrinkle reduction, while RF microneedling is a higher-risk medical procedure flagged by FDA in 2025. See **[`07_radio_frequency_skin_tightening/`](07_radio_frequency_skin_tightening/)**.
+6. **DermRays Revive belongs in a new non-fractional laser lane, not the Clear + Brilliant lane.** FDA K231910 confirms a 1064nm, 400 ms, 5-10 J/cm², 15mm, prescription-use laser for hair removal + wrinkles — interesting, but not fractional resurfacing. NIRA has stronger public wrinkle-outcome evidence than DermRays, but neither maps to C+B the way Tria FRX does. See **[`06_non_fractional_lasers/`](06_non_fractional_lasers/)**.
+7. **Radiofrequency is now its own collagen/tightening project.** Home RF has a real FDA pathway for mild-to-moderate wrinkle reduction, while RF microneedling is a higher-risk medical procedure flagged by FDA in 2025. Home RF can be clinically real without being Thermage/RF-microneedling equivalent. See **[`07_radio_frequency_skin_tightening/`](07_radio_frequency_skin_tightening/)**.
 
 ---
 
@@ -98,6 +98,7 @@ Real lasers that are **not** fractional resurfacing devices: DermRays Revive, 10
 | 01 | [Non-fractional laser science](06_non_fractional_lasers/01_non_fractional_laser_science.md) | Fractional vs non-fractional geometry, 1064nm physics, and why DermRays is not a Clear + Brilliant analog |
 | 02 | [Device landscape](06_non_fractional_lasers/02_device_landscape.md) | DermRays Revive, 810nm wide-window devices, NIRA, LYMA, and pro 1064nm context |
 | 03 | [DermRays Revive deep dive](06_non_fractional_lasers/03_dermrays_revive_deep_dive.md) | FDA K231910 specs, claims vs clearance, patent signal, and verification checklist |
+| 04 | [NIRA / DermRays professional-results gap](06_non_fractional_lasers/04_nira_dermrays_professional_results_gap.md) | Can NIRA or DermRays reach clinic-grade results? Evidence, dose, and why Tria's C+B analogy does not transfer |
 
 ## 07 — Radiofrequency skin tightening · [`07_radio_frequency_skin_tightening/`](07_radio_frequency_skin_tightening/)
 
@@ -108,6 +109,7 @@ RF devices for collagen remodeling, mild wrinkles, laxity, and skin tightening �
 | 01 | [RF science brief](07_radio_frequency_skin_tightening/01_rf_science_brief.md) | Mechanism, tissue heating, device geometries, home vs pro RF, and evidence expectations |
 | 02 | [Initial device landscape](07_radio_frequency_skin_tightening/02_initial_device_landscape.md) | NEWA, TriPollar, CurrentBody, Silk'n, Medicube, Thermage, and RF microneedling buckets |
 | 03 | [Patent & regulatory notes](07_radio_frequency_skin_tightening/03_patent_regulatory_notes.md) | Thermage patent anchor, FDA PAY category, CurrentBody K232424, and FDA RF microneedling warning |
+| 04 | [Home RF vs professional results gap](07_radio_frequency_skin_tightening/04_home_rf_vs_professional_results_gap.md) | Can at-home RF reach clinical-grade results? NEWA/CurrentBody vs Thermage/RF microneedling |
 
 ---
 

@@ -10,7 +10,8 @@ Research thread: **radiofrequency (RF) devices for collagen remodeling, wrinkle 
 2. **Best evidence lane:** laxity, mild wrinkles, texture, firmness. RF is not the primary tool for pigment/PIH/redness.
 3. **Home RF is real but modest.** FDA's OTC RF category exists: product code **PAY**, 21 CFR 878.4420, "electrosurgical device for over-the-counter aesthetic use." CurrentBody Skin RF K232424 is a good current example: 1 MHz bipolar RF, 5 +/- 1 W, temperature-limited, cleared for mild-to-moderate facial wrinkles in Fitzpatrick I-IV.
 4. **Thermage/IP foundation:** the foundational RF tightening patent (Knowlton/Thermage US5919219) is long expired. Current innovation is safety, electrode geometry, temperature sensing, usability, combination devices, and RF microneedling/pro platforms.
-5. **RF microneedling is not a home category.** FDA's 2025 safety communication warns about burns, scarring, fat loss, disfigurement, nerve damage, and surgical repair risks; FDA explicitly says RF microneedling devices should not be used at home.
+5. **Clinical-grade reality check:** home RF can hit real wrinkle endpoints, but it is not the same as Tria/Clear + Brilliant's "same fractional mechanism, lower density" relationship. Home RF is capped by temperature, depth, and electrode geometry; Thermage and RF microneedling remain professional categories.
+6. **RF microneedling is not a home category.** FDA's 2025 safety communication warns about burns, scarring, fat loss, disfigurement, nerve damage, and surgical repair risks; FDA explicitly says RF microneedling devices should not be used at home.
 
 ## Documents
 
@@ -19,6 +20,7 @@ Research thread: **radiofrequency (RF) devices for collagen remodeling, wrinkle 
 | 01 | [RF science brief](01_rf_science_brief.md) | Mechanism, tissue heating, monopolar/bipolar/multipolar, why RF differs from laser/IPL/LED, evidence expectations |
 | 02 | [Initial device landscape](02_initial_device_landscape.md) | Home RF, pro non-invasive RF, RF microneedling, and early device examples: NEWA, TriPollar, CurrentBody, Silk'n, Thermage, Morpheus8/Genius/Potenza |
 | 03 | [Patent & regulatory notes](03_patent_regulatory_notes.md) | Thermage patent anchor, FDA OTC RF category, CurrentBody K232424, NEWA De Novo, RF microneedling safety communication, open research questions |
+| 04 | [Home RF vs professional results gap](04_home_rf_vs_professional_results_gap.md) | Whether home RF can reach clinic-grade results; NEWA/CurrentBody evidence vs Thermage and RF microneedling |
 
 ## Relationship to the other folders
 
@@ -41,4 +43,3 @@ Research thread: **radiofrequency (RF) devices for collagen remodeling, wrinkle 
 - [PubMed — Skin tightening technologies](https://pubmed.ncbi.nlm.nih.gov/24488639/)
 - [PubMed — home-based RF rejuvenation study](https://pubmed.ncbi.nlm.nih.gov/35249173/)
 - [PubMed — noninvasive home-based RF device study](https://pubmed.ncbi.nlm.nih.gov/37942722/)
-

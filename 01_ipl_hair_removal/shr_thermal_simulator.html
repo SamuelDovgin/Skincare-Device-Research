@@ -559,7 +559,7 @@ function draw(sim, simCmp){
     s+=`<path d="${path(ct,cy)}" fill="none" stroke="#9aa3b2" stroke-width="2" stroke-dasharray="3 4"/>`;}
 	  // the four curves
 	  s+=`<path d="${path(sim.arr.t,sim.arr.Tbg)}" fill="none" stroke="#16a34a" stroke-width="2.6"/>`;
-	  s+=`<path d="${path(sim.arr.t,sim.arr.Tp)}" fill="none" stroke="#7c3aed" stroke-width="2.4"/>`;
+	  s+=`<path d="${path(sim.arr.t,sim.arr.Tp)}" fill="none" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="2 5" opacity="0.4"/>`;
 	  s+=`<path d="${path(sim.arr.t,sim.arr.Te)}" fill="none" stroke="#2563eb" stroke-width="2.4"/>`;
 	  s+=`<path d="${path(sim.arr.t,sim.arr.Tf)}" fill="none" stroke="#c0392b" stroke-width="3"/>`;
   // peak dots + labels
@@ -591,7 +591,7 @@ function verdict(sim,p){
 	  else if(sr.lvl==='MODERATE') lines.push('△ Skin burn risk MODERATE — epidermis peaks '+fmt(sim.peakTe)+'° (load '+fmt(sim.doseE,1)+' °C·s). Contact cooling and a slightly longer pulse pull it down.');
 	  else lines.push('Skin safe — epidermis peaks '+fmt(sim.peakTe)+'° (load '+fmt(sim.doseE,1)+' °C·s), both in range.');
 	  if(p && p.n>1 && sim.lastPain>sim.firstPain+0.35)
-	    lines.push('Sting note — the last-pulse sensory proxy is higher than the first ('+fmt(sim.firstPain,1)+'° → '+fmt(sim.lastPain,1)+'°). That matches the “last pulse stings most” experience, but it reflects slower sensory/deep heat accumulation, not necessarily a higher follicle peak.');
+	    lines.push('Sting note — the sensory proxy runs higher on the last pulse than the first. That matches the “last pulse stings most” experience, but it reflects slower sensory/deep heat accumulation, not necessarily a higher follicle peak.');
 	  // dark-skin melanin-competition callout: skin burns before the follicle heats
 	  if(p && p.skin>=5 && sim.peakTf<T_COAG && sim.peakTe>=T_EPI_WARN)
 	    lines.push({w:'⚠ Melanin competition: on Fitzpatrick '+FITZ[p.skin].split(' ')[0]+', the epidermis is absorbing the light before it reaches the follicle — the skin heats toward a burn ('+fmt(sim.peakTe)+'°) while the follicle stays sub-lethal ('+fmt(sim.peakTf)+'°). This is exactly why home IPL is neither safe nor effective on the deepest tones.'});
@@ -639,7 +639,7 @@ function skinRisk(sim){
 	  const pr=painRisk(sim);
 	  $('pp').textContent=pr.lvl; $('pp').style.color=pr.col;
 	  const rise=(sim.lastPain-sim.firstPain);
-	  $('ppcap').textContent='load '+fmt(sim.painDose,1)+' °C·s · first→last '+fmt(sim.firstPain,1)+'°→'+fmt(sim.lastPain,1)+'°'+(rise>0.35?' (builds)':'');
+	  $('ppcap').textContent=(rise>0.35?'builds through the train':'roughly steady')+' · illustrative proxy, not a measured temperature';
 	  $('ppbar').style.width=clamp(sim.painDose/PDOSE_HIGH*100,3,100)+'%'; $('ppbar').style.background=pr.col;
 	}
 
@@ -669,9 +669,8 @@ function cmpVerdict(p,sim,simCmp){
 	    $('painverdict').innerHTML='<b>Sting check:</b> one flash has no pulse-to-pulse build-up. Use 2+ flashes to compare first-pulse and last-pulse sting load.';
 	    return;
 	  }
-	  const fResid=Math.round(sim.follicleResidual*100), pResid=Math.round(sim.sensoryResidual*100), dResid=Math.round(sim.deepResidual*100);
 	  const peakBuild=sim.peakTf>=T_COAG?'It may still cross the peak/coagulation pathway.':'It does not prove the follicle peak is stacking.';
-	  $('painverdict').innerHTML=`<b>Why the last pulse can sting more:</b> with this ${p.gap} ms gap, the model estimates roughly <b>${fResid}%</b> follicle-peak heat carryover, but <b>${pResid}%</b> sting-proxy carryover and <b>${dResid}%</b> deep-target carryover between flashes. So the subjective sting can climb (${fmt(sim.firstPain,1)}° → ${fmt(sim.lastPain,1)}°) even when the red follicle peaks mostly repeat. ${peakBuild}`;
+	  $('painverdict').innerHTML=`<b>Why the last pulse can sting more:</b> with this ${p.gap} ms gap the follicle peak mostly resets between flashes, while slower sensory and deep heat linger and carry over. So the subjective sting can feel sharper on later pulses even though the red follicle peaks mostly repeat — that's sensation, not better follicle killing. ${peakBuild}`;
 	}
 
 /* ---------- wire up ---------- */

@@ -10,7 +10,8 @@ Research thread: lasers that are **real lasers but not fractional resurfacing de
 2. **DermRays Revive is the anchor device here.** FDA K231910 lists it as **1064nm +/- 10nm**, **400 ms**, **5-10 J/cm2**, **15mm spot / 1.766 cm2 working area**, intended for **hair removal, permanent hair reduction, and wrinkles**, for Fitzpatrick I-VI including tanned skin, with **prescription use** labeling.
 3. **1064nm is useful but not magic.** It penetrates more deeply and is less melanin-absorbed than shorter wavelengths, which is why long-pulsed Nd:YAG/1064nm is common for darker-skin hair removal and vascular work. But at home, a 5-10 J/cm2 long-pulse consumer-size unit is a very different exposure than an in-office Nd:YAG platform.
 4. **For pigment/PIH:** 1064nm is not the same evidence lane as **1927nm fractional**. DermRays marketing leans hard into pigment/glow claims; the FDA file supports wrinkles + hair removal, while pigment-lesion language mainly enters through the professional Cynosure Elite+ predicate, not as proof of home-equivalent pigment outcomes.
-5. **Buying posture:** treat DermRays Revive as a separate Rx-class/non-fractional laser experiment, not as a substitute for Clear + Brilliant, Moxi, LaseMD, Tria FRX, or YDUNVIE Dora/Iris.
+5. **Clinical-grade reality check:** NIRA has a real FDA periorbital wrinkle endpoint, but public fluence is far below professional 1450nm workflows; DermRays has real 1064nm clearance, but no public human wrinkle/pigment outcome in the 510(k) summary. Neither maps to Clear + Brilliant the way Tria FRX does.
+6. **Buying posture:** treat DermRays Revive as a separate Rx-class/non-fractional laser experiment, not as a substitute for Clear + Brilliant, Moxi, LaseMD, Tria FRX, or YDUNVIE Dora/Iris.
 
 ## Documents
 
@@ -19,6 +20,7 @@ Research thread: lasers that are **real lasers but not fractional resurfacing de
 | 01 | [Non-fractional laser science](01_non_fractional_laser_science.md) | Device taxonomy, why non-fractional spot heating behaves differently from MTZ resurfacing, and what 1064nm is actually good for |
 | 02 | [Device landscape](02_device_landscape.md) | DermRays Revive, 810nm wide-window hair lasers, NIRA/non-fractional 1450nm warmers, LYMA/LLLT, and pro 1064nm context |
 | 03 | [DermRays Revive deep dive](03_dermrays_revive_deep_dive.md) | FDA K231910 specs, claims vs clearance, patent signal, buy/use implications, and open verification questions |
+| 04 | [NIRA / DermRays professional-results gap](04_nira_dermrays_professional_results_gap.md) | Whether NIRA or DermRays can reach clinic-grade results; Tria/C+B comparison frame; dose, evidence, and practical ceiling |
 
 ## Relationship to the other folders
 
@@ -39,4 +41,3 @@ Research thread: lasers that are **real lasers but not fractional resurfacing de
 - [DermRays Revive official product page](https://www.dermrays.com/products/dermrays-revive)
 - [DermRays skin-care technology page](https://www.dermrays.com/en-us/pages/skin-care-technology)
 - [Google Patents CN120132236A — home laser spot-removal / anti-aging beauty instrument](https://patents.google.com/patent/CN120132236A/zh)
-
