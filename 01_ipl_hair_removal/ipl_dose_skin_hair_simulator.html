@@ -1,0 +1,755 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>IPL Dose, Skin, Hair & Course Simulator</title>
+<link rel="apple-touch-icon" href="appicon-180.png">
+<meta name="theme-color" content="#c0392b">
+<style>
+:root{--accent:#c0392b;--accent2:#e74c3c;--bg:#f6f7f9;--card:#fff;--ink:#1f2430;--muted:#667085;--line:#e4e7ec;--soft:#fafbfc;--good:#167a3f;--amber:#b7791f;--blue:#2563eb;--purple:#7c3aed;--danger:#b42318}
+*{box-sizing:border-box}
+html,body{max-width:100%;overflow-x:hidden}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.52}
+a{color:var(--accent)}
+button,select,input{font:inherit}
+.topbar{position:sticky;top:0;z-index:20;background:linear-gradient(100deg,var(--accent),var(--accent2));color:#fff;padding:12px 20px;box-shadow:0 2px 10px rgba(0,0,0,.13)}
+.topbar a{color:#fff;text-decoration:none;opacity:.94;font-size:13px}
+.topbar h1{font-size:20px;line-height:1.2;margin:5px 0 2px}
+.topbar p{margin:0;max-width:1040px;font-size:12.5px;opacity:.92}
+.wrap{max-width:1160px;margin:20px auto;padding:0 18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin-bottom:16px;box-shadow:0 1px 3px rgba(16,24,40,.04)}
+.card h2{font-size:17px;margin:0 0 4px}
+.card h3{font-size:14px;margin:0 0 8px}
+.sub{font-size:12.5px;color:var(--muted);margin:0 0 14px}
+.lead{font-size:13.5px;margin:0;color:#344054}
+.note{font-size:11.8px;color:var(--muted)}
+.warn{border:1px solid #f5c2c0;background:#fff5f4;border-radius:9px;padding:11px 13px;font-size:12.8px;margin-top:12px}
+.warn b{color:var(--danger)}
+.grid2{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(310px,.92fr);gap:16px;align-items:start}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 20px}
+.ctl{min-width:0}
+.ctl.full{grid-column:1/-1}
+.ctl label{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-size:12.8px;font-weight:700;margin-bottom:4px}
+.ctl .val{color:var(--accent);font-weight:800;font-variant-numeric:tabular-nums;white-space:nowrap}
+.hint{font-size:11.3px;color:var(--muted);margin-top:2px}
+input[type=range]{width:100%;accent-color:var(--accent);margin:2px 0}
+select{width:100%;border:1px solid var(--line);border-radius:9px;background:#fff;color:var(--ink);padding:9px 11px;font-weight:700;font-size:13px}
+.seg{display:inline-flex;flex-wrap:wrap;gap:5px;background:#f0f2f5;border-radius:10px;padding:5px;max-width:100%}
+.seg button{border:0;background:transparent;color:var(--ink);padding:7px 11px;border-radius:7px;cursor:pointer;font-weight:700;font-size:12.5px}
+.seg button.active{background:var(--accent);color:#fff;box-shadow:0 1px 4px rgba(192,57,43,.25)}
+.toggle{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:700;cursor:pointer;user-select:none}
+.toggle input{accent-color:var(--accent)}
+.areas{display:flex;flex-wrap:wrap;gap:7px}
+.areas button{border:1px solid var(--line);background:#fff;border-radius:8px;padding:7px 10px;font-size:12px;font-weight:700;cursor:pointer;color:var(--ink)}
+.areas button.active{background:var(--ink);border-color:var(--ink);color:#fff}
+.metric-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;margin-top:12px}
+.metric{background:var(--soft);border:1px solid var(--line);border-radius:9px;padding:10px 11px;min-width:0}
+.metric .k{font-size:10.5px;text-transform:uppercase;color:var(--muted);letter-spacing:0}
+.metric .v{font-size:19px;line-height:1.1;font-weight:850;margin-top:3px;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.metric .cap{font-size:11px;color:var(--muted);margin-top:3px}
+.meter{height:7px;background:#eceff3;border-radius:99px;overflow:hidden;margin-top:8px}
+.meter i{display:block;height:100%;border-radius:99px;background:var(--accent);width:0}
+.meter.good i{background:var(--good)}
+.meter.amber i{background:var(--amber)}
+.meter.blue i{background:var(--blue)}
+.meter.purple i{background:var(--purple)}
+.meter.danger i{background:var(--danger)}
+.verdict{border-left:5px solid var(--accent);background:#fff8f6;border-radius:8px;padding:12px 14px;margin-top:12px;font-size:13px}
+.verdict b{font-size:14px}
+.verdict.good{border-color:var(--good);background:#f2fbf5}
+.verdict.amber{border-color:var(--amber);background:#fffaf0}
+.verdict.danger{border-color:var(--danger);background:#fff5f4}
+.devicebox{background:var(--soft);border:1px solid var(--line);border-radius:9px;padding:12px 13px;font-size:12.5px}
+.devicebox b{font-size:13.5px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.chip{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--line);border-radius:99px;padding:3px 8px;background:#fff;font-size:11px;color:#344054}
+.chip.good{border-color:#b7e3c6;background:#f2fbf5;color:var(--good)}
+.chip.warn{border-color:#f6d7a8;background:#fffaf0;color:#8a5a00;margin:0}
+.chip.danger{border-color:#f5c2c0;background:#fff5f4;color:var(--danger)}
+svg,canvas{display:block;max-width:100%}
+.skinwrap{border:1px solid var(--line);border-radius:10px;background:#fff;overflow:hidden}
+#skinSvg{width:100%;height:auto}
+.canvasbox{border:1px solid var(--line);border-radius:10px;background:#fff;padding:10px;overflow:hidden}
+#coverage{width:100%;aspect-ratio:2.05/1;border-radius:8px;background:#fff}
+.legend{display:flex;flex-wrap:wrap;gap:12px;font-size:11.5px;color:var(--muted);margin-top:8px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.swatch{width:16px;height:6px;border-radius:99px;background:var(--accent);display:inline-block}
+.tablewrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:12.3px}
+th,td{border:1px solid var(--line);padding:7px 8px;text-align:left;vertical-align:top}
+thead th{background:var(--accent);color:#fff}
+tbody tr:nth-child(even){background:#fafbfc}
+.source-list{font-size:12px;padding-left:20px;margin:8px 0 0}
+.source-list li{margin-bottom:6px}
+.mini{font-size:11.5px;color:var(--muted)}
+details{border:1px solid var(--line);border-radius:9px;background:var(--soft);padding:10px 12px;margin:8px 0}
+summary{cursor:pointer;font-weight:800;font-size:12.8px}
+details p{font-size:12.5px;margin:8px 0 0}
+.barbox{border:1px solid var(--line);border-radius:10px;background:#fff;padding:10px}
+#barsSvg{width:100%;height:auto}
+@media(max-width:900px){.grid2{grid-template-columns:1fr}.grid3{grid-template-columns:1fr 1fr}.metric-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.topbar{padding:10px 14px}.topbar h1{font-size:17px}.topbar p{font-size:12px}.wrap{margin:12px auto;padding:0 10px}.card{padding:15px 13px;margin-bottom:12px}.card h2{font-size:16px}.controls{grid-template-columns:1fr;gap:12px}.grid3{grid-template-columns:1fr}.metric-grid{gap:8px}.metric{padding:9px}.metric .v{font-size:17px}.seg{display:grid;grid-template-columns:1fr;width:100%}.seg button{width:100%;padding:8px 9px}.areas{display:grid;grid-template-columns:1fr 1fr}.areas button{text-align:left}.ctl label{display:block}.ctl .val{display:block;margin-top:2px}.skinwrap,.canvasbox,.barbox{border-radius:8px}.tablewrap table{min-width:760px}.legend{gap:8px}.chip{max-width:100%;overflow-wrap:anywhere}}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <a href="index.html">IPL docs</a> &nbsp;/&nbsp; <a href="../index.html">All Research</a> &nbsp;/&nbsp; <a href="13_skin_rejuvenation_guide.md">Skin rejuvenation guide</a> &nbsp;/&nbsp; <a href="15_multi_flash_thermal_accumulation.md">Multi-flash evidence</a>
+  <h1>IPL Dose, Skin, Hair &amp; Course Simulator</h1>
+  <p>Compare home IPL devices and professional benchmarks by wavelength cutoff, fluence, pulse splitting, skin tone, hair contrast, treatment area, coverage, and total course energy.</p>
+</div>
+
+<div class="wrap">
+  <section class="card">
+    <h2>What this demo is for</h2>
+    <p class="lead">IPL specs can look better than they are because "J/cm<sup>2</sup>" may be an accumulated burst, not a single pulse. This tool keeps the pieces separate: <b>per sub-pulse intensity</b>, <b>effective stacked peak</b>, <b>accumulated dose per trigger</b>, <b>area coverage</b>, and <b>course total</b>. The dot/window opacity in the map is driven by <b>per sub-pulse fluence</b>; the outline and course heat show accumulated dose.</p>
+    <div class="warn"><b>Boundary:</b> this is an educational model, not a treatment calculator. Home IPL devices in this topic are cleared for hair removal, not pigment, redness, rosacea, facial rejuvenation, or eye-adjacent use. Pigment/redness settings below are there to show why the home tools are usually the wrong lever, not to prescribe use.</div>
+  </section>
+
+  <section class="card">
+    <div class="grid2">
+      <div>
+        <h2>1. Pick the goal and device</h2>
+        <p class="sub">Presets load the values captured in this IPL topic. Move any slider to stress-test the assumptions.</p>
+        <div class="ctl full" style="margin-bottom:12px">
+          <label style="margin-bottom:6px">Goal</label>
+          <div class="seg" id="goalSeg" aria-label="Goal selector">
+            <button data-goal="hair" class="active">Hair removal</button>
+            <button data-goal="pigment">Pigment / sun spots</button>
+            <button data-goal="redness">Redness / vessels</button>
+            <button data-goal="rejuvenation">Skin quality</button>
+          </div>
+        </div>
+        <div class="ctl full" style="margin-bottom:12px">
+          <label for="device">Device preset</label>
+          <select id="device"></select>
+        </div>
+        <div class="devicebox" id="deviceInfo"></div>
+      </div>
+      <div>
+        <h2>Readout</h2>
+        <p class="sub">The model intentionally separates "course dose" from "one big session"; they are not biologically interchangeable.</p>
+        <div class="metric-grid" style="grid-template-columns:repeat(2,minmax(0,1fr));margin-top:0">
+          <div class="metric"><div class="k">Goal fit</div><div class="v" id="goalFit">--</div><div class="meter good"><i id="goalFitBar"></i></div><div class="cap" id="goalFitCap"></div></div>
+          <div class="metric"><div class="k">Skin caution</div><div class="v" id="riskScore">--</div><div class="meter danger"><i id="riskScoreBar"></i></div><div class="cap" id="riskScoreCap"></div></div>
+          <div class="metric"><div class="k">Clinical gap</div><div class="v" id="clinicalGap">--</div><div class="meter amber"><i id="clinicalGapBar"></i></div><div class="cap" id="clinicalGapCap"></div></div>
+          <div class="metric"><div class="k">Expected result lane</div><div class="v" id="resultLane">--</div><div class="meter blue"><i id="resultLaneBar"></i></div><div class="cap" id="resultLaneCap"></div></div>
+        </div>
+        <div class="verdict" id="verdict"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>2. Dose controls</h2>
+    <p class="sub">Accumulated trigger fluence is the headline number. Per sub-pulse fluence is the opacity and peak-heating number. Gap determines whether sub-pulses can stack before the target cools.</p>
+    <div class="controls">
+      <div class="ctl">
+        <label for="totalFluence">Accumulated fluence per trigger <span class="val" id="v_totalFluence"></span></label>
+        <input id="totalFluence" type="range" min="1" max="40" step="0.1" value="6.08">
+        <div class="hint">For one pulse, this equals single-pulse fluence. For split modes, it is divided across sub-pulses.</div>
+      </div>
+      <div class="ctl">
+        <label for="pulses">Sub-pulses per trigger <span class="val" id="v_pulses"></span></label>
+        <input id="pulses" type="range" min="1" max="10" step="1" value="1">
+        <div class="hint">A 3-pulse "8.33 J/cm2" claim is only about 2.78 J/cm2 in each individual sub-pulse.</div>
+      </div>
+      <div class="ctl">
+        <label for="gap">Gap between sub-pulses <span class="val" id="v_gap"></span></label>
+        <input id="gap" type="range" min="5" max="500" step="5" value="80">
+        <div class="hint">Home filings rarely publish this. Shorter gaps make stacking more plausible; long gaps mostly re-dose weaker pulses.</div>
+      </div>
+      <div class="ctl">
+        <label for="spot">Spot/window size <span class="val" id="v_spot"></span></label>
+        <input id="spot" type="range" min="1" max="6" step="0.1" value="3">
+        <div class="hint">Used to convert J/cm2 into Joules per flash and flashes needed for an area.</div>
+      </div>
+      <div class="ctl">
+        <label for="cutoff">IPL cutoff wavelength <span class="val" id="v_cutoff"></span></label>
+        <input id="cutoff" type="range" min="470" max="650" step="5" value="510">
+        <div class="hint">Lower cutoffs keep more pigment/hemoglobin-relevant light, but also raise epidermal melanin risk.</div>
+      </div>
+      <div class="ctl">
+        <label for="pulseMs">Pulse width <span class="val" id="v_pulseMs"></span></label>
+        <input id="pulseMs" type="range" min="0.5" max="60" step="0.5" value="10">
+        <div class="hint">Shorter pulses make peak heating more abrupt. This model uses it as a caution modifier, not a precise thermal solver.</div>
+      </div>
+      <div class="ctl">
+        <label for="fitz">Skin tone (Fitzpatrick) <span class="val" id="v_fitz"></span></label>
+        <input id="fitz" type="range" min="1" max="6" step="1" value="3">
+        <div class="hint">More epidermal melanin means higher surface absorption and less optical margin.</div>
+      </div>
+      <div class="ctl">
+        <label for="hair">Hair darkness/coarseness <span class="val" id="v_hair"></span></label>
+        <input id="hair" type="range" min="0" max="100" step="1" value="75">
+        <div class="hint">Hair removal needs dark/coarse hair. Blonde, red, gray, or fine hair collapses the score.</div>
+      </div>
+      <div class="ctl">
+        <label for="sessions">Sessions in course <span class="val" id="v_sessions"></span></label>
+        <input id="sessions" type="range" min="1" max="16" step="1" value="8">
+        <div class="hint">Shows cumulative exposure over the course. This is not equivalent to one high-fluence professional session.</div>
+      </div>
+      <div class="ctl">
+        <label for="overlap">Intentional overlap <span class="val" id="v_overlap"></span></label>
+        <input id="overlap" type="range" min="0" max="35" step="1" value="12">
+        <div class="hint">A little overlap prevents striping; too much overlap concentrates risk without making a home device clinical.</div>
+      </div>
+      <div class="ctl">
+        <label for="area">Treatment area <span class="val" id="v_area"></span></label>
+        <input id="area" type="range" min="20" max="2500" step="5" value="450">
+        <div class="areas" id="areaBtns" style="margin-top:6px"></div>
+      </div>
+      <div class="ctl">
+        <label style="margin-bottom:8px">Safety modifiers</label>
+        <label class="toggle"><input id="cooling" type="checkbox" checked> Contact cooling / skin sensor active</label>
+        <div class="hint">Cooling reduces the model's skin caution score. It does not make unsuitable skin tones or off-label goals safe.</div>
+      </div>
+    </div>
+    <div class="metric-grid">
+      <div class="metric"><div class="k">Per sub-pulse</div><div class="v" id="m_perPulse">--</div><div class="cap">Opacity driver</div></div>
+      <div class="metric"><div class="k">Effective stacked peak</div><div class="v" id="m_peak">--</div><div class="cap">Depends on gap/TRT</div></div>
+      <div class="metric"><div class="k">Joules per trigger</div><div class="v" id="m_jTrigger">--</div><div class="cap">Fluence x spot</div></div>
+      <div class="metric"><div class="k">Course per-area total</div><div class="v" id="m_courseFluence">--</div><div class="cap">Not one-session equivalent</div></div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>3. Depth and target fit</h2>
+    <p class="sub">The beam opacity below follows per sub-pulse fluence. The target badges combine wavelength fit, peak-effective dose, and the selected goal.</p>
+    <div class="grid2">
+      <div class="skinwrap"><svg id="skinSvg" viewBox="0 0 900 390" role="img" aria-label="IPL skin depth diagram"></svg></div>
+      <div>
+        <div class="metric-grid" style="grid-template-columns:repeat(2,minmax(0,1fr));margin-top:0">
+          <div class="metric"><div class="k">Hair target</div><div class="v" id="t_hair">--</div><div class="meter good"><i id="b_hair"></i></div><div class="cap">Follicle melanin + course</div></div>
+          <div class="metric"><div class="k">Pigment target</div><div class="v" id="t_pigment">--</div><div class="meter amber"><i id="b_pigment"></i></div><div class="cap">Short filter + peak pulse</div></div>
+          <div class="metric"><div class="k">Redness target</div><div class="v" id="t_redness">--</div><div class="meter blue"><i id="b_redness"></i></div><div class="cap">Hb bands + fluence</div></div>
+          <div class="metric"><div class="k">Rejuvenation</div><div class="v" id="t_rejuvenation">--</div><div class="meter purple"><i id="b_rejuvenation"></i></div><div class="cap">Mostly clinical range</div></div>
+        </div>
+        <details open>
+          <summary>How to read the depth view</summary>
+          <p>IPL is broad-spectrum light, not a fractional microbeam. Lower cutoff filters keep shorter wavelengths that are better for pigment and hemoglobin near the surface. Longer wavelengths penetrate farther and are gentler on epidermal pigment, which is why many hair-removal filters sit at 560 nm or above. The home-device limitation is usually fluence and pulse structure, not just wavelength.</p>
+        </details>
+        <details>
+          <summary>Why per-pulse opacity matters</summary>
+          <p>Thermal damage depends on peak heating as well as total Joules. If 8.33 J/cm2 is split into 3 sub-pulses, the individual flashes are about 2.78 J/cm2. The map uses that lower per-pulse value for opacity, then uses outline/course heat to show the accumulated total.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>4. Coverage, sessions, and total energy</h2>
+    <p class="sub">Switch views to compare one home session, the full home course, and a one-session professional benchmark over the same area.</p>
+    <div class="ctl full" style="margin-bottom:12px">
+      <div class="seg" id="viewSeg" aria-label="Coverage view selector">
+        <button data-view="session" class="active">One home session</button>
+        <button data-view="course">Full home course</button>
+        <button data-view="clinic">One professional session</button>
+      </div>
+    </div>
+    <div class="grid2">
+      <div class="canvasbox">
+        <canvas id="coverage" width="980" height="478" aria-label="Coverage map"></canvas>
+        <div class="legend">
+          <span><i class="swatch" style="background:rgba(192,57,43,.28)"></i> Fill opacity = per sub-pulse fluence</span>
+          <span><i class="swatch" style="background:rgba(37,99,235,.35)"></i> Blue heat = course accumulation</span>
+          <span><i class="swatch" style="background:rgba(31,36,48,.8)"></i> Dark outline = accumulated trigger dose</span>
+        </div>
+      </div>
+      <div>
+        <div class="metric-grid" style="grid-template-columns:repeat(2,minmax(0,1fr));margin-top:0">
+          <div class="metric"><div class="k">Flashes / session</div><div class="v" id="m_flashes">--</div><div class="cap">Area, spot, overlap</div></div>
+          <div class="metric"><div class="k">Energy / session</div><div class="v" id="m_sessionJ">--</div><div class="cap">All triggers</div></div>
+          <div class="metric"><div class="k">Course energy</div><div class="v" id="m_courseJ">--</div><div class="cap">All sessions</div></div>
+          <div class="metric"><div class="k">Clinic benchmark</div><div class="v" id="m_clinic">--</div><div class="cap" id="m_clinicCap">Single session</div></div>
+        </div>
+        <div class="verdict amber" id="courseNote"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>5. Course total versus one bigger treatment</h2>
+    <p class="sub">This is the comparison that is easy to get wrong: repeated home sessions can sum to a large course number, while still never matching the peak fluence, pulse timing, filters, eye protection, and clinician titration of a professional session.</p>
+    <div class="barbox"><svg id="barsSvg" viewBox="0 0 920 330" role="img" aria-label="Dose comparison bars"></svg></div>
+  </section>
+
+  <section class="card">
+    <h2>Preset table</h2>
+    <p class="sub">Values are intentionally conservative. "Unknown gap" means the simulator lets you choose the gap because the filing/catalog does not publish it.</p>
+    <div class="tablewrap"><table id="presetTable"></table></div>
+  </section>
+
+  <section class="card">
+    <h2>Evidence anchors</h2>
+    <ol class="source-list">
+      <li><a href="01_science_brief.md">01_science_brief.md</a> - selective photothermolysis, wavelength cutoffs, clinical IPL fluence ranges, and PIH risk framing.</li>
+      <li><a href="06_final_recommendation.md">06_final_recommendation.md</a> - T023A video-verified 18.23 J single flash / 6.08 J/cm2, Nood benchmark, and the single-pulse versus accumulated-pulse recommendation logic.</li>
+      <li><a href="08_fda_ipl_device_dataset.md">08_fda_ipl_device_dataset.md</a> - home IPL ranking from openFDA plus OCR/hand-read 510(k) summaries, including multi-pulse flags.</li>
+      <li><a href="13_skin_rejuvenation_guide.md">13_skin_rejuvenation_guide.md</a> - why professional pigment/redness IPL uses higher fluence and filters, and why home IPL is off-label for rejuvenation.</li>
+      <li><a href="15_multi_flash_thermal_accumulation.md">15_multi_flash_thermal_accumulation.md</a> - the 8.33 J/cm2 accumulated-pulse issue, per-sub-pulse math, undisclosed gaps, and SHR timing evidence.</li>
+      <li><a href="shr_thermal_simulator.html">SHR thermal simulator</a> - the more detailed time-domain model for stacked pulses and follicle/stem-cell heat curves.</li>
+      <li><a href="cadence_planner.html">Cadence planner</a> - treatment timing and maintenance logic after a device is selected.</li>
+    </ol>
+  </section>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+
+const GOALS = {
+  hair:{label:"Hair removal", floor:6, benchmark:20, proCourse:6, color:"#167a3f", clinical:"clinic hair-removal IPL / laser"},
+  pigment:{label:"Pigment / sun spots", floor:16, benchmark:25, proCourse:3, color:"#b7791f", clinical:"professional pigment IPL"},
+  redness:{label:"Redness / vessels", floor:18, benchmark:35, proCourse:3, color:"#2563eb", clinical:"professional vascular IPL"},
+  rejuvenation:{label:"Skin quality", floor:12, benchmark:18, proCourse:4, color:"#7c3aed", clinical:"professional photofacial IPL"}
+};
+
+const PRESETS = [
+  {id:"t023_single",label:"Fansizhe T023A - verified single flash",kind:"Home IPL",totalFluence:6.08,pulses:1,gap:80,spot:3,cutoff:510,pulseMs:10,fitz:3,hair:75,sessions:8,area:450,overlap:12,cooling:true,certainty:"video-measured",source:"T023A seller video: 18.23 J across 3 cm2; local notes and final recommendation.",note:"Best-supported single-pulse home IPL number in this topic."},
+  {id:"t023_double",label:"Fansizhe T023A - measured double total",kind:"Home IPL",totalFluence:6.47,pulses:2,gap:120,spot:3,cutoff:510,pulseMs:10,fitz:3,hair:75,sessions:8,area:450,overlap:12,cooling:true,certainty:"video-measured total; gap unknown",source:"T023A seller video: 19.42 J total across 2 flashes.",note:"Shows why the second flash is not a free second full-strength pulse."},
+  {id:"t055k",label:"Fansizhe T055K - 8.33 accumulated",kind:"Home IPL",totalFluence:8.33,pulses:3,gap:180,spot:3,cutoff:560,pulseMs:10,fitz:3,hair:80,sessions:8,area:450,overlap:12,cooling:true,certainty:"FDA total; sub-pulse timing unknown",source:"K253881/Fansizhe table: 25 J over 3 cm2, multi-pulse total.",note:"Strong accumulated hair-removal headline, but only about 2.78 J/cm2 per sub-pulse if split evenly."},
+  {id:"t033m",label:"Fansizhe T033M - 8.48 accumulated",kind:"Home IPL",totalFluence:8.48,pulses:3,gap:180,spot:3.3,cutoff:560,pulseMs:10,fitz:3,hair:80,sessions:8,area:450,overlap:12,cooling:false,certainty:"FDA total; sub-pulse timing unknown",source:"K253881/FDA dataset: 28 J over 3.3 cm2, multi-pulse total.",note:"Highest verified accumulated home IPL row in the local dataset; body-only caution without cooling."},
+  {id:"ulike",label:"Ulike recent FDA row - multi-pulse",kind:"Home IPL",totalFluence:7.27,pulses:4,gap:250,spot:3.3,cutoff:530,pulseMs:10,fitz:3,hair:75,sessions:8,area:450,overlap:12,cooling:true,certainty:"FDA row; pulse structure simplified",source:"08 FDA dataset: Ulike 7.27 J/cm2, 3.3 cm2, 530-1100 nm, multi-pulse flag.",note:"Useful for seeing how high accumulated fluence can still become low per-pulse fluence."},
+  {id:"cyden",label:"Cyden 10 J/cm2 FDA benchmark",kind:"Home IPL",totalFluence:10,pulses:3,gap:120,spot:3,cutoff:530,pulseMs:10,fitz:2,hair:80,sessions:8,area:450,overlap:12,cooling:true,certainty:"FDA row; multi-pulse flag",source:"08 FDA dataset: Cyden Limited, 10 J/cm2, 3 cm2, 530-1100 nm.",note:"Top-ranked home IPL row, but flagged multi-pulse in the dataset."},
+  {id:"nood",label:"Nood Flasher 2.0 - branded low-risk peer",kind:"Home IPL",totalFluence:5,pulses:1,gap:80,spot:3,cutoff:510,pulseMs:10,fitz:2,hair:70,sessions:8,area:250,overlap:12,cooling:false,certainty:"topic benchmark",source:"Final recommendation: branded peer around 510 nm and 5 J/cm2.",note:"Lower sourcing risk, lower ceiling. Use manual edits for exact unit measurements."},
+  {id:"clinic_hair",label:"Professional hair-removal benchmark",kind:"Professional benchmark",totalFluence:20,pulses:1,gap:20,spot:4,cutoff:560,pulseMs:30,fitz:2,hair:80,sessions:6,area:450,overlap:10,cooling:true,certainty:"clinical range",source:"Science brief and skin guide: clinical hair/removal references around 10-30+ J/cm2.",note:"Benchmark only; not a home-use recommendation."},
+  {id:"clinic_pigment",label:"Professional pigment IPL benchmark",kind:"Professional benchmark",totalFluence:25,pulses:1,gap:20,spot:4,cutoff:515,pulseMs:4,fitz:2,hair:40,sessions:3,area:120,overlap:10,cooling:true,certainty:"clinical range",source:"Weiss/StatPearls ranges summarized in the science brief.",note:"Short-filter, higher-fluence professional lane."},
+  {id:"clinic_redness",label:"Professional redness / vessel benchmark",kind:"Professional benchmark",totalFluence:35,pulses:2,gap:20,spot:4,cutoff:560,pulseMs:5,fitz:2,hair:40,sessions:3,area:120,overlap:10,cooling:true,certainty:"clinical range",source:"Science brief: fine telangiectasia/rosacea ranges.",note:"Professional vascular parameters, not a home device."},
+  {id:"manual",label:"Manual / custom",kind:"Custom",totalFluence:6,pulses:1,gap:100,spot:3,cutoff:530,pulseMs:10,fitz:3,hair:70,sessions:8,area:450,overlap:12,cooling:true,certainty:"user-defined",source:"Slider-defined.",note:"Use this to test claims from a catalog, filing, or spec sheet."}
+];
+
+const AREA_PRESETS = [
+  ["Upper lip",25],["Underarms",180],["Bikini",300],["Half legs",900],["Full legs",1800],["Back/chest",2200]
+];
+
+const state = {goal:"hair",view:"session",device:"t023_single"};
+
+const inputs = ["totalFluence","pulses","gap","spot","cutoff","pulseMs","fitz","hair","sessions","area","overlap"];
+
+function clamp(n,min,max){return Math.max(min,Math.min(max,n));}
+function pct(n){return `${Math.round(clamp(n,0,100))}%`;}
+function fmt(n,d=1){return Number(n).toLocaleString(undefined,{maximumFractionDigits:d,minimumFractionDigits:d});}
+function fitzLabel(n){return ["I","II","III","IV","V","VI"][n-1] || String(n);}
+
+function init(){
+  $("device").innerHTML = PRESETS.map(p => `<option value="${p.id}">${p.label}</option>`).join("");
+  $("device").value = state.device;
+  $("areaBtns").innerHTML = AREA_PRESETS.map(([name,val]) => `<button data-area="${val}">${name}</button>`).join("");
+  $("presetTable").innerHTML = renderPresetTable();
+  applyPreset(PRESETS[0]);
+  bind();
+  update();
+}
+
+function bind(){
+  $("device").addEventListener("change",e=>{
+    state.device = e.target.value;
+    applyPreset(PRESETS.find(p=>p.id===state.device));
+  });
+  document.querySelectorAll("#goalSeg button").forEach(btn=>{
+    btn.addEventListener("click",()=>{
+      state.goal = btn.dataset.goal;
+      document.querySelectorAll("#goalSeg button").forEach(b=>b.classList.toggle("active",b===btn));
+      update();
+    });
+  });
+  document.querySelectorAll("#viewSeg button").forEach(btn=>{
+    btn.addEventListener("click",()=>{
+      state.view = btn.dataset.view;
+      document.querySelectorAll("#viewSeg button").forEach(b=>b.classList.toggle("active",b===btn));
+      update();
+    });
+  });
+  inputs.forEach(id=>{
+    $(id).addEventListener("input",()=>{state.device="manual";$("device").value="manual";update();});
+  });
+  $("cooling").addEventListener("change",()=>{state.device="manual";$("device").value="manual";update();});
+  document.querySelectorAll("#areaBtns button").forEach(btn=>{
+    btn.addEventListener("click",()=>{
+      $("area").value = btn.dataset.area;
+      state.device = "manual";
+      $("device").value = "manual";
+      update();
+    });
+  });
+  window.addEventListener("resize",drawCoverage);
+}
+
+function applyPreset(p){
+  inputs.forEach(id=>{ if(p[id] !== undefined) $(id).value = p[id]; });
+  $("cooling").checked = !!p.cooling;
+  state.device = p.id;
+  $("device").value = p.id;
+  update();
+}
+
+function read(){
+  const o = {};
+  inputs.forEach(id=>o[id] = Number($(id).value));
+  o.cooling = $("cooling").checked;
+  o.goal = GOALS[state.goal];
+  o.preset = PRESETS.find(p=>p.id===state.device) || PRESETS[PRESETS.length-1];
+  o.perPulse = o.totalFluence / Math.max(1,o.pulses);
+  const trtTarget = targetTrt(o);
+  const residual = o.pulses <= 1 ? 0 : Math.exp(-o.gap / trtTarget);
+  o.stackMultiplier = o.pulses <= 1 ? 1 : (1 - Math.pow(residual,o.pulses)) / (1 - residual);
+  o.peakEffective = o.perPulse * o.stackMultiplier;
+  o.jTrigger = o.totalFluence * o.spot;
+  o.jSubPulse = o.perPulse * o.spot;
+  o.flashes = Math.ceil((o.area * (1 + o.overlap/100)) / o.spot);
+  o.sessionJ = o.jTrigger * o.flashes;
+  o.courseJ = o.sessionJ * o.sessions;
+  o.courseFluence = o.totalFluence * o.sessions;
+  return o;
+}
+
+function targetTrt(o){
+  if(state.goal === "hair") return 18 + (o.hair/100) * 82;
+  if(state.goal === "pigment") return 4;
+  if(state.goal === "redness") return 18;
+  return 30;
+}
+
+function wavelengthFit(goal, cutoff){
+  if(goal === "hair"){
+    if(cutoff >= 560 && cutoff <= 650) return .95;
+    if(cutoff >= 530) return .88;
+    if(cutoff >= 500) return .8;
+    return .65;
+  }
+  if(goal === "pigment"){
+    if(cutoff <= 515) return 1;
+    if(cutoff <= 530) return .9;
+    if(cutoff <= 560) return .68;
+    if(cutoff <= 590) return .32;
+    return .12;
+  }
+  if(goal === "redness"){
+    if(cutoff <= 530) return .95;
+    if(cutoff <= 560) return .72;
+    if(cutoff <= 590) return .28;
+    return .08;
+  }
+  if(cutoff <= 560) return .75;
+  if(cutoff <= 590) return .45;
+  return .2;
+}
+
+function scores(o){
+  const hairContrast = clamp((o.hair/100) * (1.08 - (o.fitz-1)*.08),0,.98);
+  const hairWave = wavelengthFit("hair",o.cutoff);
+  const pigmentWave = wavelengthFit("pigment",o.cutoff);
+  const redWave = wavelengthFit("redness",o.cutoff);
+  const rejuvWave = wavelengthFit("rejuvenation",o.cutoff);
+  const courseHelp = clamp(o.sessions/8,0,1.25);
+  const hairScore = clamp((o.peakEffective/7)*48 + (o.courseFluence/54)*25 + hairWave*22,0,100) * hairContrast;
+  const pigmentScore = clamp((o.peakEffective/16)*58 + pigmentWave*36 + Math.min(o.sessions,4)*2,0,100);
+  const rednessScore = clamp((o.peakEffective/18)*52 + redWave*38 + Math.min(o.sessions,4)*2,0,100);
+  const rejuvScore = clamp((o.peakEffective/12)*38 + (o.courseFluence/72)*22 + rejuvWave*28 + courseHelp*8,0,100);
+  const targetMap = {hair:hairScore,pigment:pigmentScore,redness:rednessScore,rejuvenation:rejuvScore};
+  const melanin = [.65,.8,1,1.18,1.45,1.75][o.fitz-1] || 1;
+  const shortFactor = o.cutoff <= 500 ? 1.38 : o.cutoff <= 530 ? 1.24 : o.cutoff <= 560 ? 1.05 : o.cutoff <= 600 ? .82 : .68;
+  const durationFactor = o.pulseMs < 5 ? 1.18 : o.pulseMs < 12 ? 1 : .88;
+  const coolingFactor = o.cooling ? .68 : 1;
+  const skinResidual = o.pulses <= 1 ? 0 : Math.exp(-o.gap / 6);
+  const skinStack = o.pulses <= 1 ? 1 : (1 - Math.pow(skinResidual,o.pulses)) / (1 - skinResidual);
+  const skinPeak = o.perPulse * skinStack;
+  const risk = clamp((skinPeak * melanin * shortFactor * durationFactor * coolingFactor / 8) * 78 + Math.max(0,o.overlap-18)*1.2 + (o.fitz>=5?15:0),0,100);
+  const gapRatio = clamp(o.peakEffective / o.goal.benchmark,0,1.8);
+  const goalFit = clamp(targetMap[state.goal] - Math.max(0,risk-70)*.22,0,100);
+  const clinicalGap = clamp(gapRatio*100,0,160);
+  let resultLane = goalFit;
+  if(state.goal === "hair"){
+    resultLane = clamp(8 + 68 * (1 - Math.exp(-o.sessions/5)) * clamp(o.peakEffective/7,0,1.2) * hairContrast * hairWave,0,82);
+  } else if(o.preset.kind !== "Professional benchmark") {
+    resultLane = clamp(goalFit * .45,0,45);
+  }
+  return {hairScore,pigmentScore,rednessScore,rejuvScore,risk,goalFit,clinicalGap,resultLane,hairContrast};
+}
+
+function update(){
+  const o = read();
+  const s = scores(o);
+  updateLabels(o);
+  updateDeviceInfo(o);
+  updateMetrics(o,s);
+  drawSkin(o,s);
+  drawCoverage();
+  drawBars(o,s);
+}
+
+function updateLabels(o){
+  $("v_totalFluence").textContent = `${fmt(o.totalFluence)} J/cm2`;
+  $("v_pulses").textContent = `${o.pulses}`;
+  $("v_gap").textContent = `${Math.round(o.gap)} ms`;
+  $("v_spot").textContent = `${fmt(o.spot)} cm2`;
+  $("v_cutoff").textContent = `${Math.round(o.cutoff)} nm`;
+  $("v_pulseMs").textContent = `${fmt(o.pulseMs)} ms`;
+  $("v_fitz").textContent = fitzLabel(o.fitz);
+  $("v_hair").textContent = `${Math.round(o.hair)} / 100`;
+  $("v_sessions").textContent = `${o.sessions}`;
+  $("v_area").textContent = `${Math.round(o.area)} cm2`;
+  $("v_overlap").textContent = `${Math.round(o.overlap)}%`;
+  document.querySelectorAll("#areaBtns button").forEach(b=>b.classList.toggle("active",Number(b.dataset.area) === Math.round(o.area)));
+}
+
+function updateDeviceInfo(o){
+  const p = o.preset;
+  const confidenceClass = p.certainty.includes("unknown") || p.certainty.includes("simplified") ? "warn" : p.certainty.includes("video") || p.certainty.includes("clinical") ? "good" : "";
+  $("deviceInfo").innerHTML = `<b>${p.label}</b><br><span class="mini">${p.note}</span>
+    <div class="chips">
+      <span class="chip">${p.kind}</span>
+      <span class="chip ${confidenceClass}">${p.certainty}</span>
+      <span class="chip">${fmt(o.totalFluence)} J/cm2 accumulated</span>
+      <span class="chip">${fmt(o.perPulse)} J/cm2 per sub-pulse</span>
+      <span class="chip">${Math.round(o.cutoff)} nm cutoff</span>
+    </div>
+    <div class="mini" style="margin-top:8px"><b>Source:</b> ${p.source}</div>`;
+}
+
+function updateMetrics(o,s){
+  $("m_perPulse").textContent = `${fmt(o.perPulse)} J/cm2`;
+  $("m_peak").textContent = `${fmt(o.peakEffective)} J/cm2`;
+  $("m_jTrigger").textContent = `${fmt(o.jTrigger)} J`;
+  $("m_courseFluence").textContent = `${fmt(o.courseFluence,0)} J/cm2`;
+  $("m_flashes").textContent = o.flashes.toLocaleString();
+  $("m_sessionJ").textContent = `${fmt(o.sessionJ,0)} J`;
+  $("m_courseJ").textContent = `${fmt(o.courseJ,0)} J`;
+  $("m_clinic").textContent = `${o.goal.benchmark} J/cm2`;
+  $("m_clinicCap").textContent = `${o.goal.clinical}, one session`;
+  setMetric("goalFit",s.goalFit,`${GOALS[state.goal].label} fit`);
+  setMetric("riskScore",s.risk,riskLabel(s.risk));
+  setMetric("clinicalGap",s.clinicalGap,`Peak-effective trigger vs ${o.goal.benchmark} J/cm2 benchmark`);
+  setMetric("resultLane",s.resultLane,resultCaption(o,s));
+  setTarget("hair",s.hairScore);
+  setTarget("pigment",s.pigmentScore);
+  setTarget("redness",s.rednessScore);
+  setTarget("rejuvenation",s.rejuvScore);
+  $("verdict").className = `verdict ${s.risk>70 ? "danger" : s.goalFit>65 ? "good" : "amber"}`;
+  $("verdict").innerHTML = verdictText(o,s);
+  $("courseNote").innerHTML = courseNote(o,s);
+}
+
+function setMetric(id,val,cap){
+  $(id).textContent = pct(val);
+  $(`${id}Bar`).style.width = `${clamp(val,0,100)}%`;
+  $(`${id}Cap`).textContent = cap;
+}
+
+function setTarget(id,val){
+  $(`t_${id}`).textContent = pct(val);
+  $(`b_${id}`).style.width = `${clamp(val,0,100)}%`;
+}
+
+function riskLabel(risk){
+  if(risk >= 75) return "High - unsuitable without clinician judgment";
+  if(risk >= 52) return "Caution - skin tone/filter/fluence margin is narrowing";
+  if(risk >= 30) return "Moderate - patch-test logic, avoid overlap";
+  return "Lower modeled caution";
+}
+
+function resultCaption(o,s){
+  if(state.goal === "hair") return "Modeled long-course hair-reduction lane, capped for home IPL uncertainty";
+  if(o.preset.kind === "Professional benchmark") return "Professional benchmark lane";
+  return "Home/off-label lane; expected to be modest even over many sessions";
+}
+
+function verdictText(o,s){
+  const multi = o.pulses > 1 ? ` Split into ${o.pulses} sub-pulses, the map opacity follows ${fmt(o.perPulse)} J/cm2 per sub-pulse, not the ${fmt(o.totalFluence)} J/cm2 headline.` : "";
+  if(state.goal === "hair"){
+    if(o.hair < 35) return `<b>Poor hair contrast.</b> IPL needs dark/coarse hair. The course total can look large, but low melanin in the shaft leaves little for the follicle to absorb.${multi}`;
+    if(o.fitz >= 5) return `<b>High skin-tone caution.</b> The same light competes with epidermal melanin before it reaches the follicle. Home IPL is generally not the right place to push dose on Fitzpatrick ${fitzLabel(o.fitz)}.${multi}`;
+    if(s.goalFit >= 65) return `<b>Strong home-IPL lane for suitable hair/skin.</b> This is still a home-device course, not a professional one-session equivalent. Finish the course, avoid excessive overlap, and treat accumulated multi-pulse claims cautiously.${multi}`;
+    return `<b>Middle of the home-IPL lane.</b> The device may still help suitable dark hair, but the peak-effective dose is below the stronger home presets or the sessions/coverage are light.${multi}`;
+  }
+  if(o.preset.kind !== "Professional benchmark"){
+    return `<b>This shows why home IPL is weak for ${GOALS[state.goal].label.toLowerCase()}.</b> The professional reference is about ${o.goal.benchmark} J/cm2 with selected filters and clinician controls; this setup reaches ${fmt(o.peakEffective)} J/cm2 peak-effective per trigger. More home sessions increase exposure, but they do not become one large professional treatment.${multi}`;
+  }
+  return `<b>Professional benchmark lane.</b> This preset is for comparison: higher fluence, selected cutoff, cooling, eye protection, and clinician titration are all part of why the same target can be treated differently in-office.`;
+}
+
+function courseNote(o,s){
+  const proCourse = o.goal.benchmark * o.goal.proCourse;
+  return `<b>Course math:</b> one home session delivers about ${fmt(o.totalFluence)} J/cm2 to a covered spot and ${fmt(o.sessionJ,0)} total Joules across this area. ${o.sessions} sessions sum to ${fmt(o.courseFluence,0)} J/cm2 per covered spot and ${fmt(o.courseJ,0)} total Joules. A typical ${o.goal.clinical} reference is ${o.goal.benchmark} J/cm2 in one session and roughly ${proCourse} J/cm2 over ${o.goal.proCourse} sessions. The totals can overlap numerically, but peak fluence, pulse timing, target selectivity, and safety controls are not interchangeable.`;
+}
+
+function drawSkin(o,s){
+  const beamOpacity = clamp(.12 + o.perPulse/18*.55,.12,.75);
+  const beamColor = o.cutoff <= 515 ? "#f59e0b" : o.cutoff <= 540 ? "#f97316" : o.cutoff <= 570 ? "#ef4444" : "#b91c1c";
+  const melaninOpacity = clamp(.12 + o.fitz*.1,.2,.78);
+  const labels = [
+    {x:610,y:82,name:"Epidermal pigment",score:s.pigmentScore,color:"#b7791f"},
+    {x:610,y:160,name:"Red vessels",score:s.rednessScore,color:"#2563eb"},
+    {x:610,y:250,name:"Hair follicle",score:s.hairScore,color:"#167a3f"},
+    {x:610,y:315,name:"Deep heat / collagen",score:s.rejuvScore,color:"#7c3aed"}
+  ];
+  $("skinSvg").innerHTML = `
+    <defs>
+      <linearGradient id="derm" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#fff2e8"/><stop offset="1" stop-color="#ffd6c2"/></linearGradient>
+      <linearGradient id="fat" x1="0" x2="1"><stop offset="0" stop-color="#fff6bf"/><stop offset="1" stop-color="#ffe58a"/></linearGradient>
+      <filter id="soft"><feGaussianBlur stdDeviation="10"/></filter>
+    </defs>
+    <rect x="0" y="0" width="900" height="390" fill="#ffffff"/>
+    <rect x="52" y="52" width="495" height="42" fill="#f6c7a7"/>
+    <rect x="52" y="88" width="495" height="26" fill="#7a3e25" opacity="${melaninOpacity}"/>
+    <rect x="52" y="114" width="495" height="170" fill="url(#derm)"/>
+    <rect x="52" y="284" width="495" height="62" fill="url(#fat)"/>
+    <path d="M82 54 L266 54 L392 346 L118 346 Z" fill="${beamColor}" opacity="${beamOpacity}" filter="url(#soft)"/>
+    <path d="M82 54 L266 54 L392 346 L118 346 Z" fill="${beamColor}" opacity="${beamOpacity*.55}"/>
+    <path d="M166 48 C166 105 178 142 205 184 C228 221 233 270 206 310" fill="none" stroke="#3f2b20" stroke-width="13" stroke-linecap="round"/>
+    <path d="M174 50 C174 106 187 141 212 181 C236 219 242 268 213 308" fill="none" stroke="#141414" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="205" cy="303" rx="34" ry="31" fill="#5a2f22"/>
+    <ellipse cx="206" cy="303" rx="18" ry="16" fill="#1f130f"/>
+    <ellipse cx="285" cy="99" rx="42" ry="12" fill="#7a3e25" opacity=".72"/>
+    <path d="M330 160 C370 126 410 193 456 156 C489 130 510 145 528 160" fill="none" stroke="#d92d20" stroke-width="10" stroke-linecap="round" opacity=".8"/>
+    <path d="M348 187 C385 157 424 220 468 184 C494 162 517 173 535 190" fill="none" stroke="#2563eb" stroke-width="6" stroke-linecap="round" opacity=".42"/>
+    <text x="60" y="41" font-size="12" fill="#667085">surface</text>
+    <text x="60" y="82" font-size="12" fill="#344054">epidermis / melanin</text>
+    <text x="60" y="148" font-size="12" fill="#344054">dermis</text>
+    <text x="60" y="321" font-size="12" fill="#344054">subcutis</text>
+    <line x1="567" y1="52" x2="567" y2="346" stroke="#98a2b3" stroke-width="1"/>
+    ${[["0 mm",56],["0.1 mm",104],["0.5 mm",150],["1.5 mm",245],["3 mm",338]].map(([t,y])=>`<line x1="560" x2="574" y1="${y}" y2="${y}" stroke="#98a2b3"/><text x="580" y="${y+4}" font-size="11" fill="#667085">${t}</text>`).join("")}
+    <text x="70" y="374" font-size="12" fill="#344054">Cutoff ${Math.round(o.cutoff)} nm; per sub-pulse ${fmt(o.perPulse)} J/cm2; accumulated trigger ${fmt(o.totalFluence)} J/cm2</text>
+    ${labels.map((l,i)=>`
+      <g>
+        <rect x="${l.x}" y="${l.y-22}" width="224" height="42" rx="8" fill="#fafbfc" stroke="#e4e7ec"/>
+        <circle cx="${l.x+18}" cy="${l.y-1}" r="8" fill="${l.color}" opacity=".85"/>
+        <text x="${l.x+34}" y="${l.y-5}" font-size="12" font-weight="700" fill="#1f2430">${l.name}</text>
+        <rect x="${l.x+34}" y="${l.y+4}" width="126" height="7" rx="4" fill="#eceff3"/>
+        <rect x="${l.x+34}" y="${l.y+4}" width="${126*clamp(l.score,0,100)/100}" height="7" rx="4" fill="${l.color}"/>
+        <text x="${l.x+170}" y="${l.y+10}" font-size="11" font-weight="700" fill="${l.color}">${pct(l.score)}</text>
+      </g>`).join("")}
+  `;
+}
+
+function drawCoverage(){
+  const o = read();
+  const canvas = $("coverage");
+  const rect = canvas.getBoundingClientRect();
+  const dpr = window.devicePixelRatio || 1;
+  const cssW = Math.max(320,Math.round(rect.width || 920));
+  const cssH = Math.round(cssW / 2.05);
+  canvas.width = Math.round(cssW*dpr);
+  canvas.height = Math.round(cssH*dpr);
+  const ctx = canvas.getContext("2d");
+  ctx.setTransform(dpr,0,0,dpr,0,0);
+  ctx.clearRect(0,0,cssW,cssH);
+  ctx.fillStyle = "#fff";
+  ctx.fillRect(0,0,cssW,cssH);
+  const pad = 38;
+  const w = cssW - pad*2;
+  const h = cssH - pad*2 - 20;
+  const aspect = o.area > 1200 ? 1.8 : o.area > 500 ? 1.45 : 1.15;
+  const boxW = Math.min(w, h*aspect);
+  const boxH = boxW/aspect;
+  const x0 = pad + (w-boxW)/2;
+  const y0 = pad;
+  roundRect(ctx,x0,y0,boxW,boxH,16,"#fff8f6","#f0d0c8");
+  ctx.save();
+  ctx.beginPath();
+  ctx.roundRect(x0,y0,boxW,boxH,16);
+  ctx.clip();
+  const view = state.view;
+  const proFluence = o.goal.benchmark;
+  const flashes = view === "clinic" ? Math.ceil((o.area*1.08) / 4) : o.flashes;
+  const maxDraw = view === "course" ? 540 : 300;
+  const represented = Math.max(1,Math.ceil(flashes / maxDraw));
+  const drawCount = Math.ceil(flashes / represented);
+  const cols = Math.ceil(Math.sqrt(drawCount * aspect));
+  const rows = Math.ceil(drawCount / cols);
+  const cellW = boxW / cols;
+  const cellH = boxH / rows;
+  const fillFluence = view === "clinic" ? proFluence : o.perPulse;
+  const accFluence = view === "clinic" ? proFluence : o.totalFluence;
+  const fillAlpha = clamp(.08 + fillFluence/20*.55,.08,.72);
+  const outlineAlpha = clamp(.18 + accFluence/35*.55,.18,.85);
+  const sessions = view === "course" ? o.sessions : 1;
+  for(let session=0; session<sessions; session++){
+    const offX = view === "course" ? ((session%4)-1.5)*cellW*.12 : 0;
+    const offY = view === "course" ? ((Math.floor(session/4)%4)-1.5)*cellH*.12 : 0;
+    const heatAlpha = view === "course" ? clamp(.035 + o.totalFluence/40*.07,.035,.13) : fillAlpha;
+    for(let i=0;i<drawCount;i++){
+      const c = i % cols;
+      const r = Math.floor(i/cols);
+      const cx = x0 + c*cellW + cellW*.5 + offX;
+      const cy = y0 + r*cellH + cellH*.5 + offY;
+      const rw = cellW * (view==="clinic" ? .88 : .78);
+      const rh = cellH * (view==="clinic" ? .78 : .72);
+      ctx.fillStyle = view === "course" ? `rgba(37,99,235,${heatAlpha})` : `rgba(192,57,43,${fillAlpha})`;
+      ctx.strokeStyle = view === "course" ? `rgba(37,99,235,${outlineAlpha*.45})` : `rgba(31,36,48,${outlineAlpha})`;
+      ctx.lineWidth = view === "course" ? 1 : 1.2;
+      ctx.beginPath();
+      ctx.ellipse(cx,cy,rw*.5,rh*.5,0,0,Math.PI*2);
+      ctx.fill();
+      ctx.stroke();
+    }
+  }
+  ctx.restore();
+  ctx.fillStyle = "#1f2430";
+  ctx.font = "700 13px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif";
+  const title = view === "session" ? "One home session" : view === "course" ? `${o.sessions}-session home course` : `One ${o.goal.clinical}`;
+  ctx.fillText(title,pad,20);
+  ctx.font = "12px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif";
+  ctx.fillStyle = "#667085";
+  const line = view === "clinic"
+    ? `${flashes.toLocaleString()} professional spots at ${o.goal.benchmark} J/cm2 over ${Math.round(o.area)} cm2`
+    : `${o.flashes.toLocaleString()} flashes/session; each drawn spot represents ${represented} flash${represented>1?"es":""}`;
+  ctx.fillText(line,pad,cssH-16);
+  ctx.fillStyle = "#344054";
+  ctx.font = "11px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif";
+  ctx.fillText("Treatment area schematic - not anatomical scale",x0+10,y0+18);
+}
+
+function roundRect(ctx,x,y,w,h,r,fill,stroke){
+  ctx.beginPath();
+  ctx.roundRect(x,y,w,h,r);
+  ctx.fillStyle = fill;
+  ctx.fill();
+  ctx.strokeStyle = stroke;
+  ctx.lineWidth = 1;
+  ctx.stroke();
+}
+
+function drawBars(o,s){
+  const proSingle = o.goal.benchmark;
+  const proCourse = o.goal.benchmark * o.goal.proCourse;
+  const bars = [
+    ["Per sub-pulse",o.perPulse,"#c0392b","Peak opacity driver"],
+    ["Effective stacked peak",o.peakEffective,"#167a3f","Target peak after timing"],
+    ["Accumulated trigger",o.totalFluence,"#b7791f","Headline trigger dose"],
+    [`Home course (${o.sessions}x)`,o.courseFluence,"#2563eb","Repeated sessions, same area"],
+    ["One professional session",proSingle,"#7c3aed",o.goal.clinical],
+    [`Professional course (${o.goal.proCourse}x)`,proCourse,"#475467","Reference series"]
+  ];
+  const max = Math.max(...bars.map(b=>b[1])) * 1.12;
+  const W=920,H=330,left=190,right=38,top=34,rowH=42,barW=W-left-right;
+  $("barsSvg").innerHTML = `
+    <rect x="0" y="0" width="${W}" height="${H}" fill="#fff"/>
+    <text x="${left}" y="20" font-size="12" fill="#667085">J/cm2 per covered spot. Course totals are arithmetic sums, not one-session equivalents.</text>
+    ${bars.map((b,i)=>{
+      const y=top+i*rowH;
+      const w=barW*(b[1]/max);
+      return `<g>
+        <text x="${left-10}" y="${y+17}" text-anchor="end" font-size="12" font-weight="700" fill="#1f2430">${b[0]}</text>
+        <rect x="${left}" y="${y}" width="${barW}" height="22" rx="7" fill="#f0f2f5"/>
+        <rect x="${left}" y="${y}" width="${Math.max(2,w)}" height="22" rx="7" fill="${b[2]}" opacity=".86"/>
+        <text x="${Math.min(left+w+8,W-70)}" y="${y+16}" font-size="12" font-weight="800" fill="${b[2]}">${fmt(b[1], b[1]>=100?0:1)}</text>
+        <text x="${left}" y="${y+37}" font-size="11" fill="#667085">${b[3]}</text>
+      </g>`;
+    }).join("")}
+  `;
+}
+
+function renderPresetTable(){
+  const rows = PRESETS.filter(p=>p.id!=="manual").map(p=>{
+    const per = p.totalFluence / p.pulses;
+    return `<tr><td><b>${p.label}</b><br><span class="mini">${p.kind}</span></td><td>${p.cutoff} nm</td><td>${fmt(p.totalFluence)} J/cm2</td><td>${p.pulses}</td><td>${fmt(per)} J/cm2</td><td>${fmt(p.spot)} cm2</td><td>${p.certainty}</td><td>${p.note}</td></tr>`;
+  }).join("");
+  return `<thead><tr><th>Preset</th><th>Cutoff</th><th>Accumulated trigger</th><th>Pulses</th><th>Per sub-pulse</th><th>Spot</th><th>Evidence status</th><th>Use in the model</th></tr></thead><tbody>${rows}</tbody>`;
+}
+
+init();
+</script>
+</body>
+</html>
