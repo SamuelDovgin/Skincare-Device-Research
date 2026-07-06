@@ -65,6 +65,15 @@ input[type=range]{width:100%;accent-color:var(--accent);margin:2px 0}
 .g .cap{font-size:11px;color:var(--muted);margin-top:3px}
 .bar{height:7px;border-radius:5px;background:#eceef1;overflow:hidden;margin-top:7px}
 .bar > i{display:block;height:100%;border-radius:5px}
+.diagnostics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:14px}
+.diag{border:1px solid var(--line);border-radius:10px;background:#fff;padding:11px 12px;min-width:0}
+.diag .k{font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:800}
+.diag .v{font-size:16px;line-height:1.15;font-weight:850;margin-top:3px;color:var(--ink)}
+.diag .cap{font-size:11.5px;line-height:1.35;color:var(--muted);margin-top:5px}
+.diag.yes{border-color:#bfe6c9;background:#f2fbf5}.diag.yes .v{color:var(--good)}
+.diag.partial{border-color:#eadfae;background:#fffaf0}.diag.partial .v{color:#9a7b1f}
+.diag.no{border-color:#f3c0c0;background:#fff5f5}.diag.no .v{color:var(--accent)}
+.diag.info{background:#fafbfc}
 .verdict{margin-top:14px;padding:13px 15px;border-radius:11px;font-size:13.5px;border-left:5px solid var(--muted);background:#fafbfc}
 .verdict.yes{border-color:var(--good);background:#f2fbf5}
 .verdict.partial{border-color:var(--amber);background:#fffaf0}
@@ -103,7 +112,8 @@ details p{font-size:13px;margin:8px 0 0}
 ol.src{font-size:12px;color:var(--ink);padding-left:22px}
 ol.src li{margin-bottom:7px}
 sup a{text-decoration:none;font-weight:700;color:var(--accent);font-size:11px}
-@media(max-width:640px){.topbar{padding:10px 14px}.topbar h1{font-size:17px;line-height:1.25}.topbar p{font-size:12px}.wrap{margin:12px auto;padding:0 10px}.card{padding:16px 13px;border-radius:10px;margin-bottom:12px}.card h2{font-size:16px}.devrow{display:grid;grid-template-columns:minmax(0,1fr);gap:8px}select#device{width:100%;min-width:0}.scenbtns,.presetbtns{display:grid;grid-template-columns:1fr;gap:6px}.scenbtns button,.presetbtns button{text-align:left}.ctrls{gap:12px}.ctl label{display:block}.ctl label .val{display:block;margin-top:2px}.seg{display:grid;grid-template-columns:1fr;width:100%}.seg button{width:100%;text-align:center;padding:9px 10px}.gauges{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.g{padding:10px}.g .v{font-size:19px}.legend{gap:8px}.legend span{align-items:flex-start}.two{gap:10px}.two>*{min-width:0;max-width:100%;overflow-x:auto}.pathcard{padding:12px}.pathcard p{font-size:12.5px}.quote{padding:11px}.quote p{font-size:12.5px}.chip{max-width:100%;overflow-wrap:anywhere}table{width:100%;min-width:680px;max-width:none;font-size:12px;table-layout:fixed}th,td{padding:6px 7px;min-width:0;overflow-wrap:anywhere}svg{width:100%;max-height:70vh}.blurb,.warn,.verdict{font-size:12.8px;padding:11px 12px}.deviceinfo{padding:11px 12px}.prov{white-space:normal}}
+@media(max-width:900px){.diagnostics{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.topbar{padding:10px 14px}.topbar h1{font-size:17px;line-height:1.25}.topbar p{font-size:12px}.wrap{margin:12px auto;padding:0 10px}.card{padding:16px 13px;border-radius:10px;margin-bottom:12px}.card h2{font-size:16px}.devrow{display:grid;grid-template-columns:minmax(0,1fr);gap:8px}select#device{width:100%;min-width:0}.scenbtns,.presetbtns{display:grid;grid-template-columns:1fr;gap:6px}.scenbtns button,.presetbtns button{text-align:left}.ctrls{gap:12px}.ctl label{display:block}.ctl label .val{display:block;margin-top:2px}.seg{display:grid;grid-template-columns:1fr;width:100%}.seg button{width:100%;text-align:center;padding:9px 10px}.gauges{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.diagnostics{grid-template-columns:1fr;gap:8px}.g{padding:10px}.g .v{font-size:19px}.legend{gap:8px}.legend span{align-items:flex-start}.two{gap:10px}.two>*{min-width:0;max-width:100%;overflow-x:auto}.pathcard{padding:12px}.pathcard p{font-size:12.5px}.quote{padding:11px}.quote p{font-size:12.5px}.chip{max-width:100%;overflow-wrap:anywhere}table{width:100%;min-width:680px;max-width:none;font-size:12px;table-layout:fixed}th,td{padding:6px 7px;min-width:0;overflow-wrap:anywhere}svg{width:100%;max-height:70vh}.blurb,.warn,.verdict{font-size:12.8px;padding:11px 12px}.deviceinfo{padding:11px 12px}.prov{white-space:normal}}
 </style>
 </head>
 <body>
@@ -240,6 +250,12 @@ sup a{text-decoration:none;font-weight:700;color:var(--accent);font-size:11px}
       <div class="g"><div class="k">Skin burn risk</div><div class="v" id="ps">—</div><div class="cap" id="pscap"></div><div class="bar"><i id="psbar"></i></div></div>
       <div class="g"><div class="k">Sting build-up</div><div class="v" id="pp">—</div><div class="cap" id="ppcap"></div><div class="bar"><i id="ppbar"></i></div></div>
     </div>
+    <div class="diagnostics" aria-label="Thermal damage diagnostics">
+      <div class="diag" id="diagPath"><div class="k">Damage pathway</div><div class="v">—</div><div class="cap"></div></div>
+      <div class="diag" id="diagTiming"><div class="k">Timing carryover</div><div class="v">—</div><div class="cap"></div></div>
+      <div class="diag" id="diagSplit"><div class="k">Per-flash vs headline</div><div class="v">—</div><div class="cap"></div></div>
+      <div class="diag" id="diagCompare"><div class="k">Same-total comparison</div><div class="v">—</div><div class="cap"></div></div>
+    </div>
 
     <div class="verdict" id="verdict"></div>
   </div>
@@ -321,8 +337,8 @@ sup a{text-decoration:none;font-weight:700;color:var(--accent);font-size:11px}
 
   <!-- DOSE RESPONSE -->
   <div class="card">
-    <h2>7 · The lever that most reliably matters: dose</h2>
-    <p class="sub">Across the cleanest home-device data, higher <i>single</i>-flash fluence buys more durable reduction. Splitting energy thinner rarely beats spending it as fluence.</p>
+    <h2>7 · The lever that most reliably matters: peak fluence</h2>
+    <p class="sub">For follicle damage, the relevant thermal question is not total course Joules. It is whether a pulse or pulse train creates a damaging follicle peak, or sustains the deep target long enough to cross the accumulation threshold.</p>
     <div style="overflow-x:auto"><table>
       <thead><tr><th>Fluence</th><th>12-month hair reduction</th><th>Source</th></tr></thead>
       <tbody>
@@ -331,7 +347,7 @@ sup a{text-decoration:none;font-weight:700;color:var(--accent);font-size:11px}
         <tr><td>20 J/cm²</td><td>65%</td></tr>
       </tbody>
     </table></div>
-    <p class="note" style="margin-top:10px">Takeaway for a home user: you can't change your device's J/cm², so maximize <i>safe</i> dose — highest comfortable single-flash energy, contact cooling on, and complete the full course. Multi-flash "SHR" is a comfort tool, not a shortcut to more dose. And beware the flip side: heat <b>below</b> threshold on hormonal areas (face/neck) can provoke <b>paradoxical regrowth</b> rather than reduction.</p>
+    <p class="note" style="margin-top:10px">Takeaway for a home user: maximize <i>safe peak fluence</i> when the device allows it, keep contact cooling on, and finish the course. Total delivered energy can describe workload, but it does not prove a follicle was damaged. Multi-flash "SHR" only helps thermally when the curve crosses either the peak/coagulation pathway or the sustained deep-target pathway. And beware the flip side: heat <b>below</b> threshold on hormonal areas (face/neck) can provoke <b>paradoxical regrowth</b> rather than reduction.</p>
   </div>
 
   <!-- QUOTES -->
@@ -650,6 +666,61 @@ function skinRisk(sim){
 	  $('ppbar').style.width=clamp(sim.painDose/PDOSE_HIGH*100,3,100)+'%'; $('ppbar').style.background=pr.col;
 	}
 
+function setDiag(id, cls, value, caption){
+  const el=$(id);
+  el.className='diag '+cls;
+  el.querySelector('.v').innerHTML=value;
+  el.querySelector('.cap').innerHTML=caption;
+}
+
+function updateDiagnostics(p,sim,simCmp){
+  const coag=sim.peakTf>=T_COAG;
+  const accum=sim.doseBg>=DOSE_THRESH;
+  const partial=sim.doseBg>=DOSE_THRESH*0.4 || sim.peakTf>=52;
+  if(coag){
+    setDiag('diagPath','yes','Peak kill','Follicle crosses '+T_COAG+' C coagulation. This is the direct thermal-damage pathway.');
+  } else if(accum){
+    setDiag('diagPath','yes','Accumulation kill','Bulge/deep-target thermal dose clears the model threshold without a high peak.');
+  } else if(partial){
+    setDiag('diagPath','partial','Borderline','Some heat is building, but this single exposure does not clearly cross a damage threshold.');
+  } else {
+    setDiag('diagPath','no','Sub-threshold','Neither peak follicle temperature nor sustained deep-target dose crosses threshold.');
+  }
+
+  if(p.n<=1){
+    setDiag('diagTiming','info','Single flash','No interpulse carryover. The outcome is dominated by peak follicle and epidermal temperature.');
+  } else {
+    const fPct=Math.round(sim.follicleResidual*100);
+    const deepPct=Math.round(sim.deepResidual*100);
+    const timingCls = sim.follicleResidual>=0.5 ? 'yes' : sim.follicleResidual>=0.18 ? 'partial' : 'no';
+    const timingVal = sim.follicleResidual>=0.5 ? 'Peak stacks' : sim.follicleResidual>=0.18 ? 'Partial stack' : 'Peak resets';
+    setDiag('diagTiming',timingCls,timingVal,`${p.gap} ms gap leaves about ${fPct}% follicle-peak carryover and ${deepPct}% deep-target carryover before the next flash.`);
+  }
+
+  const headline=p.flu*p.n;
+  const totalJ=p.flu*p.spot*p.n;
+  const splitCls = p.n<=1 ? 'info' : p.flu>=4 ? 'partial' : 'no';
+  setDiag('diagSplit',splitCls,`${fmt(p.flu,2)} J/cm2 each`,`${fmt(headline,2)} J/cm2 headline across ${p.n} flash${p.n===1?'':'es'} (${fmt(totalJ,1)} J total). Follicle peak follows the per-flash curve plus carryover, not the headline alone.`);
+
+  if(!simCmp){
+    setDiag('diagCompare','info','No split test',p.n<=1?'Already a single flash.':'Turn on same-total overlay to compare split pulses with one flash.');
+  } else {
+    const peakDelta=sim.peakTf-simCmp.peakTf;
+    const doseDelta=sim.doseBg-simCmp.doseBg;
+    if(sim.peakTf>=T_COAG && simCmp.peakTf<T_COAG){
+      setDiag('diagCompare','yes','Split wins peak',`Split train reaches ${fmt(sim.peakTf)} C vs ${fmt(simCmp.peakTf)} C as one flash.`);
+    } else if(simCmp.peakTf>=T_COAG && sim.peakTf<T_COAG){
+      setDiag('diagCompare','no','Single wins peak',`One flash reaches ${fmt(simCmp.peakTf)} C; split train peaks at ${fmt(sim.peakTf)} C.`);
+    } else if(doseDelta>DOSE_THRESH*.15){
+      setDiag('diagCompare','yes','Split adds dose',`Deep-target dose is +${fmt(doseDelta,1)} units versus same-total single flash.`);
+    } else if(peakDelta<-5){
+      setDiag('diagCompare','no','Split dilutes peak',`Follicle peak is ${fmt(Math.abs(peakDelta))} C lower than same-total single flash.`);
+    } else {
+      setDiag('diagCompare','partial','Similar result',`Peak difference ${fmt(peakDelta,1)} C; deep-dose difference ${fmt(doseDelta,1)} units.`);
+    }
+  }
+}
+
 function cmpVerdict(p,sim,simCmp){
   if(!simCmp){
     $('cmpverdict').innerHTML = p.n<=1
@@ -709,7 +780,7 @@ function hairLbl(h){return h<25?'fine / light':h<50?'medium':h<80?'coarse / dark
 	  const sim=simulate(p);
 	  const cmpFlu=Math.min(8,p.n*p.flu);
 	  const simCmp=(p.cmp && p.n>1) ? simulate({...p,n:1,flu:cmpFlu}) : null;
-	  draw(sim,simCmp); gauges(sim); verdict(sim,p); cmpVerdict(p,sim,simCmp); painVerdict(p,sim);
+	  draw(sim,simCmp); gauges(sim); updateDiagnostics(p,sim,simCmp); verdict(sim,p); cmpVerdict(p,sim,simCmp); painVerdict(p,sim);
 	}
 function setEmode(m,silent){
   const spot=+$('spot').value, n=Math.max(1,+$('n').value);
