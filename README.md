@@ -1,8 +1,8 @@
 # Skincare Device Research
 
-Research into at-home, light- and energy-based skincare devices for **facial redness/erythema, hyperpigmentation, post-inflammatory hyperpigmentation (PIH), and evening skin tone**, plus **hair removal** and **skin-quality (collagen) rejuvenation** as parallel goals. Budget-conscious; covers branded, retail, and Chinese OEM/Alibaba sourcing.
+Research into at-home, light- and energy-based skincare devices for **facial redness/erythema, hyperpigmentation, post-inflammatory hyperpigmentation (PIH), and evening skin tone**, plus **hair removal**, **skin-quality (collagen) rejuvenation**, and topical support as parallel goals. Budget-conscious; covers branded, retail, Chinese OEM/Alibaba sourcing, patent/regulatory context, and practical product buying.
 
-The repo is organized by **product type** into seven projects:
+The repo is organized by **product type** into ten projects:
 
 | Folder | Product class | Goal |
 |--------|---------------|------|
@@ -13,6 +13,9 @@ The repo is organized by **product type** into seven projects:
 | [`05_market_patent_intelligence/`](05_market_patent_intelligence/) | Market + patent intelligence | Cross-category ownership, IP, and product teardown |
 | [`06_non_fractional_lasers/`](06_non_fractional_lasers/) | Non-fractional lasers | 1064nm / 1450nm / LLLT laser claims that are not fractional resurfacing |
 | [`07_radio_frequency_skin_tightening/`](07_radio_frequency_skin_tightening/) | Radiofrequency (RF) skin tightening | Collagen/laxity devices, home RF, RF microneedling risk |
+| [`08_vitamin_c_serums/`](08_vitamin_c_serums/) | Vitamin C serums | SkinCeuticals C E Ferulic, patents, dupes, DIY L-ascorbic acid, derivatives |
+| [`09_zinc_oxide_barrier_cream/`](09_zinc_oxide_barrier_cream/) | Zinc oxide barrier cream | Science-first barrier lane: mechanism, dermatitis/wound evidence, safety protocol, and product notes |
+| [`10_microneedling_collagen_induction/`](10_microneedling_collagen_induction/) | Microneedling / collagen induction | Acne scars, wrinkles/scars, FDA QAI devices, home-vs-professional boundary, RF microneedling risk |
 
 ## TL;DR
 
@@ -23,6 +26,9 @@ The repo is organized by **product type** into seven projects:
 5. **For localized pain/recovery, handheld red-light devices are a separate, adjunctive project.** Evidence is mixed for carpal tunnel/back/hand pain, so output documentation and conservative dosing matter more than "5W" marketing. See **[`04_red_light_therapy_handheld/`](04_red_light_therapy_handheld/)**.
 6. **DermRays Revive belongs in a new non-fractional laser lane, not the Clear + Brilliant lane.** FDA K231910 confirms a 1064nm, 400 ms, 5-10 J/cm², 15mm, prescription-use laser for hair removal + wrinkles — interesting, but not fractional resurfacing. NIRA has stronger public wrinkle-outcome evidence than DermRays, but neither maps to C+B the way Tria FRX does. See **[`06_non_fractional_lasers/`](06_non_fractional_lasers/)**.
 7. **Radiofrequency is now its own collagen/tightening project.** Home RF has a real FDA pathway for mild-to-moderate wrinkle reduction, while RF microneedling is a higher-risk medical procedure flagged by FDA in 2025. Home RF can be clinically real without being Thermage/RF-microneedling equivalent. See **[`07_radio_frequency_skin_tightening/`](07_radio_frequency_skin_tightening/)**.
+8. **Vitamin C serums are now separated from device research as the topical antioxidant lane.** SkinCeuticals C E Ferulic is the best-studied benchmark; its key US7179841B2 patent expired on 2025-03-24, making Trader Joe's-style CEF dupes more plausible but not automatically equivalent. Use vitamin C in the morning and Differin at night. See **[`08_vitamin_c_serums/`](08_vitamin_c_serums/)**.
+9. **Zinc oxide diaper rash cream is now a science-first barrier lane, not just a product tip.** The strongest evidence is for OTC skin-protectant use, irritant/moisture dermatitis, TEWL/barrier support, and wound/periwound adjuncts; adult facial overnight use remains an extrapolation. If experimenting, start around **10-15% zinc oxide** and reserve 40% pastes for spot rescue. See **[`09_zinc_oxide_barrier_cream/`](09_zinc_oxide_barrier_cream/)**.
+10. **Microneedling now has its own collagen-induction lane.** The strongest evidence is professional treatment of atrophic acne scars; FDA has not authorized OTC medical microneedling devices; and RF microneedling is a professional procedure, not a home-device shortcut. See **[`10_microneedling_collagen_induction/`](10_microneedling_collagen_induction/)**.
 
 ---
 
@@ -62,7 +68,7 @@ True diode lasers (Tria 810nm and alternatives) and the used-market analysis aro
 
 ## 03 — Fractional laser resurfacing · [`03_fractional_laser_resurfacing/`](03_fractional_laser_resurfacing/)
 
-A **separate device class for the *skin-quality* goal (pigment + collagen), not hair.** Non-ablative fractional lasers (Clear + Brilliant, Tria FRX, NIRA, YDUNVIE Iris/Dora) and the user's owned Tria SmoothBeauty: science, in-office-vs-home expectations, full device landscape, the Jiangsu Unimed/YDUNVIE supplier map, RFQ templates, and a future research plan. See its [README](03_fractional_laser_resurfacing/README.md).
+A **separate device class for the *skin-quality* goal (pigment + collagen), not hair.** Non-ablative fractional lasers (Clear + Brilliant, Tria FRX, NIRA, YDUNVIE Iris/Dora) and the user's owned Tria SmoothBeauty: science, in-office-vs-home expectations, full device landscape, the Jiangsu Unimed/YDUNVIE supplier map, RFQ templates, and a future research plan. The [`beam_coverage_simulator.html`](03_fractional_laser_resurfacing/beam_coverage_simulator.html) interactive tool visualizes beam depth, beam width, MTZ coverage, and total energy by device. See its [README](03_fractional_laser_resurfacing/README.md).
 
 ## 04 — Handheld red light therapy · [`04_red_light_therapy_handheld/`](04_red_light_therapy_handheld/)
 
@@ -111,6 +117,45 @@ RF devices for collagen remodeling, mild wrinkles, laxity, and skin tightening �
 | 03 | [Patent & regulatory notes](07_radio_frequency_skin_tightening/03_patent_regulatory_notes.md) | Thermage patent anchor, FDA PAY category, CurrentBody K232424, and FDA RF microneedling warning |
 | 04 | [Home RF vs professional results gap](07_radio_frequency_skin_tightening/04_home_rf_vs_professional_results_gap.md) | Can at-home RF reach clinical-grade results? NEWA/CurrentBody vs Thermage/RF microneedling |
 
+## 08 — Vitamin C serums · [`08_vitamin_c_serums/`](08_vitamin_c_serums/)
+
+Topical antioxidant and pigment-support lane: SkinCeuticals C E Ferulic, the Duke Parameters, patent expiry, Trader Joe's and budget dupes, DIY L-ascorbic acid recipes, and newer derivative systems from L'Oreal/Kiehl's and others.
+
+| # | File | What it covers |
+|---|------|----------------|
+| 01 | [C E Ferulic science & patents](08_vitamin_c_serums/01_ce_ferulic_science_and_patents.md) | Why the formula is well studied, Duke Parameters, US5140043 and US7179841, patent expiry, and what the claims cover |
+| 02 | [Product comparison](08_vitamin_c_serums/02_product_comparison.md) | SkinCeuticals vs Trader Joe's vs DIY vs budget dupes vs Kiehl's/L'Oreal derivative strategies |
+| 03 | [DIY vitamin C protocol](08_vitamin_c_serums/03_diy_vitamin_c_protocol.md) | Exact 10/15/20% recipes, pH logic, no-strip risk management, storage, oxidation, and how to use with Differin |
+| 04 | [Derivatives & next-gen formulas](08_vitamin_c_serums/04_derivatives_and_next_gen_formulas.md) | Vitamin Cg, THD/ATIP, ethyl ascorbic acid, SAP/MAP, Melasyl combinations, and current SkinCeuticals direction |
+
+## 09 — Zinc oxide barrier cream · [`09_zinc_oxide_barrier_cream/`](09_zinc_oxide_barrier_cream/)
+
+Topical barrier-support lane for the online "diaper rash cream as a face night treatment" trend. The section now starts with mechanism and evidence, then moves to safety and product selection: zinc oxide as an OTC skin protectant, petrolatum/dimethicone vehicle effects, TEWL/barrier data, diaper-dermatitis studies, wound-healing literature, Differin/device routine fit, and label-checked Amazon notes.
+
+| # | File | What it covers |
+|---|------|----------------|
+| 01 | [Zinc oxide and skin-barrier science](09_zinc_oxide_barrier_cream/01_zinc_oxide_skin_barrier_science.md) | Skin-protectant mechanism, zinc biology, petrolatum/dimethicone vehicle effects, TEWL, particle penetration, and what diaper cream is not |
+| 02 | [Evidence map: dermatitis, barrier, wound healing](09_zinc_oxide_barrier_cream/02_evidence_map_dermatitis_wound_healing.md) | FDA monograph, DailyMed labels, diaper dermatitis studies, infant barrier-function RCT, pilonidal wound RCT, human wound-model trial, and limitations |
+| 03 | [Safety, routine fit, and protocol](09_zinc_oxide_barrier_cream/03_safety_protocol_and_routine_fit.md) | Patch testing, Differin/adapalene scheduling, device-aftercare cautions, acne/rosacea/perioral dermatitis caveats, and stop rules |
+| 04 | [Product selection notes](09_zinc_oxide_barrier_cream/04_product_selection_notes.md) | Current Amazon/DailyMed label-based product picks, 10-15% vs 40% logic, and what to avoid for facial use |
+| 05 | [Sudocrem product comparison](09_zinc_oxide_barrier_cream/05_sudocrem_product_comparison.md) | Sudocrem 15.29% zinc oxide comparison against Triple Paste, Pipette, and Desitin, with label-based caveats |
+| 06 | [Reddit anecdote scan](09_zinc_oxide_barrier_cream/06_reddit_anecdote_scan.md) | Reddit consensus read: Triple Paste as crowd default, Aquaphor Baby 40% as rescue, Sudocrem as comparator, and caution threads |
+| 07 | [Full product comparison chart](09_zinc_oxide_barrier_cream/07_full_product_comparison_chart.md) | Reddit-mentioned products plus label-checked alternatives in one chart: Triple Paste, Honest, Pipette, Sudocrem, Aquaphor, Desitin, Boudreaux's, Burt's, cica creams, and more |
+
+## 10 — Microneedling and collagen induction · [`10_microneedling_collagen_induction/`](10_microneedling_collagen_induction/)
+
+Mechanical microneedling lane for acne scars, wrinkles/scars, device regulation, home-vs-professional boundary, and RF microneedling risk. This is separated from fractional lasers and non-invasive RF because the injury source is needles: mechanical puncture for standard microneedling, needle-delivered heat for RF microneedling.
+
+| # | File | What it covers |
+|---|------|----------------|
+| 01 | [Microneedling science brief](10_microneedling_collagen_induction/01_microneedling_science_brief.md) | Mechanical fractional injury, wound-healing cascade, needle depth logic, geometry, and what "collagen induction" can and cannot imply |
+| 02 | [Clinical evidence map](10_microneedling_collagen_induction/02_clinical_evidence_map.md) | Acne-scar, wrinkle, scar, pigment/melasma, topical-delivery, home-device, and RF-microneedling evidence separated by confidence |
+| 03 | [Regulatory and device landscape](10_microneedling_collagen_induction/03_regulatory_and_device_landscape.md) | FDA QAI category, SkinPen/Exceed/Dr. Pen/Dermalogica examples, openFDA 26-record snapshot, and RF microneedling warning line |
+| 04 | [Home vs professional results gap](10_microneedling_collagen_induction/04_home_vs_professional_results_gap.md) | Why a 0.2-0.5 mm home roller is not a SkinPen/Exceed treatment, what home tools can plausibly do, and marketing red flags |
+| 05 | [Selection and safety protocol](10_microneedling_collagen_induction/05_selection_and_safety_protocol.md) | Goal picker, provider questions, contraindication prompts, stop rules, and a conservative home-use boundary |
+
+**Supporting material:** [`skin_depth_demo.html`](10_microneedling_collagen_induction/skin_depth_demo.html) interactive depth/benefit explainer, mirrored FDA microneedling guidance, SkinPen De Novo files, selected QAI 510(k) summaries, FDA patient page, FDA RF microneedling safety communication, and an openFDA `QAI` snapshot captured 2026-07-06 in [`source_docs/`](10_microneedling_collagen_induction/source_docs/) and [`data/`](10_microneedling_collagen_induction/data/).
+
 ---
 
 ## Status / open items
@@ -120,3 +165,6 @@ RF devices for collagen remodeling, mild wrinkles, laxity, and skin tightening �
 - **Open — red light therapy:** seller-supplied irradiance meter photos and exact current variant confirmation are still needed before treating Alibaba RLT specs as purchase-grade.
 - **Open — non-fractional lasers:** obtain DermRays Revive IFU/manual, label photos, eye-protection requirements, and independent output/thermal testing.
 - **Open — RF:** build a device-by-device comparison, verify K-numbers for Silk'n/TriPollar/Medicube variants, and run an Alibaba RF supplier scan.
+- **Open — vitamin C:** independently verify Trader Joe's full INCI/pH/stability, monitor post-2025 CEF clone launches, and confirm any SkinCeuticals 2026 patent-pending antioxidant launch from primary materials.
+- **Open — zinc oxide:** look for direct adult facial barrier trials separating zinc oxide from petrolatum/dimethicone vehicle effects, and monitor Amazon/DailyMed label changes for the product notes.
+- **Open — microneedling:** extract MAUDE adverse events for mechanical and RF microneedling, obtain direct IFUs for each cleared pen, add provider-cost quotes by metro, and capture official consumer roller/stamp product pages.

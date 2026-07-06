@@ -31,6 +31,12 @@ Research thread: finding an **at-home device that improves skin quality — pigm
 | 13 | [Tria SmoothBeauty owner's guide](13_tria_smoothbeauty_owners_guide.md) | **The device in hand, ID'd + spec'd from its primary-source manuals** (PDFs mirrored in `tria_smoothbeauty/`). SmoothBeauty = Age-Defying = FRX (model SRL, ✅ FDA 2013). ✅ verified specs (1440nm, 5–12 mJ, Class 1), coverage/density estimate, indication-vs-marketing reality, and a full **quick-start + 12-week protocol** |
 | 14 | [MimiSilk Iris vs. active Tria patents](14_mimisilk_iris_tria_patent_analysis.md) | ⚠️ **Not legal advice.** Claim-by-claim read of Tria's 6 still-active patents (thermal design, antimicrobial window coating, feature-counting sensor, rotating beam scanner, capacitive contact interlock) against MimiSilk Iris's known specs — reasonable basis to believe non-infringement on most claims, genuinely unresolved on the beam-scanner mechanism; no litigation exists between Tria/Aesthete and Jiangsu Unimed/YDUNVIE/MimiSilk |
 
+## Supporting material
+
+- [`beam_coverage_simulator.html`](beam_coverage_simulator.html) is an interactive fractional-laser beam and coverage simulator. It lets you choose C+B Original/Perméa, Fraxel-class, Tria SmoothBeauty/FRX, YDUNVIE/MimiSilk Iris, Dora, and PaloVia presets, then adjust energy, beam width, MTZ density or total J, treatment area, and session count.
+- [`quantified_gap_source_docs/`](quantified_gap_source_docs/) contains mirrored FDA summaries, the Clear+Brilliant service manual/protocol, Fraxel brochure, and supporting patents used for the quantified-gap math.
+- [`tria_smoothbeauty/source_docs/`](tria_smoothbeauty/source_docs/) contains the Tria SmoothBeauty quick-start guide and instructions for use.
+
 ## Confidence legend
 ✅ **Verified** (FDA 510(k) / peer-reviewed / official spec) · ⚠️ **Marketing claim** (seller/brand, unconfirmed) · 🔍 **Inferred** (from wavelength/category)
 

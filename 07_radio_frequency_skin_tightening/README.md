@@ -21,6 +21,8 @@ Research thread: **radiofrequency (RF) devices for collagen remodeling, wrinkle 
 | 02 | [Initial device landscape](02_initial_device_landscape.md) | Home RF, pro non-invasive RF, RF microneedling, and early device examples: NEWA, TriPollar, CurrentBody, Silk'n, Thermage, Morpheus8/Genius/Potenza |
 | 03 | [Patent & regulatory notes](03_patent_regulatory_notes.md) | Thermage patent anchor, FDA OTC RF category, CurrentBody K232424, NEWA De Novo, RF microneedling safety communication, open research questions |
 | 04 | [Home RF vs professional results gap](04_home_rf_vs_professional_results_gap.md) | Whether home RF can reach clinic-grade results; NEWA/CurrentBody evidence vs Thermage and RF microneedling |
+| 05 | [RF device selection guide](05_rf_device_selection_guide.md) | **Which RF device should I get?** — 30-second picker by goal, budget, and risk tolerance. Standalone decision tool. |
+| 06 | [Thermage vs everything comparison](06_thermage_vs_everything_comparison.md) | **Can any device get close to Thermage?** — Deep physics analysis of Thermage FLX (6.78 MHz monopolar, 65–75°C, 4.3 mm, cryogen cooling), head-to-head spec comparison of every device, Konmison LB056B physics analysis, and temperature-capability ranking. |
 
 ## Relationship to the other folders
 
@@ -32,6 +34,7 @@ Research thread: **radiofrequency (RF) devices for collagen remodeling, wrinkle 
 
 - **Started:** science, regulatory anchors, and first device map.
 - **Still needed:** device-by-device RF comparison (CurrentBody vs TriPollar vs Silk'n vs Medicube Ultra Tune vs cheap Alibaba RF), source-doc mirroring, contraindication matrix, and RFQ template for OEM RF devices.
+- **Now in progress:** Alibaba RF supplier scan — Konmison LB056B profiled with full specs, manufacturer verification, and red-flag analysis in [§7 of device landscape](02_initial_device_landscape.md).
 
 ### Sources
 

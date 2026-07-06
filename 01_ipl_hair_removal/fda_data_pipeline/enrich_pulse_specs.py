@@ -56,6 +56,14 @@ PULSE_PATTERNS = {
 }
 
 
+def verified_specs():
+    path = os.path.join(HERE, "verified_specs.json")
+    if not os.path.exists(path):
+        return {}
+    data = json.load(open(path))
+    return {k: v for k, v in data.items() if not k.startswith("_")}
+
+
 def pdf_url_candidates(k):
     """FDA CDRH PDF dir convention varies by K-number year prefix:
        2002-2009 -> pdfN (no leading zero, e.g. K08xxxx -> pdf8)
@@ -228,6 +236,7 @@ def main():
         ]
     print(f"Enriching {len(records)} clearances "
           f"({'ALL' if args.all else '+'.join(args.codes)+', '+args.since+'+'})\n")
+    verified = verified_specs()
 
     rows = []
     counts = {"ok": 0, "ok_ocr": 0, "no_text_layer_needs_ocr": 0,
@@ -257,6 +266,15 @@ def main():
             **info,
             "pdf_url": pdf_summary_url(k),
         }
+        if k in verified:
+            v = verified[k]
+            row["pulse_snippet"] = f"AUDIT VERIFIED SUBJECT DEVICE: {v.get('note', '')}"
+            row["fluence_jcm2_candidates"] = str(v.get("fluence_jcm2") or "")
+            row["fluence_jcm2_max"] = str(v.get("fluence_jcm2") or "")
+            row["energy_j_candidates"] = str(v.get("energy_j") or "")
+            row["energy_j_max"] = str(v.get("energy_j") or "")
+            row["wavelength_nm"] = str(v.get("wavelength_nm") or "")
+            row["pulse_ms_range"] = str(v.get("pulse_ms") or "")
         rows.append(row)
         flag = "  *** MULTI-PULSE ***" if info["multi_pulse_flag"] == "YES" else ""
         print(f"[{i}/{len(records)}] {k} {r.get('decision_date','')} "

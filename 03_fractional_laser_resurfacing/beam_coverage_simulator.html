@@ -1,0 +1,1027 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fractional Laser Beam and Coverage Simulator</title>
+  <style>
+    :root{
+      --bg:#f6f7f6;
+      --panel:#ffffff;
+      --ink:#1e2528;
+      --muted:#647174;
+      --line:#dce4e2;
+      --accent:#12846f;
+      --accent2:#1abc9c;
+      --amber:#b7791f;
+      --indigo:#4f46e5;
+      --rose:#be3455;
+      --soft:#e9f7f4;
+      --shadow:0 16px 40px rgba(31,53,49,.12);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    *{box-sizing:border-box}
+    html,body{max-width:100%;overflow-x:hidden}
+    body{
+      margin:0;
+      color:var(--ink);
+      background:
+        radial-gradient(circle at 14% 0%,rgba(18,132,111,.13),transparent 28%),
+        radial-gradient(circle at 86% 2%,rgba(183,121,31,.13),transparent 26%),
+        linear-gradient(180deg,#fff,rgba(246,247,246,.86) 220px),
+        var(--bg);
+      line-height:1.5;
+    }
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .topbar{
+      position:sticky;
+      top:0;
+      z-index:30;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:16px;
+      padding:12px 24px;
+      border-bottom:1px solid rgba(220,228,226,.86);
+      background:rgba(255,255,255,.9);
+      backdrop-filter:blur(14px);
+    }
+    .brand{
+      min-width:0;
+      font-weight:850;
+      line-height:1.2;
+    }
+    .brand span{
+      display:block;
+      color:var(--muted);
+      font-size:12px;
+      font-weight:800;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+      margin-top:2px;
+    }
+    .toplinks{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:flex-end;
+      gap:8px;
+    }
+    .toplinks a,.button{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-height:38px;
+      border:1px solid var(--line);
+      border-radius:8px;
+      padding:8px 12px;
+      background:#fff;
+      color:var(--ink);
+      font-size:13px;
+      font-weight:800;
+      cursor:pointer;
+      text-decoration:none;
+    }
+    .toplinks a:hover,.button:hover{border-color:rgba(18,132,111,.48);text-decoration:none}
+    .wrap{max-width:1240px;margin:0 auto;padding:24px 20px 44px}
+    .hero{
+      display:grid;
+      grid-template-columns:minmax(0,1.08fr) minmax(300px,.62fr);
+      gap:16px;
+      align-items:stretch;
+      margin-bottom:16px;
+    }
+    .hero-main,.panel{
+      background:rgba(255,255,255,.94);
+      border:1px solid var(--line);
+      border-radius:8px;
+      box-shadow:var(--shadow);
+    }
+    .hero-main{padding:22px}
+    .eyebrow{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      color:var(--accent);
+      font-size:12px;
+      font-weight:900;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+    }
+    .eyebrow::before{
+      content:"";
+      width:28px;
+      height:2px;
+      border-radius:999px;
+      background:var(--accent);
+    }
+    h1{
+      margin:10px 0 12px;
+      max-width:780px;
+      font-size:44px;
+      line-height:1.02;
+      letter-spacing:0;
+    }
+    .lede{
+      margin:0;
+      max-width:820px;
+      color:#3f4c4f;
+      font-size:16px;
+      line-height:1.62;
+    }
+    .hero-aside{
+      padding:16px;
+      display:grid;
+      gap:10px;
+      background:linear-gradient(145deg,rgba(18,132,111,.09),rgba(79,70,229,.08)),rgba(255,255,255,.92);
+    }
+    .takeaway{
+      display:grid;
+      grid-template-columns:auto 1fr;
+      gap:10px;
+      align-items:center;
+      padding:12px;
+      border:1px solid rgba(220,228,226,.86);
+      border-radius:8px;
+      background:#fff;
+    }
+    .takeaway strong{
+      color:var(--accent);
+      font-size:26px;
+      line-height:1;
+      font-variant-numeric:tabular-nums;
+    }
+    .takeaway span{color:var(--muted);font-size:13px;line-height:1.35}
+    .layout{
+      display:grid;
+      grid-template-columns:330px minmax(0,1fr);
+      gap:16px;
+      align-items:start;
+    }
+    .controls{
+      position:sticky;
+      top:76px;
+      display:grid;
+      gap:14px;
+    }
+    .panel{padding:16px}
+    .panel h2,.panel h3{
+      margin:0 0 10px;
+      font-size:17px;
+      line-height:1.25;
+    }
+    .panel p{margin:0;color:var(--muted);font-size:13.5px;line-height:1.48}
+    label{
+      display:flex;
+      align-items:baseline;
+      justify-content:space-between;
+      gap:12px;
+      margin:12px 0 6px;
+      color:#344144;
+      font-size:13px;
+      font-weight:850;
+    }
+    label output{
+      color:var(--accent);
+      font-variant-numeric:tabular-nums;
+      font-weight:900;
+      white-space:nowrap;
+    }
+    input[type=range]{width:100%;accent-color:var(--accent)}
+    select{
+      width:100%;
+      min-height:42px;
+      border:1px solid var(--line);
+      border-radius:8px;
+      padding:8px 10px;
+      color:var(--ink);
+      background:#fff;
+      font:inherit;
+      font-weight:750;
+    }
+    .mode-row,.preset-row,.area-row{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:8px;
+      margin-top:8px;
+    }
+    .mode-row button,.preset-row button,.area-row button{
+      min-height:38px;
+      border:1px solid var(--line);
+      border-radius:8px;
+      background:#fff;
+      color:var(--ink);
+      font-weight:850;
+      cursor:pointer;
+      padding:8px 9px;
+      text-align:left;
+      line-height:1.18;
+    }
+    .mode-row button.active,.preset-row button.active,.area-row button.active{
+      border-color:rgba(18,132,111,.58);
+      background:rgba(18,132,111,.09);
+      box-shadow:inset 0 0 0 1px rgba(18,132,111,.14);
+    }
+    .preset-row{grid-template-columns:1fr}
+    .preset-row button small,.area-row button small{
+      display:block;
+      color:var(--muted);
+      font-weight:650;
+      margin-top:2px;
+    }
+    .disabled{
+      opacity:.5;
+      pointer-events:none;
+    }
+    .readout-grid{
+      display:grid;
+      grid-template-columns:repeat(4,minmax(0,1fr));
+      gap:10px;
+      margin-bottom:16px;
+    }
+    .metric{
+      border:1px solid var(--line);
+      border-radius:8px;
+      background:#fff;
+      padding:13px;
+      min-height:104px;
+    }
+    .metric .k{
+      color:var(--muted);
+      font-size:11px;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+      font-weight:900;
+      margin-bottom:6px;
+    }
+    .metric .v{
+      font-size:24px;
+      line-height:1.05;
+      color:var(--ink);
+      font-weight:900;
+      font-variant-numeric:tabular-nums;
+    }
+    .metric .s{
+      margin-top:6px;
+      color:var(--muted);
+      font-size:12.5px;
+      line-height:1.35;
+    }
+    .visual-grid{
+      display:grid;
+      grid-template-columns:minmax(0,1.1fr) minmax(320px,.9fr);
+      gap:16px;
+    }
+    .viz{
+      border:1px solid var(--line);
+      border-radius:8px;
+      background:#fff;
+      padding:14px;
+      min-width:0;
+    }
+    .viz h2{
+      display:flex;
+      justify-content:space-between;
+      gap:12px;
+      align-items:baseline;
+    }
+    .badge{
+      display:inline-flex;
+      align-items:center;
+      border-radius:999px;
+      border:1px solid rgba(18,132,111,.24);
+      background:rgba(18,132,111,.09);
+      color:#0b6656;
+      padding:4px 8px;
+      font-size:11.5px;
+      font-weight:900;
+      white-space:nowrap;
+    }
+    .badge.warn{border-color:rgba(183,121,31,.28);background:rgba(183,121,31,.12);color:#8a540d}
+    .skin-svg{
+      width:100%;
+      height:430px;
+      display:block;
+      border:1px solid rgba(220,228,226,.78);
+      border-radius:8px;
+      background:#fffdfb;
+    }
+    .coverage-canvas{
+      display:block;
+      width:100%;
+      aspect-ratio:1/1;
+      border:1px solid rgba(220,228,226,.78);
+      border-radius:8px;
+      background:#fffdfb;
+    }
+    .legend{
+      display:grid;
+      grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:8px;
+      margin-top:10px;
+    }
+    .legend div{
+      border:1px solid rgba(220,228,226,.78);
+      border-radius:8px;
+      padding:9px 10px;
+      background:#fff;
+      color:#3f4c4f;
+      font-size:12.5px;
+      line-height:1.35;
+    }
+    .bars{
+      display:grid;
+      gap:12px;
+      margin-top:14px;
+    }
+    .bar-row{
+      display:grid;
+      grid-template-columns:135px 1fr 72px;
+      gap:10px;
+      align-items:center;
+      font-size:12.5px;
+      color:#3f4c4f;
+    }
+    .track{
+      position:relative;
+      overflow:hidden;
+      height:13px;
+      border-radius:999px;
+      background:#e9eeee;
+    }
+    .fill{
+      position:absolute;
+      inset:0 auto 0 0;
+      width:0%;
+      border-radius:999px;
+      background:linear-gradient(90deg,var(--accent),var(--accent2));
+    }
+    .fill.alt{background:linear-gradient(90deg,var(--amber),#d69e2e)}
+    .fill.third{background:linear-gradient(90deg,var(--indigo),#7c3aed)}
+    .compare-grid{
+      display:grid;
+      grid-template-columns:1.1fr .9fr;
+      gap:16px;
+      margin-top:16px;
+    }
+    .table-wrap{
+      overflow-x:auto;
+      border:1px solid var(--line);
+      border-radius:8px;
+      background:#fff;
+    }
+    table{
+      width:100%;
+      border-collapse:collapse;
+      min-width:680px;
+      font-size:12.5px;
+    }
+    th,td{
+      border-bottom:1px solid var(--line);
+      padding:9px 10px;
+      text-align:left;
+      vertical-align:top;
+    }
+    th{background:var(--soft);color:#16453d;font-size:12px}
+    tr:last-child td{border-bottom:0}
+    .insight{
+      border-left:4px solid var(--accent);
+      border-radius:0 8px 8px 0;
+      background:rgba(18,132,111,.08);
+      padding:12px 13px;
+      color:#23403b;
+      font-size:13.5px;
+      line-height:1.5;
+    }
+    .source-grid{
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:10px;
+      margin-top:16px;
+    }
+    .source-card{
+      display:block;
+      min-height:96px;
+      border:1px solid var(--line);
+      border-radius:8px;
+      background:#fff;
+      padding:12px;
+      color:var(--ink);
+      text-decoration:none;
+    }
+    .source-card:hover{border-color:var(--accent);text-decoration:none}
+    .source-card b{display:block;margin-bottom:5px}
+    .source-card span{display:block;color:var(--muted);font-size:12.5px;line-height:1.38}
+    .note{
+      margin-top:12px;
+      color:var(--muted);
+      font-size:12.5px;
+      line-height:1.45;
+    }
+    @media(max-width:1050px){
+      .hero,.layout,.visual-grid,.compare-grid{grid-template-columns:1fr}
+      .controls{position:static}
+      .readout-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+    }
+    @media(max-width:660px){
+      .topbar{align-items:flex-start;flex-direction:column;padding:12px 14px}
+      .toplinks{justify-content:flex-start}
+      .wrap{padding:16px 12px 36px}
+      .hero-main,.panel{padding:14px}
+      h1{font-size:32px;line-height:1.08}
+      .hero{gap:12px}
+      .readout-grid,.legend,.source-grid{grid-template-columns:1fr}
+      .mode-row,.area-row{grid-template-columns:1fr}
+      .skin-svg{height:380px}
+      .bar-row{grid-template-columns:1fr}
+      .bar-row strong{text-align:left}
+      table{min-width:620px}
+    }
+  </style>
+</head>
+<body>
+  <nav class="topbar" aria-label="Page navigation">
+    <div class="brand">
+      Fractional beam and coverage simulator
+      <span>Topic 03 interactive explainer</span>
+    </div>
+    <div class="toplinks">
+      <a href="index.html">Topic index</a>
+      <a href="../index.html">Research archive</a>
+    </div>
+  </nav>
+
+  <main class="wrap">
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-main">
+        <div class="eyebrow">Beam depth, width, density, and dose</div>
+        <h1 id="page-title">Why fractional lasers can match in beam intensity but diverge in coverage</h1>
+        <p class="lede">Choose a device preset, then adjust energy, beam width, treatment density, face area, and sessions. The model follows the archive's quantified-gap math: microbeam energy and wavelength set each column; density and total delivered joules set how much skin is actually treated.</p>
+      </div>
+      <aside class="hero-aside" aria-label="Key takeaways">
+        <div class="takeaway"><strong id="heroCoverage">0.3%</strong><span>surface coverage in the selected session.</span></div>
+        <div class="takeaway"><strong id="heroTotal">108 J</strong><span>estimated full-area total energy for the selected session.</span></div>
+        <div class="takeaway"><strong id="heroDepth">390 um</strong><span>approximate microthermal-zone depth, mostly wavelength-set.</span></div>
+      </aside>
+    </section>
+
+    <section class="layout">
+      <aside class="controls" aria-label="Simulator controls">
+        <div class="panel">
+          <h2>Device preset</h2>
+          <select id="deviceSelect" aria-label="Choose a fractional laser device preset"></select>
+          <div class="preset-row" id="presetNotes"></div>
+        </div>
+
+        <div class="panel">
+          <h2>Dose controls</h2>
+          <div class="mode-row" aria-label="Dose calculation mode">
+            <button type="button" data-mode="density">Edit density<small>MTZ/cm² drives total J</small></button>
+            <button type="button" data-mode="total">Edit total J<small>Total J drives density</small></button>
+          </div>
+
+          <label for="energyRange">Energy per microbeam <output id="energyOut"></output></label>
+          <input id="energyRange" type="range" min="2" max="25" step="0.1" value="12" />
+
+          <label for="widthRange">Beam / MTZ width <output id="widthOut"></output></label>
+          <input id="widthRange" type="range" min="60" max="200" step="1" value="100" />
+
+          <div id="densityGroup">
+            <label for="densityRange">MTZ density <output id="densityOut"></output></label>
+            <input id="densityRange" type="range" min="10" max="3000" step="1" value="40" />
+          </div>
+
+          <div id="totalGroup">
+            <label for="totalRange">Total energy / session <output id="totalOut"></output></label>
+            <input id="totalRange" type="range" min="5" max="6000" step="5" value="108" />
+          </div>
+
+          <label for="areaRange">Treatment area <output id="areaOut"></output></label>
+          <input id="areaRange" type="range" min="40" max="450" step="5" value="400" />
+          <div class="area-row" id="areaPresets">
+            <button type="button" data-area="400">Full face<small>400 cm² model area</small></button>
+            <button type="button" data-area="200">Half face<small>cheeks/large zone</small></button>
+            <button type="button" data-area="60">Periorbital<small>small labeled target</small></button>
+            <button type="button" data-area="120">Pigment zone<small>forehead + cheeks patch</small></button>
+          </div>
+
+          <label for="sessionRange">Sessions in course <output id="sessionOut"></output></label>
+          <input id="sessionRange" type="range" min="1" max="150" step="1" value="1" />
+        </div>
+      </aside>
+
+      <div class="main-stack">
+        <section class="readout-grid" aria-live="polite">
+          <div class="metric"><div class="k">Local fluence</div><div class="v" id="fluenceMetric">0</div><div class="s">J/cm² inside each column</div></div>
+          <div class="metric"><div class="k">Density</div><div class="v" id="densityMetric">0</div><div class="s">MTZ/cm² per session</div></div>
+          <div class="metric"><div class="k">Coverage</div><div class="v" id="coverageMetric">0%</div><div class="s">treated surface per session</div></div>
+          <div class="metric"><div class="k">Course coverage</div><div class="v" id="courseCoverageMetric">0%</div><div class="s">idealized cumulative surface hit</div></div>
+        </section>
+
+        <section class="visual-grid">
+          <div class="viz">
+            <h2>Skin-depth model <span class="badge" id="targetBadge">collagen / texture</span></h2>
+            <svg class="skin-svg" id="skinSvg" viewBox="0 0 620 430" role="img" aria-label="Fractional laser beam depth and width model">
+              <defs>
+                <linearGradient id="epi" x1="0" x2="1">
+                  <stop offset="0" stop-color="#f9c7a6" />
+                  <stop offset="1" stop-color="#f5a58a" />
+                </linearGradient>
+                <linearGradient id="pap" x1="0" x2="1">
+                  <stop offset="0" stop-color="#ef9278" />
+                  <stop offset="1" stop-color="#da765f" />
+                </linearGradient>
+                <linearGradient id="ret" x1="0" x2="1">
+                  <stop offset="0" stop-color="#cf6b67" />
+                  <stop offset="1" stop-color="#a95058" />
+                </linearGradient>
+                <linearGradient id="columnGrad" x1="0" x2="0" y1="0" y2="1">
+                  <stop offset="0" stop-color="rgba(255,235,121,.82)" />
+                  <stop offset=".52" stop-color="rgba(237,113,58,.62)" />
+                  <stop offset="1" stop-color="rgba(190,52,85,.24)" />
+                </linearGradient>
+                <pattern id="fiber" width="26" height="20" patternUnits="userSpaceOnUse">
+                  <path d="M-8 12 C2 1, 15 22, 30 8" fill="none" stroke="rgba(255,255,255,.34)" stroke-width="2" />
+                </pattern>
+              </defs>
+              <rect x="24" y="22" width="572" height="382" rx="18" fill="#fffdfb" stroke="#dce4e2" />
+              <rect x="86" y="70" width="350" height="50" fill="url(#epi)" rx="9 9 0 0" />
+              <rect x="86" y="120" width="350" height="198" fill="url(#pap)" />
+              <rect x="86" y="318" width="350" height="50" fill="url(#ret)" rx="0 0 12 12" />
+              <rect x="86" y="120" width="350" height="248" fill="url(#fiber)" opacity=".7" />
+              <text x="102" y="98" font-size="13" font-weight="800" fill="#1e2528">Epidermis</text>
+              <text x="102" y="214" font-size="13" font-weight="800" fill="#1e2528">Papillary dermis</text>
+              <text x="102" y="348" font-size="13" font-weight="800" fill="#1e2528">Reticular dermis</text>
+              <g id="beamColumns"></g>
+              <g id="depthAxis">
+                <line x1="470" y1="70" x2="470" y2="368" stroke="#7a8787" stroke-width="2" />
+                <line x1="459" y1="70" x2="481" y2="70" stroke="#7a8787" stroke-width="2" />
+                <line x1="459" y1="169" x2="481" y2="169" stroke="#7a8787" stroke-width="2" />
+                <line x1="459" y1="269" x2="481" y2="269" stroke="#7a8787" stroke-width="2" />
+                <line x1="459" y1="368" x2="481" y2="368" stroke="#7a8787" stroke-width="2" />
+                <text x="492" y="75" font-size="11" font-weight="700" fill="#647174">0 um</text>
+                <text x="492" y="174" font-size="11" font-weight="700" fill="#647174">300 um</text>
+                <text x="492" y="274" font-size="11" font-weight="700" fill="#647174">600 um</text>
+                <text x="492" y="372" font-size="11" font-weight="700" fill="#647174">900 um</text>
+              </g>
+              <g id="beamMeasure"></g>
+              <text x="88" y="396" font-size="11" font-weight="700" fill="#647174">Cross-section is simplified. Width and depth are shown on the same micrometer scale.</text>
+            </svg>
+            <div class="legend">
+              <div><b id="depthReadout">Depth</b><br><span id="depthNote">Wavelength sets the treatment layer.</span></div>
+              <div><b id="widthReadout">Width</b><br><span id="widthNote">Width controls per-column fluence and coverage math.</span></div>
+            </div>
+          </div>
+
+          <div class="viz">
+            <h2>Coverage map <span class="badge warn">1 cm² sample</span></h2>
+            <canvas class="coverage-canvas" id="coverageCanvas" width="560" height="560" aria-label="One square centimeter fractional laser coverage map"></canvas>
+            <div class="legend">
+              <div><b id="dotReadout">Dots</b><br>Each dot is one microthermal zone in this 1 cm² sample.</div>
+              <div><b id="areaReadout">Area</b><br>Full treatment estimates scale by the selected cm² area.</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" style="margin-top:16px">
+          <h2>Selected dose compared with Clear + Brilliant Original high</h2>
+          <div class="bars">
+            <div class="bar-row"><span>Coverage / session</span><div class="track"><div class="fill" id="coverageBar"></div></div><strong id="coverageRatio">0x</strong></div>
+            <div class="bar-row"><span>Density / session</span><div class="track"><div class="fill alt" id="densityBar"></div></div><strong id="densityRatio">0x</strong></div>
+            <div class="bar-row"><span>Total J / session</span><div class="track"><div class="fill third" id="energyBar"></div></div><strong id="energyRatio">0x</strong></div>
+          </div>
+          <p class="note" id="comparisonNote"></p>
+        </section>
+
+        <section class="compare-grid">
+          <div class="panel">
+            <h2>Math table</h2>
+            <div class="table-wrap">
+              <table>
+                <thead><tr><th>Quantity</th><th>Current selection</th><th>How it is calculated</th></tr></thead>
+                <tbody id="mathRows"></tbody>
+              </table>
+            </div>
+          </div>
+          <div class="panel">
+            <h2>Interpretation</h2>
+            <div class="insight" id="insightText"></div>
+            <p class="note" id="confidenceText"></p>
+          </div>
+        </section>
+
+        <section class="panel" style="margin-top:16px">
+          <h2>Source anchors</h2>
+          <div class="source-grid">
+            <a class="source-card" href="08_clear_brilliant_quantified_gap.md">
+              <b>Quantified gap doc</b>
+              <span>Coverage, total joules, beam width, depth, and home-vs-clinic calculations.</span>
+            </a>
+            <a class="source-card" href="13_tria_smoothbeauty_owners_guide.md">
+              <b>Tria SmoothBeauty guide</b>
+              <span>Verified Tria specs, level timing, energy range, and owner protocol.</span>
+            </a>
+            <a class="source-card" href="quantified_gap_source_docs/solta-clearbrilliant-service-manual.pdf">
+              <b>Solta C+B service manual</b>
+              <span>Primary anchor for C+B handpiece power, pulse-rate, and 140 um spot-size assumptions.</span>
+            </a>
+            <a class="source-card" href="quantified_gap_source_docs/nct05027282-clearbrilliant-trial-protocol.pdf">
+              <b>C+B Touch protocol</b>
+              <span>1440/1927nm protocol details and treatment-area/time cap context.</span>
+            </a>
+            <a class="source-card" href="quantified_gap_source_docs/us-patent-9308390-tria-laser.pdf">
+              <b>Tria patent PDF</b>
+              <span>Pulse-rate and home-use coverage-envelope assumptions used for Tria estimates.</span>
+            </a>
+            <a class="source-card" href="quantified_gap_source_docs/fraxel-dual-product-brochure.pdf">
+              <b>Fraxel Dual brochure</b>
+              <span>Professional high-throughput context for the Fraxel-class preset.</span>
+            </a>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const BENCHMARK = {density:650, coverage:10, totalJ:2340};
+
+    const devices = [
+      {
+        id:'cb-original',
+        name:'Clear + Brilliant Original high',
+        short:'C+B Original',
+        category:'clinic',
+        target:'collagen / texture',
+        confidence:'Verified/derived: C+B service manual, protocol, and quantified-gap density math.',
+        source:'C+B Original: 1440 nm, 9 mJ max, 140 um spot, 10% high setting over 8 passes; total J derived at about 2.3 kJ.',
+        wavelength:1440, energy:9, energyMin:4, energyMax:9, width:140, density:650, totalJ:2340, area:400, sessions:1,
+        depthMin:300, depthMax:400, mode:'density', color:'#12846f'
+      },
+      {
+        id:'cb-permea',
+        name:'Clear + Brilliant Permea high',
+        short:'C+B Permea',
+        category:'clinic',
+        target:'pigment / brightness',
+        confidence:'Verified/derived: 1927 nm C+B handpiece and 140 um optics; 10% high-density comparison is modeled from the same coverage frame.',
+        source:'C+B Permea: 1927 nm, 5 mJ max, superficial depth, total J derived around 0.8-1.3 kJ.',
+        wavelength:1927, energy:5, energyMin:2, energyMax:5, width:140, density:650, totalJ:1300, area:400, sessions:1,
+        depthMin:150, depthMax:190, mode:'density', color:'#4f46e5'
+      },
+      {
+        id:'fraxel-1550',
+        name:'Fraxel-class 1550 nm conservative',
+        short:'Fraxel 1550',
+        category:'clinic',
+        target:'dermal remodeling',
+        confidence:'Peer-reviewed total-energy anchor is 3-6 kJ for Fraxel Dual 1550 nm full face; density/coverage varies by protocol.',
+        source:'Fraxel-class preset uses a conservative 750 MTZ/cm² and 15 mJ to land near 4.5 kJ, inside the direct 3-6 kJ full-face range.',
+        wavelength:1550, energy:15, energyMin:6, energyMax:25, width:100, density:750, totalJ:4500, area:400, sessions:1,
+        depthMin:250, depthMax:800, mode:'density', color:'#be3455'
+      },
+      {
+        id:'tria-l3',
+        name:'Tria SmoothBeauty / FRX L3',
+        short:'Tria L3',
+        category:'home',
+        target:'collagen / texture',
+        confidence:'Verified Tria wavelength and energy range from IFU; pulse-rate and total-J estimate are derived from Tria patent plus IFU timing.',
+        source:'Tria L3: 1440 nm, 12 mJ, 10 min full face. Central total-J estimate is about 108 J with a 70-145 J range.',
+        wavelength:1440, energy:12, energyMin:5, energyMax:12, width:100, density:23, totalJ:108, area:400, sessions:1,
+        depthMin:300, depthMax:450, mode:'total', color:'#b7791f'
+      },
+      {
+        id:'ydunvie-iris',
+        name:'YDUNVIE / MimiSilk Iris 1450 nm',
+        short:'Iris 1450',
+        category:'home',
+        target:'collagen / texture',
+        confidence:'Seller/marketing spec with two internal cross-checks in the quantified-gap doc; verify before treating as purchase-grade.',
+        source:'Iris-family preset uses 180 J full face, 8 mJ central energy, 100 um microbeam, and 1450 nm depth range.',
+        wavelength:1450, energy:8, energyMin:3, energyMax:12, width:100, density:56, totalJ:180, area:400, sessions:1,
+        depthMin:300, depthMax:430, mode:'total', color:'#b7791f'
+      },
+      {
+        id:'ydunvie-dora',
+        name:'YDUNVIE Dora 1927 nm estimate',
+        short:'Dora 1927',
+        category:'home',
+        target:'pigment / brightness',
+        confidence:'Seller-claimed wavelength and energy range; density/total-J are editable estimates because a reliable full-face total was not found.',
+        source:'Dora preset models a low-density home 1927 nm treatment at 5 mJ, 100 um, and 55 MTZ/cm². The key spec to verify is true 1927 nm output.',
+        wavelength:1927, energy:5, energyMin:2, energyMax:7, width:100, density:55, totalJ:110, area:400, sessions:1,
+        depthMin:140, depthMax:190, mode:'density', color:'#4f46e5'
+      },
+      {
+        id:'palovia',
+        name:'PaloVia / LOI 1410 nm estimate',
+        short:'PaloVia',
+        category:'home',
+        target:'periorbital wrinkles',
+        confidence:'FDA/clinical anchors support 1410 nm and 8-15 mJ; total-J, density, and rep-rate were not computable from available sources.',
+        source:'PaloVia preset is a placeholder estimate: 10 mJ, 100 um, 60 MTZ/cm². Use it to explore sensitivity, not as a verified session-dose claim.',
+        wavelength:1410, energy:10, energyMin:8, energyMax:15, width:100, density:60, totalJ:240, area:400, sessions:1,
+        depthMin:210, depthMax:250, mode:'density', color:'#b7791f'
+      }
+    ];
+
+    const els = {
+      deviceSelect: document.getElementById('deviceSelect'),
+      presetNotes: document.getElementById('presetNotes'),
+      energy: document.getElementById('energyRange'),
+      width: document.getElementById('widthRange'),
+      density: document.getElementById('densityRange'),
+      total: document.getElementById('totalRange'),
+      area: document.getElementById('areaRange'),
+      sessions: document.getElementById('sessionRange'),
+      densityGroup: document.getElementById('densityGroup'),
+      totalGroup: document.getElementById('totalGroup'),
+      canvas: document.getElementById('coverageCanvas')
+    };
+
+    let state = {deviceId:'tria-l3', mode:'total'};
+
+    function fmt(num, digits=0){
+      return Number(num).toLocaleString(undefined,{maximumFractionDigits:digits, minimumFractionDigits:digits});
+    }
+
+    function fmtFlexible(num){
+      if(num >= 1000) return fmt(num,0);
+      if(num >= 100) return fmt(num,0);
+      if(num >= 10) return fmt(num,1);
+      return fmt(num,2);
+    }
+
+    function spotAreaCm2(widthUm){
+      const diameterCm = widthUm / 10000;
+      return Math.PI * Math.pow(diameterCm / 2, 2);
+    }
+
+    function currentDevice(){
+      return devices.find(d => d.id === state.deviceId) || devices[0];
+    }
+
+    function clamp(n,min,max){return Math.max(min, Math.min(max, n));}
+
+    function depthFor(device, energy){
+      const span = Math.max(.01, device.energyMax - device.energyMin);
+      const t = clamp((energy - device.energyMin) / span, 0, 1);
+      return device.depthMin + (device.depthMax - device.depthMin) * t;
+    }
+
+    function calc(){
+      const device = currentDevice();
+      const energy = Number(els.energy.value);
+      const width = Number(els.width.value);
+      const area = Number(els.area.value);
+      const sessions = Number(els.sessions.value);
+      let density = Number(els.density.value);
+      let totalJ = Number(els.total.value);
+      if(state.mode === 'total'){
+        density = totalJ / (energy / 1000) / area;
+        els.density.value = clamp(Math.round(density), Number(els.density.min), Number(els.density.max));
+      }else{
+        totalJ = density * area * (energy / 1000);
+        els.total.value = clamp(Math.round(totalJ / 5) * 5, Number(els.total.min), Number(els.total.max));
+      }
+      const areaOne = spotAreaCm2(width);
+      const coverage = density * areaOne * 100;
+      const cumulative = (1 - Math.pow(1 - clamp(coverage / 100, 0, .999), sessions)) * 100;
+      const fluence = (energy / 1000) / areaOne;
+      const mtz = density * area;
+      const depth = depthFor(device, energy);
+      const sessionsTo10 = coverage > 0 ? Math.log(1 - .10) / Math.log(1 - clamp(coverage / 100, 0.000001, .999)) : Infinity;
+      return {device, energy, width, area, sessions, density, totalJ, areaOne, coverage, cumulative, fluence, mtz, depth, sessionsTo10};
+    }
+
+    function renderDeviceSelect(){
+      els.deviceSelect.innerHTML = devices.map(d => `<option value="${d.id}">${d.name}</option>`).join('');
+      els.deviceSelect.value = state.deviceId;
+    }
+
+    function loadDevice(id){
+      const d = devices.find(item => item.id === id);
+      if(!d) return;
+      state.deviceId = d.id;
+      state.mode = d.mode;
+      els.deviceSelect.value = d.id;
+      els.energy.min = d.energyMin;
+      els.energy.max = d.energyMax;
+      els.energy.value = d.energy;
+      els.width.value = d.width;
+      els.density.value = d.density;
+      els.total.value = d.totalJ;
+      els.area.value = d.area;
+      els.sessions.value = d.sessions;
+      renderPresetNotes(d);
+      render();
+    }
+
+    function renderPresetNotes(d){
+      els.presetNotes.innerHTML = `
+        <button type="button" disabled>
+          ${d.short}<small>${d.wavelength} nm · ${d.target} · ${d.category === 'clinic' ? 'clinic benchmark' : 'home/consumer class'}</small>
+        </button>
+      `;
+    }
+
+    function updateControls(c){
+      document.querySelectorAll('[data-mode]').forEach(btn => btn.classList.toggle('active', btn.dataset.mode === state.mode));
+      els.densityGroup.classList.toggle('disabled', state.mode !== 'density');
+      els.totalGroup.classList.toggle('disabled', state.mode !== 'total');
+      document.getElementById('energyOut').textContent = `${fmtFlexible(c.energy)} mJ`;
+      document.getElementById('widthOut').textContent = `${fmt(c.width)} um`;
+      document.getElementById('densityOut').textContent = `${fmtFlexible(c.density)} MTZ/cm²`;
+      document.getElementById('totalOut').textContent = c.totalJ >= 1000 ? `${fmtFlexible(c.totalJ / 1000)} kJ` : `${fmtFlexible(c.totalJ)} J`;
+      document.getElementById('areaOut').textContent = `${fmt(c.area)} cm²`;
+      document.getElementById('sessionOut').textContent = `${fmt(c.sessions)} session${c.sessions === 1 ? '' : 's'}`;
+      document.querySelectorAll('#areaPresets button').forEach(btn => btn.classList.toggle('active', Number(btn.dataset.area) === Number(els.area.value)));
+    }
+
+    function renderMetrics(c){
+      document.getElementById('heroCoverage').textContent = `${fmtFlexible(c.coverage)}%`;
+      document.getElementById('heroTotal').textContent = c.totalJ >= 1000 ? `${fmtFlexible(c.totalJ / 1000)} kJ` : `${fmtFlexible(c.totalJ)} J`;
+      document.getElementById('heroDepth').textContent = `${fmt(c.depth)} um`;
+      document.getElementById('fluenceMetric').textContent = fmtFlexible(c.fluence);
+      document.getElementById('densityMetric').textContent = fmtFlexible(c.density);
+      document.getElementById('coverageMetric').textContent = `${fmtFlexible(c.coverage)}%`;
+      document.getElementById('courseCoverageMetric').textContent = `${fmtFlexible(c.cumulative)}%`;
+      document.getElementById('targetBadge').textContent = c.device.target;
+      document.getElementById('targetBadge').classList.toggle('warn', c.device.category === 'home');
+      document.getElementById('depthReadout').textContent = `${fmt(c.depth)} um depth at ${c.device.wavelength} nm`;
+      document.getElementById('widthReadout').textContent = `${fmt(c.width)} um beam / MTZ width`;
+      document.getElementById('depthNote').textContent = c.device.wavelength === 1927
+        ? 'Superficial 1927 nm energy fits epidermal pigment/brightness logic.'
+        : c.device.wavelength >= 1500
+          ? '1550 nm reaches deeper dermal remodeling ranges in Fraxel-class protocols.'
+          : '1410-1450 nm sits in the dermal collagen/texture range.';
+      document.getElementById('widthNote').textContent = `Spot area is ${c.areaOne.toExponential(2)} cm²; smaller spots raise local fluence.`;
+      document.getElementById('dotReadout').textContent = `${fmtFlexible(c.density)} dots/cm²`;
+      document.getElementById('areaReadout').textContent = `${fmtFlexible(c.mtz)} MTZ across ${fmt(c.area)} cm²`;
+    }
+
+    function renderBars(c){
+      const coveragePct = clamp((c.coverage / BENCHMARK.coverage) * 100, 0, 160);
+      const densityPct = clamp((c.density / BENCHMARK.density) * 100, 0, 160);
+      const energyPct = clamp((c.totalJ / BENCHMARK.totalJ) * 100, 0, 160);
+      document.getElementById('coverageBar').style.width = `${coveragePct}%`;
+      document.getElementById('densityBar').style.width = `${densityPct}%`;
+      document.getElementById('energyBar').style.width = `${energyPct}%`;
+      document.getElementById('coverageRatio').textContent = `${fmtFlexible(c.coverage / BENCHMARK.coverage)}x`;
+      document.getElementById('densityRatio').textContent = `${fmtFlexible(c.density / BENCHMARK.density)}x`;
+      document.getElementById('energyRatio').textContent = `${fmtFlexible(c.totalJ / BENCHMARK.totalJ)}x`;
+      const densityGap = c.density > 0 ? BENCHMARK.density / c.density : Infinity;
+      const energyGap = c.totalJ > 0 ? BENCHMARK.totalJ / c.totalJ : Infinity;
+      document.getElementById('comparisonNote').textContent =
+        `${c.device.short} is about ${fmtFlexible(densityGap)}x lower/higher than C+B Original high on MTZ density and ${fmtFlexible(energyGap)}x lower/higher on full-area total joules; ratios above 1.0 mean equal or stronger than the C+B high reference.`;
+    }
+
+    function drawSkin(c){
+      const g = document.getElementById('beamColumns');
+      const m = document.getElementById('beamMeasure');
+      const top = 70;
+      const scale = (368 - 70) / 900;
+      const y = top + c.depth * scale;
+      const radius = Math.max(8, c.width * scale / 2);
+      const centers = [170, 236, 302, 368];
+      const color = c.device.color;
+      g.innerHTML = centers.map((x, i) => {
+        const r = radius * (i === 1 || i === 2 ? 1 : .78);
+        const end = y - (i % 2) * 12;
+        return `
+          <path d="M${x-r},${top} C${x-r*.72},${top + (end-top)*.34} ${x-r*.4},${end-18} ${x},${end} C${x+r*.4},${end-18} ${x+r*.72},${top + (end-top)*.34} ${x+r},${top} Z"
+            fill="url(#columnGrad)" stroke="${color}" stroke-width="1.6" opacity=".88" />
+          <line x1="${x}" y1="${top}" x2="${x}" y2="${end}" stroke="${color}" stroke-width="1" opacity=".45" />
+        `;
+      }).join('');
+      m.innerHTML = `
+        <line x1="74" y1="${top}" x2="74" y2="${y}" stroke="#1e2528" stroke-width="2" stroke-dasharray="4 4" />
+        <line x1="62" y1="${top}" x2="86" y2="${top}" stroke="#1e2528" stroke-width="2" />
+        <line x1="62" y1="${y}" x2="86" y2="${y}" stroke="#1e2528" stroke-width="2" />
+        <text x="34" y="${Math.max(top+18,y-6)}" font-size="12" font-weight="800" fill="#1e2528">${fmt(c.depth)} um</text>
+        <line x1="${302-radius}" y1="54" x2="${302+radius}" y2="54" stroke="#1e2528" stroke-width="2" />
+        <line x1="${302-radius}" y1="48" x2="${302-radius}" y2="61" stroke="#1e2528" stroke-width="2" />
+        <line x1="${302+radius}" y1="48" x2="${302+radius}" y2="61" stroke="#1e2528" stroke-width="2" />
+        <text x="302" y="42" text-anchor="middle" font-size="12" font-weight="800" fill="#1e2528">${fmt(c.width)} um</text>
+      `;
+    }
+
+    function rng(seed){
+      let s = seed >>> 0;
+      return () => {
+        s = (1664525 * s + 1013904223) >>> 0;
+        return s / 4294967296;
+      };
+    }
+
+    function drawCoverage(c){
+      const canvas = els.canvas;
+      const ctx = canvas.getContext('2d');
+      const size = canvas.width;
+      ctx.clearRect(0,0,size,size);
+      ctx.fillStyle = '#fffdfb';
+      ctx.fillRect(0,0,size,size);
+      ctx.strokeStyle = '#dce4e2';
+      ctx.lineWidth = 1;
+      for(let i=0;i<=10;i++){
+        const p = i * size / 10;
+        ctx.beginPath();
+        ctx.moveTo(p,0); ctx.lineTo(p,size);
+        ctx.moveTo(0,p); ctx.lineTo(size,p);
+        ctx.stroke();
+      }
+      ctx.strokeStyle = '#8ea09d';
+      ctx.lineWidth = 3;
+      ctx.strokeRect(1.5,1.5,size-3,size-3);
+      const n = Math.min(Math.round(c.density), 3000);
+      const rand = rng(Math.round(c.energy * 1000 + c.width * 17 + c.density * 3 + c.device.wavelength));
+      const radius = Math.max(1.2, (c.width / 10000) * size / 2);
+      ctx.fillStyle = c.device.color;
+      ctx.globalAlpha = c.density > 1200 ? .48 : .68;
+      for(let i=0;i<n;i++){
+        const x = radius + rand() * (size - radius * 2);
+        const y = radius + rand() * (size - radius * 2);
+        ctx.beginPath();
+        ctx.arc(x,y,radius,0,Math.PI*2);
+        ctx.fill();
+      }
+      ctx.globalAlpha = 1;
+      ctx.fillStyle = '#1e2528';
+      ctx.font = '700 18px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif';
+      ctx.fillText('1 cm x 1 cm', 18, 30);
+      ctx.font = '700 14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif';
+      ctx.fillStyle = '#647174';
+      ctx.fillText(`${fmtFlexible(c.coverage)}% surface coverage`, 18, 52);
+      if(c.density > 3000){
+        ctx.fillText('dots capped visually at 3000', 18, 74);
+      }
+    }
+
+    function renderTable(c){
+      const rows = [
+        ['Spot area', `${c.areaOne.toExponential(3)} cm²`, 'π × (beam width in cm / 2)²'],
+        ['Local fluence', `${fmtFlexible(c.fluence)} J/cm²`, 'mJ per microbeam converted to J, divided by spot area'],
+        ['MTZ count', `${fmtFlexible(c.mtz)} per selected area`, 'MTZ density × treatment area'],
+        ['Coverage / session', `${fmtFlexible(c.coverage)}%`, 'MTZ density × spot area × 100'],
+        ['Total energy / session', c.totalJ >= 1000 ? `${fmtFlexible(c.totalJ / 1000)} kJ` : `${fmtFlexible(c.totalJ)} J`, 'MTZ count × mJ per microbeam'],
+        ['Idealized course coverage', `${fmtFlexible(c.cumulative)}% after ${fmt(c.sessions)} session${c.sessions === 1 ? '' : 's'}`, '1 - (1 - coverage per session)^sessions'],
+        ['Sessions to 10% coverage', Number.isFinite(c.sessionsTo10) ? `${fmtFlexible(c.sessionsTo10)} sessions` : 'not computable', 'How many identical sessions approximate one C+B high coverage event']
+      ];
+      document.getElementById('mathRows').innerHTML = rows.map(r => `<tr><td><b>${r[0]}</b></td><td>${r[1]}</td><td>${r[2]}</td></tr>`).join('');
+    }
+
+    function renderInsight(c){
+      const isHome = c.device.category === 'home';
+      const lowCoverage = c.coverage < 2;
+      const highFluence = c.fluence >= 55;
+      const sessionsText = Number.isFinite(c.sessionsTo10)
+        ? `${fmtFlexible(c.sessionsTo10)} identical sessions would be needed to reach 10% idealized cumulative surface coverage.`
+        : 'The current settings do not produce a meaningful coverage estimate.';
+      let text = '';
+      if(isHome && lowCoverage && highFluence){
+        text = `This is the home-device pattern the research keeps pointing to: each microbeam can be intense enough, but the dots are sparse. ${sessionsText} That is why consistency can help, but it does not make one home session equivalent to a scanned clinic session.`;
+      }else if(c.device.category === 'clinic'){
+        text = `This is a clinic-style coverage profile: density and total joules are high enough that many more treatment zones are hit in one sitting. The tradeoff is downtime, pain control, PIH risk, and need for professional dose selection.`;
+      }else if(c.device.wavelength === 1927){
+        text = `The 1927 nm preset is shallow by design. It fits pigment/brightness logic better than collagen remodeling logic, but true wavelength, cooling, and density still need verification for consumer devices.`;
+      }else{
+        text = `These settings sit between the archive's home and clinic anchors. Watch coverage and total J: those two determine whether you are modeling a gentle cumulative treatment or a denser resurfacing event.`;
+      }
+      document.getElementById('insightText').textContent = text;
+      document.getElementById('confidenceText').textContent = `${c.device.confidence} ${c.device.source}`;
+    }
+
+    function render(){
+      const c = calc();
+      updateControls(c);
+      renderMetrics(c);
+      renderBars(c);
+      drawSkin(c);
+      drawCoverage(c);
+      renderTable(c);
+      renderInsight(c);
+    }
+
+    renderDeviceSelect();
+    loadDevice(state.deviceId);
+
+    els.deviceSelect.addEventListener('change', e => loadDevice(e.target.value));
+    document.querySelectorAll('[data-mode]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        state.mode = btn.dataset.mode;
+        render();
+      });
+    });
+    document.querySelectorAll('#areaPresets button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        els.area.value = btn.dataset.area;
+        render();
+      });
+    });
+    [els.energy, els.width, els.density, els.total, els.area, els.sessions].forEach(input => {
+      input.addEventListener('input', render);
+    });
+  </script>
+</body>
+</html>

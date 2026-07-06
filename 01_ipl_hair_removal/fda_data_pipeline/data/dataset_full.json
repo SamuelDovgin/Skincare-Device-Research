@@ -148,13 +148,13 @@
     "auto_pulse_ms": "0.93-12.0",
     "confidence": "verified",
     "light_source": "ipl",
-    "fluence_jcm2": 6.41,
+    "fluence_jcm2": 6.1,
     "energy_j": null,
-    "spot_cm2": 4.2,
+    "spot_cm2": 3.9,
     "wavelength_nm": "530-1200",
     "pulse_ms": "0.7-3.6",
     "models": "SL-B352/B301/B330/B371 family",
-    "note": "Semlamp direct; single+dual+triple + SHR button"
+    "note": "Semlamp direct; max subject value is SL-B352/SL-B352-1/SL-B352-2 at 1.8-6.1 J/cm2; 6.41 is Ulike reference-device data, not subject"
   },
   {
     "k_number": "K254047",
@@ -191,13 +191,13 @@
     "auto_pulse_ms": "2.0-15.0",
     "confidence": "verified",
     "light_source": "ipl",
-    "fluence_jcm2": 4.8,
-    "energy_j": null,
+    "fluence_jcm2": 5.0,
+    "energy_j": 21,
     "spot_cm2": 4.2,
-    "wavelength_nm": "",
-    "pulse_ms": "",
-    "models": "Chuangtong Yigou IPL",
-    "note": "Max 4.8 (range 2.1-4.8)"
+    "wavelength_nm": "560/590-1200",
+    "pulse_ms": "0.86-15",
+    "models": "Chuangtong Yigou CT/CTU/DT IPL",
+    "note": "subject max is DT015/DT017/DT025 family at 2.1-5.0 J/cm2; 4.8 is reference-device max"
   },
   {
     "k_number": "K253666",
@@ -345,11 +345,11 @@
     "light_source": "ipl",
     "fluence_jcm2": 4.85,
     "energy_j": null,
-    "spot_cm2": 3.6,
-    "wavelength_nm": "",
+    "spot_cm2": 3.3,
+    "wavelength_nm": "530-1200",
     "pulse_ms": "",
     "models": "Dongguan Lide KA-10/11/20",
-    "note": "nominal max 4.85 (range to 5.82)"
+    "note": "subject table lists KA-18/KA-21 at 2.42-4.85 J/cm2 with 3.3 cm2 spot; parenthetical 1.93-5.82 is tolerance range, not nominal max"
   },
   {
     "k_number": "K253035",
@@ -513,13 +513,13 @@
     "auto_pulse_ms": "2.0-60.0",
     "confidence": "verified",
     "light_source": "ipl",
-    "fluence_jcm2": 6.67,
-    "energy_j": null,
-    "spot_cm2": 3.9,
-    "wavelength_nm": "",
-    "pulse_ms": "",
-    "models": "Foshan Jindi IPL",
-    "note": "subject 1.67-6.67"
+    "fluence_jcm2": 8.0,
+    "energy_j": 24,
+    "spot_cm2": 3.0,
+    "wavelength_nm": "550/600-1200",
+    "pulse_ms": "0.16-12",
+    "models": "Foshan Jindi IPL JD-TM016/023/027/028/032",
+    "note": "subject max is JD-TM027/JD-TM028 double-pulse family at 0.4-8 +/-1.6 J/cm2; 6.67/3.9 is Ulike reference-device data, not subject"
   },
   {
     "k_number": "K251398",
@@ -706,11 +706,11 @@
     "light_source": "ipl",
     "fluence_jcm2": 5.9,
     "energy_j": null,
-    "spot_cm2": 4.0,
+    "spot_cm2": 3.9,
     "wavelength_nm": "510-1200",
-    "pulse_ms": "",
+    "pulse_ms": "0.4-5.5",
     "models": "Mlay T14B/T19B/T21C/T25B etc",
-    "note": "per K253666 predicate listing: 5.90 J/cm2"
+    "note": "subject K251176 comparison table lists 5.90 J/cm2, 3.1/3.5/3.9 cm2 spots, and 0.4-5.5 ms pulse duration"
   },
   {
     "k_number": "K251707",
@@ -742,13 +742,13 @@
     "auto_pulse_ms": "3.0-8.07",
     "confidence": "verified",
     "light_source": "ipl",
-    "fluence_jcm2": 5.89,
-    "energy_j": null,
-    "spot_cm2": 3.3,
-    "wavelength_nm": "",
-    "pulse_ms": "",
+    "fluence_jcm2": 4.58,
+    "energy_j": 11,
+    "spot_cm2": 2.4,
+    "wavelength_nm": "530-1200",
+    "pulse_ms": "6-8",
     "models": "Huachuangtong IPL",
-    "note": "subject 1.52-5.89"
+    "note": "subject 2.08-4.58 J/cm2, 5.0-11.0 J, 2.4 cm2; 5.89 is predicate-device data, not subject"
   },
   {
     "k_number": "K251984",
@@ -946,13 +946,13 @@
     "auto_pulse_ms": "0.8-11.2",
     "confidence": "verified",
     "light_source": "ipl",
-    "fluence_jcm2": 5.43,
-    "energy_j": null,
-    "spot_cm2": 4.2,
-    "wavelength_nm": "",
-    "pulse_ms": "",
-    "models": "Chuangtong/IONKA FZ-100/608",
-    "note": "FZ-100 5.43 J/cm2"
+    "fluence_jcm2": 4.3,
+    "energy_j": 13,
+    "spot_cm2": 3.0,
+    "wavelength_nm": "590-1200",
+    "pulse_ms": "2-6",
+    "models": "Chuangtong/IONKA BFZ-200A/FZ-201/FZ-202/CT05-CT09",
+    "note": "subject 2-4.3 J/cm2, 6-13 J, 3 cm2; FZ-100 5.43 is predicate-device data, not subject"
   },
   {
     "k_number": "K243036",
@@ -1356,11 +1356,11 @@
     "light_source": "ipl",
     "fluence_jcm2": 6.67,
     "energy_j": null,
-    "spot_cm2": 4.5,
+    "spot_cm2": 3.9,
     "wavelength_nm": "550-1200",
-    "pulse_ms": "",
+    "pulse_ms": "0.88-3.20",
     "models": "Ulike UI20 series",
-    "note": "Ulike UI20; subject 1.67-6.67; this is the widely-cited reference device"
+    "note": "Ulike UI20; subject 1.67-6.67 J/cm2, 6.5-26 J, 3.9 cm2, 0.88-3.20 ms multipulse"
   },
   {
     "k_number": "K242710",
@@ -1406,13 +1406,13 @@
     "auto_pulse_ms": "2.0-60.0",
     "confidence": "verified",
     "light_source": "ipl",
-    "fluence_jcm2": 6.0,
+    "fluence_jcm2": 7.5,
     "energy_j": null,
-    "spot_cm2": 4.2,
-    "wavelength_nm": "510-1200",
-    "pulse_ms": "",
-    "models": "Jianchao R3C16 IPL",
-    "note": "stated 'Max.6.0 J/cm2'; a variant filter sub-table lists up to 7.5 - verify; 7-10 is reference"
+    "spot_cm2": 2.8,
+    "wavelength_nm": "530-1200",
+    "pulse_ms": "6-12",
+    "models": "Jianchao R3C16/R3505 IPL families",
+    "note": "subject max is R3505-W/R3505-B at 3.57-7.5 J/cm2; 7-10 is reference-device data, not subject"
   },
   {
     "k_number": "K243362",
@@ -3379,13 +3379,13 @@
     "auto_pulse_ms": "1.0-11.2",
     "confidence": "verified",
     "light_source": "ipl",
-    "fluence_jcm2": 5.1,
-    "energy_j": null,
-    "spot_cm2": 4.2,
-    "wavelength_nm": "",
-    "pulse_ms": "",
-    "models": "Ulike IPL",
-    "note": "subject ~1.8-5.1 (approx; table ambiguous)"
+    "fluence_jcm2": 7.2,
+    "energy_j": 19.8,
+    "spot_cm2": 3.3,
+    "wavelength_nm": "560-1200",
+    "pulse_ms": "1.15-6.2",
+    "models": "Ulike UI04 SD/UI04 DG",
+    "note": "subject 2.4-7.2 J/cm2, 9.9-19.8 J, 3.3 cm2, 1.15-6.2 ms"
   },
   {
     "k_number": "K230360",
@@ -6367,13 +6367,13 @@
     "auto_pulse_ms": "2.0-60.0",
     "confidence": "verified",
     "light_source": "ipl",
-    "fluence_jcm2": 9.0,
+    "fluence_jcm2": 6.0,
     "energy_j": null,
-    "spot_cm2": 3.3,
-    "wavelength_nm": "530-1100",
-    "pulse_ms": "",
-    "models": "iPulse / CyDen IPL",
-    "note": "subject 'Up to 9 J/cm2'; the 7-10 in table is a reference"
+    "spot_cm2": 3.0,
+    "wavelength_nm": "510-1100",
+    "pulse_ms": "2-10",
+    "models": "iPulse SmoothSkin Gold",
+    "note": "subject iPulse SmoothSkin Gold is 3-6 J/cm2; 9 and 7-10 J/cm2 are predicate-device values, not subject"
   },
   {
     "k_number": "K150282",
@@ -6842,13 +6842,13 @@
     "auto_pulse_ms": "10.0-40.0",
     "confidence": "verified",
     "light_source": "ipl",
-    "fluence_jcm2": 5.0,
+    "fluence_jcm2": 10.0,
     "energy_j": null,
-    "spot_cm2": 6.0,
-    "wavelength_nm": "475-1200",
-    "pulse_ms": "5",
-    "models": "Cyden Flash N'Go",
-    "note": "subject ~5 J/cm2 (OCR-garbled table); predicate Shaser was 9; large 6cm2 spot"
+    "spot_cm2": 3.0,
+    "wavelength_nm": "530-1100",
+    "pulse_ms": "25 single; 15 on/10 off; 10 on/40 off",
+    "models": "iPulse SmoothSkin Hair Removal System",
+    "note": "subject CyDen iPulse SmoothSkin is 7-10 J/cm2 with 3 cm2 spot; Flash N'Go/Home Skinovations 5 J/cm2 and 6 cm2 spot is predicate-device data, not subject"
   },
   {
     "k_number": "K121515",

@@ -13,17 +13,26 @@ re-run after the viewer HTML is regenerated externally (which wipes the popover)
 
 Usage:  python3 tools/apply_citation_features.py            (apply, in-place)
         python3 tools/apply_citation_features.py --check     (report only, exit 1 if work pending)
+        python3 tools/apply_citation_features.py <path>      (limit to a folder/file)
 """
 import re, sys, json, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CHECK = "--check" in sys.argv
+TARGETS = [(ROOT / a).resolve() for a in sys.argv[1:] if not a.startswith("--")]
+
+def in_scope(p):
+    if not TARGETS:
+        return True
+    rp = p.resolve()
+    return any(rp == t or t in rp.parents for t in TARGETS)
 
 HEAD_RE  = re.compile(r'^#{1,6}\s+.*\b(sources|references|bibliography)\b', re.I | re.M)
 ENTRY_RE = re.compile(r'^\s*(\d+)\.\s+(.*)$')
 URL_RE   = re.compile(r'https?://[^\s)>\]]+')
-# a bare [n] marker: not already inside [[n]](..) (lookbehind) and not a link [n](..) (lookahead)
-CITE_RE  = re.compile(r'(?<!\[)\[(\d+)\](?!\()(?!\])')
+MD_URL_RE = re.compile(r'\[[^\]]+\]\(([^)]+)\)')
+# bare [n] / [n,m] markers: not already inside [[n]](..) and not already links
+CITE_RE  = re.compile(r'(?<!\[)\[(\d+(?:\s*,\s*\d+)*)\](?!\()(?!\])')
 
 pending = 0
 
@@ -31,6 +40,8 @@ def linkify_md():
     global pending
     for f in sorted(ROOT.glob("**/*.md")):
         if "/.git/" in str(f):
+            continue
+        if not in_scope(f):
             continue
         text = f.read_text()
         heads = list(HEAD_RE.finditer(text))
@@ -46,10 +57,18 @@ def linkify_md():
             um = URL_RE.search(m.group(2))
             if um:
                 urlmap[m.group(1)] = um.group(0).rstrip('.,;:')
+                continue
+            mm = MD_URL_RE.search(m.group(2))
+            if mm:
+                urlmap[m.group(1)] = mm.group(1).rstrip('.,;:')
         if not CITE_RE.search(body):
             continue
-        new_body = CITE_RE.sub(lambda m: f'[[{m.group(1)}]]({urlmap[m.group(1)]})'
-                               if m.group(1) in urlmap else m.group(0), body)
+        def repl(m):
+            nums = [n.strip() for n in m.group(1).split(",")]
+            if not all(n in urlmap for n in nums):
+                return m.group(0)
+            return "".join(f'[[{n}]]({urlmap[n]})' for n in nums)
+        new_body = CITE_RE.sub(repl, body)
         if new_body != body:
             pending += 1
             print(f"  linkify: {f.relative_to(ROOT)}")
@@ -180,6 +199,8 @@ JS = r"""<script>/*cite-enhance*/
 def folder_index_htmls():
     out = []
     for p in sorted(ROOT.glob("*/index.html")):
+        if not in_scope(p):
+            continue
         if "const DOCS=" in p.read_text():
             out.append(p)
     return out
@@ -203,7 +224,13 @@ def sync_embeds():
     for p in folder_index_htmls():
         t = p.read_text()
         i = t.find("const DOCS="); j = t.find("\n", i)
-        arr = json.loads(t[i+len("const DOCS="):j].rstrip(";"))
+        try:
+            arr = json.loads(t[i+len("const DOCS="):j].rstrip(";"))
+        except json.JSONDecodeError:
+            # Some newer hand-built topic pages keep Markdown in <script
+            # type="text/plain"> blocks and use a JS object-literal DOCS list.
+            # Those pages are rendered from their script tags, not synced here.
+            continue
         changed = False
         for e in arr:
             disk = (p.parent / e["file"]).read_text()

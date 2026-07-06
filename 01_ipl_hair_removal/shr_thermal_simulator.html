@@ -180,8 +180,8 @@ sup a{text-decoration:none;font-weight:700;color:var(--accent);font-size:11px}
     <div class="ctrls">
       <div class="ctl hero">
         <label>Gap between flashes <span><span class="tag">the hero dial</span> <span class="val" id="v_gap"></span></span></label>
-        <input type="range" id="gap" min="5" max="400" step="5" value="250">
-        <div class="hint">Edge-to-edge delay. <b>Under the follicle's ~10–100 ms cooling time → follicle peak stacks. Over it → the follicle peak mostly resets, but slower deep/sensory heat can still build.</b> Ulike SHR ≈ 250 ms (4/s); pro SHR ≈ 100 ms (10 Hz); clinical fixed-spot stacking ≈ 10–40 ms. <b>Not disclosed by most home devices</b> — an honest unknown.</div>
+        <input type="range" id="gap" min="5" max="500" step="5" value="250">
+        <div class="hint">Edge-to-edge delay. <b>Under the follicle's ~10–100 ms cooling time → follicle peak stacks. By ~500 ms, even coarse follicles have effectively reset; slower deep/sensory heat can still leave a tail.</b> Ulike SHR ≈ 250 ms (4/s); pro SHR ≈ 100 ms (10 Hz); clinical fixed-spot stacking ≈ 10–40 ms. <b>Not disclosed by most home devices</b> — an honest unknown.</div>
       </div>
       <div class="ctl">
         <label>Number of flashes <span class="val" id="v_n"></span></label>
@@ -360,6 +360,11 @@ const DEVICES = {
     gapNote:'intra-burst gap NOT in the FDA filing; ~250 ms is the marketed SHR cadence (4/s), ~500 ms AutoGlide',
     cfg:{emode:'flu',flu:1.67,n:4,gap:250,dur:2,spot:3.9,skin:3,hair:70,cool:true,cmp:false},
     note:'Ulike’s signature SHR: one burst of up to 4 sub-flashes (~1.67 J/cm² each; 26 J / 6.67 J/cm² total) repeated ~4×/s while gliding. Loaded as the literal 4-flash burst — watch it sit sub-threshold at 250 ms, then RAISE the flash count (a glide pass hits a spot several times) and/or drag the gap dial down.'},
+  wavytalk_bareit:{brand:'Wavytalk', model:'Bare It 24J / Jindi double-pulse class', k:'K252209',
+    wl:'600–1200 nm retail claim; K252209 family also lists 550±15–1200 nm variants', fluMax:8.0, spot:3.0, pulseLo:0.16, pulseHi:12, modes:'levels 1–2 single pulse / levels 3–5 dual pulse',
+    gapNote:'Wavytalk does NOT publish the dual-pulse millisecond gap. The often-quoted "20 ms on, 60 ms off" line in K252209 is in the predicate/reference comparison area, so it must NOT be attributed to Wavytalk/Jindi. Loaded at 300 ms only because Wavytalk publishes a 0.3–2.7 s flash-duration/cadence range; use the gap dial as an unknown, not a verified spec.',
+    cfg:{emode:'tot',flu:4,n:2,gap:300,dur:10,spot:3.0,skin:3,hair:70,cool:true,cmp:true},
+    note:'Wavytalk Bare It retail specs: 24 J total energy, 3.0 cm² window, 8 J/cm² headline, 600–1200 nm, ice cooling, and dual pulse on levels 3–5. The brand/press materials point to FDA K252209, a Foshan Jindi family with single-pulse models (JD-TM016/023) and double-pulse models (JD-TM027/028/032). The critical unknown is the actual gap between Wavytalk’s two flashes. K252209 supports the broader Jindi double-pulse family and short pulse durations, but the 60 ms off-time belongs to the predicate/reference comparison, not Wavytalk. This preset starts with 24 J split across two pulses (4.0 J/cm² each) at a 300 ms unknown-gap scenario; drag toward 5–100 ms only as a hypothetical best case, or toward 500 ms to test a no-meaningful-follicle-carryover case.'},
   fansizhe_t023:{brand:'Fansizhe', model:'T023A/C/D/E — YOUR device', k:'K223928',
     wl:'560–1200 nm', fluMax:6.4, spot:3.0, pulseLo:4, pulseHi:12, modes:'single (6.3 J/cm²) / double (6.4 J/cm²)',
     gapNote:'your manual lists a 250 ms "single pulse string" width (the burst envelope) — so a double-pulse’s two sub-pulses span up to ~250 ms; the exact sub-pulse gap inside it isn’t stated. FDA pulse width 4–12 ms (manual: <12 ms).',
@@ -376,20 +381,20 @@ const DEVICES = {
     cfg:{emode:'flu',flu:4.03,n:1,gap:60,dur:8,spot:4.0,skin:3,hair:70,cool:true,cmp:false},
     note:'A lower-fluence predicate (4.03 J/cm², larger 4 cm² window) — see how a weaker single flash lands versus the T023A.'},
   semlamp_b352:{brand:'Semlamp', model:'SL-B352 family — real SHR button', k:'K260518',
-    wl:'530–1200 nm', fluMax:6.41, spot:4.2, pulseLo:0.7, pulseHi:3.6, modes:'single / dual / triple + dedicated SHR button',
+    wl:'530–1200 nm', fluMax:6.1, spot:3.9, pulseLo:0.7, pulseHi:3.6, modes:'single / dual / triple + dedicated SHR button',
     gapNote:'has an actual SHR button in the filing, but its pulse cadence is not disclosed',
-    cfg:{emode:'flu',flu:2.1,n:6,gap:200,dur:2,spot:4.2,skin:3,hair:70,cool:true,cmp:false},
-    note:'One of the few home devices whose FDA filing lists a dedicated SHR button (plus single/dual/triple). Short pulses (0.7–3.6 ms). Loaded in an SHR-like multi-flash mode; the cadence is an estimate — set it yourself.'},
+    cfg:{emode:'flu',flu:2.0,n:6,gap:200,dur:2,spot:3.9,skin:3,hair:70,cool:true,cmp:false},
+    note:'One of the few home devices whose FDA filing lists a dedicated SHR button (plus single/dual/triple). For SL-B352/SL-B352-1/SL-B352-2, the subject-device row lists 1.8–6.1 J/cm², 3.9 cm², and 0.7–3.6 ms. Loaded in an SHR-like multi-flash mode; the cadence is an estimate — set it yourself.'},
   ionka_fz:{brand:'IONKA / Chuangtong', model:'FZ-608 / FZ-100 / FZ-200', k:'K230739',
     wl:'510–1200 nm', fluMax:5.43, spot:3.0, pulseLo:0.5, pulseHi:0.8, modes:'single pulse',
     gapNote:'single-pulse device — no inter-pulse gap',
     cfg:{emode:'flu',flu:5.0,n:1,gap:60,dur:0.7,spot:3.0,skin:3,hair:70,cool:true,cmp:false},
     note:'The ultra-short-pulse case: 0.5–0.8 ms. Best device for feeling how a very short pulse spikes the EPIDERMIS hotter for the same fluence — drag pulse-width down and watch skin-burn risk climb.'},
-  cyden_flashngo:{brand:'Cyden', model:'Flash&Go — large window', k:'K122280',
-    wl:'475–1200 nm', fluMax:5.0, spot:6.0, pulseLo:5, pulseHi:5, modes:'single pulse',
-    gapNote:'single-pulse device — no inter-pulse gap',
-    cfg:{emode:'flu',flu:5.0,n:1,gap:60,dur:5,spot:6.0,skin:3,hair:70,cool:false,cmp:false},
-    note:'Fixed 5 ms pulse, big 6 cm² window (energy spread over more skin), and no sapphire cooling in this older design — see how the missing cooling raises skin risk.'},
+  cyden_flashngo:{brand:'Cyden', model:'iPulse SmoothSkin — older high-fluence IPL', k:'K122280',
+    wl:'530–1100 nm', fluMax:10.0, spot:3.0, pulseLo:10, pulseHi:25, modes:'single pulse / double pulse settings',
+    gapNote:'K122280 subject settings include single 25 ms, double 15 ms on / 10 ms off, and double 10 ms on / 40 ms off. Flash N’Go/Home Skinovations 5 J/cm², 6 cm², 475–1200 nm is predicate-device data, not subject.',
+    cfg:{emode:'flu',flu:8.5,n:1,gap:40,dur:18,spot:3.0,skin:3,hair:70,cool:false,cmp:false},
+    note:'Corrected audit entry: K122280 is CyDen iPulse SmoothSkin, not Flash N’Go. The subject device is listed at 7–10 J/cm², 3 cm², 530–1100 nm, with one 25 ms single-pulse setting and two double-pulse settings. Loaded as a mid/high single-shot case; set n=2 and gap=10 or 40 ms to explore the two listed double-pulse modes.'},
   manual:{brand:'✏️ Manual entry', model:'set every parameter yourself', k:null,
     wl:'—', fluMax:null, spot:3.9, pulseLo:null, pulseHi:null, modes:'you choose',
     gapNote:'nothing is locked — this is for any device not listed, or free exploration',
@@ -434,6 +439,8 @@ const SOURCES=[
  ['s17','Wheeland RG. Home 810 nm laser dose-response. 2012 — 7/12/20 J/cm² → 44/49/65% at 12 mo.','https://pubmed.ncbi.nlm.nih.gov/22886431/'],
  ['s18','Ulike Air 10 official specs (dual xenon, up to 4 flashes, ~26 J burst, sapphire cooling) & third-party technical review.','https://www.scienceoverfluff.com/p/ulike-technical-review-and-results'],
  ['s19','Fansizhe T023A/C/D/E device manual (the user’s unit) — 560–1200 nm, single 6.3 / double 6.4 J/cm², output ≤19 J, pulse <12 ms, 250 ms pulse-string width, 3.0 cm² window; FDA K223928.',''],
+ ['s19a','Wavytalk Bare It official retail specs — 24 J, 3 cm² window, 0.3–2.7 s flash duration, levels 1–2 single pulse, levels 3–5 dual pulse, 600–1200 nm wavelength; brand/press materials connect Bare It to FDA K252209.','https://wavytalk.com/products/bare-it-ipl-hair-removal'],
+ ['s19b','FDA K252209 — Foshan Jindi IPL Home Use Hair Removal Device: JD-TM016/JD-TM023 single-pulse models; JD-TM027/JD-TM028/JD-TM032 double-pulse models. Important: the "20 ms on, 60 ms off" double-pulse line is comparator/reference-device data in the table, not Wavytalk/Jindi subject-device timing.','https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252209.pdf'],
  ['s20','Follicle coagulation temperatures — 65–70 °C target, 60 °C minimum, time-dependent 70 °C@1 ms / 62 °C@100 ms (clinical/industry synthesis).','https://skinspanewyork.com/blogs/news/the-ultimate-guide-to-painless-laser-hair-removal-technology-and-techniques-in-2026'],
 	 ['s21','SHR bulk-heating target ~45–48 °C for the follicle + stem cells.','https://www.cocoonlaser.com/achieving-superior-results-skin-types-indications-and-protocols-for-shr-super-hair-removal/'],
 	 ['s22','Thermal injury of skin & subcutaneous tissues — review of experimental & numerical models (Henriques–Moritz Arrhenius; basal-epidermis damage from 44 °C, irreversible transition ~50 °C).','https://pmc.ncbi.nlm.nih.gov/articles/PMC5459687/'],
@@ -448,7 +455,7 @@ const SOURCES=[
 	   Nodes: epidermis (Te), follicle/bulb = melanin heater (Tf), bulge stem cells (Tbg, driven only by diffusion from Tf),
 	   and sensory heat / sting proxy (Tp, local follicle-adjacent nociceptor drive with fast rise / slow decay).
 	   Calibrated so a single ~6 J/cm² flash on dark hair drives the follicle to ~68 °C — the classic coagulation figure. */
-	const Tb=35, DT=0.25;                      // baseline °C, timestep ms (fine enough to resolve sub-ms pulses)
+	const Tb=35, DT=0.25, GAP_MAX=500;         // baseline °C, timestep ms, UI max inter-flash gap
 	const AF0=6.75, KE=13.1;                    // follicle & epidermal heating coeffs. aF includes epidermal transmission (melanin competition),
 	                                            // AF0*Ttrans(FitzIII)=5.0 and KE*Aepi(FitzIII)=3.4 so Fitzpatrick III (the default) is unchanged
 	const TAU_EFAST=8, TAU_ECOOL=45, ESINK=22; // epidermis: fast diffusion to body temp; slow extraction to cold plate
@@ -678,7 +685,7 @@ let emode='flu';  // 'flu' = set per-flash fluence; 'tot' = set one total in Jou
 function readParams(){
   const spot=+$('spot').value, n=Math.max(1,+$('n').value);
   const flu = emode==='tot' ? (+$('tot').value)/spot/n : +$('flu').value;
-  return {gap:+$('gap').value, n, flu, dur:+$('dur').value, spot,
+  return {gap:clamp(+$('gap').value, +$('gap').min, GAP_MAX), n, flu, dur:+$('dur').value, spot,
           skin:+$('skin').value, hair:+$('hair').value,
           cool:$('cool').checked, cmp:$('cmp').checked};
 }
@@ -715,7 +722,7 @@ function setEmode(m,silent){
   if(!silent) run();
 }
 function applyCfg(c){
-  $('spot').value=c.spot; $('n').value=c.n; $('gap').value=c.gap; $('dur').value=c.dur;
+  $('spot').value=c.spot; $('n').value=c.n; $('gap').value=clamp(c.gap, +$('gap').min, GAP_MAX); $('dur').value=c.dur;
   $('skin').value=c.skin; $('hair').value=c.hair; $('cool').checked=c.cool; $('cmp').checked=c.cmp;
   $('flu').value=c.flu; $('tot').value=fmt(c.flu*c.spot*c.n,1);
   setEmode(c.emode||'flu', true);
