@@ -4,23 +4,23 @@
 
 The question is not "does ultrasound ever affect skin?" It can. The question is whether current home HIFU/MFU devices are credible lower-intensity versions of clinic HIFU/MFU procedures.
 
-This source pass says: **not yet proven.** Home devices may be reasonable as conservative consumer maintenance gadgets, but this archive found no FDA-cleared OTC home facial HIFU/MFU analog to Ulthera or Sofwave in the captured OHV dataset [1].
+This source pass says: **not yet proven.** Home devices may be reasonable as conservative consumer maintenance gadgets, but this archive found no FDA-cleared OTC home facial HIFU/MFU analog to Ulthera or Sofwave in the captured OHV dataset [[1]](data/openfda-ohv-510k-2026-07-07.csv).
 
 ## 2. Medicube High Focus Shot
 
 Medicube's official High Focus Shot page is the most concrete home-device page captured in this pass. The page markets a focused-shot consumer device and includes operating guardrails:
 
-- recommended use frequency: once weekly in the FAQ, with 600-1200 shots per session; another product-page note says 1-2 times weekly and 600-1200 shots [2];
-- avoid continuous/overlapping shots to the same area [2];
-- repeated use on the same area can cause side effects such as skin depression or burns [2];
-- ensure the head is in full contact with the skin with no gaps [2];
-- avoid use between the eyebrows, around eyes/eyeballs, philtrum, lips, around the mouth, nose, jawbone, Adam's apple, and thyroid area [2].
+- recommended use frequency: once weekly in the FAQ, with 600-1200 shots per session; another product-page note says 1-2 times weekly and 600-1200 shots [[2]](https://medicube.us/pages/high-focus-shot);
+- avoid continuous/overlapping shots to the same area [[2]](https://medicube.us/pages/high-focus-shot);
+- repeated use on the same area can cause side effects such as skin depression or burns [[2]](https://medicube.us/pages/high-focus-shot);
+- ensure the head is in full contact with the skin with no gaps [[2]](https://medicube.us/pages/high-focus-shot);
+- avoid use between the eyebrows, around eyes/eyeballs, philtrum, lips, around the mouth, nose, jawbone, Adam's apple, and thyroid area [[2]](https://medicube.us/pages/high-focus-shot).
 
 Archive read: High Focus Shot is interesting because Medicube is at least publishing usage and caution language. But the official page does not establish equivalence to Ulthera/Sofwave clinical protocols, FDA OHV clearance, target-depth verification, or human lifting outcomes.
 
 ## 3. Medicube Ussera Deep Shot
 
-Medicube's Ussera page is a neighboring home ultrasound/high-frequency beauty-device claim, not the same as a clinic HIFU system. The captured page recommends 2-3 uses per week, says the device includes a 0.5-second pause to prevent successive shots on one area, and references 80-shot use [3].
+Medicube's Ussera page is a neighboring home ultrasound/high-frequency beauty-device claim, not the same as a clinic HIFU system. The captured page recommends 2-3 uses per week, says the device includes a 0.5-second pause to prevent successive shots on one area, and references 80-shot use [[3]](https://medicube.us/pages/ussera).
 
 Archive read: Ussera belongs in the broader home energy-device landscape, but it is not evidence that home HIFU equals clinic HIFU. It is better treated as a conservative maintenance gadget unless independent output and clinical data say otherwise.
 
@@ -41,7 +41,7 @@ The risk is asymmetric. A too-weak device may waste money. A device that is powe
 
 ## 5. Home evidence: mouse paper, not human lifting proof
 
-The PubMed-indexed home-used HIFU paper treated the backs of 20-week-old mice with a 4 MHz, 1.5 mm focal-depth probe and evaluated dermal thickness, collagen I/III, elastin, MMP-1, and TIMP-1 markers [4]. It is a real preclinical signal that home-scale focused ultrasound can change skin biology under controlled conditions.
+The PubMed-indexed home-used HIFU paper treated the backs of 20-week-old mice with a 4 MHz, 1.5 mm focal-depth probe and evaluated dermal thickness, collagen I/III, elastin, MMP-1, and TIMP-1 markers [[4]](https://pubmed.ncbi.nlm.nih.gov/36704876/). It is a real preclinical signal that home-scale focused ultrasound can change skin biology under controlled conditions.
 
 But for the user decision, the limitations are decisive:
 

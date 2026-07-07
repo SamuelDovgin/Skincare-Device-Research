@@ -1,8 +1,8 @@
 # Skincare Device Research
 
-Research into at-home, light- and energy-based skincare devices for **facial redness/erythema, hyperpigmentation, post-inflammatory hyperpigmentation (PIH), and evening skin tone**, plus **hair removal**, **skin-quality (collagen) rejuvenation**, and topical support as parallel goals. Budget-conscious; covers branded, retail, Chinese OEM/Alibaba sourcing, patent/regulatory context, and practical product buying.
+Research into at-home, light- and energy-based skincare devices for **facial redness/erythema, hyperpigmentation, post-inflammatory hyperpigmentation (PIH), and evening skin tone**, plus **hair removal**, **skin-quality (collagen) rejuvenation**, **tightening/laxity**, and topical support as parallel goals. Budget-conscious; covers branded, retail, Chinese OEM/Alibaba sourcing, patent/regulatory context, and practical product buying.
 
-The repo is organized by **product type** into ten projects:
+The repo is organized by **product type** into eleven projects:
 
 | Folder | Product class | Goal |
 |--------|---------------|------|
@@ -16,6 +16,7 @@ The repo is organized by **product type** into ten projects:
 | [`08_vitamin_c_serums/`](08_vitamin_c_serums/) | Vitamin C serums | SkinCeuticals C E Ferulic, patents, dupes, DIY L-ascorbic acid, derivatives |
 | [`09_zinc_oxide_barrier_cream/`](09_zinc_oxide_barrier_cream/) | Zinc oxide barrier cream | Science-first barrier lane: mechanism, dermatitis/wound evidence, safety protocol, and product notes |
 | [`10_microneedling_collagen_induction/`](10_microneedling_collagen_induction/) | Microneedling / collagen induction | Acne scars, wrinkles/scars, FDA QAI devices, home-vs-professional boundary, RF microneedling risk |
+| [`11_hifu_skin_tightening/`](11_hifu_skin_tightening/) | HIFU / microfocused ultrasound | Clinic HIFU/MFU, home-device claims, focal-depth physics, and home-vs-clinic boundary |
 
 ## TL;DR
 
@@ -29,6 +30,7 @@ The repo is organized by **product type** into ten projects:
 8. **Vitamin C serums are now separated from device research as the topical antioxidant lane.** SkinCeuticals C E Ferulic is the best-studied benchmark; its key US7179841B2 patent expired on 2025-03-24, making Trader Joe's-style CEF dupes more plausible but not automatically equivalent. Use vitamin C in the morning and Differin at night. See **[`08_vitamin_c_serums/`](08_vitamin_c_serums/)**.
 9. **Zinc oxide diaper rash cream is now a science-first barrier lane, not just a product tip.** The strongest evidence is for OTC skin-protectant use, irritant/moisture dermatitis, TEWL/barrier support, and wound/periwound adjuncts; adult facial overnight use remains an extrapolation. If experimenting, start around **10-15% zinc oxide** and reserve 40% pastes for spot rescue. See **[`09_zinc_oxide_barrier_cream/`](09_zinc_oxide_barrier_cream/)**.
 10. **Microneedling now has its own collagen-induction lane.** The strongest evidence is professional treatment of atrophic acne scars; FDA has not authorized OTC medical microneedling devices; and RF microneedling is a professional procedure, not a home-device shortcut. See **[`10_microneedling_collagen_induction/`](10_microneedling_collagen_induction/)**.
+11. **HIFU / microfocused ultrasound is now separated as a tightening lane.** Clinic Ulthera/Sofwave evidence is real but procedure-specific; home HIFU/MFU is not a clean "lower-density Ultherapy" analog because focal depth, coupling, line spacing, visualization, and anatomy control matter more than shot count. See **[`11_hifu_skin_tightening/`](11_hifu_skin_tightening/)**.
 
 ---
 
@@ -156,6 +158,20 @@ Mechanical microneedling lane for acne scars, wrinkles/scars, device regulation,
 
 **Supporting material:** [`skin_depth_demo.html`](10_microneedling_collagen_induction/skin_depth_demo.html) interactive depth/benefit explainer, mirrored FDA microneedling guidance, SkinPen De Novo files, selected QAI 510(k) summaries, FDA patient page, FDA RF microneedling safety communication, and an openFDA `QAI` snapshot captured 2026-07-06 in [`source_docs/`](10_microneedling_collagen_induction/source_docs/) and [`data/`](10_microneedling_collagen_induction/data/).
 
+## 11 — HIFU / microfocused ultrasound skin tightening · [`11_hifu_skin_tightening/`](11_hifu_skin_tightening/)
+
+Focused ultrasound lane for clinic HIFU/MFU, home-device claims, focal-depth physics, and the home-vs-clinic boundary. This is separated from RF and fractional lasers because ultrasound depends on acoustic focal geometry, coupling, target depth, and anatomy rather than optical absorption or electrical impedance.
+
+| # | File | What it covers |
+|---|------|----------------|
+| 01 | [HIFU science brief](11_hifu_skin_tightening/01_hifu_science_brief.md) | Focused ultrasound physics, target depths, thermal coagulation points, and why HIFU does not map cleanly to fractional-laser density math |
+| 02 | [Clinic device evidence map](11_hifu_skin_tightening/02_clinic_device_evidence_map.md) | Ulthera/Ultherapy, Sofwave, SCIZER/body contouring, and naming pitfalls separated by FDA status and geometry |
+| 03 | [Home device landscape](11_hifu_skin_tightening/03_home_device_landscape.md) | Medicube High Focus Shot, Ussera, generic mini/prosumer HIFU claims, home evidence, and regulatory caveats |
+| 04 | [Home vs clinic results gap](11_hifu_skin_tightening/04_home_vs_clinic_results_gap.md) | The fractional-laser-style comparison: why home HIFU is not simply a lower-power/lower-density Ultherapy treatment |
+| 05 | [Selection and safety protocol](11_hifu_skin_tightening/05_selection_and_safety_protocol.md) | Goal picker, provider questions, home stop rules, and risk boundaries |
+
+**Supporting material:** [`depth_planner.html`](11_hifu_skin_tightening/depth_planner.html) interactive focal-depth explainer, mirrored FDA HIFU/MFU PDFs, Ulthera IFU, Sofwave files, Medicube product-page captures, PubMed pages, and an openFDA `OHV` snapshot captured 2026-07-07 in [`source_docs/`](11_hifu_skin_tightening/source_docs/) and [`data/`](11_hifu_skin_tightening/data/).
+
 ---
 
 ## Status / open items
@@ -168,3 +184,4 @@ Mechanical microneedling lane for acne scars, wrinkles/scars, device regulation,
 - **Open — vitamin C:** independently verify Trader Joe's full INCI/pH/stability, monitor post-2025 CEF clone launches, and confirm any SkinCeuticals 2026 patent-pending antioxidant launch from primary materials.
 - **Open — zinc oxide:** look for direct adult facial barrier trials separating zinc oxide from petrolatum/dimethicone vehicle effects, and monitor Amazon/DailyMed label changes for the product notes.
 - **Open — microneedling:** extract MAUDE adverse events for mechanical and RF microneedling, obtain direct IFUs for each cleared pen, add provider-cost quotes by metro, and capture official consumer roller/stamp product pages.
+- **Open — HIFU:** extract MAUDE adverse events for Ulthera/Sofwave/body HIFU, find independent output/focal-depth tests for home HIFU/MFU devices, and capture official manuals/IFUs for Medicube High Focus Shot and Ussera if available.

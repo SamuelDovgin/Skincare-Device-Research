@@ -6,11 +6,11 @@ This is a research decision guide, not medical advice. HIFU/MFU is an anatomy-se
 
 | Goal | Best first lane | Why |
 |------|-----------------|-----|
-| Brow lift / lower-face lift / submental-neck laxity | Clinic Ulthera or Sofwave consultation | FDA-cleared clinic systems exist; results are subtle and provider-dependent [1,2] |
-| Deeper SMAS/fibrous-layer targeting | Ulthera/Ultherapy consultation | Ulthera has 3.0/4.5 mm transducers and DeepSEE visualization in the captured IFU [3] |
-| Shallower wrinkles or mild laxity | Sofwave or other clinic options | Sofwave's captured summaries describe 1-2 mm treatment depth, cooling, and human clinical data [2,4] |
-| Waist/body fat disruption | Body-contouring HIFU lane only | SCIZER/LipoSonix-type devices are not facial lifting analogs [5] |
-| At-home maintenance | Conservative home RF/LED/topicals first; home HIFU only experimental | Home HIFU/MFU clinic-equivalence evidence was not found in this pass [6,7] |
+| Brow lift / lower-face lift / submental-neck laxity | Clinic Ulthera or Sofwave consultation | FDA-cleared clinic systems exist; results are subtle and provider-dependent [[1]](source_docs/fda-k260618-ulthera-prime-2026.pdf)[[2]](source_docs/fda-k211483-sofwave-lifting-indications.pdf) |
+| Deeper SMAS/fibrous-layer targeting | Ulthera/Ultherapy consultation | Ulthera has 3.0/4.5 mm transducers and DeepSEE visualization in the captured IFU [[3]](source_docs/ulthera-us-instructions-for-use-2021.pdf) |
+| Shallower wrinkles or mild laxity | Sofwave or other clinic options | Sofwave's captured summaries describe 1-2 mm treatment depth, cooling, and human clinical data [[2]](source_docs/fda-k211483-sofwave-lifting-indications.pdf)[[4]](source_docs/fda-k191421-sofacia-sofwave.pdf) |
+| Waist/body fat disruption | Body-contouring HIFU lane only | SCIZER/LipoSonix-type devices are not facial lifting analogs [[5]](source_docs/fda-k230100-classys-scizer.pdf) |
+| At-home maintenance | Conservative home RF/LED/topicals first; home HIFU only experimental | Home HIFU/MFU clinic-equivalence evidence was not found in this pass [[6]](https://medicube.us/pages/high-focus-shot)[[7]](https://pubmed.ncbi.nlm.nih.gov/36704876/) |
 
 ## 2. Provider questions for clinic HIFU/MFU
 
@@ -48,13 +48,13 @@ Use extra caution and ask a qualified clinician before HIFU/MFU if any of these 
 - very lean face, visible volume loss, or strong concern about fat loss;
 - history of keloids, abnormal scarring, pigment complications, or nerve symptoms.
 
-Ulthera's IFU includes formal contraindications/precautions and trained-user warnings; defer to device labeling and clinician judgment over this simplified checklist [3].
+Ulthera's IFU includes formal contraindications/precautions and trained-user warnings; defer to device labeling and clinician judgment over this simplified checklist [[3]](source_docs/ulthera-us-instructions-for-use-2021.pdf).
 
 ## 5. If experimenting with a home HIFU/MFU device
 
 This archive does not endorse DIY clinic-grade HIFU. If someone experiments anyway, the conservative boundary is:
 
-- do not use around eyes/eyeballs, between eyebrows, lips, philtrum, around the mouth, nose, jawbone, Adam's apple, or thyroid area; these are also named on Medicube's High Focus Shot page [6];
+- do not use around eyes/eyeballs, between eyebrows, lips, philtrum, around the mouth, nose, jawbone, Adam's apple, or thyroid area; these are also named on Medicube's High Focus Shot page [[6]](https://medicube.us/pages/high-focus-shot);
 - do not overlap shots or repeatedly treat the same spot;
 - use the required conductive gel/product and maintain full contact;
 - stop for severe pain, burning, numbness, blistering, swelling that seems abnormal, asymmetry, muscle weakness, or any visual/neurologic symptom;

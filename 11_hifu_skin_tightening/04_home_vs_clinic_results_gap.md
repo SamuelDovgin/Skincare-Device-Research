@@ -21,22 +21,22 @@ The fractional-laser analogy works because both sides can often be compared as f
 
 Clinic Ulthera has a stack that home devices do not currently reproduce in this archive:
 
-- prescription-device classification and trained-user labeling [1,2];
-- DeepSEE imaging to visualize tissue up to 8 mm below the skin [2,3];
-- transducers at 1.5/3.0/4.5 mm depths [2];
-- treatment lines with defined length and TCP spacing [2];
-- ability to plan dermal versus SMAS/fibrous layer treatments in SPT mode [2];
-- explicit warnings about thyroid, bone, coupling, line spacing, gel pockets, burns/scarring, and nerve effects [2].
+- prescription-device classification and trained-user labeling [[1]](source_docs/fda-k072505-ulthera-de-novo-classification.pdf)[[2]](source_docs/ulthera-us-instructions-for-use-2021.pdf);
+- DeepSEE imaging to visualize tissue up to 8 mm below the skin [[2]](source_docs/ulthera-us-instructions-for-use-2021.pdf)[[3]](source_docs/fda-k260618-ulthera-prime-2026.pdf);
+- transducers at 1.5/3.0/4.5 mm depths [[2]](source_docs/ulthera-us-instructions-for-use-2021.pdf);
+- treatment lines with defined length and TCP spacing [[2]](source_docs/ulthera-us-instructions-for-use-2021.pdf);
+- ability to plan dermal versus SMAS/fibrous layer treatments in SPT mode [[2]](source_docs/ulthera-us-instructions-for-use-2021.pdf);
+- explicit warnings about thyroid, bone, coupling, line spacing, gel pockets, burns/scarring, and nerve effects [[2]](source_docs/ulthera-us-instructions-for-use-2021.pdf).
 
 That stack makes Ulthera a procedure, not a gadget.
 
 ### Sofwave
 
-Sofwave's clinic advantage is different. FDA summaries describe a professional ultrasound system with cooling, treatment depth around 1-2 mm, and clinical evidence for facial wrinkles plus eyebrow/submental/neck lifting indications [4,5]. It is a clinic system with FDA-reviewed performance data, not a user-guided home shot counter.
+Sofwave's clinic advantage is different. FDA summaries describe a professional ultrasound system with cooling, treatment depth around 1-2 mm, and clinical evidence for facial wrinkles plus eyebrow/submental/neck lifting indications [[4]](source_docs/fda-k191421-sofacia-sofwave.pdf)[[5]](source_docs/fda-k211483-sofwave-lifting-indications.pdf). It is a clinic system with FDA-reviewed performance data, not a user-guided home shot counter.
 
 ## 4. Home-side limitations
 
-The strongest home page captured here, Medicube High Focus Shot, publishes useful caution language: 600-1200 shots, weekly or 1-2 times weekly recommendations, avoid repeated/overlapping shots, use full contact, and avoid eye/jawbone/Adam's apple/thyroid-type areas [6]. That is good as consumer safety language.
+The strongest home page captured here, Medicube High Focus Shot, publishes useful caution language: 600-1200 shots, weekly or 1-2 times weekly recommendations, avoid repeated/overlapping shots, use full contact, and avoid eye/jawbone/Adam's apple/thyroid-type areas [[6]](https://medicube.us/pages/high-focus-shot). That is good as consumer safety language.
 
 It is not the same as showing:
 
@@ -67,7 +67,7 @@ For fractional lasers, repeated low-density passes can sometimes be a sensible c
 - repeated shots near nerves or bony contours can raise complication risk;
 - repeated coupling errors can turn "maintenance" into burns.
 
-Medicube's own page warns that repeated use on the same area can cause skin depression or burns [6]. That warning is exactly why this folder does not frame home HIFU as a simply slower Ultherapy.
+Medicube's own page warns that repeated use on the same area can cause skin depression or burns [[6]](https://medicube.us/pages/high-focus-shot). That warning is exactly why this folder does not frame home HIFU as a simply slower Ultherapy.
 
 ## 7. Decision rule
 
