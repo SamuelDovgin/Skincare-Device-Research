@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HIFU Depth Planner - Skincare Device Research</title>
+<link rel="manifest" href="site.webmanifest">
+<meta name="theme-color" content="#0284c7">
+<style>
+:root{--ink:#172033;--muted:#667085;--line:#d8e2ee;--bg:#f7fbff;--card:#fff;--sky:#0284c7;--green:#0f766e;--amber:#b45309;--rose:#be123c;--violet:#6d28d9}
+*{box-sizing:border-box}html,body{max-width:100%;overflow-x:hidden}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.5}
+a{color:var(--sky);text-decoration:none}a:hover{text-decoration:underline}
+.top{background:linear-gradient(115deg,#0284c7,#0f766e);color:#fff;padding:16px 22px;box-shadow:0 2px 14px rgba(15,23,42,.16)}
+.home{color:#fff;font-size:13px;opacity:.92}.top h1{font-size:22px;margin:6px 0 2px;line-height:1.2}.top p{font-size:13px;margin:0;opacity:.92;max-width:980px}
+.wrap{max-width:1180px;margin:22px auto;padding:0 18px}.grid{display:grid;grid-template-columns:minmax(280px,390px) minmax(0,1fr);gap:18px;align-items:start}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;box-shadow:0 1px 3px rgba(16,24,40,.04)}
+.panel h2{font-size:14px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin:0 0 12px}
+.seg{display:grid;grid-template-columns:1fr 1fr;gap:8px}.mode{border:1px solid var(--line);background:#fff;border-radius:8px;padding:10px;cursor:pointer;text-align:left;color:var(--ink);min-height:70px}.mode b{display:block;font-size:13.5px}.mode span{display:block;font-size:12px;color:var(--muted);margin-top:3px}.mode.active{border-color:var(--sky);box-shadow:0 0 0 2px rgba(2,132,199,.16);background:#f0f9ff}
+.control{margin-top:16px}.labelrow{display:flex;justify-content:space-between;gap:12px;font-size:13px;color:var(--muted);margin-bottom:8px}.labelrow b{color:var(--ink)}
+input[type=range]{width:100%;accent-color:var(--sky)}.ticks{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;font-size:11px;color:var(--muted);margin-top:4px}.ticks span{text-align:center}
+.toggles{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}.toggle{display:flex;gap:8px;align-items:center;border:1px solid var(--line);border-radius:8px;padding:9px;font-size:12.5px;color:var(--ink);background:#fff}.toggle input{accent-color:var(--green)}
+.viz{position:relative;min-height:520px;background:linear-gradient(#fff,#f9fbff);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.skin{position:absolute;inset:24px 22px 28px 112px;border:1px solid #cbd5e1;border-radius:8px;overflow:hidden;background:#fff}
+.layer{position:absolute;left:0;right:0;border-bottom:1px solid rgba(71,85,105,.22);display:flex;align-items:center;padding-left:14px;font-size:12px;color:#334155}.l0{top:0;height:9%;background:#fce7f3}.l1{top:9%;height:20%;background:#fffbeb}.l2{top:29%;height:25%;background:#ecfeff}.l3{top:54%;height:20%;background:#fef3c7}.l4{top:74%;height:16%;background:#ecfdf3}.l5{top:90%;height:10%;background:#f1f5f9;border-bottom:0}
+.axis{position:absolute;left:20px;top:24px;bottom:28px;width:82px;color:var(--muted);font-size:11px}
+.axis .mark{position:absolute;left:0;right:0;border-top:1px solid #94a3b8}.axis .mark span{position:absolute;right:8px;top:-8px;background:var(--bg);padding:0 3px}
+.beam{position:absolute;left:50%;top:0;width:0;height:0;transform:translateX(-50%);border-left:42px solid transparent;border-right:42px solid transparent;border-top:0 solid transparent;opacity:.24;pointer-events:none}
+.beam.ulthera{border-top:0;border-bottom:var(--beamh) solid #0284c7}.beam.sofwave{border-left-width:90px;border-right-width:90px;border-bottom:var(--beamh) solid #0f766e}.beam.home{border-left-width:52px;border-right-width:52px;border-bottom:var(--beamh) solid #b45309}.beam.body{border-left-width:70px;border-right-width:70px;border-bottom:var(--beamh) solid #be123c}
+.focus{position:absolute;left:50%;transform:translate(-50%,-50%);width:92px;height:30px;border-radius:999px;background:rgba(2,132,199,.85);box-shadow:0 0 0 8px rgba(2,132,199,.14);display:flex;align-items:center;justify-content:center;color:#fff;font-size:12px;font-weight:700;white-space:nowrap}
+.points{position:absolute;left:18%;right:18%;height:16px;transform:translateY(-50%);display:flex;align-items:center;justify-content:space-between}.dot{width:9px;height:9px;border-radius:50%;background:#0284c7;box-shadow:0 0 0 4px rgba(2,132,199,.12)}
+.danger{position:absolute;left:0;right:0;height:2px;background:#be123c;opacity:.75}.danger span{position:absolute;right:10px;top:-20px;color:#be123c;background:#fff;padding:1px 5px;border:1px solid #fecdd3;border-radius:5px;font-size:11px}
+.callouts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}.stat{background:#fff;border:1px solid var(--line);border-radius:8px;padding:13px;min-height:116px}.stat h3{font-size:13.5px;margin:0 0 6px}.stat p{font-size:12.5px;margin:0;color:var(--muted)}
+.compare{margin-top:18px;background:#fff;border:1px solid var(--line);border-radius:10px;overflow:auto}.compare table{width:100%;border-collapse:collapse;font-size:12.5px;min-width:720px}.compare th,.compare td{border-bottom:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top}.compare th{background:#eef6fb;color:#0f3f55}.compare tr:last-child td{border-bottom:0}
+.note{margin-top:12px;font-size:12px;color:var(--muted)}
+@media(max-width:860px){.top{padding:13px 14px}.top h1{font-size:19px}.wrap{padding:0 12px;margin:14px auto}.grid{grid-template-columns:1fr}.seg{grid-template-columns:1fr}.toggles{grid-template-columns:1fr}.viz{min-height:470px}.skin{left:92px;right:12px}.axis{left:10px;width:72px}.callouts{grid-template-columns:1fr}.focus{width:78px;font-size:11px}.beam.sofwave{border-left-width:58px;border-right-width:58px}}
+</style>
+</head>
+<body>
+<header class="top"><a class="home" href="index.html">HIFU Research</a><h1>HIFU Depth Planner</h1><p>Educational map of focal depth, target layer, and clinic-vs-home evidence boundaries for aesthetic ultrasound devices.</p></header>
+<main class="wrap">
+  <div class="grid">
+    <section class="panel">
+      <h2>Device lane</h2>
+      <div class="seg" id="modes">
+        <button class="mode active" data-mode="ulthera"><b>Ulthera</b><span>1.5 / 3.0 / 4.5 mm, visualized clinic stack</span></button>
+        <button class="mode" data-mode="sofwave"><b>Sofwave</b><span>1-2 mm cooled clinic ultrasound lane</span></button>
+        <button class="mode" data-mode="home"><b>Home MFU</b><span>Consumer shot-based claims, not clinic equivalent</span></button>
+        <button class="mode" data-mode="body"><b>Body HIFU</b><span>Fat-disruption lane, not face lifting</span></button>
+      </div>
+      <div class="control">
+        <div class="labelrow"><span>Selected focal depth</span><b id="depthLabel">4.5 mm</b></div>
+        <input id="depth" type="range" min="0.5" max="13" step="0.5" value="4.5">
+        <div class="ticks"><span>0.5</span><span>1.5</span><span>3</span><span>4.5</span><span>13 mm</span></div>
+      </div>
+      <div class="toggles">
+        <label class="toggle"><input id="showLines" type="checkbox" checked> Show TCP line spacing</label>
+        <label class="toggle"><input id="showRisk" type="checkbox" checked> Show risk boundary</label>
+      </div>
+      <p class="note">This planner is not a treatment map. It only explains why device depth, coupling, and anatomy change the evidence read.</p>
+    </section>
+    <section>
+      <div class="viz" aria-label="Skin depth visualization">
+        <div class="axis" id="axis"></div>
+        <div class="skin" id="skin">
+          <div class="layer l0">Epidermis / surface</div>
+          <div class="layer l1">Superficial dermis</div>
+          <div class="layer l2">Mid-deep dermis</div>
+          <div class="layer l3">Subcutaneous fat</div>
+          <div class="layer l4">Fibrous layer / SMAS-adjacent zone</div>
+          <div class="layer l5">Bone / forbidden structures vary by site</div>
+          <div class="beam ulthera" id="beam"></div>
+          <div class="points" id="points"></div>
+          <div class="focus" id="focus">4.5 mm</div>
+          <div class="danger" id="danger"><span>avoid bone / thyroid / orbital risk</span></div>
+        </div>
+      </div>
+      <div class="callouts">
+        <div class="stat"><h3 id="targetTitle">Likely target</h3><p id="targetText"></p></div>
+        <div class="stat"><h3>Evidence read</h3><p id="evidenceText"></p></div>
+        <div class="stat"><h3>Safety read</h3><p id="safetyText"></p></div>
+      </div>
+    </section>
+  </div>
+  <section class="compare">
+    <table>
+      <thead><tr><th>Lane</th><th>What is verified here</th><th>What is not established</th></tr></thead>
+      <tbody>
+        <tr><td>Ulthera</td><td>FDA OHV professional device; DeepSEE imaging; 1.5/3.0/4.5 mm transducers; trained-user IFU.</td><td>Not a DIY protocol; not a guarantee of facelift-level results.</td></tr>
+        <tr><td>Sofwave</td><td>FDA OHV professional ultrasound lane; 1-2 mm depth in FDA summaries; cooling; clinical indication files.</td><td>Not the same geometry as Ultherapy and not evidence for home HIFU.</td></tr>
+        <tr><td>Home MFU/HIFU</td><td>Official consumer pages can show shot counts, contact warnings, and prohibited areas.</td><td>Clinic-equivalent focal depth, visualization, line geometry, and human lifting outcomes.</td></tr>
+        <tr><td>Body HIFU</td><td>SCIZER-type files support a fat-disruption/body-contouring lane.</td><td>Facial skin lifting or safe home facial slimming.</td></tr>
+      </tbody>
+    </table>
+  </section>
+</main>
+<script>
+const modeData={
+  ulthera:{depth:4.5,color:"#0284c7",beam:"ulthera",evidence:"Best clinic HIFU anchor in this archive: FDA OHV files plus Ulthera IFU with DeepSEE imaging and defined transducers.",safety:"Needs trained operation, coupling, line spacing, and anatomy exclusions. This is a procedure stack, not a shot counter."},
+  sofwave:{depth:1.5,color:"#0f766e",beam:"sofwave",evidence:"FDA-cleared professional ultrasound lane with 1-2 mm depth, cooling, and clinical files for wrinkles/lifting indications.",safety:"Shallower and cooled, but still a clinic device. Do not infer home equivalence."},
+  home:{depth:1.5,color:"#b45309",beam:"home",evidence:"Home pages show usage claims and warnings, but no FDA-cleared OTC clinic-equivalent HIFU evidence was found in the OHV snapshot.",safety:"Avoid overlap and risk zones. Repeated shots can create skin depression or burns per Medicube's page."},
+  body:{depth:13,color:"#be123c",beam:"body",evidence:"SCIZER-type HIFU uses deeper focal depth for waist/adipose disruption, not facial lifting.",safety:"Facial fat loss is a risk, not a home goal. Body HIFU should not be repurposed for the face."}
+};
+const targets=[
+  {max:0.9,title:"Surface / epidermis",text:"Too shallow for clinic HIFU lifting. Surface injury or irritation is not the desired HIFU focal target."},
+  {max:2,title:"Superficial dermis",text:"Relevant to Sofwave-style shallow ultrasound and some home-device claims. More wrinkle/skin-quality than deep lift."},
+  {max:3.6,title:"Mid-deep dermis",text:"A common clinic tightening layer. Depth accuracy and coupling start to matter a lot."},
+  {max:5.2,title:"Fibrous / SMAS-adjacent zone",text:"Ulthera's 4.5 mm lane is the classic deeper lift discussion. This is not a casual home target."},
+  {max:99,title:"Fat / body-contouring depth",text:"At face scale, deeper energy can become a volume-loss risk. Body HIFU devices are a separate category."}
+];
+const depth=document.getElementById("depth"), depthLabel=document.getElementById("depthLabel"), focus=document.getElementById("focus"), beam=document.getElementById("beam"), points=document.getElementById("points"), danger=document.getElementById("danger"), skin=document.getElementById("skin");
+const targetTitle=document.getElementById("targetTitle"), targetText=document.getElementById("targetText"), evidenceText=document.getElementById("evidenceText"), safetyText=document.getElementById("safetyText");
+let current="ulthera";
+function mmToPct(mm){return Math.max(3,Math.min(96,(mm/13)*92+4));}
+function setMode(m){current=m;const d=modeData[m];depth.value=d.depth;document.querySelectorAll(".mode").forEach(b=>b.classList.toggle("active",b.dataset.mode===m));update();}
+function update(){
+  const mm=Number(depth.value), d=modeData[current], pct=mmToPct(mm);
+  depthLabel.textContent=mm.toFixed(mm%1?1:0)+" mm";focus.textContent=depthLabel.textContent;focus.style.top=pct+"%";focus.style.background=d.color;focus.style.boxShadow="0 0 0 8px "+d.color+"24";
+  beam.className="beam "+d.beam;beam.style.setProperty("--beamh",Math.max(60,skin.clientHeight*pct/100)+"px");
+  points.style.top=pct+"%";points.style.display=document.getElementById("showLines").checked?"flex":"none";points.innerHTML=Array.from({length:9},()=>'<span class="dot"></span>').join("");points.querySelectorAll(".dot").forEach(dot=>{dot.style.background=d.color;dot.style.boxShadow="0 0 0 4px "+d.color+"22";});
+  danger.style.display=document.getElementById("showRisk").checked?"block":"none";danger.style.top=mmToPct(7.5)+"%";
+  const t=targets.find(x=>mm<=x.max);targetTitle.textContent=t.title;targetText.textContent=t.text;evidenceText.textContent=d.evidence;safetyText.textContent=d.safety;
+}
+function axis(){const a=document.getElementById("axis");a.innerHTML=[0,1.5,3,4.5,8,13].map(v=>'<div class="mark" style="top:'+mmToPct(v)+'%"><span>'+v+' mm</span></div>').join("");}
+document.querySelectorAll(".mode").forEach(b=>b.addEventListener("click",()=>setMode(b.dataset.mode)));
+["input","change"].forEach(ev=>depth.addEventListener(ev,update));
+document.getElementById("showLines").addEventListener("change",update);
+document.getElementById("showRisk").addEventListener("change",update);
+window.addEventListener("resize",update);
+axis();update();
+</script>
+</body>
+</html>
