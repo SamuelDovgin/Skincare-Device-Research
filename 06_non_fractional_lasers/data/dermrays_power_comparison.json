@@ -1,0 +1,81 @@
+{
+  "compiled": "2026-07-09",
+  "notes": [
+    "DermRays energy and pulse-power values are calculated from FDA K231910 fluence, working area, and pulse width.",
+    "NIRA Model 2 energy values are calculated from FDA K222685 fluence and spot size; FDA lists 2 W max laser power, so pulse-train averaging should be read as an approximation.",
+    "Fractional devices are not directly comparable by whole-spot fluence because their relevant variable is microbeam energy and MTZ density."
+  ],
+  "devices": [
+    {
+      "id": "dermrays-revive",
+      "name": "DermRays Revive",
+      "source": "FDA K231910",
+      "mode": "non_fractional",
+      "wavelength_nm": 1064,
+      "fluence_j_cm2_min": 5.0,
+      "fluence_j_cm2_max": 10.0,
+      "spot_area_cm2": 1.766,
+      "pulse_duration_ms": 400,
+      "energy_j_min": 8.83,
+      "energy_j_max": 17.66,
+      "average_pulse_power_w_min": 22.1,
+      "average_pulse_power_w_max": 44.2,
+      "use_type": "Prescription",
+      "evidence_ceiling": "FDA substantial equivalence plus marketing study claims; no public controlled Revive wrinkle or pigment trial in K231910"
+    },
+    {
+      "id": "nira-model-2",
+      "name": "NIRA Model 2 / Pro-class",
+      "source": "FDA K222685",
+      "mode": "non_fractional",
+      "wavelength_nm": 1450,
+      "fluence_j_cm2_min": 2.1,
+      "fluence_j_cm2_max": 3.8,
+      "spot_area_cm2": 1.725,
+      "pulse_duration_ms_min": 2000,
+      "pulse_duration_ms_max": 3100,
+      "energy_j_min": 3.62,
+      "energy_j_max": 6.56,
+      "listed_max_laser_power_w": 2,
+      "use_type": "OTC",
+      "evidence_ceiling": "Original NIRA file includes a 76-subject periorbital wrinkle endpoint; Model 2 uses substantial-equivalence bench/usability testing"
+    },
+    {
+      "id": "nira-model-1",
+      "name": "NIRA Beauty Skin Laser / Precision-class",
+      "source": "FDA K163137 / K222685 predicate table",
+      "mode": "non_fractional",
+      "wavelength_nm": 1450,
+      "fluence_j_cm2_min": 2.16,
+      "fluence_j_cm2_max": 2.97,
+      "spot_area_cm2": 0.16,
+      "pulse_duration_ms": 800,
+      "energy_j_min": 0.35,
+      "energy_j_max": 0.48,
+      "listed_max_laser_power_w": 2,
+      "use_type": "OTC",
+      "evidence_ceiling": "76-subject periorbital wrinkle clinical endpoint in FDA K163137"
+    },
+    {
+      "id": "tria-frx",
+      "name": "Tria SmoothBeauty / FRX",
+      "source": "FDA K130459 and local Tria IFU",
+      "mode": "fractional",
+      "wavelength_nm": 1440,
+      "pulse_energy_mj_min": 5,
+      "pulse_energy_mj_max": 12,
+      "use_type": "OTC",
+      "evidence_ceiling": "Fractional 1450nm periorbital wrinkle device; compare by microbeam energy and coverage density, not whole-spot fluence"
+    },
+    {
+      "id": "cynosure-elite-plus-1064",
+      "name": "Cynosure Elite+ 1064nm predicate context",
+      "source": "FDA K141425 and K231910 predicate table",
+      "mode": "professional_non_fractional",
+      "wavelength_nm": 1064,
+      "fluence_j_cm2_context": "K231910 lists 12 J/cm2 under a 15mm handpiece spot and 4.7 J/cm2 under a 24mm handpiece spot for the predicate comparison; professional platform has broader clinical flexibility than this table captures.",
+      "use_type": "Prescription / professional",
+      "evidence_ceiling": "Predicate context only; does not make DermRays outcome-equivalent"
+    }
+  ]
+}

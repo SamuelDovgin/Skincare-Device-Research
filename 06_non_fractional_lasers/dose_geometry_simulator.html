@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Non-Fractional Laser Dose Geometry Simulator</title>
+<style>
+:root{--accent:#b45309;--accent2:#f59e0b;--ink:#1f2430;--muted:#667085;--line:#dfe3ea;--bg:#f6f7f9;--panel:#fff;--teal:#0f766e;--blue:#2563eb;--red:#b42318}
+*{box-sizing:border-box}
+html,body{max-width:100%;overflow-x:hidden}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+a{color:var(--accent);font-weight:650;text-decoration:none}
+a:hover{text-decoration:underline}
+.top{position:sticky;top:0;z-index:10;background:linear-gradient(100deg,var(--accent),var(--accent2));color:#fff;padding:14px 20px;box-shadow:0 2px 14px rgba(0,0,0,.14)}
+.top a{color:#fff;opacity:.9;font-size:13px}
+.top h1{margin:5px 0 2px;font-size:22px;line-height:1.2}
+.top p{margin:0;max-width:980px;font-size:13px;opacity:.94}
+.wrap{max-width:1280px;margin:22px auto;padding:0 18px;display:grid;grid-template-columns:330px minmax(0,1fr);gap:18px;align-items:start}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;box-shadow:0 1px 3px rgba(16,24,40,.05)}
+.controls{position:sticky;top:104px;padding:16px}
+.controls h2,.section-title{font-size:12px;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+.field{margin:0 0 14px}
+.field label{display:flex;justify-content:space-between;gap:12px;font-size:13px;font-weight:650;margin:0 0 6px}
+.field label output{font-variant-numeric:tabular-nums;color:var(--accent);font-weight:750}
+select,input[type=range]{width:100%}
+select{appearance:none;border:1px solid var(--line);border-radius:8px;background:#fff;padding:9px 34px 9px 10px;color:var(--ink);font-size:14px}
+input[type=range]{accent-color:var(--accent)}
+.hint{font-size:12px;color:var(--muted);margin:4px 0 0}
+.seg{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:10px 0 14px}
+.seg button{border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:8px;padding:8px 10px;font-size:13px;font-weight:700;cursor:pointer}
+.seg button.active{background:var(--accent);border-color:var(--accent);color:#fff}
+.main{display:grid;gap:18px;min-width:0}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.stat{padding:13px 14px}
+.stat b{display:block;font-size:12px;color:var(--muted);font-weight:650}
+.stat strong{display:block;font-size:22px;line-height:1.2;margin-top:4px;font-variant-numeric:tabular-nums}
+.stat span{display:block;font-size:12px;color:var(--muted);margin-top:3px}
+.viz{padding:14px}
+.canvas-wrap{position:relative;width:100%;height:520px;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#fbfcfe}
+canvas{display:block;width:100%;height:100%}
+.legend{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;font-size:12px;color:var(--muted)}
+.key{display:inline-flex;align-items:center;gap:6px}
+.sw{width:12px;height:12px;border-radius:3px;display:inline-block}
+.sw.heat{background:linear-gradient(135deg,#fde68a,#f97316)}
+.sw.spot{background:#2563eb}
+.sw.mtz{background:#0f766e}
+.sw.risk{background:#b42318}
+.readout{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.note{padding:15px 16px}
+.note h2{font-size:16px;margin:0 0 8px}
+.note p{font-size:13.5px;color:#3f4754;margin:0 0 9px}
+.note ul{margin:8px 0 0;padding-left:20px;color:#3f4754;font-size:13.5px}
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13px;min-width:760px}
+th,td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:#f2f4f7;color:#344054;font-size:12px;text-transform:uppercase}
+.warn{border-left:4px solid var(--red)}
+.ok{border-left:4px solid var(--teal)}
+.sources{font-size:12.5px;color:var(--muted);padding:14px 16px}
+.sources p{margin:0 0 8px}
+@media(max-width:940px){.wrap{grid-template-columns:1fr;margin:14px auto;padding:0 12px}.controls{position:static}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.readout{grid-template-columns:1fr}.canvas-wrap{height:440px}.top{padding:12px 14px}.top h1{font-size:19px}.top p{font-size:12px}}
+@media(max-width:560px){.stats{grid-template-columns:1fr}.canvas-wrap{height:400px}.stat strong{font-size:20px}}
+</style>
+</head>
+<body>
+<header class="top">
+  <a href="index.html">Back to Non-Fractional Lasers</a>
+  <h1>Dose Geometry Simulator</h1>
+  <p>Compare DermRays Revive, NIRA, Tria-style fractional laser logic, and professional 1064nm context by geometry: fluence, spot area, pulse duration, and coverage assumptions.</p>
+</header>
+
+<main class="wrap">
+  <aside class="panel controls">
+    <h2>Preset and variables</h2>
+    <div class="field">
+      <label for="preset">Device preset</label>
+      <select id="preset"></select>
+      <p class="hint" id="presetNote"></p>
+    </div>
+    <div class="seg" aria-label="Geometry mode">
+      <button type="button" id="nonFractionalBtn" class="active">Non-fractional</button>
+      <button type="button" id="fractionalBtn">Fractional</button>
+    </div>
+    <div class="field">
+      <label for="fluence">Fluence <output id="fluenceOut"></output></label>
+      <input id="fluence" type="range" min="0.1" max="100" step="0.1">
+      <p class="hint">J/cm2 over the treatment spot. For fractional mode this is a comparison placeholder, not the controlling variable.</p>
+    </div>
+    <div class="field">
+      <label for="spot">Spot area <output id="spotOut"></output></label>
+      <input id="spot" type="range" min="0.01" max="8" step="0.001">
+    </div>
+    <div class="field">
+      <label for="pulse">Pulse duration <output id="pulseOut"></output></label>
+      <input id="pulse" type="range" min="10" max="3100" step="10">
+    </div>
+    <div class="field" id="microField">
+      <label for="micro">Microbeam energy <output id="microOut"></output></label>
+      <input id="micro" type="range" min="1" max="20" step="0.1">
+      <p class="hint">Use this for Tria/Clear + Brilliant-style fractional thinking.</p>
+    </div>
+    <div class="field">
+      <label for="area">Treatment area <output id="areaOut"></output></label>
+      <input id="area" type="range" min="1" max="200" step="1" value="25">
+    </div>
+    <div class="field">
+      <label for="passes">Passes <output id="passesOut"></output></label>
+      <input id="passes" type="range" min="1" max="5" step="1" value="1">
+    </div>
+    <div class="field">
+      <label for="overlap">Overlap <output id="overlapOut"></output></label>
+      <input id="overlap" type="range" min="0" max="60" step="5" value="10">
+      <p class="hint">Visualization only. Do not infer safe overlap from this tool.</p>
+    </div>
+  </aside>
+
+  <section class="main">
+    <div class="stats">
+      <div class="panel stat"><b>Energy per pulse</b><strong id="energyRead">0 J</strong><span id="energyHint"></span></div>
+      <div class="panel stat"><b>Avg pulse power</b><strong id="powerRead">0 W</strong><span>Energy / pulse duration</span></div>
+      <div class="panel stat"><b>Spots to tile area</b><strong id="spotsRead">0</strong><span>Geometry only, not protocol</span></div>
+      <div class="panel stat"><b>Surface energy</b><strong id="surfaceRead">0 J</strong><span>Area x fluence x passes</span></div>
+    </div>
+
+    <section class="panel viz">
+      <div class="canvas-wrap"><canvas id="vizCanvas"></canvas></div>
+      <div class="legend">
+        <span class="key"><span class="sw spot"></span> Non-fractional spot</span>
+        <span class="key"><span class="sw mtz"></span> Fractional MTZ dots</span>
+        <span class="key"><span class="sw heat"></span> Qualitative heat/depth field</span>
+        <span class="key"><span class="sw risk"></span> Overlap zone</span>
+      </div>
+    </section>
+
+    <div class="readout">
+      <section class="panel note ok">
+        <h2>Interpretation</h2>
+        <p id="interpretation"></p>
+        <ul id="interpretationList"></ul>
+      </section>
+      <section class="panel note warn">
+        <h2>Evidence boundary</h2>
+        <p>This model does arithmetic and drawing, not dermatology. It does not know the DermRays IFU, eye protection, skin cooling curve, repetition rate, user motion, skin tone, photosensitizing drugs, or temperature endpoint.</p>
+        <p>Use it to understand why DermRays can be high energy for a home device and still not be a fractional resurfacing substitute.</p>
+      </section>
+    </div>
+
+    <section class="panel note">
+      <h2>Preset table</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Preset</th><th>Mode</th><th>Primary source</th><th>Anchor</th><th>Evidence ceiling</th></tr></thead>
+          <tbody id="presetRows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel sources">
+      <p><b>Core sources:</b> <a href="source_docs/FDA_510k_K231910_DermRays_Revive.pdf">FDA K231910</a>, <a href="source_docs/FDA_510k_K222685_NIRA_Model_2.pdf">FDA K222685</a>, <a href="source_docs/FDA_510k_K163137_NIRA_Beauty_Skin_Laser.pdf">FDA K163137</a>, <a href="source_docs/FDA_510k_K141425_Cynosure_Elite_Plus.pdf">FDA K141425</a>, and the local comparison data file <a href="data/dermrays_power_comparison.json">data/dermrays_power_comparison.json</a>.</p>
+      <p>For the written analysis, read <a href="05_dermrays_power_patent_comparison.md">05_dermrays_power_patent_comparison.md</a>.</p>
+    </section>
+  </section>
+</main>
+
+<script>
+const PRESETS=[
+  {id:"dermrays",name:"DermRays Revive",mode:"non",source:"FDA K231910",fluence:10,fluenceMin:5,fluenceMax:10,spot:1.766,pulse:400,wavelength:1064,note:"1064nm, 15mm non-fractional spot, Rx. FDA range is 5-10 J/cm2.",ceiling:"Real 1064nm FDA clearance; no public controlled Revive endpoint in K231910."},
+  {id:"nira2",name:"NIRA Model 2 / Pro-class",mode:"non",source:"FDA K222685",fluence:3.8,fluenceMin:2.1,fluenceMax:3.8,spot:1.725,pulse:2500,wavelength:1450,note:"1450nm non-fractional, 12.5 x 13.8mm spot, 2 W max laser power.",ceiling:"Model 2 is substantially equivalent to original NIRA; original NIRA has a 76-subject periorbital wrinkle endpoint."},
+  {id:"nira1",name:"NIRA original / Precision-class",mode:"non",source:"FDA K163137",fluence:2.97,fluenceMin:2.16,fluenceMax:2.97,spot:0.16,pulse:800,wavelength:1450,note:"1450nm non-fractional, 4 x 4mm spot, 0.8 sec pulse train.",ceiling:"FDA K163137 includes a 76-subject periorbital wrinkle endpoint."},
+  {id:"tria",name:"Tria SmoothBeauty / FRX",mode:"frac",source:"FDA K130459 and local IFU",fluence:12,spot:0.008,pulse:50,wavelength:1440,micro:12,note:"Fractional NAFL logic. Compare by microbeam energy and density, not whole-spot fluence.",ceiling:"Best home analog for low-density fractional remodeling, but still not clinic session density."},
+  {id:"elite",name:"Professional 1064nm context",mode:"non",source:"FDA K141425 / K231910 table",fluence:12,spot:1.766,pulse:300,wavelength:1064,note:"Predicate context using 15mm/12 J/cm2 table value, not a universal clinical protocol.",ceiling:"Professional platform context only; predicate equivalence is not outcome equivalence."},
+  {id:"custom",name:"Custom non-fractional",mode:"non",source:"User-adjusted",fluence:10,spot:1,pulse:400,wavelength:1064,note:"Adjust sliders manually.",ceiling:"No evidence anchor unless you map it to a sourced device."}
+];
+
+const state={mode:"non"};
+const els={};
+["preset","fluence","spot","pulse","micro","area","passes","overlap","fluenceOut","spotOut","pulseOut","microOut","areaOut","passesOut","overlapOut","energyRead","energyHint","powerRead","spotsRead","surfaceRead","presetNote","interpretation","interpretationList","presetRows","vizCanvas","nonFractionalBtn","fractionalBtn","microField"].forEach(id=>els[id]=document.getElementById(id));
+
+function fmt(n,d=1){return Number(n).toLocaleString(undefined,{maximumFractionDigits:d,minimumFractionDigits:d});}
+function fmtInt(n){return Math.round(n).toLocaleString();}
+function cm2ToDiameter(area){return Math.sqrt((4*area)/Math.PI);}
+function setMode(mode){
+  state.mode=mode;
+  els.nonFractionalBtn.classList.toggle("active",mode==="non");
+  els.fractionalBtn.classList.toggle("active",mode==="frac");
+  els.microField.style.display=mode==="frac"?"block":"none";
+  update();
+}
+function loadPreset(p){
+  state.preset=p;
+  state.mode=p.mode;
+  els.fluence.value=p.fluence;
+  els.spot.value=p.spot;
+  els.pulse.value=p.pulse;
+  els.micro.value=p.micro||8;
+  els.presetNote.textContent=p.note;
+  setMode(p.mode);
+}
+function values(){
+  const fluence=parseFloat(els.fluence.value);
+  const spot=parseFloat(els.spot.value);
+  const pulse=parseFloat(els.pulse.value);
+  const micro=parseFloat(els.micro.value);
+  const area=parseFloat(els.area.value);
+  const passes=parseFloat(els.passes.value);
+  const overlap=parseFloat(els.overlap.value)/100;
+  const energy=fluence*spot;
+  const power=energy/(pulse/1000);
+  const effectiveSpot=Math.max(spot*(1-overlap),0.001);
+  const spots=Math.ceil(area/effectiveSpot);
+  const surface=fluence*area*passes;
+  const diameter=cm2ToDiameter(spot);
+  return{fluence,spot,pulse,micro,area,passes,overlap,energy,power,spots,surface,diameter};
+}
+function updateLabels(v){
+  els.fluenceOut.textContent=fmt(v.fluence,1)+" J/cm2";
+  els.spotOut.textContent=fmt(v.spot,3)+" cm2";
+  els.pulseOut.textContent=fmt(v.pulse,0)+" ms";
+  els.microOut.textContent=fmt(v.micro,1)+" mJ";
+  els.areaOut.textContent=fmt(v.area,0)+" cm2";
+  els.passesOut.textContent=fmt(v.passes,0);
+  els.overlapOut.textContent=fmt(v.overlap*100,0)+"%";
+  if(state.mode==="frac"){
+    els.energyRead.textContent=fmt(v.micro/1000,3)+" J";
+    els.energyHint.textContent="per microbeam";
+    els.powerRead.textContent="n/a";
+    els.surfaceRead.textContent=fmt((v.micro/1000)*v.spots*v.passes,1)+" J";
+  }else{
+    els.energyRead.textContent=fmt(v.energy,2)+" J";
+    els.energyHint.textContent="fluence x spot area";
+    els.powerRead.textContent=fmt(v.power,1)+" W";
+    els.surfaceRead.textContent=fmt(v.surface,0)+" J";
+  }
+  els.spotsRead.textContent=fmtInt(v.spots);
+}
+function setInterpretation(v){
+  const p=state.preset||PRESETS[0];
+  if(state.mode==="frac"){
+    els.interpretation.textContent="Fractional mode treats the dots as microthermal zones. The important variable is not a big whole-spot Joule total; it is microbeam energy, density, coverage, and healing margin.";
+    els.interpretationList.innerHTML=[
+      "Tria/FRX logic can resemble professional fractional architecture at lower density.",
+      "DermRays does not create MTZ dots, so this analogy should not be transferred to Revive.",
+      "Increasing sessions is not the same thing as knowing professional dose control."
+    ].map(x=>"<li>"+x+"</li>").join("");
+  }else{
+    const higher=v.fluence>=10?"At 10 J/cm2 with a 1.766 cm2 spot, DermRays reaches about 17.66 J per pulse.":"Lowering fluence reduces total energy and pulse power linearly.";
+    els.interpretation.textContent=p.name+" is being treated as a non-fractional spot-heating device. "+higher;
+    els.interpretationList.innerHTML=[
+      "Non-fractional spots can overlap and accumulate heat, so IFU overlap rules matter.",
+      "Fluence comparisons across 1064nm and 1450nm are incomplete because absorption and pulse structure differ.",
+      "A 1064nm predicate does not make a handheld home/Rx device outcome-equivalent to a professional platform."
+    ].map(x=>"<li>"+x+"</li>").join("");
+  }
+}
+function draw(v){
+  const c=els.vizCanvas, dpr=window.devicePixelRatio||1, rect=c.getBoundingClientRect();
+  c.width=Math.max(1,Math.floor(rect.width*dpr)); c.height=Math.max(1,Math.floor(rect.height*dpr));
+  const ctx=c.getContext("2d"); ctx.setTransform(dpr,0,0,dpr,0,0);
+  const w=rect.width,h=rect.height;
+  ctx.clearRect(0,0,w,h);
+  ctx.fillStyle="#fbfcfe"; ctx.fillRect(0,0,w,h);
+  const pad=22, gap=18, topH=h*0.48;
+  const leftW=(w-pad*2-gap)/2;
+  const x1=pad, x2=pad+leftW+gap;
+  drawTopMap(ctx,x1,pad,leftW,topH-pad*1.4,v);
+  drawDepth(ctx,x2,pad,leftW,topH-pad*1.4,v);
+  drawDoseBars(ctx,pad,topH+20,w-pad*2,h-topH-42,v);
+}
+function box(ctx,x,y,w,h,title){
+  ctx.fillStyle="#fff"; ctx.strokeStyle="#dfe3ea"; ctx.lineWidth=1;
+  roundRect(ctx,x,y,w,h,10,true,true);
+  ctx.fillStyle="#344054"; ctx.font="700 12px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif";
+  ctx.fillText(title,x+12,y+20);
+}
+function roundRect(ctx,x,y,w,h,r,fill,stroke){
+  ctx.beginPath();
+  ctx.moveTo(x+r,y); ctx.arcTo(x+w,y,x+w,y+h,r); ctx.arcTo(x+w,y+h,x,y+h,r); ctx.arcTo(x,y+h,x,y,r); ctx.arcTo(x,y,x+w,y,r);
+  if(fill)ctx.fill(); if(stroke)ctx.stroke();
+}
+function drawTopMap(ctx,x,y,w,h,v){
+  box(ctx,x,y,w,h,"Top-down geometry");
+  const areaX=x+18, areaY=y+38, areaW=w-36, areaH=h-58;
+  ctx.fillStyle="#f2f4f7"; ctx.strokeStyle="#cfd6e3"; roundRect(ctx,areaX,areaY,areaW,areaH,8,true,true);
+  const scale=Math.sqrt(Math.max(v.area,1));
+  const pxPerCm=Math.min(areaW,areaH)/(scale*1.2);
+  const r=Math.max(3,Math.sqrt(v.spot/Math.PI)*pxPerCm);
+  const step=Math.max(r*2*(1-v.overlap),6);
+  let count=0;
+  for(let yy=areaY+r+6; yy<areaY+areaH-r && count<90; yy+=step){
+    for(let xx=areaX+r+6; xx<areaX+areaW-r && count<90; xx+=step){
+      if(state.mode==="frac"){
+        ctx.fillStyle="rgba(15,118,110,.14)"; ctx.strokeStyle="rgba(15,118,110,.5)";
+        ctx.beginPath(); ctx.arc(xx,yy,r,0,Math.PI*2); ctx.fill(); ctx.stroke();
+        ctx.fillStyle="#0f766e";
+        for(let i=0;i<10;i++){
+          const a=(i*2.399)+count*.21, rr=r*Math.sqrt((i+1)/11);
+          ctx.beginPath(); ctx.arc(xx+Math.cos(a)*rr*.72,yy+Math.sin(a)*rr*.72,1.7,0,Math.PI*2); ctx.fill();
+        }
+      }else{
+        ctx.fillStyle=count%5===0 && v.overlap>.2?"rgba(180,35,24,.18)":"rgba(37,99,235,.16)";
+        ctx.strokeStyle=count%5===0 && v.overlap>.2?"rgba(180,35,24,.65)":"rgba(37,99,235,.65)";
+        ctx.beginPath(); ctx.arc(xx,yy,r,0,Math.PI*2); ctx.fill(); ctx.stroke();
+      }
+      count++;
+    }
+  }
+  ctx.fillStyle="#667085"; ctx.font="12px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif";
+  ctx.fillText("Showing "+Math.min(count,90)+" of "+fmtInt(v.spots)+" tiled spots",areaX+10,areaY+areaH-12);
+}
+function drawDepth(ctx,x,y,w,h,v){
+  box(ctx,x,y,w,h,"Depth model");
+  const sx=x+18, sy=y+42, sw=w-36, sh=h-64;
+  const layers=[
+    ["Epidermis","#fdebd3",0.16],
+    ["Papillary dermis","#f7d8bf",0.22],
+    ["Reticular dermis","#efd0b9",0.38],
+    ["Subcutis","#f4e6d8",0.24]
+  ];
+  let cy=sy;
+  layers.forEach(([name,color,frac])=>{
+    const lh=sh*frac;
+    ctx.fillStyle=color; ctx.fillRect(sx,cy,sw,lh);
+    ctx.strokeStyle="rgba(140,90,50,.2)"; ctx.beginPath(); ctx.moveTo(sx,cy); ctx.lineTo(sx+sw,cy); ctx.stroke();
+    ctx.fillStyle="#344054"; ctx.font="11px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif"; ctx.fillText(name,sx+8,cy+15);
+    cy+=lh;
+  });
+  const depthIndex=state.mode==="frac"?0.45:(state.preset&&state.preset.wavelength===1064?0.78:0.52);
+  const beamW=Math.max(18,Math.min(sw*.72,Math.sqrt(v.spot)*80));
+  const cx=sx+sw*.62;
+  const grad=ctx.createRadialGradient(cx,sy+sh*.18,6,cx,sy+sh*depthIndex,beamW*.7);
+  grad.addColorStop(0,"rgba(249,115,22,.55)");
+  grad.addColorStop(.55,"rgba(245,158,11,.24)");
+  grad.addColorStop(1,"rgba(245,158,11,0)");
+  ctx.fillStyle=grad;
+  ctx.beginPath();
+  if(state.mode==="frac"){
+    for(let i=0;i<8;i++){
+      const px=sx+sw*.36+i*sw*.045;
+      ctx.fillRect(px,sy+6,4,sh*.52);
+    }
+  }else{
+    ctx.ellipse(cx,sy+sh*depthIndex,beamW*.62,sh*.42,0,0,Math.PI*2);
+    ctx.fill();
+  }
+  ctx.fillStyle="#667085"; ctx.font="12px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif";
+  ctx.fillText(state.mode==="frac"?"MTZ columns, not bulk spot heating":"Qualitative bulk heating field",sx+10,sy+sh+20);
+}
+function drawDoseBars(ctx,x,y,w,h,v){
+  box(ctx,x,y,w,h,"Arithmetic comparison");
+  const baseY=y+h-34, left=x+22, maxW=w-44;
+  const dermEnergy=17.66, niraEnergy=6.56, current=state.mode==="frac"?v.micro/1000:v.energy;
+  const maxVal=Math.max(dermEnergy,niraEnergy,current,1);
+  const bars=[
+    ["Current",current,"#b45309"],
+    ["DermRays max",dermEnergy,"#2563eb"],
+    ["NIRA Model 2 max",niraEnergy,"#0f766e"]
+  ];
+  bars.forEach((b,i)=>{
+    const yy=y+42+i*46, bw=(b[1]/maxVal)*maxW;
+    ctx.fillStyle="#f2f4f7"; roundRect(ctx,left,yy,maxW,20,6,true,false);
+    ctx.fillStyle=b[2]; roundRect(ctx,left,yy,bw,20,6,true,false);
+    ctx.fillStyle="#344054"; ctx.font="12px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif";
+    ctx.fillText(b[0]+" - "+fmt(b[1],2)+" J",left,yy-6);
+  });
+  ctx.fillStyle="#667085"; ctx.font="12px -apple-system,BlinkMacSystemFont,Segoe UI,sans-serif";
+  ctx.fillText("Whole-spot J for non-fractional presets. Fractional preset shows per-microbeam J.",left,baseY+20);
+}
+function updateRows(){
+  els.presetRows.innerHTML=PRESETS.filter(p=>p.id!=="custom").map(p=>{
+    const anchor=p.mode==="frac"?((p.micro||12)+" mJ microbeam"):(p.fluence+" J/cm2, "+p.spot+" cm2, "+p.pulse+" ms");
+    return "<tr><td><b>"+p.name+"</b></td><td>"+(p.mode==="frac"?"Fractional":"Non-fractional")+"</td><td>"+p.source+"</td><td>"+anchor+"</td><td>"+p.ceiling+"</td></tr>";
+  }).join("");
+}
+function update(){
+  const v=values();
+  updateLabels(v); setInterpretation(v); draw(v);
+}
+PRESETS.forEach(p=>{
+  const opt=document.createElement("option"); opt.value=p.id; opt.textContent=p.name; els.preset.appendChild(opt);
+});
+els.preset.addEventListener("change",()=>loadPreset(PRESETS.find(p=>p.id===els.preset.value)||PRESETS[0]));
+["fluence","spot","pulse","micro","area","passes","overlap"].forEach(id=>els[id].addEventListener("input",()=>{if(els.preset.value!=="custom")els.preset.value="custom"; update();}));
+els.nonFractionalBtn.addEventListener("click",()=>setMode("non"));
+els.fractionalBtn.addEventListener("click",()=>setMode("frac"));
+window.addEventListener("resize",update);
+updateRows();
+els.preset.value="dermrays";
+loadPreset(PRESETS[0]);
+</script>
+</body>
+</html>
