@@ -26,6 +26,7 @@ Research thread: lasers that are **real lasers but not fractional resurfacing de
 
 ## Supporting material
 
+- [`power_comparison_visualizer.html`](power_comparison_visualizer.html) gives a quick bar-chart comparison of DermRays vs NIRA, Tria-style fractional logic, and professional 1064nm context.
 - [`dose_geometry_simulator.html`](dose_geometry_simulator.html) visualizes non-fractional spot geometry, pulse energy, pulse power, area tiling, and fractional-vs-non-fractional assumptions.
 - [`data/dermrays_power_comparison.json`](data/dermrays_power_comparison.json) stores the comparison assumptions used for the DermRays/NIRA/Tria/pro-context math.
 - [`source_docs/`](source_docs/) now mirrors FDA K231910, K232117, K141425, K222685, K163137, K130459, plus current DermRays page snapshots captured 2026-07-09.

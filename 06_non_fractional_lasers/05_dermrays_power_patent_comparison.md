@@ -31,7 +31,7 @@ What it does not do:
 - it does not treat patents as proof of shipping features;
 - it does not treat FDA substantial equivalence as proof of professional-equivalent outcomes.
 
-For the visual version, open [`dose_geometry_simulator.html`](dose_geometry_simulator.html).
+For the quick visual comparison, open [`power_comparison_visualizer.html`](power_comparison_visualizer.html). For the manipulable dose-geometry version, open [`dose_geometry_simulator.html`](dose_geometry_simulator.html).
 
 ## 2. Verified Revive spec sheet
 
