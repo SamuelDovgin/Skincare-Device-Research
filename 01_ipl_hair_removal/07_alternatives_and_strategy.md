@@ -48,7 +48,7 @@ If pigmentation/PIH is your primary concern, **you are precisely the person that
 
 **Bottom line:** Narrowband DPL is genuinely *more targeted* and a reasonable theoretical safety improvement, but "DPL crushes IPL for redness" is largely marketing — efficacy is comparable. Critically, **DPL is still hot pulsed light absorbed by melanin** — it does **not** eliminate PIH risk in pigment-prone skin, and real DPL is an in-office machine.
 
-**The one consumer DPL device** (JOVS Blacken line — see §5) is the closest home product to this buyer's actual goal, but it's over budget, not FDA-cleared, and publishes no J/cm².
+**The main consumer DPL family** (JOVS Blacken / Pro / X — see §5 and [doc 17](17_jovs_blacken_dpl_and_oem_comparison.md)) is the closest home product to this buyer's actual goal, but it is over budget and has no verified FDA clearance for pigment/redness/rejuvenation. JOVS now publishes **1.8–3 J/cm²** for Blacken and **2–3.5 J/cm²** for Pro; Blacken X still hides fluence and has internally inconsistent wavelength claims.
 
 ---
 
@@ -72,7 +72,7 @@ Verified current specs/prices (USD). **Skeptic's flag:** brands advertise bare "
 
 | Device | Type | Filter | Fluence (J/cm²) | Cooling | FDA | Targets pigment/redness? | Price |
 |--------|------|--------|-----------------|---------|-----|--------------------------|-------|
-| **JOVS Blacken / Blacken Pro** | Home **DPL** | 500–650nm | **Not disclosed** (red flag) | Sapphire | **No 510(k) found** | **Yes — Brightening/Redness/Pigment modes** | $369 / $449 |
+| **JOVS Blacken / Pro / X** | Home **DPL** | Blacken/Pro: 500–650nm; X: claimed 532+755nm/540nm, with conflicting band copy | Blacken **1.8–3**; Pro **2–3.5**; X **not disclosed** | Sapphire | Qianyu K231800 is **hair-removal only** and does not verify these photofacial configurations/claims | **Yes — Brightening/Redness/Pigment modes** | $369 / $449 / $429 |
 | JOVS Venus Pro II | IPL + "SR mode" | ~500–650nm (SR) | up to 6 | Sapphire ~5°C | OHT (hair) | SR mode is a marketing add-on | $299 |
 | Ulike Air 10 / UI20 | IPL | 550–1200nm | 6.67 (*4-flash burst*) | Sapphire ice | OHT (hair) — K252804/K241998 | No | $349 (coupons → ~$209) |
 | Braun Silk Expert Pro 5 | IPL | ~530–1100nm | 3–6 (auto) | None | OHT (hair) — K190354 | No | ~$400 |
@@ -81,7 +81,7 @@ Verified current specs/prices (USD). **Skeptic's flag:** brands advertise bare "
 
 ### Key conclusions
 1. **No branded home device at ≤$200 addresses the primary goal.** The hair-removal IPLs (Ulike/Braun/Philips/Nood) are the *same OHT legal category and same fluence class* as the Chinese OEM units — their "skin tone" marketing means *which tones the device safely removes hair on*, not pigment treatment.
-2. **The only consumer device designed for pigment/redness is the JOVS Blacken DPL** — but it's $369–449 (over budget), **not FDA-cleared**, hides its J/cm², and has only influencer-grade (not clinical) efficacy evidence. So vs an OEM DPL unit it mainly buys brand + sapphire cooling + warranty, *not* a clearance.
+2. **The clearest consumer family designed for pigment/redness is JOVS Blacken DPL** — but it is $369–449 (over budget), has no verified FDA clearance for those indications, and has no independent device-specific clinical trial. Blacken Pro now publishes 2–3.5 J/cm², still materially below professional DPL study parameters. Versus an OEM-form-factor unit it mainly buys a documented band/fluence claim, brand support, sapphire cooling, and warranty—not proof of clinic equivalence. See [doc 17](17_jovs_blacken_dpl_and_oem_comparison.md).
 3. **For the secondary hair goal, branded vs OEM is a real choice:** ~$169 (Nood, FDA-cleared, 510nm, warranty) vs ~$100 OEM (e.g., Fansizhe T023A, 510nm, sapphire cooling; FDA-cleared 5.5 J/cm² baseline, and a **seller measurement video on 2026-06-14 showed a real 18.23J / 6.08 J/cm² single flash** — the catalog 8.33 J/cm² headline is the 3-pulse total, but 6.08 single-pulse is the verified real number, the best in the dataset; no US warranty/support). The branded premium buys warranty, a skin-tone safety sensor (Braun/Philips), and reliability — defensible for hair, not for the primary goal.
 4. **Nood Flasher 2.0 is the sleeper pick for the hair goal**: branded, FDA-cleared, the *right* 510nm filter, $169, warrantied — competitive with the OEM route without the Alibaba sourcing risk.
 
