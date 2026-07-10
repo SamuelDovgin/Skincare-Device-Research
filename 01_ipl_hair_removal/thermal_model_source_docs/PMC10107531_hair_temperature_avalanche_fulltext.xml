@@ -1,0 +1,850 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="lsm23622" xml:lang="en" article-type="research-article" dtd-version="1.4"><?da-xref-anchor-style autodetect?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Lasers Surg Med</journal-id><journal-id journal-id-type="iso-abbrev">Lasers Surg Med</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="publisher-id">LSM</journal-id><journal-title-group><journal-title>Lasers in Surgery and Medicine</journal-title></journal-title-group><issn pub-type="ppub">0196-8092</issn><issn pub-type="epub">1096-9101</issn><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC10107531</article-id><article-id pub-id-type="pmcid-ver">PMC10107531.1</article-id><article-id pub-id-type="pmcaid">10107531</article-id><article-id pub-id-type="pmcaiid">10107531</article-id><article-id pub-id-type="pmid">36490355</article-id><article-id pub-id-type="doi">10.1002/lsm.23622</article-id><article-id pub-id-type="publisher-id">LSM23622</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Basic Science</subject></subj-group><subj-group subj-group-type="heading"><subject>Hair Removal; Hyperhydrosis</subject></subj-group></article-categories><title-group><article-title>Measurements of hair temperature avalanche effect with alexandrite and Nd:YAG hair removal lasers</article-title><alt-title alt-title-type="right-running-head">MEASUREMENTS OF HAIR TEMPERATURE</alt-title><alt-title alt-title-type="left-running-head">VELLA <sc>et al.</sc>
+</alt-title></title-group><contrib-group><contrib id="lsm23622-cr-0001" contrib-type="author"><name name-style="western"><surname>Vella</surname><given-names initials="D">Daniele</given-names></name><degrees>PhD</degrees><xref rid="lsm23622-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="lsm23622-cr-0002" contrib-type="author"><name name-style="western"><surname>Lukač</surname><given-names initials="M">Matjaž</given-names></name><degrees>PhD</degrees><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-9059-9923</contrib-id><xref rid="lsm23622-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="lsm23622-cr-0003" contrib-type="author"><name name-style="western"><surname>Jernejčič</surname><given-names initials="U">Urban</given-names></name><degrees>MSc</degrees><xref rid="lsm23622-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="lsm23622-cr-0004" contrib-type="author"><name name-style="western"><surname>Lukač</surname><given-names initials="N">Nejc</given-names></name><degrees>PhD</degrees><xref rid="lsm23622-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="lsm23622-cr-0005" contrib-type="author"><name name-style="western"><surname>Klaneček</surname><given-names initials="Ž">Žan</given-names></name><degrees>MSc</degrees><xref rid="lsm23622-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="lsm23622-cr-0006" contrib-type="author"><name name-style="western"><surname>Milanič</surname><given-names initials="M">Matija</given-names></name><degrees>PhD</degrees><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-4417-0293</contrib-id><xref rid="lsm23622-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="lsm23622-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="lsm23622-cr-0007" contrib-type="author" corresp="yes"><name name-style="western"><surname>Jezeršek</surname><given-names initials="M">Matija</given-names></name><degrees>PhD</degrees><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-5935-6691</contrib-id><xref rid="lsm23622-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>matija.jezersek@fs.uni-lj.si</email></address></contrib></contrib-group><aff id="lsm23622-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Laboratory for Laser Techniques, Faculty of Mechanical Engineering</named-content>
+<institution>University of Ljubljana</institution>
+<city>Ljubljana</city>
+<country country="SI">Slovenia</country>
+</aff><aff id="lsm23622-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Complex Matter</named-content>
+<institution>Institut Jozef Stefan</institution>
+<city>Ljubljana</city>
+<country country="SI">Slovenia</country>
+</aff><aff id="lsm23622-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<institution>Fotona</institution>
+<city>Ljubljana</city>
+<country country="SI">Slovenia</country>
+</aff><aff id="lsm23622-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Department of Physics, Faculty of Mathematics and Physics</named-content>
+<institution>University of Ljubljana</institution>
+<city>Ljubljana</city>
+<country country="SI">Slovenia</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold> Matija Jezeršek, Faculty of Mechanical Engineering, University of Ljubljana, Laboratory for Laser Techniques, Ljubljana, Slovenia.<break/>
+Email: <email>matija.jezersek@fs.uni-lj.si</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>09</day><month>12</month><year>2022</year></pub-date><pub-date pub-type="ppub"><month>1</month><year>2023</year></pub-date><volume>55</volume><issue seq="140">1</issue><issue-id pub-id-type="pmc-issue-id">433603</issue-id><issue-id pub-id-type="doi">10.1002/lsm.v55.1</issue-id><issue-title content-type="special-issue-title">2023 Special Dermatology Plastic Surgery Issue</issue-title><fpage>89</fpage><lpage>98</lpage><history>
+<date date-type="rev-recd"><day>17</day><month>10</month><year>2022</year></date>
+<date date-type="received"><day>12</day><month>7</month><year>2022</year></date>
+<date date-type="accepted"><day>28</day><month>11</month><year>2022</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>17</day><month>04</month><year>2023</year></date></event><event event-type="pmc-live"><date><day>18</day><month>04</month><year>2023</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2023-04-18 00:10:16.530"><day>18</day><month>04</month><year>2023</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2022 The Authors. <italic toggle="yes">Lasers in Surgery and Medicine</italic> published by Wiley Periodicals LLC.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="LSM-55-89.pdf"><?pdf-name LSM-55-89.pdf?><?pdf-size 2703606?><?pdf-md5 597ac3f0ad1661eebf3f09b0101243a3?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:cc9d/10107531/597ac3f0ad16/LSM-55-89.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:LSM-55-89.pdf"/><abstract><title>Abstract</title><sec id="lsm23622-sec-0010"><title>Background and Objectives</title><p>In this study, we investigate the photothermal response of human hair using a pulsed laser source employed in the hair removal treatment. The purpose is to understand the dynamics behind the most common clinical practice to better define the salient features that may contribute to the efficiency of the process.</p></sec><sec id="lsm23622-sec-0020"><title>Study Design/Materials and Methods</title><p>Temperature changes of hair samples (dark brown color) from a human scalp (skin type Fitpatrick II) were measured by a thermal camera following irradiation with single and multiple neodymium: yttrium‐aluminum‐garnet (Nd:YAG) (1064 nm) and alexandrite (755 nm) laser pulses. Particularly, the hair was treated with an individual laser pulse of a sufficiently high fluence, or with a series of lower fluence laser pulses. We investigated the temperature increase in a broad range of fluence and number of pulses. From the data analysis we extrapolated important parameters such as thermal gain and threshold fluence that can be used for determining optimal parameters for the hair removal procedure. Our experimental investigations and hypothesis were supported by a numerical simulation of the light‐matter interaction in a skin‐hair model, and by optical transmittance measurements of the irradiated hair.</p></sec><sec id="lsm23622-sec-0030"><title>Results</title><p>An enhancement of the temperature response of the irradiated hair, that deviates from the linear behavior, is observed when hair is subjected to an individual laser pulse of a sufficiently high fluence or to a series of lower fluence laser pulses. Here, we defined the nonlinear and rapid temperature built‐up as an avalanche effect. We estimated the threshold fluence at which this process takes place to be at 10 and 2.5 J/cm<sup>2</sup> for 1064 and 755 nm laser wavelengths, respectively. The thermal gain expressed by the degree of the deviation from the linear behavior can be higher than 2 when low laser fluence and multiple laser pulses are applied (<italic toggle="yes">n</italic> = 50). The comparison of the calculated gain for the two different laser wavelengths and the number of pulses reveals a much higher efficiency when low fluence and multiple pulses are delivered. The avalanche effect manifests when the hair temperature exceeds 45°C. The enhanced temperature increase during the subsequent delivery of laser pulses could be ascribed to the temperature‐induced changes in the hair's structural properties. Simulations of the hair temperature under Nd:YAG and alexandrite irradiation indicate that the avalanche phenomenon observed in the hair suspended in air may apply also to the hair located within the skin matrix. Namely, for the same fluence, similar temperature increase was obtained also for the hair located within the skin.</p></sec><sec id="lsm23622-sec-0040"><title>Conclusion</title><p>The observed “avalanche” effect may contribute to the reported clinical efficacy of laser hair removal and may at least partially explain the observed efficacy of the brushing hair removal procedures where laser fluence is usually low. The repeated irradiation during the brushing procedure may lead to an avalanche‐like gradual increase of the hair's thermal response resulting in sufficiently high final hair temperatures as required for effective hair reduction.</p></sec></abstract><kwd-group><kwd id="lsm23622-kwd-0001">alexandrite laser</kwd><kwd id="lsm23622-kwd-0002">avalanche effect</kwd><kwd id="lsm23622-kwd-0003">hair removal</kwd><kwd id="lsm23622-kwd-0004">Nd:YAG laser</kwd></kwd-group><counts><fig-count count="10"/><table-count count="1"/><page-count count="10"/><word-count count="6106"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC-ND</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>January 2023</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.2.7 mode:remove_FC converted:17.04.2023</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="lsm23622-cit-0037">
+<string-name name-style="western">
+<surname>Vella</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lukač</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jernejčič</surname>
+<given-names>U</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lukač</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Klaneček</surname>
+<given-names>Ž</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Milanič</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Measurements of hair temperature avalanche effect with alexandrite and Nd:YAG hair removal lasers</article-title>. <source>Lasers Surg Med</source>. <year>2023</year>;<volume>55</volume>:<fpage>89</fpage>–<lpage>98</lpage>. <pub-id pub-id-type="doi">10.1002/lsm.23622</pub-id>
+<pub-id pub-id-type="pmid">36490355</pub-id><pub-id pub-id-type="pmcid">PMC10107531</pub-id></mixed-citation>
+</p></notes></front><body><sec id="lsm23622-sec-0050"><title>INTRODUCTION</title><p>Demand for laser removal of unwanted or excess hair has grown significantly since first introduced in the mid‐1990s.<xref rid="lsm23622-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref> Compared to traditional methods of hair removal such as threading, plucking and waxing, laser hair removal has been found to be superior in achieving long term hair reduction.<xref rid="lsm23622-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref>, <xref rid="lsm23622-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref> Lasers most commonly in use for hair removal include alexandrite, neodymium: yttrium‐aluminum‐garnet (Nd:YAG) and diode.<xref rid="lsm23622-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>, <xref rid="lsm23622-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref>, <xref rid="lsm23622-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref>, <xref rid="lsm23622-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref>, <xref rid="lsm23622-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="lsm23622-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="lsm23622-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref>, <xref rid="lsm23622-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref>
+</p><p>Currently, laser hair removal is being performed using either a stamping or a brushing (“in‐motion”) technique.<xref rid="lsm23622-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref> With the “stamping” technique the laser handpiece is positioned over the treated skin from spot to spot without any overlapping, and single high fluence pulses are delivered at a relatively low repetition rate to each of the spots.<xref rid="lsm23622-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> This technique is most commonly being used with Nd:YAG and alexandrite lasers since these lasers are able to deliver high energy laser pulses with sufficiently short pulse durations (~0.3–25 ms).<xref rid="lsm23622-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref>, <xref rid="lsm23622-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="lsm23622-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="lsm23622-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref>, <xref rid="lsm23622-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref> Using this technique the hair follicles are targeted directly by selectively over‐heating the hair with individual pulses with durations shorter than the thermal relaxation (i.e., cooling) time of the hair.</p><p>On the other hand, the brushing technique involves lower fluence laser pulses delivered at higher pulse rates (3–10 Hz) with the handpiece in a constant movement forwards and backwards at a speed of 2–3 cm/s until a sufficiently high cumulative energy is delivered to the whole treated area.<xref rid="lsm23622-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref> This in‐motion continuous technique is more often used with diode lasers since they are typically not capable of delivering high energy pulses with short enough pulse durations.</p><p>It is a general understanding that selective photothermolysis is the mechanism of how laser hair removal works.<xref rid="lsm23622-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref>, <xref rid="lsm23622-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> The “selective” means that the goal is to use a laser wavelength which is more highly absorbed in the melanin in hair than in the surrounding skin.<xref rid="lsm23622-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref>, <xref rid="lsm23622-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref> However, although hair removal lasers have been in use for over 20 years the underlying mechanism of hair reduction is still not completely understood.<xref rid="lsm23622-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref>, <xref rid="lsm23622-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> This applies especially to the brushing hair removal procedures where the hair temperature elevations resulting from low fluence laser pulses are expected to be relatively low.</p><p>To increase the selective absorption of hair at the treatment laser wavelength, early hair removal techniques were based on infiltrating black carbon into hair ducts.<xref rid="lsm23622-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref> More recently, an “avalanche” effect was proposed for Nd:YAG (1064 nm) laser hair removal after the absorption of the hair suspended in air was observed to get enhanced by the treatment laser light itself.<xref rid="lsm23622-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref> The observation was tentatively attributed to an avalanche “hair darkening” effect when hair is subjected to a series of Nd:YAG pulses. It was also suggested that due to back scattering of laser light within the skin matrix, the fluences to which the hair located within the skin would be exposed to is comparable to the fluences used on hair suspended in air, and that therefore, the observed avalanche effect applied also to clinical conditions.</p><p>In this paper, we explore in more detail the initially reported “avalanche” effect as observed for the Nd:YAG laser light by measuring the temperature response of hair samples following irradiation by an alexandrite (755 nm) hair removal laser, in addition to the Nd:YAG (1064 nm) laser. A goal of the study was to determine whether the avalanche effect is predominantly a temperature‐dependent phenomena, independent of the hair removal laser wavelength. Simulations of the hair temperature under Nd:YAG and alexandrite irradiation were also made to verify whether the avalanche phenomenon observed for both wavelength in the hair suspended in air apply also to the hair located within the skin matrix. Additionally, a limited series of measurements of the hair transmission spectra before and after the irradiation was made to confirm the proposed hair darkening effect.</p></sec><sec sec-type="materials-and-methods" id="lsm23622-sec-0060"><title>MATERIALS AND METHODS</title><sec id="lsm23622-sec-0070"><title>Laser system</title><p>The laser system used in the study was an AvalancheLase® (manufactured by Fotona d.o.o., Slovenia) consisting of two solid crystal laser sources, Alexandrite (755 nm) and Nd:YAG (1064 nm), with adjustable pulse durations <italic toggle="yes">t</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> = 0.3–300 ms. The system was fitted with an R35 manual handpiece (manufactured by Fotona d.o.o., Slovenia) set to a spotsize of 10 mm.</p></sec><sec id="lsm23622-sec-0080"><title>Hair temperature measurements</title><p>The experimental set‐up is shown in Figure <xref rid="lsm23622-fig-0001" ref-type="fig">1A</xref>. The human hair samples (dark brown color) were cut from a human scalp (skin type Fitzpatrick II), and fixed in air in front of the laser handpiece. To minimize the influence of the hair diameter and color on the results, measurements were performed on limited sections of long hair samples cut from the same area of the same subject. The experimental protocol was carried out in accordance with the Helsinki Declaration.</p><fig position="float" fig-type="Figure" id="lsm23622-fig-0001" orientation="portrait"><label>Figure 1</label><caption><p>Experimental set‐up for hair temperature measurement during laser illumination. A human hair was cut from a human scalp, and fixed in air in a straight horizontal position. The Nd:YAG or alexandrite laser beam (<italic toggle="yes">d</italic> = 10 mm) was directed onto the hair, and the resulting hair temperature increase was measured by a thermal video camera, set to record at every time instant the maximal temperature of the hair sample. (B) Typical thermal image of illuminated hair just after the laser pulse. (C) Typical evolution of hair maximal temperature during consecutive laser pulses. Nd:YAG, neodymium: yttrium‐aluminum‐garnet</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="LSM-55-89-g009.jpg"><?image-name LSM-55-89-g009.jpg?><?image-size 38045?><?image-md5 28e9827353ebc19e74d9d35657028e63?><?image-image-server-status NEVER_LOAD?><?image-original-height 315?><?image-original-width 500?><?image-scaled-height 315?><?image-scaled-width 500?><?image-cloudpmc-urn urn:cdn:blobs/cc9d/10107531/28e9827353eb/LSM-55-89-g009.jpg?><?thumb-name LSM-55-89-g009.gif?><?thumb-size 4689?><?thumb-md5 98fe7729ff826978a9cf97d5cc315826?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 79?><?thumb-scaled-width 126?><?thumb-cloudpmc-urn urn:cdn:blobs/cc9d/10107531/98fe7729ff82/LSM-55-89-g009.gif?></graphic></fig><p>The Nd:YAG or alexandrite individual laser pulses (<italic toggle="yes">t</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> = 2 ms) were directed onto the hair, and the resulting hair temperature increase following each laser pulse was measured for different fluences <italic toggle="yes">F</italic> (in J/cm<sup>2</sup>) with a thermal video camera (Flir ThermaCAM P45), set to record the maximal temperature increase (Δ<italic toggle="yes">T</italic>) of the hair sample following a pulsed irradiation. Figure <xref rid="lsm23622-fig-0001" ref-type="fig">1B</xref> shows typical thermal image of the hair just after the laser pulse. The pulses were delivered at sufficiently long separation times (<italic toggle="yes">t</italic>
+<sub>
+<italic toggle="yes">s</italic>
+</sub> ≥ 2 s) to allow the hair to cool down to the ambient temperature in‐between pulses. A room temperature air blower was used to shorten the hair cooling time following pulsed irradiation. Figure <xref rid="lsm23622-fig-0001" ref-type="fig">1C</xref> shows typical evolution of hair temperature during pulsed illumination, where graduate increase of maximal temperature and the cooling back to the room temperature can be seen.</p></sec><sec id="lsm23622-sec-0090"><title>Ultraviolet‐visible spectroscopy</title><p>The optical spectra in transmission geometry were taken by using a modified commercial microscope (Dialux Trinocular; Leitz Wetzlar) coupled with an optical fiber to a spectrometer (LR1‐T; Aseq Instruments), equipped with a cooled silicon charged coupled device. The sample was kept on a glass slide and back illuminated by a tungsten‐halogen lamp. The transmitted light was collected through a 50× microscope objective (NPL Fluotar 50x/0.85; Leitz Wetzlar). The collimated light passed through a mechanical slit to cut away the unwanted light transmitted through the glass, and collect only the light transmitted through the hair. An aspherical lens was positioned after the slit to focus onto the entrance of the spectrometer's optical fiber. The transmission through the sample was normalized by the light transmitted through the empty glass besides the sample, and displayed as transmittance.</p></sec><sec id="lsm23622-sec-0100"><title>Simulation of hair and skin laser heating</title><p>Realistic 3D mesh model of three‐layers skin with single hair was built using freely accessible Salome software environment (see Figure <xref rid="lsm23622-fig-0002" ref-type="fig">2A,B</xref>). We took into account the real dimensions of the epidermis (70 μm), dermis (3.43 mm) and subcutis (5 mm), as well as the dimensions of the hair (diameter 60 μm, length under the skin 2.5 mm, and follicle diameter 200 μm).<xref rid="lsm23622-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref>, <xref rid="lsm23622-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref>
+</p><fig position="float" fig-type="Figure" id="lsm23622-fig-0002" orientation="portrait"><label>Figure 2</label><caption><p>3D model of laser heating of hair and skin. (A) The model of the skin includes layers of epidermis (70 μm), dermis (3.43 mm), and subcutis (5 mm). (B) Magnified region (dashed rectangle on A) of the hair with shaft with diameter 60 μm, length 2.5 mm, and with follicle diameter 200 μm. (C) Calculated temperature field using <italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> = 50 J/cm<sup>2</sup>
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="LSM-55-89-g006.jpg"><?image-name LSM-55-89-g006.jpg?><?image-size 44249?><?image-md5 b6e6b9d0bcbc17b6d2f536336b6a5cc9?><?image-image-server-status NEVER_LOAD?><?image-original-height 318?><?image-original-width 500?><?image-scaled-height 318?><?image-scaled-width 500?><?image-cloudpmc-urn urn:cdn:blobs/cc9d/10107531/b6e6b9d0bcbc/LSM-55-89-g006.jpg?><?thumb-name LSM-55-89-g006.gif?><?thumb-size 5322?><?thumb-md5 52148b94da2f6ae592d6006b21e6f1de?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 125?><?thumb-cloudpmc-urn urn:cdn:blobs/cc9d/10107531/52148b94da2f/LSM-55-89-g006.gif?></graphic></fig><p>In the second step, using the meshed Monte Carlo method,<xref rid="lsm23622-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref> the irradiation of tissue with a laser beam of the same properties as in the experimental environment was simulated to calculate distribution of absorbed laser energy into different regions of tissue. Absorption and scattering coefficient (μ<sub>a</sub>, μ<sub>s</sub>), anisotropy factor (g) and refractive index (n) were used for each tissue component as shown in Table <xref rid="lsm23622-tbl-0001" ref-type="table">1</xref>. As a result of optical simulation, we use absorbance and proceed to the last step, where we simulated tissue heating and heat transport by numerically solving heat transport equation in the Matlab PDE software environment. Thermal properties, such as specific heat (c<sub>p</sub>), thermal conductivity (k), and density (ρ) are listed in the Table <xref rid="lsm23622-tbl-0001" ref-type="table">1</xref>. We considered the number of pulses, pulse duration, fluence, initial temperature profile, convective boundary conditions on the skin surface and adiabatic boundary conditions at other surfaces. The final result is the temperature evolution over time at every mesh node.</p><table-wrap position="float" id="lsm23622-tbl-0001" content-type="Table" orientation="portrait"><label>Table 1</label><caption><p>Optical and thermal properties of different tissue components</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000" valign="bottom"><th valign="bottom" rowspan="1" colspan="1"/><th align="left" valign="bottom" rowspan="1" colspan="1">Epidermis<xref rid="lsm23622-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref>, <xref rid="lsm23622-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>, <xref rid="lsm23622-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>, <xref rid="lsm23622-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">Dermis<xref rid="lsm23622-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref>, <xref rid="lsm23622-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>, <xref rid="lsm23622-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>, <xref rid="lsm23622-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref>, <xref rid="lsm23622-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">Subcutis<xref rid="lsm23622-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>, <xref rid="lsm23622-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref>, <xref rid="lsm23622-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">Hair<xref rid="lsm23622-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref>, <xref rid="lsm23622-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref>
+</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">μ<sub>a</sub> [mm<sup>−1</sup>]</td><td align="left" char="." valign="top" rowspan="1" colspan="1">0.07</td><td align="left" char="." valign="top" rowspan="1" colspan="1">0.038</td><td align="left" char="." valign="top" rowspan="1" colspan="1">0.008</td><td align="left" char="." valign="top" rowspan="1" colspan="1">0.56</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">μ<sub>s</sub> [mm<sup>−1</sup>]</td><td align="left" char="." valign="top" rowspan="1" colspan="1">26.1</td><td align="left" char="." valign="top" rowspan="1" colspan="1">5.25</td><td align="left" char="." valign="top" rowspan="1" colspan="1">2.27</td><td align="left" char="." valign="top" rowspan="1" colspan="1">79.7</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">g</td><td align="left" char="." valign="top" rowspan="1" colspan="1">0.89</td><td align="left" char="." valign="top" rowspan="1" colspan="1">0.72</td><td align="left" char="." valign="top" rowspan="1" colspan="1">0.78</td><td align="left" char="." valign="top" rowspan="1" colspan="1">0.9</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">n</td><td align="left" char="." valign="top" rowspan="1" colspan="1">1.42</td><td align="left" char="." valign="top" rowspan="1" colspan="1">1.37</td><td align="left" char="." valign="top" rowspan="1" colspan="1">1.44</td><td align="left" char="." valign="top" rowspan="1" colspan="1">1.37</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">c<sub>p</sub> [J/kgK]</td><td align="left" char="." valign="top" rowspan="1" colspan="1">3200</td><td align="left" char="." valign="top" rowspan="1" colspan="1">3500</td><td align="left" char="." valign="top" rowspan="1" colspan="1">2870</td><td align="left" char="." valign="top" rowspan="1" colspan="1">2512</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">k [W/mK]</td><td align="left" char="." valign="top" rowspan="1" colspan="1">0.34</td><td align="left" char="." valign="top" rowspan="1" colspan="1">0.41</td><td align="left" char="." valign="top" rowspan="1" colspan="1">0.3</td><td align="left" char="." valign="top" rowspan="1" colspan="1">0.63</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">ρ [kg/m<sup>3</sup>]</td><td align="left" char="." valign="top" rowspan="1" colspan="1">1120</td><td align="left" char="." valign="top" rowspan="1" colspan="1">1090</td><td align="left" char="." valign="top" rowspan="1" colspan="1">860</td><td align="left" char="." valign="top" rowspan="1" colspan="1">1300</td></tr></tbody></table><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap></sec></sec><sec sec-type="results" id="lsm23622-sec-0110"><title>RESULTS</title><sec id="lsm23622-sec-0120"><title>Hair temperature results</title><p>The first set of measurements was carried out to determine whether there is a memory effect associated with irreversible changes in the optical properties of a hair, resulting from the hair's exposure to past laser irradiations. Figure <xref rid="lsm23622-fig-0003" ref-type="fig">3</xref> shows the observed hysteresis in the evolution of hair temperature elevations (Δ<italic toggle="yes">T</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub>) following individual laser pulses as observed by applying a series of consecutive Nd:YAG laser pulses to the same hair section. In the initial phase of the experiment the pulse fluence (<italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub>) of individual pulses in the pulse sequence was increased from pulse to pulse, starting with the first pulse at <italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> = 5 J/cm<sup>2</sup>, and ending with the final 14th pulse at <italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> = 25 J/cm<sup>2</sup>. This phase was followed by a second series of pulses with the pulse fluence being decreased from pulse to pulse, starting with the first pulse with <italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> = 25 J/cm<sup>2</sup>, and ending with the final 13th pulse with <italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> = 6 J/cm<sup>2</sup>. The pulses were delivered at sufficiently long separation times to allow the hair to cool down in‐between pulses.</p><fig position="float" fig-type="Figure" id="lsm23622-fig-0003" orientation="portrait"><label>Figure 3</label><caption><p>Temperature increase Δ<italic toggle="yes">T</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> of the same hair section following consecutive irradiation by individual Nd:YAG laser pulses. In the initial phase (represented by open circles), the pulse fluence of individual pulses (<italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub>) was increased from pulse to pulse, starting with the first pulse with <italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> = 5J/cm<sup>2</sup>, and ending with the final pulse with <italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> = 25J/cm<sup>2</sup>. In the subsequent phase (represented by closed circles), the individual pulse fluences (<italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub>) were decreased from pulse to pulse, starting with the first pulse with <italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> = 25J/cm<sup>2</sup>, and ending with the final 13th pulse with <italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> = 6J/cm<sup>2</sup>. Nd:YAG, neodymium: yttrium‐aluminum‐garnet</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="LSM-55-89-g001.jpg"><?image-name LSM-55-89-g001.jpg?><?image-size 16196?><?image-md5 7fa14f5a8b86fe26d93f896d52346748?><?image-image-server-status NEVER_LOAD?><?image-original-height 203?><?image-original-width 250?><?image-scaled-height 203?><?image-scaled-width 250?><?image-cloudpmc-urn urn:cdn:blobs/cc9d/10107531/7fa14f5a8b86/LSM-55-89-g001.jpg?><?thumb-name LSM-55-89-g001.gif?><?thumb-size 4098?><?thumb-md5 4d3c5b071bed06431e24b625dcb367a8?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 81?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/cc9d/10107531/4d3c5b071bed/LSM-55-89-g001.gif?></graphic></fig><p>Temperature elevation after each laser pulse can be approximated by the equation<xref rid="lsm23622-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref>:
+<disp-formula id="lsm23622-disp-0001">
+<label>(1)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-1" display="block"><mml:mrow><mml:mrow><mml:mi>Δ</mml:mi><mml:msub><mml:mi>T</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:msub><mml:mi>μ</mml:mi><mml:mi>a</mml:mi></mml:msub><mml:mrow><mml:mi>ρ</mml:mi><mml:msub><mml:mi>c</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:msub><mml:mi>F</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where <italic toggle="yes">μ</italic>
+<sub>
+<italic toggle="yes">a</italic>
+</sub>, <italic toggle="yes">ρ</italic>, and <italic toggle="yes">c</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> are absorption coefficient, density, and specific heat. The equation shows linear relation with the laser fluence <italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> under the assumption of constant material parameters. However, Figure <xref rid="lsm23622-fig-0003" ref-type="fig">3</xref> shows that the increase of <italic toggle="yes">ΔT</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> is linear only up to approximately 10 J/cm<sup>2</sup>. Above this level, the temperature elevation is growing progressively. We attribute the observed deviation from the linear dependence of Equation <xref rid="lsm23622-disp-0001" ref-type="disp-formula">1</xref> to the “avalanche” effect, i.e., to the increased thermal response of the human hair after being irradiated (i.e., “pumped”) by a laser pump pulse with <italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> &gt; <italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">aval</italic>
+</sub>, where <italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">aval</italic>
+</sub> is the threshold fluence required for the avalanche effect. For the used Nd:YAG laser parameters and the measured hair the avalanche threshold was found to be at about <italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">aval</italic>
+</sub> ≈ 10 J/cm<sup>2</sup>. The observed hysteresis in Figure <xref rid="lsm23622-fig-0002" ref-type="fig">2</xref> demonstrates this dependence of the hair's thermal response on the irradiation history.</p><p>As it is illustrated in Figure <xref rid="lsm23622-fig-0003" ref-type="fig">3</xref>, we can divide the temperature elevation <italic toggle="yes">ΔT</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> into two contributions:
+<disp-formula id="lsm23622-disp-0002">
+<label>(2)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-2" display="block"><mml:mrow><mml:mrow><mml:mi>Δ</mml:mi><mml:msub><mml:mi>T</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>Δ</mml:mi><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>l</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mi>Δ</mml:mi><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>a</mml:mi><mml:mi>v</mml:mi><mml:mi>a</mml:mi><mml:mi>l</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where <italic toggle="yes">ΔT</italic>
+<sub>
+<italic toggle="yes">lin</italic>
+</sub> represents the “no‐avalanche” and <italic toggle="yes">ΔT</italic>
+<sub>
+<italic toggle="yes">aval</italic>
+</sub> represents the additional temperature increase due to the avalanche effect. By combining all material parameters into a single temperature coefficient (K), we can rewrite the Equation (<xref rid="lsm23622-disp-0001" ref-type="disp-formula">1</xref>) accordingly:
+<disp-formula id="lsm23622-disp-0003">
+<label>(3)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-3" display="block"><mml:mrow><mml:mrow><mml:mi>Δ</mml:mi><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>l</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>K</mml:mi><mml:msub><mml:mi>F</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:mo>.</mml:mo></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+</p><p>The temperature coefficient <italic toggle="yes">K</italic> (with <italic toggle="yes">K</italic>
+<sub>
+<italic toggle="yes">Nd</italic>
+</sub> ≈ 1.56°C·cm<sup>2</sup>/J as measured for Nd:YAG laser pulses) defines the linear growth of Δ<italic toggle="yes">T</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> with <italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub>, as observed at low fluences. And further, we can define the avalanche gain as:
+<disp-formula id="lsm23622-disp-0004">
+<label>(4)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-4" display="block"><mml:mrow><mml:mrow><mml:msub><mml:mi>G</mml:mi><mml:mrow><mml:mi>a</mml:mi><mml:mi>v</mml:mi><mml:mi>a</mml:mi><mml:mi>l</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:mi>Δ</mml:mi><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>a</mml:mi><mml:mi>v</mml:mi><mml:mi>a</mml:mi><mml:mi>l</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mi>Δ</mml:mi><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>l</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>.</mml:mo></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+</p><p>It is important to note that <italic toggle="yes">G</italic>
+<sub>
+<italic toggle="yes">aval</italic>
+</sub> depends mainly on the hair absorption cross‐section and the absorbed laser fluence at each consecutive laser pulse.</p><p>Similar “avalanche” effect was observed also for the alexandrite laser which is characterized by a higher absorption in the measured human hair (<italic toggle="yes">K</italic>
+<sub>
+<italic toggle="yes">Alex</italic>
+</sub> = 5.8°C·cm<sup>2</sup>/J). The avalanche threshold was observed at a lower fluence of <italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">aval</italic>
+</sub> ≈ 2.5 J/cm<sup>2</sup>.</p><p>The next set of measurements was performed to determine whether it is possible to reach large avalanche gains <italic toggle="yes">G</italic>
+<sub>
+<italic toggle="yes">aval</italic>
+</sub> by delivering a series of relatively low fluence pump pulses. In this order, up to <italic toggle="yes">N</italic> = 50 consecutive pump pulses with a fixed pump pulse fluence (<italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub>) was delivered to the same hair section at a sufficiently slow repetition rate to prevent hair temperature build‐up from pulse to pulse. As an example, Figure <xref rid="lsm23622-fig-0004" ref-type="fig">4</xref> shows the evolution of hair temperatures during the delivery of a series of Nd:YAG or alexandrite pump laser pulses with the pump fluences of 14.4 J/cm<sup>2</sup> (for Nd:YAG) and 5 J/cm<sup>2</sup> (for alexandrite), set to be only slightly above the corresponding avalanche thresholds.</p><fig position="float" fig-type="Figure" id="lsm23622-fig-0004" orientation="portrait"><label>Figure 4</label><caption><p>Hair temperature evolution during the delivery of <italic toggle="yes">N</italic> = 50 alexandrite (A) or Nd:YAG (B) pump pulses with <italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> = 5 J/cm<sup>2</sup> (alexandrite) and <italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> = 14.4 J/cm<sup>2</sup> (Nd:YAG). The pulse repetition rate was 0.5 Hz. Nd:YAG, neodymium: yttrium‐aluminum‐garnet</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="LSM-55-89-g010.jpg"><?image-name LSM-55-89-g010.jpg?><?image-size 28568?><?image-md5 6ccecfbe96866bd9f0ac1ad21f7ad361?><?image-image-server-status NEVER_LOAD?><?image-original-height 337?><?image-original-width 250?><?image-scaled-height 337?><?image-scaled-width 250?><?image-cloudpmc-urn urn:cdn:blobs/cc9d/10107531/6ccecfbe9686/LSM-55-89-g010.jpg?><?thumb-name LSM-55-89-g010.gif?><?thumb-size 10481?><?thumb-md5 e796b79a42c5f11c2564e1668a337e19?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 135?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/cc9d/10107531/e796b79a42c5/LSM-55-89-g010.gif?></graphic></fig><p>Figure <xref rid="lsm23622-fig-0005" ref-type="fig">5</xref> shows the evolution of the avalanche gain for the Nd:YAG pulse series of Figure <xref rid="lsm23622-fig-0004" ref-type="fig">4B</xref>. The initial avalanche gain as observed for the first pulse in the series gets significantly additionally enhanced during the delivery of the subsequent 20–30 pulses.</p><fig position="float" fig-type="Figure" id="lsm23622-fig-0005" orientation="portrait"><label>Figure 5</label><caption><p>Gradual increase of the avalanche gain <italic toggle="yes">G</italic>
+<sub>
+<italic toggle="yes">aval</italic>
+</sub> during the delivery of Nd:YAG pulses shown in Figure <xref rid="lsm23622-fig-0004" ref-type="fig">4B</xref>. Nd:YAG, neodymium: yttrium‐aluminum‐garnet</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="LSM-55-89-g008.jpg"><?image-name LSM-55-89-g008.jpg?><?image-size 13518?><?image-md5 77e000ef6b43d6858130f067a0b2d7d6?><?image-image-server-status NEVER_LOAD?><?image-original-height 168?><?image-original-width 250?><?image-scaled-height 168?><?image-scaled-width 250?><?image-cloudpmc-urn urn:cdn:blobs/cc9d/10107531/77e000ef6b43/LSM-55-89-g008.jpg?><?thumb-name LSM-55-89-g008.gif?><?thumb-size 4875?><?thumb-md5 3c9ea88976d562baca008df04d18d43f?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 119?><?thumb-cloudpmc-urn urn:cdn:blobs/cc9d/10107531/3c9ea88976d5/LSM-55-89-g008.gif?></graphic></fig><p>Figure <xref rid="lsm23622-fig-0006" ref-type="fig">6</xref> represents an overview of the measured dependences of the avalanche gain (<italic toggle="yes">G</italic>
+<sub>
+<italic toggle="yes">aval</italic>
+</sub>) on the pump fluence (<italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub>) and the number of delivered pulses <italic toggle="yes">N</italic>, for the Nd:YAG and alexandrite laser wavelength.</p><fig position="float" fig-type="Figure" id="lsm23622-fig-0006" orientation="portrait"><label>Figure 6</label><caption><p>Dependence of the avalanche gain (<italic toggle="yes">G</italic>
+<sub>
+<italic toggle="yes">aval</italic>
+</sub>) on the pump fluence (<italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub>) and the number of delivered pulses (<italic toggle="yes">N</italic>), for the Nd:YAG and alexandrite laser wavelength as obtained from the experimental data. The lines are to guide the eye only. Nd:YAG, neodymium: yttrium‐aluminum‐garnet</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="LSM-55-89-g002.jpg"><?image-name LSM-55-89-g002.jpg?><?image-size 19533?><?image-md5 641ff49cba60c39ae903c6e3ebb106d7?><?image-image-server-status NEVER_LOAD?><?image-original-height 241?><?image-original-width 250?><?image-scaled-height 241?><?image-scaled-width 250?><?image-cloudpmc-urn urn:cdn:blobs/cc9d/10107531/641ff49cba60/LSM-55-89-g002.jpg?><?thumb-name LSM-55-89-g002.gif?><?thumb-size 4747?><?thumb-md5 f8934ec95df7aa780b6ccc5000db8503?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 96?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/cc9d/10107531/f8934ec95df7/LSM-55-89-g002.gif?></graphic></fig><p>Finally, Figure <xref rid="lsm23622-fig-0007" ref-type="fig">7</xref> shows the measured relationship between the elevated hair temperature following a single pump pulse, and the resulting avalanche gain. Above the avalanche threshold temperature (<italic toggle="yes">T</italic>
+<sub>
+<italic toggle="yes">aval</italic>
+</sub>) of about 45°C the avalanche gain grows approximately linearly with the elevated hair temperature regardless of the type of laser.</p><fig position="float" fig-type="Figure" id="lsm23622-fig-0007" orientation="portrait"><label>Figure 7</label><caption><p>Dependence of the avalanche gain (<italic toggle="yes">G</italic>
+<sub>
+<italic toggle="yes">aval</italic>
+</sub>) on the elevated hair temperature (<italic toggle="yes">T</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub>) following a single Nd:YAG or alexandrite pump laser pulse. The threshold temperature (<italic toggle="yes">T</italic>
+<sub>
+<italic toggle="yes">aval</italic>
+</sub>) for the avalanche effect is observed to be at approximately 45°C. Nd:YAG, neodymium: yttrium‐aluminum‐garnet</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="LSM-55-89-g003.jpg"><?image-name LSM-55-89-g003.jpg?><?image-size 15341?><?image-md5 14e2c84fe1ab2bbc4ccbbae43fd7719a?><?image-image-server-status NEVER_LOAD?><?image-original-height 212?><?image-original-width 250?><?image-scaled-height 212?><?image-scaled-width 250?><?image-cloudpmc-urn urn:cdn:blobs/cc9d/10107531/14e2c84fe1ab/LSM-55-89-g003.jpg?><?thumb-name LSM-55-89-g003.gif?><?thumb-size 3759?><?thumb-md5 5c5cdd5b54f5bfd5e8ce1688585dc49e?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 85?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/cc9d/10107531/5c5cdd5b54f5/LSM-55-89-g003.gif?></graphic></fig><p>A potential dependence of the avalanche effect on the repetition rate of laser pulses was also tested. Figure <xref rid="lsm23622-fig-0008" ref-type="fig">8</xref> shows the evolution of temperatures when a hair was irradiated by alexandrite laser pulses resulting in a single pulse temperature of <italic toggle="yes">T</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> = 55 ± 2.5°C, and delivered at different time intervals of 60, 30, 15, and 2 s. Measurements revealed that for low <italic toggle="yes">T</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> the induced changes in the hair's photothermal response were very short‐lived, with a life‐time of about 5 s. However, when the laser fluence was increased to result in <italic toggle="yes">T</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> above approximately 70°C the change in the photothermal response was observed to persist for longer than 60 s.</p><fig position="float" fig-type="Figure" id="lsm23622-fig-0008" orientation="portrait"><label>Figure 8</label><caption><p>Dependence of the evolution of the elevated hair temperature (<italic toggle="yes">T</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub>) following alexandrite pump laser pulses at different pulse periods of 60, 30, 15, and 2 s</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-15" orientation="portrait" xlink:href="LSM-55-89-g004.jpg"><?image-name LSM-55-89-g004.jpg?><?image-size 15356?><?image-md5 af32fad3338c975d7e95a8c9f2f20397?><?image-image-server-status NEVER_LOAD?><?image-original-height 214?><?image-original-width 250?><?image-scaled-height 214?><?image-scaled-width 250?><?image-cloudpmc-urn urn:cdn:blobs/cc9d/10107531/af32fad3338c/LSM-55-89-g004.jpg?><?thumb-name LSM-55-89-g004.gif?><?thumb-size 4753?><?thumb-md5 a3a5b44accacce5e66908278f303e5a2?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 86?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/cc9d/10107531/a3a5b44accac/LSM-55-89-g004.gif?></graphic></fig></sec><sec id="lsm23622-sec-0130"><title>Hair transmittance measurements</title><p>The avalanche effect was observed by the irradiation of a hair with either a single high fluence pulse or a sequence of lower fluence pulses exceeding the avalanche threshold and compared to assess the origin of the effect the optical properties of hairs were measured before and after irradiation by the alexandrite laser with either a single high fluence pulse (<italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> = 12.5 J/cm<sup>2</sup>), or a series of 50 low fluence pulses (<italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> = 5 J/cm<sup>2</sup>).</p><p>The measured changes in the transmittance of the hair after laser pump irradiation are depicted in Figure <xref rid="lsm23622-fig-0009" ref-type="fig">9A</xref>. The spectrum of a nonirradiated hair is characterized by the increasing transmittance (i.e., decreasing absorbance) towards higher wavelengths. The broad absorption spectrum is typical for melanin, and results from the superimposition of a number of distinct chromophore absorption bands over the visible and near infrared range.<xref rid="lsm23622-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref>
+</p><fig position="float" fig-type="Figure" id="lsm23622-fig-0009" orientation="portrait"><label>Figure 9</label><caption><p>(A) Transmittance spectra of the hair following a single high fluence (<italic toggle="yes">F<sub>p</sub>
+</italic> = 12.5 J/cm<sup>2</sup>) alexandrite laser pulse (black solid line), and following 50 low fluence (<italic toggle="yes">F<sub>p</sub>
+</italic> = 5 J/cm<sup>2</sup>) alexandrite laser pulses (red solid line). The corresponding reference measurements are represented by the dashed lines. (B) Optical images of the hair shaft, after irradiation with a single high fluence alexandrite pulse (left panel), before irradiation (central panel) and after irradiation by 50 low fluence alexandrite laser pulses (right panel)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-17" orientation="portrait" xlink:href="LSM-55-89-g005.jpg"><?image-name LSM-55-89-g005.jpg?><?image-size 34019?><?image-md5 a788cdc2fcebebe2ac3c115d74b430ac?><?image-image-server-status NEVER_LOAD?><?image-original-height 237?><?image-original-width 500?><?image-scaled-height 237?><?image-scaled-width 500?><?image-cloudpmc-urn urn:cdn:blobs/cc9d/10107531/a788cdc2fceb/LSM-55-89-g005.jpg?><?thumb-name LSM-55-89-g005.gif?><?thumb-size 7309?><?thumb-md5 187c529401863faf9f7afb57184ae404?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 168?><?thumb-cloudpmc-urn urn:cdn:blobs/cc9d/10107531/187c52940186/LSM-55-89-g005.gif?></graphic></fig><p>A difference between the two reference measurements can be observed below 550 nm. The discrepancy is most likely caused by an inadequate thermalization of the spectrometer light source before performing the alexandrite reference transmittance measurement (black dashed line). Since a halogen light source was used, that is characterized by a low intensity in the blue part of the spectrum, any slight deviation in the emission intensity significantly affected the measured transmittance in this part of the spectrum. However, the spectra above 550 nm agree very well, demonstrating that optical properties of the two hairs in the infrared region were almost identical.</p><p>The irradiation with a single pulse of alexandrite at high fluence (<italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> = 12.5 J/cm<sup>2</sup>) leads to the avalanche gain of <italic toggle="yes">G</italic>
+<sub>
+<italic toggle="yes">a</italic>
+</sub> &gt; 3 (see Figure <xref rid="lsm23622-fig-0006" ref-type="fig">6</xref>), resulting in <italic toggle="yes">T</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> &gt; 200°C, which is in the temperature range that has been found to result in a total desiccation and consequent degradation of the hair.<xref rid="lsm23622-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref> As a result, the transmittance of the hair gets drastically reduced over a broad spectral range. Optical inspection under the microscope in Figure <xref rid="lsm23622-fig-0009" ref-type="fig">9B</xref> (left panel) showed a visible change of the hair structure (surface and shape) and a consequent darkening (charcoaling) of the hair. It is to be noted that in the absence of the avalanche gain the final temperature would reach only about 100°C where no significant damage to the cortex has been observed.<xref rid="lsm23622-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref>
+</p><p>A less pronounced decrease in transmittance was observed following the irradiation by 50 consecutively delivered low fluence (<italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> = 5 J/cm<sup>2</sup>) pulses. The corresponding final elevated temperature of about 90°C (see Figure <xref rid="lsm23622-fig-0004" ref-type="fig">4B</xref>) is in the range for which only damage to the cuticle, without damage to the cortex is expected.<xref rid="lsm23622-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref> Accordingly, Figure <xref rid="lsm23622-fig-0009" ref-type="fig">9B</xref> shows a slightly deteriorated hair cuticle exhibiting irregular surface geometry.</p></sec><sec id="lsm23622-sec-0140"><title>Simulation results</title><p>Since the experimental results were obtained in a hair suspended in air, a numerical study simulating hair irradiation in a skin was performed to study the relevance of the observed avalanche effect in clinical settings. Figure <xref rid="lsm23622-fig-0010" ref-type="fig">10</xref> shows the dependence of the calculated temperature increase of the hair at a depth of <italic toggle="yes">z</italic> = 1 mm, and at the follicle located at <italic toggle="yes">z</italic> = 2.5 mm, for different values of laser types and pulse fluence impinging on the skin surface. For both lasers, the temperatures of the hair and follicle within the skin are at clinically used fluences above the avalanche threshold observed for the hair suspended in air.</p><fig position="float" fig-type="Figure" id="lsm23622-fig-0010" orientation="portrait"><label>Figure 10</label><caption><p>Calculated elevated temperature of the hair (at <italic toggle="yes">z</italic> = 1 mm) and follicle (at <italic toggle="yes">z</italic> = 2.5 mm) as a function of the Nd:YAG (A) or alexandrite (B) single pulse laser fluence. The dotted lines represent the temperature threshold for the avalanche effect. Nd:YAG, neodymium: yttrium‐aluminum‐garnet</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-19" orientation="portrait" xlink:href="LSM-55-89-g007.jpg"><?image-name LSM-55-89-g007.jpg?><?image-size 24796?><?image-md5 985d75cadc236ca05bb4e20d768ebcc7?><?image-image-server-status NEVER_LOAD?><?image-original-height 440?><?image-original-width 250?><?image-scaled-height 440?><?image-scaled-width 250?><?image-cloudpmc-urn urn:cdn:blobs/cc9d/10107531/985d75cadc23/LSM-55-89-g007.jpg?><?thumb-name LSM-55-89-g007.gif?><?thumb-size 6310?><?thumb-md5 1bdfa5a769b0593d04e21c2992e56b65?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 176?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/cc9d/10107531/1bdfa5a769b0/LSM-55-89-g007.gif?></graphic></fig><p>The simulations also show that despite of the beam being progressively absorbed by the skin chromophores the temperature increase of the hair located within the skin is similar to that of the hair suspended in air due to the scattering of the laser light within the skin matrix, effectively enhancing the number of photons that get trapped within the highly absorbing hair.</p></sec></sec><sec sec-type="discussion" id="lsm23622-sec-0150"><title>DISCUSSION</title><p>Our measurements show an enhancement of the temperature response of the irradiated hair when hair is subjected to an individual laser pulse of a sufficiently high fluence, or to a series of lower fluence laser pulses. This “avalanche” effect may contribute to the clinical efficacy of laser hair removal procedures. From Figure <xref rid="lsm23622-fig-0006" ref-type="fig">6</xref> it can be seen that similar gains as with the stamping technique (<italic toggle="yes">N</italic> = 1) can be achieved by using low fluence and multiple pulses. Moreover, from Figure <xref rid="lsm23622-fig-0007" ref-type="fig">7</xref> we can see that the correlation between the gain <italic toggle="yes">G</italic>
+<sub>
+<italic toggle="yes">aval</italic>
+</sub> and <italic toggle="yes">T</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> is the same for both laser wavelengths. However, the avalanche fluence for Nd:YAG laser is much higher due to the lower absorption of the hair (compared to the alexandrite laser). It is worth to mention that both graphs are person‐related due to the natural variation of hair and skin absorption (i.e., color), which will lead to different values of <italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">aval</italic>
+</sub> and <italic toggle="yes">G</italic>
+<sub>
+<italic toggle="yes">aval</italic>
+</sub>. In principle, our observations based on thermographic measurement could result in development of a clinical protocol consisting of setting the correct <italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">aval</italic>
+</sub> and <italic toggle="yes">G</italic>
+<sub>
+<italic toggle="yes">aval</italic>
+</sub> before the treatment of each individual patient.</p><p>Further studies are needed to determine the underlying mechanism of the observed avalanche gain, however it is expected that a complex combination of several processes is being involved, depending on the evolution of the hair temperature during laser irradiation. One of the most important processes involved in laser heating of hair is the loss of water content with the increase of hair temperature. Thermogravimetric analysis<xref rid="lsm23622-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref> showed that the amount of external (free) and internal (bound) water in untreated hair were, respectively, of approximately 11% and 3.5%, with the evaporation taking place at two different temperature ranges. The lower temperature range (&lt;180°C) affects only the external water while the bound water gets evaporated at temperatures above about 180°C. Here, it is important to note that at low temperatures the process of dehydration is relatively slow. For example, when hair is exposed to a temperature of 65°C the free water gets evaporated only after about 40 min.<xref rid="lsm23622-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref> The reabsorption of water following heat‐drying is similarly slow, with the time of reabsorption of about 40 min at room temperature and 40% of relative humidity.<xref rid="lsm23622-bib-0035" ref-type="bibr">
+<sup>35</sup>
+</xref> Since during the delivery of the series of low fluence laser pulses in our experiments the temperatures were below or not significantly higher than 65°C, this suggests that for low fluence laser irradiations the role of water evaporation in the observed avalanche effect (Figure <xref rid="lsm23622-fig-0004" ref-type="fig">4</xref>) may not be significant. Namely, during the delivery of 50 pulses the hair was submitted to the elevated temperature for less than 1 s during each pulse, and during the pulse sequence for less than 1 min altogether. Similarly, the observed dependence of the avalanche effect shown in Figure <xref rid="lsm23622-fig-0008" ref-type="fig">8</xref> does not appear to be due to rehydration of the hair during the time in‐between pulses since the shortest pulse period of 15 s where no avalanche effect was observed was significantly shorter that the time required for rehydration.</p><p>Instead, the avalanche effect as observed at low laser fluences appears to be a consequence of processes other than hair desiccation. For example, exposing the hair to 50°C resulted in the hair's stiffness to decrease, with the fibers stiffness quickly returning to their normal value after re‐equilibration at room conditions, despite of the hair's hydration level not returning fully back to the original value.<xref rid="lsm23622-bib-0036" ref-type="bibr">
+<sup>36</sup>
+</xref> This observation indicates that heat may affect some of the hair's properties at least partially independently from the effects of dehydration. Similarly, transmission electron microscopy showed progressively increased number of longitudinal cracks in the cuticle when the hair was exposed to temperatures of 47°C, 61°C, or 95°C.<xref rid="lsm23622-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref>
+</p><p>In terms of cortex damage, there have been no signs of damage reported at any of temperatures below 100°C.<xref rid="lsm23622-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref> On the other hand, a total evaporation of the bound water followed by a total degradation of the hair shaft has been observed around 200°C.<xref rid="lsm23622-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref>
+</p><p>The above reports of hair changes upon exposure to elevated temperatures match well with what was observed in our experiments for low and high fluence irradiations (Figure <xref rid="lsm23622-fig-0009" ref-type="fig">9</xref>). This suggests that the low fluence, i.e., low temperature avalanche effect is mainly a consequence of structural and morphological changes of the hair's surface while the high fluence avalanche effect results also from the hair's desiccation and damage to the cortex.</p><p>An important limitation of the study is that temperature measurements were carried out on a hair suspended in air, while in a clinical situation the hair is embedded within the skin matrix. In the clinical setting the incoming laser light gets absorbed and scattered by the skin, affecting the laser fluences reaching the deeper lying hair sections and hair follicles.</p><p>However, simulations of the hair temperature under Nd:YAG and alexandrite irradiation indicate that the observed avalanche phenomenon may apply also to hair located within the skin matrix. As can be concluded from Figure <xref rid="lsm23622-fig-0010" ref-type="fig">10</xref>, the temperatures of the hair located within the skin matrix during hair removal treatments are similar or higher than those obtained for the hair suspended in air during our measurements. This is due to the scattering of the laser light within the skin matrix, effectively enhancing the number of photons that get trapped within the highly absorbing hair, in spite of the beam being progressively absorbed by the skin chromophores.</p><p>Therefore, the hair temperatures under the clinical setting are expected to be above the avalanche threshold of about 45°C when using relatively low fluence values above <italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> ≈ 10 J/cm<sup>2</sup> and <italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">p</italic>
+</sub> ≈ 2.5 J/cm<sup>2</sup> for the Nd:YAG and alexandrite laser epilation, correspondingly. These results agree with the results reported for Nd:YAG laser in,<xref rid="lsm23622-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref> where the hair damage threshold was found at about 10 J/cm<sup>2</sup> for short laser pulses (0.3 ms).</p><p>It is to be noted that the enhancement of the hair's thermal response (“the avalanche gain”) depends on the laser parameters such as the laser wavelength, pulse duration, fluence and number of delivered pulses, and as well on the hair color and thickness.</p></sec><sec sec-type="conclusions" id="lsm23622-sec-0160"><title>CONCLUSIONS</title><p>We measured the photothermal response of human hair using two commercially available laser sources Nd:YAG and Alexandrite employed in the medical treatment of hair removal. Hair temperature was monitored for a broad range of laser fluences and different number of pulses. We find a progressively increasing temperature which deviates from the linear behavior and leads to a rapid increase in the hair temperature.</p><p>This avalanche effect is observed when hair is subjected to an individual laser pulse of a sufficiently high fluence, or to a series of lower fluence laser pulses. The threshold fluence and the thermal gain for both laser wavelengths were determined for the measured type of hair. The threshold fluence depends on the laser wavelength and defines the region where the temperature of the hair increases nonlinearly with the laser fluence. The avalanche gain at low fluence (but &gt;<italic toggle="yes">F</italic>
+<sub>
+<italic toggle="yes">aval</italic>
+</sub>) and 50 laser pulses was around 2. This value scales up with the laser fluence. To achieve the same <italic toggle="yes">G</italic>
+<sub>
+<italic toggle="yes">aval</italic>
+</sub> the required fluence is approximately two‐times higher when a single pulse is applied. We estimated the avalanche increasing temperature which occurs at <italic toggle="yes">T</italic> &gt; 45°C.</p><p>During multiple laser pulses excitation at low fluence the thermal changes of the hair, then the enhanced temperature increases, most probably encompass for different processes: energy dissipation through water evaporation, and hair's structural changes once the water contents is fully evaporated. This process has been observed depending of the pulse separation time interval.</p><p>Moreover, simulations on the complex skin‐hair model showed that the avalanche fluence could be similar in clinical application. We believe that the avalanche effect may play a significant role in laser hair removal and may at least partially explain the observed efficacy of the brushing hair removal procedures where laser fluences much lower than for the stamping procedures are being used. The repeated irradiation during the brushing procedure may lead to an avalanche‐like gradual increase of the hair's thermal response resulting in sufficiently high final hair temperatures as required for effective hair reduction.</p></sec><sec sec-type="COI-statement" id="lsm23622-sec-0180"><title>CONFLICTS OF INTEREST</title><p>Some of the authors (Matjaž Lukač, Urban Jernejčič, and Nejc Lukač) are affiliated also with Fotona, d.o.o.</p></sec></body><back><ack id="lsm23622-sec-0170"><title>ACKNOWLEDGMENTS</title><p>This research was supported by the Slovenian Research Agency (research core funding No. P2‐0392) and the European Regional Development Fund (Project GOSTOP).</p></ack><ref-list content-type="cited-references" id="lsm23622-bibl-0001"><title>REFERENCES</title><ref id="lsm23622-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="lsm23622-cit-0001">
+<string-name name-style="western">
+<surname>Dierickx</surname>
+<given-names>CC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grossman</surname>
+<given-names>MC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Farinelli</surname>
+<given-names>WA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Anderson</surname>
+<given-names>RR</given-names>
+</string-name>. <article-title>Permanent hair removal by normal‐mode ruby laser</article-title>. <source>Arch Dermatol</source>. <year>1998</year>;<volume>134</volume>(<issue>no. 7</issue>):<fpage>837</fpage>–<lpage>42</lpage>. <pub-id pub-id-type="doi">10.1001/archderm.134.7.837</pub-id>
+<pub-id pub-id-type="pmid">9681347</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="lsm23622-cit-0002">
+<string-name name-style="western">
+<surname>Olsen</surname>
+<given-names>EA</given-names>
+</string-name>. <article-title>Methods of hair removal</article-title>. <source>J Am Acad Dermatol</source>. <year>1999</year>;<volume>40</volume>(<issue>no. 2Pt 1</issue>):<fpage>143</fpage>–<lpage>55</lpage>. <pub-id pub-id-type="doi">10.1016/s0190-9622(99)70181-7</pub-id>
+<pub-id pub-id-type="pmid">10025738</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="lsm23622-cit-0003">
+<string-name name-style="western">
+<surname>Wanner</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Laser hair removal</article-title>. <source>Dermatol Ther</source>. <year>2005</year>;<volume>18</volume>(<issue>no. 3</issue>):<fpage>209</fpage>–<lpage>16</lpage>. <pub-id pub-id-type="doi">10.1111/j.1529-8019.2005.05020.x</pub-id>
+<pub-id pub-id-type="pmid">16229722</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="lsm23622-cit-0004">
+<string-name name-style="western">
+<surname>Galadari</surname>
+<given-names>I</given-names>
+</string-name>. <article-title>Comparative evaluation of different hair removal lasers in skin types IV, V, and VI</article-title>. <source>Int J Dermatol</source>. <year>2003</year>;<volume>42</volume>(<issue>no. 1</issue>):<fpage>68</fpage>–<lpage>70</lpage>. <pub-id pub-id-type="doi">10.1046/j.1365-4362.2003.01744.x</pub-id>
+<pub-id pub-id-type="pmid">12581148</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="lsm23622-cit-0005">
+<string-name name-style="western">
+<surname>Grad</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sult</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sult</surname>
+<given-names>R</given-names>
+</string-name>. <article-title>Scientific evaluation of VSP Nd:YAG lasers for hair removal</article-title>. <source>LA&amp;HA J. Laser and Health Academy</source>. <year>2007</year>;<volume>2007/1</volume>(<issue>no. 2</issue>):<fpage>1</fpage>.</mixed-citation></ref><ref id="lsm23622-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="lsm23622-cit-0006">
+<string-name name-style="western">
+<surname>Braun</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Permanent laser hair removal with low fluence high repetition rate versus high fluence low repetition rate 810 nm diode laser—a split leg comparison study</article-title>. <source>J Drugs Dermatol</source>. <year>2009</year>;<volume>8</volume>(<issue>no. 11Suppl</issue>):<fpage>s14</fpage>–<lpage>17</lpage>.<pub-id pub-id-type="pmid">19916262</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="lsm23622-cit-0007">
+<string-name name-style="western">
+<surname>Bencini</surname>
+<given-names>PL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Luci</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Galimberti</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ferranti</surname>
+<given-names>G</given-names>
+</string-name>. <article-title>Long‐term epilation with long‐pulsed neodimium:YAG laser</article-title>. <source>Dermatol Surg</source>. <year>1999</year>;<volume>25</volume>(<issue>no. 3</issue>):<fpage>175</fpage>–<lpage>178</lpage>. <pub-id pub-id-type="doi">10.1046/j.1524-4725.1999.08132.x</pub-id>
+<pub-id pub-id-type="pmid">10193962</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="lsm23622-cit-0008">
+<string-name name-style="western">
+<surname>Ferraro</surname>
+<given-names>GA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Perrotta</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rossano</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>D'Andrea</surname>
+<given-names>F</given-names>
+</string-name>. <article-title>Neodymium: yttrium‐aluminum‐garnet long impulse laser for the elimination of superfluous hair: experiences and considerations from 3 years of activity</article-title>. <source>Aesthetic Plast Surg</source>. <year>2004</year>;<volume>28</volume>(<issue>no. 6</issue>):<fpage>431</fpage>–<lpage>434</lpage>. <pub-id pub-id-type="doi">10.1007/s00266-004-0013-9</pub-id>
+<pub-id pub-id-type="pmid">15529207</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="lsm23622-cit-0009">
+<string-name name-style="western">
+<surname>Raff</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Landthaler</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hohenleutner</surname>
+<given-names>U</given-names>
+</string-name>. <article-title>Optimizing treatment parameters for hair removal using long‐pulsed Nd:YAG‐lasers</article-title>. <source>Lasers Med Sci</source>. <year>2004</year>;<volume>18</volume>(<issue>no. 4</issue>):<fpage>219</fpage>–<lpage>22</lpage>. <pub-id pub-id-type="doi">10.1007/s10103-004-0287-9</pub-id>
+<pub-id pub-id-type="pmid">15042427</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="lsm23622-cit-0010">
+<string-name name-style="western">
+<surname>Goldberg</surname>
+<given-names>DJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Silapunt</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>Hair removal using a long‐pulsed Nd:YAG laser: comparison at fluences of 50, 80, and 100 J/cm</article-title>. <source>Dermatol Surg</source>. <year>2001</year>;<volume>27</volume>(<issue>no. 5</issue>):<fpage>434</fpage>–<lpage>436</lpage>. <pub-id pub-id-type="doi">10.1046/j.1524-4725.2001.00329.x</pub-id>
+<pub-id pub-id-type="pmid">11359488</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="lsm23622-cit-0011">
+<string-name name-style="western">
+<surname>Tanzi</surname>
+<given-names>EL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alster</surname>
+<given-names>TS</given-names>
+</string-name>. <article-title>Long‐pulsed 1064‐nm Nd:YAG laser‐assisted hair removal in all skin types</article-title>. <source>Dermatol Surg</source>. <year>2004</year>;<volume>30</volume>(<issue>no. 1</issue>):<fpage>13</fpage>–<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1111/j.1524-4725.2004.30007.x</pub-id>
+<pub-id pub-id-type="pmid">14692920</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="lsm23622-cit-0012">
+<string-name name-style="western">
+<surname>Anderson</surname>
+<given-names>RR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Parrish</surname>
+<given-names>JA</given-names>
+</string-name>. <article-title>The optics of human skin</article-title>. <source>J Invest Dermatol</source>. <year>1981</year>;<volume>77</volume>(<issue>no. 1</issue>):<fpage>13</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1111/1523-1747.ep12479191</pub-id>
+<pub-id pub-id-type="pmid">7252245</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="lsm23622-cit-0013">
+<string-name name-style="western">
+<surname>Battle</surname>
+<given-names>EF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hobbs</surname>
+<given-names>LM</given-names>
+</string-name>. <article-title>Laser‐assisted hair removal for darker skin types</article-title>. <source>Dermatol Ther</source>. <year>2004</year>;<volume>17</volume>(<issue>no. 2</issue>):<fpage>177</fpage>–<lpage>83</lpage>. <pub-id pub-id-type="doi">10.1111/j.1396-0296.2004.04018.x</pub-id>
+<pub-id pub-id-type="pmid">15113285</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="lsm23622-cit-0014">
+<string-name name-style="western">
+<surname>Lukač</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gorjan</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Žabkar</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grad</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vizintin</surname>
+<given-names>Z</given-names>
+</string-name>. <article-title>Beyond customary paradigm: FRAC3® Nd:YAG laser hair removal</article-title>. <source>LA&amp;HA J. Laser and Health Academy</source>. <year>2010</year>;<volume>2010/1</volume>(<issue>no. 1</issue>):<fpage>35</fpage>–<lpage>46</lpage>.</mixed-citation></ref><ref id="lsm23622-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="lsm23622-cit-0015">
+<string-name name-style="western">
+<surname>Arsiwala</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Majid</surname>
+<given-names>I</given-names>
+</string-name>. <article-title>Methods to overcome poor responses and challenges of laser hair removal in dark skin</article-title>. <source>Indian J Dermatol Venereol Leprol</source>. <year>2019</year>;<volume>85</volume>(<issue>no. 1</issue>):<fpage>3</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.4103/ijdvl.IJDVL_1103_16</pub-id>
+<pub-id pub-id-type="pmid">30027915</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0016"><label>16</label><mixed-citation publication-type="miscellaneous" id="lsm23622-cit-0016">
+<string-name name-style="western">
+<surname>Tankovich</surname>
+<given-names>NI</given-names>
+</string-name>. ‘Hair removal device and method', US5226907A, Jul 13, 1993 [Accessed: Jul 06 <year>2022</year>. Online]. Available: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://patents.google.com/patent/US5226907A/en" ext-link-type="uri">https://patents.google.com/patent/US5226907A/en</ext-link>
+</mixed-citation></ref><ref id="lsm23622-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="lsm23622-cit-0017">
+<string-name name-style="western">
+<surname>Eltarky</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kažič</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lukač</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Avalanche FRAC 3® Nd: YAG laser hair removal</article-title>. <source>LA&amp;HA J. Laser and Health Academy</source>. <year>2013</year>;<volume>2013/1</volume>(<issue>no. 1</issue>):<fpage>23</fpage>–<lpage>31</lpage>.</mixed-citation></ref><ref id="lsm23622-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="lsm23622-cit-0018">
+<string-name name-style="western">
+<surname>Sandby‐Møller</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Poulsen</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wulf</surname>
+<given-names>HC</given-names>
+</string-name>. <article-title>Epidermal thickness at different body sites: relationship to age, gender, pigmentation, blood content, skin type and smoking habits</article-title>. <source>Acta Derm‐Venereol</source>. <year>2003</year>;<volume>83</volume>(<issue>no. 6</issue>):<fpage>410</fpage>–<lpage>413</lpage>. <pub-id pub-id-type="doi">10.1080/00015550310015419</pub-id>
+<pub-id pub-id-type="pmid">14690333</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="lsm23622-cit-0019">
+<string-name name-style="western">
+<surname>Otberg</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Richter</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schaefer</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blume‐Peytavi</surname>
+<given-names>U</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sterry</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lademann</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>Variations of hair follicle size and distribution in different body sites</article-title>. <source>J Invest Dermatol</source>. <year>2004</year>;<volume>122</volume>(<issue>no. 1</issue>):<fpage>14</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1046/j.0022-202X.2003.22110.x</pub-id>
+<pub-id pub-id-type="pmid">14962084</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="lsm23622-cit-0020">
+<string-name name-style="western">
+<surname>Fang</surname>
+<given-names>Q</given-names>
+</string-name>. <article-title>Mesh‐based Monte Carlo method using fast ray‐tracing in Plücker coordinates</article-title>. <source>Biomed Opt Express</source>. <year>2010</year>;<volume>1</volume>(<issue>no. 1</issue>):<fpage>165</fpage>–<lpage>75</lpage>. <pub-id pub-id-type="doi">10.1364/BOE.1.000165</pub-id>
+<pub-id pub-id-type="pmid">21170299</pub-id><pub-id pub-id-type="pmcid">PMC3003331</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="lsm23622-cit-0021">
+<string-name name-style="western">
+<surname>Salomatina</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jiang</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Novak</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yaroslavsky</surname>
+<given-names>AN</given-names>
+</string-name>. <article-title>Optical properties of normal and cancerous human skin in the visible and near‐infrared spectral range</article-title>. <source>J Biomed Opt</source>. <year>2006</year>;<volume>11</volume>(<issue>no. 6</issue>):<elocation-id>064026</elocation-id>. <pub-id pub-id-type="doi">10.1117/1.2398928</pub-id>
+<pub-id pub-id-type="pmid">17212549</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="lsm23622-cit-0022">
+<string-name name-style="western">
+<surname>Patwardhan</surname>
+<given-names>SV</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dhawan</surname>
+<given-names>AP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Relue</surname>
+<given-names>PA</given-names>
+</string-name>. <article-title>Monte Carlo simulation of light‐tissue interaction: three‐dimensional simulation for trans‐illumination‐based imaging of skin lesions</article-title>. <source>IEEE Trans Biomed Eng</source>. <year>2005</year>;<volume>52</volume>(<issue>no. 7</issue>):<fpage>1227</fpage>–<lpage>36</lpage>. <pub-id pub-id-type="doi">10.1109/TBME.2005.847546</pub-id>
+<pub-id pub-id-type="pmid">16041986</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="lsm23622-cit-0023">
+<string-name name-style="western">
+<surname>Ding</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lu</surname>
+<given-names>JQ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wooden</surname>
+<given-names>WA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kragel</surname>
+<given-names>PJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hu</surname>
+<given-names>X‐H</given-names>
+</string-name>. <article-title>Refractive indices of human skin tissues at eight wavelengths and estimated dispersion relations between 300 and 1600 nm</article-title>. <source>Phys Med Biol</source>. <year>2006</year>;<volume>51</volume>(<issue>no. 6</issue>):<fpage>1479</fpage>–<lpage>89</lpage>. <pub-id pub-id-type="doi">10.1088/0031-9155/51/6/008</pub-id>
+<pub-id pub-id-type="pmid">16510957</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="lsm23622-cit-0024">
+<string-name name-style="western">
+<surname>Milanič</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jia</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nelson</surname>
+<given-names>JS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Majaron</surname>
+<given-names>B</given-names>
+</string-name>. <article-title>Numerical optimization of sequential cryogen spray cooling and laser irradiation for improved therapy of port wine stain</article-title>. <source>Lasers Surg Med</source>. <year>2011</year>;<volume>43</volume>(<issue>no. 2</issue>):<fpage>164</fpage>–<lpage>75</lpage>. <pub-id pub-id-type="doi">10.1002/lsm.21040</pub-id>
+<pub-id pub-id-type="pmid">21384397</pub-id><pub-id pub-id-type="pmcid">PMC3160813</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="lsm23622-cit-0025">
+<string-name name-style="western">
+<surname>Verdel</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marin</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Milanič</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Majaron</surname>
+<given-names>B</given-names>
+</string-name>. <article-title>Physiological and structural characterization of human skin in vivo using combined photothermal radiometry and diffuse reflectance spectroscopy</article-title>. <source>Biomed Opt Express</source>. <year>2019</year>;<volume>10</volume>(<issue>no. 2</issue>):<fpage>944</fpage>–<lpage>60</lpage>. <pub-id pub-id-type="doi">10.1364/BOE.10.000944</pub-id>
+<pub-id pub-id-type="pmid">30800525</pub-id><pub-id pub-id-type="pmcid">PMC6377901</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="lsm23622-cit-0026">
+<string-name name-style="western">
+<surname>Nachabé</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hendriks</surname>
+<given-names>BHW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van der Voort</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Desjardins</surname>
+<given-names>AE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sterenborg</surname>
+<given-names>HJCM</given-names>
+</string-name>. <article-title>Estimation of biological chromophores using diffuse optical spectroscopy: benefit of extending the UV‐VIS wavelength range to include 1000 to 1600 nm</article-title>. <source>Biomed Opt Express</source>. <year>2010</year>;<volume>1</volume>(<issue>no. 5</issue>):<fpage>1432</fpage>–<lpage>42</lpage>. <pub-id pub-id-type="doi">10.1364/BOE.1.001432</pub-id>
+<pub-id pub-id-type="pmid">21258560</pub-id><pub-id pub-id-type="pmcid">PMC3018130</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="lsm23622-cit-0027">
+<string-name name-style="western">
+<surname>Mordon</surname>
+<given-names>SR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wassmer</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Reynaud</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zemmouri</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>‘Mathematical modeling of laser lipolysis</article-title>. <source>Biomed Eng Online</source>. <year>2008</year>;<volume>7</volume>:<elocation-id>10</elocation-id>. <pub-id pub-id-type="doi">10.1186/1475-925X-7-10</pub-id>
+<pub-id pub-id-type="pmid">18312643</pub-id><pub-id pub-id-type="pmcid">PMC2292728</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="lsm23622-cit-0028">
+<string-name name-style="western">
+<surname>Bashkatov</surname>
+<given-names>AN</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Genina</surname>
+<given-names>EA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kochubei</surname>
+<given-names>VI</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tuchin</surname>
+<given-names>VV</given-names>
+</string-name>. <article-title>Estimate of the melanin content in human hairs by the inverse Monte‐Carlo method using a system for digital image analysis</article-title>. <source>Quantum Electron</source>. <year>2006</year>;<volume>36</volume>(<issue>no. 12</issue>):<fpage>1111</fpage>–<lpage>18</lpage>. <pub-id pub-id-type="doi">10.1070/QE2006v036n12ABEH013336</pub-id>
+</mixed-citation></ref><ref id="lsm23622-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="lsm23622-cit-0029">
+<string-name name-style="western">
+<surname>Sun</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chaney</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Anderson</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aguilar</surname>
+<given-names>G</given-names>
+</string-name>. <article-title>Thermal modeling and experimental validation of human hair and skin heated by broadband light</article-title>. <source>Lasers Surg Med</source>. <year>2009</year>;<volume>41</volume>(<issue>no. 2</issue>):<fpage>161</fpage>–<lpage>169</lpage>. <pub-id pub-id-type="doi">10.1002/lsm.20743</pub-id>
+<pub-id pub-id-type="pmid">19226580</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="lsm23622-cit-0030">
+<string-name name-style="western">
+<surname>McKenzie</surname>
+<given-names>AL</given-names>
+</string-name>. <article-title>Physics of thermal processes in laser‐tissue interaction</article-title>. <source>Phys Med Biol</source>. <year>1990</year>;<volume>35</volume>(<issue>no. 9</issue>):<fpage>1175</fpage>–<lpage>1210</lpage>. <pub-id pub-id-type="doi">10.1088/0031-9155/35/9/001</pub-id>
+<pub-id pub-id-type="pmid">2236204</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="lsm23622-cit-0031">
+<string-name name-style="western">
+<surname>Torres</surname>
+<given-names>JH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Motamedi</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pearce</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Welch</surname>
+<given-names>AJ</given-names>
+</string-name>. <article-title>Experimental evaluation of mathematical models for predicting the thermal response of tissue to laser irradiation</article-title>. <source>Appl Opt</source>. <year>1993</year>;<volume>32</volume>(<issue>no. 4</issue>):<fpage>597</fpage>–<lpage>606</lpage>. <pub-id pub-id-type="doi">10.1364/AO.32.000597</pub-id>
+<pub-id pub-id-type="pmid">20802731</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="lsm23622-cit-0032">
+<string-name name-style="western">
+<surname>Bories</surname>
+<given-names>MF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Martini</surname>
+<given-names>MC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Et</surname>
+<given-names>MFB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cotte</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>Influence des variations thermiques sur les propriétés mécaniques du cheveu</article-title>. <source>Int J Cosmet Sci</source>. <year>1984</year>;<volume>6</volume>(<issue>no. 5</issue>):<fpage>213</fpage>–<lpage>29</lpage>. <pub-id pub-id-type="doi">10.1111/j.1467-2494.1984.tb00379.x</pub-id>
+<pub-id pub-id-type="pmid">19467114</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="lsm23622-cit-0033">
+<string-name name-style="western">
+<surname>Lee</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>
+<given-names>Y‐D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hyun</surname>
+<given-names>H‐J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pi</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jin</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lee</surname>
+<given-names>W‐S</given-names>
+</string-name>. <article-title>Hair shaft damage from heat and drying time of hair dryer</article-title>. <source>Ann Dermatol</source>. <year>2011</year>;<volume>23</volume>(<issue>no. 4</issue>):<fpage>455</fpage>–<lpage>62</lpage>. <pub-id pub-id-type="doi">10.5021/ad.2011.23.4.455</pub-id>
+<pub-id pub-id-type="pmid">22148012</pub-id><pub-id pub-id-type="pmcid">PMC3229938</pub-id></mixed-citation></ref><ref id="lsm23622-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="lsm23622-cit-0034">
+<string-name name-style="western">
+<surname>Barba</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Méndez</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Martí</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Parra</surname>
+<given-names>JL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Coderch</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>Water content of hair and nails</article-title>. <source>Thermochim Acta</source>. <year>2009</year>;<volume>494</volume>(<issue>no. 1</issue>):<fpage>136</fpage>–<lpage>40</lpage>. <pub-id pub-id-type="doi">10.1016/j.tca.2009.05.005</pub-id>
+</mixed-citation></ref><ref id="lsm23622-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="lsm23622-cit-0035">
+<string-name name-style="western">
+<surname>Barba</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Martí</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Manich</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carilla</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Parra</surname>
+<given-names>JL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Coderch</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>Water absorption/desorption of human hair and nails</article-title>. <source>Thermochim Acta</source>. <year>2010</year>;<volume>503–504</volume>:<fpage>33</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1016/j.tca.2010.03.004</pub-id>
+</mixed-citation></ref><ref id="lsm23622-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="lsm23622-cit-0036">
+<string-name name-style="western">
+<surname>Crawford</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Robbins</surname>
+<given-names>CR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Curran</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chesney</surname>
+<given-names>K</given-names>
+</string-name>. <article-title>A hysteresis in heat dried hair</article-title>. <source>J Soc Cosmet Chem</source>. <year>1981</year>;<volume>32</volume>(<issue>no. 1</issue>):<fpage>27</fpage>–<lpage>36</lpage>.</mixed-citation></ref></ref-list></back></article>

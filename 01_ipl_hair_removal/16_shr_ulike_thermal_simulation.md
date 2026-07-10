@@ -1,165 +1,187 @@
-# SHR Mode, Ulike, and Successive Flashes — an Interactive Follicle-Heating Model
+# IPL/SHR Follicle Heating — What Temperature Actually Produces Damage?
 
-**The question:** Ulike (and most home-IPL brands now) markets an **"SHR mode"** — Super Hair Removal — that fires *successive low-energy flashes* instead of one strong pulse, on the promise that the heat "accumulates" to a higher effective dose and destroys the follicle more gently. Does that actually work at the follicle, and can you *see* whether a given set of parameters crosses the threshold for real hair damage? This doc explains the physics, pins down what Ulike's SHR actually delivers, and pairs with an **interactive simulator** where you set the flash energy, count, timing, skin tone and hair type and watch the epidermis, the follicle, and the deep stem-cell target each heat up — and whether any of them crosses the damage line.
+*Compiled 2026-07-01; substantially revised 2026-07-10. Research orientation, not medical advice. The paired simulator is an exposure model, not a device-setting or patient-safety calculator.*
 
-> 🔥 **[▶ Open the interactive SHR & Multi-Flash Thermal Simulator](shr_thermal_simulator.html)** — pick an FDA-pulse-width-verified device (or go manual), set energy per-flash **or as one total that splits across your pulse count**, and watch the epidermis, follicle and deep stem-cell target heat up live. The °C graph is now physical temperature only; a separate, explicitly **unitless temporal-summation cue** shows why a later flash may feel sharper without pretending that perceived sting is a fourth tissue temperature. It flags follicle and skin thresholds and compares a single flash to a multi-flash train. (Open `shr_thermal_simulator.html` in a browser, or via the 🔥 tool link in the IPL viewer.)
+> **[Open the revised interactive thermal simulator](shr_thermal_simulator.html).** It now answers the temperature question with a time–temperature curve and a published Arrhenius damage integral. It no longer treats 65 °C as an instantaneous switch or 45–50 °C as a proven “accumulation kill” threshold.
 
-> ⚠️ Not medical advice. This synthesizes peer-reviewed laser/IPL-physics literature, Ulike's own published specs plus third-party technical reviews, and this repo's device research. The simulator is a **teaching model** — an illustrative lumped-parameter thermal integrator calibrated to published TRT/TDT values — not a validated Monte-Carlo simulation. Use it for intuition about **timing and stacking**, not to predict a number for your skin. This is the *millisecond-to-second* flash-timing question — a different timescale from the week-to-week **session cadence** in [12_treatment_cadence_guide.md](12_treatment_cadence_guide.md), and a companion to the device-specific [15_multi_flash_thermal_accumulation.md](15_multi_flash_thermal_accumulation.md).
+## 0. Bottom line
 
----
+1. **There is no single “right temperature.”** Thermal injury depends on both temperature and dwell time. The simulator uses the Arrhenius parameter pair reported in an 810 nm hair-removal simulation: frequency factor **A = 3.1 × 10^98 s−1**, activation energy **E = 6.3 × 10^5 J/mol**, and **Ω = 1** as its irreversible-injury criterion.[[1]](https://journals.sagepub.com/doi/10.1089/pho.2010.2895)
+2. **Under that one published parameterization**, constant temperature would need about **1.95 s at 60 °C**, **0.50 s at 62 °C**, **67.5 ms at 65 °C**, **9.4 ms at 68 °C**, or **2.6 ms at 70 °C** to reach Ω = 1. A 1 ms excursion to 65 °C gives only Ω ≈ 0.015. That is why the full temperature history matters more than whether a curve briefly touches a horizontal line.
+3. **“65 °C damages follicles” remains a useful modeling convention, not a universal instant switch.** Fiskerstrand et al. used 65 °C as a follicular damage threshold in a heat-diffusion model paired with a 29-patient clinical comparison, but their one-pulse and split-pulse systems produced similar hair reduction despite very different modeled peaks.[[2]](https://pubmed.ncbi.nlm.nih.gov/12766964/)
+4. **45–50 °C is an SHR protocol description, not a validated permanent-destruction threshold.** Professional low-fluence/high-repetition studies show real hair reduction and lower pain, but histology suggests apoptosis may contribute and no paper validates one universal 45 °C follicle-stem-cell kill line.[[3]](https://pmc.ncbi.nlm.nih.gov/articles/PMC5515709/)[[4]](https://ijdvl.com/methods-to-overcome-poor-responses-and-challenges-of-laser-hair-removal-in-dark-skin/)
+5. **Heating the pigmented hair is not identical to destroying every regenerative target.** The shaft/bulb is the absorber and heat source; durable reduction depends on injury to vulnerable follicular structures around it. Human histology after one ruby-laser treatment has even found acute damage without evidence of permanent follicle death.[[5]](https://pubmed.ncbi.nlm.nih.gov/10100652/)
+6. **No public home-IPL specification is sufficient to calculate a real follicle temperature.** Wavelength spectrum, depth-dependent fluence, absorption/scattering, hair geometry and melanin, pulse shape, overlap, contact, and cooling boundary conditions are missing. The simulator therefore reports a transparent *central illustrative trace* and labels its Ω output as a model criterion—not a prediction.
 
-## ⭐ The honest bottom line (read this first)
+## 1. Why the old version needed correction
 
-**"Successive flashes add up" is real physics — but only inside a timing window, and Ulike's home SHR mostly sits *outside* it on any single pass.** Three findings, all reproduced in the simulator:
+The earlier simulator had two useful ideas: short inter-pulse gaps produce thermal carryover, and the deep nonpigmented target warms more slowly than the pigmented heater. But its injury logic had three problems:
 
-1. **There are two different ways light damages a follicle, and SHR bets on the harder one.** A single strong flash spikes the follicle past ~65 °C and coagulates it *immediately* (the **peak pathway**). SHR instead keeps the follicle warm-but-not-hot and lets a **cumulative dose** build in the deep, unpigmented stem-cell target over time (the **accumulation pathway**). The accumulation pathway is gentler on skin — but it only pays off if the flashes arrive **faster than the target cools**.
+- It called a brief peak above **65 °C** an immediate “coagulation kill,” even though thermal denaturation is time-dependent.
+- It integrated simple **degree-seconds above 40 °C** and labeled the result “CEM43-style,” then used an arbitrary threshold to declare an “accumulation kill.” That was neither the CEM43 equation nor a validated follicle endpoint.
+- It treated **45–50 °C**—a temperature range repeated in SHR explanations—as a lethal floor. The clinical SHR literature supports outcomes, not that specific universal kill threshold.
 
-2. **Ulike's SHR cadence (~4 flashes/second, ~250 ms apart) is far slower than the follicle's ~10–100 ms cooling time**, so successive flashes do **not** stack much into a higher follicle *peak* — each peak mostly resets. That does **not** mean a later flash cannot sting more. Heat can still diffuse toward the deep target, and pain research separately shows that repeated noxious heat can undergo **temporal summation**; longer inter-pulse intervals reduce that perceptual summation.[[23]](https://pubmed.ncbi.nlm.nih.gov/10700328/)[[24]](https://pmc.ncbi.nlm.nih.gov/articles/PMC6357227/) This is not proof that the follicle itself is hotter on the last flash. Professional SHR uses **higher fluence (5–15 J/cm²) at ~10 Hz** — enough to hold a sustained plateau; the home version is a scaled-down, comfort-first cousin.
+The revised version separates three questions:
 
-3. **Home SHR's real-world results come from *repetition*, not from any single burst clearing threshold** — many overlapping passes per session, 8–12 sessions, and possibly a non-thermal apoptotic pathway that shows up in the histology.[[12]](https://pmc.ncbi.nlm.nih.gov/articles/PMC5515709/) The clinical evidence is genuinely reassuring on *outcome* (SHR ≈ single-pass efficacy, with much less pain), just not on the "each flash stacks to a bigger dose" story the marketing implies.
+| Question | Revised output |
+|---|---|
+| Does the pigmented heater itself accumulate generic coagulative injury? | Hair/follicle-heater Arrhenius **Ω** |
+| Does the slower deeper regenerative-tissue proxy accumulate that injury? | Deep-target Arrhenius **Ω** |
+| Does the curve enter the temperature range associated with gradual-heating SHR descriptions? | **Time at or above 45 °C**, explicitly descriptive and nonlethal |
 
-**Practical translation:** SHR mode is a legitimate **comfort** tool, not a shortcut to more dose. The most reliable lever remains the **highest comfortable single-flash fluence** plus finishing the full course — the same conclusion this repo reached for the Fansizhe triple-pulse mode in [15_multi_flash_thermal_accumulation.md](15_multi_flash_thermal_accumulation.md).
+It also calculates epidermal Ω with the same parameter set as a sensitivity warning while plainly stating that the coefficients are not validated separately for each compartment.
 
----
+## 2. The injury equation and what Ω means
 
-## 1. What "SHR mode" actually is — and what Ulike delivers
+The thermal damage integral is:
 
-**SHR (Super Hair Removal)** originated on professional diode-laser platforms as an **"in-motion"** technique: instead of a few strong stamps, the operator glides the handpiece continuously while it fires **many low-fluence pulses at a high repetition rate (typically ~10 Hz)**, so any given follicle is hit by dozens of overlapping weak pulses over a several-second pass. The pitch is "gradual bulk heating": raise the follicle and its surrounding stem cells to a sustained ~45–48 °C rather than a sudden ~65–70 °C spike — less pain, less epidermal risk, works across more skin types.[[10]](https://ijdvl.com/methods-to-overcome-poor-responses-and-challenges-of-laser-hair-removal-in-dark-skin/)
+\[
+\Omega(t)=\int_0^t A\exp\left(-\frac{E}{R\,T(\tau)}\right)d\tau
+\]
 
-Home brands have since adopted the "SHR" label. Here's what Ulike's flagship **Air 10** actually delivers, from its published specs and third-party teardown-style reviews:[[18]](https://www.scienceoverfluff.com/p/ulike-technical-review-and-results)
+where temperature is in Kelvin and **R = 8.314 J·mol−1·K−1**. In the first-order interpretation, the modeled transformed fraction is **1 − e^−Ω**; Ω = 1 corresponds to about **63%** transformation.[[1]](https://journals.sagepub.com/doi/10.1089/pho.2010.2895)
 
-| Spec | Value | Note |
+### Constant-temperature reference table
+
+| Tissue temperature | Time to Ω = 1 with the selected A/E pair | What to remember |
+|---:|---:|---|
+| 50 °C | 37.0 min | Far longer than a home-IPL burst |
+| 55 °C | 62.4 s | Still a sustained exposure |
+| 60 °C | 1.95 s | Seconds, not milliseconds |
+| 62 °C | 0.502 s | About half a second |
+| 65 °C | 67.5 ms | The familiar rule of thumb becomes time-dependent |
+| 68 °C | 9.4 ms | Within a long IPL/laser pulse scale |
+| 70 °C | 2.6 ms | A short high-temperature exposure can accumulate substantial Ω |
+| 72 °C | 0.72 ms | Very brief exposure can cross the model criterion |
+
+This table is **not a clinical dosing table**. It only demonstrates the selected equation. Arrhenius parameter pairs vary enormously by tissue, temperature range, and measured endpoint. Photothermal cell experiments also warn that CEM43 is most useful for long-duration hyperthermia, while short laser injury is better represented by transient Arrhenius integration—and even that can under- or overpredict individual damage.[[6]](thermal_model_source_docs/PMC6977020_photothermal_damage_rate_kinetics_fulltext.xml)[[7]](https://pmc.ncbi.nlm.nih.gov/articles/PMC5459687/)
+
+## 3. What human hair-removal studies actually measured
+
+### 3.1 Temperature measurements
+
+Topping et al. fired a 15 J/cm² normal-mode ruby laser into ex vivo human facelift skin while recording the exposed deep surface with thermal imaging. The most common follicular rise was **5–10 °C**, while follicles from one patient exceeded a **30 °C rise**; higher-temperature follicles showed deeper and broader injury. The study supports a temperature–damage relationship but also shows large follicle-to-follicle and patient-to-patient variability.[[8]](https://pubmed.ncbi.nlm.nih.gov/10884072/)
+
+A newer bench study measured human-hair photothermal responses to alexandrite and Nd:YAG hair-removal lasers and found nonlinear changes over repeated low-fluence pulses as hair structure and water content changed. That makes a fixed linear “J/cm² → °C” conversion even less defensible across a pulse train.[[9]](thermal_model_source_docs/PMC10107531_hair_temperature_avalanche_fulltext.xml)
+
+### 3.2 Histology
+
+- Grossman et al. found permanent loss in some normal-mode ruby-laser sites but said the biological mechanism and responsible targets remained uncertain; miniaturization of the bulb/papilla was one plausible pathway.[[10]](https://jamanetwork.com/journals/jamadermatology/fullarticle/189173)
+- Goldberg and Silapunt found selective acute follicular injury after 50 ms Nd:YAG pulses in six patients, but the tested fluences did not significantly change average injury depth.[[11]](https://pubmed.ncbi.nlm.nih.gov/11241524/)
+- Kato et al. found immediate moderate follicular damage and, one month later, cystic change and foreign-body giant cells after ruby or alexandrite exposure.[[12]](thermal_model_source_docs/Kato_2002_histological_changes_hair_removal_lasers.pdf)
+- A separate 3 ms ruby-laser histology study found **no evidence of permanent follicle death after one treatment**, an important limit on any one-flash “kill” claim.[[5]](https://pubmed.ncbi.nlm.nih.gov/10100652/)
+
+The responsible biological endpoint is therefore not simply “the shaft reached X °C.” Heater injury, outer-root-sheath injury, bulge/hair-germ stem cells, matrix/papilla damage, apoptosis, miniaturization, and the hair-cycle stage can produce different short- and long-term outcomes.
+
+## 4. Thermal clocks: TRT is not TDT, and neither is the injury threshold
+
+| Quantity | Evidence range | Correct interpretation |
+|---|---:|---|
+| Epidermal thermal relaxation | about 1.6–10 ms | Surface heat can diffuse rapidly; clinical sequential-pulse gaps often allow partial epidermal cooling.[[13]](https://pmc.ncbi.nlm.nih.gov/articles/PMC5108992/)[[14]](https://www.ncbi.nlm.nih.gov/books/NBK580525/) |
+| Hair shaft/follicle thermal relaxation | roughly 10–100 ms | A pulse arriving inside this range can raise the next heater peak; the exact value changes with diameter.[[15]](https://pmc.ncbi.nlm.nih.gov/articles/PMC9541334/)[[16]](https://pmc.ncbi.nlm.nih.gov/articles/PMC9239120/) |
+| Thermal Damage Time (extended target) | reported 170–1000 ms; one best clinical result at 400 ms | A diffusion timescale for transferring heat from absorber to a larger vulnerable target—not “hold any temperature for 400 ms and it dies.”[[17]](https://pubmed.ncbi.nlm.nih.gov/12030874/)[[18]](https://jcasonline.com/thermal-kinetic-selectivity-and-lasers/) |
+| Arrhenius Ω | depends on the entire temperature trace | The injury model. TDT affects the trace; it does not replace the damage equation. |
+
+This distinction matters for a four-pulse home burst. A 250 ms gap is longer than the nominal TRT of many follicles, so the **heater peak** may mostly reset. A slower deep-tissue tail can remain, but its existence does not prove Ω reached a damaging endpoint.
+
+## 5. What the professional SHR evidence proves
+
+Professional “in-motion” SHR is not merely two to four stamps at one spot. It combines low-to-moderate per-pulse fluence, high repetition, continuous motion, overlap, and many hits within a treatment pass.
+
+| Study | Exposure | Result |
 |---|---|---|
-| Flash structure | Two xenon lamps firing up to twice each → **up to 4 flashes** per burst | "Four distinct peaks with partial cooling between flashes" |
-| Burst energy | **≈26 J** total across the four flashes | Marketed headline energy |
-| Effective fluence | **≈6.67 J/cm²** for the *whole four-flash burst* | ⇒ only **≈1.7 J/cm² per individual sub-flash** |
-| SHR cadence | **≈4 flashes/second** (~250 ms apart) | The "stubborn hair" mode |
-| AutoGlide cadence | **≈2 flashes/second** (~500 ms) | Continuous mode for large areas |
-| Contact cooling | Sapphire tip held **≈20 °C** (68 °F) | Protects the epidermis; enables higher settings |
+| Braun 2009 | 810 nm, 5–10 J/cm² at 10 Hz vs 25–40 J/cm² at 1 Hz | Comparable 86–91% reduction; low-fluence mode much less painful.[[19]](https://pubmed.ncbi.nlm.nih.gov/19916262/) |
+| Omi 2017 | dynamic 10 Hz/10 J/cm² vs static 1 Hz/30 J/cm² | No significant efficacy difference; histology favored an apoptosis explanation for long-term effect.[[3]](https://pmc.ncbi.nlm.nih.gov/articles/PMC5515709/) |
+| Koo 2014 | low-fluence multi-pass vs high-fluence single-pass 810 nm | 40.7% vs 33.5% reduction, not significantly different; low-fluence mode less painful.[[20]](https://pubmed.ncbi.nlm.nih.gov/24752608/) |
+| Li 2016 | SHR vs high-fluence mode, same 810 nm platform | 90.2% vs 87% reduction and lower pain with SHR.[[21]](https://pubmed.ncbi.nlm.nih.gov/27419804/) |
+| Wanitphakdeedecha 2012 | diode SHR vs high-fluence Nd:YAG | Nd:YAG produced greater reduction, 54.2% vs 35.7%.[[22]](https://pubmed.ncbi.nlm.nih.gov/21923659/) |
+| Barolet 2012 | 15 J/cm² at 5 Hz | Significant 12-month reduction after four monthly sessions.[[23]](https://pubmed.ncbi.nlm.nih.gov/22437967/) |
 
-The Air 3 (and similar single-pulse home devices) instead fire **one stronger flash per press** — gentler to operate, but a real single-flash dose. This is the core fork the simulator lets you explore.
+These studies support **the clinical delivery method and outcomes**. They do not validate a home burst at roughly 1.7 J/cm² per sub-pulse, an undisclosed intra-burst gap, or a universal 45 °C destruction endpoint.
 
-**The unit-collision to watch, exactly as in [15_multi_flash_thermal_accumulation.md](15_multi_flash_thermal_accumulation.md):** "26 J / 6.67 J/cm²" is an *accumulated total*, not a single-flash figure. Whether that total behaves like one 6.67 J/cm² dose or like four independent 1.7 J/cm² doses depends entirely on the **inter-flash timing** — which is the whole point of the model below.
+## 6. Ulike Air 10: what is verified, marketed, and still unknown
 
----
+As of 2026-07-10, Ulike's current Air 10 page says SHR delivers **26 J per four-pulse burst**, **four flashes per second**, dual light sources, and contact cooling to **65 °F**.[[24]](https://www.ulike.com/products/sapphire-air-10-ipl-hair-removal) Those are manufacturer claims, not independent tissue-temperature measurements.
 
-## 2. Two thermal clocks — plus a separate pain-processing clock
+FDA K241998 is stronger for the UI20-family hardware envelope: OTC hair-removal indication, **550–1200 nm**, **0.88–3.20 ms** pulse width, multiple pulse modes, and a maximum accumulated fluence around **6.67 J/cm²** for listed configurations.[[25]](https://www.accessdata.fda.gov/cdrh_docs/pdf24/K241998.pdf)
 
-Everything hinges on **selective photothermolysis**: deliver energy faster than a target cools (its **Thermal Relaxation Time**, TRT) and the heat stays local and builds; deliver it slower and each dose dissipates before the next arrives.[[1]](https://pubmed.ncbi.nlm.nih.gov/6836297/) TRT scales with the *square* of target size, so it differs enormously by structure:
+The decisive missing values are:
 
-- **Epidermis (~3–10 ms):**[[2]](https://pmc.ncbi.nlm.nih.gov/articles/PMC5108992/)[[3]](https://www.ncbi.nlm.nih.gov/books/NBK580525/) sheds heat fast — the basis for pulse-splitting and contact cooling. Clinical IPL spaces sub-pulses **10–12 ms apart** specifically to let the epidermis clear this TRT (20–40 ms for darker skin).[[3]](https://www.ncbi.nlm.nih.gov/books/NBK580525/)
-- **Hair follicle / shaft (~10–100 ms, terminal ≈100 ms):**[[4]](https://pmc.ncbi.nlm.nih.gov/articles/PMC9541334/)[[5]](https://pmc.ncbi.nlm.nih.gov/articles/PMC9239120/)[[6]](https://pmc.ncbi.nlm.nih.gov/articles/PMC7190465/) **This is the stacking threshold.** Gaps under it → flashes build a higher peak. Gaps over it → no peak gain.
-- **Bulge stem-cell target — Thermal Damage Time (~170–1000 ms, optimal ≈400 ms):**[[7]](https://jcasonline.com/thermal-kinetic-selectivity-and-lasers/)[[8]](https://pubmed.ncbi.nlm.nih.gov/12030874/)[[9]](https://pubmed.ncbi.nlm.nih.gov/21417915/) the cells that must die for *permanent* reduction are unpigmented and physically separated from the melanin "heater." Heat has to **diffuse** to them, which takes hundreds of ms — the **accumulation window**. This is why "many pulses over ~1 second" can work when a single millisecond flash can't reach that deep.
-- **Perceived sting / temporal summation (not a tissue temperature):** normal heat-pain thresholds sit around the low-40s °C, but the rating a person gives is not a thermometer. Experiments with repeated laser and contact heat find that pain summation depends on both intensity and inter-pulse interval; increasing the interval reduces it.[[20]](https://pubmed.ncbi.nlm.nih.gov/11872608/)[[23]](https://pubmed.ncbi.nlm.nih.gov/10700328/)[[24]](https://pmc.ncbi.nlm.nih.gov/articles/PMC6357227/) This makes a stronger final sting plausible even when follicle-peak stacking is weak, but it is **not direct proof of residual follicle heat** and it cannot predict an individual’s pain from device specs.
+- exact optical energy in each of the four sub-pulses;
+- exact edge-to-edge gap inside one four-pulse burst;
+- repetition/overlap delivered to the *same follicle* during real gliding;
+- wavelength-resolved output and depth-dependent fluence;
+- measured epidermal, shaft/bulb, and perifollicular temperature histories.
 
-The gap between the follicle's own cooling (~10–100 ms) and the time heat needs to be *sustained* to reach the stem cells (~170–1000 ms) is the physical case for multi-flash SHR. Pain processing is a different, non-thermal layer on top of that physics. The named thermal mechanism is **progressive photothermolysis**: *"Repeated and fast emission of pulses of low energy progressively heats the chromophore to temperatures of 45–50° over a period of time and safeguards the epidermis from overheating as opposed to a sudden rise in temperature to 65° in conventional systems."*[[10]](https://ijdvl.com/methods-to-overcome-poor-responses-and-challenges-of-laser-hair-removal-in-dark-skin/)
+The simulator's Air 10 preset therefore encodes **one transparent interpretation** of the marketed 26 J / four-pulse / four-per-second description. It is not an asserted oscilloscope trace.
 
----
+## 7. Revised simulator design
 
-## 3. The two damage pathways, made visible
+The model keeps its educational three-compartment heat flow:
 
-The simulator models three coupled **thermal** compartments (epidermis, follicle/bulb, and bulge stem cells) and reports which pathway, if any, reaches threshold. Beneath that graph it shows a separate, unitless temporal-summation cue — a teaching visualization of repeated noxious-input processing, not a tissue-temperature calculation or a pain forecast:
+1. **Epidermis:** a competing optical absorber with fast heat loss and optional surface cooling.
+2. **Pigmented hair/follicle heater:** absorption rises with the hair slider; cooling time rises with diameter/coarseness.
+3. **Deeper regenerative target:** heated only by diffusion from the pigmented compartment and cooled more slowly.
 
-- **Peak (coagulation) pathway — the single strong flash.** All the energy arrives at once; the follicle spikes past **~65 °C** and denatures immediately. Efficient and one-and-done, but the same peak lands on the epidermis, so it hurts more and needs strong cooling. Load the **Ulike Air 3** or **Fansizhe T023A** preset: one ~6 J/cm² flash drives the follicle to ~69 °C and crosses via this pathway.
-- **Accumulation (SHR) pathway — many weak flashes.** Each flash is gentle (low, comfortable peak), but if they arrive faster than the deep target cools, the **stem-cell dose builds** across the train — sustained ~45–50 °C, the "gradual bulk heating" SHR sells. Load the **Pro SHR** preset: the follicle holds a sustained plateau *below* 65 °C while the green stem-cell curve climbs across the flash train and the cumulative dose crosses threshold — **damage without a painful spike.**
+It now reports:
 
-The failure mode sits between them: split the energy **too thin, too slow, or too few times** and *neither* follicle-damage pathway reaches threshold. Load **Ulike Air 10 — SHR** (250 ms cadence, ~1.7 J/cm²/flash): the follicle sawtooths and mostly resets between flashes, while the separate response cue may rise from first pulse to last. Now drag the **gap dial down to ~40 ms** and watch follicle peak stacking appear — the clearest demonstration that **timing, not total energy, is the hero variable.**
+- peak temperature for all three illustrative traces;
+- **heater Ω**, **deep-target Ω**, and **epidermis Ω**;
+- modeled transformation fraction **1 − e^−Ω**;
+- time the deep-target proxy spends at or above 45 °C, labeled **SHR-zone exposure only**;
+- residual heat before the next flash;
+- same-total single-vs-split comparison;
+- a separate unitless pain-summation cue.
 
-⚠️ A safety corollary the model flags: sub-threshold heat isn't automatically harmless. On hormonal areas (face/neck), under-dosing can provoke **paradoxical hypertrichosis** — coarser regrowth — so "barely warm" is not the same as "safe there." (See the paradoxical-regrowth notes in [cadence_planner.html](cadence_planner.html) and [12_treatment_cadence_guide.md](12_treatment_cadence_guide.md).)
+The built-in `SANITY()` sweep now covers 1,944 parameter combinations and 15 invariants, including finite/nonnegative Ω, monotonic Arrhenius dwell time, energy-split identity, pulse stacking, melanin competition, cooling direction, and the 65 °C ≈ 67.5 ms reference. Append `?selftest=1` to the simulator URL to run it and expose the result in `data-model-sanity` on the root HTML element.
 
----
+## 8. How to use it without overreading it
 
-## 4. What the clinical evidence actually says about SHR
+1. Start with the **temperature × time** slider. Compare 60, 65, and 70 °C to see why peak alone is misleading.
+2. Load a device. Green spec tags are disclosed in FDA or primary device material; the inter-pulse gap remains an explicit unknown.
+3. Compare one flash with the same total split across several pulses. Read both **peak** and **Ω**.
+4. Shorten the gap. Peak carryover should rise as the gap moves inside the follicle-TRT range.
+5. If the heater Ω crosses 1 but the deep-target Ω does not, read the result as **heater/lining injury without demonstrated durable-target injury**.
+6. If the curve enters 45–50 °C but Ω stays low, read it as **SHR-like exposure**, not a kill.
+7. Never use a “below” epidermis score as a safety clearance. The optical coefficients, skin state, placement, overlap, and actual cooling are not known.
 
-SHR is the **one** multi-pulse technique with real hair-removal-specific trial data. The pattern is consistent: usually **comparable** to single-pass high fluence, occasionally better, and **reliably less painful** — and it always works via a many-pulses-in-motion delivery, never 2–4 stamps at a fixed spot.
+## Evidence gaps
 
-| Study | Comparison | Result |
-|---|---|---|
-| Braun 2009 [[11]](https://pubmed.ncbi.nlm.nih.gov/19916262/) | SHR (5–10 J/cm², 10 Hz) vs. single-pass (25–40 J/cm², 1 Hz) | Comparable **86–91%**; SHR much less painful |
-| Omi 2017 [[12]](https://pmc.ncbi.nlm.nih.gov/articles/PMC5515709/) | Dynamic 10 Hz/10 J/cm² vs. static 1 Hz/30 J/cm² | No significant difference (**41.4%**); long-term effect attributed to **apoptosis** |
-| Koo 2014 [[13]](https://pubmed.ncbi.nlm.nih.gov/24752608/) | SHR in-motion vs. single-pass | 40.7% vs. 33.5% (n.s.); SHR significantly less pain |
-| Li 2016 [[14]](https://pubmed.ncbi.nlm.nih.gov/27419804/) | SHR vs. high-fluence mode, same laser | SHR slightly better (**90.2% vs. 87%**), far less painful |
-| Wanitphakdeedecha 2012 [[15]](https://pubmed.ncbi.nlm.nih.gov/21923659/) | Diode SHR vs. Nd:YAG single-pass high-fluence | Nd:YAG **won** (54.2% vs. 35.7%) — SHR isn't universally superior |
-| Barolet 2012 [[16]](https://pubmed.ncbi.nlm.nih.gov/22437967/) | Low-fluence 15 J/cm² at 5 Hz | Significant permanent reduction after 4 monthly sessions |
+- No peer-reviewed paper validates the selected Arrhenius A/E pair specifically for human bulge stem cells, hair germ, matrix, or dermal papilla during IPL.
+- The 2011 parameter pair was adopted from generic tissue/protein-denaturation modeling; using it for all three simulator compartments is a transparent simplification.
+- The temperature curves remain lumped and calibrated, not Monte Carlo light transport plus finite-element bioheat transfer.
+- The Fitzpatrick slider is a qualitative melanin-competition sensitivity test, not a measured mapping from Fitzpatrick type to epidermal optical depth.
+- The broad IPL spectrum is collapsed into one effective absorption coefficient; wavelength-dependent penetration is not modeled.
+- No study directly compares fixed-spot two-to-four-pulse home modes with a matched-total single flash while measuring follicle temperature and long-term hair outcome.
+- Ulike's exact intra-burst timing and per-sub-pulse energy remain unpublished in the sources reviewed.
+- Professional SHR outcome studies do not establish that home SHR uses the same thermal mechanism or per-follicle dose.
 
-Two honest caveats. First, **home** SHR uses per-pulse fluence (~1.7 J/cm²) far below the **5–15 J/cm²** in every one of these trials — so the trials validate the *technique*, not the specific home dose. Second, even the researchers who ran these studies aren't sure "gradual bulk heating" is the operative mechanism: Omi's histology attributed the durable effect to **"induced apoptotic cell death in the follicles rather than any other mechanism."**[[12]](https://pmc.ncbi.nlm.nih.gov/articles/PMC5515709/) The outcomes are real and reproduced; the *why* isn't fully settled.
+## Sources
 
-And the dose lever remains the clearest signal in the home-device data: a home 810 nm laser dose-response found **7 J/cm² → 44%, 12 → 49%, 20 → 65%** hair reduction at 12 months.[[17]](https://pubmed.ncbi.nlm.nih.gov/22886431/) Higher single-flash fluence beats splitting energy thinner.
+1. Ataie-Fashtami L, et al. *Simulation of Heat Distribution and Thermal Damage Patterns of Diode Hair-Removal Lasers.* Photomed Laser Surg. 2011;29:509-515. https://journals.sagepub.com/doi/10.1089/pho.2010.2895 — 810 nm LITCIT model; Arrhenius equation, A/E pair, Ω≥1 criterion, and long-pulse findings.
+2. Fiskerstrand EJ, Svaasand LO, Nelson JS. *Hair removal with long pulsed diode lasers: a comparison between two systems with different pulse structures.* Lasers Surg Med. 2003;32:399-404. https://pubmed.ncbi.nlm.nih.gov/12766964/ — 29-patient comparison plus heat-diffusion model using 65 °C damage convention.
+3. Omi T. *Static and dynamic modes of 810 nm diode laser hair removal compared: a clinical and histological study.* Laser Ther. 2017;26:31-37. https://pmc.ncbi.nlm.nih.gov/articles/PMC5515709/ — matched clinical outcome and apoptosis-oriented histology.
+4. Arsiwala SZ, Majid IM. *Methods to overcome poor responses and challenges of laser hair removal in dark skin.* IJDVL. 2019;85:3-9. https://ijdvl.com/methods-to-overcome-poor-responses-and-challenges-of-laser-hair-removal-in-dark-skin/ — review source for progressive-photothermolysis 45–50 °C description.
+5. McCoy S, Evans A, James C. *Histological study of hair follicles treated with a 3-msec pulsed ruby laser.* Lasers Surg Med. 1999;24:142-150. https://pubmed.ncbi.nlm.nih.gov/10100652/ — no evidence of permanent follicle death after one treatment.
+6. Denton ML, et al. *Effect of ambient temperature and intracellular pigmentation on photothermal damage rate kinetics.* J Biomed Opt. 2019;24:065002. https://pmc.ncbi.nlm.nih.gov/articles/PMC6977020/ — empirical transient photothermal Arrhenius analysis and limitations; [local full text](thermal_model_source_docs/PMC6977020_photothermal_damage_rate_kinetics_fulltext.xml).
+7. Ye H, De S. *Thermal injury of skin and subcutaneous tissues: a review of experimental approaches and numerical models.* Burns. 2017;43:909-932. https://pmc.ncbi.nlm.nih.gov/articles/PMC5459687/ — tissue-specific Arrhenius parameters and limitations of burn modeling.
+8. Topping A, et al. *The temperatures reached and the damage caused to hair follicles by the normal-mode ruby laser when used for depilation.* Ann Plast Surg. 2000;44:581-590. https://pubmed.ncbi.nlm.nih.gov/10884072/ — ex vivo human thermal imaging and histology.
+9. Viera-Mármol G, et al. *Measurements of hair temperature avalanche effect with alexandrite and Nd:YAG hair removal lasers.* Lasers Surg Med. 2023;55:89-98. https://pmc.ncbi.nlm.nih.gov/articles/PMC10107531/ — direct hair photothermal measurement; [local full text](thermal_model_source_docs/PMC10107531_hair_temperature_avalanche_fulltext.xml).
+10. Grossman MC, et al. *Permanent hair removal by normal-mode ruby laser.* Arch Dermatol. 1996;132:1299-1302. https://jamanetwork.com/journals/jamadermatology/fullarticle/189173 — clinical/histologic permanent-loss observations with mechanism uncertainty.
+11. Goldberg DJ, Silapunt S. *Histologic evaluation of a millisecond Nd:YAG laser for hair removal.* Lasers Surg Med. 2001;28:159-161. https://pubmed.ncbi.nlm.nih.gov/11241524/ — selective acute follicular thermal injury.
+12. Kato T, et al. *Histological Changes Elicited by Hair Removal Lasers.* J Nippon Med Sch. 2002;69:564-570. https://doi.org/10.1272/jnms.69.564 — immediate and one-month histology; [local open-access PDF](thermal_model_source_docs/Kato_2002_histological_changes_hair_removal_lasers.pdf).
+13. Kono T, et al. *Theoretical review of the treatment of pigmented lesions in Asian skin.* Laser Ther. 2016;25:179-184. https://pmc.ncbi.nlm.nih.gov/articles/PMC5108992/ — basal-layer TRT estimate.
+14. Gade A, et al. *Intense Pulsed Light (IPL) Therapy.* StatPearls. Updated 2024. https://www.ncbi.nlm.nih.gov/books/NBK580525/ — sequential-pulse delay and IPL overview.
+15. Byalakere Shivanna C, et al. *Comparison of submillisecond pulse and long-pulse 1064 nm Nd:YAG laser hair removal.* J Cosmet Dermatol. 2022;21:3393-3397. https://pmc.ncbi.nlm.nih.gov/articles/PMC9541334/ — hair-shaft TRT range.
+16. Goel A, Rai K. *Methods to Overcome Poor Response and Challenges of Facial Laser Hair Reduction.* J Clin Aesthet Dermatol. 2022;15:38-41. https://pmc.ncbi.nlm.nih.gov/articles/PMC9239120/ — terminal-follicle TRT and poor-response considerations.
+17. Rogachefsky AS, et al. *Evaluation of a new super-long-pulsed 810 nm diode laser for the removal of unwanted hair: the concept of thermal damage time.* Dermatol Surg. 2002;28:410-414. https://pubmed.ncbi.nlm.nih.gov/12030874/ — TDT 170–1000 ms and best result in the tested 400 ms condition.
+18. Altshuler GB, et al. *Extended theory of selective photothermolysis.* Lasers Surg Med. 2001;29:416-432. https://pubmed.ncbi.nlm.nih.gov/11891730/ — absorber/target separation and TDT framework.
+19. Braun M. *Comparison of high-fluence, single-pass diode laser to low-fluence, multiple-pass diode laser for hair reduction.* J Drugs Dermatol. 2009. https://pubmed.ncbi.nlm.nih.gov/19916262/ — professional high-repetition outcome and pain comparison.
+20. Koo B, et al. *A comparison of two 810 diode lasers for hair removal: low fluence, multiple pass versus high fluence, single pass.* Lasers Surg Med. 2014. https://pubmed.ncbi.nlm.nih.gov/24752608/
+21. Li W, et al. *A prospective randomized controlled clinical trial to compare SHR mode and HR mode of 810 nm diode laser.* J Cosmet Laser Ther. 2016. https://pubmed.ncbi.nlm.nih.gov/27419804/
+22. Wanitphakdeedecha R, et al. *A prospective randomized study comparing diode SHR with long-pulsed Nd:YAG.* J Eur Acad Dermatol Venereol. 2012. https://pubmed.ncbi.nlm.nih.gov/21923659/
+23. Barolet D. *Low fluence-high repetition rate diode laser hair removal 12-month evaluation.* Lasers Surg Med. 2012. https://pubmed.ncbi.nlm.nih.gov/22437967/
+24. Ulike Air 10 official product page. https://www.ulike.com/products/sapphire-air-10-ipl-hair-removal — current manufacturer claims for 26 J/four-pulse SHR burst, four flashes/s, dual lights, and 65 °F contact cooling; accessed 2026-07-10.
+25. FDA K241998, Shenzhen Ulike Smart Electronics UI20-family Ice Cooling IPL Hair Removal Device. https://www.accessdata.fda.gov/cdrh_docs/pdf24/K241998.pdf — primary regulatory source for indication, wavelength, fluence, spot size, pulse width, and pulse modes.
 
----
-
-## 5. The device data — what's actually disclosed
-
-You can only pick a device in the simulator if its **pulse width is disclosed in an FDA 510(k) filing** — otherwise you enter parameters manually. This is deliberate: it stops the tool from fabricating specs. The honest state of the data, pulled from this repo's [FDA data pipeline](fda_data_pipeline/) (`verified_specs.json`) and [03_fda_510k_analysis.md](03_fda_510k_analysis.md):
-
-| Device (family) | FDA 510(k) | Max fluence | Spot | **Pulse width** | Modes | **Inter-pulse gap** |
-|---|---|---|---|---|---|---|
-| **Ulike** UI20 / Sapphire Air | K241998 | 6.67 J/cm² | 3.9 cm² | **0.88–3.20 ms** ✅ | single / dual / triple + SHR | ✗ not in filing (~250 ms marketed) |
-| **Fansizhe** T023A/C/D/E ⭐ *(YOUR device — default)* | K223928 | 6.3 / 6.4 J/cm² †† | 3.0 cm² | **<12 ms** (FDA 4–12) ✅ | single / double | ◐ **250 ms "pulse-string" width** ‡‡ |
-| **Fansizhe** T033 / T055 | K253881 | 8.48 J/cm² ‡ | 3.3 cm² | **0.4–12 ms** ✅ | single / dual / triple | ✗ not disclosed |
-| **Fansizhe** T013C / T015 | K221569 | 4.03 J/cm² | 4.0 cm² | **4–12 ms** ✅ | single | n/a |
-| **Semlamp** SL-B352 family | K260518 | 6.41 J/cm² | 4.2 cm² | **0.7–3.6 ms** ✅ | single / dual / triple + **SHR button** | ✗ not disclosed |
-| **IONKA / Chuangtong** FZ-608/100/200 | K230739 | 5.43 J/cm² | 3.0 cm² | **0.5–0.8 ms** ✅ | single | n/a |
-| **Cyden** Flash&Go | K122280 | 5.0 J/cm² | 6.0 cm² | **5 ms** ✅ | single | n/a |
-
-†† From the **owner's manual** of the user's actual T023A/C/D/E unit: single-pulse **6.3 J/cm²**, double-pulse **6.4 J/cm²**, output ≤19 J, wavelength 560–1200 nm, pulse **<12 ms**, spot 3.0 cm², sapphire cooling. (A seller video separately measured a single flash at 18.23 J / 6.08 J/cm².) ‡ The 8.48 headline is a **summed** three-sub-pulse total, not a single-flash figure. ‡‡ The T023A manual is the one device here that discloses a timing figure: a **250 ms "single pulse string" width** — the envelope a burst occupies. That bounds a double-pulse's two sub-pulses to within ~250 ms but still doesn't state the exact gap between them; tellingly, the manual also shows **double-pulse total fluence (6.4) barely exceeds single (6.3)** — the same "the 2nd flash adds almost nothing" pattern from [15_multi_flash_thermal_accumulation.md](15_multi_flash_thermal_accumulation.md).
-
-**The one spec nobody fully publishes is the inter-pulse gap** — the millisecond delay between sub-pulses in a dual/triple/SHR mode. It's the single most important number for whether multi-flash "accumulation" is real (Section 2), and no filing or manual found states it outright (the T023A's 250 ms "pulse-string width" is the closest partial disclosure). That's why the simulator flags it and hands it to you. Ulike's ~250 ms is a *marketed SHR repetition* cadence (4 flashes/s), not a filed intra-burst gap. Many more Ulike-family and competitor filings exist (K250194, K251984, K260742, Mlay, Philips Lumea, Alovea…) but omit pulse width entirely, so they're reachable only via **Manual**.
-
-**Temperature reality-check (spot-checked against the literature).** The simulator's thermal thresholds hold up: **follicle coagulation ≈65 °C** matches the clinical target (65–70 °C; 60 °C minimum; time-dependent 70 °C@1 ms / 62 °C@100 ms); the **sustained-damage floor ≈45 °C** matches SHR's stated 45–48 °C bulk-heating goal; and epidermal load is counted from **44 °C** (basal-layer injury onset, Henriques–Moritz Arrhenius; irreversible by ~50 °C). The pain panel does not claim a thermal threshold: it is a separate, unitless cue informed by heat-pain and temporal-summation studies. Empirical backing: ruby-laser thermal imaging found follicles reaching the highest temperature rises showed the deepest damage. The calibration (a single ~6 J/cm² dark-hair flash → ~69–72 °C at the pigmented bulb) sits squarely in the coagulation band. Sources in the simulator (18–28). Many more Ulike-family and competitor filings exist (K250194, K251984, K260742, Mlay, Philips Lumea, Alovea…) but omit pulse width entirely, so they're reachable only via **Manual**.
-
-## 6. How to use the simulator
-
-Open **[shr_thermal_simulator.html](shr_thermal_simulator.html)**:
-
-1. **Pick a device** from the dropdown (defaults to your **T023A** in single-pulse mode) or a 🧪 illustrative scenario, or Manual. The panel shows exactly what's FDA-verified (green) vs. not disclosed (red). The **x-axis auto-zooms** — a single short flash fills a ~200 ms window so you can actually see its spike-and-decay; a spread-out SHR train widens to ~1.3 s.
-2. **Feel the hero dial.** On the Ulike default, drag the **gap from 250 → 40 ms** — the single most important thing to see. At 250 ms, the red follicle peak mostly resets while the lower, purple panel may still show temporal summation; at ~40 ms, red follicle peak stacking appears because the next pulse arrives before the follicle has cooled.
-3. **Check skin safety.** Watch the **Skin burn risk** gauge. Shorten the **pulse width** (or pick IONKA's 0.5–0.8 ms) and turn **cooling off** — the epidermis climbs into the burn zone because its short TRT makes it far more pulse-width-sensitive than the follicle. This is why real devices pair short pulses with strong contact cooling.
-4. **See why dark skin is contraindicated.** Drag **skin tone to Fitzpatrick VI**. The model applies **melanin competition** (Beer–Lambert): the epidermis absorbs the light on the way down and *shadows* the follicle. At VI, your device's single 6.3 J/cm² flash puts the **epidermis into the burn zone (~70 °C, HIGH risk) while the follicle stays sub-lethal (~42 °C)** — the epidermis and follicle curves literally swap places (they cross around Fitz V). That's the physical reason home IPL is both unsafe and ineffective on the deepest tones, and why devices have skin-tone sensors that refuse to fire.
-5. **Split a total.** Switch energy input to **"Total energy (J) ÷ pulses"**, set the spot size, and enter e.g. **28 J across 3 pulses** (the Fansizhe T033 triple claim) — the tool divides it into per-flash fluence and shows whether the split can match one strong flash.
-6. **Compare** single vs. multi with the checkbox, and try the **Pro SHR** scenario to see the accumulation pathway cross threshold without a painful peak.
-
-Controls: energy (**per-flash J/cm²** or **total J ÷ pulses**) · **spot size** · **gap** (hero) · **flash count** · **pulse width** (drives skin safety) · **skin tone** (melanin competition) · **hair coarseness** · **contact cooling** · single-flash compare. A built-in `SANITY()` self-test sweeps ~1,944 representative parameter combinations and asserts **13 model invariants** (monotonic/bounded temperatures, stacking, energy-split identity, darker-skin→hotter-epidermis-but-cooler-follicle, and nondecreasing relative temporal-summation cue in the default slow train) — run it from the browser console.
-
----
-
-## ⚠️ Evidence gaps — read before treating any output as settled
-
-- **The model is illustrative.** It reproduces the *qualitative* physics (shapes, timing thresholds, tradeoffs) from published TRT/TDT values. Absolute temperatures and the "damage threshold" are deliberately conservative stand-ins; real follicle heating depends on melanin distribution, perfusion, spot size and optical scattering a lumped model can't resolve.
-- **Ulike's exact intra-burst timing is not published.** "Four flashes with partial cooling between" is qualitative; the millisecond gap between the four sub-flashes of a single Air 10 burst isn't disclosed, so the "250 ms" figure is the *SHR-mode repetition* cadence, not necessarily the intra-burst gap.
-- **Home SHR per-pulse fluence sits below the clinical SHR trial range** (5–15 J/cm²), so those trials validate the technique, not the home dose.
-- **SHR's mechanism is still debated** — bulk heating vs. an apoptosis-driven pathway.[[12]](https://pmc.ncbi.nlm.nih.gov/articles/PMC5515709/)
-- **TDT range disagreement:** 170–1000 ms (optimal ~400) vs. a narrower 200–400 ms simulation estimate.[[8]](https://pubmed.ncbi.nlm.nih.gov/12030874/)[[9]](https://pubmed.ncbi.nlm.nih.gov/21417915/)
-- **No study directly compares single-pulse vs. fixed-spot multi-pulse for hair at matched total fluence** — the specific configuration home "accumulate" modes offer sits in a genuine gap between the evidence bases (see [15_multi_flash_thermal_accumulation.md](15_multi_flash_thermal_accumulation.md)).
-- **The pain panel is a proxy, not a validated pain predictor.** Heat-pain studies support temporal summation with repeated noxious stimuli, but none directly validates this model for IPL sub-flashes. Subjective pain depends on nerves, anxiety, body site, inflammation, contact pressure and cooling. Treat it as an explanation for first-to-last pulse sensation, not a safety clearance or a claim of residual follicle temperature.
-
----
-
-## 📚 Sources
-
-1. Anderson RR, Parrish JA. Selective photothermolysis. *Science* 1983;220:524-527. https://pubmed.ncbi.nlm.nih.gov/6836297/
-2. Kono T, et al. Theoretical review of pigmented-lesion treatment in Asian skin. *Laser Ther* 2016 — basal-layer TRT 1.6–2.8 ms. https://pmc.ncbi.nlm.nih.gov/articles/PMC5108992/
-3. Gade A, et al. Intense Pulsed Light (IPL) Therapy. *StatPearls* 2024 — inter-pulse delay 10–12 ms (20–40 ms darker skin). https://www.ncbi.nlm.nih.gov/books/NBK580525/
-4. Byalakere Shivanna C, et al. FRAC3 vs long-pulse 1064 nm Nd:YAG hair removal. *J Cosmet Dermatol* 2022 — hair-shaft TRT 10–100 ms. https://pmc.ncbi.nlm.nih.gov/articles/PMC9541334/
-5. Goel A, Rai K. Facial laser hair reduction. *J Clin Aesthet Dermatol* 2022 — terminal-follicle TRT 10–50 ms. https://pmc.ncbi.nlm.nih.gov/articles/PMC9239120/
-6. Bhat YJ, et al. Laser treatment in hirsutism. *Dermatol Pract Concept* 2020 — terminal-hair TRT ≈100 ms. https://pmc.ncbi.nlm.nih.gov/articles/PMC7190465/
-7. Altshuler GB, et al. Extended theory of selective photothermolysis. *Lasers Surg Med* 2001 (via JCAS summary) — Thermal Damage Time. https://jcasonline.com/thermal-kinetic-selectivity-and-lasers/
-8. Rogachefsky AS, et al. Super-long-pulsed 810 nm diode & the concept of thermal damage time. *Dermatol Surg* 2002 — TDT 170–1000 ms; optimal ≈400 ms. https://pubmed.ncbi.nlm.nih.gov/12030874/
-9. Ataie-Fashtami L, et al. Simulation of diode hair-removal thermal damage. *Photomed Laser Surg* 2011 — narrower 200–400 ms TDT for hair. https://pubmed.ncbi.nlm.nih.gov/21417915/
-10. Arsiwala SZ, Majid IM. Overcoming poor responses in dark skin. *IJDVL* 2019 — progressive photothermolysis (45–50 °C). https://ijdvl.com/methods-to-overcome-poor-responses-and-challenges-of-laser-hair-removal-in-dark-skin/
-11. Braun M. Low-fluence high-rep vs high-fluence low-rep 810 nm diode. *J Drugs Dermatol* 2009 — 86–91%, comparable. https://pubmed.ncbi.nlm.nih.gov/19916262/
-12. Omi T. Static vs dynamic 810 nm diode hair removal. *Laser Ther* 2017 — no significant difference; apoptosis mechanism. https://pmc.ncbi.nlm.nih.gov/articles/PMC5515709/
-13. Koo B, et al. Low-fluence multi-pass vs high-fluence single-pass 810 diode. *Lasers Surg Med* 2014. https://pubmed.ncbi.nlm.nih.gov/24752608/
-14. Li W, et al. SHR vs HR 810 nm diode, axillary hair. *J Cosmet Laser Ther* 2016 — 90.2% vs 87%; less pain. https://pubmed.ncbi.nlm.nih.gov/27419804/
-15. Wanitphakdeedecha R, et al. Diode SHR vs Nd:YAG single-pass. *JEADV* 2012 — Nd:YAG won (54.2% vs 35.7%). https://pubmed.ncbi.nlm.nih.gov/21923659/
-16. Barolet D. Low-fluence high-rep diode, 12-month. *Lasers Surg Med* 2012 — 15 J/cm² @5 Hz, significant permanent reduction. https://pubmed.ncbi.nlm.nih.gov/22437967/
-17. Wheeland RG. Home 810 nm laser dose-response. 2012 — 7/12/20 J/cm² → 44/49/65% at 12 mo. https://pubmed.ncbi.nlm.nih.gov/22886431/
-18. Ulike Air 10 specifications (dual xenon, up to 4 flashes, ≈26 J burst, ≈6.67 J/cm², ~4 flashes/s SHR, sapphire cooling ≈20 °C) — manufacturer specs + third-party technical review. https://www.scienceoverfluff.com/p/ulike-technical-review-and-results
-19. FDA 510(k) subject-device pulse-width specs (K241998 Ulike UI20 0.88–3.20 ms; K223928 Fansizhe 4–12 ms; K253881 0.4–12 ms; K260518 Semlamp 0.7–3.6 ms; K230739 IONKA 0.5–0.8 ms; K122280 Cyden 5 ms) — this repo's [FDA data pipeline](fda_data_pipeline/) `verified_specs.json` + [03_fda_510k_analysis.md](03_fda_510k_analysis.md), read directly from each 510(k) summary. Searchable at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm
-20. Defrin R, Ohry A, Blumen N, Urca G. Sensory determinants of thermal pain. *Brain*. 2002;125(Pt 3):501-510 — normal heat-pain thresholds around 42°C. https://pubmed.ncbi.nlm.nih.gov/11872608/
-21. Nold JI, Tinnermann A, Fadai T, Mintah M, Morgenroth MS, Büchel C. Comparing neural responses to cutaneous heat and pressure pain in healthy participants. *Scientific Reports*. 2025;15:14387 — heat-pain responses can rise toward the late phase of a sustained stimulus. https://www.nature.com/articles/s41598-025-99247-7
-22. Katz B, et al. Nociception and pain in humans lacking a functional TRPV1 channel. *J Clin Invest*. 2023 — human evidence linking TRPV1 function to noxious heat pain. https://pubmed.ncbi.nlm.nih.gov/36454632/
-23. Nielsen J, Arendt-Nielsen L. The importance of stimulus configuration for temporal summation of first and second pain to repeated heat stimuli. *Eur J Pain*. 1998;2(4):329-341 — radiant and contact heat; greater inter-pulse interval reduced pain summation. https://pubmed.ncbi.nlm.nih.gov/10700328/
-24. Riley JL 3rd, Cruz-Almeida Y, Staud R, Fillingim RB. Effects of manipulating the interstimulus interval on heat-evoked temporal summation of second pain across the age span. *Pain*. 2019;160(1):95-101 — in ten-contact heat trains, summation declined as the tested 2.5/3.5/4.5-second interval increased. https://pmc.ncbi.nlm.nih.gov/articles/PMC6357227/
-
-*Compiled 2026-07-01; updated 2026-07-09 to separate physical thermal carryover from pain temporal summation. Numbered citations are peer-reviewed/StatPearls sources on TRT/TDT/SHR physics, heat-pain physiology, and the SHR clinical trials; Ulike device figures are from the manufacturer and a third-party technical review (source 18). Pairs with the interactive [shr_thermal_simulator.html](shr_thermal_simulator.html) and the device-specific analysis in [15_multi_flash_thermal_accumulation.md](15_multi_flash_thermal_accumulation.md).*
+Local source manifest: [thermal_model_source_docs/README.md](thermal_model_source_docs/README.md).

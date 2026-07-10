@@ -2,7 +2,7 @@
 
 This topic covers at-home IPL hair removal, narrow-band DPL/photofacial claims, FDA clearances, supplier catalogs, pulse/fluence physics, cadence, skin-rejuvenation limits, and branded-versus-OEM sourcing.
 
-*Updated 2026-07-09. This is research orientation, not medical advice. Product prices, availability, and marketplace metrics are date-sensitive.*
+*Updated 2026-07-10. This is research orientation, not medical advice. Product prices, availability, and marketplace metrics are date-sensitive.*
 
 ## Key distinction
 
@@ -40,13 +40,14 @@ This topic covers at-home IPL hair removal, narrow-band DPL/photofacial claims, 
 | 13 | [Skin-rejuvenation guide](13_skin_rejuvenation_guide.md) | Off-label rejuvenation reality check and conservative boundary |
 | 14 | [IPL evidence map](14_ipl_research_evidence_map.md) | Mechanism, hair, cadence, rejuvenation, and safety evidence |
 | 15 | [Multi-flash thermal accumulation](15_multi_flash_thermal_accumulation.md) | Fixed-spot stacking, SHR distinction, and pulse-timing gaps |
-| 16 | [SHR / Ulike thermal simulation notes](16_shr_ulike_thermal_simulation.md) | Thermal-simulation interpretation for burst/in-motion behavior |
+| 16 | [SHR / Ulike thermal simulation notes](16_shr_ulike_thermal_simulation.md) | Revised time–temperature/Arrhenius model, 65 °C dwell-time reality check, and SHR evidence boundary |
 | 17 | [JOVS Blacken DPL and OEM comparison](17_jovs_blacken_dpl_and_oem_comparison.md) | Blacken, Pro, X; DPL vs IPL; Alibaba supplier/manufacturer trail |
 
 ## Supporting material
 
 - [Cadence planner](cadence_planner.html)
 - [SHR thermal simulator](shr_thermal_simulator.html)
+- [Thermal-model primary source manifest](thermal_model_source_docs/README.md)
 - [JOVS DPL and Alibaba comparator](jovs-dpl-comparator.html)
 - [JOVS DPL source manifest](jovs_dpl_source_docs/README.md)
 - [Fansizhe supplier conversation notes](fansizhe_natalie_conversation_notes.md)
@@ -62,6 +63,7 @@ This topic covers at-home IPL hair removal, narrow-band DPL/photofacial claims, 
 
 ## Status / open items
 
+- **Simulator boundary:** exact device-to-follicle temperatures remain unverified; 45–50 °C is only an SHR-associated exposure band, while Ω uses generic tissue/protein-denaturation coefficients rather than follicle-stem-cell-specific validation.
 - Bench-test JOVS Blacken Pro, Blacken X, and PAKISS AY101 with a spectrometer, calibrated energy meter, oscilloscope/photodiode, and thermal camera.
 - Obtain the SGS report behind JOVS’s consumer outcome claims.
 - Obtain exact-model AY101 IEC photobiological safety reports and reconcile its 900–1,200 nm versus “DPL” descriptions.
