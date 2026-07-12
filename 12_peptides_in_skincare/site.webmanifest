@@ -1,0 +1,9 @@
+{
+  "name": "Peptides in Skincare Research",
+  "short_name": "Peptides",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f7f7fb",
+  "theme_color": "#7c3aed",
+  "icons": []
+}

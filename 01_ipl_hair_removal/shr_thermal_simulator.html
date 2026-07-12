@@ -129,7 +129,7 @@ sup a{text-decoration:none;font-weight:700;color:var(--accent);font-size:11px}
   <div class="card">
     <h2>What this shows — and what it can't</h2>
     <p class="sub">The question behind Ulike's "SHR mode" and every "8.33 J/cm² over 3 flashes" claim: <i>do successive flashes add up as heat at the follicle, and does that heat reach a damaging threshold?</i></p>
-    <p style="font-size:13.5px;margin:0 0 8px">A single flash heats the pigmented shaft/bulb fast, then it cools. Fire again <b>before</b> it cools and the peak stacks; fire again <b>after</b> it cools and the pulse largely starts over. The chart keeps three modeled compartments separate: epidermis, pigmented hair/follicle heater, and deeper unpigmented regenerative tissue reached by diffusion. The damage gauges integrate every time step: a very brief 65&nbsp;°C excursion is not treated as equivalent to holding 65&nbsp;°C for 100&nbsp;ms.</p>
+    <p style="font-size:13.5px;margin:0 0 8px">A single flash heats the pigmented shaft/bulb fast, then it cools. Fire again <b>before</b> it cools and residual temperature stacks. But cooling back near baseline does <b>not</b> necessarily erase the effect of the prior pulse: measured alexandrite/Nd:YAG hair experiments found a short-lived change in the hair's response to later pulses even after measured temperature returned to ambient. This revision keeps those mechanisms separate as <b>thermal carryover</b> and an optional <b>pulse-history sensitivity</b>. The chart also separates epidermis, pigmented hair/follicle heater, and deeper unpigmented regenerative tissue reached by diffusion.</p>
     <div class="warn"><b>Read this as an exposure model, not a patient-specific temperature prediction.</b> The thermal curves are a transparent lumped model calibrated for teaching; home IPL filings do not disclose the optical, geometric, and tissue inputs needed to calculate an individual follicle temperature. The Arrhenius score is a published <i>generic tissue/protein-denaturation model used in a hair-removal simulation</i>, not a follicle-stem-cell-specific validation. Use it to compare timing, splitting, and time–temperature dose—not to clear a device or setting as effective or safe. Not medical advice.</div>
   </div>
 
@@ -149,7 +149,6 @@ sup a{text-decoration:none;font-weight:700;color:var(--accent);font-size:11px}
         <tr><td><b>Ω is time–temperature dose</b></td><td>For the parameter pair used here, Ω=1 requires about <b>1.95&nbsp;s at 60&nbsp;°C</b>, <b>68&nbsp;ms at 65&nbsp;°C</b>, or <b>2.6&nbsp;ms at 70&nbsp;°C</b> if temperature were held constant. Real pulse traces rise and fall, so the simulator integrates the curve rather than checking only its peak.</td></tr>
         <tr><td><b>45–50 °C is an SHR protocol claim, not a validated kill line</b></td><td>Professional low-fluence/high-repetition studies demonstrate hair reduction and lower pain, but the mechanism may include apoptosis and is not reducible to a universal 45&nbsp;°C destruction threshold.<sup><a href="#s10">10</a></sup><sup><a href="#s12">12</a></sup> This tool labels time in that band as <b>SHR-zone exposure</b>, not “accumulation kill.”</td></tr>
         <tr><td><b>The heater is not the whole target</b></td><td>Measured ruby-laser work found only a 5–10&nbsp;°C rise in many follicles, &gt;30&nbsp;°C in some, and deeper/broader damage in hotter follicles; it did not establish one universal absolute kill temperature.<sup><a href="#s23">23</a></sup> Histology shows acute damage, cystic change, and apoptosis vary by fluence, anatomy, and time.<sup><a href="#s30">30</a></sup></td></tr>
-        <tr><td><b>Heat-pain threshold ≈42–43 °C</b></td><td>Human thermal-pain testing reports normal heat-pain thresholds around <b>42 °C</b>, but a person’s pain rating is not a thermometer. Repeated radiant/contact heat can show <b>temporal summation</b>: a longer interval decreases summation. The simulator therefore plots a separate, unitless response cue rather than a fake “sting temperature.” <a href="https://pubmed.ncbi.nlm.nih.gov/11872608/" target="_blank" rel="noopener">[e]</a> <a href="https://pubmed.ncbi.nlm.nih.gov/10700328/" target="_blank" rel="noopener">[f]</a></td></tr>
       </tbody>
     </table></div>
     <p class="note" style="margin-top:8px"><b>Why not CEM43?</b> CEM43 was developed for longer hyperthermia exposures. Photothermal kinetics research describes it as most useful for long-duration hyperthermia and instead uses the Arrhenius integral for short laser heating.<sup><a href="#s31">31</a></sup> Even Arrhenius parameters vary markedly by tissue and endpoint, so Ω is shown as a <i>model criterion</i>, not a biological certainty.</p>
@@ -197,7 +196,7 @@ sup a{text-decoration:none;font-weight:700;color:var(--accent);font-size:11px}
       <div class="ctl hero">
         <label>Gap between flashes <span><span class="tag">the hero dial</span> <span class="val" id="v_gap"></span></span></label>
         <input type="range" id="gap" min="5" max="500" step="5" value="250">
-        <div class="hint">Edge-to-edge delay. <b>Under the follicle's ~10–100 ms cooling time → follicle peak stacks. By ~500 ms, even coarse follicles have effectively reset; slower heat diffusion toward the deep target can still leave a tail.</b> Separate from that, the nervous system may temporally sum repeated painful inputs. Ulike SHR ≈ 250 ms (4/s); pro SHR ≈ 100 ms (10 Hz); clinical fixed-spot stacking ≈ 10–40 ms. <b>Not disclosed by most home devices</b> — an honest unknown.</div>
+        <div class="hint">Edge-to-edge delay. Published follicle TRT is a <b>50%-heat-loss time</b>, not a full-reset time. Under ~40–100 ms, a terminal follicle retains at least half of its excess heat; at 250 ms a coarse modeled follicle can still retain roughly 10–20%, and at 500 ms roughly 1–3%. A slower deep-tissue tail and pulse-history sensitivity can persist longer. Ulike SHR ≈250 ms (4/s); clinical fixed-spot stacks use much shorter gaps. <b>Not disclosed by most home devices.</b></div>
       </div>
       <div class="ctl">
         <label>Number of flashes <span class="val" id="v_n"></span></label>
@@ -215,8 +214,9 @@ sup a{text-decoration:none;font-weight:700;color:var(--accent);font-size:11px}
     <div class="ctrls">
       <div class="ctl">
         <label>Skin tone (Fitzpatrick) <span class="val" id="v_skin"></span></label>
-        <input type="range" id="skin" min="1" max="6" step="1" value="3">
-        <div class="hint"><b>Illustrative melanin competition:</b> darker epidermis absorbs a larger share of incident light and transmits less toward hair. This slider is a qualitative sensitivity test—not a Fitzpatrick-to-absorption calibration or a safety classifier.</div>
+        <input type="range" id="skin" min="1" max="6" step="0.5" value="3">
+        <div class="hint"><b>Audited melanin-competition proxy:</b> the six integer anchors follow a published optical model's logarithmic 2–40% melanosome range; half steps are geometric interpolations, not real Fitzpatrick categories. This remains a sensitivity model—not an individual melanin measurement or safety classifier.</div>
+        <div class="esum" id="skinoptics" style="margin-top:6px"></div>
       </div>
       <div class="ctl">
         <label>Hair coarseness / darkness <span class="val" id="v_hair"></span></label>
@@ -225,13 +225,18 @@ sup a{text-decoration:none;font-weight:700;color:var(--accent);font-size:11px}
       </div>
       <div class="ctl">
         <label style="margin-bottom:6px">Contact cooling</label>
-        <label class="toggle"><input type="checkbox" id="cool" checked> Sapphire / ice cooling ON <span class="note" style="font-weight:400">(skin held ≈20 °C)</span></label>
-        <div class="hint">The model adds a surface heat sink. Cooling can reduce epidermal heating, but it does not make an excessive optical dose safe or reveal the true follicle temperature.</div>
+        <label class="toggle"><input type="checkbox" id="cool"> Sustained sapphire / ice cooling ON <span class="note" style="font-weight:400">(idealized sink)</span></label>
+        <div class="hint"><b>Off by default.</b> “On” assumes the contact surface keeps extracting heat toward a constant 22 °C sink. Real cooling can weaken as the window/device warms during a session, so off is the conservative late-session bracket—not a claim that the hardware provides zero cooling.</div>
       </div>
       <div class="ctl">
         <label style="margin-bottom:6px">Compare against a single flash</label>
         <label class="toggle"><input type="checkbox" id="cmp" checked> Overlay one flash of the <b>same total energy</b></label>
         <div class="hint">The fair test: spend all your Joules in one strong flash, or split them across many? (dashed gray = the single-flash follicle curve).</div>
+      </div>
+      <div class="ctl" style="grid-column:1/-1">
+        <label style="margin-bottom:6px">Hair response after a prior pulse</label>
+        <label class="toggle"><input type="checkbox" id="memory" checked> Include measured-laser <b>pulse-history sensitivity</b></label>
+        <div class="hint">Sensitivity scenario from direct human-hair alexandrite/Nd:YAG measurements: later pulses heated hair more even when ≥2 s spacing let measured temperature return to ambient. The reported low-temperature response memory lasted about 5 s; above ~70 °C it persisted &gt;60 s. This is <b>not validated for broadband home IPL</b>, so switch it off to see the residual-heat-only model.</div>
       </div>
     </div>
   </div>
@@ -248,11 +253,7 @@ sup a{text-decoration:none;font-weight:700;color:var(--accent);font-size:11px}
       <span id="cmpleg"><span class="swatch dash" style="border-color:#9aa3b2"></span> Single flash, same total energy (≤8 J/cm²)</span>
     </div>
 
-    <details style="margin-top:16px;padding-top:12px;border-top:1px solid var(--line)">
-      <summary style="color:var(--purple)">Optional: why later flashes may sting more</summary>
-      <p class="note" style="margin:8px 0 7px">Relative C-fiber/central-response cue, not °C and not a pain forecast. Repeated noxious heat can show temporal summation at intervals of seconds, even when a local thermal target has mostly cooled. The size of this effect varies widely by person, site, cooling, anxiety and contact.</p>
-      <svg id="painchart" viewBox="0 0 980 155" role="img" aria-label="Relative temporal summation cue for repeated heat pulses"></svg>
-    </details>
+    <p class="note" style="margin-top:14px"><b>Comfort note:</b> Later flashes may feel different because perception depends on repeated stimulation, skin temperature, contact, cooling, treatment site, and the individual. This simulator does not model or predict pain.</p>
 
     <div class="gauges" style="margin-top:16px">
       <div class="g"><div class="k">Heater Arrhenius Ω</div><div class="v" id="pf">—</div><div class="cap" id="pfcap"></div><div class="bar"><i id="pfbar"></i></div></div>
@@ -260,7 +261,8 @@ sup a{text-decoration:none;font-weight:700;color:var(--accent);font-size:11px}
       <div class="g"><div class="k">Peak epidermis temp</div><div class="v" id="pe">—</div><div class="cap" id="pecap"></div><div class="bar"><i id="pebar"></i></div></div>
       <div class="g"><div class="k">Epidermis Arrhenius Ω</div><div class="v" id="ps">—</div><div class="cap" id="pscap"></div><div class="bar"><i id="psbar"></i></div></div>
       <div class="g"><div class="k">SHR-zone exposure</div><div class="v" id="pz">—</div><div class="cap" id="pzcap"></div><div class="bar"><i id="pzbar"></i></div></div>
-      <div class="g"><div class="k">Pain summation cue</div><div class="v" id="pp">—</div><div class="cap" id="ppcap"></div><div class="bar"><i id="ppbar"></i></div></div>
+      <div class="g"><div class="k">Pulse-history gain</div><div class="v" id="pm">—</div><div class="cap" id="pmcap"></div><div class="bar"><i id="pmbar"></i></div></div>
+      <div class="g"><div class="k">Near-baseline recovery</div><div class="v" id="pr">—</div><div class="cap" id="prcap"></div><div class="bar"><i id="prbar"></i></div></div>
     </div>
     <div class="diagnostics" aria-label="Thermal damage diagnostics">
       <div class="diag" id="diagPath"><div class="k">Damage evidence</div><div class="v">—</div><div class="cap"></div></div>
@@ -287,7 +289,6 @@ sup a{text-decoration:none;font-weight:700;color:var(--accent);font-size:11px}
       </div>
     </div>
     <div class="blurb" id="cmpverdict"></div>
-    <div class="blurb" id="painverdict"></div>
   </div>
 
   <!-- THE ULIKE CASE -->
@@ -305,9 +306,8 @@ sup a{text-decoration:none;font-weight:700;color:var(--accent);font-size:11px}
     </div>
     <p style="font-size:13.5px;margin-top:14px">Two things fall straight out of the model when you load the <b>Ulike Air 10 SHR</b> preset:</p>
     <ol style="font-size:13.3px;margin:6px 0 0;padding-left:20px">
-      <li><b>The ~250 ms cadence is far slower than the follicle's ~10–100 ms cooling time</b>, so successive flashes do <i>not</i> stack much into a higher follicle <i>peak</i>. But "mostly reset" is not "all heat is gone": a coarse follicle has a small residual tail and heat can still diffuse toward the deep target.</li>
-      <li><b>A stronger last sting does not prove a hotter last follicle.</b> The new lower panel deliberately separates a unitless <i>pain temporal-summation</i> cue from the °C traces. Repeated noxious heat can be perceived as increasingly painful even when the physical follicle peaks repeat; that is neural integration, not evidence that the red curve should climb. Ulike's SHR is still <b>not</b> the fast 10–40 ms fixed-spot stacking that raises follicle peak temperature.</li>
-      <li><b>Its efficacy bet is repeated low-peak exposure.</b> A 250&nbsp;ms gap can leave a slower deep-tissue tail even when the heater peak mostly resets. The simulator now distinguishes that carryover from proof of injury: time in the 45–50&nbsp;°C SHR band is reported, but only the Arrhenius integral is allowed to cross the generic coagulative-damage criterion.</li>
+      <li><b>The ~250 ms cadence is longer than one follicle half-cooling time, not long enough to justify “fully reset.”</b> With TRT treated correctly as a half-time, the central coarse-hair case retains roughly a tenth of its heater temperature excess before the next flash; the slower diffusion target retains more.</li>
+      <li><b>Repeated pulses can matter in two different ways.</b> Residual temperature extends the thermal history, while the measured-laser sensitivity option lets a prior pulse increase the hair's response to a later one even after temperature nearly resets. That second pathway is plausible but cross-wavelength evidence—not a validated Ulike/IPL coefficient.</li>
     </ol>
     <p class="note" style="margin-top:12px">This mirrors the write-up's conclusion for the Fansizhe "triple-pulse" mode: an "accumulated fluence" headline (26 J, 6.67 J/cm²) is only meaningful alongside timing and per-pulse dose. The strongest professional SHR finding is <b>less pain with generally comparable efficacy in the studied protocols</b>; it does not validate an undisclosed home-device burst. <a href="15_multi_flash_thermal_accumulation.md">Full multi-flash write-up →</a></p>
   </div>
@@ -320,9 +320,9 @@ sup a{text-decoration:none;font-weight:700;color:var(--accent);font-size:11px}
       <thead><tr><th>Structure</th><th>Timescale</th><th>What it means for flash timing</th></tr></thead>
       <tbody>
         <tr><td>Epidermis (TRT)</td><td>~3–10 ms<sup><a href="#s2">2</a></sup><sup><a href="#s3">3</a></sup></td><td>Sheds heat fast → the basis for pulse-splitting &amp; contact cooling. Keep gaps &gt; this so skin recovers.</td></tr>
-        <tr><td>Hair follicle / shaft (TRT)</td><td>~10–100 ms (terminal ≈100)<sup><a href="#s4">4</a></sup><sup><a href="#s5">5</a></sup><sup><a href="#s6">6</a></sup></td><td><b>The stacking threshold.</b> Gaps under this → flashes build a higher peak. Gaps over it → no peak gain.</td></tr>
+        <tr><td>Hair follicle / shaft (TRT)</td><td>~40–100 ms for 200–300 µm follicles; smaller targets can be faster<sup><a href="#s4">4</a></sup><sup><a href="#s34">34</a></sup></td><td><b>TRT is the time to lose 50% of induced heat—not the time to reach baseline.</b> The model therefore converts TRT half-time to an exponential time constant before calculating carryover.</td></tr>
+        <tr><td>Hair response memory</td><td>~5 s after ~55 °C pulses; &gt;60 s after &gt;70 °C in one ex-vivo hair experiment<sup><a href="#s32">32</a></sup></td><td>Temperature can return to ambient while the next pulse still produces a larger rise. This optional sensitivity layer is direct laser/hair evidence but an extrapolation to broadband IPL in skin.</td></tr>
         <tr><td>Extended target — Thermal Damage Time</td><td>~170–1000 ms; one study's best result at 400 ms<sup><a href="#s7">7</a></sup><sup><a href="#s8">8</a></sup><sup><a href="#s9">9</a></sup></td><td><b>A diffusion timescale, not a required dwell time at one temperature.</b> It describes how long heat can take to spread from an absorber to the extended target; it must not be substituted for an injury threshold.</td></tr>
-        <tr><td>Perceived sting / temporal summation</td><td>Can build with repeated noxious heat; decreases as inter-stimulus interval lengthens<sup><a href="#s27">27</a></sup><sup><a href="#s28">28</a></sup></td><td><b>Not a temperature compartment and not a follicle-damage metric.</b> A rising last-pulse sensation can be neural temporal summation even when the physical follicle peak mostly resets. Its timing and magnitude cannot be inferred from IPL specs alone.</td></tr>
         <tr><td>Tissue injury metric</td><td>Arrhenius Ω integrates the transient temperature trace<sup><a href="#s9">9</a></sup><sup><a href="#s31">31</a></sup></td><td>Ω=1 is a model endpoint (≈63% transformation), not a universal patient threshold. Parameters depend on tissue and the observed injury endpoint.</td></tr>
       </tbody>
     </table></div>
@@ -386,37 +386,37 @@ const DEVICES = {
   ulike_ui20:{brand:'Ulike', model:'UI20 / Sapphire Air (SHR mode)', k:'K241998',
     wl:'550–1200 nm', fluMax:6.67, spot:3.9, pulseLo:0.88, pulseHi:3.20, modes:'single / dual / triple + SHR (~4 flashes/s)',
     gapNote:'intra-burst gap NOT in the FDA filing; ~250 ms is the marketed SHR cadence (4/s), ~500 ms AutoGlide',
-    cfg:{emode:'flu',flu:1.67,n:4,gap:250,dur:2,spot:3.9,skin:3,hair:70,cool:true,cmp:false},
+    cfg:{emode:'flu',flu:1.67,n:4,gap:250,dur:2,spot:3.9,skin:3,hair:70,cool:false,cmp:true},
     note:'Ulike’s signature SHR: one burst of up to 4 sub-flashes (~1.67 J/cm² each; 26 J / 6.67 J/cm² total) repeated ~4×/s while gliding. Loaded as the literal 4-flash burst — watch it sit sub-threshold at 250 ms, then RAISE the flash count (a glide pass hits a spot several times) and/or drag the gap dial down.'},
   wavytalk_bareit:{brand:'Wavytalk', model:'Bare It 24J / Jindi double-pulse class', k:'K252209',
     wl:'600–1200 nm retail claim; K252209 family also lists 550±15–1200 nm variants', fluMax:8.0, spot:3.0, pulseLo:0.16, pulseHi:12, modes:'levels 1–2 single pulse / levels 3–5 dual pulse',
     gapNote:'Wavytalk does NOT publish the dual-pulse millisecond gap. The often-quoted "20 ms on, 60 ms off" line in K252209 is in the predicate/reference comparison area, so it must NOT be attributed to Wavytalk/Jindi. Loaded at 300 ms only because Wavytalk publishes a 0.3–2.7 s flash-duration/cadence range; use the gap dial as an unknown, not a verified spec.',
-    cfg:{emode:'tot',flu:4,n:2,gap:300,dur:10,spot:3.0,skin:3,hair:70,cool:true,cmp:true},
+    cfg:{emode:'tot',flu:4,n:2,gap:300,dur:10,spot:3.0,skin:3,hair:70,cool:false,cmp:true},
     note:'Wavytalk Bare It retail specs: 24 J total energy, 3.0 cm² window, 8 J/cm² headline, 600–1200 nm, ice cooling, and dual pulse on levels 3–5. The brand/press materials point to FDA K252209, a Foshan Jindi family with single-pulse models (JD-TM016/023) and double-pulse models (JD-TM027/028/032). The critical unknown is the actual gap between Wavytalk’s two flashes. K252209 supports the broader Jindi double-pulse family and short pulse durations, but the 60 ms off-time belongs to the predicate/reference comparison, not Wavytalk. This preset starts with 24 J split across two pulses (4.0 J/cm² each) at a 300 ms unknown-gap scenario; drag toward 5–100 ms only as a hypothetical best case, or toward 500 ms to test a no-meaningful-follicle-carryover case.'},
   fansizhe_t023:{brand:'Fansizhe', model:'T023A/C/D/E — YOUR device', k:'K223928',
     wl:'560–1200 nm', fluMax:6.4, spot:3.0, pulseLo:4, pulseHi:12, modes:'single (6.3 J/cm²) / double (6.4 J/cm²)',
     gapNote:'your manual lists a 250 ms "single pulse string" width (the burst envelope) — so a double-pulse’s two sub-pulses span up to ~250 ms; the exact sub-pulse gap inside it isn’t stated. FDA pulse width 4–12 ms (manual: <12 ms).',
-    cfg:{emode:'flu',flu:6.3,n:1,gap:250,dur:10,spot:3.0,skin:3,hair:70,cool:true,cmp:false},
+    cfg:{emode:'flu',flu:6.3,n:1,gap:250,dur:10,spot:3.0,skin:3,hair:70,cool:false,cmp:false},
     note:'YOUR device, per your manual: 560–1200 nm · single-pulse 6.3 J/cm² / double 6.4 J/cm² · output up to 19 J · pulse <12 ms · 3.0 cm² window · sapphire cooling. Loaded in single-pulse mode so you can inspect the central illustrative trace and its Ω score. To see double-pulse: switch energy to "Total ÷ pulses", set 19.2 J across 2 pulses (spot 3.0). The device-specific gap and true tissue temperature remain unknown.'},
   fansizhe_t033:{brand:'Fansizhe', model:'T033 / T055 — high-fluence', k:'K253881',
     wl:'560–1200 nm', fluMax:8.48, spot:3.3, pulseLo:0.4, pulseHi:12, modes:'single / dual / triple pulse',
     gapNote:'the "8.48 J/cm²" headline is a SUMMED 3-sub-pulse total; inter-pulse gap not disclosed (see doc 15)',
-    cfg:{emode:'flu',flu:5.4,n:1,gap:60,dur:6,spot:3.3,skin:3,hair:75,cool:true,cmp:true},
+    cfg:{emode:'flu',flu:5.4,n:1,gap:60,dur:6,spot:3.3,skin:3,hair:75,cool:false,cmp:true},
     note:'The high-fluence catalog star. Cleared single-pulse ≈5.4 J/cm²; the 8.48 headline is the 3-sub-pulse SUM. Switch to "Total ÷ pulses", enter 28 J across 3 pulses, and test whether the split matches one strong flash — the exact question doc 15 asks.'},
   fansizhe_t013:{brand:'Fansizhe', model:'T013C / T015 — predicate', k:'K221569',
     wl:'510–1200 nm', fluMax:4.03, spot:4.0, pulseLo:4, pulseHi:12, modes:'single pulse',
     gapNote:'single-pulse device — no inter-pulse gap',
-    cfg:{emode:'flu',flu:4.03,n:1,gap:60,dur:8,spot:4.0,skin:3,hair:70,cool:true,cmp:false},
+    cfg:{emode:'flu',flu:4.03,n:1,gap:60,dur:8,spot:4.0,skin:3,hair:70,cool:false,cmp:false},
     note:'A lower-fluence predicate (4.03 J/cm², larger 4 cm² window) — see how a weaker single flash lands versus the T023A.'},
   semlamp_b352:{brand:'Semlamp', model:'SL-B352 family — real SHR button', k:'K260518',
     wl:'530–1200 nm', fluMax:6.1, spot:3.9, pulseLo:0.7, pulseHi:3.6, modes:'single / dual / triple + dedicated SHR button',
     gapNote:'has an actual SHR button in the filing, but its pulse cadence is not disclosed',
-    cfg:{emode:'flu',flu:2.0,n:6,gap:200,dur:2,spot:3.9,skin:3,hair:70,cool:true,cmp:false},
+    cfg:{emode:'flu',flu:2.0,n:6,gap:200,dur:2,spot:3.9,skin:3,hair:70,cool:false,cmp:false},
     note:'One of the few home devices whose FDA filing lists a dedicated SHR button (plus single/dual/triple). For SL-B352/SL-B352-1/SL-B352-2, the subject-device row lists 1.8–6.1 J/cm², 3.9 cm², and 0.7–3.6 ms. Loaded in an SHR-like multi-flash mode; the cadence is an estimate — set it yourself.'},
   ionka_fz:{brand:'IONKA / Chuangtong', model:'FZ-608 / FZ-100 / FZ-200', k:'K230739',
     wl:'510–1200 nm', fluMax:5.43, spot:3.0, pulseLo:0.5, pulseHi:0.8, modes:'single pulse',
     gapNote:'single-pulse device — no inter-pulse gap',
-    cfg:{emode:'flu',flu:5.0,n:1,gap:60,dur:0.7,spot:3.0,skin:3,hair:70,cool:true,cmp:false},
+    cfg:{emode:'flu',flu:5.0,n:1,gap:60,dur:0.7,spot:3.0,skin:3,hair:70,cool:false,cmp:false},
     note:'The ultra-short-pulse case: 0.5–0.8 ms. Use it to see how a shorter pulse changes the central epidermis trace and Ω score at the same fluence. This does not predict an individual burn.'},
   cyden_flashngo:{brand:'Cyden', model:'iPulse SmoothSkin — older high-fluence IPL', k:'K122280',
     wl:'530–1100 nm', fluMax:10.0, spot:3.0, pulseLo:10, pulseHi:25, modes:'single pulse / double pulse settings',
@@ -426,15 +426,15 @@ const DEVICES = {
   manual:{brand:'✏️ Manual entry', model:'set every parameter yourself', k:null,
     wl:'—', fluMax:null, spot:3.9, pulseLo:null, pulseHi:null, modes:'you choose',
     gapNote:'nothing is locked — this is for any device not listed, or free exploration',
-    cfg:{emode:'flu',flu:5,n:1,gap:60,dur:8,spot:3.9,skin:3,hair:70,cool:true,cmp:false},
+    cfg:{emode:'flu',flu:5,n:1,gap:60,dur:8,spot:3.9,skin:3,hair:70,cool:false,cmp:false},
     note:'Free exploration. Enter whatever fluence, pulse width, timing, spot and skin/hair you like.'}
 };
 const SCENARIOS = {
-  clinical_stack:{label:'Clinical fast-stack', cfg:{emode:'flu',flu:3,n:3,gap:20,dur:3,spot:3.0,skin:3,hair:70,cool:true,cmp:true},
+  clinical_stack:{label:'Clinical fast-stack', cfg:{emode:'flu',flu:3,n:3,gap:20,dur:3,spot:3.0,skin:3,hair:70,cool:false,cmp:true},
     note:'ILLUSTRATIVE physics (not a specific product): the real fast-stacking technique — 3 short sub-pulses 20 ms apart, inside the follicle’s cooling time, so the peak climbs. What genuine pulse-stacking looks like.'},
-  pro_shr:{label:'Pro SHR (in-motion)', cfg:{emode:'flu',flu:2.7,n:14,gap:55,dur:15,spot:3.9,skin:3,hair:70,cool:true,cmp:false},
+  pro_shr:{label:'Pro SHR (in-motion)', cfg:{emode:'flu',flu:2.7,n:14,gap:55,dur:15,spot:3.9,skin:3,hair:70,cool:false,cmp:false},
     note:'ILLUSTRATIVE physics (not a specific product): professional in-motion SHR-like timing — many pulses at high repetition. The preset demonstrates a sustained low-peak trace. Clinical trials support the delivery concept, but this arbitrary preset is not a validated protocol and may or may not cross Ω=1.'},
-  underdosed:{label:'Under-dosed (fails)', cfg:{emode:'flu',flu:1.2,n:3,gap:300,dur:12,spot:3.9,skin:3,hair:35,cool:true,cmp:true},
+  underdosed:{label:'Under-dosed (fails)', cfg:{emode:'flu',flu:1.2,n:3,gap:300,dur:12,spot:3.9,skin:3,hair:35,cool:false,cmp:true},
     note:'ILLUSTRATIVE physics (not a specific product): a low-exposure case — fluence low, flashes few and slow, hair fine. Compare the resulting Ω values without treating them as a clinical prescription.'}
 };
 const QUOTES=[
@@ -444,9 +444,6 @@ const QUOTES=[
 	 {q:'A novel diode laser with low level fluence (5–10 J/cm²) with a high repetition rate at 10 Hz… was found to be comparable with a 86–91% hair reduction [vs. traditional high-fluence single pass].',s:'Braun 2009 — SHR vs. single-pass',u:'https://pubmed.ncbi.nlm.nih.gov/19916262/'},
 	 {q:'The long-term depilation effect was better explained by induced apoptotic cell death in the follicles rather than any other mechanism.',s:'Omi 2017 — histology of dynamic vs. static mode',u:'https://pmc.ncbi.nlm.nih.gov/articles/PMC5515709/'},
 	 {q:'Delay times between sequential pulses are routinely 10 to 12 ms to accommodate epidermal TRT… a 20-to-40 ms delay is advised for patients with darker skin types.',s:'StatPearls — IPL therapy',u:'https://www.ncbi.nlm.nih.gov/books/NBK580525/'},
-	 {q:'Normal thermal pain sensations... mean pain thresholds... 42.1 +/- 1.9 [°C].',s:'Defrin 2002 — human heat-pain threshold',u:'https://pubmed.ncbi.nlm.nih.gov/11872608/'},
-	 {q:'Heat pain showed... a prolonged and increasing response across the stimulus duration with a peak in the second stimulus half.',s:'Nold 2025 — late heat-pain dynamics',u:'https://www.nature.com/articles/s41598-025-99247-7'},
-	 {q:'Inter-pulse interval and stimulus intensity were important and interrelated parameters for temporal summation of pain. An increase in interval decreased summation.',s:'Nielsen & Arendt-Nielsen 1998 — repeated radiant/contact heat',u:'https://pubmed.ncbi.nlm.nih.gov/10700328/'}
 	];
 const SOURCES=[
  ['s1','Anderson RR, Parrish JA. Selective photothermolysis. <i>Science</i> 1983.','https://pubmed.ncbi.nlm.nih.gov/6836297/'],
@@ -474,39 +471,45 @@ const SOURCES=[
 	 ['s21','Goldberg DJ, Silapunt S. Histologic evaluation of a millisecond Nd:YAG laser for hair removal. <i>Lasers Surg Med</i> 2001 — fluence-dependent selective thermal follicular injury in six patients.','https://pubmed.ncbi.nlm.nih.gov/11241524/'],
 	 ['s22','Thermal injury of skin & subcutaneous tissues — review of experimental & numerical models (Henriques–Moritz Arrhenius; basal-epidermis damage from 44 °C, irreversible transition ~50 °C).','https://pmc.ncbi.nlm.nih.gov/articles/PMC5459687/'],
 	 ['s23','Temperatures reached & damage caused to hair follicles by the normal-mode ruby laser (depilation) — higher peak follicular temperature → deeper damage.','https://pubmed.ncbi.nlm.nih.gov/10884072/'],
-	 ['s24','Defrin R, et al. Sensory determinants of thermal pain. Brain 2002 — normal heat-pain threshold around 42 °C.','https://pubmed.ncbi.nlm.nih.gov/11872608/'],
-	 ['s25','Nold JI, et al. Comparing neural responses to cutaneous heat and pressure pain. Scientific Reports 2025 — heat-pain response can peak late during a sustained stimulus.','https://www.nature.com/articles/s41598-025-99247-7'],
-	 ['s26','Katz B, et al. Nociception and pain in humans lacking a functional TRPV1 channel. J Clin Invest 2023 — TRPV1 is linked to noxious heat detection and inflammatory pain.','https://pubmed.ncbi.nlm.nih.gov/36454632/'],
-	 ['s27','Nielsen J, Arendt-Nielsen L. Stimulus configuration for temporal summation of repeated laser/contact heat pain. Eur J Pain 1998 — longer inter-pulse interval reduced summation.','https://pubmed.ncbi.nlm.nih.gov/10700328/'],
-	 ['s28','Riley JL 3rd, et al. Interstimulus interval and heat-evoked temporal summation of second pain. Pain 2019 — tested 2.5, 3.5 and 4.5 s intervals; summation declined as interval lengthened.','https://pmc.ncbi.nlm.nih.gov/articles/PMC6357227/'],
 	 ['s29','Fiskerstrand EJ, Svaasand LO, Nelson JS. Hair removal with long-pulsed diode lasers: comparison of two pulse structures. <i>Lasers Surg Med</i> 2003 — clinical comparison plus heat-diffusion model using a 65 °C threshold.','https://pubmed.ncbi.nlm.nih.gov/12766964/'],
 	 ['s30','Kato T, et al. Histological changes elicited by hair removal lasers. <i>J Nippon Med Sch</i> 2002 — immediate follicular damage and one-month cystic/foreign-body changes after ruby or alexandrite exposure. Local open-access PDF preserved.','thermal_model_source_docs/Kato_2002_histological_changes_hair_removal_lasers.pdf'],
 	 ['s31','Denton ML, et al. Effect of ambient temperature and intracellular pigmentation on photothermal damage rate kinetics. <i>J Biomed Opt</i> 2019 — empirical Arrhenius kinetics; CEM43 is most useful for long-duration hyperthermia; coefficients and endpoints vary. Local full text preserved.','thermal_model_source_docs/PMC6977020_photothermal_damage_rate_kinetics_fulltext.xml'],
 	 ['s32','Viera-Mármol G, et al. Measurements of hair temperature avalanche effect with alexandrite and Nd:YAG hair-removal lasers. <i>Lasers Surg Med</i> 2023 — direct hair temperature-response measurements and nonlinear changes across repeated pulses. Local full text preserved.','thermal_model_source_docs/PMC10107531_hair_temperature_avalanche_fulltext.xml'],
-	 ['s33','Thermal-model source manifest — local primary/full-text corpus, access dates, and claim map.','thermal_model_source_docs/README.md']
+	 ['s33','Thermal-model source manifest — local primary/full-text corpus, access dates, and claim map.','thermal_model_source_docs/README.md'],
+	 ['s34','Ash C, et al. Mathematical modeling of the optimum pulse structure for safe and effective photo epilation using broadband pulsed light. <i>J Appl Clin Med Phys</i> 2012 — IPL-specific Monte Carlo/heat-diffusion comparison; defines TRT as 50% heat loss, uses 40–100 ms for 200–300 µm follicles, and finds close pulse stacks more efficient than spaced stacks. Local full text preserved.','thermal_model_source_docs/PMC5718238_broadband_IPL_pulse_structure_model_fulltext.xml'],
+	 ['s35','Else TR, et al. Effects of skin tone on photoacoustic imaging and oximetry. <i>J Biomed Opt</i> 2024 — reflectance-validated optical model assigned six logarithmically spaced epidermal melanosome fractions from 2% to 40% to approximate Fitzpatrick I–VI. Supports the simulator’s continuous skin-melanin sensitivity curve, not an individual-dose calibration. Local full text preserved.','thermal_model_source_docs/PMC10732256_skin_tone_melanosome_optical_model_fulltext.xml']
 	];
 
 /* ---------- thermal + damage model ----------
-	   Lumped 4-node explicit integrator (dt = 0.25 ms). Absolute °C, baseline 35.
-	   Nodes: epidermis (Te), follicle/bulb = melanin heater (Tf), deeper regenerative target (Tbg, diffusion proxy),
-	   and Pn, a separate, unitless temporal-summation cue. Pn is deliberately not a temperature or tissue node.
+	   Lumped 3-node explicit integrator (dt = 0.25 ms). Absolute °C, baseline 35.
+	   Nodes: epidermis (Te), follicle/bulb = melanin heater (Tf), and deeper regenerative target (Tbg, diffusion proxy).
 	   The temperature curves are illustrative. Injury is scored from the WHOLE transient curve with the Arrhenius pair
 	   used by Ataie-Fashtami et al. (2011): A=3.1e98 s^-1, E=6.3e5 J/mol. Ω=1 is a model endpoint, not validation. */
-	const Tb=35, DT=0.25, GAP_MAX=500;         // baseline °C, timestep ms, UI max inter-flash gap
+	const Tb=35, DT=0.25, GAP_MAX=500, LN2=Math.log(2); // baseline °C, timestep ms, UI max inter-flash gap
 	const AF0=6.75, KE=13.1;                    // follicle & epidermal heating coeffs. aF includes epidermal transmission (melanin competition),
 	                                            // AF0*Ttrans(FitzIII)=5.0 and KE*Aepi(FitzIII)=3.4 so Fitzpatrick III (the default) is unchanged
 	const TAU_EFAST=8, TAU_ECOOL=45, ESINK=22; // epidermis: fast diffusion to body temp; slow extraction to cold plate
-	const TAU_DIFF=120, TAU_BG=500, TAU_PAIN_RISE=40, TAU_PAIN_DECAY=2500; // heater->target diffusion/hold; illustrative neural temporal integration, NOT a tissue cooling constant
+	const TAU_DIFF=120, TAU_BG=500;                 // heater->target diffusion/hold
+	const MEMORY_TAU_LOW=5000, MEMORY_TAU_HOT=60000; // measured response-memory lifetimes: ~5 s near 55 C, >60 s above ~70 C
+	const MEMORY_THRESHOLD=45, MEMORY_HOT=70, MEMORY_SLOPE=0.0125, MEMORY_GAIN_CAP=2;
 	const T_REF=65, T_SHR=45;
 	const ARR_A=3.1e98, ARR_E=6.3e5, GAS_R=8.314, OMEGA_CRIT=1;
-	const P_BUILD=1.15;                          // relative last-vs-first response ratio; display cue only, not a clinical threshold
 	const TCAP=100;                             // vaporization ceiling — above ~100° water boils & the linear model is invalid
-const SKIN_MU=[null,0.08,0.16,0.30,0.62,1.15,1.95];  // Fitzpatrick I..VI epidermal optical depth (melanin): sets BOTH how much the epidermis absorbs AND how much light is left to reach the follicle
+	const MELANIN_STEP=Math.pow(20,1/5);        // published optical-model anchors span 2%→40% melanosomes in six log-spaced steps
+	function skinOptics(s){
+	  const skin=Math.max(1,Math.min(6,s));
+	  const melanosomeFraction=0.02*Math.pow(MELANIN_STEP,skin-1);
+	  const mu=0.30*Math.pow(MELANIN_STEP,skin-3); // preserve the prior Fitz III calibration while replacing the ad hoc lookup
+	  const absorbed=1-Math.exp(-mu),transmitted=Math.exp(-mu);
+	  return {skin,melanosomeFraction,mu,absorbed,transmitted,relativeHair:transmitted/Math.exp(-0.30)};
+	}
 
 function hairParams(h){                     // h: 0..100 slider
   const x=h/100;
+  const trt50=20+80*x;              // 20..100 ms half-cooling time; terminal 200–300 µm follicles are reported ~40–100 ms
   return {mF:0.45+1.15*x,            // melanin/absorption 0.45..1.6
-          tauF:15+80*x};             // follicle TRT 15..95 ms
+	          trt50,
+	          tauF:trt50/LN2};           // exponential e-folding constant; published TRT means 50% heat loss, not 1/e
 }
 function arrheniusRate(tempC){
   return ARR_A*Math.exp(-ARR_E/(GAS_R*(tempC+273.15)));
@@ -515,41 +518,47 @@ function omegaProbability(omega){return 1-Math.exp(-Math.max(0,omega));}
 function timeToOmegaAtTemp(tempC,omega=OMEGA_CRIT){return omega/arrheniusRate(tempC);}
 function simulate(p){
   const hp=hairParams(p.hair);
-  const mu=SKIN_MU[p.skin]||0.3;
-  const Aepi=1-Math.exp(-mu);          // fraction of incident light absorbed by the epidermis (heats the skin)
-  const Ttrans=Math.exp(-mu);          // fraction transmitted PAST the epidermis to the follicle (melanin competition)
+	  const so=skinOptics(p.skin),mu=so.mu;
+	  const Aepi=so.absorbed;               // fraction of incident light absorbed by the epidermis (heats the skin)
+	  const Ttrans=so.transmitted;           // fraction transmitted PAST the epidermis to the follicle (melanin competition)
   const aE=KE*Aepi, aF=AF0*hp.mF*Ttrans, tauF=hp.tauF;
   const gapEff = p.n>1 ? p.gap : 0;
   const span = gapEff*(p.n-1) + p.n*p.dur;                                       // first-flash start → last-flash end
   const xView = span + Math.max(160, Math.min(650, 1.5*gapEff + 6*p.dur + 140)); // DISPLAY window — zooms in for few/short pulses
-  const tEnd = Math.max(xView, span + 900);                                      // INTEGRATION window — long enough for accurate dose
+  const tEnd = Math.max(xView, span + 2200);                                     // INTEGRATION window — includes slower target recovery
   const steps=Math.ceil(tEnd/DT), viewSteps=Math.ceil(xView/DT);
   // flash windows (start,end) in ms
   const fl=[]; for(let k=0;k<p.n;k++){const s=k*(p.dur+p.gap); fl.push([s,s+p.dur]);}
-	  let Te=Tb,Tf=Tb,Tbg=Tb,Pn=0, omegaF=0,omegaBg=0,omegaE=0,peakTf=Tb,peakTe=Tb,peakTbg=Tb,peakPn=0,secAbove45=0;
-	  const arr={t:[],Te:[],Tf:[],Tbg:[],Pn:[]};
-	  const pulsePainPeaks=Array(p.n).fill(0);
+	  let Te=Tb,Tf=Tb,Tbg=Tb,omegaF=0,omegaBg=0,omegaE=0,peakTf=Tb,peakTe=Tb,peakTbg=Tb,secAbove45=0;
+	  let memoryC=0,memoryGainPeak=1,pulsePeak=Tb,activePulse=-1;
+	  const pulsePeaks=[],pulseGains=[];
+	  const lastFlashEnd=fl.length?fl[fl.length-1][1]:0;
+	  const recovery={Te:null,Tf:null,Tbg:null},postPeak={Te:Tb,Tf:Tb,Tbg:Tb};
+	  const arr={t:[],Te:[],Tf:[],Tbg:[]};
   const sampleEvery=Math.max(1,Math.round(viewSteps/520));  // ~520 plot points across the display window
   for(let i=0;i<=steps;i++){
     const t=i*DT, t1=t+DT;
     // heating: deposit energy ∝ this step's exact overlap with a flash window (correct for any dur vs DT,
     // including sub-ms pulses where a binary on/off test would over-count and over-heat)
-    let onTime=0; for(const f of fl){ const ov=Math.min(t1,f[1])-Math.max(t,f[0]); if(ov>0) onTime+=ov; }
-    if(onTime>0){ Te+=aE*p.flu/p.dur*onTime; Tf+=aF*p.flu/p.dur*onTime; }
+    let onTime=0,pulseIndex=-1;
+    for(let j=0;j<fl.length;j++){const f=fl[j],ov=Math.min(t1,f[1])-Math.max(t,f[0]);if(ov>0){onTime+=ov;pulseIndex=j;}}
+    if(pulseIndex!==activePulse && pulseIndex>=0){activePulse=pulseIndex;pulsePeak=Tf;}
+    const memoryGain=p.memory?Math.min(MEMORY_GAIN_CAP,1+MEMORY_SLOPE*Math.max(0,memoryC)):1;
+    if(onTime>0){Te+=aE*p.flu/p.dur*onTime;Tf+=aF*memoryGain*p.flu/p.dur*onTime;pulsePeak=Math.max(pulsePeak,Tf);memoryGainPeak=Math.max(memoryGainPeak,memoryGain);}
     // cooling / diffusion (explicit Euler)
 	    Te+= -(Te-Tb)/TAU_EFAST*DT;                 // fast diffusion to adjacent tissue (~body temp)
 	    if(p.cool) Te+= -(Te-ESINK)/TAU_ECOOL*DT;   // extra extraction to the sapphire/ice plate
 	    Tf+= -(Tf-Tb)/tauF*DT;
 	    Tbg+= ((Tf-Tbg)/TAU_DIFF - (Tbg-Tb)/TAU_BG)*DT;
-	    // Perceived sting is not a fourth temperature. This rough, unitless input simply lets the
-	    // visual show the direction of heat-pain temporal summation separately from physical heat.
-	    // Human heat-pain studies show summation at repeated stimuli and reduced summation as the
-	    // interval lengthens, but they do not validate an IPL-specific pain prediction.
-	    const nociceptiveInput=Math.max(0,0.035*(Te-38))+Math.max(0,0.012*(Tf-42))+Math.max(0,0.025*(Tbg-38));
-	    const tauP=nociceptiveInput>Pn ? TAU_PAIN_RISE : TAU_PAIN_DECAY;
-	    Pn+= (nociceptiveInput-Pn)/tauP*DT;
+	    const memoryTau=memoryC>=(MEMORY_HOT-MEMORY_THRESHOLD)?MEMORY_TAU_HOT:MEMORY_TAU_LOW;
+	    memoryC*=Math.exp(-DT/memoryTau);
+	    if(activePulse>=0 && fl[activePulse][1]>t && fl[activePulse][1]<=t1){
+	      pulsePeaks[activePulse]=pulsePeak;
+	      pulseGains[activePulse]=memoryGain;
+	      if(p.memory)memoryC=Math.max(memoryC,Math.max(0,pulsePeak-MEMORY_THRESHOLD));
+	      activePulse=-1;
+	    }
 	    if(Te<ESINK)Te=ESINK;
-	    if(Pn<0)Pn=0;
 	    if(Tf>TCAP)Tf=TCAP; if(Te>TCAP)Te=TCAP; if(Tbg>TCAP)Tbg=TCAP;  // clamp physical nodes at vaporization ceiling
 	    // Published time-temperature injury formalism. The parameter pair is generic tissue/protein denaturation
 	    // used in a hair-removal simulation—not a validated coefficient set for each compartment here.
@@ -558,19 +567,21 @@ function simulate(p){
 	    omegaBg += arrheniusRate(Tbg)*dtSec;
 	    omegaE += arrheniusRate(Te)*dtSec;
 	    if(Tbg>=T_SHR) secAbove45+=dtSec; // descriptive SHR-associated exposure only; NOT a damage criterion
-	    for(let k=0;k<fl.length;k++){
-	      const stop = k<fl.length-1 ? fl[k+1][0] : span + Math.max(250, gapEff || 250);
-	      if(t>=fl[k][0] && t<stop && Pn>pulsePainPeaks[k]) pulsePainPeaks[k]=Pn;
+	    if(Tf>peakTf)peakTf=Tf; if(Te>peakTe)peakTe=Te; if(Tbg>peakTbg)peakTbg=Tbg;
+	    if(t>=lastFlashEnd){
+	      for(const [k,v] of [['Te',Te],['Tf',Tf],['Tbg',Tbg]]){
+	        if(v>postPeak[k]+1e-9){postPeak[k]=v;recovery[k]=null;}
+	        else if(recovery[k]===null && v<=Tb+1)recovery[k]=Math.max(0,t-lastFlashEnd);
+	      }
 	    }
-	    if(Tf>peakTf)peakTf=Tf; if(Te>peakTe)peakTe=Te; if(Tbg>peakTbg)peakTbg=Tbg; if(Pn>peakPn)peakPn=Pn;
-	    if(t<=xView && i%sampleEvery===0){arr.t.push(t);arr.Te.push(Te);arr.Tf.push(Tf);arr.Tbg.push(Tbg);arr.Pn.push(Pn);}
+	    if(t<=xView && i%sampleEvery===0){arr.t.push(t);arr.Te.push(Te);arr.Tf.push(Tf);arr.Tbg.push(Tbg);}
 	  }
-	  return {arr,fl,tEnd,xView,peakTf,peakTe,peakTbg,peakPn,omegaF,omegaBg,omegaE,secAbove45,
-	          pulsePainPeaks,firstPain:pulsePainPeaks[0]||0,lastPain:pulsePainPeaks[pulsePainPeaks.length-1]||0,
+	  return {arr,fl,tEnd,xView,peakTf,peakTe,peakTbg,omegaF,omegaBg,omegaE,secAbove45,
 	          follicleResidual:p.n>1?Math.exp(-p.gap/tauF):0,
-	          painResponseResidual:p.n>1?Math.exp(-p.gap/TAU_PAIN_DECAY):0,
 	          deepResidual:p.n>1?Math.exp(-p.gap/TAU_BG):0,
-	          totalE:p.n*p.flu, aF,aE,tauF};
+	          memoryResidual:p.n>1?Math.exp(-p.gap/MEMORY_TAU_LOW):0,
+	          memoryGainPeak,pulsePeaks,pulseGains,recovery,
+	          totalE:p.n*p.flu,aF,aE,tauF,trt50:hp.trt50,skinOptics:so};
 	}
 
 /* ---------- rendering ---------- */
@@ -579,7 +590,7 @@ function fmt(x,d=0){return x.toFixed(d);}
 function clamp(x,a,b){return Math.max(a,Math.min(b,x));}
 function fmtOmega(x){
   if(x===0)return '0';
-  if(x<0.001)return x.toExponential(1);
+	  if(x<0.01)return x.toExponential(1);
   if(x<10)return x.toFixed(2);
   if(x<1000)return x.toFixed(0);
   return x.toExponential(1);
@@ -624,7 +635,7 @@ function draw(sim, simCmp){
   // comparison single-flash follicle (behind) — clipped to the display window
   if(simCmp){const ct=[],cy=[];for(let i=0;i<simCmp.arr.t.length;i++){if(simCmp.arr.t[i]<=tEnd){ct.push(simCmp.arr.t[i]);cy.push(simCmp.arr.Tf[i]);}}
     s+=`<path d="${path(ct,cy)}" fill="none" stroke="#9aa3b2" stroke-width="2" stroke-dasharray="3 4"/>`;}
-	  // Physical temperature curves only. Perceived sting is drawn below on its own unitless scale.
+	  // Physical temperature curves only.
 	  s+=`<path d="${path(sim.arr.t,sim.arr.Tbg)}" fill="none" stroke="#16a34a" stroke-width="2.6"/>`;
 	  s+=`<path d="${path(sim.arr.t,sim.arr.Te)}" fill="none" stroke="#2563eb" stroke-width="2.4"/>`;
 	  s+=`<path d="${path(sim.arr.t,sim.arr.Tf)}" fill="none" stroke="#c0392b" stroke-width="3"/>`;
@@ -634,29 +645,6 @@ function draw(sim, simCmp){
   el_chart_html(s);
 }
 function el_chart_html(s){$('chart').innerHTML=s;}
-
-function drawPain(sim){
-  const W=980,H=155,padL=52,padR=22,padT=16,padB=31, tEnd=sim.xView;
-  // Scale this panel to its own relative response range. Unlike the temperature chart it has no
-  // physical unit, so a fixed global y-axis would hide the first-to-last change being illustrated.
-  const peak=Math.max(.001,sim.peakPn*1.15);
-  const X=t=>padL+(W-padL-padR)*(t/tEnd);
-  const Y=p=>H-padB-(H-padB-padT)*(p/peak);
-  const path=(xs,ys)=>xs.map((x,i)=>(i?'L':'M')+X(x).toFixed(1)+' '+Y(Math.min(ys[i],peak)).toFixed(1)).join(' ');
-  let s=`<line x1="${padL}" y1="${Y(0)}" x2="${W-padR}" y2="${Y(0)}" stroke="#d9dbe1"/>`;
-  s+=`<line x1="${padL}" y1="${Y(peak/2)}" x2="${W-padR}" y2="${Y(peak/2)}" stroke="#f0eafc" stroke-dasharray="3 4"/>`;
-  s+=`<text x="${padL-8}" y="${Y(peak)+4}" font-size="10.5" fill="#6b7280" text-anchor="end">more</text>`;
-  s+=`<text x="${padL-8}" y="${Y(0)+4}" font-size="10.5" fill="#6b7280" text-anchor="end">less</text>`;
-  for(const f of sim.fl){s+=`<rect x="${X(f[0])}" y="${H-padB}" width="${Math.max(1.5,X(f[1])-X(f[0]))}" height="5" fill="#7c3aed" opacity=".55"/>`;}
-  s+=`<path d="${path(sim.arr.t,sim.arr.Pn)}" fill="none" stroke="#7c3aed" stroke-width="2.5"/>`;
-  for(let i=0;i<sim.pulsePainPeaks.length;i++){
-    const t=(sim.fl[i][0]+sim.fl[i][1])/2, p=sim.pulsePainPeaks[i];
-    s+=`<circle cx="${X(t)}" cy="${Y(Math.min(p,peak))}" r="3.5" fill="#7c3aed"/>`;
-    s+=`<text x="${X(t)}" y="${H-7}" font-size="10" fill="#6b7280" text-anchor="middle">${i+1}</text>`;
-  }
-  s+=`<text x="${(padL+W-padR)/2}" y="${H-7}" font-size="10.5" fill="#6b7280" text-anchor="middle">flash number (purple ticks mark delivered flashes)</text>`;
-  $('painchart').innerHTML=s;
-}
 
 function verdict(sim,p){
 	  const heaterCross = sim.omegaF>=OMEGA_CRIT;
@@ -676,8 +664,6 @@ function verdict(sim,p){
 	  if(sr.lvl==='CROSSES') lines.push({w:'⚠ The central epidermis trace crosses Ω=1 (Ω='+fmtOmega(sim.omegaE)+', peak '+fmt(sim.peakTe)+' °C). Treat this as a model warning, not a predicted burn grade.'});
 	  else if(sr.lvl==='NEAR') lines.push('△ The central epidermis trace approaches the model criterion (Ω='+fmtOmega(sim.omegaE)+', peak '+fmt(sim.peakTe)+' °C).');
 	  else lines.push('Epidermis stays below the model criterion (Ω='+fmtOmega(sim.omegaE)+', peak '+fmt(sim.peakTe)+' °C); that is not a safety clearance.');
-	  if(p && p.n>1 && sim.lastPain>sim.firstPain*P_BUILD)
-	    lines.push('Sting note — the separate unitless response cue rises on the last pulse. That matches the “last pulse stings most” experience, but it represents neural temporal summation, not a higher measured follicle temperature.');
 	  if(p && p.skin>=5 && sim.omegaE>sim.omegaF)
 	    lines.push({w:'⚠ In this sensitivity scenario, epidermal modeled injury exceeds heater injury. The Fitzpatrick slider is qualitative; rely on the device IFU/skin sensor and professional assessment, not this trace.'});
 	  const v=$('verdict'); v.className='verdict '+cls;
@@ -690,12 +676,6 @@ function skinRisk(sim){
 	  if(sim.omegaE>=0.1) return {lvl:'NEAR', col:'var(--amber)', why:'Ω between 0.1 and 1'};
 	  return {lvl:'BELOW', col:'var(--good)', why:'below Ω=0.1 in this model—not a safety clearance'};
 }
-	function painRisk(sim){
-	  const ratio=sim.firstPain>0.0001 ? sim.lastPain/sim.firstPain : 1;
-	  if(sim.pulsePainPeaks.length>1 && ratio>=P_BUILD) return {lvl:'BUILDS', col:'var(--purple)', why:'relative repeated-heat response rises from first to last'};
-	  if(sim.pulsePainPeaks.length>1) return {lvl:'FLAT', col:'var(--muted)', why:'little modeled first-to-last temporal summation'};
-	  return {lvl:'ONE', col:'var(--good)', why:'one flash has no within-train summation'};
-	}
 function gauges(sim){
 	  const heaterPct=omegaProbability(sim.omegaF)*100, targetPct=omegaProbability(sim.omegaBg)*100;
 	  $('pf').textContent=fmtOmega(sim.omegaF);
@@ -724,13 +704,19 @@ function gauges(sim){
 	  $('pz').style.color=sim.secAbove45>0?'var(--amber)':'var(--muted)';
 	  $('pzcap').textContent='deep target ≥45 °C · descriptive only';
 	  $('pzbar').style.width=clamp(sim.secAbove45/1*100,3,100)+'%'; $('pzbar').style.background='var(--amber)';
-	  // Unitless pain temporal-summation cue — deliberately not a temperature or safety classification.
-	  const pr=painRisk(sim);
-	  $('pp').textContent=pr.lvl; $('pp').style.color=pr.col;
-	  const rise=sim.firstPain>0.0001 ? (sim.lastPain/sim.firstPain-1)*100 : 0;
-	  $('ppcap').textContent=(rise>0?`last cue ${fmt(rise)}% above first`:'no within-train comparison')+' · relative, not °C or a safety score';
-	  $('ppbar').style.width=clamp(Math.max(0,rise)/100*100,3,100)+'%'; $('ppbar').style.background=pr.col;
-	}
+	  // Cross-wavelength pulse-history sensitivity and explicit near-baseline recovery.
+	  $('pm').textContent='×'+fmt(sim.memoryGainPeak,2);
+	  $('pm').style.color=sim.memoryGainPeak>1.01?'var(--purple)':'var(--muted)';
+	  const firstPulse=sim.pulsePeaks[0]??sim.peakTf,lastPulse=sim.pulsePeaks[sim.pulsePeaks.length-1]??sim.peakTf;
+	  $('pmcap').textContent=(sim.memoryGainPeak>1.01?'largest modeled boost to later absorption':'no modeled history boost')+` · pulse peaks ${fmt(firstPulse,1)}→${fmt(lastPulse,1)} °C`;
+	  $('pmbar').style.width=clamp((sim.memoryGainPeak-1)*100,3,100)+'%';$('pmbar').style.background='var(--purple)';
+	  const hairRec=sim.recovery.Tf==null?'>'+fmtDuration((sim.tEnd-sim.fl[sim.fl.length-1][1])/1000):fmtDuration(sim.recovery.Tf/1000);
+	  const deepRec=sim.recovery.Tbg==null?'>'+fmtDuration((sim.tEnd-sim.fl[sim.fl.length-1][1])/1000):fmtDuration(sim.recovery.Tbg/1000);
+	  $('pr').textContent=hairRec;
+	  $('pr').style.color='var(--muted)';
+	  $('prcap').textContent=`heater to within 1 °C of 35 °C · deep target ${deepRec}`;
+	  $('prbar').style.width='35%';$('prbar').style.background='#9aa3b2';
+		}
 
 function setDiag(id, cls, value, caption){
   const el=$(id);
@@ -755,9 +741,11 @@ function updateDiagnostics(p,sim,simCmp){
   } else {
     const fPct=Math.round(sim.follicleResidual*100);
     const deepPct=Math.round(sim.deepResidual*100);
-    const timingCls = sim.follicleResidual>=0.5 ? 'yes' : sim.follicleResidual>=0.18 ? 'partial' : 'no';
-    const timingVal = sim.follicleResidual>=0.5 ? 'Peak stacks' : sim.follicleResidual>=0.18 ? 'Partial stack' : 'Peak resets';
-    setDiag('diagTiming',timingCls,timingVal,`${p.gap} ms gap leaves about ${fPct}% follicle-peak carryover and ${deepPct}% deep-target carryover before the next flash.`);
+	    const timingCls = sim.follicleResidual>=0.5 ? 'yes' : sim.follicleResidual>=0.1 ? 'partial' : 'no';
+	    const timingVal = sim.follicleResidual>=0.5 ? 'Strong stack' : sim.follicleResidual>=0.1 ? 'Partial carryover' : 'Near-reset, not zero';
+	    const memPct=Math.round(sim.memoryResidual*100);
+	    const firstPeak=sim.pulsePeaks[0]??sim.peakTf,lastPeak=sim.pulsePeaks[sim.pulsePeaks.length-1]??sim.peakTf;
+	    setDiag('diagTiming',timingCls,timingVal,`${p.gap} ms gap leaves about ${fPct}% heater-temperature excess and ${deepPct}% deep-target excess in the isolated exponential clocks. Modeled pulse peaks move ${fmt(firstPeak,1)}→${fmt(lastPeak,1)} °C. The optional hair-response memory retains about ${memPct}% of its index over the same gap; that is separate from temperature.`);
   }
 
   const headline=p.flu*p.n;
@@ -801,33 +789,30 @@ function cmpVerdict(p,sim,simCmp){
 	  } else if(dmulti>=1 && dsingle<1){
 	    msg+=`The split train crosses the generic Ω criterion while the single trace does not.`;
 	  } else if(dmulti>dsingle*1.15){
-	    msg+=`Splitting raises the modeled deep-target Ω by extending the thermal history, even though its peak may be lower.`;
+	    msg+=`Splitting raises the modeled deep-target Ω by extending the thermal history${multi>single?' and, at this short gap, also raises the heater peak':' even though its heater peak is lower'}.`;
+	  } else if(dsingle>dmulti*1.15){
+	    msg+=`In this central trace, splitting lowers both the heater peak and the generic deep-target Ω. Later pulses still show thermal carryover${p.memory?' plus the optional hair-response gain':''}; those effects are real in the model but do not automatically compensate for the lower per-flash dose.`;
 	  } else {
 	    msg+=`The traces are close on the generic damage integral. Clinical SHR trials mostly report comparable efficacy and less pain, but these home-device inputs are not those professional protocols.`;
 	  }
 	  $('cmpverdict').innerHTML=msg;
 	}
-	function painVerdict(p,sim){
-	  if(p.n<=1){
-	    $('painverdict').innerHTML='<b>Sting check:</b> one flash has no pulse-to-pulse build-up. Use 2+ flashes to compare first-pulse and last-pulse sting load.';
-	    return;
-	  }
-	  const ratio=sim.firstPain>0.0001 ? sim.lastPain/sim.firstPain : 1;
-	  const build=ratio>=P_BUILD ? `The separate response cue rises ${fmt((ratio-1)*100)}% from the first to last flash.` : 'The separate response cue is nearly flat under this setting.';
-	  const peakBuild=sim.omegaF>=OMEGA_CRIT?'The heater trace also crosses Ω=1 in this model.':'It does not prove the follicle peak is stacking or the target is damaged.';
-	  $('painverdict').innerHTML=`<b>Why the last pulse can sting more:</b> at ${p.gap} ms, the red follicle peak may mostly reset while repeated noxious input is still integrated by the nervous system. ${build} This is a unitless perceptual model, not residual °C in the follicle. ${peakBuild}`;
-	}
-
 /* ---------- wire up ---------- */
 let emode='flu';  // 'flu' = set per-flash fluence; 'tot' = set one total in Joules, split across pulses
 function readParams(){
   const spot=+$('spot').value, n=Math.max(1,+$('n').value);
   const flu = emode==='tot' ? (+$('tot').value)/spot/n : +$('flu').value;
-  return {gap:clamp(+$('gap').value, +$('gap').min, GAP_MAX), n, flu, dur:+$('dur').value, spot,
-          skin:+$('skin').value, hair:+$('hair').value,
-          cool:$('cool').checked, cmp:$('cmp').checked};
+	  return {gap:clamp(+$('gap').value, +$('gap').min, GAP_MAX), n, flu, dur:+$('dur').value, spot,
+	          skin:+$('skin').value, hair:+$('hair').value,
+	          cool:$('cool').checked, cmp:$('cmp').checked, memory:$('memory').checked};
 }
 const FITZ=['','I (very fair)','II (fair)','III (medium)','IV (olive)','V (brown)','VI (deep)'];
+const ROMAN=['','I','II','III','IV','V','VI'];
+function skinLabel(s){
+  if(Number.isInteger(s))return FITZ[s];
+  const lo=Math.floor(s),hi=Math.ceil(s);
+  return `${ROMAN[lo]}–${ROMAN[hi]} interpolated (${s.toFixed(1)})`;
+}
 function hairLbl(h){return h<25?'fine / light':h<50?'medium':h<80?'coarse / dark':'very coarse / black';}
 function updateAnswer(){
   const temp=+$('answer_temp').value, dwell=timeToOmegaAtTemp(temp);
@@ -838,22 +823,24 @@ function updateAnswer(){
 	function run(){
 	  const p=readParams();
 	  const totalJ=p.flu*p.spot*p.n, totalFlu=p.flu*p.n;
-	  const tauF=hairParams(p.hair).tauF;
-	  const fResid=p.n>1?Math.exp(-p.gap/tauF):0;
-	  $('v_gap').textContent=p.gap+' ms'+(p.n<=1?'':p.gap<100?'  peak stacks':p.gap>200?'  peak mostly resets; sting can build':'  partial peak carryover')+(p.n>1?' · '+Math.round(fResid*100)+'% follicle carryover':'');
+		  const hp=hairParams(p.hair),tauF=hp.tauF;
+		  const fResid=p.n>1?Math.exp(-p.gap/tauF):0;
+		  $('v_gap').textContent=p.gap+' ms'+(p.n<=1?'':fResid>=.5?'  strong thermal stack':fResid>=.1?'  partial thermal carryover':'  near-reset, not zero')+(p.n>1?' · '+Math.round(fResid*100)+'% heater excess remains':'');
 	  $('v_n').textContent=p.n+(p.n===1?' flash':' flashes');
   $('v_flu').textContent=fmt(p.flu,2)+' J/cm²';
   $('v_tot').textContent=fmt(+$('tot').value,1)+' J';
   $('v_spot').textContent=fmt(p.spot,1)+' cm²';
   $('v_dur').textContent=p.dur+' ms'+(p.dur<1.5?'  ⚠ short→hot skin':'');
-  $('v_skin').textContent=FITZ[p.skin];
+	  $('v_skin').textContent=skinLabel(p.skin);
   $('v_hair').textContent=hairLbl(p.hair);
   $('esum').innerHTML=`<b>${fmt(totalJ,1)} J</b> total (${fmt(totalFlu,2)} J/cm²) across <b>${p.n}</b> pulse${p.n>1?'s':''} · <b>${fmt(p.flu,2)} J/cm²</b> per flash · spot ${fmt(p.spot,1)} cm²`;
   $('cmpleg').style.display=(p.cmp && p.n>1)?'inline-flex':'none';
-	  const sim=simulate(p);
+		  const sim=simulate(p);
+		  const so=sim.skinOptics;
+		  $('skinoptics').innerHTML=`Published-model melanosome anchor <b>${fmt(so.melanosomeFraction*100,1)}%</b> · epidermal absorption proxy <b>${fmt(so.absorbed*100,1)}%</b> · reaches hair plane <b>${fmt(so.transmitted*100,1)}%</b> · hair-heating factor <b>${fmt(so.relativeHair*100)}%</b> of Fitzpatrick III.`;
 	  const cmpFlu=Math.min(8,p.n*p.flu);
 	  const simCmp=(p.cmp && p.n>1) ? simulate({...p,n:1,flu:cmpFlu}) : null;
-	  draw(sim,simCmp); drawPain(sim); gauges(sim); updateDiagnostics(p,sim,simCmp); verdict(sim,p); cmpVerdict(p,sim,simCmp); painVerdict(p,sim);
+	  draw(sim,simCmp); gauges(sim); updateDiagnostics(p,sim,simCmp); verdict(sim,p); cmpVerdict(p,sim,simCmp);
 	}
 function setEmode(m,silent){
   const spot=+$('spot').value, n=Math.max(1,+$('n').value);
@@ -907,24 +894,24 @@ $('scenarios').innerHTML=Object.entries(SCENARIOS).map(([k,s])=>`<button data-k=
 document.querySelectorAll('#scenarios button').forEach(b=>b.onclick=()=>selectScenario(b.dataset.k));
 document.querySelectorAll('#emode button').forEach(b=>b.onclick=()=>setEmode(b.dataset.m));
 ['gap','n','flu','tot','dur','skin','hair','spot'].forEach(id=>$(id).oninput=run);
-['cool','cmp'].forEach(id=>$(id).onchange=run);
+['cool','cmp','memory'].forEach(id=>$(id).onchange=run);
 $('answer_temp').oninput=updateAnswer;
 $('quotes').innerHTML=QUOTES.map(q=>`<div class="quote"><p>“${q.q}”</p><div class="src">— <a href="${q.u}" target="_blank" rel="noopener">${q.s}</a></div></div>`).join('');
 $('sources').innerHTML=SOURCES.map(([id,txt,u])=>`<li id="${id}">${txt}${u?` <a href="${u}" target="_blank" rel="noopener">↗</a>`:''}</li>`).join('');
 
 /* ---------- SANITY(): sweep combinations + assert physical invariants (run from console/eval) ---------- */
 function SANITY(){
-  const base={gap:60,n:1,flu:5,dur:8,skin:3,hair:70,cool:true,cmp:false,spot:3.9};
+	  const base={gap:60,n:1,flu:5,dur:8,skin:3,hair:70,cool:true,cmp:false,memory:true,spot:3.9};
   const S=o=>simulate({...base,...o});
   const fin=v=>Number.isFinite(v);
   const viol=[]; const chk=(c,m)=>{ if(!c) viol.push(m); };
 	  // 1. broad grid — no NaN/Inf, temperatures bounded, Arrhenius integrals nonnegative
-  const G={flu:[0.5,5,10],dur:[0.4,3,10,60],n:[1,4,12],gap:[20,100,300],skin:[1,3,6],hair:[0,70,100],cool:[true,false]};
+	  const G={flu:[0.5,5,10],dur:[0.4,3,10,60],n:[1,4,12],gap:[20,100,300],skin:[1,3,3.5,6],hair:[0,70,100],cool:[true,false]};
   let grid=0;
   for(const flu of G.flu)for(const dur of G.dur)for(const n of G.n)for(const gap of G.gap)for(const skin of G.skin)for(const hair of G.hair)for(const cool of G.cool){
     const r=S({flu,dur,n,gap,skin,hair,cool}); grid++;
-	    if(!(fin(r.peakTf)&&fin(r.peakTe)&&fin(r.peakTbg)&&fin(r.peakPn)&&fin(r.omegaF)&&fin(r.omegaBg)&&fin(r.omegaE))){viol.push('NaN/Inf @'+JSON.stringify({flu,dur,n,gap,skin,hair,cool}));continue;}
-	    if(r.peakTf<Tb-0.01||r.peakTe<ESINK-0.01||r.peakTbg<Tb-0.5||r.peakPn<0) viol.push('out-of-range thermal/response value @'+JSON.stringify({flu,dur,n,gap}));
+	    if(!(fin(r.peakTf)&&fin(r.peakTe)&&fin(r.peakTbg)&&fin(r.omegaF)&&fin(r.omegaBg)&&fin(r.omegaE))){viol.push('NaN/Inf @'+JSON.stringify({flu,dur,n,gap,skin,hair,cool}));continue;}
+	    if(r.peakTf<Tb-0.01||r.peakTe<ESINK-0.01||r.peakTbg<Tb-0.5) viol.push('out-of-range thermal value @'+JSON.stringify({flu,dur,n,gap}));
     if(r.peakTf>TCAP+0.5||r.peakTe>TCAP+0.5) viol.push('over-cap temp '+fmt(r.peakTf)+'/'+fmt(r.peakTe)+' @'+JSON.stringify({flu,dur,n,gap,skin,hair}));
 	    if(r.omegaF<0||r.omegaBg<0||r.omegaE<0) viol.push('negative Ω @'+JSON.stringify({flu,dur,n,gap}));
   }
@@ -936,7 +923,9 @@ function SANITY(){
   chk((S({flu:6,dur:2}).peakTe-S({flu:6,dur:20}).peakTe) >= (S({flu:6,dur:2}).peakTf-S({flu:6,dur:20}).peakTf)-1e-6,'pulse-width effect should be strongest on epidermis');
   // 5. darker skin -> hotter epidermis AND cooler follicle (melanin competition); 6. cooling never raises epidermis peak
   chk(S({skin:6}).peakTe>S({skin:1}).peakTe,'darker skin should raise epidermis peak');
-  chk(S({skin:6}).peakTf<S({skin:1}).peakTf,'darker skin should LOWER follicle peak (epidermal shadowing)');
+	  chk(S({skin:6}).peakTf<S({skin:1}).peakTf,'darker skin should LOWER follicle peak (epidermal shadowing)');
+	  chk(S({skin:3.5}).peakTe>S({skin:3}).peakTe && S({skin:3.5}).peakTe<S({skin:4}).peakTe,'half-step skin interpolation should produce an intermediate epidermis peak');
+	  chk(S({skin:3.5}).peakTf<S({skin:3}).peakTf && S({skin:3.5}).peakTf>S({skin:4}).peakTf,'half-step skin interpolation should produce an intermediate follicle peak');
   chk(S({cool:true}).peakTe<=S({cool:false}).peakTe+1e-6,'cooling should not raise epidermis peak');
   // 7. stacking: shorter gap -> higher-or-equal follicle peak (multi-flash)
   chk(S({n:4,flu:3,gap:20}).peakTf >= S({n:4,flu:3,gap:300}).peakTf-1e-6,'shorter gap should stack peak higher');
@@ -952,9 +941,13 @@ function SANITY(){
 	  chk(timeToOmegaAtTemp(65)>.06 && timeToOmegaAtTemp(65)<.08,'Arrhenius 65 C dwell-time anchor drifted');
 	  // 13. higher temperature must shorten Ω=1 dwell time
 	  chk(timeToOmegaAtTemp(70)<timeToOmegaAtTemp(65) && timeToOmegaAtTemp(65)<timeToOmegaAtTemp(60),'Arrhenius dwell time not monotonic');
-	  // 14. repeated pulses can increase the unitless temporal-summation cue even when peak stacking is weak
-	  {const r=S({n:4,flu:1.7,gap:250,dur:2,hair:70,cool:true}); chk(r.lastPain>=r.firstPain-1e-6,'pain temporal-summation cue should not decline from first to last pulse in a slow train');}
-	  return {gridCombos:grid, invariantChecks:15, violations:viol.length, ok:viol.length===0, detail:viol.slice(0,15)};
+	  // 14. published TRT is a 50%-heat-loss time; conversion to the exponential time constant must preserve that identity
+	  {const hp=hairParams(70);chk(Math.abs(Math.exp(-hp.trt50/hp.tauF)-.5)<1e-12,'TRT half-time conversion drifted');}
+	  // 15. pulse-history sensitivity can only maintain/increase later hair heating, never reduce it
+	  chk(S({n:4,flu:3,gap:250,memory:true}).peakTf>=S({n:4,flu:3,gap:250,memory:false}).peakTf-1e-9,'history sensitivity reduced heater peak');
+	  // 16. the integration window must capture return to within 1 C for the heater and deep target
+	  {const r=S({n:4,flu:3,gap:250});chk(r.recovery.Tf!==null && r.recovery.Tbg!==null,'near-baseline recovery not captured');}
+	  return {gridCombos:grid,invariantChecks:19,violations:viol.length,ok:viol.length===0,detail:viol.slice(0,19)};
 	}
 
 // go

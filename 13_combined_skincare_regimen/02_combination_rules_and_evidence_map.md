@@ -1,0 +1,63 @@
+# Combination Rules and Evidence Map
+
+*Compiled 2026-07-12. This framework is educational, not diagnostic or prescriptive. “Avoid together” means the planner's conservative routine-fit rule, not a proven universal contraindication unless the source explicitly says so.*
+
+## 0. Bottom line
+
+The planner rewards **coverage of essentials and tolerability**, not the number of products. Sunscreen, moisturizer, one retinoid strategy, and sustainable adherence outrank optional actives and devices.
+
+## 1. Evidence ladder used by the meter
+
+| Class | Meaning | Examples |
+|---|---|---|
+| A — foundation | Strong benefit-to-risk or official guidance for the stated role | Daily broad-spectrum sunscreen, moisturizer, gentle cleansing |
+| B — targeted | Good evidence for a defined concern, with irritation/selection caveats | Adapalene for acne; azelaic acid for acne/rosacea/melasma; professional indication-specific devices |
+| C — adjunct | Plausible/limited evidence or parameter-dependent benefit | Vitamin C, peptides, consumer RLT, niacinamide, tranexamic acid |
+| D — specialist/episodic | Not a daily routine card; anatomy, sterility, settings, or clinician judgment dominate | HIFU, professional fractional laser, RF microneedling, peels, hydroquinone courses |
+| E — duplicate/overload | Adds little unique benefit to an existing slot or increases irritation | Multiple retinoids, Tria + exfoliating acid + adapalene in one evening |
+
+## 2. Conflict rules
+
+| Combination | Planner output | Basis and boundary |
+|---|---|---|
+| Tria + adapalene same day | Strong caution; separate by day and recover first | Tria creates expected erythema/stinging; adapalene is irritating and its label cautions multiple irritants. Exact washout is unknown. [1][2] |
+| Tria + azelaic acid same session | Caution; bland aftercare preferred | Conservative irritation control; not an explicit IFU contraindication |
+| Tria + AHA/BHA/peel | Avoid in same session/course when reactive | Tria IFU excludes recently peeled/resurfaced skin; adapalene label also cautions AHA/glycolic products. [1][2] |
+| Adapalene + tretinoin/retinol/retinal | Duplicate retinoid warning | More irritation without a clear reason to stack |
+| Adapalene + azelaic acid | May coexist, but separate initially if stinging | Both can irritate; azelaic evidence is indication-specific [3] |
+| Vitamin C AM + adapalene PM | Generally sensible if tolerated | Time separation reduces crowding; vitamin C remains an adjunct, sunscreen remains the anchor |
+| RLT + topicals | Dose/product dependent | Apply on bare skin unless the device/manual validates a topical; photosensitizing drugs require clinician/manual review |
+| Two energy devices same day | Strong caution | No general evidence validates consumer multimodal stacking; mechanism-specific risks differ |
+| Home microneedling/HIFU/RF microneedling | Specialist boundary | Sterility, anatomy, depth, coupling, and adverse-event management dominate |
+
+## 3. Meter design
+
+The score is an educational fit score, not a biological outcome prediction:
+
+`fit = foundation coverage + targeted evidence + recovery support − irritation load − duplicate load − complexity penalty`
+
+It does not estimate collagen gain, acne clearance, cancer prevention, or “biological age.” The score deliberately plateaus: adding more items can reduce it.
+
+## 4. What has the best anti-aging leverage
+
+1. Daily UV protection and avoiding tanning/sunburn.
+2. Sustainable retinoid use if appropriate and tolerated.
+3. Moisture/barrier support that keeps the first two usable.
+4. No tobacco, adequate sleep, exercise, and a generally nutritious diet—health priorities that no serum substitutes for.
+5. Targeted adjuncts/devices chosen for one defined concern, not “everything.”
+
+## Evidence gaps
+
+- There is no validated universal scoring system for combining consumer skincare actives and devices; weights are transparent heuristics.
+- Product formulas, sunscreen labels, and device outputs change; bottle/manual data override catalog defaults.
+- Skin type, disease history, medication use, pregnancy, and clinician procedures can materially change routine fit.
+
+## Sources
+
+1. Tria SmoothBeauty IFU. [Local PDF](../03_fractional_laser_resurfacing/tria_smoothbeauty/source_docs/tria-smoothbeauty-instructions-for-use.pdf) - treatment preparation, cadence, exclusions, reactions, and stop rules.
+2. DailyMed adapalene gel 0.1%. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5d5340d6-e1da-46e4-973c-40cf8e907aa3 - once-daily directions, irritation cautions, sunscreen, moisturizer, and severe-irritation stop rule.
+3. King S et al. Azelaic acid systematic review. https://pubmed.ncbi.nlm.nih.gov/37550898/ - 43 RCTs support acne/rosacea/melasma; no eligible aging RCTs.
+4. Hughes MCB et al. Sunscreen randomized trial. https://pubmed.ncbi.nlm.nih.gov/23732711/ - 24% less measured aging with daily versus discretionary sunscreen.
+5. Tran QT et al. Adapalene 0.1% aging RCT. https://pubmed.ncbi.nlm.nih.gov/40990960/ - small RCT with improvement and frequent early stinging/xerosis.
+6. Bragato EF et al. Facial PBM frequency RCT. https://pubmed.ncbi.nlm.nih.gov/40167796/ - parameter-specific evidence; 2 versus 3 weekly sessions, not a universal daily-panel rule.
+

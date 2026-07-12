@@ -12,7 +12,7 @@
 
 1. **810 nm is a genuine sweet spot, and the chromophore numbers show why.** At 810 nm, melanin's absorption coefficient (~136 cm⁻¹) out-absorbs blood by ~30× and water by ~6800×, while the light still penetrates ~1.5–2 mm to reach the follicle bulb. Shorter wavelengths (532–600 nm) heat blood and the epidermis more and don't reach the follicle; longer ones (1064 nm) penetrate deeper and spare the epidermis but barely heat the hair. 700–950 nm is the "near-infrared optical window," and every hair laser lives in it.[[9]](https://en.wikipedia.org/wiki/Near-infrared_window_in_biological_tissue)
 
-2. **Tria's real advantage over home IPL is fluence, not just "laser."** Tria delivers up to **20 J/cm²** at a single wavelength — 3–4× a typical home IPL's ~5–6 J/cm². But it fires that energy as a **long ~350 ms pulse** (see #3), so a single pulse doesn't spike the follicle to coagulation — it holds a sustained ~55–60 °C. Real reduction builds over the full 8-session course: the cleanest home dose-response (run *on the Tria itself*) shows 20 J/cm² → 65% at 12 months vs. 44% at 7 J/cm²[[5]](https://pubmed.ncbi.nlm.nih.gov/22886431/) — higher level = more durable, which the tool reproduces (7→~43 °C, 20→~58 °C).
+2. **Tria's published incident-fluence ceiling is higher, but that is not the same as absorbed follicle dose.** Tria reaches **20 J/cm²** versus roughly 5–6 J/cm² for many home IPL devices in this archive. Your objection is correct: melanin absorbs 810 nm less strongly than shorter IPL wavelengths. The actual target deposition depends on the IPL spectral distribution, wavelength-dependent absorption, transmission/scattering to follicle depth, hair geometry, and pulse duration. The simulator's ~43–58 °C values are calibrated illustrative outputs—not measured Tria follicle temperatures and not evidence of the device's clinical mechanism. Separate human outcome data still show a Tria dose-response: 20 J/cm² produced more durable reduction than 7 J/cm² within the same 810 nm device.[[5]](https://pubmed.ncbi.nlm.nih.gov/22886431/)
 
 3. **Both Tria models fire a LONG ~300–400 ms pulse — not a "20 ms spike" (a widely-repeated myth I had to correct mid-project).** Tria's own patent US 7,250,045 states the pulse is *"nominally 300–350 ms,"* with the worked example *"20 J/cm² in 350 ms… requires an optical peak power of only 46 watts,"* and the **Precision IFU independently confirms *"MAX PULSE DURATION 400 ms, MAX OUTPUT 40 W."*** The "20 ms" from reviews is physically impossible at ~40 W (it would need ~1000 W). Because peak power is fixed, **pulse length rises with the level you pick** (~140 ms at 7 J/cm² → ~400 ms at 20). Consequence: the follicle never *spikes* — over a long pulse it sheds heat as fast as it absorbs it, settling at a sustained warmth that works via thermal-damage-time diffusion.[[4]](https://pubmed.ncbi.nlm.nih.gov/12030874/) The 4X and Precision are thermally **twins**; what differs is spot size, level count (5 vs 3), and battery/workflow — not pulse timing.
 
@@ -67,7 +67,53 @@ Because a diode's peak power is fixed (~40–46 W), **pulse length rises with th
 
 **What the model shows at Tria's real settings (810 nm, 20 J/cm², ~350 ms):** the follicle holds a sustained ~55–60 °C — below the ~65 °C instant-coagulation line, but warm enough to accumulate damage over the pulse and, crucially, over the **full 8-session course**. Lower levels sit cooler (7 J/cm² → ~43 °C, 12 → ~49 °C, 20 → ~58 °C), mirroring Wheeland's dose-response. To coagulate the follicle in a *single* pulse you'd need either much higher clinical fluence or a short high-power spike (~1000 W) — the domain of plugged-in clinic lasers, not a home handheld. (Drag the simulator's pulse-duration dial to the short end to see what such a clinic spike would do at your fluence.)
 
-**Two things people always ask about Tria — the pain, and the (lack of) cooling.** Tria has **no active skin cooling**: its sapphire window protects the device but doesn't pre-chill the skin the way clinic tips (0–5 °C) or newer home devices do — which is a big reason Tria is one of the more painful home devices (reviewers describe a "sharp, hot pinprick" and reach for ice packs). And the **sting is mostly the follicle, not the flat skin**: at 810 nm only pigment absorbs, so clear skin *between* hairs barely heats (the blue epidermis line stays low) while the hair bulb cooks to ~55–60 °C and dumps that heat into the nerve-rich tissue around it — that's the pinprick. The flat epidermis only warms via *its own* melanin, so it climbs with skin tone and (a little more) with no cooling — but the model literally can't heat skin that has no pigment. That's selective photothermolysis working as intended: **the heat requires a chromophore.**
+**Two things people always ask about Tria — the pain, and the (lack of) cooling.** Tria has **no active skin-contact cooling**: its fan manages device heat, but the Precision IFU does not describe a chilled treatment window. The **sting is mainly localized follicular/skin heating**: at 810 nm, dark hair is the intended absorber, so coarse dense follicles can create a repeated deep hot-pinprick sensation. The epidermis also absorbs according to its melanin content, which is why skin tone and tanning affect injury risk. The simulator now keeps this mechanism separate from personal pain: its new **Pain & tolerability explorer** uses a transparent relative-burden index rather than claiming to predict anyone's 0–10 score.
+
+---
+
+## 3A. July 2026 pain update — yes, other people often report the same gap
+
+The user's report—**Tria Precision was dramatically more painful than their IPL device**—is plausible and well aligned with two stronger sources:
+
+1. The **Precision IFU itself** says almost all users in its clinical study reported mild-to-moderate pain or discomfort during the first treatment. It lists warmth, burning, tingling, and itching, compares the sensation to a rubber-band snap, and says sensitivity generally declined in later treatments.[[7]](Tria_Precision_IFU_HRLp.pdf)
+2. A **2026 randomized split-body trial** treated opposite axillae with IPL and an 810 nm diode at the same professional fluence/pulse duration (25 J/cm², 10 ms; both cooled). First-session median pain was **6/10 for diode versus 1/10 for IPL**; by session four it was **5 versus 0**. The diode also caused more transient perifollicular edema and hair carbonization, consistent with a stronger immediate follicular thermal effect.[[11]](https://pmc.ncbi.nlm.nih.gov/articles/PMC13242373/)
+
+That trial is unusually relevant because the diode spot was **0.81 cm²**, essentially the same small geometry used in Tria's patent example. It is **not** a direct Tria-vs-home-IPL trial: the clinic devices used 25 J/cm² / 10 ms, while Precision uses a much longer pulse and home IPL usually uses lower fluence. The pain numbers therefore anchor the direction of the difference, not your expected score.
+
+### Why your IPL probably felt gentler
+
+| Driver | Tria Precision | Typical home IPL | Pain implication |
+|---|---|---|---|
+| Published fluence | 7–20 J/cm² | commonly about 5–6 J/cm² in this archive | Tria can deliver much more energy density per spot |
+| Spectrum | concentrated 810 nm diode | broadband filtered flash | Different depth and follicular heat distribution |
+| Treatment window | small, about 0.8 cm² | often several cm² | Tria feels like repeated localized pinpricks |
+| Contact cooling | no chilled skin-contact system disclosed | many newer devices use sapphire/contact cooling | cooled IPL can suppress surface heat sensation |
+| Hair density | each dark coarse follicle is a strong absorber | same principle, usually lower per-pulse dose | underarms/bikini/coarse patches often hurt most |
+| Pulse protocol | up to 400 ms, 40 W max | device-specific; may use split/sub-pulses | sensation can be deeper/longer even without a clinic-style spike |
+
+The honest qualifier is that **device class alone does not determine pain**. A 2010 randomized hirsutism trial found its IPL protocol more painful than its long-pulsed diode protocol (median 6 vs 3), while 2014 and 2026 comparisons found diode more painful. Fluence, pulse width, cooling, spot, body site, hair density, and individual sensitivity can reverse the ranking.[[12]](https://pubmed.ncbi.nlm.nih.gov/20731651/)
+
+### What other Tria users describe (anecdotal, not prevalence data)
+
+Recent user reports span a wide range:
+
+- one user described level 5 as only “maybe a pinch,” but said Tria produced a deeper heat/pain than prior IPL;
+- another returned the device because it took too long and “hurts a LOT”;
+- a dedicated “too painful” thread includes users unable to tolerate level 3, users staying at level 2, and one person who sold an older unit because they could not use it without numbing cream;
+- another comparison described professional laser as a rubber-band snap but Tria as a “harsh bite.”
+
+These reports establish **range and adherence problems**, not a percentage of users affected. People with extreme experiences are more likely to post.[[13]](https://www.reddit.com/r/HairRemoval/comments/1cghosy/tria_4x_too_painful/)
+
+### Practical ways to improve tolerability
+
+1. **Patch-test and use the highest level you can comfortably tolerate.** The Precision manual explicitly directs Low → Medium → High testing on separate spots, a 24-hour wait, then the highest comfortable level. “High at all costs” is not the instruction.
+2. **Cleanse, shave closely, and dry completely.** The IFU says surface-hair removal improves comfort and lets light reach the follicle. Do not wax or pluck because the follicular target must remain.
+3. **Treat small zones.** The Precision is a spot tool. A completed Medium session can be more useful than repeatedly abandoning High.
+4. **Do not stack pulses.** Move by about half a window after each pulse for coverage, but never repeatedly fire the same spot; the IFU warns that this can cause discomfort, heating, and injury.
+5. **Consider brief external cooling.** A 2023 randomized 810 nm diode study found ice packs and lidocaine-prilocaine provided broadly similar pain control, with 60.2% of treatment preferences favoring ice. For home use, use a wrapped cool pack, never direct ice, and dry the skin completely before firing.[[14]](https://pubmed.ncbi.nlm.nih.gov/36410628/)
+6. **Avoid high-strength internet numbing creams.** FDA warned in 2024 that high-concentration lidocaine products marketed for laser hair removal can cause irregular heartbeat, seizures, and breathing difficulty. Ask a clinician before using anesthetic, especially on large areas.[[15]](https://www.fda.gov/news-events/press-announcements/fda-warns-consumers-avoid-certain-topical-pain-relief-products-due-potential-dangerous-health)
+
+> **Stop instead of pushing through** if pain is intense or persists after treatment, or if blistering, a burn, or a skin-color change appears. That is the Precision manual's safety boundary, not a normal “effective treatment” signal.
 
 ---
 
@@ -161,6 +207,7 @@ At **810 nm** melanin out-absorbs oxy-hemoglobin by ~**31×** and water by ~**68
 - **Chromophore μₐ are representative figures, not a spectrophotometer trace.** Melanin uses the Jacques melanosome formula; hemoglobin/water use standard omlc/Prahl compilations. Real skin values vary with concentration, oxygenation, and hydration.
 - **Tria's exact per-level pulse behavior isn't fully public.** The 4X IFU omits pulse duration entirely; the ~300–350 ms figure comes from Tria's patent (US 7,250,045) plus its ~40 W-class power. The Precision IFU gives "MAX 400 ms / 40 W" — a *ceiling*, not the value at each level. Since pulse length scales with fluence at fixed power, lower levels fire shorter pulses. (The "20 ms" in many reviews is simply wrong — see §3.)
 - **Penetration is modeled as a smooth wavelength factor, not a Monte-Carlo photon simulation** — the depth trend is right, the exact millimeters are approximate.
+- **The pain explorer is a directional teaching index, not a fitted pain scale.** It exposes contributors that plausibly move discomfort up or down; it does not predict a personal 0–10 score, safety, or efficacy.
 
 ---
 
@@ -175,5 +222,11 @@ At **810 nm** melanin out-absorbs oxy-hemoglobin by ~**31×** and water by ~**68
 7. Tria Hair Removal Laser Precision (HRLp) IFU (in this folder) — **verified** technical specs: 810 nm · **MAX PULSE DURATION 400 ms** · **MAX OUTPUT LASER RADIATION 40 W** · 7–20 J/cm². https://www.manualslib.com/manual/1292786/Tria-Hair-Removal-Laser-Precision.html
 8. **US 7,250,045 (Tria/SpectraGenics)** — the hard source for Tria's pulse: *"nominally 300 to 350 milliseconds"* (range 10 ms–1 s; pref 200–600 ms), peak power 30–60 W, worked example *"20 J/cm² in 350 ms… requires an optical peak power of only 46 watts."* Also spot 0.25–5 cm² (pref 0.8 = 9×9 mm), fluence 4–100 (pref ~20). https://patents.google.com/patent/US7250045B2/en · (plus US 5,735,844, Anderson/MGH: 680–1200 nm, sapphire cooling — see [11_810nm_diode_laser_alternatives_vs_ipl.md](11_810nm_diode_laser_alternatives_vs_ipl.md)).
 9. Near-infrared optical window in biological tissue — 700–950 nm penetrates deepest with least competing absorption. https://en.wikipedia.org/wiki/Near-infrared_window_in_biological_tissue
+10. Byalakere Shivanna C, et al. *Methods to overcome poor responses and challenges of laser hair removal in dark skin.* 2022 — follicular TRT/coagulation context used by the thermal teaching model. https://pmc.ncbi.nlm.nih.gov/articles/PMC9541334/
+11. Barros RTB, et al. *Efficacy and safety of intense pulsed light compared to diode Laser for hair removal: a randomized controlled trial.* *Lasers Med Sci* 2026;41:108. Median session-1 pain: diode 6/10 vs IPL 1/10; at session 4: 5 vs 0. Local CC BY full-text XML: [source_docs/PMC13242373_2026_IPL_vs_diode_randomized_fulltext.xml](source_docs/PMC13242373_2026_IPL_vs_diode_randomized_fulltext.xml). https://pmc.ncbi.nlm.nih.gov/articles/PMC13242373/
+12. Ismail SA. *Hair removal in hirsute women with normal testosterone levels: a randomized controlled trial of long-pulsed diode laser vs. intense pulsed light.* *Br J Dermatol* 2010;163(4):859-864. This protocol found IPL more painful (median 6 vs 3), demonstrating that device parameters can reverse the category-level pattern. https://pubmed.ncbi.nlm.nih.gov/20731651/
+13. r/HairRemoval, “Tria 4x too painful” and linked user-experience threads, accessed 2026-07-12. Anecdotal/self-selected evidence for the range from tolerable to treatment-limiting pain; not prevalence data. https://www.reddit.com/r/HairRemoval/comments/1cghosy/tria_4x_too_painful/
+14. Roongpisuthipong W, et al. *Comparative effectiveness of ice packs versus topical lidocaine-prilocaine mixture for pain control in laser hair removal of the axilla.* *J Am Acad Dermatol* 2023;88(3):617-622. Randomized 810 nm diode comparison; no serious adverse events and 60.2% of treatment preferences favored ice. https://pubmed.ncbi.nlm.nih.gov/36410628/
+15. U.S. FDA. *FDA Warns Consumers to Avoid Certain Topical Pain Relief Products Due to Potential for Dangerous Health Effects.* 2024-03-26 — warning includes products marketed for laser hair removal and risks from excessive lidocaine absorption. https://www.fda.gov/news-events/press-announcements/fda-warns-consumers-avoid-certain-topical-pain-relief-products-due-potential-dangerous-health
 
-*Compiled 2026-07-01. Pairs with the interactive [tria_diode_simulator.html](tria_diode_simulator.html) and the device/value analysis in [11_810nm_diode_laser_alternatives_vs_ipl.md](11_810nm_diode_laser_alternatives_vs_ipl.md). The IPL-side sibling tools are in [../01_ipl_hair_removal/](../01_ipl_hair_removal/shr_thermal_simulator.html).*
+*Compiled 2026-07-01; pain/tolerability update 2026-07-12. Pairs with the interactive [tria_diode_simulator.html](tria_diode_simulator.html) and the device/value analysis in [11_810nm_diode_laser_alternatives_vs_ipl.md](11_810nm_diode_laser_alternatives_vs_ipl.md). The IPL-side sibling tools are in [../01_ipl_hair_removal/](../01_ipl_hair_removal/shr_thermal_simulator.html).*

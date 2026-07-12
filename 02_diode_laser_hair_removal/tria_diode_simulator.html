@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Tria 810nm Diode Laser — Chromophore & Thermal Simulator</title>
+<title>Tria 810nm Diode Laser — Pain, Chromophore &amp; Thermal Simulator</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%94%A6%3C/text%3E%3C/svg%3E">
 <link rel="apple-touch-icon" href="appicon-180.png">
 <meta name="theme-color" content="#6d28d9">
@@ -94,16 +94,28 @@ tbody tr:nth-child(even){background:#fafbfc}
 .esum{grid-column:1/-1;font-size:12.5px;background:#faf7ff;border:1px solid #e4dcfb;border-radius:10px;padding:10px 13px}
 .esum b{color:var(--accent)}
 .disc{font-size:11.5px;color:var(--muted);margin-top:8px}
+.pain-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px;margin-top:14px}
+.pain-controls{display:grid;gap:12px}
+.pain-out{border:1px solid #e4dcfb;background:#faf7ff;border-radius:12px;padding:14px 16px}
+.pain-row{display:grid;grid-template-columns:96px 1fr 44px;align-items:center;gap:9px;margin:10px 0;font-size:12.5px}
+.pain-track{height:12px;background:#e8e7ed;border-radius:8px;overflow:hidden}
+.pain-track i{display:block;height:100%;border-radius:8px;transition:width .2s}
+.pain-call{font-size:13px;margin-top:12px;padding-top:11px;border-top:1px solid #ddd6f4}
+.evidence-strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin-top:14px}
+.evidence-strip>div{border:1px solid var(--line);border-radius:10px;padding:10px 11px;background:#fafbfc;font-size:12px}
+.evidence-strip b{display:block;color:var(--accent);margin-bottom:3px}
+.safe-list{font-size:12.8px;padding-left:20px;margin:12px 0 0}.safe-list li{margin-bottom:7px}
 ol.src{font-size:12px;padding-left:22px} ol.src li{margin-bottom:7px}
 sup a{text-decoration:none;font-weight:700;color:var(--accent);font-size:11px}
-@media(max-width:640px){.topbar{padding:10px 14px}.topbar h1{font-size:17px;line-height:1.25}.topbar p{font-size:12px}.wrap{margin:12px auto;padding:0 10px}.card{padding:16px 13px;border-radius:10px;margin-bottom:12px}.card h2{font-size:16px}.devrow{display:grid;grid-template-columns:minmax(0,1fr);gap:8px}select#device{width:100%;min-width:0}.scenbtns,.presetbtns{display:grid;grid-template-columns:1fr;gap:6px}.scenbtns button,.presetbtns button{text-align:left}.ctrls{gap:12px}.ctl label{display:block}.ctl label .val{display:block;margin-top:2px}.seg{display:grid;grid-template-columns:1fr;width:100%}.seg button{width:100%;text-align:center;padding:9px 10px}.gauges,.chromo-now{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.g,.cq{padding:10px}.g .v{font-size:19px}.legend{gap:8px}.legend span{align-items:flex-start}.two{gap:10px}.two>*{min-width:0;max-width:100%;overflow-x:auto}.pathcard{padding:12px}.pathcard p{font-size:12.5px}.quote{padding:11px}.quote p{font-size:12.5px}table{width:100%;min-width:680px;max-width:none;font-size:12px;table-layout:fixed}th,td{padding:6px 7px;min-width:0;overflow-wrap:anywhere}svg{width:100%;max-height:70vh}.blurb,.warn,.verdict{font-size:12.8px;padding:11px 12px}.deviceinfo{padding:11px 12px}.prov{white-space:normal}}
+@media(max-width:760px){.pain-grid{grid-template-columns:1fr}.evidence-strip{grid-template-columns:1fr}}
+@media(max-width:640px){.topbar{padding:10px 14px}.topbar h1{font-size:17px;line-height:1.25}.topbar p{font-size:12px}.wrap{margin:12px auto;padding:0 10px}.card{padding:16px 13px;border-radius:10px;margin-bottom:12px}.card h2{font-size:16px}.devrow{display:grid;grid-template-columns:minmax(0,1fr);gap:8px}select#device{width:100%;min-width:0}.scenbtns,.presetbtns{display:grid;grid-template-columns:1fr;gap:6px}.scenbtns button,.presetbtns button{text-align:left}.ctrls{gap:12px}.ctl label{display:block}.ctl label .val{display:block;margin-top:2px}.seg{display:grid;grid-template-columns:1fr;width:100%}.seg button{width:100%;text-align:center;padding:9px 10px}.gauges,.chromo-now{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.g,.cq{padding:10px}.g .v{font-size:19px}.legend{gap:8px}.legend span{align-items:flex-start}.two{gap:10px}.two>*{min-width:0;max-width:100%;overflow-x:auto}.pathcard{padding:12px}.pathcard p{font-size:12.5px}.quote{padding:11px}.quote p{font-size:12.5px}table{width:100%;min-width:680px;max-width:none;font-size:12px;table-layout:fixed}th,td{padding:6px 7px;min-width:0;overflow-wrap:anywhere}svg{width:100%;max-height:70vh}.blurb,.warn,.verdict{font-size:12.8px;padding:11px 12px}.deviceinfo{padding:11px 12px}.prov{white-space:normal}.pain-row{grid-template-columns:78px 1fr 38px}}
 </style>
 </head>
 <body>
 <div class="topbar">
   <a href="index.html">← Diode laser docs</a> &nbsp;·&nbsp; <a href="../index.html">All Research</a> &nbsp;·&nbsp; <a href="11_810nm_diode_laser_alternatives_vs_ipl.md">Diode vs IPL</a>
-  <h1>🔦 Tria 810 nm Diode Laser — Chromophore &amp; Thermal Simulator</h1>
-  <p>The IPL simulator's diode-laser sibling. See <b>how much each chromophore (melanin, blood, water) absorbs</b> at a laser's wavelength, why <b>810 nm</b> is the hair-removal sweet spot, and how the <b>epidermis, follicle, and stem-cell target</b> heat under Tria's real settings — both models fire a <b>long ~300–400 ms pulse</b> (patent-verified, not the "20 ms" of reviews), so they <b>soak</b> rather than spike.</p>
+  <h1>🔦 Tria 810 nm Diode Laser — Pain, Chromophore &amp; Thermal Simulator</h1>
+  <p>Start with <b>why the Precision can hurt much more than home IPL</b>, then explore how wavelength, fluence, cooling, skin tone, hair and pulse duration change the exposure. Pain is shown as a transparent <b>relative burden</b>, not a medical prediction.</p>
 </div>
 
 <div class="wrap">
@@ -112,8 +124,45 @@ sup a{text-decoration:none;font-weight:700;color:var(--accent);font-size:11px}
   <div class="card">
     <h2>Why a separate tool for diode lasers?</h2>
     <p class="sub">IPL is a broadband flashlamp (≈560–1200 nm). Tria is a <b>single-wavelength 810 nm diode laser</b> — and that one number changes everything about which chromophores heat and how deep the energy goes.</p>
-    <p style="font-size:13.5px;margin:0 0 8px">Light in skin is absorbed by a few <b>chromophores</b>: <b>melanin</b> (in hair &amp; epidermis), <b>oxy/deoxy-hemoglobin</b> (blood), and <b>water</b>. Each absorbs differently at each wavelength. Hair removal wants to dump energy into the <b>hair's melanin</b> while sparing everything else. 810 nm sits in the <b>near-infrared "optical window"</b>: melanin still absorbs meaningfully, but blood and water barely do, and the light penetrates deep enough to reach the follicle bulb. That's why every clinical hair laser (755/810/1064 nm) lives in this band, and why Tria — a true 810 nm diode at up to <b>20 J/cm²</b> (3–4× a home IPL) — is the only FDA-cleared home <i>laser</i>.</p>
+    <p style="font-size:13.5px;margin:0 0 8px">Light in skin is absorbed by a few <b>chromophores</b>: <b>melanin</b> (in hair &amp; epidermis), <b>oxy/deoxy-hemoglobin</b> (blood), and <b>water</b>. Each absorbs differently at each wavelength. Hair removal wants to deposit energy in <b>hair melanin</b> while sparing epidermal melanin. Tria's published maximum <b>incident fluence</b> is 20 J/cm² versus roughly 5–6 J/cm² for many home IPL devices in this archive—but that is <b>not a 3–4× absorbed-follicle-dose claim</b>. Absorbed target energy also depends on wavelength, the IPL spectrum, transmission to follicle depth, scattering, hair geometry, and pulse duration.</p>
     <div class="warn"><b>Teaching model, not a lab measurement.</b> Absorption values are representative literature figures (Jacques 2013 for melanin; omlc/Prahl compilations for hemoglobin &amp; water); the thermal model is an illustrative lumped-parameter integrator calibrated to published coagulation/TDT temperatures. Use it for intuition about <b>wavelength selectivity, fluence, and pulse duration</b> — not to predict a number for your skin. Not medical advice.</p>
+  </div>
+
+  <!-- PAIN / TOLERABILITY -->
+  <div class="card" id="pain-explorer">
+    <h2>0 · Why did the Tria Precision hurt so much more than your IPL?</h2>
+    <p class="sub"><b>Your experience is believable, but fluence alone does not explain it.</b> Tria delivers up to 20 J/cm² of incident 810 nm light without a chilled skin-contact tip; many home IPL devices use lower incident fluence and may add contact cooling. The small window localizes each sensation and slows coverage, but it does <b>not</b> increase J/cm²—fluence already means energy per area. Device settings still matter: “diode always hurts more” is not a universal law.</p>
+    <div class="pain-grid">
+      <div class="pain-controls">
+        <div class="ctl"><label>Tria level <span class="val" id="v_painLevel"></span></label><input type="range" id="painLevel" min="1" max="3" step="1" value="3"><div class="hint">Precision has Low / Medium / High. Exact per-level fluence is not published; the full device range is 7–20 J/cm².</div></div>
+        <div class="ctl"><label>Hair density / coarseness <span class="val" id="v_painHair"></span></label><input type="range" id="painHair" min="0" max="100" step="5" value="75"><div class="hint">More dark pigment per spot means more follicular heat. This is why dense underarm/bikini hair often stings more than sparse leg hair.</div></div>
+        <div class="ctl"><label>Body-area sensitivity <span class="val" id="v_painArea"></span></label><input type="range" id="painArea" min="1" max="3" step="1" value="2"><div class="hint">Illustrative: 1 = lower leg/arm, 2 = underarm, 3 = a very sensitive permitted area. The manual prohibits a man's face/jaw/neck and several intimate areas.</div></div>
+        <label class="toggle"><input type="checkbox" id="painStubble"> Visible stubble / imperfect shave</label>
+        <label class="toggle"><input type="checkbox" id="painIplCool" checked> My IPL has chilled-contact cooling</label>
+      </div>
+      <div class="pain-out">
+        <b>Illustrative discomfort burden—not a 0–10 pain prediction</b>
+        <div class="pain-row"><span>Tria Precision</span><span class="pain-track"><i id="painTriaBar" style="background:var(--red)"></i></span><strong id="painTria">—</strong></div>
+        <div class="pain-row"><span>Home IPL</span><span class="pain-track"><i id="painIplBar" style="background:var(--blue)"></i></span><strong id="painIpl">—</strong></div>
+        <div class="pain-call" id="painCall"></div>
+        <p class="disc">Model: directional factors only—published incident-fluence range, chosen level, hair density, sensitive area, surface stubble, and IPL cooling. It does not model wavelength-resolved absorbed dose and is not trained to personal pain ratings.</p>
+      </div>
+    </div>
+    <div class="evidence-strip">
+      <div><b>Precision manual</b>Almost all clinical-study users reported mild-to-moderate pain/discomfort during the first treatment; sensitivity generally fell later.<sup><a href="#s7">7</a></sup></div>
+      <div><b>2026 randomized trial</b>At session 1, median pain was 6/10 for 810 nm diode versus 1/10 for IPL; the gap persisted through session 4 despite cooled handpieces.<sup><a href="#s11">11</a></sup></div>
+      <div><b>Real-world reports vary</b>Some users call max power a pinch; others stop, sell the device, or describe deeper heat than IPL. Anecdotes show the range, not a population rate.<sup><a href="#s13">13</a></sup></div>
+    </div>
+    <h3 class="cgrouphd">Make it more tolerable without turning pain into the goal</h3>
+    <ol class="safe-list">
+      <li><b>Use the highest level you can actually tolerate—not automatically High.</b> Patch-test Low, then Medium/High on separate spots, wait 24 hours, and treat at the highest comfortable level, exactly as the Precision IFU directs.</li>
+      <li><b>Cleanse, shave closely, and dry completely.</b> Leaving hair above the skin wastes energy heating the shaft and can add a surface singe; the manual specifically says shaving improves comfort.</li>
+      <li><b>Break the job into small zones.</b> Precision is a small-area tool. Adherence at Medium beats abandoning an intolerable High session.</li>
+      <li><b>Move after every pulse.</b> Use the manual's half-window overlap pattern, but do not repeatedly fire the same spot; stacking increases discomfort, heating, and injury risk.</li>
+      <li><b>Cooling is reasonable, with limits.</b> A wrapped cool pack before or briefly between zones has clinical support for laser-hair-removal pain, but dry the skin before firing and never apply ice directly. Tria has no active skin-contact cooling.<sup><a href="#s12">12</a></sup></li>
+      <li><b>Skip high-strength internet numbing creams.</b> FDA warns that concentrated lidocaine products marketed for laser hair removal can cause arrhythmias, seizures, and breathing problems. Ask a clinician before using topical anesthetic, especially over a large area.<sup><a href="#s14">14</a></sup></li>
+    </ol>
+    <div class="warn" style="margin-top:12px"><b>Stop—not “push through”—</b> if pain is intense or persists after treatment, or if you see blistering, a burn, or skin-color change. The Precision manual says to stop and seek medical advice in those situations.</div>
   </div>
 
   <!-- SPEC PROVENANCE -->
@@ -222,8 +271,8 @@ sup a{text-decoration:none;font-weight:700;color:var(--accent);font-size:11px}
 
   <!-- THERMAL CHART -->
   <div class="card">
-    <h2>3 · How everything heats — and whether it crosses threshold</h2>
-    <p class="sub">Temperature of each structure over time, driven by the chromophore absorption above. Cross a threshold line and that damage pathway is in play.</p>
+    <h2>3 · Illustrative heating sensitivity—not measured Tria temperatures</h2>
+    <p class="sub">A calibrated three-compartment trace showing how inputs change directionally. The displayed temperatures are <b>not measured in Tria-treated follicles</b>; crossing or missing a line is only a criterion inside this model, not proof of clinical damage, safety, comfort, or failure.</p>
     <svg id="chart" viewBox="0 0 980 420" role="img" aria-label="Temperature of epidermis, follicle and stem-cell target over time"></svg>
     <div class="legend">
       <span><span class="swatch" style="background:var(--blue)"></span> Epidermis (protect this)</span>
@@ -231,13 +280,13 @@ sup a{text-decoration:none;font-weight:700;color:var(--accent);font-size:11px}
       <span><span class="swatch" style="background:var(--good)"></span> Bulge stem cells (permanent-reduction target)</span>
     </div>
     <div class="gauges" style="margin-top:16px">
-      <div class="g"><div class="k">Peak follicle temp</div><div class="v" id="pf">—</div><div class="cap" id="pfcap"></div><div class="bar"><i id="pfbar"></i></div></div>
+      <div class="g"><div class="k">Illustrative follicle peak</div><div class="v" id="pf">—</div><div class="cap" id="pfcap"></div><div class="bar"><i id="pfbar"></i></div></div>
       <div class="g"><div class="k">Stem-cell dose (TDT)</div><div class="v" id="pd">—</div><div class="cap" id="pdcap"></div><div class="bar"><i id="pdbar"></i></div></div>
-      <div class="g"><div class="k">Peak epidermis temp</div><div class="v" id="pe">—</div><div class="cap" id="pecap"></div><div class="bar"><i id="pebar"></i></div></div>
-      <div class="g"><div class="k">Skin burn risk</div><div class="v" id="ps">—</div><div class="cap" id="pscap"></div><div class="bar"><i id="psbar"></i></div></div>
+      <div class="g"><div class="k">Illustrative epidermis peak</div><div class="v" id="pe">—</div><div class="cap" id="pecap"></div><div class="bar"><i id="pebar"></i></div></div>
+      <div class="g"><div class="k">Model epidermis criterion</div><div class="v" id="ps">—</div><div class="cap" id="pscap"></div><div class="bar"><i id="psbar"></i></div></div>
     </div>
     <div class="verdict" id="verdict"></div>
-    <p class="note" style="margin-top:12px"><b>"But Tria stings — why is the skin barely warming?"</b> Because the sting is mostly the <b>follicle</b> (the red line), not the flat skin. At 810 nm, light is only absorbed by a chromophore — and clear skin between hairs has little pigment, so it barely heats (that's selective photothermolysis working). The energy goes into <b>melanin</b>: the hair shaft/bulb cooks to ~55–60 °C and dumps that heat into the nerve-rich tissue around it — that's the "hot pinprick." The flat <b>epidermis</b> only warms via <i>its own</i> melanin, so it climbs with skin tone (drag skin tone up and watch the blue line rise into the burn zone) and with no cooling. <b>Take the hair away (or use pale, pigment-free skin) and nothing heats</b> — the model can't warm skin on its own, only pigment.</p>
+    <p class="note" style="margin-top:12px"><b>Why can Tria hurt even when this chart shows a modest follicle peak?</b> Because this is a spatially averaged lumped model, not a measurement. It can smooth over microscopic hot regions in the hair shaft/follicular unit and does not model nociceptors. Pain depends on local temperature history, nerve distribution, body site, epidermal heating, cooling, and anticipation—not just the model's red-line maximum. A long pulse can also produce a lower peak but a longer heat stimulus. Therefore <b>the chart cannot be used to predict pain</b>.</p>
   </div>
 
   <!-- BOTH LONG PULSE -->
@@ -434,9 +483,9 @@ function draw(sim){
 }
 
 function skinRisk(sim){
-  if(sim.peakTe>=T_EPI_DANGER||sim.doseE>=EDOSE_HIGH)return{lvl:'HIGH',col:'var(--red)',why:'acute peak in the burn zone and/or heavy cumulative load'};
-  if(sim.peakTe>=T_EPI_WARN||sim.doseE>=EDOSE_MOD)return{lvl:'MODERATE',col:'var(--amber)',why:'warm — watch fluence, pulse width & cooling'};
-  return{lvl:'LOW',col:'var(--good)',why:'peak and cumulative load both in the safe range'};
+  if(sim.peakTe>=T_EPI_DANGER||sim.doseE>=EDOSE_HIGH)return{lvl:'ABOVE',col:'var(--red)',why:'above the model’s higher epidermis criterion'};
+  if(sim.peakTe>=T_EPI_WARN||sim.doseE>=EDOSE_MOD)return{lvl:'NEAR',col:'var(--amber)',why:'near the model’s epidermis criterion'};
+  return{lvl:'BELOW',col:'var(--good)',why:'below this model criterion—not a safety clearance'};
 }
 function gauges(sim){
   $('pf').textContent=fmt(sim.peakTf)+'°C'; $('pf').style.color=sim.peakTf>=T_COAG?'var(--good)':sim.peakTf>=52?'var(--amber)':'var(--muted)';
@@ -453,19 +502,19 @@ function gauges(sim){
 function verdict(sim,p){
   const coag=sim.peakTf>=T_COAG, dose=sim.doseBg>=DOSE_THRESH, partial=sim.doseBg>=DOSE_THRESH*0.4, warm=sim.peakTf>=52;
   let cls,head,lines=[];
-  if(coag){cls='yes';head='✓ Likely follicle destruction — peak (coagulation) pathway';
-    lines.push('The follicle peaks at '+fmt(sim.peakTf)+'°'+(sim.peakTf>=TCAP-0.5?' (model-capped at ~100°; far past destruction)':'')+' — past the ~65° coagulation threshold, denaturing the follicle directly. Reaching this needs either a short high-power spike (a clinic laser) or high fluence on dark, coarse hair.');}
-  else if(dose){cls='yes';head='✓ Likely damage — sustained / TDT pathway';
-    lines.push('The follicle never spikes high (peak '+fmt(sim.peakTf)+'°, comfortable) but a long pulse holds it warm long enough that heat diffuses to the stem cells and the accumulated dose ('+fmt(sim.doseBg,1)+' units) clears threshold — the Precision / super-long-pulse mechanism.');}
-  else if(!coag&&partial&&warm){cls='partial';head='◐ Borderline for this single exposure';
-    lines.push('Peak ('+fmt(sim.peakTf)+'°) is below coagulation but the follicle holds a sustained warmth and the deep-target dose ('+fmt(sim.doseBg,1)+' units) is building — the sustained / thermal-damage-time pathway, partway there. This is Tria\'s normal working mode at its top level: not a one-shot kill, but real damage that <b>accrues over the full 8-session course</b>. To push a single pulse harder: raise fluence (level 5), or a clinic laser\'s short high-power spike would coagulate outright.');}
-  else {cls='no';head='✗ Sub-threshold for this exposure';
-    lines.push('Neither pathway reaches threshold: peak '+fmt(sim.peakTf)+'°, dose '+fmt(sim.doseBg,1)+'. '+(sim.mr<0.55?'At this long wavelength melanin barely absorbs — raise fluence a lot (the Nd:YAG problem). ':'')+(p.hair<35?'This hair is too light/fine to absorb — no wavelength fixes that. ':(p.dur>=250?'A long soak at this fluence is too gentle — raise the fluence, or a short high-power spike (clinic-only) would coagulate it. ':'Raise the fluence or darken/coarsen the hair target. ')));
-    lines.push('This models one pulse; real diode-laser reduction accrues over 6–8+ sessions as different hairs cycle into their growth phase.');}
+  if(coag){cls='yes';head='Central trace crosses the illustrative peak criterion';
+    lines.push('The calibrated central trace peaks at '+fmt(sim.peakTf)+'°'+(sim.peakTf>=TCAP-0.5?' (numerically capped at 100°)':'')+'. This is not an in-vivo Tria measurement and does not demonstrate follicle destruction.');}
+  else if(dose){cls='yes';head='Central trace crosses the illustrative sustained-exposure criterion';
+    lines.push('The central trace peaks at '+fmt(sim.peakTf)+'° and its illustrative deep-target integral ('+fmt(sim.doseBg,1)+' units) crosses the selected model criterion. The integral is calibrated—not a validated biological injury dose or comfort score.');}
+  else if(!coag&&partial&&warm){cls='partial';head='Central trace approaches the illustrative criterion';
+    lines.push('Peak ('+fmt(sim.peakTf)+'°) is below the reference line and the illustrative deep-target integral is '+fmt(sim.doseBg,1)+' units. Clinical reduction over repeated sessions does not mean sub-threshold heat literally accumulates between sessions; later sessions expose different hairs as they enter susceptible growth phases.');}
+  else {cls='no';head='Central trace stays below this model criterion';
+    lines.push('The calibrated trace reaches '+fmt(sim.peakTf)+'° with an illustrative integral of '+fmt(sim.doseBg,1)+'. This does <b>not</b> prove the real follicle remained below an effective temperature; key optical, geometric, and tissue parameters are unmeasured.');
+    lines.push('Clinical outcome evidence must be evaluated separately from this sensitivity model.');}
   const sr=skinRisk(sim);
-  if(sr.lvl==='HIGH')lines.push({w:'⚠ Skin burn risk HIGH — epidermis peaks '+fmt(sim.peakTe)+'° (load '+fmt(sim.doseE,1)+' °C·s). Lower fluence, keep cooling on, or move to a longer wavelength.'});
-  else if(sr.lvl==='MODERATE')lines.push('△ Skin burn risk MODERATE — epidermis peaks '+fmt(sim.peakTe)+'°.');
-  else lines.push('Skin safe — epidermis peaks '+fmt(sim.peakTe)+'° (load '+fmt(sim.doseE,1)+' °C·s).');
+  if(sr.lvl==='ABOVE')lines.push({w:'⚠ The illustrative epidermis trace is above the model’s higher criterion. This is not a personal burn prediction; follow the device’s skin-tone and patch-test rules.'});
+  else if(sr.lvl==='NEAR')lines.push('△ The illustrative epidermis trace approaches the model criterion—not a clinical risk estimate.');
+  else lines.push('The illustrative epidermis trace is below this model criterion—not a safety clearance.');
   if(p&&p.skin>=5&&sim.peakTf<T_COAG&&(sim.peakTe>=T_EPI_WARN||sim.Aepi>=0.5)&&p.wl<950)
     lines.push({w:'⚠ Melanin competition on Fitzpatrick '+FITZ[p.skin].split(' ')[0]+' at '+p.wl+' nm: the epidermis is soaking up ~'+Math.round(sim.Aepi*100)+'% of the light while the follicle stays sub-lethal ('+fmt(sim.peakTf)+'°). A long pulse keeps the single-pulse skin peak moderate ('+fmt(sim.peakTe)+'°), but that much absorbed energy causes cumulative burns / pigment change over a session — which is why home diode is contraindicated for deep skin. Switch the wavelength to 1064 nm (Nd:YAG), the classic dark-skin fix.'});
   const v=$('verdict'); v.className='verdict '+cls;
@@ -540,13 +589,38 @@ const SOURCES=[
  ['s7','Tria Hair Removal Laser Precision (HRLp) IFU (in this folder) — verified technical specs: 810 nm · <b>MAX PULSE DURATION: 400 ms</b> · <b>MAX OUTPUT LASER RADIATION: 40 W</b> · 7–20 J/cm². (40 W × 0.4 s ≈ 16 J ≈ 20 J/cm² over ~0.8 cm².)','https://www.manualslib.com/manual/1292786/Tria-Hair-Removal-Laser-Precision.html'],
  ['s8','US 7,250,045 (Tria/SpectraGenics) — the hard source for Tria\'s pulse: <b>"nominally 300–350 ms"</b> (range 10 ms–1 s; pref 200–600 ms), peak power 30–60 W, and the worked example <b>"20 J/cm² in 350 ms… requires an optical peak power of only 46 watts."</b> Also: spot 0.25–5 cm² (pref 0.8 = 9×9 mm), fluence 4–100 J/cm² (pref ~20). This is why the "20 ms" is wrong — 20 J/cm² in 20 ms would need ~1000 W.','https://patents.google.com/patent/US7250045B2/en'],
  ['s9','Near-infrared optical window in biological tissue — why 700–950 nm penetrates deepest with least competing absorption.','https://en.wikipedia.org/wiki/Near-infrared_window_in_biological_tissue'],
- ['s10','Byalakere Shivanna C, et al. 2022; Bhat YJ, et al. 2020 — follicle TRT ~10–100 ms (terminal ≈100), coagulation ≈65–70 °C; the thresholds used here.','https://pmc.ncbi.nlm.nih.gov/articles/PMC9541334/']
+ ['s10','Byalakere Shivanna C, et al. 2022; Bhat YJ, et al. 2020 — follicle TRT ~10–100 ms (terminal ≈100), coagulation ≈65–70 °C; the thresholds used here.','https://pmc.ncbi.nlm.nih.gov/articles/PMC9541334/'],
+ ['s11','Barros RTB, et al. Randomized split-body IPL vs 810 nm diode trial, <i>Lasers Med Sci</i> 2026. At session 1, median pain was 6/10 (IQR 5–7) for diode versus 1/10 (IQR 1–1) for IPL; at session 4 it was 5 versus 0. Both handpieces were cooled, and both clinic devices used 25 J/cm² / 10 ms, so these values are evidence of a modality/parameter trade-off—not a direct forecast for home devices. Local full-text XML is preserved in <a href="source_docs/PMC13242373_2026_IPL_vs_diode_randomized_fulltext.xml">source_docs</a>.','https://pmc.ncbi.nlm.nih.gov/articles/PMC13242373/'],
+ ['s12','Roongpisuthipong W, et al. Randomized comparison of ice packs versus lidocaine-prilocaine for 810 nm diode axillary hair-removal pain, <i>J Am Acad Dermatol</i> 2023. Both approaches reduced pain; 60.2% of treatment preferences favored ice, with no serious adverse events.','https://pubmed.ncbi.nlm.nih.gov/36410628/'],
+ ['s13','Anecdotal experience sample: recent r/HairRemoval threads include reports ranging from “maybe a pinch” to deeper pain than IPL, inability to tolerate level 3, and selling/returning the device. These are self-selected reports and cannot estimate prevalence.','https://www.reddit.com/r/HairRemoval/comments/1cghosy/tria_4x_too_painful/'],
+ ['s14','U.S. FDA safety warning (2024): avoid certain high-concentration topical pain-relief products marketed for cosmetic procedures including laser hair removal; excess lidocaine absorption can cause irregular heartbeat, seizures, and breathing difficulty.','https://www.fda.gov/news-events/press-announcements/fda-warns-consumers-avoid-certain-topical-pain-relief-products-due-potential-dangerous-health']
 ];
 
 /* ============================ WIRE-UP ============================ */
 const FITZ=['','I (very fair)','II (fair)','III (medium)','IV (olive)','V (brown)','VI (deep)'];
 function hairLbl(h){return h<25?'fine / light':h<50?'medium':h<80?'coarse / dark':'very coarse / black';}
 function wlName(wl){return wl<560?'green (surface)':wl<720?'red / ruby':wl<780?'alexandrite':wl<900?'diode (near-IR)':wl<1010?'near-IR':'Nd:YAG (deep IR)';}
+const PAIN_LEVEL=['','Low','Medium','High'];
+const PAIN_AREA=['','lower leg / arm','underarm','high-sensitivity area'];
+function updatePain(){
+  const level=+$('painLevel').value, hair=+$('painHair').value, area=+$('painArea').value;
+  const stubble=$('painStubble').checked, cooled=$('painIplCool').checked;
+  // Directional burden index only. Constants make provenance visible in the UI:
+  // Tria starts higher for concentrated 7–20 J/cm² delivery and absent contact cooling;
+  // hair/area/stubble raise both; chilled IPL contact lowers only the comparison device.
+  const tria=Math.round(Math.min(100,30+level*12+hair*.22+area*5+(stubble?10:0)));
+  const ipl=Math.round(Math.min(100,12+level*4+hair*.09+area*3+(stubble?5:0)-(cooled?9:0)));
+  $('v_painLevel').textContent=PAIN_LEVEL[level];
+  $('v_painHair').textContent=hair<30?'sparse / fine':hair<65?'moderate':'dense / coarse';
+  $('v_painArea').textContent=PAIN_AREA[area];
+  $('painTria').textContent=tria;
+  $('painIpl').textContent=ipl;
+  $('painTriaBar').style.width=tria+'%';
+  $('painIplBar').style.width=ipl+'%';
+  const ratio=tria/Math.max(ipl,1);
+  let lead=ratio>2.5?'A dramatically sharper Tria experience is unsurprising in this scenario.':ratio>1.6?'Tria would be expected to feel meaningfully sharper here.':'The modeled gap is modest; personal sensitivity and the exact IPL settings may dominate.';
+  $('painCall').innerHTML='<b>'+lead+'</b> Plausible contributors are Tria’s higher published incident-fluence ceiling, no chilled treatment tip, dark/coarse follicular targets, and a small window that localizes each sensation. The window does not raise J/cm², and pain is not a dosimeter.';
+}
 function readParams(){
   return {wl:+$('wl').value,flu:+$('flu').value,spot:+$('spot').value,dur:+$('dur').value,
           n:+$('n').value,gap:+$('gap').value,skin:+$('skin').value,hair:+$('hair').value,
@@ -604,6 +678,8 @@ $('scenarios').innerHTML=Object.entries(SCENARIOS).map(([k,s])=>`<button data-k=
 document.querySelectorAll('#scenarios button').forEach(b=>b.onclick=()=>selectScenario(b.dataset.k));
 ['wl','flu','spot','dur','n','gap','skin','hair'].forEach(id=>$(id).oninput=run);
 $('cool').onchange=run;
+['painLevel','painHair','painArea'].forEach(id=>$(id).oninput=updatePain);
+['painStubble','painIplCool'].forEach(id=>$(id).onchange=updatePain);
 $('quotes').innerHTML=QUOTES.map(q=>`<div class="quote"><p>“${q.q}”</p><div class="src">— <a href="${q.u}" target="_blank" rel="noopener">${q.s}</a></div></div>`).join('');
 $('sources').innerHTML=SOURCES.map(([id,txt,u])=>`<li id="${id}">${txt}${u?` <a href="${u}" target="_blank" rel="noopener">↗</a>`:''}</li>`).join('');
 
@@ -638,6 +714,7 @@ function SANITY(){
 }
 
 // go
+updatePain();
 selectDevice('tria_4x');
 </script>
 </body>

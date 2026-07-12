@@ -2,7 +2,7 @@
 
 Research into at-home, light- and energy-based skincare devices for **facial redness/erythema, hyperpigmentation, post-inflammatory hyperpigmentation (PIH), and evening skin tone**, plus **hair removal**, **skin-quality (collagen) rejuvenation**, **tightening/laxity**, and topical support as parallel goals. Budget-conscious; covers branded, retail, Chinese OEM/Alibaba sourcing, patent/regulatory context, and practical product buying.
 
-The repo is organized by **product type** into eleven projects:
+The repo is organized by **product type** into twelve projects:
 
 | Folder | Product class | Goal |
 |--------|---------------|------|
@@ -17,6 +17,7 @@ The repo is organized by **product type** into eleven projects:
 | [`09_zinc_oxide_barrier_cream/`](09_zinc_oxide_barrier_cream/) | Zinc oxide barrier cream | Science-first barrier lane: mechanism, dermatitis/wound evidence, safety protocol, and product notes |
 | [`10_microneedling_collagen_induction/`](10_microneedling_collagen_induction/) | Microneedling / collagen induction | Acne scars, wrinkles/scars, FDA QAI devices, home-vs-professional boundary, RF microneedling risk |
 | [`11_hifu_skin_tightening/`](11_hifu_skin_tightening/) | HIFU / microfocused ultrasound | Clinic HIFU/MFU, home-device claims, focal-depth physics, and home-vs-clinic boundary |
+| [`12_peptides_in_skincare/`](12_peptides_in_skincare/) | Topical peptides | Functional taxonomy, ranked clinical evidence, and comparison with ingredients, devices, procedures, and delivery tech |
 
 ## TL;DR
 
@@ -31,6 +32,7 @@ The repo is organized by **product type** into eleven projects:
 9. **Zinc oxide diaper rash cream is now a science-first barrier lane, not just a product tip.** The strongest evidence is for OTC skin-protectant use, irritant/moisture dermatitis, TEWL/barrier support, and wound/periwound adjuncts; adult facial overnight use remains an extrapolation. If experimenting, start around **10-15% zinc oxide** and reserve 40% pastes for spot rescue. See **[`09_zinc_oxide_barrier_cream/`](09_zinc_oxide_barrier_cream/)**.
 10. **Microneedling now has its own collagen-induction lane.** The strongest evidence is professional treatment of atrophic acne scars; FDA has not authorized OTC medical microneedling devices; and RF microneedling is a professional procedure, not a home-device shortcut. See **[`10_microneedling_collagen_induction/`](10_microneedling_collagen_induction/)**.
 11. **HIFU / microfocused ultrasound is now separated as a tightening lane.** Clinic Ulthera/Sofwave evidence is real but procedure-specific; home HIFU/MFU is not a clean "lower-density Ultherapy" analog because focal depth, coupling, line spacing, visualization, and anatomy control matter more than shot count. See **[`11_hifu_skin_tightening/`](11_hifu_skin_tightening/)**.
+12. **Topical peptides now have their own evidence-ranked lane.** Palmitoyl pentapeptide-4 has the clearest direct fine-line trial and acetyl hexapeptide-8 the clearest expression-line signal, but the 2026 meta-analysis found only two high-quality topical studies and says most pooled benefit came from oral peptides. Copper tripeptide-1 is promising, not a proven retinoid/device replacement. See **[`12_peptides_in_skincare/`](12_peptides_in_skincare/)**.
 
 ---
 
@@ -68,8 +70,10 @@ True diode lasers (Tria 810nm and alternatives) and the used-market analysis aro
 | 10 | [Used Tria value & wear pricing](02_diode_laser_hair_removal/10_used_tria_value_and_wear_pricing.md) | Used-market comps, cosmetic/battery wear model, $40/$45/$50 negotiation thresholds |
 | 11 | [810nm diode alternatives vs IPL](02_diode_laser_hair_removal/11_810nm_diode_laser_alternatives_vs_ipl.md) | DermRays/CurrentBody, Epilaser, SilkPro, ViQure/prosumer, and when IPL still wins |
 | 12 | [Marketplace seller activity analysis](02_diode_laser_hair_removal/12_marketplace_seller_activity_analysis.md) | Seller/listing behavior for the $50 offer: listing age, batch-posting, sold-history caveats |
+| 13 | [Tria pain, chromophore & thermal simulation](02_diode_laser_hair_removal/13_tria_diode_thermal_simulation.md) | Why Precision can hurt much more than IPL; 2026 randomized pain data, user experiences, safer comfort strategies, and model limits |
+| 14 | [Tria 4X vs Precision](02_diode_laser_hair_removal/14_tria_4x_vs_precision.md) | Dedicated primary-source comparison: same 810 nm / 7–20 J/cm² dose ceiling, but 4X doubles runtime and adds finer controls |
 
-**Supporting material:** Tria 4X & Tria Precision IFUs (810nm, 7–20 J/cm² spec confirmation) · [marketplace_seller_activity_sanitized.json](02_diode_laser_hair_removal/marketplace_seller_activity_sanitized.json) (sanitized data snapshot for doc 12).
+**Supporting material:** [interactive Tria pain/chromophore/thermal simulator](02_diode_laser_hair_removal/tria_diode_simulator.html) · [pain-study source manifest](02_diode_laser_hair_removal/source_docs/README.md) · Tria 4X & Tria Precision IFUs (810nm, 7–20 J/cm² spec confirmation) · [marketplace_seller_activity_sanitized.json](02_diode_laser_hair_removal/marketplace_seller_activity_sanitized.json) (sanitized data snapshot for doc 12).
 
 ## 03 — Fractional laser resurfacing · [`03_fractional_laser_resurfacing/`](03_fractional_laser_resurfacing/)
 
@@ -99,6 +103,9 @@ Cross-category research on who owns the technology, what the buzzy devices reall
 | 04 | [Market size trends](05_market_patent_intelligence/04_market_size_trends.md) | Category sizing, growth rates, and consumer-device trend lines |
 | 05 | [Frontier & emerging tech](05_market_patent_intelligence/05_frontier_emerging_tech.md) | AI dosing, sensors, home RF, 1064nm, and what is real vs hype |
 | 06 | [Patent search playbook](05_market_patent_intelligence/06_patent_search_playbook.md) | How to keep researching patents without inventing numbers |
+| 07 | [Blind spots and opportunity map](05_market_patent_intelligence/07_blind_spots_and_opportunity_map.md) | Microcurrent/LED correction, enhanced delivery, multimodal stacks, sensors, cold plasma, and the next research queue |
+
+**Supporting material:** [interactive frontier radar](05_market_patent_intelligence/frontier_radar.html) · five mirrored 2024–2025 FDA clearance letters in [`source_docs/`](05_market_patent_intelligence/source_docs/) · patent-family manifest in [`patents_source_docs/`](05_market_patent_intelligence/patents_source_docs/).
 
 ## 06 — Non-fractional lasers · [`06_non_fractional_lasers/`](06_non_fractional_lasers/)
 
@@ -178,6 +185,19 @@ Focused ultrasound lane for clinic HIFU/MFU, home-device claims, focal-depth phy
 
 **Supporting material:** [`depth_planner.html`](11_hifu_skin_tightening/depth_planner.html) interactive focal-depth explainer, mirrored FDA HIFU/MFU PDFs, Ulthera IFU, Sofwave files, Medicube product-page captures, PubMed pages, and an openFDA `OHV` snapshot captured 2026-07-07 in [`source_docs/`](11_hifu_skin_tightening/source_docs/) and [`data/`](11_hifu_skin_tightening/data/).
 
+## 12 — Peptides in skincare · [`12_peptides_in_skincare/`](12_peptides_in_skincare/)
+
+Topical peptide lane for fine lines, expression lines, repair, barrier/hydration, and pigment claims. The section separates functional families, ranks direct human evidence, translates INCI names and trademarks, and compares the realistic peptide effect ceiling with sunscreen, retinoids, niacinamide, vitamin C, pigment agents, Botox, lasers, RF, microneedling, HIFU, LED, and enhanced-delivery technology.
+
+| # | File | What it covers |
+|---|------|----------------|
+| 01 | [Peptide science and functional taxonomy](12_peptides_in_skincare/01_peptide_science_and_taxonomy.md) | Signal, carrier, neurotransmitter-modulating, pigment, barrier/senescence, enzyme-inhibitory, and antimicrobial groups |
+| 02 | [Ranked clinical evidence](12_peptides_in_skincare/02_ranked_clinical_evidence.md) | Most proven topical peptides, study designs, evidence tiers, and marketing-ahead-of-data list |
+| 03 | [Peptides vs ingredients, devices, and technology](12_peptides_in_skincare/03_peptides_vs_ingredients_devices_and_tech.md) | Goal-by-goal comparison and delivery-tech boundary |
+| 04 | [Selection and routine guide](12_peptides_in_skincare/04_selection_and_routine_guide.md) | Goal picker, INCI/trademark translation, label audit, routine placement, trial design, and stop rules |
+
+**Supporting material:** [`peptide_goal_picker.html`](12_peptides_in_skincare/peptide_goal_picker.html) interactive evidence/goal filter · [source manifest](12_peptides_in_skincare/source_docs/README.md) · preserved 2026 systematic-review PDF, open-access full-text XML, and PubMed primary-study records.
+
 ---
 
 ## Status / open items
@@ -191,3 +211,5 @@ Focused ultrasound lane for clinic HIFU/MFU, home-device claims, focal-depth phy
 - **Open — zinc oxide:** look for direct adult facial barrier trials separating zinc oxide from petrolatum/dimethicone vehicle effects, and monitor Amazon/DailyMed label changes for the product notes.
 - **Open — microneedling:** extract MAUDE adverse events for mechanical and RF microneedling, obtain direct IFUs for each cleared pen, add provider-cost quotes by metro, and capture official consumer roller/stamp product pages.
 - **Open — HIFU:** extract MAUDE adverse events for Ulthera/Sofwave/body HIFU, find independent output/focal-depth tests for home HIFU/MFU devices, and capture official manuals/IFUs for Medicube High Focus Shot and Ussera if available.
+- **Open — peptides:** independently replicate CHP-9, OS-01, and PTPD-12; compare peptide formulas with standard-strength retinoids; obtain better finished-formula concentration/stability data; standardize wrinkle endpoints and durability follow-up.
+- **Open — frontier intelligence:** build dedicated home-acne, microcurrent/EMS, and enhanced-delivery lanes; automate a dated quarterly FDA/patent delta export; add independent output, sell-through, returns, privacy, and adverse-event data.
