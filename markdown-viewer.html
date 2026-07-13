@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Document Viewer — Skincare Device Research</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%96%3C/text%3E%3C/svg%3E">
+<meta name="theme-color" content="#334155">
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="site-router.js" defer></script>
+<style>
+:root{--ink:#1f2937;--muted:#667085;--line:#dfe3e8;--bg:#f5f7fa;--panel:#fff;--accent:#2563eb}
+*{box-sizing:border-box}html,body{max-width:100%;overflow-x:hidden}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.top{position:sticky;top:0;z-index:5;background:#172033;color:#fff;padding:12px 18px;box-shadow:0 2px 12px #0002}.bar{max-width:1080px;margin:auto;display:flex;gap:12px;align-items:center}.bar a{color:#dbeafe;text-decoration:none;font-weight:700}.path{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#cbd5e1;font:12px ui-monospace,SFMono-Regular,Menlo,monospace}.spacer{flex:1}
+main{max-width:1080px;margin:22px auto;padding:0 18px}.paper{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:30px 36px;box-shadow:0 8px 30px #1f29370d}.status{color:var(--muted)}
+h1,h2,h3{line-height:1.25;scroll-margin-top:76px}h1{font-size:30px;border-bottom:1px solid var(--line);padding-bottom:12px}h2{font-size:22px;margin-top:34px}h3{font-size:17px;margin-top:26px}a{color:var(--accent)}blockquote{margin:18px 0;padding:10px 16px;border-left:4px solid #93c5fd;background:#eff6ff}code{background:#eef2f7;padding:.12em .35em;border-radius:4px}pre{overflow:auto;background:#111827;color:#eef2ff;padding:16px;border-radius:8px}pre code{background:none;padding:0}.table-wrap{overflow-x:auto;margin:18px 0}table{border-collapse:collapse;width:100%;min-width:620px}th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}th{background:#f1f5f9}img{max-width:100%;height:auto}
+@media(max-width:700px){.paper{padding:20px 17px;border-radius:8px}main{padding:0 10px;margin-top:10px}.top{padding:11px 12px}.raw-label{display:none}h1{font-size:25px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="bar"><a href="index.html">← Research home</a><span class="path" id="path">Loading document…</span><span class="spacer"></span><a class="openmd" data-raw-download id="raw" href=""><span class="raw-label">Open raw </span>.md ↗</a></div></header>
+<main><article class="paper" id="document"><p class="status">Loading rendered Markdown…</p></article></main>
+<script>
+(async function(){
+  const output=document.getElementById("document"),pathLabel=document.getElementById("path"),raw=document.getElementById("raw");
+  const requested=new URLSearchParams(location.search).get("file")||"";
+  if(!requested||requested.startsWith("/")||requested.includes("..")||!requested.toLowerCase().endsWith(".md")){
+    output.innerHTML="<h1>Document not available</h1><p>The requested Markdown path is invalid.</p>";return;
+  }
+  const url=new URL(requested,location.href);
+  if(url.origin!==location.origin){output.innerHTML="<h1>Document not available</h1><p>Only local research documents can be opened here.</p>";return;}
+  pathLabel.textContent=requested;raw.href=url.href;document.title=requested.split("/").pop().replace(/_/g," ")+" — Skincare Device Research";
+  try{
+    const response=await fetch(url);
+    if(!response.ok)throw new Error("HTTP "+response.status);
+    let rendered=marked.parse(await response.text());
+    rendered=rendered.replace(/<table>/g,'<div class="table-wrap"><table>').replace(/<\/table>/g,"</table></div>");
+    output.innerHTML=rendered;
+  }catch(error){
+    output.innerHTML="<h1>Could not load document</h1><p>This viewer must be opened from the served website. The file may also have moved.</p><p><code>"+String(error.message)+"</code></p>";
+  }
+})();
+</script>
+</body>
+</html>

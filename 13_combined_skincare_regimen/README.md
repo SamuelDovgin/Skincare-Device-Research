@@ -7,11 +7,11 @@ This is the archive's cross-category routine lane: it combines daily skincare, t
 ## Bottom line
 
 1. **Your foundation is already strong:** moisturizer, vitamin C, adapalene, azelaic acid, and SPF all have plausible roles. The issue is scheduling, not a lack of products.
-2. **The highest-value change is daily sunscreen, not only “if outside.”** Use broad-spectrum SPF 30+ on face, neck, ears, and other exposed skin every morning; reapply after sweating and about every two hours while outdoors. A randomized trial found 24% less measured skin aging with daily versus discretionary sunscreen use over 4.5 years. [1]
-3. **Do not make Tria + azelaic acid + adapalene a single aggressive evening.** The Tria IFU requires clean, dry, product-free skin and says not to treat skin still red/swollen; adapalene labeling warns that irritation rises with multiple topical acne medications/irritants. An exact evidence-based washout interval is not published, so separating Tria and adapalene/acid nights is a conservative inference, not a manufacturer rule. [2][3]
+2. **The highest-value change is daily sunscreen, not only “if outside.”** Use broad-spectrum SPF 30+ on face, neck, ears, and other exposed skin every morning; reapply after sweating and about every two hours while outdoors. A randomized trial found 24% less measured skin aging with daily versus discretionary sunscreen use over 4.5 years. [[1]](https://pubmed.ncbi.nlm.nih.gov/23732711/)
+3. **Do not make Tria + azelaic acid + adapalene a single aggressive evening.** The Tria IFU requires clean, dry, product-free skin and says not to treat skin still red/swollen; adapalene labeling warns that irritation rises with multiple topical acne medications/irritants. An exact evidence-based washout interval is not published, so separating Tria and adapalene/acid nights is a conservative inference, not a manufacturer rule. [[2]](../03_fractional_laser_resurfacing/tria_smoothbeauty/source_docs/tria-smoothbeauty-instructions-for-use.pdf)[[3]](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5d5340d6-e1da-46e4-973c-40cf8e907aa3)
 4. **Three full face washes may be too much if skin feels tight, hot, flaky, or stings.** Keep the post-gym cleanse when sweat/sunscreen need removal, but merge it with the bedtime cleanse when timing allows; use a mild cleanser and avoid scrubbing.
 5. **Do not add another retinoid, exfoliating acid, or energy device merely to maximize anti-aging.** Consistency with sunscreen + one retinoid + moisturizer has a better evidence-to-irritation ratio than stacking.
-6. **Your full-body RLT panel is a dose question, not a minutes question.** Ten minutes is only meaningful with wavelength, irradiance, distance, frequency, and the panel manual. Facial rejuvenation trials have used specific measured doses and commonly 2-3 sessions/week; that does not validate every panel's daily ten-minute protocol. [4]
+6. **Your full-body RLT panel is a dose question, not a minutes question.** Ten minutes is only meaningful with wavelength, irradiance, distance, frequency, and the panel manual. Facial rejuvenation trials have used specific measured doses and commonly 2-3 sessions/week; that does not validate every panel's daily ten-minute protocol. [[4]](https://pubmed.ncbi.nlm.nih.gov/40167796/)
 
 ## Recommended baseline
 
@@ -30,7 +30,7 @@ This is the archive's cross-category routine lane: it combines daily skincare, t
 |---|---|---|
 | 01 | [Current regimen audit](01_current_regimen_audit.md) | What to keep, change, avoid, and verify in the routine exactly as supplied |
 | 02 | [Combination rules and evidence map](02_combination_rules_and_evidence_map.md) | Evidence hierarchy, device/active conflict rules, overload logic, and uncertainty |
-| Tool | [Drag-and-drop routine builder](routine_builder.html) | All researched device lanes, common actives, health habits, current-routine preset, day presets, fit meter, warnings, suggestions, and local save/export |
+| Tool | [Drag-and-drop routine builder](routine_builder.html) | Mobile touch drag/drop plus tap placement, all researched device lanes, goal/context controls, five-part overall score, ranked improvements, warnings, strengths, local save, and copyable export |
 
 ## Relationship to neighboring folders
 
@@ -43,6 +43,7 @@ This is the archive's cross-category routine lane: it combines daily skincare, t
 
 ## Status / open items
 
+- Mobile interaction verification completed at a 390 × 844 viewport: no horizontal overflow; touch drag to the fixed slot dock and tap-to-place both passed automated browser checks. The embedded deterministic self-test also checks scoring bounds, preset ordering, sunscreen sensitivity, duplicate-retinoid penalties, Tria/adapalene warnings, and catalog validity.
 - Confirm the exact Trader Joe's vitamin C product and the exact “Cretaceous” moisturizer name; the planner preserves them as user-entered items rather than inventing formulas.
 - Confirm the RLT panel model, wavelengths, irradiance at the actual distance, and manufacturer eye-protection/cadence instructions before judging daily ten-minute dosing.
 - A dermatologist should individualize adapalene/laser spacing for persistent irritation, melasma/PIH tendency, eczema/rosacea, pregnancy planning, or prescription therapy.
@@ -56,4 +57,3 @@ This is the archive's cross-category routine lane: it combines daily skincare, t
 5. King S et al. *A systematic review to evaluate the efficacy of azelaic acid in acne, rosacea, melasma and skin aging.* J Cosmet Dermatol. 2023. https://pubmed.ncbi.nlm.nih.gov/37550898/ - 43 RCTs; support for acne, rosacea, and melasma, but no eligible skin-aging RCTs.
 6. Tran QT et al. *Effectiveness and tolerability of adapalene cream 0.1% in female skin ageing.* Indian J Dermatol Venereol Leprol. 2025. https://pubmed.ncbi.nlm.nih.gov/40990960/ - small six-month RCT with wrinkle/pigment improvement and frequent early stinging/xerosis.
 7. American Academy of Dermatology. Practice Safe Sun. https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/practice-safe-sun - broad-spectrum, water-resistant SPF 30+, protective clothing, and outdoor reapplication guidance.
-

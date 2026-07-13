@@ -2,7 +2,7 @@
 
 Research into at-home, light- and energy-based skincare devices for **facial redness/erythema, hyperpigmentation, post-inflammatory hyperpigmentation (PIH), and evening skin tone**, plus **hair removal**, **skin-quality (collagen) rejuvenation**, **tightening/laxity**, and topical support as parallel goals. Budget-conscious; covers branded, retail, Chinese OEM/Alibaba sourcing, patent/regulatory context, and practical product buying.
 
-The repo is organized by **product type** into twelve projects:
+The repo is organized into **thirteen research projects**, including a cross-category regimen planner:
 
 | Folder | Product class | Goal |
 |--------|---------------|------|
@@ -18,6 +18,7 @@ The repo is organized by **product type** into twelve projects:
 | [`10_microneedling_collagen_induction/`](10_microneedling_collagen_induction/) | Microneedling / collagen induction | Acne scars, wrinkles/scars, FDA QAI devices, home-vs-professional boundary, RF microneedling risk |
 | [`11_hifu_skin_tightening/`](11_hifu_skin_tightening/) | HIFU / microfocused ultrasound | Clinic HIFU/MFU, home-device claims, focal-depth physics, and home-vs-clinic boundary |
 | [`12_peptides_in_skincare/`](12_peptides_in_skincare/) | Topical peptides | Functional taxonomy, ranked clinical evidence, and comparison with ingredients, devices, procedures, and delivery tech |
+| [`13_combined_skincare_regimen/`](13_combined_skincare_regimen/) | Combined regimen | Drag-and-drop routine builder, active/device scheduling, overload and recovery logic |
 
 ## TL;DR
 
@@ -88,8 +89,10 @@ Handheld red/NIR LED devices for **hands, wrist/carpal-tunnel symptoms, and loca
 | 01 | [Handheld RLT spec comparison](04_red_light_therapy_handheld/01_handheld_rlt_spec_comparison.md) | Full side-by-side of 12 Alibaba listings: wavelengths, irradiance, cert claims, controls, and ranking |
 | 02 | [Raw extracted specs](04_red_light_therapy_handheld/02_raw_extracted_specs.md) | Traceability dump of listing text and OCR'd image specs |
 | 03 | [Independent research & decision](04_red_light_therapy_handheld/03_independent_research_and_decision.md) | Literature context, dose math, current listing audit, supplier questions, and final recommendation |
+| 04 | [PL300 measured specs & dose model](04_red_light_therapy_handheld/04_pl300_measured_specs_and_dose_model.md) | Complete claimed/measured/inferred PL300 spec sheet, 6-inch meter readings, distance-model limits, and verification plan |
+| 05 | [Whole-body PBM dosing evidence](04_red_light_therapy_handheld/05_whole_body_pbm_dosing_evidence.md) | Human whole-body protocols, per-session and weekly fluence, outcomes, and translation to the PL300 |
 
-**Supporting material:** 92 archived listing images in [`listing_images/`](04_red_light_therapy_handheld/listing_images/) for L1-L11, a text-only supplied Alibaba capture for L12, plus the project [README](04_red_light_therapy_handheld/README.md).
+**Supporting material:** [interactive PL300 dose visualizer](04_red_light_therapy_handheld/pl300_dose_visualizer.html) · [PL300 source manifest](04_red_light_therapy_handheld/pl300_source_docs/README.md) · [whole-body evidence source manifest](04_red_light_therapy_handheld/whole_body_source_docs/README.md) · 92 archived listing images in [`listing_images/`](04_red_light_therapy_handheld/listing_images/) for L1-L11, a text-only supplied Alibaba capture for L12, plus the project [README](04_red_light_therapy_handheld/README.md).
 
 ## 05 — Market & patent intelligence · [`05_market_patent_intelligence/`](05_market_patent_intelligence/)
 
@@ -197,6 +200,17 @@ Topical peptide lane for fine lines, expression lines, repair, barrier/hydration
 | 04 | [Selection and routine guide](12_peptides_in_skincare/04_selection_and_routine_guide.md) | Goal picker, INCI/trademark translation, label audit, routine placement, trial design, and stop rules |
 
 **Supporting material:** [`peptide_goal_picker.html`](12_peptides_in_skincare/peptide_goal_picker.html) interactive evidence/goal filter · [source manifest](12_peptides_in_skincare/source_docs/README.md) · preserved 2026 systematic-review PDF, open-access full-text XML, and PubMed primary-study records.
+
+## 13 — Combined skincare regimen · [`13_combined_skincare_regimen/`](13_combined_skincare_regimen/)
+
+Cross-category routine lane for the supplied daily regimen: morning vitamin C/moisturizer, full-body RLT, Round Lab SPF 50, gym cleansing, Tria SmoothBeauty/Age-Defying laser, azelaic acid, adapalene 0.1%, recovery, and the other researched device/active possibilities.
+
+| # | File | What it covers |
+|---|---|---|
+| 01 | [Current regimen audit](13_combined_skincare_regimen/01_current_regimen_audit.md) | Keep/change/skip decisions, Tria/adapalene timing, cleansing load, and stop rules |
+| 02 | [Combination rules and evidence map](13_combined_skincare_regimen/02_combination_rules_and_evidence_map.md) | Evidence ladder, conflict rules, score design, professional-device boundary, and uncertainty |
+
+**Supporting material:** [`routine_builder.html`](13_combined_skincare_regimen/routine_builder.html) responsive desktop/mobile planner with touch drag/drop, tap placement, current/balanced/Tria/recovery presets, goal and safety-context controls, a five-part overall score, ranked improvements, interaction warnings, strengths, local save, and copyable summary.
 
 ---
 

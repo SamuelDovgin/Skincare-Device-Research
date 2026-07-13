@@ -23,6 +23,9 @@ Research thread: **radiofrequency (RF) devices for collagen remodeling, wrinkle 
 | 04 | [Home RF vs professional results gap](04_home_rf_vs_professional_results_gap.md) | Whether home RF can reach clinic-grade results; NEWA/CurrentBody evidence vs Thermage and RF microneedling |
 | 05 | [RF device selection guide](05_rf_device_selection_guide.md) | **Which RF device should I get?** — 30-second picker by goal, budget, and risk tolerance. Standalone decision tool. |
 | 06 | [Thermage vs everything comparison](06_thermage_vs_everything_comparison.md) | **Can any device get close to Thermage?** — Deep physics analysis of Thermage FLX (6.78 MHz monopolar, 65–75°C, 4.3 mm, cryogen cooling), head-to-head spec comparison of every device, Konmison LB056B physics analysis, and temperature-capability ranking. |
+| 07 | [Konmison video analysis](07_konmison_video_analysis.md) | Visual inspection of the Konmison device, controls, probes, and claims shown in supplied video. |
+| 08 | [TriPollar competitors deep dive](08_tripollar_competitors_deep_dive.md) | TriPollar alternatives, device geometry, temperature controls, and evidence gaps. |
+| 09 | [Laser vs RF technology comparison](09_laser_vs_rf_technology_comparison.md) | Mechanism, depth, thermal geometry, outcomes, and where laser and RF overlap or diverge. |
 
 ## Relationship to the other folders
 
