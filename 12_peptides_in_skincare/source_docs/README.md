@@ -1,6 +1,6 @@
 # Peptide Research Source Manifest
 
-Captured 2026-07-12. Files are preserved to keep the peptide evidence ranking auditable. Open-access full text is stored as publisher PDF or Europe PMC JATS XML. Paywalled primary studies are represented by PubMed XML records containing bibliographic metadata and abstracts, not unauthorized full text.
+Captured 2026-07-12 and expanded 2026-07-13. Files are preserved to keep the peptide evidence ranking and supplier-industry map auditable. Open-access full text is stored as publisher PDF or Europe PMC JATS XML. Paywalled primary studies are represented by PubMed XML records containing bibliographic metadata and abstracts, not unauthorized full text.
 
 | File | Source | Type | What it supports |
 |---|---|---|---|
@@ -18,6 +18,8 @@ Captured 2026-07-12. Files are preserved to keep the peptide evidence ranking au
 | `retinol-0.1-percent-2015-rct-pubmed.xml` | PubMed PMID 25738849 | Comparator primary-study abstract | One-year double-blind vehicle-controlled 0.1% stabilized-retinol photoaging evidence; concentration context for CHP-9 comparator |
 | `os01-peptide14-2025-rct-pubmed.xml` | PubMed PMID 40193112 | Primary-study abstract record | OS-01 barrier/hydration pilot randomized trial |
 | `ptpd12-pigment-2025-rct-pubmed.xml` | PubMed PMID 41044809 | Primary-study abstract record | PTPD-12 randomized split-face hyperpigmentation trial |
+| `croda-matrixyl3000-development-formulation-2025.pdf` | Croda Beauty, development formulation SG0063 | Official supplier formulation PDF | Shows 3.00% Matrixyl 3000 commercial material, its two peptide INCIs, and Croda as supplier; demonstrates that use level refers to the premix rather than pure peptide |
+| `basf-caregen-exclusive-peptide-supply-agreement-2021.pdf` | BASF/Caregen joint release | Official company announcement PDF | Verifies a global exclusive BASF supply agreement for four Caregen cosmetic peptides and the platform-to-ingredient-supplier business model |
 
 ## Original URLs
 
@@ -36,3 +38,5 @@ Captured 2026-07-12. Files are preserved to keep the peptide evidence ranking au
 - https://pubmed.ncbi.nlm.nih.gov/25738849/
 - https://pubmed.ncbi.nlm.nih.gov/40193112/
 - https://pubmed.ncbi.nlm.nih.gov/41044809/
+- https://www.crodabeauty.com/mediaassets/files/beauty/ungated-files/ch0203--rebalancing-and-vitalising-scalp-mask--190924pcedf0194v1en.pdf
+- https://www.basf.com/my/en/media/news-releases/asia-pacific/2021/01/basf_caregen_supply_agreement

@@ -50,6 +50,16 @@ The complexity penalty is capped at 12 points and begins only after the routine 
 
 The suggestions are ordered by likely leverage: first protection and active device/retinoid conflicts, then barrier load and goal gaps, then parameter verification and whole-health habits. Selecting “skin irritated now,” “Tria treatment day,” “outdoor/sweaty day,” “RLT dose verified,” or a pregnancy/nursing context changes both the score and the recommendations.
 
+The builder also exposes each selected concern as its own 0–100 coverage score. This prevents a strong acne score from hiding weak pigment, barrier, or health-habit coverage inside the average. The **“Find my path toward 100”** action uses the current catalog, selected concerns, and safety context to construct a higher-fit single-day routine; it then reports:
+
+- current versus projected overall fit;
+- each concern's current versus projected coverage;
+- the weighted dimensions responsible for the current shortfall;
+- the exact cards it would add, pause, or move;
+- why a conservative Tria or recovery day may remain below 100.
+
+The routine finder does not silently mark sunscreen as a daily habit, claim an RLT dose has been verified, clear irritated skin, or change pregnancy/nursing context. It leaves those toggles as entered. A 100 is therefore a **theoretical routine-fit ceiling**, not the expected score for every day type and not a treatment target. On Tria days, separating adapalene, acids, and other devices can improve safety while deliberately lowering same-day concern coverage; those concerns belong across separate day types rather than in one maximal stack.
+
 It does not estimate collagen gain, acne clearance, cancer prevention, or “biological age.” The score deliberately plateaus: adding more items can reduce it.
 
 ### Mobile interaction model
@@ -72,6 +82,7 @@ It does not estimate collagen gain, acne clearance, cancer prevention, or “bio
 
 - There is no validated universal scoring system for combining consumer skincare actives and devices; weights are transparent heuristics.
 - The five component weights and interaction penalties are illustrative decision-support assumptions, not measured effect sizes or adverse-event probabilities.
+- The path finder is a deterministic optimization over the planner's own catalog and rules, not a validated regimen generator; its projected score inherits every limitation of the scoring model.
 - Product formulas, sunscreen labels, and device outputs change; bottle/manual data override catalog defaults.
 - Skin type, disease history, medication use, pregnancy, and clinician procedures can materially change routine fit.
 

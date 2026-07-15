@@ -17,8 +17,9 @@ The repo is organized into **thirteen research projects**, including a cross-cat
 | [`09_zinc_oxide_barrier_cream/`](09_zinc_oxide_barrier_cream/) | Zinc oxide barrier cream | Science-first barrier lane: mechanism, dermatitis/wound evidence, safety protocol, and product notes |
 | [`10_microneedling_collagen_induction/`](10_microneedling_collagen_induction/) | Microneedling / collagen induction | Acne scars, wrinkles/scars, FDA QAI devices, home-vs-professional boundary, RF microneedling risk |
 | [`11_hifu_skin_tightening/`](11_hifu_skin_tightening/) | HIFU / microfocused ultrasound | Clinic HIFU/MFU, home-device claims, focal-depth physics, and home-vs-clinic boundary |
-| [`12_peptides_in_skincare/`](12_peptides_in_skincare/) | Topical peptides | Functional taxonomy, ranked clinical evidence, and comparison with ingredients, devices, procedures, and delivery tech |
+| [`12_peptides_in_skincare/`](12_peptides_in_skincare/) | Topical peptides | Evidence tier list, supplier map, dose-aware value buys, Amazon checks, and comparison with ingredients/devices |
 | [`13_combined_skincare_regimen/`](13_combined_skincare_regimen/) | Combined regimen | Drag-and-drop routine builder, active/device scheduling, overload and recovery logic |
+| [`14_latest_skincare_research_2025_2026/`](14_latest_skincare_research_2025_2026/) | Latest 2025–2026 skincare research | 100-record PubMed evidence map, including a 35-paper leading-journal supplement, across acne, barrier, pigment, sunscreen, peptides, devices, procedures, and hair removal |
 
 ## TL;DR
 
@@ -33,7 +34,7 @@ The repo is organized into **thirteen research projects**, including a cross-cat
 9. **Zinc oxide diaper rash cream is now a science-first barrier lane, not just a product tip.** The strongest evidence is for OTC skin-protectant use, irritant/moisture dermatitis, TEWL/barrier support, and wound/periwound adjuncts; adult facial overnight use remains an extrapolation. If experimenting, start around **10-15% zinc oxide** and reserve 40% pastes for spot rescue. See **[`09_zinc_oxide_barrier_cream/`](09_zinc_oxide_barrier_cream/)**.
 10. **Microneedling now has its own collagen-induction lane.** The strongest evidence is professional treatment of atrophic acne scars; FDA has not authorized OTC medical microneedling devices; and RF microneedling is a professional procedure, not a home-device shortcut. See **[`10_microneedling_collagen_induction/`](10_microneedling_collagen_induction/)**.
 11. **HIFU / microfocused ultrasound is now separated as a tightening lane.** Clinic Ulthera/Sofwave evidence is real but procedure-specific; home HIFU/MFU is not a clean "lower-density Ultherapy" analog because focal depth, coupling, line spacing, visualization, and anatomy control matter more than shot count. See **[`11_hifu_skin_tightening/`](11_hifu_skin_tightening/)**.
-12. **Topical peptides now have their own evidence-ranked lane.** Palmitoyl pentapeptide-4 has the clearest direct fine-line trial and acetyl hexapeptide-8 the clearest expression-line signal, but the 2026 meta-analysis found only two high-quality topical studies and says most pooled benefit came from oral peptides. Copper tripeptide-1 is promising, not a proven retinoid/device replacement. See **[`12_peptides_in_skincare/`](12_peptides_in_skincare/)**.
+12. **Topical peptides now have an evidence tier list, supplier map, and dose-aware value guide.** Palmitoyl pentapeptide-4 has the clearest direct fine-line trial and acetyl hexapeptide-8 the clearest expression-line signal, but the 2026 meta-analysis found only two high-quality topical studies and says most pooled benefit came from oral peptides. The Ordinary Argireline 10% is the cleanest low-cost targeted experiment; Good Molecules has unusually clear ppm disclosure; Olay lists top-ranked pal-KTTKS but hides its dose. No audited retail pick is an exact clinically dose-verified match. See **[`12_peptides_in_skincare/`](12_peptides_in_skincare/)**.
 
 ---
 
@@ -198,8 +199,10 @@ Topical peptide lane for fine lines, expression lines, repair, barrier/hydration
 | 02 | [Ranked clinical evidence](12_peptides_in_skincare/02_ranked_clinical_evidence.md) | Most proven topical peptides, study designs, evidence tiers, and marketing-ahead-of-data list |
 | 03 | [Peptides vs ingredients, devices, and technology](12_peptides_in_skincare/03_peptides_vs_ingredients_devices_and_tech.md) | Goal-by-goal comparison and delivery-tech boundary |
 | 04 | [Selection and routine guide](12_peptides_in_skincare/04_selection_and_routine_guide.md) | Goal picker, INCI/trademark translation, label audit, routine placement, trial design, and stop rules |
+| 05 | [Who makes branded peptides? Supplier, trademark, and licensing map](12_peptides_in_skincare/05_who_makes_branded_peptides_supplier_map.md) | Matrixyl/Argireline ownership, Caregen/BASF and SYN supplier map, hero-vs-blend examples, commercial premixes, and the percentage trap |
+| 06 | [Best-value peptide serums: The Ordinary, Good Molecules, and the budget market](12_peptides_in_skincare/06_best_value_peptide_products_and_amazon_buying_guide.md) | Complete two-brand matchup, reproducible 10-brand value scan, formula/dose transparency, collagen-goal ranking, and dated official prices |
 
-**Supporting material:** [`peptide_goal_picker.html`](12_peptides_in_skincare/peptide_goal_picker.html) interactive evidence/goal filter · [source manifest](12_peptides_in_skincare/source_docs/README.md) · preserved 2026 systematic-review PDF, open-access full-text XML, and PubMed primary-study records.
+**Supporting material:** [`peptide_goal_picker.html`](12_peptides_in_skincare/peptide_goal_picker.html) interactive evidence/goal filter · [source manifest](12_peptides_in_skincare/source_docs/README.md) · preserved 2026 systematic-review PDF, open-access full-text XML, PubMed primary-study records, Croda formulation sheet, and BASF/Caregen exclusive-supply announcement.
 
 ## 13 — Combined skincare regimen · [`13_combined_skincare_regimen/`](13_combined_skincare_regimen/)
 
@@ -210,7 +213,23 @@ Cross-category routine lane for the supplied daily regimen: morning vitamin C/mo
 | 01 | [Current regimen audit](13_combined_skincare_regimen/01_current_regimen_audit.md) | Keep/change/skip decisions, Tria/adapalene timing, cleansing load, and stop rules |
 | 02 | [Combination rules and evidence map](13_combined_skincare_regimen/02_combination_rules_and_evidence_map.md) | Evidence ladder, conflict rules, score design, professional-device boundary, and uncertainty |
 
-**Supporting material:** [`routine_builder.html`](13_combined_skincare_regimen/routine_builder.html) responsive desktop/mobile planner with touch drag/drop, tap placement, current/balanced/Tria/recovery presets, goal and safety-context controls, a five-part overall score, ranked improvements, interaction warnings, strengths, local save, and copyable summary.
+**Supporting material:** [`routine_builder.html`](13_combined_skincare_regimen/routine_builder.html) responsive desktop/mobile planner with touch drag/drop, tap placement, current/balanced/Tria/recovery presets, per-concern coverage scores, an explainable “path toward 100” routine finder, goal and safety-context controls, a five-part overall score, ranked improvements, interaction warnings, strengths, local save, and copyable summary.
+
+## 14 — Latest skincare research 2025–2026 · [`14_latest_skincare_research_2025_2026/`](14_latest_skincare_research_2025_2026/)
+
+Cross-category literature update compiled 2026-07-14. It maps 100 selected 2025–2026 PubMed/MEDLINE records to the existing device and topical projects, including a 35-paper leading-journal supplement, while keeping new evidence lanes together for visible-light photoprotection, PIH prevention in skin of color, acne barrier/microbiome adjuncts, and periprocedural skincare.
+
+| # | File | What it covers |
+|---|---|---|
+| 01 | [Search method and executive map](14_latest_skincare_research_2025_2026/01_search_method_and_executive_map.md) | Search boundary, evidence hierarchy, headline findings, and routing decisions |
+| 02 | [Acne, barrier, microbiome, and topical delivery](14_latest_skincare_research_2025_2026/02_acne_barrier_microbiome_topicals.md) | Recent acne adjuncts, moisturizer/barrier studies, microbiome products, hydrogels, and nanoformulations |
+| 03 | [Pigment, photoaging, sunscreen, and skin of color](14_latest_skincare_research_2025_2026/03_pigment_photoaging_sunscreen_skin_of_color.md) | Melasma, PIH, visible light, tinted sunscreen, retinoids, and novel pigment actives |
+| 04 | [Devices, procedures, and aftercare](14_latest_skincare_research_2025_2026/04_devices_procedures_and_periprocedural_care.md) | LED/PBM, IPL, lasers, RF, RF microneedling, HIFU/MFU, and aftercare |
+| 05 | [Peptides, supplements, and emerging delivery](14_latest_skincare_research_2025_2026/05_peptides_supplements_and_emerging_delivery.md) | Topical versus oral peptide evidence and translational boundaries |
+| 06 | [Annotated bibliography and evidence ledger](14_latest_skincare_research_2025_2026/06_annotated_bibliography_2025_2026.md) | Study-level CSV index with design, limitation, conflict signal, and existing-topic route |
+| 07 | [High-prestige dermatology papers](14_latest_skincare_research_2025_2026/07_high_prestige_dermatology_papers.md) | Leading-journal supplement covering high-value reviews, RCTs, meta-analyses, consensus statements, and procedure comparisons |
+
+**Supporting material:** [paper index CSV](14_latest_skincare_research_2025_2026/data/paper_index.csv) · [high-prestige paper index](14_latest_skincare_research_2025_2026/data/high_prestige_paper_index.csv) · [source manifest](14_latest_skincare_research_2025_2026/source_docs/README.md) · [rendered literature viewer](14_latest_skincare_research_2025_2026/index.html).
 
 ---
 

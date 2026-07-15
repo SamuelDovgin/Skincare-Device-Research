@@ -15,7 +15,25 @@
 
 **Matrixyl 3000, palmitoyl tripeptide-38, palmitoyl tripeptide-5, SNAP-8, pentapeptide-18, SYN-AKE, nonapeptide-1, oligopeptide-34, tetrapeptide-30, and acetyl tetrapeptide-5 remain plausible or product-supported but less clinically established as isolated topical actives.**
 
-## 1. Ranking rubric
+## 1. Evidence × likely-effect tier list
+
+> **Read the letters narrowly:** this is a tier list *within topical cosmetic peptides*. “S-tier peptide” does not mean a large effect or evidence comparable with sunscreen, tretinoin, botulinum toxin, or a procedure.
+
+| Tier | Peptides | How studied? | Most defensible likely visible effect | Buyer interpretation |
+|---|---|---|---|---|
+| **S — best-supported peptide choices** | **Palmitoyl Pentapeptide-4 / pal-KTTKS**; **Acetyl Hexapeptide-8 / Argireline** | Each has a direct randomized controlled topical study that isolates peptide treatment from placebo/vehicle; pal-KTTKS has the stronger 12-week, 93-person split-face design | **Small-to-modest**, target-specific improvement: fine lines for pal-KTTKS; mild expression/peri-orbital line appearance for Argireline | Best first choices if you specifically want a peptide, but still optional adjuncts |
+| **A — promising, not replicated** | **Cyclized Hexapeptide-9 / CHP-9** | One comparatively strong 96-person randomized vehicle- and active-controlled trial | Possibly broader wrinkle, elasticity, pigment, and barrier improvement, but magnitude is uncertain | Interesting early formula; do not accept “better than retinol” without noting the 0.002% retinol comparator |
+| **B — plausible or narrow early human signal** | **Copper Tripeptide-1 / GHK-Cu**; **OS-01 / Peptide 14**; **PTPD-12** | Mechanistic/small cosmetic literature, or one small/proprietary/narrow controlled study | **Uncertain to small** repair/skin-quality, barrier/hydration, or pigment improvement | Reasonable experiments when the target fits; not evidence-led premium purchases |
+| **C — supplier/product-led** | **Matrixyl 3000**, **Matrixyl Synthe'6**, **SYN-COLL**, **SNAP-8**, **Leuphasyl**, **SYN-AKE**, most cosmetic pigment peptides, **Acetyl Tetrapeptide-5** | Mostly supplier studies, finished-formula studies, mechanistic work, or weak independent replication | Possible hydration or subtle appearance benefit; peptide-specific contribution cannot be estimated confidently | Buy only when the whole formula and price make sense; the trademark alone is not proof |
+| **D — name without usable dose evidence** | Generic “collagen peptides,” unnamed peptide complexes, proprietary blends with no INCI or amount context | Identity, dose, delivery, or peptide-specific human outcome cannot be audited | Unknown; often mainly moisturizer/film-forming benefit | Do not pay a premium based on the word “peptide” |
+
+### Why “most studied” and “most effective” are not the same
+
+GHK-Cu has a broad historical and mechanistic literature, but the cleanest directly auditable facial trial is not strongly positive. CHP-9 has a newer, better-controlled trial but no independent replication. Pal-KTTKS ranks first because its human design isolates a low-dose peptide from the same moisturizer vehicle—not because it produces a dramatic transformation. The tier therefore combines **study quality, replication, ability to isolate the peptide, target fit, and the likely size of a visible result**.
+
+For product-level dose and value checks, continue to the [The Ordinary, Good Molecules, and 10-brand value-serum matchup](06_best_value_peptide_products_and_amazon_buying_guide.md).
+
+## 2. Ranking rubric
 
 Each peptide was graded on:
 
@@ -32,7 +50,7 @@ Each peptide was graded on:
 
 The 2026 systematic review is the reality check: 19 RCTs with 1,341 participants were pooled, but 17 evaluated oral peptides and only two high-quality studies evaluated topical formulations. The authors concluded that topical effects were limited, elasticity/density results inconsistent, and larger standardized trials needed. [[1]](source_docs/nukaly-2026-oral-topical-peptides-systematic-review.pdf)
 
-## 2. Ranked evidence table
+## 3. Ranked evidence table
 
 | Rank | Peptide | Best direct human evidence | What it supports | Main limitation | Confidence |
 |---:|---|---|---|---|---|
@@ -43,9 +61,9 @@ The 2026 systematic review is the reality check: 19 RCTs with 1,341 participants
 | 5 | **OS-01 / Peptide 14** | 60 women age 60–90; randomized double-blind 12-week finished-formula vs commercial-moisturizer pilot | Barrier function/TEWL and hydration; possible inflammation-marker changes | Proprietary formula and early program; comparator not a matched vehicle; systemic-aging interpretations are exploratory | **Promising, provisional** |
 | 6 | **PTPD-12** | 21-person 8-week randomized split-face controlled trial | Lower melanin index and facial hyperpigmentation signal | Very small, one study, short duration, not established against first-line pigment care | **Early** |
 
-## 3. What the landmark studies actually show
+## 4. What the landmark studies actually show
 
-### 3.1 Pal-KTTKS: the fairest “best proven” answer
+### 4.1 Pal-KTTKS: the fairest “best proven” answer
 
 The Robinson et al. study is unusually useful because it compared the same moisturizer with and without **3 ppm pal-KTTKS** on opposite sides of the face for 12 weeks. Both technical image analysis and expert grading favored the peptide side for fine lines/wrinkles, and tolerability was good. [[2]](source_docs/pal-kttks-2005-rct-pubmed.xml)
 
@@ -63,13 +81,13 @@ Why it is not a gold-standard anti-aging treatment:
 - population was Caucasian women age 35–55;
 - broad independent replication is missing.
 
-### 3.2 Argireline: real signal, wrong “Botox in a bottle” analogy
+### 4.2 Argireline: real signal, wrong “Botox in a bottle” analogy
 
 Wang et al. randomized 60 participants 3:1 to Argireline or placebo twice daily for four weeks. The paper reported 48.9% “total anti-wrinkle efficacy” versus 0% placebo and objective roughness improvements. [[3]](source_docs/argireline-2013-rct-pubmed.xml)
 
 That supports **some topical peri-orbital benefit**. It does not support 48.9% wrinkle erasure, nor equivalence to an injectable. The study used a study-specific response framework, while botulinum-toxin phase-3-style trials directly assess moderate/severe dynamic glabellar lines and commonly report roughly 80–90% investigator responder rates near one month versus near-zero placebo. [[4]](source_docs/tretinoin-and-botulinum-comparator-trials-pubmed.xml) Different endpoints still prevent literal numerical head-to-heading, but the target access and evidence scale clearly favor botulinum toxin for dynamic lines.
 
-### 3.3 CHP-9: exciting result with a weak retinol comparator
+### 4.3 CHP-9: exciting result with a weak retinol comparator
 
 The 2025 CHP-9 trial is better than most peptide marketing because it was randomized, double-blind, vehicle- and active-controlled, enrolled 96 people, used instrumental wrinkle measures, and published full methods. [[5]](source_docs/chang-2025-cyclized-hexapeptide-9-trial.xml)
 
@@ -77,7 +95,7 @@ The catch is decisive: it compared **0.002% CHP-9 with 0.002% retinol**. For con
 
 > CHP-9 beat this specific very-low-dose retinol formula over 56 days; it has not established superiority to standard-strength retinol or prescription tretinoin.
 
-### 3.4 GHK-Cu: reputation outruns direct clinical certainty
+### 4.4 GHK-Cu: reputation outruns direct clinical certainty
 
 GHK-Cu has an appealing story: a naturally occurring tripeptide binds copper, interacts with repair processes, and has experimental evidence for matrix, wound, and gene-response pathways. [[6]](source_docs/ghk-cu-skin-regeneration-review-2015.xml)
 
@@ -90,13 +108,13 @@ However, the directly auditable randomized CO2-laser adjunct trial found:
 
 That does not prove GHK-Cu is ineffective for routine skin maintenance; it does prove that mechanistic breadth is not the same as robust human facial efficacy.
 
-### 3.5 OS-01 and PTPD-12: keep in the emerging lane
+### 4.5 OS-01 and PTPD-12: keep in the emerging lane
 
 OS-01's 12-week trial supports a barrier/hydration signal in older women but evaluates a proprietary topical formula against a commercial moisturizer, so formula differences cannot be attributed only to Peptide 14. [[8]](source_docs/os01-peptide14-2025-rct-pubmed.xml)
 
 PTPD-12 reduced melanin index on the treated side in a 21-person split-face trial. That is a credible early signal, but insufficient to outrank established photoprotection and pigment therapies. [[9]](source_docs/ptpd12-pigment-2025-rct-pubmed.xml)
 
-## 4. Peptides commonly marketed beyond their evidence
+## 5. Peptides commonly marketed beyond their evidence
 
 | Peptide / blend | Honest evidence label |
 |---|---|
@@ -109,7 +127,7 @@ PTPD-12 reduced melanin index on the treated side in a 21-person split-face tria
 | **Acetyl Tetrapeptide-5** | Eye-puffiness marketing with limited independent controlled evidence |
 | Generic **collagen peptides** in a cream | Topical collagen/hydrolysate may form a moisturizing film; it does not become new dermal collagen merely because “collagen” appears on the label |
 
-## 5. Practical decision rules
+## 6. Practical decision rules
 
 - If choosing **one best-evidenced anti-wrinkle peptide**, start with Palmitoyl Pentapeptide-4.
 - If the goal is **mild expression-line appearance**, Acetyl Hexapeptide-8 is the evidence-based peptide choice, with modest expectations.

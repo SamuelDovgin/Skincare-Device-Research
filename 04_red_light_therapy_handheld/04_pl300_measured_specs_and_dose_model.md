@@ -10,6 +10,8 @@ The five newly preserved originals materially strengthen provenance: the panel, 
 
 Everything beyond the measured position is less certain. Newly supplied seller graphics claim **145 / 136 / 113 / 105 mW/cm² at 6 / 12 / 18 / 24 inches** and increasingly broad coverage. Those figures are useful as a company-family curve, but the graphic omits the meter, mode, protocol, and area-averaging method. It also disagrees with the owner's stronger 6-inch reading. The visualizer now keeps four different things separate: the raw seller curve, that curve scaled to the owner's 6-inch anchor, a recalled **60° lens scenario**, and the older Lambertian model. [[13]](pl300_source_docs/seller_listing_screenshots_2026-07-13/)
 
+An online scan of multi-distance measurements from comparable large arrays makes the seller's **falloff shape** more plausible without validating its absolute output. Normalized to each source's own 6-inch value, the broader comparison median retains **85.6% at 12 inches** and **69.9% at 24 inches**; the seller retains **93.8% and 72.4%**. The 60°/30° split model is closest to the empirical median at 12 inches, while the old Lambertian curve falls faster than every included large-array centerline curve at 12 and 24 inches. See the [comparable-panel falloff analysis](06_comparable_panel_irradiance_falloff.md) and preserved row-level dataset. [[18]](06_comparable_panel_irradiance_falloff.md)
+
 The practical consequence is substantial: **10 minutes per side is not a low-dose session at full output under any of the extended-source/lens scenarios here**. At 36 inches it is approximately **12.5 J/cm² under the old Lambertian model, 23.3 J/cm² under a 60°/60° lens model, or 38.0 J/cm² under an unverified 60° red / 30° NIR split model**. The seller curve does not extend to 36 inches. Measure the treatment position or dim the panel before treating any of those numbers as real.
 
 ## 1. Why this page exists
@@ -30,7 +32,7 @@ The existing RLT folder focused on small handheld devices. This page adds the us
 | Panel construction | Listing screenshots and physical photos | PL300; 300 lenses/packages; claimed dual-chip; four visible fans; digital controls | Mixed: model/count claimed; fans/controls visually observed |
 | Wavelength set | Listing screenshots | 630, 660, 810, 830, 850 nm | **Seller claim**; meter images verify dominant peaks near 660 and 850 nm only |
 | Dosing benefit | PBM literature, not this product | Nonlinear responses are plausible; human optima remain indication- and protocol-specific | Does **not** clinically validate the PL300 or its presets |
-| Is the old 94.4 mW/cm² 12-in model implausibly low? | Old Lambertian model plus external comparators | Not inherently, but it is now the bottom of a 94.4–151.1 mW/cm² model span. A 500 W Bestqool Pro300 measured 58.97 mW/cm² at 12 in in an accredited lab; a community RDPRO1500 report using GembaRed's correction method reported ~80 mW/cm² | Comparators are different panels and cannot calibrate this PL300 [[7]](https://manuals.plus/m/1f6c5530043c6b5ec7e207cd20c205ad0841ef0ecee2e9d40f26befd08b15c4a)[[8]](https://www.reddit.com/r/redlighttherapy/comments/1sjbzgp/measuring_my_rdpro1500_irradiance/) |
+| Which falloff shape best matches other large arrays? | Accredited lab reports, reviewer spectrometer tests, owner measurements, and manufacturer charts normalized to each panel's 6-in value | Seller shape: 0.938 at 12 in and 0.724 at 24 in; broader medians: 0.856 and 0.699; 60°/30° model: 0.870 and 0.581 | **Shape comparison only**; different panels and meters cannot calibrate this PL300 [[18]](06_comparable_panel_irradiance_falloff.md) |
 
 ## 3. Complete known spec sheet
 
@@ -123,6 +125,8 @@ The combined 60°/60° scenario uses 161.145 mW/cm² at 6 inches. The alternate 
 
 All irradiances are mW/cm². These are center-axis calculations, not area averages. They ignore discrete LED spacing, side lobes, spectral meter response, body curvature, clothing, skin angle, and panel-to-panel manufacturing variation.
 
+The external measurement scan supplies an empirical model check, not another selectable dose curve. At 12 inches, seven large-array curves retained 0.786–1.046 of their 6-inch center value; at 24 inches, five curves retained 0.465–0.910. Their medians were 0.856 and 0.699. The PL300 seller curve sits inside both ranges; the 60°/30° scenario also sits inside both; the 60°/60° and old Lambertian scenarios fall below the observed comparison ranges. Because the inputs mix accredited laboratories, reviewer tests, owner measurements, and manufacturer claims, the visualizer displays the empirical curves for shape comparison but does not use them to calculate PL300 dose. [[18]](06_comparable_panel_irradiance_falloff.md)
+
 ### 4.3 Coverage geometry
 
 A simple full-angle footprint for a `W × H` panel is:
@@ -181,3 +185,4 @@ That viewpoint is directionally consistent with the device-measurement problem h
 15. [SAIDI official PL-series page](https://www.saidipro.com/products/pl-series.html) — current family page; PL300 was not visible when checked, which limits exact-variant attribution.
 16. [Current Shenzhen SAIDI PL300 marketplace listing](https://indonesian.alibaba.com/product-detail/Saidi-Full-Body-Use-High-Irradiation-1601631569253.html) — close match on model, dimensions, LED count, five-wavelength dual-chip architecture, and 170 mW/cm² claim; its 420 W figure illustrates listing/variant drift.
 17. [Community SAIDI panel configuration discussion](https://www.reddit.com/r/redlighttherapy/comments/1mgeqa0/halffull_body_panel_idea_light_vs_sgrow_vs_saidi/) — anecdotal report of 60° red / 30° NIR lenses; included only to define an alternate scenario, not as proof of this PL300's optics.
+18. [Comparable-panel irradiance falloff analysis](06_comparable_panel_irradiance_falloff.md) — accredited laboratory, independent reviewer, owner, manufacturer-manual, and seller curves normalized to their own 6-inch values; includes the preserved CSV and source reports.

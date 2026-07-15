@@ -30,7 +30,7 @@ This is the archive's cross-category routine lane: it combines daily skincare, t
 |---|---|---|
 | 01 | [Current regimen audit](01_current_regimen_audit.md) | What to keep, change, avoid, and verify in the routine exactly as supplied |
 | 02 | [Combination rules and evidence map](02_combination_rules_and_evidence_map.md) | Evidence hierarchy, device/active conflict rules, overload logic, and uncertainty |
-| Tool | [Drag-and-drop routine builder](routine_builder.html) | Mobile touch drag/drop plus tap placement, all researched device lanes, goal/context controls, five-part overall score, ranked improvements, warnings, strengths, local save, and copyable export |
+| Tool | [Drag-and-drop routine builder](routine_builder.html) | Mobile touch drag/drop plus tap placement, all researched device lanes, per-concern scores, an explainable “path toward 100” routine finder, goal/context controls, five-part overall score, ranked improvements, warnings, strengths, local save, and copyable export |
 
 ## Relationship to neighboring folders
 
@@ -43,7 +43,8 @@ This is the archive's cross-category routine lane: it combines daily skincare, t
 
 ## Status / open items
 
-- Mobile interaction verification completed at a 390 × 844 viewport: no horizontal overflow; touch drag to the fixed slot dock and tap-to-place both passed automated browser checks. The embedded deterministic self-test also checks scoring bounds, preset ordering, sunscreen sensitivity, duplicate-retinoid penalties, Tria/adapalene warnings, and catalog validity.
+- The builder now shows anti-aging, pigment/redness, acne/pores, barrier/tolerance, and whole-health coverage separately instead of hiding them inside one average. “Find my path toward 100” constructs and explains a lower-conflict, higher-fit single-day plan, shows the projected score and exact card changes, and leaves safety/habit context toggles unchanged. It explicitly treats 100 as a theoretical model ceiling—not a clinical-result promise or a reason to stack incompatible treatments.
+- Mobile interaction verification completed at a 390 × 844 viewport: no horizontal overflow; touch drag to the fixed slot dock and tap-to-place both passed automated browser checks. The embedded deterministic self-test also checks scoring bounds, preset ordering, sunscreen sensitivity, duplicate-retinoid penalties, Tria/adapalene warnings, path-finder improvement/separation, per-concern bounds, and catalog validity.
 - Confirm the exact Trader Joe's vitamin C product and the exact “Cretaceous” moisturizer name; the planner preserves them as user-entered items rather than inventing formulas.
 - Confirm the RLT panel model, wavelengths, irradiance at the actual distance, and manufacturer eye-protection/cadence instructions before judging daily ten-minute dosing.
 - A dermatologist should individualize adapalene/laser spacing for persistent irritation, melasma/PIH tendency, eczema/rosacea, pregnancy planning, or prescription therapy.

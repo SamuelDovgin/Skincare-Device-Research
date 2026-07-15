@@ -49,6 +49,7 @@ input[type=range]{width:100%;accent-color:var(--red)}
 .good{background:#123426;color:#8bf0c4}.warn{background:#3a2911;color:#ffd18b}.bad{background:#3b171d;color:#ff9dac}.info{background:#142b47;color:#9ecbff}
 canvas{width:100%;height:190px;background:#0a0d13;border:1px solid var(--line);border-radius:14px}
 #studyCluster{height:420px}
+#falloffChart{height:330px}
 .legend{display:flex;gap:12px;flex-wrap:wrap;color:var(--muted);font-size:.8rem;margin-top:8px}
 .dot{width:9px;height:9px;border-radius:50%;display:inline-block;margin-right:5px}
 table{width:100%;border-collapse:collapse;font-size:.91rem}
@@ -68,16 +69,31 @@ details p{color:#c5ccda}
 .conf-high{color:#75e3b1}.conf-mod{color:#ffd27e}.conf-low{color:#ff9caa}
 .callout{background:#111a2a;border:1px solid #284666;border-radius:14px;padding:14px;color:#d5e8ff}
 .correction{background:#2b151a;border:1px solid #783041;border-radius:14px;padding:14px}
+.study-match{display:grid;grid-template-columns:minmax(250px,.8fr) minmax(0,2.2fr);gap:14px;margin:14px 0}
+.study-controls,.study-readout{border:1px solid var(--line);background:#0d1118;border-radius:14px;padding:14px}
+.study-controls h4,.study-readout h4{margin:0 0 10px}
+.match-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin:12px 0}
+.match-kpi{border:1px solid var(--line);background:#111620;border-radius:12px;padding:11px;min-width:0}
+.match-kpi b{display:block;font-size:1.18rem;letter-spacing:-.025em;overflow-wrap:anywhere}.match-kpi span{color:var(--muted);font-size:.76rem}
+.study-primary{border-left:4px solid var(--blue);background:#111a2a;border-radius:10px;padding:12px 14px;margin:12px 0}
+.study-primary b{font-size:1.12rem}
+.select-study{border:1px solid #3b4356;background:#111620;color:#dce3ef;border-radius:999px;padding:6px 9px;cursor:pointer;font-size:.78rem;font-weight:750}
+.select-study:hover,.select-study.active{background:#2a1720;border-color:#8e3548;color:#ffd6de}
 .small{font-size:.82rem;color:var(--muted)}
 .footer{color:#8e98aa;font-size:.8rem;padding:30px 0 50px}
-@media(max-width:850px){.span8,.span6,.span4{grid-column:span 12}.kpis{grid-template-columns:1fr 1fr}.paper-grid{grid-template-columns:1fr}.output{grid-template-columns:1fr}.row{grid-template-columns:1fr}}
-@media(max-width:500px){.wrap{padding:13px}.kpis{grid-template-columns:1fr}.card{padding:14px}th,td{padding:8px 6px;font-size:.82rem}#studyCluster{height:380px}}
+@media(max-width:850px){.span8,.span6,.span4{grid-column:span 12}.kpis{grid-template-columns:1fr 1fr}.paper-grid{grid-template-columns:1fr}.output{grid-template-columns:1fr}.row{grid-template-columns:1fr}.study-match{grid-template-columns:1fr}.match-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:500px){.wrap{padding:13px}.kpis{grid-template-columns:1fr}.card{padding:14px}th,td{padding:8px 6px;font-size:.82rem}#studyCluster{height:380px}#falloffChart{height:360px}.match-grid{grid-template-columns:1fr}}
 @media print{nav,.controls-only{display:none!important}body{background:#fff;color:#111}.card,.paper,details{box-shadow:none;background:#fff;border-color:#ccc}.sub,.small,.paper p,details p{color:#333}}
 </style>
+<link rel="stylesheet" href="../site-chrome.css">
 <script src="../site-router.js" defer></script></head>
 <body>
+<header class="site-header"><div class="site-header__inner">
+  <a class="site-back" href="index.html" aria-label="Back to red-light therapy research"><span class="site-back__arrow" aria-hidden="true">←</span><span class="site-back__label--long">Red-light research</span></a>
+  <div class="site-header__heading"><span class="site-header__title">🔴 PL300 Dose Visualizer</span><span class="site-header__subtitle">Biphasic PBM dosing, distance modeling, conservative schedules, and research explorer</span></div>
+  <div class="site-header__actions"><a class="site-action" href="../markdown-viewer.html?file=04_red_light_therapy_handheld/04_pl300_measured_specs_and_dose_model.md" aria-label="Open the rendered PL300 specification audit"><span aria-hidden="true">↗</span><span class="site-action__label">Spec audit</span></a><a class="site-action" href="../index.html" aria-label="All research"><span aria-hidden="true">⌂</span><span class="site-action__label">All research</span></a></div>
+</div></header>
 <div class="wrap">
-<p><a href="index.html">← Back to the RLT research hub</a> · <a href="04_pl300_measured_specs_and_dose_model.md">Open the complete PL300 spec audit</a></p>
 <header class="hero">
   <div class="eyebrow">Research map updated July 2026</div>
   <h1>Red-light PBM biphasic dosing, translated to your PL300 panel</h1>
@@ -87,7 +103,7 @@ details p{color:#c5ccda}
 
 <nav>
 <a href="#takeaways">Takeaways</a><a href="#calculator">Dose calculator</a><a href="#schedule">Schedules</a>
-<a href="#body-schedules">Body schedules</a><a href="#study-cluster">Study chart</a><a href="#distance">Falloff models</a><a href="#research">Recent papers</a><a href="#safety">Safety</a>
+<a href="#body-schedules">Body schedules</a><a href="#study-matcher">Study matcher</a><a href="#study-cluster">Study chart</a><a href="#distance">Falloff models</a><a href="#research">Recent papers</a><a href="#safety">Safety</a>
 </nav>
 
 <section id="takeaways" class="grid" style="margin-top:18px">
@@ -95,12 +111,12 @@ details p{color:#c5ccda}
 <h2>What the research supports</h2>
 <div class="kpis">
   <div class="kpi"><b>Inverted-U</b><span>Strongest direct proof is cellular and animal research; human dose-ranging trials are fewer.</span></div>
-  <div class="kpi"><b>13.8–33.6 J/cm²</b><span>Range used in the five whole-body exercise/recovery studies—not a proven optimum.</span></div>
+  <div class="kpi"><b>13.8–92.9 J/cm²</b><span>Translatable whole-body range; the 2025 high-dose acute study sits far above the older 13.8–33.6 cluster.</span></div>
   <div class="kpi"><b>10 min = E × 0.6</b><span>A ten-minute dose in J/cm² is irradiance in mW/cm² multiplied by 0.6.</span></div>
   <div class="kpi"><b>Measure distance</b><span>Large panels do not reliably follow simple inverse-square falloff at near distances.</span></div>
 </div>
 <div class="correction" style="margin-top:14px">
-<b>Important correction for a 10-minute session:</b> the old Lambertian estimate is only one lower-falloff model. At 36 inches, ten minutes is about <b>12.5 J/cm²</b> under that model, <b>23.3 J/cm²</b> under a 60°/60° lens model, or <b>38.0 J/cm²</b> under an unverified 60° red / 30° NIR split. The seller curve ends at 24 inches. Measure or dim rather than selecting the most convenient estimate.
+<b>Important correction for a 10-minute session:</b> the old Lambertian estimate is a steep-falloff, low-output sensitivity bound—not the best match to the comparable-panel curves. At 36 inches, ten minutes is about <b>12.5 J/cm²</b> under that model, <b>23.3 J/cm²</b> under a 60°/60° lens model, or <b>38.0 J/cm²</b> under an unverified 60° red / 30° NIR split. The seller curve ends at 24 inches. Measure or dim rather than selecting the most convenient estimate.
 </div>
 </div>
 
@@ -229,7 +245,7 @@ details p{color:#c5ccda}
 <section id="wholebody" class="grid" style="margin-top:16px">
 <div class="card span12">
 <h2>What human whole-body studies actually dosed</h2>
-<p>There is no validated universal weekly target. The 2025 systematic review found five exercise/recovery studies using 13.8–33.6 J/cm² per session and found no convincing performance or recovery benefit; sleep was the only limited recurring signal. Condition-specific trials used similar or higher doses, but they do not establish a healthy-person optimum.</p>
+<p>There is no validated universal weekly target. The 2025 systematic review found five exercise/recovery studies using 13.8–33.6 J/cm² per session and found no convincing performance or recovery benefit; sleep was the only limited recurring signal. A newer 2025 acute metabolism study used 92.9 J/cm², far above that cluster, and should be read as a high-dose single-session experiment rather than a routine target.</p>
 <h3 id="body-schedules">General schedule menu</h3>
 <p>These options keep approximate weekly surface fluence in a similar 20–35 J/cm² range while varying frequency. Calculate time from a reading at the body; the current 12-inch models span <b>94.4–151.1 mW/cm²</b>. They are planning options—not evidence that equal weekly totals are biologically equivalent.</p>
 <ul>
@@ -241,41 +257,37 @@ details p{color:#c5ccda}
 <li><b>Every day:</b> 4–5 J/cm² per side; 28–35 J/cm² weekly per surface. <b>Lowest-confidence option:</b> daily whole-body exposure has been studied, but it has not been shown superior.</li>
 </ul>
 <div class="callout"><b>Your proposed ten minutes per side, three times weekly:</b> to land at 8–10 J/cm², the body-position meter reading must be <b>13.3–16.7 mW/cm²</b>. For 12–15 J/cm², it must be <b>20–25 mW/cm²</b>. Ten minutes at 36 inches is presently modeled at about <b>12.5–38.0 J/cm² per side</b>, so use measured irradiance or verified dimming. Front and back remain separate exposed surfaces.</div>
+<h3 id="study-matcher" style="margin-top:20px">Match a human study to the PL300</h3>
+<p>Select a distinct exposure protocol. Newer studies appear first; follow-up papers from the same participants share one preset. The matcher uses the panel mode, distance model, and custom measurement selected in the main calculator above.</p>
+<div class="study-match">
+  <div class="study-controls">
+    <h4>Study controls</h4>
+    <div class="control"><label for="studyProtocol">Human whole-body protocol</label><select id="studyProtocol"></select></div>
+    <div class="control"><label for="studyStrategy">Primary matching strategy</label><select id="studyStrategy">
+      <option value="fluence">Match study fluence at current PL300 output</option>
+      <option value="time">Match study fluence + exposure time with a meter</option>
+    </select></div>
+    <p class="small">“Translation grade” describes parameter completeness, not proof that a treatment works. A study preset is not a recommendation.</p>
+  </div>
+  <div class="study-readout" id="studyMatchOutput" aria-live="polite"></div>
+</div>
+<div class="notice"><b>Geometry limit:</b> most source beds illuminate a large front-and-back field simultaneously. The PL300 treats a smaller region and requires two sequential sides. Matching center-point J/cm² cannot match coverage, uniformity, total joules, contact geometry, or spectral ratio.</div>
+<h3 style="margin-top:18px">Translatable protocol library</h3>
 <div class="scroll"><table>
-<thead><tr><th>Protocol</th><th>Irradiance</th><th>Session dose</th><th>Schedule</th><th>Approx. weekly dose</th><th>Result</th><th>PL300 time/side across 12&quot; models</th></tr></thead>
-<tbody>
-<tr><td>Zhao 2012, athletes</td><td>16.6 mW/cm²</td><td>30 J/cm²</td><td>Daily ×14 days</td><td>210 J/cm²</td><td>Sleep/melatonin signal; no placebo-adjusted running benefit</td><td>3:18–5:18</td></tr>
-<tr><td>Zagatto 2020, athletes</td><td>46.17 mW/cm²</td><td>13.8 J/cm²</td><td>3 sessions in 5 days</td><td>~41.4 J/cm²/5 days</td><td>Null performance/recovery outcomes</td><td>1:31–2:26</td></tr>
-<tr><td>Ghigiarelli 2020, athletes</td><td>17 mW/cm²</td><td>25 J/cm²</td><td>Before + after one workout</td><td>50 J/cm² that day</td><td>Null CK, IL-6, HRV outcomes</td><td>2:45–4:25</td></tr>
-<tr><td>Rentz 2022, athletes</td><td>24 mW/cm²</td><td>28.8 J/cm²</td><td>1–2×/week</td><td>28.8–57.6 J/cm²</td><td>Observational sleep/heart-rate signal</td><td>3:11–5:05</td></tr>
-<tr><td>Forsey 2023, athletes</td><td>28 mW/cm²</td><td>33.6 J/cm²</td><td>One pre-exercise session</td><td>33.6 J/cm²</td><td>No performance or lactate benefit</td><td>3:42–5:56</td></tr>
-<tr><td>Fibromyalgia RCT</td><td>28 mW/cm²</td><td>25.2 J/cm² reported</td><td>3×/week ×4 weeks</td><td>75.6 J/cm²</td><td>Pain/quality-of-life signal; condition-specific</td><td>2:47–4:27</td></tr>
-<tr><td>Long-COVID open-label pilot</td><td>24 mW/cm²</td><td>20.2 J/cm²</td><td>3×/week ×4 weeks</td><td>60.6 J/cm²</td><td>Cognitive signal; n=7 whole-body, uncontrolled</td><td>2:14–3:34</td></tr>
-</tbody></table></div>
-<div class="notice"><b>Translation limit:</b> NovoTHOR surrounds the body and exposes a large area for 14–30 minutes. Matching J/cm² with this higher-irradiance panel in 2–6 minutes does not reproduce irradiance, exposure time, coverage, uniformity, or total joules. Front and back are separate exposed surfaces and take twice the listed elapsed time when treated sequentially. <a href="05_whole_body_pbm_dosing_evidence.md">Open the full evidence audit →</a></div>
+<thead><tr><th>Use</th><th>Study preset</th><th>Publication(s)</th><th>Parameters</th><th>Schedule</th><th>Outcome / limit</th><th>Grade</th></tr></thead>
+<tbody id="studyRows"></tbody>
+</table></div>
+<p class="small">The library contains 11 distinct exposure presets mapped to 13 publications. The 2023/2024 Navarro-Ledesma reports share one trial; the separate 2022 Navarro-Ledesma trial has its own preset. The Fitzmaurice feasibility cohort has two publications. <a href="../markdown-viewer.html?file=04_red_light_therapy_handheld/05_whole_body_pbm_dosing_evidence.md">Open the rendered evidence audit and publication-level list →</a></p>
 <h3 id="study-cluster" style="margin-top:18px">Protocol clustering: dose per session vs frequency</h3>
 <canvas id="studyCluster" width="900" height="420" role="img" aria-label="Scatter plot comparing human photobiomodulation study dose per session with sessions per week"></canvas>
 <div class="legend">
 <span><i class="dot" style="background:#4ed6a0"></i>positive signal</span>
 <span><i class="dot" style="background:#ff9f43"></i>null or mixed</span>
-<span><i class="dot" style="background:#64a8ff"></i>dose-ranging, not whole-body</span>
+<span><i class="dot" style="background:#ffd166"></i>mixed or observational</span>
 <span><i class="dot" style="background:#ff4d5f"></i>current PL300 plan</span>
 </div>
-<p class="small"><b>Reading the cluster:</b> positive whole-body signals occur around 20–30 J/cm² and 3–7 sessions weekly, but null exercise studies overlap almost the entire 13.8–33.6 J/cm² range. That overlap means the chart does not identify a universal optimum. Point 8 is the only plotted human dose-ranging study that selected a better-performing dose, and it treated face/neck/hands rather than the whole body.</p>
-<div class="scroll"><table>
-<thead><tr><th>#</th><th>Study</th><th>Dose</th><th>Sessions/week</th><th>Interpretation</th></tr></thead>
-<tbody>
-<tr><td>1</td><td>Zhao 2012</td><td>30 J/cm²</td><td>7</td><td>Daily whole-body; sleep/melatonin signal, no placebo-adjusted running benefit</td></tr>
-<tr><td>2</td><td>Zagatto 2020</td><td>13.8 J/cm²</td><td>~4.2 normalized</td><td>Null exercise/recovery outcomes</td></tr>
-<tr><td>3</td><td>Ghigiarelli 2020</td><td>25 J/cm²</td><td>Two sessions on one day</td><td>Null CK/IL-6/HRV outcomes; frequency is acute, not a weekly regimen</td></tr>
-<tr><td>4</td><td>Rentz 2022</td><td>28.8 J/cm²</td><td>1–2</td><td>Observational sleep/heart-rate signal</td></tr>
-<tr><td>5</td><td>Forsey 2023</td><td>33.6 J/cm²</td><td>1 acute session</td><td>No performance or lactate benefit</td></tr>
-<tr><td>6</td><td>Fibromyalgia RCT</td><td>25.2 J/cm² reported</td><td>3</td><td>Positive pain/quality-of-life signal; no dose comparison</td></tr>
-<tr><td>7</td><td>Long-COVID pilot</td><td>20.2 J/cm²</td><td>3</td><td>Positive cognitive signal; tiny open-label group</td></tr>
-<tr><td>8</td><td>Slier 2023 dose-ranging</td><td>6.5 J/cm²</td><td>5</td><td>Best-performing tested dose among 1/4/6.5; face/neck/hands, not whole-body</td></tr>
-<tr><td>9</td><td>Fibromyalgia feasibility</td><td>33.6 J/cm²</td><td>3</td><td>Positive uncontrolled signal</td></tr>
-</tbody></table></div>
-<div class="callout" style="margin-top:14px"><b>Studies excluded from this plot:</b> human trials reporting only total joules (for example 75–600 J across multiple body sites) cannot be placed honestly on a J/cm² axis without illuminated area. Planned protocols without results are also excluded from the outcome cluster.</div>
+<p class="small"><b>Reading the cluster:</b> the 2025 acute 92.9 J/cm² experiment is a high-dose outlier. In the older 13.8–33.6 J/cm² cluster, positive and null studies overlap, so the chart cannot identify a universal optimum. Acute two-exposure studies are plotted at two exposures on one study day, not as true weekly schedules.</p>
+<div class="callout" style="margin-top:14px"><b>Excluded from presets and plot:</b> studies reporting only total joules over selected muscles or sequential body sites; localized arrays; face/neck/hands protocols; animal work; and protocols without results. Converting those designs to uniform whole-body J/cm² would be dimensionally misleading.</div>
 </div>
 </section>
 
@@ -294,6 +306,23 @@ details p{color:#c5ccda}
 <details open><summary>Lens-array equation and assumptions</summary>
 <p>Angular intensity is modeled as <code>I(θ) ∝ cos<sup>m</sup>(θ)</code>, where <code>m = ln(0.5) / ln(cos(β/2))</code> for a full-width-at-half-maximum beam angle β. The center-axis factor is integrated across the rectangle: <code>J(d,m) = ∬ d<sup>m+1</sup> / (d²+x²+y²)<sup>(m+3)/2</sup> dxdy</code>. Each channel is then normalized to its 6-inch reading. This produces a central point estimate, not an area average, and omits LED spacing, side lobes, body curvature, spectral-meter response, and manufacturing variation.</p>
 </details>
+
+<h3>Observed falloff from comparable large panels</h3>
+<p>Each online curve is normalized to its own 6-inch center reading, so this compares <b>shape rather than absolute output</b>. The PL300 seller retains 93.8% at 12 inches and 72.4% at 24 inches; the broader comparison medians are 85.6% and 69.9%. The seller's shape is plausible, while the old Lambertian calculation falls faster than every included large-array center curve at those distances.</p>
+<canvas id="falloffChart" width="1000" height="330" role="img" aria-label="Normalized irradiance falloff curves from comparable panels and the PL300 optical models"></canvas>
+<div class="legend">
+<span><i class="dot" style="background:#8d96a8"></i>measured or published panel curves</span>
+<span><i class="dot" style="background:#ff4d5f"></i>PL300 seller claim</span>
+<span><i class="dot" style="background:#64a8ff"></i>60° / 60° model</span>
+<span><i class="dot" style="background:#b790ff"></i>60° / 30° model</span>
+<span><i class="dot" style="background:#ff9f43"></i>old Lambertian</span>
+<span><i class="dot" style="background:#4ed6a0"></i>comparison median</span>
+</div>
+<div class="scroll" style="margin-top:12px"><table>
+<thead><tr><th>Panel/source</th><th>Evidence / method</th><th>6-in center</th><th>12-in retention</th><th>24-in retention</th><th>36-in retention</th></tr></thead>
+<tbody id="empiricalRows"></tbody>
+</table></div>
+<div class="callout" style="margin-top:14px"><b>Model result:</b> the 60°/30° split is the closest of the optical models to the 12-inch empirical median, but no comparison curve is used as a PL300 dose setting. Panel geometry and meters differ. <a href="../markdown-viewer.html?file=04_red_light_therapy_handheld/06_comparable_panel_irradiance_falloff.md">Open the rendered measurement audit and sources →</a></div>
 
 <h3>Coverage geometry: claimed versus a 60° footprint</h3>
 <div class="scroll"><table>
@@ -366,6 +395,17 @@ const lambertPoints = [
 const sellerRawPoints = [[6,145],[12,136],[18,113],[24,105]];
 const sellerCoverage = {6:[45,22],12:[58,34],18:[67,46],24:[76,59]};
 const anchorCombined = 161.145, anchorRed = 76.374, anchorNir = 84.771;
+const empiricalCurves = [
+ {name:"Bestqool Pro300",tier:"A · LightLab spectral meter",points:[[3,106],[6,68.9],[12,58.97]]},
+ {name:"Helio Glow",tier:"A · LightLab 231-point spectral grid",points:[[6,71.72],[12,75.01],[24,65.25],[36,49.38]]},
+ {name:"Advantage1500",tier:"B · reviewer spectrometer",points:[[6,60],[12,50],[24,28]]},
+ {name:"MitoPRO1500 (older)",tier:"B · reviewer spectrometer",points:[[6,86],[24,40]]},
+ {name:"RDPRO1500",tier:"C · owner solar meter + correction",points:[[6,84],[12,80],[15,78],[20,75],[31,50]]},
+ {name:"BioMax 900 ×4",tier:"B · reviewer spectrometer; four panels",points:[[6,84],[12,71],[24,61]]},
+ {name:"Full Body Red Light Panel",tier:"D · manufacturer; method absent",points:[[3,219.7],[6,154.6],[12,141],[18,124.3],[24,108]]},
+ {name:"Hooga SaunaPRO",tier:"D · manufacturer; method absent",points:[[6,70],[12,55]]}
+];
+const empiricalMedian = {12:58.97/68.9,24:108/154.6};
 const presets = {
  skin:{dose:7,freq:2,distance:30,lo:4,hi:10,title:"Facial skin",note:"Best-supported practical target. Current human skin trials cluster from about 3.8 to 15.6 J/cm², but the lower-middle range is the safer starting point with this high-output panel."},
  skinLow:{dose:3,freq:1,distance:36,lo:2,hi:6,title:"Very cautious facial start",note:"Use this for sensitive, darker, melasma-prone, recently irritated, or treatment-naïve skin. Patch test first."},
@@ -376,11 +416,25 @@ const presets = {
  wound:{dose:5,freq:2,distance:30,lo:0,hi:0,title:"Open/diabetic wound",note:"Clinical-only. This tool cannot account for infection, perfusion, neuropathy, wound depth, offloading or standard wound care."},
  brain:{dose:10,freq:2,distance:18,lo:0,hi:0,title:"Transcranial use",note:"Do not use a body-panel surface-dose calculator for brain protocols. Dedicated device geometry and medical oversight are required."}
 };
+const wholeBodyProtocols = [
+ {id:"denardi2025",year:2025,label:"De Nardi 2025 — acute metabolism (high dose)",short:"De Nardi 2025",articles:"De Nardi 2025",population:"32 women: 16 with obesity and 16 sedentary normal-weight controls",design:"randomized sham-controlled crossover",device:"LED PRO light bed; front and back illuminated simultaneously",wavelengths:"633–660 + 850–940 nm",irr:129,seconds:720,fluence:92.9,schedule:"One acute 12-minute exposure",freqPlot:1,outcome:"REE rose 9.3% in the obesity subgroup; skin temperature rose. Acute result, not a chronic wellness target.",grade:"A",status:"positive",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC12608151/",highDose:true},
+ {id:"santos2024",year:2024,label:"Santos 2024 — preliminary agility abstract",short:"Santos 2024",articles:"Santos 2024 conference abstract",population:"10 trained healthy adults",design:"randomized double-blind sham-controlled crossover; abstract only",device:"Whole-body LED exposure; device not named in abstract",wavelengths:"Not reported in abstract",irr:46.17,seconds:300,fluence:13.85,schedule:"Two 5-minute exposures on one day, 6 hours and 5 minutes before testing",freqPlot:2,outcome:"No agility benefit versus placebo. Preliminary abstract; full methods unavailable.",grade:"C",status:"null",url:"https://doi.org/10.1016/j.bjpt.2024.100751"},
+ {id:"navarrofm",year:2024,label:"Navarro-Ledesma 2023–2024 — fibromyalgia RCT",short:"Navarro 2023/2024 fibromyalgia RCT",articles:"Navarro-Ledesma 2023 primary report + 2024 follow-up — same NCT04248972 cohort",population:"42 randomized participants with fibromyalgia",design:"triple-blind randomized sham-controlled trial",device:"NovoTHOR clamshell bed; simultaneous full-body field",wavelengths:"660 + 850 nm, 50:50",irr:28,seconds:1200,fluence:25.2,schedule:"20 minutes, 3×/week for 4 weeks; 12 sessions",freqPlot:3,outcome:"Pain and quality-of-life differences favored active treatment; condition-specific and not a dose-comparison trial.",grade:"B",status:"positive",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC10864543/",conflict:"The papers report 28 mW/cm² × 20 minutes but also 25.2 J/cm². The multiplication gives 33.6 J/cm²; 25.2 J/cm² in 20 minutes implies 21.0 mW/cm²."},
+ {id:"fitzmauricefm",year:2024,label:"Fitzmaurice 2023–2024 — fibromyalgia feasibility ramp",short:"Fitzmaurice feasibility",articles:"Fitzmaurice 2023 feasibility + 2024 qualitative companion — same cohort",population:"19 fibromyalgia completers",design:"single-arm feasibility study with qualitative companion",device:"NovoTHOR clamshell bed; simultaneous full-body field",wavelengths:"660 + 850 nm, 50:50",irr:28,seconds:1200,fluence:33.6,schedule:"Session 1: 6 min; session 2: 12 min; sessions 3–18: 20 min; 3×/week for 6 weeks",freqPlot:3,outcome:"Feasible with symptom and participant-experience signals; uncontrolled and not an efficacy trial.",grade:"A",status:"positive",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC10525895/",ramp:"The preset represents the full 20-minute dose. The first two sessions delivered approximately 10.1 and 20.2 J/cm² if output stayed constant."},
+ {id:"forsey2023",year:2023,label:"Forsey 2023 — maximal anaerobic cycling",short:"Forsey 2023",articles:"Forsey 2023",population:"48 runners and triathletes",design:"single-blind randomized sham-controlled trial",device:"NovoTHOR clamshell bed; simultaneous full-body field",wavelengths:"660 + 850 nm",irr:28,seconds:1200,fluence:33.6,schedule:"One 20-minute pre-exercise exposure",freqPlot:1,outcome:"No Wingate-performance or lactate benefit; selected heart-rate and HRV changes.",grade:"A",status:"null",url:"https://pubmed.ncbi.nlm.nih.gov/37099210/"},
+ {id:"bowen2023",year:2023,label:"Bowen 2023 — long-COVID brain-fog pilot",short:"Bowen 2023",articles:"Bowen 2023",population:"7 participants in the whole-body arm",design:"open-label pilot",device:"NovoTHOR clamshell bed; simultaneous full-body field",wavelengths:"660 + 850 nm",irr:24,seconds:840,fluence:20.2,schedule:"14 minutes, 3×/week for 4 weeks; 12 sessions",freqPlot:3,outcome:"Cognitive tests improved; tiny open-label group without a whole-body sham comparator.",grade:"A",status:"positive",url:"https://pubmed.ncbi.nlm.nih.gov/37018063/"},
+ {id:"navarro2022",year:2022,label:"Navarro-Ledesma 2022 — circadian/tissue fibromyalgia RCT",short:"Navarro 2022 circadian/tissue RCT",articles:"Navarro-Ledesma 2022 — NCT05113589",population:"40 participants with fibromyalgia",design:"triple-blind randomized sham-controlled trial; separate cohort from the 2023/2024 trial",device:"NovoTHOR clamshell bed; simultaneous full-body field",wavelengths:"660 + 850 nm, 50:50",irr:28,seconds:1200,fluence:25.2,schedule:"20 minutes, 3×/week for 4 weeks; 12 sessions",freqPlot:3,outcome:"Selected circadian blood-pressure, pain-threshold, and tissue-elasticity outcomes differed; condition-specific.",grade:"B",status:"positive",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC9687325/",conflict:"The paper reports 28 mW/cm² × 20 minutes but also 25.2 J/cm². The multiplication gives 33.6 J/cm²; 25.2 J/cm² in 20 minutes implies 21.0 mW/cm²."},
+ {id:"rentz2022",year:2022,label:"Rentz 2022 — soccer recovery observation",short:"Rentz 2022",articles:"Rentz 2022",population:"12 female soccer players",design:"observational pre/post study",device:"NovoTHOR clamshell bed; simultaneous full-body field",wavelengths:"660 + 850 nm",irr:24,seconds:1200,fluence:28.8,schedule:"20 minutes, 1–2×/week across a season",freqPlot:1.5,outcome:"Sleep and nocturnal-heart-rate associations; confounding prevents causal inference.",grade:"A",status:"mixed",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC9414854/"},
+ {id:"ghigiarelli2020",year:2020,label:"Ghigiarelli 2020 — resistance-exercise recovery",short:"Ghigiarelli 2020",articles:"Ghigiarelli 2020",population:"12 resistance-trained men",design:"randomized crossover study",device:"NovoTHOR clamshell bed; simultaneous full-body field",wavelengths:"660 + 850 nm",irr:17,seconds:900,fluence:25,schedule:"15 minutes before and 15 minutes after one workout",freqPlot:2,outcome:"No CK, IL-6, or HRV recovery advantage.",grade:"B",status:"null",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC7739664/",conflict:"The paper reports 17 mW/cm² × 15 minutes but also 25 J/cm². The multiplication gives 15.3 J/cm²; 25 J/cm² in 15 minutes implies 27.8 mW/cm²."},
+ {id:"zagatto2020",year:2020,label:"Zagatto 2020 — water-polo recovery",short:"Zagatto 2020",articles:"Zagatto 2020",population:"13 male water-polo players",design:"double-blind randomized sham-controlled trial",device:"Joovv Elite broad full-body panel system",wavelengths:"660 + 850 nm",irr:46.17,seconds:300,fluence:13.8,schedule:"5 minutes after each of 3 games within 5 days",freqPlot:4.2,outcome:"No meaningful performance, inflammatory, muscle-damage, or hormonal benefit.",grade:"A",status:"null",url:"https://pubmed.ncbi.nlm.nih.gov/33332232/"},
+ {id:"zhao2012",year:2012,label:"Zhao 2012 — basketball sleep and performance",short:"Zhao 2012",articles:"Zhao 2012",population:"20 female basketball players",design:"single-blind randomized sham-controlled trial",device:"Dayou full-body red-light system",wavelengths:"658 nm",irr:16.6,seconds:1800,fluence:30,schedule:"30 minutes daily for 14 days after exercise at night",freqPlot:7,outcome:"Subjective sleep and melatonin signal; no placebo-adjusted running benefit. Older small trial.",grade:"A",status:"mixed",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC3499892/"}
+];
 const papers = [
 {year:2026,cat:["review","skin"],title:"Is photobiomodulation therapy free from racial bias?",type:"Review",dose:"Focus: pigmentation and parameter–skin interactions",finding:"Argues that skin pigmentation can alter delivered/absorbed dose and clinical outcomes; highlights underrepresentation and the need for skin-tone-aware dosimetry.",limit:"Very recent review; not a dosing RCT.",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC13075973/"},
 {year:2026,cat:["review","skin"],title:"What to Look for in Red Light Therapy: A Product Guide",type:"Clinical/product review",dose:"Reviews wavelength, irradiance, fluence and device reporting",finding:"Emphasizes biphasic dosing and the difficulty of comparing products when manufacturers omit distance and output methods.",limit:"Narrative guide, not comparative clinical efficacy research.",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC13085462/"},
 {year:2025,cat:["review"],title:"Effects of photobiomodulation on multiple health outcomes",type:"Umbrella review of randomized-trial meta-analyses",dose:"Many indications and protocols",finding:"PBM appeared beneficial for some outcomes, but certainty and heterogeneity varied substantially; it does not establish a universal optimal dose.",limit:"Umbrella reviews inherit weaknesses and protocol heterogeneity from included reviews.",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC12326686/"},
 {year:2025,cat:["review","whole"],title:"A systematic review on whole-body PBM for exercise performance and recovery",type:"Systematic review",dose:"Five studies; examples roughly 13.8–30 J/cm²",finding:"No convincing benefit for exercise performance or recovery; possible sleep effects were preliminary.",limit:"Only five studies and 105 participants.",url:"https://pubmed.ncbi.nlm.nih.gov/39883205/"},
+{year:2025,cat:["whole"],title:"PBM acutely augments resting metabolism in women with obesity",type:"Randomized sham-controlled crossover study",dose:"633–660 + 850–940 nm; 129 mW/cm²; 92.9 J/cm²; 12 min; front and back light bed",finding:"REE increased 9.3% after one exposure in the obesity subgroup; skin temperature also increased.",limit:"Single acute session, small sex-specific sample, no evidence for weight loss or chronic wellness use, and a high dose relative to earlier whole-body trials.",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC12608151/"},
 {year:2025,cat:["skin"],title:"Role of PBM application frequency in facial rejuvenation",type:"Randomized, sham-controlled, double-blind trial",dose:"660±10 nm; 6.4 mW/cm²; 8.05 J/cm²; 21 min; 2× vs 3× weekly for 4 weeks",finding:"Image analysis improved selected wrinkles; two weekly sessions were not meaningfully inferior to three.",limit:"No significant group difference on the specialist Wrinkle Assessment Scale.",url:"https://pubmed.ncbi.nlm.nih.gov/40167796/"},
 {year:2025,cat:["skin"],title:"Home-used LED and IRED mask for crow’s feet",type:"Multicenter randomized double-blind sham trial",dose:"630 + 850 nm; abstract does not fully expose dosimetry",finding:"Reported improvement in crow’s-feet measures with good tolerability.",limit:"Commercial-device study; full parameter reporting is essential before translation.",url:"https://pubmed.ncbi.nlm.nih.gov/39960921/"},
 {year:2025,cat:["skin","wound"],title:"PBM therapy for enhanced wound and scar healing",type:"Clinical study",dose:"660 nm; 15.6 mW/cm²; 3.7 or 5.6 J/cm²; 2–3× weekly",finding:"Scar color, size and satisfaction improved; recent scars responded best.",limit:"Not a large sham-controlled dose-ranging RCT.",url:"https://doi.org/10.1007/s10103-025-04587-5"},
@@ -395,12 +449,13 @@ const papers = [
 {year:2024,cat:["direct"],title:"Biphasic NIR PBM and erythrocyte oxidative stress",type:"Direct in-vitro dose/time-response",dose:"Continuous NIR across exposure times; wavelengths 750–1100 nm",finding:"Low exposure was antioxidative while higher exposure became detrimental; the authors identified a favorable time window in their setup.",limit:"Blood samples in vitro; device-specific irradiance limits translation.",url:"https://pubmed.ncbi.nlm.nih.gov/38875890/"},
 {year:2024,cat:["direct"],title:"PBM dose-response on adipose-derived stem-cell osteogenesis in 3D cultures",type:"In-vitro dose-response",dose:"Green and NIR combinations at 3, 5 and 7 J/cm²",finding:"Responses differed by wavelength, endpoint and time; no single dose won every outcome.",limit:"3D cell model, not a clinical dosing schedule.",url:"https://doi.org/10.3390/ijms25179176"},
 {year:2024,cat:["whole"],title:"Acute PBM dose-response before a 5-km run",type:"Randomized double-blind crossover trial",dose:"Placebo, 300, 900 and 1260 J",finding:"No improvement in run time, velocity or perceived exertion across active doses.",limit:"Localized total-joule protocol in recreational runners.",url:"https://doi.org/10.1007/s10103-024-04099-8"},
+{year:2024,cat:["whole"],title:"Whole-body PBM and agility in trained adults",type:"Preliminary randomized crossover conference abstract",dose:"46.17 mW/cm²; 13.85 J/cm²; two 5-minute exposures on one study day",finding:"No agility benefit versus placebo.",limit:"Only 10 participants and abstract-only reporting; device and wavelengths were not disclosed in the abstract.",url:"https://doi.org/10.1016/j.bjpt.2024.100751"},
 {year:2024,cat:["review","skin"],title:"Unlocking the Power of Light on the Skin",type:"Comprehensive dermatology review",dose:"Wide range across acne, aging, wounds, pigment and inflammation",finding:"Finds promising dermatologic uses but repeatedly notes inconsistent parameters and lack of standardized recommendations.",limit:"Narrative review with heterogeneous studies.",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC11049838/"},
 {year:2024,cat:["review","skin"],title:"Photobiomodulation CME Part I: Overview and mechanism",type:"JAAD continuing-medical-education review",dose:"Parameter-focused",finding:"Summarizes chromophores, signaling and the importance of fluence, treatment duration and output power.",limit:"Mechanism/overview, not a dose-ranging trial.",url:"https://doi.org/10.1016/j.jaad.2024.02.032"},
 {year:2024,cat:["wound"],title:"Visible and infrared PBM for diabetic foot ulcers",type:"Clinical trial",dose:"Compared visible and infrared PBM regimens",finding:"Reported improved ulcer healing in active groups.",limit:"Clinical wound management context; not a general home-panel schedule.",url:"https://pubmed.ncbi.nlm.nih.gov/39050995/"},
 {year:2023,cat:["skin"],title:"PBM reduces periocular wrinkle volume by 30%",type:"Split-face randomized controlled trial",dose:"660 nm and 590 nm; 3.8 J/cm²; 10 sessions over 4 weeks",finding:"Wrinkle volume fell about 31.6% with red and 29.9% with amber; hydration and viscoelasticity did not improve.",limit:"Specific device and periocular endpoint; no untreated whole-face dose curve.",url:"https://pubmed.ncbi.nlm.nih.gov/36780572/"},
 {year:2023,cat:["skin"],title:"Reverse skin aging signs by red-light PBM",type:"Prospective single-arm clinical study",dose:"630±10 nm; 21.7 mW/cm²; 15.6 J/cm²; 12 min; 2× weekly for 3 months",finding:"Reported progressive improvements in several aging measures.",limit:"Only 20 women, no sham control, and industry affiliations.",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC10311288/"},
-{year:2023,cat:["whole"],title:"Dose- and time-response PBM in type 2 diabetes",type:"Randomized clinical study",dose:"Compared PBM dose/timing with and without hypoglycemic medication",finding:"Important recent attempt to map metabolic response across dose and time.",limit:"Condition-specific treatment; not proof of benefits in healthy users.",url:"https://pubmed.ncbi.nlm.nih.gov/37171054/"},
+{year:2023,cat:["whole"],title:"Dose- and time-response PBM in type 2 diabetes",type:"Randomized clinical study",dose:"830-nm arrays; 100 or 240 J per site over selected upper- and lower-limb muscles",finding:"Mapped glycemic response across dose and time with and without hypoglycemic medication.",limit:"Multisite localized PBM, not a uniform whole-body surface exposure; total joules per site cannot be loaded into the whole-body preset matcher.",url:"https://pubmed.ncbi.nlm.nih.gov/37171054/"},
 {year:2023,cat:["review","skin"],title:"Systematic review of oncologic safety of low-level light therapy",type:"Systematic review",dose:"Clinical and preclinical literature",finding:"Found no evidence supporting a carcinogenic effect within studied parameters, while emphasizing parameter and indication boundaries.",limit:"Does not justify shining light over a known or suspected tumor without clinician guidance.",url:"https://pubmed.ncbi.nlm.nih.gov/36722207/"},
 {year:2009,cat:["direct","review"],title:"Biphasic Dose Response in Low Level Light Therapy",type:"Foundational review",dose:"Synthesizes many cellular and animal dose curves",finding:"Established the modern PBM inverted-U framework: low doses stimulate, higher doses can inhibit.",limit:"Older and mostly preclinical evidence.",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC2790317/"},
 {year:2017,cat:["direct","review"],title:"Mechanisms and applications of the anti-inflammatory effects of PBM",type:"Foundational mechanistic review",dose:"Multiple wavelengths and indications",finding:"Describes a pronounced biphasic dose response and redox/inflammatory signaling mechanisms.",limit:"Mechanistic synthesis, not a universal dosing guideline.",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC5523874/"}
@@ -468,7 +523,7 @@ function modelDescription(model,mode){
  if(model==="seller")return "seller falloff shape scaled to the measured 6-inch anchor; valid only from 6–24 inches";
  if(model==="lens60")return "60°/60° rectangular lens-array scenario; recalled angle, not verified";
  if(model==="lensSplit")return "60° red / 30° NIR alternate scenario; anecdotal configuration, not verified";
- if(model==="extended")return "old Lambertian extended-panel model; retained as a lower comparison";
+ if(model==="extended")return "old Lambertian extended-panel model; retained as a steep-falloff sensitivity bound";
  return "inverse-square point-source comparison; poor near-field default";
 }
 function fmtTime(sec){
@@ -536,34 +591,129 @@ function drawCurve(goal,dose){
  ctx.fillText(`${dose.toFixed(1).replace(".0","")} J/cm² per session`,markerX+(markerX>W*.78?-10:10),34);
  ctx.fillStyle="#aab2c3";ctx.font="14px sans-serif";ctx.textAlign="right";ctx.fillText("J/cm²",right,H-12);
 }
-const protocolPoints=[
- {n:1,dose:30,freq:7,status:"positive"},
- {n:2,dose:13.8,freq:4.2,status:"null"},
- {n:3,dose:25,freq:2,status:"null"},
- {n:4,dose:28.8,freq:1.5,status:"positive"},
- {n:5,dose:33.6,freq:1,status:"null"},
- {n:6,dose:25.2,freq:3,status:"positive"},
- {n:7,dose:20.2,freq:3,status:"positive"},
- {n:8,dose:6.5,freq:5,status:"partial"},
- {n:9,dose:33.6,freq:3,status:"positive"}
-];
+function studyMatchMath(protocol,irr){
+ const effectiveIrr=protocol.fluence*1000/protocol.seconds;
+ const reconstructedFluence=protocol.irr*protocol.seconds/1000;
+ const tolerance=Math.max(.2,protocol.fluence*.02);
+ return {
+  effectiveIrr,
+  reconstructedFluence,
+  consistent:Math.abs(reconstructedFluence-protocol.fluence)<=tolerance,
+  fullSeconds:protocol.fluence*1000/irr,
+  tenMinuteDose:irr*.6,
+  tenMinuteRatio:irr*.6/protocol.fluence,
+  threeWeeklyDose:irr*.6*3,
+  targetOutputPercent:effectiveIrr/irr*100
+ };
+}
+function renderStudyOptions(){
+ const select=document.getElementById("studyProtocol");if(!select)return;
+ select.innerHTML=wholeBodyProtocols.map(p=>`<option value="${p.id}">${p.label}</option>`).join("");
+ select.value=wholeBodyProtocols[0].id;
+}
+function renderStudyRows(){
+ const body=document.getElementById("studyRows");if(!body)return;
+ body.innerHTML=wholeBodyProtocols.map(p=>`<tr>
+  <td><button class="select-study" data-study="${p.id}" type="button">Use</button></td>
+  <td><b>${p.short}</b><div class="small">${p.population}</div></td>
+  <td>${p.articles}</td>
+  <td>${p.irr} mW/cm² · ${fmtTime(p.seconds)} · <b>${p.fluence} J/cm²</b><div class="small">${p.wavelengths}</div></td>
+  <td>${p.schedule}</td><td>${p.outcome}</td>
+  <td><span class="badge ${p.grade==="A"?"good":p.grade==="B"?"warn":"info"}">${p.grade}</span></td>
+ </tr>`).join("");
+ body.querySelectorAll(".select-study").forEach(button=>button.addEventListener("click",()=>{
+  document.getElementById("studyProtocol").value=button.dataset.study;renderStudyMatcher();
+  document.getElementById("study-matcher").scrollIntoView({behavior:"smooth",block:"start"});
+ }));
+}
+function renderStudyMatcher(){
+ const select=document.getElementById("studyProtocol"),out=document.getElementById("studyMatchOutput");if(!select||!out)return;
+ const protocol=wholeBodyProtocols.find(p=>p.id===select.value)||wholeBodyProtocols[0];
+ const strategy=document.getElementById("studyStrategy").value,irr=getIrr();
+ document.querySelectorAll(".select-study").forEach(b=>b.classList.toggle("active",b.dataset.study===protocol.id));
+ if(!isFinite(irr)||irr<=0){
+  out.innerHTML=`<h4>${protocol.short}</h4><div class="notice">The selected seller model has no value at this distance. Choose a documented distance, a lens scenario, or a custom body-position measurement.</div>`;return;
+ }
+ const m=studyMatchMath(protocol,irr),mode=document.getElementById("mode").value;
+ let primary;
+ if(strategy==="fluence"){
+  primary=`At <b>${irr.toFixed(1)} mW/cm²</b>, use <b>${fmtTime(m.fullSeconds)} per side</b> to match ${protocol.fluence} J/cm². Front + back takes <b>${fmtTime(m.fullSeconds*2)}</b> sequentially.`;
+ }else if(m.targetOutputPercent<=100){
+  primary=`Keep the study's <b>${fmtTime(protocol.seconds)}</b> exposure and adjust until a body-position meter reads <b>${m.effectiveIrr.toFixed(1)} mW/cm²</b>. That is about ${m.targetOutputPercent.toFixed(0)}% of the selected modeled output, but verify it—the PL300 dimmer has not been shown linear.`;
+ }else{
+  primary=`To deliver ${protocol.fluence} J/cm² in <b>${fmtTime(protocol.seconds)}</b>, the body-position meter must read <b>${m.effectiveIrr.toFixed(1)} mW/cm²</b>. The selected setup models ${irr.toFixed(1)} mW/cm² (${(irr/m.effectiveIrr*100).toFixed(0)}% of the target), so move closer/increase verified output or use the longer fluence-match time.`;
+ }
+ const arithmetic=m.consistent
+  ? `<span class="badge good">DOSE ARITHMETIC CONSISTENT</span> ${protocol.irr} mW/cm² × ${fmtTime(protocol.seconds)} reconstructs to ${m.reconstructedFluence.toFixed(1)} J/cm².`
+  : `<span class="badge warn">PUBLISHED DOSE CONFLICT</span> ${protocol.conflict}`;
+ const special=protocol.highDose?`<div class="correction" style="margin-top:10px"><b>High-dose acute outlier:</b> this is not a routine-use recommendation. The study reported substantial front and back skin-temperature increases and did not test repeated chronic use.</div>`:protocol.ramp?`<div class="callout" style="margin-top:10px"><b>Ramp protocol:</b> ${protocol.ramp}</div>`:"";
+ out.innerHTML=`<h4>${protocol.short} <span class="badge ${protocol.grade==="A"?"good":protocol.grade==="B"?"warn":"info"}">TRANSLATION ${protocol.grade}</span></h4>
+ <p class="small">${protocol.design} · ${protocol.population}</p>
+ <div class="match-grid">
+  <div class="match-kpi"><span>Study surface target</span><b>${protocol.fluence} J/cm²</b></div>
+  <div class="match-kpi"><span>Study exposure time</span><b>${fmtTime(protocol.seconds)}</b></div>
+  <div class="match-kpi"><span>Fluence/time meter target</span><b>${m.effectiveIrr.toFixed(1)} mW/cm²</b></div>
+  <div class="match-kpi"><span>Your modeled 10-min dose</span><b>${m.tenMinuteDose.toFixed(1)} J/cm²</b></div>
+ </div>
+ <div class="study-primary">${primary}</div>
+ <p><b>Your 10 min/side × 3/week plan:</b> ${m.tenMinuteDose.toFixed(1)} J/cm² per exposed surface each session, <b>${m.threeWeeklyDose.toFixed(1)} J/cm²/week</b> per surface—${(m.tenMinuteRatio*100).toFixed(0)}% of this study's per-exposure fluence.</p>
+ <p><b>Source protocol:</b> ${protocol.device}; ${protocol.wavelengths}; ${protocol.schedule}.</p>
+ <p><b>Outcome context:</b> ${protocol.outcome}</p>
+ <div class="small">${arithmetic}</div>${special}
+ <p class="small">Panel mode: ${mode}. Matching fluence/time still does not match spectrum, coverage, total joules, or simultaneous bed geometry. <a href="${protocol.url}" target="_blank" rel="noopener">Open primary source ↗</a></p>`;
+ const goal=document.getElementById("goal").value,preset=presets[goal],freq=+document.getElementById("freq").value,referenceDose=+document.getElementById("dose").value;
+ const plottedDose=document.getElementById("adjustWeekly").checked?referenceDose*preset.freq/freq:referenceDose;
+ drawStudyCluster(goal==="body"?plottedDose:presets.body.dose,goal==="body"?freq:presets.body.freq);
+}
+const protocolPoints=wholeBodyProtocols.map((p,i)=>({n:i+1,id:p.id,dose:p.fluence,freq:p.freqPlot,status:p.status}));
 function drawStudyCluster(currentDose,currentFreq){
  const c=document.getElementById("studyCluster");if(!c)return;
  const ctx=c.getContext("2d"),W=Math.max(300,c.clientWidth),H=Math.max(360,c.clientHeight),scale=window.devicePixelRatio||1;
  if(c.width!==Math.round(W*scale)||c.height!==Math.round(H*scale)){c.width=Math.round(W*scale);c.height=Math.round(H*scale)}
  ctx.setTransform(scale,0,0,scale,0,0);ctx.clearRect(0,0,W,H);ctx.fillStyle="#0a0d13";ctx.fillRect(0,0,W,H);
- const left=W<480?48:62,right=W-24,top=30,bottom=H-54,xMax=40,yMax=7.5;
+ const left=W<480?48:62,right=W-24,top=30,bottom=H-54,xMax=100,yMax=7.5;
  const x=v=>left+(v/xMax)*(right-left),y=v=>bottom-(v/yMax)*(bottom-top);
  ctx.fillStyle="#16392c";ctx.globalAlpha=.32;ctx.fillRect(x(13.8),top,x(33.6)-x(13.8),bottom-top);ctx.globalAlpha=1;
  ctx.strokeStyle="#2a3142";ctx.lineWidth=1;ctx.fillStyle="#aab2c3";ctx.font="13px sans-serif";
  for(let j=0;j<=7;j++){ctx.beginPath();ctx.moveTo(left,y(j));ctx.lineTo(right,y(j));ctx.stroke();ctx.textAlign="right";ctx.fillText(j,left-9,y(j)+4)}
- [0,5,10,15,20,25,30,35,40].forEach(v=>{ctx.beginPath();ctx.moveTo(x(v),top);ctx.lineTo(x(v),bottom);ctx.stroke();ctx.textAlign="center";ctx.fillText(v,x(v),bottom+22)});
+ [0,10,20,30,40,60,80,100].forEach(v=>{ctx.beginPath();ctx.moveTo(x(v),top);ctx.lineTo(x(v),bottom);ctx.stroke();ctx.textAlign="center";ctx.fillText(v,x(v),bottom+22)});
  ctx.fillStyle="#dce3ef";ctx.font="14px sans-serif";ctx.textAlign="left";ctx.fillText("Sessions per week",left,18);ctx.textAlign="right";ctx.fillText("J/cm² per session",right,H-12);
  ctx.fillStyle="#aab2c3";ctx.textAlign="center";ctx.fillText("2025 review: 13.8–33.6 J/cm²",(x(13.8)+x(33.6))/2,top+18);
- const colors={positive:"#4ed6a0",null:"#ff9f43",partial:"#64a8ff"};
- protocolPoints.forEach(p=>{ctx.fillStyle=colors[p.status];ctx.beginPath();ctx.arc(x(p.dose),y(p.freq),12,0,Math.PI*2);ctx.fill();ctx.fillStyle="#090b10";ctx.font="700 13px sans-serif";ctx.textAlign="center";ctx.fillText(p.n,x(p.dose),y(p.freq)+4)});
+ const colors={positive:"#4ed6a0",null:"#ff9f43",mixed:"#ffd166"},selected=document.getElementById("studyProtocol")?.value;
+ protocolPoints.forEach(p=>{ctx.fillStyle=colors[p.status];ctx.beginPath();ctx.arc(x(p.dose),y(p.freq),12,0,Math.PI*2);ctx.fill();if(p.id===selected){ctx.strokeStyle="#f4f6fb";ctx.lineWidth=2;ctx.stroke()}ctx.fillStyle="#090b10";ctx.font="700 13px sans-serif";ctx.textAlign="center";ctx.fillText(p.n,x(p.dose),y(p.freq)+4)});
  const cx=x(Math.min(xMax,currentDose)),cy=y(Math.min(yMax,currentFreq));ctx.strokeStyle="#ff4d5f";ctx.lineWidth=3;ctx.beginPath();ctx.moveTo(cx-10,cy-10);ctx.lineTo(cx+10,cy+10);ctx.moveTo(cx+10,cy-10);ctx.lineTo(cx-10,cy+10);ctx.stroke();
  ctx.fillStyle="#f5f7fb";ctx.font="13px sans-serif";ctx.textAlign=cx>W*.75?"right":"left";ctx.fillText(`PL300 ${currentDose.toFixed(1).replace(".0","")} J × ${currentFreq}/wk`,cx+(cx>W*.75?-14:14),cy-12);
+}
+function normalizedCurvePoints(curve){
+ const anchor=(curve.points.find(p=>p[0]===6)||[])[1];
+ return curve.points.filter(p=>p[0]>=6&&anchor).map(p=>[p[0],p[1]/anchor]);
+}
+function exactRetention(curve,d){
+ const anchor=(curve.points.find(p=>p[0]===6)||[])[1],point=(curve.points.find(p=>p[0]===d)||[])[1];
+ return anchor&&point?point/anchor:NaN;
+}
+function drawFalloffEvidence(){
+ const c=document.getElementById("falloffChart");if(!c)return;
+ const ctx=c.getContext("2d"),W=Math.max(300,c.clientWidth),H=Math.max(300,c.clientHeight),scale=window.devicePixelRatio||1;
+ if(c.width!==Math.round(W*scale)||c.height!==Math.round(H*scale)){c.width=Math.round(W*scale);c.height=Math.round(H*scale)}
+ ctx.setTransform(scale,0,0,scale,0,0);ctx.clearRect(0,0,W,H);ctx.fillStyle="#0a0d13";ctx.fillRect(0,0,W,H);
+ const left=W<500?48:62,right=W-22,top=24,bottom=H-48,xMin=6,xMax=36,yMax=1.1;
+ const x=v=>left+(v-xMin)/(xMax-xMin)*(right-left),y=v=>bottom-v/yMax*(bottom-top);
+ ctx.strokeStyle="#2a3142";ctx.lineWidth=1;ctx.font="12px sans-serif";ctx.fillStyle="#aab2c3";
+ [0,.2,.4,.6,.8,1].forEach(v=>{ctx.beginPath();ctx.moveTo(left,y(v));ctx.lineTo(right,y(v));ctx.stroke();ctx.textAlign="right";ctx.fillText(Math.round(v*100)+"%",left-7,y(v)+4)});
+ [6,12,18,24,30,36].forEach(v=>{ctx.beginPath();ctx.moveTo(x(v),top);ctx.lineTo(x(v),bottom);ctx.stroke();ctx.textAlign="center";ctx.fillText(v+'"',x(v),bottom+20)});
+ ctx.fillStyle="#cfd6e5";ctx.textAlign="left";ctx.font="13px sans-serif";ctx.fillText("Retained irradiance vs 6 inches",left,16);
+ function plot(points,color,width=2,dash=[]){
+  if(points.length<2)return;ctx.save();ctx.strokeStyle=color;ctx.lineWidth=width;ctx.setLineDash(dash);ctx.beginPath();
+  points.forEach((p,i)=>{const px=x(p[0]),py=y(p[1]);i?ctx.lineTo(px,py):ctx.moveTo(px,py)});ctx.stroke();ctx.restore();
+ }
+ empiricalCurves.forEach((curve,i)=>plot(normalizedCurvePoints(curve),i%2?"#778196":"#9aa3b5",1.25,i%3===0?[5,4]:[]));
+ plot(sellerRawPoints.map(p=>[p[0],p[1]/145]),"#ff4d5f",3);
+ const ds=Array.from({length:31},(_,i)=>i+6);
+ plot(ds.map(d=>[d,lensIrr(d,60,60,"combined")/anchorCombined]),"#64a8ff",2.5);
+ plot(ds.map(d=>[d,lensIrr(d,60,30,"combined")/anchorCombined]),"#b790ff",2.5);
+ plot(ds.map(d=>[d,lambertIrr(d)/anchorCombined]),"#ff9f43",2.5,[6,4]);
+ [[12,empiricalMedian[12]],[24,empiricalMedian[24]]].forEach(p=>{ctx.fillStyle="#4ed6a0";ctx.beginPath();ctx.arc(x(p[0]),y(p[1]),6,0,Math.PI*2);ctx.fill()});
 }
 function update(){
  const goal=document.getElementById("goal").value,d=+document.getElementById("distanceInput").value;
@@ -593,7 +743,8 @@ function update(){
  }
  document.getElementById("assessment").innerHTML=assess(goal,dose,freq,irr,adjusted,referenceDose);
  drawCurve(goal,dose);
- drawStudyCluster(goal==="body"?dose:presets.body.dose,goal==="body"?freq:presets.body.freq);
+ drawFalloffEvidence();
+ renderStudyMatcher();
 }
 function applyPreset(){
  const g=document.getElementById("goal").value,p=presets[g];
@@ -621,6 +772,11 @@ function makeDistanceRows(){
   const [claimedH,claimedW]=sellerCoverage[d],extra=2*d*Math.tan(Math.PI/6),modelH=36+extra,modelW=12+extra;
   return `<tr><td><b>${d}"</b></td><td>${claimedH} × ${claimedW}"</td><td>${modelH.toFixed(1)} × ${modelW.toFixed(1)}"</td><td>${claimedH>modelH||claimedW>modelW?"Claimed boundary is wider; likely a lower-intensity threshold than FWHM.":"Similar nominal footprint."}</td></tr>`;
  }).join("");
+ document.getElementById("empiricalRows").innerHTML=empiricalCurves.map(curve=>{
+  const anchor=(curve.points.find(p=>p[0]===6)||[])[1];
+  const pct=d=>{const r=exactRetention(curve,d);return Number.isFinite(r)?(r*100).toFixed(1)+"%":"—"};
+  return `<tr><td><b>${curve.name}</b></td><td>${curve.tier}</td><td>${anchor.toFixed(2).replace(/\.00$/,"")} mW/cm²</td><td>${pct(12)}</td><td>${pct(24)}</td><td>${pct(36)}</td></tr>`;
+ }).join("");
 }
 function runPL300SelfTests(){
  const tests=[
@@ -629,10 +785,17 @@ function runPL300SelfTests(){
   ["seller range not extrapolated",Number.isNaN(sellerIrr(30))],
   ["60° falloff monotonic",lensIrr(6,60,60,"combined")>lensIrr(12,60,60,"combined")&&lensIrr(12,60,60,"combined")>lensIrr(24,60,60,"combined")],
   ["10-minute dose identity",Math.abs(16.6666667*.6-10)<.001],
-  ["60° footprint at 24 inches",Math.abs((12+48*Math.tan(Math.PI/6))-39.713)<.002]
+  ["60° footprint at 24 inches",Math.abs((12+48*Math.tan(Math.PI/6))-39.713)<.002],
+  ["12-inch empirical median",Math.abs(empiricalMedian[12]-.855878)<.00001],
+  ["24-inch empirical median",Math.abs(empiricalMedian[24]-.698577)<.00001],
+  ["Helio near-field overlap retained",exactRetention(empiricalCurves[1],12)>1],
+  ["Lambertian below observed 24-inch range",lambertIrr(24)/anchorCombined<40/86],
+  ["De Nardi dose reconstruction",Math.abs(studyMatchMath(wholeBodyProtocols[0],129).reconstructedFluence-92.88)<.001],
+  ["Navarro dose conflict detected",!studyMatchMath(wholeBodyProtocols.find(p=>p.id==="navarrofm"),100).consistent],
+  ["10-minute study match identity",Math.abs(studyMatchMath(wholeBodyProtocols.find(p=>p.id==="zagatto2020"),23).tenMinuteDose-13.8)<.001]
  ];
  const passed=tests.filter(t=>t[1]).length,el=document.getElementById("selfTest");
- if(el)el.innerHTML=`<span class="badge ${passed===tests.length?"good":"bad"}">MODEL CHECKS ${passed}/${tests.length}</span> ${tests.filter(t=>!t[1]).map(t=>t[0]).join(", ")||"Anchors, range limits, monotonic falloff, dose identity, and footprint passed."}`;
+ if(el)el.innerHTML=`<span class="badge ${passed===tests.length?"good":"bad"}">MODEL CHECKS ${passed}/${tests.length}</span> ${tests.filter(t=>!t[1]).map(t=>t[0]).join(", ")||"Anchors, range limits, falloff math, empirical medians, dose identity, and footprint passed."}`;
  return {passed,total:tests.length,tests:Object.fromEntries(tests)};
 }
 window.runPL300SelfTests=runPL300SelfTests;
@@ -646,6 +809,9 @@ function renderPapers(filter="all"){
 document.querySelectorAll(".filter").forEach(b=>b.addEventListener("click",()=>{
  document.querySelectorAll(".filter").forEach(x=>x.classList.remove("active"));b.classList.add("active");renderPapers(b.dataset.filter);
 }));
+renderStudyOptions();renderStudyRows();
+document.getElementById("studyProtocol").addEventListener("change",renderStudyMatcher);
+document.getElementById("studyStrategy").addEventListener("change",renderStudyMatcher);
 makeDistanceRows();renderPapers();update();
 if(new URLSearchParams(location.search).get("selftest")==="1")runPL300SelfTests();
 </script>

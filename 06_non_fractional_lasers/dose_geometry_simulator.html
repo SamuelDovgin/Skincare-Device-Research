@@ -62,13 +62,14 @@ th{background:#f2f4f7;color:#344054;font-size:12px;text-transform:uppercase}
 @media(max-width:940px){.wrap{grid-template-columns:1fr;margin:14px auto;padding:0 12px}.controls{position:static}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.readout{grid-template-columns:1fr}.canvas-wrap{height:440px}.top{padding:12px 14px}.top h1{font-size:19px}.top p{font-size:12px}}
 @media(max-width:560px){.stats{grid-template-columns:1fr}.canvas-wrap{height:400px}.stat strong{font-size:20px}}
 </style>
+<link rel="stylesheet" href="../site-chrome.css">
 <script src="../site-router.js" defer></script></head>
 <body>
-<header class="top">
-  <a href="index.html">Back to Non-Fractional Lasers</a>
-  <h1>Dose Geometry Simulator</h1>
-  <p>Compare DermRays Revive, NIRA, Tria-style fractional laser logic, and professional 1064nm context by geometry: fluence, spot area, pulse duration, and coverage assumptions.</p>
-</header>
+<header class="site-header"><div class="site-header__inner">
+  <a class="site-back" href="index.html" aria-label="Back to non-fractional-laser research"><span class="site-back__arrow" aria-hidden="true">←</span><span class="site-back__label--long">Non-fractional research</span></a>
+  <div class="site-header__heading"><span class="site-header__title">🎯 Dose Geometry Simulator</span><span class="site-header__subtitle">Compare fluence, spot area, pulse duration, and coverage assumptions across device types</span></div>
+  <div class="site-header__actions"><a class="site-action" href="../index.html" aria-label="All research"><span aria-hidden="true">⌂</span><span class="site-action__label">All research</span></a></div>
+</div></header>
 
 <main class="wrap">
   <aside class="panel controls">

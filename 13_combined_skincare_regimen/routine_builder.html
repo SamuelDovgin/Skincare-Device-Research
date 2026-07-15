@@ -46,6 +46,9 @@
     .score-ring{width:116px;height:116px;border-radius:50%;display:grid;place-items:center;position:relative;background:conic-gradient(var(--accent) 0deg,#e2e8e5 0)}
     .score-ring:after{content:"";position:absolute;inset:10px;border-radius:50%;background:#fff}.score-number{z-index:1;text-align:center}.score-number strong{display:block;font-size:31px;line-height:1}.score-number span{font-size:10px;color:var(--muted)}
     .score-copy h2{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.score-label{font-size:11px;border-radius:999px;padding:3px 8px;background:#edf1ef;color:#4b5955}.score-summary{margin:5px 0 10px;color:#53615d}.metrics{display:grid;grid-template-columns:repeat(5,minmax(88px,1fr));gap:8px}.metric-head{display:flex;justify-content:space-between;gap:5px;font-size:11px}.metric-track{height:7px;background:#e5eae8;border-radius:999px;overflow:hidden;margin-top:4px}.metric-fill{height:100%;background:var(--accent);width:0;transition:width .25s}.metric[data-key="tolerability"] .metric-fill{background:#a46109}.metric[data-key="health"] .metric-fill{background:#2563a8}
+    .goal-readout{display:flex;gap:5px;flex-wrap:wrap;margin-top:9px}.goal-chip{border:1px solid var(--line);border-radius:999px;background:#fff;padding:4px 8px;font-size:10.5px;color:#4b5955}.goal-chip b{color:var(--ink)}
+    .score-actions{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:10px}.score-actions small{color:var(--muted);max-width:580px}.optimize-btn{box-shadow:0 6px 16px rgba(23,110,100,.18)}
+    .optimizer-panel{margin-bottom:11px;border-color:#9dcfc5;background:linear-gradient(145deg,#f3fbf8,#fff)}.optimizer-head{display:flex;justify-content:space-between;gap:12px;align-items:start}.optimizer-head h2{margin:0;font-size:18px}.optimizer-kicker{margin:2px 0 0;color:var(--muted);font-size:12px}.optimizer-score{white-space:nowrap;border-radius:10px;background:#123f3a;color:#fff;padding:8px 11px;font-size:13px}.optimizer-score b{font-size:20px}.optimizer-summary{margin:11px 0;color:#3f504c}.optimizer-grid{display:grid;grid-template-columns:1fr 1fr 1.15fr;gap:9px}.optimizer-box{background:#fff;border:1px solid var(--line);border-radius:10px;padding:11px;min-width:0}.optimizer-box h3{font-size:13px;margin:0 0 7px}.optimizer-box ul,.optimizer-box ol{margin:0;padding-left:18px}.optimizer-box li{margin:5px 0}.goal-projection{display:grid;gap:7px}.goal-projection-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;align-items:center}.goal-projection-row small{display:block;color:var(--muted)}.goal-arrow{white-space:nowrap;font-weight:750}.optimizer-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:11px}.optimizer-actions .boundary{color:var(--muted);font-size:11px;flex:1;min-width:240px}[hidden]{display:none!important}
     .routine-head{display:flex;justify-content:space-between;gap:10px;align-items:end;margin:3px 0 8px}.routine-head p{margin:0;color:var(--muted);font-size:12px}.routine{display:grid;grid-template-columns:repeat(4,minmax(155px,1fr));gap:9px}
     .slot{min-height:244px;background:var(--soft);border:1px dashed #aab8b4;border-radius:11px;padding:9px;transition:.15s}.slot.over{background:#e0f2ee;border:2px solid var(--accent)}.slot h3{margin:0 0 2px;font-size:14px}.slot-hint{font-size:10px;color:var(--muted);margin-bottom:7px}.empty{display:block;color:#7a8783;font-style:italic;border:1px dashed #d4dcda;border-radius:8px;padding:10px 7px;text-align:center;margin-top:12px}
     .placed{position:relative;display:grid;grid-template-columns:minmax(0,1fr) 38px;background:#fff;border:1px solid var(--line);border-radius:8px;margin:6px 0;overflow:hidden}.placed-main{appearance:none;border:0;background:transparent;text-align:left;padding:8px;min-width:0;cursor:pointer}.placed b{display:block;font-size:12.5px;overflow-wrap:anywhere}.placed small{color:var(--muted);font-size:10px}.placed .drag-handle{min-width:38px;font-size:16px}.remove-mini{position:absolute;right:39px;top:1px;border:0;background:transparent;color:#a32d25;font-weight:800;cursor:pointer;width:27px;height:27px;border-radius:50%}.remove-mini:hover{background:#fff0ed}
@@ -55,23 +58,23 @@
     .drag-ghost{display:none;position:fixed;z-index:90;pointer-events:none;max-width:220px;background:#fff;border:2px solid var(--accent);border-radius:9px;padding:8px 10px;box-shadow:var(--shadow);font-weight:700}.drag-ghost.active{display:block}
     dialog.place-sheet{border:0;border-radius:16px 16px 0 0;padding:0;width:min(520px,100%);max-width:none;margin:auto 0 0;box-shadow:0 -15px 45px rgba(0,0,0,.25)}dialog.place-sheet::backdrop{background:rgba(16,29,26,.48)}.sheet-inner{padding:18px 16px calc(18px + env(safe-area-inset-bottom))}.sheet-handle{width:44px;height:4px;background:#c5cfcc;border-radius:9px;margin:-8px auto 12px}.sheet-title{font-size:18px;font-weight:800;margin:0}.sheet-note{color:var(--muted);margin:3px 0 12px}.sheet-slots{display:grid;grid-template-columns:1fr 1fr;gap:8px}.sheet-slots button{min-height:52px;border:1px solid var(--line);border-radius:10px;background:#f7faf9;font-weight:700}.sheet-actions{display:flex;gap:8px;margin-top:10px}.sheet-actions button{flex:1}.announce{position:fixed;width:1px;height:1px;clip:rect(0 0 0 0);overflow:hidden}
     .selftest{display:none;margin-bottom:10px;padding:8px;border-radius:8px}.selftest.pass{display:block;background:#e7f7f2;color:#115f53}.selftest.fail{display:block;background:#fff0ed;color:#9c2c23}
-    @media(max-width:980px){.layout{grid-template-columns:285px minmax(0,1fr)}.routine{grid-template-columns:1fr 1fr}.metrics{grid-template-columns:repeat(3,1fr)}.results{grid-template-columns:1fr 1fr}.strong{grid-column:1/-1}}
+    @media(max-width:980px){.layout{grid-template-columns:285px minmax(0,1fr)}.routine{grid-template-columns:1fr 1fr}.metrics{grid-template-columns:repeat(3,1fr)}.results{grid-template-columns:1fr 1fr}.strong{grid-column:1/-1}.optimizer-grid{grid-template-columns:1fr 1fr}.optimizer-box:last-child{grid-column:1/-1}}
     @media(max-width:760px){
       .top{padding:9px 11px}.top-sub{display:none}.mobile-score{display:block}.shell{padding:10px 10px 90px}.notice .desktop-help{display:none}.notice .mobile-help{display:inline}
-      .layout{display:flex;flex-direction:column}.workspace{order:1;width:100%}.catalog{order:2;position:static;max-height:none;width:100%}.profile{padding:12px}.control-groups{grid-template-columns:1fr}.score-panel{grid-template-columns:88px minmax(0,1fr);gap:11px;padding:11px}.score-ring{width:82px;height:82px}.score-ring:after{inset:7px}.score-number strong{font-size:24px}.score-copy h2{font-size:16px}.score-summary{font-size:12px;margin-bottom:7px}.metrics{grid-template-columns:1fr 1fr;gap:5px}.metric:last-child{grid-column:1/-1}.routine{grid-template-columns:1fr 1fr}.slot{min-height:185px}.results{grid-template-columns:1fr}.strong{grid-column:auto}.catalog-list{grid-template-columns:1fr 1fr}.catalog-item{min-width:0}.item-main{padding:10px 7px}.drag-handle{min-width:48px}.preset-row{margin-left:-10px;margin-right:-10px;padding-left:10px;padding-right:10px}.preset,.btn{min-height:44px}.profile-head{display:block}
+      .layout{display:flex;flex-direction:column}.workspace{order:1;width:100%}.catalog{order:2;position:static;max-height:none;width:100%}.profile{padding:12px}.control-groups{grid-template-columns:1fr}.score-panel{grid-template-columns:88px minmax(0,1fr);gap:11px;padding:11px}.score-ring{width:82px;height:82px}.score-ring:after{inset:7px}.score-number strong{font-size:24px}.score-copy h2{font-size:16px}.score-summary{font-size:12px;margin-bottom:7px}.metrics{grid-template-columns:1fr 1fr;gap:5px}.metric:last-child{grid-column:1/-1}.routine{grid-template-columns:1fr 1fr}.slot{min-height:185px}.results{grid-template-columns:1fr}.strong{grid-column:auto}.catalog-list{grid-template-columns:1fr 1fr}.catalog-item{min-width:0}.item-main{padding:10px 7px}.drag-handle{min-width:48px}.preset-row{margin-left:-10px;margin-right:-10px;padding-left:10px;padding-right:10px}.preset,.btn{min-height:44px}.profile-head{display:block}.optimizer-grid{grid-template-columns:1fr}.optimizer-box:last-child{grid-column:auto}.optimizer-head{display:block}.optimizer-score{display:inline-block;margin-top:8px}.score-actions .btn{width:100%}
     }
     @media(max-width:470px){.routine{grid-template-columns:1fr}.slot{min-height:132px}.catalog-list{grid-template-columns:1fr}.sheet-slots{grid-template-columns:1fr 1fr}.metric-head{font-size:10px}.score-label{display:none}}
     @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
   </style>
+  <link rel="stylesheet" href="../site-chrome.css">
   <script src="../site-router.js" defer></script>
 </head>
 <body>
-  <header class="top">
-    <div class="top-inner">
-      <div><a href="index.html">← Combined regimen</a> <span aria-hidden="true">·</span> <span class="top-title">Routine Builder</span><div class="top-sub">Goal-aware routine fit, interaction checks, and evidence-ranked suggestions</div></div>
-      <div class="mobile-score" id="mobileScore" aria-label="Overall routine score">Score 0</div>
-    </div>
-  </header>
+  <header class="site-header"><div class="site-header__inner">
+    <a class="site-back" href="index.html" aria-label="Back to combined-regimen research"><span class="site-back__arrow" aria-hidden="true">←</span><span class="site-back__label--long">Combined regimen</span></a>
+    <div class="site-header__heading"><span class="site-header__title">🧩 Routine Builder</span><span class="site-header__subtitle">Goal-aware routine fit, interaction checks, and evidence-ranked suggestions</span></div>
+    <div class="site-header__actions"><div class="mobile-score" id="mobileScore" aria-label="Overall routine score">Score 0</div><a class="site-action" href="../index.html" aria-label="All research"><span aria-hidden="true">⌂</span><span class="site-action__label">All research</span></a></div>
+  </div></header>
   <main class="shell">
     <div class="selftest" id="selftest"></div>
     <div class="notice"><b>More is not automatically better.</b> <span class="desktop-help">Use the ↕ handle to drag into a time slot, or click a card to place it.</span><span class="mobile-help">Use the ↕ handle to drag into the bottom dock, or tap a card to choose a time.</span> The score is a transparent routine-fit heuristic, not a predicted clinical result.</div>
@@ -128,7 +131,20 @@
             <h2 id="scoreHeading">Overall routine fit <span class="score-label" id="scoreLabel">Calculating</span></h2>
             <p class="score-summary" id="scoreSummary"></p>
             <div class="metrics" id="metrics"></div>
+            <div class="goal-readout" id="goalReadout" aria-label="Selected concern coverage"></div>
+            <div class="score-actions"><button class="btn primary optimize-btn" id="optimizeButton" type="button">Find my path toward 100</button><small>Builds the highest-fit single-day routine it can find without stacking known conflicts.</small></div>
           </div>
+        </section>
+
+        <section class="panel optimizer-panel" id="optimizerPanel" aria-labelledby="optimizerHeading" aria-live="polite" hidden>
+          <div class="optimizer-head"><div><h2 id="optimizerHeading">Your lower-conflict path toward 100</h2><p class="optimizer-kicker">A transparent catalog-based suggestion, not a promise of perfect results.</p></div><div class="optimizer-score"><span id="optimizerFrom">0</span> → <b id="optimizerTo">0</b>/100</div></div>
+          <p class="optimizer-summary" id="optimizerSummary"></p>
+          <div class="optimizer-grid">
+            <div class="optimizer-box"><h3>Selected concern coverage</h3><div class="goal-projection" id="optimizerGoals"></div></div>
+            <div class="optimizer-box"><h3>Why the current score is low</h3><ul id="optimizerShortfalls"></ul></div>
+            <div class="optimizer-box"><h3>Suggested routine changes</h3><ol id="optimizerChanges"></ol></div>
+          </div>
+          <div class="optimizer-actions"><button class="btn primary" id="applyOptimizer" type="button">Apply suggested routine</button><button class="btn" id="closeOptimizer" type="button">Close</button><span class="boundary" id="optimizerBoundary"></span></div>
         </section>
 
         <div class="routine-head"><div><h2>Today’s routine</h2><p>Moving a card changes both timing checks and the score.</p></div></div>
@@ -140,7 +156,7 @@
           <div class="result strong"><h3>What is already working</h3><ul id="strengths"></ul></div>
         </section>
         <div class="model-note">
-          <details><summary>How the overall score works</summary><p>Overall fit combines protection (27%), selected-goal coverage (25%), recovery (18%), health habits (15%), and tolerability (15%), then subtracts a small complexity penalty. Strong conflicts—such as Tria plus adapalene on one day—lower tolerability. Optional products have capped credit, so adding every serum cannot create a perfect score. These are illustrative, evidence-informed weights, not a validated clinical scale.</p></details>
+          <details><summary>How the overall score works</summary><p>Overall fit combines protection (27%), selected-goal coverage (25%), recovery (18%), health habits (15%), and tolerability (15%), then subtracts a small complexity penalty. Strong conflicts—such as Tria plus adapalene on one day—lower tolerability. The concern chips show why a routine that covers acne well may still be weak for pigment, recovery, or health habits. Optional products have capped credit, so adding every serum cannot create a perfect score. A score of 100 is a theoretical routine-fit ceiling, not a predicted clinical result.</p></details>
           <div class="source-links"><a href="02_combination_rules_and_evidence_map.md">Rules + evidence map</a><a href="01_current_regimen_audit.md">Your regimen audit</a><a href="../03_fractional_laser_resurfacing/13_tria_smoothbeauty_owners_guide.md">Tria owner’s guide</a></div>
         </div>
       </section>
@@ -230,6 +246,7 @@
     let state = {plan:clone(PRESETS.current.plan),goals:clone(DEFAULT_GOALS),context:clone(PRESETS.current.context),filter:'all',activePreset:'current'};
     let sheetState = null;
     let pointerDrag = null;
+    let optimizerSuggestion = null;
 
     function uniqueIds(plan){ return [...new Set(Object.values(plan).flat())]; }
     function has(plan,id){ return uniqueIds(plan).includes(id); }
@@ -281,20 +298,23 @@
         const sameSlotIrritants=triaSlot?plan[triaSlot].filter(id=>['adapalene','azelaic','aha','bha','bp','retinol','hydroquinone'].includes(id)):[];
         if(!sameSlotIrritants.length) recovery+=15;
         if(triaSlot&&(plan[triaSlot].includes('moist')||plan[triaSlot].includes('othermoist'))) recovery+=10;
-      } else recovery+=10;
+      } else {
+        if(tolerability>=75) recovery+=15;
+        if(has(plan,'rinse')) recovery+=10;
+      }
       recovery=Math.min(100,recovery);
 
       let health=0;
       if(has(plan,'sleep')) health+=25;if(has(plan,'exercise')) health+=25;if(has(plan,'tobacco')) health+=25;if(has(plan,'diet')) health+=15;if(has(plan,'check')) health+=10;
       health=Math.min(100,health);
 
-      const goalScores=[];
-      if(goals.antiaging){let s=0;if(hasAmSpf&&context.dailySpf)s+=40;else if(sunscreens.length)s+=20;if(retinoids.length===1)s+=25;if(moisturizer)s+=10;if(hasAny('vitc','rlt','tria','rf','nira'))s+=15;if(has(plan,'tobacco'))s+=10;goalScores.push(Math.min(100,s));}
-      if(goals.pigment){let s=0;if(hasAmSpf&&context.dailySpf)s+=40;else if(sunscreens.length)s+=20;if(has(plan,'tintedspf'))s+=10;if(hasAny('azelaic','txa','hydroquinone'))s+=20;if(has(plan,'vitc'))s+=10;if(tolerability>=65)s+=20;goalScores.push(Math.min(100,s));}
-      if(goals.acne){let s=0;if(has(plan,'adapalene'))s+=35;if(hasAny('azelaic','bp','bha'))s+=25;if(has(plan,'cleanse'))s+=15;if(moisturizer)s+=10;if(sunscreens.length)s+=15;goalScores.push(Math.min(100,s));}
-      if(goals.barrier){let s=0;if(moisturizer)s+=30;if(cleanseCount<=2)s+=20;if(has(plan,'rinse'))s+=10;if(tolerability>=70)s+=25;if(context.irritated&&!hasAny('tria','adapalene','retinol','aha','bha','bp'))s+=15;goalScores.push(Math.min(100,s));}
-      if(goals.health)goalScores.push(health);
-      const goalFit=goalScores.length?goalScores.reduce((a,b)=>a+b,0)/goalScores.length:0;
+      const goalDetails=[];
+      if(goals.antiaging){let s=0,gaps=[];if(hasAmSpf&&context.dailySpf)s+=40;else if(sunscreens.length){s+=20;gaps.push('Make morning SPF a confirmed daily habit.');}else gaps.push('Add daily morning broad-spectrum SPF.');if(retinoids.length===1)s+=25;else gaps.push(retinoids.length?'Use only one retinoid strategy.':'Use one tolerated retinoid strategy on non-device days, if appropriate.');if(moisturizer)s+=10;else gaps.push('Add barrier-supporting moisturizer.');if(hasAny('vitc','rlt','tria','rf','nira'))s+=15;else gaps.push('An optional evidence-matched adjunct can fill the final lane.');if(has(plan,'tobacco'))s+=10;else gaps.push('Represent no-tobacco/smoke avoidance if applicable.');goalDetails.push({key:'antiaging',label:'Anti-aging',score:Math.min(100,s),gaps});}
+      if(goals.pigment){let s=0,gaps=[];if(hasAmSpf&&context.dailySpf)s+=40;else if(sunscreens.length){s+=20;gaps.push('Confirm sunscreen as an every-morning habit.');}else gaps.push('Add daily broad-spectrum sunscreen.');if(has(plan,'tintedspf'))s+=10;else gaps.push('Consider iron-oxide tinted SPF for visible-light coverage.');if(hasAny('azelaic','txa','hydroquinone'))s+=20;else gaps.push('Add one targeted pigment/redness lane.');if(has(plan,'vitc'))s+=10;else gaps.push('Vitamin C is an optional morning adjunct.');if(tolerability>=65)s+=20;else gaps.push('Reduce irritation/conflicts before adding pigment treatments.');goalDetails.push({key:'pigment',label:'Pigment + redness',score:Math.min(100,s),gaps});}
+      if(goals.acne){let s=0,gaps=[];if(has(plan,'adapalene'))s+=35;else gaps.push('Use an acne retinoid lane only when appropriate and tolerated.');if(hasAny('azelaic','bp','bha'))s+=25;else gaps.push('Add one targeted acne lane, not all of them.');if(has(plan,'cleanse'))s+=15;else gaps.push('Include a gentle cleanse when sweat/sunscreen needs removal.');if(moisturizer)s+=10;else gaps.push('Add moisturizer to protect adherence.');if(sunscreens.length)s+=15;else gaps.push('Add morning sunscreen.');goalDetails.push({key:'acne',label:'Acne + pores',score:Math.min(100,s),gaps});}
+      if(goals.barrier){let s=0,gaps=[];if(moisturizer)s+=30;else gaps.push('Add a bland moisturizer.');if(cleanseCount<=2)s+=20;else gaps.push('Reduce to no more than two full cleanses.');if(has(plan,'rinse'))s+=10;else gaps.push('Use a water rinse when a full cleanse is unnecessary.');if(tolerability>=70)s+=25;else gaps.push('Remove the highest-load conflict or active.');if(sunscreens.length)s+=15;else gaps.push('Add UV protection as a barrier-preserving foundation.');if(context.irritated&&!hasAny('tria','adapalene','retinol','aha','bha','bp'))s+=15;goalDetails.push({key:'barrier',label:'Barrier + tolerance',score:Math.min(100,s),gaps});}
+      if(goals.health){const gaps=[];if(!has(plan,'sleep'))gaps.push('Add a consistent sleep opportunity.');if(!has(plan,'exercise'))gaps.push('Represent regular exercise.');if(!has(plan,'tobacco'))gaps.push('Represent no-tobacco/smoke avoidance if applicable.');if(!has(plan,'diet'))gaps.push('Add a varied diet pattern.');if(!has(plan,'check'))gaps.push('Keep an appropriate periodic dermatology review.');goalDetails.push({key:'health',label:'Whole-health',score:health,gaps});}
+      const goalFit=goalDetails.length?goalDetails.reduce((sum,goal)=>sum+goal.score,0)/goalDetails.length:0;
 
       let complexityPenalty=0;
       if(skinCareIds.length>9) complexityPenalty+=(skinCareIds.length-9)*2;
@@ -341,16 +361,111 @@
 
       const label=overall>=85?'Strong and streamlined':overall>=70?'Good, with clear refinements':overall>=50?'Mixed benefit and load':overall>=30?'High-priority gaps/conflicts':'Rebuild around foundations';
       const summary=priorities[0]?.text||'Review the routine context.';
-      return {overall,label,summary,protection,goalFit,recovery,health,tolerability,irritationRisk,complexityPenalty,priorities,cautions,strengths};
+      return {overall,label,summary,protection,goalFit,recovery,health,tolerability,irritationRisk,complexityPenalty,goalDetails,priorities,cautions,strengths};
+    }
+
+    function addSuggested(plan,slot,id){ if(!plan[slot].includes(id)) plan[slot].push(id); }
+    function occurrenceSlots(plan,id){ return SLOTS.filter(slot=>plan[slot.id].includes(id)).map(slot=>slot.label); }
+    function planChangeCount(before,after){ return ITEMS.reduce((sum,item)=>sum+(occurrenceSlots(before,item.id).join('|')===occurrenceSlots(after,item.id).join('|')?0:1),0); }
+    function buildSuggestedPlan(plan,goals,context,useTinted=false){
+      const currentIds=uniqueIds(plan),suggested=EMPTY_PLAN();
+      const moisturizer=currentIds.includes('moist')?'moist':currentIds.includes('othermoist')?'othermoist':'moist';
+      const currentSunscreen=currentIds.includes('tintedspf')?'tintedspf':currentIds.includes('spf')?'spf':'spf';
+      const sunscreen=goals.pigment&&useTinted?'tintedspf':currentSunscreen;
+      const triaPlan=context.triaDay&&!context.irritated;
+      const calm=!context.irritated;
+
+      addSuggested(suggested,'am','rinse');
+      if(calm&&(goals.antiaging||goals.pigment)&&currentIds.includes('vitc')) addSuggested(suggested,'am','vitc');
+      addSuggested(suggested,'am',moisturizer);
+      addSuggested(suggested,'am',sunscreen);
+
+      if(context.outdoors||currentIds.includes('bodyspf')) addSuggested(suggested,'day','bodyspf');
+      if(context.outdoors||goals.antiaging||goals.pigment) addSuggested(suggested,'day','shade');
+      if(goals.health){ ['exercise','tobacco','diet','check'].forEach(id=>addSuggested(suggested,'day',id)); }
+      else if(currentIds.includes('exercise')) addSuggested(suggested,'day','exercise');
+      if(currentIds.includes('rlt')&&context.rltKnown&&calm&&!triaPlan) addSuggested(suggested,'day','rlt');
+
+      const cleanseSlot=currentIds.includes('exercise')||goals.health||plan.gym.includes('cleanse')?'gym':'pm';
+      addSuggested(suggested,cleanseSlot,'cleanse');
+      if(context.outdoors) addSuggested(suggested,'gym','reapply');
+
+      if(calm&&!triaPlan&&(goals.pigment||goals.acne)){
+        const pigmentActive=currentIds.includes('azelaic')?'azelaic':currentIds.includes('txa')?'txa':!context.pregnancy&&currentIds.includes('hydroquinone')?'hydroquinone':'azelaic';
+        addSuggested(suggested,'gym',pigmentActive);
+        addSuggested(suggested,'gym',moisturizer);
+      }
+
+      if(triaPlan){ addSuggested(suggested,'pm','tria'); }
+      else if(calm&&!context.pregnancy&&(goals.antiaging||goals.acne)){
+        const retinoid=currentIds.includes('adapalene')?'adapalene':currentIds.includes('retinol')?'retinol':'adapalene';
+        addSuggested(suggested,'pm',retinoid);
+      }
+      addSuggested(suggested,'pm',moisturizer);
+      if(goals.health||currentIds.includes('sleep')) addSuggested(suggested,'pm','sleep');
+      return suggested;
+    }
+
+    function describePlanChanges(before,after){
+      const changes=[];
+      ITEMS.forEach(item=>{
+        const from=occurrenceSlots(before,item.id),to=occurrenceSlots(after,item.id);
+        if(from.join('|')===to.join('|'))return;
+        if(!from.length)changes.push(`Add ${item.name} to ${to.join(' + ')}.`);
+        else if(!to.length)changes.push(`Pause ${item.name} on this day.`);
+        else changes.push(`Change ${item.name} from ${from.join(' + ')} to ${to.join(' + ')}.`);
+      });
+      return changes.length?changes:['No routine-card change improved the score under the selected context.'];
+    }
+
+    function scoreShortfalls(result){
+      const weakest=result.goalDetails.slice().sort((a,b)=>a.score-b.score).slice(0,2).map(goal=>`${goal.label} ${Math.round(goal.score)}`).join(', ');
+      const parts=[
+        {label:'Protection',value:result.protection,loss:(100-result.protection)*.27,detail:'daily timing, outdoor reapplication, and exposed-skin protection'},
+        {label:'Selected-goal fit',value:result.goalFit,loss:(100-result.goalFit)*.25,detail:weakest?`weakest concern scores: ${weakest}`:'no goals selected'},
+        {label:'Recovery',value:result.recovery,loss:(100-result.recovery)*.18,detail:'moisture, cleansing load, sleep, and bland device aftercare'},
+        {label:'Health habits',value:result.health,loss:(100-result.health)*.15,detail:'sleep, exercise, smoke avoidance, diet, and periodic review'},
+        {label:'Tolerability',value:result.tolerability,loss:(100-result.tolerability)*.15,detail:`illustrative irritation load is ${Math.round(result.irritationRisk)}/100`}
+      ].filter(part=>part.loss>.05).sort((a,b)=>b.loss-a.loss).map(part=>`${part.label} is ${Math.round(part.value)}/100 (${part.loss.toFixed(1)} weighted points below its ceiling): ${part.detail}.`);
+      if(result.complexityPenalty)parts.push(`Routine complexity subtracts ${result.complexityPenalty.toFixed(1)} additional point${result.complexityPenalty===1?'':'s'}.`);
+      return parts.length?parts:['The current plan is already at the model ceiling.'];
+    }
+
+    function findBestPath(){
+      const current=assess(),candidates=[clone(state.plan),buildSuggestedPlan(state.plan,state.goals,state.context,false)];
+      if(state.goals.pigment)candidates.push(buildSuggestedPlan(state.plan,state.goals,state.context,true));
+      const ranked=candidates.map(plan=>({plan,result:assess(plan,state.goals,state.context),changes:planChangeCount(state.plan,plan)})).sort((a,b)=>b.result.overall-a.result.overall||b.result.goalFit-a.result.goalFit||a.changes-b.changes);
+      const best=ranked[0];
+      return {current,plan:best.plan,projected:best.result,changes:describePlanChanges(state.plan,best.plan),shortfalls:scoreShortfalls(current)};
+    }
+
+    function hideOptimizer(){ qs('#optimizerPanel').hidden=true;optimizerSuggestion=null; }
+    function renderOptimizer(){
+      optimizerSuggestion=findBestPath();
+      const {current,projected,changes,shortfalls}=optimizerSuggestion,panel=qs('#optimizerPanel');
+      qs('#optimizerFrom').textContent=current.overall;qs('#optimizerTo').textContent=projected.overall;
+      const delta=projected.overall-current.overall,goalDelta=Math.round(projected.goalFit-current.goalFit);
+      qs('#optimizerSummary').textContent=`The best catalog-based single-day plan found scores ${projected.overall}/100 (${delta>=0?'+':''}${delta}) and changes selected-concern coverage by ${goalDelta>=0?'+':''}${goalDelta} points. It keeps your goal and safety toggles unchanged; a higher model score is not a forecast of better skin.`;
+      const beforeGoals=Object.fromEntries(current.goalDetails.map(goal=>[goal.key,goal]));
+      qs('#optimizerGoals').innerHTML=projected.goalDetails.map(goal=>{const before=beforeGoals[goal.key]?.score||0,next=goal.gaps[0]||'This concern is fully represented in the model.';return `<div class="goal-projection-row"><div><b>${goal.label}</b><small>${next}</small></div><span class="goal-arrow">${Math.round(before)} → ${Math.round(goal.score)}</span></div>`}).join('')||'<span>No goals selected.</span>';
+      qs('#optimizerShortfalls').innerHTML=shortfalls.slice(0,6).map(text=>`<li>${text}</li>`).join('');
+      const visibleChanges=changes.slice(0,10);if(changes.length>10)visibleChanges.push(`Plus ${changes.length-10} smaller placement changes.`);
+      qs('#optimizerChanges').innerHTML=visibleChanges.map(text=>`<li>${text}</li>`).join('');
+      let boundary='A score of 100 is a theoretical fit ceiling; targeted treatments can improve concern coverage while lowering tolerability.';
+      if(state.context.triaDay)boundary='A Tria day is intentionally incomplete: adapalene, acids, and other energy devices belong on separate day types, so 100 is not a sensible same-day target.';
+      if(state.context.irritated)boundary='When skin is irritated, recovery—not maximizing treatment coverage—is the model’s priority.';
+      if(!state.context.dailySpf)boundary+=' The optimizer will not mark “SPF every morning” true for you; switch it on only once it is actually a habit.';
+      qs('#optimizerBoundary').textContent=boundary;panel.hidden=false;panel.scrollIntoView({behavior:'smooth',block:'nearest'});
+      announce(`Lower-conflict path found: ${current.overall} to ${projected.overall}`);
     }
 
     function announce(text){ const el=qs('#announce'); el.textContent=''; requestAnimationFrame(()=>el.textContent=text); }
     function setPlanItem(id,target,source=null){
       if(source) state.plan[source]=state.plan[source].filter(x=>x!==id);
       if(!state.plan[target].includes(id)) state.plan[target].push(id);
-      state.activePreset='custom'; renderAll(); announce(`${getItem(id).name} moved to ${SLOTS.find(s=>s.id===target).label}`);
+      state.activePreset='custom';hideOptimizer();renderAll(); announce(`${getItem(id).name} moved to ${SLOTS.find(s=>s.id===target).label}`);
     }
-    function removePlanItem(id,source){ state.plan[source]=state.plan[source].filter(x=>x!==id);state.activePreset='custom';renderAll();announce(`${getItem(id).name} removed`); }
+    function removePlanItem(id,source){ state.plan[source]=state.plan[source].filter(x=>x!==id);state.activePreset='custom';hideOptimizer();renderAll();announce(`${getItem(id).name} removed`); }
 
     function catalogHtml(item){
       return `<article class="catalog-item" data-cat="${item.cat}" data-item-id="${item.id}"><button class="item-main" data-place-id="${item.id}" type="button"><b>${item.name}</b><small>${item.note}</small><span class="badges"><span class="badge tier-${item.tier.toLowerCase()}">Tier ${item.tier}</span><span class="badge">${item.cat}</span></span></button><button class="drag-handle" data-touch-drag="${item.id}" type="button" aria-label="Drag ${item.name} to routine">↕</button></article>`;
@@ -378,6 +493,7 @@
       qs('#scoreRing').style.background=`conic-gradient(${color} ${result.overall*3.6}deg,#e2e8e5 0)`;
       const metricData=[['protection','Protection',result.protection],['goalFit','Goal fit',result.goalFit],['recovery','Recovery',result.recovery],['health','Health',result.health],['tolerability','Tolerability',result.tolerability]];
       qs('#metrics').innerHTML=metricData.map(([key,label,value])=>`<div class="metric" data-key="${key}"><div class="metric-head"><span>${label}</span><b>${Math.round(value)}</b></div><div class="metric-track"><div class="metric-fill" style="width:${Math.round(value)}%"></div></div></div>`).join('');
+      qs('#goalReadout').innerHTML=result.goalDetails.map(goal=>`<span class="goal-chip"><b>${goal.label}</b> ${Math.round(goal.score)}</span>`).join('')||'<span class="goal-chip">Select at least one concern</span>';
       qs('#priorities').innerHTML=result.priorities.slice(0,7).map(x=>`<li>${x.text}${x.impact?` <span class="impact">${x.impact}</span>`:''}</li>`).join('');
       qs('#cautions').innerHTML=result.cautions.slice(0,7).map(x=>`<li>${x.text}</li>`).join('');
       qs('#strengths').innerHTML=result.strengths.slice(0,7).map(x=>`<li>${x.text}</li>`).join('');
@@ -425,9 +541,9 @@
     function endPointerDrag(event){ if(!pointerDrag||event.pointerId!==pointerDrag.pointerId)return;event.preventDefault();const drag=pointerDrag,target=targetSlot(dropTargetAt(event.clientX,event.clientY))||drag.target;finishPointerDrag();pointerDrag=null;if(target)setPlanItem(drag.id,target,drag.source);else announce('Drag cancelled'); }
     function cancelPointerDrag(){ finishPointerDrag();pointerDrag=null; }
 
-    function applyPreset(name){ const preset=PRESETS[name];state.plan=clone(preset.plan);state.context=clone(preset.context);state.activePreset=name;renderAll();announce(`${qs(`[data-preset="${name}"]`).textContent} loaded`); }
+    function applyPreset(name){ const preset=PRESETS[name];state.plan=clone(preset.plan);state.context=clone(preset.context);state.activePreset=name;hideOptimizer();renderAll();announce(`${qs(`[data-preset="${name}"]`).textContent} loaded`); }
     function saveState(){ localStorage.setItem('combinedRoutineV2',JSON.stringify({plan:state.plan,goals:state.goals,context:state.context}));announce('Routine saved in this browser');qs('#saveButton').textContent='Saved ✓';setTimeout(()=>qs('#saveButton').textContent='Save',1200); }
-    async function copySummary(){ const a=assess(),lines=[`Overall routine fit: ${a.overall}/100 — ${a.label}`,'',...SLOTS.map(s=>`${s.label}: ${state.plan[s.id].map(id=>getItem(id).name).join(' → ')||'—'}`),'','Best improvements:',...a.priorities.slice(0,5).map((x,i)=>`${i+1}. ${x.text}`),'','Cautions:',...a.cautions.slice(0,4).map(x=>`- ${x.text}`)];try{await navigator.clipboard.writeText(lines.join('\n'));announce('Summary copied');qs('#copyButton').textContent='Copied ✓';setTimeout(()=>qs('#copyButton').textContent='Copy summary',1200);}catch{announce('Copy is unavailable in this browser');} }
+    async function copySummary(){ const a=assess(),lines=[`Overall routine fit: ${a.overall}/100 — ${a.label}`,'Selected concern coverage:',...a.goalDetails.map(goal=>`- ${goal.label}: ${Math.round(goal.score)}/100`),'',...SLOTS.map(s=>`${s.label}: ${state.plan[s.id].map(id=>getItem(id).name).join(' → ')||'—'}`),'','Best improvements:',...a.priorities.slice(0,5).map((x,i)=>`${i+1}. ${x.text}`),'','Cautions:',...a.cautions.slice(0,4).map(x=>`- ${x.text}`)];try{await navigator.clipboard.writeText(lines.join('\n'));announce('Summary copied');qs('#copyButton').textContent='Copied ✓';setTimeout(()=>qs('#copyButton').textContent='Copy summary',1200);}catch{announce('Copy is unavailable in this browser');} }
 
     function validatePlan(plan){ return plan&&SLOTS.every(slot=>Array.isArray(plan[slot.id])&&plan[slot.id].every(id=>!!getItem(id))); }
     function loadSaved(){ try{const saved=JSON.parse(localStorage.getItem('combinedRoutineV2'));if(saved&&validatePlan(saved.plan)){state.plan=saved.plan;state.goals={...DEFAULT_GOALS,...saved.goals};state.context={...PRESETS.current.context,...saved.context};state.activePreset='custom';}}catch{} }
@@ -443,18 +559,30 @@
       check('removing SPF lowers protection',assess(noSpf,DEFAULT_GOALS,PRESETS.baseline.context).protection<balanced.protection);
       check('duplicate retinoid lowers tolerability',assess(duplicate,DEFAULT_GOALS,PRESETS.baseline.context).tolerability<balanced.tolerability);
       check('Tria/adapalene conflict is surfaced',current.cautions.some(x=>/Tria plus adapalene/i.test(x.text)));
+      const suggestion=buildSuggestedPlan(PRESETS.current.plan,DEFAULT_GOALS,PRESETS.current.context,true),suggested=assess(suggestion,DEFAULT_GOALS,PRESETS.current.context);
+      check('path finder improves the supplied routine',suggested.overall>current.overall);
+      check('Tria-day suggestion separates conflicting actives',has(suggestion,'tria')&&!has(suggestion,'adapalene')&&!has(suggestion,'azelaic'));
+      const pregnancyPlan=clone(PRESETS.current.plan);pregnancyPlan.gym=pregnancyPlan.gym.filter(id=>id!=='azelaic');pregnancyPlan.gym.push('hydroquinone');
+      const pregnancyContext={...PRESETS.current.context,triaDay:false,pregnancy:true},pregnancySuggestion=buildSuggestedPlan(pregnancyPlan,DEFAULT_GOALS,pregnancyContext,true);
+      check('pregnancy-context suggestion excludes retinoids and hydroquinone',!has(pregnancySuggestion,'adapalene')&&!has(pregnancySuggestion,'retinol')&&!has(pregnancySuggestion,'hydroquinone'));
+      const irritatedSuggestion=buildSuggestedPlan(PRESETS.current.plan,DEFAULT_GOALS,{...PRESETS.current.context,irritated:true},true);
+      check('irritated-skin suggestion prioritizes recovery',!['tria','adapalene','retinol','aha','bha','bp','azelaic'].some(id=>has(irritatedSuggestion,id)));
+      check('selected concern scores are finite and bounded',current.goalDetails.every(goal=>Number.isFinite(goal.score)&&goal.score>=0&&goal.score<=100));
+      check('balanced routine can fully represent barrier goal',balanced.goalDetails.find(goal=>goal.key==='barrier')?.score===100);
       check('all item ids and slots are valid',Object.values(PRESETS).every(p=>validatePlan(p.plan)));
       const pass=tests.every(t=>t.condition);return {pass,tests};
     }
     window.runRoutineBuilderSelfTests=runSelfTests;
 
     qsa('[data-preset]').forEach(button=>button.addEventListener('click',()=>applyPreset(button.dataset.preset)));
-    qs('#clearButton').addEventListener('click',()=>{state.plan=EMPTY_PLAN();state.activePreset='custom';renderAll();announce('Routine cleared')});
+    qs('#clearButton').addEventListener('click',()=>{state.plan=EMPTY_PLAN();state.activePreset='custom';hideOptimizer();renderAll();announce('Routine cleared')});
     qs('#saveButton').addEventListener('click',saveState);qs('#copyButton').addEventListener('click',copySummary);
+    qs('#optimizeButton').addEventListener('click',renderOptimizer);qs('#closeOptimizer').addEventListener('click',hideOptimizer);
+    qs('#applyOptimizer').addEventListener('click',()=>{if(!optimizerSuggestion)return;state.plan=clone(optimizerSuggestion.plan);state.activePreset='custom';hideOptimizer();renderAll();announce('Suggested routine applied; goals and context were left unchanged')});
     qs('#searchInput').addEventListener('input',renderCatalog);
     qsa('[data-filter]').forEach(button=>button.addEventListener('click',()=>{state.filter=button.dataset.filter;qsa('[data-filter]').forEach(x=>x.classList.toggle('active',x===button));renderCatalog()}));
-    qsa('[data-goal]').forEach(input=>input.addEventListener('change',()=>{state.goals[input.dataset.goal]=input.checked;state.activePreset='custom';renderProfile();renderAssessment()}));
-    qsa('[data-context]').forEach(input=>input.addEventListener('change',()=>{state.context[input.dataset.context]=input.checked;state.activePreset='custom';renderProfile();renderAssessment()}));
+    qsa('[data-goal]').forEach(input=>input.addEventListener('change',()=>{state.goals[input.dataset.goal]=input.checked;state.activePreset='custom';hideOptimizer();renderProfile();renderAssessment()}));
+    qsa('[data-context]').forEach(input=>input.addEventListener('change',()=>{state.context[input.dataset.context]=input.checked;state.activePreset='custom';hideOptimizer();renderProfile();renderAssessment()}));
     qsa('[data-sheet-slot]').forEach(button=>button.addEventListener('click',()=>{if(sheetState){const s=sheetState;closeSheet();setPlanItem(s.id,button.dataset.sheetSlot,s.source)}}));
     qs('#sheetRemove').addEventListener('click',()=>{if(sheetState?.source){const s=sheetState;closeSheet();removePlanItem(s.id,s.source)}});qs('#sheetCancel').addEventListener('click',closeSheet);
     qs('#placeSheet').addEventListener('click',event=>{if(event.target===qs('#placeSheet'))closeSheet()});
