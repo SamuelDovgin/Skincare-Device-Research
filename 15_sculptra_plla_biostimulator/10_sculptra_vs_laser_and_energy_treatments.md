@@ -85,13 +85,35 @@ Marked jowls, substantial redundant skin, platysmal/neck changes, or repeated fi
 | Dynamic forehead/crow's-feet lines | **Neuromodulator comparison** | Muscle movement is the driver | Choosing filler or resurfacing as the primary muscle treatment |
 | Marked jowls/redundant neck skin | **Facelift/neck-lift consultation** | Structural repositioning/excision is the relevant comparator | Repeatedly adding volume or chasing device sessions |
 
-## 4. Market-share comparison: two defensible views
+## 4. Alternatives to get instead of Sculptra — and why
+
+This is a **goal-matching list**, not a shopping list or a statement that one option is safer or better for every person. The best alternative is the one that treats the main problem without creating an unwanted new one (for example, adding volume to a face that is already full, or resurfacing skin when the complaint is actually muscle movement).
+
+| If the real priority is… | Consider this instead of Sculptra | Why it can be the better first choice | Important trade-off / boundary |
+|---|---|---|---|
+| Immediate, millimeter-level shaping of a cheek, chin, lip, or another product-labeled area | **Cross-linked HA filler** | It supplies visible gel volume immediately and, unlike PLLA particles, its material can be degraded with hyaluronidase when appropriate. This makes it a more useful cautious “preview” when the person is unsure about added volume. [[9]](source_docs/FDA_Juvederm_Voluma_IFU_P110033S070.pdf) | Hyaluronidase does not erase vascular injury, infection, scarring, or every unfavorable aesthetic outcome. HA is not automatically the right material or indication for every area. |
+| Immediate structural support with a non-HA particulate filler | **Radiesse / CaHA** | Its gel carrier gives immediate correction, while the particulate material has a later tissue-response role. It is the more direct injectable comparator when the desired behavior is support now rather than gradual distributed change. [[10]](source_docs/FDA_Radiesse_IFU_P050052S162_2026.pdf) | CaHA is not an enzyme-reversible substitute for HA, and no robust head-to-head trial establishes that it is categorically superior to Sculptra. Product area, plane, and indication matter. |
+| Larger-volume restoration and willingness to have a procedure | **Autologous fat transfer consultation** | It can address a larger volume deficit with the person's own tissue and may be more logical than repeatedly comparing small injectable increments with a much larger deficit. | It involves harvest, processing, procedure/anesthesia planning, variable retention, downtime, and no simple reversal. A surgical consultation is needed to compare like with like. |
+| Lines that appear mainly with frowning, squinting, or forehead movement | **Neuromodulator assessment** | Dynamic lines are driven primarily by muscle activity; neither Sculptra nor a resurfacing device is the primary mechanism-matched treatment. | It does not restore lost volume, treat etched static scars completely, or reposition descended tissue. Product, dose, and anatomy require professional assessment. |
+| Acne scars, rough texture, etched lines, or photoaging | **Fractional laser/resurfacing or scar-specific plan** | Controlled fractional injury, and sometimes scar-specific methods such as subcision, target scar architecture rather than adding volume underneath it. | Downtime, pigment-change risk, infection, and device/skin-type suitability must be weighed. Sculptra can coexist with a surface plan but does not replace it. [[2]](source_docs/FDA_medical_lasers_risks_2026-07-26.html) |
+| Brown spots, melasma-like pigment concerns, redness, or visible vessels | **Diagnosis-led topicals, sunscreen, IPL, or pigment/vascular laser** | These options can target pigment biology or hemoglobin selectively; Sculptra does neither. | “Brown spots” and redness are diagnoses, not device settings. Melasma, PIH risk, medications, skin type, and lesion diagnosis determine whether light/laser is suitable. |
+| Mild laxity or reduced firmness while facial volume is already adequate | **RF or MFU/HIFU assessment** | The objective is tightening/remodeling without intentionally adding volume, which better matches a face that would look heavy if filled. | Nonsurgical tightening does not equal a facelift. Exact device, treatment plane, operator skill, pain, burn, nerve, and contour/fat-effect risks matter. |
+| Marked jowls, redundant neck skin, or structural descent | **Facelift/neck-lift consultation** | Surgery is the option in this comparison that can reposition descended anatomy and remove excess skin, rather than camouflage it by adding volume or creating modest thermal remodeling. | It is an operation with scars, recovery, anesthesia/procedural risks, cost, and a different commitment level. A consultation is information-gathering, not an obligation to proceed. |
+| Desire to minimize procedure risk or uncertainty right now | **Observation and a dermatologist-guided skin-health plan** | Deferring a permanent-seeming aesthetic decision can be the best choice when the diagnosis, desired change, budget, medical history, or tolerance for complications is unclear. | Topicals and prevention can improve skin health and some surface concerns, but they do not reliably replace meaningful volume restoration or surgery-level lifting. |
+
+For direct injectable details—including **Sculptra vs Radiesse vs Bellafill vs PCL/PDLLA/other PLLA, permanence, reversal boundaries, and product-specific studies**—use the [direct injectable collagen-stimulator comparison](08_direct_injectable_collagen_stimulator_comparison.md). For the broader filler/device/surgery overview, use [Sculptra compared with fillers, devices, topicals, and surgery](05_sculptra_vs_alternatives_comparison.md).
+
+### A short safety filter before choosing an alternative
+
+Do not let the alternatives table substitute for a medical evaluation. Active infection or inflammation near a planned site, a history of problematic filler reactions or scarring, immune/bleeding considerations, pregnancy/lactation evidence gaps, prior permanent filler or implants, and an inability to obtain follow-up can change or defer every option in the table. The more invasive or less reversible the alternative, the more the consultation should document the exact product/device, treatment site, intended result, recovery, and complication plan.
+
+## 5. Market-share comparison: two defensible views
 
 ### What “market share” means here
 
 Neither official survey reports manufacturer revenue share. The tables below use **estimated procedure counts divided by the survey's total nonsurgical/minimally invasive procedures**. They measure procedure utilization in a defined provider survey—not unique patients, sales, devices installed, vials sold, or treatment quality.
 
-### 4.1 Global plastic-surgeon procedure mix: ISAPS 2024
+### 5.1 Global plastic-surgeon procedure mix: ISAPS 2024
 
 ISAPS separately counted PLLA, which makes it the cleanest available direct category comparison. Its 2024 survey estimated 20,535,686 nonsurgical procedures performed by plastic surgeons worldwide. [[4]](source_docs/ISAPS_global_survey_2024.pdf)
 
@@ -104,7 +126,7 @@ ISAPS separately counted PLLA, which makes it the cleanest available direct cate
 
 Interpretation: in this global plastic-surgeon dataset, energy-oriented tightening plus full-field ablation was used roughly three times as often as PLLA. That does **not** mean energy is three times more effective. These categories treat different problems, and ISAPS does not capture every dermatologist, medical spa, non-plastic-surgeon injector, or nonablative fractional procedure in a way that supports a complete device-versus-Sculptra market census.
 
-### 4.2 U.S. minimally invasive procedure mix: ASPS 2024
+### 5.2 U.S. minimally invasive procedure mix: ASPS 2024
 
 ASPS estimated 28,243,407 U.S. cosmetic minimally invasive procedures. It did **not** disclose Sculptra separately; its non-HA category pooled Radiesse, Sculptra, Bellafill, and Renuva. [[5]](source_docs/ASPS_2024_procedural_statistics.pdf)
 
@@ -120,7 +142,7 @@ This broader U.S. view shows why commercial “laser market share” claims are 
 
 The structured calculations are preserved in [the market-procedure comparison dataset](data/sculptra_energy_market_procedure_share_2024.csv).
 
-## 5. Why market popularity should not drive treatment selection
+## 6. Why market popularity should not drive treatment selection
 
 - **Different denominators:** a laser hair-removal session and a Sculptra treatment session both count as procedures but answer unrelated goals.
 - **Sessions are not patients:** series-based treatments can generate several procedure counts for one person.
@@ -131,13 +153,13 @@ The structured calculations are preserved in [the market-procedure comparison da
 
 The useful market conclusion is modest: **energy and resurfacing procedures collectively occupy a larger utilization lane, while PLLA/non-HA stimulators are a smaller but established category.** The clinical choice still depends on whether the problem is volume, surface, pigment, scar, or laxity.
 
-## 6. Evidence comparison: do not compare unlike endpoints
+## 7. Evidence comparison: do not compare unlike endpoints
 
 Sculptra's strongest cheek evidence uses a blinded, bilateral 0–4 GCWS responder threshold. Device studies may instead use wrinkle scales, scar grades, pigment measurements, laxity scales, ultrasound thickness, investigator GAIS, patient satisfaction, or photographs. A 70.7% Sculptra GCWS responder estimate cannot be ranked directly against “80% improvement” from a device paper unless the anatomy, threshold, assessor, comparator, follow-up, and missing-data handling match.
 
 The 2024 PLLA systematic review included 11 randomized trials, rated five at high risk of bias, and concluded that the facial-rejuvenation evidence quality remains low despite favorable signals. Device categories likewise contain highly heterogeneous devices and protocols; class labels cannot substitute for product- and indication-specific evidence. [[6]](source_docs/PMC11435306_systematic_review_PLLA_facial_aesthetics_2024.xml)
 
-## 7. Combination and sequencing
+## 8. Combination and sequencing
 
 The FDA Sculptra IFU warns that laser treatment, chemical peeling, or another procedure based on an active dermal response may elicit inflammation at the implant site if performed before the skin has healed. The label does not provide one universal interval for every laser, RF, MFU, peel, anatomy, or treatment intensity. [[1]](source_docs/FDA_P030050_S039_Sculptra_IFU_2023.pdf)
 
@@ -155,7 +177,7 @@ A separate 32-person split-face study compared microneedling RF plus transdermal
 6. Use standardized baseline and follow-up photography so outcomes are attributable.
 7. Avoid same-day stacking merely for convenience when the safety rationale is unclear.
 
-## 8. Practical choose-one summary
+## 9. Practical choose-one summary
 
 ### Choose Sculptra over energy first when
 
@@ -185,7 +207,7 @@ A separate 32-person split-face study compared microneedling RF plus transdermal
 - cost and cumulative recovery remain acceptable; and
 - the plan includes a conservative sequence and healing gate.
 
-## 9. Related deep-dive research in this archive
+## 10. Related deep-dive research in this archive
 
 - [Fractional laser resurfacing research](../03_fractional_laser_resurfacing/index.html) — wavelengths, fractional coverage, home-versus-professional evidence, pigment and texture lanes.
 - [Radiofrequency skin-tightening research](../07_radio_frequency_skin_tightening/index.html) — home RF, professional RF, RF microneedling, dose control, and safety.
@@ -211,4 +233,5 @@ A separate 32-person split-face study compared microneedling RF plus transdermal
 6. Signori R et al. Efficacy and Safety of Poly-L-Lactic Acid in Facial Aesthetics: A Systematic Review. [Local full-text record](source_docs/PMC11435306_systematic_review_PLLA_facial_aesthetics_2024.xml) - 11 randomized trials, risk-of-bias assessment, and low-quality-evidence conclusion.
 7. Park KY et al. An 18-year comprehensive safety study on microfocused ultrasound and monopolar radiofrequency combined with cosmetic injectables in 1,040 patients. https://pubmed.ncbi.nlm.nih.gov/39821337/ - retrospective combination-safety context with a small PLLA subgroup.
 8. Wu X et al. Microneedling Radiofrequency Enhances Poly-L-Lactic Acid Penetration. https://pubmed.ncbi.nlm.nih.gov/38051121/ - small split-face transdermal-delivery protocol; not standard injectable Sculptra evidence.
-
+9. FDA. Juvéderm Voluma XC U.S. IFU, P110033/S070. [Local PDF](source_docs/FDA_Juvederm_Voluma_IFU_P110033S070.pdf) - product-specific HA cheek/chin/temple labeling and immediate-volume comparator context.
+10. FDA. Radiesse U.S. IFU, P050052/S162. [Local PDF](source_docs/FDA_Radiesse_IFU_P050052S162_2026.pdf) - current captured CaHA labeling and immediate gel-carrier comparator context.

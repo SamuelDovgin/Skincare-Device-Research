@@ -30,7 +30,7 @@ This topic covers **Sculptra**, the branded injectable poly-L-lactic acid (PLLA)
 | 07 | [Results visualizer method and evidence limits](07_results_visualizer_method.md) | Exact source rows, endpoint definitions, uncertainty, why the tool does not predict an individual's face, and validation rules. |
 | 08 | [Direct injectable collagen-stimulator comparison](08_direct_injectable_collagen_stimulator_comparison.md) | Sculptra vs Radiesse, Bellafill, PCL, PDLLA, other PLLA, and HA reference: labels, permanence, reversal, head-to-head results, and candidate fit. |
 | 09 | [Outcome scales and responder definitions](09_outcome_scales_and_responder_definitions.md) | The exact 0–4 GCWS point system, bilateral one-grade responder rule, worked examples, imputed vs observed rates, and why GCWS, WAS, WSRS, GAIS, and photo endpoints differ. |
-| 10 | [Sculptra vs lasers and energy-based treatments](10_sculptra_vs_laser_and_energy_treatments.md) | Goal-first comparison with fractional/ablative lasers, IPL, RF, RF microneedling, and MFU/HIFU; best candidates, combination sequencing, risks, and defensible global/U.S. procedure-market shares. |
+| 10 | [Sculptra vs lasers and energy-based treatments](10_sculptra_vs_laser_and_energy_treatments.md) | Goal-first comparison with fractional/ablative lasers, IPL, RF, RF microneedling, and MFU/HIFU; an “alternatives to get instead” table, best candidates, sequencing, risks, and defensible global/U.S. procedure-market shares. |
 
 ## Interactive evidence tool
 
