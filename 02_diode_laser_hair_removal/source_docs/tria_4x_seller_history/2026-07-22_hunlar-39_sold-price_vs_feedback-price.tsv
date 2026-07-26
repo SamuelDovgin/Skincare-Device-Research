@@ -1,0 +1,18 @@
+# Seller feedback-profile snapshot supplied 2026-07-22:
+# hunlar-39; feedback score 66; 94.3% positive in the last 12 months;
+# member since 2024-12-23; 66 positive, 3 neutral, and 4 negative ratings
+# in the 12-month table.
+item_id	sold_date_2026	title	sold_page_display_usd	feedback_buyer_paid_usd	paid_to_display_ratio	discount_percent	sold_page_capture
+137378642861	2026-06-05	Coravin 112324 Timeless Three+ Wine Preservation System	169.99	138.00	0.8118	18.8	attachment 9514f42f-3e15-4864-bf99-5bcffb1b636f
+137227613945	2026-06-06	Sennheiser HDR 175 headphones and TR 175 stand	29.99	29.99	1.0000	0.0	attachment 9b601451-7734-4ece-965a-705413d6f5e7
+137389638850	2026-06-07	BioLite CampStove wood-burning stove and USB charger	69.99	69.99	1.0000	0.0	attachment a4309799-5113-44ff-a3d5-1ceb19a26fd3
+137389602460	2026-06-11	Vintage Carvin FS44 four-channel footswitch and cable	49.99	30.00	0.6001	40.0	attachment 359d001f-2f34-4af7-aa4e-6dcbe4384521
+137389641579	2026-06-12	Shure SM58 dynamic cardioid wired microphone	44.49	30.00	0.6743	32.6	attachment 9cb2af31-3e7e-460f-9c02-940b55fd189b
+137376606307	2026-06-13	Wahoo ELEMNT Bolt V1 WFCC3 bike computer	79.99	79.99	1.0000	0.0	attachment 66c92653-9086-4e81-97ed-8efab6d84cdf
+137389635926	2026-06-14	AGCO Parts HT-Pro hay moisture meter	69.99	69.99	1.0000	0.0	user-message sold-page capture; feedback profile attachment fc819b53-d810-4bb7-8065-bf27fddd2617
+
+# Method note: the sold-page display is not assumed to be the amount paid. The
+# feedback profile's verified-purchase price is treated as the buyer-paid item
+# price. A lower feedback price therefore reveals a negotiated/adjusted sale;
+# an equal price is consistent with full-price purchase but does not prove that
+# no private negotiation occurred. Shipping and tax are excluded.

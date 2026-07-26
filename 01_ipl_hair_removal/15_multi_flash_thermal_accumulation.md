@@ -4,7 +4,7 @@
 
 > ⚠️ Not medical advice — this synthesizes peer-reviewed laser/IPL-physics literature plus this repo's own device research (catalog transcriptions, FDA filings, and a seller-supplied measurement video). See [02_ideal_device_specs.md](02_ideal_device_specs.md) and [06_final_recommendation.md](06_final_recommendation.md) for how the device decision was made, and [fansizhe_natalie_conversation_notes.md](fansizhe_natalie_conversation_notes.md) for the underlying seller-video evidence this doc leans on heavily. This is a *different* timescale question than [12_treatment_cadence_guide.md](12_treatment_cadence_guide.md) — that doc is about weeks between **sessions**; this one is about milliseconds between **flashes**.
 
-> 🔥 **Make this interactive:** the [**SHR & Multi-Flash Thermal Simulator**](shr_thermal_simulator.html) lets you set flash energy, count, timing, skin tone and hair type and watch the epidermis, follicle, and deep stem-cell target heat up live — and whether they cross the damage threshold. Its prose companion, [16_shr_ulike_thermal_simulation.md](16_shr_ulike_thermal_simulation.md), applies all of this to **Ulike's "SHR mode"** specifically.
+> 🔥 **Make this interactive:** the [**shared IPL & diode thermal simulator**](hair_removal_thermal_simulator.html?mode=ipl) lets you switch between home IPL and Tria, then compare both with the same equations and damage scale. Its prose companion, [16_shr_ulike_thermal_simulation.md](16_shr_ulike_thermal_simulation.md), applies the IPL side to **Ulike's "SHR mode"** specifically.
 
 ---
 

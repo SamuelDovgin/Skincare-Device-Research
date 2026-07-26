@@ -1,0 +1,5 @@
+# Confirmed purchase outcome from the user-supplied eBay sold/order page capture on 2026-07-24, interpreted with the earlier user-supplied offer-message capture.
+# The sold page directly establishes the $60 item price and sale timestamp. The $15.16 shipping and $75.16 pre-tax delivered total use the prior listing capture and assume shipping did not change at checkout.
+# Earlier offer history: $50 expired; $53 was submitted on 2026-07-22 at 14:16 with one hour remaining in the capture and necessarily ended before the later 2026-07-24 sale.
+event_date	event_time_local	seller	item_id	title	original_ask_usd	accepted_offer_usd	discount_usd	discount_percent	paid_to_ask_percent	shipping_from_prior_capture_usd	inferred_delivered_pre_tax_usd	prior_offer_1_usd	prior_offer_1_outcome	prior_offer_2_usd	prior_offer_2_outcome	outcome	canonical_url
+2026-07-24	07:56	hunlar-39	137526491564	Tria Beauty Hair Removal Laser LHR 4.0 W/ Charger	74.99	60.00	14.99	20.0	80.0	15.16	75.16	50.00	expired	53.00	not accepted before expiration	offer accepted; item sold to user	"https://www.ebay.com/itm/137526491564"

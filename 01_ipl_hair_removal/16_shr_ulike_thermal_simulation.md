@@ -2,7 +2,7 @@
 
 *Compiled 2026-07-01; substantially revised 2026-07-10. Research orientation, not medical advice. The paired simulator is an exposure model, not a device-setting or patient-safety calculator.*
 
-> **[Open the revised interactive thermal simulator](shr_thermal_simulator.html).** It now answers the temperature question with a time–temperature curve and a published Arrhenius damage integral. It no longer treats 65 °C as an instantaneous switch or 45–50 °C as a proven “accumulation kill” threshold.
+> **[Open the shared IPL & diode thermal simulator](hair_removal_thermal_simulator.html?mode=ipl).** IPL and Tria now use the same time–temperature engine and published Arrhenius integral. The page also keeps clinical hair-count outcomes separate from the illustrative heat trace.
 
 ## 0. Bottom line
 

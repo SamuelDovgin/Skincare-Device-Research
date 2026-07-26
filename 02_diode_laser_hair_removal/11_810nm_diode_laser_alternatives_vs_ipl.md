@@ -2,9 +2,25 @@
 
 **Question:** If the appealing part of the Tria Precision is that it is a real 810 nm diode laser instead of IPL, what other devices use similar diode-laser technology, and are any of them better buys?
 
-**Short answer:** true home-use 808/810 nm diode lasers exist, but the category is tiny. The credible alternatives are mostly **Tria 4X**, **DermRays/CurrentBody-style wide-window 810 nm diode devices**, **Epilaser 808**, and older/rarer **SilkPro/Lotuxs** devices. Most other "laser hair removal" devices on Amazon are actually IPL.
+**Short answer:** yes. A small number of real home-use 808/810 nm diode lasers run directly from an external wall adapter and have no internal treatment battery. The clearest FDA-cleared examples are **DermRays V8S/V4S and CurrentBody-branded LHR-V4-810 hardware covered by K230090**. Most other products advertised as home "laser hair removal" are actually IPL, and some real diode devices—including Tria and Epilaser—still use rechargeable batteries.
 
-For this specific $40-$50 Tria Precision opportunity, the answer is still: **if it works, it is the cheapest credible entry into true at-home diode laser hair removal.** The alternatives are better for convenience or large areas, but they cost far more.
+For a buyer specifically trying to escape Tria-style battery aging, the corded Lotuxs/DermRays/CurrentBody family is the most credible handheld route. Wall power removes the battery, battery-management, runtime, and high-current battery-sag failure modes. It does **not** make the device failure-proof: the adapter, cable, charging/power board, cooling system, laser driver, and diode can still fail.
+
+### July 2026 corded-only buying answer
+
+| Device | Truly wall-powered? | True diode laser? | Regulatory/spec anchor | Availability checked 2026-07-18 | Practical verdict |
+|---|---|---|---|---|---|
+| **DermRays V8S / LHR-V8S-810** | Yes; external AC/DC adapter | 810 nm | FDA K230090; 9 J/cm2; 30 x 10 mm window | Official page lists $599 but says **sold out** | Best new handheld specification, but not presently a straightforward buy |
+| **CurrentBody LHR-V4-810** | Yes; plug-in operation | 810 nm | Exact LHR-V4-810 model appears in FDA K230090; 7 J/cm2; 30 x 10 mm window | CurrentBody page is out of stock at EUR699.99; one live open-box eBay listing was $224.99 + $14.99 shipping | Best currently findable value if the exact model label, original adapter, operation, and returns are verified |
+| **ViQure EpiPro** | Yes; 110/220 V console | 808 nm | Seller specifications; no matching FDA 510(k) found in this review | Roughly $1,000+ class | Avoid as a first choice unless you deliberately want a prosumer console and accept greater support/regulatory uncertainty |
+| **Epilaser 808 / Pro** | **No**; rechargeable battery | 808/980 nm | FDA-cleared models exist, but the retail 808 page describes battery charging/runtime | Available around the $1,000 class | Excluded from a no-battery shortlist |
+| **Tria Precision / 4X** | **No** | 810 nm | FDA-cleared battery handhelds | Mostly used/legacy market | Excluded when eliminating battery problems is the goal |
+
+The [FDA K230090 decision summary](https://www.accessdata.fda.gov/cdrh_docs/pdf23/K230090.pdf) is unusually useful here: it explicitly identifies models LHR-V8S-810, LHR-V8-810, LHR-V4S-810, and LHR-V4-810 as 810 nm diode lasers **powered by an external AC/DC power adapter**. The [DermRays V8S page](https://www.dermrays.com/en-us/products/dermrays-v8s-810nm-diode-laser-hair-removal-at-home) likewise instructs the user to plug it in and lists an adapter and cord in the box. The [CurrentBody instructions](https://www.currentbody.ie/products/currentbody-skin-laser-hair-removal-device) begin with plugging in the device.
+
+The live marketplace option found in this check was an [open-box CurrentBody LHR-V4-810 listing](https://www.ebay.com/itm/188403154076) at $224.99 plus $14.99 shipping with 30-day returns; the buyer pays ordinary return shipping. Marketplace price and stock can change at any time. The exact model number matters because a CurrentBody brand name by itself does not prove what hardware is inside.
+
+**My recommendation:** wait for the Tria warranty outcome before spending heavily, but if you decide you are finished with internal batteries, target an **LHR-V4-810/V4S or LHR-V8S-810/V8S with its original matching adapter**. The CurrentBody open-box V4 is the more economical experiment; the V8S is the better specification if it returns to stock with a real warranty.
 
 ---
 
@@ -72,13 +88,13 @@ These emit 810 nm infrared laser pulses, include skin contact sensing, include c
 | Treatment window | 30 mm x 10 mm = 3.0 cm2 | 30 mm x 10 mm = 3.0 cm2 |
 | Power | External AC/DC adapter | External AC/DC adapter |
 | Cooling | Yes, per FDA summary and product pages | Yes |
-| Price observed | Amazon/DermRays around $459-$599 depending listing/sale | Usually lower than V8S |
+| Price/availability checked 2026-07-18 | Official page: $599 sale price, sold out | CurrentBody LHR-V4-810 open-box listing: about $240 delivered; official CurrentBody page: EUR699.99, out of stock |
 
-**Compared with Tria:** lower max fluence than Tria's 20 J/cm2, but much bigger treatment window than classic Tria and no 15-minute battery limit. DermRays V8S is likely much less maddening for legs/arms/body because it covers ~3 cm2 per pulse.
+**Compared with Tria:** lower max fluence than Tria's 20 J/cm2, but a much bigger treatment window and no treatment battery. Multiplying the FDA-listed fluence by the 3 cm2 window gives about **27 J of optical energy over the window at V8S maximum** and **21 J at V4S maximum**. These are calculated total-pulse values, not evidence that 9 J/cm2 is biologically equivalent to Tria's more concentrated 20 J/cm2.
 
 **The trade:** Tria = stronger per spot. DermRays/CurrentBody = faster coverage, cooling, corded use, lower per-spot fluence.
 
-**Buy call:** a real alternative if you want body-area hair removal and can spend hundreds. It does not make the $40-$50 Precision bad; it makes the Precision look like the cheap high-fluence spot tool.
+**Buy call:** this is the primary handheld answer for someone who no longer wants an internal battery. Prefer the exact FDA-listed model number, original adapter, and a return policy. The V8S has the better specification; the V4/CurrentBody version is currently easier to find cheaply on the secondary market.
 
 ---
 
@@ -94,12 +110,13 @@ Epilaser is a different concept: it uses diode lasers with a camera/targeting sy
 | Sensor logic | Skin-tone sensor; Pro adds automatic hair-targeting algorithm |
 | Current product positioning | 808 for light-to-medium skin, 980 for darker skin |
 | Current price observed | Epilaser site listed one-time investment at $995 |
+| Power source | Rechargeable battery; approximately 2-hour charge / 60-minute use claimed by retail page |
 
 The FDA K233224 summary says Epilaser Pro uses laser energy at **808 or 980 nm**, has an automatic targeting algorithm, and was evaluated with 69 subjects for targeting performance. It also says the Pro's spot size, peak power, fluence, and pulse duration match its predicates, but the public summary does **not** publish a simple J/cm2 table.
 
 **Compared with Tria:** Epilaser is more precise and smarter about avoiding pigmented spots/tattoos, but it is expensive and probably slower for dense/large-area coverage. It is not a broad-window body device. It is more like "robotic follicle targeting."
 
-**Buy call:** interesting technology, but probably not the value answer. Consider only if precision and skin-spot avoidance matter more than price. For this repo's buyer, it is too expensive to beat a $40-$50 Tria Precision unless the use case is very specific.
+**Buy call:** interesting technology, but not an answer to the no-battery requirement. Consider only if precision and skin-spot avoidance matter more than price and battery dependence.
 
 ---
 
@@ -136,6 +153,7 @@ ViQure EpiPro is a small console-style 808 nm diode laser marketed for home or s
 | Spot size | 12 mm x 14 mm |
 | Cooling | TEC/sapphire-style cooling, claimed 0-5 C / 32 F class |
 | Price observed | Official page around $1,149 sale / $1,399 list |
+| Input power | Seller lists 110/220 V, 50/60 Hz; no treatment battery |
 | Regulatory note | CE claimed on product page; I did not find a matching FDA 510(k) in this quick pass |
 
 **Compared with Tria:** potentially much stronger and much faster, but it is expensive, more complex, and much closer to a professional tool. It also typically requires eye protection and more operator judgment.
@@ -167,9 +185,9 @@ This matters because some clinics run aggressive intro pricing on small areas. I
 
 | Use case | Best fit |
 |---|---|
-| Cheapest true diode laser entry | Used Tria Precision at $40-$50 if proven working |
-| Better Tria with same core tech | Used Tria 4X around $100-$150 if battery-proven |
-| Large-area home diode laser | DermRays V8S / CurrentBody-style 810 nm wide-window device |
+| Cheapest corded true-diode listing found | Open-box CurrentBody LHR-V4-810 around $240 delivered, subject to live stock and verification |
+| Best new corded handheld specification | DermRays V8S, when it is actually in stock |
+| Large-area home diode laser | DermRays V8S / CurrentBody LHR-V4-810 wide-window device |
 | Precision targeting / avoiding spots | Epilaser 808 / 980 |
 | Maximum home/prosumer power | ViQure EpiPro or similar 808 nm console, with safety/regulatory caveats |
 | Best hair-removal outcome | In-office laser |
@@ -186,8 +204,8 @@ The alternatives change the category map, but not the local decision.
 |---|---:|---|
 | Used Tria Precision | $40-$50 | Best value if battery works; high fluence, small areas only |
 | Used Tria 4X | $100-$200 | Better workflow, but 2-4x the price |
-| DermRays V8S | ~$459-$599 | More convenient body device, but lower max fluence and far more expensive |
-| CurrentBody Skin Laser | ~GBP 579.99 / out of stock in checked page | Similar wide-window category; expensive and not easily available from US page checked |
+| DermRays V8S | $599 sale price / sold out on official page | Best handheld corded specification in this comparison, but unavailable direct when checked |
+| CurrentBody Skin Laser LHR-V4-810 | EUR699.99 official/out of stock; ~$240 open-box listing | Most economical corded true-diode listing found; lower 7 J/cm2 maximum and marketplace risk |
 | Epilaser 808 | ~$995 | Smart/precise but too expensive for this comparison |
 | SilkPro | variable / hard to find | Strong on paper, weak on sourcing/support |
 | ViQure EpiPro | ~$1,149+ | More power, but prosumer cost/risk category |
@@ -251,13 +269,13 @@ For this repo's prior ranking, Nood/Fansizhe/Ulike/Braun still make sense for th
 
 For the marketplace decision:
 
-1. **At $40-$50, a working Tria Precision is still the value winner** among true laser devices.
-2. **The closest modern upgrade is DermRays V8S / CurrentBody-style 810 nm diode**, but it costs hundreds and trades Tria's higher fluence for a larger 3 cm2 treatment window, cooling, and corded use.
-3. **The smart/precision upgrade is Epilaser 808**, but it is expensive and not the obvious choice for basic body hair reduction.
-4. **The high-power upgrade is ViQure/prosumer 808 nm**, but that belongs in a different safety and budget category.
-5. **IPL remains the cheap convenience route**, but it is not the same technology.
+1. **Yes, a real corded home diode laser exists.** The FDA-cleared Lotuxs family sold as DermRays and CurrentBody is the strongest documented handheld answer.
+2. **The CurrentBody LHR-V4-810 is the best bargain found in this check** at roughly $240 open-box, provided the seller confirms the exact model, original adapter, working pulses, and return terms.
+3. **The DermRays V8S is the preferable specification** at 9 J/cm2 and a 3 cm2 window, but its official $599 page was sold out when checked.
+4. **Epilaser does not solve this problem** because it is rechargeable-battery powered.
+5. **ViQure EpiPro is wall-powered**, but it is a much more expensive prosumer console without the same verified FDA-clearance trail found for K230090.
 
-So if the question is "should I hunt for another 810 nm thing instead of this $50 Precision?" my answer is: **not unless you are ready to spend $400-$1,000+.** For a small-area hair-removal experiment, verify the Precision works and negotiate the $40.
+For someone already frustrated by a repaired Tria battery and high-load shutdowns, paying more for an external-adapter design is a rational trade. It removes the entire internal battery subsystem, although it cannot eliminate every electronic or laser failure mode.
 
 ---
 
@@ -476,7 +494,8 @@ Given Ulike's playbook in the sibling IPL category ([01](../01_ipl_hair_removal/
 - DermRays official site: https://www.dermrays.com/en-us
 - DermRays V8S product page: https://www.dermrays.com/en-us/products/dermrays-v8s-810nm-diode-laser-hair-removal-at-home
 - DermRays FAQ: https://www.dermrays.com/en-us/pages/faq
-- CurrentBody Skin Laser Hair Removal Device: https://www.currentbody.com/products/currentbody-skin-laser-hair-removal-device
+- CurrentBody Skin Laser Hair Removal Device (official Ireland page; plug-in instructions, price, and stock state): https://www.currentbody.ie/products/currentbody-skin-laser-hair-removal-device
+- CurrentBody LHR-V4-810 open-box marketplace listing checked 2026-07-18: https://www.ebay.com/itm/188403154076
 
 **Epilaser**
 

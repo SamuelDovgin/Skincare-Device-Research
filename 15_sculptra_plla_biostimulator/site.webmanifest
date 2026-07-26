@@ -1,0 +1,9 @@
+{
+  "name": "Sculptra PLLA Research",
+  "short_name": "Sculptra",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5f8f6",
+  "theme_color": "#24463f",
+  "icons": []
+}

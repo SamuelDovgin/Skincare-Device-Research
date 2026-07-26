@@ -46,7 +46,7 @@ This topic covers at-home IPL hair removal, narrow-band DPL/photofacial claims, 
 ## Supporting material
 
 - [Cadence planner](cadence_planner.html)
-- [SHR thermal simulator](shr_thermal_simulator.html)
+- [Shared IPL & diode thermal simulator](hair_removal_thermal_simulator.html?mode=ipl)
 - [Thermal-dose AUC model plan](thermal_dose_auc_plan.md)
 - [Thermal-model primary source manifest](thermal_model_source_docs/README.md)
 - [JOVS DPL and Alibaba comparator](jovs-dpl-comparator.html)

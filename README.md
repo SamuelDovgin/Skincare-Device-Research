@@ -2,7 +2,7 @@
 
 Research into at-home, light- and energy-based skincare devices for **facial redness/erythema, hyperpigmentation, post-inflammatory hyperpigmentation (PIH), and evening skin tone**, plus **hair removal**, **skin-quality (collagen) rejuvenation**, **tightening/laxity**, and topical support as parallel goals. Budget-conscious; covers branded, retail, Chinese OEM/Alibaba sourcing, patent/regulatory context, and practical product buying.
 
-The repo is organized into **thirteen research projects**, including a cross-category regimen planner:
+The repo is organized into **fifteen research projects**, including a cross-category regimen planner:
 
 | Folder | Product class | Goal |
 |--------|---------------|------|
@@ -20,6 +20,7 @@ The repo is organized into **thirteen research projects**, including a cross-cat
 | [`12_peptides_in_skincare/`](12_peptides_in_skincare/) | Topical peptides | Evidence tier list, supplier map, dose-aware value buys, Amazon checks, and comparison with ingredients/devices |
 | [`13_combined_skincare_regimen/`](13_combined_skincare_regimen/) | Combined regimen | Drag-and-drop routine builder, active/device scheduling, overload and recovery logic |
 | [`14_latest_skincare_research_2025_2026/`](14_latest_skincare_research_2025_2026/) | Latest 2025–2026 skincare research | 100-record PubMed evidence map, including a 35-paper leading-journal supplement, across acne, barrier, pigment, sunscreen, peptides, devices, procedures, and hair removal |
+| [`15_sculptra_plla_biostimulator/`](15_sculptra_plla_biostimulator/) | Sculptra / injectable PLLA biostimulator | Mechanism, FDA label, clinical outcomes, candidate categories, safety, comparison chart, and results visualizer |
 
 ## TL;DR
 
@@ -35,6 +36,7 @@ The repo is organized into **thirteen research projects**, including a cross-cat
 10. **Microneedling now has its own collagen-induction lane.** The strongest evidence is professional treatment of atrophic acne scars; FDA has not authorized OTC medical microneedling devices; and RF microneedling is a professional procedure, not a home-device shortcut. See **[`10_microneedling_collagen_induction/`](10_microneedling_collagen_induction/)**.
 11. **HIFU / microfocused ultrasound is now separated as a tightening lane.** Clinic Ulthera/Sofwave evidence is real but procedure-specific; home HIFU/MFU is not a clean "lower-density Ultherapy" analog because focal depth, coupling, line spacing, visualization, and anatomy control matter more than shot count. See **[`11_hifu_skin_tightening/`](11_hifu_skin_tightening/)**.
 12. **Topical peptides now have an evidence tier list, supplier map, and dose-aware value guide.** Palmitoyl pentapeptide-4 has the clearest direct fine-line trial and acetyl hexapeptide-8 the clearest expression-line signal, but the 2026 meta-analysis found only two high-quality topical studies and says most pooled benefit came from oral peptides. The Ordinary Argireline 10% is the cleanest low-cost targeted experiment; Good Molecules has unusually clear ppm disclosure; Olay lists top-ranked pal-KTTKS but hides its dose. No audited retail pick is an exact clinically dose-verified match. See **[`12_peptides_in_skincare/`](12_peptides_in_skincare/)**.
+13. **Sculptra now has a dedicated injectable-biostimulator lane.** The strongest on-label result is the FDA cheek trial's 70.7% month-12 blinded bilateral responder estimate versus 25.9% with no treatment, but investigator/subject GAIS and 2D-photo endpoints tell notably different stories. The category separates best candidates, contraindications, rare vascular risk, delayed nodules, and the less-reversible/gradual tradeoff from HA, CaHA, fat, neuromodulators, devices, and surgery. See **[`15_sculptra_plla_biostimulator/`](15_sculptra_plla_biostimulator/)** and the [potential-results evidence visualizer](15_sculptra_plla_biostimulator/potential_results_visualizer.html).
 
 ---
 
@@ -60,7 +62,7 @@ Broadband intense pulsed light devices (Fansizhe / Semlamp OEM, Nood / Ulike bra
 | 16 | [SHR / Ulike thermal simulation](01_ipl_hair_removal/16_shr_ulike_thermal_simulation.md) | Revised time–temperature/Arrhenius model: why 65 °C is not an instant switch and 45–50 °C is not a proven kill line |
 | 17 | [JOVS Blacken DPL and OEM comparison](01_ipl_hair_removal/17_jovs_blacken_dpl_and_oem_comparison.md) | **Three JOVS models, DPL vs IPL, the two supplied Alibaba links, manufacturer trail, and best comparable AY101** |
 
-**Supporting material:** [`cadence_planner.html`](01_ipl_hair_removal/cadence_planner.html) interactive treatment schedule planner · [`shr_thermal_simulator.html`](01_ipl_hair_removal/shr_thermal_simulator.html) revised Arrhenius time–temperature and pulse-stacking simulator · [thermal-model source manifest](01_ipl_hair_removal/thermal_model_source_docs/README.md) with primary/full-text kinetics, measured hair-temperature, and histology sources · [`jovs-dpl-comparator.html`](01_ipl_hair_removal/jovs-dpl-comparator.html) interactive JOVS/Alibaba wavelength, fluence, and sourcing comparison · [JOVS DPL source manifest](01_ipl_hair_removal/jovs_dpl_source_docs/README.md) with mirrored product pages, FDA K231800, peer-reviewed full text, and Alibaba listing images · [Natalie/Fansizhe conversation notes](01_ipl_hair_removal/fansizhe_natalie_conversation_notes.md) · Fansizhe & Semlamp FDA 510(k) PDFs · product catalogs · `Weiss_IPL.pdf` (clinical IPL photoaging parameters) · [`fda_data_pipeline/`](01_ipl_hair_removal/fda_data_pipeline/) — pulls all FDA 510(k) IPL clearances from openFDA, OCRs every filing, extracts pulse modes/fluence, and generates doc 08 (re-runnable; see its [STRATEGY.md](01_ipl_hair_removal/fda_data_pipeline/STRATEGY.md)).
+**Supporting material:** [`cadence_planner.html`](01_ipl_hair_removal/cadence_planner.html) interactive treatment schedule planner · [shared IPL & diode thermal simulator](01_ipl_hair_removal/hair_removal_thermal_simulator.html?mode=ipl) with one Arrhenius scale, Tria clinical calibration, and pulse-stacking controls · [thermal-model source manifest](01_ipl_hair_removal/thermal_model_source_docs/README.md) with primary/full-text kinetics, measured hair-temperature, and histology sources · [`jovs-dpl-comparator.html`](01_ipl_hair_removal/jovs-dpl-comparator.html) interactive JOVS/Alibaba wavelength, fluence, and sourcing comparison · [JOVS DPL source manifest](01_ipl_hair_removal/jovs_dpl_source_docs/README.md) with mirrored product pages, FDA K231800, peer-reviewed full text, and Alibaba listing images · [Natalie/Fansizhe conversation notes](01_ipl_hair_removal/fansizhe_natalie_conversation_notes.md) · Fansizhe & Semlamp FDA 510(k) PDFs · product catalogs · `Weiss_IPL.pdf` (clinical IPL photoaging parameters) · [`fda_data_pipeline/`](01_ipl_hair_removal/fda_data_pipeline/) — pulls all FDA 510(k) IPL clearances from openFDA, OCRs every filing, extracts pulse modes/fluence, and generates doc 08 (re-runnable; see its [STRATEGY.md](01_ipl_hair_removal/fda_data_pipeline/STRATEGY.md)).
 
 ## 02 — Diode laser hair removal · [`02_diode_laser_hair_removal/`](02_diode_laser_hair_removal/)
 
@@ -74,8 +76,10 @@ True diode lasers (Tria 810nm and alternatives) and the used-market analysis aro
 | 12 | [Marketplace seller activity analysis](02_diode_laser_hair_removal/12_marketplace_seller_activity_analysis.md) | Seller/listing behavior for the $50 offer: listing age, batch-posting, sold-history caveats |
 | 13 | [Tria pain, chromophore & thermal simulation](02_diode_laser_hair_removal/13_tria_diode_thermal_simulation.md) | Why Precision can hurt much more than IPL; 2026 randomized pain data, user experiences, safer comfort strategies, and model limits |
 | 14 | [Tria 4X vs Precision](02_diode_laser_hair_removal/14_tria_4x_vs_precision.md) | Dedicated primary-source comparison: same 810 nm / 7–20 J/cm² dose ceiling, but 4X doubles runtime and adds finer controls |
+| 15 | [Tria Precision post-repair shutdown diagnosis](02_diode_laser_hair_removal/15_tria_precision_post_repair_shutdown_diagnosis.md) | Post-service progression from completed Low pulses to High-pulse collapse and total no-power state: ranked diagnosis, warranty evidence plan, and repairer messages |
+| 16 | [Three used Tria 4X eBay offers compared](02_diode_laser_hair_removal/16_tria_4x_ebay_offer_comparison.md) | Fourteen-photo audit, seller/shipping risk, delivered-price table, proof checklist, ranked offers, and copy-ready messages for three July 2026 listings |
 
-**Supporting material:** [interactive Tria pain/chromophore/thermal simulator](02_diode_laser_hair_removal/tria_diode_simulator.html) · [pain-study source manifest](02_diode_laser_hair_removal/source_docs/README.md) · Tria 4X & Tria Precision IFUs (810nm, 7–20 J/cm² spec confirmation) · [marketplace_seller_activity_sanitized.json](02_diode_laser_hair_removal/marketplace_seller_activity_sanitized.json) (sanitized data snapshot for doc 12).
+**Supporting material:** [shared IPL & diode thermal simulator — Tria view](01_ipl_hair_removal/hair_removal_thermal_simulator.html?mode=diode) · [pain-study source manifest](02_diode_laser_hair_removal/source_docs/README.md) · Tria 4X & Tria Precision IFUs (810nm, 7–20 J/cm² spec confirmation) · [marketplace_seller_activity_sanitized.json](02_diode_laser_hair_removal/marketplace_seller_activity_sanitized.json) (sanitized data snapshot for doc 12).
 
 ## 03 — Fractional laser resurfacing · [`03_fractional_laser_resurfacing/`](03_fractional_laser_resurfacing/)
 
@@ -230,6 +234,22 @@ Cross-category literature update compiled 2026-07-14. It maps 100 selected 2025�
 | 07 | [High-prestige dermatology papers](14_latest_skincare_research_2025_2026/07_high_prestige_dermatology_papers.md) | Leading-journal supplement covering high-value reviews, RCTs, meta-analyses, consensus statements, and procedure comparisons |
 
 **Supporting material:** [paper index CSV](14_latest_skincare_research_2025_2026/data/paper_index.csv) · [high-prestige paper index](14_latest_skincare_research_2025_2026/data/high_prestige_paper_index.csv) · [source manifest](14_latest_skincare_research_2025_2026/source_docs/README.md) · [rendered literature viewer](14_latest_skincare_research_2025_2026/index.html).
+
+## 15 — Sculptra / injectable PLLA biostimulator · [`15_sculptra_plla_biostimulator/`](15_sculptra_plla_biostimulator/)
+
+Clinical research category for Sculptra's product identity and tissue-response mechanism, U.S. PMA history and labeling, pivotal cheek and nasolabial-fold trials, best-candidate categories, complication boundaries, and goal-first comparisons with other injectables, energy devices, topicals, fat transfer, and surgery.
+
+| # | File | What it covers |
+|---|---|---|
+| 01 | [Science, mechanism, and product identity](15_sculptra_plla_biostimulator/01_science_mechanism_and_product_identity.md) | Vial composition, particle/tissue response, degradation, and product-equivalence limits |
+| 02 | [Clinical evidence and outcomes](15_sculptra_plla_biostimulator/02_clinical_evidence_and_outcomes.md) | Exact pivotal endpoints, duration, trial overlap, risk of bias, and population limits |
+| 03 | [FDA label, safety, and complications](15_sculptra_plla_biostimulator/03_regulatory_label_safety_and_complications.md) | Indications, contraindications, common reactions, nodules, granuloma, vascular emergencies, and off-label boundaries |
+| 04 | [Best candidate categories](15_sculptra_plla_biostimulator/04_best_candidate_categories.md) | Strong-fit, conditional-fit, alternative-first, and avoid/defer profiles |
+| 05 | [Sculptra vs alternatives](15_sculptra_plla_biostimulator/05_sculptra_vs_alternatives_comparison.md) | Comprehensive comparison chart across injectables, devices, topicals, fat, and facelift |
+| 06 | [Treatment journey and provider checklist](15_sculptra_plla_biostimulator/06_treatment_journey_and_provider_checklist.md) | Evidence-supported timing, provider questions, aftercare, and urgent red flags |
+| 07 | [Results visualizer method](15_sculptra_plla_biostimulator/07_results_visualizer_method.md) | Data provenance, endpoint definitions, uncertainty, and deterministic validation rules |
+
+**Supporting material:** [potential-results evidence visualizer](15_sculptra_plla_biostimulator/potential_results_visualizer.html) · [clinical endpoints CSV](15_sculptra_plla_biostimulator/data/sculptra_clinical_endpoints.csv) · [source manifest](15_sculptra_plla_biostimulator/source_docs/README.md) · FDA approval letters, SSED/IFU/patient labeling, current manufacturer IFU, comparator labels, ClinicalTrials.gov JSON, PubMed XML, and preserved open full text.
 
 ---
 

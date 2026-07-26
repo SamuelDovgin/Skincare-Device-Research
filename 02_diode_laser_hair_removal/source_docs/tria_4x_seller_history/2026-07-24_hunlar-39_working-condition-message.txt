@@ -1,0 +1,15 @@
+eBay message representation preserved from the user's supplied message excerpt
+Recorded: 2026-07-24
+Seller: hunlar-39
+Item: 137526491564 — Tria Beauty Hair Removal Laser LHR 4.0 W/ Charger
+
+Buyer question, 2026-07-19 at 7:52 AM:
+"Hi I'm interested in this item! Is it in working condition?"
+
+Seller response shown in the message thread at 6:37 PM:
+"Yup it is"
+
+Interpretation boundary:
+- This is direct evidence that the seller represented the device as working before purchase.
+- It does not state a battery-runtime duration, pulse-count minimum, remaining battery capacity, manufacture date, or like-new condition.
+- The complete eBay message thread and order page should remain preserved in the buyer's account/screenshots in case a materially faulty or not-as-described return is necessary.

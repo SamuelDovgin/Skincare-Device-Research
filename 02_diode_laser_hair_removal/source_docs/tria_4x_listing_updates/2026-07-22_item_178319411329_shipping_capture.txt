@@ -1,0 +1,23 @@
+Source: user-supplied eBay page-text capture
+Captured: 2026-07-22
+Listing last-updated field: 2026-07-22 18:19:55 PDT
+
+eBay item: 178319411329
+Title: Tria Laser Hair Removal Model LHR 4.9 No Box
+Seller: moses9911
+Feedback: 333, 100% positive
+Items sold: 153
+Format: Auction / Best Offer
+Item price: US $79.99
+Bids: 0
+Shipping displayed: US $25.00 USPS Media Mail
+Previous captured shipping (2026-07-21): US $15.00 USPS Media Mail
+Displayed pre-tax item-plus-shipping total: US $104.99
+Location: San Antonio, Texas, United States
+Displayed delivery estimate: 2026-07-29 through 2026-08-05 to ZIP 60487
+Returns: Seller does not accept returns
+Cancellations: No cancellations for auctions
+
+Interpretation note: The shipping charge increased by $10.00. Media Mail remains an
+ineligible service for a hair-removal device, so the displayed $25.00 is useful for
+captured checkout arithmetic but may not be the lawful/actual parcel-service cost.

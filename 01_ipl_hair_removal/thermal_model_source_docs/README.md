@@ -1,6 +1,6 @@
 # IPL thermal-model source manifest
 
-*Created 2026-07-10. These local files support the temperature/damage audit in [`16_shr_ulike_thermal_simulation.md`](../16_shr_ulike_thermal_simulation.md) and [`shr_thermal_simulator.html`](../shr_thermal_simulator.html).*
+*Created 2026-07-10. These local files support the temperature/damage audit in [`16_shr_ulike_thermal_simulation.md`](../16_shr_ulike_thermal_simulation.md) and the [shared IPL & diode simulator](../hair_removal_thermal_simulator.html?mode=ipl).*
 
 | Local file | Source and access | Evidence role |
 |---|---|---|

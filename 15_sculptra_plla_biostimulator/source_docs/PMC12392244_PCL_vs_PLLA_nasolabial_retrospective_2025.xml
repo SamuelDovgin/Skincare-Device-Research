@@ -1,0 +1,565 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="jocd70414" xml:lang="en" article-type="research-article" dtd-version="1.4"><?da-xref-anchor-style autodetect?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">J Cosmet Dermatol</journal-id><journal-id journal-id-type="iso-abbrev">J Cosmet Dermatol</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="publisher-id">JOCD</journal-id><journal-title-group><journal-title>Journal of Cosmetic Dermatology</journal-title></journal-title-group><issn pub-type="ppub">1473-2130</issn><issn pub-type="epub">1473-2165</issn><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12392244</article-id><article-id pub-id-type="pmcid-ver">PMC12392244.1</article-id><article-id pub-id-type="pmcaid">12392244</article-id><article-id pub-id-type="pmcaiid">12392244</article-id><article-id pub-id-type="pmid">40874404</article-id><article-id pub-id-type="doi">10.1111/jocd.70414</article-id><article-id pub-id-type="publisher-id">JOCD70414</article-id><article-id pub-id-type="other">JCD-03-2025-331.R1</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Original Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Article</subject></subj-group></article-categories><title-group><article-title>Comparing the Safety and Effectiveness of <styled-content style="fixed-case" toggle="no">PCL</styled-content> and <styled-content style="fixed-case" toggle="no">PLLA</styled-content> Injections for Nasolabial Fold Correction</article-title></title-group><contrib-group><contrib id="jocd70414-cr-0001" contrib-type="author"><name name-style="western"><surname>Hu</surname><given-names initials="K">Kaixuan</given-names></name><xref rid="jocd70414-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="jocd70414-cr-0002" contrib-type="author" corresp="yes"><name name-style="western"><surname>Wang</surname><given-names initials="S">Shanqing</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0009-6510-5018</contrib-id><xref rid="jocd70414-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>wsq13078@rjh.com.cn</email></address></contrib></contrib-group><aff id="jocd70414-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Plastic Surgery Department</named-content>
+<institution>Quzhou Kecheng Dainiel Plastic Surgery Outpatient</institution>
+<city>Quzhou City</city>
+<country country="CN">China</country>
+</aff><aff id="jocd70414-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Dermatology, School of Medicine</named-content>
+<institution>Rui Jin Hospital, Shanghai Jiao Tong University</institution>
+<city>Shanghai City</city>
+<country country="CN">China</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence:</bold>
+<break/>
+Shanqing Wang (<email>wsq13078@rjh.com.cn</email>)<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>28</day><month>8</month><year>2025</year></pub-date><pub-date pub-type="ppub"><month>9</month><year>2025</year></pub-date><volume>24</volume><issue seq="180">9</issue><issue-id pub-id-type="pmc-issue-id">495721</issue-id><issue-id pub-id-type="doi">10.1111/jocd.v24.9</issue-id><elocation-id>e70414</elocation-id><history>
+<date date-type="rev-recd"><day>28</day><month>5</month><year>2025</year></date>
+<date date-type="received"><day>13</day><month>3</month><year>2025</year></date>
+<date date-type="accepted"><day>12</day><month>8</month><year>2025</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>28</day><month>08</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>29</day><month>08</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-08-30 10:25:14.330"><day>30</day><month>08</month><year>2025</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2025 The Author(s). <italic toggle="yes">Journal of Cosmetic Dermatology</italic> published by Wiley Periodicals LLC.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="JOCD-24-e70414.pdf"><?pdf-name JOCD-24-e70414.pdf?><?pdf-size 431036?><?pdf-md5 2ea36d34148f4c7b66a37399a0e934bd?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:cb8c/12392244/2ea36d34148f/JOCD-24-e70414.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:JOCD-24-e70414.pdf"/><abstract><title>ABSTRACT</title><sec id="jocd70414-sec-0001"><title>Background</title><p>Nasolabial folds (NLF) deepen with age, necessitating aesthetic treatments. Polycaprolactone (PCL) and poly‐<sc>l</sc>‐lactic acid (PLLA) are commonly used fillers. This study compares their safety and efficacy for NLF correction.</p></sec><sec id="jocd70414-sec-0002"><title>Methods</title><p>Participants aged 30–60 years were retrospectively reviewed after undergoing NLF correction with PCL (<italic toggle="no">n</italic> = 65) or PLLA (<italic toggle="no">n</italic> = 71) from January 2023 to December 2023. Primary outcomes included changes in the Nasolabial Fold Wrinkle Severity Rating Scale (WSRS) at baseline and 3, 6, and 12 months post‐treatment. Secondary outcomes assessed patient satisfaction via the FACE‐Q scale, Global Aesthetic Improvement Scale (GAIS), and safety profiles including side effects and adverse events.</p></sec><sec id="jocd70414-sec-0003"><title>Results</title><p>At 3 months, PCL exhibited significantly greater wrinkle reduction (WSRS score: 3.08 ± 0.37) compared to PLLA (3.27 ± 0.41; <italic toggle="no">p</italic> = 0.007). This trend persisted at 6 months (PCL: 2.23 ± 0.61 vs. PLLA: 2.49 ± 0.75; <italic toggle="no">p</italic> = 0.03) and 12 months (PCL: 1.92 ± 0.55 vs. PLLA: 2.17 ± 0.61; <italic toggle="no">p</italic> = 0.016). PCL also showed higher significant improvement rates on GAIS at 3 and 6 months. Patient satisfaction (FACE‐Q) was higher in the PCL group at both 6 and 12 months (<italic toggle="no">p</italic> &lt; 0.05). Safety profiles were comparable, with no significant differences in injection site reactions or adverse events.</p></sec><sec id="jocd70414-sec-0004"><title>Conclusion</title><p>PCL injections demonstrated superior effectiveness in reducing NLF wrinkle severity and achieving higher patient satisfaction compared to PLLA injections over a 12‐month period. Both materials exhibited comparable safety profiles, suggesting the suitability of PCL as a preferable option for NLF correction in cosmetic dermatology.</p></sec></abstract><kwd-group kwd-group-type="author-generated"><kwd id="jocd70414-kwd-0001">aesthetic improvement</kwd><kwd id="jocd70414-kwd-0002">nasolabial folds</kwd><kwd id="jocd70414-kwd-0003">patient satisfaction</kwd><kwd id="jocd70414-kwd-0004">polycaprolactone</kwd><kwd id="jocd70414-kwd-0005">poly‐<sc>l</sc>‐lactic acid</kwd><kwd id="jocd70414-kwd-0006">wrinkle severity</kwd></kwd-group><counts><fig-count count="1"/><table-count count="6"/><page-count count="8"/><word-count count="6000"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>September 2025</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.6.2 mode:remove_FC converted:28.08.2025</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="jocd70414-cit-1001">
+<string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Hu</surname>
+</string-name> and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Wang</surname>
+</string-name>, “<article-title>Comparing the Safety and Effectiveness of <styled-content style="fixed-case" toggle="no">PCL</styled-content> and <styled-content style="fixed-case" toggle="no">PLLA</styled-content> Injections for Nasolabial Fold Correction</article-title>,” <source>Journal of Cosmetic Dermatology</source>
+<volume>24</volume>, no. <issue>9</issue> (<year>2025</year>): <elocation-id>e70414</elocation-id>, <pub-id pub-id-type="doi">10.1111/jocd.70414</pub-id>.<pub-id pub-id-type="pmid">40874404</pub-id></mixed-citation>
+</p><fn-group id="jocd70414-ntgp-0001"><fn fn-type="funding" id="jocd70414-note-0001"><p>
+<bold>Funding:</bold> The authors received no specific funding for this work.</p></fn></fn-group></notes></front><body id="jocd70414-body-0001"><sec id="jocd70414-sec-0005"><label>1</label><title>Introduction</title><p>Nasolabial folds (NLF) are a prominent and common facial feature that deepens with age due to the loss of skin elasticity, subcutaneous fat, and collagen [<xref rid="jocd70414-bib-0001" ref-type="bibr">1</xref>]. These creases, extending from the sides of the nose to the corners of the mouth, can impart an aged or tired appearance, prompting many individuals to seek corrective treatments [<xref rid="jocd70414-bib-0002" ref-type="bibr">2</xref>]. The aesthetic correction of these folds has thus become a focal point of non‐surgical facial rejuvenation [<xref rid="jocd70414-bib-0003" ref-type="bibr">3</xref>]. Injectable fillers have emerged as a popular option for patients desiring less invasive alternatives to traditional surgical procedures [<xref rid="jocd70414-bib-0004" ref-type="bibr">4</xref>].</p><p>Globally, the demand for dermal fillers has seen a substantial rise, driven by the growing emphasis on aesthetic enhancement and the preference for minimally invasive cosmetic procedures [<xref rid="jocd70414-bib-0005" ref-type="bibr">5</xref>]. According to the American Society of Plastic Surgeons (ASPS), soft tissue filler procedures increased by 2% from 2019 to 2020, with over 3.4 million procedures performed in 2020 alone [<xref rid="jocd70414-bib-0006" ref-type="bibr">6</xref>]. This upward trend is mirrored globally, reflecting the widespread appeal of these treatments [<xref rid="jocd70414-bib-0007" ref-type="bibr">7</xref>]. Among these, the correction of NLF remains one of the most common indications for dermal filler use [<xref rid="jocd70414-bib-0008" ref-type="bibr">8</xref>].</p><p>Polycaprolactone (PCL) and poly‐<sc>l</sc>‐lactic acid (PLLA) are two of the most commonly used biodegradable materials in dermal fillers, each possessing unique properties that influence their clinical effects [<xref rid="jocd70414-bib-0008" ref-type="bibr">8</xref>, <xref rid="jocd70414-bib-0009" ref-type="bibr">9</xref>]. PCL is a long‐lasting synthetic polymer that provides structural support and induces collagenesis [<xref rid="jocd70414-bib-0010" ref-type="bibr">10</xref>]. Its degradation process takes place over a more extended period, often up to 2–3 years, which can result in sustained volumization and wrinkle correction [<xref rid="jocd70414-bib-0011" ref-type="bibr">11</xref>]. On the other hand, PLLA is a biocompatible, biodegradable polymer that primarily acts as a collagen stimulator. PLLA particles initiate a robust inflammatory response that promotes fibroblast activation and collagen production, leading to gradual and less immediate volume restoration compared to more cohesive fillers [<xref rid="jocd70414-bib-0012" ref-type="bibr">12</xref>].</p><p>The clinical efficacy and safety profiles of PCL and PLLA have been the subject of numerous studies [<xref rid="jocd70414-bib-0013" ref-type="bibr">13</xref>]. However, comparative data specifically focusing on their use in NLF correction remain limited [<xref rid="jocd70414-bib-0013" ref-type="bibr">13</xref>]. Considerable variations exist in their mechanisms of action, duration of effects, and potential side effects, making it essential to rigorously evaluate their relative performance in a controlled setting [<xref rid="jocd70414-bib-0014" ref-type="bibr">14</xref>].</p><p>This study aims to address this gap by retrospectively comparing the safety and effectiveness of PCL and PLLA injections for NLF correction. We hypothesize that the distinct physical and biological characteristics of these materials will result in different clinical outcomes and patient satisfaction levels, thereby informing best practices for their application in aesthetic dermatology.</p></sec><sec sec-type="materials-and-methods" id="jocd70414-sec-0006"><label>2</label><title>Materials and Methods</title><sec id="jocd70414-sec-0007"><label>2.1</label><title>Study Design</title><p>This retrospective cohort study enrolled patients who underwent nasal labial fold correction at our institution between January 2023 and December 2023. The patients were divided into two groups based on the corrective materials used: PLLA (<italic toggle="yes">n</italic> = 65) and PCL (<italic toggle="yes">n</italic> = 71). Physicians followed individual patient needs in material selection (such as the desired duration of effect and economic factors), but the procedural techniques (such as injection angles and layers) strictly adhered to the product instructions and international consensus guidelines. The consistency of the physicians' experience and techniques in both groups has been verified through preoperative training records.</p><p>This study was approved by the Ethics Committee of Quzhou Kecheng Dainier Plastic Surgery Outpatient in accordance with regulatory and ethical guidelines pertaining to retrospective research studies and conducted in accordance with the Declaration of Helsinki. Informed consent was waived for this retrospective study due to the exclusive use of de‐identified patient data, which posed no potential harm or impact on patient care.</p></sec><sec id="jocd70414-sec-0008"><label>2.2</label><title>Eligibility Criteria</title><p>Inclusion criteria encompassed subjects aged 30–60 years of any gender with identical bilateral NLF WSRS grades of 3 to 4 and a willingness to undergo corrective treatment for NLF, who demonstrate good compliance and have reasonable expectations of cosmetic surgical outcomes, adhering to study procedures until clinical trial completion. Exclusion criteria included individuals with active facial infections or inflammation, severe organic or mental disorders, malignant skin tumors, participation in other clinical trials or phototherapy, and injectable treatments in the targeted area within the past 6 months, a history of facial surgery, permanent filler injections in the NLF, or fat grafting, as well as pregnant or breastfeeding women, those planning pregnancy, and individuals with a propensity for scarring.</p></sec><sec id="jocd70414-sec-0009"><label>2.3</label><title>Surgical Methods</title><p>Before starting treatment, all patients underwent a comprehensive examination, encompassing their medical history and current medications. Pretreatment photographs were taken to establish their WSRS (Wrinkle Severity Rating Scale) ratings.</p><p>For the PLLA Group, injectable PLLA (Löviselle, Changchun Synthe Biological Materials Co. Ltd., Registration No. 20213130276) was prepared by mixing 5 mL of sterile water with the powder and allowing it to hydrate for at least 2 h before injection. The injections were administered using a 27G blunt needle into the shallow and intermediate subcutaneous layers. Prior to the injection, a topical cream, Compound Lidocaine Cream (Beijing Ziguang Pharmaceutical Industry Co. Ltd., Beijing, China) was applied to the NLF, and the reconstituted product did not contain any anesthetics. Following the initial injection session, follow‐up evaluations were conducted every 4–6 weeks to determine if further correction was necessary.</p><p>For the PCL injections (Ellansé, Sinclair, a subsidiary of Huadong Medicine, Registration No. 20213130100), a 25‐G blunt needle was used to deliver the substance into the mid‐to‐deep dermis at an angle of approximately 30°, parallel to the length of the fold. The aim of the initial injections was to achieve suboptimal augmentation of the folds. The treated areas were gently massaged to conform to the surrounding tissue if needed. If swelling occurred immediately after the injection, an ice pack was applied temporarily to the affected area. Patients were advised to avoid excessive sun exposure, UV lamps, and extreme cold weather until the initial redness and swelling had subsided.</p></sec><sec id="jocd70414-sec-0010"><label>2.4</label><title>Data Collection</title><p>Data collection encompassed various aspects of patient information and outcomes: general patient demographics were recorded, including age, gender, wrinkle duration, past cosmetic procedures, Fitzpatrick skin type, previous filler use, residence, and employment status. Surgical and recovery details, such as surgery duration, time to return to work, swelling time, post‐injection discomfort, and pain medication requirements, were documented. NLF wrinkle grades at baseline and at 3, 6, and 12 months post‐treatment were evaluated, along with overall facial aesthetic improvements at 3 and 6 months post‐procedure. Additionally, FACE‐Q aesthetic scale scores were noted at baseline and at 6 and 12 months post‐treatment. Safety outcomes were monitored by recording injection site reactions, nodule formation, discoloration, and infections, while adverse events such as granuloma formation, vascular occlusion, hypersensitivity reactions, and bruising were also meticulously tracked.</p></sec><sec id="jocd70414-sec-0011"><label>2.5</label><title>Nasolabial Fold <styled-content style="fixed-case" toggle="no">WSRS</styled-content>
+</title><p>The Nasolabial Fold Wrinkle Severity Rating Scale (WSRS) categorizes wrinkles into five grades: Grade 1 indicates no visible wrinkles, only continuous skin folds; Grade 2 represents mild wrinkles, more noticeable when smiling, with slight indentations; Grade 3 signifies moderate wrinkles that are visible at rest but disappear when the skin is stretched; Grade 4 describes long and deep wrinkles, prominent even at rest, with &lt; 2 mm visible when stretched; and Grade 5 denotes extremely deep and long wrinkles that severely affect facial appearance, with 2–4 mm visible upon stretching.</p></sec><sec id="jocd70414-sec-0012"><label>2.6</label><title>Global Aesthetic Improvement Scale (<styled-content style="fixed-case" toggle="no">GAIS</styled-content>) Descriptions</title><p>The GAIS describes the improvement in overall facial aesthetics as follows: “Very Significant Improvement” indicates achieving the optimal aesthetic outcome post‐implant; “Significant Improvement” denotes a substantial enhancement in appearance compared to the original state, though not optimal; “Moderate Improvement” refers to noticeable appearance enhancement; “No Improvement” means little to no difference in appearance compared to the initial state; and “Worsening” signifies a deterioration in appearance from the original condition.</p></sec><sec id="jocd70414-sec-0013"><label>2.7</label><title>Patient Satisfaction Assessment Using <styled-content style="fixed-case" toggle="no">FACE</styled-content>‐Q</title><p>Patient satisfaction was measured using two subscales from the FACE‐Q questionnaire: Satisfaction with Facial Skin and Satisfaction with Nose. Each subscale consists of 12 questions, rated on a 4‐point Likert scale ranging from Very Dissatisfied (1) to Very Satisfied (4). The raw scores (12–48) were converted into a scale ranging from 0 (worst) to 100 (best), with higher scores indicating greater satisfaction. The reliability of each FACE‐Q subscale is robust, with Cronbach's alpha values ranging from 0.88 to 0.951 [<xref rid="jocd70414-bib-0015" ref-type="bibr">15</xref>].</p></sec><sec id="jocd70414-sec-0014"><label>2.8</label><title>Statistical Methods</title><p>Data were analyzed using SPSS version 29.0 (SPSS Inc., Chicago, IL, USA). Categorical variables were presented as [<italic toggle="yes">n</italic>(%)]. Categorical variables were analyzed using chi‐square tests. Continuous variables were assessed for normality using the Shapiro–Wilk test. The continuous variable of normal distribution is represented as mean ± standard deviation (mean ± SD). Normally distributed continuous variables were analyzed using <italic toggle="yes">t</italic>‐tests. A two‐sided <italic toggle="yes">p</italic> value of &lt; 0.05 was considered statistically significant.</p></sec></sec><sec sec-type="results" id="jocd70414-sec-0015"><label>3</label><title>Results</title><sec id="jocd70414-sec-0016"><label>3.1</label><title>Baseline Characteristics of Study Participants</title><p>The baseline characteristics of the participants in the PCL group (<italic toggle="yes">n</italic> = 65) and PLLA group (<italic toggle="yes">n</italic> = 71) were comparable (Table <xref rid="jocd70414-tbl-0001" ref-type="table">1</xref>). The mean age was 45.21 ± 3.57 years in the PCL group and 44.78 ± 3.25 years in the PLLA group (<italic toggle="yes">t =</italic> 0.730; <italic toggle="yes">p =</italic> 0.467). Gender distribution was similar between the groups, with 24 males (36.92%) and 41 females (63.08%) in the PCL group, compared to 28 males (39.44%) and 43 females (60.56%) in the PLLA group (<italic toggle="yes">χ</italic>
+<sup>2</sup> = 0.016; <italic toggle="yes">p =</italic> 0.901). Participants reported a mean duration of wrinkles of 18.56 ± 3.18 months in the PCL group and 19.36 ± 2.57 months in the PLLA group (<italic toggle="yes">t =</italic> 1.611; <italic toggle="yes">p =</italic> 0.11). Prior cosmetic procedures were reported by 20 participants (30.77%) in the PCL group and 20 participants (28.17%) in the PLLA group (<italic toggle="yes">χ</italic>
+<sup>2</sup> = 0.021; <italic toggle="yes">p =</italic> 0.885). Fitzpatrick skin types I–VI were similarly distributed, with no significant variation between groups (<italic toggle="yes">p =</italic> 0.91). Previous filler use was comparable, with 15 participants (23.08%) in the PCL group and 18 participants (25.35%) in the PLLA group (<italic toggle="yes">χ</italic>
+<sup>2</sup> = 0.012; <italic toggle="yes">p =</italic> 0.913). Urban versus rural residence and employment status distributions were analogous across both groups (<italic toggle="yes">p =</italic> 0.648 and <italic toggle="yes">p =</italic> 0.862, respectively).</p><table-wrap position="float" id="jocd70414-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Baseline characteristics of study participants.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Parameter</th><th align="center" valign="bottom" rowspan="1" colspan="1">PCL group (<italic toggle="yes">n</italic> = 65)</th><th align="center" valign="bottom" rowspan="1" colspan="1">PLLA group (<italic toggle="yes">n</italic> = 71)</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">t</italic>/<italic toggle="yes">χ</italic>
+<sup>2</sup>
+</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Age (years)</td><td align="center" valign="top" rowspan="1" colspan="1">45.21 ± 3.57</td><td align="center" valign="top" rowspan="1" colspan="1">44.78 ± 3.25</td><td align="center" valign="top" rowspan="1" colspan="1">0.730</td><td align="center" valign="top" rowspan="1" colspan="1">0.467</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Gender (male/female)</td><td align="center" valign="top" rowspan="1" colspan="1">24 (36.92%)/41 (63.08%)</td><td align="center" valign="top" rowspan="1" colspan="1">28 (39.44%)/43 (60.56%)</td><td align="center" valign="top" rowspan="1" colspan="1">0.016</td><td align="center" valign="top" rowspan="1" colspan="1">0.901</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Duration of wrinkles (months)</td><td align="center" valign="top" rowspan="1" colspan="1">18.56 ± 3.18</td><td align="center" valign="top" rowspan="1" colspan="1">19.36 ± 2.57</td><td align="center" valign="top" rowspan="1" colspan="1">1.611</td><td align="center" valign="top" rowspan="1" colspan="1">0.11</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Prior cosmetic procedures</td><td align="center" valign="top" rowspan="1" colspan="1">20 (30.77%)</td><td align="center" valign="top" rowspan="1" colspan="1">20 (28.17%)</td><td align="center" valign="top" rowspan="1" colspan="1">0.021</td><td align="center" valign="top" rowspan="1" colspan="1">0.885</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Fitzpatrick skin type (I–VI)</td><td align="center" valign="top" rowspan="1" colspan="1">21 (32.31%)/22 (33.85%)/10 (15.38%)/8 (12.31%)/4 (6.15%)</td><td align="center" valign="top" rowspan="1" colspan="1">23 (32.39%)/21 (29.58%)/15 (21.13%)/9 (12.68%)/3 (4.23%)</td><td align="center" valign="top" rowspan="1" colspan="1">None</td><td align="center" valign="top" rowspan="1" colspan="1">0.91</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Previous filler use (Y/N)</td><td align="center" valign="top" rowspan="1" colspan="1">15 (23.08%)/50 (76.92%)</td><td align="center" valign="top" rowspan="1" colspan="1">18 (25.35%)/53 (74.65%)</td><td align="center" valign="top" rowspan="1" colspan="1">0.012</td><td align="center" valign="top" rowspan="1" colspan="1">0.913</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Urban/rural residence (%)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">0.209</td><td align="center" valign="top" rowspan="1" colspan="1">0.648</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Urban</td><td align="center" valign="top" rowspan="1" colspan="1">49 (75.38%)</td><td align="center" valign="top" rowspan="1" colspan="1">50 (70.42%)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Rural</td><td align="center" valign="top" rowspan="1" colspan="1">16 (24.62%)</td><td align="center" valign="top" rowspan="1" colspan="1">21 (29.58%)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Employment status</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">0.297</td><td align="center" valign="top" rowspan="1" colspan="1">0.862</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Employed (%)</td><td align="center" valign="top" rowspan="1" colspan="1">50 (76.92%)</td><td align="center" valign="top" rowspan="1" colspan="1">53 (74.65%)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Unemployed (%)</td><td align="center" valign="top" rowspan="1" colspan="1">8 (12.31%)</td><td align="center" valign="top" rowspan="1" colspan="1">11 (15.49%)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Retired (%)</td><td align="center" valign="top" rowspan="1" colspan="1">7 (10.77%)</td><td align="center" valign="top" rowspan="1" colspan="1">7 (9.86%)</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr></tbody></table></table-wrap></sec><sec id="jocd70414-sec-0017"><label>3.2</label><title>Duration of the Procedure and Recovery Time</title><p>The duration of the procedure, recovery time, and post‐injection experiences were similar between the PCL and PLLA groups (Table <xref rid="jocd70414-tbl-0002" ref-type="table">2</xref>). The mean procedure duration was 32.54 ± 5.69 min for the PCL group and 32.89 ± 5.75 min for the PLLA group (<italic toggle="yes">t =</italic> 0.349; <italic toggle="yes">p =</italic> 0.728). The average time to return to work was slightly shorter in the PCL group (0.98 ± 0.25 days) compared to the PLLA group (1.05 ± 0.28 days), but the difference was not statistically significant (<italic toggle="yes">t =</italic> 1.635; <italic toggle="yes">p =</italic> 0.104). Both groups reported similar post‐injection discomfort scores, with mean values of 3.45 ± 1.08 for the PCL group and 3.52 ± 1.15 for the PLLA group (<italic toggle="yes">t =</italic> 0.354; <italic toggle="yes">p =</italic> 0.724). The need for pain medication was reported by eight participants (12.31%) in the PCL group and 11 participants (15.49%) in the PLLA group, with no significant difference between the groups (<italic toggle="yes">χ</italic>
+<sup>2</sup> = 0.083; <italic toggle="yes">p =</italic> 0.774). Swelling time was significantly longer in the PCL group (3.03 ± 0.78 days) compared to the PLLA group (3.34 ± 0.82 days) (<italic toggle="yes">t</italic> = 2.249, <italic toggle="yes">p</italic> = 0.026). These results indicate that while most measured parameters did not show significant differences between the two groups, the swelling time was notably longer in the PLLA group, suggesting potential clinical implications for post‐procedure recovery.</p><table-wrap position="float" id="jocd70414-tbl-0002" content-type="TABLE" orientation="portrait"><label>TABLE 2</label><caption><p>Duration of the procedure and recovery time.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Parameter</th><th align="center" valign="bottom" rowspan="1" colspan="1">PCL group (<italic toggle="yes">n</italic> = 65)</th><th align="center" valign="bottom" rowspan="1" colspan="1">PLLA group (<italic toggle="yes">n</italic> = 71)</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">t</italic>/<italic toggle="yes">χ</italic>
+<sup>2</sup>
+</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Procedure duration (min)</td><td align="center" valign="top" rowspan="1" colspan="1">32.54 ± 5.69</td><td align="center" valign="top" rowspan="1" colspan="1">32.89 ± 5.75</td><td align="center" valign="top" rowspan="1" colspan="1">0.349</td><td align="center" valign="top" rowspan="1" colspan="1">0.728</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Time to return to work (days)</td><td align="center" valign="top" rowspan="1" colspan="1">0.98 ± 0.25</td><td align="center" valign="top" rowspan="1" colspan="1">1.05 ± 0.28</td><td align="center" valign="top" rowspan="1" colspan="1">1.635</td><td align="center" valign="top" rowspan="1" colspan="1">0.104</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Swelling time (days)</td><td align="center" valign="top" rowspan="1" colspan="1">3.03 ± 0.78</td><td align="center" valign="top" rowspan="1" colspan="1">3.34 ± 0.82</td><td align="center" valign="top" rowspan="1" colspan="1">2.249</td><td align="center" valign="top" rowspan="1" colspan="1">0.026</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Post‐injection discomfort (0–10 scale)</td><td align="center" valign="top" rowspan="1" colspan="1">3.45 ± 1.08</td><td align="center" valign="top" rowspan="1" colspan="1">3.52 ± 1.15</td><td align="center" valign="top" rowspan="1" colspan="1">0.354</td><td align="center" valign="top" rowspan="1" colspan="1">0.724</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Need for pain medication (%)</td><td align="center" valign="top" rowspan="1" colspan="1">8 (12.31%)/57 (87.69%)</td><td align="center" valign="top" rowspan="1" colspan="1">11 (15.49%)/60 (84.51%)</td><td align="center" valign="top" rowspan="1" colspan="1">0.083</td><td align="center" valign="top" rowspan="1" colspan="1">0.774</td></tr></tbody></table></table-wrap></sec><sec id="jocd70414-sec-0018"><label>3.3</label><title>Nasolabial Fold Wrinkle Severity Rating Scale</title><p>The effectiveness of PCL and PLLA injections for NLF correction was assessed using the Nasolabial Fold Wrinkle Severity Rating Scale at multiple time points (Table <xref rid="jocd70414-tbl-0003" ref-type="table">3</xref>). At baseline, the mean wrinkle severity scores were comparable between the PCL group (4.12 ± 0.65) and the PLLA group (4.08 ± 0.69) (<italic toggle="yes">t =</italic> 0.372; <italic toggle="yes">p =</italic> 0.711). At 3 months, the PCL group exhibited a statistically significant greater reduction in wrinkle severity (mean score of 3.08 ± 0.37) compared to the PLLA group (mean score of 3.27 ± 0.41) (<italic toggle="yes">t =</italic> 2.745; <italic toggle="yes">p =</italic> 0.007). This trend continued at 6 months, with the PCL group showing a mean score of 2.23 ± 0.61 versus 2.49 ± 0.75 in the PLLA group (<italic toggle="yes">t =</italic> 2.195; <italic toggle="yes">p =</italic> 0.03). At 12 months, the PCL group maintained lower wrinkle severity scores (mean score of 1.92 ± 0.55) compared to the PLLA group (mean score of 2.17 ± 0.61), with the difference remaining statistically significant (<italic toggle="yes">t =</italic> 2.443; <italic toggle="yes">p =</italic> 0.016) (Figure <xref rid="jocd70414-fig-0001" ref-type="fig">1</xref>).</p><table-wrap position="float" id="jocd70414-tbl-0003" content-type="TABLE" orientation="portrait"><label>TABLE 3</label><caption><p>Global Aesthetic Improvement Scale.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Time point</th><th align="center" valign="bottom" rowspan="1" colspan="1">PCL group (<italic toggle="yes">n</italic> = 65)</th><th align="center" valign="bottom" rowspan="1" colspan="1">PLLA group (<italic toggle="yes">n</italic> = 71)</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">χ</italic>
+<sup>2</sup>
+</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</th></tr></thead><tbody valign="top"><tr><td align="left" colspan="5" valign="top" rowspan="1">3 months</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Very significant improvement</td><td align="center" valign="top" rowspan="1" colspan="1">10 (15.38%)</td><td align="center" valign="top" rowspan="1" colspan="1">2 (2.82%)</td><td align="center" valign="top" rowspan="1" colspan="1">5.192</td><td align="center" valign="top" rowspan="1" colspan="1">0.023</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Significant improvement</td><td align="center" valign="top" rowspan="1" colspan="1">11 (16.92%)</td><td align="center" valign="top" rowspan="1" colspan="1">3 (4.23%)</td><td align="center" valign="top" rowspan="1" colspan="1">4.63</td><td align="center" valign="top" rowspan="1" colspan="1">0.031</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Partial improvement</td><td align="center" valign="top" rowspan="1" colspan="1">42 (64.62%)</td><td align="center" valign="top" rowspan="1" colspan="1">57 (80.28%)</td><td align="center" valign="top" rowspan="1" colspan="1">3.452</td><td align="center" valign="top" rowspan="1" colspan="1">0.063</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">No improvement</td><td align="center" valign="top" rowspan="1" colspan="1">2 (3.08%)</td><td align="center" valign="top" rowspan="1" colspan="1">8 (11.27%)</td><td align="center" valign="top" rowspan="1" colspan="1">2.248</td><td align="center" valign="top" rowspan="1" colspan="1">0.134</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Worsening</td><td align="center" valign="top" rowspan="1" colspan="1">0 (0%)/65 (100%)</td><td align="center" valign="top" rowspan="1" colspan="1">3 (4.23%)</td><td align="center" valign="top" rowspan="1" colspan="1">1.191</td><td align="center" valign="top" rowspan="1" colspan="1">0.275</td></tr><tr><td align="left" colspan="5" valign="top" rowspan="1">6 months</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Very significant improvement</td><td align="center" valign="top" rowspan="1" colspan="1">31 (47.69%)</td><td align="center" valign="top" rowspan="1" colspan="1">20 (28.17%)</td><td align="center" valign="top" rowspan="1" colspan="1">4.717</td><td align="center" valign="top" rowspan="1" colspan="1">0.030</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Significant improvement</td><td align="center" valign="top" rowspan="1" colspan="1">17 (26.15%)</td><td align="center" valign="top" rowspan="1" colspan="1">8 (11.27%)</td><td align="center" valign="top" rowspan="1" colspan="1">4.069</td><td align="center" valign="top" rowspan="1" colspan="1">0.044</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Partial improvement</td><td align="center" valign="top" rowspan="1" colspan="1">10 (15.38%)</td><td align="center" valign="top" rowspan="1" colspan="1">27 (38.03%)</td><td align="center" valign="top" rowspan="1" colspan="1">7.679</td><td align="center" valign="top" rowspan="1" colspan="1">0.006</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">No improvement</td><td align="center" valign="top" rowspan="1" colspan="1">6 (9.23%)</td><td align="center" valign="top" rowspan="1" colspan="1">11 (15.49%)</td><td align="center" valign="top" rowspan="1" colspan="1">0.711</td><td align="center" valign="top" rowspan="1" colspan="1">0.399</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Worsening</td><td align="center" valign="top" rowspan="1" colspan="1">1 (1.54%)</td><td align="center" valign="top" rowspan="1" colspan="1">5 (7.04%)</td><td align="center" valign="top" rowspan="1" colspan="1">1.307</td><td align="center" valign="top" rowspan="1" colspan="1">0.253</td></tr></tbody></table></table-wrap><fig position="float" fig-type="FIGURE" id="jocd70414-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Changes in the severity score of nasolabial folds (WSRS) over time. *<italic toggle="yes">p</italic> &lt; 0.05, **<italic toggle="yes">p</italic> &lt; 0.01. Wrinkle Severity Rating Scale (WSRS) was detected at baseline and 3, 6, and 12 months post‐treatment. Polycaprolactone (PCL) group versus poly‐<sc>l</sc>‐lactic acid (PLLA) group was analyzed by independent sample <italic toggle="yes">t</italic>‐test.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="JOCD-24-e70414-g001.jpg"><?image-name JOCD-24-e70414-g001.jpg?><?image-size 29674?><?image-md5 b7ea61df0cc84953676e4474bf6da9b5?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 546?><?image-original-width 999?><?image-scaled-height 364?><?image-scaled-width 666?><?image-cloudpmc-urn urn:cdn:blobs/cb8c/12392244/b7ea61df0cc8/JOCD-24-e70414-g001.jpg?><?thumb-name JOCD-24-e70414-g001.gif?><?thumb-size 3043?><?thumb-md5 50718dded4cab6fdf669bfbf5ff0f79c?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 146?><?thumb-cloudpmc-urn urn:cdn:blobs/cb8c/12392244/50718dded4ca/JOCD-24-e70414-g001.gif?></graphic></fig></sec><sec id="jocd70414-sec-0019"><label>3.4</label><title>Global Aesthetic Improvement Scale</title><p>The GAIS scores demonstrated differing degrees of aesthetic enhancement between the PCL and PLLA groups (Table <xref rid="jocd70414-tbl-0003" ref-type="table">3</xref>). At 3 months, a higher proportion of participants in the PCL group experienced very significant improvement (15.38% vs. 2.82%; <italic toggle="yes">χ</italic>
+<sup>2</sup> = 5.192; <italic toggle="yes">p =</italic> 0.023). Additionally, significant improvement was observed in 16.92% of the PCL group compared to 4.23% of the PLLA group (<italic toggle="yes">χ</italic>
+<sup>2</sup> = 4.63; <italic toggle="yes">p =</italic> 0.031). Partial improvement was noted in 64.62% of the PCL group and 80.28% of the PLLA group (<italic toggle="yes">χ</italic>
+<sup>2</sup> = 3.452; <italic toggle="yes">p =</italic> 0.063), while no improvement and worsening were not statistically significant between both groups (<italic toggle="yes">χ</italic>
+<sup>2</sup> = 2.248; <italic toggle="yes">p =</italic> 0.134 and <italic toggle="yes">χ</italic>
+<sup>2</sup> = 1.191; <italic toggle="yes">p =</italic> 0.275, respectively). At 6 months, 47.69% of the PCL group reported very significant improvement versus 28.17% in the PLLA group (<italic toggle="yes">χ</italic>
+<sup>2</sup> = 4.717; <italic toggle="yes">p =</italic> 0.030), and significant improvement was reported by 26.15% of the PCL group compared to 11.27% of the PLLA group (<italic toggle="yes">χ</italic>
+<sup>2</sup> = 4.069; <italic toggle="yes">p =</italic> 0.044). Conversely, partial improvement was more common in the PLLA group (38.03% vs. 15.38%; <italic toggle="yes">χ</italic>
+<sup>2</sup> = 7.679; <italic toggle="yes">p =</italic> 0.006). The differences in no improvement and worsening at this time point were not statistically significant (<italic toggle="yes">χ</italic>
+<sup>2</sup> = 0.711; <italic toggle="yes">p =</italic> 0.399 and <italic toggle="yes">χ</italic>
+<sup>2</sup> = 1.307; <italic toggle="yes">p =</italic> 0.253, respectively).</p></sec><sec id="jocd70414-sec-0020"><label>3.5</label><title>
+<styled-content style="fixed-case" toggle="no">FACE</styled-content>‐Q Scale</title><p>Patient satisfaction, as measured by the FACE‐Q scale, showed statistically significant differences between the PCL and PLLA groups at 6 and 12 months (Table <xref rid="jocd70414-tbl-0004" ref-type="table">4</xref>). At baseline, satisfaction with skin (PCL: 42.59 ± 3.59, PLLA: 43.17 ± 3.69; <italic toggle="yes">t =</italic> 0.932; <italic toggle="yes">p =</italic> 0.353) and nose (PCL: 33.81 ± 4.93, PLLA: 32.93 ± 5.28; <italic toggle="yes">t =</italic> 1.010; <italic toggle="yes">p =</italic> 0.314) was not significantly different between the groups. However, at 6 months, satisfaction with skin was significantly higher in the PCL group (66.38 ± 5.83) compared to the PLLA group (63.88 ± 6.74; <italic toggle="yes">t =</italic> 2.322; <italic toggle="yes">p =</italic> 0.022), as was satisfaction with nose (PCL: 75.84 ± 6.09, PLLA: 73.21 ± 5.97; <italic toggle="yes">t =</italic> 2.544; <italic toggle="yes">p =</italic> 0.012). These differences were sustained at 12 months, with the PCL group reporting higher satisfaction with skin (78.91 ± 4.18) compared to the PLLA group (76.49 ± 4.59; <italic toggle="yes">t =</italic> 3.219; <italic toggle="yes">p =</italic> 0.002), and higher satisfaction with nose (PCL: 84.56 ± 6.52, PLLA: 81.27 ± 6.17; <italic toggle="yes">t =</italic> 3.020; <italic toggle="yes">p =</italic> 0.003).</p><table-wrap position="float" id="jocd70414-tbl-0004" content-type="TABLE" orientation="portrait"><label>TABLE 4</label><caption><p>FACE‐Q scale.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Time point</th><th align="center" valign="bottom" rowspan="1" colspan="1">PCL group (<italic toggle="yes">n</italic> = 65)</th><th align="center" valign="bottom" rowspan="1" colspan="1">PLLA group (<italic toggle="yes">n</italic> = 71)</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">t</italic>
+</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Baseline satisfaction with skin</td><td align="center" valign="top" rowspan="1" colspan="1">42.59 ± 3.59</td><td align="center" valign="top" rowspan="1" colspan="1">43.17 ± 3.69</td><td align="center" valign="top" rowspan="1" colspan="1">0.932</td><td align="center" valign="top" rowspan="1" colspan="1">0.353</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Baseline satisfaction with nose</td><td align="center" valign="top" rowspan="1" colspan="1">33.81 ± 4.93</td><td align="center" valign="top" rowspan="1" colspan="1">32.93 ± 5.28</td><td align="center" valign="top" rowspan="1" colspan="1">1.010</td><td align="center" valign="top" rowspan="1" colspan="1">0.314</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">6 months satisfaction with skin</td><td align="center" valign="top" rowspan="1" colspan="1">66.38 ± 5.83</td><td align="center" valign="top" rowspan="1" colspan="1">63.88 ± 6.74</td><td align="center" valign="top" rowspan="1" colspan="1">2.322</td><td align="center" valign="top" rowspan="1" colspan="1">0.022</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">6 months satisfaction with nose</td><td align="center" valign="top" rowspan="1" colspan="1">75.84 ± 6.09</td><td align="center" valign="top" rowspan="1" colspan="1">73.21 ± 5.97</td><td align="center" valign="top" rowspan="1" colspan="1">2.544</td><td align="center" valign="top" rowspan="1" colspan="1">0.012</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">12 months satisfaction with skin</td><td align="center" valign="top" rowspan="1" colspan="1">78.91 ± 4.18</td><td align="center" valign="top" rowspan="1" colspan="1">76.49 ± 4.59</td><td align="center" valign="top" rowspan="1" colspan="1">3.219</td><td align="center" valign="top" rowspan="1" colspan="1">0.002</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">12 months satisfaction with nose</td><td align="center" valign="top" rowspan="1" colspan="1">84.56 ± 6.52</td><td align="center" valign="top" rowspan="1" colspan="1">81.27 ± 6.17</td><td align="center" valign="top" rowspan="1" colspan="1">3.020</td><td align="center" valign="top" rowspan="1" colspan="1">0.003</td></tr></tbody></table></table-wrap></sec><sec id="jocd70414-sec-0021"><label>3.6</label><title>Safety Outcomes</title><p>The safety outcomes for PCL and PLLA injections for NLF correction were similar across both groups, with no statistically significant differences observed (Table <xref rid="jocd70414-tbl-0005" ref-type="table">5</xref>). Injection site reactions occurred in 15.38% of participants in the PCL group and 16.9% in the PLLA group (<italic toggle="yes">χ</italic>
+<sup>2</sup> = 0; <italic toggle="yes">p =</italic> 0.995). Nodule formation was reported in 4.62% of the PCL group and 0.00% of the PLLA group (<italic toggle="yes">χ</italic>
+<sup>2</sup> = 1.553; <italic toggle="yes">p =</italic> 0.213). Discoloration was noted in 10.77% of participants in the PCL group and 12.68% in the PLLA group (<italic toggle="yes">χ</italic>
+<sup>2</sup> = 0.006; <italic toggle="yes">p =</italic> 0.938). Infection occurred in 1.54% of the PCL group compared to 4.23% in the PLLA group (<italic toggle="yes">χ</italic>
+<sup>2</sup> = 0.175; <italic toggle="yes">p =</italic> 0.676).</p><table-wrap position="float" id="jocd70414-tbl-0005" content-type="TABLE" orientation="portrait"><label>TABLE 5</label><caption><p>Safety outcomes.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Parameter</th><th align="center" valign="bottom" rowspan="1" colspan="1">PCL group (<italic toggle="yes">n</italic> = 65)</th><th align="center" valign="bottom" rowspan="1" colspan="1">PLLA group (<italic toggle="yes">n</italic> = 71)</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">χ</italic>
+<sup>2</sup>
+</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Injection site reactions (%)</td><td align="center" valign="top" rowspan="1" colspan="1">10 (15.38%)</td><td align="center" valign="top" rowspan="1" colspan="1">12 (16.9%)</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">0.995</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Nodule formation (%)</td><td align="center" valign="top" rowspan="1" colspan="1">3 (4.62%)</td><td align="center" valign="top" rowspan="1" colspan="1">0 (0.00%)</td><td align="center" valign="top" rowspan="1" colspan="1">1.553</td><td align="center" valign="top" rowspan="1" colspan="1">0.213</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Discoloration (%)</td><td align="center" valign="top" rowspan="1" colspan="1">7 (10.77%)</td><td align="center" valign="top" rowspan="1" colspan="1">9 (12.68%)</td><td align="center" valign="top" rowspan="1" colspan="1">0.006</td><td align="center" valign="top" rowspan="1" colspan="1">0.938</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Infection (%)</td><td align="center" valign="top" rowspan="1" colspan="1">1 (1.54%)</td><td align="center" valign="top" rowspan="1" colspan="1">3 (4.23%)</td><td align="center" valign="top" rowspan="1" colspan="1">0.175</td><td align="center" valign="top" rowspan="1" colspan="1">0.676</td></tr></tbody></table></table-wrap></sec><sec id="jocd70414-sec-0022"><label>3.7</label><title>Adverse Events</title><p>The occurrence of adverse events following PCL and PLLA injections for NLF correction was low and showed no statistically significant differences between the two groups (Table <xref rid="jocd70414-tbl-0006" ref-type="table">6</xref>). Granulomas were reported in 3.08% of the PCL group and 1.41% of the PLLA group (<italic toggle="yes">χ</italic>
+<sup>2</sup> = 0.006; <italic toggle="yes">p =</italic> 0.938). Hypersensitivity reactions were observed in 3.08% of the PCL group and 5.63% of the PLLA group (<italic toggle="yes">χ</italic>
+<sup>2</sup> = 0.094; <italic toggle="yes">p =</italic> 0.759). Bruising was reported by 7.69% of participants in the PCL group and 9.86% in the PLLA group (<italic toggle="yes">χ</italic>
+<sup>2</sup> = 0.020; <italic toggle="yes">p =</italic> 0.887).</p><table-wrap position="float" id="jocd70414-tbl-0006" content-type="TABLE" orientation="portrait"><label>TABLE 6</label><caption><p>Adverse events.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1"/><th align="center" valign="bottom" rowspan="1" colspan="1">PCL group (<italic toggle="yes">n</italic> = 65)</th><th align="center" valign="bottom" rowspan="1" colspan="1">PLLA group (<italic toggle="yes">n</italic> = 71)</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">χ</italic>
+<sup>2</sup>
+</th><th align="center" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Granulomas (%)</td><td align="center" valign="top" rowspan="1" colspan="1">2 (3.08%)</td><td align="center" valign="top" rowspan="1" colspan="1">1 (1.41%)</td><td align="center" valign="top" rowspan="1" colspan="1">0.006</td><td align="center" valign="top" rowspan="1" colspan="1">0.938</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Hypersensitivity (%)</td><td align="center" valign="top" rowspan="1" colspan="1">2 (3.08%)</td><td align="center" valign="top" rowspan="1" colspan="1">4 (5.63%)</td><td align="center" valign="top" rowspan="1" colspan="1">0.094</td><td align="center" valign="top" rowspan="1" colspan="1">0.759</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Bruising (%)</td><td align="center" valign="top" rowspan="1" colspan="1">5 (7.69%)</td><td align="center" valign="top" rowspan="1" colspan="1">7 (9.86%)</td><td align="center" valign="top" rowspan="1" colspan="1">0.020</td><td align="center" valign="top" rowspan="1" colspan="1">0.887</td></tr></tbody></table></table-wrap></sec></sec><sec sec-type="discussion" id="jocd70414-sec-0023"><label>4</label><title>Discussion</title><p>Anatomical aging, characterized by a decrease in subcutaneous fat and collagen, significantly leads to the deepening of the NLF [<xref rid="jocd70414-bib-0016" ref-type="bibr">16</xref>]. subcutaneous injection of HA has rapidly developed in the medical beauty market [<xref rid="jocd70414-bib-0017" ref-type="bibr">17</xref>]. The biocompatibility, biodegradability, and high water absorption of HA make it the main material for dermal fillers [<xref rid="jocd70414-bib-0018" ref-type="bibr">18</xref>]. However, uncross‐linked HA is easily decomposed by enzymes in the physiological environment and subsequently metabolized by the human body, which reduces its tolerance in the skin tissue, thereby limiting the application of HA as a dermal filler [<xref rid="jocd70414-bib-0019" ref-type="bibr">19</xref>]. In contrast, stimulating fillers such as polycaprolactone (PCL) and poly‐<sc>l</sc>‐lactic acid (PLLA) have several advantages over HA fillers. These fillers can induce the production of collagen, providing longer lasting effects and better structural support. PCL and PLLA have been shown to produce sustained volumization and wrinkle correction over a long period of time, thereby reducing the frequency of re treatment [<xref rid="jocd70414-bib-0020" ref-type="bibr">20</xref>]. In addition, the collagen stimulating properties of these fillers can bring about a natural appearance with fewer side effects [<xref rid="jocd70414-bib-0021" ref-type="bibr">21</xref>]. The results of this retrospective cohort study provide valuable insights into the safety and effectiveness of PCL and PLLA injections used for NLF correction. Our findings contribute to a nuanced understanding of the comparative performance of these two widely used materials in cosmetic procedures. One of the key findings from this study is that PCL injections demonstrated a statistically significant greater reduction in wrinkle severity compared to PLLA injections over the 12‐month follow‐up period. The mechanisms underlying this difference likely pertain to the distinct physicochemical properties of the materials. PCL is a bioresorbable polyester with a longer degradation time, providing a more prolonged tissue stimulation and volumization effect [<xref rid="jocd70414-bib-0022" ref-type="bibr">22</xref>, <xref rid="jocd70414-bib-0023" ref-type="bibr">23</xref>]. This sustained stimulation of collagen production could account for the more significant and enduring improvement in wrinkle severity observed in the PCL group [<xref rid="jocd70414-bib-0024" ref-type="bibr">24</xref>]. In contrast, PLLA acts primarily as a biostimulatory agent that induces collagen synthesis over a shorter period, potentially explaining the less substantial wrinkle reduction over time [<xref rid="jocd70414-bib-0025" ref-type="bibr">25</xref>]. PCL (polycaprolactone) typically degrades over a period of up to 2 years, while PLLA (poly‐<sc>l</sc>‐lactic acid) degrades within a range of several months to two years [<xref rid="jocd70414-bib-0026" ref-type="bibr">26</xref>].</p><p>The properties of PCL contributing to its extended persistence in tissue could be driving the more pronounced aesthetic improvements as captured by the GAIS [<xref rid="jocd70414-bib-0027" ref-type="bibr">27</xref>, <xref rid="jocd70414-bib-0028" ref-type="bibr">28</xref>]. At both 3 and 6 months post‐treatment, a higher proportion of patients in the PCL group reported very significant improvements compared to the PLLA group. These outcomes suggest that PCL's longer‐lasting structural support within the dermal layers may better sustain facial volume and contour enhancements over time. Furthermore, PCL's ability to withstand enzymatic degradation for up to 2–3 years allows for a more gradual and sustained collagen remodeling process, translating to prolonged aesthetic benefits [<xref rid="jocd70414-bib-0029" ref-type="bibr">29</xref>].</p><p>Patient satisfaction, measured using the FACE‐Q scale, indicated higher satisfaction levels in the PCL group at both 6 and 12 months post‐treatment. This corroborates with the clinical improvements in wrinkle severity and aesthetic appearance noted with PCL injections. The higher patient satisfaction likely stems from both the immediate and sustained visual improvements achieved with PCL [<xref rid="jocd70414-bib-0030" ref-type="bibr">30</xref>, <xref rid="jocd70414-bib-0031" ref-type="bibr">31</xref>]. This material's ability to maintain dermal volume and elasticity effectively over a longer duration might contribute to higher perceived outcomes among patients [<xref rid="jocd70414-bib-0032" ref-type="bibr">32</xref>]. The slow degradation rate of PCL also results in fewer intervention cycles, reducing the frequency of follow‐up treatments, which may contribute further to patient contentment.</p><p>In this context, safety remains a critical consideration in the comparative evaluation of PCL and PLLA injections. The safety profile of both materials was favorable, with no statistically significant differences in terms of injection site reactions, nodule formation, discoloration, infection, or adverse events like granulomas, vascular occlusion, hypersensitivity reactions, and bruising. Both materials, therefore, are considered safe for use in NLF correction when administered by trained professionals following stringent protocols. However, the slight numerical differences observed in the occurrence of some adverse events warrant further investigation, particularly in larger and more diverse cohorts.</p><p>The observed efficacy and safety of PCL and PLLA can also be contextualized within the broader scope of their material properties. The viscoelasticity of PCL provides a unique advantage in maintaining tissue support and integrity over extended periods [<xref rid="jocd70414-bib-0033" ref-type="bibr">33</xref>]. Its mechanical strength helps withstand dynamic facial movements; thereby preserving the aesthetic correction longer [<xref rid="jocd70414-bib-0034" ref-type="bibr">34</xref>, <xref rid="jocd70414-bib-0035" ref-type="bibr">35</xref>]. On the other hand, PLLA's primary utility lies in its capacity to induce neocollagenesis, which, although effective, manifests more gradually and diminishes faster than PCL due to its quicker resorption [<xref rid="jocd70414-bib-0036" ref-type="bibr">36</xref>]. Furthermore, PCL has higher viscoelasticity, requiring a 25G needle to ensure smooth injection; PLLA has smaller particles, and a 27G needle reduces trauma and facilitates even distribution. Despite the different technical parameters, PCL shows significantly better long‐term outcomes than PLLA, which may be related to its degradation kinetics and collagen‐stimulating capacity.</p><p>These findings also underscore the importance of personalized treatment approaches in cosmetic dermatology. Selecting the appropriate material based on patient‐specific factors such as desired longevity of results, potential for adverse reactions, and individual skin characteristics can optimize clinical outcomes. For patients seeking long‐term correction with minimal interventions, PCL may be the more suitable choice. Conversely, for those who prioritize biostimulatory effects with a shorter temporal horizon, PLLA could be preferential.</p><p>Moreover, the differences in procedure duration and recovery time noted between the two groups were not statistically significant, suggesting that from an operational standpoint, both materials offer similar practical benefits in clinical settings. Although the slightly shorter return‐to‐work time in the PCL group was not significantly different, the trend might imply a marginal edge in terms of patient convenience and post‐procedural downtime, albeit not overwhelmingly conclusive.</p><p>The study is not without limitations. The retrospective design inherently carries potential biases, and the relatively small sample size may limit the generalizability of the results. Future research should aim at larger, multi‐center trials with longer follow‐up periods to validate these findings. Additionally, exploring the molecular and histopathological changes induced by PCL and PLLA will provide deeper insights into their mechanisms of action and long‐term effects on skin architecture and collagen dynamics.</p></sec><sec sec-type="conclusions" id="jocd70414-sec-0024"><label>5</label><title>Conclusion</title><p>In conclusion, the comparative analysis of PCL and PLLA injections for NLF correction reveals that while both materials are effective and safe, PCL demonstrates superior long‐term efficacy in reducing wrinkle severity and enhancing aesthetic appearance, possibly due to its prolonged biodegradation and sustained collagen‐stimulating effects. These findings emphasize the value of material selection tailored to patient‐specific needs and aesthetic goals in optimizing outcomes in cosmetic dermatology. Future studies focusing on mechanistic aspects and broader patient populations will further refine the clinical application of these injectable materials.</p></sec><sec id="jocd70414-sec-0025"><title>Author Contributions</title><p>Shanqing Wang: study design, data analysis, drafting the manuscript and revision of the manuscript. Kaixuan Hu: data collection and analysis, drafting the manuscript, investigation. All authors read and approved the final version of the manuscript.</p></sec><sec id="jocd70414-sec-0027"><title>Ethics Statement</title><p>This study was approved by the Ethics Committee of Quzhou Kecheng Dainier Plastic Surgery Outpatient in accordance with regulatory and ethical guidelines pertaining to retrospective research studies and conducted in accordance with the Declaration of Helsinki.</p></sec><sec sec-type="conclusions" id="jocd70414-sec-0028"><title>Consent</title><p>Informed consent was waived for this retrospective study due to the exclusive use of de‐identified patient data, which posed no potential harm or impact on patient care.</p></sec><sec sec-type="COI-statement" id="jocd70414-sec-0029"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec></body><back><ack id="jocd70414-sec-0026"><title>Acknowledgments</title><p>The authors express their appreciation to staff in Quzhou Kecheng Dainier Plastic Surgery Outpatient and Rui Jin Hospital, School of Medicine, Shanghai Jiao Tong University, for their technical assistance.</p></ack><sec sec-type="data-availability" id="jocd70414-sec-0031"><title>Data Availability Statement</title><p>All data generated or analyzed in this study are included in the present manuscript.</p></sec><ref-list content-type="cited-references" id="jocd70414-bibl-0001"><title>References</title><ref id="jocd70414-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="jocd70414-cit-0001">
+<string-name name-style="western">
+<given-names>K. H.</given-names>
+<surname>Yi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. W.</given-names>
+<surname>Hur</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Bae</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H. J.</given-names>
+<surname>Kim</surname>
+</string-name>, “<article-title>Hyaluronic Acid Filler Injection for Deep Nasolabial Folds: A Novel Intraoral Approach</article-title>,” <source>Clinical Anatomy</source>
+<volume>35</volume>, no. <issue>6</issue> (<year>2022</year>): <fpage>820</fpage>–<lpage>823</lpage>, <pub-id pub-id-type="doi">10.1002/ca.23919</pub-id>.<pub-id pub-id-type="pmid">35665540</pub-id>
+</mixed-citation></ref><ref id="jocd70414-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="jocd70414-cit-0002">
+<string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Stefura</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Kacprzyk</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Droś</surname>
+</string-name>, et al., “<article-title>Tissue Fillers for the Nasolabial Fold Area: A Systematic Review and Meta‐Analysis of Randomized Clinical Trials</article-title>,” <source>Aesthetic Plastic Surgery</source>
+<volume>45</volume>, no. <issue>5</issue> (<year>2021</year>): <fpage>2300</fpage>–<lpage>2316</lpage>, <pub-id pub-id-type="doi">10.1007/s00266-021-02439-5</pub-id>.<pub-id pub-id-type="pmid">34255156</pub-id>
+<pub-id pub-id-type="pmcid">PMC8481177</pub-id></mixed-citation></ref><ref id="jocd70414-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="jocd70414-cit-0003">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Jiang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Guan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Zhang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Chen</surname>
+</string-name>, “<article-title>Using New Autologous Tissue Filler Improved Nasolabial Folds‐Single‐Armed Pilot Study</article-title>,” <source>Aesthetic Plastic Surgery</source>
+<volume>45</volume>, no. <issue>6</issue> (<year>2021</year>): <fpage>2920</fpage>–<lpage>2927</lpage>, <pub-id pub-id-type="doi">10.1007/s00266-021-02608-6</pub-id>.<pub-id pub-id-type="pmid">34595598</pub-id>
+</mixed-citation></ref><ref id="jocd70414-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="jocd70414-cit-0004">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Fei</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Fan</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Mao</surname>
+</string-name>, “<article-title>Monophasic and Biphasic Hyaluronic Acid Fillers for Esthetic Correction of Nasolabial Folds: A Meta‐Analysis of Randomized Controlled Trials</article-title>,” <source>Aesthetic Plastic Surgery</source>
+<volume>46</volume>, no. <issue>3</issue> (<year>2022</year>): <fpage>1407</fpage>–<lpage>1422</lpage>, <pub-id pub-id-type="doi">10.1007/s00266-021-02729-y</pub-id>.<pub-id pub-id-type="pmid">35066619</pub-id>
+</mixed-citation></ref><ref id="jocd70414-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="jocd70414-cit-0005">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Feng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Peng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W. J.</given-names>
+<surname>Hong</surname>
+</string-name>, et al., “<article-title>A Two‐Center, Prospective, Randomized Controlled Trial to Evaluate the Efficacy and Safety of and Satisfaction With Different Methods of Art Filler Universal Injection for Correcting Moderate to Severe Nasolabial Folds in Chinese Individuals</article-title>,” <source>Aesthetic Plastic Surgery</source>
+<volume>47</volume>, no. <issue>4</issue> (<year>2023</year>): <fpage>1550</fpage>–<lpage>1559</lpage>, <pub-id pub-id-type="doi">10.1007/s00266-023-03278-2</pub-id>.<pub-id pub-id-type="pmid">36810835</pub-id>
+</mixed-citation></ref><ref id="jocd70414-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="jocd70414-cit-0006">
+<string-name name-style="western">
+<given-names>W. Y.</given-names>
+<surname>Han</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. J.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Kwon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. M.</given-names>
+<surname>Kang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. K.</given-names>
+<surname>Yon</surname>
+</string-name>, “<article-title>Safety and Efficacy of Poly‐<sc>l</sc>‐Lactic Acid Filler (Gana V vs. Sculptra) Injection for Correction of the Nasolabial Fold: A Double‐Blind, Non‐Inferiority, Randomized, Split‐Face Controlled Trial</article-title>,” <source>Aesthetic Plastic Surgery</source>
+<volume>47</volume>, no. <issue>5</issue> (<year>2023</year>): <fpage>1796</fpage>–<lpage>1805</lpage>, <pub-id pub-id-type="doi">10.1007/s00266-023-03600-y</pub-id>.<pub-id pub-id-type="pmid">37626137</pub-id>
+</mixed-citation></ref><ref id="jocd70414-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="jocd70414-cit-0007">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Shang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Zhu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Shan</surname>
+</string-name>, “<article-title>Efficacy and Safety of Hyaluronic Acid Fillers With or Without Lidocaine in the Treatment of Nasolabial Folds: An Updated Systematic Review and Meta‐Analysis</article-title>,” <source>Aesthetic Plastic Surgery</source>
+<volume>48</volume> (<year>2024</year>): <fpage>4466</fpage>–<lpage>4484</lpage>, <pub-id pub-id-type="doi">10.1007/s00266-024-04233-5</pub-id>.<pub-id pub-id-type="pmid">39014236</pub-id>
+</mixed-citation></ref><ref id="jocd70414-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="jocd70414-cit-0008">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Ren</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Bao</surname>
+</string-name>, et al., “<article-title>Efficacy and Safety of Polycaprolactone in Treating Nasolabial Folds: A Prospective, Multicenter, and Randomized Controlled Trial</article-title>,” <source>Facial Plastic Surgery</source>
+<volume>39</volume>, no. <issue>3</issue> (<year>2023</year>): <fpage>300</fpage>–<lpage>306</lpage>, <pub-id pub-id-type="doi">10.1055/a-1954-3986</pub-id>.<pub-id pub-id-type="pmid">36191597</pub-id>
+<pub-id pub-id-type="pmcid">PMC10171959</pub-id></mixed-citation></ref><ref id="jocd70414-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="jocd70414-cit-0009">
+<string-name name-style="western">
+<given-names>E. D.</given-names>
+<surname>Buckingham</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Glasgold</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Kontis</surname>
+</string-name>, et al., “<article-title>Volume Management of the Middle Third‐Lower Orbit/Midface</article-title>,” <source>Facial Plastic Surgery</source>
+<volume>31</volume>, no. <issue>1</issue> (<year>2015</year>): <fpage>55</fpage>–<lpage>69</lpage>, <pub-id pub-id-type="doi">10.1055/s-0035-1544944</pub-id>.<pub-id pub-id-type="pmid">25763897</pub-id>
+</mixed-citation></ref><ref id="jocd70414-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="jocd70414-cit-0010">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Braun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Frank</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. L.</given-names>
+<surname>Freytag</surname>
+</string-name>, et al., “<article-title>The Influence of the Insertion Angle on Middle and Lower Face Tissue‐Mechanics When Treating the Nasolabial Folds With Facial Suspension Threads—An Experimental Split‐Face Cadaveric Study</article-title>,” <source>Facial Plastic Surgery</source>
+<volume>36</volume>, no. <issue>3</issue> (<year>2020</year>): <fpage>268</fpage>–<lpage>275</lpage>, <pub-id pub-id-type="doi">10.1055/s-0040-1712469</pub-id>.<pub-id pub-id-type="pmid">32512601</pub-id>
+</mixed-citation></ref><ref id="jocd70414-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="jocd70414-cit-0011">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Ziade</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Daou</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Karam</surname>
+</string-name>, “<article-title>Patient Satisfaction With Absorbable Anchoring Facial Threads</article-title>,” <source>Facial Plastic Surgery</source>
+<volume>37</volume>, no. <issue>3</issue> (<year>2021</year>): <fpage>383</fpage>–<lpage>389</lpage>, <pub-id pub-id-type="doi">10.1055/s-0041-1725165</pub-id>.<pub-id pub-id-type="pmid">33621988</pub-id>
+</mixed-citation></ref><ref id="jocd70414-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="jocd70414-cit-0012">
+<string-name name-style="western">
+<given-names>M. Y.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W. Y.</given-names>
+<surname>Chien</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y. N.</given-names>
+<surname>Kang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Chen</surname>
+</string-name>, “<article-title>Efficacy and Safety of Fillers for the Treatment of Nasolabial Folds: A Network Meta‐Analysis of Randomized Controlled Trials</article-title>,” <source>Aesthetic Plastic Surgery</source> (<year>2024</year>), <pub-id pub-id-type="doi">10.1007/s00266-024-03889-3</pub-id>.<pub-id pub-id-type="pmid">38600338</pub-id></mixed-citation></ref><ref id="jocd70414-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="jocd70414-cit-0013">
+<string-name name-style="western">
+<given-names>K. S.</given-names>
+<surname>Kaya</surname>
+</string-name> and <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Cakmak</surname>
+</string-name>, “<article-title>Facelift Techniques: An Overview</article-title>,” <source>Facial Plastic Surgery</source>
+<volume>38</volume>, no. <issue>6</issue> (<year>2022</year>): <fpage>540</fpage>–<lpage>545</lpage>, <pub-id pub-id-type="doi">10.1055/a-1877-9371</pub-id>.<pub-id pub-id-type="pmid">35709719</pub-id>
+</mixed-citation></ref><ref id="jocd70414-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="jocd70414-cit-0014">
+<string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Wollina</surname>
+</string-name> and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Goldman</surname>
+</string-name>, “<article-title>Facial Vascular Danger Zones for Filler Injections</article-title>,” <source>Dermatologic Therapy</source>
+<volume>33</volume>, no. <issue>6</issue> (<year>2020</year>): <elocation-id>e14285</elocation-id>, <pub-id pub-id-type="doi">10.1111/dth.14285</pub-id>.<pub-id pub-id-type="pmid">32902108</pub-id>
+</mixed-citation></ref><ref id="jocd70414-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="jocd70414-cit-0015">
+<string-name name-style="western">
+<given-names>A. F.</given-names>
+<surname>Klassen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. J.</given-names>
+<surname>Cano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Schwitzer</surname>
+</string-name>, et al., “<article-title>Development and Psychometric Validation of the FACE‐Q Skin, Lips, and Facial Rhytids Appearance Scales and Adverse Effects Checklists for Cosmetic Procedures</article-title>,” <source>JAMA Dermatology</source>
+<volume>152</volume>, no. <issue>4</issue> (<year>2016</year>): <fpage>443</fpage>–<lpage>451</lpage>, <pub-id pub-id-type="doi">10.1001/jamadermatol.2016.0018</pub-id>.<pub-id pub-id-type="pmid">26934294</pub-id>
+<pub-id pub-id-type="pmcid">PMC4833666</pub-id></mixed-citation></ref><ref id="jocd70414-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="jocd70414-cit-0016">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Fore</surname>
+</string-name>, “<article-title>A Review of Skin and the Effects of Aging on Skin Structure and Function</article-title>,” <source>Ostomy/Wound Management</source>
+<volume>52</volume>, no. <issue>9</issue> (<year>2006</year>): <fpage>24</fpage>–<lpage>35</lpage>; quiz 36–37.<pub-id pub-id-type="pmid">16980727</pub-id></mixed-citation></ref><ref id="jocd70414-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="jocd70414-cit-0017">
+<string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Juncan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. G.</given-names>
+<surname>Moisă</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Santini</surname>
+</string-name>, et al., “<article-title>Advantages of Hyaluronic Acid and Its Combination With Other Bioactive Ingredients in Cosmeceuticals</article-title>,” <source>Molecules</source>
+<volume>26</volume>, no. <issue>15</issue> (<year>2021</year>): <elocation-id>4429</elocation-id>, <pub-id pub-id-type="doi">10.3390/molecules26154429</pub-id>.<pub-id pub-id-type="pmid">34361586</pub-id>
+<pub-id pub-id-type="pmcid">PMC8347214</pub-id></mixed-citation></ref><ref id="jocd70414-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="jocd70414-cit-0018">
+<string-name name-style="western">
+<given-names>F. S.</given-names>
+<surname>Brandt</surname>
+</string-name> and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Cazzaniga</surname>
+</string-name>, “<article-title>Hyaluronic Acid Gel Fillers in the Management of Facial Aging</article-title>,” <source>Clinical Interventions in Aging</source>
+<volume>3</volume>, no. <issue>1</issue> (<year>2008</year>): <fpage>153</fpage>–<lpage>159</lpage>, <pub-id pub-id-type="doi">10.2147/cia.s2135</pub-id>.<pub-id pub-id-type="pmid">18488885</pub-id>
+<pub-id pub-id-type="pmcid">PMC2544360</pub-id></mixed-citation></ref><ref id="jocd70414-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="jocd70414-cit-0019">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Fakhari</surname>
+</string-name> and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Berkland</surname>
+</string-name>, “<article-title>Applications and Emerging Trends of Hyaluronic Acid in Tissue Engineering, as a Dermal Filler and in Osteoarthritis Treatment</article-title>,” <source>Acta Biomaterialia</source>
+<volume>9</volume>, no. <issue>7</issue> (<year>2013</year>): <fpage>7081</fpage>–<lpage>7092</lpage>, <pub-id pub-id-type="doi">10.1016/j.actbio.2013.03.005</pub-id>.<pub-id pub-id-type="pmid">23507088</pub-id>
+<pub-id pub-id-type="pmcid">PMC3669638</pub-id></mixed-citation></ref><ref id="jocd70414-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="jocd70414-cit-0020">
+<string-name name-style="western">
+<given-names>L. N.</given-names>
+<surname>Woodard</surname>
+</string-name> and <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Grunlan</surname>
+</string-name>, “<article-title>Hydrolytic Degradation of PCL‐PLLA Semi‐IPNs Exhibiting Rapid, Tunable Degradation</article-title>,” <source>ACS Biomaterials Science &amp; Engineering</source>
+<volume>5</volume>, no. <issue>2</issue> (<year>2019</year>): <fpage>498</fpage>–<lpage>508</lpage>, <pub-id pub-id-type="doi">10.1021/acsbiomaterials.8b01135</pub-id>.<pub-id pub-id-type="pmid">31633012</pub-id>
+<pub-id pub-id-type="pmcid">PMC6801114</pub-id></mixed-citation></ref><ref id="jocd70414-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="jocd70414-cit-0021">
+<string-name name-style="western">
+<given-names>F.</given-names>
+<surname>de Melo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Carrijo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Hong</surname>
+</string-name>, et al., “<article-title>Minimally Invasive Aesthetic Treatment of the Face and Neck Using Combinations of a PCL‐Based Collagen Stimulator, PLLA/PLGA Suspension Sutures, and Cross‐Linked Hyaluronic Acid</article-title>,” <source>Clinical, Cosmetic and Investigational Dermatology</source>
+<volume>13</volume> (<year>2020</year>): <fpage>333</fpage>–<lpage>344</lpage>, <pub-id pub-id-type="doi">10.2147/ccid.S248280</pub-id>.<pub-id pub-id-type="pmid">32440186</pub-id>
+<pub-id pub-id-type="pmcid">PMC7211299</pub-id></mixed-citation></ref><ref id="jocd70414-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="jocd70414-cit-0022">
+<string-name name-style="western">
+<given-names>J. W.</given-names>
+<surname>Park</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. Y.</given-names>
+<surname>Choi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. R.</given-names>
+<surname>Kim</surname>
+</string-name>, et al., “<article-title>A Randomized, Participant‐ and Evaluator‐Blinded, Matched‐Pair Prospective Study to Compare the Safety and Efficacy Between Polycaprolactone‐Based Fillers in the Correction of Nasolabial Folds</article-title>,” <source>Dermatologic Therapy</source>
+<volume>35</volume>, no. <issue>7</issue> (<year>2022</year>): <elocation-id>e15508</elocation-id>, <pub-id pub-id-type="doi">10.1111/dth.15508</pub-id>.<pub-id pub-id-type="pmid">35419911</pub-id>
+</mixed-citation></ref><ref id="jocd70414-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="jocd70414-cit-0023">
+<string-name name-style="western">
+<given-names>L. D.</given-names>
+<surname>Grunebaum</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. N.</given-names>
+<surname>Eitan</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T. B.</given-names>
+<surname>Cave</surname>
+</string-name>, “<article-title>From Nasolabial Folds to Pan‐Facial Rejuvenation‐The Evolution of Fillers in My Career</article-title>,” <source>Facial Plastic Surgery</source> (<year>2023</year>), <pub-id pub-id-type="doi">10.1055/s-0043-1776995</pub-id>.<pub-id pub-id-type="pmid">38049110</pub-id></mixed-citation></ref><ref id="jocd70414-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="jocd70414-cit-0024">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Galadari</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>van Abel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Al Nuami</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Al Faresi</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Galadari</surname>
+</string-name>, “<article-title>A Randomized, Prospective, Blinded, Split‐Face, Single‐Center Study Comparing Polycaprolactone to Hyaluronic Acid for Treatment of Nasolabial Folds</article-title>,” <source>Journal of Cosmetic Dermatology</source>
+<volume>14</volume>, no. <issue>1</issue> (<year>2015</year>): <fpage>27</fpage>–<lpage>32</lpage>, <pub-id pub-id-type="doi">10.1111/jocd.12126</pub-id>.<pub-id pub-id-type="pmid">25564797</pub-id>
+</mixed-citation></ref><ref id="jocd70414-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="jocd70414-cit-0025">
+<string-name name-style="western">
+<given-names>D. J.</given-names>
+<surname>Goldberg</surname>
+</string-name>, “<article-title>Stimulation of Collagenesis by Poly‐<sc>l</sc>‐Lactic Acid (PLLA) and ‐Glycolide Polymer (PLGA)‐containing Absorbable Suspension Suture and Parallel Sustained Clinical Benefit</article-title>,” <source>Journal of Cosmetic Dermatology</source>
+<volume>19</volume>, no. <issue>5</issue> (<year>2020</year>): <fpage>1172</fpage>–<lpage>1178</lpage>, <pub-id pub-id-type="doi">10.1111/jocd.13371</pub-id>.<pub-id pub-id-type="pmid">32167231</pub-id>
+</mixed-citation></ref><ref id="jocd70414-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="jocd70414-cit-0026">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Ishii</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. H.</given-names>
+<surname>Ying</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Mahara</surname>
+</string-name>, et al., “<article-title>In Vivo Tissue Response and Degradation Behavior of PLLA and Stereocomplexed PLA Nanofibers</article-title>,” <source>Biomacromolecules</source>
+<volume>10</volume>, no. <issue>2</issue> (<year>2009</year>): <fpage>237</fpage>–<lpage>242</lpage>, <pub-id pub-id-type="doi">10.1021/bm8009363</pub-id>.<pub-id pub-id-type="pmid">19117403</pub-id>
+</mixed-citation></ref><ref id="jocd70414-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="jocd70414-cit-0027">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Huth</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Huth</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Marquardt</surname>
+</string-name>, et al., “<article-title>Molecular Insights Into the Effects of PLLA‐SCA on Gene Expression and Collagen Synthesis in Human 3D Skin Models Containing Macrophages</article-title>,” <source>Journal of Drugs in Dermatology</source>
+<volume>23</volume>, no. <issue>4</issue> (<year>2024</year>): <fpage>285</fpage>–<lpage>288</lpage>, <pub-id pub-id-type="doi">10.36849/jdd.7791</pub-id>.<pub-id pub-id-type="pmid">38564382</pub-id>
+</mixed-citation></ref><ref id="jocd70414-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="jocd70414-cit-0028">
+<string-name name-style="western">
+<given-names>J. C.</given-names>
+<surname>Lee</surname>
+</string-name> and <string-name name-style="western">
+<given-names>Z. P.</given-names>
+<surname>Lorenc</surname>
+</string-name>, “<article-title>Synthetic Fillers for Facial Rejuvenation</article-title>,” <source>Clinics in Plastic Surgery</source>
+<volume>43</volume>, no. <issue>3</issue> (<year>2016</year>): <fpage>497</fpage>–<lpage>503</lpage>, <pub-id pub-id-type="doi">10.1016/j.cps.2016.03.002</pub-id>.<pub-id pub-id-type="pmid">27363763</pub-id>
+</mixed-citation></ref><ref id="jocd70414-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="jocd70414-cit-0029">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Moers‐Carpi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. O.</given-names>
+<surname>Christen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Delmar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Brun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Bodokh</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Kestemont</surname>
+</string-name>, “<article-title>European Multicenter Prospective Study Evaluating Long‐Term Safety and Efficacy of the Polycaprolactone‐Based Dermal Filler in Nasolabial Fold Correction</article-title>,” <source>Dermatologic Surgery</source>
+<volume>47</volume>, no. <issue>7</issue> (<year>2021</year>): <fpage>960</fpage>–<lpage>965</lpage>, <pub-id pub-id-type="doi">10.1097/dss.0000000000002978</pub-id>.<pub-id pub-id-type="pmid">33731572</pub-id>
+</mixed-citation></ref><ref id="jocd70414-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="jocd70414-cit-0030">
+<string-name name-style="western">
+<given-names>G. W.</given-names>
+<surname>Hong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Song</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. Y.</given-names>
+<surname>Park</surname>
+</string-name>, et al., “<article-title>Why Do Nasolabial Folds Appear? Exploring the Anatomical Perspectives and the Role of Thread‐Based Interventions</article-title>,” <source>Diagnostics</source>
+<volume>14</volume>, no. <issue>7</issue> (<year>2024</year>): <elocation-id>716</elocation-id>, <pub-id pub-id-type="doi">10.3390/diagnostics14070716</pub-id>.<pub-id pub-id-type="pmid">38611629</pub-id>
+<pub-id pub-id-type="pmcid">PMC11011544</pub-id></mixed-citation></ref><ref id="jocd70414-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="jocd70414-cit-0031">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Wanitphakdeedecha</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. N. C.</given-names>
+<surname>Ng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Phumariyapong</surname>
+</string-name>, et al., “<article-title>A Pilot Study Comparing the Efficacy of Autologous Cultured Fibroblast Injections With Hyaluronic Acid Fillers for Treating Nasolabial Folds</article-title>,” <source>Scientific Reports</source>
+<volume>13</volume>, no. <issue>1</issue> (<year>2023</year>): <fpage>6616</fpage>, <pub-id pub-id-type="doi">10.1038/s41598-023-33786-9</pub-id>.<pub-id pub-id-type="pmid">37095274</pub-id>
+<pub-id pub-id-type="pmcid">PMC10126053</pub-id></mixed-citation></ref><ref id="jocd70414-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="jocd70414-cit-0032">
+<string-name name-style="western">
+<given-names>O. M.</given-names>
+<surname>Tanaka</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. D.</given-names>
+<surname>Cavassin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. G.</given-names>
+<surname>Gasparello</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. M.</given-names>
+<surname>Meira</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. S.</given-names>
+<surname>Miyoshi</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G. C.</given-names>
+<surname>Hartmann</surname>
+</string-name>, “<article-title>The Esthetics of the Nasolabial Fold and Age in the Elderly via Eye‐Tracking</article-title>,” <source>Contemporary Clinical Dentistry</source>
+<volume>14</volume>, no. <issue>1</issue> (<year>2023</year>): <fpage>18</fpage>–<lpage>24</lpage>, <pub-id pub-id-type="doi">10.4103/ccd.ccd_539_21</pub-id>.<pub-id pub-id-type="pmid">37249988</pub-id>
+<pub-id pub-id-type="pmcid">PMC10209770</pub-id></mixed-citation></ref><ref id="jocd70414-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="jocd70414-cit-0033">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Colon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Mirkin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Hardigan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Elias</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. J.</given-names>
+<surname>Jacobs</surname>
+</string-name>, “<article-title>Adverse Events Reported From Hyaluronic Acid Dermal Filler Injections to the Facial Region: A Systematic Review and Meta‐Analysis</article-title>,” <source>Cureus</source>
+<volume>15</volume>, no. <issue>4</issue> (<year>2023</year>): <elocation-id>e38286</elocation-id>, <pub-id pub-id-type="doi">10.7759/cureus.38286</pub-id>.<pub-id pub-id-type="pmid">37261136</pub-id>
+<pub-id pub-id-type="pmcid">PMC10226824</pub-id></mixed-citation></ref><ref id="jocd70414-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="jocd70414-cit-0034">
+<string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Nilforoushzadeh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Heidari‐Kharaji</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Fakhim</surname>
+</string-name>, et al., “<article-title>Efficacy Evaluation of Endolift Laser for Treatment of Nasolabial Folds and Marionette Lines</article-title>,” <source>Skin Research and Technology</source>
+<volume>29</volume>, no. <issue>10</issue> (<year>2023</year>): <elocation-id>e13480</elocation-id>, <pub-id pub-id-type="doi">10.1111/srt.13480</pub-id>.<pub-id pub-id-type="pmid">37881043</pub-id>
+<pub-id pub-id-type="pmcid">PMC10523256</pub-id></mixed-citation></ref><ref id="jocd70414-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="jocd70414-cit-0035">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Morera Serna</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Serna Benbassat</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Terré Falcón</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Murillo</surname>
+</string-name>, “<article-title>Anatomy and Aging of the Perioral Region</article-title>,” <source>Facial Plastic Surgery</source>
+<volume>37</volume>, no. <issue>2</issue> (<year>2021</year>): <fpage>176</fpage>–<lpage>193</lpage>, <pub-id pub-id-type="doi">10.1055/s-0041-1725104</pub-id>.<pub-id pub-id-type="pmid">33845492</pub-id>
+</mixed-citation></ref><ref id="jocd70414-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="jocd70414-cit-0036">
+<string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Alcotzer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Liassidou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Hexsel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Tsur Shenhav</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Artzi</surname>
+</string-name>, “<article-title>Optimal Changes Seen in Patients After Treatment With Poly‐<sc>l</sc>‐Lactic Acid: A Retrospective Descriptive Study</article-title>,” <source>Dermatologic Surgery</source>
+<volume>50</volume>, no. <issue>1</issue> (<year>2024</year>): <fpage>69</fpage>–<lpage>74</lpage>, <pub-id pub-id-type="doi">10.1097/dss.0000000000003993</pub-id>.<pub-id pub-id-type="pmid">37910604</pub-id>
+</mixed-citation></ref></ref-list></back></article>
