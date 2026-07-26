@@ -1,5 +1,7 @@
 # Skincare Device Research
 
+[**Open the rendered research site on GitHub Pages →**](https://samueldovgin.github.io/Skincare-Device-Research/)
+
 Research into at-home, light- and energy-based skincare devices for **facial redness/erythema, hyperpigmentation, post-inflammatory hyperpigmentation (PIH), and evening skin tone**, plus **hair removal**, **skin-quality (collagen) rejuvenation**, **tightening/laxity**, and topical support as parallel goals. Budget-conscious; covers branded, retail, Chinese OEM/Alibaba sourcing, patent/regulatory context, and practical product buying.
 
 The repo is organized into **fifteen research projects**, including a cross-category regimen planner:
