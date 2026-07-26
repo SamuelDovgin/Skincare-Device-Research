@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sculptra Quick Start — Claims, Candidacy, and Alternatives</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20100%20100%27%3E%3Ctext%20y%3D%27.9em%27%20font-size%3D%2790%27%3E%F0%9F%A7%AC%3C/text%3E%3C/svg%3E">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#24463f">
+  <link rel="stylesheet" href="../site-chrome.css">
+  <script src="../site-router.js"></script>
+  <style>
+    :root{--ink:#17231f;--muted:#5f6d68;--bg:#f4f8f6;--card:#fff;--line:#d2ddd8;--green:#245f53;--green2:#39796b;--soft:#e8f2ee;--gold:#9a661f;--goldsoft:#fff6e5;--red:#8e332e;--redsoft:#fff0ee;--blue:#315f87;--bluesoft:#edf5fb}
+    *{box-sizing:border-box}html{max-width:100%;overflow-x:hidden;scroll-behavior:smooth}body{margin:0;max-width:100%;overflow-x:hidden;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.55}a{color:#176456}button{font:inherit}
+    .top{background:linear-gradient(120deg,#1d3933,#3e6b60);color:#fff;padding:22px clamp(18px,4vw,52px)}.top a{color:#fff}.crumb{font-size:13px;opacity:.92}.top h1{margin:8px 0 6px;font-size:clamp(28px,5vw,44px);line-height:1.08;max-width:880px}.top p{margin:0;max-width:900px;color:#e2eee9;font-size:15px}
+    main{max-width:1120px;margin:0 auto;padding:24px clamp(14px,3vw,32px) 56px}.notice{border-left:5px solid var(--gold);background:var(--goldsoft);padding:13px 16px;border-radius:8px;margin-bottom:22px}.notice strong{display:block}.section{margin-top:30px}.section h2{font-size:clamp(21px,3vw,27px);line-height:1.2;margin:0 0 8px}.lead{color:var(--muted);max-width:860px;margin:0 0 16px}
+    .claims{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px}.claim{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:15px}.claim .k{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--green);font-weight:800}.claim h3{font-size:16px;margin:5px 0}.claim p{font-size:13px;color:var(--muted);margin:0}.claim strong{color:var(--ink)}
+    .marketing{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.translation{display:grid;grid-template-columns:minmax(150px,.7fr) 1.3fr;gap:15px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px}.translation .market{font-weight:800;color:var(--green)}.translation .plain{font-size:13px;color:var(--muted)}.translation .plain strong{color:var(--ink)}
+    .evidence{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px}.stat{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:15px}.stat .v{font-size:clamp(25px,4vw,36px);font-weight:850;color:var(--green);line-height:1.08}.stat .k{font-size:12px;font-weight:750;margin-top:5px}.stat p{font-size:12.5px;color:var(--muted);margin:6px 0 0}
+    .can-cannot{display:grid;grid-template-columns:1fr 1fr;gap:12px}.lane{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:16px}.lane h3{font-size:17px;margin:0 0 7px}.lane ul{margin:0;padding-left:20px}.lane li{font-size:13.5px;margin:5px 0}.lane.yes{border-top:5px solid var(--green2)}.lane.no{border-top:5px solid var(--red)}
+    .goal-wrap{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:17px}.goal-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}.goal{border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:9px;padding:11px;text-align:left;cursor:pointer;min-height:76px}.goal:hover{border-color:var(--green)}.goal[aria-pressed="true"]{background:var(--green);border-color:var(--green);color:#fff}.goal b{display:block;font-size:13px}.goal small{display:block;margin-top:3px;opacity:.8;line-height:1.3}.goal-summary{margin:12px 0 0;padding:11px 13px;background:var(--soft);border-radius:8px;font-size:13px}
+    .tree-shell{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(260px,.75fr);gap:16px;align-items:start}.tree-card,.result-card,.path-card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}.tree-head{display:flex;justify-content:space-between;gap:10px;align-items:center}.step{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--green);font-weight:800}.progress{font-size:12px;color:var(--muted)}.tree-card h3{font-size:clamp(19px,3vw,24px);line-height:1.25;margin:13px 0 8px}.help{font-size:13px;color:var(--muted);margin:0}.binary{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:17px}.binary button{border:1px solid var(--green);border-radius:9px;background:#fff;color:var(--green);padding:12px;font-weight:800;cursor:pointer}.binary button:hover,.binary button:focus{background:var(--soft)}.binary .no-btn{border-color:var(--red);color:var(--red)}.binary .no-btn:hover,.binary .no-btn:focus{background:var(--redsoft)}
+    .path-card h3{font-size:14px;margin:0 0 9px}.path-list{list-style:none;padding:0;margin:0}.path-list li{font-size:12.5px;color:var(--muted);padding:8px 0;border-top:1px solid var(--line)}.path-list li:first-child{border-top:0}.path-list b{color:var(--ink)}.reset{margin-top:12px;border:0;background:transparent;color:var(--green);font-weight:750;cursor:pointer;padding:4px 0}.result-card{display:none;margin-top:14px}.result-card.show{display:block}.result-card.yes{border-left:6px solid var(--green2);background:#f7fcfa}.result-card.no{border-left:6px solid var(--red);background:#fffafa}.result-card.pause{border-left:6px solid var(--gold);background:#fffaf1}.verdict{font-size:11px;text-transform:uppercase;letter-spacing:.08em;font-weight:850}.result-card h3{font-size:23px;line-height:1.2;margin:5px 0 8px}.result-card p{font-size:13.5px;margin:7px 0}.alt{border-top:1px solid var(--line);margin-top:12px;padding-top:12px}.alt strong{display:block}.result-links{display:flex;gap:9px;flex-wrap:wrap;margin-top:12px}.result-links a{display:inline-block;border:1px solid var(--green);border-radius:8px;padding:8px 10px;text-decoration:none;font-size:12.5px;font-weight:750}.result-links a.primary{background:var(--green);color:#fff}
+    .timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:15px}.time{position:relative;padding:17px 13px 13px;border-top:3px solid var(--green2);background:var(--card)}.time:before{content:"";position:absolute;top:-7px;left:13px;width:11px;height:11px;border-radius:50%;background:var(--green)}.time b{display:block;font-size:13px}.time span{display:block;font-size:12px;color:var(--muted);margin-top:4px}.time:first-child{border-radius:10px 0 0 10px}.time:last-child{border-radius:0 10px 10px 0}
+    .risk{background:var(--redsoft);border:1px solid #e7c7c3;border-radius:11px;padding:16px}.risk h3{font-size:17px;margin:0 0 7px}.risk p,.risk li{font-size:13px}.risk ul{margin:7px 0 0;padding-left:20px}.sources{font-size:12.5px;color:var(--muted)}.sources li{margin:8px 0}.sources a{overflow-wrap:anywhere}.foot-links{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.foot-links a{display:inline-block;border:1px solid var(--line);background:var(--card);border-radius:8px;padding:8px 10px;text-decoration:none;font-size:12.5px}.test-status{font-size:11px;color:var(--muted);margin-top:12px}
+    @media(max-width:850px){.claims,.evidence{grid-template-columns:1fr}.marketing{grid-template-columns:1fr}.goal-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.tree-shell{grid-template-columns:1fr}.can-cannot{grid-template-columns:1fr}.timeline{grid-template-columns:1fr}.time,.time:first-child,.time:last-child{border-radius:0;border-top:0;border-left:3px solid var(--green2);padding:12px 14px 12px 22px}.time:before{top:17px;left:-7px}}
+    @media(max-width:470px){.goal-grid,.binary{grid-template-columns:1fr}.translation{grid-template-columns:1fr;gap:5px}.top{padding-top:18px}.tree-card,.path-card,.result-card{padding:15px}}
+  </style>
+</head>
+<body>
+  <header class="top">
+    <a class="crumb" href="index.html#start">← Full Sculptra research topic</a>
+    <h1>Sculptra Quick Start: Is It a Good Fit for the Result You Want?</h1>
+    <p>A plain-language, evidence-checked shortcut through the claims, likely candidate fit, realistic result, limitations, and the quickest alternative when Sculptra is not the best first match.</p>
+  </header>
+  <main>
+    <div class="notice"><strong>This page cannot medically clear you for treatment.</strong>It gives a research-based consultation lane—not a diagnosis, personal outcome forecast, or substitute for an experienced licensed injector who knows your anatomy and medical history.</div>
+
+    <section class="section" aria-labelledby="minuteTitle">
+      <h2 id="minuteTitle">The 60-second version</h2>
+      <p class="lead">Sculptra is an injectable suspension of synthetic poly-L-lactic acid particles. It is best understood as a gradual, distributed facial contour and cheek-wrinkle treatment—not an instant, dissolvable spot filler and not a lifting device.</p>
+      <div class="claims">
+        <article class="claim"><span class="k">What it is</span><h3>A gradual injectable implant/filler</h3><p>The water-related fullness after injection settles. The intended correction develops through a tissue response around biodegradable PLLA particles. <a href="#src1">[1]</a></p></article>
+        <article class="claim"><span class="k">Best-fit result</span><h3>Broad cheek/face deflation or contour deficiency</h3><p>Think <strong>distributed support and gradual softening</strong>, especially when the problem is three-dimensional—not pigment, movement, or a single surface scar.</p></article>
+        <article class="claim"><span class="k">Treatment pattern</span><h3>Usually a series, not one instant reveal</h3><p>The brand describes an average two to three sessions over a few months; the FDA cheek trial allowed up to four sessions about four weeks apart. <a href="#src1">[1]</a> <a href="#src3">[3]</a></p></article>
+        <article class="claim"><span class="k">Strongest simple result</span><h3>About 71% met the blinded cheek endpoint at month 12</h3><p>Versus about 26% with no treatment. “Responder” meant at least one grade better on <em>both</em> cheeks—not wrinkle-free. <a href="#src2">[2]</a></p></article>
+        <article class="claim"><span class="k">What it is not</span><h3>Not a pigment laser, neuromodulator, or facelift</h3><p>It does not selectively remove brown/red color, relax expression muscles, resurface scars, excise loose skin, or reposition markedly descended anatomy.</p></article>
+        <article class="claim"><span class="k">Main trade-off</span><h3>Gradual and potentially durable, but not instantly reversible</h3><p>There is no HA-style enzyme reset for PLLA particles. Delayed nodules and rare serious injection complications belong in the decision. <a href="#src1">[1]</a></p></article>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="marketingTitle">
+      <h2 id="marketingTitle">How it is marketed—and what that means in plain English</h2>
+      <p class="lead">Current official U.S. marketing emphasizes natural collagen, gradual results, skin quality, and “up to two years.” Those phrases are directionally connected to evidence, but they are not all the same strength or endpoint. <a href="#src3">[3]</a></p>
+      <div class="marketing">
+        <article class="translation"><div class="market">“Restore your natural collagen”</div><div class="plain"><strong>Fair translation:</strong> Sculptra does not inject natural collagen. It places synthetic PLLA microparticles that intentionally provoke a local tissue response in which collagen remodeling is one component.</div></article>
+        <article class="translation"><div class="market">“Natural-looking” and gradual</div><div class="plain"><strong>Fair translation:</strong> it is not designed as an instant final preview. Early water/swelling is not the durable result; visible change develops over weeks to months and depends on product placement, sessions, and individual response.</div></article>
+        <article class="translation"><div class="market">“Up to 2 years”</div><div class="plain"><strong>Fair translation:</strong> selected trial participants were followed to 24 months without additional treatment. This supports possible durability, not a promise that every person keeps the same result for exactly two years. <a href="#src2">[2]</a></div></article>
+        <article class="translation"><div class="market">Glow, tightness, firmness, jawline contour</div><div class="plain"><strong>Fair translation:</strong> these attractive headlines largely come from investigator or participant questionnaires and a smaller extension cohort. They should not be treated as proof of facelift-level tightening or as the same endpoint as the blinded cheek-wrinkle scale.</div></article>
+        <article class="translation"><div class="market">“94% aesthetic improvement”</div><div class="plain"><strong>Fair translation:</strong> the number depends on a broad Global Aesthetic Improvement Scale and selected follow-up participants. The stricter blinded month-12 wrinkle responder estimate was about 71%, and independent two-dimensional photo identification was 37%. <a href="#src2">[2]</a></div></article>
+        <article class="translation"><div class="market">“Collagen stimulator”</div><div class="plain"><strong>Fair translation:</strong> useful category language, not proof that Sculptra, Radiesse, RF, laser, and microneedling are interchangeable. They act through different materials, tissue planes, and injury/response mechanisms.</div></article>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="evidenceTitle">
+      <h2 id="evidenceTitle">What the strongest cheek study actually showed</h2>
+      <div class="evidence">
+        <article class="stat"><div class="v">70.7% vs 25.9%</div><div class="k">Month-12 blinded bilateral responder estimate</div><p>At least one grade better on the 0–4 cheek-wrinkle scale in both cheeks. This is improvement, not complete correction. <a href="index.html#doc9">See the point system.</a></p></article>
+        <article class="stat"><div class="v">37% vs 16%</div><div class="k">Independent 2D-photo identification</div><p>A stricter visual test: a reviewer tried to identify the month-12 image from a randomized baseline/month-12 pair. The result looked less dramatic by this endpoint.</p></article>
+        <article class="stat"><div class="v">149 people</div><div class="k">Randomized cheek trial population</div><p>Most participants were women and White, so a simple web tree cannot confidently personalize the percentage across every sex, skin type, age, or medical history. <a href="#src2">[2]</a></p></article>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="limitsTitle">
+      <h2 id="limitsTitle">What it might do—and what it probably cannot do for you</h2>
+      <div class="can-cannot">
+        <article class="lane yes"><h3>Reasonable expectations</h3><ul><li>Gradually soften qualifying cheek wrinkles or facial contour deficiencies.</li><li>Add distributed support/fullness in an appropriately selected face.</li><li>Produce a result that may persist into the second year for some people.</li><li>Look less like a one-day “filled” change because the intended effect develops gradually.</li></ul></article>
+        <article class="lane no"><h3>Do not expect it to</h3><ul><li>Give a precise, instantly judgeable, easily dissolved preview.</li><li>Remove brown spots, redness, vessels, acne scars, or rough surface texture by itself.</li><li>Relax frown lines, crow's-feet, or forehead movement.</li><li>Reliably tighten a full/heavy face without adding volume.</li><li>Replace a facelift or neck lift for marked jowls and redundant skin.</li><li>Guarantee glow, firmness, symmetry, or a two-year duration.</li></ul></article>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="goalTitle">
+      <h2 id="goalTitle">First: choose the result you actually want</h2>
+      <p class="lead">This selection gives the tree a sensible alternative if the answer is “no.” It does not diagnose the cause of the concern.</p>
+      <div class="goal-wrap">
+        <div class="goal-grid" id="goalGrid">
+          <button class="goal" type="button" data-goal="volume" aria-pressed="true"><b>Broad cheek/face deflation</b><small>Gradual distributed contour or fullness</small></button>
+          <button class="goal" type="button" data-goal="precise" aria-pressed="false"><b>Precise shape right away</b><small>Cheek, chin, or another focal contour</small></button>
+          <button class="goal" type="button" data-goal="color" aria-pressed="false"><b>Brown spots or redness</b><small>Pigment, vessels, or uneven tone</small></button>
+          <button class="goal" type="button" data-goal="texture" aria-pressed="false"><b>Scars or rough texture</b><small>Acne scars, etched lines, or surface damage</small></button>
+          <button class="goal" type="button" data-goal="movement" aria-pressed="false"><b>Expression lines</b><small>Lines mainly from frowning or squinting</small></button>
+          <button class="goal" type="button" data-goal="laxity" aria-pressed="false"><b>Mild laxity, no added volume</b><small>Firmness while already full enough</small></button>
+          <button class="goal" type="button" data-goal="descent" aria-pressed="false"><b>Jowls or loose neck skin</b><small>Marked descent or redundant skin</small></button>
+          <button class="goal" type="button" data-goal="uncertain" aria-pressed="false"><b>I am not sure</b><small>I need the problem identified first</small></button>
+        </div>
+        <p class="goal-summary" id="goalSummary"><strong>Selected goal:</strong> broad, gradual cheek/facial contour improvement. This is the clearest Sculptra-fit lane to test.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="treeTitle">
+      <h2 id="treeTitle">Then: walk the yes/no candidacy tree</h2>
+      <p class="lead">Answer based on what you truly want—not what a clinic has already recommended. A “yes” result means “worth a professional consultation,” not medically approved.</p>
+      <div class="tree-shell">
+        <div>
+          <div class="tree-card" id="treeCard">
+            <div class="tree-head"><span class="step" id="stepLabel">Goal match</span><span class="progress" id="progressLabel">Question 1 of 5</span></div>
+            <h3 id="questionText">Is your main goal broad, gradual cheek/facial contour or wrinkle improvement?</h3>
+            <p class="help" id="questionHelp">Answer “No” if the main concern is color, surface texture, movement lines, precise instant shaping, or a surgical-level lift.</p>
+            <div class="binary"><button type="button" id="yesButton">Yes</button><button type="button" class="no-btn" id="noButton">No</button></div>
+          </div>
+          <div class="result-card" id="resultCard" aria-live="polite">
+            <div class="verdict" id="verdictLabel"></div><h3 id="resultTitle"></h3><p id="resultBody"></p>
+            <div class="alt"><strong>Quick alternative</strong><span id="alternativeText"></span></div>
+            <div class="result-links"><a class="primary" id="primaryResultLink" href="index.html#doc4">Open candidate details</a><a id="secondaryResultLink" href="index.html#doc5">Compare alternatives</a></div>
+          </div>
+        </div>
+        <aside class="path-card" aria-label="Your answers"><h3>Your path</h3><ol class="path-list" id="pathList"><li><b>Selected result:</b> broad cheek/face deflation</li><li>Answer the first question to begin.</li></ol><button type="button" class="reset" id="resetButton">Start over</button></aside>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="timelineTitle">
+      <h2 id="timelineTitle">If the tree says “yes,” this is the basic journey</h2>
+      <div class="timeline"><div class="time"><b>Consultation</b><span>Confirm the problem is deflation/contour—not pigment, movement, or major descent. Review prior filler and medical history.</span></div><div class="time"><b>Sessions over months</b><span>Often two to three; the cheek study allowed up to four, generally about four weeks apart.</span></div><div class="time"><b>Gradual change</b><span>Injection-day water/swelling settles. The intended correction becomes visible over subsequent weeks and months.</span></div><div class="time"><b>Reassess, do not chase</b><span>Use standardized photos and wait for the tissue response before deciding on more volume or another modality.</span></div></div>
+    </section>
+
+    <section class="section risk" aria-labelledby="riskTitle">
+      <h3 id="riskTitle">Pause the shortcut and get individualized medical review if any of these apply</h3>
+      <p>The FDA label includes contraindications and precautions that a web decision tree cannot resolve. Examples include:</p>
+      <ul><li>active sores, cysts, pimples, rashes, hives, inflammation, or infection near the planned site;</li><li>allergy to a component, severe allergy/anaphylaxis history, multiple severe allergies, or relevant lidocaine allergy;</li><li>history or susceptibility to keloids or hypertrophic scars;</li><li>pregnancy, lactation/breastfeeding, or age under 18, where safety has not been established;</li><li>unresolved prior filler, nodules, permanent material, facial implant, immune/bleeding concerns, or inability to obtain follow-up.</li></ul>
+      <p>Urgent post-injection symptoms—such as unusual severe pain, blanching/mottling, vision change, or neurologic symptoms—are not “wait and see” issues. The provider should give an emergency plan before treatment. <a href="#src1">[1]</a></p>
+    </section>
+
+    <section class="section" aria-labelledby="sourcesTitle">
+      <h2 id="sourcesTitle">Sources behind this shortcut</h2>
+      <ol class="sources">
+        <li id="src1"><strong>FDA Sculptra U.S. Instructions for Use, P030050/S039.</strong> <a href="source_docs/FDA_P030050_S039_Sculptra_IFU_2023.pdf">Local FDA PDF</a> — indications, contraindications, warnings, treatment course, adverse events, and trial tables.</li>
+        <li id="src2"><strong>FDA Summary of Safety and Effectiveness Data, P030050/S039.</strong> <a href="source_docs/FDA_P030050_S039_SSED_cheek_wrinkles_2023.pdf">Local FDA PDF</a> — 149-person randomized cheek trial, responder definition, blinded and photographic outcomes, demographics, and 24-month extension.</li>
+        <li id="src3"><strong>SculptraUSA, “Explore Sculptra,” accessed 2026-07-26.</strong> <a href="source_docs/SculptraUSA_explore_marketing_2026-07-26.html">Preserved official marketing page</a> · <a href="https://www.sculptrausa.com/explore-sculptra" target="_blank" rel="noopener">Live official page</a> — current U.S. consumer framing for collagen, gradual treatment, glow/tightness/jawline, sessions, and “up to two years.”</li>
+        <li id="src4"><strong>Signori R et al., 2024 PLLA systematic review.</strong> <a href="source_docs/PMC11435306_systematic_review_PLLA_facial_aesthetics_2024.xml">Preserved full-text record</a> — 11 randomized trials, five rated high risk of bias, and an overall low-quality-evidence conclusion despite favorable signals.</li>
+      </ol>
+      <div class="foot-links"><a href="index.html#doc9">Understand the wrinkle point system</a><a href="index.html#doc4">Full candidate categories</a><a href="index.html#doc5">Alternatives comparison</a><a href="index.html#doc10">Sculptra vs laser/energy</a><a href="potential_results_visualizer.html">Explore exact published results</a></div>
+      <p class="test-status" id="testStatus"></p>
+    </section>
+  </main>
+<script>
+(function(){
+  "use strict";
+  const GOALS={
+    volume:{label:"broad cheek/face deflation",summary:"broad, gradual cheek/facial contour improvement. This is the clearest Sculptra-fit lane to test.",alternative:"If you want the same volume goal but fail on timing or reversibility, compare a product-specific HA filler for an immediate, potentially dissolvable preview; compare CaHA or fat transfer when the structural or volume requirement is larger.",href:"index.html#doc8",link:"Compare injectable options"},
+    precise:{label:"precise shape right away",summary:"immediate, focal shaping. Sculptra is usually not the clearest first match because its result is gradual and distributed.",alternative:"Start with a product- and area-specific hyaluronic-acid filler consultation. HA gives immediate gel volume and can be degraded with hyaluronidase, although procedural injury is not automatically reversible.",href:"index.html#doc8",link:"Compare HA and biostimulators"},
+    color:{label:"brown spots or redness",summary:"pigment or vascular change. Sculptra does not target melanin or hemoglobin.",alternative:"Start with a diagnosis-led pigment/redness plan: sunscreen and appropriate topicals, or IPL/pigment/vascular laser when the diagnosis and skin type support it.",href:"index.html#doc10",link:"Compare light and laser options"},
+    texture:{label:"scars or rough texture",summary:"surface texture or scar architecture. Adding volume alone usually does not treat the primary problem.",alternative:"Start with scar-type assessment. Depending on the architecture, the comparison may include subcision, fractional laser, microneedling, or RF microneedling—not one generic “collagen” treatment.",href:"index.html#doc10",link:"Compare texture treatments"},
+    movement:{label:"expression lines",summary:"movement-driven lines. Muscle activity, not diffuse volume loss, is the main mechanism to assess.",alternative:"Start with a neuromodulator assessment for frown, forehead, or crow's-feet movement. Static etched lines may need a separate surface or volume plan.",href:"index.html#doc5",link:"See the goal-to-option map"},
+    laxity:{label:"mild laxity without added volume",summary:"firmness or mild laxity while facial volume is already adequate. A tightening lane may fit better.",alternative:"Compare noninvasive RF or microfocused ultrasound when the goal is modest tightening without intentional volume. Device, treatment plane, and expectations matter.",href:"index.html#doc10",link:"Compare RF and MFU/HIFU"},
+    descent:{label:"jowls or loose neck skin",summary:"marked descent or redundant skin. Adding volume can camouflage without repositioning anatomy.",alternative:"Start with a facelift/neck-lift consultation to learn whether structural repositioning is the relevant comparator. A consultation does not commit you to surgery.",href:"index.html#doc5",link:"Compare surgery and nonsurgical options"},
+    uncertain:{label:"an uncertain goal",summary:"an unclear concern. Identify whether the problem is volume, pigment, texture, movement, laxity, or descent before choosing a product.",alternative:"Start with a diagnosis-focused consultation and standardized photographs. Ask the clinician to name the anatomic problem before naming a product or device.",href:"index.html#doc4",link:"Review candidate categories"}
+  };
+  const QUESTIONS=[
+    {label:"Goal match",q:"Is your main goal broad, gradual cheek/facial contour or wrinkle improvement?",help:"Answer “No” if the main concern is color, surface texture, movement lines, precise instant shaping, or a surgical-level lift."},
+    {label:"Timing",q:"Are you comfortable with gradual change and a treatment series rather than one instant final reveal?",help:"Official consumer information describes an average two to three sessions over a few months; the FDA cheek trial allowed up to four."},
+    {label:"Reversibility",q:"Are you comfortable that Sculptra does not have an instant HA-style enzyme reset?",help:"PLLA particles are not dissolved by hyaluronidase. Some unwanted outcomes can require time, medication, procedures, or surgery depending on the diagnosis."},
+    {label:"Medical pause",q:"Do any pause flags or unresolved medical/history questions apply to you?",help:"Say “Yes” for active skin inflammation/infection, keloid history, severe or multiple allergies, pregnancy/lactation, age under 18, unresolved filler/nodules, or another concern that needs clinician review."},
+    {label:"Anatomy check",q:"Is your face already adequately full/heavy, or is marked jowling or redundant skin the main problem?",help:"Sculptra intentionally adds a distributed tissue/volume effect. It cannot excise skin or reposition markedly descended anatomy."}
+  ];
+  let goal="volume",step=0,path=[],finished=false;
+  const $=id=>document.getElementById(id);
+  function setGoal(next){goal=next;document.querySelectorAll(".goal").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.goal===goal)));$("goalSummary").innerHTML="<strong>Selected goal:</strong> "+GOALS[goal].summary;resetTree();}
+  function renderQuestion(){const x=QUESTIONS[step];$("stepLabel").textContent=x.label;$("progressLabel").textContent="Question "+(step+1)+" of "+QUESTIONS.length;$("questionText").textContent=x.q;$("questionHelp").textContent=x.help;$("treeCard").hidden=false;$("resultCard").className="result-card";finished=false;renderPath();}
+  function renderPath(){const rows=["<li><b>Selected result:</b> "+GOALS[goal].label+"</li>"].concat(path.map(p=>"<li><b>"+QUESTIONS[p.step].label+":</b> "+(p.answer?"Yes":"No")+"</li>"));if(!path.length)rows.push("<li>Answer the first question to begin.</li>");$("pathList").innerHTML=rows.join("");}
+  function showResult(kind,title,body,alt){finished=true;$("treeCard").hidden=true;const card=$("resultCard");card.className="result-card show "+kind;$("verdictLabel").textContent=kind==="yes"?"Yes — consultation fit":kind==="pause"?"Pause — medical review needed":"No — probably not first fit";$("resultTitle").textContent=title;$("resultBody").textContent=body;$("alternativeText").textContent=alt||GOALS[goal].alternative;$("primaryResultLink").href=kind==="yes"?"index.html#doc4":GOALS[goal].href;$("primaryResultLink").textContent=kind==="yes"?"Open full candidate details":GOALS[goal].link;$("secondaryResultLink").href=kind==="pause"?"index.html#doc3":"index.html#doc5";$("secondaryResultLink").textContent=kind==="pause"?"Review safety and contraindications":"Compare all alternatives";renderPath();}
+  function answer(value){if(finished)return;path.push({step,answer:value});if(step===0&&!value){showResult("no","Sculptra is probably not the first match for the result you selected.","Its strongest fit is broad, gradual contour/wrinkle correction. Your selected goal points to a different mechanism.");return}if(step===1&&!value){showResult("no","The timing does not match what you want.","Sculptra is deliberately gradual and commonly series-based.","If you still want volume, compare a product-specific HA filler for immediate shape and a more direct preview.");return}if(step===2&&!value){showResult("no","The reversibility trade-off does not match your preference.","Wanting an enzyme-degradable material is a legitimate reason to choose a different first consultation.","Compare a product-specific HA filler. Hyaluronidase can degrade HA material, though it cannot undo every injection complication.");return}if(step===3&&value){showResult("pause","Pause the decision tree and get individualized medical review.","A web tool cannot determine whether the relevant contraindication, precaution, prior filler, or medical history makes treatment inappropriate or simply requires a different plan.","Do not substitute another injectable automatically. First resolve the medical/history question with a qualified clinician.");return}if(step===4&&value){showResult("no","Adding distributed volume may not solve the anatomy you described.","A full/heavy face or marked descent can look heavier when volume is used as a substitute for tightening or repositioning.",goal==="descent"?GOALS.descent.alternative:GOALS.laxity.alternative+" If descent is marked, add a surgical comparison.");return}if(step===4&&!value){showResult("yes","You may be a reasonable Sculptra consultation candidate.","Your answers match the broad profile: a gradual contour/cheek-wrinkle goal, acceptance of a series and limited reversibility, no self-identified pause flag, and no obvious mismatch from existing fullness or major descent.","Still compare the proposed plan with HA, CaHA, or fat transfer based on how precise, immediate, or large the desired correction is.");return}step+=1;renderQuestion();}
+  function resetTree(){step=0;path=[];finished=false;renderQuestion();}
+  document.querySelectorAll(".goal").forEach(b=>b.addEventListener("click",()=>setGoal(b.dataset.goal)));$("yesButton").addEventListener("click",()=>answer(true));$("noButton").addEventListener("click",()=>answer(false));$("resetButton").addEventListener("click",resetTree);
+  function tests(){const keys=Object.keys(GOALS),goalLinks=keys.every(k=>GOALS[k].href&&GOALS[k].alternative),unique=QUESTIONS.length===5&&new Set(QUESTIONS.map(q=>q.label)).size===5,dom=["goalGrid","treeCard","resultCard","yesButton","noButton","pathList"].every(id=>!!$(id));return {pass:goalLinks&&unique&&dom,goals:keys.length,questions:QUESTIONS.length,goalLinks,unique,dom}}
+  window.runQuickStartTests=tests;const test=tests();$("testStatus").textContent="Decision-tree self-test: "+(test.pass?"pass":"fail")+" · "+test.goals+" goal routes · "+test.questions+" yes/no questions.";if(new URLSearchParams(location.search).get("test")==="1")document.documentElement.dataset.testStatus=test.pass?"pass":"fail";renderQuestion();
+})();
+</script>
+</body>
+</html>

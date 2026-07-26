@@ -34,6 +34,7 @@ This topic covers **Sculptra**, the branded injectable poly-L-lactic acid (PLLA)
 
 ## Interactive evidence tool
 
+- [Sculptra quick start: claims, candidacy, and alternatives](sculptra_quick_start.html) — a beginner-first single page that translates current marketing language, summarizes the strongest and weakest claims, walks through a five-question yes/no candidacy tree, and gives a goal-matched alternative. Its “yes” means worth a professional consultation, not medical clearance.
 - [Potential-results evidence visualizer](potential_results_visualizer.html) — explore the observed Sculptra cheek and nasolabial-fold study outcomes by assessor, endpoint, and follow-up. It displays published cohort rates, controls, confidence intervals, and attrition warnings; it does not convert age, vials, or selfies into a personal outcome forecast.
 
 ## Relationship to neighboring topics
@@ -45,6 +46,7 @@ This topic covers **Sculptra**, the branded injectable poly-L-lactic acid (PLLA)
 
 ## Supporting material
 
+- [Beginner quick-start and candidacy tree](sculptra_quick_start.html) with plain-language claim translation, result-goal selection, yes/no routing, and quick alternatives.
 - [Source manifest](source_docs/README.md) with FDA PDFs, current manufacturer IFU, comparator labels, PubMed records, and legally preserved open full text.
 - [Clinical endpoint dataset](data/sculptra_clinical_endpoints.csv) used by the visualizer.
 - [Direct injectable comparison dataset](data/direct_injectable_biostimulator_comparison.csv) behind the product-level matrix.

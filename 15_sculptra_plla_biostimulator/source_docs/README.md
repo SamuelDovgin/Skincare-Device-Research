@@ -12,6 +12,7 @@
 | `FDA_P030050_S039_Sculptra_IFU_2023.pdf` | https://www.accessdata.fda.gov/cdrh_docs/pdf3/P030050S039C.pdf | U.S. professional labeling: indications, contraindications, warnings, precautions, clinical tables, reconstitution, injection planes, cadence, and aftercare. |
 | `FDA_P030050_S039_patient_labeling_2023.pdf` | https://www.accessdata.fda.gov/cdrh_docs/pdf3/P030050S039D.pdf | Patient-oriented FDA labeling and risk communication. |
 | `Galderma_Sculptra_IFU_v4.7_2026.pdf` | https://www.galderma.com/sites/default/files/2026-06/SculptraIFUV4.7.pdf | Current manufacturer IFU located in July 2026; composition, 5–8 mL reconstitution, warnings, treatment technique, and post-market adverse events. It is not substituted for the FDA-approved U.S. indication language. |
+| `SculptraUSA_explore_marketing_2026-07-26.html` | https://www.sculptrausa.com/explore-sculptra | Dated capture of current official U.S. consumer framing: “restore natural collagen,” gradual treatment, typical session language, “up to two years,” and glow/tightness/firmness/jawline headlines. Used to translate marketing claims into endpoint-specific plain language, not as independent efficacy evidence. |
 | `FDA_Sculptra_P030050_S039_overview_2026-07-26.html` | https://www.fda.gov/medical-devices/recently-approved-devices/sculptra-p030050s039 | FDA public summary of the 2023 cheek-wrinkle approval. |
 | `FDA_dermal_fillers_safety_page_2026-07-26.html` | https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/dermal-fillers-soft-tissue-fillers | Current FDA class-level approved/unapproved use boundaries, provider guidance, and filler risks. |
 | `FDA_approved_dermal_fillers_page_2026-07-26.html` | https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/fda-approved-dermal-fillers | Current FDA material-class descriptions and approximate class durations. |
@@ -60,6 +61,7 @@
 ## Capture and licensing notes
 
 - FDA documents and pages are U.S. government primary sources.
+- The SculptraUSA HTML file is a dated manufacturer marketing capture. It preserves the claims a consumer encounters but does not replace FDA labeling or independent evidence appraisal.
 - Open full text was preserved through Europe PMC only where the archive exposed a lawful full-text record and license.
 - Paywalled journal articles were not copied. Their PubMed records/abstracts and the FDA's primary regulatory review are preserved instead.
 - Product and regulatory status can change; recheck the live FDA PMA record and current U.S. labeling before clinical or purchasing decisions.
