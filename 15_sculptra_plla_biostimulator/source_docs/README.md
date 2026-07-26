@@ -21,6 +21,10 @@
 | Local file | Original source | Evidence role |
 |---|---|---|
 | `FDA_Radiesse_IFU_P050052S162_2026.pdf` | https://www.accessdata.fda.gov/cdrh_docs/pdf5/P050052S162D.pdf | Current FDA labeling anchor for calcium hydroxylapatite comparison; indication-specific, not proof of direct superiority or equivalence to Sculptra. |
+| `FDA_Bellafill_IFU_P020012S009_2015.pdf` | https://www.accessdata.fda.gov/cdrh_docs/pdf2/P020012S009C.pdf | FDA professional labeling anchor for permanent PMMA microspheres in bovine collagen, nasolabial-fold and qualifying cheek acne-scar indications, mandatory skin testing, and permanence/reversal boundaries. |
+| `FDA_Bellafill_SSED_P020012S009_2015.pdf` | https://www.accessdata.fda.gov/cdrh_docs/pdf2/P020012S009B.pdf | FDA clinical review for the cheek acne-scar indication; includes the month-six blinded responder comparison and 12-month safety follow-up. |
+| `FDA_Bellafill_patient_labeling_P020012S009_2015.pdf` | https://www.accessdata.fda.gov/cdrh_docs/pdf2/P020012S009D.pdf | Patient-facing permanence, skin-test, benefit, and risk communication for Bellafill. |
+| `Sinclair_Ellanse_SSCP_MDD.pdf` | https://sinclair.com/media/dzunuwow/e-mdd-sscp-02-ellanse-mdd-sscp_digital-version-copy.pdf | European MDD Class III Summary of Safety and Clinical Performance for the PCL/CMC-gel comparator. It is not an IFU or U.S. FDA label; it includes product-variant, published, unpublished, and equivalent-device evidence. |
 | `FDA_Juvederm_Voluma_IFU_P110033S070.pdf` | https://www.accessdata.fda.gov/cdrh_docs/pdf11/P110033S070C.pdf | FDA labeling anchor for cross-linked hyaluronic-acid cheek/chin/temple comparison and its immediate volumizing use. |
 
 ## Clinical and mechanistic literature
@@ -32,11 +36,15 @@
 | `PMC11593986_midface_projection_cheek_trial_subanalysis_2024.xml` | PMCID PMC11593986; CC BY-NC-ND | Full-text 3D midface projection subgroup analysis from the FDA cheek-wrinkle trial. |
 | `PMC11626369_immediate_reconstitution_multicenter_safety_2024.xml` | PMCID PMC11626369; CC BY | Full-text retrospective safety study of immediate reconstitution; useful technique-era evidence but nonrandomized. |
 | `PMC12392244_PCL_vs_PLLA_nasolabial_retrospective_2025.xml` | PMCID PMC12392244; CC BY | Full-text retrospective PCL-versus-PLLA NLF comparison; comparator context, not Sculptra-specific randomized proof. |
+| `PubMed_direct_injectable_biostimulator_comparisons_2026-07-26.xml` | PubMed IDs 37626137, 41532837, 39480040, 36098704, 41184662 and related comparator records | Bibliographic/abstract capture for Sculptra-versus-other-PLLA, PDLLA-versus-Sculptra, PLLA-versus-CaHA, and review evidence. |
+| `PMC12802405_PDLLA_vs_PLLA_split_face_2026.xml` | PMCID PMC12802405; CC BY | Full-text 33-person randomized, evaluator-blinded split-face Juvelook Volume-versus-Sculptra NLF study through week 24; company funded and not a long-term equivalence study. |
+| `PMC10971119_CaHA_controlled_trials_systematic_review_2024.xml` | PMCID PMC10971119; open full text | Full-text systematic review of 13 controlled CaHA studies; heterogeneous qualitative synthesis with sponsor/author relationship limitations. |
 
 ## Trial and data files
 
 - [`../data/NCT04124692_cheek_wrinkle_trial.json`](../data/NCT04124692_cheek_wrinkle_trial.json) — ClinicalTrials.gov API capture for the pivotal cheek-wrinkle trial.
 - [`../data/sculptra_clinical_endpoints.csv`](../data/sculptra_clinical_endpoints.csv) — hand-checked endpoint extract used by the results visualizer. Every row retains endpoint, assessor, follow-up, numerator/denominator where published, and caveat.
+- [`../data/direct_injectable_biostimulator_comparison.csv`](../data/direct_injectable_biostimulator_comparison.csv) — structured product/class comparison preserving carrier, immediate behavior, permanence, U.S. evidence status, reversal limit, best-fit lane, and primary caution.
 
 ## Capture and licensing notes
 

@@ -70,7 +70,7 @@ In the cheek trial, treating-investigator GAIS improvement rose from 68.1% at mo
 
 ### Months 7–12: mature assessment
 
-The month-12 blinded bilateral cheek responder estimate was 70.7%. This is a more defensible time to judge the full course than injection-day photographs. Independent 2D photo discrimination was 37%, so a satisfactory live result may still look subtle in a static comparison. [[2]](source_docs/FDA_P030050_S039_SSED_cheek_wrinkles_2023.pdf)
+The month-12 blinded bilateral cheek responder estimate was 70.7%. That endpoint required [at least a one-grade improvement on the 0–4 GCWS in both cheeks at once](09_outcome_scales_and_responder_definitions.md). This is a more defensible time to judge the full course than injection-day photographs. Independent 2D photo discrimination was 37%, so a satisfactory live result may still look subtle in a static comparison. [[2]](source_docs/FDA_P030050_S039_SSED_cheek_wrinkles_2023.pdf)
 
 ### Months 19–24: persistence, not certainty
 

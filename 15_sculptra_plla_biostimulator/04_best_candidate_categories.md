@@ -10,7 +10,7 @@ The best Sculptra candidate is not merely “someone who wants collagen.” It i
 
 ### A1. Moderate or severe cheek wrinkles with diffuse midface aging
 
-**Why this fits:** This is the 2023 FDA pivotal population: adults with moderate/severe bilateral cheek wrinkles, mean age 60.7, treated over as many as four sessions. The month-12 blinded bilateral response was 70.7% versus 25.9% with no treatment. [[2]](source_docs/FDA_P030050_S039_SSED_cheek_wrinkles_2023.pdf)
+**Why this fits:** This is the 2023 FDA pivotal population: adults with moderate/severe bilateral cheek wrinkles, mean age 60.7, treated over as many as four sessions. The month-12 blinded bilateral response was 70.7% versus 25.9% with no treatment; [the outcome-scale explainer](09_outcome_scales_and_responder_definitions.md) shows the exact 0–4 point system and why both cheeks had to improve concurrently. [[2]](source_docs/FDA_P030050_S039_SSED_cheek_wrinkles_2023.pdf)
 
 **Best-candidate description:**
 

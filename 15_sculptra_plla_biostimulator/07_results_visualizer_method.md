@@ -33,12 +33,12 @@ No value is scraped from clinic marketing, social media, a before/after image ga
 
 | Endpoint | Definition | Strength | Limitation |
 |---|---|---|---|
-| GCWS at rest responder | ≥1-grade improvement from baseline in both cheeks | Blinded live evaluator; FDA primary endpoint | Ordinal one-grade threshold; scale/product sponsor involvement |
-| GCWS dynamic responder | ≥1-grade improvement in both cheeks during expression | Blinded live evaluator | Secondary endpoint |
+| GCWS at rest responder | [≥1-grade improvement from baseline on the 0–4 scale in both cheeks](09_outcome_scales_and_responder_definitions.md) | Blinded live evaluator; FDA primary endpoint | Ordinal one-grade threshold; both cheeks must qualify concurrently; scale/product sponsor involvement |
+| GCWS dynamic responder | [≥1-grade improvement in both cheeks during maximum smile](09_outcome_scales_and_responder_definitions.md) | Blinded live evaluator | Same 0–4 anchors in a different facial condition; secondary endpoint |
 | Treating-investigator GAIS | Improved/much improved/very much improved globally | Clinically intuitive and longitudinal | Injector knows treatment; broad “any improvement” threshold |
 | Subject GAIS | Participant reports global improvement | Captures patient-perceived value | Unblinded and expectation-sensitive |
 | Independent 2D photo identification | Reviewer correctly identifies month-12 image | Blinded, visually stringent | 2D photos can miss live/3D change; denominator not given in SSED summary |
-| NLF WAS responder | ≥1-grade improvement on wrinkle scale | Blinded evaluator | Different anatomy, study, preparation, and comparator |
+| NLF WAS responder | [≥1-grade improvement on the six-point NLF wrinkle scale](09_outcome_scales_and_responder_definitions.md) | Blinded evaluator | Different anatomy, scale, study, preparation, and comparator |
 | Subject global evaluation | Subject-perceived overall NLF improvement | Long follow-up available | Secondary endpoint; extension attrition |
 
 These endpoints are not interchangeable. The visualizer never averages them into a single “Sculptra score.”

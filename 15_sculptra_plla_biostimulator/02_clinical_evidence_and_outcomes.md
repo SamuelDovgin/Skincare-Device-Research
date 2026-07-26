@@ -4,7 +4,7 @@
 
 ## 0. Bottom line
 
-Sculptra has credible randomized evidence for cheek wrinkles and nasolabial-fold correction, with results persisting in selected follow-up cohorts to about two years. The most important caveat is **endpoint spread**: at month 12 in the FDA cheek study, 70.7% met the blinded live one-grade bilateral response, 94.3% were rated globally improved by treating investigators, 92.0% by subjects, but only 37% were distinguishable by independent 2D photo review. Marketing that chooses only the highest number hides the uncertainty. [[1]](source_docs/FDA_P030050_S039_SSED_cheek_wrinkles_2023.pdf)
+Sculptra has credible randomized evidence for cheek wrinkles and nasolabial-fold correction, with results persisting in selected follow-up cohorts to about two years. The most important caveat is **endpoint spread**: at month 12 in the FDA cheek study, 70.7% met the [blinded live one-grade bilateral GCWS response](09_outcome_scales_and_responder_definitions.md), 94.3% were rated globally improved by treating investigators, 92.0% by subjects, but only 37% were distinguishable by independent 2D photo review. Marketing that chooses only the highest number hides the uncertainty. [[1]](source_docs/FDA_P030050_S039_SSED_cheek_wrinkles_2023.pdf)
 
 ## 1. Evidence hierarchy used here
 
@@ -25,7 +25,7 @@ The FDA reviewed a prospective, randomized 2:1, evaluator-blinded, no-treatment-
 
 | Endpoint | Sculptra | Control | What it means |
 |---|---:|---:|---|
-| **Primary: ≥1-grade GCWS improvement in both cheeks, blinded live evaluator** | **70.7%** (95% CI 61.1–80.4) | **25.9%** (13.4–38.3) | Best regulatory anchor; multiple-imputation estimate; p<0.0001. |
+| **Primary: [≥1-grade GCWS improvement in both cheeks](09_outcome_scales_and_responder_definitions.md), blinded live evaluator** | **70.7%** (95% CI 61.1–80.4) | **25.9%** (13.4–38.3) | Best regulatory anchor; 0–4 ordinal scale; both cheeks had to improve concurrently; multiple-imputation estimate; p<0.0001. |
 | Observed-case version of primary endpoint | 63/88 (71.6%) | 12/46 (26.1%) | Shows the raw analyzed completer counts behind the similar estimate. |
 | Treating-investigator GAIS: any bilateral improvement | 83/88 (94.3%) | 2/46 (4.3%) | High but unblinded and broad “any improvement” threshold. |
 | Subject GAIS: any bilateral improvement | 81/88 (92.0%) | 3/46 (6.5%) | Patient-perceived change; expectation and lack of masking can inflate separation. |
@@ -86,7 +86,7 @@ The SSED post-market section reports delayed nodules, granulomas, infection/absc
 
 ## 7. Practical interpretation
 
-- Use the **70.7% blinded bilateral cheek responder estimate** as the headline efficacy number for on-label cheek wrinkles—not 94% without context.
+- Use the **70.7% blinded bilateral cheek responder estimate** as the headline efficacy number for on-label cheek wrinkles—not 94% without context—and [name the 0–4 GCWS threshold](09_outcome_scales_and_responder_definitions.md) whenever space permits.
 - Use **37% versus 16% independent photo recognition** as a reality check on how subtle results may look in static images.
 - Treat **24–25 month data** as durability evidence among follow-up cohorts, not a warranty.
 - Do not use class-level PLLA studies to claim that a cheaper or differently formulated PLLA product is Sculptra-equivalent.

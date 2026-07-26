@@ -9,11 +9,12 @@ This topic covers **Sculptra**, the branded injectable poly-L-lactic acid (PLLA)
 ## TL;DR
 
 1. **Best-fit profile:** an immunocompetent adult over 21 with diffuse cheek wrinkles, nasolabial/other facial contour deficiency, or broad age-related volume loss who accepts a gradual result, a series of as many as four sessions, and less point-by-point reversibility than HA filler. [[1]](source_docs/FDA_P030050_S039_Sculptra_IFU_2023.pdf)
-2. **The strongest Sculptra-specific evidence is regulatory, not social-media before/after imagery.** In the 149-person randomized cheek trial, the month-12 blinded bilateral cheek responder estimate was 70.7% with Sculptra versus 25.9% with no treatment. Treating-investigator and subject GAIS rates were much higher (94.3% and 92.0%), while independent 2D photo discrimination was only 37% versus 16%. These endpoints answer different questions and should not be collapsed into one “success rate.” [[2]](source_docs/FDA_P030050_S039_SSED_cheek_wrinkles_2023.pdf)
+2. **The strongest Sculptra-specific evidence is regulatory, not social-media before/after imagery.** In the 149-person randomized cheek trial, the month-12 blinded bilateral cheek responder estimate was 70.7% with Sculptra versus 25.9% with no treatment. A responder needed [at least a one-grade reduction on the 0–4 GCWS on both cheeks concurrently](09_outcome_scales_and_responder_definitions.md). Treating-investigator and subject GAIS rates were much higher (94.3% and 92.0%), while independent 2D photo discrimination was only 37% versus 16%. These endpoints answer different questions and should not be collapsed into one “success rate.” [[2]](source_docs/FDA_P030050_S039_SSED_cheek_wrinkles_2023.pdf)
 3. **Durability can reach about two years, but “lasts two years” is not a guarantee.** The cheek extension retained 93.8% investigator-rated and 86.2% subject-rated improvement at month 24 among 65 returning original-treatment subjects. An earlier NLF trial reported 81% subject global improvement at month 25. Both are extension/cohort results subject to attrition and responder definitions. [[2]](source_docs/FDA_P030050_S039_SSED_cheek_wrinkles_2023.pdf) [[3]](https://pubmed.ncbi.nlm.nih.gov/21460676/)
 4. **It is not fully “natural” or merely collagen.** Each current vial contains 150 mg synthetic PLLA microparticles plus 90 mg sodium carboxymethylcellulose and 127.5 mg mannitol; the clinical effect depends on an intentional local tissue response around biodegradable particles. [[4]](source_docs/Galderma_Sculptra_IFU_v4.7_2026.pdf)
 5. **The safety boundary matters.** Common short-term effects are injection-site pain, tenderness, bruising, redness, swelling, and lumps/bumps. Delayed papules/nodules and granulomas can occur; rare vascular compromise may cause necrosis, blindness, or stroke. Sculptra does not have the simple hyaluronidase reversal pathway used for HA gel. [[1]](source_docs/FDA_P030050_S039_Sculptra_IFU_2023.pdf)
 6. **The 2024 systematic review is a useful brake on the marketing.** It found 11 RCTs but rated 5 at high risk of bias and concluded that facial-rejuvenation evidence quality remains low despite generally favorable efficacy and durability signals. [[5]](source_docs/PMC11435306_systematic_review_PLLA_facial_aesthetics_2024.xml)
+7. **Direct biostimulator comparisons are sparse.** Radiesse/CaHA has strong product labeling but no large Sculptra clinical-superiority trial; Bellafill is a permanent PMMA category with mandatory bovine-collagen skin testing; the most direct recent Sculptra comparison is a 33-person, 24-week split-face PDLLA study that cannot establish long-term or regulatory equivalence. [[6]](08_direct_injectable_collagen_stimulator_comparison.md)
 
 ## Documents
 
@@ -26,6 +27,8 @@ This topic covers **Sculptra**, the branded injectable poly-L-lactic acid (PLLA)
 | 05 | [Comparison chart: Sculptra vs alternatives](05_sculptra_vs_alternatives_comparison.md) | HA, Radiesse/CaHA, PCL/PDLLA, fat transfer, neuromodulators, RF/HIFU, fractional procedures, topicals, and facelift. |
 | 06 | [Treatment journey and provider checklist](06_treatment_journey_and_provider_checklist.md) | What the evidence-supported timeline looks like, what to ask a provider, aftercare, red flags, and how to audit a quote or plan. |
 | 07 | [Results visualizer method and evidence limits](07_results_visualizer_method.md) | Exact source rows, endpoint definitions, uncertainty, why the tool does not predict an individual's face, and validation rules. |
+| 08 | [Direct injectable collagen-stimulator comparison](08_direct_injectable_collagen_stimulator_comparison.md) | Sculptra vs Radiesse, Bellafill, PCL, PDLLA, other PLLA, and HA reference: labels, permanence, reversal, head-to-head results, and candidate fit. |
+| 09 | [Outcome scales and responder definitions](09_outcome_scales_and_responder_definitions.md) | The exact 0–4 GCWS point system, bilateral one-grade responder rule, worked examples, imputed vs observed rates, and why GCWS, WAS, WSRS, GAIS, and photo endpoints differ. |
 
 ## Interactive evidence tool
 
@@ -42,6 +45,7 @@ This topic covers **Sculptra**, the branded injectable poly-L-lactic acid (PLLA)
 
 - [Source manifest](source_docs/README.md) with FDA PDFs, current manufacturer IFU, comparator labels, PubMed records, and legally preserved open full text.
 - [Clinical endpoint dataset](data/sculptra_clinical_endpoints.csv) used by the visualizer.
+- [Direct injectable comparison dataset](data/direct_injectable_biostimulator_comparison.csv) behind the product-level matrix.
 - [ClinicalTrials.gov trial capture](data/NCT04124692_cheek_wrinkle_trial.json) for NCT04124692.
 
 ## Status and open questions
@@ -57,3 +61,4 @@ This topic covers **Sculptra**, the branded injectable poly-L-lactic acid (PLLA)
 3. Brown SA et al. Subject global evaluation and subject satisfaction using injectable PLLA versus human collagen. https://pubmed.ncbi.nlm.nih.gov/21460676/ - 233-subject NLF trial secondary outcomes through 25 months.
 4. Galderma. Sculptra Instructions for Use v4.7. [Local PDF](source_docs/Galderma_Sculptra_IFU_v4.7_2026.pdf) - current composition and global manufacturer instructions located July 2026.
 5. Signori R et al. Efficacy and Safety of Poly-L-Lactic Acid in Facial Aesthetics: A Systematic Review. https://pubmed.ncbi.nlm.nih.gov/39339028/ - 11 RCTs; 5 at high risk of bias; evidence-quality caution.
+6. Direct injectable collagen-stimulator comparison. [Rendered research chapter](08_direct_injectable_collagen_stimulator_comparison.md) - labeling, direct studies, and candidate decision lanes.
