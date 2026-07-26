@@ -1,0 +1,10 @@
+dataset,geography,category,procedure_count,total_nonsurgical_or_minimally_invasive,share_percent,relative_to_plla_or_non_ha,scope_warning
+ISAPS 2024,Global,Poly-L-lactic acid,642566,20535686,3.129,1.000,"All PLLA products reported by plastic surgeons; not Sculptra-only"
+ISAPS 2024,Global,Full-field ablative,752717,20535686,3.665,1.171,"Narrow ablative category; not the entire laser market"
+ISAPS 2024,Global,Nonsurgical skin tightening,1239306,20535686,6.035,1.929,"Multiple devices and mechanisms pooled"
+ISAPS 2024,Global,Full-field ablative plus nonsurgical skin tightening,1992023,20535686,9.700,3.100,"Calculated combined utilization context; not a single market"
+ASPS 2024,United States,Non-HA fillers,932861,28243407,3.303,1.000,"Pools Radiesse Sculptra Bellafill and Renuva; not Sculptra-only"
+ASPS 2024,United States,Skin resurfacing,3703305,28243407,13.112,3.970,"Pools dermabrasion chemical peel ablative/nonablative lasers and microdermabrasion"
+ASPS 2024,United States,Skin treatment using lasers,3112056,28243407,11.019,3.336,"Includes hair removal IPL tattoo removal and leg-vein treatment"
+ASPS 2024,United States,Nonsurgical skin tightening,439032,28243407,1.554,0.471,"Multiple devices and mechanisms pooled"
+ASPS 2024,United States,Three energy-oriented rows combined,7254393,28243407,25.685,7.777,"Calculated utilization context; heterogeneous categories and not equivalent substitutes"

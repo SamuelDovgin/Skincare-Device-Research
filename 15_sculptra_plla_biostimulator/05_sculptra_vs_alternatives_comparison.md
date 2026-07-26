@@ -72,6 +72,8 @@ Fat grafting can address larger volume deficits with autologous tissue, but requ
 
 “Both stimulate collagen” is too vague to make them substitutes.
 
+For the full modality-by-modality comparison—including ablative and nonablative fractional lasers, IPL/pigment/vascular devices, noninvasive RF, RF microneedling, MFU/HIFU, best-candidate categories, combination sequencing, and official global/U.S. procedure-volume shares—open the [dedicated laser and energy comparison](10_sculptra_vs_laser_and_energy_treatments.md).
+
 | Problem | Sculptra | Energy procedure |
 |---|---|---|
 | Deflation / volume loss | Direct category fit | Usually not; aggressive heat may worsen unwanted fat loss |

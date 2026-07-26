@@ -27,6 +27,16 @@
 | `Sinclair_Ellanse_SSCP_MDD.pdf` | https://sinclair.com/media/dzunuwow/e-mdd-sscp-02-ellanse-mdd-sscp_digital-version-copy.pdf | European MDD Class III Summary of Safety and Clinical Performance for the PCL/CMC-gel comparator. It is not an IFU or U.S. FDA label; it includes product-variant, published, unpublished, and equivalent-device evidence. |
 | `FDA_Juvederm_Voluma_IFU_P110033S070.pdf` | https://www.accessdata.fda.gov/cdrh_docs/pdf11/P110033S070C.pdf | FDA labeling anchor for cross-linked hyaluronic-acid cheek/chin/temple comparison and its immediate volumizing use. |
 
+## Laser, energy, and procedure-market context
+
+| Local file | Original source | Evidence role |
+|---|---|---|
+| `ISAPS_global_survey_2024.pdf` | https://www.isaps.org/media/30xldsyf/isaps-global-survey-2024.pdf | Global plastic-surgeon procedure-volume anchor that reports PLLA separately from full-field ablative treatment and nonsurgical skin tightening; utilization proxy, not revenue or Sculptra-only share. |
+| `ASPS_2024_procedural_statistics.pdf` | https://www.plasticsurgery.org/documents/news/statistics/2024/plastic-surgery-statistics-report-2024.pdf | U.S. minimally invasive procedure-volume anchor; pools Sculptra with other non-HA fillers and uses broad resurfacing/laser categories. |
+| `FDA_RF_microneedling_safety_communication_2025-10-15.html` | https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication | Current FDA safety boundary for RF microneedling: reported burns, scarring, fat loss, disfigurement, nerve damage, and professional-use warning. |
+| `FDA_medical_lasers_risks_2026-07-26.html` | https://www.fda.gov/radiation-emitting-products/surgical-and-therapeutic-products/medical-lasers | FDA medical-laser overview and class-level risk context. |
+| `PubMed_PLLA_energy_combination_evidence_2026-07-26.xml` | PubMed IDs 38051121, 39821337, 41348126 | Bibliographic/abstract capture for PLLA plus RF/MFU combination and sequencing literature; heterogeneous protocols, not proof of an optimal Sculptra-device sequence. |
+
 ## Clinical and mechanistic literature
 
 | Local file | Record | Evidence role |
@@ -45,6 +55,7 @@
 - [`../data/NCT04124692_cheek_wrinkle_trial.json`](../data/NCT04124692_cheek_wrinkle_trial.json) — ClinicalTrials.gov API capture for the pivotal cheek-wrinkle trial.
 - [`../data/sculptra_clinical_endpoints.csv`](../data/sculptra_clinical_endpoints.csv) — hand-checked endpoint extract used by the results visualizer. Every row retains endpoint, assessor, follow-up, numerator/denominator where published, and caveat.
 - [`../data/direct_injectable_biostimulator_comparison.csv`](../data/direct_injectable_biostimulator_comparison.csv) — structured product/class comparison preserving carrier, immediate behavior, permanence, U.S. evidence status, reversal limit, best-fit lane, and primary caution.
+- [`../data/sculptra_energy_market_procedure_share_2024.csv`](../data/sculptra_energy_market_procedure_share_2024.csv) — transparent calculations for ISAPS global PLLA/energy procedure share and ASPS U.S. pooled non-HA/energy procedure share, with denominator and scope warnings.
 
 ## Capture and licensing notes
 
