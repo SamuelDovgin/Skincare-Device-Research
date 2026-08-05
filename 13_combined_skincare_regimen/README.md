@@ -1,6 +1,6 @@
 # Combined Skincare Regimen
 
-This is the archive's cross-category routine lane: it combines daily skincare, the owned Tria SmoothBeauty/Age-Defying fractional laser, full-body red-light therapy, exercise-day cleansing, sun protection, optional actives, and the other researched device classes into one decision surface. It does **not** replace the mechanism-specific folders or personalized dermatology care.
+This is the archive's cross-category routine lane: it combines daily skincare, the owned Tria SmoothBeauty/Age-Defying fractional laser, full-body red-light therapy, exercise-day cleansing, sun protection, optional actives, and the other researched device classes into one decision surface. It now also contains a dedicated evidence-led body hyperpigmentation routine for acquired dark marks, with clinician-supervised through barrier-first paths, an explicit long-term low-irritation maintenance lane, a mechanism map of emerging melanogenesis targets, and a ranked beyond-topicals ladder covering diagnosis, trigger control, hair reduction, peels, lasers, and narrow systemic options. It does **not** replace the mechanism-specific folders or personalized dermatology care.
 
 *Compiled 2026-07-12. Research orientation, not medical advice. Product names and percentages should be checked against the bottle in hand.*
 
@@ -30,7 +30,9 @@ This is the archive's cross-category routine lane: it combines daily skincare, t
 |---|---|---|
 | 01 | [Current regimen audit](01_current_regimen_audit.md) | What to keep, change, avoid, and verify in the routine exactly as supplied |
 | 02 | [Combination rules and evidence map](02_combination_rules_and_evidence_map.md) | Evidence hierarchy, device/active conflict rules, overload logic, and uncertainty |
+| 03 | [Body hyperpigmentation: evidence-led tone-evening routine](03_body_tone_evening_protocol.md) | Research-paper-led body routine, diagnosis gate, four paths from clinician-supervised to barrier-first, long-term low-irritation maintenance lane, emerging melanogenesis-target map, concentrations, swaps, beyond-topicals value ladder, and stop rules |
 | Tool | [Drag-and-drop routine builder](routine_builder.html) | Mobile touch drag/drop plus tap placement, all researched device lanes, per-concern scores, an explainable “path toward 100” routine finder, goal/context controls, five-part overall score, ranked improvements, warnings, strengths, local save, and copyable export |
+| Tool | [Body tone-evening path selector](body_tone_routine_planner.html) | Interactive choice of intensity path with concentration, order, long-term maintenance lane, emerging-candidate watchlist, substitutions, beyond-topicals value ladder, and safety gates |
 
 ## Relationship to neighboring folders
 

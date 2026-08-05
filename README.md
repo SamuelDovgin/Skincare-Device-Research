@@ -4,7 +4,7 @@
 
 Research into at-home, light- and energy-based skincare devices for **facial redness/erythema, hyperpigmentation, post-inflammatory hyperpigmentation (PIH), and evening skin tone**, plus **hair removal**, **skin-quality (collagen) rejuvenation**, **tightening/laxity**, and topical support as parallel goals. Budget-conscious; covers branded, retail, Chinese OEM/Alibaba sourcing, patent/regulatory context, and practical product buying.
 
-The repo is organized into **fifteen research projects**, including a cross-category regimen planner:
+The repo is organized into **seventeen research projects**, including a cross-category regimen planner:
 
 | Folder | Product class | Goal |
 |--------|---------------|------|
@@ -23,13 +23,15 @@ The repo is organized into **fifteen research projects**, including a cross-cate
 | [`13_combined_skincare_regimen/`](13_combined_skincare_regimen/) | Combined regimen | Drag-and-drop routine builder, active/device scheduling, overload and recovery logic |
 | [`14_latest_skincare_research_2025_2026/`](14_latest_skincare_research_2025_2026/) | Latest 2025–2026 skincare research | 100-record PubMed evidence map, including a 35-paper leading-journal supplement, across acne, barrier, pigment, sunscreen, peptides, devices, procedures, and hair removal |
 | [`15_sculptra_plla_biostimulator/`](15_sculptra_plla_biostimulator/) | Sculptra / injectable PLLA biostimulator | Beginner quick start and yes/no candidacy tree, mechanism, FDA label, outcomes, direct injectable and laser/energy comparisons, market context, safety, and results visualizer |
+| [`16_skin_improvement_evidence_atlas/`](16_skin_improvement_evidence_atlas/) | Cross-category skin-improvement evidence atlas | Evidence-weighted map of devices, ingredients, procedures, injectables, goals, and home-translation gaps |
+| [`17_tazarotene_vs_tretinoin/`](17_tazarotene_vs_tretinoin/) | Prescription topical retinoid comparison | Direct acne trials, photoaging/collagen evidence, current labels, formulation, tolerability, and decision logic |
 
 ## TL;DR
 
 1. **For the PRIMARY goal (pigment/PIH/redness), a home IPL device is the wrong primary tool.** Broadband IPL can *worsen* pigmentation in pigment-prone skin (~2.96% IPL-induced hyperpigmentation in Fitzpatrick III–IV). Lead instead with **iron-oxide tinted sunscreen + topicals (azelaic acid, tranexamic acid, niacinamide) + non-thermal LED (red 630–660nm / amber ~590nm)**. See **[01 / doc 07](01_ipl_hair_removal/07_alternatives_and_strategy.md)**. For the narrow-band alternative, **DPL is filtered IPL, not a laser**; the new [JOVS Blacken/OEM comparison](01_ipl_hair_removal/17_jovs_blacken_dpl_and_oem_comparison.md) separates three JOVS models from their lookalike Alibaba shells.
 2. **No home IPL device — branded or Chinese OEM — is FDA-cleared for anything but hair removal** (all are product code OHT). Verified from the actual filings. See **[01 / doc 03](01_ipl_hair_removal/03_fda_510k_analysis.md)**.
 3. **If buying a device for the hair goal:** best OEM target = **Fansizhe T023A** (510nm filter, sapphire cooling; FDA K223928 baseline 5.5 J/cm², and a **seller video on 2026-06-14 measured a real 18.23J / 6.08 J/cm² single flash** — the highest verified single-pulse fluence in the dataset). Budget single-pulse fallback = **Fansizhe T001M/T001A**. Lowest-risk branded option = **Nood Flasher 2.0** ($169, FDA-cleared, 510nm, warranty). See **[01 / doc 06](01_ipl_hair_removal/06_final_recommendation.md)**.
-4. **For skin quality (collagen/pigment), the device class is non-ablative fractional resurfacing**, not IPL or hair lasers — a different thread entirely. See **[`03_fractional_laser_resurfacing/`](03_fractional_laser_resurfacing/)**.
+4. **Keep the two Tria products separate.** The **Tria 4X/Precision 810nm diode laser is a hair-removal device** and is not an IPL-like treatment for facial pigmentation or redness; see the rendered [Tria 810nm vs IPL answer](02_diode_laser_hair_removal/index.html#doc7). The separate **Tria FRX 1440nm** belongs to the non-ablative fractional-resurfacing lane; see its rendered [Tria FRX comparison](03_fractional_laser_resurfacing/index.html#doc15) and **[`03_fractional_laser_resurfacing/`](03_fractional_laser_resurfacing/)**.
 5. **For localized pain/recovery, handheld red-light devices are a separate, adjunctive project.** Evidence is mixed for carpal tunnel/back/hand pain, so output documentation and conservative dosing matter more than "5W" marketing. See **[`04_red_light_therapy_handheld/`](04_red_light_therapy_handheld/)**.
 6. **DermRays Revive belongs in the non-fractional laser lane, not the Clear + Brilliant lane.** FDA K231910 confirms a 1064nm, 400 ms, 5-10 J/cm², 15mm, prescription-use laser for hair removal + wrinkles. Its FDA geometry implies **8.83-17.66 J per pulse** and **22.1-44.2 W average pulse power**, but that still means non-fractional spot heating, not MTZ resurfacing. NIRA has stronger public wrinkle-outcome evidence than DermRays, while DermRays has the more interesting 1064nm power story. See **[`06_non_fractional_lasers/`](06_non_fractional_lasers/)**, the [`power_comparison_visualizer.html`](06_non_fractional_lasers/power_comparison_visualizer.html), and the [`dose_geometry_simulator.html`](06_non_fractional_lasers/dose_geometry_simulator.html).
 7. **Radiofrequency is now its own collagen/tightening project.** Home RF has a real FDA pathway for mild-to-moderate wrinkle reduction, while RF microneedling is a higher-risk medical procedure flagged by FDA in 2025. Home RF can be clinically real without being Thermage/RF-microneedling equivalent. See **[`07_radio_frequency_skin_tightening/`](07_radio_frequency_skin_tightening/)**.
@@ -40,6 +42,7 @@ The repo is organized into **fifteen research projects**, including a cross-cate
 12. **Topical peptides now have an evidence tier list, supplier map, and dose-aware value guide.** Palmitoyl pentapeptide-4 has the clearest direct fine-line trial and acetyl hexapeptide-8 the clearest expression-line signal, but the 2026 meta-analysis found only two high-quality topical studies and says most pooled benefit came from oral peptides. The Ordinary Argireline 10% is the cleanest low-cost targeted experiment; Good Molecules has unusually clear ppm disclosure; Olay lists top-ranked pal-KTTKS but hides its dose. No audited retail pick is an exact clinically dose-verified match. See **[`12_peptides_in_skincare/`](12_peptides_in_skincare/)**.
 13. **Sculptra now has a dedicated injectable-biostimulator lane.** Start with the [single-page quick start and yes/no candidacy tree](15_sculptra_plla_biostimulator/sculptra_quick_start.html). The strongest on-label result is the FDA cheek trial's 70.7% month-12 blinded bilateral responder estimate versus 25.9% with no treatment; the [outcome-scale explainer](15_sculptra_plla_biostimulator/09_outcome_scales_and_responder_definitions.md) shows that this required at least a one-grade reduction on the 0–4 GCWS on both cheeks concurrently. Investigator/subject GAIS and 2D-photo endpoints tell notably different stories. The category separates best candidates, contraindications, rare vascular risk, delayed nodules, and the less-reversible/gradual tradeoff from HA, CaHA, permanent PMMA, PCL, PDLLA, fat, devices, and surgery. See the [direct injectable collagen-stimulator comparison](15_sculptra_plla_biostimulator/08_direct_injectable_collagen_stimulator_comparison.md) and [potential-results evidence visualizer](15_sculptra_plla_biostimulator/potential_results_visualizer.html).
 14. **Sculptra and energy devices are complements only when they treat different documented problems.** The [laser/energy and market-volume comparison](15_sculptra_plla_biostimulator/10_sculptra_vs_laser_and_energy_treatments.md) separates volume loss from surface damage, pigment, scars, and laxity. Official 2024 statistics show PLLA as 3.1% of ISAPS global nonsurgical procedures versus 6.0% nonsurgical tightening and 3.7% full-field ablation; these are utilization shares, not revenue or comparative efficacy.
+15. **Tazarotene and tretinoin should not be ranked by percentage alone.** Tazarotene has a favorable direct acne comparison against 0.025% tretinoin and credible photoaging trials; tretinoin has the deeper independent human collagen/photoaging record. The most defensible choice is the formulation and prescription strategy that matches the endpoint and can be tolerated consistently. See **[`17_tazarotene_vs_tretinoin/`](17_tazarotene_vs_tretinoin/)**.
 
 ---
 
@@ -81,12 +84,13 @@ True diode lasers (Tria 810nm and alternatives) and the used-market analysis aro
 | 14 | [Tria 4X vs Precision](02_diode_laser_hair_removal/14_tria_4x_vs_precision.md) | Dedicated primary-source comparison: same 810 nm / 7–20 J/cm² dose ceiling, but 4X doubles runtime and adds finer controls |
 | 15 | [Tria Precision post-repair shutdown diagnosis](02_diode_laser_hair_removal/15_tria_precision_post_repair_shutdown_diagnosis.md) | Post-service progression from completed Low pulses to High-pulse collapse and total no-power state: ranked diagnosis, warranty evidence plan, and repairer messages |
 | 16 | [Three used Tria 4X eBay offers compared](02_diode_laser_hair_removal/16_tria_4x_ebay_offer_comparison.md) | Fourteen-photo audit, seller/shipping risk, delivered-price table, proof checklist, ranked offers, and copy-ready messages for three July 2026 listings |
+| 17 | [Tria 810nm vs IPL for facial pigmentation/redness](02_diode_laser_hair_removal/index.html#doc7) | Corrected product-specific answer: hair-shadow reduction may help appearance, but the device is not a photofacial and carries dark-spot/skin-discoloration warnings |
 
 **Supporting material:** [shared IPL & diode thermal simulator — Tria view](01_ipl_hair_removal/hair_removal_thermal_simulator.html?mode=diode) · [pain-study source manifest](02_diode_laser_hair_removal/source_docs/README.md) · Tria 4X & Tria Precision IFUs (810nm, 7–20 J/cm² spec confirmation) · [marketplace_seller_activity_sanitized.json](02_diode_laser_hair_removal/marketplace_seller_activity_sanitized.json) (sanitized data snapshot for doc 12).
 
 ## 03 — Fractional laser resurfacing · [`03_fractional_laser_resurfacing/`](03_fractional_laser_resurfacing/)
 
-A **separate device class for the *skin-quality* goal (pigment + collagen), not hair.** Non-ablative fractional lasers (Clear + Brilliant, Tria FRX, NIRA, YDUNVIE Iris/Dora) and the user's owned Tria SmoothBeauty: science, in-office-vs-home expectations, full device landscape, the Jiangsu Unimed/YDUNVIE supplier map, RFQ templates, and a future research plan. The [`beam_coverage_simulator.html`](03_fractional_laser_resurfacing/beam_coverage_simulator.html) interactive tool visualizes beam depth, beam width, MTZ coverage, and total energy by device. See its [README](03_fractional_laser_resurfacing/README.md).
+A **separate device class for the *skin-quality* goal (pigment + collagen), not hair.** Non-ablative fractional lasers (Clear + Brilliant, Tria FRX, NIRA, YDUNVIE Iris/Dora) and the user's owned Tria SmoothBeauty: science, in-office-vs-home expectations, full device landscape, a direct [Tria-vs-IPL pigmentation/redness comparison](03_fractional_laser_resurfacing/16_tria_vs_ipl_pigmentation_redness.md), the Jiangsu Unimed/YDUNVIE supplier map, RFQ templates, and a future research plan. The [`beam_coverage_simulator.html`](03_fractional_laser_resurfacing/beam_coverage_simulator.html) interactive tool visualizes beam depth, beam width, MTZ coverage, and total energy by device. See its [README](03_fractional_laser_resurfacing/README.md).
 
 ## 04 — Handheld red light therapy · [`04_red_light_therapy_handheld/`](04_red_light_therapy_handheld/)
 
@@ -213,14 +217,15 @@ Topical peptide lane for fine lines, expression lines, repair, barrier/hydration
 
 ## 13 — Combined skincare regimen · [`13_combined_skincare_regimen/`](13_combined_skincare_regimen/)
 
-Cross-category routine lane for the supplied daily regimen: morning vitamin C/moisturizer, full-body RLT, Round Lab SPF 50, gym cleansing, Tria SmoothBeauty/Age-Defying laser, azelaic acid, adapalene 0.1%, recovery, and the other researched device/active possibilities.
+Cross-category routine lane for the supplied daily regimen: morning vitamin C/moisturizer, full-body RLT, Round Lab SPF 50, gym cleansing, Tria SmoothBeauty/Age-Defying laser, azelaic acid, adapalene 0.1%, recovery, and the other researched device/active possibilities. It now also includes a paper-led body tone-evening routine for acquired dark marks, with four intensity paths, a long-term low-irritation maintenance lane, a mechanism map of emerging melanogenesis targets, a diagnosis/safety gate, and a ranked beyond-topicals ladder for trigger control, hair reduction, clinician peels, focal devices, and narrow systemic treatment.
 
 | # | File | What it covers |
 |---|---|---|
 | 01 | [Current regimen audit](13_combined_skincare_regimen/01_current_regimen_audit.md) | Keep/change/skip decisions, Tria/adapalene timing, cleansing load, and stop rules |
 | 02 | [Combination rules and evidence map](13_combined_skincare_regimen/02_combination_rules_and_evidence_map.md) | Evidence ladder, conflict rules, score design, professional-device boundary, and uncertainty |
+| 03 | [Body hyperpigmentation: evidence-led tone-evening routine](13_combined_skincare_regimen/03_body_tone_evening_protocol.md) | Research-paper-led body routine, four intensity paths, long-term low-irritation maintenance lane, emerging melanogenesis-target map, concentrations, ingredient swaps, beyond-topicals value ladder, order, and safety gates |
 
-**Supporting material:** [`routine_builder.html`](13_combined_skincare_regimen/routine_builder.html) responsive desktop/mobile planner with touch drag/drop, tap placement, current/balanced/Tria/recovery presets, per-concern coverage scores, an explainable “path toward 100” routine finder, goal and safety-context controls, a five-part overall score, ranked improvements, interaction warnings, strengths, local save, and copyable summary.
+**Supporting material:** [`routine_builder.html`](13_combined_skincare_regimen/routine_builder.html) responsive desktop/mobile planner with touch drag/drop, tap placement, current/balanced/Tria/recovery presets, per-concern coverage scores, an explainable “path toward 100” routine finder, goal and safety-context controls, a five-part overall score, ranked improvements, interaction warnings, strengths, local save, and copyable summary · [`body_tone_routine_planner.html`](13_combined_skincare_regimen/body_tone_routine_planner.html) path selector for body tone-evening with the beyond-topicals value ladder.
 
 ## 14 — Latest skincare research 2025–2026 · [`14_latest_skincare_research_2025_2026/`](14_latest_skincare_research_2025_2026/)
 
@@ -256,6 +261,36 @@ Clinical research category for Sculptra's product identity and tissue-response m
 | 10 | [Sculptra vs lasers and energy-based treatments](15_sculptra_plla_biostimulator/10_sculptra_vs_laser_and_energy_treatments.md) | Mechanism and goal comparison, "get this instead" alternatives, candidate categories, combination sequencing, risks, and official global/U.S. procedure-volume market-share proxies |
 
 **Supporting material:** [single-page quick start and candidacy tree](15_sculptra_plla_biostimulator/sculptra_quick_start.html) · [potential-results evidence visualizer](15_sculptra_plla_biostimulator/potential_results_visualizer.html) · [clinical endpoints CSV](15_sculptra_plla_biostimulator/data/sculptra_clinical_endpoints.csv) · [direct injectable comparison CSV](15_sculptra_plla_biostimulator/data/direct_injectable_biostimulator_comparison.csv) · [energy-market procedure-share CSV](15_sculptra_plla_biostimulator/data/sculptra_energy_market_procedure_share_2024.csv) · [source manifest](15_sculptra_plla_biostimulator/source_docs/README.md) · FDA approval letters, SSED/IFU/patient labeling, current manufacturer IFU, comparator labels, official market surveys, ClinicalTrials.gov JSON, PubMed XML, and preserved open full text.
+
+## 16 — Skin-improvement evidence atlas · [`16_skin_improvement_evidence_atlas/`](16_skin_improvement_evidence_atlas/)
+
+Cross-industry synthesis layer for the full archive: an evidence-weighted visual map of 29 device, ingredient, peptide, procedure, injectable, barrier, and emerging categories; a transparent 0–100 score; a 2006–2026 anchor-paper ledger; a handoff to the existing 100-record 2025–2026 literature index; and actionable goal-to-intervention and safety guidance.
+
+| # | Research page | What it covers |
+|---|---|---|
+| 01 | [Start here](16_skin_improvement_evidence_atlas/01_start_here.md) | How to read node size, goal colors, confidence, and home-translation warnings |
+| 02 | [Search method and evidence framework](16_skin_improvement_evidence_atlas/02_evidence_framework_and_search_method.md) | 2006–2026 scope, source hierarchy, inclusion rules, and scoring formula |
+| 03 | [Industry landscape and taxonomy](16_skin_improvement_evidence_atlas/03_industry_landscape_and_category_map.md) | Target layers, endpoint families, and why marketing categories collapse distinct mechanisms |
+| 04 | [Goal-to-intervention matrix](16_skin_improvement_evidence_atlas/04_goal_to_intervention_matrix.md) | Start / consider / caution logic for pigment, acne, scars, laxity, hair, and barrier goals |
+| 05 | [Actionable protocols and safety gates](16_skin_improvement_evidence_atlas/05_actionable_protocols_and_safety.md) | Evidence-to-action workflow, combination rules, product questions, and stop conditions |
+| 06 | [Limitations and research gaps](16_skin_improvement_evidence_atlas/06_limitations_and_research_gaps.md) | Representation, durability, home-translation, formulation, and reporting gaps |
+| 07 | [Legal discovery and gray literature](16_skin_improvement_evidence_atlas/07_legal_discovery_and_gray_literature.md) | Europe PMC expansion, protocols, theses, conference abstracts, preprints, and engineering sources |
+
+**Supporting material:** [interactive evidence atlas](16_skin_improvement_evidence_atlas/evidence_atlas.html) · [category evidence CSV](16_skin_improvement_evidence_atlas/data/category_evidence_map.csv) · [2006–2026 anchor-paper CSV](16_skin_improvement_evidence_atlas/data/anchor_papers_2006_2026.csv) · [Europe PMC discovery ledger](16_skin_improvement_evidence_atlas/data/europe_pmc_discovery_ledger.csv) · [gray/nontraditional source ledger](16_skin_improvement_evidence_atlas/data/gray_and_nontraditional_sources.csv) · [100-record recent paper index](14_latest_skincare_research_2025_2026/data/paper_index.csv).
+
+## 17 — Tazarotene vs tretinoin · acne, photoaging, and collagen · [`17_tazarotene_vs_tretinoin/`](17_tazarotene_vs_tretinoin/)
+
+Dedicated prescription-retinoid comparison prompted by the pharmacy listing of 0.1% tazarotene cream beside 0.1% tretinoin cream. It separates direct acne evidence from the deeper tretinoin photoaging/collagen record, then checks current labels, vehicles, irritation, pregnancy precautions, and the limits of percentage-based comparisons.
+
+| # | Research page | What it covers |
+|---|---|---|
+| 01 | [Start here](17_tazarotene_vs_tretinoin/01_start_here.md) | Executive answer, study map, direct comparison, and goal-first decision tree |
+| 02 | [Mechanism and collagen biology](17_tazarotene_vs_tretinoin/02_mechanism_and_collagen.md) | RAR selectivity, prodrug/direct agonist distinction, follicular biology, dermal matrix, and collagen evidence boundaries |
+| 03 | [Acne evidence map](17_tazarotene_vs_tretinoin/03_acne_evidence_map.md) | AAD context, direct tazarotene-vs-tretinoin trial, modern tazarotene lotion, endpoints, and PIH caveats |
+| 04 | [Photoaging and collagen evidence](17_tazarotene_vs_tretinoin/04_photoaging_and_collagen_evidence.md) | Tretinoin human collagen evidence, tazarotene photoaging trials, direct comparisons, newer syntheses, and gaps |
+| 05 | [Labels, tolerability, and decision guide](17_tazarotene_vs_tretinoin/05_labels_tolerability_and_decision_guide.md) | Current U.S. labels, formulation/vehicle differences, irritation, pregnancy, sunscreen, and prescriber questions |
+
+**Supporting material:** [rendered comparison viewer](17_tazarotene_vs_tretinoin/index.html) · [topic overview and source list](17_tazarotene_vs_tretinoin/README.md). The pharmacy screenshot is treated as user-supplied context, not as durable pricing or efficacy evidence.
 
 ---
 
