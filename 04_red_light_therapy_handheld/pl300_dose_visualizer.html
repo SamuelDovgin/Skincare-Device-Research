@@ -98,7 +98,7 @@ details p{color:#c5ccda}
   <div class="eyebrow">Research map updated July 2026</div>
   <h1>Red-light PBM biphasic dosing, translated to your PL300 panel</h1>
   <p class="lede">An interactive dose calculator, distance model, conservative schedules, and a recent-paper explorer. The central scientific message is not “more is better”: PBM responses depend on fluence, irradiance, wavelength, timing, treatment frequency, tissue, and baseline biological state.</p>
-  <div class="notice"><b>Medical and measurement limitation:</b> this is an evidence-informed planning tool, not a prescription. Your only strong panel measurement is approximately <b>161.145 mW/cm² at 6 inches</b> with red+NIR. A seller graphic now supplies a claimed 6–24 inch curve, but every non-6-inch value remains a seller claim or model unless you measure it.</div>
+  <div class="notice"><b>Medical and measurement limitation:</b> this is an evidence-informed planning tool, not a prescription. One unique readable owner screen shows <b>161.241 mW/cm² at approximately 6 inches</b> with red+NIR; duplicate photos of that screen are not independent measurements, and the meter range/calibration remains unconfirmed. A seller graphic supplies a claimed 6–24 inch curve, but every non-6-inch value remains a seller claim or model unless you measure it.</div>
 </header>
 
 <nav>
@@ -156,7 +156,7 @@ details p{color:#c5ccda}
 
 <div class="control"><label for="mode">Panel mode</label>
 <select id="mode">
-<option value="combined">Red + NIR: 161.145 mW/cm² measured at 6"</option>
+<option value="combined">Red + NIR: 161.241 mW/cm² on one readable 6-in screen</option>
 <option value="nir">Likely NIR-only: 84.771 mW/cm² at 6"</option>
 <option value="red">Red-only inferred: 76.374 mW/cm² at 6"</option>
 <option value="custom">Custom measured irradiance</option>
@@ -281,12 +281,12 @@ details p{color:#c5ccda}
 <h3 id="study-cluster" style="margin-top:18px">Protocol clustering: dose per session vs frequency</h3>
 <canvas id="studyCluster" width="900" height="420" role="img" aria-label="Scatter plot comparing human photobiomodulation study dose per session with sessions per week"></canvas>
 <div class="legend">
-<span><i class="dot" style="background:#4ed6a0"></i>positive signal</span>
+<span><i class="dot" style="background:#4ed6a0"></i>positive in studied condition/endpoint</span>
 <span><i class="dot" style="background:#ff9f43"></i>null or mixed</span>
 <span><i class="dot" style="background:#ffd166"></i>mixed or observational</span>
 <span><i class="dot" style="background:#ff4d5f"></i>current PL300 plan</span>
 </div>
-<p class="small"><b>Reading the cluster:</b> the 2025 acute 92.9 J/cm² experiment is a high-dose outlier. In the older 13.8–33.6 J/cm² cluster, positive and null studies overlap, so the chart cannot identify a universal optimum. Acute two-exposure studies are plotted at two exposures on one study day, not as true weekly schedules.</p>
+<p class="small"><b>Reading the cluster:</b> the 2025 acute 92.9 J/cm² experiment is a high-dose outlier. In the older 13.8–33.6 J/cm² cluster, condition-specific positive and null studies overlap, so the chart cannot identify a universal optimum. Green means the reported endpoint favored treatment in the studied population—not that the dose improves general health. Acute two-exposure studies are plotted at two exposures on one study day, not as true weekly schedules.</p>
 <div class="callout" style="margin-top:14px"><b>Excluded from presets and plot:</b> studies reporting only total joules over selected muscles or sequential body sites; localized arrays; face/neck/hands protocols; animal work; and protocols without results. Converting those designs to uniform whole-body J/cm² would be dimensionally misleading.</div>
 </div>
 </section>
@@ -301,14 +301,14 @@ details p{color:#c5ccda}
 <tbody id="distanceRows"></tbody>
 </table>
 </div>
-<p class="small">Irradiance is mW/cm²; ten-minute dose is J/cm². The seller-scaled column preserves the claimed 145/136/113/105 curve but normalizes it to 161.145 at 6 inches. It is intentionally blank outside 6–24 inches. The model span excludes inverse square because a large near-field panel is not a point source.</p>
+<p class="small">Irradiance is mW/cm²; ten-minute dose is J/cm². The seller-scaled sensitivity column preserves the claimed 145/136/113/105 curve but normalizes it to the one readable 161.241 screen at approximately 6 inches. It is intentionally blank outside 6–24 inches. The model span excludes inverse square because a large near-field panel is not a point source.</p>
 
 <details open><summary>Lens-array equation and assumptions</summary>
 <p>Angular intensity is modeled as <code>I(θ) ∝ cos<sup>m</sup>(θ)</code>, where <code>m = ln(0.5) / ln(cos(β/2))</code> for a full-width-at-half-maximum beam angle β. The center-axis factor is integrated across the rectangle: <code>J(d,m) = ∬ d<sup>m+1</sup> / (d²+x²+y²)<sup>(m+3)/2</sup> dxdy</code>. Each channel is then normalized to its 6-inch reading. This produces a central point estimate, not an area average, and omits LED spacing, side lobes, body curvature, spectral-meter response, and manufacturing variation.</p>
 </details>
 
 <h3>Observed falloff from comparable large panels</h3>
-<p>Each online curve is normalized to its own 6-inch center reading, so this compares <b>shape rather than absolute output</b>. The PL300 seller retains 93.8% at 12 inches and 72.4% at 24 inches; the broader comparison medians are 85.6% and 69.9%. The seller's shape is plausible, while the old Lambertian calculation falls faster than every included large-array center curve at those distances.</p>
+<p>Each online curve is normalized to its own 6-inch center reading, so this compares <b>shape rather than absolute output</b>. The PL300 seller retains 93.8% at 12 inches and 72.4% at 24 inches; after adding five current HP350IR curves and one LightLab curve, the expanded comparison medians are 85.2% and 63.8%. The seller's shape is possible but optimistic, while the old Lambertian calculation remains a steep-falloff sensitivity bound.</p>
 <canvas id="falloffChart" width="1000" height="330" role="img" aria-label="Normalized irradiance falloff curves from comparable panels and the PL300 optical models"></canvas>
 <div class="legend">
 <span><i class="dot" style="background:#8d96a8"></i>measured or published panel curves</span>
@@ -338,6 +338,7 @@ details p{color:#c5ccda}
 <div class="card span12">
 <h2>Recent PBM biphasic and dose-response research map</h2>
 <p>This is a structured evidence map from targeted PubMed/PMC and publisher searches, emphasizing 2023–2026. It is broad but not a formal PRISMA systematic review. “Direct biphasic” means the study actually tested enough doses to observe a non-linear response; many “dose-ranging” studies only compared a few doses and cannot prove the full inverted-U.</p>
+<p id="paperCount" class="small"></p>
 <div class="filters">
 <button class="filter active" data-filter="all">All</button>
 <button class="filter" data-filter="direct">Direct biphasic</button>
@@ -389,12 +390,12 @@ Prepared as an educational synthesis. Surface fluence is not the same as absorbe
 
 <script>
 const lambertPoints = [
- [4,192.37],[6,161.145],[8,134.03],[10,112],[12,94.36],[15,74.14],
+ [4,192.48],[6,161.241],[8,134.11],[10,112.07],[12,94.42],[15,74.18],
  [18,59.32],[24,39.79],[30,28.13],[36,20.76],[40,17.3]
 ];
 const sellerRawPoints = [[6,145],[12,136],[18,113],[24,105]];
 const sellerCoverage = {6:[45,22],12:[58,34],18:[67,46],24:[76,59]};
-const anchorCombined = 161.145, anchorRed = 76.374, anchorNir = 84.771;
+const anchorCombined = 161.241, anchorRed = 76.470, anchorNir = 84.771;
 const empiricalCurves = [
  {name:"Bestqool Pro300",tier:"A · LightLab spectral meter",points:[[3,106],[6,68.9],[12,58.97]]},
  {name:"Helio Glow",tier:"A · LightLab 231-point spectral grid",points:[[6,71.72],[12,75.01],[24,65.25],[36,49.38]]},
@@ -403,9 +404,15 @@ const empiricalCurves = [
  {name:"RDPRO1500",tier:"C · owner solar meter + correction",points:[[6,84],[12,80],[15,78],[20,75],[31,50]]},
  {name:"BioMax 900 ×4",tier:"B · reviewer spectrometer; four panels",points:[[6,84],[12,71],[24,61]]},
  {name:"Full Body Red Light Panel",tier:"D · manufacturer; method absent",points:[[3,219.7],[6,154.6],[12,141],[18,124.3],[24,108]]},
- {name:"Hooga SaunaPRO",tier:"D · manufacturer; method absent",points:[[6,70],[12,55]]}
+ {name:"Hooga SaunaPRO",tier:"D · manufacturer; method absent",points:[[6,70],[12,55]]},
+ {name:"RLT Home MINI",tier:"B · Electropossible HP350IR",points:[[6,98.7],[12,84.1],[24,59],[36,42.7]]},
+ {name:"RLT Home COMPACT",tier:"B · Electropossible HP350IR",points:[[6,99],[12,86],[24,63.2],[36,47.2]]},
+ {name:"RLT Home MAX",tier:"B · Electropossible HP350IR",points:[[6,100.53],[12,86.9],[24,68.65],[36,49.1]]},
+ {name:"RLT Home ULTRA",tier:"B · Electropossible HP350IR",points:[[6,119.28],[12,97.58],[24,71.77],[36,49.73]]},
+ {name:"RLT Home ELITE",tier:"B · Electropossible HP350IR",points:[[6,121.62],[12,102.23],[24,74.91],[36,66.35]]},
+ {name:"RLT Home ULTRA",tier:"A · LightLab spectral meters",points:[[6,85.7],[12,67.99],[24,60.51],[36,45.55]]}
 ];
-const empiricalMedian = {12:58.97/68.9,24:108/154.6};
+const empiricalMedian = {12:84.1/98.7,24:63.2/99};
 const presets = {
  skin:{dose:7,freq:2,distance:30,lo:4,hi:10,title:"Facial skin",note:"Best-supported practical target. Current human skin trials cluster from about 3.8 to 15.6 J/cm², but the lower-middle range is the safer starting point with this high-output panel."},
  skinLow:{dose:3,freq:1,distance:36,lo:2,hi:6,title:"Very cautious facial start",note:"Use this for sensitive, darker, melasma-prone, recently irritated, or treatment-naïve skin. Patch test first."},
@@ -417,12 +424,12 @@ const presets = {
  brain:{dose:10,freq:2,distance:18,lo:0,hi:0,title:"Transcranial use",note:"Do not use a body-panel surface-dose calculator for brain protocols. Dedicated device geometry and medical oversight are required."}
 };
 const wholeBodyProtocols = [
- {id:"denardi2025",year:2025,label:"De Nardi 2025 — acute metabolism (high dose)",short:"De Nardi 2025",articles:"De Nardi 2025",population:"32 women: 16 with obesity and 16 sedentary normal-weight controls",design:"randomized sham-controlled crossover",device:"LED PRO light bed; front and back illuminated simultaneously",wavelengths:"633–660 + 850–940 nm",irr:129,seconds:720,fluence:92.9,schedule:"One acute 12-minute exposure",freqPlot:1,outcome:"REE rose 9.3% in the obesity subgroup; skin temperature rose. Acute result, not a chronic wellness target.",grade:"A",status:"positive",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC12608151/",highDose:true},
+ {id:"denardi2025",year:2025,label:"De Nardi 2025 — acute metabolism (high dose)",short:"De Nardi 2025",articles:"De Nardi 2025",population:"32 women: 16 with obesity and 16 sedentary normal-weight controls",design:"randomized sham-controlled crossover",device:"LED PRO light bed; front and back illuminated simultaneously",wavelengths:"633–660 + 850–940 nm",irr:129,seconds:720,fluence:92.9,schedule:"One acute 12-minute exposure",freqPlot:1,outcome:"REE rose 9.3% in the obesity subgroup; skin temperature rose. Acute result, not a chronic wellness target.",grade:"A",status:"mixed",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC12608151/",highDose:true},
  {id:"santos2024",year:2024,label:"Santos 2024 — preliminary agility abstract",short:"Santos 2024",articles:"Santos 2024 conference abstract",population:"10 trained healthy adults",design:"randomized double-blind sham-controlled crossover; abstract only",device:"Whole-body LED exposure; device not named in abstract",wavelengths:"Not reported in abstract",irr:46.17,seconds:300,fluence:13.85,schedule:"Two 5-minute exposures on one day, 6 hours and 5 minutes before testing",freqPlot:2,outcome:"No agility benefit versus placebo. Preliminary abstract; full methods unavailable.",grade:"C",status:"null",url:"https://doi.org/10.1016/j.bjpt.2024.100751"},
  {id:"navarrofm",year:2024,label:"Navarro-Ledesma 2023–2024 — fibromyalgia RCT",short:"Navarro 2023/2024 fibromyalgia RCT",articles:"Navarro-Ledesma 2023 primary report + 2024 follow-up — same NCT04248972 cohort",population:"42 randomized participants with fibromyalgia",design:"triple-blind randomized sham-controlled trial",device:"NovoTHOR clamshell bed; simultaneous full-body field",wavelengths:"660 + 850 nm, 50:50",irr:28,seconds:1200,fluence:25.2,schedule:"20 minutes, 3×/week for 4 weeks; 12 sessions",freqPlot:3,outcome:"Pain and quality-of-life differences favored active treatment; condition-specific and not a dose-comparison trial.",grade:"B",status:"positive",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC10864543/",conflict:"The papers report 28 mW/cm² × 20 minutes but also 25.2 J/cm². The multiplication gives 33.6 J/cm²; 25.2 J/cm² in 20 minutes implies 21.0 mW/cm²."},
- {id:"fitzmauricefm",year:2024,label:"Fitzmaurice 2023–2024 — fibromyalgia feasibility ramp",short:"Fitzmaurice feasibility",articles:"Fitzmaurice 2023 feasibility + 2024 qualitative companion — same cohort",population:"19 fibromyalgia completers",design:"single-arm feasibility study with qualitative companion",device:"NovoTHOR clamshell bed; simultaneous full-body field",wavelengths:"660 + 850 nm, 50:50",irr:28,seconds:1200,fluence:33.6,schedule:"Session 1: 6 min; session 2: 12 min; sessions 3–18: 20 min; 3×/week for 6 weeks",freqPlot:3,outcome:"Feasible with symptom and participant-experience signals; uncontrolled and not an efficacy trial.",grade:"A",status:"positive",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC10525895/",ramp:"The preset represents the full 20-minute dose. The first two sessions delivered approximately 10.1 and 20.2 J/cm² if output stayed constant."},
+ {id:"fitzmauricefm",year:2024,label:"Fitzmaurice 2023–2024 — fibromyalgia feasibility ramp",short:"Fitzmaurice feasibility",articles:"Fitzmaurice 2023 feasibility + 2024 qualitative companion — same cohort",population:"19 fibromyalgia completers",design:"single-arm feasibility study with qualitative companion",device:"NovoTHOR clamshell bed; simultaneous full-body field",wavelengths:"660 + 850 nm, 50:50",irr:28,seconds:1200,fluence:33.6,schedule:"Session 1: 6 min; session 2: 12 min; sessions 3–18: 20 min; 3×/week for 6 weeks",freqPlot:3,outcome:"Feasible with symptom and participant-experience signals; uncontrolled and not an efficacy trial.",grade:"A",status:"mixed",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC10525895/",ramp:"The preset represents the full 20-minute dose. The first two sessions delivered approximately 10.1 and 20.2 J/cm² if output stayed constant."},
  {id:"forsey2023",year:2023,label:"Forsey 2023 — maximal anaerobic cycling",short:"Forsey 2023",articles:"Forsey 2023",population:"48 runners and triathletes",design:"single-blind randomized sham-controlled trial",device:"NovoTHOR clamshell bed; simultaneous full-body field",wavelengths:"660 + 850 nm",irr:28,seconds:1200,fluence:33.6,schedule:"One 20-minute pre-exercise exposure",freqPlot:1,outcome:"No Wingate-performance or lactate benefit; selected heart-rate and HRV changes.",grade:"A",status:"null",url:"https://pubmed.ncbi.nlm.nih.gov/37099210/"},
- {id:"bowen2023",year:2023,label:"Bowen 2023 — long-COVID brain-fog pilot",short:"Bowen 2023",articles:"Bowen 2023",population:"7 participants in the whole-body arm",design:"open-label pilot",device:"NovoTHOR clamshell bed; simultaneous full-body field",wavelengths:"660 + 850 nm",irr:24,seconds:840,fluence:20.2,schedule:"14 minutes, 3×/week for 4 weeks; 12 sessions",freqPlot:3,outcome:"Cognitive tests improved; tiny open-label group without a whole-body sham comparator.",grade:"A",status:"positive",url:"https://pubmed.ncbi.nlm.nih.gov/37018063/"},
+ {id:"bowen2023",year:2023,label:"Bowen 2023 — long-COVID brain-fog pilot",short:"Bowen 2023",articles:"Bowen 2023",population:"7 participants in the whole-body arm",design:"open-label pilot",device:"NovoTHOR clamshell bed; simultaneous full-body field",wavelengths:"660 + 850 nm",irr:24,seconds:840,fluence:20.2,schedule:"14 minutes, 3×/week for 4 weeks; 12 sessions",freqPlot:3,outcome:"Cognitive tests improved; tiny open-label group without a whole-body sham comparator.",grade:"A",status:"mixed",url:"https://pubmed.ncbi.nlm.nih.gov/37018063/"},
  {id:"navarro2022",year:2022,label:"Navarro-Ledesma 2022 — circadian/tissue fibromyalgia RCT",short:"Navarro 2022 circadian/tissue RCT",articles:"Navarro-Ledesma 2022 — NCT05113589",population:"40 participants with fibromyalgia",design:"triple-blind randomized sham-controlled trial; separate cohort from the 2023/2024 trial",device:"NovoTHOR clamshell bed; simultaneous full-body field",wavelengths:"660 + 850 nm, 50:50",irr:28,seconds:1200,fluence:25.2,schedule:"20 minutes, 3×/week for 4 weeks; 12 sessions",freqPlot:3,outcome:"Selected circadian blood-pressure, pain-threshold, and tissue-elasticity outcomes differed; condition-specific.",grade:"B",status:"positive",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC9687325/",conflict:"The paper reports 28 mW/cm² × 20 minutes but also 25.2 J/cm². The multiplication gives 33.6 J/cm²; 25.2 J/cm² in 20 minutes implies 21.0 mW/cm²."},
  {id:"rentz2022",year:2022,label:"Rentz 2022 — soccer recovery observation",short:"Rentz 2022",articles:"Rentz 2022",population:"12 female soccer players",design:"observational pre/post study",device:"NovoTHOR clamshell bed; simultaneous full-body field",wavelengths:"660 + 850 nm",irr:24,seconds:1200,fluence:28.8,schedule:"20 minutes, 1–2×/week across a season",freqPlot:1.5,outcome:"Sleep and nocturnal-heart-rate associations; confounding prevents causal inference.",grade:"A",status:"mixed",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC9414854/"},
  {id:"ghigiarelli2020",year:2020,label:"Ghigiarelli 2020 — resistance-exercise recovery",short:"Ghigiarelli 2020",articles:"Ghigiarelli 2020",population:"12 resistance-trained men",design:"randomized crossover study",device:"NovoTHOR clamshell bed; simultaneous full-body field",wavelengths:"660 + 850 nm",irr:17,seconds:900,fluence:25,schedule:"15 minutes before and 15 minutes after one workout",freqPlot:2,outcome:"No CK, IL-6, or HRV recovery advantage.",grade:"B",status:"null",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC7739664/",conflict:"The paper reports 17 mW/cm² × 15 minutes but also 25 J/cm². The multiplication gives 15.3 J/cm²; 25 J/cm² in 15 minutes implies 27.8 mW/cm²."},
@@ -448,6 +455,7 @@ const papers = [
 {year:2024,cat:["direct"],title:"Biphasic PBM effects on human adipose mesenchymal stem cells",type:"Direct in-vitro dose-response",dose:"830 nm; 0, 2.5, 5 and 10 J/cm²",finding:"5 J/cm² maximized viability and migration and increased extracellular-vesicle yield; 10 J/cm² was less effective.",limit:"Cultured cells under a focused laser, not intact human skin.",url:"https://pubmed.ncbi.nlm.nih.gov/38776590/"},
 {year:2024,cat:["direct"],title:"Biphasic NIR PBM and erythrocyte oxidative stress",type:"Direct in-vitro dose/time-response",dose:"Continuous NIR across exposure times; wavelengths 750–1100 nm",finding:"Low exposure was antioxidative while higher exposure became detrimental; the authors identified a favorable time window in their setup.",limit:"Blood samples in vitro; device-specific irradiance limits translation.",url:"https://pubmed.ncbi.nlm.nih.gov/38875890/"},
 {year:2024,cat:["direct"],title:"PBM dose-response on adipose-derived stem-cell osteogenesis in 3D cultures",type:"In-vitro dose-response",dose:"Green and NIR combinations at 3, 5 and 7 J/cm²",finding:"Responses differed by wavelength, endpoint and time; no single dose won every outcome.",limit:"3D cell model, not a clinical dosing schedule.",url:"https://doi.org/10.3390/ijms25179176"},
+{year:2024,cat:["brain","direct"],title:"Transcranial NIR dose-response in older adults",type:"Randomized human dose comparison",dose:"Sham, low dose (26 J/cm² transcranial + 9 J/cm² intranasal), or high dose (52 + 18 J/cm²)",finding:"Directly compared two human doses for connectivity and cognition rather than assuming the higher exposure was better.",limit:"Dedicated transcranial/intranasal geometry; cannot be converted into a whole-body panel target.",url:"https://pubmed.ncbi.nlm.nih.gov/37776079/"},
 {year:2024,cat:["whole"],title:"Acute PBM dose-response before a 5-km run",type:"Randomized double-blind crossover trial",dose:"Placebo, 300, 900 and 1260 J",finding:"No improvement in run time, velocity or perceived exertion across active doses.",limit:"Localized total-joule protocol in recreational runners.",url:"https://doi.org/10.1007/s10103-024-04099-8"},
 {year:2024,cat:["whole"],title:"Whole-body PBM and agility in trained adults",type:"Preliminary randomized crossover conference abstract",dose:"46.17 mW/cm²; 13.85 J/cm²; two 5-minute exposures on one study day",finding:"No agility benefit versus placebo.",limit:"Only 10 participants and abstract-only reporting; device and wavelengths were not disclosed in the abstract.",url:"https://doi.org/10.1016/j.bjpt.2024.100751"},
 {year:2024,cat:["review","skin"],title:"Unlocking the Power of Light on the Skin",type:"Comprehensive dermatology review",dose:"Wide range across acne, aging, wounds, pigment and inflammation",finding:"Finds promising dermatologic uses but repeatedly notes inconsistent parameters and lack of standardized recommendations.",limit:"Narrative review with heterogeneous studies.",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC11049838/"},
@@ -457,6 +465,8 @@ const papers = [
 {year:2023,cat:["skin"],title:"Reverse skin aging signs by red-light PBM",type:"Prospective single-arm clinical study",dose:"630±10 nm; 21.7 mW/cm²; 15.6 J/cm²; 12 min; 2× weekly for 3 months",finding:"Reported progressive improvements in several aging measures.",limit:"Only 20 women, no sham control, and industry affiliations.",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC10311288/"},
 {year:2023,cat:["whole"],title:"Dose- and time-response PBM in type 2 diabetes",type:"Randomized clinical study",dose:"830-nm arrays; 100 or 240 J per site over selected upper- and lower-limb muscles",finding:"Mapped glycemic response across dose and time with and without hypoglycemic medication.",limit:"Multisite localized PBM, not a uniform whole-body surface exposure; total joules per site cannot be loaded into the whole-body preset matcher.",url:"https://pubmed.ncbi.nlm.nih.gov/37171054/"},
 {year:2023,cat:["review","skin"],title:"Systematic review of oncologic safety of low-level light therapy",type:"Systematic review",dose:"Clinical and preclinical literature",finding:"Found no evidence supporting a carcinogenic effect within studied parameters, while emphasizing parameter and indication boundaries.",limit:"Does not justify shining light over a known or suspected tumor without clinician guidance.",url:"https://pubmed.ncbi.nlm.nih.gov/36722207/"},
+{year:2022,cat:["skin","direct"],title:"High-fluence red-LED safety dose escalation",type:"Two phase-I randomized controlled trials",dose:"633±6 nm; 160–640 J/cm² to a localized forearm, 3× weekly for 3 weeks",finding:"Defined dose-limiting erythema/blistering and found skin-pigmentation-dependent tolerability at exposures far above the routine PBM cluster.",limit:"Localized high-fluence safety study, not an efficacy study or whole-body safety clearance.",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC8887049/"},
+{year:2014,cat:["skin","whole"],title:"Large-area/full-body red and NIR skin trial",type:"Prospective randomized controlled trial",dose:"611–650 or 570–850 nm; red band normalized to about 9 J/cm²; 2× weekly for 30 sessions",finding:"Among 136 volunteers, treated groups improved skin complexion, roughness, and ultrasonographic collagen density versus controls.",limit:"Skin-specific endpoint; group irradiances and treatment durations varied, so this does not define one systemic whole-body dose or a universal optimum.",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC3926176/"},
 {year:2009,cat:["direct","review"],title:"Biphasic Dose Response in Low Level Light Therapy",type:"Foundational review",dose:"Synthesizes many cellular and animal dose curves",finding:"Established the modern PBM inverted-U framework: low doses stimulate, higher doses can inhibit.",limit:"Older and mostly preclinical evidence.",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC2790317/"},
 {year:2017,cat:["direct","review"],title:"Mechanisms and applications of the anti-inflammatory effects of PBM",type:"Foundational mechanistic review",dose:"Multiple wavelengths and indications",finding:"Describes a pronounced biphasic dose response and redox/inflammatory signaling mechanisms.",limit:"Mechanistic synthesis, not a universal dosing guideline.",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC5523874/"}
 ];
@@ -781,13 +791,13 @@ function makeDistanceRows(){
 function runPL300SelfTests(){
  const tests=[
   ["60° anchor preserved",Math.abs(lensIrr(6,60,60,"combined")-anchorCombined)<.001],
-  ["seller 12-inch scaled point",Math.abs(sellerIrr(12)-151.14)<.03],
+  ["seller 12-inch scaled point",Math.abs(sellerIrr(12)-151.233)<.003],
   ["seller range not extrapolated",Number.isNaN(sellerIrr(30))],
   ["60° falloff monotonic",lensIrr(6,60,60,"combined")>lensIrr(12,60,60,"combined")&&lensIrr(12,60,60,"combined")>lensIrr(24,60,60,"combined")],
   ["10-minute dose identity",Math.abs(16.6666667*.6-10)<.001],
   ["60° footprint at 24 inches",Math.abs((12+48*Math.tan(Math.PI/6))-39.713)<.002],
-  ["12-inch empirical median",Math.abs(empiricalMedian[12]-.855878)<.00001],
-  ["24-inch empirical median",Math.abs(empiricalMedian[24]-.698577)<.00001],
+  ["12-inch empirical median",Math.abs(empiricalMedian[12]-.852077)<.00001],
+  ["24-inch empirical median",Math.abs(empiricalMedian[24]-.638384)<.00001],
   ["Helio near-field overlap retained",exactRetention(empiricalCurves[1],12)>1],
   ["Lambertian below observed 24-inch range",lambertIrr(24)/anchorCombined<40/86],
   ["De Nardi dose reconstruction",Math.abs(studyMatchMath(wholeBodyProtocols[0],129).reconstructedFluence-92.88)<.001],
@@ -801,6 +811,7 @@ function runPL300SelfTests(){
 window.runPL300SelfTests=runPL300SelfTests;
 function renderPapers(filter="all"){
  const arr=papers.filter(p=>filter==="all"||p.cat.includes(filter)).sort((a,b)=>b.year-a.year);
+ const count=document.getElementById("paperCount");if(count)count.textContent=`${papers.length} study/review records in the expanded map; ${arr.length} shown by the current filter. Whole-body dose bookmarks remain restricted to geometrically translatable human protocols.`;
  document.getElementById("paperGrid").innerHTML=arr.map(p=>`<article class="paper">
  <div class="meta"><span class="tag">${p.year}</span><span class="tag">${p.type}</span>${p.cat.map(x=>`<span class="tag">${x}</span>`).join("")}</div>
  <h4>${p.title}</h4><p><b>Parameters:</b> ${p.dose}</p><p><b>Finding:</b> ${p.finding}</p>

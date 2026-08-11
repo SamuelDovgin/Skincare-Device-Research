@@ -1,6 +1,6 @@
 # Whole-body PBM source manifest
 
-*Captured 2026-07-12 to 2026-07-13 from publisher, PubMed, or Europe PMC sources.*
+*Core translatable corpus captured 2026-07-12 to 2026-07-13; targeted update search completed 2026-08-11 from publisher, PubMed, or Europe PMC sources.*
 
 | Local file | Source | Type | Supports |
 |---|---|---|---|
@@ -19,3 +19,5 @@
 The XML files are legitimate open-access full texts retrieved through the Europe PMC API. The CSV separates publications from independent exposure cohorts so follow-up and qualitative papers are not mistaken for replications.
 
 Condition-specific protocols are evidence for the populations and endpoints actually studied, not general-wellness prescriptions. The 2025 high-dose metabolic experiment is an acute protocol, and the 2024 agility source is a conference abstract rather than a full report.
+
+The companion visual research map was expanded on 2026-08-11 to 32 records with three adjacent human studies: the 136-person 2014 large-area/full-body skin trial (PMCID PMC3926176), the 2022 localized high-fluence red-LED safety trials (PMCID PMC8887049), and a 2024 transcranial/intranasal low-versus-high-dose randomized comparison (PMID 37776079). They add context but do not enter the uniform whole-body PL300 preset library because their endpoint or geometry is not interchangeable with systemic whole-body exposure.

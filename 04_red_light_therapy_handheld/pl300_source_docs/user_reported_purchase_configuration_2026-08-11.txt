@@ -1,0 +1,25 @@
+PL300 PURCHASE-CONFIGURATION NOTE
+Recorded: 2026-08-11
+Evidence type: user-reported text from the information shown when purchasing the panel
+
+Reported wavelengths:
+630 nm / 660 nm / 810 nm / 830 nm / 850 nm
+
+Reported wavelength ratio:
+2 : 2 : 2 : 1 : 1
+
+Reported power consumption:
+360 W
+
+Interpretation used in the research model:
+- The wavelength ratio sums to eight shares: 25% / 25% / 25% / 12.5% / 12.5%.
+- This is a nominal emitter-allocation ratio, not a direct measurement of radiant watts at each wavelength.
+- It implies 50% red allocation (630 + 660 nm) and 50% NIR allocation (810 + 830 + 850 nm).
+- If the ratio describes 600 individual dies inside 300 dual-chip packages, the exact die counts would be 150 / 150 / 150 / 75 / 75. If it instead describes 300 packages, integer allocation and package pairing remain unresolved.
+- 360 W is treated as the strongest configuration-specific electrical claim, but not as a wall-meter measurement.
+
+Still needed:
+- Original screenshot/listing capture showing these fields.
+- Whether the ratio is LED-package count, diode-die count, electrical-power share, or seller shorthand.
+- Wall-meter draw in all-on, red-only, and NIR-only modes after warm-up.
+- Spectroradiometer trace or per-band integrated irradiance at the treatment plane.
