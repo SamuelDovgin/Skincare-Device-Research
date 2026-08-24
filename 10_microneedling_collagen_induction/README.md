@@ -24,6 +24,7 @@ This topic covers **mechanical microneedling**: dermarollers, dermastamps, power
 | 03 | [Regulatory and device landscape](03_regulatory_and_device_landscape.md) | FDA QAI category, SkinPen/Exceed/Dr. Pen/Dermalogica examples, openFDA 26-record snapshot, RF microneedling warning line |
 | 04 | [Home vs professional results gap](04_home_vs_professional_results_gap.md) | Why a 0.2-0.5 mm home roller is not a SkinPen/Exceed treatment, what home tools can plausibly do, and marketing red flags |
 | 05 | [Selection and safety protocol](05_selection_and_safety_protocol.md) | Goal-based picker, when to seek a provider, what to ask, stop rules, contraindications, and a conservative home-use boundary |
+| 06 | [FDA indication matrix and provider checklist](index.html#doc6) | Clearance-by-clearance indication, age, Fitzpatrick scope, depth ceiling, prescription status, and a claim-verification checklist that prevents device-family overgeneralization |
 
 ## Relationship to other folders
 
@@ -34,15 +35,18 @@ This topic covers **mechanical microneedling**: dermarollers, dermastamps, power
 
 ## Supporting material
 
+- [FDA microneedling indication matrix CSV](data/fda_microneedling_indication_matrix.csv) — structured extraction behind document 06.
+
 - [`skin_depth_demo.html`](skin_depth_demo.html) is an interactive skin-depth explainer that maps needle depth to target layer, plausible benefit, evidence boundary, and main risk.
 - [`source_docs/`](source_docs/) contains FDA guidance, FDA device summaries, FDA microneedling pages, and the 2025 RF microneedling safety communication.
 - [`data/openfda-qai-510k-2026-07-06.json`](data/openfda-qai-510k-2026-07-06.json) is a live openFDA product-code `QAI` snapshot captured 2026-07-06. API metadata says last updated 2026-06-22 and total results = 26.
 - [`data/openfda-qai-510k-2026-07-06.csv`](data/openfda-qai-510k-2026-07-06.csv) is a reader-friendly extract of K-number, decision date, device, applicant, country, clearance type, and decision description.
+- The topic viewer's [FDA-reported events panel](index.html#maude) adds the local QAI MAUDE snapshot, with searchable narratives and coded patient/device problems.
 
 ## Status / open items
 
 - **Done:** FDA microneedling guidance mirrored; SkinPen De Novo/order and decision summary mirrored; SkinPen K202243, Exceed K180778, Dr. Pen K230420, Dermalogica K243800, SkinStylus K253002, and CODE-X K252591 summaries mirrored; openFDA QAI snapshot captured.
-- **Still needed:** a full MAUDE adverse-event extraction for microneedling/RF microneedling; direct IFUs for each cleared pen; provider-cost quotes by metro; better official product-source captures for home rollers/stamps.
+- **Added 2026-08-12:** QAI MAUDE extraction and rendered report viewer. Still needed: direct IFUs for each cleared pen; provider-cost quotes by metro; better official product-source captures for home rollers/stamps.
 - **Evidence gap:** direct, high-quality evidence for home consumer rollers/stamps treating acne scars or wrinkles remains weak. Most credible data are from clinician-performed powered devices or professional RF microneedling studies.
 
 ### Sources

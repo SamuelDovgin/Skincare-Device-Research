@@ -32,10 +32,22 @@
   <button class="nav" data-target="doc4">04 · Selection and routine</button>
   <button class="nav" data-target="doc5">05 · Who makes the peptides?</button>
   <button class="nav" data-target="doc6">06 · Peptide serum matchup</button>
+  <button class="nav" data-target="doc7">07 · Ingredient cost model</button>
+  <button class="nav" data-target="doc8">08 · Ingredient price research</button>
+  <button class="nav" data-target="doc9">09 · Evidence rating model</button>
+  <button class="nav" data-target="doc10">10 · Price scenario model</button>
+  <button class="nav" data-target="doc11">11 · Formula audit &amp; concentration</button>
+  <button class="nav" data-target="doc12">12 · Clinical-trial ledger</button>
   <h2>Interactive</h2>
   <a class="tool" href="peptide_goal_picker.html">🎛️ Peptide goal picker</a>
+  <a class="tool" href="peptide_cost_model.html">📊 Sortable peptide cost visual</a>
+  <a class="tool" href="peptide_price_finder.html">🔎 Ingredient price finder</a>
+  <a class="tool" href="peptide_formula_audit.html">🧪 Formula audit &amp; concentration explorer</a>
+  <a class="tool" href="data/peptide_price_scenario_model.csv">⬇️ Retail scenario CSV</a>
+  <a class="tool" href="data/peptide_application_use_rate_scenarios.csv">⬇️ Application-use overlay CSV</a>
+  <a class="tool" href="data/peptide_cost_model.csv">⬇️ Cost-model CSV</a>
   <h2>Sources</h2>
-  <a class="tool" href="source_docs/README.md">Source manifest</a>
+  <a class="tool" href="../markdown-viewer.html?file=12_peptides_in_skincare/source_docs/README.md">Source manifest</a>
   <a class="tool" href="source_docs/basf-caregen-exclusive-peptide-supply-agreement-2021.pdf">BASF–Caregen supply agreement</a>
   <a class="tool" href="source_docs/croda-matrixyl3000-development-formulation-2025.pdf">Croda Matrixyl formula</a>
   <a class="tool" href="source_docs/nukaly-2026-oral-topical-peptides-systematic-review.pdf">2026 systematic review PDF</a>
@@ -52,10 +64,16 @@
     <div class="card" onclick="location.href='peptide_goal_picker.html'"><b>Pick a peptide by goal</b><span>Interactive filter with evidence tier and realistic role.</span></div>
     <div class="card" data-go="doc5"><b>Find out who makes them</b><span>Sederma/Croda, Lipotec/Lubrizol, Caregen/BASF, supplier blends, trademarks, and the percentage trap.</span></div>
     <div class="card" data-go="doc6"><b>Compare peptide serums</b><span>Every current face serum from The Ordinary and Good Molecules, plus a reproducible 10-brand value-market scan ranked for collagen support.</span></div>
+    <div class="card" data-go="doc7"><b>Audit the peptide economics</b><span>See each named peptide, the best supported concentration and bottle amount, one selected input-cost estimate, and the sortable $/mL chart.</span></div>
+    <div class="card" data-go="doc8"><b>Check every ingredient price source</b><span>Review supplier, raw-material, commercial-blend, suspension, research-grade, and no-public-price evidence without reverse-calculating from retail.</span></div>
+    <div class="card" data-go="doc9"><b>Rank peptides without using price</b><span>Compare human topical evidence, mechanism, identity, formulation readiness, delivery, novelty, and uncertainty across all 36 named ingredients.</span></div>
+    <div class="card" data-go="doc10"><b>Estimate retail-formula peptide input cost</b><span>Apply formulation-grade public prices, common use rates, and explicit assumptions to select one best estimate across all 25 formulations.</span></div>
+    <div class="card" data-go="doc11"><b>Audit every formula ingredient and likely amount</b><span>Inspect 150 ingredient records, corrected omissions, molecule-level estimates, purchased-technology estimates, and two separate value rankings.</span></div>
+    <div class="card" data-go="doc12"><b>Inspect the human topical trials</b><span>Compare participant counts, controls, duration, endpoints, signals, ties, and directness without mixing clinical evidence with price scores.</span></div>
   </div>
   <h2>Recommended reading order</h2>
-  <ol class="order"><li><b>Ranked clinical evidence</b> for the tier list and effect expectations.</li><li><b>Best-value product guide</b> for dose checks, budget picks, and Amazon routes.</li><li><b>Science and taxonomy</b> to decode peptide families.</li><li><b>Supplier and licensing map</b> to trace Matrixyl, Argireline, and multi-supplier blends.</li><li><b>Cross-category comparison</b> to decide whether a peptide is the right tool.</li><li><b>Selection guide</b> before adding one to a routine.</li></ol>
-  <div class="chips"><a class="chip" href="README.md">Topic overview</a><a class="chip" href="02_ranked_clinical_evidence.md">Open tier list</a><a class="chip" href="06_best_value_peptide_products_and_amazon_buying_guide.md">Open value guide</a><a class="chip" href="05_who_makes_branded_peptides_supplier_map.md">Open supplier map</a><a class="chip" href="03_peptides_vs_ingredients_devices_and_tech.md">Open comparison</a><a class="chip" href="source_docs/README.md">Audit sources</a></div>
+  <ol class="order"><li><b>Formula ingredient audit</b> for the corrected 150-line inventory and likely concentration model.</li><li><b>Evidence maturity model</b> for the price-independent score and all-ingredient ranking.</li><li><b>Ranked clinical evidence</b> for the detailed study-by-study tier list.</li><li><b>Best-value product guide</b> for dose checks, budget picks, and Amazon routes.</li><li><b>Ingredient price research</b> to inspect each public supplier or raw-material anchor.</li><li><b>Price scenario model</b> for common concentration assumptions and retail comparisons across all 25 formulations.</li><li><b>Ingredient price finder</b> to search the 46-record source ledger by peptide, supplier, material form, or confidence.</li><li><b>Ingredient best-cost visual</b> for one heuristic estimate per product, retail multiples, amount support, and independent price-coverage checks.</li><li><b>Science and taxonomy</b> to decode peptide families.</li><li><b>Supplier and licensing map</b> to trace Matrixyl, Argireline, and multi-supplier blends.</li><li><b>Cross-category comparison</b> to decide whether a peptide is the right tool.</li><li><b>Selection guide</b> before adding one to a routine.</li></ol>
+  <div class="chips"><a class="chip" href="#doc12">Clinical-trial ledger</a><a class="chip" href="#doc11">Formula audit</a><a class="chip" href="peptide_formula_audit.html">Concentration explorer</a><a class="chip" href="#doc9">Evidence rating model</a><a class="chip" href="#doc10">Price scenario model</a><a class="chip" href="peptide_price_finder.html">Ingredient price finder</a><a class="chip" href="#doc2">Open tier list</a><a class="chip" href="#doc6">Open value guide</a><a class="chip" href="#doc8">Open price research</a><a class="chip" href="peptide_cost_model.html">Open cost visual</a><a class="chip" href="#doc5">Open supplier map</a><a class="chip" href="#doc3">Open comparison</a><a class="chip" href="../markdown-viewer.html?file=12_peptides_in_skincare/source_docs/README.md">Audit sources</a></div>
   <a class="openmd" hidden aria-hidden="true" tabindex="-1" href="README.md">Route metadata</a>
 </div></section>
 <section class="doc" id="doc1"><a class="openmd" hidden aria-hidden="true" tabindex="-1" href="01_peptide_science_and_taxonomy.md">Route metadata</a></section>
@@ -64,6 +82,12 @@
 <section class="doc" id="doc4"><a class="openmd" hidden aria-hidden="true" tabindex="-1" href="04_selection_and_routine_guide.md">Route metadata</a></section>
 <section class="doc" id="doc5"><a class="openmd" hidden aria-hidden="true" tabindex="-1" href="05_who_makes_branded_peptides_supplier_map.md">Route metadata</a></section>
 <section class="doc" id="doc6"><a class="openmd" hidden aria-hidden="true" tabindex="-1" href="06_best_value_peptide_products_and_amazon_buying_guide.md">Route metadata</a></section>
+<section class="doc" id="doc7"><a class="openmd" hidden aria-hidden="true" tabindex="-1" href="07_peptide_ingredient_cost_model.md">Route metadata</a></section>
+<section class="doc" id="doc8"><a class="openmd" hidden aria-hidden="true" tabindex="-1" href="08_peptide_ingredient_price_research.md">Route metadata</a></section>
+<section class="doc" id="doc9"><a class="openmd" hidden aria-hidden="true" tabindex="-1" href="09_peptide_evidence_rating_model.md">Route metadata</a></section>
+<section class="doc" id="doc10"><a class="openmd" hidden aria-hidden="true" tabindex="-1" href="10_peptide_price_scenario_model.md">Route metadata</a></section>
+<section class="doc" id="doc11"><a class="openmd" hidden aria-hidden="true" tabindex="-1" href="11_formula_ingredient_audit_and_concentration_model.md">Route metadata</a></section>
+<section class="doc" id="doc12"><a class="openmd" hidden aria-hidden="true" tabindex="-1" href="12_topical_peptide_clinical_trial_ledger.md">Route metadata</a></section>
 </main></div>
 <script>
 const docs=[
@@ -72,12 +96,18 @@ const docs=[
  {id:'doc3',file:'03_peptides_vs_ingredients_devices_and_tech.md'},
  {id:'doc4',file:'04_selection_and_routine_guide.md'},
  {id:'doc5',file:'05_who_makes_branded_peptides_supplier_map.md'},
- {id:'doc6',file:'06_best_value_peptide_products_and_amazon_buying_guide.md'}
+ {id:'doc6',file:'06_best_value_peptide_products_and_amazon_buying_guide.md'},
+ {id:'doc7',file:'07_peptide_ingredient_cost_model.md'},
+ {id:'doc8',file:'08_peptide_ingredient_price_research.md'},
+ {id:'doc9',file:'09_peptide_evidence_rating_model.md'},
+ {id:'doc10',file:'10_peptide_price_scenario_model.md'},
+ {id:'doc11',file:'11_formula_ingredient_audit_and_concentration_model.md'},
+ {id:'doc12',file:'12_topical_peptide_clinical_trial_ledger.md'}
 ];
 function inline(s){return s.replace(/\[\[(\d+)\]\]\(([^)]+)\)/g,(_,n,url)=>'<a class="cite" href="'+url+'">['+n+']</a>').replace(/\[([^\]]+)\]\(([^)]+)\)/g,(_,label,url)=>'<a href="'+url+'">'+label+'</a>').replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>').replace(/\*([^*]+)\*/g,'<em>$1</em>').replace(/`([^`]+)`/g,'<code>$1</code>');}
 function md(src){const lines=src.split('\n'),out=[];let list=null,quote=false,table=[];const close=()=>{if(list){out.push(`</${list}>`);list=null}if(quote){out.push('</blockquote>');quote=false}if(table.length){const rows=table.map(r=>r.split('|').slice(1,-1).map(x=>x.trim()));const heads=rows.shift();if(rows[0]&&rows[0].every(x=>/^:?-+:?$/.test(x)))rows.shift();out.push('<div class="tablewrap"><table><thead><tr>'+heads.map(x=>'<th>'+inline(x)+'</th>').join('')+'</tr></thead><tbody>'+rows.map(r=>'<tr>'+r.map(x=>'<td>'+inline(x)+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>');table=[]}};
  for(const raw of lines){const l=raw.trimEnd();if(/^\|.*\|$/.test(l)){if(list||quote)close();table.push(l);continue}else if(table.length)close();if(!l.trim()){close();continue}let m;if((m=/^(#{1,3})\s+(.*)/.exec(l))){close();const n=m[1].length;out.push(`<h${n}>${inline(m[2])}</h${n}>`)}else if((m=/^>\s?(.*)/.exec(l))){if(list)close();if(!quote){out.push('<blockquote>');quote=true}out.push('<p>'+inline(m[1])+'</p>')}else if((m=/^[-*]\s+(.*)/.exec(l))){if(quote)close();if(list!=='ul'){close();out.push('<ul>');list='ul'}out.push('<li>'+inline(m[1])+'</li>')}else if((m=/^\d+\.\s+(.*)/.exec(l))){if(quote)close();if(list!=='ol'){close();out.push('<ol>');list='ol'}out.push('<li>'+inline(m[1])+'</li>')}else{if(list||quote)close();out.push('<p>'+inline(l)+'</p>')}}close();return out.join('\n')}
-async function load(d){const el=document.getElementById(d.id);el.innerHTML='<div class="panel loading">Loading research document…</div>';try{const r=await fetch(d.file);if(!r.ok)throw Error(r.status);const txt=await r.text();el.innerHTML=`<div class="panel"><div class="dochead"><small>Rendered research document</small></div><div class="rendered">${md(txt)}</div></div>`}catch(e){el.innerHTML='<div class="panel"><h1>Document could not be loaded</h1><p class="warning">Open this website through its local or hosted web server, then reload this page. Research documents are available only through the rendered viewer.</p></div>'}}
+async function load(d){const el=document.getElementById(d.id),key='12_peptides_in_skincare/'+d.file,fallback=window.SiteEmbeddedDocuments&&(window.SiteEmbeddedDocuments[key]||window.SiteEmbeddedDocuments[d.file]);el.innerHTML='<div class="panel loading">Loading research document…</div>';try{let txt=fallback||'';if(location.protocol!=='file:'||!txt){const r=await fetch(d.file);if(!r.ok)throw Error(r.status);txt=await r.text()}el.innerHTML=`<div class="panel"><div class="dochead"><small>Rendered research document</small></div><div class="rendered">${md(txt)}</div></div>`}catch(e){if(fallback){el.innerHTML=`<div class="panel"><div class="dochead"><small>Rendered research document</small></div><div class="rendered">${md(fallback)}</div></div>`;return}el.innerHTML='<div class="panel"><h1>Document could not be loaded</h1><p class="warning">Open this website through its local or hosted web server, then reload this page. Research documents are available only through the rendered viewer.</p></div>'}}
 docs.forEach(load);
 function show(id){document.querySelectorAll('.doc').forEach(x=>x.classList.toggle('active',x.id===id));document.querySelectorAll('.nav').forEach(x=>x.classList.toggle('active',x.dataset.target===id));history.replaceState(null,'','#'+id);window.scrollTo({top:0,behavior:'smooth'})}
 document.querySelectorAll('[data-target]').forEach(x=>x.onclick=()=>show(x.dataset.target));document.querySelectorAll('[data-go]').forEach(x=>x.onclick=()=>show(x.dataset.go));const h=location.hash.slice(1);if(document.getElementById(h))show(h);

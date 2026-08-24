@@ -2,14 +2,15 @@
 
 Cross-category frontier research for at-home skincare devices: what is shipping, what regulators actually cleared, what patents suggest may come next, and which device classes are missing from the rest of the archive.
 
-*Updated 2026-07-10. Research orientation, not medical, legal, investment, or purchasing advice. Patent publication is evidence of an idea—not proof of a product, efficacy, freedom to operate, or current legal status.*
+*Updated 2026-08-23. Research orientation, not medical, legal, investment, or purchasing advice. Patent publication is evidence of an idea—not proof of a product, efficacy, freedom to operate, or current legal status.*
 
 ## Start here
 
 1. Open the [interactive frontier radar](frontier_radar.html) to filter technologies by maturity, evidence, and consumer relevance.
 2. Read the [overview](01_overview.md) for the existing market thesis.
 3. Read the new [blind-spot audit](07_blind_spots_and_opportunity_map.md) for categories the archive had under-covered.
-4. Use the [patent search playbook](06_patent_search_playbook.md) to refresh this dated snapshot.
+4. Query the [FDA multimodal clearance register](index.html#doc7) before treating a brand family or shared shell as one cleared device.
+5. Use the [patent search playbook](06_patent_search_playbook.md) to refresh this dated snapshot.
 
 ## Documents
 
@@ -22,6 +23,7 @@ Cross-category frontier research for at-home skincare devices: what is shipping,
 | 05 | [Frontier and emerging tech](05_frontier_emerging_tech.md) | Sensors, home RF, 1064 nm and AI claims |
 | 06 | [Patent search playbook](06_patent_search_playbook.md) | Repeatable public-source workflow |
 | 07 | [Blind spots and opportunity map](07_blind_spots_and_opportunity_map.md) | Under-covered modalities, regulatory correction, research queue |
+| 08 | [FDA multimodal clearance register](index.html#doc7) | Five recent 510(k)s split into nine exact model/indication groups, with wavelengths, irradiance, predicates, and clinical-evidence status |
 
 ## What belongs here
 
@@ -31,11 +33,13 @@ This folder compares categories and detects signals. Mechanism-specific safety a
 
 - [Interactive frontier radar](frontier_radar.html): filterable market/evidence matrix with a strict patent-versus-product maturity axis.
 - [`source_docs/`](source_docs/): mirrored recent FDA clearance letters.
+- [`data/fda_multimodal_clearance_register.csv`](data/fda_multimodal_clearance_register.csv): machine-readable model-level regulatory register.
 - [`patents_source_docs/`](patents_source_docs/): source manifest for the patent families used in the blind-spot audit.
 
 ## Status and open items
 
 - Verified: recent FDA letters establish a real home microcurrent + red/blue LED clearance lane, including wrinkle/acne indications.
+- Added: a model-level clearance register shows that acne, wrinkle, face/body stimulation, wavelength, and irradiance claims can differ inside one submission; clearance is not a new clinical trial.
 - Strong signal, incomplete product proof: electroporation/iontophoresis, sonophoresis, multimodal stacks, and sensor-guided dosing.
 - Early/speculative for consumer facial skincare: cold atmospheric plasma and closed-loop biomarker dosing.
 - Still needed: quarterly FDA/openFDA export, patent-family/legal-status verification in USPTO/Espacenet, independent output measurements, retailer sell-through, returns, and adverse-event analysis.

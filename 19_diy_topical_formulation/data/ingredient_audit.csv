@@ -1,0 +1,23 @@
+ingredient,goal,efficacy_level,water_solubility,pH_band,stability_risk,microbial_risk,formulation_burden,storage_profile,diy_verdict,evidence_class
+L-ascorbic acid,antioxidant tone photoaging,strong,high,<3.5,high,high,low,small fresh dark cool batch,Good first candidate,verified human formulation study
+Glycolic acid,texture discoloration,moderate,high,3.5-4.0 learning band,medium,high,medium,finished preserved product preferred,Conditional,verified human RCT + FDA
+Niacinamide,barrier tone texture,moderate,high,4.5-6.5 inference,low,high,low,preserved water formula,Good conditional,verified human trials
+N-acetyl glucosamine,pigment adjunct,limited-moderate,high,4.5-6.5 inference,low,high,low,preserved water formula,Good conditional,limited human trial
+Tranexamic acid,pigment adjunct,limited-moderate,high,5-7 inference,medium,high,medium,preserved water formula,Conditional,limited mixed human trials
+Alpha-arbutin,pigment adjunct,moderate,high,4-6 inference,medium,high,medium,light-controlled preserved formula,Conditional,SCCS + limited human trials
+Kojic acid,pigment adjunct,moderate,medium,4-6 inference,high,high,medium,light/oxygen controlled finished formula,Buy finished,limited human + SCCS
+Hyaluronic acid,hydration,moderate,dispersible,4.5-6.5 inference,low,high,high,molecular-weight specific preserved gel,Buy finished,verified human trial of finished lotion
+Panthenol,barrier hydration,limited-moderate,high,4.5-6.5 inference,low,high,low,preserved water formula,Good conditional,limited human barrier study
+Urea,hydration barrier keratolytic,moderate,high,4.5-7 inference,medium,high,low,cool preserved formula,Conditional,mechanistic human study
+Allantoin,soothing,limited,low-medium,4.5-6.5 inference,low,high,medium,crystal/precipitation watch,Buy finished,formulation inference
+Sodium PCA,humectant,limited,high,4.5-6.5 inference,low,high,low,preserved water formula,Conditional,formulation inference
+Azelaic acid,acne pigment,moderate,low,4-5 inference,medium,high,high,suspension/emulsion required,Buy finished,human evidence + formulation inference
+Salicylic acid,acne exfoliation,moderate,low,3-4 inference,medium,high,high,solvent/pH controlled finished formula,Do not DIY,FDA + formulation inference
+Ferulic acid,antioxidant stabilizer,limited-moderate,low,3-3.5 system,high,high,high,CEF-style engineered system,Buy finished,formulation-specific evidence
+Resveratrol,antioxidant hypothesis,limited,low,4-6 inference,high,high,high,light/oxygen controlled formula,Buy finished,mechanistic
+Alpha-lipoic acid,antioxidant hypothesis,limited,low-medium,4-6 inference,high,high,medium,finished formula,Skip,limited
+Green tea or EGCG extract,antioxidant soothing hypothesis,limited,variable,4-6 inference,high,high,high,extract-specific preserved formula,Buy finished,variable extract evidence
+Caffeine,limited topical adjunct,limited,high,4.5-6.5 inference,low,high,low,preserved water formula,Conditional,limited
+Dipotassium glycyrrhizate,soothing tone adjunct,limited,high,4.5-6.5 inference,low,high,low,preserved water formula,Conditional,limited
+Peptide or copper peptide powders,signaling claims,variable,variable,ingredient-specific,medium-high,high,high,formula-specific preserved product,Buy finished,ingredient-specific evidence
+Hydroquinone or prescription retinoids,drug treatment,drug-specific,drug-specific,drug-specific,high,high,high,medical formulation only,Do not DIY,medical boundary

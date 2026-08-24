@@ -4,7 +4,7 @@
 
 ## 0. Bottom line
 
-The archive already contains 200 unique PubMed identifiers across its research pages. This atlas uses that existing corpus plus the archive’s structured 100-record 2025–2026 index, then organizes it into comparable category–goal pairs. The result is broad and useful for navigation, but it should not be described as “all papers in the industry.”
+The original atlas compilation reported a snapshot of 200 unique PubMed identifiers across the archive and combined it with the structured 100-record 2025–2026 index. The repository has since grown, and no frozen identifier manifest reproduces that historical count. The result remains broad and useful for navigation, but it should not be described as “all papers in the industry” or as a current bibliometric census.
 
 ## 1. Search boundary
 
@@ -29,19 +29,22 @@ The interactive map uses a transparent 0–100 score, rounded for display:
 
 `score = 0.35 × human-volume + 0.30 × design-strength + 0.20 × endpoint-fit + 0.15 × transparency`
 
-Each component is a 0–100 field in `data/category_evidence_map.csv`. Human volume uses the mapped number of category-relevant human studies/reviews, capped so a prolific but repetitive product literature does not dominate. Design strength rewards RCTs and high-level synthesis. Endpoint fit asks whether the evidence measures the user’s target rather than a surrogate. Transparency rewards reproducible parameters, product identity, follow-up, and safety reporting.
+Human volume uses the mapped number of category-relevant human studies/reviews, capped so a prolific but repetitive product literature does not dominate. Design strength rewards RCTs and high-level synthesis. Endpoint fit asks whether the evidence measures the user’s target rather than a surrogate. Transparency rewards reproducible parameters, product identity, follow-up, and safety reporting.
 
-This is a navigation score, not a validated clinical prediction model. The map uses node size based on `score`, while the interface separately shows evidence tier and home-translation confidence.
+**Current auditability limit:** the stored CSV contains the final score, directional human/review/RCT counts, endpoint fit, and transparency, but it does not contain the normalized `human-volume` and `design-strength` fields, their exact transforms/caps, or a frozen PMID-to-category manifest. The formula describes the editorial model but the current rows cannot be independently recomputed. Until those fields are restored, treat scores and counts as manually curated orientation estimates—not effect sizes or precise bibliometric totals.
+
+This is a navigation score, not a validated clinical prediction model, cost-effectiveness analysis, or personalized treatment ranking. The map uses node size based on `score`, while the interface separately shows evidence tier and home-translation confidence. Categories are nonexclusive: for example, retinoids and azelaic acid also contribute to the broad acne-active lane, so scores must not be added together as independent benefit.
 
 ## 4. What is counted
 
 - The recent handoff includes the [100-record 2025–2026 ledger](../14_latest_skincare_research_2025_2026/data/paper_index.csv), with year, design, population, key result, evidence tier, conflict flag, and existing archive route.
 - The local anchor ledger contains selected 2006–2026 human studies, reviews, and consensus papers that define the major categories and the archive’s older evidence spine.
 - Existing topic pages remain the source of exact device-level counts, measured outputs, regulatory identifiers, product labels, and preserved PDFs.
+- The [focused current-routine ledger](data/high_value_current_regimen_evidence.csv) provides a smaller paper-level join for the highest-ranked/currently used categories. It is auditable but is not an attempt to validate every directional atlas count.
 
 ## 5. Main limitations
 
-The search is PubMed-centered; it is not exhaustive across Embase, Scopus, Web of Science, Chinese/Korean databases, or commercial formulation dossiers. Publication bias, industry sponsorship, inconsistent endpoints, under-representation of darker skin types, short follow-up, and device-specific parameter reporting all limit cross-category comparison. A large node may reflect a mature research field with mixed effect sizes; a small node may reflect an emerging field that is not yet disproven.
+The search is PubMed-centered; it is not exhaustive across Embase, Scopus, Web of Science, Chinese/Korean databases, or commercial formulation dossiers. Publication bias, industry sponsorship, inconsistent endpoints, under-representation of darker skin types, short follow-up, device-specific parameter reporting, overlapping categories, and the missing reproducibility fields all limit cross-category comparison. A large node may reflect a mature research field with mixed effect sizes; a small node may reflect an emerging field that is not yet disproven.
 
 ## Sources
 

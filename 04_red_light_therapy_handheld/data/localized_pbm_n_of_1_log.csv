@@ -1,0 +1,3 @@
+date,phase,device_id,mode,distance_cm,session_seconds,measured_or_modeled_irradiance_mw_cm2,estimated_incident_fluence_j_cm2,target_area,primary_outcome_name,primary_outcome_value,pre_session_pain_0_10,next_day_pain_0_10,function_task_value,sleep_hours,workload_0_3,splint_minutes,medication_or_other_treatment,skin_response,adverse_or_stop_event,setup_or_protocol_deviation,notes
+YYYY-MM-DD,baseline,,,,,,,right_wrist,typing_tolerance_minutes,,,,,,,,,,,,baseline
+YYYY-MM-DD,treatment,PL300,red_plus_nir,,,,,right_wrist,typing_tolerance_minutes,,,,,,,,,,,,

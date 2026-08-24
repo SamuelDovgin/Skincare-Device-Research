@@ -29,6 +29,7 @@ This is the archive’s cross-category update for recent skincare research. It d
 | 05 | [Peptides, supplements, and emerging delivery](05_peptides_supplements_and_emerging_delivery.md) | Topical and oral peptides, supplement evidence, and the translation gap |
 | 06 | [Annotated bibliography and evidence ledger](06_annotated_bibliography_2025_2026.md) | Study-level index with design, population, result, limitation, funding signal, and existing-topic route |
 | 07 | [High-prestige dermatology papers](07_high_prestige_dermatology_papers.md) | 35-paper supplement from leading dermatology and procedure journals, prioritized for RCTs, reviews, meta-analyses, and consensus statements |
+| 08 | [Evidence triage and paper-explorer method](index.html#doc7) | Corpus accounting, transparent design normalization, defensible reading workflow, live post-cutoff recheck, and remaining review gaps |
 
 ## Existing-category routing
 
@@ -44,6 +45,8 @@ This is the archive’s cross-category update for recent skincare research. It d
 - [Structured paper index](data/paper_index.csv) — 100 study-level records with PubMed IDs, year, category, design, evidence tier, result summary, limitation, conflict/funding signal, and archive route.
 - [High-prestige paper index](data/high_prestige_paper_index.csv) — 35 curated records with journal, publication type, selection rationale, and direct PubMed link.
 - [Source manifest](source_docs/README.md) — how the web corpus was collected and which records are primary, review, consensus, or emerging evidence.
+- [Interactive paper evidence explorer](paper_evidence_explorer.html) — combined search and filters across all 100 records, with the 35-paper high-prestige subset correctly treated as overlapping.
+- [Post-cutoff watchlist](data/post_cutoff_watchlist_2026-08-23.csv) — five live-screened candidates kept separate from the frozen explorer pending full inclusion review.
 
 ## Open items
 

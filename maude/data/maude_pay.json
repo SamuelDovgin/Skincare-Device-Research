@@ -1,0 +1,284 @@
+{
+  "metadata": {
+    "product_code": "PAY",
+    "label": "OTC radiofrequency wrinkle reduction",
+    "definition": "Over-the-counter radiofrequency device using localized heating for non-invasive aesthetic use.",
+    "regulation": "21 CFR 878.4420",
+    "topics": [
+      "07_radio_frequency_skin_tightening"
+    ],
+    "captured_at": "2026-08-12",
+    "api_last_updated": "2026-08-05",
+    "api_total": 5,
+    "record_count": 5,
+    "source_url": "https://api.fda.gov/device/event.json?search=device.device_report_product_code%3APAY",
+    "classification_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPCD/classification.cfm?id=PAY",
+    "event_counts": {
+      "Injury": 5
+    },
+    "patient_problem_counts": {
+      "Superficial (First Degree) Burn": 2,
+      "Unspecified Tissue Injury": 1,
+      "Skin Inflammation/ Irritation": 1,
+      "No Clinical Signs, Symptoms or Conditions": 1,
+      "Headache": 1,
+      "Undesired Nerve Stimulation": 1,
+      "Pain": 1,
+      "Skin Discoloration": 2,
+      "Erythema": 1,
+      "Swelling/ Edema": 1
+    },
+    "device_problem_counts": {
+      "Output Problem": 1,
+      "Protective Measures Problem": 1,
+      "Patient-Device Incompatibility": 1,
+      "Product Quality Problem": 1,
+      "Device Markings/Labelling Problem": 1,
+      "Packaging Problem": 1
+    }
+  },
+  "records": [
+    {
+      "mdr_report_key": "22808623",
+      "date_received": "20250814",
+      "date_of_event": "20250807",
+      "event_type": "Injury",
+      "report_source": "Voluntary report",
+      "source_type": [],
+      "reporter_occupation": "PATIENT",
+      "health_professional": "*",
+      "brand_names": [
+        "MEDICUBE RF ULTRA TUNE 40.68"
+      ],
+      "model_numbers": [],
+      "manufacturers": [
+        "MEDICUBE"
+      ],
+      "device_names": [
+        "OVER-THE-COUNTER RADIOFREQUENCY COAGULATION DEVICE FOR WRINKLE REDUCTION"
+      ],
+      "product_code": "PAY",
+      "pma_510k": "",
+      "patient_problems": [
+        "Superficial (First Degree) Burn",
+        "Unspecified Tissue Injury"
+      ],
+      "device_problems": [
+        "Output Problem",
+        "Protective Measures Problem"
+      ],
+      "outcomes": [
+        "Disability",
+        "R",
+        "H"
+      ],
+      "remedial_action": [],
+      "device_available": [
+        "No answer provided"
+      ],
+      "device_evaluated": [],
+      "report_type": [
+        "Initial submission"
+      ],
+      "summary_report": "N",
+      "number_devices": "",
+      "number_patients": "",
+      "narratives": [
+        "I AM WRITING TO FILE A FORMAL COMPLAINT REGARDING SERIOUS REGULATORY VIOLATIONS BY MEDICUBE CONCERNING THEIR \"RF ULTRA TUNE 40.68\" DEVICE, CURRENTLY SOLD ON AMAZON (ASIN: (B)(4)) AND THE COMPANY'S DIRECT-TO-CONSUMER WEBSITE (MEDICUBE.US). THIS COMPLAINT INVOLVES THE ILLEGAL MARKETING OF AN UNREGISTERED CLASS II MEDICAL DEVICE AND SAFETY INCIDENTS. 1. ILLEGAL MARKETING OF UNREGISTERED CLASS II MEDICAL DEVICE. THE MEDICUBE RF ULTRA TUNE 40.68 UTILIZES RADIOFREQUENCY (RF) AND MICROCURRENT (MC) TECHNOLOGIES FOR FACIAL TREATMENT. ITS ADVERTISED BENEFITS INCLUDE BOOSTING SKIN'S RADIANCE AND ELASTICITY, ADDING VOLUME TO FACIAL CONTOURS, AND LINE CARE. ACCORDING TO FDA CLASSIFICATION GUIDELINES, THIS DEVICE FALLS UNDER CLASS II MEDICAL DEVICES REQUIRING 510(K) PREMARKET CLEARANCE. HOWEVER, THE PRODUCT IS CURRENTLY ONLY REGISTERED AND LISTED AS A CLASS I MEDICAL DEVICE UNDER THE CATEGORY OF \"MASSAGER\". VIOLATIONS: - NO 510(K) PREMARKET NOTIFICATION FOUND IN FDA DATABASE - DEVICE MARKETED WITH MEDICAL CLAIMS WITHOUT PROPER CLEARANCE LEGAL BASIS: 21 USC § 360(K) (FD&C ACT § 510(K)); 21 CFR 807.81 2. SAFETY INCIDENT REPORT FOLLOWING MANUFACTURER INSTRUCTIONS, I SUSTAINED SEVERE BURNS CHARACTERIZED BY CIRCULAR PATTERNS MATCHING THE DEVICE'S METAL PROBE CONFIGURATION. THE INJURY REQUIRED MEDICAL TREATMENT AND RESULTED IN SIGNIFICANT RECOVERY TIME AND EXPENSE. THIS INCIDENT, COMBINED WITH THE DEVICE'S UNREGISTERED STATUS, RAISES SERIOUS SAFETY CONCERNS ABOUT QUALITY CONTROL AND REGULATORY COMPLIANCE. 3. REQUEST FOR ACTION - IMMEDIATE MARKET REMOVAL: ISSUE CEASE AND DESIST ORDERS TO REMOVE THE DEVICE FROM ALL US MARKETS PENDING PROPER 510(K) CLEARANCE - WARNING LETTERS: ISSUE FDA WARNING LETTERS CITING VIOLATIONS OF 21 USC § 360(K), 21 CFR 807.81, AND APPLICABLE LABELING REQUIREMENTS - PUBLIC SAFETY ALERT: CONSIDER ISSUING A PUBLIC NOTIFICATION THROUGH FDA'S SAFETY COMMUNICATION OR MEDWATCH SYSTEM - IMPORT ALERT: PLACE THE DEVICE AND RELATED PRODUCTS UNDER IMPORT SURVEILLANCE THIS CASE PRESENTS CLEAR VIOLATIONS OF FEDERAL MEDICAL DEVICE REGULATIONS AND POSES ONGOING PUBLIC HEALTH RISKS. I RESPECTFULLY REQUEST IMMEDIATE INVESTIGATION AND ENFORCEMENT ACTION TO PROTECT AMERICAN CONSUMERS."
+      ],
+      "detail_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfmaude/detail.cfm?mdrfoi__id=22808623&pc=PAY"
+    },
+    {
+      "mdr_report_key": "21378495",
+      "date_received": "20250213",
+      "date_of_event": "20250118",
+      "event_type": "Injury",
+      "report_source": "Voluntary report",
+      "source_type": [],
+      "reporter_occupation": "PATIENT",
+      "health_professional": "*",
+      "brand_names": [
+        "HIGH FREQUENCY FACIAL MACHINE"
+      ],
+      "model_numbers": [],
+      "manufacturers": [
+        "SHENZHEN SHISHIBANG TECHNOLOGY CO., LTD."
+      ],
+      "device_names": [
+        "OVER-THE-COUNTER RADIOFREQUENCY COAGULATION DEVICE FOR WRINKLE REDUCTION"
+      ],
+      "product_code": "PAY",
+      "pma_510k": "",
+      "patient_problems": [
+        "Superficial (First Degree) Burn",
+        "Skin Inflammation/ Irritation"
+      ],
+      "device_problems": [],
+      "outcomes": [
+        "Life Threatening",
+        "R",
+        "C",
+        "H"
+      ],
+      "remedial_action": [],
+      "device_available": [
+        "Yes"
+      ],
+      "device_evaluated": [],
+      "report_type": [
+        "Initial submission"
+      ],
+      "summary_report": "N",
+      "number_devices": "",
+      "number_patients": "",
+      "narratives": [
+        "HERE IS A FORMAL COMPLAINT LETTER TO THE FOOD AND DRUG ADMINISTRATION (FDA) REGARDING THE TUMAKOU HIGH-FREQUENCY FACIAL MACHINE CAUSING BURNS AND LACKING FDA APPROVAL: SUBJECT: URGENT SAFETY CONCERN ¿ HIGH-FREQUENCY FACIAL MACHINE CAUSING BURNS (ASIN:B07YXQW4H1) DEAR FOOD AND DRUG ADMINISTRATION (FDA) COMPLIANCE TEAM, I AM WRITING TO FORMALLY REPORT A SAFETY ISSUE REGARDING THE TUMAKOU HIGH-FREQUENCY FACIAL MACHINE, SOLD ON AMAZON UNDER ASIN B07YXQW4H1 (PRODUCT LINK). 1. SEVERE BURN INJURY FROM PRODUCT USAGE AFTER USING THIS PRODUCT AS INSTRUCTED, I EXPERIENCED PAINFUL BURNS ON MY SKIN. I FOLLOWED THE GUIDELINES PROVIDED BY THE MANUFACTURER AND DID NOT EXCEED THE RECOMMENDED USAGE TIME, YET THE DEVICE CAUSED VISIBLE BURNS AND IRRITATION. 2. FALSE FOOD AND DRUG ADMINISTRATION (FDA) COMPLIANCE CLAIM UPON REVIEWING THE FOOD AND DRUG ADMINISTRATION (FDA) 510(K) DATABASE, I FOUND THAT THIS PRODUCT DOES NOT HAVE FDA CLEARANCE OR APPROVAL. HOWEVER, THE SELLER MISLEADINGLY IMPLIES FOOD AND DRUG ADMINISTRATION (FDA) COMPLIANCE ON THE PRODUCT LISTING. THIS RAISES SERIOUS CONCERNS REGARDING CONSUMER SAFETY AND REGULATORY VIOLATIONS. 3. REQUEST FOR FOOD AND DRUG ADMINISTRATION (FDA) INVESTIGATION GIVEN THE POTENTIAL HARM THIS PRODUCT POSES TO CONSUMERS, I URGE THE FOOD AND DRUG ADMINISTRATION (FDA) TO: INVESTIGATE THE MANUFACTURER'S CLAIMS REGARDING FOOD AND DRUG ADMINISTRATION (FDA) APPROVAL. ASSESS THE PRODUCT'S SAFETY DUE TO MULTIPLE REPORTS OF BURNS AND INJURIES. TAKE APPROPRIATE ENFORCEMENT ACTIONS IF THE PRODUCT IS FOUND TO BE NONCOMPLIANT WITH FOOD AND DRUG ADMINISTRATION (FDA) REGULATIONS. I APPRECIATE YOUR ATTENTION TO THIS MATTER AND LOOK FORWARD TO YOUR RESPONSE. PLEASE LET ME KNOW IF YOU REQUIRE ADDITIONAL INFORMATION."
+      ],
+      "detail_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfmaude/detail.cfm?mdrfoi__id=21378495&pc=PAY"
+    },
+    {
+      "mdr_report_key": "17949790",
+      "date_received": "20231016",
+      "date_of_event": "20230924",
+      "event_type": "Injury",
+      "report_source": "Voluntary report",
+      "source_type": [],
+      "reporter_occupation": "PATIENT",
+      "health_professional": "*",
+      "brand_names": [
+        "AMIRO S1 FACIAL RF SKIN TIGHTENING DEVICE"
+      ],
+      "model_numbers": [],
+      "manufacturers": [
+        "UNKNOWN"
+      ],
+      "device_names": [
+        "OVER-THE-COUNTER RADIOFREQUENCY COAGULATION DEVICE FOR WRINKLE REDUCTION"
+      ],
+      "product_code": "PAY",
+      "pma_510k": "",
+      "patient_problems": [
+        "No Clinical Signs, Symptoms or Conditions"
+      ],
+      "device_problems": [],
+      "outcomes": [
+        "Required Intervention",
+        "O"
+      ],
+      "remedial_action": [],
+      "device_available": [
+        "Yes"
+      ],
+      "device_evaluated": [],
+      "report_type": [
+        "Initial submission"
+      ],
+      "summary_report": "N",
+      "number_devices": "",
+      "number_patients": "",
+      "narratives": [
+        "I BOUGHT AN $699 RF(RADIO FREQUENCY) DEVICE ONLINE. (HTTPS://AMIROBEAUTY.COM/PRODUCTS/AMIROS1-GOLDEN-DOT-MATRIX-RF-SKIN-TIGHTENINGMACHINE?GCLID=CJ0KCQJW7JOPBHCFARISAL3BOBE1OOVOAJWGUNJX3NQL4PIYEK9ZUDTZFHCIWFFCG2PGPODWMXQRLNMAAS4MEALW_WCB), AND THEN I NOTICED A LOT OF ARTICLES DISCUSSING THE SAFETY CONCERNS OF THIS DEVICE. SOME PEOPLE SAID THEIR SKIN WAS HURT BY THE DEVICE. THEN I FOUND OUT IT IS NOT FDA CLEARED, ACCORDING TO THE RULES, A RF DEVICE MUST BE FDA CLEARED TO MARKET AND SALE IN THE STATES. I CONTACTED THE MERCHANT, THEY DON'T KNOW ABOUT THIS RULE AT ALL. THEY STATED THEY ARE CE CLEARED, AND BECAUSE THEY DON'T HAVE INTERNATIONAL WAREHOUSE, THEY CAN'T PERFORM RETURNS FOR ME. THIS IS JUST RIDICULOUS."
+      ],
+      "detail_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfmaude/detail.cfm?mdrfoi__id=17949790&pc=PAY"
+    },
+    {
+      "mdr_report_key": "15113639",
+      "date_received": "20220726",
+      "date_of_event": "",
+      "event_type": "Injury",
+      "report_source": "Voluntary report",
+      "source_type": [],
+      "reporter_occupation": "PATIENT",
+      "health_professional": "*",
+      "brand_names": [
+        "TRIPOLLAR STOP X"
+      ],
+      "model_numbers": [],
+      "manufacturers": [
+        "POLLOGEN LTD."
+      ],
+      "device_names": [
+        "OVER-THE-COUNTER RADIOFREQUENCY COAGULATION DEVICE FOR WRINKLE REDUCTION"
+      ],
+      "product_code": "PAY",
+      "pma_510k": "",
+      "patient_problems": [
+        "Headache",
+        "Undesired Nerve Stimulation",
+        "Pain",
+        "Skin Discoloration"
+      ],
+      "device_problems": [
+        "Patient-Device Incompatibility"
+      ],
+      "outcomes": [
+        "Other"
+      ],
+      "remedial_action": [],
+      "device_available": [
+        "Yes"
+      ],
+      "device_evaluated": [],
+      "report_type": [
+        "Initial submission"
+      ],
+      "summary_report": "N",
+      "number_devices": "",
+      "number_patients": "",
+      "narratives": [
+        "I PURCHASED TRIPOLLARBEAUTY'S TRIPOLLAR STOP X, A TOOL THAT ALLEGEDLY USES THIRD GENERATION RADIO FREQUENCY TO BOOST ELASTIN AND COLLAGEN PRODUCTION, TIGHTEN THE SKIN AND DIMINISH FINE LINES BY ENCOURAGING THE MUSCLES TO TIGHTEN, CREATING A MORE LIFTED APPEARANCE. THE COMPANY STATES THAT 80% OF PARTICIPANTS SHOWED AN IMPROVEMENT IN THE APPEARANCE OF FINE LINES AND WRINKLES. TRIPOLLAR ALSO STATED THAT THE PRODUCT WAS SAFE TO USE IF YOU HAD MELASMA AND WOULD NOT WORSEN THE CONDITION. AFTER USING THE PRODUCT, I NOTICED A DARKENING IN MY SKIN WHICH MY DERMATOLOGIST STATED WAS A WORSENING ON THE MELASMA IN MY SKIN DUE TO THE HEAT FROM THE TRIPOLLAR DEVICE. I ALSO EXPERIENCED A \"SHOCK\" LIKE OCCURRENCE WHICH WAS NOT ONLY PAINFUL BUT CAUSED SEVERE MIGRAINES SHORTLY AFTER. WHEN I CONTACTED THE COMPANY, THEY DENIED MY RETURN AND REFUSED TO ACCEPT THE PRODUCT BACK IN ORDER TO RESEARCH THE ISSUE FURTHER. FDA SAFETY REPORT ID# (B)(4)."
+      ],
+      "detail_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfmaude/detail.cfm?mdrfoi__id=15113639&pc=PAY"
+    },
+    {
+      "mdr_report_key": "13619154",
+      "date_received": "20220225",
+      "date_of_event": "20220223",
+      "event_type": "Injury",
+      "report_source": "Voluntary report",
+      "source_type": [],
+      "reporter_occupation": "117",
+      "health_professional": "Y",
+      "brand_names": [
+        "+VOUPRE L'RAE"
+      ],
+      "model_numbers": [],
+      "manufacturers": [
+        "VOUPRE"
+      ],
+      "device_names": [
+        "OVER-THE-COUNTER RADIOFREQUENCY COAGULATION DEVICE FOR WRINKLE REDUCTION"
+      ],
+      "product_code": "PAY",
+      "pma_510k": "",
+      "patient_problems": [
+        "Erythema",
+        "Skin Discoloration",
+        "Swelling/ Edema"
+      ],
+      "device_problems": [
+        "Product Quality Problem",
+        "Device Markings/Labelling Problem",
+        "Packaging Problem"
+      ],
+      "outcomes": [
+        "Required Intervention"
+      ],
+      "remedial_action": [],
+      "device_available": [
+        "Yes"
+      ],
+      "device_evaluated": [],
+      "report_type": [
+        "Initial submission"
+      ],
+      "summary_report": "N",
+      "number_devices": "",
+      "number_patients": "",
+      "narratives": [
+        "DATE OR INTERACTION: (B)(6) 2022. PATIENT REPORTS HYPERPIGMENTATION, DISCOLORATION, SWELLING AND ERYTHEMA WITH USE OF DEVICE AND PRODUCTS LABELED +VOUPRE PURCHASED IN LOCATION IN (B)(6). PACKAGING INCLUDES \"FDA CLEARED\" LABELING AS WELL AS \"PATENT PENDING\". PACKAGING AND PRODUCTS DO NOT HAVE SEALS, SHRINK WRAP OR UL LABELING ON THE DEVICES OR PRODUCTS. PATIENT REPORTS THAT THE MEDICAL PROVIDER AND REPRESENTATIVES MISCHARACTERIZED THE PRODUCTS AS HAVING PHYSICAL AND COSMETIC HEALTH BENEFITS. PATIENT REPORTS SHE WAS NOT ADVISED OF ACTIVE INGREDIENTS OR WAS EVALUATED FOR MEDICAL OR ALLERGIC POTENTIAL OF TREATMENT. PATIENT REPORTS THAT SHE HAS BEEN EVALUATED FOR INFECTIOUS CONJUNCTIVITIS AT (B)(6) DATE OF SERVICE (B)(6) 2022. PRESCRIBED ANTIBIOTICS AND DISCHARGED OUTPATIENT. CONCERN FOR INFECTION RISK, MANUFACTURING DEFECT AND MISREPRESENTATION TO CONSUMERS FOR FALSE ADVERTISING AND MEDICAL DEVICE REPRESENTATION. REPRESENTATIVE FOR COMPANY, +VOUPRE \"(B)(4)\", IDENTIFIED HIMSELF TO PATIENT AS REPRESENTATIVE OF COMPANY AND DR. (B)(6). CONCERN FOR EXPOSURE TO AT HOME UVA UVB AND INFECTION EXPOSURE. CONCERN FOR UNLABELED PRODUCTS QUALITY CONTROL AND MANUFACTURING. PRODUCTS ARE NOT SEALED, NO SAFETY WRAPPING ON DEVICES. TREATMENT DATES: (B)(6) 2022 OTC, COMPOUNDED; EVENT ABATED AFTER USE STOPPED OR DOSE REDUCED; EVENT REAPPEARED AFTER REINTRODUCTION. FDA SAFETY REPORT ID #:(B)(4)."
+      ],
+      "detail_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfmaude/detail.cfm?mdrfoi__id=13619154&pc=PAY"
+    }
+  ]
+}

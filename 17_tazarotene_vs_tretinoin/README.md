@@ -2,7 +2,7 @@
 
 This topic compares prescription topical tazarotene and tretinoin across the two questions that are commonly collapsed into one: **acne control** and **long-term photoaging/collagen remodeling**. It includes direct randomized comparisons, supporting placebo-controlled studies, systematic reviews, current U.S. labels, formulation differences, irritation, pregnancy precautions, and a decision framework.
 
-*Compiled 2026-08-04. Research orientation, not medical advice. A prescriber must choose the drug, formulation, strength, frequency, and treatment area. Confidence labels: **verified** = label or directly reported study; **limited** = small, short, or industry-linked evidence; **inference** = a reasoned interpretation rather than a head-to-head clinical result.*
+*Compiled 2026-08-14. Research orientation, not medical advice. A prescriber must choose the drug, formulation, strength, frequency, and treatment area. Confidence labels: **verified** = label or directly reported study; **limited** = small, short, or industry-linked evidence; **inference** = a reasoned interpretation rather than a head-to-head clinical result.*
 
 ## Key distinction
 
@@ -20,11 +20,17 @@ The supplied pharmacy screenshot shows **0.1% tazarotene cream** and **0.1% tret
 
 | # | Research page | What it covers |
 |---|---|---|
-| 01 | [Start here](01_start_here.md) | Executive comparison, study map, and the answer to “which one?” |
-| 02 | [Mechanism and collagen biology](02_mechanism_and_collagen.md) | Prodrug/direct agonist distinction, RAR selectivity, epidermis, dermal matrix, and what “collagen” does and does not mean |
-| 03 | [Acne evidence map](03_acne_evidence_map.md) | AAD guideline context, direct trials, newer tazarotene lotion evidence, lesion endpoints, and acne/PIH caveats |
-| 04 | [Photoaging and collagen evidence](04_photoaging_and_collagen_evidence.md) | Tretinoin’s human collagen record, tazarotene photoaging trials, direct comparisons, newer syntheses, and evidence gaps |
-| 05 | [Labels, tolerability, and decision guide](05_labels_tolerability_and_decision_guide.md) | Current label boundaries, vehicles, irritation, pregnancy, sunscreen, formulation selection, and questions for a prescriber |
+| 01 | [Start here](index.html#doc1) | Executive comparison, study map, and the answer to “which one?” |
+| 02 | [Mechanism and collagen biology](index.html#doc2) | Prodrug/direct agonist distinction, RAR selectivity, epidermis, dermal matrix, and what “collagen” does and does not mean |
+| 03 | [Acne evidence map](index.html#doc3) | AAD guideline context, direct trials, newer tazarotene lotion evidence, lesion endpoints, and acne/PIH caveats |
+| 04 | [Photoaging and collagen evidence](index.html#doc4) | Tretinoin’s human collagen record, tazarotene photoaging trials, direct comparisons, newer syntheses, and evidence gaps |
+| 05 | [Labels, tolerability, and decision guide](index.html#doc5) | Current label boundaries, vehicles, irritation, pregnancy, sunscreen, formulation selection, and questions for a prescriber |
+| 06 | [Affordability, pharmacy routing, and provider messages](index.html#doc6) | Your One Medical care-summary inconsistency, 30 g vs 60 g economics, ZIP 60487 pharmacy/coupon comparisons, insurance, Cost Plus, Amazon, discount cards, compounding cautions, and copy-ready messages |
+| 07 | [Outcome and tolerability tracking protocol](index.html#doc7) | A one-product, one-endpoint record for adherence, irritation, confounders, and evidence-lane checkpoints without giving dosing or switching instructions. |
+
+## Interactive decision aid
+
+- [Retinoid outcome and tolerability tracker](retinoid_outcome_tracker.html) — compare a consistent baseline/current measure with completed versus prescribed exposure, irritation, confounders, and 12- or 24-week evidence-lane checkpoints. Nothing is uploaded or retained after the page closes.
 
 ## Relationship to neighboring folders
 
@@ -35,10 +41,10 @@ The supplied pharmacy screenshot shows **0.1% tazarotene cream** and **0.1% tret
 
 ## Status / open items
 
-- **Completed:** direct acne comparison, direct photoaging comparisons, collagen-focused evidence review, current label check, formulation/tolerability comparison, and cross-links into the regimen and evidence-atlas topics.
+- **Completed:** direct acne comparison, direct photoaging comparisons, collagen-focused evidence review, current label check, formulation/tolerability comparison, cross-links into the regimen and evidence-atlas topics, an affordability/pharmacy-routing review based on 2026-08-14 captures and live program pages, and a non-prescriptive outcome/tolerability tracker.
 - **Still uncertain:** there is no decisive, long-duration, independently funded **0.1% tazarotene vs 0.1% tretinoin** trial that simultaneously measures acne, wrinkles, histologic collagen, tolerability, and adherence.
 - **Still uncertain:** tazarotene’s receptor selectivity is biologically plausible, but clinical superiority cannot be inferred from RAR selectivity alone; the FDA label itself says the clinical significance of the binding findings is unknown. [[7]](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/21-184S002_Avage_Medr.pdf)
-- **Recheck later:** labels, availability, insurance pricing, compounding, and pharmacy listings can change. The screenshot’s prices are not treated as durable evidence.
+- **Recheck later:** labels, availability, insurance pricing, compounding, and pharmacy listings can change. The price page is a dated snapshot; the final decision should use the live pharmacy checkout quote and your insurance benefit.
 
 ## Sources
 

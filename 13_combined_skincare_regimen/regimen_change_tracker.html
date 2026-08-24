@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>One-Change Regimen Tracker</title>
+<meta name="theme-color" content="#176b62">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='88'%3E%F0%9F%93%88%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../site-chrome.css">
+<style>
+:root{--ink:#182421;--muted:#61716c;--line:#d8e2de;--bg:#f3f7f5;--card:#fff;--accent:#176b62;--soft:#eaf6f3;--warn:#9a5b08;--danger:#a73535;--ok:#216e48}*{box-sizing:border-box}html,body{max-width:100%;overflow-x:hidden}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:var(--accent)}main{max-width:1160px;margin:auto;padding:22px 18px 64px}.hero,.card{background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 20px #17352f0a}.hero{padding:24px;margin-bottom:16px}.hero h1{font-size:30px;line-height:1.15;margin:0 0 7px}.hero p{margin:5px 0;color:var(--muted)}.boundary{border-left:4px solid var(--warn);background:#fff8e8;padding:12px 14px;border-radius:8px;margin-top:16px;color:#62420c}.layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(330px,.72fr);gap:16px}.card{padding:20px;margin-bottom:16px}.card h2{font-size:20px;margin:0 0 13px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.field{min-width:0}.field.full{grid-column:1/-1}label{font-weight:700;font-size:13px;display:block;margin-bottom:5px}input,select,textarea,button{font:inherit}input,select,textarea{width:100%;border:1px solid #b9c8c3;border-radius:8px;padding:10px;background:#fff;color:var(--ink)}textarea{min-height:72px;resize:vertical}.hint{font-size:12px;color:var(--muted);margin-top:4px}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}button,.button{border:0;border-radius:9px;background:var(--accent);color:#fff;padding:10px 13px;font-weight:700;cursor:pointer;text-decoration:none;display:inline-block}button.secondary,.button.secondary{background:var(--soft);color:var(--accent);border:1px solid #bfdcd5}button.danger{background:#fff2f1;color:var(--danger);border:1px solid #ebc4c0}.summary{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.stat{background:#f7faf9;border:1px solid var(--line);border-radius:10px;padding:11px}.stat b{display:block;font-size:20px}.stat span{color:var(--muted);font-size:12px}.signal{margin-top:12px;padding:13px;border-radius:9px;background:var(--soft);border-left:4px solid var(--accent)}.signal.warn{background:#fff8e8;border-color:var(--warn)}.signal.danger{background:#fff1f0;border-color:var(--danger)}.safety{display:flex;gap:9px;align-items:flex-start;background:#fff7f5;border:1px solid #edcbc5;padding:10px;border-radius:8px}.safety input,.check input{width:auto;margin-top:4px}.check{display:flex;gap:8px;align-items:flex-start}.tablewrap{overflow-x:auto;max-width:100%}table{width:100%;border-collapse:collapse;font-size:12px;min-width:720px}th,td{border-bottom:1px solid var(--line);padding:8px;text-align:left;vertical-align:top}th{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.04em}.tag{display:inline-block;border-radius:999px;padding:2px 7px;background:var(--soft);color:var(--accent)}.tag.bad{background:#fff1f0;color:var(--danger)}.empty{color:var(--muted);padding:18px 0}.test{display:none;margin-top:12px;padding:10px;border-radius:8px}.test.pass{display:block;background:#eaf7ef;color:#175c37}.test.fail{display:block;background:#fff0ef;color:#912d2d}.foot{font-size:12px;color:var(--muted)}@media(max-width:800px){main{padding:14px 11px 48px}.hero{padding:19px}.hero h1{font-size:25px}.layout,.grid{grid-template-columns:1fr}.field.full{grid-column:auto}.summary{grid-template-columns:repeat(2,minmax(0,1fr))}.card{padding:16px}}@media(max-width:420px){.summary{grid-template-columns:1fr}}
+</style>
+<script src="../site-router.js" defer></script>
+</head>
+<body>
+<header class="site-header"><div class="site-header__inner"><a class="site-back" href="index.html" aria-label="Back to combined regimen"><span class="site-back__arrow">←</span><span class="site-back__label--long">Combined regimen</span></a><div class="site-header__heading"><span class="site-header__title">📈 One-change tracker</span><span class="site-header__subtitle">Baseline, adherence, confounders, and a pre-set decision threshold</span></div></div></header>
+<main>
+<section class="hero"><h1>Learn from one routine change</h1><p>Freeze the rest of the routine, pre-name one outcome, and compare a short baseline with the trial period.</p><div class="boundary"><b>Evidence boundary:</b> educational, non-diagnostic attribution aid. This is not a clinical trial, does not establish causality or efficacy, and never overrides a label, device IFU, prescription, or clinician. Unexpected rash, redness, burn, swelling, or another reaction is a stop-and-contact-a-clinician signal—not a score to push through.</div><div id="testResult" class="test" role="status"></div></section>
+<div class="layout"><div>
+<section class="card"><h2>1 · Freeze the plan</h2><div class="grid">
+<div class="field full"><label for="change">The one change</label><input id="change" maxlength="160" placeholder="Example: add product X Monday, Wednesday, Friday mornings"><div class="hint">One sentence. Do not bundle products or devices.</div></div>
+<div class="field full"><label for="hypothesis">Pre-set hypothesis</label><textarea id="hypothesis" maxlength="400" placeholder="I expect… because…"></textarea></div>
+<div class="field"><label for="metric">Primary outcome</label><input id="metric" maxlength="80" placeholder="Example: morning redness (0–10)"></div>
+<div class="field"><label for="direction">Favorable direction</label><select id="direction"><option value="lower">Lower is better</option><option value="higher">Higher is better</option></select></div>
+<div class="field"><label for="threshold">Worthwhile change</label><input id="threshold" type="number" min="0.1" max="10" step="0.1" value="1"><div class="hint">Pre-set absolute points on your 0–10 outcome.</div></div>
+<div class="field"><label for="reviewDate">Review date</label><input id="reviewDate" type="date"><div class="hint">Choose from evidence/label timing; the tool invents no universal timeline.</div></div>
+</div><div class="actions"><button id="savePlan">Save plan locally</button><a class="button secondary" href="../markdown-viewer.html?file=13_combined_skincare_regimen/04_one_change_experiment_and_tracking_guide.md">Read the method</a></div></section>
+<section class="card"><h2>2 · Add an observation</h2><form id="entryForm"><div class="grid">
+<div class="field"><label for="entryDate">Date</label><input id="entryDate" type="date" required></div>
+<div class="field"><label for="phase">Phase</label><select id="phase"><option value="baseline">Baseline (routine unchanged)</option><option value="trial">Trial (one change active)</option></select></div>
+<div class="field"><label for="outcome">Primary outcome (0–10)</label><input id="outcome" type="number" min="0" max="10" step="0.1" required></div>
+<div class="field"><label for="irritation">Irritation / discomfort (0–10)</label><input id="irritation" type="number" min="0" max="10" step="0.1" required value="0"></div>
+<div class="field"><label class="check"><input id="adherent" type="checkbox" checked><span>Followed the frozen plan</span></label></div>
+<div class="field"><label class="check"><input id="confounded" type="checkbox"><span>Obvious confounder occurred</span></label></div>
+<div class="field full"><label for="note">Short note</label><textarea id="note" maxlength="300" placeholder="Lighting, sun/heat, illness, cycle, travel, procedure, missed steps…"></textarea></div>
+<div class="field full"><label class="safety"><input id="urgent" type="checkbox"><span><b>Unexpected or concerning reaction</b><br>Checking this marks a stop gate. Do not continue the experiment to complete the chart.</span></label></div>
+</div><div class="actions"><button type="submit">Add observation</button></div></form></section>
+</div><aside>
+<section class="card"><h2>3 · Read the signal</h2><div class="summary"><div class="stat"><b id="baselineN">0</b><span>baseline observations</span></div><div class="stat"><b id="trialN">0</b><span>adherent trial observations</span></div><div class="stat"><b id="baseMean">—</b><span>baseline mean</span></div><div class="stat"><b id="trialMean">—</b><span>trial mean</span></div></div><div id="signal" class="signal">Add at least 3 baseline and 7 adherent, unconfounded trial observations for the tool's descriptive readiness check.</div><p class="foot">These counts are interface rules, not validated clinical thresholds. The displayed difference is descriptive and does not prove cause.</p></section>
+<section class="card"><h2>Data controls</h2><p class="foot">Stored only in this browser. Export before clearing browser data.</p><div class="actions"><button class="secondary" id="exportJson">Export JSON</button><button class="secondary" id="exportCsv">Export CSV</button><button class="danger" id="clearAll">Clear tracker</button></div></section>
+</aside></div>
+<section class="card"><h2>Observation ledger</h2><div class="tablewrap"><table><thead><tr><th>Date</th><th>Phase</th><th>Outcome</th><th>Irritation</th><th>Plan</th><th>Confounder</th><th>Note</th><th></th></tr></thead><tbody id="ledger"></tbody></table></div><div id="empty" class="empty">No observations yet.</div></section>
+</main>
+<script>
+const STORAGE_KEY='skincare-one-change-tracker-v1';
+const $=id=>document.getElementById(id);
+const defaultState=()=>({plan:{change:'',hypothesis:'',metric:'',direction:'lower',threshold:1,reviewDate:''},entries:[]});
+let state=loadState();
+function loadState(){try{const value=JSON.parse(localStorage.getItem(STORAGE_KEY));return value&&value.plan&&Array.isArray(value.entries)?value:defaultState()}catch(e){return defaultState()}}
+function persist(){localStorage.setItem(STORAGE_KEY,JSON.stringify(state))}
+function mean(values){return values.length?values.reduce((a,b)=>a+b,0)/values.length:null}
+function summarize(plan,entries){
+  const clean=e=>!e.confounded&&Number.isFinite(Number(e.outcome));
+  const baseline=entries.filter(e=>e.phase==='baseline'&&clean(e)).map(e=>Number(e.outcome));
+  const trial=entries.filter(e=>e.phase==='trial'&&e.adherent&&clean(e)).map(e=>Number(e.outcome));
+  const b=mean(baseline),t=mean(trial),raw=b===null||t===null?null:t-b;
+  const favorable=raw===null?null:(plan.direction==='higher'?raw:-raw);
+  const threshold=Math.max(.1,Number(plan.threshold)||1);
+  const stop=entries.some(e=>e.urgent||Number(e.irritation)>=7);
+  let label='insufficient',text='Add at least 3 baseline and 7 adherent, unconfounded trial observations for the tool\'s descriptive readiness check.';
+  if(stop){label='stop';text='Stop gate recorded: discontinue the experiment and use the product/IFU instructions plus appropriate clinical guidance.'}
+  else if(baseline.length>=3&&trial.length>=7){if(favorable>=threshold){label='favorable';text='Directional favorable signal reached the pre-set worthwhile-change threshold.'}else if(favorable<=-threshold){label='worsening';text='Directional worsening reached the pre-set threshold.'}else{label='unclear';text='No clear directional signal reached the pre-set threshold.'}}
+  return{baselineN:baseline.length,trialN:trial.length,baselineMean:b,trialMean:t,rawDelta:raw,favorableDelta:favorable,label,text};
+}
+function validEntry(e){return['baseline','trial'].includes(e.phase)&&Number(e.outcome)>=0&&Number(e.outcome)<=10&&Number(e.irritation)>=0&&Number(e.irritation)<=10&&/^\d{4}-\d{2}-\d{2}$/.test(e.date)}
+function csvCell(v){const s=String(v??'');return /[",\n]/.test(s)?'"'+s.replace(/"/g,'""')+'"':s}
+function planFromForm(){return{change:$('change').value.trim(),hypothesis:$('hypothesis').value.trim(),metric:$('metric').value.trim(),direction:$('direction').value,threshold:Math.max(.1,Number($('threshold').value)||1),reviewDate:$('reviewDate').value}}
+function fillPlan(){Object.entries(state.plan).forEach(([k,v])=>{if($(k))$(k).value=v})}
+function render(){
+  const s=summarize(state.plan,state.entries);$('baselineN').textContent=s.baselineN;$('trialN').textContent=s.trialN;$('baseMean').textContent=s.baselineMean===null?'—':s.baselineMean.toFixed(1);$('trialMean').textContent=s.trialMean===null?'—':s.trialMean.toFixed(1);
+  const box=$('signal');box.className='signal'+(s.label==='stop'||s.label==='worsening'?' danger':s.label==='unclear'||s.label==='insufficient'?' warn':'');box.innerHTML='<b>'+escapeHtml(s.text)+'</b>'+(s.favorableDelta===null?'':'<br>Favorable-direction difference: '+s.favorableDelta.toFixed(1)+' points.');
+  const ledger=$('ledger');ledger.innerHTML='';$('empty').hidden=state.entries.length>0;
+  [...state.entries].sort((a,b)=>b.date.localeCompare(a.date)).forEach(e=>{const tr=document.createElement('tr');tr.innerHTML='<td>'+escapeHtml(e.date)+'</td><td><span class="tag">'+escapeHtml(e.phase)+'</span></td><td>'+Number(e.outcome).toFixed(1)+'</td><td><span class="tag '+(Number(e.irritation)>=7||e.urgent?'bad':'')+'">'+Number(e.irritation).toFixed(1)+(e.urgent?' · stop':'')+'</span></td><td>'+(e.adherent?'followed':'missed')+'</td><td>'+(e.confounded?'yes':'no')+'</td><td>'+escapeHtml(e.note||'')+'</td><td><button class="danger" data-delete="'+e.id+'" aria-label="Delete observation">×</button></td>';ledger.appendChild(tr)});
+  ledger.querySelectorAll('[data-delete]').forEach(b=>b.onclick=()=>{state.entries=state.entries.filter(e=>e.id!==b.dataset.delete);persist();render()});
+}
+function escapeHtml(value){return String(value).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function download(name,type,content){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([content],{type}));a.download=name;document.body.appendChild(a);a.click();URL.revokeObjectURL(a.href);a.remove()}
+$('savePlan').onclick=()=>{state.plan=planFromForm();persist();render();$('savePlan').textContent='Saved';setTimeout(()=>$('savePlan').textContent='Save plan locally',900)};
+$('entryForm').onsubmit=e=>{e.preventDefault();state.plan=planFromForm();const entry={id:String(Date.now())+'-'+String(state.entries.length),date:$('entryDate').value,phase:$('phase').value,outcome:Number($('outcome').value),irritation:Number($('irritation').value),adherent:$('adherent').checked,confounded:$('confounded').checked,urgent:$('urgent').checked,note:$('note').value.trim()};if(!validEntry(entry)){alert('Check the date and 0–10 values.');return}state.entries.push(entry);persist();e.target.reset();$('entryDate').value=new Date().toISOString().slice(0,10);$('adherent').checked=true;$('irritation').value=0;render()};
+$('exportJson').onclick=()=>download('regimen-change-tracker.json','application/json',JSON.stringify(state,null,2));
+$('exportCsv').onclick=()=>{const rows=[['date','phase','outcome','irritation','adherent','confounded','stop_gate','note'],...state.entries.map(e=>[e.date,e.phase,e.outcome,e.irritation,e.adherent,e.confounded,e.urgent,e.note])];download('regimen-change-observations.csv','text/csv',rows.map(r=>r.map(csvCell).join(',')).join('\n'))};
+$('clearAll').onclick=()=>{if(confirm('Clear the saved plan and every observation from this browser?')){state=defaultState();localStorage.removeItem(STORAGE_KEY);fillPlan();render()}};
+function runRegimenTrackerSelfTest(){
+  const entries=[];for(let i=0;i<3;i++)entries.push({date:'2026-08-0'+(i+1),phase:'baseline',outcome:7,irritation:0,adherent:true,confounded:false,urgent:false});for(let i=0;i<7;i++)entries.push({date:'2026-08-'+String(i+4).padStart(2,'0'),phase:'trial',outcome:5,irritation:1,adherent:true,confounded:false,urgent:false});
+  const lower=summarize({direction:'lower',threshold:1},entries);const higher=summarize({direction:'higher',threshold:1},entries);const stopped=summarize({direction:'lower',threshold:1},entries.concat([{date:'2026-08-20',phase:'trial',outcome:5,irritation:8,adherent:true,confounded:false,urgent:false}]));
+  const tests=[['mean and favorable direction',lower.baselineMean===7&&lower.trialMean===5&&lower.favorableDelta===2&&lower.label==='favorable'],['direction reversal',higher.label==='worsening'],['stop gate',stopped.label==='stop'],['validation accepts bounded row',validEntry(entries[0])],['validation rejects out-of-range row',!validEntry({...entries[0],outcome:11})],['CSV escaping',csvCell('a,b')==='"a,b"']];
+  const pass=tests.every(t=>t[1]);document.documentElement.dataset.selfTest=pass?'pass':'fail';const box=$('testResult');box.className='test '+(pass?'pass':'fail');box.textContent=(pass?'Self-test passed: ':'Self-test failed: ')+tests.map(t=>t[0]+(t[1]?' ✓':' ✕')).join(' · ');return{pass,tests};
+}
+window.runRegimenTrackerSelfTest=runRegimenTrackerSelfTest;
+$('entryDate').value=new Date().toISOString().slice(0,10);fillPlan();render();if(new URLSearchParams(location.search).get('test')==='1')runRegimenTrackerSelfTest();
+</script>
+</body></html>

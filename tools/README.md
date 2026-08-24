@@ -26,3 +26,14 @@ Safe to run anytime — it only changes what's missing. Check status without wri
 ```bash
 python3 tools/apply_citation_features.py --check   # exit 1 if anything is pending
 ```
+
+## `build_pairwise_evidence_ledger.js`
+
+Extracts the Stack Lab's ingredient-only rule engine and writes
+`13_combined_skincare_regimen/data/ingredient_pair_research_ledger.csv`. The ledger
+contains one row per unordered pair, its same-session category and spacing rule, the
+evidence boundary, source IDs, and direct proof links.
+
+```bash
+node tools/build_pairwise_evidence_ledger.js
+```

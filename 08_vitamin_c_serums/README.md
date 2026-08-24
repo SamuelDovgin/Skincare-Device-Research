@@ -31,6 +31,15 @@ Research thread: **topical vitamin C serums for antioxidant protection, pigment 
 **Supporting material:** [patent source-doc index](patents_source_docs/README.md) for the key vitamin C patents and follow-up PDF mirroring notes.
 
 | 08 | [Quick selection guide](08_quick_selection_guide.md) | **Which serum should I buy?** — 30-second picker by goal, budget, and skin type. Standalone decision tool. |
+| 09 | [DIY potency model](../markdown-viewer.html?file=08_vitamin_c_serums/09_diy_vitamin_c_potency_model.md) | Evidence map, assumptions, byproduct families, and the conservative remake rule behind the interactive visualizer. |
+| 10 | [Body-care routine and DIY spray](../markdown-viewer.html?file=08_vitamin_c_serums/10_body_care_routine_and_diy_spray.md) | Direct body-site evidence, spray-bottle boundaries, whether lotion is necessary, and a conservative low-cost routine. |
+| 11 | [Human clinical evidence matrix](index.html#doc11) | Trial-level comparator, population, duration, endpoint, result, funding/conflict, and transfer-limit fields for LAA, CEF-style formulas, and derivatives—kept separate from product marketing. |
+
+**Adjacent topical lane:** [Glycolic acid &amp; AHA topicals](../18_glycolic_acid_topicals/index.html) owns glycolic-acid evidence, pH/vehicle selection, and optional acid-placement guidance. Vitamin C remains the antioxidant/formulation topic.
+
+**Interactive tool:** [DIY vitamin C potency likelihood visualizer](diy_vitamin_c_potency_visualizer.html) — adjust pH, color, age, temperature, container, air exposure, water, concentration, stabilizers, and preservation status.
+
+**Evidence data:** [Vitamin C human evidence matrix CSV](data/vitamin_c_human_evidence_matrix.csv) — the auditable rows behind document 11.
 
 ## Quick navigation by need
 
@@ -43,6 +52,8 @@ Research thread: **topical vitamin C serums for antioxidant protection, pigment 
 | See what just launched and what's patented | [07_latest_launches_and_patent_landscape.md](07_latest_launches_and_patent_landscape.md) |
 | **Just tell me which one to buy** | [08_quick_selection_guide.md](08_quick_selection_guide.md) — 30-second picker |
 | Pick the right serum for your Differin routine | [05_extended_product_catalog.md §10](05_extended_product_catalog.md) (decision matrix) |
+| Estimate DIY potency and when to remake | [DIY potency likelihood visualizer](diy_vitamin_c_potency_visualizer.html) |
+| Use vitamin C on body skin | [10_body_care_routine_and_diy_spray.md](10_body_care_routine_and_diy_spray.md) — body evidence, spray safety, and the lotion question |
 
 ## Practical recommendation
 
@@ -50,9 +61,10 @@ For the user's current routine:
 
 1. Keep **Differin/adapalene at night**.
 2. Use vitamin C **in the morning under sunscreen**.
-3. If using Trader Joe's: start 3-4 mornings/week, watch for sting/irritation/oxidation, and treat strong yellow-orange/brown color shift or off smell as a discard signal.
+3. If using Trader Joe's: start 3-4 mornings/week, watch for sting/irritation/oxidation, and treat strong yellow-orange/brown color shift or off smell as a discard signal. **Color is a qualitative warning, not a potency meter: pale yellow does not map to a specific percentage of L-ascorbic acid remaining.** See the [rendered DIY degradation section](index.html#doc3).
 4. If DIY: make small batches, refrigerate, protect from light, do not cap while fizzing, and remake weekly.
-5. If pigment/PIH is the core goal, do not ask vitamin C to do the whole job: tinted SPF, azelaic acid/tranexamic acid/niacinamide, and irritation control still matter more.
+5. For body use, a lotion is optional if the skin is comfortable; use one only when dryness, tightness, or irritation appears. See the [body-care routine page](10_body_care_routine_and_diy_spray.md).
+6. If pigment/PIH is the core goal, do not ask vitamin C to do the whole job: tinted SPF, azelaic acid/tranexamic acid/niacinamide, and irritation control still matter more.
 
 ## Sources
 
@@ -62,6 +74,8 @@ For the user's current routine:
 - [US7179841B2 - Stabilized ascorbic acid compositions and methods therefor](https://patents.google.com/patent/US7179841B2/en)
 - [PubMed - Ferulic acid stabilizes a solution of vitamins C and E and doubles its photoprotection of skin](https://pubmed.ncbi.nlm.nih.gov/16185284/)
 - [PubMed - Topical L-ascorbic acid: percutaneous absorption studies](https://pubmed.ncbi.nlm.nih.gov/11207686/)
+- [Chemical Stability of Ascorbic Acid Integrated into Commercial Products: A Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC8773188/)
+- [Yuan and Chen, Degradation of Ascorbic Acid in Aqueous Solution](https://pubs.acs.org/doi/10.1021/jf9805404)
 - [L'Oreal Paris Vitamin Cg ingredient page](https://www.lorealparisusa.com/ingredient-library/vitamin-cg)
 - [Kiehl's Powerful-Strength Vitamin C Serum](https://www.kiehls.com/skincare/face-serums/powerful-strength-vitamin-c-serum/595.html)
 - [L'Oreal Paris UK - Revitalift Triple Laser Creamy-Serum with Melasyl, Vitamin Cg, niacinamide](https://www.loreal-paris.co.uk/science-backed-brightening-serum)

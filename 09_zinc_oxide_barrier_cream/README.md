@@ -29,6 +29,7 @@ The key distinction:
 | 05 | [Sudocrem product comparison](05_sudocrem_product_comparison.md) | Focused read on Sudocrem 15.29% zinc oxide: why it is a useful comparator but not the cleanest first facial pick |
 | 06 | [Reddit anecdote scan](06_reddit_anecdote_scan.md) | What Reddit repeatedly calls "best": Triple Paste, Aquaphor Baby 40%, Sudocrem, zinc/cica alternatives, and the major caution themes |
 | 07 | [Full product comparison chart](07_full_product_comparison_chart.md) | Consolidated chart covering Reddit-mentioned products plus the label-checked repo picks, with face-fit rankings by use case |
+| 08 | [Barrier-rescue decision guide](index.html#doc8) | Goal-first choice among bland moisturizer, petrolatum/dimethicone occlusion, zinc-oxide protectant, and clinical review—with an explicit diagnosis gate and evidence-transfer limits |
 
 ## Current Research Read
 
@@ -51,7 +52,7 @@ The key distinction:
 
 - The topic currently uses durable external links to FDA, DailyMed, PubMed, official brand pages, Amazon marketplace pages, and Reddit threads.
 - No topic-local `source_docs/` folder has been created yet because the key evidence is either official web labels/monographs or PubMed/Reddit pages. If product labels or monograph PDFs become decision-critical, mirror them locally with access dates.
-- The `index.html` embeds every Markdown doc for offline/static reading and provides rendered/raw Markdown controls.
+- The `index.html` embeds and serves every research document through the rendered topic reader for offline/static reading; raw-document controls remain suppressed.
 
 ## Source Anchors
 

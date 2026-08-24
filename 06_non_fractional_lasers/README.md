@@ -13,6 +13,7 @@ Research thread: lasers that are **real lasers but not fractional resurfacing de
 5. **Power headline:** DermRays' FDA 5-10 J/cm2 over a 1.766 cm2 spot implies **8.83-17.66 J per pulse** and about **22.1-44.2 W average optical pulse power** over 400 ms. That is high-energy for a home/Rx-size device, but it is still non-fractional spot heating, not MTZ resurfacing.
 6. **Clinical-grade reality check:** NIRA has a real FDA periorbital wrinkle endpoint, but public fluence is far below professional 1450nm workflows; DermRays has real 1064nm clearance, but no public human wrinkle/pigment outcome in the 510(k) summary. Neither maps to Clear + Brilliant the way Tria FRX does.
 7. **Buying posture:** treat DermRays Revive as a separate Rx-class/non-fractional laser experiment, not as a substitute for Clear + Brilliant, Moxi, LaseMD, Tria FRX, or YDUNVIE Dora/Iris.
+8. **Outcome evidence is asymmetric:** the original NIRA has a 76-subject open-label periorbital study; Model 2 inherits that case through FDA equivalence; DermRays reports no subject-device clinical test in K231910. See the [outcome evidence map](index.html#doc6).
 
 ## Documents
 
@@ -23,6 +24,7 @@ Research thread: lasers that are **real lasers but not fractional resurfacing de
 | 03 | [DermRays Revive deep dive](03_dermrays_revive_deep_dive.md) | FDA K231910 specs, claims vs clearance, patent signal, buy/use implications, and open verification questions |
 | 04 | [NIRA / DermRays professional-results gap](04_nira_dermrays_professional_results_gap.md) | Whether NIRA or DermRays can reach clinic-grade results; Tria/C+B comparison frame; dose, evidence, and practical ceiling |
 | 05 | [DermRays power, patent, and device comparison](05_dermrays_power_patent_comparison.md) | Fluence-to-Joule math, NIRA/Tria/pro-1064 comparison, current product claims, patent map, and feature-verification checklist |
+| 06 | [Non-fractional laser outcome evidence map](index.html#doc6) | Direct device outcomes vs FDA equivalence, bench testing, and non-transferable professional 1064 nm analogs |
 
 ## Supporting material
 
@@ -42,6 +44,7 @@ Research thread: lasers that are **real lasers but not fractional resurfacing de
 ## Status / open items
 
 - **Verified:** DermRays Revive FDA K231910 specs, Rx labeling, derived energy-per-pulse math, NIRA FDA comparison anchors, and Lotuxs patent-family snapshots.
+- **Evidence synthesis added:** NIRA has the only direct consumer-device wrinkle cohort in this set; NIRA Model 2 was not separately trialed in K222685, and K231910 says no DermRays clinical testing was performed.
 - **Open:** independent bench output, IFU/manual, real treatment cadence, contraindications, eye-protection requirements, whether retail sale/use instructions match the prescription-use clearance, whether the SGS/marketing study details can be inspected, and which 2025 Chinese patent claims map to the shipping DermRays Revive unit.
 
 ### Sources

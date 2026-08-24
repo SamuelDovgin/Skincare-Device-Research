@@ -12,6 +12,7 @@ Research thread: **radiofrequency (RF) devices for collagen remodeling, wrinkle 
 4. **Thermage/IP foundation:** the foundational RF tightening patent (Knowlton/Thermage US5919219) is long expired. Current innovation is safety, electrode geometry, temperature sensing, usability, combination devices, and RF microneedling/pro platforms.
 5. **Clinical-grade reality check:** home RF can hit real wrinkle endpoints, but it is not the same as Tria/Clear + Brilliant's "same fractional mechanism, lower density" relationship. Home RF is capped by temperature, depth, and electrode geometry; Thermage and RF microneedling remain professional categories.
 6. **RF microneedling is not a home category.** FDA's 2025 safety communication warns about burns, scarring, fat loss, disfigurement, nerve damage, and surgical repair risks; FDA explicitly says RF microneedling devices should not be used at home.
+7. **The human evidence is promising but mostly small and uncontrolled.** The new [clinical evidence map](index.html#doc11) separates NEWA, TriPollar, Silk'n, CurrentBody regulatory evidence, randomized split-face studies, and mixed-energy trials instead of treating them as equally direct.
 
 ## Documents
 
@@ -26,6 +27,8 @@ Research thread: **radiofrequency (RF) devices for collagen remodeling, wrinkle 
 | 07 | [Konmison video analysis](07_konmison_video_analysis.md) | Visual inspection of the Konmison device, controls, probes, and claims shown in supplied video. |
 | 08 | [TriPollar competitors deep dive](08_tripollar_competitors_deep_dive.md) | TriPollar alternatives, device geometry, temperature controls, and evidence gaps. |
 | 09 | [Laser vs RF technology comparison](09_laser_vs_rf_technology_comparison.md) | Mechanism, depth, thermal geometry, outcomes, and where laser and RF overlap or diverge. |
+| 10 | [Home RF tier list & device comparison](10_home_rf_tier_list_and_comparison.md) | **Decision page:** CurrentBody, NEWA, TriPollar, Silk'n, Medicube, Konmison, Thermage, RF microneedling, and the Tria/NIRA/RLT stack. |
+| 11 | [Home RF clinical evidence map](index.html#doc11) | Study design, populations, protocols, outcomes, thermal controls, bias/transferability, and the missing decisive trial |
 
 ## Relationship to the other folders
 
@@ -33,11 +36,17 @@ Research thread: **radiofrequency (RF) devices for collagen remodeling, wrinkle 
 - RF does not replace pigment-focused 1927nm fractional work or vascular lasers.
 - RF may be a better at-home collagen-maintenance category than weak "laser facial" marketing, if the device has real temperature sensing and a credible clearance.
 
+## FDA-reported events
+
+The topic viewer now includes a [reported-event panel](index.html#maude) for FDA product code `PAY`. It preserves the small current public snapshot, coded patient/device problems, and report narratives while keeping FDA's warning that MAUDE cannot establish incidence or causality.
+
 ## Status / open items
 
 - **Started:** science, regulatory anchors, and first device map.
-- **Still needed:** device-by-device RF comparison (CurrentBody vs TriPollar vs Silk'n vs Medicube Ultra Tune vs cheap Alibaba RF), source-doc mirroring, contraindication matrix, and RFQ template for OEM RF devices.
-- **Now in progress:** Alibaba RF supplier scan — Konmison LB056B profiled with full specs, manufacturer verification, and red-flag analysis in [§7 of device landscape](02_initial_device_landscape.md).
+- **Done:** a device-by-device tier list now separates home buying confidence from professional RF power and keeps NIRA/Tria/RLT comparisons in their own mechanisms.
+- **Done:** a study-level evidence map now distinguishes direct human outcomes from FDA equivalence and preserves the modest/uncertain effect-size boundary.
+- **Still needed:** source-doc mirroring, a full contraindication matrix, and an RFQ template for OEM RF devices.
+- **Existing research retained:** Alibaba RF supplier scan — Konmison LB056B is profiled with full specs, manufacturer verification, and red-flag analysis in [§7 of device landscape](02_initial_device_landscape.md).
 
 ### Sources
 

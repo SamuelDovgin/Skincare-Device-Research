@@ -4,13 +4,15 @@
 
 ## 0. Bottom line
 
-The planner rewards **coverage of essentials and tolerability**, not the number of products. Sunscreen, moisturizer, one retinoid strategy, and sustainable adherence outrank optional actives and devices.
+The planner rewards **coverage of essentials and tolerability**, not the number of products. Sunscreen for meaningful UV exposure, moisturizer, one retinoid strategy, and sustainable adherence outrank optional actives and devices. The planner's sunscreen toggle is an adherence heuristic, not a room-specific UV calculation; the photographed desk is modeled separately in the rendered [current regimen audit](../markdown-viewer.html?file=13_combined_skincare_regimen/01_current_regimen_audit.md#2-sunscreen-at-this-desk-room-specific-uva-model).
+
+This page documents the single-routine scoring model. For weekly AM/PM placement, formulation-specific ingredient pairs, and state-based device recovery, use the [Skincare Stack Lab](skincare_stack_lab.html) and its rendered [independent interaction evidence](../markdown-viewer.html?file=13_combined_skincare_regimen/05_ingredient_compatibility_and_weekly_planner.md).
 
 ## 1. Evidence ladder used by the meter
 
 | Class | Meaning | Examples |
 |---|---|---|
-| A — foundation | Strong benefit-to-risk or official guidance for the stated role | Daily broad-spectrum sunscreen, moisturizer, gentle cleansing |
+| A — foundation | Strong benefit-to-risk or official guidance for the stated role | Broad-spectrum sunscreen when meaningful UV exposure is expected, moisturizer, gentle cleansing |
 | B — targeted | Good evidence for a defined concern, with irritation/selection caveats | Adapalene for acne; azelaic acid for acne/rosacea/melasma; professional indication-specific devices |
 | C — adjunct | Plausible/limited evidence or parameter-dependent benefit | Vitamin C, peptides, consumer RLT, niacinamide, tranexamic acid |
 | D — specialist/episodic | Not a daily routine card; anatomy, sterility, settings, or clinician judgment dominate | HIFU, professional fractional laser, RF microneedling, peels, hydroquinone courses |
@@ -84,6 +86,7 @@ It does not estimate collagen gain, acne clearance, cancer prevention, or “bio
 - The five component weights and interaction penalties are illustrative decision-support assumptions, not measured effect sizes or adverse-event probabilities.
 - The path finder is a deterministic optimization over the planner's own catalog and rules, not a validated regimen generator; its projected score inherits every limitation of the scoring model.
 - Product formulas, sunscreen labels, and device outputs change; bottle/manual data override catalog defaults.
+- The sunscreen score does not know window geometry, glass type, direct-sun status, local UVA, or time outdoors. It must not be interpreted as evidence that sunscreen is necessary in every indoor room.
 - Skin type, disease history, medication use, pregnancy, and clinician procedures can materially change routine fit.
 
 ## Sources

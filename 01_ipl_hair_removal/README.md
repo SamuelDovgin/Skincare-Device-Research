@@ -2,7 +2,7 @@
 
 This topic covers at-home IPL hair removal, narrow-band DPL/photofacial claims, FDA clearances, supplier catalogs, pulse/fluence physics, cadence, skin-rejuvenation limits, and branded-versus-OEM sourcing.
 
-*Updated 2026-07-10. This is research orientation, not medical advice. Product prices, availability, and marketplace metrics are date-sensitive.*
+*Updated 2026-08-23. This is research orientation, not medical advice. Product prices, availability, and marketplace metrics are date-sensitive.*
 
 ## Key distinction
 
@@ -18,10 +18,11 @@ This topic covers at-home IPL hair removal, narrow-band DPL/photofacial claims, 
 ## Start here
 
 1. [Final device recommendation](06_final_recommendation.md) — ranked answer for the hair-removal goal.
-2. [Alternatives and strategy](07_alternatives_and_strategy.md) — why IPL is not the primary pigment/redness strategy.
-3. [JOVS Blacken DPL and OEM comparison](17_jovs_blacken_dpl_and_oem_comparison.md) — three JOVS models, DPL vs IPL, the supplied Alibaba links, and the best supplier candidate.
-4. [JOVS DPL and Alibaba comparator](jovs-dpl-comparator.html) — interactive wavelength, fluence, goal, and supplier-verification view.
-5. [IPL research evidence map](14_ipl_research_evidence_map.md) — what the papers actually support.
+2. [IPL preflight safety and patch-test gate](index.html#doc18) — the go/pause/stop checklist before the first flash, a new area, or a changed tan/medication state.
+3. [Alternatives and strategy](07_alternatives_and_strategy.md) — why IPL is not the primary pigment/redness strategy.
+4. [JOVS Blacken DPL and OEM comparison](17_jovs_blacken_dpl_and_oem_comparison.md) — three JOVS models, DPL vs IPL, the supplied Alibaba links, and the best supplier candidate.
+5. [JOVS DPL and Alibaba comparator](jovs-dpl-comparator.html) — interactive wavelength, fluence, goal, and supplier-verification view.
+6. [IPL research evidence map](14_ipl_research_evidence_map.md) — what the papers actually support.
 
 ## Documents
 
@@ -42,18 +43,21 @@ This topic covers at-home IPL hair removal, narrow-band DPL/photofacial claims, 
 | 15 | [Multi-flash thermal accumulation](15_multi_flash_thermal_accumulation.md) | Fixed-spot stacking, SHR distinction, and pulse-timing gaps |
 | 16 | [SHR / Ulike thermal simulation notes](16_shr_ulike_thermal_simulation.md) | Revised time–temperature/Arrhenius model, 65 °C dwell-time reality check, and SHR evidence boundary |
 | 17 | [JOVS Blacken DPL and OEM comparison](17_jovs_blacken_dpl_and_oem_comparison.md) | Blacken, Pro, X; DPL vs IPL; Alibaba supplier/manufacturer trail |
+| 18 | [IPL preflight safety and patch-test gate](index.html#doc18) | Exact-model eligibility, reproducible patch testing, first-session guardrails, and stop rules |
 
 ## Supporting material
 
 - [Cadence planner](cadence_planner.html)
 - [Shared IPL & diode thermal simulator](hair_removal_thermal_simulator.html?mode=ipl)
+- [SHR simulator compatibility route](shr_thermal_simulator.html) — retained for old bookmarks and redirected to the shared calibrated IPL view
 - [Thermal-dose AUC model plan](thermal_dose_auc_plan.md)
 - [Thermal-model primary source manifest](thermal_model_source_docs/README.md)
 - [JOVS DPL and Alibaba comparator](jovs-dpl-comparator.html)
 - [JOVS DPL source manifest](jovs_dpl_source_docs/README.md)
 - [Fansizhe supplier conversation notes](fansizhe_natalie_conversation_notes.md)
 - [FDA data pipeline](fda_data_pipeline/README.md) and [strategy](fda_data_pipeline/STRATEGY.md)
-- FDA 510(k) PDFs, Fansizhe/Semlamp catalogs, `Weiss_IPL.pdf`, and patent source documents in this folder
+- The topic viewer's [FDA-reported events panel](index.html#maude) shows the locally captured OHT MAUDE snapshot shared with the diode-laser page.
+- FDA 510(k) PDFs, Fansizhe/Semlamp catalogs, `Weiss_IPL.pdf`, and the rendered [patent timeline with mirrored source files](index.html#patents)
 
 ## Relationship to other topics
 
@@ -65,6 +69,7 @@ This topic covers at-home IPL hair removal, narrow-band DPL/photofacial claims, 
 ## Status / open items
 
 - **Simulator boundary:** exact device-to-follicle temperatures remain unverified; 45–50 °C is only an SHR-associated exposure band, while Ω uses generic tissue/protein-denaturation coefficients rather than follicle-stem-cell-specific validation.
+- **Safety gate added:** the new preflight page consolidates scattered IFU warnings into an exact-model go/pause/stop workflow; no universal cross-device patch-test protocol has been clinically validated.
 - Bench-test JOVS Blacken Pro, Blacken X, and PAKISS AY101 with a spectrometer, calibrated energy meter, oscilloscope/photodiode, and thermal camera.
 - Obtain the SGS report behind JOVS’s consumer outcome claims.
 - Obtain exact-model AY101 IEC photobiological safety reports and reconcile its 900–1,200 nm versus “DPL” descriptions.

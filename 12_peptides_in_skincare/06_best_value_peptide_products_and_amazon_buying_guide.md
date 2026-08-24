@@ -1,6 +1,6 @@
 # Best-Value Peptide Serums: The Ordinary, Good Molecules, and the Budget Market
 
-*US product and price audit updated 2026-07-13. Prices, formulas, and availability change. This is research orientation, not medical advice, and it contains no affiliate links.*
+*US product and price audit updated 2026-07-13. Prices, formulas, and availability change. This is research orientation, not medical advice, and it contains no affiliate links. For the new 25-formulation raw-active economics comparison, open the [peptide ingredient cost model](07_peptide_ingredient_cost_model.md) and [sortable visual](peptide_cost_model.html).*
 
 ## 0. Bottom line for collagen banking and overall skin health
 

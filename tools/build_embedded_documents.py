@@ -16,11 +16,19 @@ OUTPUT = ROOT / "site-documents.js"
 
 def routed_markdown() -> dict[str, str]:
     router_source = ROUTER.read_text(encoding="utf-8")
-    match = re.search(r"\bconst ROUTES=(\{.*?\});\n\s*const script=", router_source, re.DOTALL)
+    match = re.search(r"\bconst ROUTES=(\{.*?\});", router_source, re.DOTALL)
     if not match:
         raise RuntimeError("Could not read the generated ROUTES map from site-router.js")
 
     routes = json.loads(match.group(1))
+    # Keep manually appended runtime routes available to the offline bundle as
+    # well. The repository's generated route map is normally a single JSON
+    # object, but some older checkouts append a route assignment after it.
+    for relative_path, route_id, index in re.findall(
+        r'ROUTES\["([^"]+)"\]=\{"id":"([^"]+)","index":"([^"]+)"\};',
+        router_source,
+    ):
+        routes[relative_path] = {"id": route_id, "index": index}
     documents: dict[str, str] = {}
     missing: list[str] = []
     for relative_path in sorted(routes):

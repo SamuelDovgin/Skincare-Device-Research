@@ -2,6 +2,8 @@
 
 Captured 2026-07-12 and expanded 2026-07-13. Files are preserved to keep the peptide evidence ranking and supplier-industry map auditable. Open-access full text is stored as publisher PDF or Europe PMC JATS XML. Paywalled primary studies are represented by PubMed XML records containing bibliographic metadata and abstracts, not unauthorized full text.
 
+The ingredient-cost model added 2026-08-13 uses live supplier/product URLs and a local calculation ledger rather than pretending that private supplier quotes are public. See [`../07_peptide_ingredient_cost_model.md`](../07_peptide_ingredient_cost_model.md) and [`../data/peptide_cost_model.csv`](../data/peptide_cost_model.csv) for the assumptions, ranges, and source links.
+
 | File | Source | Type | What it supports |
 |---|---|---|---|
 | `nukaly-2026-oral-topical-peptides-systematic-review.pdf` | Frontiers in Medicine / PMC13037056, CC BY | Open-access systematic review PDF | 19 RCT/1,341-participant synthesis; only two high-quality topical studies; oral formulations drive much pooled benefit |
@@ -40,3 +42,19 @@ Captured 2026-07-12 and expanded 2026-07-13. Files are preserved to keep the pep
 - https://pubmed.ncbi.nlm.nih.gov/41044809/
 - https://www.crodabeauty.com/mediaassets/files/beauty/ungated-files/ch0203--rebalancing-and-vitalising-scalp-mask--190924pcedf0194v1en.pdf
 - https://www.basf.com/my/en/media/news-releases/asia-pacific/2021/01/basf_caregen_supply_agreement
+
+## Cost-model source set (web snapshots checked 2026-08-13)
+
+| Source | Type | What it supports |
+|---|---|---|
+| https://trulux.com/products/matrixyl-3000/ | Supplier storefront | Public 50 g–1 kg Matrixyl 3000 commercial-premix pricing |
+| https://trulux.com/products/matrixyl-synthe-6/ | Supplier storefront | Public 50 g–1 kg Matrixyl Synthe’6 commercial-premix pricing |
+| https://trulux.com/products/syn-coll/ | Supplier storefront | Public Palmitoyl Tripeptide-5/SYN-COLL pricing |
+| https://www.made-in-china.com/price/prodetail_Organic-Intermediate_KwtGPkbvbeAm.html | Marketplace supplier listing | Bulk GHK-Cu price tiers; treated as lower-confidence marketplace evidence |
+| https://albochem.com/product/ghk-cu-raw-powder-copperii-glycyl-l-histidyl-l-lysinate-%E2%89%A599-purity-10-grams/ | Cosmetic raw-material storefront | Small-lot ≥99% GHK-Cu price anchor |
+| https://www.alibaba.com/supplier/polynucleotides-supplier-supplier-for-wholesale.html | Marketplace supplier index | Bulk Sodium DNA/PDRN price range |
+| https://www.js-akx.com/PNO%E9%98%BF%E6%8B%89%E4%B8%81-I1506387.html | Cosmetic raw-material catalog | Small-lot Sodium DNA/PDRN price anchor |
+| https://geekandgorgeous.com/products/power-peptides | Official product page | 3% Matrixyl 3000, 2% Synthe’6, 4% TEGO PEP 4-17, 0.001% X50, price and size |
+| https://nichebeautylab.com/collections/bestseller-north-america/products/copper-peptide | Official product page | Theramid Copper 3% and 13% peptide-complex claims |
+| https://nichebeautylab.com/en-gb/collections/eu-bestseller/products/derma-peptides | Official product page | Theramid Derma-Peptides 35% and size/price |
+| https://us.allies.shop/products/copper-tripeptide-ectoin-advanced-repair-serum | Official product page | Allies 1% Copper Tripeptide Complex, 2% Acetyl Hexapeptide-8 Complex, 2% Copper Lysinate Complex |

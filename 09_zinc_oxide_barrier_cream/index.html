@@ -1206,4 +1206,15 @@ render();document.querySelectorAll('.navbtn[data-t]').forEach(b=>b.onclick=()=>s
 })();
 </script>
 
+<section class="doc" id="doc8" hidden aria-hidden="true"><a class="openmd" hidden aria-hidden="true" tabindex="-1" href="08_barrier_rescue_decision_guide.md">Route metadata</a></section>
+<script>(function(){
+  var id='doc8',file='08_barrier_rescue_decision_guide.md';
+  var marker=document.getElementById(id);if(marker)marker.remove();
+  var sec=document.createElement('section');sec.className='doc';sec.id=id;sec.innerHTML='<div class="rendered" id="'+id+'_r"><p>Loading rendered decision guide…</p></div>';document.querySelector('.main').appendChild(sec);
+  var side=document.querySelector('.side'),b=document.createElement('button');b.className='navbtn';b.dataset.t=id;b.textContent='Barrier-Rescue Decision Guide';b.onclick=function(){show(id)};side.appendChild(b);
+  var path=document.querySelector('.st-path');if(path){var li=document.createElement('li');li.dataset.go=id;li.setAttribute('role','button');li.tabIndex=0;li.innerHTML='<div><b>Barrier-rescue decision guide</b><em>Choose moisturizer, occlusive, zinc protectant, or clinical review by the problem actually present.</em></div>';li.onclick=function(){show(id)};path.appendChild(li)}
+  function convert(source){return typeof renderMd==='function'?renderMd(source):mdToHtml(source)}function draw(source){document.getElementById(id+'_r').innerHTML=convert(source);if(location.hash==='#'+id)show(id)}
+  var embedded=window.SiteEmbeddedDocuments&&(window.SiteEmbeddedDocuments['09_zinc_oxide_barrier_cream/'+file]||window.SiteEmbeddedDocuments[file]);if(embedded)draw(embedded);else fetch(file).then(function(r){if(!r.ok)throw Error(r.status);return r.text()}).then(draw).catch(function(){document.getElementById(id+'_r').innerHTML='<h1>Document could not be loaded</h1><p>Open this website through its local or hosted web server, then reload this page. Research documents are available only through the rendered viewer.</p>'});
+  window.addEventListener('hashchange',function(){if(location.hash==='#'+id)show(id)});if(location.hash==='#'+id)setTimeout(function(){show(id)},0);
+})();</script>
 </body></html>

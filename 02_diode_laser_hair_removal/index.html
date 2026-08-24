@@ -164,6 +164,7 @@ pre.raw{background:#1f2430;color:#e7e9ee;padding:18px 20px;border-radius:10px;ov
 <button class="navbtn" data-t="doc6">Three eBay 4X Offers Compared</button>
 <button class="navbtn" data-t="doc5">Precision Post-Repair Shutdown</button>
 <button class="navbtn" data-t="doc7">Tria 810nm vs IPL for Pigmentation &amp; Redness</button>
+<button class="navbtn" data-t="doc8">Treatment Protocol &amp; Progress Audit</button>
 <a class="navbtn" href="13_tria_diode_thermal_simulation.md">Tria Pain &amp; Thermal Research ↗</a>
     <h3>Interactive</h3>
 <a class="navbtn" style="background:linear-gradient(100deg,var(--accent),var(--accent2));color:#fff;font-weight:600;margin-bottom:4px" href="../01_ipl_hair_removal/hair_removal_thermal_simulator.html?mode=diode">🔦 IPL &amp; Diode Thermal Simulator ↗</a>
@@ -180,6 +181,7 @@ pre.raw{background:#1f2430;color:#e7e9ee;padding:18px 20px;border-radius:10px;ov
     <div class="st-hero" data-go="doc6" role="button" tabindex="0"><div class="st-kick">Read this first</div><h3>Which of the three eBay Tria 4X listings deserves an offer?</h3><p>Fourteen-photo audit, dated color and production-clue timelines, seller and shipping risks, proof checklist, offer ladders, and copy-ready messages.</p><span class="st-go">Open the comparison →</span></div>
     <div class="st-h">Then read, in order</div>
     <ol class="st-path">
+    <li data-go="doc8" role="button" tabindex="0"><div><b>Treatment protocol and progress audit</b><em>The post-purchase 12-week plan, pulse/coverage checks, device-health audit, and prespecified stop rules.</em></div></li>
     <li data-go="doc0" role="button" tabindex="0"><div><b>Is the $50 Tria Precision worth it?</b><em>The original conditional buy case for a small-area dark-hair tool.</em></div></li>
     <li data-go="doc2" role="button" tabindex="0"><div><b>810nm diode alternatives vs IPL</b><em>The wider field — DermRays / CurrentBody, Epilaser, SilkPro, prosumer — and when IPL still wins.</em></div></li>
     <li data-go="doc1" role="button" tabindex="0"><div><b>Used Tria value &amp; wear pricing</b><em>What used Trias actually sell for, the cosmetic/battery wear model, and $40/$45/$50 negotiation thresholds.</em></div></li>
@@ -204,6 +206,7 @@ pre.raw{background:#1f2430;color:#e7e9ee;padding:18px 20px;border-radius:10px;ov
 <section class="doc" id="doc5"><div class="dtools"><span class="dpath">Post-repair failure analysis</span><a class="openmd" href="15_tria_precision_post_repair_shutdown_diagnosis.md" hidden aria-hidden="true" tabindex="-1"></a></div><div class="rendered" id="doc5_r"></div><pre class="raw" id="doc5_m" hidden></pre></section>
 <section class="doc" id="doc6"><div class="dtools"><span class="dpath">Three eBay 4X offers compared · 2026-07-21</span><a class="openmd" href="16_tria_4x_ebay_offer_comparison.md" hidden aria-hidden="true" tabindex="-1"></a></div><div class="rendered" id="doc6_r"></div><pre class="raw" id="doc6_m" hidden></pre></section>
 <section class="doc" id="doc7"><div class="dtools"><span class="dpath">Tria 810nm vs IPL for facial pigmentation and redness</span><a class="openmd" href="17_tria_diode_vs_ipl_pigmentation_redness.md" hidden aria-hidden="true" tabindex="-1"></a></div><div class="rendered" id="doc7_r"></div><pre class="raw" id="doc7_m" hidden></pre></section>
+<section class="doc" id="doc8"><a class="openmd" hidden aria-hidden="true" tabindex="-1" href="18_tria_treatment_protocol_and_progress_audit.md">Route metadata</a><div class="dtools"><span class="dpath">Tria treatment protocol and progress audit</span></div><div class="rendered" id="doc8_r"></div></section>
 <script type="text/markdown" id="doc4_source"># Tria 4X vs Tria Precision: Same Laser Dose, Different Workflow
 
 **Compiled:** 2026-07-10
@@ -278,13 +281,24 @@ const DOCS=[{"id": "doc0", "md": "# Tria Hair Removal Laser Precision: $50 Marke
 DOCS.push({id:'doc4',md:document.getElementById('doc4_source').textContent.trim(),file:'14_tria_4x_vs_precision.md'});
 DOCS.push({id:'doc6',md:window.SiteEmbeddedDocuments['02_diode_laser_hair_removal/16_tria_4x_ebay_offer_comparison.md'],file:'16_tria_4x_ebay_offer_comparison.md'});
 DOCS.push({id:'doc7',md:window.SiteEmbeddedDocuments['02_diode_laser_hair_removal/17_tria_diode_vs_ipl_pigmentation_redness.md'],file:'17_tria_diode_vs_ipl_pigmentation_redness.md'});
+const ADDED_DOC={id:'doc8',file:'18_tria_treatment_protocol_and_progress_audit.md',md:(window.SiteEmbeddedDocuments&&window.SiteEmbeddedDocuments['02_diode_laser_hair_removal/18_tria_treatment_protocol_and_progress_audit.md'])||''};
+DOCS.push(ADDED_DOC);
+function renderAddedDocument(d){
+  const r=document.getElementById(d.id+'_r'); if(!r)return;
+  let h=marked.parse(d.md||'');
+  r.innerHTML=h.replace(/<table>/g,'<div class="tw"><table>').replace(/<\/table>/g,'</table></div>');
+}
+function hydrateAddedDocument(){
+  if(ADDED_DOC.md)return;
+  fetch(ADDED_DOC.file,{cache:'no-store'}).then(res=>{if(!res.ok)throw new Error('unavailable');return res.text();}).then(md=>{ADDED_DOC.md=md;renderAddedDocument(ADDED_DOC);}).catch(()=>{document.getElementById(ADDED_DOC.id+'_r').innerHTML='<p class="note">This rendered document could not load. Open the archive through its local web server, then retry this page.</p>';});
+}
 function render(){
   for(const d of DOCS){
     const r=document.getElementById(d.id+'_r');
     let h=marked.parse(d.md);
     h=h.replace(/<table>/g,'<div class="tw"><table>').replace(/<\/table>/g,'</table></div>');
     r.innerHTML=h;
-    document.getElementById(d.id+'_m').textContent=d.md;
+    const raw=document.getElementById(d.id+'_m'); if(raw)raw.textContent=d.md;
   }
 }
 function show(id){
@@ -301,6 +315,7 @@ function setMode(id,mode){
   document.querySelectorAll('.segbtn[data-for="'+id+'"]').forEach(x=>x.classList.toggle('active',x.dataset.mode===mode));
 }
 render();
+hydrateAddedDocument();
 document.querySelectorAll('.navbtn[data-t]').forEach(b=>b.onclick=()=>show(b.dataset.t));
 document.querySelectorAll('.segbtn').forEach(b=>b.onclick=()=>setMode(b.dataset.for,b.dataset.mode));
 document.querySelectorAll('[data-go]').forEach(el=>{el.addEventListener('click',()=>show(el.dataset.go));el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();show(el.dataset.go);}});});
@@ -469,4 +484,4 @@ if(!showHash())show('start');
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',run); else run();
 })();
 </script>
-</body></html>
+<script src="../maude/maude-report.js"></script></body></html>

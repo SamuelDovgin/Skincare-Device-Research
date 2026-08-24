@@ -22,6 +22,7 @@ Focused ultrasound is its own tightening lane, separate from fractional lasers, 
 | 03 | [Home device landscape](03_home_device_landscape.md) | Medicube High Focus Shot, Ussera Deep Shot, generic mini/prosumer HIFU claims, home-device evidence, and regulatory caveats |
 | 04 | [Home vs clinic results gap](04_home_vs_clinic_results_gap.md) | Direct comparison to fractional lasers, RF, and microneedling; why home HIFU is not simply a lower-power Ultherapy treatment |
 | 05 | [Selection and safety protocol](05_selection_and_safety_protocol.md) | Goal-based choice guide, provider questions, home-use stop rules, and risk boundaries |
+| 06 | [Clinical outcomes and realistic expectations](index.html#doc6) | Filing-level denominators, endpoints, responder proportions, patient-reported outcomes, pain, adverse events, and the translation limits behind Ulthera and Sofwave claims |
 
 ## Interactive tool
 
@@ -29,11 +30,14 @@ Focused ultrasound is its own tightening lane, separate from fractional lasers, 
 
 ## Supporting material
 
+- [Focused-ultrasound clinical outcomes CSV](data/focused_ultrasound_clinical_outcomes.csv) — structured filing extraction behind document 06.
+
 - [Source-doc manifest](source_docs/README.md)
 - FDA PDFs and IFU mirrors in [`source_docs/`](source_docs/)
 - openFDA OHV, Ulthera, and Sofwave snapshots in [`data/`](data/)
 - Official Medicube product-page captures in [`source_docs/`](source_docs/)
 - PubMed captures for home-used HIFU mouse evidence and MFU-V adverse-event review in [`source_docs/`](source_docs/)
+- The topic viewer's [FDA-reported events panel](index.html#maude) adds a searchable OHV MAUDE snapshot for focused-ultrasound reports, with an explicit professional-device/home-device scope warning.
 
 ## Relationship to neighboring folders
 
@@ -44,7 +48,7 @@ Focused ultrasound is its own tightening lane, separate from fractional lasers, 
 ## Status / open items
 
 - Captured a first-pass source corpus on 2026-07-07: FDA PDFs, Ulthera IFU, openFDA data, Medicube product pages, and PubMed pages.
-- Still open: MAUDE extraction for Ulthera/Sofwave/HIFU body-contouring events, independent teardown/output data for home HIFU devices, official manuals/IFUs for Medicube High Focus Shot and Ussera if available, and direct clinic protocol/cost quotes by market.
+- **Added 2026-08-12:** OHV MAUDE extraction and rendered report viewer. Still open: independent teardown/output data for home HIFU devices, official manuals/IFUs for Medicube High Focus Shot and Ussera if available, and direct clinic protocol/cost quotes by market.
 
 ## Sources
 

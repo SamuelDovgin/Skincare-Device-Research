@@ -1,0 +1,3 @@
+session_date,week,device_model,serial_or_unit_id,body_area,days_since_prior_session,skin_tan_state,hair_removal_method,level,pulse_count,treatment_minutes,pain_0_10,immediate_redness_0_3,response_24h,response_48h,audit_square_hair_count_pre_shave,standardized_photo_id,battery_or_shutdown_notes,coverage_notes,cointerventions_or_sun_exposure,stop_reason
+YYYY-MM-DD,0,Tria 4X,unit-1,right_underarm,,baseline,shave,,,,,,,,,,,baseline,,
+YYYY-MM-DD,2,Tria 4X,unit-1,right_underarm,14,unchanged,shave,,,,,,,,,,,,,

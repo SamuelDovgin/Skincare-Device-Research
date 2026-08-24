@@ -1,0 +1,879 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Skincare Stack Lab · Weekly Ingredient Planner</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A7%AA%3C/text%3E%3C/svg%3E">
+  <style>
+    :root{
+      --ink:#17201e;--muted:#66736f;--bg:#eef2ef;--panel:#fff;--line:#d8e1dd;
+      --accent:#176e64;--accent-2:#315d72;--soft:#f7f9f8;--shadow:0 18px 45px rgba(23,32,30,.11);
+      --avoid:#a12b24;--avoid-bg:#fff0ed;--separate:#a25b00;--separate-bg:#fff5df;
+      --caution:#73570c;--caution-bg:#fff9e9;--compatible:#126b5d;--compatible-bg:#e9f7f3;
+      --unknown:#5d6570;--unknown-bg:#f0f2f4;--duplicate:#6d3aa8;--duplicate-bg:#f4edfb;--focus:#6bc4b7
+    }
+    *{box-sizing:border-box}
+    html,body{max-width:100%;overflow-x:hidden}
+    body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.48 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+    button,input,select{font:inherit;color:inherit}button{cursor:pointer}a{color:var(--accent)}
+    button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+    .shell{max-width:1540px;margin:auto;padding:16px 18px 70px}
+    .hero{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(280px,.72fr);gap:14px;margin-bottom:13px}
+    .hero-main,.hero-side,.panel{background:var(--panel);border:1px solid var(--line);border-radius:15px}
+    .hero-main{padding:22px 24px;background:linear-gradient(145deg,#fff,#f7fbf9)}
+    .eyebrow{display:inline-flex;align-items:center;gap:6px;color:#126458;background:#e5f4f0;border-radius:999px;padding:4px 9px;font-size:11px;font-weight:800;letter-spacing:.04em;text-transform:uppercase}
+    h1{margin:10px 0 6px;font-size:clamp(25px,3vw,39px);line-height:1.08;letter-spacing:-.025em}
+    .hero-main p{margin:0;max-width:850px;color:#4d5d58;font-size:15px}
+    .hero-links{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px}
+    .button,.hero-links a{appearance:none;border:1px solid var(--line);background:#fff;border-radius:10px;min-height:42px;padding:9px 12px;text-decoration:none;font-weight:750;display:inline-flex;align-items:center;justify-content:center;gap:6px}
+    .button.primary,.hero-links a.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+    .button.quiet{background:#f6f8f7}
+    .hero-side{padding:17px 18px;display:grid;align-content:center;gap:8px}
+    .hero-side h2{font-size:15px;margin:0}.hero-side p{margin:0;color:var(--muted);font-size:12.5px}
+    .truth-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+    .truth{border-radius:10px;padding:9px 10px;font-size:11.5px;border:1px solid var(--line)}
+    .truth b{display:block;font-size:12px;margin-bottom:2px}.truth.chem{background:var(--avoid-bg);color:#76211c}.truth.load{background:var(--caution-bg);color:#67500d}.truth.ok{background:var(--compatible-bg);color:#0f5c50}.truth.unk{background:var(--unknown-bg);color:#525b66}
+    .toolbar{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin:0 0 12px}
+    .toolbar-label{font-weight:800;font-size:12px;color:#46534f;margin-right:2px}.button.preset.active{background:#dff2ed;border-color:#6fb3a7;color:#0f5d52}
+    .toolbar .spacer{flex:1}
+    .layout{display:grid;grid-template-columns:318px minmax(0,1fr);gap:13px;align-items:start}
+    .panel{padding:14px;min-width:0}
+    .catalog{position:sticky;top:68px;max-height:calc(100vh - 86px);overflow:auto;overscroll-behavior:contain}
+    .panel h2{font-size:17px;margin:0}.panel-lead{color:var(--muted);font-size:12px;margin:3px 0 10px}
+    .search{width:100%;min-height:44px;border:1px solid var(--line);border-radius:10px;background:#fff;padding:10px 11px}
+    .filters{display:flex;gap:5px;flex-wrap:wrap;margin:9px 0 10px}
+    .filter{border:1px solid var(--line);border-radius:999px;background:#fff;padding:6px 9px;font-size:11px;min-height:34px}
+    .filter.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+    .catalog-list{display:grid;gap:7px}
+    .catalog-card{display:grid;grid-template-columns:minmax(0,1fr) 44px;border:1px solid var(--line);border-left:4px solid var(--cat,#7c3aed);border-radius:10px;background:#fff;overflow:hidden;min-width:0}
+    .catalog-card.dragging,.placed.dragging{opacity:.4}
+    .catalog-main{appearance:none;border:0;background:transparent;text-align:left;padding:9px 8px 9px 10px;min-width:0}
+    .catalog-main b{display:block;font-size:13.2px;overflow-wrap:anywhere}.catalog-main small{display:block;color:var(--muted);margin-top:2px}
+    .meta{display:flex;gap:4px;flex-wrap:wrap;margin-top:6px}.pill{border-radius:999px;background:#eef2f0;color:#52605c;padding:2px 6px;font-size:9.5px;font-weight:800;text-transform:uppercase;letter-spacing:.035em}
+    .drag-handle{appearance:none;border:0;border-left:1px solid var(--line);background:#f7f9f8;min-width:44px;touch-action:none;font-size:18px;font-weight:900;color:#66736f}
+    .drag-handle:active{cursor:grabbing;background:#e3f2ee}
+    .workspace{display:grid;gap:11px;min-width:0}
+    .context-head,.week-head,.analysis-head,.pair-head{display:flex;justify-content:space-between;gap:12px;align-items:start}
+    .context-grid{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+    .area-field{display:grid;grid-template-columns:auto minmax(180px,260px);align-items:center;gap:9px;margin-top:10px;padding:9px 10px;border:1px solid var(--line);border-radius:11px;background:#f8faf9}.area-field label{font-size:11px;font-weight:850;text-transform:uppercase;letter-spacing:.045em;color:#52605c}.area-field select{min-height:40px;border:1px solid var(--line);border-radius:9px;background:#fff;padding:7px 9px}.area-note{grid-column:1/-1;margin:0;color:var(--muted);font-size:10.5px}
+    .toggle{position:relative}.toggle input{position:absolute;opacity:0;pointer-events:none}.toggle span{display:inline-flex;align-items:center;min-height:38px;border:1px solid var(--line);border-radius:10px;background:#fff;padding:7px 10px;font-size:11.5px}
+    .toggle input:checked+span{background:#e3f3ef;border-color:#75b6aa;color:#0f5d52;font-weight:750}.toggle input:focus-visible+span{outline:3px solid var(--focus);outline-offset:2px}
+    .week-panel{padding:0;overflow:hidden}.week-head{padding:14px 14px 10px}.week-actions{display:flex;gap:6px;flex-wrap:wrap}
+    .day-tabs{display:none;gap:5px;overflow:auto;padding:0 12px 10px}.day-tab{border:1px solid var(--line);border-radius:9px;background:#fff;min-width:46px;min-height:38px;font-size:11px;font-weight:750}.day-tab.active{background:var(--accent);border-color:var(--accent);color:#fff}
+    .week-scroll{overflow-x:auto;overscroll-behavior-inline:contain;border-top:1px solid var(--line)}
+    .week-grid{display:grid;grid-template-columns:repeat(7,minmax(146px,1fr));gap:1px;min-width:1050px;background:var(--line)}
+    .day{background:#f7f9f8;min-width:0}.day-header{position:sticky;top:0;z-index:2;background:#fff;padding:9px 10px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:6px}
+    .day-header b{font-size:12.5px}.day-state{width:9px;height:9px;border-radius:50%;background:#aeb9b5}.day[data-level="avoid"] .day-state{background:var(--avoid)}.day[data-level="separate"] .day-state{background:var(--separate)}.day[data-level="caution"] .day-state{background:#b08b1e}.day[data-level="clear"] .day-state{background:var(--compatible)}
+    .slot{min-height:222px;padding:8px;border:2px solid transparent;transition:.15s}.slot+ .slot{border-top:1px solid var(--line)}.slot.over{background:#ddf2ed;border-color:var(--accent)}
+    .slot-title{display:flex;justify-content:space-between;gap:5px;color:#53615d;font-size:10px;font-weight:850;text-transform:uppercase;letter-spacing:.055em;margin:0 1px 6px}.slot-title button{appearance:none;border:0;background:transparent;color:var(--accent);padding:0;font-size:10px;font-weight:800}
+    .empty{display:grid;place-items:center;min-height:74px;border:1px dashed #c6d0cc;border-radius:9px;color:#7a8582;font-size:11px;text-align:center;padding:8px}
+    .placed{display:grid;grid-template-columns:minmax(0,1fr) 35px;border:1px solid var(--line);border-left:4px solid var(--cat,#7c3aed);border-radius:9px;background:#fff;margin:5px 0;overflow:hidden;box-shadow:0 2px 5px rgba(30,48,43,.035)}
+    .placed.flag-avoid{box-shadow:inset 0 0 0 1px var(--avoid)}.placed.flag-separate{box-shadow:inset 0 0 0 1px var(--separate)}.placed.flag-caution{box-shadow:inset 0 0 0 1px #b08b1e}.placed.flag-unknown{box-shadow:inset 0 0 0 1px #8a929b}
+    .placed-main{appearance:none;border:0;background:transparent;text-align:left;padding:7px 6px 7px 8px;min-width:0}.placed-main b{display:block;font-size:11.5px;overflow-wrap:anywhere}.placed-main small{display:block;color:var(--muted);font-size:9.5px;margin-top:1px}.placed .drag-handle{min-width:35px;font-size:15px}
+    .analysis{padding:14px}.status-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-top:11px}.status-card{border-radius:10px;padding:10px;border:1px solid var(--line);background:#fff}.status-card strong{font-size:21px;line-height:1;display:block}.status-card span{font-size:10px;color:var(--muted)}.status-card.avoid{background:var(--avoid-bg);border-color:#efb7b0}.status-card.separate{background:var(--separate-bg);border-color:#e7c27f}.status-card.caution{background:var(--caution-bg);border-color:#ead89b}.status-card.unknown{background:var(--unknown-bg);border-color:#d6dbe0}
+    .assessment-summary{margin:10px 0 0;padding:10px 12px;border-radius:10px;background:#eef7f4;border-left:4px solid var(--accent)}
+    .issues{display:grid;gap:7px;margin-top:9px}.issue{display:grid;grid-template-columns:auto minmax(0,1fr);gap:8px;border:1px solid var(--line);border-radius:10px;padding:9px 10px;background:#fff}.issue-dot{width:9px;height:9px;border-radius:50%;margin-top:6px;background:#8a929b}.issue[data-level="avoid"] .issue-dot{background:var(--avoid)}.issue[data-level="separate"] .issue-dot{background:var(--separate)}.issue[data-level="caution"] .issue-dot{background:#b08b1e}.issue[data-level="unknown"] .issue-dot{background:#7c848e}.issue b{font-size:12.5px}.issue p{margin:2px 0;color:#56645f;font-size:11.5px}.issue-meta{font-size:10px;color:#75817d}.source-chip{display:inline-flex;align-items:center;border-radius:999px;background:#eef2f0;padding:2px 6px;text-decoration:none;font-size:9.5px;font-weight:800;margin:4px 3px 0 0}
+    .quiet-result{border:1px dashed #b9c8c3;border-radius:10px;padding:12px;color:#52605c;background:#f8fbfa}
+    .matrix-wrap{margin-top:13px;border-top:1px solid var(--line);padding-top:12px}.matrix-wrap h3{font-size:14px;margin:0}.matrix-note{color:var(--muted);font-size:10.5px;margin:2px 0 7px}.matrix-scroll{overflow:auto}.matrix{border-collapse:separate;border-spacing:3px;font-size:10px;min-width:520px}.matrix th{font-weight:750;color:#4f5d59;text-align:left;max-width:105px}.matrix .rotate{height:86px;vertical-align:bottom}.matrix .rotate span{display:inline-block;transform:rotate(-36deg);transform-origin:left bottom;width:74px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.matrix-cell{width:34px;height:34px;border:0;border-radius:7px;background:#eef1f0;font-size:0}.matrix-cell:after{content:"";display:block;width:9px;height:9px;border-radius:50%;margin:auto;background:#9aa3a0}.matrix-cell[data-level="avoid"]{background:var(--avoid-bg)}.matrix-cell[data-level="avoid"]:after{background:var(--avoid)}.matrix-cell[data-level="separate"]{background:var(--separate-bg)}.matrix-cell[data-level="separate"]:after{background:var(--separate)}.matrix-cell[data-level="caution"]{background:var(--caution-bg)}.matrix-cell[data-level="caution"]:after{background:#b08b1e}.matrix-cell[data-level="compatible"]{background:var(--compatible-bg)}.matrix-cell[data-level="compatible"]:after{background:var(--compatible)}.matrix-cell[data-level="unknown"]{background:var(--unknown-bg)}.matrix-cell[data-level="unknown"]:after{background:#7c848e}.matrix-cell.diagonal:after{background:#d7ddda}
+    .pair-panel{padding:16px}.pair-head{align-items:center}.pair-head .panel-lead{max-width:760px;margin-bottom:0}
+    .pair-coverage{margin:7px 0 0;color:var(--muted);font-size:11px;max-width:920px}.pair-coverage b{color:var(--ink)}.pair-coverage a{font-weight:800;white-space:nowrap}
+    .pair-tools{display:flex;align-items:end;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:13px 0 11px;padding:10px;border:1px solid var(--line);border-radius:12px;background:#f8faf9}
+    .timing-field{display:grid;gap:5px}.timing-field-label{font-size:10px;font-weight:850;text-transform:uppercase;letter-spacing:.055em;color:#56645f}.timing-switch{display:flex;gap:5px;flex-wrap:wrap}.pair-timing{appearance:none;border:1px solid var(--line);border-radius:9px;background:#fff;min-height:38px;padding:7px 10px;font-size:11px;font-weight:750}.pair-timing.active{background:var(--ink);border-color:var(--ink);color:#fff}
+    .pair-legend{display:flex;gap:5px;flex-wrap:wrap;justify-content:flex-end}.legend-key{display:inline-flex;align-items:center;gap:4px;border:1px solid var(--line);border-radius:999px;background:#fff;padding:4px 7px;font-size:9.5px;font-weight:800;color:#4f5d59}.legend-key i{display:grid;place-items:center;width:17px;height:17px;border-radius:50%;font-style:normal;font-size:9px}.legend-key.compatible i{background:var(--compatible-bg);color:var(--compatible)}.legend-key.caution i{background:var(--caution-bg);color:var(--caution)}.legend-key.separate i{background:var(--separate-bg);color:var(--separate)}.legend-key.avoid i{background:var(--avoid-bg);color:var(--avoid)}.legend-key.duplicate i{background:var(--duplicate-bg);color:var(--duplicate)}.legend-key.unknown i{background:var(--unknown-bg);color:var(--unknown)}
+    .pair-explorer{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(260px,.72fr);grid-template-areas:"a b result";gap:10px;align-items:start}.pair-deck{border:1px solid var(--line);border-radius:12px;background:#fbfcfb;padding:9px;min-width:0}.pair-deck[data-pair-side="a"]{grid-area:a}.pair-deck[data-pair-side="b"]{grid-area:b}.pair-deck-head{display:flex;align-items:start;justify-content:space-between;gap:8px;margin-bottom:8px}.pair-deck-head h3{margin:0;font-size:12px}.choice-letter{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:7px;background:var(--ink);color:#fff;font-size:10px;margin-right:5px}.pair-choice{display:block;color:var(--accent);font-size:10.5px;margin:2px 0 0 27px}.pair-context{margin:1px 0 0;color:var(--muted);font-size:9.5px;max-width:155px;text-align:right}
+    .pair-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(74px,1fr));gap:5px}.pair-item{--tone-bg:#fff;--tone-border:var(--line);--tone-ink:#53615d;appearance:none;position:relative;display:grid;grid-template-columns:25px minmax(0,1fr);align-items:center;gap:5px;min-width:0;min-height:54px;border:1px solid var(--tone-border);border-radius:9px;background:var(--tone-bg);padding:5px 5px 5px 6px;text-align:left;color:var(--tone-ink);transition:transform .12s,box-shadow .12s,border-color .12s}.pair-item:hover,.pair-item.is-preview{transform:translateY(-1px);box-shadow:0 5px 13px rgba(23,32,30,.11)}.pair-item.is-selected{box-shadow:0 0 0 2px #fff,0 0 0 4px var(--ink);z-index:1}.pair-item[data-verdict="compatible"]{--tone-bg:var(--compatible-bg);--tone-border:#9ed4c9;--tone-ink:#0e5c50}.pair-item[data-verdict="caution"]{--tone-bg:var(--caution-bg);--tone-border:#e2c96e;--tone-ink:#68500d}.pair-item[data-verdict="separate"]{--tone-bg:var(--separate-bg);--tone-border:#e2b76c;--tone-ink:#7b4605}.pair-item[data-verdict="avoid"]{--tone-bg:var(--avoid-bg);--tone-border:#e2a098;--tone-ink:#84231e}.pair-item[data-verdict="duplicate"]{--tone-bg:var(--duplicate-bg);--tone-border:#c6a6e5;--tone-ink:#5c2e91}.pair-item[data-verdict="unknown"]{--tone-bg:var(--unknown-bg);--tone-border:#c9cfd5;--tone-ink:#515a64}.pair-icon{display:grid;place-items:center;width:25px;height:25px;border-radius:7px;background:#fff;border:1px solid color-mix(in srgb,var(--cat,#65736f) 40%,#fff);color:var(--cat,#52605c);font-size:9px;font-weight:900;letter-spacing:-.025em}.pair-item-name{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;font-size:9.5px;font-weight:800;line-height:1.12;overflow-wrap:anywhere}.pair-mark{position:absolute;right:3px;top:3px;display:grid;place-items:center;min-width:14px;height:14px;padding:0 2px;border-radius:999px;background:#fff;border:1px solid currentColor;font-size:7.5px;font-weight:950;line-height:1}
+    .pair-result{grid-area:result;position:sticky;top:68px;border:1px solid var(--line);border-left:5px solid var(--unknown);border-radius:12px;background:#f8faf9;padding:13px;min-height:174px}.pair-result[data-level="compatible"]{border-left-color:var(--compatible)}.pair-result[data-level="caution"]{border-left-color:#b08b1e}.pair-result[data-level="separate"]{border-left-color:var(--separate)}.pair-result[data-level="avoid"]{border-left-color:var(--avoid)}.pair-result[data-level="duplicate"]{border-left-color:var(--duplicate)}.pair-result-meta{display:flex;align-items:center;justify-content:space-between;gap:8px}.pair-mode{color:var(--muted);font-size:9.5px;font-weight:800;text-transform:uppercase;letter-spacing:.04em}.verdict{display:inline-flex;border-radius:999px;padding:4px 9px;font-size:10px;font-weight:850;text-transform:uppercase;letter-spacing:.045em}.verdict.avoid{background:var(--avoid-bg);color:var(--avoid)}.verdict.separate{background:var(--separate-bg);color:var(--separate)}.verdict.caution{background:var(--caution-bg);color:#6b520c}.verdict.compatible{background:var(--compatible-bg);color:var(--compatible)}.verdict.duplicate{background:var(--duplicate-bg);color:var(--duplicate)}.verdict.unknown{background:var(--unknown-bg);color:#555f69}.pair-result h3{margin:8px 0 4px;font-size:16px}.pair-result p{margin:0;color:#4e5d58}.pair-result-pair{font-size:12px}.boundary{margin-top:8px;padding-top:8px;border-top:1px solid var(--line);font-size:10.5px;color:var(--muted)}
+    .method details{border-top:1px solid var(--line);padding:10px 0}.method details:first-of-type{margin-top:8px}.method summary{font-weight:800;cursor:pointer}.method p,.method li{color:#4f5e59}.method ul{padding-left:20px}
+    .drag-ghost{display:none;position:fixed;z-index:100;pointer-events:none;max-width:230px;background:#fff;border:2px solid var(--accent);border-radius:10px;padding:8px 10px;box-shadow:var(--shadow);font-weight:800}.drag-ghost.active{display:block}
+    .touch-dock{display:none;position:fixed;left:8px;right:8px;bottom:calc(8px + env(safe-area-inset-bottom));z-index:90;background:#173e39;color:#fff;border-radius:15px;padding:8px;box-shadow:0 18px 46px rgba(0,0,0,.34);grid-template-columns:1fr 1fr;gap:6px}.touch-dock.active{display:grid}.dock-title{grid-column:1/-1;text-align:center;color:#cde5e0;font-size:11px}.touch-target{min-height:60px;border:1px solid rgba(255,255,255,.3);border-radius:10px;background:rgba(255,255,255,.11);color:#fff}.touch-target.over{background:#fff;color:#17473f;transform:scale(1.02)}
+    dialog.place-dialog{border:0;border-radius:17px;padding:0;width:min(520px,calc(100% - 22px));box-shadow:var(--shadow)}dialog.place-dialog::backdrop{background:rgba(15,27,24,.5)}.dialog-inner{padding:18px}.dialog-inner h2{margin:0;font-size:19px}.dialog-inner p{margin:3px 0 13px;color:var(--muted)}.day-picker{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}.pick-day,.pick-time{border:1px solid var(--line);border-radius:9px;background:#fff;min-height:42px;font-size:11px}.pick-day.active,.pick-time.active{background:var(--accent);border-color:var(--accent);color:#fff}.time-picker{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:8px}.dialog-actions{display:flex;gap:7px;margin-top:13px}.dialog-actions .button{flex:1}.dialog-actions [hidden]{display:none!important}.danger{color:var(--avoid)!important}
+    .toast{position:fixed;z-index:110;left:50%;bottom:24px;transform:translate(-50%,18px);opacity:0;pointer-events:none;background:#142c28;color:#fff;border-radius:999px;padding:9px 14px;box-shadow:var(--shadow);transition:.2s}.toast.show{opacity:1;transform:translate(-50%,0)}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    @media(max-width:1180px){.pair-explorer{grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-areas:"result result" "a b"}.pair-result{position:static}}
+    @media(max-width:1080px){.layout{grid-template-columns:280px minmax(0,1fr)}.hero{grid-template-columns:1.3fr .7fr}}
+    @media(max-width:760px){
+      .shell{padding:10px 10px 90px}.hero{grid-template-columns:1fr}.hero-main{padding:18px}.hero-side{padding:14px}.toolbar{overflow-x:auto;flex-wrap:nowrap;padding-bottom:3px}.toolbar .spacer{min-width:2px}.toolbar-label{display:none}.button{white-space:nowrap}
+      .layout{display:flex;flex-direction:column}.workspace{order:1;width:100%}.catalog{order:2;position:static;max-height:none;width:100%}.context-head,.week-head,.analysis-head{display:block}.week-actions{margin-top:8px}.day-tabs{display:flex}.week-scroll{overflow:visible}.week-grid{display:block;min-width:0;background:#fff}.day{display:none}.day.mobile-active{display:block}.day-header{display:none}.slot{min-height:170px}.status-strip{grid-template-columns:1fr 1fr}.pair-explorer{grid-template-columns:1fr;grid-template-areas:"result" "a" "b"}.pair-tools{align-items:stretch}.pair-legend{justify-content:flex-start}.catalog-list{grid-template-columns:1fr 1fr}.truth-row{grid-template-columns:1fr 1fr}.day-picker{grid-template-columns:repeat(4,1fr)}.area-field{grid-template-columns:1fr}.area-field select{width:100%}
+    }
+    @media(max-width:470px){.catalog-list{grid-template-columns:1fr}.truth-row{grid-template-columns:1fr}.status-strip{grid-template-columns:1fr 1fr}.hero-links a{width:100%}.day-picker{grid-template-columns:repeat(4,1fr)}.pair-deck{padding:7px}.pair-grid{grid-template-columns:repeat(auto-fill,minmax(66px,1fr));gap:4px}.pair-item{grid-template-columns:22px minmax(0,1fr);gap:4px;min-height:50px;padding:4px}.pair-icon{width:22px;height:22px;font-size:8px}.pair-item-name{font-size:9px}.pair-mark{right:2px;top:2px}}
+    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+  </style>
+  <link rel="stylesheet" href="../site-chrome.css">
+  <script src="../site-router.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><div class="site-header__inner">
+    <a class="site-back" href="index.html" aria-label="Back to combined regimen"><span class="site-back__arrow" aria-hidden="true">←</span><span class="site-back__label--long">Combined regimen</span></a>
+    <div class="site-header__heading"><span class="site-header__title">🧪 Skincare Stack Lab</span><span class="site-header__subtitle">Build a week, inspect pairs, and separate evidence from internet myths</span></div>
+    <div class="site-header__actions"><a class="site-action" href="../index.html" aria-label="All research"><span aria-hidden="true">⌂</span><span class="site-action__label">All research</span></a></div>
+  </div></header>
+
+  <main class="shell">
+    <section class="hero">
+      <div class="hero-main">
+        <span class="eyebrow">Independent evidence · no brand conflict chart</span>
+        <h1>Plan the week. See what really conflicts.</h1>
+        <p>Drag finished products, active families, and device days into AM/PM slots. The audit distinguishes documented incompatibility from additive irritation, duplicated treatment, device-recovery rules, and simply missing evidence. It never treats “not studied” as proof of danger—or a green badge as a guarantee.</p>
+        <div class="hero-links">
+          <a class="primary" href="#planner">Build my week ↓</a>
+          <a href="#pairLab">Check two ingredients</a>
+          <a href="../markdown-viewer.html?file=13_combined_skincare_regimen/05_ingredient_compatibility_and_weekly_planner.md">Read evidence + sources</a>
+        </div>
+      </div>
+      <aside class="hero-side" aria-label="How to read the checker">
+        <h2>Four different questions—not one “conflict” list</h2>
+        <p>Most viral charts confuse chemical stability with skin tolerance.</p>
+        <div class="truth-row">
+          <div class="truth chem"><b>Documented</b>Label, stability, or same-use issue</div>
+          <div class="truth load"><b>Additive load</b>May coexist, but irritation can rise</div>
+          <div class="truth ok"><b>Compatible</b>Studied/formulated together or no relevant conflict</div>
+          <div class="truth unk"><b>Uncertain</b>Formula-specific or no direct outcome evidence</div>
+        </div>
+      </aside>
+    </section>
+
+    <nav class="toolbar" aria-label="Planner actions">
+      <span class="toolbar-label">Start from</span>
+      <button class="button preset" data-preset="blank" type="button">Blank week</button>
+      <button class="button preset active" data-preset="foundation" type="button">Foundation only</button>
+      <button class="button preset" data-preset="recovery" type="button">Recovery week</button>
+      <span class="spacer"></span>
+      <button class="button quiet" id="sortButton" type="button">Sort layer order</button>
+      <button class="button quiet" id="saveButton" type="button">Save locally</button>
+      <button class="button quiet" id="copyButton" type="button">Copy plan</button>
+      <button class="button quiet danger" id="clearButton" type="button">Clear</button>
+    </nav>
+
+    <div class="layout" id="planner">
+      <aside class="panel catalog" aria-label="Ingredient and treatment library">
+        <h2>Ingredient + treatment library</h2>
+        <p class="panel-lead">Cards are ingredient families, not endorsements. Tap to place; use ↕ to drag.</p>
+        <input class="search" id="searchInput" type="search" placeholder="Search retinoids, acids, devices…" aria-label="Search ingredient and treatment library">
+        <div class="filters" id="filters" role="group" aria-label="Library category"></div>
+        <div class="catalog-list" id="catalogList"></div>
+      </aside>
+
+      <section class="workspace">
+        <section class="panel context" aria-labelledby="contextHeading">
+          <div class="context-head"><div><h2 id="contextHeading">Safety context</h2><p class="panel-lead">Scope one plan to one treatment area. These flags tighten the audit; they do not diagnose the skin or override a drug label, device IFU, or clinician.</p></div></div>
+          <div class="area-field">
+            <label for="areaSelect">Treatment area</label>
+            <select id="areaSelect">
+              <option value="face">Face</option>
+              <option value="neck_chest">Neck / chest</option>
+              <option value="body">Body / limbs</option>
+              <option value="fold">Fold / underarm / bikini line</option>
+              <option value="scalp">Scalp</option>
+            </select>
+            <p class="area-note">Make a separate saved/exported plan for a different site. A product tolerated on thick body skin is not automatically suitable for eyelids, folds, scalp, or recently treated skin.</p>
+          </div>
+          <div class="context-grid">
+            <label class="toggle"><input type="checkbox" data-context="irritated"><span>Skin is irritated, sunburned, or broken now</span></label>
+            <label class="toggle"><input type="checkbox" data-context="pregnancy"><span>Pregnant / trying to conceive</span></label>
+            <label class="toggle"><input type="checkbox" data-context="freshShave"><span>Freshly shaved / waxed treatment area</span></label>
+            <label class="toggle"><input type="checkbox" data-context="pigmentProne"><span>PIH / melasma-prone</span></label>
+          </div>
+        </section>
+
+        <section class="panel week-panel" aria-labelledby="weekHeading">
+          <div class="week-head"><div><h2 id="weekHeading">Your weekly map</h2><p class="panel-lead">Order runs top to bottom. The colored dot summarizes unresolved issues for that day.</p></div><div class="week-actions"><button class="button quiet" id="todayButton" type="button">Jump to today</button></div></div>
+          <div class="day-tabs" id="dayTabs" aria-label="Choose day on mobile"></div>
+          <div class="week-scroll"><div class="week-grid" id="weekGrid"></div></div>
+        </section>
+
+        <section class="panel analysis" aria-labelledby="analysisHeading" aria-live="polite">
+          <div class="analysis-head"><div><h2 id="analysisHeading">Live interaction audit</h2><p class="panel-lead">Counts describe detected rules—not probability of harm.</p></div></div>
+          <div class="status-strip">
+            <div class="status-card avoid"><strong id="avoidCount">0</strong><span>documented / duplicate</span></div>
+            <div class="status-card separate"><strong id="separateCount">0</strong><span>separate or label-check</span></div>
+            <div class="status-card caution"><strong id="cautionCount">0</strong><span>irritation / overload</span></div>
+            <div class="status-card unknown"><strong id="unknownCount">0</strong><span>uncertain pairs</span></div>
+          </div>
+          <p class="assessment-summary" id="assessmentSummary"></p>
+          <div class="issues" id="issues"></div>
+          <div class="matrix-wrap">
+            <h3>Relationship map</h3>
+            <p class="matrix-note" id="matrixNote">Planned treatment cards appear here. A cell reflects their closest placement in the week; tap it for the explanation.</p>
+            <div class="matrix-scroll" id="matrixScroll"></div>
+          </div>
+        </section>
+
+        <section class="panel pair-panel" id="pairLab" aria-labelledby="pairHeading">
+          <div class="pair-head"><div><h2 id="pairHeading">Pair laboratory</h2><p class="panel-lead">Hover or focus any tile for an instant preview. Click or tap one choice on either side to pin it; every tile in the opposite group changes color for that ingredient and timing.</p><p class="pair-coverage" id="pairCoverage" role="status"></p></div></div>
+          <div class="pair-tools">
+            <div class="timing-field">
+              <span class="timing-field-label" id="timingLabel">Compare at</span>
+              <div class="timing-switch" role="group" aria-labelledby="timingLabel">
+                <button class="pair-timing active" data-timing-choice="same-session" type="button" aria-pressed="true">Same session</button>
+                <button class="pair-timing" data-timing-choice="same-day" type="button" aria-pressed="false">AM ↔ PM</button>
+                <button class="pair-timing" data-timing-choice="different-day" type="button" aria-pressed="false">Different days</button>
+              </div>
+            </div>
+            <div class="pair-legend" aria-label="Compatibility color key">
+              <span class="legend-key compatible"><i>✓</i>compatible</span>
+              <span class="legend-key caution"><i>!</i>caution</span>
+              <span class="legend-key separate"><i>↔</i>separate / check</span>
+              <span class="legend-key avoid"><i>×</i>avoid / coordinate</span>
+              <span class="legend-key duplicate"><i>2×</i>duplicate</span>
+              <span class="legend-key unknown"><i>?</i>unknown</span>
+            </div>
+          </div>
+          <div class="pair-explorer">
+            <div class="pair-result" id="pairResult" aria-live="polite"></div>
+            <section class="pair-deck" data-pair-side="a" aria-labelledby="pairATitle">
+              <div class="pair-deck-head"><div><h3 id="pairATitle"><span class="choice-letter">A</span>Ingredient or treatment A</h3><strong class="pair-choice" id="pairAChoice"></strong></div><p class="pair-context" id="pairAContext"></p></div>
+              <div class="pair-grid" id="pairGridA" role="radiogroup" aria-labelledby="pairATitle"></div>
+            </section>
+            <section class="pair-deck" data-pair-side="b" aria-labelledby="pairBTitle">
+              <div class="pair-deck-head"><div><h3 id="pairBTitle"><span class="choice-letter">B</span>Ingredient or treatment B</h3><strong class="pair-choice" id="pairBChoice"></strong></div><p class="pair-context" id="pairBContext"></p></div>
+              <div class="pair-grid" id="pairGridB" role="radiogroup" aria-labelledby="pairBTitle"></div>
+            </section>
+          </div>
+        </section>
+
+        <section class="panel method">
+          <h2>Evidence boundary</h2>
+          <details open><summary>Layer finished products; do not turn the planner into a DIY mixing recipe</summary><p>The checker evaluates sequential use of finished, preserved products as labeled. Mixing products in your palm or combining raw powders can change pH, concentration, preservation, solvent balance, oxidation, and delivery. Unless one product was formulated with both ingredients or a prescriber directs it, treat “mix together” as unknown formulation work and use the separate <a href="../19_diy_topical_formulation/index.html">DIY formulation research</a>.</p></details>
+          <details><summary>Why there are no universal waiting-time numbers</summary><p>Most topical pairs do not have clinical trials comparing a 5-, 20-, or 60-minute wait. Device and procedure windows vary by IFU, treatment intensity, site, skin response, and clinician protocol. The lab therefore uses “different session,” “different day,” and “resume when baseline comfort returns” instead of inventing precision.</p></details>
+          <details><summary>What the catalog deliberately splits and groups</summary><ul><li>Conventional tretinoin is split from microsphere/optimized tretinoin because benzoyl-peroxide stability is formulation-dependent.</li><li>Pure low-pH L-ascorbic acid is split from vitamin C derivatives because pH, stability, and evidence are different.</li><li>Copper peptides are split from non-copper peptides because metal/redox chemistry creates a real formulation question, while clinical layering evidence remains sparse.</li><li>Low-evidence pigment actives are grouped because most pairwise “conflict” claims are not supported well enough to justify dozens of false rules.</li><li>Oral supplements are excluded: systemic dose duplication and drug interactions belong in the <a href="../20_oral_supplements_for_skin/supplement_stack_checker.html">supplement checker</a>, not a topical-layering matrix.</li></ul></details>
+        </section>
+      </section>
+    </div>
+  </main>
+
+  <div class="touch-dock" id="touchDock" aria-hidden="true"><div class="dock-title" id="dockTitle">Drop on the selected day</div><button class="touch-target" data-touch-session="am" type="button">Morning</button><button class="touch-target" data-touch-session="pm" type="button">Night</button></div>
+  <div class="drag-ghost" id="dragGhost"></div>
+  <dialog class="place-dialog" id="placeDialog">
+    <div class="dialog-inner">
+      <h2 id="dialogTitle">Place card</h2><p id="dialogNote"></p>
+      <div class="day-picker" id="dialogDays"></div>
+      <div class="time-picker"><button class="pick-time active" data-dialog-session="am" type="button">Morning</button><button class="pick-time" data-dialog-session="pm" type="button">Night</button></div>
+      <div class="dialog-actions"><button class="button primary" id="dialogApply" type="button">Place card</button><button class="button danger" id="dialogRemove" type="button" hidden>Remove</button><button class="button quiet" id="dialogCancel" type="button">Cancel</button></div>
+    </div>
+  </dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="sr-only" id="announce" aria-live="assertive"></div>
+
+  <script>
+  (() => {
+    'use strict';
+
+    const DAYS = [
+      {id:'mon',label:'Monday',short:'Mon'}, {id:'tue',label:'Tuesday',short:'Tue'},
+      {id:'wed',label:'Wednesday',short:'Wed'}, {id:'thu',label:'Thursday',short:'Thu'},
+      {id:'fri',label:'Friday',short:'Fri'}, {id:'sat',label:'Saturday',short:'Sat'},
+      {id:'sun',label:'Sunday',short:'Sun'}
+    ];
+    const CATEGORIES = [
+      {id:'all',label:'All',color:'#59655f'}, {id:'foundation',label:'Foundation',color:'#168477'},
+      {id:'antioxidant',label:'Antioxidants',color:'#2878a6'}, {id:'retinoid',label:'Retinoids',color:'#8b4db8'},
+      {id:'exfoliant',label:'Exfoliants',color:'#b27612'}, {id:'acne',label:'Acne',color:'#b84a4a'},
+      {id:'pigment',label:'Pigment',color:'#a15d94'}, {id:'peptide',label:'Peptides',color:'#4d6fc1'},
+      {id:'device',label:'Devices + procedures',color:'#d16b2f'}
+    ];
+    const SOURCES = {
+      s1:{label:'2024 AAD acne guideline',url:'https://pubmed.ncbi.nlm.nih.gov/38300170/'},
+      s2:{label:'Adapalene + BPO FDA label',url:'source_docs/DailyMed_adapalene_benzoyl_peroxide_label_2026-08-23.pdf'},
+      s3:{label:'Tretinoin/BPO stability study',url:'https://pubmed.ncbi.nlm.nih.gov/9990414/'},
+      s4:{label:'Optimized tretinoin/BPO stability',url:'https://pubmed.ncbi.nlm.nih.gov/20967192/'},
+      s5:{label:'Dapsone FDA label',url:'source_docs/DailyMed_dapsone_gel_label_2026-08-23.pdf'},
+      s6:{label:'Tri-Luma FDA label',url:'source_docs/DailyMed_TriLuma_label_2026-08-23.pdf'},
+      s7:{label:'Retinol + vitamin C human study',url:'https://pubmed.ncbi.nlm.nih.gov/15767769/'},
+      s8:{label:'Retinol + glycolic human study',url:'https://pubmed.ncbi.nlm.nih.gov/18452434/'},
+      s9:{label:'Niacinamide + ascorbyl-glucoside human study',url:'https://pubmed.ncbi.nlm.nih.gov/16626384/'},
+      s10:{label:'Adapalene irritation label',url:'https://dailymed.nlm.nih.gov/dailymed/downloadpdffile.cfm?setId=cabba2c1-cf07-46aa-a2c3-1b815517b16b'},
+      s11:{label:'Tria SmoothBeauty IFU',url:'../03_fractional_laser_resurfacing/tria_smoothbeauty/source_docs/tria-smoothbeauty-instructions-for-use.pdf'},
+      s12:{label:'FDA microneedling safety',url:'https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/microneedling-devices'},
+      s13:{label:'FDA RF microneedling warning',url:'https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication'},
+      s14:{label:'Hydroquinone product monograph',url:'https://pdf.hres.ca/dpd_pm/00052770.PDF'},
+      s15:{label:'Topical vitamin C review',url:'https://pubmed.ncbi.nlm.nih.gov/29104718/'},
+      s16:{label:'GHK-Cu preformulation study',url:'https://pubmed.ncbi.nlm.nih.gov/25384620/'},
+      s17:{label:'FDA Sculptra patient label',url:'../15_sculptra_plla_biostimulator/source_docs/FDA_P030050_S039_patient_labeling_2023.pdf'},
+      s18:{label:'Tretinoin microsphere FDA label',url:'source_docs/DailyMed_tretinoin_gel_label_2026-08-23.pdf'},
+      s19:{label:'Dapsone + adapalene randomized study',url:'https://pubmed.ncbi.nlm.nih.gov/20120423/'},
+      s20:{label:'Tretinoin + ascorbic acid clinical regimen',url:'https://pubmed.ncbi.nlm.nih.gov/12633200/'},
+      s21:{label:'Niacinamide + TXA randomized study',url:'https://pubmed.ncbi.nlm.nih.gov/41315336/'},
+      s22:{label:'TXA + niacinamide + alpha-arbutin study',url:'https://pubmed.ncbi.nlm.nih.gov/31664751/'},
+      s23:{label:'Niacinamide + TXA moisturizer study',url:'https://pubmed.ncbi.nlm.nih.gov/24033822/'},
+      s24:{label:'Serum B3 niacinamide/TXA/vitamin C study',url:'https://pubmed.ncbi.nlm.nih.gov/40062688/'},
+      s25:{label:'Multimodal TXA/niacinamide pigment study',url:'https://pubmed.ncbi.nlm.nih.gov/37102219/'},
+      s26:{label:'TXA/azelaic-derivative/niacinamide study',url:'https://pubmed.ncbi.nlm.nih.gov/24688154/'},
+      s27:{label:'Azelaic acid vs TXA PIH study',url:'https://pubmed.ncbi.nlm.nih.gov/37213446/'},
+      s28:{label:'Azelaic acid adjunct with oral TXA study',url:'https://pubmed.ncbi.nlm.nih.gov/33823725/'},
+      s29:{label:'Cysteamine vs modified Kligman study',url:'https://pubmed.ncbi.nlm.nih.gov/32585079/'},
+      s30:{label:'Cysteamine vs hydroquinone/ascorbic acid study',url:'https://pubmed.ncbi.nlm.nih.gov/35510765/'},
+      s31:{label:'Stabilized cysteamine vs HQ/ascorbic acid study',url:'https://pubmed.ncbi.nlm.nih.gov/38638185/'},
+      s32:{label:'Alpha-arbutin/kojic acid pigment study',url:'https://pubmed.ncbi.nlm.nih.gov/39555866/'},
+      s33:{label:'Retinol + tripeptide clinical study',url:'https://pubmed.ncbi.nlm.nih.gov/37584260/'},
+      s34:{label:'Niacinamide/peptide/retinyl propionate study',url:'https://pubmed.ncbi.nlm.nih.gov/20374604/'},
+      s35:{label:'Retinoid/peptide/acid/niacinamide gel study',url:'https://pubmed.ncbi.nlm.nih.gov/32869963/'},
+      s36:{label:'Niacinamide + peptide serum study',url:'https://pubmed.ncbi.nlm.nih.gov/39768384/'},
+      s37:{label:'Vitamin C + biopeptide ampoule study',url:'https://pubmed.ncbi.nlm.nih.gov/33038010/'},
+      s38:{label:'Vitamin C + peptide safety study',url:'https://pubmed.ncbi.nlm.nih.gov/35064615/'},
+      s39:{label:'Vitamin C derivative + retinol acne study',url:'https://pubmed.ncbi.nlm.nih.gov/19134126/'},
+      s40:{label:'Retinol + THD vitamin C study',url:'https://pubmed.ncbi.nlm.nih.gov/27050703/'},
+      s41:{label:'Retinyl propionate/HPR/vitamin C study',url:'https://pubmed.ncbi.nlm.nih.gov/40029737/'},
+      s42:{label:'Azelaic/salicylic/retinol routine study',url:'https://pubmed.ncbi.nlm.nih.gov/38787441/'},
+      s43:{label:'Salicylic + azelaic peel trial',url:'https://pubmed.ncbi.nlm.nih.gov/29862871/'},
+      s44:{label:'Salicylic acid vs urea trial',url:'https://pubmed.ncbi.nlm.nih.gov/36943434/'},
+      s45:{label:'Salicylic peel + glycolic/urea maintenance study',url:'https://pubmed.ncbi.nlm.nih.gov/34971480/'},
+      s46:{label:'Salicylic acid + urea skin study',url:'https://pubmed.ncbi.nlm.nih.gov/7488393/'},
+      s47:{label:'Urea/barrier-lipid randomized study',url:'https://pubmed.ncbi.nlm.nih.gov/34619676/'},
+      s48:{label:'Tazarotene DailyMed label',url:'https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4e4e4b81-420e-4492-8a74-80b692a80057'},
+      s49:{label:'Sulfur DailyMed label',url:'https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fdcaaa56-a27d-5bd9-e053-6294a90a1160&version=3'},
+      s50:{label:'Hypochlorous-acid review',url:'https://pmc.ncbi.nlm.nih.gov/articles/PMC6303114/'},
+      s51:{label:'Updated HOCl clinical-insights review',url:'https://pmc.ncbi.nlm.nih.gov/articles/PMC12730738/'},
+      s52:{label:'BPO antioxidant formulation study',url:'https://pubmed.ncbi.nlm.nih.gov/18161634/'},
+      s53:{label:'Azelaic acid DailyMed label',url:'https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=d4e9e95d-1ebd-44df-a91e-59819715659c'},
+      s54:{label:'Topical acne treatment systematic review',url:'https://pubmed.ncbi.nlm.nih.gov/32356369/'},
+      s55:{label:'PHA/peptide/niacinamide study',url:'https://pubmed.ncbi.nlm.nih.gov/41668671/'},
+      s56:{label:'Topical TXA + ascorbic acid pilot study',url:'https://pubmed.ncbi.nlm.nih.gov/37560507/'},
+      s57:{label:'Updated topical GHK-Cu review',url:'https://pmc.ncbi.nlm.nih.gov/articles/PMC11830136/'},
+      s58:{label:'GHK-Cu + TXA mixed-solution case report',url:'https://pubmed.ncbi.nlm.nih.gov/27064823/'},
+      s59:{label:'10-peptide serum with copper tripeptide study',url:'https://pubmed.ncbi.nlm.nih.gov/41797621/'},
+      s60:{label:'Topical GHK-Cu phase 2 trial registry',url:'https://clinicaltrials.gov/study/NCT07437586'},
+      s61:{label:'COSRX copper peptide + niacinamide formula',url:'https://www.cosrx.com/collections/all/products/brightening-boost'},
+      s62:{label:'DailyMed multi-active copper peptide label',url:'https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=9b597c62-4b78-1656-e053-2a95a90afaf6&type=pdf'},
+      s63:{label:'Retinol + copper peptide finished formula',url:'https://www.reshlab.com/products/derma-peptide-retinol-serum'},
+      s64:{label:'Copper peptide + azelaic acid + urea formula',url:'https://kovehair.com/ingredients'},
+      s65:{label:'Hydroxy-acid classification and irritation review',url:'https://pmc.ncbi.nlm.nih.gov/articles/PMC3047947/'}
+    };
+    const ITEMS = [
+      {id:'cleanser',name:'Gentle cleanser / rinse',short:'Cleanser',cat:'foundation',family:'foundation',load:0,order:10,note:'Use when sweat, sunscreen, or soil needs removal; avoid abrasive cleansing.'},
+      {id:'moisturizer',name:'Bland moisturizer',short:'Moisturizer',cat:'foundation',family:'foundation',load:0,order:70,note:'Ceramides, glycerin, HA, or similar barrier support; formula still matters.'},
+      {id:'spf',name:'Broad-spectrum sunscreen',short:'SPF',cat:'foundation',family:'sunscreen',load:0,order:100,note:'Last morning skincare layer for meaningful UV exposure; follow the label.'},
+      {id:'tinted_spf',name:'Tinted / iron-oxide sunscreen',short:'Tinted SPF',cat:'foundation',family:'sunscreen',load:0,order:100,note:'Visible-light adjunct for pigment-prone skin; usually choose one primary sunscreen.'},
+      {id:'barrier_ointment',name:'Petrolatum / zinc barrier ointment',short:'Barrier ointment',cat:'foundation',family:'occlusive',load:0,order:90,note:'Recovery or friction barrier; occlusion can change how irritating actives feel.'},
+      {id:'humectant',name:'Hyaluronic acid / humectant serum',short:'Humectant',cat:'foundation',family:'foundation',load:0,order:55,note:'Hydration support; benefit depends more on the full moisturizer system than stacking.'},
+      {id:'niacinamide',name:'Niacinamide',short:'Niacinamide',cat:'antioxidant',family:'supportive',load:1,order:35,note:'Barrier/pigment adjunct. The vitamin C “cancellation” rule is not supported.'},
+      {id:'laa',name:'L-ascorbic acid (low-pH vitamin C)',short:'L-ascorbic acid',cat:'antioxidant',family:'antioxidant',load:2,order:25,note:'Split from derivatives because pH, oxidation, penetration, and evidence differ.'},
+      {id:'vitc_derivative',name:'Vitamin C derivative',short:'Vitamin C derivative',cat:'antioxidant',family:'antioxidant',load:1,order:30,note:'Derivative-specific conversion and evidence; not automatically equivalent to LAA.'},
+      {id:'adapalene',name:'Adapalene',short:'Adapalene',cat:'retinoid',family:'retinoid',load:3,order:40,note:'Stable with BPO in approved fixed combinations; irritation still matters.'},
+      {id:'tretinoin_conventional',name:'Tretinoin · conventional cream/gel',short:'Tretinoin conventional',cat:'retinoid',family:'retinoid',load:4,order:40,note:'Keep separate from BPO unless the exact product is documented as protected/stable.'},
+      {id:'tretinoin_stabilized',name:'Tretinoin · microsphere/optimized/fixed',short:'Tretinoin stabilized',cat:'retinoid',family:'retinoid',load:4,order:40,note:'Formulation-specific stability; verify the exact label rather than assuming.'},
+      {id:'tazarotene',name:'Tazarotene',short:'Tazarotene',cat:'retinoid',family:'retinoid',load:4,order:40,note:'Prescription retinoid; do not rank or combine by percentage alone.'},
+      {id:'otc_retinoid',name:'Retinol / retinal / cosmetic retinoid',short:'OTC retinoid',cat:'retinoid',family:'retinoid',load:3,order:40,note:'Alternative retinoid lane, not an add-on to a prescription retinoid.'},
+      {id:'aha',name:'AHA · glycolic / lactic acid',short:'AHA',cat:'exfoliant',family:'acid',load:4,order:30,note:'Leave-on exfoliant; pH and free-acid fraction matter.'},
+      {id:'bha',name:'BHA · salicylic acid leave-on',short:'BHA',cat:'exfoliant',family:'acid',load:3,order:30,note:'Acne/keratolytic lane; labels caution additive irritation with retinoids.'},
+      {id:'pha',name:'PHA leave-on',short:'PHA',cat:'exfoliant',family:'acid',load:2,order:30,note:'Often gentler, but still an exfoliating-acid lane rather than a free extra.'},
+      {id:'enzyme',name:'Enzyme exfoliant / scrub',short:'Enzyme exfoliant',cat:'exfoliant',family:'exfoliant',load:3,order:20,note:'Rinse-off and mechanical intensity vary; do not assume “natural” means non-irritating.'},
+      {id:'urea',name:'Urea 10–20% for rough body skin',short:'Urea',cat:'exfoliant',family:'keratolytic',load:2,order:60,note:'Texture/hydration branch for thick or rough areas, not a general brightener.'},
+      {id:'bpo',name:'Benzoyl peroxide',short:'Benzoyl peroxide',cat:'acne',family:'oxidant',load:3,order:35,note:'Evidence-based acne active; oxidant chemistry makes a few pair rules formulation-specific.'},
+      {id:'azelaic',name:'Azelaic acid',short:'Azelaic acid',cat:'acne',family:'treatment',load:2,order:35,note:'Acne, rosacea, and pigment lane; stinging/irritation can still accumulate.'},
+      {id:'dapsone',name:'Topical dapsone',short:'Dapsone',cat:'acne',family:'prescription',load:2,order:35,note:'Prescription acne active with a label-documented BPO discoloration interaction.'},
+      {id:'sulfur',name:'Sulfur / sulfacetamide-sulfur',short:'Sulfur',cat:'acne',family:'treatment',load:3,order:30,note:'Product-specific acne/rosacea lane; dryness and odor are not chemical cancellation.'},
+      {id:'hocl',name:'Finished hypochlorous-acid spray',short:'HOCl spray',cat:'acne',family:'oxidant',load:1,order:18,note:'Finished labeled product only; keep DIY generation and raw mixing outside this planner.'},
+      {id:'hydroquinone',name:'Hydroquinone course',short:'Hydroquinone',cat:'pigment',family:'prescription',load:3,order:35,note:'Diagnosis-, area-, concentration-, and duration-dependent; clinician oversight preferred.'},
+      {id:'triple_combo',name:'Prescription triple-combination cream',short:'Triple combination',cat:'pigment',family:'combo-retinoid',load:4,order:40,note:'Hydroquinone + tretinoin + corticosteroid is one prescription product, not three cards to recreate.'},
+      {id:'txa',name:'Topical tranexamic acid',short:'Topical TXA',cat:'pigment',family:'treatment',load:1,order:35,note:'Formula-specific pigment adjunct; do not confuse topical with oral TXA risk.'},
+      {id:'cysteamine',name:'Topical cysteamine',short:'Cysteamine',cat:'pigment',family:'treatment',load:3,order:25,note:'Pigment treatment with product-specific contact time and odor/irritation limits.'},
+      {id:'other_pigment',name:'Other pigment serum',short:'Other pigment serum',cat:'pigment',family:'treatment',load:2,order:35,note:'Kojic acid, alpha-arbutin, licorice, NAG, Thiamidol, 4-HR, or similar: inspect the exact formula.'},
+      {id:'peptide',name:'Non-copper peptide serum',short:'Peptide serum',cat:'peptide',family:'peptide',load:1,order:45,note:'Formula-specific adjunct with limited routine-level interaction evidence.'},
+      {id:'copper_peptide',name:'Copper peptide serum',short:'Copper peptide',cat:'peptide',family:'copper',load:1,order:45,note:'Research now distinguishes exact co-formulas, irritation/low-pH caution, and oxidant separation; arbitrary product layering is still not clinically mapped.'},
+      {id:'rlt',name:'Red / near-infrared light (PBM)',short:'RLT / PBM',cat:'device',family:'light-device',load:1,order:15,note:'Dose and manual matter. Bare, clean skin gives the most reproducible optical setup.'},
+      {id:'tria',name:'Home fractional laser · Tria FRX',short:'Tria FRX',cat:'device',family:'injury-device',load:5,order:15,note:'Clean, dry, product-free treatment; keep actives off reactive treatment days.'},
+      {id:'hair_device',name:'Home IPL / diode hair removal',short:'IPL / diode hair removal',cat:'device',family:'hair-device',load:4,order:15,note:'Hair-removal lane. Exact topical/medication exclusions come from the device IFU.'},
+      {id:'home_energy',name:'Home RF / non-fractional laser',short:'Home RF / laser',cat:'device',family:'energy-device',load:4,order:15,note:'Device-specific course; do not casually stack energy devices or irritated-skin actives.'},
+      {id:'microneedling',name:'Professional microneedling / RF microneedling',short:'Microneedling',cat:'device',family:'procedure',load:6,order:15,note:'Medical/episodic lane. FDA has not cleared microneedling to deliver skincare into skin.'},
+      {id:'clinical_energy',name:'Clinic laser / RF / HIFU procedure',short:'Clinic energy procedure',cat:'device',family:'procedure',load:6,order:15,note:'Provider-set pre/post care; there is no universal consumer washout window.'},
+      {id:'sculptra',name:'Sculptra / injectable procedure',short:'Sculptra',cat:'device',family:'procedure',load:6,order:15,note:'Clinician-directed procedure and aftercare, not an ordinary topical routine step.'}
+    ];
+    const ITEM_SYMBOLS = {
+      cleanser:'H₂O',moisturizer:'M',spf:'UV',tinted_spf:'UV+',barrier_ointment:'▰',humectant:'HA',
+      niacinamide:'N',laa:'C',vitc_derivative:'C+',adapalene:'Ad',tretinoin_conventional:'Tr',tretinoin_stabilized:'Tr+',tazarotene:'Tz',otc_retinoid:'R',
+      aha:'A',bha:'B',pha:'P',enzyme:'En',urea:'Ur',bpo:'BP',azelaic:'Az',dapsone:'Dp',sulfur:'S',hocl:'Cl',
+      hydroquinone:'HQ',triple_combo:'3×',txa:'TX',cysteamine:'Cy',other_pigment:'Px',peptide:'Pp',copper_peptide:'Cu',
+      rlt:'RL',tria:'FR',hair_device:'IPL',home_energy:'RF',microneedling:'MN',clinical_energy:'MD',sculptra:'PL'
+    };
+    const PAIR_TONE_META = {
+      compatible:{label:'Compatible',mark:'✓'},caution:{label:'Caution',mark:'!'},separate:{label:'Separate / check',mark:'↔'},
+      avoid:{label:'Avoid / coordinate',mark:'×'},duplicate:{label:'Duplicate',mark:'2×'},unknown:{label:'Unknown',mark:'?'}
+    };
+    const PAIR_TIMING_LABELS = {'same-session':'same session','same-day':'AM/PM on one day','different-day':'different days'};
+
+    const RULES = [];
+    function addRule(left,right,level,minGap,title,detail,sources=[]){
+      left.forEach(a=>right.forEach(b=>RULES.push({a,b,level,minGap,title,detail,sources})));
+    }
+    const RETINOIDS=['adapalene','tretinoin_conventional','tretinoin_stabilized','tazarotene','otc_retinoid'];
+    const ACIDS=['aha','bha','pha','enzyme'];
+    const HIGH_ACTIVES=[...RETINOIDS,...ACIDS,'bpo','azelaic','hydroquinone','triple_combo','cysteamine','sulfur'];
+    const DEVICES=['rlt','tria','hair_device','home_energy','microneedling','clinical_energy','sculptra'];
+    const FOUNDATION_IDS=ITEMS.filter(x=>x.cat==='foundation').map(x=>x.id);
+    const NONDEVICE_ACTIVES=ITEMS.filter(x=>x.cat!=='device'&&x.cat!=='foundation').map(x=>x.id);
+    const INGREDIENT_IDS=ITEMS.filter(x=>x.cat!=='device'&&x.cat!=='foundation').map(x=>x.id);
+
+    addRule(['adapalene'],['bpo'],'compatible','none','Evidence-backed combination','Adapalene and benzoyl peroxide are combined in FDA-labeled fixed-dose products and recommended in acne guidelines. That supports compatibility, not unlimited frequency or zero irritation.', ['s1','s2']);
+    addRule(['tretinoin_conventional'],['bpo'],'separate','different-session','Formulation-specific oxidation','Conventional, unprotected tretinoin degraded when exposed to benzoyl peroxide plus light in a stability study. Use different sessions unless the exact tretinoin product or prescriber says concurrent use is supported.', ['s3']);
+    addRule(['tretinoin_stabilized'],['bpo'],'compatible','none','Protected formulations can be compatible','Microsphere/optimized tretinoin formulations have shown protection or stability with benzoyl peroxide. Verify the exact product—this finding cannot be generalized to every tretinoin cream or gel.', ['s4','s18']);
+    addRule(['dapsone'],['bpo'],'separate','different-session','Temporary yellow/orange discoloration','The dapsone label reports temporary yellow/orange skin or facial-hair discoloration when topical dapsone is followed by benzoyl peroxide. Different sessions avoid the same-use reaction.', ['s5']);
+    addRule(['dapsone'],['adapalene'],'compatible','none','Studied in one acne regimen','A randomized 12-week study evaluated dapsone gel with adapalene without identifying a chemical incompatibility. Individual irritation, prescribing instructions, and the exact vehicles still control use.', ['s19']);
+    addRule(['hydroquinone'],['bpo','hocl'],'separate','different-session','Oxidant + hydroquinone uncertainty','Benzoyl peroxide can oxidize hydroquinone and cause temporary staining; hypochlorous acid is also an oxidant but lacks direct routine trials. Do not layer or premix these pairs.', ['s14']);
+    addRule(['triple_combo'],['bpo','hocl'],'separate','different-session','Protect the prescription combination','The triple-combination product contains hydroquinone and tretinoin. Keep oxidants out of the same session unless the prescriber directs otherwise.', ['s6','s14']);
+    addRule(['hydroquinone'],['tretinoin_conventional','tretinoin_stabilized'],'caution','none','A real prescription combination—not a DIY recipe','Hydroquinone and tretinoin coexist in an FDA-labeled triple-combination cream. That supports chemical coexistence in a designed formulation, while duration, steroid component, diagnosis, and irritation remain clinician-controlled.', ['s6']);
+    addRule(['triple_combo'],[...RETINOIDS,'hydroquinone'],'avoid','week','Duplicate prescription actives','Triple-combination cream already contains tretinoin and hydroquinone. Adding a separate retinoid or hydroquinone recreates/duplicates a prescription regimen without formulation or dose control.', ['s6']);
+    addRule(['niacinamide'],['laa'],'compatible','none','The “they cancel” rule is not supported','No clinical evidence located shows that sequential finished niacinamide and L-ascorbic-acid products neutralize each other on skin. A human hyperpigmentation study used niacinamide plus ascorbyl glucoside in one gel with ultrasound, showing co-formulation is possible; it was not a trial of separate low-pH LAA and niacinamide serums. Formulas can still sting or pill.', ['s9']);
+    addRule(['niacinamide'],[...RETINOIDS,...ACIDS,'bpo','azelaic','hydroquinone','txa','other_pigment'],'compatible','none','No established inactivation','This review found no documented direct-contact inactivation rule for niacinamide with this active. That is not proof every vehicle and concentration pair was clinically tested; treat irritation and the exact finished formula separately from internet pH myths.', []);
+    addRule(['laa'],['otc_retinoid'],'compatible','none','Formulated combinations exist','Human studies have used retinol and vitamin C together. That refutes a universal cancellation rule, but does not prove every pair of separate high-strength products is equally tolerable.', ['s7']);
+    addRule(['laa'],['adapalene','tretinoin_conventional','tretinoin_stabilized','tazarotene'],'caution','different-session','Not a cancellation; often a tolerability split','There is no good evidence for universal chemical cancellation on skin, and a small clinical study used tretinoin plus topical ascorbic acid in one regimen. AM vitamin C and PM prescription retinoid remains a practical way to reduce crowding and identify irritation.', ['s15','s20']);
+    addRule(['laa'],['aha','bha','pha','azelaic'],'caution','different-session','Low-pH and sting load—not proven cancellation','These can coexist in a broader regimen, but independent acidic leave-ons may add sting and make intolerance difficult to attribute. Separate sessions when starting; no pH-reset waiting time is established.', ['s15']);
+    addRule(['laa'],['bpo'],'unknown','different-session','Oxidation question is formulation-specific','Benzoyl peroxide is an oxidant, but direct human evidence for sequential use with independent L-ascorbic-acid serums is insufficient. A formulation study tested BPO with vitamin C among other antioxidants, but that does not validate arbitrary skin layering. Do not premix; different sessions sidestep direct contact without proving synergy or incompatibility.', ['s15','s52']);
+    addRule(['otc_retinoid'],['aha'],'caution','different-session','Combination can be formulated; separate products can overload','A human trial used a formulated retinol/glycolic product, so this is not universal chemical incompatibility. Independent leave-ons can still add irritation and should not be assumed equivalent.', ['s8']);
+    addRule(RETINOIDS,ACIDS,'caution','different-session','Additive irritation—not cancellation','Retinoid labels caution potentially irritating products, including salicylic acid and other drying/exfoliating agents. Separate initially or reduce frequency if the skin reacts.', ['s10']);
+    addRule(RETINOIDS,['azelaic','sulfur'],'caution','different-session','Additive irritation','These treatments may share a regimen, but irritation/dryness can accumulate. Different sessions make tolerance and attribution easier; no universal wait time is established.', ['s1','s10']);
+    addRule(['bpo'],['aha','bha','pha','enzyme','sulfur','azelaic'],'caution','different-session','Acne combinations can raise irritation load','This is not a blanket chemical cancellation. Multiple drying or keratolytic treatments in one session can raise redness, scaling, and sting; use the treatment plan and product labels.', ['s1','s10']);
+    addRule(['aha','bha','pha','enzyme'],['aha','bha','pha','enzyme'],'caution','different-session','Duplicated exfoliation load','Layering exfoliant families rarely adds a unique routine role and makes irritation harder to attribute. Choose one lane first.', ['s10']);
+    addRule(['copper_peptide'],['laa','bpo','hocl'],'unknown','different-session','Plausible formulation chemistry; missing clinical layering data','Copper/redox chemistry and peptide stability are formulation questions, but direct human evidence for sequential finished-product layering is insufficient. Do not premix; separate sessions if preserving formula certainty matters.', ['s16']);
+    addRule(['copper_peptide'],ACIDS,'unknown','different-session','Low-pH/formulation question','Direct clinical evidence for layering copper peptides with independent acid leave-ons is sparse. This is uncertainty—not proof that the products cancel each other.', ['s16']);
+    addRule(['barrier_ointment'],[...RETINOIDS,...ACIDS,'bpo','hydroquinone','cysteamine'],'caution','none','Occlusion can change tolerability','An ointment may support recovery, but heavy occlusion over an irritating active can change penetration and sting. Follow the active label; do not assume “sealing it in” is always gentler.', []);
+    addRule(['spf'],['tinted_spf'],'caution','same-session','Usually redundant sunscreen layers','Choose one primary sunscreen that can be applied at its labeled amount. Layering can be acceptable for tint/cosmetic reasons, but the planner does not add their labeled SPF values.', []);
+    addRule(['rlt'],[...HIGH_ACTIVES,'peptide','copper_peptide','niacinamide','laa','vitc_derivative','txa','other_pigment'],'separate','different-session','Keep the optical setup reproducible','Use the PBM device manual. Clean bare skin avoids unknown absorption/reflection from cosmetics; this is a dose-control rule, not evidence that red light chemically cancels an active.', []);
+    addRule(['tria'],HIGH_ACTIVES,'separate','recovery','Fractional-laser recovery lane','The Tria IFU calls for clean, dry, product-free skin and says not to treat skin that remains red or swollen. Use bland aftercare and resume actives only when the treated area is back to baseline; moving the card to the next calendar day does not prove recovery.', ['s11']);
+    addRule(['hair_device'],HIGH_ACTIVES,'separate','label','Device IFU controls the treated site','Hair-removal IFUs vary on photosensitizing drugs, irritated skin, peels, and topical products. Do not invent one stop-day number; check the exact device and medication for the same body site.', []);
+    addRule(['home_energy'],HIGH_ACTIVES,'separate','recovery','Keep a home energy-device course simple','Use the exact manual and its required gel or bare-skin setup. Strong actives around a heat/laser course can add irritation; resume based on the label and return to baseline comfort, not a universal clock.', []);
+    addRule(['microneedling'],FOUNDATION_IDS,'separate','different-session','Do not use microneedling to deliver routine products','FDA says microneedling devices are not authorized to deliver cosmetics, topical medicines, or vitamin solutions into skin. Keep ordinary products out of the procedure itself; use only the provider’s separate aftercare.', ['s12']);
+    addRule(['microneedling'],NONDEVICE_ACTIVES,'separate','clinician','Provider-directed peri-procedure care','FDA says microneedling devices are not authorized to deliver cosmetics, topical medicines, or vitamin solutions into skin. The provider controls when treatment actives stop and restart.', ['s12']);
+    addRule(['clinical_energy'],NONDEVICE_ACTIVES,'separate','clinician','Procedure-specific pre/post care','Laser, RF, and HIFU parameters and recovery differ. The treating clinician and exact device protocol control when actives stop and restart; a generic skincare matrix cannot supply that interval.', []);
+    addRule(['sculptra'],NONDEVICE_ACTIVES,'separate','clinician','Injectable aftercare is clinician-directed','Sculptra is an injectable procedure, not a topical layer. Follow the injector’s site care and urgent red flags; treatment actives are secondary during immediate recovery.', ['s17']);
+    addRule(['microneedling'],['home_energy','hair_device','tria','clinical_energy','sculptra'],'avoid','clinician','Do not self-coordinate procedures','This is a professional scheduling decision. RF microneedling has an FDA safety communication for burns, scarring, fat loss, disfigurement, and nerve damage and should not be treated as a home routine card.', ['s12','s13']);
+
+    // Research expansion for the previously unknown ingredient-only cells.
+    // These are deliberately scoped to finished-product coexistence or
+    // tolerance/formulation lanes; a co-formulated study is not permission to
+    // premix independent products. Exact higher-ranked rules above win when a
+    // newly grouped lane overlaps an existing formulation-specific exception.
+    addRule(['niacinamide'],['vitc_derivative'],'compatible','none','Supported derivative coexistence','A randomized study evaluated a serum containing niacinamide, tranexamic acid, stabilized vitamin C, and hydroxy acids. This supports coexistence in a designed derivative formula; it does not make every vitamin C derivative equivalent.', ['s24']);
+    addRule(['niacinamide'],['urea'],'compatible','none','Low-load barrier-support coexistence','Urea has randomized barrier/hydration evidence and niacinamide is a low-load support ingredient. No direct inactivation or same-session warning was located for finished products; inspect the vehicle and reduce steps if the formula stings.', ['s47','s54']);
+    addRule(['niacinamide'],['dapsone'],'caution','different-session','Prescription acne plus support lane','No direct cancellation was found, but dapsone is prescription acne treatment and adding another active makes irritation and attribution harder. Use the prescribing directions and separate initially if the site is reactive.', ['s5','s54']);
+    addRule(['niacinamide'],['sulfur'],'caution','different-session','Sulfur label irritation gate','The current sulfur label warns that another topical acne medication used at the same time can increase irritation and dryness. Niacinamide is not named as incompatible; the spacing is a tolerance default.', ['s49']);
+    addRule(['niacinamide'],['triple_combo','cysteamine'],'caution','different-session','Pigment-course load','Prescription triple-combination and cysteamine courses have their own duration, contact-time, and irritation boundaries. Niacinamide can be a support step, but start it outside the treatment session when the course is active.', ['s6','s29','s30']);
+    addRule(['niacinamide'],['peptide'],'compatible','none','Supported support-serum coexistence','Human studies evaluated niacinamide/peptide cosmetic regimens and niacinamide-plus-peptide serums. Formula tolerance and the prescription/medical active still control use.', ['s34','s36']);
+
+    addRule(['laa'],['vitc_derivative'],'caution','different-session','Redundant vitamin-C lane','Two vitamin-C strategies may be unnecessary and can increase sting, oxidation, or pilling without establishing extra benefit. Keep the forms separate while identifying the formula; this is a simplification rule, not proof of chemical incompatibility.', ['s15','s37']);
+    addRule(['laa'],['enzyme','dapsone','sulfur','cysteamine','other_pigment'],'caution','different-session','Acidic active-load caution','The vitamin C literature emphasizes formulation, pH, and irritation differences. These active or pigment lanes can be reasonable elsewhere in a plan, but separate sessions make tolerance and causality clearer.', ['s15','s29','s30','s49']);
+    addRule(['laa'],['hocl'],'separate','different-session','Oxidant and antioxidant separation','HOCl is highly reactive with electron-donating and thiol-containing groups in the formulation literature, while LAA is an antioxidant. Direct clinical layering evidence is absent, so separate finished products rather than infer a universal reaction or benefit.', ['s15','s50','s51']);
+    addRule(['laa'],['hydroquinone'],'compatible','exact formula check','Designed pigment formulas can pair hydroquinone and ascorbic acid','Clinical pigment trials used hydroquinone plus ascorbic acid as a comparator formula. That supports a finished-product formulation lane, not arbitrary mixing or an unsupervised hydroquinone course.', ['s30','s31']);
+    addRule(['laa'],['txa'],'compatible','exact formula check','Designed tranexamic-acid and vitamin-C formulas exist','A pilot study and multimodal pigment studies evaluated topical tranexamic acid with ascorbic acid or related pigment-support systems. Verify the exact formula and separate for sting; this is not a universal maximum-strength layering recommendation.', ['s24','s25','s56']);
+    addRule(['laa'],['peptide'],'compatible','exact formula check','Vitamin C and peptide co-formulations exist','Peptide-C ampoules containing topical vitamin C and biopeptides have clinical safety and tolerability evidence. The result applies to a designed formula, not every separate LAA serum plus peptide serum.', ['s37','s38']);
+
+    addRule(['vitc_derivative'],['adapalene','tretinoin_conventional','tretinoin_stabilized','tazarotene'],'caution','different-session','Derivative vitamin C plus prescription retinoid','A derivative can appear in a designed multi-active serum, but prescription retinoid labels and the topical vitamin C literature still make irritation, vehicle, and exact formulation the controlling variables. Separate initially.', ['s15','s24','s48']);
+    addRule(['vitc_derivative'],['otc_retinoid'],'compatible','exact formula check','Vitamin-C-derivative and cosmetic-retinoid formulas exist','Randomized acne and cosmetic studies evaluated vitamin C derivatives with retinol or related cosmetic retinoids. Do not generalize a finished formula to two independent maximum-strength products.', ['s39','s40','s41']);
+    addRule(['vitc_derivative'],['aha','bha','pha','enzyme'],'caution','different-session','Hydroxy-acid and derivative formula check','A serum containing stabilized vitamin C and hydroxy acids has been studied, but free-acid percentage, pH, and vehicle determine whether separate products sting. Treat this as a formula/tolerance caution.', ['s15','s24']);
+    addRule(['vitc_derivative'],['bpo','azelaic','dapsone','sulfur','hocl','hydroquinone','triple_combo','cysteamine','other_pigment'],'caution','different-session','Antioxidant plus active-load caution','A vitamin C derivative may coexist in a designed pigment/acne formula, but the exact derivative, oxidant environment, vehicle, and active load matter. Separate independent products while establishing tolerance.', ['s15','s24','s32','s49','s51','s52']);
+    addRule(['vitc_derivative'],['txa'],'compatible','exact formula check','Serum B3 co-formulation evidence','A randomized study evaluated niacinamide, tranexamic acid, stabilized vitamin C, and hydroxy acids in one serum. This is direct co-formulation evidence, not a promise for unrelated products.', ['s24']);
+    addRule(['vitc_derivative'],['peptide'],'compatible','exact formula check','Vitamin-C-derivative and peptide formulas exist','Vitamin C/biopeptide ampoules and vitamin C derivative/retinoid studies support designed coexistence. Verify the full INCI and introduce one change at a time.', ['s37','s39','s41']);
+    addRule(['otc_retinoid'],['peptide'],'compatible','exact formula check','Cosmetic retinoid and peptide formulas exist','Human cosmetic studies evaluated retinol or retinyl-propionate regimens with peptides. This supports a designed cosmetic formula or carefully introduced regimen, not adding a cosmetic retinoid to a prescription retinoid strategy.', ['s33','s34','s35']);
+
+    addRule(RETINOIDS,['urea','hocl','txa','other_pigment'],'caution','different-session','Retinoid plus another treatment lane','Retinoid labels and treatment studies support careful regimens, not a universal same-session stack. Separate when starting so dryness, sting, discoloration, and benefit remain attributable.', ['s33','s48']);
+    addRule(RETINOIDS.filter(id=>id!=='adapalene'),['dapsone'],'caution','different-session','Retinoid plus prescription acne lane','Retinoid labels and treatment studies support careful regimens, not a universal same-session stack. The studied dapsone/adapalene exception remains compatible, while other retinoid pairings start apart for tolerance and attribution.', ['s5','s48']);
+    addRule(RETINOIDS.filter(id=>id!=='otc_retinoid'),['peptide'],'caution','different-session','Prescription retinoid plus peptide lane','Peptide co-formulation evidence is strongest for cosmetic retinoids. Prescription retinoids should start in a different session so vehicle, dose, and irritation remain attributable.', ['s33','s34','s35','s48']);
+    addRule(['aha','bha','pha'],['urea','azelaic','dapsone','sulfur','hocl','hydroquinone','txa','cysteamine','other_pigment'],'caution','different-session','Exfoliant plus treatment-load caution','Peels, maintenance studies, labels, and acne reviews show that these lanes can be clinically useful but can also add keratolysis, sting, or pigmentary irritation. A different session is the conservative starting point for separate products.', ['s42','s43','s44','s45','s49','s54']);
+    addRule(['aha','bha','pha'],['peptide'],'compatible','exact formula check','Peptide/exfoliant co-formulations exist','A finished gel combined retinoid, peptide, salicylic acid, glycolic acid, and niacinamide, and a PHA/peptide/niacinamide formula has been studied. This supports designed formulations, not unrestricted layering of separate acids.', ['s35','s55']);
+    addRule(['enzyme'],['urea','azelaic','dapsone','hocl','txa','other_pigment','peptide'],'caution','different-session','Exfoliant and treatment-load caution','Enzyme or scrub intensity varies substantially by formula and contact time. No universal pair-specific reaction was located; spacing prevents a rinse-off/mechanical step from becoming an untracked irritation multiplier.', ['s15','s42','s54']);
+
+    addRule(['urea'],['bpo','azelaic','dapsone','sulfur','hocl','hydroquinone','txa','cysteamine','other_pigment'],'caution','different-session','Keratolytic plus active-load caution','Urea supports hydration and can be keratolytic at higher concentrations; the accompanying acne and pigment actives have their own irritation or label limits. Separate body-texture treatment from stronger leave-ons while testing tolerance.', ['s44','s45','s46','s47','s48','s49']);
+    addRule(['bpo'],['hocl'],'separate','different-session','Two oxidant product lanes','Benzoyl peroxide is an oxidant and HOCl chemistry is formulation- and pH-sensitive. Direct human sequential-layering evidence was not located; avoid same-session contact and follow both finished-product labels.', ['s10','s50','s51','s52']);
+    addRule(['bpo'],['txa','other_pigment','peptide'],'caution','different-session','Acne oxidant plus adjunct lane','These lanes may coexist in a broader acne or pigment plan, but a separate session avoids crowding an oxidant with another active while tolerance and exact formula are established.', ['s1','s21','s54']);
+
+    addRule(['azelaic'],['dapsone','sulfur','hocl','hydroquinone','txa','cysteamine','other_pigment','peptide'],'caution','different-session','Azelaic plus another treatment lane','Azelaic acid has acne/rosacea/pigment evidence, while the paired lanes have separate labels or treatment protocols. Combined routines exist, but direct independent-layering evidence is sparse and irritation is the practical limiter.', ['s27','s42','s49','s53','s54']);
+    addRule(['dapsone'],['sulfur','hocl','hydroquinone','txa','cysteamine','other_pigment','peptide'],'caution','different-session','Prescription acne plus adjunct lane','Dapsone has a specific peroxide discoloration warning, but not a complete pairwise clearance map for every adjunct. Separate the prescription from another active while checking the exact label and response.', ['s5','s21','s29','s49','s54']);
+    addRule(['sulfur'],['hocl','txa','other_pigment','peptide'],'caution','different-session','Sulfur plus adjunct lane','The current sulfur label warns that concurrent topical acne medication can increase irritation and dryness. It does not establish a chemical incompatibility with every adjunct; spacing is a conservative tolerance control.', ['s49']);
+    addRule(['hocl'],['cysteamine'],'separate','different-session','HOCl and thiol separation','Cysteamine contains a reactive thiol and HOCl reviews describe reactivity with thiol/electron-donating groups. No human sequential-layering trial was located, so do not put the finished products in the same session.', ['s29','s50','s51']);
+    addRule(['hocl'],['other_pigment'],'caution','different-session','HOCl and pigment-formula uncertainty','The updated HOCl review notes reactivity with phenolic and other electron-donating groups; “other pigment” is intentionally broad and its chemistry varies. Separate until the full formula is known.', ['s32','s51']);
+    addRule(['hydroquinone'],['txa','other_pigment','peptide'],'caution','different-session','Prescription pigment course plus adjunct','Hydroquinone courses and pigment adjuncts have different evidence, duration, and irritation boundaries. Separate independent products and keep diagnosis and duration clinician-controlled.', ['s21','s30','s31','s32']);
+    addRule(['triple_combo'],['txa','peptide'],'caution','different-session','Triple-combination course plus adjunct','The prescription already contains hydroquinone and tretinoin. Adjuncts may be studied in pigment routines, but adding them to a prescription course should be clinician-directed and separated initially.', ['s6','s21','s22']);
+    addRule(['txa'],['cysteamine'],'caution','different-session','Two pigment-treatment protocols','Cysteamine studies use a defined contact time and compare it with other pigment regimens; TXA studies use different vehicles and schedules. Keep separate until the treating plan says otherwise.', ['s21','s29','s30']);
+    addRule(['txa'],['other_pigment'],'compatible','exact formula check','TXA and pigment adjunct co-formulations exist','Human studies have evaluated tranexamic acid with niacinamide, alpha-arbutin, licorice, or related pigment-support ingredients. The “other pigment” group is broad, so verify the full formula rather than treating this as permission to stack everything.', ['s22','s23','s25','s26']);
+    addRule(['txa'],['peptide'],'caution','different-session','Pigment adjunct plus peptide formula check','No direct pair trial was located for arbitrary topical TXA and peptide serums. Keep the low-load adjuncts separate while checking the exact vehicle and attribution of any reaction.', ['s21','s54']);
+    addRule(['cysteamine'],['other_pigment','peptide'],'caution','different-session','Cysteamine course plus adjunct','Cysteamine is a defined pigment treatment with contact-time and irritation limits; comparator studies do not prove that any additional serum belongs in the same session.', ['s29','s30','s31']);
+    addRule(['other_pigment'],['peptide'],'caution','different-session','Broad pigment formula plus peptide','“Other pigment” spans chemically different ingredients. Some multi-active formulas contain peptides, but the full INCI and delivery system matter more than the family label; separate new products until tolerated.', ['s15','s32','s35']);
+
+    // Copper-peptide follow-up: the evidence is uneven, but it is not one
+    // undifferentiated unknown block. Exact finished formulas can support a
+    // formula-check category; treatment-load and oxidant lanes need spacing.
+    // None of these rules authorize mixing independent products or generalize
+    // a product's INCI list to every member of a broad ingredient family.
+    addRule(['copper_peptide'],['niacinamide'],'compatible','exact formula check','Co-formulated with niacinamide','Official finished formulas place copper tripeptide-1 and niacinamide in the same preserved vehicle. That demonstrates formulation coexistence, not a clinical clearance for every serum strength or vehicle.', ['s61','s62']);
+    addRule(['copper_peptide'],['vitc_derivative'],'compatible','exact formula check','Co-formulated with a vitamin-C derivative','A DailyMed ingredient label lists copper tripeptide-1 with sodium ascorbyl phosphate. The label is for an unapproved product and proves only that this designed vehicle contains the pair; it does not validate arbitrary separate products.', ['s62']);
+    addRule(['copper_peptide'],['otc_retinoid'],'compatible','exact formula check','Co-formulated with retinol','A finished retinol/peptide serum lists copper tripeptide-1 in the same vehicle. This is a product-specific coexistence signal; it does not generalize to prescription retinoids or every OTC retinoid formula.', ['s63']);
+    addRule(['copper_peptide'],['urea','azelaic'],'compatible','exact formula check','Co-formulated in a scalp-active vehicle','A current scalp formula lists copper tripeptide-1 with azelaic acid and urea. This supports only that exact type of vehicle and route; concentrations, site, and independent leave-on products still matter.', ['s64']);
+    addRule(['copper_peptide'],['txa'],'compatible','exact formula check','Copper peptide + TXA formula evidence','A human case report used a mixed copper-GHK, hyaluronic-acid, tranexamic-acid, and beta-glucan preparation with a Jet-M resurfacing procedure; a separate label also lists the pair. This is low-strength, procedure/formula-specific evidence—not a universal layering recommendation.', ['s58','s62']);
+    addRule(['copper_peptide'],['peptide'],'compatible','exact formula check','Co-formulated with other peptides','A human open-label study evaluated a multi-peptide serum whose INCI included copper tripeptide-1, and a separate label lists additional peptides with it. This supports designed peptide blends, not unlimited peptide stacking.', ['s59','s62']);
+    addRule(['copper_peptide'],['other_pigment'],'compatible','exact formula check','Co-formulated with an arbutin-type pigment ingredient','A DailyMed ingredient label lists copper tripeptide-1 with arbutin and other pigment-support ingredients. “Other pigment” is broad, so verify the exact INCI rather than treating one arbutin formula as a clearance for every pigment active.', ['s62']);
+    addRule(['copper_peptide'],['laa'],'caution','different-session','Low-pH LAA and copper-peptide formulation caution','GHK-Cu preformulation work found hydrolytic/oxidative stress sensitivity, while LAA products depend strongly on low pH, oxygen exposure, and vehicle. No direct human pair trial was located; use different sessions while checking the exact formulas.', ['s15','s16','s57']);
+    addRule(['copper_peptide'],RETINOIDS.filter(id=>id!=='otc_retinoid'),'caution','different-session','Prescription retinoid plus copper-peptide tolerance split','Human GHK-Cu and retinoic-acid comparisons used separate treatment sites rather than a combined layer. Prescription retinoid irritation and the copper-peptide formulation gap make a separate starting session the more attributable choice.', ['s10','s48','s57']);
+    addRule(['copper_peptide'],ACIDS,'caution','different-session','Exfoliant plus copper-peptide formulation/tolerance caution','GHK-Cu has been characterized across selected pH buffers, but leave-on acids vary in pH and free-acid load and can sting. No direct pair trial was located; separate new products while checking the finished formulas.', ['s16','s57','s65']);
+    addRule(['copper_peptide'],['dapsone','sulfur','hydroquinone','triple_combo','cysteamine'],'caution','different-session','Prescription or high-load treatment plus copper peptide','No direct chemical cancellation study was located. Prescription labels, defined pigment-course contact times, and active-load irritation make separate sessions the conservative starting category; this is not an avoid rule.', ['s5','s6','s14','s29','s30','s31','s49']);
+    addRule(['copper_peptide'],['bpo','hocl'],'separate','different-session','Oxidant separation for copper-peptide formula certainty','GHK-Cu is susceptible to oxidative stress in preformulation work, while benzoyl peroxide and HOCl are oxidant/formulation-sensitive lanes. No human skin-layering reaction was established; separate finished products and do not premix.', ['s16','s50','s51','s52','s57']);
+
+    addRule(['niacinamide'],['hocl'],'unknown','different-session','HOCl/niacinamide evidence gap','HOCl stability and reactivity depend on pH, storage, and the finished formula. No direct human sequential-use trial with niacinamide was located; the selected spacing avoids direct contact without turning the gap into compatibility evidence.', ['s50','s51']);
+    addRule(['laa'],['urea'],'unknown','different-session','LAA/urea evidence gap','Urea has barrier and keratolytic evidence, while LAA has pH and irritation/formulation boundaries. No direct human pair study was located for independent products; separate sessions are a practical uncertainty control.', ['s15','s44','s47']);
+    addRule(['vitc_derivative'],['urea'],'unknown','different-session','Vitamin-C-derivative/urea evidence gap','No direct human sequential-use or validated finished-product pair study was located for this broad derivative and urea family. Exact concentration, pH, and body site still matter.', ['s24','s47']);
+    addRule(['urea'],['peptide'],'unknown','different-session','Urea/peptide evidence gap','Urea barrier formulas and peptide formulas are each studied, but no direct sequential-use evidence for this pair was located. Separate new products while checking the exact vehicle and site.', ['s33','s47']);
+    addRule(['hocl'],['txa','peptide'],'unknown','different-session','HOCl adjunct evidence gap','HOCl reviews emphasize formulation chemistry, but no direct human sequential-use evidence with topical TXA or a non-copper peptide was located. Keep the finished products separate until the exact formulas are known.', ['s21','s36','s50','s51']);
+
+    const levelRank={compatible:0,unknown:1,caution:2,separate:3,avoid:4};
+    const clone=value=>JSON.parse(JSON.stringify(value));
+    const getItem=id=>ITEMS.find(item=>item.id===id);
+    const getCategory=id=>CATEGORIES.find(cat=>cat.id===id);
+    const qs=s=>document.querySelector(s),qsa=s=>[...document.querySelectorAll(s)];
+    const emptySchedule=()=>Object.fromEntries(DAYS.map(day=>[day.id,{am:[],pm:[]}]))
+    let uidCounter=0;
+    const makeOccurrence=id=>({uid:`i${Date.now().toString(36)}${(++uidCounter).toString(36)}`,id});
+    const AREAS={face:'Face',neck_chest:'Neck / chest',body:'Body / limbs',fold:'Fold / underarm / bikini line',scalp:'Scalp'};
+    let state={schedule:emptySchedule(),filter:'all',query:'',activeDay:'mon',area:'face',context:{irritated:false,pregnancy:false,freshShave:false,pigmentProne:false},preset:'foundation'};
+    let pairState={a:'niacinamide',b:'laa',timing:'same-session'},pairPreview={pointer:null,focus:null};
+    let dialogState=null,pointerDrag=null,toastTimer=null;
+
+    function findBaseRule(a,b){
+      const matches=RULES.filter(rule=>(rule.a===a&&rule.b===b)||(rule.a===b&&rule.b===a));
+      if(matches.length) return matches.sort((x,y)=>levelRank[y.level]-levelRank[x.level])[0];
+      const ia=getItem(a),ib=getItem(b);
+      if(!ia||!ib) return null;
+      if(a===b){
+        if(['cleanser','moisturizer','spf','tinted_spf','humectant'].includes(a)) return {level:'caution',minGap:'same-session',title:'Repeated in one session',detail:'Repeated placement may be accidental; product labels and cleansing need determine frequency.',sources:[]};
+        return {level:'avoid',minGap:'same-session',title:'Duplicate active in one session',detail:'The same treatment is listed more than once. Remove the duplicate rather than counting it as additional benefit.',sources:[]};
+      }
+      if(ia.family==='retinoid'&&ib.family==='retinoid') return {level:'avoid',minGap:'week',title:'Multiple retinoid strategies',detail:'Choose one retinoid strategy unless a prescriber explicitly designed the switch. Alternating different retinoids does not create a known benefit and complicates tolerability.',sources:['s10']};
+      if(ia.cat==='device'&&ib.cat==='device') return {level:'caution',minGap:'week',title:'Multiple device/procedure lanes',detail:'Mechanisms, treatment sites, and recovery differ. Coordinate one defined device course at a time or have the treating clinician set the combination.',sources:[]};
+      if(ia.family==='foundation'||ib.family==='foundation'||ia.family==='sunscreen'||ib.family==='sunscreen') return {level:'compatible',minGap:'none',title:'Foundation-compatible',detail:'No relevant ingredient inactivation is established. Use generic order only as a starting point and follow each product label.',sources:[]};
+      if(ia.cat==='device'||ib.cat==='device') return {level:'unknown',minGap:'label',title:'Manual or clinician needed',detail:'The exact device, site, medication, and skin response control this pair. The archive does not infer a universal washout from mechanism alone.',sources:[]};
+      if(ia.load+ib.load>=6) return {level:'caution',minGap:'different-session',title:'Additive irritation load','detail':'No direct cancellation rule was found, but placing two higher-load treatments together can make redness, dryness, or PIH more likely and harder to attribute.',sources:[]};
+      return {level:'unknown',minGap:'none',title:'No direct pair evidence located',detail:'No reliable routine-level interaction was found for this exact pair. That is not proof of incompatibility or benefit; inspect the finished formulas and introduce one change at a time.',sources:[]};
+    }
+
+    function resolveRule(a,b,proximity){
+      const base=findBaseRule(a,b);
+      if(!base) return {level:'unknown',title:'Unknown pair',detail:'No data.',sources:[]};
+      let level=base.level,resolved=false;
+      if(base.minGap==='different-session'&&proximity!=='same-session'&&base.level!=='unknown'){level='compatible';resolved=true;}
+      if(base.minGap==='different-day'&&proximity==='different-day'){level='compatible';resolved=true;}
+      if(base.minGap==='same-session'&&proximity!=='same-session'){level='compatible';resolved=true;}
+      if(base.minGap==='label'||base.minGap==='clinician'||base.minGap==='week'||base.minGap==='recovery') level=base.level;
+      const mitigated=base.level==='unknown'&&base.minGap==='different-session'&&proximity!=='same-session';
+      const timingText=resolved?'The selected spacing resolves the planner rule; tolerance and labels still apply. ':mitigated?'The selected spacing avoids direct layering, but it does not turn missing evidence into evidence of compatibility. ':'';
+      return {...base,baseLevel:base.level,level,resolved,mitigated,detail:timingText+base.detail};
+    }
+
+    function pairVisualTone(a,b,rule){
+      const isDuplicate=rule.level!=='compatible'&&(a===b||/duplicate|multiple retinoid/i.test(rule.title));
+      return isDuplicate?'duplicate':rule.level;
+    }
+    function pairPresentation(a,b,timing){const rule=resolveRule(a,b,timing),tone=pairVisualTone(a,b,rule);return {rule,tone,meta:PAIR_TONE_META[tone]||PAIR_TONE_META.unknown};}
+    function buildPairPalette(anchor,timing){return Object.fromEntries(ITEMS.map(item=>[item.id,pairPresentation(anchor,item.id,timing)]));}
+    function activePairPreview(){const candidate=pairPreview.pointer||pairPreview.focus;return candidate&&pairState[candidate.side]!==candidate.id?candidate:null;}
+    function effectivePair(){const active={...pairState},preview=activePairPreview();if(preview)active[preview.side]=preview.id;return active;}
+
+    function allOccurrences(schedule=state.schedule){
+      const out=[];DAYS.forEach(day=>['am','pm'].forEach(session=>schedule[day.id][session].forEach((occ,index)=>out.push({...occ,day:day.id,session,index}))));return out;
+    }
+    function proximityFor(a,b){
+      const occ=allOccurrences().filter(x=>x.id===a||x.id===b);let best='different-day';
+      for(let i=0;i<occ.length;i++)for(let j=i+1;j<occ.length;j++)if(occ[i].id!==occ[j].id){if(occ[i].day===occ[j].day&&occ[i].session===occ[j].session)return 'same-session';if(occ[i].day===occ[j].day)best='same-day';}
+      return best;
+    }
+    function sourceHtml(ids=[]){return ids.map(id=>SOURCES[id]?`<a class="source-chip" href="${SOURCES[id].url}" target="_blank" rel="noopener">${SOURCES[id].label} ↗</a>`:'').join('');}
+    function timingLabel(day,session){return `${DAYS.find(x=>x.id===day)?.short||day} ${session.toUpperCase()}`;}
+
+    function audit(){
+      const issues=[],flaggedUids=new Map(),daily={};
+      const addIssue=issue=>{
+        const key=[issue.level,issue.title,issue.where||'',...(issue.ids||[])].join('|');
+        if(issues.some(x=>x.key===key))return;issues.push({...issue,key});
+        (issue.uids||[]).forEach(uid=>{const prev=flaggedUids.get(uid);if(!prev||levelRank[issue.level]>levelRank[prev])flaggedUids.set(uid,issue.level)});
+      };
+      DAYS.forEach(day=>{
+        let dayLevel='clear';
+        ['am','pm'].forEach(session=>{
+          const list=state.schedule[day.id][session];
+          for(let i=0;i<list.length;i++)for(let j=i+1;j<list.length;j++){
+            const rule=resolveRule(list[i].id,list[j].id,'same-session');
+            if(rule.level!=='compatible') addIssue({level:rule.level,title:rule.title,detail:rule.detail,sources:rule.sources,where:timingLabel(day.id,session),ids:[list[i].id,list[j].id],uids:[list[i].uid,list[j].uid]});
+          }
+          for(let i=1;i<list.length;i++){
+            const previous=getItem(list[i-1].id),current=getItem(list[i].id);
+            if(previous.order>current.order){
+              addIssue({level:'caution',title:'Generic layer order is reversed',detail:`${current.name} usually belongs before ${previous.name} in the generic sequence. Use “Sort layer order,” then confirm the product labels.`,sources:[],where:timingLabel(day.id,session),ids:[previous.id,current.id],uids:[list[i-1].uid,list[i].uid]});
+              break;
+            }
+          }
+          const load=list.reduce((sum,occ)=>sum+getItem(occ.id).load,0);
+          if(load>=9)addIssue({level:'caution',title:'High same-session irritation load',detail:'Several higher-load active/device categories are crowded into this session. This is an ordinal screening signal—not an adverse-event probability or dose calculation—and is a prompt to simplify and introduce one change at a time.',sources:[],where:timingLabel(day.id,session),ids:list.map(x=>x.id),uids:list.map(x=>x.uid)});
+          if(session==='am'){
+            const sunscreenIndexes=list.map((x,i)=>getItem(x.id).family==='sunscreen'?i:-1).filter(i=>i>=0);
+            if(sunscreenIndexes.length&&Math.max(...sunscreenIndexes)!==list.length-1)addIssue({level:'caution',title:'Sunscreen is not the last morning skincare layer',detail:'Move the primary sunscreen after the other skincare steps unless its label directs otherwise. Makeup is outside this planner.',sources:[],where:timingLabel(day.id,session),ids:list.map(x=>x.id),uids:[list[Math.max(...sunscreenIndexes)].uid]});
+          }
+        });
+        const am=state.schedule[day.id].am,pm=state.schedule[day.id].pm;
+        for(const a of am)for(const b of pm){const rule=resolveRule(a.id,b.id,'same-day');if(['avoid','separate','caution'].includes(rule.level))addIssue({level:rule.level,title:rule.title,detail:rule.detail,sources:rule.sources,where:`${day.short} · AM/PM`,ids:[a.id,b.id],uids:[a.uid,b.uid]});}
+        daily[day.id]=dayLevel;
+      });
+      const occurrences=allOccurrences(),unique=[...new Set(occurrences.map(x=>x.id))];
+      for(let i=0;i<unique.length;i++)for(let j=i+1;j<unique.length;j++){
+        const proximity=proximityFor(unique[i],unique[j]),rule=resolveRule(unique[i],unique[j],proximity);
+        if(proximity==='different-day'&&['avoid','separate'].includes(rule.level)){
+          const pair=[unique[i],unique[j]];
+          addIssue({level:rule.level,title:rule.title,detail:rule.detail,sources:rule.sources,where:'Whole week · unresolved timing',ids:pair,uids:occurrences.filter(x=>pair.includes(x.id)).map(x=>x.uid)});
+        }
+      }
+      const plannedRetinoids=unique.filter(id=>getItem(id).family==='retinoid'||id==='triple_combo');
+      if(plannedRetinoids.length>1)addIssue({level:'avoid',title:'More than one retinoid strategy appears this week',detail:`Selected: ${plannedRetinoids.map(id=>getItem(id).name).join(', ')}. Choose one unless a prescriber explicitly designed a transition or combination.`,sources:['s10'],where:'Whole week',ids:plannedRetinoids,uids:occurrences.filter(x=>plannedRetinoids.includes(x.id)).map(x=>x.uid)});
+      const plannedDevices=unique.filter(id=>DEVICES.includes(id)&&id!=='rlt');
+      if(plannedDevices.length>1)addIssue({level:'caution',title:'Multiple injury/energy procedure lanes appear this week',detail:`Selected: ${plannedDevices.map(id=>getItem(id).name).join(', ')}. This planner cannot coordinate cumulative tissue response; use one defined course or clinician scheduling.`,sources:plannedDevices.includes('microneedling')?['s12','s13']:[],where:'Whole week',ids:plannedDevices,uids:occurrences.filter(x=>plannedDevices.includes(x.id)).map(x=>x.uid)});
+      if(state.context.irritated){
+        const targets=occurrences.filter(x=>getItem(x.id).load>=2||getItem(x.id).cat==='device');
+        if(targets.length)addIssue({level:'avoid',title:'Irritated, sunburned, or broken skin conflicts with planned treatments',detail:'Switch the affected area to bland care and do not resume a drug/device because a calendar day arrived. Use the label/IFU and wait for baseline comfort; seek care for severe or persistent symptoms.',sources:['s10','s11'],where:'Safety context',ids:targets.map(x=>x.id),uids:targets.map(x=>x.uid)});
+      }
+      if(state.context.pregnancy){
+        const targets=occurrences.filter(x=>getItem(x.id).family==='retinoid'||x.id==='triple_combo'||x.id==='hydroquinone');
+        if(targets.length)addIssue({level:'avoid',title:'Pregnancy/trying context needs medication review',detail:'Topical retinoids should not be self-used in pregnancy/trying. Hydroquinone and prescription triple-combination decisions also belong with the treating clinician; do not rely on this planner for clearance.',sources:['s6','s10'],where:'Safety context',ids:targets.map(x=>x.id),uids:targets.map(x=>x.uid)});
+      }
+      if(state.context.freshShave){
+        const targets=occurrences.filter(x=>getItem(x.id).load>=2&&getItem(x.id).cat!=='foundation');
+        if(targets.length)addIssue({level:'caution',title:'Freshly shaved/waxed skin can be more reactive',detail:'Do not place strong leave-ons or devices on freshly irritated skin merely because they are in different routine steps. Wait until the area is comfortable and follow the product/device label.',sources:[],where:'Safety context',ids:targets.map(x=>x.id),uids:targets.map(x=>x.uid)});
+      }
+      if(state.context.pigmentProne){
+        const overloaded=DAYS.flatMap(day=>['am','pm'].map(session=>({day:day.id,session,list:state.schedule[day.id][session]}))).filter(x=>x.list.reduce((sum,o)=>sum+getItem(o.id).load,0)>=7);
+        if(overloaded.length)addIssue({level:'caution',title:'Irritation can become a pigment problem',detail:'PIH/melasma-prone skin raises the cost of avoidable irritation. Simplify the highest-load sessions and stop if new darkening follows inflammation.',sources:[],where:'Safety context',ids:overloaded.flatMap(x=>x.list.map(o=>o.id)),uids:overloaded.flatMap(x=>x.list.map(o=>o.uid))});
+      }
+      if(state.area==='fold'){
+        const targets=occurrences.filter(x=>getItem(x.id).load>=3||getItem(x.id).cat==='device');
+        if(targets.length)addIssue({level:'caution',title:'Fold skin needs site-specific restraint',detail:'Friction, occlusion, shaving, and diagnosis can change tolerance in underarms, groin, and other folds. Start with fewer high-load treatments and verify that each label permits this site; avoid mucosal skin.',sources:[],where:'Safety context · fold area',ids:targets.map(x=>x.id),uids:targets.map(x=>x.uid)});
+      }
+      if(state.area==='scalp'){
+        const targets=occurrences.filter(x=>getItem(x.id).cat==='device'||getItem(x.id).load>=3);
+        if(targets.length)addIssue({level:'caution',title:'Scalp use is product- and diagnosis-specific',detail:'Hair, vehicles, folliculitis, dermatitis, and device contact change this site. Confirm the product/device is intended for scalp use rather than extrapolating a facial routine.',sources:[],where:'Safety context · scalp',ids:targets.map(x=>x.id),uids:targets.map(x=>x.uid)});
+      }
+      DAYS.forEach(day=>{
+        const levels=issues.filter(issue=>issue.where?.includes(day.short)).map(issue=>issue.level);
+        daily[day.id]=levels.includes('avoid')?'avoid':levels.includes('separate')?'separate':levels.includes('caution')||levels.includes('unknown')?'caution':'clear';
+      });
+      issues.sort((a,b)=>levelRank[b.level]-levelRank[a.level]||a.where.localeCompare(b.where));
+      return {issues,flaggedUids,daily,counts:{avoid:issues.filter(x=>x.level==='avoid').length,separate:issues.filter(x=>x.level==='separate').length,caution:issues.filter(x=>x.level==='caution').length,unknown:issues.filter(x=>x.level==='unknown').length}};
+    }
+
+    function foundationSchedule(recovery=false){
+      const schedule=emptySchedule();
+      DAYS.forEach(day=>{
+        schedule[day.id].am=[makeOccurrence('moisturizer'),makeOccurrence('spf')];
+        schedule[day.id].pm=[makeOccurrence('moisturizer')];
+        if(recovery) schedule[day.id].pm.push(makeOccurrence('barrier_ointment'));
+      });
+      return schedule;
+    }
+    function applyPreset(name){
+      state.schedule=name==='blank'?emptySchedule():foundationSchedule(name==='recovery');state.preset=name;renderAll();announce(`${name==='blank'?'Blank':name==='recovery'?'Recovery':'Foundation'} week loaded`);
+    }
+
+    function loadLabel(value){return value===0?'foundation':value<=1?'low load':value<=2?'moderate load':value<=4?'higher load':'procedure';}
+    function catalogCard(item){const cat=getCategory(item.cat);return `<article class="catalog-card" draggable="true" data-catalog-id="${item.id}" style="--cat:${cat.color}"><button class="catalog-main" data-add-id="${item.id}" type="button"><b>${item.name}</b><small>${item.note}</small><span class="meta"><span class="pill">${cat.label}</span><span class="pill">${loadLabel(item.load)}</span></span></button><button class="drag-handle" data-touch-id="${item.id}" type="button" aria-label="Drag ${item.name}">↕</button></article>`;}
+    function placedCard(occ,day,session,flag){const item=getItem(occ.id),cat=getCategory(item.cat);return `<article class="placed ${flag?`flag-${flag}`:''}" draggable="true" data-occurrence="${occ.uid}" data-item-id="${occ.id}" data-source-day="${day}" data-source-session="${session}" style="--cat:${cat.color}"><button class="placed-main" data-edit-uid="${occ.uid}" type="button"><b>${item.short}</b><small>${cat.label}</small></button><button class="drag-handle" data-touch-id="${occ.id}" data-touch-uid="${occ.uid}" data-source-day="${day}" data-source-session="${session}" type="button" aria-label="Move ${item.name}">↕</button></article>`;}
+
+    function renderFilters(){qs('#filters').innerHTML=CATEGORIES.map(cat=>`<button class="filter ${state.filter===cat.id?'active':''}" data-filter="${cat.id}" type="button">${cat.label}</button>`).join('');qsa('[data-filter]').forEach(button=>button.onclick=()=>{state.filter=button.dataset.filter;renderFilters();renderCatalog();});}
+    function renderCatalog(){
+      const query=state.query.trim().toLowerCase();const items=ITEMS.filter(item=>(state.filter==='all'||item.cat===state.filter)&&(`${item.name} ${item.note} ${item.cat}`.toLowerCase().includes(query)));
+      qs('#catalogList').innerHTML=items.length?items.map(catalogCard).join(''):'<div class="empty">No matching cards.</div>';bindCatalog();
+    }
+    function renderTabs(){qs('#dayTabs').innerHTML=DAYS.map(day=>`<button class="day-tab ${state.activeDay===day.id?'active':''}" data-day-tab="${day.id}" type="button">${day.short}</button>`).join('');qsa('[data-day-tab]').forEach(button=>button.onclick=()=>{state.activeDay=button.dataset.dayTab;renderTabs();renderWeek();});}
+    function renderWeek(){
+      const result=audit();
+      qs('#weekGrid').innerHTML=DAYS.map(day=>`<section class="day ${state.activeDay===day.id?'mobile-active':''}" data-day="${day.id}" data-level="${result.daily[day.id]}"><div class="day-header"><b>${day.label}</b><span class="day-state" title="${result.daily[day.id]}" aria-label="${result.daily[day.id]}"></span></div>${['am','pm'].map(session=>{const list=state.schedule[day.id][session];return `<div class="slot" data-slot-day="${day.id}" data-slot-session="${session}"><div class="slot-title"><span>${session==='am'?'Morning':'Night'}</span><button data-quick-add="${day.id}:${session}" type="button">+ add</button></div>${list.length?list.map(occ=>placedCard(occ,day.id,session,result.flaggedUids.get(occ.uid))).join(''):'<div class="empty">Drop or tap a card</div>'}</div>`;}).join('')}</section>`).join('');
+      bindWeek();
+    }
+    function renderAnalysis(){
+      const result=audit();Object.keys(result.counts).forEach(level=>qs(`#${level}Count`).textContent=result.counts[level]);
+      const total=result.issues.length,planned=new Set(allOccurrences().map(x=>x.id)).size;
+      qs('#assessmentSummary').textContent=!planned?'Add cards to begin. The lab will report only rules it can explain.':!total?'No catalog interaction is currently flagged. That means “no detected rule,” not guaranteed suitability for your skin or exact products.':result.counts.avoid?`Start with the ${result.counts.avoid} documented/duplicate issue${result.counts.avoid===1?'':'s'} before optimizing anything else.`:result.counts.separate?`No hard duplicate is present, but ${result.counts.separate} pair${result.counts.separate===1?' needs':'s need'} separation, an IFU, or clinician timing.`:`The remaining signals are mainly irritation load, order, or evidence uncertainty—not proven chemical cancellation.`;
+      qs('#issues').innerHTML=result.issues.length?result.issues.slice(0,18).map(issue=>`<article class="issue" data-level="${issue.level}"><span class="issue-dot" aria-hidden="true"></span><div><b>${issue.title}</b><div class="issue-meta">${issue.where} · ${issue.level}</div><p>${issue.detail}</p>${sourceHtml(issue.sources)}</div></article>`).join(''):'<div class="quiet-result"><b>No unresolved catalog rule.</b><br>Check the exact labels, introduce one change at a time, and use the irritated-skin context if the plan stops feeling routine.</div>';
+      renderMatrix();
+    }
+    function closestProximity(a,b){return proximityFor(a,b);}
+    function renderMatrix(){
+      const unique=[...new Set(allOccurrences().map(x=>x.id))].filter(id=>!['cleanser','moisturizer','humectant','spf','tinted_spf'].includes(id));
+      const shown=unique.slice(0,10);qs('#matrixNote').textContent=unique.length>10?`Showing the first 10 of ${unique.length} planned treatment cards. A cell reflects their closest placement; tap for the explanation.`:'Planned treatment cards appear here. A cell reflects their closest placement in the week; tap it for the explanation.';
+      if(shown.length<2){qs('#matrixScroll').innerHTML='<div class="quiet-result">Add at least two treatment cards to draw the relationship map.</div>';return;}
+      const head=`<tr><th></th>${shown.map(id=>`<th class="rotate"><span>${getItem(id).short}</span></th>`).join('')}</tr>`;
+      const body=shown.map((a,row)=>`<tr><th>${getItem(a).short}</th>${shown.map((b,col)=>{if(row===col)return '<td><button class="matrix-cell diagonal" disabled aria-label="Same item"></button></td>';const proximity=closestProximity(a,b),rule=resolveRule(a,b,proximity);return `<td><button class="matrix-cell" data-level="${rule.level}" data-pair-a="${a}" data-pair-b="${b}" data-pair-timing="${proximity}" title="${rule.title}" aria-label="${getItem(a).name} and ${getItem(b).name}: ${rule.level}. ${rule.title}"></button></td>`;}).join('')}</tr>`).join('');
+      qs('#matrixScroll').innerHTML=`<table class="matrix"><thead>${head}</thead><tbody>${body}</tbody></table>`;
+      qsa('[data-pair-a]').forEach(button=>button.onclick=()=>{pairState={a:button.dataset.pairA,b:button.dataset.pairB,timing:button.dataset.pairTiming};pairPreview={pointer:null,focus:null};paintPairExplorer();qs('#pairLab').scrollIntoView({behavior:'smooth',block:'start'});announce(`${getItem(pairState.a).short} and ${getItem(pairState.b).short} opened in the pair laboratory`);});
+    }
+    function pairTileHtml(item,side){
+      const selected=pairState[side]===item.id,category=getCategory(item.cat);
+      return `<button class="pair-item" id="pair-${side}-${item.id}" data-pair-item="${item.id}" data-pair-side="${side}" type="button" role="radio" aria-checked="${selected}" tabindex="${selected?'0':'-1'}" style="--cat:${category?.color||'#65736f'}"><span class="pair-icon" aria-hidden="true">${ITEM_SYMBOLS[item.id]||item.short.slice(0,2)}</span><span class="pair-item-name">${item.short}</span><span class="pair-mark" aria-hidden="true">?</span></button>`;
+    }
+    function renderPairGrids(){
+      ['a','b'].forEach(side=>{const grid=qs(side==='a'?'#pairGridA':'#pairGridB');grid.innerHTML=ITEMS.map(item=>pairTileHtml(item,side)).join('');});
+      qsa('.pair-item[data-pair-item]').forEach(button=>{
+        button.addEventListener('click',()=>setPairSelection(button.dataset.pairSide,button.dataset.pairItem));
+        button.addEventListener('pointerenter',()=>{if(matchMedia('(hover:hover)').matches){pairPreview.pointer={side:button.dataset.pairSide,id:button.dataset.pairItem};paintPairExplorer();}});
+        button.addEventListener('focus',()=>{pairPreview.focus={side:button.dataset.pairSide,id:button.dataset.pairItem};paintPairExplorer();});
+        button.addEventListener('keydown',movePairFocus);
+      });
+      qsa('.pair-grid').forEach(grid=>{
+        grid.addEventListener('pointerleave',()=>{pairPreview.pointer=null;paintPairExplorer();});
+        grid.addEventListener('focusout',()=>requestAnimationFrame(()=>{if(!grid.contains(document.activeElement)){pairPreview.focus=null;paintPairExplorer();}}));
+      });
+      paintPairExplorer();
+    }
+    function pairGridColumns(grid){const columns=getComputedStyle(grid).gridTemplateColumns.trim();return Math.max(1,columns?columns.split(/\s+/).length:1);}
+    function movePairFocus(event){
+      const keys=['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','Home','End','Escape'];if(!keys.includes(event.key))return;
+      event.preventDefault();if(event.key==='Escape'){pairPreview={pointer:null,focus:null};paintPairExplorer();event.currentTarget.blur();return;}
+      const button=event.currentTarget,side=button.dataset.pairSide,grid=button.closest('.pair-grid'),buttons=qsa(`.pair-item[data-pair-side="${side}"]`),index=buttons.indexOf(button),columns=pairGridColumns(grid);let next=index;
+      if(event.key==='Home')next=0;else if(event.key==='End')next=buttons.length-1;else if(event.key==='ArrowLeft')next=index-1;else if(event.key==='ArrowRight')next=index+1;else if(event.key==='ArrowUp')next=index-columns;else if(event.key==='ArrowDown')next=index+columns;
+      next=(next+buttons.length)%buttons.length;const target=buttons[next];pairState[side]=target.dataset.pairItem;pairPreview={pointer:null,focus:null};paintPairExplorer();target.focus();announce(`${getItem(pairState[side]).name} pinned as choice ${side.toUpperCase()}`);
+    }
+    function setPairSelection(side,id,shouldAnnounce=true){
+      if(!['a','b'].includes(side)||!getItem(id))return;pairState[side]=id;pairPreview={pointer:null,focus:null};paintPairExplorer();if(shouldAnnounce)announce(`${getItem(id).name} pinned as choice ${side.toUpperCase()}`);
+    }
+    function setPairTiming(timing,shouldAnnounce=true){
+      if(!PAIR_TIMING_LABELS[timing])return;pairState.timing=timing;pairPreview={pointer:null,focus:null};paintPairExplorer();if(shouldAnnounce)announce(`Pair timing set to ${PAIR_TIMING_LABELS[timing]}`);
+    }
+    function paintPairGrid(side,oppositeId,timing){
+      const opposite=getItem(oppositeId),preview=activePairPreview();
+      qsa(`.pair-item[data-pair-side="${side}"]`).forEach(button=>{
+        const id=button.dataset.pairItem,presentation=pairPresentation(id,oppositeId,timing),selected=pairState[side]===id,isPreview=preview?.side===side&&preview.id===id;
+        button.dataset.verdict=presentation.tone;button.dataset.resolved=String(!!presentation.rule.resolved);button.classList.toggle('is-selected',selected);button.classList.toggle('is-preview',isPreview);button.setAttribute('aria-checked',String(selected));button.tabIndex=selected?0:-1;
+        button.querySelector('.pair-mark').textContent=presentation.meta.mark;
+        const stateText=presentation.rule.resolved?`${presentation.meta.label} at this spacing`:presentation.meta.label;
+        button.setAttribute('aria-label',`${getItem(id).name}. ${stateText} with ${opposite.name}: ${presentation.rule.title}. ${selected?`Pinned as choice ${side.toUpperCase()}.`:'Select to pin.'}`);
+        button.title=`${stateText} with ${opposite.short} — ${presentation.rule.title}`;
+      });
+    }
+    function renderPairResult(a,b,timing){
+      const result=qs('#pairResult'),presentation=pairPresentation(a,b,timing),preview=activePairPreview(),mode=preview?'Hover / focus preview · click or tap to pin':'Pinned pair';
+      result.dataset.level=presentation.tone;result.dataset.resultLevel=presentation.tone;result.dataset.ruleLevel=presentation.rule.level;result.dataset.resultA=a;result.dataset.resultB=b;result.dataset.resultTiming=timing;result.dataset.resolved=String(!!presentation.rule.resolved);
+      result.innerHTML=`<div class="pair-result-meta"><span class="verdict ${presentation.tone}">${presentation.meta.label}</span><span class="pair-mode">${mode}</span></div><h3>${presentation.rule.title}</h3><p class="pair-result-pair"><b>${getItem(a).short} + ${getItem(b).short}</b> · ${PAIR_TIMING_LABELS[timing]}</p><p style="margin-top:6px">${presentation.rule.detail}</p>${sourceHtml(presentation.rule.sources)}<div class="boundary">Verdict scope: sequential finished products on the selected ${AREAS[state.area].toLowerCase()} plan. It does not validate mixing raw ingredients, changing a prescription, crossing body sites, or using the pair on damaged skin.</div>`;
+    }
+    function paintPairExplorer(){
+      if(!qs('#pairGridA')?.children.length||!qs('#pairGridB')?.children.length)return;const active=effectivePair();
+      qsa('[data-timing-choice]').forEach(button=>{const selected=button.dataset.timingChoice===pairState.timing;button.classList.toggle('active',selected);button.setAttribute('aria-pressed',String(selected));});
+      qs('#pairAChoice').textContent=getItem(pairState.a).short;qs('#pairBChoice').textContent=getItem(pairState.b).short;
+      qs('#pairAContext').textContent=`Tiles compared with ${getItem(active.b).short}`;qs('#pairBContext').textContent=`Tiles compared with ${getItem(active.a).short}`;
+      paintPairGrid('a',active.b,pairState.timing);paintPairGrid('b',active.a,pairState.timing);renderPairResult(active.a,active.b,pairState.timing);
+    }
+    function renderContext(){qsa('[data-context]').forEach(input=>input.checked=!!state.context[input.dataset.context]);qs('#areaSelect').value=state.area;}
+    function renderPresetButtons(){qsa('[data-preset]').forEach(button=>button.classList.toggle('active',button.dataset.preset===state.preset));}
+    function renderPairCoverage(){
+      const counts={compatible:0,caution:0,separate:0,avoid:0,unknown:0};let total=0;
+      for(let i=0;i<INGREDIENT_IDS.length;i++)for(let j=i+1;j<INGREDIENT_IDS.length;j++){const rule=findBaseRule(INGREDIENT_IDS[i],INGREDIENT_IDS[j]);total++;if(counts[rule.level]!==undefined)counts[rule.level]++;}
+      const named=total-counts.unknown;
+      qs('#pairCoverage').innerHTML=`Research-expanded same-session matrix: <b>${named} of ${total}</b> ingredient pairs have a named category; <b>${counts.unknown}</b> remain unknown where direct formula, route, or sequential-layering evidence is still missing. <a href="../markdown-viewer.html?file=13_combined_skincare_regimen/05_ingredient_compatibility_and_weekly_planner.md#7-pairwise-research-update">Read the evidence map</a> · <a href="data/ingredient_pair_research_ledger.csv">Open the pairwise ledger</a>`;
+    }
+    function renderAll(){renderPresetButtons();renderContext();renderFilters();renderCatalog();renderTabs();renderWeek();renderAnalysis();renderPairCoverage();paintPairExplorer();}
+
+    function addOccurrence(id,day,session){
+      const list=state.schedule[day][session];if(list.some(occ=>occ.id===id)){announce(`${getItem(id).name} is already in ${timingLabel(day,session)}`);return;}
+      list.push(makeOccurrence(id));state.preset='custom';renderAll();announce(`${getItem(id).name} added to ${timingLabel(day,session)}`);
+    }
+    function locateUid(uid){for(const day of DAYS)for(const session of ['am','pm']){const index=state.schedule[day.id][session].findIndex(x=>x.uid===uid);if(index>=0)return {day:day.id,session,index,occ:state.schedule[day.id][session][index]};}return null;}
+    function moveOccurrence(uid,day,session){const found=locateUid(uid);if(!found)return;found&&state.schedule[found.day][found.session].splice(found.index,1);if(!state.schedule[day][session].some(x=>x.id===found.occ.id))state.schedule[day][session].push(found.occ);state.preset='custom';renderAll();announce(`${getItem(found.occ.id).name} moved to ${timingLabel(day,session)}`);}
+    function removeOccurrence(uid){const found=locateUid(uid);if(!found)return;state.schedule[found.day][found.session].splice(found.index,1);state.preset='custom';renderAll();announce(`${getItem(found.occ.id).name} removed`);}
+
+    function openDialog(id,uid=null,day=state.activeDay,session='am'){
+      dialogState={id,uid,day,session};const item=getItem(id);qs('#dialogTitle').textContent=uid?`Move ${item.name}`:`Add ${item.name}`;qs('#dialogNote').textContent=item.note;qs('#dialogRemove').hidden=!uid;renderDialogChoices();const dialog=qs('#placeDialog');if(typeof dialog.showModal==='function')dialog.showModal();else dialog.setAttribute('open','');
+    }
+    function renderDialogChoices(){qs('#dialogDays').innerHTML=DAYS.map(day=>`<button class="pick-day ${dialogState.day===day.id?'active':''}" data-dialog-day="${day.id}" type="button">${day.short}</button>`).join('');qsa('[data-dialog-day]').forEach(button=>button.onclick=()=>{dialogState.day=button.dataset.dialogDay;renderDialogChoices();});qsa('[data-dialog-session]').forEach(button=>button.classList.toggle('active',button.dataset.dialogSession===dialogState.session));}
+    function closeDialog(){const dialog=qs('#placeDialog');if(dialog.open&&typeof dialog.close==='function')dialog.close();else dialog.removeAttribute('open');dialogState=null;}
+    function openQuickAdd(day,session){state.activeDay=day;const first=ITEMS.find(item=>state.filter==='all'||item.cat===state.filter)||ITEMS[0];openDialog(first.id,null,day,session);qs('#dialogTitle').textContent='Choose from the library';closeDialog();qs('#searchInput').focus();announce(`Library ready; choose a card for ${timingLabel(day,session)}`);}
+
+    function bindCatalog(){
+      qsa('[data-catalog-id]').forEach(card=>{card.addEventListener('dragstart',event=>{const payload={id:card.dataset.catalogId};event.dataTransfer.effectAllowed='copy';event.dataTransfer.setData('application/json',JSON.stringify(payload));card.classList.add('dragging');});card.addEventListener('dragend',()=>card.classList.remove('dragging'));});
+      qsa('[data-add-id]').forEach(button=>button.onclick=()=>openDialog(button.dataset.addId));
+      qsa('.catalog-card [data-touch-id]').forEach(handle=>handle.addEventListener('pointerdown',startPointerDrag));
+    }
+    function bindWeek(){
+      qsa('.slot').forEach(slot=>{slot.addEventListener('dragover',event=>{event.preventDefault();slot.classList.add('over');event.dataTransfer.dropEffect='move';});slot.addEventListener('dragleave',event=>{if(!slot.contains(event.relatedTarget))slot.classList.remove('over');});slot.addEventListener('drop',event=>{event.preventDefault();slot.classList.remove('over');let payload={};try{payload=JSON.parse(event.dataTransfer.getData('application/json'));}catch{}if(payload.uid)moveOccurrence(payload.uid,slot.dataset.slotDay,slot.dataset.slotSession);else if(payload.id)addOccurrence(payload.id,slot.dataset.slotDay,slot.dataset.slotSession);});});
+      qsa('[data-occurrence]').forEach(card=>{card.addEventListener('dragstart',event=>{const payload={id:card.dataset.itemId,uid:card.dataset.occurrence};event.dataTransfer.effectAllowed='move';event.dataTransfer.setData('application/json',JSON.stringify(payload));card.classList.add('dragging');});card.addEventListener('dragend',()=>card.classList.remove('dragging'));});
+      qsa('[data-edit-uid]').forEach(button=>button.onclick=()=>{const found=locateUid(button.dataset.editUid);if(found)openDialog(found.occ.id,found.occ.uid,found.day,found.session);});
+      qsa('.placed [data-touch-id]').forEach(handle=>handle.addEventListener('pointerdown',startPointerDrag));
+      qsa('[data-quick-add]').forEach(button=>button.onclick=()=>{const [day,session]=button.dataset.quickAdd.split(':');openQuickAdd(day,session);});
+    }
+    function startPointerDrag(event){
+      event.preventDefault();const handle=event.currentTarget,showDock=event.pointerType!=='mouse'||matchMedia('(max-width:760px)').matches;pointerDrag={pointerId:event.pointerId,id:handle.dataset.touchId,uid:handle.dataset.touchUid||null,target:null,showDock};try{handle.setPointerCapture(event.pointerId);}catch{}
+      state.activeDay=handle.dataset.sourceDay||state.activeDay;renderTabs();if(showDock){qs('#dockTitle').textContent=`Drop on ${DAYS.find(x=>x.id===state.activeDay).label}`;qs('#touchDock').classList.add('active');qs('#touchDock').setAttribute('aria-hidden','false');}const ghost=qs('#dragGhost');ghost.textContent=getItem(pointerDrag.id).name;ghost.classList.add('active');moveGhost(event.clientX,event.clientY);window.addEventListener('pointermove',movePointerDrag,{passive:false});window.addEventListener('pointerup',endPointerDrag,{passive:false});window.addEventListener('pointercancel',cancelPointerDrag,{passive:false});
+    }
+    function moveGhost(x,y){const ghost=qs('#dragGhost'),width=Math.min(230,window.innerWidth-24);ghost.style.width=`${width}px`;ghost.style.left=`${Math.max(12,Math.min(x+12,window.innerWidth-width-12))}px`;ghost.style.top=`${Math.max(8,Math.min(y-58,window.innerHeight-82))}px`;}
+    function touchTargetAt(x,y){return document.elementFromPoint(x,y)?.closest('[data-touch-session],.slot');}
+    function movePointerDrag(event){if(!pointerDrag||event.pointerId!==pointerDrag.pointerId)return;event.preventDefault();moveGhost(event.clientX,event.clientY);const target=touchTargetAt(event.clientX,event.clientY);qsa('[data-touch-session],.slot').forEach(el=>el.classList.toggle('over',el===target));pointerDrag.target=target;}
+    function finishPointerDrag(){qs('#dragGhost').classList.remove('active');qs('#touchDock').classList.remove('active');qs('#touchDock').setAttribute('aria-hidden','true');qsa('[data-touch-session],.slot').forEach(el=>el.classList.remove('over'));window.removeEventListener('pointermove',movePointerDrag);window.removeEventListener('pointerup',endPointerDrag);window.removeEventListener('pointercancel',cancelPointerDrag);}
+    function endPointerDrag(event){if(!pointerDrag||event.pointerId!==pointerDrag.pointerId)return;event.preventDefault();const drag=pointerDrag,target=touchTargetAt(event.clientX,event.clientY)||drag.target;finishPointerDrag();pointerDrag=null;if(!target){announce('Drag cancelled');return;}const day=target.dataset.slotDay||state.activeDay,session=target.dataset.slotSession||target.dataset.touchSession;if(drag.uid)moveOccurrence(drag.uid,day,session);else addOccurrence(drag.id,day,session);}
+    function cancelPointerDrag(){finishPointerDrag();pointerDrag=null;}
+
+    function sortSchedule(){DAYS.forEach(day=>['am','pm'].forEach(session=>state.schedule[day.id][session].sort((a,b)=>getItem(a.id).order-getItem(b.id).order)));state.preset='custom';renderAll();announce('Generic layer order applied; confirm each label');}
+    function validateSchedule(schedule){return schedule&&DAYS.every(day=>schedule[day.id]&&['am','pm'].every(session=>Array.isArray(schedule[day.id][session])&&schedule[day.id][session].every(occ=>occ.uid&&getItem(occ.id))));}
+    function saveState(){localStorage.setItem('skincareStackLabV1',JSON.stringify({schedule:state.schedule,context:state.context,activeDay:state.activeDay,area:state.area}));qs('#saveButton').textContent='Saved ✓';announce('Plan saved in this browser');setTimeout(()=>qs('#saveButton').textContent='Save locally',1200);}
+    function loadState(){try{const saved=JSON.parse(localStorage.getItem('skincareStackLabV1'));if(saved&&validateSchedule(saved.schedule)){state.schedule=saved.schedule;state.context={...state.context,...saved.context};state.activeDay=saved.activeDay||'mon';state.area=AREAS[saved.area]?saved.area:'face';state.preset='custom';}}catch{}}
+    async function copyPlan(){const result=audit(),lines=['SKINCARE STACK LAB — WEEKLY PLAN',`Treatment area: ${AREAS[state.area]}`,'Educational routine map; verify labels, device IFUs, and clinician instructions.','',...DAYS.flatMap(day=>[day.label,`  AM: ${state.schedule[day.id].am.map(x=>getItem(x.id).name).join(' → ')||'—'}`,`  PM: ${state.schedule[day.id].pm.map(x=>getItem(x.id).name).join(' → ')||'—'}`]),'',`Flags: ${result.counts.avoid} documented/duplicate · ${result.counts.separate} separate/label · ${result.counts.caution} irritation/order · ${result.counts.unknown} uncertain`,...result.issues.slice(0,12).map(issue=>`- [${issue.level.toUpperCase()}] ${issue.where}: ${issue.title} — ${issue.detail}`)];try{await navigator.clipboard.writeText(lines.join('\n'));qs('#copyButton').textContent='Copied ✓';announce('Weekly plan copied');setTimeout(()=>qs('#copyButton').textContent='Copy plan',1200);}catch{announce('Clipboard is unavailable in this browser');}}
+    function announce(message){const live=qs('#announce');live.textContent='';requestAnimationFrame(()=>live.textContent=message);const toast=qs('#toast');toast.textContent=message;toast.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove('show'),1700);}
+
+    function runSelfTests(){
+      const tests=[],check=(name,condition)=>tests.push({name,pass:!!condition});
+      check('adapalene + BPO is compatible',resolveRule('adapalene','bpo','same-session').level==='compatible');
+      check('conventional tretinoin + BPO separates in same session',resolveRule('tretinoin_conventional','bpo','same-session').level==='separate');
+      check('conventional tretinoin + BPO resolves across sessions',resolveRule('tretinoin_conventional','bpo','same-day').level==='compatible');
+      check('stabilized tretinoin + BPO is formulation-compatible',resolveRule('tretinoin_stabilized','bpo','same-session').level==='compatible');
+      check('dapsone + BPO separates',resolveRule('dapsone','bpo','same-session').level==='separate');
+      check('niacinamide + LAA does not trigger myth rule',resolveRule('niacinamide','laa','same-session').level==='compatible');
+      check('two retinoids remain duplicate across days',resolveRule('adapalene','tazarotene','different-day').level==='avoid');
+      check('Tria + retinoid stays recovery-gated across days',resolveRule('tria','adapalene','same-day').level==='separate'&&resolveRule('tria','adapalene','different-day').level==='separate');
+      check('copper peptide + LAA is a low-pH caution in same session',resolveRule('copper_peptide','laa','same-session').level==='caution');
+      check('copper peptide + LAA resolves to a separated session',resolveRule('copper_peptide','laa','different-day').level==='compatible'&&resolveRule('copper_peptide','laa','different-day').resolved);
+      check('dapsone + adapalene is compatible',resolveRule('dapsone','adapalene','same-session').level==='compatible');
+      check('niacinamide + vitamin C derivative has co-formulation evidence',resolveRule('niacinamide','vitc_derivative','same-session').level==='compatible');
+      check('vitamin C derivative + OTC retinoid has formula evidence',resolveRule('vitc_derivative','otc_retinoid','same-session').level==='compatible');
+      check('vitamin C derivative + peptide has formula evidence',resolveRule('vitc_derivative','peptide','same-session').level==='compatible');
+      check('LAA + hydroquinone is formula-specific rather than unknown',resolveRule('laa','hydroquinone','same-session').level==='compatible');
+      check('TXA + other pigment has co-formulation evidence',resolveRule('txa','other_pigment','same-session').level==='compatible');
+      check('LAA + HOCl separates on reactivity evidence',resolveRule('laa','hocl','same-session').level==='separate');
+      check('BPO + HOCl separates as two oxidant lanes',resolveRule('bpo','hocl','same-session').level==='separate');
+      check('HOCl + cysteamine separates on thiol chemistry',resolveRule('hocl','cysteamine','same-session').level==='separate');
+      check('copper peptide + non-copper peptide has blend evidence',resolveRule('copper_peptide','peptide','same-session').level==='compatible');
+      check('copper peptide + niacinamide has exact-formula evidence',resolveRule('copper_peptide','niacinamide','same-session').level==='compatible');
+      check('copper peptide + vitamin C derivative has exact-formula evidence',resolveRule('copper_peptide','vitc_derivative','same-session').level==='compatible');
+      check('copper peptide + OTC retinoid has exact-formula evidence',resolveRule('copper_peptide','otc_retinoid','same-session').level==='compatible');
+      check('copper peptide + azelaic acid and urea have formula evidence',resolveRule('copper_peptide','azelaic','same-session').level==='compatible'&&resolveRule('copper_peptide','urea','same-session').level==='compatible');
+      check('copper peptide + TXA has formula/procedure evidence',resolveRule('copper_peptide','txa','same-session').level==='compatible');
+      check('copper peptide + BPO/HOCl stay separated as oxidant lanes',resolveRule('copper_peptide','bpo','same-session').level==='separate'&&resolveRule('copper_peptide','hocl','same-session').level==='separate');
+      const copperUnknown=INGREDIENT_IDS.filter(id=>id!=='copper_peptide'&&findBaseRule('copper_peptide',id).level==='unknown');
+      check('copper peptide has no unresolved ingredient-family cells',copperUnknown.length===0);
+      const expandedUnknown=INGREDIENT_IDS.flatMap((a,i)=>INGREDIENT_IDS.slice(i+1).map(b=>findBaseRule(a,b).level==='unknown')).filter(Boolean).length;
+      check('pairwise research expansion reduces the original unknown set',expandedUnknown<160);
+      check('pairwise coverage summary is rendered',/Research-expanded same-session matrix/.test(qs('#pairCoverage')?.textContent||''));
+      check('microneedling keeps routine products out of the procedure session',resolveRule('microneedling','moisturizer','same-session').level==='separate'&&resolveRule('microneedling','moisturizer','different-day').level==='compatible');
+      check('microneedling active restart remains clinician-controlled',resolveRule('microneedling','laa','different-day').level==='separate');
+      check('all rule item ids exist',RULES.every(rule=>getItem(rule.a)&&getItem(rule.b)));
+      check('all source ids exist',RULES.every(rule=>(rule.sources||[]).every(id=>SOURCES[id])));
+      check('foundation preset is valid',validateSchedule(foundationSchedule(false)));
+      const bpoSame=buildPairPalette('bpo','same-session'),bpoSplit=buildPairPalette('bpo','same-day');
+      check('BPO palette distinguishes compatible, separate, and unknown pairs',bpoSame.adapalene.tone==='compatible'&&bpoSame.tretinoin_conventional.tone==='separate'&&bpoSame.laa.tone==='unknown');
+      check('timing recolors resolved tretinoin + BPO pair',bpoSplit.tretinoin_conventional.tone==='compatible'&&bpoSplit.tretinoin_conventional.rule.resolved);
+      check('duplicate retinoid strategy has its own visual tone',buildPairPalette('adapalene','different-day').tazarotene.tone==='duplicate');
+      const pairButtons=qsa('.pair-item[data-pair-item]'),validTones=new Set(Object.keys(PAIR_TONE_META));
+      check('both visual groups list the full catalog',qsa('#pairGridA .pair-item').length===ITEMS.length&&qsa('#pairGridB .pair-item').length===ITEMS.length);
+      check('each visual group has exactly one pinned choice',['a','b'].every(side=>qsa(`.pair-item[data-pair-side="${side}"][aria-checked="true"]`).length===1));
+      check('all pair tiles expose verdict text to assistive technology',pairButtons.length===ITEMS.length*2&&pairButtons.every(button=>validTones.has(button.dataset.verdict)&&button.getAttribute('aria-label')?.includes(':')));
+      check('pair tile ids are unique',new Set(pairButtons.map(button=>button.id)).size===pairButtons.length);
+      return {pass:tests.every(test=>test.pass),tests};
+    }
+    window.runStackLabSelfTests=runSelfTests;
+
+    qsa('[data-preset]').forEach(button=>button.onclick=()=>applyPreset(button.dataset.preset));
+    qs('#searchInput').addEventListener('input',event=>{state.query=event.target.value;renderCatalog();});
+    qsa('[data-context]').forEach(input=>input.addEventListener('change',()=>{state.context[input.dataset.context]=input.checked;state.preset='custom';renderAnalysis();renderWeek();}));
+    qs('#areaSelect').addEventListener('change',event=>{state.area=event.target.value;state.preset='custom';renderAnalysis();renderWeek();paintPairExplorer();announce(`Treatment area set to ${AREAS[state.area]}`);});
+    qsa('[data-timing-choice]').forEach(button=>button.addEventListener('click',()=>setPairTiming(button.dataset.timingChoice)));
+    qsa('[data-dialog-session]').forEach(button=>button.onclick=()=>{dialogState.session=button.dataset.dialogSession;renderDialogChoices();});
+    qs('#dialogApply').onclick=()=>{if(!dialogState)return;const d={...dialogState};closeDialog();d.uid?moveOccurrence(d.uid,d.day,d.session):addOccurrence(d.id,d.day,d.session);};
+    qs('#dialogRemove').onclick=()=>{if(!dialogState?.uid)return;const uid=dialogState.uid;closeDialog();removeOccurrence(uid);};qs('#dialogCancel').onclick=closeDialog;qs('#placeDialog').addEventListener('click',event=>{if(event.target===qs('#placeDialog'))closeDialog();});
+    qs('#sortButton').onclick=sortSchedule;qs('#saveButton').onclick=saveState;qs('#copyButton').onclick=copyPlan;
+    qs('#clearButton').onclick=()=>{if(confirm('Clear the unsaved weekly plan?'))applyPreset('blank');};
+    qs('#todayButton').onclick=()=>{const ids=['sun','mon','tue','wed','thu','fri','sat'],today=ids[new Date().getDay()];state.activeDay=today;renderTabs();renderWeek();announce(`${DAYS.find(x=>x.id===today).label} selected`);};
+
+    loadState();if(state.preset==='foundation'&&!allOccurrences().length)state.schedule=foundationSchedule(false);renderAll();renderPairGrids();
+    if(new URLSearchParams(location.search).has('selftest')){const result=runSelfTests(),failed=result.tests.filter(x=>!x.pass);document.title=`${result.pass?'PASS':'FAIL'} · ${document.title}`;console.table(result.tests);const banner=document.createElement('div');banner.style.cssText=`position:fixed;z-index:9999;top:8px;right:8px;padding:9px 12px;border-radius:9px;color:white;background:${result.pass?'#126b5d':'#a12b24'}`;banner.textContent=`Self-test ${result.pass?'passed':'failed'}: ${result.tests.filter(x=>x.pass).length}/${result.tests.length}${failed.length?` · ${failed.map(x=>x.name).join(' | ')}`:''}`;document.body.appendChild(banner);}
+  })();
+  </script>
+</body>
+</html>

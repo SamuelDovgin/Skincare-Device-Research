@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DIY Vitamin C Potency Likelihood Visualizer</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8D%8A%3C/text%3E%3C/svg%3E">
+  <link rel="apple-touch-icon" href="appicon-180.png">
+  <link rel="stylesheet" href="../site-chrome.css">
+  <script src="../site-router.js" defer></script>
+  <style>
+    :root{--accent:#b45309;--accent-2:#dc8a18;--bg:#f7f8fa;--card:#fff;--ink:#1f2430;--muted:#667085;--line:#e4e7ec;--good:#267a54;--warn:#a45d12;--bad:#a33d2e;--blue:#3378a6}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;max-width:100%;overflow-x:hidden}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.5;max-width:100%;overflow-x:hidden}a{color:var(--accent)}button,input,select{font:inherit}.wrap{max-width:1180px;margin:0 auto;padding:24px 20px 64px}.top{border-bottom:1px solid var(--line);padding:12px 0 17px}.back{font-size:13px;font-weight:700;text-decoration:none}.eyebrow{display:inline-block;color:var(--accent);font-size:12px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;margin-top:18px}.hero h1{font-size:clamp(29px,5vw,52px);line-height:1.02;letter-spacing:-.045em;margin:8px 0 12px;max-width:790px}.lede{font-size:16px;color:#46505e;max-width:860px;margin:0}.notice{border-left:4px solid var(--accent-2);background:#fff7ed;border-radius:0 10px 10px 0;padding:12px 15px;margin:18px 0 0;max-width:920px;color:#5f4028;font-size:14px}.notice b{color:#814610}.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:19px;margin-top:17px;box-shadow:0 1px 3px rgba(15,23,42,.045)}.panel h2{font-size:20px;line-height:1.2;margin:0 0 6px}.panel h3{font-size:15px;margin:19px 0 6px}.sub{color:var(--muted);margin:0 0 14px}.preset-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px}.preset{border:1px solid var(--line);background:#fff;border-radius:9px;padding:11px;text-align:left;cursor:pointer;color:var(--ink);transition:border-color .15s,background .15s,transform .15s}.preset:hover,.preset:focus-visible{border-color:var(--accent);background:#fffbf7;transform:translateY(-1px)}.preset.active{border-color:var(--accent);box-shadow:0 0 0 2px rgba(180,83,9,.12);background:#fffaf5}.preset b{display:block;font-size:13px}.preset span{display:block;color:var(--muted);font-size:11.5px;margin-top:3px}.field-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.field{border:1px solid var(--line);border-radius:9px;padding:11px;background:#fbfcfd;min-width:0}.field label,.field legend{display:flex;justify-content:space-between;gap:8px;align-items:baseline;font-size:12px;font-weight:800;color:#4b5563;margin-bottom:6px}.field output{font-size:16px;color:var(--accent);font-variant-numeric:tabular-nums;white-space:nowrap}.field select{width:100%;border:1px solid #cbd3df;border-radius:7px;padding:8px 9px;background:#fff;color:var(--ink);min-height:38px}.field input[type=range]{width:100%;accent-color:var(--accent);touch-action:pan-y}.field-help{display:block;color:var(--muted);font-size:11px;line-height:1.35;margin-top:5px}.color-swatch{height:13px;border-radius:999px;margin:6px 0 4px;background:linear-gradient(90deg,#fff 0%,#fffdf1 12%,#fff7b1 30%,#f3d32e 50%,#efa32d 68%,#b76631 86%,#4b2820 100%);border:1px solid #d7dce3}.stabilizers{grid-column:span 2}.checks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.check{display:flex;gap:8px;align-items:flex-start;border:1px solid var(--line);background:#fff;border-radius:7px;padding:8px;font-size:12px;color:#374151;cursor:pointer}.check input{margin-top:2px;accent-color:var(--accent)}.check small{display:block;color:var(--muted);font-size:10.5px;line-height:1.25;margin-top:2px}.results{border-top:4px solid var(--accent);}.result-head{display:flex;align-items:flex-start;justify-content:space-between;gap:16px}.decision{min-width:0}.kicker{color:var(--muted);font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.decision strong{display:block;font-size:30px;line-height:1.05;margin:5px 0;color:var(--good)}.decision strong.warn{color:var(--warn)}.decision strong.bad{color:var(--bad)}.decision p{margin:0;color:#4b5563;max-width:640px}.mini-link{font-size:12px;font-weight:700;white-space:nowrap}.stats{display:grid;grid-template-columns:repeat(3,minmax(130px,1fr));gap:9px;min-width:360px}.stat{border:1px solid var(--line);border-radius:9px;padding:10px;background:#fff}.stat b{display:block;color:var(--accent);font-size:22px;line-height:1.1;font-variant-numeric:tabular-nums}.stat span{display:block;color:var(--muted);font-size:11px;margin-top:4px}.visual-grid{display:grid;grid-template-columns:minmax(340px,470px) minmax(0,1fr);gap:24px;align-items:start;margin-top:19px}.pie-wrap{display:grid;grid-template-columns:210px minmax(0,1fr);gap:14px;align-items:center}.pie-wrap svg{display:block;width:210px;height:210px}.pie-wrap text{font-family:inherit;fill:var(--ink)}.legend{display:grid;gap:7px;margin:0;padding:0;list-style:none}.legend li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:7px;align-items:center;font-size:12px}.legend li>span{display:flex;align-items:center;gap:7px;min-width:0}.legend .swatch{width:12px;height:12px;flex:0 0 12px;border-radius:3px}.legend em{font-style:normal;color:var(--muted);font-size:11px}.legend b{font-variant-numeric:tabular-nums;white-space:nowrap}.chart-note,.fine{color:var(--muted);font-size:12px;margin:10px 0 0}.readout{border-left:1px solid var(--line);padding-left:20px}.readout h3{margin-top:0}.drivers{display:grid;gap:8px;margin:10px 0 0;padding:0;list-style:none}.drivers li{border-left:3px solid var(--accent-2);background:#fffaf5;padding:8px 10px;font-size:12.5px}.drivers b{display:block}.remake-box{background:#f7f9fb;border:1px solid var(--line);border-radius:9px;padding:12px;margin-top:15px;font-size:13px}.remake-box b{color:var(--ink)}.remake-box p{margin:4px 0;color:#4b5563}.details-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.equation{background:#1f2937;color:#f3f4f6;border-radius:8px;padding:11px 13px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;overflow:auto;white-space:pre-wrap}.source-links{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.source-links a{display:inline-block;border:1px solid var(--line);border-radius:7px;padding:7px 9px;text-decoration:none;font-size:12px;font-weight:700;background:#fff}.source-links a:hover{border-color:var(--accent)}.footnote{font-size:12px;color:var(--muted)}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@media(max-width:900px){.preset-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.field-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.result-head{display:block}.stats{min-width:0;margin-top:15px;max-width:600px}.visual-grid{grid-template-columns:1fr}.readout{border-left:0;border-top:1px solid var(--line);padding:15px 0 0}.details-grid{grid-template-columns:1fr}}@media(max-width:560px){.wrap{padding:15px 12px 46px}.panel{padding:13px}.hero h1{font-size:34px}.lede{font-size:14px}.preset-grid,.field-grid,.checks{grid-template-columns:1fr}.stabilizers{grid-column:auto}.pie-wrap{grid-template-columns:1fr;justify-items:center}.pie-wrap svg{width:230px;height:230px}.legend{width:100%}.stats{grid-template-columns:1fr 1fr}.stat b{font-size:18px}.decision strong{font-size:26px}}
+</style>
+  <style>
+    .field summary{display:flex;justify-content:space-between;gap:8px;align-items:baseline;cursor:pointer;font-size:12px;font-weight:800;color:#4b5563;list-style:none}.field summary::-webkit-details-marker{display:none}.field summary::before{content:'＋';color:var(--accent);font-size:15px;line-height:1}.field[open] summary::before{content:'−'}.field summary span{font-size:11px;font-weight:600;color:var(--accent);white-space:nowrap}.field[open] summary{margin-bottom:6px}.preset-family{padding:0;overflow:hidden}.preset-main{display:block;width:100%;border:0;background:transparent;color:var(--ink);padding:11px;text-align:left;cursor:pointer}.preset-main:hover,.preset-main:focus-visible{background:#fffbf7}.preset-main b{display:block;font-size:13px}.preset-main span{display:block;color:var(--muted);font-size:11.5px;margin-top:3px}.preset-subrow{display:flex;align-items:center;gap:5px;padding:0 10px 10px;flex-wrap:wrap}.preset-subrow>span{font-size:10.5px;color:var(--muted);margin-right:auto}.preset-subbtn{border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--ink);padding:4px 7px;font-size:11px;font-weight:700;cursor:pointer}.preset-subbtn:hover,.preset-subbtn:focus-visible{border-color:var(--accent)}.preset-subbtn.active{background:var(--accent);border-color:var(--accent);color:#fff}
+    @media(max-width:560px){.preset-grid{grid-template-columns:1fr}.preset-subrow{gap:4px}.preset-subrow>span{flex-basis:100%;margin-right:0}}
+  </style>
+  <style>
+    html,body{overflow-x:clip}.field-group-label{grid-column:1/-1;border-top:1px solid var(--line);padding-top:10px;margin-top:2px}.field-group-label h3{font-size:13px;margin:0 0 2px;color:var(--ink)}.field-group-label p{font-size:11.5px;color:var(--muted);margin:0;max-width:760px}.stats{grid-template-columns:repeat(4,minmax(115px,1fr))}
+    @media(max-width:560px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  </style>
+  <style>
+    .live-dock{position:fixed;left:50%;right:auto;bottom:12px;transform:translateX(-50%);z-index:50;display:grid;grid-template-columns:72px minmax(0,1fr);gap:7px 11px;align-items:center;width:min(560px,calc(100% - 24px));background:rgba(255,255,255,.97);border:1px solid #e9c79e;border-left:4px solid var(--accent);border-radius:11px;padding:8px 12px;box-shadow:0 5px 18px rgba(15,23,42,.16);backdrop-filter:blur(8px)}.live-dock[hidden]{display:none!important}.live-dock svg{width:64px;height:64px;display:block}.dock-copy{min-width:0}.dock-result{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-top:2px}.dock-result strong{font-size:17px;color:var(--bad);line-height:1.1}.dock-result strong.good{color:var(--good)}.dock-result strong.warn{color:var(--warn)}.dock-result strong.bad{color:var(--bad)}.dock-result b{font-size:19px;color:var(--accent);font-variant-numeric:tabular-nums}.dock-result span{font-size:10.5px;color:var(--muted)}.dock-copy p{margin:3px 0 0;font-size:11px;color:#4b5563;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.dock-legend{grid-column:2;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3px 9px;list-style:none;margin:0;padding:0}.dock-legend li{display:flex;align-items:center;justify-content:space-between;gap:5px;min-width:0;font-size:9.5px;line-height:1.2;color:#4b5563}.dock-legend li>span{display:flex;align-items:center;gap:4px;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.dock-legend .swatch{width:7px;height:7px;flex:0 0 7px;border-radius:2px}.dock-legend b{color:var(--ink);font-variant-numeric:tabular-nums;white-space:nowrap}.dock-link{grid-column:2;font-size:10.5px;font-weight:800;text-decoration:none;white-space:nowrap}.results-anchor{min-height:0}
+    @media(max-width:560px){.live-dock{left:8px;right:8px;bottom:8px;transform:none;width:auto;grid-template-columns:58px minmax(0,1fr);gap:6px 8px;padding:7px 9px}.live-dock svg{width:52px;height:52px}.dock-result strong{font-size:15px}.dock-result b{font-size:17px}.dock-legend{gap:3px 6px}.dock-legend li{font-size:8.8px}.dock-link{font-size:10px}}
+  </style>
+  <style>
+    .wrap{padding-bottom:190px}.live-dock{grid-template-columns:64px minmax(0,1fr) auto;grid-template-rows:auto auto auto;gap:7px 12px;width:min(640px,calc(100% - 28px));bottom:14px;padding:8px 14px 11px;background:linear-gradient(135deg,rgba(255,255,255,.985),rgba(255,249,241,.975));border:1px solid rgba(180,83,9,.26);border-left:1px solid rgba(180,83,9,.26);border-radius:16px;box-shadow:0 18px 44px rgba(46,31,16,.2),0 2px 8px rgba(15,23,42,.08);transition:opacity .2s ease,transform .32s cubic-bezier(.2,.8,.2,1),box-shadow .2s ease,visibility 0s;will-change:transform,opacity}.live-dock:hover{box-shadow:0 20px 52px rgba(46,31,16,.24),0 3px 10px rgba(15,23,42,.1)}.live-dock.is-hidden{opacity:0;transform:translateX(-50%) translateY(24px) scale(.96);pointer-events:none;visibility:hidden;transition:opacity .18s ease,transform .26s ease,visibility 0s .26s}.dock-grip{grid-column:1/-1;display:block;width:38px;height:4px;margin:-1px auto 0;border-radius:999px;background:#dcc8b2}.live-dock svg{grid-column:1;grid-row:2;width:58px;height:58px}.dock-copy{grid-column:2;grid-row:2}.dock-copy .kicker{font-size:9.5px;letter-spacing:.11em}.dock-result{gap:7px;margin-top:1px}.dock-result strong{font-size:18px}.dock-result b{font-size:20px}.dock-copy p{max-width:390px;color:#596171}.dock-expand-button{grid-column:3;grid-row:2;align-self:center;display:inline-flex;align-items:center;gap:7px;border:1px solid rgba(180,83,9,.28);border-radius:999px;background:#fff7ed;color:#8a4508;padding:8px 10px;font-size:11px;font-weight:800;cursor:pointer;box-shadow:0 1px 2px rgba(15,23,42,.05);transition:background .16s,border-color .16s,transform .16s}.dock-expand-button:hover,.dock-expand-button:focus-visible{background:#ffedd5;border-color:var(--accent);transform:translateY(-1px)}.dock-expand-button:focus-visible{outline:3px solid rgba(180,83,9,.2);outline-offset:2px}.dock-expand-button b{font-size:13px}.dock-allocation{grid-column:2/4;grid-row:3;display:grid;grid-template-columns:auto minmax(0,1fr);gap:8px;align-items:start;padding-top:7px;border-top:1px solid rgba(180,83,9,.12)}.dock-allocation-title{color:var(--muted);font-size:9px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;white-space:nowrap}.dock-legend{grid-column:auto;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px 10px}.dock-legend li{font-size:9.25px}.result-actions{display:flex;align-items:center;justify-content:flex-end;gap:8px;flex-wrap:wrap}
+    @media(max-width:760px){.dock-legend{grid-template-columns:repeat(2,minmax(0,1fr))}.result-head{gap:10px}.result-actions{justify-content:flex-start;margin-top:8px}}
+    @media(max-width:560px){.wrap{padding-bottom:210px}.live-dock{left:8px;right:8px;bottom:8px;width:auto;grid-template-columns:52px minmax(0,1fr) auto;gap:6px 8px;padding:7px 10px 10px;border-radius:14px}.live-dock.is-hidden{transform:translateY(22px) scale(.97)}.dock-grip{width:34px;height:3px}.live-dock svg{width:48px;height:48px}.dock-result{gap:5px}.dock-result strong{font-size:15px}.dock-result b{font-size:17px}.dock-result span{display:none}.dock-copy p{font-size:9.7px}.dock-expand-button{padding:7px 8px}.dock-expand-button span{display:none}.dock-allocation{grid-column:1/4;grid-template-columns:1fr;padding-top:6px}.dock-allocation-title{display:none}.dock-legend{grid-template-columns:repeat(2,minmax(0,1fr));gap:3px 7px}.dock-legend li{font-size:8.7px}.result-actions{align-items:flex-start}.mini-link{white-space:normal}}
+    @media(prefers-reduced-motion:reduce){.live-dock{transition:none}}
+  </style>
+  <style>
+    /* The compact snapshot floats only until the reader reaches the full results.
+       The results themselves always remain in normal document flow. */
+    .results.is-in-view{position:static;margin-top:17px;animation:resultsJoinIn .28s ease both}
+    .live-dock{grid-template-columns:76px minmax(0,1fr) auto}
+    .live-dock svg{width:84px;height:84px}
+    @keyframes resultsJoinIn{from{opacity:.76;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+    @media(max-width:560px){.live-dock{grid-template-columns:78px minmax(0,1fr) auto}.live-dock svg{width:76px;height:76px}.dock-expand-button{min-width:44px;min-height:44px;justify-content:center;padding:0}}
+    @media(prefers-reduced-motion:reduce){.results.is-in-view{animation:none}}
+  </style>
+</head>
+<body>
+<main class="wrap">
+  <div class="top"><a class="back" href="index.html">← Vitamin C research hub</a></div>
+  <header class="hero">
+    <span class="eyebrow">DIY-only formulation model</span>
+    <h1>How likely is this vitamin C batch to still be worth using?</h1>
+    <p class="lede">Choose the things you can actually observe or control: pH, age, color, temperature, light, container, headspace, water, concentration, and stabilizers. The chart allocates a modeled state—not a measured assay—among intact L-ascorbic acid and broad degradation families.</p>
+    <div class="notice"><b>Important boundary:</b> this is a conservative remake aid for a simple water-based DIY L-ascorbic-acid batch. It cannot prove potency, microbial safety, or equivalence to a purchased serum. Yellowing is a warning signal, not a percentage meter.</div>
+  </header>
+
+  <section class="panel" aria-labelledby="preset-title">
+    <h2 id="preset-title">Start with a recipe scenario</h2>
+    <p class="sub">These presets are shortcuts; every value remains editable below.</p>
+    <div class="preset-grid">
+      <button type="button" class="preset" data-preset="fresh" aria-pressed="false"><b>Fresh simple batch</b><span>10% · pH 3.2 · cold, dark, low air</span></button>
+      <div class="preset preset-family active" data-preset-family="typical"><button type="button" class="preset-main" data-preset="typical" data-concentration="20" aria-pressed="true"><b>Typical DIY batch</b><span>pH 3.3 · room temperature</span></button><div class="preset-subrow" role="group" aria-label="Typical DIY batch concentration"><span>Concentration</span><button type="button" class="preset-subbtn" data-preset="typical" data-concentration="10" aria-pressed="false">10%</button><button type="button" class="preset-subbtn" data-preset="typical" data-concentration="15" aria-pressed="false">15%</button><button type="button" class="preset-subbtn active" data-preset="typical" data-concentration="20" aria-pressed="true">20%</button></div></div>
+      <button type="button" class="preset" data-preset="cef"><b>CEF-style experiment</b><span>15% · ferulic + E · protected package</span></button>
+      <button type="button" class="preset" data-preset="stress"><b>Stress test</b><span>15% · pH 4.5 · light + high air</span></button>
+    </div>
+  </section>
+
+  <section class="live-dock" id="liveDock" aria-label="Live potency snapshot">
+    <span class="dock-grip" aria-hidden="true"></span>
+    <svg id="miniPie" viewBox="0 0 240 240" role="img" aria-label="Live modeled chemical-state allocation"><desc>Compact live pie chart for the current input settings. This is a model, not an assay.</desc><g id="miniPieArcs"></g><circle cx="120" cy="120" r="54" fill="var(--card)"></circle><text x="120" y="115" text-anchor="middle" font-size="11" fill="var(--muted)">LAA score</text><text id="miniPieCenterValue" x="120" y="137" text-anchor="middle" font-size="23" font-weight="800">100%</text></svg>
+    <div class="dock-copy"><span class="kicker">Live batch snapshot</span><div class="dock-result"><strong id="dockAction">Use while fresh</strong><b id="dockScore">100%</b><span>intact LAA score</span></div><p id="dockDriver">Top modeled pressure: age (0 days).</p></div>
+    <button class="dock-expand-button" id="dockExpandButton" type="button" aria-controls="results" aria-expanded="false" aria-label="Open full interpretation"><span>Details</span><b aria-hidden="true">↑</b></button>
+    <div class="dock-allocation"><span class="dock-allocation-title">Modeled allocation</span><ul class="dock-legend" id="dockLegend" aria-label="Compact modeled allocation list"></ul></div>
+  </section>
+
+  <section class="panel" aria-labelledby="inputs-title">
+    <h2 id="inputs-title">1. Enter the batch facts</h2>
+    <p class="sub">Use measured values where possible. Inputs in this first group change the modeled chemical score or pathway allocation. Confidence and preservation guardrails are separated at the bottom.</p>
+    <div class="field-grid">
+      <div class="field"><label for="concentration">L-ascorbic acid concentration <output id="concentrationOut">20%</output></label><input id="concentration" type="range" min="5" max="25" step="1" value="20"><span class="field-help">Percent by weight/volume in the finished batch.</span></div>
+      <div class="field"><label for="ph">Formulation pH <output id="phOut">3.3</output></label><input id="ph" type="range" min="2.5" max="7" step="0.1" value="3.3"><span class="field-help">Stability pressure rises as more ascorbate is ionized above its pKa (~4.1).</span></div>
+      <div class="field"><label for="days">Days since made <output id="daysOut">0 days</output></label><input id="days" type="range" min="0" max="60" step="1" value="0"><span class="field-help">Count from the day the powder was fully dissolved and bottled.</span></div>
+      <div class="field"><label for="color">Observed color <output id="colorOut">0% · clear / white</output></label><div class="color-swatch" aria-hidden="true"></div><input id="color" type="range" min="0" max="100" step="1" value="0"><span class="field-help">Continuous 0–100 position from clear/white to brown; compare in the same clear vessel against white paper.</span></div>
+      <div class="field"><label for="temperature">Storage temperature</label><select id="temperature"><option value="4">Refrigerator · about 4°C</option><option value="15">Cool room · about 15°C</option><option value="22" selected>Room temperature · about 22°C</option><option value="30">Warm · about 30°C</option><option value="40">Hot excursion · about 40°C</option></select><span class="field-help">Use the warmest sustained storage, not a brief handoff.</span></div>
+      <div class="field"><label for="container">Container / jar type</label><select id="container"><option value="amber" selected>Small amber glass dropper</option><option value="clear">Clear glass dropper</option><option value="airless">Opaque airless pump</option><option value="tube">Opaque squeeze tube</option><option value="jar">Wide-mouth jar / open cup</option></select><span class="field-help">The opening and light path matter as much as the material.</span></div>
+      <div class="field"><label for="light">Light exposure</label><select id="light"><option value="dark">Dark drawer / opaque package</option><option value="room" selected>Normal room light</option><option value="sun">Window or direct sunlight</option></select><span class="field-help">Photochemical stress can accelerate chemical loss.</span></div>
+      <div class="field"><label for="air">Headspace and opening frequency</label><select id="air"><option value="low">Minimal headspace / rare opening</option><option value="medium" selected>Normal dropper use</option><option value="high">Large headspace / repeated opening</option></select><span class="field-help">This is an oxygen-exposure proxy, not a dissolved-oxygen measurement.</span></div>
+      <div class="field"><label for="water">Water quality</label><select id="water"><option value="di" selected>Distilled or deionized</option><option value="bottled">Bottled / filtered</option><option value="tap">Tap or unknown</option></select><span class="field-help">Trace metal ions can catalyze oxidation; this input is intentionally coarse.</span></div>
+      <details class="field stabilizers"><summary>Stabilizers or co-ingredients used <span id="stabilizerSummary">none selected</span></summary><div class="checks"><label class="check"><input type="checkbox" value="ferulic" data-stabilizer><span><b>Ferulic acid + vitamin E</b><small>CEF-style experiment; requires a compatible solvent system.</small></span></label><label class="check"><input type="checkbox" value="chelator" data-stabilizer><span><b>Measured chelator</b><small>EDTA/DTPA-type metal control; not a substitute for clean water.</small></span></label><label class="check"><input type="checkbox" value="polyol" data-stabilizer><span><b>Polyol / humectant</b><small>Glycerin or glycol; modest effect inferred from emulsion studies.</small></span></label><label class="check"><input type="checkbox" value="other" data-stabilizer><span><b>Other or unknown additive</b><small>Does not receive a stability credit; increases uncertainty.</small></span></label></div></details>
+      <div class="field-group-label"><h3>Confidence and remake guardrails</h3><p>These controls do not change the central chemical score or pie percentages. pH confidence widens the uncertainty band and changes the conservative remake window; preservation changes the remake window only.</p></div>
+      <div class="field"><label for="phConfidence">pH measurement confidence</label><select id="phConfidence"><option value="meter">Measured with a calibrated meter</option><option value="strip">Measured with fresh strips</option><option value="guess" selected>Estimated / no measurement</option></select><span class="field-help">The selected pH still drives the chemistry model; this control changes confidence and remake timing, not the central percent score.</span></div>
+      <div class="field"><label for="preservation">Microbial preservation</label><select id="preservation"><option value="none" selected>None / not preserved</option><option value="measured">Compatible preservative, accurately measured</option><option value="unknown">Preservative status unknown</option></select><span class="field-help">Remake-window guardrail only; the pie chart does not model microbial growth.</span></div>
+    </div>
+  </section>
+
+  <div class="results-anchor" id="resultsAnchor">
+  <section class="panel results" id="results" aria-labelledby="result-title">
+    <div class="result-head"><div class="decision"><span class="kicker">Conservative remake recommendation</span><strong id="action">Remake soon</strong><p id="actionNote">The batch is inside the model window, but age and visible yellowing argue for using it promptly.</p></div><div class="result-actions"><a class="mini-link" href="../markdown-viewer.html?file=08_vitamin_c_serums/09_diy_vitamin_c_potency_model.md">Read assumptions &amp; evidence ↗</a></div></div>
+    <div class="stats"><div class="stat"><b id="scoreOut">100%</b><span>intact LAA likelihood score</span></div><div class="stat"><b id="windowOut">5 days</b><span id="windowLabel">conservative guardrail</span></div><div class="stat"><b id="pressureOut">0.7×</b><span>relative degradation pressure</span></div><div class="stat"><b id="confidenceOut">Low</b><span id="confidenceNote">pH/model confidence</span></div></div>
+    <div class="visual-grid">
+      <div><h2 id="pieTitle">Relative modeled chemical-state allocation</h2><div class="pie-wrap"><svg id="pie" viewBox="0 0 240 240" role="img" aria-labelledby="pieTitle pieDesc"><desc id="pieDesc">A pie chart allocating a modeled fresh-batch state between intact L-ascorbic acid and broad degradation product families. It is not an assay.</desc><g id="pieArcs"></g><circle cx="120" cy="120" r="54" fill="var(--card)"></circle><text id="pieCenterTop" x="120" y="115" text-anchor="middle" font-size="11" fill="var(--muted)">LAA score</text><text id="pieCenterValue" x="120" y="137" text-anchor="middle" font-size="23" font-weight="800">72%</text></svg><ul class="legend" id="legend" aria-label="Pie chart legend"></ul></div><p class="chart-note">The intact share is a model score anchor. The remaining area is distributed among plausible pathway families; it is not a measured concentration of each molecule.</p></div>
+      <div class="readout"><h3>What is driving this result?</h3><ul class="drivers" id="drivers" aria-live="polite"></ul><div class="remake-box"><b id="remakeTitle">Remake by day 7 under these conditions.</b><p id="remakeNote">A short window is intentional: a home batch usually lacks validated preservation, oxygen control, and stability-indicating HPLC data.</p></div></div>
+    </div>
+  </section>
+  </div>
+
+  <section class="panel" aria-labelledby="method-title">
+    <h2 id="method-title">How to read the visualizer</h2>
+    <div class="details-grid"><div><h3>What the pie categories mean</h3><p class="sub">The chart begins with a modeled intact-LAA share. Any remainder is allocated to broad families: early oxidation (DHA), irreversible cleavage (DKG and small acids), acidic furan/carbonyl routes, higher-pH routes, and later colored condensation products. Individual molecules are not identified by the chart.</p><h3>Why the inputs matter</h3><p class="sub">The model uses temperature, pH, oxygen/headspace, light, container, water quality, concentration, and stabilizer multipliers. It is calibrated only as a transparent relative-pressure heuristic around a fresh acidic DIY batch. It does not extrapolate a purchased product’s preservative or packaging system.</p></div><div><h3>Model equation</h3><div class="equation">survival = exp(− days × pressure / 55)
+pressure = temperature × pH × light × air × container × water
+           × concentration × stabilizer
+score = 100 × [0.72 × survival + 0.28 × (1 − color warning)]
+confidence band = score ± pH-measurement uncertainty</div><p class="fine">The denominator and multipliers are planning assumptions, not a published shelf-life constant. Measurement confidence widens the displayed interpretation and can shorten the remake window; it does not chemically subtract from the central score. A separate, capped remake window also applies because chemical score cannot rule out microbial or formulation failure.</p><h3>Evidence anchors</h3><div class="source-links"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8773188/">Stability review ↗</a><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6049385/">pH / browning study ↗</a><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3167265/">Light / pH formulation study ↗</a><a href="https://pubmed.ncbi.nlm.nih.gov/3566770/">Chelator mechanism ↗</a><a href="https://www.sciencedirect.com/science/article/pii/S0022202X1532491X">Ferulic stabilization study ↗</a></div></div></div>
+    <p class="footnote">For a stronger answer about active vitamin C, use a validated stability-indicating HPLC/LC method. A home reducing-capacity titration can be confounded by other reducing ingredients.</p>
+  </section>
+</main>
+<script>
+(() => {
+  'use strict';
+  const $ = (id) => document.getElementById(id);
+  const clamp = (n, lo, hi) => Math.max(lo, Math.min(hi, n));
+  const sigmoid = (x) => 1 / (1 + Math.exp(-x));
+  const colorStops = [{at:0,label:'clear / white',risk:0},{at:12,label:'faint straw',risk:.05},{at:30,label:'pale yellow',risk:.12},{at:50,label:'yellow',risk:.25},{at:68,label:'gold',risk:.42},{at:86,label:'orange',risk:.72},{at:100,label:'brown',risk:1}];
+  const confidenceData = {meter:{label:'High',uncertainty:2},strip:{label:'Moderate',uncertainty:6},guess:{label:'Low',uncertainty:12}};
+  const tempFactor = {4:.34,15:.62,22:1,30:1.9,40:3.8};
+  const lightFactor = {dark:.55,room:1,sun:2.35};
+  const airFactor = {low:.62,medium:1,high:1.5};
+  const waterFactor = {di:.84,bottled:1,tap:1.28};
+  const containerData = {
+    amber:{label:'small amber glass dropper',factor:.84,window:1},
+    clear:{label:'clear glass dropper',factor:1.18,window:.78},
+    airless:{label:'opaque airless pump',factor:.64,window:1.25},
+    tube:{label:'opaque squeeze tube',factor:.86,window:1.02},
+    jar:{label:'wide-mouth jar / open cup',factor:1.58,window:.55}
+  };
+  const stabilizerData = {
+    ferulic:{label:'ferulic acid + vitamin E',factor:.58,window:1.8},
+    chelator:{label:'measured chelator',factor:.78,window:1.25},
+    polyol:{label:'polyol / humectant',factor:.86,window:1.12},
+    other:{label:'other or unknown additive',factor:1,window:.8}
+  };
+  const colors = {laa:'#2f8f62',dha:'#5d9fbc',dkg:'#71839b',acid:'#d49b39',alkaline:'#ca6d35',brown:'#9b4433'};
+  const labels = {laa:'Intact LAA',dha:'DHA / early oxidation',dkg:'DKG + cleavage acids',acid:'Acidic furans / carbonyls',alkaline:'Higher-pH products',brown:'Browning / condensation'};
+  const presets = {
+    fresh:{concentration:10,ph:3.2,days:2,color:0,temperature:'4',container:'amber',light:'dark',air:'low',water:'di',phConfidence:'meter',preservation:'none',stabilizers:[]},
+    typical:{concentration:20,ph:3.3,days:0,color:0,temperature:'22',container:'amber',light:'room',air:'medium',water:'di',phConfidence:'guess',preservation:'none',stabilizers:[]},
+    cef:{concentration:15,ph:3.3,days:7,color:12,temperature:'15',container:'amber',light:'dark',air:'low',water:'di',phConfidence:'meter',preservation:'none',stabilizers:['ferulic','chelator']},
+    stress:{concentration:15,ph:4.5,days:10,color:50,temperature:'30',container:'clear',light:'sun',air:'high',water:'tap',phConfidence:'guess',preservation:'none',stabilizers:[]}
+  };
+  let previousShares = null;
+  let animationFrame = 0;
+  let renderQueued = false;
+  let resultsInView = false;
+
+  function readConfig(){
+    return {
+      concentration:+$('concentration').value, ph:+$('ph').value, days:+$('days').value, color:+$('color').value,
+      temperature:$('temperature').value, container:$('container').value, light:$('light').value, air:$('air').value,
+      water:$('water').value, phConfidence:$('phConfidence').value, preservation:$('preservation').value,
+      stabilizers:[...document.querySelectorAll('[data-stabilizer]:checked')].map(x=>x.value)
+    };
+  }
+  function setConfig(p){
+    Object.entries(p).forEach(([key,value]) => {
+      if(key==='stabilizers') return;
+      const el=$(key); if(el) el.value=value;
+    });
+    document.querySelectorAll('[data-stabilizer]').forEach(x=>x.checked=p.stabilizers.includes(x.value));
+    queueRender();
+  }
+  function markPresetActive(name,concentration){
+    document.querySelectorAll('.preset[data-preset]').forEach(btn=>{
+      const active=btn.dataset.preset===name&&(!btn.dataset.concentration||Number(btn.dataset.concentration)===Number(concentration));
+      btn.classList.toggle('active',active);btn.setAttribute('aria-pressed',active?'true':'false');
+    });
+    document.querySelectorAll('.preset-family').forEach(card=>card.classList.toggle('active',card.dataset.presetFamily===name));
+    document.querySelectorAll('.preset-subbtn').forEach(btn=>btn.classList.toggle('active',btn.dataset.preset===name&&Number(btn.dataset.concentration)===Number(concentration)));
+  }
+  function applyPreset(name,concentration){
+    const source=presets[name],p={...source,stabilizers:[...source.stabilizers]};
+    if(concentration!==undefined)p.concentration=Number(concentration);
+    setConfig(p);markPresetActive(name,p.concentration);
+  }
+  function factorForConcentration(c){ return c<10?1.14:c<15?1.03:c<20?.9:.83; }
+  function colorInfo(value){
+    const v=clamp(Number(value),0,100);
+    for(let i=1;i<colorStops.length;i++){
+      const left=colorStops[i-1],right=colorStops[i];
+      if(v<=right.at){
+        const t=(v-left.at)/(right.at-left.at),risk=left.risk+(right.risk-left.risk)*t;
+        const label=t<.5?left.label:right.label;
+        return {risk,label,display:`${Math.round(v)}% · ${label}`};
+      }
+    }
+    const last=colorStops[colorStops.length-1]; return {risk:last.risk,label:last.label,display:`${Math.round(v)}% · ${last.label}`};
+  }
+  function pHFactor(ph){
+    const ionized=1/(1+Math.pow(10,4.1-ph));
+    return .72+1.55*ionized;
+  }
+  function stabilizerState(keys){
+    let factor=1, window=1, labelsOut=[];
+    keys.forEach(key=>{const item=stabilizerData[key]; if(!item)return; factor*=item.factor; window*=item.window; labelsOut.push(item.label);});
+    return {factor,window,labels:labelsOut};
+  }
+  function compute(c){
+    const st=stabilizerState(c.stabilizers);
+    const pH=pHFactor(c.ph), t=tempFactor[c.temperature], l=lightFactor[c.light], a=airFactor[c.air], w=waterFactor[c.water], pkg=containerData[c.container];
+    const pressure=t*pH*l*a*pkg.factor*w*factorForConcentration(c.concentration)*st.factor;
+    const survival=Math.exp(-c.days*pressure/55);
+    const color=colorInfo(c.color), warning=color.risk, confidence=confidenceData[c.phConfidence]||confidenceData.guess;
+    const score=clamp(100*(.72*survival+.28*(1-warning)),0,100);
+    const confidenceLow=clamp(score-confidence.uncertainty,0,100),confidenceHigh=clamp(score+confidence.uncertainty,0,100);
+    const intactShare=clamp(score/100,0,1);
+    const chemicalRemainder=1-intactShare;
+    const acidRoute=.05+.9*clamp((4.2-c.ph)/1.7,0,1);
+    const alkalineRoute=.05+.95*sigmoid((c.ph-5.15)*1.8);
+    const brownRoute=clamp(.08+warning*1.25+(t>1?t-.8:0)*.12+(c.days/60)*.15,0,1);
+    const early=Math.exp(-c.days/12);
+    const weights={dha:.24+.18*early+.08*a,dkg:.28+.1*(1-early),acid:.16+.18*acidRoute,alkaline:.13+.18*alkalineRoute,brown:.06+.24*brownRoute};
+    const weightTotal=Object.values(weights).reduce((x,y)=>x+y,0);
+    const shares={laa:intactShare}; Object.keys(weights).forEach(key=>shares[key]=chemicalRemainder*weights[key]/weightTotal);
+    const pressureDrivers=[{label:`age (${c.days} days)`,value:1+c.days/14},{label:`pH ${c.ph.toFixed(1)}`,value:pH},{label:`temperature (${c.temperature}°C)`,value:t},{label:'light exposure',value:l},{label:'air/headspace',value:a},{label:'container',value:pkg.factor},{label:'water quality',value:w},{label:'observed color',value:1+warning*1.8}];
+    const topPressure=pressureDrivers.reduce((best,item)=>item.value>best.value?item:best,pressureDrivers[0]);
+    const topDriver=`${topPressure.label} (${topPressure.value.toFixed(1)}× relative pressure)`;
+    let window=7;
+    window*=c.temperature==='4'?1.8:c.temperature==='15'?1.3:c.temperature==='30'?.62:c.temperature==='40'?.3:1;
+    window*=pkg.window*({dark:1,room:.8,sun:.45}[c.light])*({low:1.12,medium:1,high:.68}[c.air])*({di:1.1,bottled:1,tap:.8}[c.water]);
+    window*=st.window*(c.ph>=2.8&&c.ph<=3.5?1.12:c.ph<=4.5?.86:.58);
+    window*=c.phConfidence==='meter'?1.05:c.phConfidence==='strip'?1:.82;
+    if(c.preservation==='measured') window*=1.12;
+    if(c.preservation==='unknown') window*=.75;
+    window=clamp(Math.round(window),2,21);
+    const noPreservativeCap=c.preservation==='none'?7:c.preservation==='unknown'?5:14;
+    window=Math.min(window,noPreservativeCap);
+    let action='Use while fresh', tone='good', note='The batch is inside the conservative window; use it promptly and keep watching the trend.';
+    const guardrailReached=c.days>=window, chemicallyStillStrong=score>=85&&c.color<55;
+    if(c.color>=90){action='Remake now',tone='bad';note='Brown color is a strong late-degradation signal. Do not try to reverse it at home.';}
+    else if(c.color>=78 || score<58){action='Remake now',tone='bad';note='The observed color or modeled pressure has crossed the conservative replacement threshold.';}
+    else if(guardrailReached && chemicallyStillStrong){action='Remake soon',tone='warn';note=`The modeled LAA score is still high, but this unpreserved water-based batch has reached the conservative microbial/formulation guardrail. That is not the same as ${Math.round(score)}% potency being lost.`;}
+    else if(guardrailReached || c.color>=55 || c.days>=window*.72 || score<75){action='Remake soon',tone='warn';note='This is still a heuristic, but the age/color/conditions argue for using it promptly or replacing it.';}
+    const drivers=[];
+    drivers.push({title:'pH',text:`pH ${c.ph.toFixed(1)} gives a ${pH.toFixed(2)}× ionization/stability multiplier; the model is most favorable around pH 3.0–3.5.`});
+    drivers.push({title:'Age + environment',text:`${c.days} day${c.days===1?'':'s'} at about ${c.temperature}°C with ${c.light==='dark'?'dark':c.light==='room'?'room-light':'sunlight'} exposure and ${a===1?'normal':a<1?'low':'high'} air exposure.`});
+    drivers.push({title:'Appearance',text:`${color.display} is treated as a warning input only; it cannot be converted to an exact LAA percentage.`});
+    if(st.labels.length) drivers.push({title:'Selected stabilizers',text:`${st.labels.join(', ')} receive a limited model credit, with large uncertainty because DIY solvent compatibility and concentration are not verified.`});
+    else drivers.push({title:'No modeled stabilizer',text:'The simple batch receives no chelation or antioxidant-system credit.'});
+    drivers.push({title:'pH measurement confidence',text:`${confidence.label} confidence (±${confidence.uncertainty} score points): this does not change the central score, but it widens the interpretation band and affects the conservative remake window.`});
+    if(c.preservation==='none') drivers.push({title:'Microbiology',text:`No preservative is selected, so the conservative remake guardrail is capped at ${noPreservativeCap} days even if the modeled chemical score looks better.`});
+    return {score,pressure,shares,window,action,tone,note,drivers,survival,chemicalRemainder,uncertainty:confidence.uncertainty,confidenceLabel:confidence.label,confidenceLow,confidenceHigh,stabilizers:st.labels,topDriver};
+  }
+  function arcPath(cx,cy,r,start,end){
+    const x1=cx+r*Math.cos(start),y1=cy+r*Math.sin(start),x2=cx+r*Math.cos(end),y2=cy+r*Math.sin(end),large=end-start>Math.PI?1:0;
+    return `M ${cx} ${cy} L ${x1.toFixed(3)} ${y1.toFixed(3)} A ${r} ${r} 0 ${large} 1 ${x2.toFixed(3)} ${y2.toFixed(3)} Z`;
+  }
+  function renderPie(shares,target='pie'){
+    const keys=['laa','dha','dkg','acid','alkaline','brown'];
+    const groupId=target==='pie'?'pieArcs':'miniPieArcs',g=$(groupId);
+    if(g.children.length!==keys.length){g.innerHTML='';keys.forEach(key=>{const path=document.createElementNS('http://www.w3.org/2000/svg','path');path.dataset.key=key;path.setAttribute('stroke','var(--card)');path.setAttribute('stroke-width','1.5');path.setAttribute('tabindex','-1');g.appendChild(path);});}
+    let angle=-Math.PI/2;
+    keys.forEach(key=>{const value=clamp(shares[key]||0,0,1),end=angle+value*Math.PI*2,path=g.querySelector(`[data-key="${key}"]`);path.setAttribute('d',value>.999?`M 120 120 m -78 0 a 78 78 0 1 0 156 0 a 78 78 0 1 0 -156 0`:arcPath(120,120,78,angle,end));path.setAttribute('fill',colors[key]);angle=end;});
+    const score=shares.laa*100,chart=$(target),center=$(target==='pie'?'pieCenterValue':'miniPieCenterValue'); center.textContent=`${Math.round(score)}%`;
+    chart.setAttribute('aria-label',`Relative modeled allocation: ${Math.round(score)}% intact LAA, ${Math.round((1-shares.laa)*100)}% across degradation families. Not an assay.`);
+    const legendId=target==='pie'?'legend':'dockLegend';
+    $(legendId).innerHTML=keys.map(key=>`<li><span><i class="swatch" style="background:${colors[key]}" aria-hidden="true"></i>${labels[key]}${target==='pie'?` <em>${key==='laa'?'score anchor':'modeled family'}</em>`:''}</span><b>${(shares[key]*100).toFixed(1)}%</b></li>`).join('');
+  }
+  function animatePie(next){
+    if(animationFrame) cancelAnimationFrame(animationFrame);
+    const from=previousShares||next, start=performance.now(), duration=420;
+    function frame(now){const p=clamp((now-start)/duration,0,1),e=1-Math.pow(1-p,3),mixed={};Object.keys(next).forEach(key=>mixed[key]=from[key]+(next[key]-from[key])*e);renderPie(mixed);renderPie(mixed,'miniPie');if(p<1)animationFrame=requestAnimationFrame(frame);else{animationFrame=0;previousShares=next;}}
+    animationFrame=requestAnimationFrame(frame);
+  }
+  function updateOutputs(c,r){
+    const color=colorInfo(c.color); $('concentrationOut').textContent=`${c.concentration}%`; $('phOut').textContent=c.ph.toFixed(1); $('daysOut').textContent=`${c.days} day${c.days===1?'':'s'}`; $('colorOut').textContent=color.display; $('color').setAttribute('aria-valuetext',color.display); $('stabilizerSummary').textContent=r.stabilizers.length?`${r.stabilizers.length} selected`:'none selected';
+    $('scoreOut').textContent=`${Math.round(r.score)}%`; $('windowOut').textContent=`${r.window} day${r.window===1?'':'s'}`; $('windowLabel').textContent=c.preservation==='none'?'conservative microbial guardrail':'conservative remake window'; $('pressureOut').textContent=`${r.pressure.toFixed(1)}×`; $('confidenceOut').textContent=r.confidenceLabel; $('confidenceNote').textContent=`pH/model confidence (±${r.uncertainty} pts)`;
+    const action=$('action');action.textContent=r.action;action.className=r.tone;const dockAction=$('dockAction');dockAction.textContent=r.action;dockAction.className=r.tone;$('dockScore').textContent=`${Math.round(r.score)}%`; $('dockDriver').textContent=`Top modeled pressure: ${r.topDriver}; confidence ${r.confidenceLabel.toLowerCase()} (±${r.uncertainty} pts).`;$('dockLegend').innerHTML=['laa','dha','dkg','acid','alkaline','brown'].map(key=>`<li><span><i class="swatch" style="background:${colors[key]}" aria-hidden="true"></i>${labels[key]}</span><b>${(r.shares[key]*100).toFixed(1)}%</b></li>`).join('');$('actionNote').textContent=r.note;
+    const remakeText=r.action==='Use while fresh'?`Aim to remake by day ${r.window} under these conditions.`:r.action==='Remake soon'&&r.score>=85?`Plan a fresh batch soon; the conservative guardrail is day ${r.window}.`:`Remake ${r.action==='Remake now'?'now':'by day '+r.window} under these conditions.`;
+    const remakeNote=c.preservation==='none'?'The 7-day cap is deliberate: no chemical score can rule out microbial or preservation failure in a water-based home batch.':'The window is still a conservative planning aid, not a validated shelf-life claim.';
+    $('remakeTitle').textContent=remakeText;$('remakeNote').textContent=remakeNote;
+    $('drivers').innerHTML=r.drivers.map(d=>`<li><b>${d.title}</b>${d.text}</li>`).join('');
+  }
+  function setDockExpanded(expanded){
+    const dock=$('liveDock'),results=$('results'),expandButton=$('dockExpandButton');
+    results.classList.toggle('is-in-view',expanded);
+    dock.classList.toggle('is-hidden',expanded);
+    if(expanded){dock.setAttribute('aria-hidden','true');dock.inert=true;}
+    else{dock.removeAttribute('aria-hidden');dock.inert=false;}
+    expandButton.setAttribute('aria-expanded',expanded?'true':'false');
+  }
+  function observeResultsForDock(){
+    const anchor=$('resultsAnchor');
+    if(!anchor || !('IntersectionObserver' in window)) return;
+    const observer=new IntersectionObserver(entries=>{
+      const entry=entries[0];
+      const handoffHeight=Math.min(72,entry.boundingClientRect.height*.08);
+      resultsInView=entry.isIntersecting&&entry.intersectionRect.height>=handoffHeight;
+      setDockExpanded(resultsInView);
+    },{threshold:[0,.05,.08,.1],rootMargin:'0px 0px -10% 0px'});
+    observer.observe(anchor);
+  }
+  function render(){renderQueued=false;const c=readConfig(),r=compute(c);updateOutputs(c,r);animatePie(r.shares);}
+  function queueRender(){if(renderQueued)return;renderQueued=true;requestAnimationFrame(render);}
+  document.querySelectorAll('input,select').forEach(el=>['input','change'].forEach(eventName=>el.addEventListener(eventName,queueRender)));
+  document.querySelectorAll('[data-preset][data-concentration]').forEach(btn=>btn.addEventListener('click',()=>applyPreset(btn.dataset.preset,btn.dataset.concentration)));
+  document.querySelectorAll('[data-preset]:not([data-concentration])').forEach(btn=>btn.addEventListener('click',()=>applyPreset(btn.dataset.preset)));
+  $('dockExpandButton').addEventListener('click',()=>{
+    $('resultsAnchor').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});
+  });
+  window.__diyVitCModel={compute,readConfig,render,labels};
+  window.runDiyVitCSelfTest=()=>{
+    const base={concentration:15,ph:3.3,days:0,color:0,temperature:'22',container:'amber',light:'dark',air:'medium',water:'di',phConfidence:'meter',preservation:'none',stabilizers:[]};
+    const a=compute(base),older=compute({...base,days:30}),hot=compute({...base,temperature:'40'}),highPh=compute({...base,ph:6}),brown=compute({...base,color:100}),midColor=compute({...base,color:61}),guess=compute({...base,phConfidence:'guess'});
+    const sum=Object.values(a.shares).reduce((x,y)=>x+y,0);const tests=[Number.isFinite(a.score),a.score>=0&&a.score<=100,Object.values(a.shares).every(x=>Number.isFinite(x)&&x>=0),Math.abs(sum-1)<.00001,older.score<=a.score,hot.score<=a.score,highPh.score<=a.score,brown.action==='Remake now',midColor.action==='Remake soon',colorInfo(50).risk>.12&&colorInfo(50).risk<.42,Math.abs(guess.score-a.score)<.00001,guess.window<=a.window,guess.confidenceLabel==='Low',a.window<=7];
+    const result={passed:tests.filter(Boolean).length,total:tests.length,ok:tests.every(Boolean),tests};console.assert(result.ok,'DIY vitamin C visualizer self-test failed',result);document.documentElement.dataset.selfTest=result.ok?'pass':'fail';return result;
+  };
+  markPresetActive('typical',20);
+  setDockExpanded(false);
+  observeResultsForDock();
+  render();
+  if(new URLSearchParams(location.search).get('test')==='1') window.runDiyVitCSelfTest();
+})();
+</script>
+</body>
+</html>

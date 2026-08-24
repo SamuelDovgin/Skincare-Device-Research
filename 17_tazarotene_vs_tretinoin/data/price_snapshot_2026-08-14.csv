@@ -1,0 +1,23 @@
+route,pharmacy_or_program,zip,size_g,price_usd,price_type,price_per_30g,access_date,source_or_capture,notes
+SingleCare,CVS aggregate estimate,,60,46.50,recent fill-data estimate,23.25,2026-08-14,https://www.singlecare.com/prescription/tazarotene,Not guaranteed to be the 60487 counter price
+SingleCare,participating pharmacies,,30,45.50,program-page estimate,45.50,2026-08-14,https://www.singlecare.com/prescription/tazarotene,Page-level estimate; verify exact pharmacy
+Amazon Pharmacy Prime,Amazon Pharmacy,60487,30,47.30,Prime cash quote,47.30,2026-08-14,user-supplied capture,Amazon result showed 30 g only
+Cost Plus Drugs,Mark Cuban Cost Plus Drugs,,30,42.63,medication plus $5.25 standard shipping before tax,42.63,2026-08-14,user-supplied capture,Base $37.38 + standard shipping $5.25; tax can change final total
+Cost Plus Drugs,Mark Cuban Cost Plus Drugs,,60,77.50,medication plus $5.25 standard shipping before tax,38.75,2026-08-14,user-supplied capture,Base $72.25 + standard shipping $5.25; tax can change final total
+GoodRx Companion,CVS or Target CVS,60487,30,42.50,membership coupon,42.50,2026-08-14,user-supplied capture,Membership terms apply
+GoodRx standard,CVS or Target CVS,60487,30,52.80,standard coupon,52.80,2026-08-14,user-supplied capture,Price subject to change
+GoodRx Companion,CVS or Target CVS,60487,60,66.70,membership coupon,33.35,2026-08-14,user-supplied capture,Membership terms apply
+GoodRx standard,CVS or Target CVS,60487,60,77.05,standard coupon,38.53,2026-08-14,user-supplied capture,Price subject to change
+WellRx,CVS near 60487,60487,30,49.14,discount card,49.14,2026-08-14,user-supplied capture,Discount only and not insurance
+WellRx,CVS near 60487,60487,60,69.99,discount card,35.00,2026-08-14,user-supplied capture,Discount only and not insurance
+GoodRx Companion,Meijer near 60487,60487,30,61.77,membership coupon,61.77,2026-08-14,user-supplied capture,Local comparison
+GoodRx Companion,Jewel-Osco near 60487,60487,30,63.32,membership coupon,63.32,2026-08-14,user-supplied capture,Local comparison
+GoodRx Companion,Marianos or Kroger near 60487,60487,30,64.22,membership coupon,64.22,2026-08-14,user-supplied capture,Local comparison
+GoodRx Companion,Walgreens near 60487,60487,30,66.72,membership coupon,66.72,2026-08-14,user-supplied capture,Local comparison
+GoodRx,Aurora near 60487,60487,30,68.11,discount quote,68.11,2026-08-14,user-supplied capture,Local comparison
+GoodRx,Sams Club near 60487,60487,30,61.05,discount quote,61.05,2026-08-14,user-supplied capture,Local comparison
+GoodRx,Costco near 60487,60487,30,84.99,discount quote,84.99,2026-08-14,user-supplied capture,Local comparison
+GoodRx,Walmart near 60487,60487,30,95.79,membership coupon,95.79,2026-08-14,user-supplied capture,Local comparison
+WellRx,Kroger near 60487,60487,30,70.72,discount card,70.72,2026-08-14,user-supplied capture,Local comparison
+WellRx,Walgreens near 60487,60487,30,73.50,discount card,73.50,2026-08-14,user-supplied capture,Local comparison
+WellRx,Walmart near 60487,60487,30,100.59,discount card,100.59,2026-08-14,user-supplied capture,Local comparison

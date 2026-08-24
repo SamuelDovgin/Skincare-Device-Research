@@ -1,0 +1,22 @@
+ingredient,endpoint,design_or_synthesis,participants_or_studies,studied_protocol,follow_up,evidence_read,primary_source
+hydrolyzed collagen,hydration elasticity wrinkles,meta-analysis of RCTs,23 RCTs/1474,variable 1-10 g/day,mostly 8-12 weeks,conflicted by funding and quality,https://pubmed.ncbi.nlm.nih.gov/40324552/
+hydrolyzed collagen,hydration elasticity barrier,RCT,100 randomized/84 per protocol,low-MW collagen,12 weeks,moderate positive single trial,https://pubmed.ncbi.nlm.nih.gov/36516059/
+collagen peptide,NMF hydration TEWL,RCT,99 women,1 or 5 g/day,12 weeks,moderate positive hydration only,https://pubmed.ncbi.nlm.nih.gov/33774639/
+sodium hyaluronate,hydration TEWL elasticity wrinkles,RCT,150 adults,60 or 120 mg/day,12 weeks,moderate positive company-linked,https://pubmed.ncbi.nlm.nih.gov/41422283/
+hyaluronan,dry skin hydration,RCT,61,120 mg/day,6 weeks,moderate small trial,https://pubmed.ncbi.nlm.nih.gov/25834304/
+wheat oil extract,arm/leg hydration,RCT,51 women,350 mg/day,84 days,low-moderate small branded trial,https://pubmed.ncbi.nlm.nih.gov/20646083/
+astaxanthin,moisture elasticity wrinkles,meta-analysis,9 oral RCTs,mostly 3-6 mg/day,variable,moisture/elasticity positive wrinkle null,https://pubmed.ncbi.nlm.nih.gov/34578794/
+lycopene,UV erythema MMP-1 mtDNA,RCT,20 women,16 mg/day tomato-paste lycopene,12 weeks,small positive UV surrogate,https://pubmed.ncbi.nlm.nih.gov/20854436/
+mixed carotenoids,UVB MED UVA pigmentation,RCT,60,branded mixed carotenoid supplement,12 weeks,positive surrogate outcome,https://pubmed.ncbi.nlm.nih.gov/32072695/
+Polypodium leucotomos,UV response photodermatoses,systematic review,21 studies/11 RCTs,product-specific often 240-480 mg/day,variable,moderate-low adjunctive evidence,https://pubmed.ncbi.nlm.nih.gov/40196953/
+vitamin C,skin biology/wound healing,review,18 healing studies,variable; RDA 75-90 mg/day,variable,adequacy strong cosmetic megadose weak,https://pubmed.ncbi.nlm.nih.gov/28805671/
+vitamin C plus E,MED,RCT,10 subjects,2 g C + 1000 IU E/day,8 days,small historical positive,https://pubmed.ncbi.nlm.nih.gov/9448204/
+vitamin D,atopic dermatitis severity,meta-analysis,11 RCTs/686,variable,variable,moderate condition-specific,https://pubmed.ncbi.nlm.nih.gov/39683522/
+zinc,acne inflammatory papules,meta-analysis,systematic review,variable,variable,moderate condition-specific,https://pubmed.ncbi.nlm.nih.gov/32860489/
+probiotics,acne lesions severity,meta-analysis,9 studies/623,strain-specific,12 weeks,moderate-low strain-specific,https://pubmed.ncbi.nlm.nih.gov/40832719/
+omega-3,acne lesions,systematic review,42 nutraceutical RCTs overall,product-specific,variable,possible benefit low-moderate,https://pubmed.ncbi.nlm.nih.gov/37878272/
+soy isoflavone,wrinkles elasticity,RCT,26 women,40 mg/day aglycone,12 weeks,small population-specific,https://pubmed.ncbi.nlm.nih.gov/17484381/
+S-equol,crow feet wrinkles,RCT,101 postmenopausal women,10 or 30 mg/day,12 weeks,small population-specific,https://pubmed.ncbi.nlm.nih.gov/21934634/
+glutathione,melanin index,systematic review,4 clinical studies,250-500 mg/day,4-12 weeks,low inconclusive,https://pubmed.ncbi.nlm.nih.gov/30895708/
+nicotinamide,NMSC and actinic keratoses,phase 3 RCT,386 high-risk patients,500 mg twice daily,12 months,higher narrow medical indication,https://pubmed.ncbi.nlm.nih.gov/26488693/
+biotin,healthy hair/nails,review,limited studies,no supported cosmetic dose,variable,low absent deficiency,https://pubmed.ncbi.nlm.nih.gov/39148962/
