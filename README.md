@@ -4,7 +4,7 @@
 
 Research into at-home, light- and energy-based skincare devices for **facial redness/erythema, hyperpigmentation, post-inflammatory hyperpigmentation (PIH), and evening skin tone**, plus **hair removal**, **skin-quality (collagen) rejuvenation**, **tightening/laxity**, and topical support as parallel goals. Budget-conscious; covers branded, retail, Chinese OEM/Alibaba sourcing, patent/regulatory context, and practical product buying.
 
-The repo is organized into **twenty research projects**, including a cross-category regimen planner:
+The repo is organized into **twenty-one research projects**, including a cross-category regimen planner:
 
 | Folder | Product class | Goal |
 |--------|---------------|------|
@@ -28,6 +28,7 @@ The repo is organized into **twenty research projects**, including a cross-categ
 | [`18_glycolic_acid_topicals/`](18_glycolic_acid_topicals/) | Glycolic acid & AHA topicals | Human evidence, pH/vehicle selection, optional texture/pigment adjunct, and routine spacing |
 | [`19_diy_topical_formulation/`](19_diy_topical_formulation/) | DIY topical formulation | Powder-ingredient audit, efficacy vs formulation fit, pH, preservation, storage, conservative worksheets, and candidate explorer |
 | [`20_oral_supplements_for_skin/`](20_oral_supplements_for_skin/) | Oral supplements for skin | Human evidence map for collagen, HA, ceramides, carotenoids, Polypodium, vitamin C, acne/eczema nutraceuticals, protocols, and safety |
+| [`21_hypochlorous_acid_generation/`](21_hypochlorous_acid_generation/index.html) | Hypochlorous acid: pH-controlled generation | Manual-compatible acidified-brine reference, scale masses, paired pH/FAC QC, generator/product compatibility gate, and explicit PWPAM exclusion |
 
 ## TL;DR
 
@@ -50,8 +51,9 @@ The repo is organized into **twenty research projects**, including a cross-categ
 15. **Tazarotene and tretinoin should not be ranked by percentage alone.** Tazarotene has a favorable direct acne comparison against 0.025% tretinoin and credible photoaging trials; tretinoin has the deeper independent human collagen/photoaging record. The most defensible choice is the formulation and prescription strategy that matches the endpoint and can be tolerated consistently. See **[`17_tazarotene_vs_tretinoin/`](17_tazarotene_vs_tretinoin/)**.
 16. **DIY powders need a formulation audit, not just an ingredient ranking.** Pure L-ascorbic acid is the clearest fresh-batch candidate because low-pH delivery and oxidation are well characterized; glycolic acid is credible but needs pH/free-acid and preservation control; hyaluronic acid is useful but usually better bought as a preserved finished serum. See **[`19_diy_topical_formulation/`](19_diy_topical_formulation/)** and its [candidate explorer](19_diy_topical_formulation/diy_candidate_explorer.html).
 17. **Oral supplements are an evidence-separated lane.** Collagen/HA are the main hydration/elasticity experiments; carotenoids and Polypodium are UV adjuncts; zinc, vitamin D, and probiotics are condition-specific; oral vitamin C is important for adequacy and collagen biology but is not a proven wrinkle megadose. See **[`20_oral_supplements_for_skin/`](20_oral_supplements_for_skin/)**.
+18. **pH-controlled HOCl is now a separate, measured lane.** The [skincare HOCl recipe developer](21_hypochlorous_acid_generation/hypochlorous_acid_calibration_planner.html) provides water, FAC, and pH sliders; scales salt and time from the source ratios and one-liter production anchors; shows FAC and illustrative pH paths over time; and exports the paired final pH/FAC result for next-fresh-batch review in chat. It defaults to the exact 1,000 mL / 100 ppm / 8-minute reference and labels smaller-volume, intermediate-FAC, and vinegar/pH results as estimates. PWPAM remains salt-only and must not be acidified. Start with the [generator & product-compatibility checker](21_hypochlorous_acid_generation/product_compatibility_checker.html).
 
-## Archive-wide enhancement pass — 2026-08-23
+## Archive-wide enhancement pass — 2026-08-24
 
 Every current topic now has one focused gap-closer. Evidence additions separate studied protocols from consumer-product translation; interactive tools expose assumptions and support tracking, comparison, or safety screening rather than predicting a clinical result.
 
@@ -77,6 +79,7 @@ Every current topic now has one focused gap-closer. Evidence additions separate 
 | 18 · Glycolic acid | [Label and free-acid decoder](18_glycolic_acid_topicals/glycolic_label_decoder.html) | Concentration-plus-pH scenarios with explicit uncertainty when pKa, pH, or buffering is unknown |
 | 19 · DIY formulation | [Raw-material COA checker](19_diy_topical_formulation/raw_material_coa_checker.html) | Identity, assay, contaminants, microbiology, lot traceability, and document-integrity gates before formulation |
 | 20 · Supplements | [Stack and upper-limit checker](20_oral_supplements_for_skin/supplement_stack_checker.html) | Duplicate-dose detection and adult upper-limit context without turning the tool into a dosing recommendation |
+| 21 · Hypochlorous acid | [Generator & product-compatibility checker](21_hypochlorous_acid_generation/product_compatibility_checker.html) | Manual chemistry, materials, pH/FAC test capability, intended-path gates, and explicit PWPAM/salt-only exclusion before calibration |
 
 ---
 
@@ -340,7 +343,7 @@ Human glycolic-acid evidence, pH/free-acid logic, vehicle selection, pigment/tex
 
 ## 19 — DIY topical formulation · [`19_diy_topical_formulation/`](19_diy_topical_formulation/)
 
-Cross-ingredient DIY lane for users considering L-ascorbic acid, glycolic acid, hyaluronic acid, niacinamide, N-acetyl glucosamine, tranexamic acid, alpha-arbutin, kojic acid, azelaic acid, salicylic acid, urea, panthenol, antioxidants, peptides, and drug-like powders. It now also includes a measured hypochlorous-acid water lane: generator calibration, FAC/pH quality gates, pillowcase-use boundaries, future face-use limits, chlorine-tablet rejection, and current product choices. The topic separates human efficacy from solubility, pH, oxidation, microbial preservation, packaging, and storage.
+Cross-ingredient DIY lane for users considering L-ascorbic acid, glycolic acid, hyaluronic acid, niacinamide, N-acetyl glucosamine, tranexamic acid, alpha-arbutin, kojic acid, azelaic acid, salicylic acid, urea, panthenol, antioxidants, peptides, and drug-like powders. It preserves the supplied PWPAM salt-only sodium-hypochlorite cleaning-unit material as a manual record, while the pH-controlled vinegar-reference HOCl workflow now lives in its own dedicated topic. The topic separates human efficacy from solubility, pH, oxidation, microbial preservation, packaging, and storage.
 
 | # | Research page | What it covers |
 |---|---|---|
@@ -349,9 +352,9 @@ Cross-ingredient DIY lane for users considering L-ascorbic acid, glycolic acid, 
 | 03 | [Recipes and prototype worksheets](19_diy_topical_formulation/index.html#doc3) | Fresh LAA test, glycolic decision template, niacinamide/NAG, and HA cautions |
 | 04 | [Storage, testing, and stop rules](19_diy_topical_formulation/index.html#doc4) | Dry powder handling, water-batch limits, packaging, patch testing, and discard rules |
 | 05 | [Evidence map and open questions](19_diy_topical_formulation/index.html#doc5) | Claim-to-source map, confidence, gaps, and what would change the ranking |
-| 06 | [Hypochlorous acid water](19_diy_topical_formulation/index.html#doc6) | DIY electrolysis, variable effects, paired FAC/pH calibration and confidence bands, pillowcase experiment boundaries, face-use limits, chlorine-tablet warning, and product choices |
+| 06 | [PWPAM manual boundary](19_diy_topical_formulation/index.html#doc6) | Salt-only manual/strip decision table and why the device is excluded from the vinegar-based HOCl workflow |
 
-**Supporting material:** [DIY candidate explorer](19_diy_topical_formulation/diy_candidate_explorer.html) · [Vitamin C recipe scaler](19_diy_topical_formulation/vitamin_c_recipe_scaler.html) · [Hypochlorous water planner](19_diy_topical_formulation/hypochlorous_water_planner.html) · [rendered source manifest](markdown-viewer.html?file=19_diy_topical_formulation/source_docs/README.md) · [ingredient audit CSV](19_diy_topical_formulation/data/ingredient_audit.csv).
+**Supporting material:** [DIY candidate explorer](19_diy_topical_formulation/diy_candidate_explorer.html) · [Vitamin C recipe scaler](19_diy_topical_formulation/vitamin_c_recipe_scaler.html) · [legacy PWPAM manual record](19_diy_topical_formulation/hypochlorous_water_planner.html) · [pH-controlled HOCl topic](21_hypochlorous_acid_generation/index.html) · [rendered source manifest](markdown-viewer.html?file=19_diy_topical_formulation/source_docs/README.md) · [ingredient audit CSV](19_diy_topical_formulation/data/ingredient_audit.csv).
 
 ## 20 — Oral supplements for skin · [`20_oral_supplements_for_skin/`](20_oral_supplements_for_skin/)
 
@@ -365,6 +368,18 @@ Human evidence for orally ingested collagen peptides, hyaluronic acid, phytocera
 | 04 | [Safety + product selection](20_oral_supplements_for_skin/index.html#doc4) | Upper limits, interaction flags, allergens, quality checks, and stop rules |
 
 **Supporting material:** [oral supplement source manifest](20_oral_supplements_for_skin/source_docs/README.md) · [evidence ledger CSV](20_oral_supplements_for_skin/data/evidence_ledger.csv).
+
+## 21 — Hypochlorous acid: pH-controlled generation · [topic viewer](21_hypochlorous_acid_generation/index.html)
+
+Dedicated measurement-led lane for a **different generator whose manual expressly permits salt plus 5% white vinegar before electrolysis**. It separates a source-specific acidified-brine reference from PWPAM’s supplied salt-only sodium-hypochlorite manual. The developer scales water, salt, planned time, and a capped pre-batch vinegar sensitivity; plots FAC and illustrative pH over time; and requires final FAC plus pH. This is not a facial-product, shelf-life, sterility, or disinfectant-claim tool.
+
+| # | Rendered research page | What it covers |
+|---|---|---|
+| 01 | [Acidified-brine reference and QC](21_hypochlorous_acid_generation/index.html#doc1) | Source anchors, scaling equations, pH/FAC graphs and decision bands, measurement logic, and stop/recalibration rules |
+| 02 | [Generator and product compatibility](21_hypochlorous_acid_generation/index.html#doc2) | Manual, material, test-range, and intended-path gates before a generic source reference applies |
+| 03 | [PWPAM manual boundary](21_hypochlorous_acid_generation/index.html#doc3) | Why the supplied salt-only cleaning unit stays separate and must not receive vinegar |
+
+**Supporting material:** [generator & product-compatibility checker](21_hypochlorous_acid_generation/product_compatibility_checker.html) · [skincare HOCl recipe developer](21_hypochlorous_acid_generation/hypochlorous_acid_calibration_planner.html) · [rendered source manifest](markdown-viewer.html?file=21_hypochlorous_acid_generation/source_docs/README.md).
 
 ---
 

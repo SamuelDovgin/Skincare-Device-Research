@@ -1,16 +1,60 @@
-# Hypochlorous Acid Water: DIY Generation, Quality Control, Fabric Use, and Face-Use Boundaries
+# PWPAM Manual Boundary: Legacy Sodium-Hypochlorite Record and HOCl Routing
 
-*Compiled 2026-08-22. Research orientation, not medical, infection-control, or chemical-safety advice. This page is a controlled home-experiment framework, not a validated disinfectant manufacturing protocol. Confidence labels: **verified** = primary/regulatory or peer-reviewed source; **limited** = small, product-specific, or mechanistic evidence; **inference** = transparent extrapolation; **unknown** = the needed home-use data do not exist.*
+*Updated 2026-08-24. Research orientation, not medical, infection-control, or chemical-safety advice. This legacy page preserves the supplied PWPAM manual record; it is not a validated disinfectant manufacturing protocol. Confidence labels: **verified** = primary/regulatory or peer-reviewed source; **limited** = small, product-specific, or mechanistic evidence; **inference** = transparent extrapolation; **unknown** = the needed home-use data do not exist.*
+
+> **New primary path:** the vinegar-based, pH-controlled reference now has its own [Hypochlorous Acid topic](../21_hypochlorous_acid_generation/index.html), [generator & product-compatibility checker](../21_hypochlorous_acid_generation/product_compatibility_checker.html), and [one-liter recipe & output guide](../21_hypochlorous_acid_generation/hypochlorous_acid_calibration_planner.html). Those tools apply only when a **different** manual expressly permits acidified brine. They deliberately block PWPAM and any salt-only device.
 
 ## 0. Bottom line
 
-For the project you described, I would split the plan in two:
+For the supplied PWPAM unit, the answer is now intentionally narrow:
 
-1. **Pillowcase experiment:** if you still want to explore it, make a small batch of electrolyzed saline, measure free available chlorine (FAC) and pH after every early run, use it only on clean, washable fabric, and treat the result as a hygiene experiment—not proven acne treatment or a substitute for laundering.
-2. **Future face spray:** buy a finished product explicitly labeled for facial/dermal use. A measured DIY batch can tell you its chlorine concentration and approximate HOCl fraction, but it cannot prove skin compatibility, sterility, electrode-material purity, preservative/stability performance, or suitability around the eyes.
-3. **Do not use pool chlorine tablets.** They are concentrated pool-water chemicals such as calcium hypochlorite or chlorinated isocyanurates, not a facial spray ingredient. They can bleach or damage fabric, irritate skin and lungs, and create dangerous gas if mishandled or mixed with acid. [[1]](https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/chemical-disinfectants.html)
+1. **Keep it as a salt-only manual-calibration record.** The color strip can help compare the same printed cleaning row; it cannot turn this unit into a pH-controlled HOCl generator.
+2. **Do not add vinegar before or after electrolysis.** The generic vinegar reference belongs only to another manual that expressly allows that chemistry. Acidifying hypochlorite can release toxic chlorine gas. [[1]](https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/chemical-disinfectants.html)
+3. **Use a finished, appropriately labeled product for a skin, face, eye-area, or face-contact-fabric goal.** A manual row or strip color cannot establish skin compatibility, sterility, electrode-material purity, stability, or suitability around the eyes.
+4. **Do not use pool chlorine tablets.** They are concentrated pool-water chemicals such as calcium hypochlorite or chlorinated isocyanurates, not a facial spray ingredient. They can bleach or damage fabric, irritate skin and lungs, and create dangerous gas if mishandled or mixed with acid. [[1]](https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/chemical-disinfectants.html)
 
-My target for a **pillowcase-oriented, mildly acidic batch** is:
+## Update: the supplied PWPAM manual changes the recommendation for that unit
+
+The manual photos identify this exact unit as a **PWPAM sodium-hypochlorite generator**, not a validated hypochlorous-acid facial-spray system. It instructs the user to make it with tap water and salt, calls the output sodium hypochlorite, gives cleaning-oriented recipes and directions, tells users to rinse treated items, and tells people/pets to leave the area after high-concentration spraying. It does **not** provide a pH target, a facial-use direction, a face-contact-bedding direction, a scoop mass, or a low-concentration HOCl recipe. [[15]](source_docs/pwpam_manual_2026-08-24_test-strip-scale.jpg)
+
+That means the prior literature-derived starting formulation of 2 g/L salt plus 5 mL/L 5% vinegar is **not a starting recipe for this PWPAM device**. Do not add vinegar before or after electrolysis. Acidifying sodium hypochlorite can release chlorine gas; CDC likewise warns that hypochlorites can release toxic chlorine gas when mixed with acid or ammonia. [[1]](https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/chemical-disinfectants.html)
+
+My revised decision is straightforward:
+
+1. **Do not use PWPAM output on your face or face-contact bedding/pillowcase.** A color-strip result cannot override the manual’s cleaning identity, rinsing/ventilation language, or its lack of cosmetic/dermal testing.
+2. **If you want to verify the device, treat the first run as a calibration-only log.** Use one exact manual row, a matched high-range strip, and a fresh repeat; do not improvise with salt, acid, or timing.
+3. **If you want a facial HOCl spray, buy a finished skin-labeled product.** If you want a measured fabric experiment, use a generator with an actual pH/FAC workflow and a manual that supports its starting chemistry rather than trying to convert this cleaning unit by dilution or acidification.
+
+### What the PWPAM manual actually gives you
+
+| Manual water volume | Manual salt amount | Time | Manual claimed chlorine band | How to use it in the planner |
+|---:|---:|---:|---:|---|
+| 100 mL | 1 manual spoon | 5 min | 500 ppm | Cleaning-unit calibration row only |
+| 100 mL | 1 manual spoon | 10 min | 1,000 ppm | Cleaning-unit calibration row only |
+| 236 mL | 2 manual spoons | 5 min | 300 ppm | Lowest unambiguous manual row; use only as a calibration baseline |
+| 236 mL | 2 manual spoons | 10 min | 500 ppm | Cleaning-unit calibration row only |
+| 236 mL | 2 manual spoons | 20 min | 1,000 ppm | Cleaning-unit calibration row only |
+| 1,000 mL | 10 manual spoons | 5 min | 500 ppm | Cleaning-unit calibration row only |
+| 1,000 mL | 10 manual spoons | 10 min | 1,000 ppm | Cleaning-unit calibration row only |
+| 1,000 mL | 10 manual spoons | 30 min | 500 ppm | **Do not use for calibration:** the table drops from 1,000 to 500 ppm as time rises, so this row is internally inconsistent |
+
+“Spoon” is not a mass unit in the supplied manual, but you can use your scale to make that manual dose repeatable: tare a dry non-metal cup, add the selected number of level **supplied** scoops, and record the total salt mass in grams. For the fresh repeat, use that same recorded mass. Do not substitute an internet scoop-mass estimate or a kitchen spoon, and do not change the mass to chase a strip color. The scale turns the manual row into a reproducible record; it does not authorize a new recipe. The printed strip scale is 20, 50, 100, 300, 500, 1,000, and 1,500 mg/L (numerically ppm for dilute water), so it cannot resolve the prior 150–250 ppm experimental window. [[15]](source_docs/pwpam_manual_2026-08-24_test-strip-scale.jpg)
+
+### PWPAM strip-result decision table
+
+Before testing, use a fresh **PWPAM-matched high-range strip** and follow the strip package’s dip/read timing. The supplied manual photo gives color bands but not an exact read-time procedure; its own note says to buy the matching PWPAM strips with color chart for exact concentration. A pool strip intended for 0–10 ppm will be saturated here. [[15]](source_docs/pwpam_manual_2026-08-24_test-strip-scale.jpg)
+
+| Closest strip color after a fresh manual row | What it means | Next action |
+|---:|---|---|
+| Lighter than 20, 20, 50, or 100 ppm | Below every manual claim for the selected 100/236 mL row, or the strip/test/setup is not behaving as expected. | Repeat the **same** manual row once with a fresh matched strip. Do not add salt, use vinegar, or extend the time beyond the listed row. |
+| 300 ppm after the 236 mL / 2-spoon / 5-min row | It agrees with the manual’s lowest claimed band, but is still a cleaning-unit result—not the old 150–250 ppm target. | Record it as a calibration match only. Keep it off your face and pillowcase. Repeat once if you want to know whether the device is consistent. |
+| 500 or 1,000 ppm after the matching listed row | It agrees only coarsely with the manual’s cleaning concentration claim. | Record the calibration match. Follow the manual’s cleaning/rinsing/ventilation instructions only; do not translate it to facial or face-contact-fabric use. |
+| 300, 500, or 1,000 ppm that does **not** match the selected manual row | A single visual strip cannot identify whether the cause is strip age/timing, scoop fill, water, cell condition, power, or a bad manual claim. | Make one fresh exact repeat. If the mismatch repeats, reject this unit for the low-concentration project rather than changing the recipe. |
+| 1,500 ppm or darker | At the printed ceiling or above it. | Stop this project run. Do not try to make it suitable for face/pillowcase use by dilution or acidification. |
+
+The [updated planner](hypochlorous_water_planner.html) defaults to this PWPAM profile, locks the listed row, accepts the closest strip color instead of an invented exact ppm number, and enforces the “repeat exactly once or stop” rule. Its separate generic-generator profile retains the measured FAC+pH model for equipment whose manuals explicitly support that chemistry.
+
+For a **different generator whose manual explicitly permits the starting chemistry below**, my target for a pillowcase-oriented, mildly acidic batch is:
 
 | Measurement | Preferred target | Working QC window | Reject / stop condition |
 |---|---:|---:|---|
@@ -49,15 +93,15 @@ That is why **200 ppm FAC at pH 5.8** is a much more useful description than “
 
 There is also no advantage to making the solution extremely acidic. At lower pH, dissolved chlorine and chlorine-gas behavior become a larger concern, while the HOCl fraction is already essentially maximal around pH 5–6. Do not chase a pH of 2–3 to make a “stronger” facial or fabric spray.
 
-## 2. The starting recipe and what it does—and does not—prove
+## 2. A different-generator starting recipe and what it does—and does not—prove
 
-A peer-reviewed dental-office perspective describes this starting formulation for a portable electrolyzed-water unit:
+A peer-reviewed dental-office perspective describes this starting formulation for a portable electrolyzed-water unit. It is **not a PWPAM recipe**; the PWPAM manual gives a salt-only cleaning process and takes precedence for that device:
 
 | For a 1,000 mL starting batch | Amount |
 |---|---:|
 | Distilled or purified water | 1,000 mL |
 | Pure, non-iodized sodium chloride | 2.00 g |
-| Distilled white vinegar, 5% acidity | 5.0 mL |
+| Distilled white vinegar, 5% acidity | 5.0 mL cited source amount (about 5.0 g on a scale) |
 | Initial electrolysis trial | About 10 minutes, only if the generator permits this recipe |
 
 The report measured FAC and pH rather than assuming that the recipe always produced one exact concentration. Its example was around 250 ppm FAC with a slightly acidic pH, while other units and settings can produce very different outputs. [[2]](https://pmc.ncbi.nlm.nih.gov/articles/PMC8119747/)
@@ -67,22 +111,23 @@ Use the proportions only as a **calibration starting point**:
 ```text
 starting water (mL) = chosen batch-water volume
 salt (g) = 2.00 × chosen volume (L)
-5% vinegar (mL) = 5.0 × chosen volume (L)
+5% vinegar source amount (mL) = 5.0 × chosen volume (L)
+5% vinegar to weigh (g) ≈ 5.0 × chosen volume (L)
 initial trial time = 10 minutes, only if the unit's manual allows acidified brine
 ```
 
 Examples:
 
-| Chosen batch | Water | Salt | 5% vinegar |
+| Chosen batch | Water | Salt on scale | 5% vinegar: cited volume / approximate scale mass |
 |---:|---:|---:|---:|
-| 250 mL | 250 mL | 0.50 g | 1.25 mL |
-| 500 mL | 500 mL | 1.00 g | 2.50 mL |
-| 750 mL | 750 mL | 1.50 g | 3.75 mL |
-| 1,000 mL | 1,000 mL | 2.00 g | 5.00 mL |
-| 1,500 mL | 1,500 mL | 3.00 g | 7.50 mL |
-| 2,000 mL | 2,000 mL | 4.00 g | 10.00 mL |
+| 250 mL | 250 mL | 0.50 g | 1.25 mL / ≈1.25 g |
+| 500 mL | 500 mL | 1.00 g | 2.50 mL / ≈2.50 g |
+| 750 mL | 750 mL | 1.50 g | 3.75 mL / ≈3.75 g |
+| 1,000 mL | 1,000 mL | 2.00 g | 5.00 mL / ≈5.00 g |
+| 1,500 mL | 1,500 mL | 3.00 g | 7.50 mL / ≈7.50 g |
+| 2,000 mL | 2,000 mL | 4.00 g | 10.00 mL / ≈10.00 g |
 
-The [Electrolyzed-water spray planner](hypochlorous_water_planner.html) performs this scaling and then walks through the measurement result. It separates first-batch planning, setup calibration, and measured-batch logging; accepts exact batch size, planning target, setup identity, temperature, cell condition, bottle material, and storage notes; and keeps the salt/acid ratio locked when the evidence does not support independent adjustment. Do not substitute a generator's own recipe with this one if its manual forbids vinegar, specifies a capsule, uses a divided cell, or gives a different brine concentration.
+The [Electrolyzed-water generator calibration planner](hypochlorous_water_planner.html) performs this scaling only in its separate generic-generator profile, then walks through the measurement result. It shows salt directly in grams and the cited vinegar volume as an approximate scale mass, so both ingredients can be logged from a scale without turning either into an adjustment slider. Vinegar density varies slightly, so the `g` number is a weighing convenience and the cited `mL` amount remains the source basis. Do not substitute a generator's own recipe with this one if its manual forbids vinegar, specifies a capsule, uses a divided cell, or gives a different brine concentration.
 
 ### A necessary vinegar correction
 
@@ -148,8 +193,7 @@ The time-adjustment display also includes an **illustrative sensitivity band**. 
 
 - A **free-chlorine/FAC test** whose range includes approximately 100–300 ppm. A pool strip that only reads 0–10 ppm will saturate and is not useful for this project.
 - Fresh narrow-range pH strips that visibly resolve roughly pH 4–7/8, or a pH meter calibrated with pH 4 and pH 7 buffers. A universal 0–14 strip can be too coarse near the decision boundaries; a calibrated meter is preferable for repeated generator calibration.
-- A scale that resolves at least 0.1 g; 0.01 g is better for 250–500 mL batches.
-- A clean syringe, pipette, or measuring cylinder for 1–10 mL vinegar. Do not estimate 2.5 mL with a random kitchen spoon.
+- A scale that resolves at least 0.1 g; 0.01 g is better for 250–500 mL batches. Use it for salt and to record the approximate 5%-vinegar mass in the compatible generic branch; do not use kitchen spoons.
 
 ### Generation and storage equipment
 
@@ -157,21 +201,21 @@ The time-adjustment display also includes an **illustrative sensitivity band**. 
 - Distilled or purified water for repeatability. Low-mineral water reduces one source of variation, though the generator manual controls what water is allowed.
 - Pure, non-iodized salt with no anti-caking blend, seasoning, or salt substitute unless the device specifically calls for it.
 - A clean, opaque or amber, chemically compatible spray bottle. HDPE is a reasonable default. Do not make or store the batch in a metal container.
-- A label showing date, water source, salt mass, vinegar volume, generator, run time, FAC, pH, and discard date.
+- A label showing date, water source, salt mass, vinegar mass plus its cited-volume equivalent, generator, run time, FAC, pH, and discard date.
 
 ### Workspace controls
 
 Generate in ordinary room ventilation, not in a sealed cabinet, closet, car, or tiny bathroom. Electrolysis produces gases, including hydrogen, and chlorine odor or irritation is a stop signal—not a concentration target. Keep your face away from the vessel. Wear eye protection if splashing is possible. Never combine the batch with bleach, ammonia, hydrogen peroxide, pool chemicals, or other cleaners.
 
-## 4. Exact first-run procedure
+## 4. Exact first-run procedure for a manually compatible non-PWPAM generator
 
-1. **Choose the use before choosing the recipe.** If the eventual goal includes facial use, buy a skin-labeled finished spray for the face instead of treating a DIY generator as a cosmetic manufacturing device.
+1. **Choose the device branch before choosing the recipe.** For PWPAM, use the device-specific update above and do calibration only; do not use the acidified-brine procedure below. If the eventual goal includes facial use, buy a skin-labeled finished spray for the face instead of treating a DIY generator as a cosmetic manufacturing device.
 2. **Read the generator's manual.** Confirm allowed water, salt, vinegar/activator, maximum volume, operating time, cleaning, and storage instructions. A device marketed as a “sodium hypochlorite generator” is not automatically a skin product.
-3. **Start small.** Use 500 mL for the first experiment. The scaled starting formulation is 500 mL water, 1.00 g salt, and 2.50 mL 5% vinegar only when compatible with the device.
+3. **Start small.** Use 500 mL for the first experiment. The scaled starting formulation is 500 mL water, 1.00 g salt, and 2.50 mL / approximately 2.50 g of 5% vinegar only when compatible with the device.
 4. **Clean and inspect the cell.** Rinse it with water and check for scale, discoloration, loose coating, flakes, or corrosion. Do not scrape a coated electrode with metal.
 5. **Measure the water.** Record the actual volume. Water temperature and mineral content can change output, so use the same water source for calibration runs.
-6. **Add and dissolve the salt completely.** Undissolved salt at the electrode is not a controlled dose.
-7. **Add vinegar only when the manual permits acidified brine.** Do not add acid to an already-electrolyzed or chlorine-containing batch.
+6. **Tare and weigh the salt, then dissolve it completely.** Undissolved salt at the electrode is not a controlled dose.
+7. **Weigh the compatible vinegar source amount only when the manual permits acidified brine.** The 500 mL example is approximately 2.50 g for the cited 2.50 mL source amount. Do not add acid to an already-electrolyzed or chlorine-containing batch.
 8. **Run the manual-compatible cycle with ventilation.** Ten minutes is the initial trial time from the published 1-L starting protocol, not a universal promise of 200 ppm. If the device permits variable time, the planner can scale that reference by planned volume; fixed-cycle or fixed-fill instructions override the estimate.
 9. **Optionally measure the starting-mixture pH before electrolysis.** This is useful for recording process drift, not for repeatedly adding acid until a target appears.
 10. **Wait briefly for bubbles to dissipate after the run.** Do not lean over the container or intentionally sniff it. Gently mix without vigorous agitation.
@@ -179,7 +223,7 @@ Generate in ordinary room ventilation, not in a sealed cabinet, closet, car, or 
 12. **Measure FAC promptly, then final pH.** Record both readings and the test method. A pH result without FAC is incomplete; an FAC result without pH is also incomplete.
 13. **Use the paired decision band below.** Do not keep “fixing” the same finished batch by pouring in vinegar or other chemicals.
 
-## 5. How to interpret every result
+## 5. How to interpret every result for the generic FAC+pH workflow
 
 ### FAC result
 
@@ -213,9 +257,9 @@ If a batch has 200 ppm FAC and pH 8.0, the strip still reads 200 ppm, but only a
 
 Discard the batch and investigate the generator if it is visibly colored, has particles or flakes, produces a strong pungent odor, irritates the eyes or throat, or gives wildly inconsistent results across identical runs. If you suspect chlorine exposure, leave the area for fresh air and follow poison-control or emergency guidance; do not stay nearby trying to diagnose the batch by smell. [[5]](https://www.cdc.gov/chemical-emergencies/chemical-fact-sheets/chlorine.html)
 
-## 6. Calibration: make the machine predictable
+## 6. Calibration: make a compatible machine predictable
 
-The first successful batch is not yet a recipe. The recipe is the combination of **one generator + one cell + one water source + one salt + one starting formulation + one run time** that repeatedly produces the measured result.
+The first successful batch is not yet a recipe. The recipe is the combination of **one generator + one cell + one water source + one salt + one starting formulation + one run time** that repeatedly produces the measured result. For PWPAM, the alternate rule is even narrower: repeat one fixed manual row once with a matched strip; if it does not repeat, do not tune the salt, acid, or time yourself.
 
 Use this calibration sequence:
 
@@ -302,14 +346,14 @@ If you try a finished facial spray:
 
 **If you want the simplest face path:** buy a current, skin-labeled finished product such as **Prequel Universal Skin Solution**; I would not buy a generator for face use until you have a strong reason to accept the extra measurement and contamination burden. [[12]](https://prequelskin.com/products/universal-skin-solution-hypochlorous-acid-spray)
 
-**If you want a low-cost hardware experiment:** the **PWPAM B08SMD6WRF** is inexpensive and includes a chlorine strip, but I do **not** recommend it for your intended dual-use plan. Its live Amazon listing calls it a sodium-hypochlorite generator, gives 300–1,000 ppm cleaning recipes, says to rinse after skin contact, and tells users to leave the area after high-concentration spraying. That is exactly the wrong product identity for “I want to make a gentle face spray later.” [[11]](https://www.amazon.com/dp/B08SMD6WRF)
+**If you want a low-cost hardware experiment:** the **PWPAM B08SMD6WRF** is inexpensive and includes a chlorine strip, but I do **not** recommend it for your intended dual-use plan. The supplied manual independently confirms a sodium-hypochlorite identity, 300–1,000 ppm recipe claims, rinsing language, and ventilation/leave-the-area wording for high-concentration spraying. That is exactly the wrong product identity for “I want to make a gentle face spray later.” [[11]](https://www.amazon.com/dp/B08SMD6WRF) [[15]](source_docs/pwpam_manual_2026-08-24_test-strip-scale.jpg)
 
 | Product | What it is good for | Why I would / would not choose it |
 |---|---|---|
 | **Ecoloxtech Eco One** | Measured DIY salt-water generation | Best balance of documented cell, pH/FAC testing, and concentration workflow; still a DIY cleaner system, not a facial product. |
 | **Hypo 7.5** | Higher-throughput generation with preset 200/500 ppm modes | Technically convenient but $2,199 and makes 7.5 L; extreme overkill for a pillowcase experiment. [[9]](https://store.hocl.com/hypo) |
 | **Force of Nature appliance** | EPA-registered 220 ppm cleaner for hard, non-porous surfaces | Good if your goal changes to household surfaces; its label is not a facial or pillowcase authorization. It uses single-use activator capsules and says to discard after 14 days. [[6]](https://www3.epa.gov/pesticides/chem_search/ppls/094363-00001-20210505.pdf) |
-| **PWPAM B08SMD6WRF** | Cheap sodium-hypochlorite cleaning experiment | Not recommended for face; no pH workflow and its own listing directs users toward higher cleaning concentrations and skin rinsing. [[11]](https://www.amazon.com/dp/B08SMD6WRF) |
+| **PWPAM B08SMD6WRF** | Cheap sodium-hypochlorite cleaning experiment | Not recommended for face or face-contact bedding; its manual has no pH/cosmetic workflow, directs users toward higher cleaning concentrations and rinsing/ventilation, and uses only a coarse 20–1,500 ppm strip scale. [[11]](https://www.amazon.com/dp/B08SMD6WRF) [[15]](source_docs/pwpam_manual_2026-08-24_test-strip-scale.jpg) |
 | **Prequel / Briotech / Tower 28 facial sprays** | Future facial use | Preferable for the face because they are sold and labeled as skin products; do not assume their facial label transfers to pillowcase disinfection. [[12]](https://prequelskin.com/products/universal-skin-solution-hypochlorous-acid-spray)[[13]](https://shopbriotech.com/products/topical-skin-spray)[[14]](https://www.tower28beauty.com/products/sos-daily-facial-rescue-spray) |
 
 ### Why not chlorine tablets?
@@ -335,7 +379,8 @@ For an unvalidated DIY batch, I would:
 
 - No controlled clinical study was found showing that DIY 150–250 ppm HOCl sprayed on a pillowcase improves acne, rosacea, eczema, or skin texture.
 - The relevant porous-surface study used rayon sheets and laboratory bacterial inocula, not cotton bedding loaded with sebum, cosmetics, and sweat.
-- A high-range chlorine strip is practical but less precise than laboratory spectrophotometry or a validated DPD method; it does not identify HOCl separately from OCl⁻.
+- A high-range chlorine strip is practical but less precise than laboratory spectrophotometry or a validated DPD method; it does not identify HOCl separately from OCl⁻. The supplied PWPAM chart is particularly coarse (20, 50, 100, 300, 500, 1,000, 1,500 ppm), so it cannot verify the prior 150–250 ppm project band. [[15]](source_docs/pwpam_manual_2026-08-24_test-strip-scale.jpg)
+- No PWPAM pH, electrode-purity, chlorate/byproduct, microbial-quality, cosmetic-safety, face-contact-fabric, or stability validation was supplied. The manual’s 1 L / 30-minute 500 ppm entry is internally inconsistent with its preceding 1 L / 10-minute 1,000 ppm entry. [[15]](source_docs/pwpam_manual_2026-08-24_test-strip-scale.jpg)
 - A pH/FAC pass does not prove sterility, electrode-material purity, absence of chlorate/other byproducts, or long-term stability.
 - Current product pricing, stock, packaging, and formulas can change; the product comparison is a dated snapshot captured 2026-08-22.
 
@@ -347,7 +392,7 @@ For an unvalidated DIY batch, I would:
 4. [Inactivation of bacteria on surfaces by sprayed slightly acidic hypochlorous acid water](https://pmc.ncbi.nlm.nih.gov/articles/PMC4976267/) — 50/100 ppm, pH 6, glass vs rayon, spray duration, and the limitation of porous surfaces.
 5. CDC, [Chlorine](https://www.cdc.gov/chemical-emergencies/chemical-fact-sheets/chlorine.html) — respiratory/eye irritation, exposure symptoms, and leaving/ventilating after chlorine exposure.
 6. U.S. EPA, [HOCl 180 label, EPA Reg. No. 94363-1](https://www3.epa.gov/pesticides/chem_search/ppls/094363-00001-20210505.pdf) — 0.018% active ingredient, hard non-porous surface directions, 2-minute wet contact, incompatibility with acids/hydrogen peroxide, and storage language.
-7. CDC, [What to know about chlorine safety](https://www.poison.org/articles/pool-chemical-safety-192) — pool tablet categories, concentrated chemical handling, and skin/eye/respiratory cautions.
+7. Poison Control, [What to Know About Chlorine Safety](https://www.poison.org/articles/pool-chemical-safety-192) — pool tablet categories, concentrated chemical handling, and skin/eye/respiratory cautions.
 8. Xuan X-T et al., [Storage Stability of Slightly Acidic Electrolyzed Water and Circulating Electrolyzed Water](https://pubmed.ncbi.nlm.nih.gov/26869019/) — storage in open/closed and light/dark conditions and changes in available chlorine, pH, and ORP.
 9. Hypochlorous Acid Water, [Hypo 7.5 generator product page](https://store.hocl.com/hypo) — manufacturer-stated 7.5 L capacity, 200/500 ppm modes, run times, price, and included strips; marketing/product evidence, not independent validation.
 10. Ecoloxtech, [Eco One Portable Hypochlorous Acid Generator](https://store.hocl.com/ecoone/) — manufacturer-stated titanium cell, testing workflow, pH guidance, current product price, and included test papers; marketing/product evidence.
@@ -355,3 +400,4 @@ For an unvalidated DIY batch, I would:
 12. Prequel, [Universal Skin Solution Hypochlorous Acid Spray](https://prequelskin.com/products/universal-skin-solution-hypochlorous-acid-spray) — current face/body positioning, pH 5.5 ±, ingredients, use instructions, and price.
 13. Briotech, [Topical Skin Spray](https://shopbriotech.com/products/topical-skin-spray) — current face/body positioning, stated 0.014% / 140 ppm HOCl, pH 4.0–5.2, ingredients, and product availability snapshot.
 14. Tower 28, [SOS Daily Rescue Facial Spray](https://www.tower28beauty.com/products/sos-daily-facial-rescue-spray) — current facial positioning, pH 4.5, ingredients, and skin-organization recognition claims; manufacturer evidence.
+15. User-supplied PWPAM manual photos, received 2026-08-24: [test-strip scale](source_docs/pwpam_manual_2026-08-24_test-strip-scale.jpg), [recipe and use page](source_docs/pwpam_manual_2026-08-24_recipe-and-use.jpg), and [warnings page](source_docs/pwpam_manual_2026-08-24_warnings.jpg) — primary evidence for this exact unit’s sodium-hypochlorite identity, salt-only manual rows, coarse strip bands, cleaning/rinsing language, and face/air-disinfection limits.

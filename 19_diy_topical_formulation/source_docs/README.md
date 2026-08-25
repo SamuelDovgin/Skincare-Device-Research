@@ -1,6 +1,6 @@
 # DIY topical formulation source manifest
 
-*Captured 2026-08-15. This manifest preserves the primary and peer-reviewed web sources used by the topic. Paywalled articles were not copied; the archive links to their PubMed records or official regulatory pages.*
+*Updated 2026-08-24. This manifest preserves the primary, user-supplied, and peer-reviewed sources used by the topic. Paywalled articles were not copied; the archive links to their PubMed records or official regulatory pages.*
 
 | Source | Type | Supports |
 |---|---|---|
@@ -23,12 +23,13 @@
 | [HOCl 180 EPA label](https://www3.epa.gov/pesticides/chem_search/ppls/094363-00001-20210505.pdf) | U.S. EPA label | 0.018% active ingredient, hard non-porous directions, 2-minute wet contact, incompatibilities, storage |
 | [Ecoloxtech Eco One](https://store.hocl.com/ecoone/) | Current manufacturer page | Current DIY-generator feature, test-strip, pH, cell, and price snapshot; not independent validation |
 | [PWPAM B08SMD6WRF](https://www.amazon.com/dp/B08SMD6WRF) | Current marketplace listing | Product identity, cleaning-oriented concentration recipes, strip inclusion, skin-rinse and ventilation warnings |
+| User-supplied [PWPAM test-strip scale](pwpam_manual_2026-08-24_test-strip-scale.jpg), [recipe/use page](pwpam_manual_2026-08-24_recipe-and-use.jpg), and [warnings page](pwpam_manual_2026-08-24_warnings.jpg) | Primary device manual photos | Exact salt-only recipe rows, 20–1,500 ppm coarse strip scale, sodium-hypochlorite identity, cleaning/rinsing directions, and face/air-disinfection limits for the user's unit |
 | [Prequel Universal Skin Solution](https://prequelskin.com/products/universal-skin-solution-hypochlorous-acid-spray) | Current official product page | Current face/body positioning, pH 5.5 ±, ingredients, and price snapshot |
 | [Briotech Topical Skin Spray](https://shopbriotech.com/products/topical-skin-spray) | Current official product page | Current face/body positioning, stated 0.014% / 140 ppm HOCl and pH 4.0–5.2; availability snapshot |
 | [Tower 28 SOS Facial Spray](https://www.tower28beauty.com/products/sos-daily-facial-rescue-spray) | Current official product page | Current facial positioning, pH 4.5, ingredients, and manufacturer recognition claims |
 
 ## Capture notes
 
-- Access date for the original powder-formulation pages: 2026-08-15. HOCl chemistry, generator, and product pages were checked 2026-08-22.
+- Access date for the original powder-formulation pages: 2026-08-15. HOCl chemistry, generator, and product pages were checked 2026-08-22. User-provided PWPAM manual images were received and archived 2026-08-24.
 - No marketplace supplier was treated as proof of identity, purity, sterility, or shelf life.
 - The evidence map preserves the distinction between human clinical outcomes, regulatory safety guidance, supplier/formulation inference, and unknown home-batch behavior.
