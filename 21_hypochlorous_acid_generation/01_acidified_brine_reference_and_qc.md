@@ -10,7 +10,7 @@ For the exact Eco One one-liter manual—or another device whose own manual expr
 - **2.00 g food-grade non-iodized sodium chloride**; and
 - **5.0 mL (1 teaspoon; approximately 5.0 g) of 5% distilled white vinegar**, added before electrolysis.
 
-The exact manual reports nominal one-liter FAC outputs of **40 ppm at 3 minutes, 60 ppm at 5 minutes, 100 ppm at 8 minutes, and 200 ppm at 16 minutes**; the current official product page adds **500 ppm at 40 minutes**. The [skincare HOCl recipe developer](hypochlorous_acid_calibration_planner.html) defaults to **100 ppm at 8 minutes and 1,000 mL**, then lets the developer explore 500–1,000 mL, 40–500 ppm, and final pH 4.5–6.5. The one-liter anchors are source values; between-anchor interpolation and volume/time scaling are explicitly labeled sensitivity assumptions. The pH selector changes an illustrative pre-batch vinegar amount, never a finished-batch correction. Final pH and FAC still have to be measured together. [[1]](source_docs/eco-one-user-manual.pdf) [[8]](source_docs/FDA_510k_K180305_Hychloderm_0.01pct_HOCl.pdf) [[9]](source_docs/Zhang_2023_0.01pct_HOCl_blepharitis_RCT.pdf) [[11]](https://store.hocl.com/ecoone/)
+The exact manual reports nominal one-liter FAC outputs of **40 ppm at 3 minutes, 60 ppm at 5 minutes, 100 ppm at 8 minutes, and 200 ppm at 16 minutes**; the current official product page adds **500 ppm at 40 minutes**. The [skincare HOCl recipe developer](hypochlorous_acid_calibration_planner.html) defaults to **100 ppm at 8 minutes and 1,000 mL**, then lets the developer explore 200–1,000 mL, 40–500 ppm, and final pH 4.5–6.5. The one-liter anchors are source values; between-anchor interpolation and volume/time scaling are explicitly labeled sensitivity assumptions. The pH selector changes an illustrative pre-batch vinegar amount, never a finished-batch correction. Final pH and FAC still have to be measured together. [[1]](source_docs/eco-one-user-manual.pdf) [[8]](source_docs/FDA_510k_K180305_Hychloderm_0.01pct_HOCl.pdf) [[9]](source_docs/Zhang_2023_0.01pct_HOCl_blepharitis_RCT.pdf) [[11]](https://store.hocl.com/ecoone/)
 
 ## 1. Why this formula is the most likely
 
@@ -29,8 +29,8 @@ The first three sources converge on **2 g/L salt + about 5 mL/L 5% vinegar**. Th
 ## 2. Step-by-step preparation
 
 1. Confirm that the exact generator manual permits 5% white vinegar **before** electrolysis and that the selected volume keeps the electrodes safely immersed. A salt-only, capsule-only, unknown, PWPAM, bleach, or chlorine-tablet path is excluded.
-2. Add the selected 500–1,000 mL of purified or distilled water. Keep the power connector dry. Only the 1,000 mL recipe/program table is manufacturer-published.
-3. Weigh 2.00 g/L of plain food-grade non-iodized NaCl: 1.00 g at 500 mL through 2.00 g at 1,000 mL.
+2. Add the selected 200–1,000 mL of purified or distilled water. For purified water, 200 mL is approximately 200 g. Keep the power connector dry and confirm the selected amount safely covers the electrodes. Only the 1,000 mL recipe/program table is manufacturer-published.
+3. Weigh 2.00 g/L of plain food-grade non-iodized NaCl: 0.40 g at 200 mL through 2.00 g at 1,000 mL.
 4. Measure the displayed amount of 5% distilled white vinegar before electrolysis. The UI caps this at the source recipe's 5.0 mL/L; do not substitute cleaning vinegar, concentrated acetic acid, or an unknown acidity.
 5. Add the salt and vinegar before electrolysis and mix/assemble exactly as the manual directs.
 6. Choose a target. At 1,000 mL, 40/60/100/200/500 ppm map to the published 3/5/8/16/40-minute anchors. At another volume or between anchors, the developer shows a proportional planning estimate, not a manufacturer-validated setting.
@@ -39,7 +39,7 @@ The first three sources converge on **2 g/L salt + about 5 mL/L 5% vinegar**. Th
 
 ## 3. How the water and output sliders work
 
-The developer preserves the published one-liter points as preset buttons and permits continuous exploration between them. Its central FAC trace is piecewise linear through the anchors; its shaded band is a visible ±20% sensitivity band, not a confidence interval.
+The developer exposes the published one-liter FAC points as convenience preset buttons while keeping the controls continuous: water moves in 1 mL increments, FAC in 1 ppm increments, and target and starting-water pH in 0.01 increments. The pH convenience buttons select common scenarios, including the observed 4.8 reference, but do not imply validated vinegar doses. Its central FAC trace is piecewise linear through the source anchors; its shaded band is a visible ±20% sensitivity band, not a confidence interval.
 
 ```text
 1 L anchors = (3 min, 40 ppm), (5 min, 60 ppm), (8 min, 100 ppm),
@@ -102,7 +102,7 @@ The supplied PWPAM manual says salt plus water, identifies the output as sodium 
 ## Evidence gaps
 
 - No independent time-series study measured both pH and FAC at each Eco One manual milestone.
-- The manufacturer publishes its production table at 1 L. The 500–950 mL time results are proportional extrapolations that need measured calibration.
+- The manufacturer publishes its production table at 1 L. Every 200–999 mL time result is a proportional extrapolation that needs measured calibration; electrode immersion at the selected amount must be confirmed from the exact device geometry/manual.
 - No titration curve or buffer/alkalinity model validates the vinegar selector. Its amount is a source-anchored sensitivity estimate capped at 5 mL/L.
 - The Stony Brook values show substantial between-batch/output variation but do not isolate which variable caused it.
 - Vinegar is specified volumetrically; the approximate gram conversion is convenient for logging, not an acid assay.
