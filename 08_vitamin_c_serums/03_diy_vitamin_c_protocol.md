@@ -6,7 +6,7 @@
 
 The simplest DIY serum that makes sense is:
 
-> **L-ascorbic acid powder + distilled water + careful pH adjustment + tiny weekly batch + fridge + light protection.**
+> **L-ascorbic acid powder + distilled water + careful pH adjustment + tiny single-use batch + fridge + light protection.**
 
 Do not try to make a shelf-stable SkinCeuticals clone in a kitchen. The realistic DIY advantage is freshness and cost, not long-term stability.
 
@@ -34,26 +34,23 @@ If your skin is annoyed: use vitamin C every other morning or 3 mornings/week.
 | **15%** | Most CEF-like strength without going all-in | Good default |
 | **20%** | Maximum classic absorption range | More sting; not automatically better |
 
-If skipping pH strips, start at **10-15%**, not 20%.
+Measure pH before using the batch. A lower concentration does not substitute for measurement.
 
-## 3. Exact quick recipes for a 36.67 mL batch
+## 3. Historical water-based amounts and current default (2026-09-06)
 
-These match the previous working target of **2/3 of 55 mL = 36.67 mL final water amount** and target roughly **pH 3.30** using partial neutralization with baking soda.
+**Current default:** the [recipe scaler](../19_diy_topical_formulation/vitamin_c_recipe_scaler.html) now targets **20% finished LAA-equivalent w/w**: 15.84 g water, approximately 3.99 g LAA and 0.23 g bicarbonate at target pH 3.30. The following table is retained only to explain the older water-loading convention; it is not the current default.
 
-Assumption:
+The historical **36.67 g starting-water** recipes were mislabeled as final 10%, 15%, and 20% serums. Those numbers were grams of LAA per 100 g water, not final % w/w or % w/v. The amounts below preserve that loading convention and correct the pH model to the same **pKa₁ 4.17** used by the [recipe scaler](../19_diy_topical_formulation/vitamin_c_recipe_scaler.html). At target pH 3.30, the ideal ascorbate fraction is 11.886% and the approximate bicarbonate/LAA mass ratio is **0.056696**, replacing the earlier 0.0652. [PubChem property record](https://pubchem.ncbi.nlm.nih.gov/compound/54670067).
 
-- pKa L-ascorbic acid ~= 4.10
-- target pH ~= 3.30
-- fraction neutralized ~= 13.67%
-- **baking soda grams = L-ascorbic acid grams x 0.0652**
+| LAA loading per 100 g water | LAA | Approx. baking soda | Starting water | Estimated final LAA-equivalent % w/w |
+|---|---:|---:|---:|---:|
+| 10 g | 3.667 g | 0.208 g | 36.67 g | 9.07% |
+| 15 g | 5.5005 g | 0.312 g | 36.67 g | 13.00% |
+| 20 g | 7.334 g | 0.416 g | 36.67 g | 16.59% |
 
-| Final strength | L-ascorbic acid | Baking soda | Distilled water |
-|---|---:|---:|---:|
-| **10%** | 3.67 g | 0.24 g | 36.67 g total |
-| **15%** | 5.50 g | 0.36 g | 36.67 g total |
-| **20%** | 7.33 g | 0.48 g | 36.67 g total |
+These are model quantities, not a guarantee of pH 3.30. Final mass subtracts **44.01/84.007 × bicarbonate mass** for escaped CO₂, assuming negligible water loss. Concentration is total acid plus ascorbate expressed as the original LAA-equivalent mass; it does not assay potency or un-ionized acid. Weigh the finished mixture for its actual mass basis. For a true 10% w/w unadjusted blend, 1 g LAA + 9 g water gives 10 g total; subsequent bicarbonate and gas loss change that denominator.
 
-Important: this is a calculated estimate, not a measured pH guarantee. Powders, water, scale accuracy, CO2, and volume marks can shift the real value.
+The neutralization estimate uses `r = 10^(pH − 4.17)` and `bicarbonate_g ≈ (LAA_g/176.12) × r/(1+r) × 84.007`. It neglects the free-H⁺ charge-balance correction and solution activity effects; it is not an exact titration model. See the scaler for the full assumptions. Measure after dissolution, complete degassing, and equilibration. Do not use a fixed waiting time or a calculated mass as proof of final pH.
 
 ## 4. Fast mixing steps
 
@@ -107,18 +104,9 @@ Annoying:
 
 You do not need a "green" color. You are not aiming for neutral pH. A useful vitamin C serum is acidic; for L-ascorbic acid, the target is commonly around **pH 3-3.5**.
 
-## 7. No-strip risk management
+## 7. Measurement is required
 
-If you are skipping strips:
-
-| Rule | Why |
-|---|---|
-| Use exact gram weights | Volume spoon measurements drift |
-| Start at 10-15% | Less sting risk |
-| Use distilled water | Metal ions can speed oxidation |
-| Remake weekly | Freshness is the DIY advantage |
-| Patch test | Differin makes surprise irritation more likely |
-| Stop if burning persists | Irritation is not the goal |
+Without a readable pH measurement, the batch is an unverified formulation. A calibrated meter suitable for the acidic sample is preferable for a narrow target; strips must resolve the intended range. Patch testing, gram weights, refrigeration, and clear color do not establish pH or preservation. Keep unpreserved experiments to single-use amounts; no microbial shelf life was validated here.
 
 ## 8. Storage and discard rules
 

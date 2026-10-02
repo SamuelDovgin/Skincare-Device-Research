@@ -1,5 +1,7 @@
 # Body hyperpigmentation: evidence-led tone-evening routine
 
+> **Archived precursor:** this page is preserved for provenance. The expanded, current category is the rendered [Body hyperpigmentation and long-term tone-evening topic](../22_body_hyperpigmentation_long_term/index.html), including its ingredient atlas, long-term safety analysis, emerging-active map, evidence ledger, and maximal routine composer.
+
 *Compiled 2026-08-03. This page is research orientation, not a diagnosis or a prescription. It is for uneven body pigmentation that is darker than the person's own baseline—not for changing a naturally deeper skin tone. The most aggressive path is clinician-supervised. Evidence labels: **verified** = human or regulatory source directly supports the statement; **limited** = small, short, product-specific, or mostly facial evidence; **inference** = a conservative translation to body use rather than a directly studied body protocol.*
 
 ## 0. Bottom line

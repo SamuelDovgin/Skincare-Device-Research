@@ -1,0 +1,142 @@
+# Buy-now product value tier list
+
+*Compiled 2026-09-02. U.S. price and availability snapshots are dated observations, not guarantees. This is a purchase-utility ranking for acquired body hyperpigmentation (PIH, shaving/friction marks, follicular marks, rough knees/elbows, and selected axillary/inner-thigh patterns), not a promise to lighten a person's natural baseline skin tone. Check the current label, INCI, seller, size, expiry, and return policy before ordering.*
+
+## The short answer
+
+**Best pure-value body buy:** [Good Molecules Discoloration Correcting Body Treatment](https://v1.goodmolecules.com/products/discoloration-correcting-body-treatment?Option=Single) — the official listing showed **$15 for 120 mL**, with **4% niacinamide, 2% cetyl tranexamate mesylate (a tranexamic-acid derivative), 2% acetyl glucosamine, and 0.5% capryloyl salicylic acid (LHA)**. It is fragrance-free, body-specific, and works out to about **$0.13/mL**. [[1]](https://v1.goodmolecules.com/products/discoloration-correcting-body-treatment?Option=Single) Use it as the first signal/transfer lane on calm, intact arms, legs, chest, back, or thighs; do not put an acid-containing product on freshly shaved or inflamed skin.
+
+**Best direct-inhibitor value:** [Eucerin Radiant Tone Dark Spot Corrector Body Lotion](https://www.eucerinus.com/products/radiant-tone/dark-spot-corrector-body-lotion-) — **$24.50 for about 8.5 fl oz** on the Walmart listing checked, with Thiamidol plus hyaluronic acid and Licochalcone A. It is the most practical U.S. body-specific direct-inhibitor purchase in this snapshot, but the Thiamidol percentage is not disclosed and the product is not for irritated or intimate skin. [[3]](https://www.eucerinus.com/products/radiant-tone/dark-spot-corrector-body-lotion-)[[4]](https://www.walmart.com/ip/20570517080)
+
+**Best fold/site-fit (not best dollar value):** [Bioderma Pigmentbio Sensitive Areas](https://www.bioderma.us/en/p/pigmentbio-sensitive-areas.html) — **$46.99 for 75 mL**. It is explicitly positioned for external underarms, groin-adjacent/friction areas, thighs, knees, and neck, and the U.S. page reports a manufacturer clinical image-analysis result of 45% less dark-spot surface at 28 days and 80% at 56 days. That is unusually direct site evidence, but it is a small, brand-reported study with undisclosed active percentages and a high **~$0.63/mL** price. [[5]](https://www.bioderma.us/en/p/pigmentbio-sensitive-areas.html)
+
+These are different kinds of “best.” Good Molecules wins **amount of disclosed active per dollar and body fit**; Eucerin wins **a convenient, widely available direct-inhibitor lane**; Bioderma wins **fold-specific positioning and tolerance claims**. None has a head-to-head, independent, multi-year body trial against the others.
+
+## How the tiers were assigned
+
+The tier is a transparent buying heuristic, not a clinical efficacy league table. I weighted:
+
+1. **Site fit:** body or fold instructions beat a face-only formula; a product that names external sensitive areas gets credit for that narrow use.
+2. **Active transparency:** disclosed concentrations and a sensible mechanism are more useful than an unnamed “brightening complex.”
+3. **Evidence translation:** direct body trials or a plausible category-level body signal outrank facial marketing claims, while manufacturer-only results are labeled as such.
+4. **Irritation and barrier fit:** fragrance, alcohol, acids, post-shave risk, and fold occlusion lower the tier even when the active is interesting.
+5. **Value and availability:** observed U.S. price, volume, ordinary retail access, and seller transparency. A cheap product is not a value if it predictably causes dermatitis or is an imported marketplace listing with uncertain expiry.
+
+**S = strongest first purchase for the stated role. A = good fit with a meaningful caveat. B = useful branch, small area, or less direct translation. C = generally skip for this long-term goal.**
+
+## Tier S — first purchases for most calm, acquired body marks
+
+| Rank | Product and snapshot | Why it earns S | Where it does not fit |
+|---|---|---|---|
+| **S1** | **[Good Molecules Discoloration Correcting Body Treatment](https://v1.goodmolecules.com/products/discoloration-correcting-body-treatment?Option=Single)** · $15 / 120 mL · ~$0.13/mL · official listing showed in stock when checked [[1]](https://v1.goodmolecules.com/products/discoloration-correcting-body-treatment?Option=Single) | A rare body-specific formula that discloses a useful four-part signal/transfer/turnover blend: 4% niacinamide + 2% cetyl tranexamate mesylate + 2% acetyl glucosamine + 0.5% LHA. Fragrance-free and large enough for repeated body use. The ingredient mix maps well to the category's long-term “one signal lane + gentle turnover” model. | pH is listed around 4.4 and LHA is still an exfoliating acid. Start every other night or once nightly on intact skin; keep off fresh-shaved, eczematous, cracked, mucosal, or actively folliculitic areas. This is a strong value formulation, not a body RCT. |
+| **S2** | **[The Ordinary Niacinamide 5% Face & Body Emulsion](https://theordinary.com/en-us/niacinamide-5-face-body-serum-769915233889.html)** · $14 / 100 mL · ~$0.14/mL · official U.S. listing [[2]](https://theordinary.com/en-us/niacinamide-5-face-body-serum-769915233889.html) | The simplest low-cost signal/barrier entry: face-and-body directions, 5% niacinamide, fragrance-free INCI, daily AM/PM use, and a near-body-lotion price. It is the best “start gentle and learn your skin” option, especially for sensitive or widespread areas. | It is a signaling/support product, not a strong direct melanogenesis inhibitor. Do not expect it to outperform a targeted inhibitor on stubborn, long-standing marks. It can be followed by a bland moisturizer; it does not replace trigger control or sunscreen. |
+
+**S-tier use rule:** pick **one** of these two first. Running both from day one adds cost and makes irritation or contact allergy harder to interpret; their roles overlap enough that the second is usually a later substitution, not a mandatory layer.
+
+## Tier A — excellent role-specific buys
+
+| Product and observed snapshot | Best use | Evidence/value read | Important caveat |
+|---|---|---|---|
+| **[Eucerin Radiant Tone Dark Spot Corrector Body Lotion](https://www.eucerinus.com/products/radiant-tone/dark-spot-corrector-body-lotion-)** · $24.50 / 8.5 fl oz at Walmart [[3]](https://www.eucerinus.com/products/radiant-tone/dark-spot-corrector-body-lotion-)[[4]](https://www.walmart.com/ip/20570517080) | One direct-inhibitor lane for broad body marks | Body-specific Thiamidol + hyaluronic acid + Licochalcone A; non-greasy/72-hour hydration claims and all-skin-tone positioning. The direct active is attractive because Thiamidol has human-tyrosinase and short facial vehicle-controlled evidence, although body and lifetime data remain limited. [[3]](https://www.eucerinus.com/products/radiant-tone/dark-spot-corrector-body-lotion-)[[18]](https://pubmed.ncbi.nlm.nih.gov/29427586/)[[19]](https://pubmed.ncbi.nlm.nih.gov/41566113/) | Thiamidol concentration is not disclosed. Follow the label's collective-use ceiling (do not stack several Thiamidol products on the same area), and keep it off active dermatitis, open skin, and intimate/mucosal surfaces. |
+| **[Bioderma Pigmentbio Sensitive Areas](https://www.bioderma.us/en/p/pigmentbio-sensitive-areas.html)** · $46.99 / 75 mL [[5]](https://www.bioderma.us/en/p/pigmentbio-sensitive-areas.html) | External axilla, groin-adjacent friction, inner thigh, knee, and neck when site tolerance is the limiting problem | Fragrance-free positioning and explicit sensitive-area instructions; the brand reports 28- and 56-day image-analysis improvements in axillary/groin studies. This is the strongest site-fit option in the list, not the strongest value per milliliter. [[5]](https://www.bioderma.us/en/p/pigmentbio-sensitive-areas.html) | Percentages are not disclosed and the cited results are manufacturer-reported, not an independent head-to-head RCT. “External” means skin only—never mucosa or internally. |
+| **[La Roche-Posay Mela B3 Dual Body Discoloration Treatment](https://www.laroche-posay.us/our-products/body/body-treatment/mela-b3-dual-body-discoloration-treatment-with-melasyl-3337875941396.html)** · $27.99 / U.S. official listing [[6]](https://www.laroche-posay.us/our-products/body/body-treatment/mela-b3-dual-body-discoloration-treatment-with-melasyl-3337875941396.html) | Body marks including sensitive zones from underarms toward the bikini line, if fragrance/alcohol are tolerated | Body-specific Melasyl (2-mercaptonicotinoyl glycine) + niacinamide + LHA; official page reports 4-week consumer-perception results and twice-daily use. [[6]](https://www.laroche-posay.us/our-products/body/body-treatment/mela-b3-dual-body-discoloration-treatment-with-melasyl-3337875941396.html) | Full INCI includes alcohol denat., fragrance, LHA, and dyes. The U.S. page does not expose a reliable size in the parsed listing, and the short consumer study is not proof of long-term body efficacy. Patch test; skip freshly shaved or reactive folds. |
+| **[Eucerin Daily Hydration SPF 30 Body Lotion](https://www.target.com/p/-/A-80890254)** · $10.79 / 8 oz at Target [[7]](https://www.target.com/p/-/A-80890254) | Exposed arms, legs, chest, shoulders, and neck | Broad-spectrum SPF 30 plus moisturizer prevents UV-driven darkening while a pigment routine works; fragrance-free and inexpensive enough for generous body application. [[7]](https://www.target.com/p/-/A-80890254) | It is prevention, not a pigment active. Use enough product and reapply according to the sunscreen label; exposed areas can also merit SPF 50 or clothing/shade when visible light or intense sun is relevant. |
+| **[Eucerin Advanced Repair / Smoothing Repair Lotion](https://www.eucerinus.com/products/advanced-repair/eucerin-smoothing-repair-dry-skin-lotion)** · $13.69 / 16.9 fl oz at Target; ceramide-3 + 5% urea [[8]](https://www.eucerinus.com/products/advanced-repair/eucerin-smoothing-repair-dry-skin-lotion) | The bland barrier/recovery anchor for any tier | Large, low unit cost, fragrance-free, ceramide/NMF/urea support. A calmer barrier reduces the chance that the treatment itself becomes a new PIH trigger. [[8]](https://www.eucerinus.com/products/advanced-repair/eucerin-smoothing-repair-dry-skin-lotion) | It does not lighten pigment directly. Urea can sting fissured skin; use a plainer petrolatum/ceramide ointment temporarily if the barrier is broken. |
+| **[AmLactin Daily Nourish 12% Lactic Acid](https://amlactin.com/collections/lactic-acid-12-percent/products/daily-nourish-lotion-with-12-lactic-acid)** · $15.88 / 20 oz Costco same-day sale snapshot [[9]](https://amlactin.com/collections/lactic-acid-12-percent/products/daily-nourish-lotion-with-12-lactic-acid) | Rough keratosis-pilaris-like texture, elbows, knees, and retained scale where texture is part of the dark appearance | A large, fragrance-free 12% lactic-acid body lotion is unusually good value for a texture/turnover branch. [[9]](https://amlactin.com/collections/lactic-acid-12-percent/products/daily-nourish-lotion-with-12-lactic-acid) | This is the **one optional turnover lane**—not a second exfoliant to layer with GM's LHA, glycolic acid, or a retinoid. It can burn freshly shaved, fissured, eczematous, or fold skin and can worsen PIH if overused. |
+
+**A-tier interpretation:** the Eucerin lotion, Bioderma, and Mela B3 are competing direct-inhibitor choices. Choose **one**, based on site and tolerance, rather than stacking proprietary actives.
+
+## Tier B — useful branches, but not the default body purchase
+
+| Product and snapshot | Role | Why it is below A/S |
+|---|---|---|
+| **The Ordinary Azelaic Acid Suspension 10%** · $12.20 / 30 mL or $28.80 / 100 mL [[11]](https://theordinary.com/en-us/azelaic-acid-suspension-10-exfoliator-100407.html) | Anti-inflammatory core for small body marks, follicular PIH, or acne-prone areas | A reasonable category choice, but the product is marketed as a face formula and is a suspension rather than a body lotion. Use on a small patch 2–3 nights weekly before increasing. | Avoid the same evening as GM LHA, glycolic/lactic acid, or a retinoid; pilling and irritation are common enough to keep it out of the first-purchase tier. |
+| **The Ordinary Glycolic Acid 7% Toning Solution** · $13.50 / 240 mL at Sephora [[10]](https://theordinary.com/en-us/glycolic-acid-7-exfoliating-toner-100418.html) | Very occasional body turnover for intact arms/legs or rough texture | Excellent unit cost and a known 7% acid, but body use is an extrapolated/off-label adjunct rather than a body PIH treatment trial. | Increases irritation and sun sensitivity; do not use on folds, mucosa, fresh shave/wax, eczema, or the same night as another acid/retinoid. |
+| **Naturium Tranexamic Topical Acid 5%** · $20 / 30 mL [[16]](https://naturium.com/collections/all/products/tranexamic-topical-acid-5) | Small stubborn marks or a TXA alternative when GM is unavailable | 5% TXA plus kojic acid, niacinamide, and licorice is a coherent face/neck/chest formula. | The directions are face/neck/chest, the bottle is small, and the multi-active blend raises stacking/irritation complexity. Treat body use as extrapolation; do not combine with another TXA/niacinamide signal product initially. |
+| **up&up adapalene 0.1%** · $9.99 / 15 g at Target [[13]](https://www.target.com/p/-/A-91551180) | Follicular acne/ingrown-hair branch only | Cheap generic adapalene can be high value when active follicular disease is the driver, because preventing new inflammation may beat adding another brightener. | The OTC label is for acne, not cosmetic lightening. It can irritate and cause photosensitivity; do not use on damaged skin, and avoid in pregnancy/trying unless a clinician specifically directs otherwise. [[14]](https://www.dailymed.nlm.nih.gov/drugInfo.cfm?setid=0739d631-171b-42a8-bd55-0022b8df2d8a) |
+| **NIVEA Luminous630 Anti Stretch Marks & Dark Spots Body Cream** · $31.99 / 200 mL Walmart marketplace snapshot [[15]](https://www.nivea.co.za/products/nivea-luminous630-anti-marks-and-spots-body-cream-60010510058330147.html) | Imported Thiamidol body fallback | Body-specific global formula with Thiamidol/ITR. | Marketplace/import price, alcohol denat. and parfum, uncertain seller/expiry, and a one-Thiamidol-product-per-body-per-day instruction make the U.S. buy less attractive than Eucerin's domestic body lotion. |
+| **Good Molecules Discoloration Correcting Serum** · $12 / 30 mL or $25 / 75 mL [[16]](https://www.goodmolecules.com/s/good-molecules-discoloration-correcting-serum-75ml) | Tiny, well-defined body spots when a body lotion would be wasteful | 3% cetyl tranexamate mesylate + 4% niacinamide and a transparent label. | It is a face serum, not a body product; the larger bottle is still more expensive per mL than the body treatment. Use only on small intact areas and do not duplicate the same signal lane with GM DCBT. |
+
+### A useful Eucerin variant for rough high-friction texture
+
+[Eucerin Radiant Tone Dark Spot Corrector Body Cream](https://www.eucerinus.com/products/radiant-tone/dark-spot-corrector-body-cream) adds lactic acid to the Thiamidol/HA/Licochalcone-A concept and is listed around $24 for 7 oz at Walmart. [[22]](https://www.eucerinus.com/products/radiant-tone/dark-spot-corrector-body-cream)[[23]](https://www.walmart.com/brand/eucerin/10035889) It is a reasonable **rough knees/elbows** substitute for the lotion, but the lotion is the better general-value direct-inhibitor buy. Treat the cream as the turnover lane for that site—do not add AmLactin or glycolic on top.
+
+## Buy by body site and goal
+
+| Situation | Start here | Add only after 1–2 calm weeks | Avoid first |
+|---|---|---|---|
+| **Diffuse marks on arms, legs, chest, back, or thighs** | GM Body Treatment **or** TO Niacinamide 5% + Eucerin Advanced Repair | Eucerin Radiant Tone Body Lotion as the single direct-inhibitor lane; SPF 30/50 if exposed | Multiple brightening serums, daily acids, fragranced scrubs |
+| **Sensitive axilla / inner thigh / groin-adjacent external skin** | TO Niacinamide 5% or bland barrier only; reduce shaving/friction | Bioderma Sensitive Areas if the budget supports a site-specific product; imported Eucerin Sensitive Areas serum is a site-fit option but not a U.S.-value pick. [[17]](https://int.eucerin.com/products/anti-pigment/sensitive-areas-body-serum)[[17]](https://www.perfumesclub.co.uk/en/eucerin/anti-pigment-body-serum-for-sensitive-areas/p_85624/) | GM LHA, glycolic/lactic acid, retinoid, fragrance/alcohol formulas on freshly shaved or irritated folds |
+| **Rough KP-like bumps, elbows, or knees** | Eucerin Advanced Repair; then AmLactin 12% **or** Eucerin Radiant Tone Body Cream | TO Niacinamide 5% on non-acid nights | Acid stacking, abrasive scrubs, aggressive home peels |
+| **Follicular acne, ingrowns, or shaving marks** | Trigger control, a single signal lane (TO N or GM), and a better hair-removal method | Adapalene only for the acne/follicular indication and only when label/clinician/pregnancy constraints are satisfied; consider the hair-reduction pathway | Treating active folliculitis with more pigment inhibitors or acids |
+| **Exposed areas with ongoing sun** | Any tolerated core + SPF 30/50, clothing, and shade | Add a direct inhibitor only after photoprotection is routine | Expecting a lightener to beat daily UV exposure |
+| **Thick, velvety, symptomatic, rapidly spreading, unilateral, or mucosal darkening** | Diagnosis, not a shopping cart | Follow the medical plan | Cosmetic depigmenters, peels, retinoids, or monobenzone before evaluation |
+
+## The maximal shopping list (without buying every tier)
+
+The maximal routine is a **maximum of one item per necessary job**, not a maximum number of bottles:
+
+1. **Signal/transfer lane:** choose GM Body Treatment **or** TO Niacinamide 5%.
+2. **Direct-inhibitor lane:** choose Eucerin Body Lotion **or** Bioderma Sensitive Areas **or** LRP Mela B3. Choose by site/tolerance, not by stacking brand names.
+3. **Barrier lane:** Eucerin Advanced Repair (or another bland fragrance-free ceramide/petrolatum moisturizer).
+4. **Photoprotection lane:** Eucerin Daily Hydration SPF 30 or a broad-spectrum SPF 50 for exposed skin.
+5. **Optional turnover lane:** choose AmLactin **or** glycolic **or** a retinoid for a defined texture/follicular reason. Keep at least one recovery night between active nights at first.
+
+### Two practical budgets
+
+- **Best-value broad-body starter:** GM Body Treatment ($15) + Eucerin Advanced Repair ($13.69) + Eucerin SPF 30 ($10.79) = **about $39.48 before tax/shipping**. Add the direct-inhibitor lane only after the first 1–2 weeks are calm.
+- **Fold-specific higher-cost bundle:** TO Niacinamide 5% ($14) + Bioderma Sensitive Areas ($46.99) + Eucerin Advanced Repair ($13.69) = **about $74.68 before tax/shipping**. This is justified by site fit, not by proof that it is more potent everywhere.
+
+Prices, promotions, shipping thresholds, regional formulas, and stock change. A marketplace listing is not equivalent to a brand-authorized retailer: verify the seller, seal, lot/expiry, and return policy.
+
+## Interaction and stop rules
+
+- Introduce one new product at a time; patch test a representative site for several days.
+- Do not combine multiple direct inhibitors (for example, Thiamidol + Melasyl + another resorcinol) merely to increase mechanism count.
+- Do not put GM's LHA, AmLactin, glycolic acid, or the Eucerin lactic-acid cream on the same night. Add only one turnover lane.
+- No acids or retinoids on freshly shaved/waxed, cracked, eczematous, infected, or mucosal skin. Wait until the barrier is quiet.
+- Burning that persists, swelling, hives, blistering, a rash, new sharply white patches, blue-gray/blackening, or rapidly worsening pigment means stop the new active and seek clinical advice.
+- If the pigment is thick/velvety, symptomatic, spreading, sudden, unilateral, or resistant to trigger control, return to the diagnosis gate rather than buying a stronger product.
+- Pregnancy/trying: keep the routine to trigger control, barrier care, sunscreen, and clinician-reviewed ingredients. Avoid topical retinoids; review TXA and proprietary inhibitors with the treating clinician and the current label. [[14]](https://www.aad.org/public/diseases/acne/derm-treat/pregnancy)
+
+## What I would skip (C tier)
+
+Skip unlabelled “whitening/bleaching” creams, mercury products, chronic steroid combinations, lemon/baking-soda/scrub recipes, 20–70% home peels, monobenzone/benoquin, injectable or oral glutathione for cosmetic lightening, and unsupervised long-term hydroquinone. The safety boundary and permanent-depigmentation rationale are documented in [Long-term safety and permanent-depigmentation boundary](index.html#doc3) and [Non-topical strategy and escalation](index.html#doc5). FDA specifically warns about illegal/unapproved skin-lightening ingredients, while the Benoquin label is for extensive vitiligo depigmentation and warns of permanent, irregular melanocyte loss. [[21]](https://www.fda.gov/consumers/skin-facts-what-you-need-know-about-skin-lightening-products/skin-product-safety)
+
+## Evidence gaps behind the ranking
+
+- There is no independent, multi-year, head-to-head body trial showing that one of these retail products is superior for every body site.
+- The direct axillary signal is strongest for a small 4% niacinamide trial, while many proprietary-active studies are facial, short, formulation-specific, or manufacturer-involved. [[20]](https://pubmed.ncbi.nlm.nih.gov/23355788/)
+- Thiamidol's mechanism and short clinical trials are encouraging, but they do not establish uninterrupted lifetime use, occluded-fold absorption, or large-body-surface pharmacokinetics. [[18]](https://pubmed.ncbi.nlm.nih.gov/29427586/)[[19]](https://pubmed.ncbi.nlm.nih.gov/41566113/)
+- Product pages are useful for price, INCI, directions, and site claims—not for independent comparative efficacy. Concentrations are undisclosed for several branded inhibitors, and marketing study endpoints are not equivalent to a blinded RCT.
+- Recheck the live page before checkout. The accompanying [product value snapshot CSV](data/product_value_snapshot_2026-09-02.csv) records what was observed, where, and with which caveat on 2026-09-02.
+
+## Source-log trail
+
+The [verbose source/resource recovery log](source_docs/research_resource_log_2026-09-04.txt) maps the product tiers to **S03–S04, S13, S16, S19, S57–S67, S77–S83, S85, S87, and S89–S90**. What this section found: purchase value is a dated combination of site fit, active transparency, price/volume, vehicle, and label caveats—not a claim that the cheapest or longest ingredient list wins clinically. The log retains each official page or retailer snapshot, observed price/size, formula or concentration disclosure, seller/availability caveat, and the six-radar-item status (including the discontinued Paula’s Choice product).
+
+## Sources
+
+1. [Good Molecules Discoloration Correcting Body Treatment](https://v1.goodmolecules.com/products/discoloration-correcting-body-treatment?Option=Single) — official U.S. listing, $15/120 mL, disclosed active percentages, pH and fragrance-free/body positioning.
+2. [The Ordinary Niacinamide 5% Face & Body Emulsion](https://theordinary.com/en-us/niacinamide-5-face-body-serum-769915233889.html) — official U.S. listing, $14/100 mL, 5% niacinamide, face/body directions.
+3. [Eucerin Radiant Tone Dark Spot Corrector Body Lotion](https://www.eucerinus.com/products/radiant-tone/dark-spot-corrector-body-lotion-) — official U.S. body product page, Thiamidol/HA/Licochalcone A, 8.5-fl-oz format and label positioning.
+4. [Walmart Eucerin body-lotion listing](https://www.walmart.com/ip/20570517080) — observed $24.50 U.S. retail snapshot.
+5. [Bioderma Pigmentbio Sensitive Areas](https://www.bioderma.us/en/p/pigmentbio-sensitive-areas.html) — official U.S. site fit, ingredient list, price, tolerance and manufacturer-reported axilla/groin image-analysis claims.
+6. [La Roche-Posay Mela B3 Dual Body Discoloration Treatment](https://www.laroche-posay.us/our-products/body/body-treatment/mela-b3-dual-body-discoloration-treatment-with-melasyl-3337875941396.html) — official U.S. price, body/sensitive-area positioning, Melasyl/niacinamide/LHA and four-week consumer study claim.
+7. [Eucerin Daily Hydration SPF 30 at Target](https://www.target.com/p/-/A-80890254) — observed $10.79/8 oz, fragrance-free broad-spectrum body moisturizer.
+8. [Eucerin Smoothing Repair Lotion](https://www.eucerinus.com/products/advanced-repair/eucerin-smoothing-repair-dry-skin-lotion) and [Target category listing](https://www.target.com/c/body-lotion-lotions-creams-bath-beauty/eucerin/-/N-pe4t7Z5t89c) — ceramide-3/5% urea barrier formula and observed price.
+9. [AmLactin Daily Nourish 12%](https://amlactin.com/collections/lactic-acid-12-percent/products/daily-nourish-lotion-with-12-lactic-acid) and [Costco same-day listing](https://sameday.costco.com/store/costco/products/32910-amlactin-daily-moisturizing-body-lotion-20-oz) — body formula, fragrance-free positioning and observed price.
+10. [The Ordinary Glycolic Acid 7% official page](https://theordinary.com/en-us/glycolic-acid-7-exfoliating-toner-100418.html) and [Sephora listing](https://www.sephora.com/product/the-ordinary-deciem-glycolic-acid-7-toning-solution-P427406) — 7% acid and observed 240-mL price.
+11. [The Ordinary Azelaic Acid 10% official page](https://theordinary.com/en-us/azelaic-acid-suspension-10-exfoliator-100407.html) and [Sephora listing](https://www.sephora.com/product/the-ordinary-deciem-azelaic-acid-suspension-10-P427411?icid2=seop_4_img&skuId=2031458) — 10% face formula and observed 30/100-mL prices.
+12. [Naturium Tranexamic Topical Acid 5%](https://naturium.com/collections/all/products/tranexamic-topical-acid-5) — 5% TXA plus kojic acid/niacinamide/licorice, face/neck/chest directions and price.
+13. [up&up adapalene 0.1% at Target](https://www.target.com/p/-/A-91551180) — observed generic price/size and acne-label status.
+14. [DailyMed adapalene label](https://www.dailymed.nlm.nih.gov/drugInfo.cfm?setid=0739d631-171b-42a8-bd55-0022b8df2d8a) and [American Academy of Dermatology pregnancy guidance](https://www.aad.org/public/diseases/acne/derm-treat/pregnancy) — damaged-skin, sun, pregnancy and indication limits.
+15. [NIVEA Luminous630 body cream](https://www.nivea.co.za/products/nivea-luminous630-anti-marks-and-spots-body-cream-60010510058330147.html) and [Walmart marketplace snapshot](https://www.walmart.com/ip/7823219549) — global Thiamidol formula, price and import/seller caveat.
+16. [Good Molecules Discoloration Correcting Serum](https://www.goodmolecules.com/s/good-molecules-discoloration-correcting-serum-75ml) — 3% cetyl tranexamate mesylate + 4% niacinamide, face-serum size/price.
+17. [Eucerin Anti-Pigment Sensitive Areas Body Serum](https://int.eucerin.com/products/anti-pigment/sensitive-areas-body-serum) and [PerfumesClub listing](https://www.perfumesclub.co.uk/en/eucerin/anti-pigment-body-serum-for-sensitive-areas/p_85624/) — international fold-specific product and import price snapshot.
+18. [Thiamidol human-tyrosinase study](https://pubmed.ncbi.nlm.nih.gov/29427586/) — mechanism and reversible melanocyte-culture evidence.
+19. [Thiamidol 0.2% vehicle-controlled RCT](https://pubmed.ncbi.nlm.nih.gov/41566113/) — 200 participants, 12 weeks, facial melasma; supports short-term efficacy translation only.
+20. [4% niacinamide axillary RCT](https://pubmed.ncbi.nlm.nih.gov/23355788/) — 24 women, phototypes III–V, nine-week direct axillary study.
+21. [FDA skin-product safety](https://www.fda.gov/consumers/skin-facts-what-you-need-know-about-skin-lightening-products/skin-product-safety) and [FDA Benoquin label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2003/08173slr015_benoquin_lbl.pdf) — illegal/unapproved lightening ingredient warnings and the monobenzone permanent-depigmentation boundary.
+22. [Eucerin Radiant Tone Dark Spot Corrector Body Cream](https://www.eucerinus.com/products/radiant-tone/dark-spot-corrector-body-cream) — official product page for the lactic-acid/Thiamidol rough-texture variant.
+23. [Walmart Eucerin brand listing](https://www.walmart.com/brand/eucerin/10035889) — observed approximate $24/7-oz body-cream price snapshot.

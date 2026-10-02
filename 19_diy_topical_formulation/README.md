@@ -74,3 +74,5 @@ It covers efficacy, solubility, pH, oxidation, water activity, contamination, pa
 4. Muhammad P et al. *Effectiveness of topical hyaluronic acid of different molecular weights in xerosis cutis treatment in elderly.* https://pubmed.ncbi.nlm.nih.gov/38829483/ — 36-person randomized trial comparing low- and high-molecular-weight HA moisturizers.
 5. U.S. FDA. *Microbiological Safety and Cosmetics.* https://www.fda.gov/cosmetics/potential-contaminants-cosmetics/microbiological-safety-and-cosmetics — contamination routes, storage guidance, and why preservation matters.
 6. U.S. FDA. *GMP Guidelines/Inspection Checklist for Cosmetics.* https://www.fda.gov/cosmetics/cosmetics-guidance-documents/good-manufacturing-practice-gmp-guidelinesinspection-checklist-cosmetics — raw-material, water, microbial, packaging, batch, and preservative/challenge-testing expectations.
+
+- [2026-09-06 pH and formula audit source notes](source_docs/research_resource_log_2026-09-06.txt) — concentration corrections, pKa assumptions, chlorine units, and verification limits; bibliographic/support notes, not archived full texts.

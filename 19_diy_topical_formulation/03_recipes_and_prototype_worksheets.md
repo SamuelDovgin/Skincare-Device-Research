@@ -37,21 +37,23 @@ This is the only recipe in this topic that earns a “first candidate” label. 
 
 ## 1A. The user's adjustable Vitamin C worksheet
 
-Use the [Vitamin C recipe scaler](vitamin_c_recipe_scaler.html) when you want to explore the worksheet with **target pH as the primary control**: nominal water/batch size, LAA percentage, and target pH remain adjustable. The workflow is now powder-first, followed by the full distilled-water amount. It displays every quantity to **0.01 g** and includes presets for the 15.84 g, 17.60 g, 22.01 g, and 29.34 g examples.
+Use the [Vitamin C recipe scaler](vitamin_c_recipe_scaler.html) to select **finished LAA-equivalent % w/w**, starting water amount, and target pH. The default is now **20% w/w after estimated CO₂ loss**, with **15.84 g starting water** and **target pH 3.30**. All concentration presets use this finished-mass basis.
 
-For the current 15.84 / 20% preset, the arithmetic is:
+| Quantity | Unrounded model amount | Displayed amount |
+|---|---:|---:|
+| L-ascorbic acid | 3.986905 g | **3.99 g** |
+| Initial baking-soda estimate | 0.226041 g | **0.23 g** |
+| Distilled water | 15.84 g | **15.84 g** |
+| Estimated mass after CO₂ loss | 19.934527 g | **19.93 g** |
+| LAA-equivalent concentration | 20% w/w | **20.00% w/w** |
 
-| Quantity | Calculation | Displayed result |
-|---|---|---:|
-| L-ascorbic acid | `15.84 × 0.20` | **3.17 g** |
-| Initial baking-soda estimate | target pH 3.30 acid/base model | **0.18 g** |
-| Distilled water | nominal batch size | **15.84 g** |
+The model solves `LAA = water × w / (1 − w × (1 + k × (1 − 44.01/84.007)))`, where `w` is the target mass fraction and `k` is bicarbonate grams per gram LAA from the pH model. At pH 3.30 and pKa₁ 4.17, `k ≈ 0.056696`. Rounded weighed quantities will differ slightly from the unrounded model; weigh the finished mixture and measure pH. The target is total acid plus ascorbate expressed as LAA-equivalent, not an assay of potency or un-ionized acid. [Chemical-property reference](https://pubchem.ncbi.nlm.nih.gov/compound/54670067).
 
-The new pH-targeted estimate uses an acid/base model rather than exposing a mysterious coefficient. It assumes LAA molecular weight 176.12, sodium bicarbonate molecular weight 84.007, an apparent LAA pKa of 4.17, 100% raw-material assay, and complete conversion of bicarbonate to CO₂ plus sodium ascorbate. PubChem reports the molecular-weight/pKa inputs and concentration-dependent aqueous pH references; the topical absorption study supports keeping LAA below pH 3.5 for penetration. [[8]](https://pubchem.ncbi.nlm.nih.gov/compound/54670067)[[9]](https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-bicarbonate)[[1]](https://pubmed.ncbi.nlm.nih.gov/11207686/)
+### Formula audit and default update — 2026-09-06
 
-The model is still only a **starting mass**, not a pH guarantee. The practical best method is: select pH 3.00–3.50, weigh the calculated initial baking soda, add it with the container vented, allow fizzing/CO₂ release to finish, equilibrate, and measure the finished solution. If it misses, do not add an arbitrary extra scoop; make only tiny measured changes and recheck. At 15.84 mL / 20% LAA, the model estimates approximately **0.10 g at pH 3.00, 0.18 g at pH 3.30, and 0.27 g at pH 3.50**. Those values are model outputs, not validated home-batch calibration points.
+The old 3.168 g LAA / 15.84 g water recipe gave approximately 16.592% w/w after estimated gas loss. At the user's request, the scaler now increases LAA and its associated bicarbonate estimate to reach 20% of estimated finished mass. It no longer preserves the old powder-to-water loading convention. At pH targets 3.00, 3.30, and 3.50, the new 20% default estimates respectively **0.12, 0.23, and 0.34 g bicarbonate**.
 
-For a first trial, a 10–15% LAA setting is a more conservative starting point than 20%. The classic absorption study supports LAA delivery below pH 3.5 and tested concentrations up to 20%; it does not establish that 20% is best for every person or every home formula. [[1]](https://pubmed.ncbi.nlm.nih.gov/11207686/)
+The ideal acid/base model still neglects activity effects and the small free-H⁺ charge-balance correction. Actual final volume, retained CO₂, assay, evaporation and measurement error remain uncalibrated. Final pH must be measured after dissolution and degassing. The cited pig-skin study supports delivery below pH 3.5; choosing % w/w here does not establish that every study's “20%” shares this exact concentration basis or vehicle. No home-serum safety, potency or shelf life was validated. [Audit source notes](source_docs/research_resource_log_2026-09-06.txt).
 
 ### Timing and measurement notes
 

@@ -1,0 +1,10 @@
+product,market_scope,source_type,published_ph,ph_value_used,published_nacl_percent,nacl_percent_used,nacl_g_per_l_used,in_ph_median,in_salt_median,source_url,notes
+Tower 28 SOS Daily Rescue Facial Spray,US facial spray,official product page,4.5,4.5,,,,yes,no,https://www.tower28beauty.com/collections/skincare/products/sos-daily-facial-rescue-spray,NaCl listed without concentration
+Briotech Topical Skin Spray,US face and body spray,official product page plus SDS,4.0-5.2,4.6,0.8-1.0,0.9,9.0,yes,yes,https://shopbriotech.com/products/topical-skin-spray,Midpoint used once for each published range
+Gym Acid Skin Spray,Canadian face and body spray,official product page,5.2-5.5,5.35,,,,yes,no,https://gymacid.ca/products/gym-acid-skin-spray-120ml-4oz-2-pack-refill-bundle,Midpoint used for published pH range
+Prequel Universal Skin Solution,US face and body spray,official product page,5.5,5.5,,,,yes,no,https://prequelskin.com/products/universal-skin-solution-hypochlorous-acid-spray,NaCl listed without concentration
+Revallure Chill Rescue Mist,US facial mist,official product page,5.5,5.5,,,,yes,no,https://www.revallure.com/products/chill-rescue-mist,NaCl described as trace without numeric concentration
+Simple Science Antimicrobial Facial and Eyelid Cleanser,US facial and eyelid cleanser,FDA 510(k),,,0.06,0.06,0.6,no,yes,https://www.accessdata.fda.gov/cdrh_docs/pdf18/K181074.pdf,Primary regulatory composition disclosure
+Magic Molecule Daily Skin Spray,US skin spray,official product page,neutral,,0.06,0.06,0.6,no,yes,https://magicmolecule.com/pages/newpage,Qualitative neutral pH excluded from numeric median
+Defense Hypochlorous Skin Cleanser,US face and body spray,official product page,,,0.06,0.06,0.6,no,yes,https://defensesoap.com/products/defense-hypochlorous-skin-cleanser,Exact current ingredient percentages
+MEDIAN,disclosed numeric subset,calculated,5 values,5.35,4 values,0.06,0.6,yes,yes,,Disclosure-biased median; not a population estimate or generator feed recipe

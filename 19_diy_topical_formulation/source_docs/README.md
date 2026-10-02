@@ -33,3 +33,5 @@
 - Access date for the original powder-formulation pages: 2026-08-15. HOCl chemistry, generator, and product pages were checked 2026-08-22. User-provided PWPAM manual images were received and archived 2026-08-24.
 - No marketplace supplier was treated as proof of identity, purity, sterility, or shelf life.
 - The evidence map preserves the distinction between human clinical outcomes, regulatory safety guidance, supplier/formulation inference, and unknown home-batch behavior.
+
+- [2026-09-06 pH and formula audit source notes](research_resource_log_2026-09-06.txt) — concentration corrections, pKa assumptions, chlorine units, and verification limits; bibliographic/support notes, not archived full texts.

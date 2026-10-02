@@ -1,0 +1,1526 @@
+HYPERPIGMENTATION RESEARCH RESOURCE LOG
+========================================
+
+Topic: Body hyperpigmentation and long-term tone-evening
+Compiled: 2026-09-04 (America/Chicago)
+Purpose: Durable recovery notes for the comparative study census, category map,
+product crosswalk, melanin-pathway visualizer, mercury history, and routine pages.
+
+This file is intentionally plain text. It records what was actually consulted,
+what each item supports, and whether a lawful local copy exists. It is not a
+replacement for the rendered research pages and it is not a treatment protocol.
+The topic uses “acquired hyperpigmentation” to mean darker-than-baseline marks
+from PIH, friction/shaving/follicular inflammation, rough texture, or selected
+melasma-like patterns. It does not recommend generalized baseline-tone change,
+melanocyte destruction, mercury, monobenzone, or unlabelled bleaching creams.
+
+HOW TO USE THIS LOG
+-------------------
+
+* S01–S68 correspond to the numbered source list in
+  08_study_census_and_comparative_rankings.md. S45 intentionally records the
+  repeated Melasyl/HQ citation that points to the same PMID as S06.
+* S87–S90 preserve the other user-supplied conversation attachments that
+  informed the earlier hyperpigmentation work; they are context/secondary
+  material, not independent clinical evidence.
+* S69–S86 are the topic-local XML/PDF/HTML/CSV captures and their checksums;
+  they are the first recovery path when a live source is unavailable.
+* The “Used in” field is a section-level crosswalk. The main pages contain the
+  reader-facing conclusion; this log preserves the underlying study trail.
+* “URL-only” means the bibliographic record/claim was consulted but no lawful
+  full-text local copy was saved. The local PubMed XML bundle preserves abstracts
+  for only the PMIDs named in the individual entries below.
+* Product prices, stock, formulas, sellers, and marketing claims are snapshots.
+  Recheck an official page or authorized retailer before purchase.
+* Short paraphrases are used instead of long quotations. The log is a research
+  index, not a redistribution of copyrighted full text.
+
+EVIDENCE LABELS
+---------------
+
+A  Randomized/controlled human trial or systematic review with a relevant
+   endpoint.
+B  Open-label, split-face, small, or combination-formula human signal.
+C  Human enzyme/cell, animal, or mechanistic plausibility evidence.
+R/H Regulatory, toxicology, or historical evidence; not a benefit claim.
+M  Official product/marketing/consumer source; useful for label, INCI, price,
+   availability, and claim capture, not equivalent to an independent RCT.
+L  Local archive/data/tool file.
+
+SOURCE ENTRIES
+--------------
+
+[S01] Chang et al. 2023 topical depigmenting meta-analysis — PMID 36566490
+URL: https://pubmed.ncbi.nlm.nih.gov/36566490/
+Accessed: 2026-09-04
+Class: A; systematic review/meta-analysis
+Used in: README TL;DR; 08 bottom line; 08 pooled-effect section; 08 CSV rows
+Supports: comparative class-level effect and irritation context.
+Key record: 45 efficacy studies; 2,359 participants; pooled SMD approximately
+HQ monotherapy -1.3, HQ combinations -1.4, cysteamine -1.6, topical TXA -1.5,
+azelaic acid -1.3, and kojic acid -0.9. Approximate irritation incidence was
+50.9% for HQ combinations, 42.2% cysteamine, 18.7% azelaic acid, 5.3% kojic
+acid, and 0.8% TXA.
+Finding: The pooled signal favors several active classes, but the estimates mix
+facial melasma/PIH, formulas, comparators, and durations; they are not a retail
+product league table or a body-skin dose recommendation.
+Limits: High heterogeneity; mostly facial studies; standardized mean difference
+does not say how many shades a person will change. Irritation estimates are not
+directly transferable to folds or large body areas.
+Local preservation: URL-only — no lawful local full-text copy saved; citation,
+abstract metadata, and the numeric summary are preserved here and in the doc8 CSV.
+Status/recheck: Stable PubMed record; recheck if a newer meta-analysis changes the hierarchy.
+
+[S02] Alirezaei et al. topical TXA versus azelaic acid — PMID 37213446
+URL: https://pubmed.ncbi.nlm.nih.gov/37213446/
+Accessed: 2026-09-04
+Class: A; randomized comparative human trial
+Used in: 04 routine; 08 bottom line/ranking; 08 TXA and azelaic rows; visualizer TXA/azelaic links
+Supports: direct comparison of topical 5% TXA and 20% azelaic acid for acne PIH.
+Key record: 60 completers; 12 weeks; facial acne-induced PIH; both arms improved,
+with more early adverse effects in the azelaic arm.
+Finding: Both ingredients are credible anti-pigment options, but this is a
+facial PIH comparison and the concentrations differ from common 10% retail
+azelaic products.
+Limits: Small, short, facial, and not a body-surface or long-term trial; exact
+between-arm superiority was not established.
+Local preservation: source_docs/PubMed_core_body_pigment_records_2026-09-02.xml
+contains PMID 37213446 abstract metadata; no separate full text was downloaded.
+Status/recheck: Stable PubMed record.
+
+[S03] Castanedo-Cazares et al. 4% niacinamide axillary RCT — PMID 23355788
+URL: https://pubmed.ncbi.nlm.nih.gov/23355788/
+Accessed: 2026-09-04
+Class: A; direct body-site randomized clinical study
+Used in: README TL; 02 atlas; 04 fold protocol; 08 ranking; visualizer niacinamide lane
+Supports: the clearest direct body/axillary topical niacinamide anchor.
+Key record: 24 women, phototypes III–V; 4% niacinamide versus 0.05% desonide/
+placebo comparator; 9 weeks; axillary hyperpigmentation; colorimetry improved,
+but good/excellent response was only about 24%.
+Finding: Niacinamide is a sensible, relatively low-cost transfer/barrier lane,
+but the body response is gradual and far from universal.
+Limits: Small sample, short duration, axilla-specific, and comparator/formula
+details limit extrapolation to diffuse body marks or higher percentages.
+Local preservation: source_docs/PubMed_core_body_pigment_records_2026-09-02.xml
+and source_docs/PMC3552481_niacinamide_axillary_RCT.xml preserve bibliographic/
+abstract/full-text XML material.
+Status/recheck: Stable open-access/PMC and PubMed records.
+
+[S04] 0.2% Thiamidol vehicle-controlled RCT — PMID 41566113
+URL: https://pubmed.ncbi.nlm.nih.gov/41566113/
+Accessed: 2026-09-04
+Class: A; randomized, double-blind, vehicle-controlled human trial
+Used in: README TL; 03 safety; 06 emerging actives; 08 ranking and study census;
+visualizer Thiamidol lane
+Supports: the newest controlled Thiamidol/ITR short-term facial efficacy signal.
+Key record: 200 randomized/196 analyzed; 0.2% Thiamidol; 12 weeks; facial
+melasma; mMASI improved about 36.1% versus 16.1% with vehicle at week 12,
+while some secondary outcomes were mixed.
+Finding: Thiamidol has a stronger modern inhibitor program than most cosmetic
+resorcinols, but this does not prove large-area body efficacy or lifetime use.
+Limits: Facial study, manufacturer-linked program, short follow-up, and product
+vehicle/concentration may not match every Eucerin formula.
+Local preservation: source_docs/PubMed_core_body_pigment_records_2026-09-02.xml
+contains PMID 41566113 abstract metadata; no separate full text saved.
+Status/recheck: New record; verify later publications and independent replication.
+
+[S05] Cysteamine systematic review/meta-analysis — PMID 39673630
+URL: https://pubmed.ncbi.nlm.nih.gov/39673630/
+Accessed: 2026-09-04
+Class: A; systematic review/meta-analysis
+Used in: 02 atlas; 06 emerging map; 08 ranking; visualizer cysteamine lane
+Supports: moderate facial efficacy and the comparison with HQ4.
+Key record: 7 RCTs; cysteamine SMD approximately -0.84 versus placebo; no
+statistically significant difference versus HQ4 in pooled comparison.
+Finding: Cysteamine is not merely biochemical marketing; it has a reproducible
+facial signal, but odor, irritation, and short-contact adherence are material.
+Limits: Mostly facial melasma, varied protocols, small trials, and no robust
+large-body or multi-year topical evidence.
+Local preservation: source_docs/PubMed_core_body_pigment_records_2026-09-02.xml
+contains PMID 39673630 abstract metadata; no lawful full text saved.
+Status/recheck: Stable PubMed record.
+
+[S06] Melasyl/2-MNG 0.5% versus HQ4 non-inferiority — PMID 40586974
+URL: https://pubmed.ncbi.nlm.nih.gov/40586974/
+Accessed: 2026-09-04
+Class: A; randomized facial non-inferiority human study
+Used in: 06 emerging actives; 08 bottom line/ranking; 08 product crosswalk;
+09 pathway/precursor section; visualizer Melasyl lane
+Supports: precursor-trap rationale and a controlled short-term comparison.
+Key record: 109 women; 84 days; 0.5% 2-MNG serum versus HQ4; both arms used
+tinted SPF; the 2-MNG arm met the study's non-inferiority margin; local reactions
+were approximately 6% versus 21.4% at day 28.
+Finding: Melasyl is a meaningful alternative mechanism, not proof that every
+Melasyl product equals HQ or works on body folds.
+Limits: Formula/company-specific, facial, short, tinted-SPF co-intervention,
+and non-inferiority depends on the prespecified margin rather than superiority.
+Local preservation: source_docs/PubMed_core_body_pigment_records_2026-09-02.xml
+contains PMID 40586974 abstract metadata; no separate full text saved.
+Status/recheck: Recent record; monitor independent replication and body studies.
+
+[S07] Austin et al. topical melasma RCT systematic review — PMID 31741361
+URL: https://pubmed.ncbi.nlm.nih.gov/31741361/
+Accessed: 2026-09-04
+Class: A; systematic review of randomized topical studies
+Used in: 08 methods, pooled context, and evidence gaps; 02 atlas
+Supports: the breadth and heterogeneity of topical RCTs.
+Key record: 35 randomized topical studies spanning azelaic acid, HQ,
+cysteamine, niacinamide, TXA, 4-BR, glycolic acid, kojic acid, ascorbic acid,
+ellagic acid, and arbutin.
+Finding: A large-looking ingredient list still contains uneven study quality,
+small samples, different endpoints, and little body-site evidence.
+Limits: Review is not a direct body comparison and cannot establish a single
+best active for every phototype or pigmentation cause.
+Local preservation: URL-only — no lawful full text saved; summary and source
+identifier preserved here.
+Status/recheck: Stable PubMed review; superseded only in part by newer reviews.
+
+[S08] 2023 systematic review of topical/systemic melasma treatments — PMID 38099013
+URL: https://pubmed.ncbi.nlm.nih.gov/38099013/
+Accessed: 2026-09-04
+Class: A; broad systematic review
+Used in: 08 pooled context; visualizer sunscreen link; README ranking rationale
+Supports: strongest review-level grades for HQ/TCC, sunscreen, kojic acid, and azelaic acid.
+Key record: 174 controlled trials screened; treatments included topical and
+systemic approaches; the review emphasized that evidence for vitamin C,
+resorcinols, and topical TXA needed strengthening at that time.
+Finding: Review-level confidence depends on more than mechanism; prevention and
+classic medical comparators still anchor the hierarchy.
+Limits: Mixed routes and conditions; not a body-skin review; later Thiamidol,
+Melasyl, and TXA studies post-date portions of its search.
+Local preservation: URL-only — no lawful local full text saved.
+Status/recheck: Recheck after later systematic reviews.
+
+[S09] 2024 topical/oral/injection TXA efficacy meta-analysis — PMID 38843906
+URL: https://pubmed.ncbi.nlm.nih.gov/38843906/
+Accessed: 2026-09-04
+Class: A; route-mixed meta-analysis
+Used in: 02 atlas; 08 TXA ranking; visualizer TXA links
+Supports: overall TXA effect signal while enforcing route separation.
+Key record: 22 studies; 1,280 participants; durations from about 8 weeks to
+2 years; significant MASI/MI improvements with high heterogeneity.
+Finding: TXA is a serious pigment-signaling lane, but oral/injected effects and
+risks cannot be converted into home topical dosing.
+Limits: Route mixing, facial predominance, heterogeneous formulations, and
+different safety profiles make the pooled number unsuitable as a topical body dose.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable review; route-specific evidence remains essential.
+
+[S10] 2024 TXA route-comparison network/meta-analysis — PMID 38283017
+URL: https://pubmed.ncbi.nlm.nih.gov/38283017/
+Accessed: 2026-09-04
+Class: A; network/meta-analysis
+Used in: 05 escalation; 08 methods and TXA limits
+Supports: invasive routes often show larger effects than topical TXA.
+Key record: 28 RCTs comparing injection/microneedling, oral, and topical TXA
+routes in melasma-related outcomes.
+Finding: Route is a major effect and safety variable; invasive/oral evidence is
+not a justification for self-administered systemic TXA.
+Limits: Indirect comparisons, mostly facial disease, and route-specific adverse
+events; no large-body topical endpoint.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable PubMed record.
+
+[S11] 5% topical TXA versus 3% HQ — PMID 31057273
+URL: https://pubmed.ncbi.nlm.nih.gov/31057273/
+Accessed: 2026-09-04
+Class: A; randomized facial comparison
+Used in: 08 TXA/HQ comparison and CSV
+Supports: a small direct topical TXA-versus-HQ benchmark.
+Key record: 100 analyzed; 12 weeks; facial melasma; MASI reduction about 27%
+with TXA and 26.7% with HQ; difference was not significant and TXA satisfaction
+was higher.
+Finding: Topical TXA can be clinically competitive with HQ over a short facial
+course, but the study does not establish superiority or body translation.
+Limits: Small/short facial trial; no long-term relapse or body-site pharmacokinetics.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable PubMed record.
+
+[S12] 3% TXA versus 4% HQ split-face trial — PMID 38918942
+URL: https://pubmed.ncbi.nlm.nih.gov/38918942/
+Accessed: 2026-09-04
+Class: A; double-blind split-face facial study
+Used in: 08 TXA comparison and CSV
+Supports: both sides improved without a significant difference.
+Key record: 20 participants; 8 weeks; facial melasma; topical 3% TXA and 4%
+HQ each improved pigmentation, with no significant between-side difference.
+Finding: Replicates the idea that TXA is a plausible HQ alternative rather than
+an automatically stronger inhibitor.
+Limits: Tiny and short; split-face carryover and facial-only design.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable PubMed record.
+
+[S13] 5% TXA versus 20% azelaic acid — PMID 37213446
+URL: https://pubmed.ncbi.nlm.nih.gov/37213446/
+Accessed: 2026-09-04
+Class: A; randomized comparative human trial (same record as S02)
+Used in: 08 study table and CSV; 04 comparative routine note
+Supports: exact concentration/site details already recorded in S02.
+Key record: 60 acne-PIH completers; 12 weeks; both improved; more early AEs in
+the 20% azelaic arm.
+Finding: This duplicate bibliography occurrence is retained to mirror the doc8
+source list; interpret it through S02, not as a second independent trial.
+Limits: Same as S02; no additional evidence weight.
+Local preservation: source_docs/PubMed_core_body_pigment_records_2026-09-02.xml
+contains PMID 37213446 abstract metadata.
+Status/recheck: Stable PubMed record; duplicate citation cross-reference.
+
+[S14] 2% TXA + 2% niacinamide vehicle RCT — PMID 24033822
+URL: https://pubmed.ncbi.nlm.nih.gov/24033822/
+Accessed: 2026-09-04
+Class: A; randomized vehicle-controlled facial formula study
+Used in: 02 atlas; 08 combination evidence; visualizer TXA/niacinamide links
+Supports: a combined upstream/transfer formula can outperform vehicle.
+Key record: facial randomized vehicle-controlled study; 2% TXA + 2% niacinamide;
+8 weeks; combination improved facial hyperpigmentation versus vehicle.
+Finding: The two-pathway combination is biologically coherent, but it cannot
+separate the contribution of either ingredient or predict body performance.
+Limits: Formula attribution, facial site, short duration, and limited public
+design detail in the abstract.
+Local preservation: source_docs/PubMed_core_body_pigment_records_2026-09-02.xml
+contains PMID 24033822 abstract metadata.
+Status/recheck: Stable PubMed record.
+
+[S15] TXA/niacinamide/arbutin combinations versus HQ — PMID 31664751
+URL: https://pubmed.ncbi.nlm.nih.gov/31664751/
+Accessed: 2026-09-04
+Class: A/B; split-face healthy-site combination comparison
+Used in: 08 ranking and CSV; product crosswalk interpretation
+Supports: several combination arms and HQ can all move short-term colorimetry.
+Key record: 44 healthy subjects; 3% or 2% TXA combinations with niacinamide/
+arbutin versus HQ4; 4 weeks; all improved without clear differences.
+Finding: Multi-active labels do not prove additive pathway coverage; a short
+healthy-site experiment is especially weak evidence for body PIH.
+Limits: Very short, healthy rather than diseased skin, combination attribution,
+and no meaningful long-term follow-up.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable PubMed record.
+
+[S16] 4% niacinamide versus 4% HQ — PMID 21822427
+URL: https://pubmed.ncbi.nlm.nih.gov/21822427/
+Accessed: 2026-09-04
+Class: A; randomized facial comparison
+Used in: 02 atlas; 08 ranking and CSV
+Supports: niacinamide can approach HQ over a short facial course with fewer AEs.
+Key record: 27 participants; 8 weeks; good/excellent response roughly 44% with
+niacinamide versus 55% with HQ; AEs about 18% versus 29%.
+Finding: Supports a modest, tolerable signal lane, not a claim that niacinamide
+is a stronger direct inhibitor.
+Limits: Small, facial, short, and subjective responder categories.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable PubMed record.
+
+[S17] Niacinamide melanosome-transfer mechanism — PMID 12100180
+URL: https://pubmed.ncbi.nlm.nih.gov/12100180/
+Accessed: 2026-09-04
+Class: A/C; coculture mechanism plus human study
+Used in: 02 atlas; 09 pathway; visualizer transfer lane
+Supports: niacinamide acts at melanosome transfer rather than only at TYR.
+Key record: coculture experiments reported approximately 35–68% inhibition of
+melanosome transfer; short human moisturizer/sunscreen studies showed lightening.
+Finding: Transfer is a distinct pathway job and explains why niacinamide can
+complement, but not duplicate, direct TYR inhibitors.
+Limits: Coculture percentages are not human body outcomes; vehicle and short
+clinical data limit dose extrapolation.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable PubMed record.
+
+[S18] NAG 2% + niacinamide 4% randomized formula study — PMID 19845667
+URL: https://pubmed.ncbi.nlm.nih.gov/19845667/
+Accessed: 2026-09-04
+Class: A; randomized vehicle-controlled combination study
+Used in: 02 atlas; 08 study census; visualizer NIA/NAG lane
+Supports: the NAG/niacinamide combination can reduce facial hyperpigmentation.
+Key record: 202 participants; 10 weeks; 2% N-acetyl glucosamine + 4%
+niacinamide formula versus vehicle; significant reduction in facial pigment.
+Finding: Stronger than a purely mechanistic claim, but it remains a formula
+study and cannot isolate NAG from niacinamide.
+Limits: Facial, short, combination attribution, and no direct body endpoint.
+Local preservation: source_docs/PubMed_core_body_pigment_records_2026-09-02.xml
+contains PMID 19845667 abstract metadata.
+Status/recheck: Stable PubMed record.
+
+[S19] 20% azelaic-acid vehicle-controlled trial — PMID 9829446
+URL: https://pubmed.ncbi.nlm.nih.gov/9829446/
+Accessed: 2026-09-04
+Class: A; randomized vehicle-controlled human trial
+Used in: 02 atlas; 04 routine; 08 ranking; visualizer azelaic lane
+Supports: the long-standing clinical reputation of 20% azelaic acid.
+Key record: 24-week randomized vehicle-controlled facial hyperpigmentation study;
+participants included phototypes IV–VI; 20% azelaic acid improved pigmentation.
+Finding: Azelaic acid is one of the better-supported non-HQ options, especially
+when inflammation/acne contributes, but 10% OTC serums are a lower-strength
+extrapolation.
+Limits: Older facial study, vehicle/concentration difference, and no body-surface
+or multi-year result.
+Local preservation: source_docs/PubMed_core_body_pigment_records_2026-09-02.xml
+contains PMID 9829446 abstract metadata.
+Status/recheck: Stable PubMed record.
+
+[S20] HQ + tretinoin + fluocinolone triple combination versus HQ — PMID 18616780
+URL: https://pubmed.ncbi.nlm.nih.gov/18616780/
+Accessed: 2026-09-04
+Class: A; controlled facial trial; finite medical comparator
+Used in: 03 long-term safety; 08 reference/finite tier; routine escalation boundary
+Supports: why TCC has a large short-term facial signal but is not a lifetime body lotion.
+Key record: approximately 249 Asian participants; 8 weeks; TCC produced about
+64.2% none/mild ratings versus 39.4% with HQ alone; AEs approximately 48.8%
+versus 13.7%.
+Finding: Combination efficacy is real, but the added retinoid/steroid burden and
+relapse/ochronosis concerns make it a defined clinician-guided course.
+Limits: Facial melasma, finite protocol, adverse-event burden, and no body translation.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable PubMed record; medical labeling controls.
+
+[S21] Triple-combination maintenance RCT — PMID 21623930
+URL: https://pubmed.ncbi.nlm.nih.gov/21623930/
+Accessed: 2026-09-04
+Class: A; randomized maintenance study
+Used in: 03 safety/relapse section; 08 finite medical tier
+Supports: relapse and the limits of maintenance after TCC induction.
+Key record: 242 participants entering a six-month maintenance phase after
+induction; reduced-frequency TCC schedules were compared; roughly 53% remained
+relapse-free at six months, with twice-weekly use tending to perform better.
+Finding: Even an effective combination needs a maintenance strategy and does not
+create permanent immunity to recurrent melasma.
+Limits: Facial disease, prior TCC responders, and a finite follow-up; not a body
+routine or evidence for unsupervised chronic steroid use.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable PubMed record.
+
+[S22] Triple-combination 24-week open study — PMID 20398959
+URL: https://pubmed.ncbi.nlm.nih.gov/20398959/
+Accessed: 2026-09-04
+Class: B; prospective/open facial study
+Used in: 03 safety; 08 finite medical tier and evidence gaps
+Supports: relapse and adverse events remain common after a TCC course.
+Key record: 70 participants; 24 weeks; daily induction followed by reduced or
+continued use; relapse was common and adverse events were approximately 53%.
+Finding: Open-label continuation data reinforce that “stronger” does not mean
+long-term maintenance is straightforward.
+Limits: No blinded comparator, facial site, small sample, and protocol heterogeneity.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable PubMed record.
+
+[S23] Large community hydroquinone study — PMID 16610738
+URL: https://pubmed.ncbi.nlm.nih.gov/16610738/
+Accessed: 2026-09-04
+Class: B; large uncontrolled community study
+Used in: 03 safety; 08 reference tier
+Supports: real-world HQ can produce visible short-term improvement, but not
+controlled comparative efficacy.
+Key record: 1,290 people; 8-week facial HQ use; roughly 75% were rated
+moderate/marked/almost clear/clear.
+Finding: Large sample size does not substitute for a control arm or long-term
+safety follow-up.
+Limits: Open/uncontrolled, facial, subjective rating, unknown adherence and
+selection bias; no body or lifetime endpoint.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable PubMed record.
+
+[S24] Cysteamine 5% placebo RCT — PMID 25251767
+URL: https://pubmed.ncbi.nlm.nih.gov/25251767/
+Accessed: 2026-09-04
+Class: A; double-blind placebo-controlled human trial
+Used in: 02 atlas; 06 emerging map; 08 cysteamine tier
+Supports: defined 5% topical cysteamine can improve facial melasma versus placebo.
+Key record: 50 participants; 4 months; 5% cysteamine; facial melasma; treatment
+outperformed placebo.
+Finding: This is a clinical signal for a thiol/redox lane, not evidence that
+cysteamine should be layered with every direct inhibitor on a large body area.
+Limits: Facial-only, small, odor/irritation/adherence concerns, and limited
+long-term body data.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable PubMed record.
+
+[S25] Cysteamine versus HQ + ascorbic acid — PMID 35510765
+URL: https://pubmed.ncbi.nlm.nih.gov/35510765/
+Accessed: 2026-09-04
+Class: A; randomized facial comparison
+Used in: 08 cysteamine comparison and CSV
+Supports: cysteamine and an HQ/ascorbic comparator can produce similar clinical
+changes over a finite period.
+Key record: 65 of 80 enrolled completed; 4 months; facial melasma; mMASI change
+was similar, while melanin index favored the HQ combination.
+Finding: Cysteamine is a credible alternative, but HQ-containing comparators
+retain a stronger reference position for short-term facial efficacy.
+Limits: Attrition, facial site, finite duration, and combination comparator make
+ingredient superiority impossible to claim.
+Local preservation: source_docs/PubMed_core_body_pigment_records_2026-09-02.xml
+contains PMID 35510765 abstract metadata.
+Status/recheck: Stable PubMed record.
+
+[S26] Cysteamine versus TXA mesotherapy — PMID 32879998
+URL: https://pubmed.ncbi.nlm.nih.gov/32879998/
+Accessed: 2026-09-04
+Class: A; randomized comparative facial study
+Used in: 05 escalation; 08 cysteamine comparison
+Supports: topical cysteamine can be comparable to an invasive TXA route in a
+small facial study, with fewer procedure-related complications.
+Key record: 54 participants; approximately 4 months; cysteamine cream versus
+TXA mesotherapy for facial melasma; no significant efficacy difference.
+Finding: Route and complication burden matter; this does not justify self-
+injecting or applying a higher concentration to body folds.
+Limits: Small, facial, invasive comparator, and no body/long-term pharmacokinetic data.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable PubMed record.
+
+[S27] Cysteamine + ectoine versus HQ + ectoine — PMID 40127492
+URL: https://pubmed.ncbi.nlm.nih.gov/40127492/
+Accessed: 2026-09-04
+Class: A/B; controlled formula comparison
+Used in: 08 cysteamine ranking and CSV
+Supports: both cysteamine/ectoine and HQ/ectoine formulas improve facial melasma.
+Key record: controlled clinical study; facial melasma; both arms improved, with a
+small nonsignificant numerical advantage for cysteamine.
+Finding: The result is encouraging but formula-specific and not evidence of
+additivity with other thiols or direct inhibitors.
+Limits: Small/public abstract detail limited; facial, combination attribution,
+and no body-surface or long-term data.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Newer PubMed record; monitor replication.
+
+[S28] Kojic acid 1% clinical comparison — PMID 23918998
+URL: https://pubmed.ncbi.nlm.nih.gov/23918998/
+Accessed: 2026-09-04
+Class: A; single-blind randomized facial comparison
+Used in: 02 atlas; 08 kojic ranking; product interpretation
+Supports: 1% kojic acid is a legitimate topical pigment option, especially in
+combinations.
+Key record: 80 participants; 12 weeks; kojic acid alone and combinations with
+HQ/other agents; the kojic + HQ combination performed best.
+Finding: Kojic acid has more clinical support than many “natural” brighteners,
+but allergy/sensitization and combination attribution remain important.
+Limits: Facial, short, single-blind, and not a body or lifetime study; cosmetic
+SCCS safety ceilings are not efficacy targets.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable PubMed record.
+
+[S29] Cysteamine 5% versus kojic acid 2% — PMID 40296942
+URL: https://pubmed.ncbi.nlm.nih.gov/40296942/
+Accessed: 2026-09-04
+Class: A; randomized facial comparison
+Used in: 08 cysteamine/kojic ranking and CSV
+Supports: a modern direct comparison of two non-HQ options.
+Key record: 72 Indian women; 16 weeks; cysteamine 5% versus kojic acid 2%;
+mMASI reductions approximately 12.25 versus 10%, not statistically different;
+no adverse events were reported in the abstract.
+Finding: Neither ingredient clearly wins in this small study; absence of reported
+events is not proof of universal tolerability.
+Limits: Small, short, facial, population-specific, and likely underpowered for
+small between-arm differences.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Recent PubMed record; seek full paper if available.
+
+[S30] Alpha-arbutin 5% + kojic acid 2% versus TCC — PMID 39555866
+URL: https://pubmed.ncbi.nlm.nih.gov/39555866/
+Accessed: 2026-09-04
+Class: A/B; split-face pilot with follow-up
+Used in: 02 atlas; 08 arbutin/kojic ranking
+Supports: an arbutin/kojic combination can improve, but did not clearly beat
+TCC in this pilot.
+Key record: 30 participants; 12-week treatment plus 4-week follow-up; mMASI/MI
+differences were nonsignificant; TCC had better physician global ratings but more
+erythema/recurrence concerns.
+Finding: Alpha-arbutin is a reasonable adjunct, not a demonstrated replacement
+for a finite medical combination.
+Limits: Tiny, facial, high concentrations not equivalent to ordinary body lotion,
+and split-face/short follow-up.
+Local preservation: source_docs/PubMed_core_body_pigment_records_2026-09-02.xml
+contains PMID 39555866 abstract metadata.
+Status/recheck: Recent record; monitor independent confirmation.
+
+[S31] Arbutin/herbal formula RCT — PMID 30980618
+URL: https://pubmed.ncbi.nlm.nih.gov/30980618/
+Accessed: 2026-09-04
+Class: A/B; randomized facial formula study
+Used in: 02 atlas; 08 arbutin ranking and CSV
+Supports: an arbutin-containing herbal formula can outperform placebo in a short
+facial trial.
+Key record: 90 participants; 12 weeks; herbal formula > arbutin > placebo in
+reported improvement.
+Finding: The signal is plausible but cannot establish alpha-arbutin as the sole
+active or predict a retail product with a different vehicle.
+Limits: Formula attribution, facial site, short duration, and limited public
+concentration details.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable PubMed record.
+
+[S32] Thiamidol human-tyrosinase screen — PMID 29427586
+URL: https://pubmed.ncbi.nlm.nih.gov/29427586/
+Accessed: 2026-09-04
+Class: C; human enzyme/cell mechanism program
+Used in: 03 safety/reversibility; 06 emerging map; 08 enzyme comparison;
+09 pathway; visualizer Thiamidol lane
+Supports: isobutylamido thiazolyl resorcinol (Thiamidol/ITR) directly inhibits
+human tyrosinase and reversibly suppresses cultured melanogenesis.
+Key record: screen of about 50,000 compounds; reported human-tyrosinase IC50
+around 1.1 micromolar for ITR; melanocyte-culture suppression returned toward
+baseline after withdrawal.
+Finding: Strong mechanistic plausibility and reversibility, but an IC50 is not a
+skin-lightening dose and does not rank products across different assays.
+Limits: Company-linked mechanism work; no body endpoint, no multi-year exposure,
+and assay/vehicle differences make cross-paper IC50 comparisons unsafe.
+Local preservation: source_docs/PubMed_core_body_pigment_records_2026-09-02.xml
+contains PMID 29427586 abstract metadata.
+Status/recheck: Stable PubMed record; follow independent clinical studies.
+
+[S33] Thiamidol versus HQ4 evaluator-blinded RCT — PMID 33988887
+URL: https://pubmed.ncbi.nlm.nih.gov/33988887/
+Accessed: 2026-09-04
+Class: A; evaluator-blinded facial comparison
+Used in: 03 safety; 06 active map; 08 Thiamidol tier
+Supports: 0.2% Thiamidol can be comparable to HQ4 in a short facial program.
+Key record: 50 participants; 90 days; 0.2% Thiamidol versus HQ4; comparable
+improvement; two contact-dermatitis cases in the Thiamidol arm.
+Finding: A useful head-to-head signal with a tolerability warning, not a reason
+to combine multiple Thiamidol products or apply to mucosa.
+Limits: Small, facial, 90-day duration, and manufacturer involvement.
+Local preservation: source_docs/PubMed_core_body_pigment_records_2026-09-02.xml
+contains PMID 33988887 abstract metadata.
+Status/recheck: Stable PubMed record.
+
+[S34] Thiamidol UVB-prevention study — PMID 32757247
+URL: https://pubmed.ncbi.nlm.nih.gov/32757247/
+Accessed: 2026-09-04
+Class: A/C; controlled human prevention model
+Used in: 06 emerging map; 08 prevention interpretation; visualizer Thiamidol lane
+Supports: pre-treatment Thiamidol can blunt UVB-induced pigmentation and speed
+return toward baseline in a small controlled model.
+Key record: 30 participants; about 3-week pre-treatment plus UVB challenge;
+earlier return toward baseline; no significant adverse events reported.
+Finding: Prevention data support the biological lane but are not the same as
+treating established body PIH.
+Limits: Artificial UVB model, small sample, short follow-up, and no large-area body result.
+Local preservation: source_docs/PubMed_core_body_pigment_records_2026-09-02.xml
+contains PMID 32757247 abstract metadata.
+Status/recheck: Stable PubMed record.
+
+[S35] Thiamidol systematic review — PMID 39496126
+URL: https://pubmed.ncbi.nlm.nih.gov/39496126/
+Accessed: 2026-09-04
+Class: A; systematic review of clinical studies
+Used in: 06 active map; 08 Thiamidol ranking; README status
+Supports: a limited but consistent short-term Thiamidol evidence program.
+Key record: 14 clinical studies, mostly 0.1–0.2% twice daily for 12–24 weeks;
+improvement generally consistent across studies.
+Finding: Review-level consistency raises confidence, but the program remains
+manufacturer-heavy and facial.
+Limits: Heterogeneous studies, short duration, limited independent replication,
+and no multi-year/large-body safety evidence.
+Local preservation: source_docs/PubMed_core_body_pigment_records_2026-09-02.xml
+contains PMID 39496126 abstract metadata.
+Status/recheck: Stable PubMed record; update with newer independent reviews.
+
+[S36] Thiamidol skin-of-color case series — PMID 40847672
+URL: https://pubmed.ncbi.nlm.nih.gov/40847672/
+Accessed: 2026-09-04
+Class: B; uncontrolled case series
+Used in: 06 active map; 08 Thiamidol skin-of-color context
+Supports: a small skin-of-color signal at 0.2% twice daily.
+Key record: 10 Indian women, Fitzpatrick III–V; 12 weeks; mMASI decreased
+approximately 34.4%; no vehicle control.
+Finding: Population relevance is useful, but uncontrolled improvement cannot
+separate product effect from natural fluctuation, SPF, or regression to mean.
+Limits: n=10, open-label, facial, short, and no independent body data.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Recent PubMed record; seek larger controlled skin-of-color trials.
+
+[S37] 0.1% 4-n-butylresorcinol split-face RCT — PMID 20548876
+URL: https://pubmed.ncbi.nlm.nih.gov/20548876/
+Accessed: 2026-09-04
+Class: A; split-face randomized facial study
+Used in: 02 atlas; 06 resorcinol map; 08 direct-inhibitor tier; visualizer 4-BR lane
+Supports: a defined 0.1% 4-BR product can improve facial melasma versus vehicle.
+Key record: 20 participants; 8 weeks; 0.1% 4-n-butylresorcinol split-face;
+significant improvement at weeks 4 and 8; mild transient events.
+Finding: 4-BR is a credible direct-inhibitor alternative, though clinical depth
+is far below the number of retail claims.
+Limits: Tiny, short, facial, and no large-body or lifetime data.
+Local preservation: source_docs/PubMed_core_body_pigment_records_2026-09-02.xml
+contains PMID 20548876 abstract metadata.
+Status/recheck: Stable PubMed record.
+
+[S38] 0.3% 4-n-butylresorcinol open study — PMID 26855596
+URL: https://pubmed.ncbi.nlm.nih.gov/26855596/
+Accessed: 2026-09-04
+Class: B; open prospective facial study
+Used in: 06 resorcinol map; 08 ranking and CSV
+Supports: a higher 0.3% 4-BR schedule generated a large within-person MASI change.
+Key record: 52 Indian participants; 8 weeks twice daily; MASI approximately
+14.73 to 6.48; no adverse events reported in the abstract.
+Finding: The numerical change is interesting, but without a control it cannot
+establish superiority or account for concurrent sunscreen/behavior.
+Limits: Open-label, facial, short, no control, and no disclosed long-term risk.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable PubMed record.
+
+[S39] Rucinol 0.3% split-face RCT — PMID 17388924
+URL: https://pubmed.ncbi.nlm.nih.gov/17388924/
+Accessed: 2026-09-04
+Class: A; split-face randomized facial study
+Used in: 06 resorcinol map; 08 direct-inhibitor tier
+Supports: rucinol/4-BR-family activity versus vehicle with reasonable short-term tolerance.
+Key record: 32 participants; 12 weeks plus optional follow-up; 0.3% rucinol;
+significant improvement versus vehicle and good reported tolerance.
+Finding: Supports the family as a direct TYR/TRP option, not a body-proven stack.
+Limits: Small, facial, short, and nomenclature/formulation differences among
+rucinol, 4-BR, and retail “resorcinol” products.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable PubMed record.
+
+[S40] 4-BR/resveratrol liposomal formula — PMID 31347777
+URL: https://pubmed.ncbi.nlm.nih.gov/31347777/
+Accessed: 2026-09-04
+Class: B; small formula study
+Used in: 08 resorcinol/redox evidence and CSV
+Supports: a 4-BR/resveratrol liposomal formula can move facial melanin index.
+Key record: 21 participants; 4 weeks; liposomal 4-BR + resveratrol; about
+52.3% had moderate/significant improvement at week 4.
+Finding: Formulation may change delivery, but the result cannot isolate 4-BR or
+resveratrol and is too short for body or long-term claims.
+Limits: Small, short, combination, likely product-linked, and no control details
+in the public abstract.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable PubMed record.
+
+[S41] Hexylresorcinol 1% versus HQ2% randomized split-body — PMID 36502500
+URL: https://pubmed.ncbi.nlm.nih.gov/36502500/
+Accessed: 2026-09-04
+Class: A; randomized split-body human comparison
+Used in: 06 resorcinol map; 08 ranking; Admire product interpretation
+Supports: 1% hexylresorcinol can be a tolerated comparator without clear
+short-term inferiority to HQ2 in a small study.
+Key record: 32 healthy women; 12 weeks; face/hands; no significant difference
+between 1% hexylresorcinol and 2% HQ; hexylresorcinol was well tolerated.
+Finding: Interesting sleeper active, but “no difference” in a small healthy-site
+study is not proof of equivalence for body PIH.
+Limits: Healthy participants/sites, small, short, and no large-body endpoint.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable PubMed record.
+
+[S42] Hexylresorcinol + niacinamide split-face/formula study — PMID 34958693
+URL: https://pubmed.ncbi.nlm.nih.gov/34958693/
+Accessed: 2026-09-04
+Class: B/C; split-face plus in-vitro formula evidence
+Used in: 06 resorcinol map; 08 combination interpretation
+Supports: a hexylresorcinol/niacinamide combination appeared synergistic in a
+facial formula study and in vitro.
+Key record: Chinese split-face study; about 12 weeks plus in-vitro work; the
+combination outperformed niacinamide alone in the reported model.
+Finding: Synergy is plausible but not a license to stack separate high-strength
+serums; exact n and formula attribution are incompletely public.
+Limits: Formula-specific, incomplete abstract details, facial, and no body or
+independent replication.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable PubMed record.
+
+[S43] Phenylethyl resorcinol + retinaldehyde + antioxidant — PMID 25871836
+URL: https://pubmed.ncbi.nlm.nih.gov/25871836/
+Accessed: 2026-09-04
+Class: B; small combination study
+Used in: 06 SymWhite 377 map; 08 phenylethyl-resorcinol ranking
+Supports: a multi-active formula containing phenylethyl resorcinol can improve
+solar lentigines on face/hands.
+Key record: 20 participants; 12 weeks plus follow-up; retinaldehyde +
+phenylethyl resorcinol + antioxidant improved lesions.
+Finding: Supports formula plausibility, not isolated 377 superiority.
+Limits: Tiny, combination, face/hands, and no body PIH endpoint.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable PubMed record.
+
+[S44] Phenylethyl-resorcinol (377) complex — PMID 23438137
+URL: https://pubmed.ncbi.nlm.nih.gov/23438137/
+Accessed: 2026-09-04
+Class: B; multi-ingredient facial study
+Used in: 06 SymWhite 377 map; 08 ranking and CSV
+Supports: a 377-containing complex reported approximately 32% reduction in
+mottled facial pigmentation with about 57% moderate responders.
+Key record: 80 participants; 12 weeks; multi-ingredient complex; mottled
+pigment and responder outcomes improved.
+Finding: A signal exists, but the complex cannot attribute the effect to 377.
+Limits: Formula-specific, no isolated comparator, facial/short, and manufacturer
+or supplier involvement is possible.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable PubMed record.
+
+[S45] Melasyl/2-MNG versus HQ4 — repeated doc8 citation
+URL: https://pubmed.ncbi.nlm.nih.gov/40586974/
+Accessed: 2026-09-04
+Class: A; duplicate bibliography occurrence of S06
+Used in: 08 study-census table row for “Melasyl/2-MNG facial melasma study”
+Supports: the same 109-person, 84-day 0.5% 2-MNG versus HQ4 non-inferiority
+record described in S06.
+Key record: identical PMID, protocol, result, and limitations as S06.
+Finding: Kept as a separate log entry only because doc8's numbered source list
+repeats the URL at item 45; do not count it as a second clinical study.
+Limits: All limitations in S06 apply; no additional evidence weight.
+Local preservation: source_docs/PubMed_core_body_pigment_records_2026-09-02.xml
+contains PMID 40586974 abstract metadata.
+Status/recheck: Duplicate citation cross-reference.
+
+[S46] Melasyl skin-of-color serum study — PMCID PMC12710987
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC12710987/
+Accessed: 2026-09-04
+Class: B; open prospective formula study
+Used in: 06 emerging map; 08 Melasyl ranking; 09 pathway context
+Supports: a Melasyl-containing serum plus SPF improved dyschromia in skin of color.
+Key record: 60 women, Fitzpatrick IV–VI; 12 weeks; facial dyschromia; brightness
+or radiance improvement appeared around week 2 and dyschromia around week 4.
+Finding: Population relevance is helpful, but an uncontrolled formula result does
+not isolate 2-MNG or establish body performance.
+Limits: Open-label, facial, product-specific, short, and likely sponsor-linked.
+Local preservation: URL-only — no lawful local full text saved.
+Status/recheck: Recent PMCID; archive a lawful full text if licensing permits.
+
+[S47] Melasyl/2-MNG HEV prevention trials — PMID 41142247
+URL: https://pubmed.ncbi.nlm.nih.gov/41142247/
+Accessed: 2026-09-04
+Class: A/C; controlled human UV/visible-light prevention studies
+Used in: 06 emerging map; 08 precursor/prevention ranking; visualizer Melasyl lane
+Supports: 0.5–1% 2-MNG reduced high-energy-visible-light-induced pigmentation.
+Key record: 58 total participants, Fitzpatrick III–IV; 0.5% or 1% 2-MNG versus
+vehicle under HEV challenge; a 7% ascorbic-acid comparator did not show the same effect.
+Finding: Supports a distinct precursor/prevention mechanism, not treatment of
+established dermal pigment or proof of a retail product's dose.
+Limits: Prevention model, small sample, artificial HEV exposure, short follow-up.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Recent PubMed record; monitor independent trials.
+
+[S48] KT-939 human-tyrosinase and early lotion study — PMID 41159291 / PMCID PMC12569736
+URL: https://pubmed.ncbi.nlm.nih.gov/41159291/
+Full text: https://pmc.ncbi.nlm.nih.gov/articles/PMC12569736/
+Accessed: 2026-09-04
+Class: B/C; enzyme/cell mechanism plus early human single-center study
+Used in: 06 emerging map; 08 enzyme-potency warning and watchlist; 09 pathway
+Supports: KT-939's unusually low IC50 in one human-tyrosinase assay and reversible
+melanogenesis suppression.
+Key record: human TYR IC50 0.07 micromolar; melanocyte IC50 0.36 micromolar;
+no cytotoxicity up to tested 50 micromolar; washout returned melanogenesis toward
+normal in about 1–2 weeks; 0.2% lotion twice daily for 28 days in a small
+single-center clinical portion.
+Finding: KT-939 is the most interesting early molecule to watch, not a proven
+4–5-times-better treatment. The assay advantage is not a clinical leaderboard.
+Limits: One assay, early short study, no mature independent RCT, no body/long-term
+data, and unknown retail availability or stability.
+Local preservation: URL-only — no lawful local full text downloaded; PubMed and
+PMC links plus the numerical summary are preserved here.
+Status/recheck: Emerging 2025 record; reassess when independent trials appear.
+
+[S49] PTPD-12 peptide split-face study — PMID 41044809
+URL: https://pubmed.ncbi.nlm.nih.gov/41044809/
+Accessed: 2026-09-04
+Class: B/C; small split-face facial study
+Used in: 06 emerging map; 08 watchlist and CSV
+Supports: an early peptide/autophagy-related pigmentation signal.
+Key record: 21 participants; 8 weeks; split-face facial pigmentation; melanin
+index decreased by approximately 22.23 units with reported p<0.0001.
+Finding: Interesting early signal, but sample size and novelty make it a watchlist
+item rather than a routine decision anchor.
+Limits: Tiny, short, likely formula/protocol-specific, and no large-body or
+independent replication.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Emerging record; seek full methods before comparing effect size.
+
+[S50] Malassezin 0.75% versus HQ4 — PMID 41493251
+URL: https://pubmed.ncbi.nlm.nih.gov/41493251/
+Accessed: 2026-09-04
+Class: A/B; small split-face randomized comparison
+Used in: 06 emerging map; 08 watchlist and CSV
+Supports: a new malassezin formula improved facial melasma similarly to HQ4 in a
+small short comparison.
+Key record: 20 participants; 12 weeks; 0.75% malassezin versus HQ4; both sides
+improved with no significant between-side difference and mild events reported.
+Finding: Hypothesis-generating only; no basis for a body routine or “natural HQ” claim.
+Limits: n=20, short, facial, split-face carryover, and sparse public details.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Very recent record; monitor replication and safety.
+
+[S51] 5% ascorbic acid versus HQ4 — PMID 15304189
+URL: https://pubmed.ncbi.nlm.nih.gov/15304189/
+Accessed: 2026-09-04
+Class: A; small split-face facial comparison
+Used in: 02 atlas; 08 vitamin-C ranking; visualizer redox lane
+Supports: vitamin C can improve facial melasma with fewer adverse effects but a
+weaker subjective response than HQ in an older study.
+Key record: 16 participants; 16 weeks; 5% ascorbic acid versus HQ4; subjective
+success approximately 62.5% versus 93%; colorimetry did not differ; AEs about
+6.2% versus 68.7%.
+Finding: Vitamin C is better positioned as an antioxidant/exposed-area adjunct
+than as the strongest stand-alone body inhibitor.
+Limits: Tiny, old, facial, formulation-sensitive, and no body or long-term result.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable PubMed record.
+
+[S52] Topical glutathione systematic review — PMID 39444151
+URL: https://pubmed.ncbi.nlm.nih.gov/39444151/
+Accessed: 2026-09-04
+Class: A/B; systematic review of topical studies
+Used in: 02 atlas; 08 redox ranking; product crosswalk; visualizer redox lane
+Supports: a small topical glutathione signal, especially around 0.5%, with mixed bias.
+Key record: 5 topical RCTs plus one open oral study; mostly facial or exposed
+areas; 0.5% topical appeared better than 0.1% or placebo in small studies.
+Finding: Topical glutathione remains a low-confidence adjunct; IV/injectable or
+oral cosmetic “whitening” is a separate and excluded risk category.
+Limits: Small heterogeneous studies, uncertain formulations, short follow-up,
+and no robust body or multi-year evidence.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable review; route and product concentration must stay separate.
+
+[S53] Liquiritin split-face study — PMID 10809983
+URL: https://pubmed.ncbi.nlm.nih.gov/10809983/
+Accessed: 2026-09-04
+Class: B; small older split-face study
+Used in: 02 atlas; 08 botanical ranking
+Supports: topical licorice-derived liquiritin improved facial melasma versus vehicle.
+Key record: 20 participants; 4 weeks twice daily; facial melasma; liquiritin side
+improved versus vehicle.
+Finding: A plausible botanical substitution, but too small/old to outrank defined
+TXA, azelaic, niacinamide, or Thiamidol lanes.
+Limits: Tiny, short, facial, old formulation, and no body or long-term data.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable PubMed record.
+
+[S54] Glabridin/andrographolide/apolactoferrin formula — PMID 31541594
+URL: https://pubmed.ncbi.nlm.nih.gov/31541594/
+Accessed: 2026-09-04
+Class: B; open-label multi-ingredient formula
+Used in: 02 atlas; 08 botanical ranking and CSV
+Supports: a botanical/apolactoferrin formula improved facial melasma over six months.
+Key record: 40 participants; 6 months; open facial study; endpoints improved;
+three mild xerosis cases were reported.
+Finding: Duration is useful, but lack of control and multi-ingredient attribution
+keep it in the low-confidence adjunct tier.
+Limits: Open-label, formula-specific, facial, no isolated ingredient estimate.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable PubMed record.
+
+[S55] Mercury chloride human-tyrosinase mechanism — PMID 32210794
+URL: https://pubmed.ncbi.nlm.nih.gov/32210794/
+Accessed: 2026-09-04
+Class: C/R/H; laboratory toxicology/mechanism
+Used in: 03 safety; 08 historical/toxic tier; 09 mercury mechanism; visualizer red branch
+Supports: why mercury salts can visibly suppress melanogenesis while being unsafe.
+Key record: HgCl2 IC50 approximately 29.97 micromolar for monophenolase and
+77.93 micromolar for diphenolase; irreversible noncompetitive inhibition involving
+tyrosinase histidines was reported.
+Finding: Mercury can block TYR and bind proteins, but laboratory inhibition does
+not make it a controllable cosmetic treatment; visible change is confounded by injury.
+Limits: Enzyme study, not a human efficacy trial; does not quantify cream exposure,
+systemic dose, or acceptable risk.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable PubMed record; safety/regulatory sources control decisions.
+
+[S56] Mercury skin-lightener toxicology review — PMID 22070559
+URL: https://pubmed.ncbi.nlm.nih.gov/22070559/
+Accessed: 2026-09-04
+Class: R/H; toxicology review
+Used in: 03 safety; 08 historical/toxic tier; 09 mercury history; visualizer warning
+Supports: dermal absorption, household contamination, and kidney/CNS/GI hazards.
+Key record: review screened 118 citations and retained 31 relevant reports on
+mercury-containing skin lighteners; discusses absorption and systemic toxicity.
+Finding: The historical “effectiveness” of mercury creams is inseparable from
+toxicity and sometimes permanent cellular damage.
+Limits: Review-level evidence with historical products/formulations; not a safe
+dose study and not an efficacy ranking.
+Local preservation: URL-only — no lawful full text saved.
+Status/recheck: Stable PubMed review; pair with current WHO/FDA guidance.
+
+[S57] Eucerin Radiant Tone Dual Serum — official U.S. product page
+URL: https://www.eucerinus.com/products/radiant-tone/dual-serum
+Accessed: 2026-09-04
+Class: M; official product/label page
+Used in: 07 product tiers; 08 finale product crosswalk; visualizer Thiamidol products
+Supports: current product identity, named Thiamidol, hyaluronic acid, size, and label directions.
+Key record: 1 fl oz; page states Thiamidol and hyaluronic acid, face/neck use,
+non-comedogenic/sensitive-skin positioning, and a 98% improved-complexion
+home-use claim; page instructs limiting collective Radiant Tone use to four
+applications/day and avoiding irritated skin.
+Finding: A convenient way to buy a brand-verified Thiamidol formula, but the
+percentage and body equivalence are not disclosed on the page.
+Limits: Manufacturer claims/consumer reviews are not an independent RCT; do not
+equate the serum with the 0.2% clinical trial or the body lotion.
+Local preservation: URL-only — dynamic official page; no local capture saved.
+Status/recheck: Live page checked 2026-09-04; price/stock/INCI may change.
+
+[S58] Anua Niacinamide 10 TXA 4 Serum — official U.S. product page
+URL: https://anua.com/products/niacinamide-10-txa-4-serum-2?_pos=2&_psq=Serum&_ss=e&_v=1.0
+Accessed: 2026-09-04
+Class: M; official product/INCI/price page
+Used in: 07/08 product crosswalk; visualizer TXA/niacinamide products
+Supports: transparent product concentrations and current retail snapshot.
+Key record: 30 ml; page price $24; 10% niacinamide + 4% TXA + 2% arbutin,
+with HA/ceramides and fragrance-free positioning; directions allow AM/PM and
+mention extending use to elbows, knees, or hands.
+Finding: High-value, transparent multi-lane formula, but the finished product is
+not a controlled TXA/NIA trial and body use is extrapolation.
+Limits: Face-oriented formula, unknown vehicle-specific delivery, company claims,
+and possible regional formula changes.
+Local preservation: URL-only — no local capture saved.
+Status/recheck: Live official page checked 2026-09-04; price and availability unstable.
+
+[S59] COSRX Alpha-Arbutin 2 Discoloration Care — official product page
+URL: https://www.cosrx.com/products/the-alpha-arbutin-2-discoloration-care-serum?_pos=6&_sid=56988b0d8&_ss=r&externalId=2L5lB
+Accessed: 2026-09-04
+Class: M; official product/consumer-test page
+Used in: 07/08 product crosswalk; visualizer TXA and all-practical links
+Supports: formula composition, size/price, and manufacturer test claims.
+Key record: 50 ml; $25; 2% alpha-arbutin with TXA, niacinamide, NAG, ferulic
+acid, and glutathione; manufacturer page reports 4-week dark-spot reduction
+22.31% and melanin reduction 20.47% in its P&K test.
+Finding: A coherent multi-target label with good unit value, not proof that each
+ingredient contributes or that the blend beats a single direct inhibitor.
+Limits: Company-sponsored product test, limited control/method details, facial
+formula, and no body RCT.
+Local preservation: URL-only — no local capture saved.
+Status/recheck: Live official page checked 2026-09-04; price/formula may change.
+
+[S60] Anua Azelaic Acid 10 Hyaluron — official U.S. product page
+URL: https://anua.com/products/azelaic-acid-10-hyaluron-redness-soothing-serum?shpxid=69b2282e-5b36-4a83-ab0f-41bba1a3572a
+Accessed: 2026-09-04
+Class: M; official product/INCI/directions page
+Used in: 07/08 product crosswalk; visualizer azelaic products
+Supports: current 10% azelaic product identity, $23 sale/$24 regular snapshot,
+and gradual-use directions.
+Key record: 30 ml; 10% azelaic acid with cica/HA and no artificial fragrance;
+official instructions start at 1–2 times weekly and build toward twice daily.
+Finding: Reasonable lower-dose anti-inflammatory/direct option, but not equivalent
+to the 15–20% concentrations behind stronger clinical melasma evidence.
+Limits: Face formula, company positioning, no independent body pigment trial, and
+directions/price may change.
+Local preservation: URL-only — no local capture saved.
+Status/recheck: Live official page checked 2026-09-04.
+
+[S61] Minimalist Alpha Arbutin 2% — official product page
+URL: https://beminimalist.co/collections/face-serum/products/alpha-arbutin-2
+Accessed: 2026-09-04
+Class: M; official product/INCI/brand-testing page
+Used in: 07/08 product crosswalk; visualizer 4-BR products
+Supports: 2% alpha-arbutin, ferulic acid, and 4-butylresorcinol appearing in the
+INCI; page price around ₹495 for 30 ml and brand testing claims.
+Key record: 4-BR percentage not disclosed; brand reports a 3-D black-skin model
+with 70% melanin reduction versus 56% benchmark and consumer perception claims
+around 90% at 8 weeks.
+Finding: Interesting inexpensive way to access two direct-inhibitor categories,
+but the proprietary in-vitro/consumer claims cannot be compared with 0.1–0.3%
+peer-reviewed 4-BR trials.
+Limits: Face formula, undisclosed 4-BR dose, brand-sponsored testing, no body RCT.
+Local preservation: URL-only — no local capture saved.
+Status/recheck: Live page checked 2026-09-04; INR price and formula may change.
+
+[S62] The Ordinary Alpha Arbutin 2% + HA — official product page
+URL: https://theordinary.com/en-us/alpha-arbutin-2-ha-serum-100401.html
+Accessed: 2026-09-04
+Class: M; official product page
+Used in: 08 product crosswalk; visualizer all-practical context
+Supports: transparent 2% alpha-arbutin water-based face serum identity.
+Key record: 2% alpha-arbutin + hyaluronic acid; attachment price snapshot about
+$11.50; no body-lotion indication or independent body trial.
+Finding: Low-cost, simple arbutin comparator; useful for ingredient isolation but
+not a high-confidence body treatment.
+Limits: Face formula, no current price captured in this pass, sparse independent
+clinical evidence, and regional availability differences.
+Local preservation: URL-only — no local capture saved.
+Status/recheck: Live official page checked 2026-09-04.
+
+[S63] Numbuzin No.5 Glutathione TXA Ampoule — official U.S. product page
+URL: https://us.numbuzin.com/products/no-5-glutathione-txa-advanced-dark-spot-ampoule-concentrate
+Accessed: 2026-09-04
+Class: M; official product/INCI/price page
+Used in: 07/08 product crosswalk; visualizer redox products
+Supports: current small-format product, ingredient list, price, and odor warning.
+Key record: 10 g; $24.70 sale/$26 regular; glutathione + TXA + niacinamide,
+with no declared percentages; page notes a pungent sulfur-like scent.
+Finding: Coherent adjunct formula, but unknown doses and low-confidence topical
+glutathione evidence make it weaker than a transparent 3–5% TXA option.
+Limits: Face ampoule, small bottle, no independent product RCT, no body data.
+Local preservation: URL-only — no local capture saved.
+Status/recheck: Live official page checked 2026-09-04; price/stock/formula unstable.
+
+[S64] La Roche-Posay Mela B3 face serum — official U.S. product page
+URL: https://www.laroche-posay.us/our-products/face/face-serum/mela-b3-dark-spot-serum-with-melasyl-niacinamide-3337875890021.html
+Accessed: 2026-09-04
+Class: M; official product/price/claim page
+Used in: 07/08 product crosswalk; visualizer Melasyl products
+Supports: Melasyl + 10% niacinamide identity and current size/price snapshot.
+Key record: 30 ml at $44.99 or 50 ml at $60.99; face serum; page describes
+Melasyl and 10% niacinamide for dark spots and uneven tone.
+Finding: Useful current vehicle for the precursor/transfer category, but product
+claims and ingredient percentage do not prove body superiority.
+Limits: Company claims, face formula, unknown 2-MNG percentage, and no direct
+head-to-head body trial.
+Local preservation: URL-only — no local capture saved.
+Status/recheck: Live official page checked 2026-09-04; price/stock/formula may change.
+
+[S65] Admire My Skin Ultra Potent Brightening Serum — official product page
+URL: https://www.admiremyskin.com/products/melasma-treatment-cream
+Accessed: 2026-09-04
+Class: M; official product/INCI/consumer-claim page
+Used in: 07/08 product crosswalk; visualizer resorcinol/turnover context
+Supports: 1% Synovea HR (hexylresorcinol) and the multi-acid formula.
+Key record: $17.99 sale/$25; 1% Synovea HR plus kojic acid, azelaic acid,
+lactic acid, salicylic acid, and vitamin C; page cites a 40-person consumer
+perception study.
+Finding: Good access to a hexylresorcinol category, but it is not a clean active
+experiment and the acid load may increase irritation/PIH risk.
+Limits: Face formula, company/consumer claim, no independent body RCT, and
+multiple active attribution.
+Local preservation: URL-only — no local capture saved.
+Status/recheck: Live page checked 2026-09-04; price/formula may change.
+
+[S66] SKINTIFIC 377 Dark Spot Serum — official U.S. product page
+URL: https://us.skintific.com/products/377-dark-spot-serum
+Accessed: 2026-09-04
+Class: M; official product/INCI/price page
+Used in: 07/08 product crosswalk; visualizer 4-BR/377 context
+Supports: brand description of “377” as phenylethyl resorcinol and current small-format price.
+Key record: 20/30 ml variants; 20 ml displayed at $9.90; concentration is not
+disclosed; the page describes phenylethyl resorcinol/377 and other brightening
+ingredients, but variant/INCI presentation should be checked against packaging.
+Finding: Low-cost access to a resorcinol-branded product, not a known clinical dose.
+Limits: Dose/stability uncertainty, face formula, regional formulation, no
+independent body trial.
+Local preservation: URL-only — no local capture saved.
+Status/recheck: Live official page checked 2026-09-04; seller/INCI/price unstable.
+
+[S67] Paula’s Choice discontinued-product notice
+URL: https://helpcenter.paulaschoice.com/en_us/discontinued-product-H1CluQLoex
+Accessed: 2026-09-04
+Class: M; official product-status notice
+Used in: 07/08 product crosswalk; visualizer vitamin-C product status
+Supports: the finale radar product should not be presented as a current buy-now option.
+Key record: Paula’s Choice lists C25 Super Booster as replaced by the 25% Vitamin
+C + Glutathione Clinical Serum and gives a September 2023 discontinuation date
+for that legacy item.
+Finding: The old product page may remain indexed, but official status makes it
+historical/discontinued for shopping purposes.
+Limits: A help-center status page does not evaluate efficacy and does not guarantee
+that every reseller has no remaining stock.
+Local preservation: URL-only — no local capture saved.
+Status/recheck: Official notice checked 2026-09-04; do not treat legacy stock as current recommendation.
+
+[S68] User-supplied Chemist Confessions #170 Hyperpigmentation Finale
+URL: https://youtu.be/r95YJoxZQ-I
+Accessed: 2026-09-04
+Class: M; user-provided video/transcript/secondary product research
+Used in: 06/07/08 product tiers; 08 product crosswalk; root/topic navigation rationale
+Supports: the S→A→B→C/“meh” tier framework, named finale radar products, and
+regional shopping/value snapshots (Eucerin, LRP, COSRX, Anua, Numbuzin, Paula’s
+Choice, Minimalist, Admire My Skin, SKINTIFIC, HAKU, KOSÉ, POLA, NIVEA, and others).
+Key record: local user attachment was
+/Users/samueldovgin/.codex/attachments/f1f0ef00-44f5-4ea7-8ac4-cda1e2cb996e/pasted-text.txt;
+it contains a reconstructed verbose transcript rather than a peer-reviewed trial.
+Finding: Useful product-discovery and value context. Ingredient placements were
+rechecked against the independent evidence census and are not presented as
+clinical rankings merely because the video names them.
+Limits: Secondary/video source; transcript reconstruction, changing prices and
+availability, and incomplete episode-level study methods.
+Local preservation: user attachment path above is available on this workstation;
+sha256=3ae6440f63492280ee98c7f3a897d01185b4d71d93a8cc13fb32847e8dad2db2;
+the YouTube page itself is URL-only. Do not assume the attachment persists after
+the task environment is cleaned.
+Status/recheck: Keep the local pasted transcript and update product pages if the
+video, sellers, or formulas change.
+
+[S87] User-supplied underarm long-term ingredient discussion — attachment
+URL: user attachment only (no external URL in the file)
+Accessed: 2026-09-04
+Class: U/M; user-provided prior research prompt and assistant synthesis
+Used in: 01 diagnosis/scope; 02 ingredient atlas; 03 safety; 04 routine; 07
+product framing; 08 census context
+Supports: the original question framing (safe long-term options for dark
+underarms), the early category list (niacinamide, topical TXA, azelaic acid,
+kojic acid, arbutin, AHA/retinoid, HQ), and the request for products and a
+maximal routine.
+Key record: local file is
+/Users/samueldovgin/.codex/attachments/a7d93251-2463-457d-a951-1c3c7f9673c6/pasted-text.txt;
+43,000-byte pasted conversation; contains prior discussion of direct axillary
+niacinamide evidence, TXA/azelaic comparisons, Thiamidol, HQ/ochronosis, and
+example concentration/routine suggestions.
+Finding: This attachment defines the user’s scope and questions that the new
+census answers; every factual clinical claim was rechecked against primary or
+review records in S01–S56 rather than accepted because it appeared in the paste.
+Limits: Assistant-generated/secondary synthesis; no independent methods,
+complete bibliography, or guarantee that every prior claim was correct; the
+attachment path may not persist after environment cleanup.
+Local preservation: attachment path above; sha256=61875c5970c8c0f7f8e2367332c1398238108318c0d69dde45a48c129753f500.
+Status/recheck: Context snapshot; use the rendered pages and primary sources for
+current conclusions.
+
+[S88] User-supplied Thiamidol long-term-safety clarification — attachment
+URL: user attachment only (no external URL in the file)
+Accessed: 2026-09-04
+Class: U/M; user-provided prior research synthesis
+Used in: 03 long-term safety; 06 Thiamidol; 08 confidence/safety horizon;
+09 pathway/reversibility context
+Supports: the distinction between a reversible Thiamidol melanocyte-culture
+signal and the absence of multi-year/lifetime proof; hydroquinone’s finite-course
+boundary; and the user’s request to correct earlier overstatement about cell death.
+Key record: local file is
+/Users/samueldovgin/.codex/attachments/d0b9e03c-4e72-40c4-b625-0595cd70f8fa/pasted-text.txt;
+27,344-byte pasted conversation; discusses 0.2% Thiamidol versus 4% HQ,
+washout/recovery, ochronosis, and the body-product value question.
+Finding: Useful interpretive context, but the current pages anchor the claims to
+the human-tyrosinase paper, Thiamidol RCTs, FDA label, and ochronosis review in
+S04, S20–S23, S32–S36, and S75–S76.
+Limits: Secondary conversation text, not a controlled study; wording may contain
+earlier uncertainty or marketing interpretation; attachment may not persist.
+Local preservation: attachment path above; sha256=2f838fc8f62826c1c4d779620ea57a36b78611d5f2c1967105ac2ed4dac22570.
+Status/recheck: Context snapshot; do not cite as independent efficacy evidence.
+
+[S89] User-supplied Reddit discussion of a Thiamidol analogue — attachment
+URL: user attachment only (the pasted file quotes/links a Reddit thread)
+Accessed: 2026-09-04
+Class: U/M; user-provided forum capture and product-discovery context
+Used in: 06 emerging actives; 07 product radar; 08 KT-939/brand-translation
+notes; 09 pathway comparison
+Supports: discovery of the names methyloxetanecarbamido thiazolyl resorcinol,
+KT-939/Oximdol/NexaWhite 939/KWhite 939, the proposed 0.2% use level, and
+community concerns about Koshine disclosures, legitimacy, fragrance, and patent
+similarity. The current study census independently verifies KT-939’s published
+human-tyrosinase/early clinical record (S48).
+Key record: local file is
+/Users/samueldovgin/.codex/attachments/b518841b-469f-40c6-a7a9-746d7ec6aad8/pasted-text.txt;
+14,986-byte Reddit paste with product/community comments and links.
+Finding: Appropriate as a radar/discovery source only; it prompted a primary
+PubMed check and the pages explicitly separate the promising molecule from
+unverified retail Koshine claims.
+Limits: Anonymous forum comments, incomplete thread context, no verified
+ingredient list or independent product trial, and no basis for a purchase or
+safety conclusion; attachment may not persist.
+Local preservation: attachment path above; sha256=b3781f579ae769b11014b8813a185f1c18e8ed937c14f51d7e8a5a408be99025.
+Status/recheck: Radar context; recheck the primary paper, patent/INCI, and
+regulatory status before mentioning a current product.
+
+[S90] User-supplied Chemist Confessions product-search prompt — attachment
+URL: https://youtu.be/r95YJoxZQ-I?is=GO4QRG_8CK62C5Q-
+Accessed: 2026-09-04
+Class: U/M; user-provided video URL and reconstructed transcript
+Used in: 06/07/08 product crosswalk, in addition to S68’s transcript record
+Supports: the request to find a product for each ingredient, build S/A/B/C tiers,
+and create a verbose mechanism diagram; it is the immediate task brief for the
+product crosswalk and visualizer.
+Key record: local file is
+/Users/samueldovgin/.codex/attachments/f1f0ef00-44f5-4ea7-8ac4-cda1e2cb996e/pasted-text.txt;
+73,456-byte pasted prompt/transcript; sha256=3ae6440f63492280ee98c7f3a897d01185b4d71d93a8cc13fb32847e8dad2db2.
+Finding: The URL/prompt explains why the app includes product-by-category tiers
+and a text/visual pathway alternative; clinical rankings remain anchored to
+S01–S56 and current product checks S57–S67/S77–S83.
+Limits: Video/transcript is secondary and may be incomplete; product prices,
+stock, formulas, and creator rankings are volatile; no clinical endpoint can be
+inferred from the video alone.
+Local preservation: attachment path above; sha256 listed above; YouTube itself
+is URL-only and the attachment may not persist after cleanup.
+Status/recheck: Context snapshot; update product pages and source log when the
+video or named products materially change.
+
+LOCAL ARCHIVE AND DATA FILES
+---------------------------
+
+[S69] PubMed core XML bundle — local archive
+Path: source_docs/PubMed_core_body_pigment_records_2026-09-02.xml
+Captured: 2026-09-02; format: PubMed XML; sha256=01921266ca87b032490e4ff38e88914fcbe8b6b65d1d483f5639e7534cc1d02b
+Class: L; local bibliographic/abstract archive
+Used in: 01–09 source manifest; doc8 census; future recovery when PubMed pages are unavailable
+Supports: abstract metadata for 28 core records, including PMIDs 40843925,
+23355788, 29427586, 33988887, 41566113, 39496126, 40586974, 20548876,
+24033822, 37213446, 9829446, 39673630, 34486734, 38362706, 25802513,
+7720390, 19845667, 35510765, 38638185, 39555866, 38372022, 32757247,
+33559186, 39953770, 37843491, 34525885, and 20725554.
+Finding: Durable metadata/abstract fallback, not a replacement for every full paper.
+Limits: It predates the 2026 census, does not contain all 55 records, and may
+include article references beyond the active study rows.
+Local preservation: Present at the path above.
+Status/recheck: Keep; regenerate only when the core PubMed query is intentionally updated.
+
+[S70] Axillary systematic review full text — PMCID PMC12371607
+Path: source_docs/PMC12371607_axillary_systematic_review_2025.xml
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC12371607/
+Captured: 2026-09-02; format: PMC XML; sha256=2446b953c736a9bbd86cea13a30efd97b092d848027e198389b200878c0fe329
+Class: L/A; lawful open-access full-text archive
+Used in: 01 scope; 02 axillary evidence; 04 fold routine; source manifest
+Supports: ten-study axillary treatment landscape, topical/laser comparisons,
+and the absence of a standard single treatment.
+Finding: Local copy allows recovery of the body-site context even if PMC is down.
+Limits: Review itself is not a new trial and includes heterogeneous modalities.
+Local preservation: Present at the path above.
+Status/recheck: Stable local capture; verify newer versions later.
+
+[S71] Niacinamide axillary RCT full text — PMCID PMC3552481
+Path: source_docs/PMC3552481_niacinamide_axillary_RCT.xml
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC3552481/
+Captured: 2026-09-02; format: PMC XML; sha256=35eb8f4e56d682786c2068f90b3832cd7d4fc26358159795824efe03996252b8
+Class: L/A; lawful open-access full-text archive
+Used in: 02, 04, 08; direct axillary evidence
+Supports: 4% niacinamide and 0.05% desonide/placebo comparisons in axillary PIH.
+Finding: Local full text preserves the trial methods and outcome details behind S03.
+Limits: Small/short axillary trial; cannot prove diffuse-body efficacy.
+Local preservation: Present at the path above.
+Status/recheck: Stable local capture.
+
+[S72] PIH prevention systematic review full text — PMCID PMC12062726
+Path: source_docs/PMC12062726_PIH_prevention_systematic_review.xml
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC12062726/
+Captured: 2026-09-02; format: PMC XML; sha256=28418cf22d2ecc4ac2123ed839bcb4696629368e443a5d65f3b610b5fafc4fdc
+Class: L/A; lawful open-access full-text archive
+Used in: 01 trigger control; 04 exposed-area SPF; 05 escalation; source manifest
+Supports: sunscreen as the most consistent prevention measure in included skin-
+of-color PIH studies and the limits of procedure evidence.
+Finding: Local copy preserves the prevention review if the hosted page changes.
+Limits: Mostly facial/procedure-induced PIH, not a body-lightening trial.
+Local preservation: Present at the path above.
+Status/recheck: Stable local capture; check for updates after later reviews.
+
+[S73] SCCS alpha-/beta-arbutin safety opinion
+Path: source_docs/SCCS_alpha_beta_arbutin_opinion_2023.pdf
+URL: https://health.ec.europa.eu/publications/safety-alpha-arbutin-and-beta-arbutin-cosmetic-products_en
+Captured: 2026-09-02; format: PDF; sha256=5f1a18bae658f39271148fc6937bd5599c197271086a592818317949e40ed89a
+Class: L/R/H; European Commission scientific opinion
+Used in: 02 atlas; 03 safety; 08 arbutin tier; product concentration boundaries
+Supports: safety-oriented conclusions around alpha-arbutin in face/body cosmetic
+products and hydroquinone impurity concerns.
+Finding: Local PDF preserves the regulatory opinion's concentration context.
+Limits: Safety opinion is not proof of efficacy, and EU conclusions do not set U.S. labels.
+Local preservation: Present at the path above.
+Status/recheck: Check for newer SCCS revisions.
+
+[S74] SCCS kojic-acid safety opinion
+Path: source_docs/SCCS_kojic_acid_opinion_2022.pdf
+URL: https://health.ec.europa.eu/publications/kojic-acid_en
+Captured: 2026-09-02; format: PDF; sha256=ca8b6f95a9d6f3948ec697461637bb895d073e09705d1d5dd10ad9fbbcfc2a66
+Class: L/R/H; European Commission scientific opinion
+Used in: 02 atlas; 03 safety; 08 kojic tier
+Supports: up-to-1% cosmetic safety conclusion and weakened-barrier caution.
+Finding: Local PDF preserves the regulatory ceiling/context without turning it into
+an efficacy target.
+Limits: Regulatory safety assessment, not a body clinical trial or U.S. legal advice.
+Local preservation: Present at the path above.
+Status/recheck: Check for newer SCCS revisions.
+
+[S75] FDA Benoquin/monobenzone label
+Path: source_docs/FDA_Benoquin_monobenzone_label_2003.pdf
+URL: https://www.accessdata.fda.gov/drugsatfda_docs/label/2003/08173slr015_benoquin_lbl.pdf
+Captured: 2026-09-02; format: FDA label PDF; sha256=b182d4cebca54efc1d8d457818fdb20613900472a222c3c5556865ca335c4475
+Class: L/R/H; primary regulatory drug label
+Used in: 03 permanent-depigmentation boundary; 08 exclusion; 09 mercury/contrast page
+Supports: extensive-vitiligo-only indication and warnings about permanent,
+irregular, distant melanocyte depigmentation.
+Finding: Local label makes the monobenzone boundary recoverable without a live FDA page.
+Limits: 2003 label; current clinical decisions still require current regulatory/medical review.
+Local preservation: Present at the path above.
+Status/recheck: Keep; verify current labeling if this lane is revisited.
+
+[S76] FDA skin-lightening safety communication
+Path: source_docs/FDA_skin_lightening_safety_2026-09-02.html
+URL: https://www.fda.gov/consumers/skin-facts-what-you-need-know-about-skin-lightening-products/skin-product-safety
+Captured: 2026-09-02; format: HTML capture; sha256=7886159b21c3f8783658ef62b33ee121bb8a4e7016f79d07aca254c0ffb9ee73
+Class: L/R/H; primary FDA safety communication
+Used in: 03 safety; 07 skip list; 08 toxic tier; 09 mercury boundary
+Supports: U.S. warnings about illegal/unapproved hydroquinone and mercury in
+skin-lightening products.
+Finding: Local capture preserves the core safety warning if the live page changes.
+Limits: Captured page may omit future updates; not a personal medical/legal opinion.
+Local preservation: Present at the path above.
+Status/recheck: Compare with current FDA page before publication.
+
+[S77] Good Molecules body-treatment product capture
+Path: source_docs/good_molecules_discoloration_body_2026-09-02.html
+URL: https://v1.goodmolecules.com/products/discoloration-correcting-body-treatment?Option=Single
+Captured: 2026-09-02; format: official HTML capture; sha256=da911f7ddac0fb593c2fc87f8a14aa6d27998644fdc87f1f7f21fca1c708f5f7
+Class: L/M; official product page
+Used in: 07 product tiers; 08 product crosswalk; visualizer TXA/niacinamide products
+Supports: $15/120 mL snapshot, 4% niacinamide, 2% cetyl tranexamate mesylate,
+2% NAG, 0.5% LHA, pH/body positioning, and fragrance-free claim.
+Finding: Local capture makes the value calculation reproducible.
+Limits: Product page/marketing claim, not body RCT; formula and price can change.
+Local preservation: Present at the path above.
+Status/recheck: Recheck official page before buying.
+
+[S78] The Ordinary niacinamide body product capture
+Path: source_docs/the_ordinary_niacinamide_body_2026-09-02.html
+URL: https://theordinary.com/en-us/niacinamide-5-face-body-serum-769915233889.html
+Captured: 2026-09-02; format: official HTML capture; sha256=3930c5160b7ce6cc2ff40268da7456eb24100a478fd65fba8918850fedd5e85a
+Class: L/M; official product page
+Used in: 07 tiers; 08 product crosswalk; visualizer niacinamide products
+Supports: $14/100 mL, 5% niacinamide, face/body directions, and INCI/pH snapshot.
+Finding: Local capture preserves the transparent signal/barrier product comparison.
+Limits: Not a pigment RCT; price and formula can change.
+Local preservation: Present at the path above.
+Status/recheck: Recheck official page before buying.
+
+[S79] Eucerin Radiant Tone body lotion capture
+Path: source_docs/eucerin_radiant_tone_body_lotion_2026-09-02.html
+URL: https://www.eucerinus.com/products/radiant-tone/dark-spot-corrector-body-lotion-
+Captured: 2026-09-02; format: official HTML capture; sha256=e45d896d840965e72d56e848a49a80beb9a4681e3046db4ace9c9c7ca6351665
+Class: L/M; official product page
+Used in: 03, 04, 07 tiers, 08 crosswalk, visualizer Thiamidol products
+Supports: Thiamidol/HA/Licochalcone-A body positioning and label directions.
+Finding: Local capture preserves the key body-specific product identity.
+Limits: Thiamidol percentage undisclosed; official claims are not independent body RCT data.
+Local preservation: Present at the path above.
+Status/recheck: Recheck formula/price/stock.
+
+[S80] Walmart Eucerin body-lotion listing capture
+Path: source_docs/eucerin_radiant_tone_body_lotion_walmart_2026-09-02.html
+URL: https://www.walmart.com/ip/20570517080
+Captured: 2026-09-02; format: retailer HTML capture; sha256=7d8d3be39ef26bf3968aa85593c4c4859483202c88a4793622676713cf9d127a
+Class: L/M; marketplace/retailer listing
+Used in: 07 value math; 08 product crosswalk
+Supports: approximately $24.50 price, size, seller/availability snapshot.
+Finding: Local copy preserves the dated unit-cost calculation.
+Limits: Retailer price, seller, stock, and authenticity can change; not efficacy evidence.
+Local preservation: Present at the path above.
+Status/recheck: Recheck seller and expiry before purchase.
+
+[S81] Bioderma Pigmentbio Sensitive Areas capture
+Path: source_docs/bioderma_pigmentbio_sensitive_areas_2026-09-02.html
+URL: https://www.bioderma.us/en/p/pigmentbio-sensitive-areas.html
+Captured: 2026-09-02; format: official HTML capture; sha256=a9ec0a10ae7c56a2effc4a956d66d43faad1b4cf986a2d93b1732202a30ff8c2
+Class: L/M; official product page
+Used in: 07 fold-specific tier; 08 body product crosswalk
+Supports: $46.99/75 mL, external-fold positioning, INCI, tolerance, and
+manufacturer image-analysis claims.
+Finding: Local capture preserves site-fit and price context.
+Limits: Manufacturer claims with undisclosed active percentages; not independent head-to-head evidence.
+Local preservation: Present at the path above.
+Status/recheck: Recheck live page and seller.
+
+[S82] Eucerin SPF30 body Target capture
+Path: source_docs/eucerin_spf30_body_target_2026-09-02.html
+URL: https://www.target.com/p/-/A-80890254
+Captured: 2026-09-02; format: retailer HTML capture; sha256=0daa41fcbfac3e1ac50d775c46bd2a188d77a7f985288200eaf89688a9748639
+Class: L/M; product/retailer page
+Used in: 04 exposed-area plan; 07 SPF tier
+Supports: $10.79/8 oz snapshot, broad-spectrum SPF30 body moisturizer and fragrance-free positioning.
+Finding: Local capture preserves the prevention/value example.
+Limits: Price/stock can change; sunscreen use must follow the current label.
+Local preservation: Present at the path above.
+Status/recheck: Recheck current SPF label and water-resistance claims.
+
+[S83] up&up adapalene Target capture
+Path: source_docs/upup_adapalene_target_2026-09-02.html
+URL: https://www.target.com/p/-/A-91551180
+Captured: 2026-09-02; format: retailer HTML capture; sha256=82bcba2de2630ab2cd0acac6f5fde2b697a5fb100c41d5707a4e3d04a2c14976
+Class: L/M; acne product/retailer page
+Used in: 04 follicular branch; 07 turnover tier
+Supports: $9.99/15 g generic adapalene 0.1% snapshot and acne-label identity.
+Finding: Local capture preserves the reason adapalene is an acne/ingrown branch,
+not a general pigment-lightener recommendation.
+Limits: OTC acne label, irritation/photosensitivity, pregnancy review required.
+Local preservation: Present at the path above.
+Status/recheck: Recheck label and seller.
+
+[S84] Ingredient evidence ledger CSV
+Path: data/ingredient_evidence_ledger.csv
+Captured: 2026-09-02; format: CSV; sha256=c9e2ea0ed2905ee4611a4f8dd6093171124f22a7c763389ac72bc5cfeb9e9205
+Class: L; machine-readable study table
+Used in: 02 atlas; 04 routine; README supporting material
+Supports: prior study-level ingredient/site/concentration/duration/design notes.
+Finding: Existing ledger is a compact predecessor to the larger 2026-09-04 census.
+Limits: It has fewer records/fields than the new census and may contain earlier conclusions.
+Local preservation: Present at the path above.
+Status/recheck: Keep as historical predecessor; update only with an explicit migration note.
+
+[S85] Product value snapshot CSV
+Path: data/product_value_snapshot_2026-09-02.csv
+Captured: 2026-09-02; format: CSV; sha256=94da7d5babfdaa89be807cff17ee6a1b124e22a7c763389ac72bc5cfeb9e9205
+Class: L; machine-readable product/price table
+Used in: 07 value tiers; 08 product crosswalk; root card
+Supports: dated product size, price, unit-cost, availability, site-fit, and caveat fields.
+Finding: Preserves the numeric shopping snapshot behind the product tier list.
+Limits: Prices, stock, regional formulas, and sellers are unstable; not efficacy evidence.
+Local preservation: Present at the path above.
+Status/recheck: Recheck live listings before purchase.
+
+[S86] Ingredient study census CSV
+Path: data/ingredient_study_census_2026-09-04.csv
+Captured: 2026-09-04; format: CSV; 55 rows, 14 fields; sha256=82b56c117fdaff58e1082939e01025cf0a735fc160f1b1360bde6775611a657f
+Class: L; machine-readable evidence census
+Used in: 08 study census; README/index data links; future updates
+Supports: one-row-per-record fields for evidence class, category, design, n,
+concentration/protocol, site, duration, result, translation, limitation, and URL.
+Finding: This is the updateable filterable counterpart to the verbose log and
+contains the 55 representative records used in the current comparison.
+Limits: “Every publicly available study” cannot be guaranteed; paywalls,
+language/indexing gaps and changing products remain explicit boundaries.
+Local preservation: Present at the path above.
+Status/recheck: Update by appending/revising dated rows and this log together.
+
+SECTION-LEVEL RECOVERY MAP
+--------------------------
+
+01_diagnosis_biology_and_scope.md
+  Core IDs: S01, S03, S08, S17, S19, S55, S56, S70–S76, S87–S88.
+  What the section found: distinguish acquired PIH/melasma-like disease from
+  acanthosis nigricans, baseline tone, and permanent melanocyte destruction;
+  prevention and diagnosis gates are prerequisites for interpreting any active.
+
+02_ingredient_evidence_atlas.md
+  Core IDs: S01–S05, S07–S19, S24–S31, S37–S44, S51–S54, S73–S74, S84, S87.
+  What the section found: effect estimates are class/site/formula-specific;
+  direct body evidence is sparse; transfer, upstream, enzyme, precursor, redox,
+  and turnover categories should not be collapsed into one ranking.
+
+03_long_term_safety_and_permanent_depigmentation.md
+  Core IDs: S20–S23, S32–S36, S55–S56, S73–S76, S79, S87–S88.
+  What the section found: HQ/TCC is finite medical treatment; Thiamidol
+  reversibility is mechanistic rather than lifetime proof; monobenzone and
+  mercury are permanent/toxic boundaries, not stronger cosmetic options.
+
+04_maximal_routine_and_site_protocols.md
+  Core IDs: S02–S04, S13–S19, S32–S36, S70–S83, S87, S90.
+  What the section found: a useful routine covers trigger control, one signal/
+  transfer lane, one direct inhibitor, optional turnover, and barrier repair;
+  folds, shaving injury, exposed areas, and pregnancy require separate gates.
+
+05_non_topical_strategy_and_escalation.md
+  Core IDs: S08–S10, S21–S23, S70, S72, S75–S76, S87.
+  What the section found: hair/friction control and diagnosis can outperform
+  adding another serum; oral/injectable TXA or glutathione are not topical
+  substitutions; procedures require test spots and PIH planning.
+
+06_emerging_and_proprietary_actives.md
+  Core IDs: S04–S06, S28–S50, S57, S64–S66, S88–S89.
+  What the section found: Thiamidol has the strongest newer controlled program;
+  Melasyl/2-MNG, 4-BR, hexylresorcinol, 377, KT-939, PTPD-12, and malassezin are
+  promising but mostly short, facial, formula-specific, or early.
+
+07_buy_now_product_value_tier_list.md
+  Core IDs: S03, S04, S13, S16, S19, S57–S67, S77–S83, S85, S87, S89–S90.
+  What the section found: product value is determined by site fit, active
+  transparency, price/volume, and irritation/label caveats—not by the longest
+  ingredient list; the six finale radar products include one discontinued item.
+
+08_study_census_and_comparative_rankings.md
+  Core IDs: S01–S68, S86, and S87–S90.
+  What the section found: separate magnitude, confidence, body translation, and
+  safety horizon; retain the nine-lane maximal coverage model only as a research
+  thought experiment; do not count duplicate S06/S45 as two studies.
+
+09_melanin_pathway_and_mercury_history.md and melanin_pathway_visualizer.html
+  Core IDs: S17, S32, S34, S37, S45–S56, S73–S76, S57–S66, S88–S89.
+  What the section found: map stimulus → signals → MC1R/cAMP/MITF → TYR →
+  dopaquinone/TYRP1/DCT → transfer → visible/dermal persistence; mercury is a
+  red historical branch whose apparent potency is inseparable from injury/toxicity.
+
+CHANGE NOTES
+------------
+
+2026-09-04 — Added the 55-row study census, the product crosswalk for the pasted
+finale, current official product checks, the pathway visualizer's product links,
+and this recovery log. The main ranking was deliberately split into efficacy
+magnitude, evidence confidence, body translation, and safety horizon. The
+“maximal maximal” request is represented as a nine-lane coverage thought
+experiment; it is not an instruction to combine all products.
+
+2026-09-04 — Confirmed that Paula’s Choice 25% Vitamin C + Glutathione is listed
+as discontinued by the official help center; retained the legacy page only to
+prevent the pasted radar list from becoming a false current recommendation.
+
+2026-09-04 — Backfilled the three earlier user-supplied conversation attachments
+plus the product-search prompt as S87–S90, added SHA-256 checksums for the local
+captures and attachment files, and linked this log from the topic README,
+source manifest, rendered index, routine composer, pathway visualizer, root
+README, and root feature navigation.
+
+END OF LOG

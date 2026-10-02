@@ -4,7 +4,7 @@
 
 Research into at-home, light- and energy-based skincare devices for **facial redness/erythema, hyperpigmentation, post-inflammatory hyperpigmentation (PIH), and evening skin tone**, plus **hair removal**, **skin-quality (collagen) rejuvenation**, **tightening/laxity**, and topical support as parallel goals. Budget-conscious; covers branded, retail, Chinese OEM/Alibaba sourcing, patent/regulatory context, and practical product buying.
 
-The repo is organized into **twenty-one research projects**, including a cross-category regimen planner:
+The repo is organized into **twenty-two research projects**, including a cross-category regimen planner:
 
 | Folder | Product class | Goal |
 |--------|---------------|------|
@@ -29,6 +29,7 @@ The repo is organized into **twenty-one research projects**, including a cross-c
 | [`19_diy_topical_formulation/`](19_diy_topical_formulation/) | DIY topical formulation | Powder-ingredient audit, efficacy vs formulation fit, pH, preservation, storage, conservative worksheets, and candidate explorer |
 | [`20_oral_supplements_for_skin/`](20_oral_supplements_for_skin/) | Oral supplements for skin | Human evidence map for collagen, HA, ceramides, carotenoids, Polypodium, vitamin C, acne/eczema nutraceuticals, protocols, and safety |
 | [`21_hypochlorous_acid_generation/`](21_hypochlorous_acid_generation/index.html) | Hypochlorous acid: pH-controlled generation | Manual-compatible acidified-brine reference, scale masses, paired pH/FAC QC, generator/product compatibility gate, and explicit PWPAM exclusion |
+| [`22_body_hyperpigmentation_long_term/`](22_body_hyperpigmentation_long_term/index.html) | Body hyperpigmentation and long-term tone-evening | Diagnosis-first ingredient atlas, comparative study census, melanin-pathway visualizer, long-term safety, maximal multi-category routine, buy-now product/value tiers, emerging actives, and escalation ladder |
 
 ## TL;DR
 
@@ -51,7 +52,8 @@ The repo is organized into **twenty-one research projects**, including a cross-c
 15. **Tazarotene and tretinoin should not be ranked by percentage alone.** Tazarotene has a favorable direct acne comparison against 0.025% tretinoin and credible photoaging trials; tretinoin has the deeper independent human collagen/photoaging record. The most defensible choice is the formulation and prescription strategy that matches the endpoint and can be tolerated consistently. See **[`17_tazarotene_vs_tretinoin/`](17_tazarotene_vs_tretinoin/)**.
 16. **DIY powders need a formulation audit, not just an ingredient ranking.** Pure L-ascorbic acid is the clearest fresh-batch candidate because low-pH delivery and oxidation are well characterized; glycolic acid is credible but needs pH/free-acid and preservation control; hyaluronic acid is useful but usually better bought as a preserved finished serum. See **[`19_diy_topical_formulation/`](19_diy_topical_formulation/)** and its [candidate explorer](19_diy_topical_formulation/diy_candidate_explorer.html).
 17. **Oral supplements are an evidence-separated lane.** Collagen/HA are the main hydration/elasticity experiments; carotenoids and Polypodium are UV adjuncts; zinc, vitamin D, and probiotics are condition-specific; oral vitamin C is important for adequacy and collagen biology but is not a proven wrinkle megadose. See **[`20_oral_supplements_for_skin/`](20_oral_supplements_for_skin/)**.
-18. **pH-controlled HOCl is now a separate, measured lane.** The [skincare HOCl recipe developer](21_hypochlorous_acid_generation/hypochlorous_acid_calibration_planner.html) provides water, FAC, and pH sliders; scales salt and time from the source ratios and one-liter production anchors; shows FAC and illustrative pH paths over time; and exports the paired final pH/FAC result for next-fresh-batch review in chat. It defaults to the exact 1,000 mL / 100 ppm / 8-minute reference and labels smaller-volume, intermediate-FAC, and vinegar/pH results as estimates. PWPAM remains salt-only and must not be acidified. Start with the [generator & product-compatibility checker](21_hypochlorous_acid_generation/product_compatibility_checker.html).
+18. **pH-controlled HOCl is now a separate, measured lane.** The [skincare HOCl recipe developer](21_hypochlorous_acid_generation/hypochlorous_acid_calibration_planner.html) now defaults to the first-class Amazon/Chloe observed-rate recipe: 250 mL, approximately 300 ppm FAC/pH 4.5 after 15 minutes, 1.50 g salt, and 0.625 mL vinegar. It scales the locked ingredient amounts with volume and scales time up above 250 mL or down below it; the exact 2.00 g/L manual and 0.60 g/L market-salt model remain explicit alternatives. It exports paired final pH/FAC measurements for next-batch calibration. PWPAM remains salt-only and must not be acidified. Start with the [generator & product-compatibility checker](21_hypochlorous_acid_generation/product_compatibility_checker.html).
+19. **Long-term body hyperpigmentation now has its own diagnosis-first category.** The safest maximal plan is trigger control + barrier care, niacinamide or topical TXA, azelaic acid, one direct inhibitor lane (Thiamidol/ITR, Melasyl/2-MNG, or 4-n-butylresorcinol), and no more than one turnover lane. Hydroquinone is a finite clinician-guided phase; monobenzone, mercury, chronic steroid bleaches, and deliberate melanocyte destruction are excluded. The new [comparative study census](22_body_hyperpigmentation_long_term/index.html#doc8) separates clinical magnitude from evidence confidence, while the [melanin-pathway visualizer](22_body_hyperpigmentation_long_term/melanin_pathway_visualizer.html) maps each category to its biological node. Start with **[`22_body_hyperpigmentation_long_term/`](22_body_hyperpigmentation_long_term/index.html)**, its [maximal routine composer](22_body_hyperpigmentation_long_term/maximal_routine_composer.html), and the dated [buy-now product/value tier list](22_body_hyperpigmentation_long_term/index.html#doc7).
 
 ## Archive-wide enhancement pass — 2026-08-24
 
@@ -80,6 +82,7 @@ Every current topic now has one focused gap-closer. Evidence additions separate 
 | 19 · DIY formulation | [Raw-material COA checker](19_diy_topical_formulation/raw_material_coa_checker.html) | Identity, assay, contaminants, microbiology, lot traceability, and document-integrity gates before formulation |
 | 20 · Supplements | [Stack and upper-limit checker](20_oral_supplements_for_skin/supplement_stack_checker.html) | Duplicate-dose detection and adult upper-limit context without turning the tool into a dosing recommendation |
 | 21 · Hypochlorous acid | [Generator & product-compatibility checker](21_hypochlorous_acid_generation/product_compatibility_checker.html) | Manual chemistry, materials, pH/FAC test capability, intended-path gates, and explicit PWPAM/salt-only exclusion before calibration |
+| 22 · Body hyperpigmentation | [Study census + pathway visualizer](22_body_hyperpigmentation_long_term/index.html#doc8) · [routine composer](22_body_hyperpigmentation_long_term/maximal_routine_composer.html) | Comparative human-study ledger, melanin/mercury mechanism map, site-, driver-, sensitivity-, phase-, and pregnancy-aware routine coverage, plus dated product value and interaction guidance |
 
 ---
 
@@ -375,11 +378,31 @@ Dedicated measurement-led lane for a **different generator whose manual expressl
 
 | # | Rendered research page | What it covers |
 |---|---|---|
-| 01 | [Acidified-brine reference and QC](21_hypochlorous_acid_generation/index.html#doc1) | Source anchors, scaling equations, pH/FAC graphs and decision bands, measurement logic, and stop/recalibration rules |
+| 01 | [Acidified-brine reference and QC](21_hypochlorous_acid_generation/index.html#doc1) | Source anchors, market pH/salt benchmarks, evidence-aware timing, pH/FAC graphs and decision bands, measurement logic, and stop/recalibration rules |
 | 02 | [Generator and product compatibility](21_hypochlorous_acid_generation/index.html#doc2) | Manual, material, test-range, and intended-path gates before a generic source reference applies |
 | 03 | [PWPAM manual boundary](21_hypochlorous_acid_generation/index.html#doc3) | Why the supplied salt-only cleaning unit stays separate and must not receive vinegar |
 
-**Supporting material:** [generator & product-compatibility checker](21_hypochlorous_acid_generation/product_compatibility_checker.html) · [skincare HOCl recipe developer](21_hypochlorous_acid_generation/hypochlorous_acid_calibration_planner.html) · [rendered source manifest](markdown-viewer.html?file=21_hypochlorous_acid_generation/source_docs/README.md).
+**Supporting material:** [generator & product-compatibility checker](21_hypochlorous_acid_generation/product_compatibility_checker.html) · [skincare HOCl recipe developer](21_hypochlorous_acid_generation/hypochlorous_acid_calibration_planner.html) · [market pH/NaCl ledger](21_hypochlorous_acid_generation/data/hocl_market_ph_salt_2026-08-25.csv) · [rendered source manifest](markdown-viewer.html?file=21_hypochlorous_acid_generation/source_docs/README.md).
+
+---
+
+## 22 — Body hyperpigmentation and long-term tone-evening · [topic viewer](22_body_hyperpigmentation_long_term/index.html)
+
+Dedicated evidence, safety, and buying lane for acquired darker-than-baseline body areas. It separates PIH from acanthosis nigricans, active dermatitis/infection, keratotic texture, and normal baseline tone; ranks classic and newer inhibitors; builds a maximal routine around complementary mechanisms rather than maximum product count; and records current product/value tiers without treating retail marketing as clinical proof.
+
+| # | Rendered research page | What it covers |
+|---|---|---|
+| 01 | [Diagnosis, biology, and scope](22_body_hyperpigmentation_long_term/index.html#doc1) | PIH/AN/texture/safety gate, pigment biology, and why melanocyte destruction is the wrong cosmetic endpoint |
+| 02 | [Ingredient evidence atlas](22_body_hyperpigmentation_long_term/index.html#doc2) | Niacinamide, TXA, azelaic acid, Thiamidol, Melasyl, resorcinols, retinoids, AHAs, cysteamine, hydroquinone, kojic acid, and arbutin |
+| 03 | [Long-term safety](22_body_hyperpigmentation_long_term/index.html#doc3) | Hydroquinone/ochronosis, Thiamidol reversibility and allergy, monobenzone, mercury, large-area exposure, pregnancy, and stop rules |
+| 04 | [Maximal routine and site protocols](22_body_hyperpigmentation_long_term/index.html#doc4) | Phased AM/PM week for axillae/folds, ingrown-hair PIH, rough areas, exposed skin, sensitive skin, and maintenance |
+| 05 | [Non-topical strategy and escalation](22_body_hyperpigmentation_long_term/index.html#doc5) | Trigger control, hair reduction, clinician peels, pigment devices, systemic-treatment boundary, and provider checklist |
+| 06 | [Emerging and proprietary active map](22_body_hyperpigmentation_long_term/index.html#doc6) | Exact molecules, human-tyrosinase evidence, company conflicts, product-translation limits, and watchlist compounds |
+| 07 | [Buy-now product value tier list](22_body_hyperpigmentation_long_term/index.html#doc7) | U.S. price snapshots, body/fold site fit, S/A/B/C purchase tiers, budget bundles, retailer caveats, and no-stack rules |
+| 08 | [Comparative study census and category rankings](22_body_hyperpigmentation_long_term/index.html#doc8) | 55-row evidence census, pooled effect-size context, efficacy-versus-confidence tiers, ingredient categories, dated product crosswalk, and maximal mechanistic thought experiment |
+| 09 | [Melanin pathway and mercury history](22_body_hyperpigmentation_long_term/index.html#doc9) | Accessible melanin pathway, ingredient-to-node matrix, enzyme-assay caveats, historical mercury mechanism, toxicology, and WHO/FDA boundary |
+
+**Supporting material:** [melanin pathway visualizer](22_body_hyperpigmentation_long_term/melanin_pathway_visualizer.html) · [comparative study census](22_body_hyperpigmentation_long_term/index.html#doc8) · [maximal routine composer](22_body_hyperpigmentation_long_term/maximal_routine_composer.html) · [buy-now product/value tier list](22_body_hyperpigmentation_long_term/index.html#doc7) · [ingredient evidence ledger](22_body_hyperpigmentation_long_term/data/ingredient_evidence_ledger.csv) · [ingredient study census CSV](22_body_hyperpigmentation_long_term/data/ingredient_study_census_2026-09-04.csv) · [product value snapshot](22_body_hyperpigmentation_long_term/data/product_value_snapshot_2026-09-02.csv) · [rendered source manifest](markdown-viewer.html?file=22_body_hyperpigmentation_long_term/source_docs/README.md) · [verbose source/resource recovery log](22_body_hyperpigmentation_long_term/source_docs/research_resource_log_2026-09-04.txt) · preserved PubMed/PMC records, SCCS opinions, WHO/FDA mercury safety pages, FDA skin-lightening safety page, and FDA monobenzone label.
 
 ---
 

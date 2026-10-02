@@ -1,0 +1,69 @@
+DIY vitamin C and HOCl formula audit — 2026-09-06
+Access date: 2026-09-06, America/Chicago. Scope: equation, mass-basis, units and evidence audit; no physical batches or assays performed.
+
+[S01] PubChem L-Ascorbic Acid — CID 54670067
+URL: https://pubchem.ncbi.nlm.nih.gov/compound/54670067
+Class: government chemical-property record with attributed reference data.
+Status: live indexed record accessed through web search.
+Supports: MW 176.12 g/mol; Merck Index attribution for pK1 4.17 and pK2 11.57. Record also lists a different temperature-specific value; constants must not imply exact concentrated-serum behavior.
+Finding: choose one declared approximation consistently across calculator and protocol; older pKa 4.10 produces roughly 15% higher bicarbonate mass at pH 3.30.
+Limits: not a serum titration, activity calibration, potency assay or stability validation.
+Used in: vitamin_c_recipe_scaler.html; 03_recipes_and_prototype_worksheets; topic 08 DIY protocol.
+Local preservation: URL-only — no lawful local copy available; property metadata and audit interpretation preserved here.
+
+[S02] Pinnell et al. Topical L-ascorbic acid: percutaneous absorption studies — PMID 11207686; DOI 10.1046/j.1524-4725.2001.00264.x
+URL: https://pubmed.ncbi.nlm.nih.gov/11207686/
+Class: primary peer-reviewed animal experiment.
+Status: live PubMed abstract.
+Supports: pig-skin delivery depends on formulation, with below-pH-3.5 absorption context and a maximum at 20% in that experiment.
+Limits: no human home-serum validation; abstract does not provide an exact recipe transfer or microbial shelf life. Sample size/funding not established from abstract.
+Used in: vitamin C protocol, worksheet and calculator evidence boundary.
+Local preservation: URL-only — no lawful local copy available; bibliographic metadata and short support note here.
+
+[S03] Aqueous ascorbate stability article — PMCID PMC10552410
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC10552410/
+Class: existing archive scientific citation; full text not verified in this pass.
+Status: recaptcha blocked during this audit.
+Finding: existing citation retained; no new conclusions or constants derived from inaccessible content.
+Limits: cannot claim this source independently verified here.
+Used in: existing vitamin C worksheet and scaler citations.
+Local preservation: URL-only — no lawful local copy available.
+
+[S04] CDC Chemical Disinfectants
+URL: https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/chemical-disinfectants.html
+Class: official public-health guidance.
+Status: live.
+Supports: pH-dependent chlorine chemistry and hazard from mixing acids and hypochlorites.
+Limits: no authorization for a particular home generator's vinegar feed or topical formulation.
+Used in: HOCl audit section and retained no-rescue-chemistry boundary.
+Local preservation: URL-only — no lawful local copy available; short support note here.
+
+[S05] EPA Determining Active Oxidant Species Reacting with Organophosphate Pesticides in Chlorinated Drinking Water — document P1000GU9
+URL: https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P1000GU9.TXT
+Class: primary government-hosted experimental chemistry report.
+Status: live indexed full-text excerpt.
+Supports: HOCl/OCl equilibrium near pKa 7.50; distinct low-pH chlorine equilibrium varies with concentration.
+Finding: validates the approximate two-species ratio for orientation, not a low-pH safety classifier or vinegar dose-to-pH function.
+Limits: not a cosmetic formulation or validation of the user's generator.
+Used in: topic 19 HOCl unit audit, topic 21 formula-verification section.
+Local preservation: URL-only — no lawful local copy available; report identifier and short support note here.
+
+[S06] Local archive implementation and recipe records
+Paths: 19_diy_topical_formulation/vitamin_c_recipe_scaler.html; 03_recipes_and_prototype_worksheets.md; hypochlorous_water_planner.html; 06_hypochlorous_acid_water_and_generator_planner.md; 08_vitamin_c_serums/03_diy_vitamin_c_protocol.md; 21_hypochlorous_acid_generation/hocl_recipe_calculator.js; hypochlorous_acid_calibration_planner.html; 01_acidified_brine_reference_and_qc.md.
+Class: local archive / user observation as previously transcribed.
+Status: read locally; pre-existing uncommitted changes preserved.
+Supports: 250 mL / approximately 300 ppm / 15 minute observation as recorded, conditional on 1.5 g salt and 0.625 mL vinegar; no new claim to have inspected the original photograph. Low-salt exponent 0.95 was already an extrapolation. Vitamin C calculator used 4.17 versus protocol 4.10; water-based loadings mislabeled final concentration.
+Finding: corrected labels, consistent constant, gas-loss denominator, FAC equivalent units, invalid-state speciation suppression and explanatory evidence boundaries. No laboratory confirmation of resulting mixtures.
+Limits: household observations are approximate and vinegar acidity/actual calibration doses remain uncertain.
+Local preservation: existing repository sources, edited in place; original user edits retained.
+
+DERIVATIONS (audit calculations, not external-source claims)
+Vitamin C: bicarbonate/LAA = (84.007/176.12)*10^(pH-4.17)/(1+10^(pH-4.17)); at pH 3.30 = 0.0566957655. Acid equivalents retained; escaping carbon dioxide reduces final mass by bicarbonate*44.01/84.007. Free-H+ ideal charge balance would subtract 84.007*V_final_L*([H+]-[OH-]) g; unknown final volume and nonideal activities block an exact prediction. Starting water is not final solution volume. No evaporation or degradation assumed.
+HOCl: f=1/(1+10^(pH-7.5)); FAC*f retains mg/L as Cl2 basis. Convert that to molecular HOCl mass with 52.46/70.90. Speciation result is hidden below pH 4, outside physical pH range, for negative FAC, and in salt-only PWPAM mode.
+Time: 300 mg/L*0.250 L/15 min = 5 mg/min; proportional time requires unchanged output rate. (2/0.6)^0.95 is approximately 3.14 but lacks generator validation.
+
+VALIDATION
+2026-09-06: Vitamin C numerical self-test and existing UI/export self-test passed; both HOCl planner self-tests passed. Checked 1280 px desktop and 390 px mobile layouts with no page-level horizontal overflow and no JavaScript errors. Updated topic 08/19/21 documents rendered via local HTTP and file:// embedded-document fallback. Rendered-document policy passed; 242 routes rebuilt; embedded bundle rebuilt; citation check up to date; whole-site audit 0 errors/0 warnings; git diff --check clean. No laboratory batch testing performed.
+
+USER-REQUESTED DEFAULT REVISION (same date)
+The user requested 20% by finished mass rather than preservation of the older water-loading ratio. The scaler now solves LAA = water*w/[1-w*(1+k*(1-44.01/84.007))], where k is the pH-model bicarbonate/LAA mass ratio. At 15.84 g water, pH 3.30, and w=0.20: LAA=3.986905340884 g; bicarbonate=0.226040650213 g; estimated degassed final mass=19.93452670442 g. All slider/preset percentages now mean final LAA-equivalent % w/w. Historical tables are explicitly marked historical. This user-selected concentration convention does not independently establish the concentration basis of every cited study. Model and UI/export tests updated to check finished-mass conservation and 20.00% display.
