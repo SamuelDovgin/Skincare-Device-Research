@@ -51,7 +51,7 @@ Within-tier order is not a clinical league table. Price, prestige, watts and MHz
 | Platform | My assessment | Limit |
 |---|---|---|
 | **Thermage CPT / FLX lineage** | Professional cooled-monopolar reference lane for tightening assessment | Exact generation matters; the 2026 randomized comparator used **CPT**, not FLX. Not a home-device upgrade. [18] |
-| **YOUMAGIC** | 2026 assessor-blinded randomized non-inferiority trial versus CPT; 230 enrolled / 212 analyzed, six months. Useful platform evidence. [18] | Active control, retrospective registration and disclosed investigator relationship; not superiority or a collagen-growth assay |
+| **YOUMAGIC** | 2026 assessor-blinded randomized non-inferiority trial versus CPT; 230 enrolled / 212 analyzed, six months. Useful platform evidence. [18] | Active control, retrospective registration and manufacturer-provided device support; not superiority or a collagen-growth assay |
 | **Continuous-water-cooled monopolar RF, 2026 study** | 22-woman single-arm contour study with separate ex-vivo human and porcine collagen endpoints. Promising translational work. [19] | Animal collagen staining is not quantified human collagen gain or proof for a home handset |
 | **RF microneedling: Morpheus8 / Potenza / Genius / related** | Indication-specific professional procedures for scars/texture; not a default stronger wand | FDA warns of serious complications and says not for home use. [20] |
 

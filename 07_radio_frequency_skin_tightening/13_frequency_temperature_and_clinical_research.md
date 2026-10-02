@@ -2,6 +2,10 @@
 
 *Research update 2026-10-01; Panasonic status and device-spec recheck 2026-10-02. Device selection analysis, not a treatment setting prescription. Surface targets, sensor cutoffs, claimed dermal targets and directly measured experimental temperatures are different quantities.*
 
+## October 2 collagen and model-revision update
+
+The [collagen synthesis](index.html#doc16) and [actual product tiers](index.html#doc10) now distinguish direct human outcomes, indirect regulatory bridges and combination-device evidence. STOP Vx2’s retail-linked manual lists 0.85/1.0/1.15 MHz ±10%, while the 2025 mouse experiment reports 0.9/1.0/1.25 MHz: verify the exact revision rather than treating either as a universal Vx2 specification. New 2026 YOUMAGIC versus Thermage CPT and water-cooled monopolar studies inform professional delivery, not consumer MHz superiority. The [visualizer](rf_spec_fit_visualizer.html) now centers collagen evidence and fixed recommendation tiers.
+
 ## The answer to “what MHz is best?”
 
 **No universal best MHz for facial collagen remodeling has been established.** For buying now, focus first on **controlled bipolar/multipolar home RF around the well-documented1 MHz lineage**, then evaluate promising designs in the **0.5–3 MHz range** by exact-model evidence and feedback. **6–6.78 MHz** is a legitimate professional architecture range and an emerging consumer marketing lane, not a requirement for effective home treatment. **40.68 MHz** can also be used professionally; its large number is not an efficacy score. [CurrentBody S01](https://www.accessdata.fda.gov/cdrh_docs/pdf23/K232424.pdf), [NEWA S02](https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN150005.pdf), [Reaction study S48](https://pmc.ncbi.nlm.nih.gov/articles/PMC11743280/), [POLARGEN S49](https://pubmed.ncbi.nlm.nih.gov/28557650/).

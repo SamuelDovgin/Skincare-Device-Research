@@ -4,9 +4,13 @@ Research thread: **radiofrequency (RF) devices for collagen remodeling, wrinkle 
 
 > **Key distinction:** non-invasive home RF devices heat tissue through electrical impedance and are typically cleared for **mild to moderate facial wrinkles**. RF microneedling delivers RF through needles into the skin and is a **medical procedure** with a much higher risk profile.
 
+## October 2026 collagen decision update
+
+Start with the [efficacy-informed product tiers](index.html#doc10), [collagen evidence and right specifications](index.html#doc16), and [collagen device visualizer](rf_spec_fit_visualizer.html). Original NEWA is the strongest direct home clinical anchor; CurrentBody ST030 is my practical first shortlist. No home device earns S tier, and higher MHz or claimed heat does not establish better collagen remodeling. The visualizer now uses fixed editorial tiers and transparent evidence filters instead of adjustable documentation scores.
+
 ## October 2026 expanded market research
 
-Start with the [proposed home-device specification](index.html#doc15), [interactive spec-fit visualizer](rf_spec_fit_visualizer.html), [Panasonic/YA-MAN/MimiSilk market and value census](index.html#doc12), [MHz/temperature/clinical research](index.html#doc13), or [51-record device comparison](rf_market_explorer.html). The conclusion is evidence/control-first: no universal best MHz, no demonstrated 6.25 MHz Thermage equivalence, and explicitly conflicting MimiSilk temperature claims. Panasonic EH-SR90 entered its official Japan purchase-promotion period in September 2026; this does not establish a 6 MHz efficacy advantage. YA-MAN has a promising variable-frequency/contact-feedback design, with exact-model clinical transfer unresolved.
+Start with the [proposed home-device specification](index.html#doc15), [interactive collagen device visualizer](rf_spec_fit_visualizer.html), [Panasonic/YA-MAN/MimiSilk market and value census](index.html#doc12), [MHz/temperature/clinical research](index.html#doc13), or [51-record device comparison](rf_market_explorer.html). The conclusion is evidence/control-first: no universal best MHz, no demonstrated 6.25 MHz Thermage equivalence, and explicitly conflicting MimiSilk temperature claims. Panasonic EH-SR90 entered its official Japan purchase-promotion period in September 2026; this does not establish a 6 MHz efficacy advantage. YA-MAN has a promising variable-frequency/contact-feedback design, with exact-model clinical transfer unresolved.
 
 ## TL;DR
 
@@ -27,7 +31,7 @@ Start with the [proposed home-device specification](index.html#doc15), [interact
 | 03 | [Patent & regulatory notes](03_patent_regulatory_notes.md) | Thermage patent anchor, FDA OTC RF category, CurrentBody K232424, NEWA De Novo, RF microneedling safety communication, open research questions |
 | 04 | [Home RF vs professional results gap](04_home_rf_vs_professional_results_gap.md) | Whether home RF can reach clinic-grade results; NEWA/CurrentBody evidence vs Thermage and RF microneedling |
 | 05 | [RF device selection guide](05_rf_device_selection_guide.md) | **Which RF device should I get?** — 30-second picker by goal, budget, and risk tolerance. Standalone decision tool. |
-| 06 | [Thermage vs everything comparison](06_thermage_vs_everything_comparison.md) | **Can any device get close to Thermage?** — Deep physics analysis of Thermage FLX (6.78 MHz monopolar, 65–75°C, 4.3 mm, cryogen cooling), head-to-head spec comparison of every device, Konmison LB056B physics analysis, and temperature-capability ranking. |
+| 06 | [Thermage vs everything comparison](06_thermage_vs_everything_comparison.md) | **Can any device get close to Thermage?** — Historical physics analysis; generic temperature/depth estimates are superseded by the measured-versus-claimed audit and collagen specification synthesis. |
 | 07 | [Konmison video analysis](07_konmison_video_analysis.md) | Visual inspection of the Konmison device, controls, probes, and claims shown in supplied video. |
 | 08 | [TriPollar competitors deep dive](08_tripollar_competitors_deep_dive.md) | TriPollar alternatives, device geometry, temperature controls, and evidence gaps. |
 | 09 | [Laser vs RF technology comparison](09_laser_vs_rf_technology_comparison.md) | Mechanism, depth, thermal geometry, outcomes, and where laser and RF overlap or diverge. |
@@ -38,10 +42,11 @@ Start with the [proposed home-device specification](index.html#doc15), [interact
 |13|[Frequency, temperature & clinical research](index.html#doc13)|MHz priorities, actual cutoff/dermal claims, controlled studies and technology comparison|
 |14|[Research source manifest](index.html#doc14)|86-source register, primary PDFs, licensed full text and preservation logs|
 |15|[Evidence-led home RF specification blueprint](index.html#doc15)|Design requirements, frequency priorities, safety/control features, evidence expectations and market decision|
+|16|[Collagen efficacy and device requirements](index.html#doc16)|Human collagen versus proxy endpoints, updated 2025–2026 studies, thermal control, exact-model transfer and visualizer method|
 
 ## Source/data access
 
-[51-device/family explorer](rf_market_explorer.html) · [Specification fit visualizer](rf_spec_fit_visualizer.html) · [Census CSV](data/rf_market_census_2026-10-02.csv) · [Current source register](data/rf_sources_2026-10-02.json) · [October 2 research log](source_docs/research_resource_log_2026-10-02.txt) · [Rendered source manifest](index.html#doc14).
+[51-device/family explorer](rf_market_explorer.html) · [Collagen device visualizer](rf_spec_fit_visualizer.html) · [Census CSV](data/rf_market_census_2026-10-02.csv) · [Current source register](data/rf_sources_2026-10-02.json) · [October 2 research log](source_docs/research_resource_log_2026-10-02.txt) · [Rendered source manifest](index.html#doc14).
 
 ## Relationship to the other folders
 

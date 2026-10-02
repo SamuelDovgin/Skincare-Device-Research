@@ -1,5 +1,7 @@
 # Home radiofrequency clinical evidence map
 
+> **October 2 collagen update:** [The collagen synthesis](index.html#doc16) separates human collagen-specific endpoints from thickness, elasticity, wrinkle photos and animal histology, and adds 2025 Vx2 mechanism work plus 2026 professional RCT/translational studies. The [current tier list](index.html#doc10) is an explicit editorial recommendation, not a measured head-to-head efficacy order.
+
 > **2026-10-01 research update:** The new extraction adds the 2025YA-MAN ACE/Jmoon controlled bundle trial, rechecks the 2022split-face hardware and adds professional 2.45/40.68 MHz research. The 2022study combined RF+red light+gel and did not show between-side hydration/elasticity superiority. Exact current retail SKU transfer remains unresolved. Read the [expanded market/value census](index.html#doc12), [frequency, temperature and clinical research](index.html#doc13), and [searchable device comparison](rf_market_explorer.html).
 
 *Rapid evidence map updated 2026-08-23. It is not a systematic review, medical advice, or permission to use an RF device outside its exact instructions.*
@@ -30,7 +32,7 @@ The topic now has a strong physics comparison and a practical home-RF tier list.
 | **TriPollar STOP** | Home cohort, n=23 women; 6-week treatment + 6-week maintenance; 3D imaging and wrinkle grading | Reported significant perioral/periorbital reduction; average periorbital reduction 41% | Small uncontrolled study; model lineage may not equal current STOP variants. **Tier C** [[2]](https://pubmed.ncbi.nlm.nih.gov/21401380/) |
 | **NEWA 12-week study** | 47 enrolled, 45 completed; 3×/week for 4 weeks then 2×/week for 8 weeks; expert, image, Cutometer, SIAscope assessments | Significant changes across firmness, elasticity, texture, tone, lift, and related measures; mild transient erythema | No control; author affiliation includes EndyMed. **Tier C** [[3]](https://pubmed.ncbi.nlm.nih.gov/27351303/) |
 | **Silk’n HST RF + LED** | 33 enrolled, 30 completed; 21 alternate-day sessions over 6 weeks plus two maintenance sessions; baseline comparison, blinded photo review | Mean Fitzpatrick-score reduction 1.49 at three months; universal brief erythema and some short edema | Combination energy, no sham, completer cohort. **Tier C** [[4]](https://pubmed.ncbi.nlm.nih.gov/27910259/) |
-| **Home RF vs anti-aging cosmetic** | Randomized split-face trial, 33 enrolled/32 completed, 12 weeks | RF side improved wrinkles, radiance, color, and thickness more than cosmetic side | Active cosmetic control is not sham RF; one device/protocol and short follow-up. **Tier A/B** [[5]](https://pubmed.ncbi.nlm.nih.gov/35249173/) |
+| **Home RF + red light + gel vs anti-aging cosmetic** | Randomized split-face trial, 33 enrolled/32 completed, 12 weeks | Device bundle favored wrinkles and thickness changes; no significant between-side hydration/elasticity superiority | Active cosmetic control is not sham RF; one device/protocol and short follow-up. **Tier A/B** [[5]](https://pubmed.ncbi.nlm.nih.gov/35249173/) |
 | **Home RF in Chinese women** | Open-label intraindividual baseline-controlled trial, n=22, Fitzpatrick III–IV, 8 weeks | Improved evaluator wrinkle score, dermal thickness, and 3D perioral measures; no serious adverse event | No untreated/sham side despite “intraindividual” framing; small sample. **Tier C** [[6]](https://pubmed.ncbi.nlm.nih.gov/37942722/) |
 | **Multi-energy RF + light + microcurrent + ultrasound** | Randomized split-face trial, 36 Korean women, 8 weeks | Treated side improved several instrumental aging measures vs control side | Cannot isolate RF contribution and does not transfer to RF-only products. **Tier A for bundle, D for RF attribution** [[7]](https://pubmed.ncbi.nlm.nih.gov/38236440/) |
 
@@ -52,7 +54,7 @@ This distinction strengthens the existing [home-RF tier list](index.html#doc10):
 
 | Claim | Evidence verdict |
 |---|---|
-| “Home RF can modestly improve fine wrinkles/texture with consistent use.” | **Supported as a category signal**, with several device-specific cohorts and one useful split-face comparison |
+| “Home RF can modestly improve fine wrinkles/texture with consistent use.” | **Supported as a category signal**, with several device-specific cohorts and controlled combination-device comparisons |
 | “A-tier devices are clinically proven equal.” | **Not supported**; no common-protocol head-to-head trial |
 | “A 40–42 °C surface target guarantees collagen remodeling.” | **Not supported**; sensor location, time, depth, motion, coupling, and tissue impedance matter |
 | “Home RF is a Thermage substitute.” | **Not supported**; professional energy delivery and treatment volume differ |

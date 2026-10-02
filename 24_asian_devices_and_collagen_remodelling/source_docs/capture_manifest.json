@@ -1,0 +1,276 @@
+[
+  {
+    "id": 1,
+    "file": "FDA_NEWA_DEN150005.pdf",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN150005.pdf",
+    "final_url": "https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN150005.pdf",
+    "content_type": "application/pdf",
+    "bytes": 808099,
+    "sha256": "862a7d812869eacbdda05ef0102e9dea7a7709d4d16a906b8468b6d761655096",
+    "captured": "2026-10-02",
+    "status": "captured"
+  },
+  {
+    "id": 2,
+    "file": "S02_pubmed_metadata.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:21315951%20AND%20SRC:MED&format=json&resultType=core",
+    "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:21315951%20AND%20SRC:MED&format=json&resultType=core",
+    "content_type": "application/json;charset=UTF-8",
+    "bytes": 7100,
+    "sha256": "9696597947e1e17ab8e0ec00ac377975bb4d0f17d0b4ffa1a7c8a3fb8b0773c5",
+    "captured": "2026-10-02",
+    "status": "captured"
+  },
+  {
+    "id": 3,
+    "file": "S03_pubmed_metadata.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:26096653%20AND%20SRC:MED&format=json&resultType=core",
+    "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:26096653%20AND%20SRC:MED&format=json&resultType=core",
+    "content_type": "application/json;charset=UTF-8",
+    "bytes": 7752,
+    "sha256": "dcced3d862aeb9abe2184d0f96c1b6c15dccaf8bc94860b5a9dddd9164a3118d",
+    "captured": "2026-10-02",
+    "status": "captured"
+  },
+  {
+    "id": 4,
+    "file": "S04_pubmed_metadata.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17566756%20AND%20SRC:MED&format=json&resultType=core",
+    "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17566756%20AND%20SRC:MED&format=json&resultType=core",
+    "content_type": "application/json;charset=UTF-8",
+    "bytes": 7049,
+    "sha256": "58eecc78da695831084b34c75f63ae6304ad19c71983055b905fc2de50157821",
+    "captured": "2026-10-02",
+    "status": "captured"
+  },
+  {
+    "id": 5,
+    "file": "S05_pubmed_metadata.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:24286286%20AND%20SRC:MED&format=json&resultType=core",
+    "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:24286286%20AND%20SRC:MED&format=json&resultType=core",
+    "content_type": "application/json;charset=UTF-8",
+    "bytes": 6472,
+    "sha256": "21ee46e57277d9789361766fc6e0788805126cdf9450d640690b67b043c8deec",
+    "captured": "2026-10-02",
+    "status": "captured"
+  },
+  {
+    "id": 6,
+    "file": "S06_pubmed_metadata.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:39960921%20AND%20SRC:MED&format=json&resultType=core",
+    "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:39960921%20AND%20SRC:MED&format=json&resultType=core",
+    "content_type": "application/json;charset=UTF-8",
+    "bytes": 6919,
+    "sha256": "c6a6ab4205afc44088ba370d480d5c8bbeb38325f5bd03e65171df721f873c48",
+    "captured": "2026-10-02",
+    "status": "captured"
+  },
+  {
+    "id": 7,
+    "file": "S07_pubmed_metadata.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:21806707%20AND%20SRC:MED&format=json&resultType=core",
+    "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:21806707%20AND%20SRC:MED&format=json&resultType=core",
+    "content_type": "application/json;charset=UTF-8",
+    "bytes": 5247,
+    "sha256": "e2ade9d169cbb233aae87347c1fd1e92ec46a843177060e7e78718efc009164c",
+    "captured": "2026-10-02",
+    "status": "captured"
+  },
+  {
+    "id": 8,
+    "file": "S08_pubmed_metadata.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:27047630%20AND%20SRC:MED&format=json&resultType=core",
+    "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:27047630%20AND%20SRC:MED&format=json&resultType=core",
+    "content_type": "application/json;charset=UTF-8",
+    "bytes": 4286,
+    "sha256": "c6fdbf769a5ef05562545f0adfd05e6d5737ea581af63f787a8a7cdee3a744ab",
+    "captured": "2026-10-02",
+    "status": "captured"
+  },
+  {
+    "id": 9,
+    "file": "S09_pubmed_metadata.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:34287975%20AND%20SRC:MED&format=json&resultType=core",
+    "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:34287975%20AND%20SRC:MED&format=json&resultType=core",
+    "content_type": "application/json;charset=UTF-8",
+    "bytes": 5949,
+    "sha256": "fbf0b0dc56015e232e54ff663bd45f6113a8ad9e921396bb95d1e04f3796cb4d",
+    "captured": "2026-10-02",
+    "status": "captured"
+  },
+  {
+    "id": 10,
+    "file": "FDA_RF_microneedling_warning_2026-10-02.html",
+    "url": "https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication",
+    "final_url": "https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 36111,
+    "sha256": "66f81e33a56495217281f9c53fe9e8155a3c991fb63e009e8f7c0357c42a3bc9",
+    "captured": "2026-10-02",
+    "status": "captured"
+  },
+  {
+    "id": 11,
+    "file": "S11_pubmed_metadata.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:40099405%20AND%20SRC:MED&format=json&resultType=core",
+    "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:40099405%20AND%20SRC:MED&format=json&resultType=core",
+    "content_type": "application/json;charset=UTF-8",
+    "bytes": 6129,
+    "sha256": "c9e645074ee5ddd39c48b0641b711814c989fef56bb8221bd23c6387358fc3c0",
+    "captured": "2026-10-02",
+    "status": "captured"
+  },
+  {
+    "id": 12,
+    "status": "URL-only; no full-text copy made",
+    "url": "https://link.springer.com/article/10.1007/s13555-022-00697-y"
+  },
+  {
+    "id": 13,
+    "file": "Panasonic_SR90_features_2026-10-02.html",
+    "url": "https://panasonic.jp/face/products/EH-SR90/feature.html",
+    "final_url": "https://panasonic.jp/face/products/EH-SR90/feature.html",
+    "content_type": "text/html;charset=utf-8",
+    "bytes": 474570,
+    "sha256": "1d3a42bf8e4ca142c166e563adf50984cba92190c916c7525d7dff8a9e634332",
+    "captured": "2026-10-02",
+    "status": "captured"
+  },
+  {
+    "id": 14,
+    "file": "YAMAN_Bloom6_2026-10-02.html",
+    "url": "https://www.ya-man.com/en/products/bloom-6.php",
+    "final_url": "https://www.ya-man.com/en/products/bloom-6.php",
+    "content_type": "text/html",
+    "bytes": 38410,
+    "sha256": "4bbe8cd8c2ef9a855aec5a9bc8669296a81a807de791a77e4e1f4cd0d16128d0",
+    "captured": "2026-10-02",
+    "status": "captured"
+  },
+  {
+    "id": 15,
+    "file": "Medicube_UltraTune_2026-10-02.html",
+    "url": "https://medicube.us/products/age-r-ultra-tune-40-68",
+    "final_url": "https://medicube.us/products/age-r-ultra-tune-40-68",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 801067,
+    "sha256": "dce59e7b0296fc354c58256d3d88e564202fcc304d6c37cf7e5af2798ee4ebb0",
+    "captured": "2026-10-02",
+    "status": "captured"
+  },
+  {
+    "id": 16,
+    "file": "Medicube_BoosterPro_2026-10-02.html",
+    "url": "https://medicube.us/products/age-r-booster-pro",
+    "final_url": "https://medicube.us/products/age-r-booster-pro",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 1050065,
+    "sha256": "0f37ec9990f0bdb570612fc00db455a17c3202336b9fec9f21874f74fb017cb9",
+    "captured": "2026-10-02",
+    "status": "captured"
+  },
+  {
+    "id": 17,
+    "file": "Artistic_ZeusIV_2026-10-02.html",
+    "url": "https://artistic.co.jp/zeus4-news/",
+    "final_url": "https://artistic.co.jp/zeus4-news/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 144163,
+    "sha256": "45abbeb67752734bccf5eca0f8972a10e64e0a2ee6ee15eafe247d7a35aef693",
+    "captured": "2026-10-02",
+    "status": "captured"
+  },
+  {
+    "id": 18,
+    "file": "ReFa_CaratLift_2026-10-02.html",
+    "url": "https://www.refa.net/en/item/refa_carat_lift/",
+    "final_url": "https://www.refa.net/en/item/refa_carat_lift/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 185180,
+    "sha256": "9a23450e71e86a73e29eb58d86227ff1f7d0791539db7c95a0c153c8341eb19a",
+    "captured": "2026-10-02",
+    "status": "captured"
+  },
+  {
+    "id": 19,
+    "file": "ReFa_Raise_2026-10-02.html",
+    "url": "https://refa.com.sg/pages/re-aa02a",
+    "final_url": "https://refa.com.sg/pages/re-aa02a",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 103694,
+    "sha256": "91a3f2c15330169e9df237993ea5f37f79e9489054abfb0eb5fb66add806b440",
+    "captured": "2026-10-02",
+    "status": "captured"
+  },
+  {
+    "id": 20,
+    "url": "https://www.lg.com/hk_en/about-lg/press-and-media/lg-pra-l-2024/",
+    "status": "capture failed: HTTP Error 403: Forbidden"
+  },
+  {
+    "id": 21,
+    "file": "FDA_LG_LED_K183671.pdf",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf18/K183671.pdf",
+    "final_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf18/K183671.pdf",
+    "content_type": "application/pdf",
+    "bytes": 270554,
+    "sha256": "d0a2aea4cff7a2afb82db4074dcdfd703a7eabe6973656c68e882fe1190ea849",
+    "captured": "2026-10-02",
+    "status": "captured"
+  },
+  {
+    "id": 22,
+    "file": "AMIRO_R1PRO_2026-10-02.html",
+    "url": "https://amirobeauty.com/en-gb/products/amiro-high-radiofrequency-skincare-device",
+    "final_url": "https://amirobeauty.com/en-gb/products/amiro-high-radiofrequency-skincare-device",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 1470790,
+    "sha256": "756fd0f7d7bbad6309d2c2955807339419740e58f8866ef0d06ba1a8ed42697e",
+    "captured": "2026-10-02",
+    "status": "captured"
+  },
+  {
+    "id": 23,
+    "file": "Jmoon_model2_2026-10-02.html",
+    "url": "https://jmoonbeauty.com/model2.html",
+    "final_url": "https://jmoonbeauty.com/model2.html",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 64585,
+    "sha256": "2290235867df6e4328de9e58412277545ea3abacfdeab39a0df115038ceb193b",
+    "captured": "2026-10-02",
+    "status": "captured"
+  },
+  {
+    "id": 24,
+    "file": "FDA_CurrentBody_K232424.pdf",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K232424.pdf",
+    "final_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K232424.pdf",
+    "content_type": "application/pdf",
+    "bytes": 2760467,
+    "sha256": "d9577b79e4d9f7ae1d6b4603cb9807bdb585aab245cf01364cac96f4737b7171",
+    "captured": "2026-10-02",
+    "status": "captured"
+  },
+  {
+    "id": 25,
+    "file": "FDA_SensiliftPro_K250341.pdf",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250341.pdf",
+    "final_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250341.pdf",
+    "content_type": "application/pdf",
+    "bytes": 784929,
+    "sha256": "5c64ca21c04e9b18b3c915507e0577cfcd18f4e73109fa74e5d882711173f893",
+    "captured": "2026-10-02",
+    "status": "captured"
+  },
+  {
+    "id": 26,
+    "file": "FDA_Sofwave_K211483.pdf",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf21/K211483.pdf",
+    "final_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf21/K211483.pdf",
+    "content_type": "application/pdf",
+    "bytes": 537670,
+    "sha256": "a8169db507122ba2697d070fc78b17cba4a883d83458ac46627bd5bff2bf67f7",
+    "captured": "2026-10-02",
+    "status": "captured"
+  }
+]
