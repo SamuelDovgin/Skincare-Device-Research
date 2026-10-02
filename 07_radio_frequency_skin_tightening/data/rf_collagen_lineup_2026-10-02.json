@@ -126,6 +126,66 @@
       "label": "Prior market census / supplier dossiers",
       "url": "index.html#doc12",
       "local": null
+    },
+    "T01": {
+      "label": "Volnewmer–FLX trial (2025)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12715870/",
+      "local": "source_docs/PMC12715870_Volnewmer_FLX_2025_BioC.xml"
+    },
+    "T02": {
+      "label": "YOUMAGIC–CPT trial (2026)",
+      "url": "https://link.springer.com/article/10.1007/s10103-026-04841-4",
+      "local": "source_docs/YOUMAGIC_Thermage_RCT_2026.pdf"
+    },
+    "T03": {
+      "label": "XERF prospective trial (2026)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41930066/",
+      "local": "source_docs/PMC13040610_XERF_2026_BioC.xml"
+    },
+    "T04": {
+      "label": "XERF retrospective study (2026)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13486139/",
+      "local": ""
+    },
+    "T05": {
+      "label": "Oligio clinical study (2024)",
+      "url": "https://doi.org/10.3390/cosmetics11030071",
+      "local": "source_docs/Oligio_Cosmetics_2024_11_71.pdf"
+    },
+    "T06": {
+      "label": "FDA XERF K251327",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K251327.pdf",
+      "local": "source_docs/FDA_K251327_XERF.pdf"
+    },
+    "T07": {
+      "label": "FDA Volnewmer K240248",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf24/K240248.pdf",
+      "local": "source_docs/FDA_K240248_Volnewmer.pdf"
+    },
+    "T08": {
+      "label": "FDA Thermage FLX K170758",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf17/K170758.pdf",
+      "local": "source_docs/FDA_K170758_Thermage_FLX.pdf"
+    },
+    "T09": {
+      "label": "FDA Oligio K221989",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf22/K221989.pdf",
+      "local": "source_docs/FDA_K221989_Oligio.pdf"
+    },
+    "T10": {
+      "label": "Density case series (2025)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41090512/",
+      "local": "source_docs/PMC12522179_Density_2025_BioC.xml"
+    },
+    "T11": {
+      "label": "Volnewmer–CPT registry",
+      "url": "https://clinicaltrials.gov/study/NCT06657365",
+      "local": "source_docs/Volnewmer_CPT_NCT06657365_2026-10-02.json"
+    },
+    "T12": {
+      "label": "FDA RF microneedling warning",
+      "url": "https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication",
+      "local": ""
     }
   },
   "devices": [
@@ -513,17 +573,19 @@
       "frequency": "6.78 MHz professional architecture",
       "control": "Cooling and clinician protocol; no universal dermal temperature inferred.",
       "output": "Tip/pulse/shot/area-specific delivery; not comparable to a home watt headline.",
-      "human": "2026 active-comparator RCT used CPT, not FLX; exact generation matters.",
+      "human": "FLX: 2025 randomized split-face comparison with Volnewmer, 22 women/eight weeks. CPT: 2026 YOUMAGIC active-comparator RCT. Generations remain distinct.",
       "collagen": "Professional clinical and mechanistic support; no universal collagen-growth percentage.",
       "judgment": "Professional assessment lane for meaningful laxity; outside the home tiers.",
       "sources": [
-        "R19"
+        "T01",
+        "T02",
+        "T08"
       ],
       "directHuman": true,
       "numericControl": false,
       "reference": false,
-      "regulatoryBridge": false,
-      "contact": "Not fully characterized in reviewed sources",
+      "regulatoryBridge": true,
+      "contact": "Professional cooled monopolar active tip plus return electrode.",
       "scope": "clinic",
       "kind": "Professional active-comparator human evidence",
       "price": "Confirm current local price, availability, warranty and consumables.",
@@ -538,9 +600,9 @@
       "output": "Clinician settings with a return electrode, cooling and delivered pulse protocol.",
       "human": "2026 randomized assessor-blinded non-inferiority trial vs CPT: 230 enrolled / 212 analyzed, six months.",
       "collagen": "Visible clinical outcomes, not direct quantified human collagen.",
-      "judgment": "Credible professional platform comparison, not proven superiority; regional authorization not assessed here.",
+      "judgment": "Larger CPT comparator candidate, not proven FLX equivalent or superior. Verify exact platform and regional authorization.",
       "sources": [
-        "R19"
+        "T02"
       ],
       "directHuman": true,
       "numericControl": false,
@@ -559,21 +621,149 @@
       "frequency": "6.78 MHz trial platform",
       "control": "Continuous water cooling with contact/impedance adjustment; clinician protocol.",
       "output": "115 W maximum platform rating in study; not an absorbed dermal dose or home setting.",
-      "human": "2026 publication: 22 women, single-arm contour study, eight weeks. Trial conducted 2023 and retrospectively registered in 2026.",
-      "collagen": "Separate ex-vivo human/porcine matrix endpoints; no collagen biopsies from the 22 women.",
-      "judgment": "Promising cooling/delivery research; uncontrolled human study does not establish superiority over Thermage or a home device.",
+      "human": "2025 randomized split-face comparison vs Thermage FLX: 22 Asian women, one session, eight weeks; similar lifting/elasticity and lower pain. Separate 2026 single-arm study retained.",
+      "collagen": "Separate ex-vivo collagen assays; no participant facial biopsies and no identical ex-vivo FLX comparison.",
+      "judgment": "First direct FLX alternative to investigate. Small short-term trial; reported paired nonsignificance does not prove long-term equivalence or superiority.",
       "sources": [
+        "T01",
+        "T07",
         "R20"
       ],
       "directHuman": true,
       "numericControl": false,
       "reference": false,
-      "regulatoryBridge": false,
+      "regulatoryBridge": true,
       "contact": "Professional monopolar tip with water cooling and impedance matching.",
       "scope": "clinic",
-      "kind": "Professional uncontrolled human + preclinical",
-      "price": "Provider-specific quote; regional authorization not assessed in this pass.",
+      "kind": "Professional small randomized FLX comparator",
+      "price": "Provider-specific full-course quote; verify exact local indication, areas and tips.",
       "thermal": "Research thermal characterization is platform/site-specific, not a universal dermal target."
+    },
+    {
+      "id": "xerf",
+      "name": "XERF (professional dual-frequency)",
+      "tier": "Clinic",
+      "frequency": "2 and 6.78 MHz",
+      "control": "Integrated cooling; retrospective paper reports surface-temperature monitoring/interruption above 43°C, not measured dermal dose.",
+      "output": "FDA maxima: 300 W at 2 MHz / 400 W at 6.78 MHz; not an absorbed tissue dose.",
+      "human": "39-person prospective uncontrolled two-session study, 90 days; separate 16-woman single-session retrospective three-month study. Manufacturer involvement disclosed.",
+      "collagen": "Clinical imaging/satisfaction endpoints; no quantified participant collagen or human Thermage comparison.",
+      "judgment": "Promising option; two frequencies and ex-vivo FLX thermal comparison do not demonstrate equal or better human efficacy.",
+      "sources": [
+        "T03",
+        "T04",
+        "T06"
+      ],
+      "directHuman": true,
+      "numericControl": true,
+      "reference": false,
+      "regulatoryBridge": true,
+      "contact": "Professional tip/interface and studied treatment geometry; verify exact platform.",
+      "scope": "clinic",
+      "kind": "Professional uncontrolled human evidence",
+      "price": "Provider-specific full-course quote; no standardized current price established.",
+      "thermal": "No independently calibrated depth-resolved living-human thermal map established here."
+    },
+    {
+      "id": "oligio",
+      "name": "Oligio (professional, original study platform)",
+      "tier": "Clinic",
+      "frequency": "6.78 MHz",
+      "control": "Cooling-gas/contact delivery in FDA filing; model-specific clinician protocol.",
+      "output": "145 W maximum in FDA summary; not a clinical dose or efficacy multiplier.",
+      "human": "20 women, one treatment, 24 weeks; uncontrolled with blinded photo raters and firmness testing.",
+      "collagen": "Firmness/appearance proxies, not human collagen biopsy.",
+      "judgment": "Reasonable budget-service candidate if operator and full-course quote fit; no human Thermage comparison located. Does not transfer to Oligio X/Kiss.",
+      "sources": [
+        "T05",
+        "T09"
+      ],
+      "directHuman": true,
+      "numericControl": false,
+      "reference": false,
+      "regulatoryBridge": true,
+      "contact": "Professional tip/interface and studied treatment geometry; verify exact platform.",
+      "scope": "clinic",
+      "kind": "Professional uncontrolled human evidence",
+      "price": "Provider-specific full-course quote; no standardized current price established.",
+      "thermal": "No independently calibrated depth-resolved living-human thermal map established here."
+    },
+    {
+      "id": "density",
+      "name": "Density / Mono-Bi CrossLIFT (professional)",
+      "tier": "Clinic",
+      "frequency": "Carrier alone not used to rank; sequential monopolar/bipolar trial architecture",
+      "control": "Clinician-operated cooling and studied tip/protocol; no universal tissue-temperature target.",
+      "output": "Protocol-specific delivery; cannot infer superiority from adding bipolar RF.",
+      "human": "16-person uncontrolled case series, one session / 24 weeks; imaging and independent GAIS; no comparator.",
+      "collagen": "Imaging tightening distances are not collagen amount, fat-loss measurements or surgical lift.",
+      "judgment": "Early human option; no Thermage-equivalence evidence. Local authorization/revision not audited in this pass.",
+      "sources": [
+        "T10"
+      ],
+      "directHuman": true,
+      "numericControl": false,
+      "reference": false,
+      "regulatoryBridge": false,
+      "contact": "Professional tip/interface and studied treatment geometry; verify exact platform.",
+      "scope": "clinic",
+      "kind": "Professional uncontrolled human evidence",
+      "price": "Provider-specific full-course quote; no standardized current price established.",
+      "thermal": "No independently calibrated depth-resolved living-human thermal map established here."
     }
-  ]
+  ],
+  "professionalDecisions": {
+    "flx": {
+      "title": "First direct FLX alternative: Volnewmer",
+      "devices": [
+        "volnewmer",
+        "thermage"
+      ],
+      "text": "22-woman randomized split-face study: similar short-term lifting/elasticity and lower pain. Eight weeks and no explicit margin-based non-inferiority analysis identified: long-term equivalence remains unproven.",
+      "sources": [
+        "T01",
+        "T07"
+      ]
+    },
+    "controlled": {
+      "title": "Larger CPT comparator: YOUMAGIC",
+      "devices": [
+        "youmagic",
+        "thermage"
+      ],
+      "text": "230 enrolled /212 analyzed, six months, assessor-blinded non-inferiority with a −10-point margin. Comparator was CPT, not FLX. Verify the exact platform and local authorization.",
+      "sources": [
+        "T02"
+      ]
+    },
+    "accessible": {
+      "title": "Promising options: XERF, Oligio, Density",
+      "devices": [
+        "xerf",
+        "oligio",
+        "density"
+      ],
+      "text": "Human studies support early clinical signals, but no human Thermage comparison was located for these exact platforms. Choose on clinical fit, experienced operator and full-course quote; MHz, watts and shot count cannot rank collagen efficacy.",
+      "sources": [
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T09",
+        "T10"
+      ]
+    },
+    "home": {
+      "title": "No demonstrated home Thermage equivalent",
+      "devices": [
+        "currentbody",
+        "newa"
+      ],
+      "text": "CurrentBody ST030 is the practical home shortlist; original NEWA is the direct clinical anchor for modest wrinkle goals. Neither has demonstrated Thermage-equivalent results or a validated home-session conversion.",
+      "sources": [
+        "R01",
+        "R02"
+      ]
+    }
+  }
 }

@@ -1,1 +1,770 @@
-window.RF_COLLAGEN_LINEUP = {"updated": "2026-10-02", "method": "Fixed editorial efficacy-informed recommendation tiers; no clinical score, dose prediction or frequency multiplier.", "sources": {"R01": {"label": "Original NEWA FDA DEN150005", "url": "https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN150005.pdf", "local": "source_docs/FDA_DEN150005_NEWA.pdf"}, "R02": {"label": "CurrentBody FDA K232424", "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K232424.pdf", "local": "source_docs/FDA_K232424_CurrentBody.pdf"}, "R03": {"label": "NEWA 12-week instrumental study", "url": "https://pubmed.ncbi.nlm.nih.gov/27351303/", "local": "source_docs/PubMed_NEWA_HST_abstracts_2026-10-02.xml"}, "R04": {"label": "CurrentBody U.S. product", "url": "https://www.currentbody.us/products/currentbody-skin-radio-frequency-device", "local": "source_docs/CurrentBody_US_RF_2026-10-02.html"}, "R05": {"label": "Original STOP human study", "url": "https://pubmed.ncbi.nlm.nih.gov/21401380/", "local": null}, "R06": {"label": "Vx2 mouse mechanism study, 2025", "url": "https://pubmed.ncbi.nlm.nih.gov/40362699/", "local": "source_docs/PMC12072298_RF_mouse_2025_BioC.xml"}, "R07": {"label": "Vx2 official manual", "url": "https://cdn.shopify.com/s/files/1/0266/4782/2418/files/STOP_VX2_USER_MANUAL_WARRANTY.pdf?v=1686070878", "local": "source_docs/TriPollar_STOP_VX2_manual.pdf"}, "R08": {"label": "Vx2 U.K. listing", "url": "https://uk.mytripollar.com/products/stop-vx-2", "local": "source_docs/TriPollar_VX2_2026-10-02.html"}, "R09": {"label": "Sensilift Pro FDA K250341", "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250341.pdf", "local": "source_docs/FDA_K250341_Sensilift_Pro.pdf"}, "R10": {"label": "2025 ACE/Jmoon trial", "url": "https://onlinelibrary.wiley.com/doi/10.1111/jocd.70096", "local": "source_docs/PMC11915080_fulltext_BioC.xml"}, "R11": {"label": "Older HST RF/light trial", "url": "https://pubmed.ncbi.nlm.nih.gov/27910259/", "local": "source_docs/PubMed_NEWA_HST_abstracts_2026-10-02.xml"}, "R12": {"label": "Silk’n Titan current listing", "url": "https://www.silkn.com/products/titan-allways", "local": null}, "R13": {"label": "YA-MAN Bloom 6 official product", "url": "https://www.ya-man.com/en/products/bloom-6.php", "local": null}, "R14": {"label": "Panasonic SR90 official product", "url": "https://panasonic.jp/face/products/EH-SR90.html", "local": "source_docs/Panasonic_SR90_2026-10-02.html"}, "R15": {"label": "Panasonic prior RF generations", "url": "https://panasonic.jp/face/products/EH-SR86.html", "local": "source_docs/Panasonic_RF_EX_RF_2025_brochure.pdf"}, "R16": {"label": "Medicube Ultra Tune official product", "url": "https://medicube.us/products/age-r-ultra-tune-40-68", "local": "source_docs/Medicube_UltraTune_2026-10-02.html"}, "R17": {"label": "MimiSilk Vera official product", "url": "https://www.mimisilk.com/products/mimisilk-vera-rf-sculpt-6-25mhz-gel-free-radio-frequency-skin-lifting-device", "local": "source_docs/MimiSilk_Vera_2026-10-02.html"}, "R18": {"label": "MimiSilk use guide", "url": "https://www.mimisilk.com/blogs/news/how-to-use-mimisilk-vera-rf-sculpt-full-guide-expected-results", "local": null}, "R19": {"label": "YOUMAGIC versus Thermage CPT RCT, 2026", "url": "https://link.springer.com/article/10.1007/s10103-026-04841-4", "local": "source_docs/YOUMAGIC_Thermage_RCT_2026.pdf"}, "R20": {"label": "Continuous-water-cooled monopolar study, 2026", "url": "https://pubmed.ncbi.nlm.nih.gov/42352889/", "local": "source_docs/PMC13299460_RF_CWC_2026_BioC.xml"}, "R21": {"label": "FDA RF microneedling safety communication", "url": "https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication", "local": null}, "R22": {"label": "CurrentBody U.S. IFU", "url": "https://cdn.shopify.com/s/files/1/0016/0133/9461/files/CurrentBody_RF_Instruction_Manual_2024_USA_v2_1_1.pdf?v=1721302140", "local": "source_docs/CurrentBody_RF_USA_IFU_2024.pdf"}, "R23": {"label": "2022 split-face RF/light/gel trial", "url": "https://link.springer.com/article/10.1007/s13555-022-00697-y", "local": "source_docs/PMC9021338_fulltext_BioC.xml"}, "R24": {"label": "2023/2024 home RF ultrasound study", "url": "https://pubmed.ncbi.nlm.nih.gov/37942722/", "local": null}, "LOCAL": {"label": "Prior market census / supplier dossiers", "url": "index.html#doc12", "local": null}}, "devices": [{"id": "newa", "name": "Original NEWA (DEN150005)", "tier": "A", "frequency": "1 MHz FDA record", "control": "Thermistor stops RF above 42°C; a surface/gel control limit.", "output": "10 W on 360 Ω bench load; pulse timing documented.", "human": "69 enrolled / 62 completed; 59/62 blinded wrinkle responders at four weeks. Single arm, follow-up to three months.", "collagen": "Visible wrinkle outcome; separate instrumental estimates. No human biopsy-confirmed collagen gain.", "judgment": "Strongest direct home clinical anchor; verify current sold generation and support.", "sources": ["R01", "R03"], "directHuman": true, "numericControl": true, "reference": true, "regulatoryBridge": true, "contact": "Six-electrode multisource design; specified gel and movement protocol.", "scope": "home", "kind": "Direct, uncontrolled human evidence", "price": "Confirm current local price, availability, warranty and consumables.", "thermal": "No independent depth-resolved living-human thermal map established here."}, {"id": "currentbody", "name": "CurrentBody Skin RF ST030", "tier": "A-", "frequency": "1 MHz FDA record", "control": "Two redundant thermistors; maximum allowed 40.5 ±0.5°C in filing.", "output": "5 ±1 W; regulatory bench record, not absorbed dermal power.", "human": "No new subject-device clinical testing in FDA summary. Retail outcome percentages are manufacturer claims.", "collagen": "No extracted exact-model human biopsy/collagen assay; clinical inference through technical equivalence.", "judgment": "My practical first shortlist for mild wrinkles: transparent controls and current U.S. identity, not proven efficacy superiority.", "sources": ["R02", "R04", "R22"], "directHuman": false, "numericControl": true, "reference": false, "regulatoryBridge": true, "contact": "Four electrodes, bipolar geometry; full-contact and branded gel instructions.", "scope": "home", "kind": "Regulatory bridge + retail claims", "price": "Current U.S. listing verified; price must be checked at purchase.", "thermal": "No independent depth-resolved living-human thermal map established here."}, {"id": "sensilift", "name": "Sensilift Pro ST300", "tier": "B", "frequency": "1 MHz FDA record", "control": "Two redundant thermistors; maximum 40 ±0.5°C.", "output": "6 ±1 W; load-specific filing output.", "human": "No new subject-device clinical testing in reviewed FDA summary.", "collagen": "No direct current-model human collagen quantification located.", "judgment": "Credible controlled-RF alternative; not superior because of one extra watt.", "sources": ["R09"], "directHuman": false, "numericControl": true, "reference": false, "regulatoryBridge": true, "contact": "Bipolar facial RF; coupling and area protocol in model labeling.", "scope": "home", "kind": "Regulatory bridge", "price": "Confirm current local price, availability, warranty and consumables.", "thermal": "No independent depth-resolved living-human thermal map established here."}, {"id": "stop", "name": "TriPollar original STOP", "tier": "B", "frequency": "Exact carrier not extracted for original study hardware", "control": "Original-model thermal guidance; do not copy Vx2 limits.", "output": "No comparable load-specific output extracted here.", "human": "23 women; uncontrolled study; 3D wrinkle assessment after six-week treatment and maintenance.", "collagen": "Wrinkle geometry, not collagen histology.", "judgment": "Historical human evidence reference; current variants need matching.", "sources": ["R05"], "directHuman": true, "numericControl": false, "reference": true, "regulatoryBridge": false, "contact": "Not fully characterized in reviewed sources", "scope": "home", "kind": "Direct, uncontrolled human evidence", "price": "Confirm current local price, availability, warranty and consumables.", "thermal": "No independent depth-resolved living-human thermal map established here."}, {"id": "vx2", "name": "TriPollar STOP Vx2", "tier": "B", "frequency": "0.85 / 1.0 / 1.15 MHz ±10% in retail manual", "control": "Temperature indicator / guidance; numeric skin cap not established here.", "output": "Load-specific RF output unresolved; adapter rating is not RF output.", "human": "Original STOP cohort is lineage evidence; exact Vx2 mouse work is not a human trial.", "collagen": "Mouse histology/molecular matrix evidence only. Paper carriers differ from retail manual.", "judgment": "Established alternative; verify hardware/manual revision before transferring the animal results.", "sources": ["R05", "R06", "R07", "R08"], "directHuman": false, "numericControl": false, "reference": false, "regulatoryBridge": false, "contact": "Multipolar RF + DMA; specified activator gel and all-electrode contact.", "scope": "home", "kind": "Human lineage + exact-model preclinical", "price": "U.K. snapshot October 2: £599, sold out; not a landed U.S. quote.", "thermal": "No independent depth-resolved living-human thermal map established here."}, {"id": "ace", "name": "YA-MAN ACE fifth-generation five-ring (study)", "tier": "B", "frequency": "0.5–2.5 MHz study table", "control": "Temperature, current and motion sensors; numeric limit not extracted.", "output": "No load-specific RF output extracted.", "human": "2025 three-arm randomized trial: 90 enrolled / 80 completed overall, four weeks, nonpowered control; combination energy.", "collagen": "Imaging/clinical endpoints, no collagen biopsy; no isolated RF contribution.", "judgment": "Promising controlled bundle; study identity is not proof for Bloom 6 or all Photo PLUS devices.", "sources": ["R10"], "directHuman": true, "numericControl": false, "reference": true, "regulatoryBridge": false, "contact": "RF + LED/microcurrent bundle, medical coupling gel in trial.", "scope": "home", "kind": "Controlled human bundle evidence", "price": "Confirm current local price, availability, warranty and consumables.", "thermal": "No independent depth-resolved living-human thermal map established here."}, {"id": "jmoon", "name": "Jmoon Speed / Beauty Iron (study)", "tier": "B", "frequency": "0.8–2.0 MHz study table", "control": "Temperature, current and motion sensors; numeric limit not extracted.", "output": "No load-specific RF output extracted.", "human": "Same 2025 controlled bundle trial as ACE; study-group results cannot isolate RF.", "collagen": "No human collagen-specific assay in trial.", "judgment": "Research comparator until a current retail SKU and local IFU are matched.", "sources": ["R10"], "directHuman": true, "numericControl": false, "reference": true, "regulatoryBridge": false, "contact": "RF/light package; medical coupling gel in trial.", "scope": "home", "kind": "Controlled human bundle evidence", "price": "Confirm current local price, availability, warranty and consumables.", "thermal": "No independent depth-resolved living-human thermal map established here."}, {"id": "hst", "name": "Silk’n older HST RF + light (study)", "tier": "B", "frequency": "Carrier not extracted from public abstract", "control": "Exact older-study thermal control record not fully extracted.", "output": "No comparable load-specific output extracted.", "human": "33 enrolled / 30 completed; older uncontrolled cohort, blinded wrinkle review.", "collagen": "Visible wrinkle assessment, not human collagen biopsy.", "judgment": "Historical bundle signal; do not transfer automatically to a current Titan generation.", "sources": ["R11"], "directHuman": true, "numericControl": false, "reference": true, "regulatoryBridge": false, "contact": "Not fully characterized in reviewed sources", "scope": "home", "kind": "Direct, uncontrolled human bundle", "price": "Confirm current local price, availability, warranty and consumables.", "thermal": "No independent depth-resolved living-human thermal map established here."}, {"id": "titan", "name": "Silk’n Titan MultiPlatform / AllWays", "tier": "C", "frequency": "Current exact carrier unverified", "control": "Numeric current skin cap not established in reviewed store text.", "output": "Current RF output test conditions unresolved.", "human": "Older HST study only; current hardware/attachment transfer unresolved.", "collagen": "No current-model independent collagen assay established.", "judgment": "Consider for combined features after IFU/study matching; not a collagen first pick.", "sources": ["R11", "R12"], "directHuman": false, "numericControl": false, "reference": false, "regulatoryBridge": false, "contact": "Not fully characterized in reviewed sources", "scope": "home", "kind": "Older bundle lineage", "price": "Confirm current local price, availability, warranty and consumables.", "thermal": "No independent depth-resolved living-human thermal map established here."}, {"id": "bloom", "name": "YA-MAN Bloom 6", "tier": "C", "frequency": "0.5–2.5 MHz manufacturer claim; “6” is model name", "control": "Contact detection and resistance-based adjustment claimed; numeric skin cap unverified.", "output": "No comparable load-specific RF output disclosed in reviewed page.", "human": "No exact Bloom 6 peer-reviewed human trial located; ACE trial is a transfer gap.", "collagen": "No direct exact-model human collagen validation located.", "judgment": "Interesting five-ring/contact engineering; no demonstrated efficacy advantage.", "sources": ["R10", "R13"], "directHuman": false, "numericControl": false, "reference": false, "regulatoryBridge": false, "contact": "Five-layer ring; official resistance/contact claims; verify model IFU.", "scope": "home", "kind": "Manufacturer engineering + indirect human bundle", "price": "Confirm current local price, availability, warranty and consumables.", "thermal": "No independent depth-resolved living-human thermal map established here."}, {"id": "panasonic", "name": "Panasonic Vitalift RF LUXE EH-SR90", "tier": "C", "frequency": "Variable 1–6 MHz manufacturer disclosure", "control": "Numeric skin/dermal limit not verified.", "output": "RF output on specified loads unverified.", "human": "Official product claims; no independent exact-model controlled advantage located.", "collagen": "No independent current-model human collagen-specific assay located.", "judgment": "Feature-rich regional option; 6 MHz is not demonstrated collagen superiority.", "sources": ["R14"], "directHuman": false, "numericControl": false, "reference": false, "regulatoryBridge": false, "contact": "Eight electrodes; RF/EMS/ion/LED combination.", "scope": "home", "kind": "Manufacturer outcome/feature claims", "price": "Prior October 2 Japan snapshot ¥99,000; verify stock, support and landed terms.", "thermal": "No independent depth-resolved living-human thermal map established here."}, {"id": "panasonicolder", "name": "Panasonic EH-SR86 / SR85 / SR75", "tier": "C", "frequency": "4 / 3 / 2 MHz manufacturer disclosures respectively", "control": "Model-specific numeric caps not verified in reviewed sources.", "output": "RF output test conditions unresolved.", "human": "Multimodal cosmetic platform; no matched-frequency advantage established.", "collagen": "No cross-generation comparative collagen endpoint established.", "judgment": "A supported discounted model may offer value; do not pay a MHz-only premium.", "sources": ["R15"], "directHuman": false, "numericControl": false, "reference": false, "regulatoryBridge": false, "contact": "Not fully characterized in reviewed sources", "scope": "home", "kind": "Manufacturer platform claims", "price": "Confirm current local price, availability, warranty and consumables.", "thermal": "No independent depth-resolved living-human thermal map established here."}, {"id": "medicube", "name": "Medicube Ultra Tune 40.68", "tier": "C", "frequency": "40.68 MHz brand label", "control": "Numeric skin-control limit not verified in reviewed page.", "output": "No comparable load-specific RF output established.", "human": "Manufacturer application tests; no reviewed independent superiority trial.", "collagen": "No reviewed exact-model human collagen-specific validation.", "judgment": "Optional RF/microcurrent combination; high carrier does not earn a higher tier.", "sources": ["R16"], "directHuman": false, "numericControl": false, "reference": false, "regulatoryBridge": false, "contact": "RF + microcurrent; verify exact IFU.", "scope": "home", "kind": "Manufacturer application-test claims", "price": "Confirm current local price, availability, warranty and consumables.", "thermal": "No independent depth-resolved living-human thermal map established here."}, {"id": "mimisilk", "name": "MimiSilk Vera RF Sculpt", "tier": "D", "frequency": "6.25 MHz manufacturer claim", "control": "Claimed dermal levels conflict: FAQ top 49–50°C versus guide 52°C; not measurements.", "output": "Advertised level watts lack comparable load/output test validation.", "human": "No independent exact-model human outcome trial located.", "collagen": "Claimed depth/dermal heat is not measured collagen gain.", "judgment": "I would pass for collagen until independent thermal maps and human outcomes are available.", "sources": ["R17", "R18"], "directHuman": false, "numericControl": false, "reference": false, "regulatoryBridge": false, "contact": "Gel-free capacitive/multipolar claims, independently validated coupling unresolved.", "scope": "home", "kind": "Manufacturer claims only", "price": "Prior October 2 brand snapshot $699; verify offer and returns.", "thermal": "No independent depth-resolved living-human thermal map established here."}, {"id": "unresolved", "name": "EvenSkyn Lumo+ / AMIRO unresolved generations", "tier": "D", "frequency": "Exact current RF carriers unresolved", "control": "Prior census reports brand heat/depth claims; not independently mapped.", "output": "Unresolved exact-model load-specific output.", "human": "No newly verified independent exact-model study package in this pass.", "collagen": "No exact-generation human collagen quantification established.", "judgment": "Do not buy a collagen premium before the current SKU and full study are resolved.", "sources": ["LOCAL"], "directHuman": false, "numericControl": false, "reference": false, "regulatoryBridge": false, "contact": "Not fully characterized in reviewed sources", "scope": "home", "kind": "Prior market dossier with unresolved identity", "price": "Confirm current local price, availability, warranty and consumables.", "thermal": "No independent depth-resolved living-human thermal map established here."}, {"id": "oem", "name": "Konmison LB056B / unverified OEM", "tier": "D", "frequency": "2 MHz archived supplier claim", "control": "No independently verified feedback/cutoff package in archived dossier.", "output": "55 W total consumption is not measured skin RF output.", "human": "No adequate model-specific human efficacy package established.", "collagen": "No verified human collagen endpoint.", "judgment": "Not my first facial RF purchase. Missing evidence is not proof of zero effect.", "sources": ["LOCAL"], "directHuman": false, "numericControl": false, "reference": false, "regulatoryBridge": false, "contact": "Not fully characterized in reviewed sources", "scope": "home", "kind": "Supplier claims / missing validation", "price": "Confirm current local price, availability, warranty and consumables.", "thermal": "No independent depth-resolved living-human thermal map established here."}, {"id": "thermage", "name": "Thermage CPT / FLX professional lineage", "tier": "Clinic", "frequency": "6.78 MHz professional architecture", "control": "Cooling and clinician protocol; no universal dermal temperature inferred.", "output": "Tip/pulse/shot/area-specific delivery; not comparable to a home watt headline.", "human": "2026 active-comparator RCT used CPT, not FLX; exact generation matters.", "collagen": "Professional clinical and mechanistic support; no universal collagen-growth percentage.", "judgment": "Professional assessment lane for meaningful laxity; outside the home tiers.", "sources": ["R19"], "directHuman": true, "numericControl": false, "reference": false, "regulatoryBridge": false, "contact": "Not fully characterized in reviewed sources", "scope": "clinic", "kind": "Professional active-comparator human evidence", "price": "Confirm current local price, availability, warranty and consumables.", "thermal": "No independent depth-resolved living-human thermal map established here."}, {"id": "youmagic", "name": "YOUMAGIC (professional)", "tier": "Clinic", "frequency": "6.78 MHz trial platform", "control": "Cooled monopolar clinical protocol; do not copy into a home treatment.", "output": "Clinician settings with a return electrode, cooling and delivered pulse protocol.", "human": "2026 randomized assessor-blinded non-inferiority trial vs CPT: 230 enrolled / 212 analyzed, six months.", "collagen": "Visible clinical outcomes, not direct quantified human collagen.", "judgment": "Credible professional platform comparison, not proven superiority; regional authorization not assessed here.", "sources": ["R19"], "directHuman": true, "numericControl": false, "reference": false, "regulatoryBridge": false, "contact": "Not fully characterized in reviewed sources", "scope": "clinic", "kind": "Professional active-comparator human evidence", "price": "Confirm current local price, availability, warranty and consumables.", "thermal": "No independent depth-resolved living-human thermal map established here."}, {"id": "volnewmer", "name": "Volnewmer (professional RF-CWC)", "tier": "Clinic", "frequency": "6.78 MHz trial platform", "control": "Continuous water cooling with contact/impedance adjustment; clinician protocol.", "output": "115 W maximum platform rating in study; not an absorbed dermal dose or home setting.", "human": "2026 publication: 22 women, single-arm contour study, eight weeks. Trial conducted 2023 and retrospectively registered in 2026.", "collagen": "Separate ex-vivo human/porcine matrix endpoints; no collagen biopsies from the 22 women.", "judgment": "Promising cooling/delivery research; uncontrolled human study does not establish superiority over Thermage or a home device.", "sources": ["R20"], "directHuman": true, "numericControl": false, "reference": false, "regulatoryBridge": false, "contact": "Professional monopolar tip with water cooling and impedance matching.", "scope": "clinic", "kind": "Professional uncontrolled human + preclinical", "price": "Provider-specific quote; regional authorization not assessed in this pass.", "thermal": "Research thermal characterization is platform/site-specific, not a universal dermal target."}]};
+/* Source-linked research snapshot; fixed editorial tiers, no clinical dose prediction. */
+window.RF_COLLAGEN_LINEUP = {
+  "updated": "2026-10-02",
+  "method": "Fixed editorial efficacy-informed recommendation tiers; no clinical score, dose prediction or frequency multiplier.",
+  "sources": {
+    "R01": {
+      "label": "Original NEWA FDA DEN150005",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN150005.pdf",
+      "local": "source_docs/FDA_DEN150005_NEWA.pdf"
+    },
+    "R02": {
+      "label": "CurrentBody FDA K232424",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K232424.pdf",
+      "local": "source_docs/FDA_K232424_CurrentBody.pdf"
+    },
+    "R03": {
+      "label": "NEWA 12-week instrumental study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27351303/",
+      "local": "source_docs/PubMed_NEWA_HST_abstracts_2026-10-02.xml"
+    },
+    "R04": {
+      "label": "CurrentBody U.S. product",
+      "url": "https://www.currentbody.us/products/currentbody-skin-radio-frequency-device",
+      "local": "source_docs/CurrentBody_US_RF_2026-10-02.html"
+    },
+    "R05": {
+      "label": "Original STOP human study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21401380/",
+      "local": null
+    },
+    "R06": {
+      "label": "Vx2 mouse mechanism study, 2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40362699/",
+      "local": "source_docs/PMC12072298_RF_mouse_2025_BioC.xml"
+    },
+    "R07": {
+      "label": "Vx2 official manual",
+      "url": "https://cdn.shopify.com/s/files/1/0266/4782/2418/files/STOP_VX2_USER_MANUAL_WARRANTY.pdf?v=1686070878",
+      "local": "source_docs/TriPollar_STOP_VX2_manual.pdf"
+    },
+    "R08": {
+      "label": "Vx2 U.K. listing",
+      "url": "https://uk.mytripollar.com/products/stop-vx-2",
+      "local": "source_docs/TriPollar_VX2_2026-10-02.html"
+    },
+    "R09": {
+      "label": "Sensilift Pro FDA K250341",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250341.pdf",
+      "local": "source_docs/FDA_K250341_Sensilift_Pro.pdf"
+    },
+    "R10": {
+      "label": "2025 ACE/Jmoon trial",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/jocd.70096",
+      "local": "source_docs/PMC11915080_fulltext_BioC.xml"
+    },
+    "R11": {
+      "label": "Older HST RF/light trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27910259/",
+      "local": "source_docs/PubMed_NEWA_HST_abstracts_2026-10-02.xml"
+    },
+    "R12": {
+      "label": "Silk’n Titan current listing",
+      "url": "https://www.silkn.com/products/titan-allways",
+      "local": null
+    },
+    "R13": {
+      "label": "YA-MAN Bloom 6 official product",
+      "url": "https://www.ya-man.com/en/products/bloom-6.php",
+      "local": null
+    },
+    "R14": {
+      "label": "Panasonic SR90 official product",
+      "url": "https://panasonic.jp/face/products/EH-SR90.html",
+      "local": "source_docs/Panasonic_SR90_2026-10-02.html"
+    },
+    "R15": {
+      "label": "Panasonic prior RF generations",
+      "url": "https://panasonic.jp/face/products/EH-SR86.html",
+      "local": "source_docs/Panasonic_RF_EX_RF_2025_brochure.pdf"
+    },
+    "R16": {
+      "label": "Medicube Ultra Tune official product",
+      "url": "https://medicube.us/products/age-r-ultra-tune-40-68",
+      "local": "source_docs/Medicube_UltraTune_2026-10-02.html"
+    },
+    "R17": {
+      "label": "MimiSilk Vera official product",
+      "url": "https://www.mimisilk.com/products/mimisilk-vera-rf-sculpt-6-25mhz-gel-free-radio-frequency-skin-lifting-device",
+      "local": "source_docs/MimiSilk_Vera_2026-10-02.html"
+    },
+    "R18": {
+      "label": "MimiSilk use guide",
+      "url": "https://www.mimisilk.com/blogs/news/how-to-use-mimisilk-vera-rf-sculpt-full-guide-expected-results",
+      "local": null
+    },
+    "R19": {
+      "label": "YOUMAGIC versus Thermage CPT RCT, 2026",
+      "url": "https://link.springer.com/article/10.1007/s10103-026-04841-4",
+      "local": "source_docs/YOUMAGIC_Thermage_RCT_2026.pdf"
+    },
+    "R20": {
+      "label": "Continuous-water-cooled monopolar study, 2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42352889/",
+      "local": "source_docs/PMC13299460_RF_CWC_2026_BioC.xml"
+    },
+    "R21": {
+      "label": "FDA RF microneedling safety communication",
+      "url": "https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication",
+      "local": null
+    },
+    "R22": {
+      "label": "CurrentBody U.S. IFU",
+      "url": "https://cdn.shopify.com/s/files/1/0016/0133/9461/files/CurrentBody_RF_Instruction_Manual_2024_USA_v2_1_1.pdf?v=1721302140",
+      "local": "source_docs/CurrentBody_RF_USA_IFU_2024.pdf"
+    },
+    "R23": {
+      "label": "2022 split-face RF/light/gel trial",
+      "url": "https://link.springer.com/article/10.1007/s13555-022-00697-y",
+      "local": "source_docs/PMC9021338_fulltext_BioC.xml"
+    },
+    "R24": {
+      "label": "2023/2024 home RF ultrasound study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37942722/",
+      "local": null
+    },
+    "LOCAL": {
+      "label": "Prior market census / supplier dossiers",
+      "url": "index.html#doc12",
+      "local": null
+    },
+    "T01": {
+      "label": "Volnewmer–FLX trial (2025)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12715870/",
+      "local": "source_docs/PMC12715870_Volnewmer_FLX_2025_BioC.xml"
+    },
+    "T02": {
+      "label": "YOUMAGIC–CPT trial (2026)",
+      "url": "https://link.springer.com/article/10.1007/s10103-026-04841-4",
+      "local": "source_docs/YOUMAGIC_Thermage_RCT_2026.pdf"
+    },
+    "T03": {
+      "label": "XERF prospective trial (2026)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41930066/",
+      "local": "source_docs/PMC13040610_XERF_2026_BioC.xml"
+    },
+    "T04": {
+      "label": "XERF retrospective study (2026)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13486139/",
+      "local": ""
+    },
+    "T05": {
+      "label": "Oligio clinical study (2024)",
+      "url": "https://doi.org/10.3390/cosmetics11030071",
+      "local": "source_docs/Oligio_Cosmetics_2024_11_71.pdf"
+    },
+    "T06": {
+      "label": "FDA XERF K251327",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K251327.pdf",
+      "local": "source_docs/FDA_K251327_XERF.pdf"
+    },
+    "T07": {
+      "label": "FDA Volnewmer K240248",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf24/K240248.pdf",
+      "local": "source_docs/FDA_K240248_Volnewmer.pdf"
+    },
+    "T08": {
+      "label": "FDA Thermage FLX K170758",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf17/K170758.pdf",
+      "local": "source_docs/FDA_K170758_Thermage_FLX.pdf"
+    },
+    "T09": {
+      "label": "FDA Oligio K221989",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf22/K221989.pdf",
+      "local": "source_docs/FDA_K221989_Oligio.pdf"
+    },
+    "T10": {
+      "label": "Density case series (2025)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41090512/",
+      "local": "source_docs/PMC12522179_Density_2025_BioC.xml"
+    },
+    "T11": {
+      "label": "Volnewmer–CPT registry",
+      "url": "https://clinicaltrials.gov/study/NCT06657365",
+      "local": "source_docs/Volnewmer_CPT_NCT06657365_2026-10-02.json"
+    },
+    "T12": {
+      "label": "FDA RF microneedling warning",
+      "url": "https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication",
+      "local": ""
+    }
+  },
+  "devices": [
+    {
+      "id": "newa",
+      "name": "Original NEWA (DEN150005)",
+      "tier": "A",
+      "frequency": "1 MHz FDA record",
+      "control": "Thermistor stops RF above 42°C; a surface/gel control limit.",
+      "output": "10 W on 360 Ω bench load; pulse timing documented.",
+      "human": "69 enrolled / 62 completed; 59/62 blinded wrinkle responders at four weeks. Single arm, follow-up to three months.",
+      "collagen": "Visible wrinkle outcome; separate instrumental estimates. No human biopsy-confirmed collagen gain.",
+      "judgment": "Strongest direct home clinical anchor; verify current sold generation and support.",
+      "sources": [
+        "R01",
+        "R03"
+      ],
+      "directHuman": true,
+      "numericControl": true,
+      "reference": true,
+      "regulatoryBridge": true,
+      "contact": "Six-electrode multisource design; specified gel and movement protocol.",
+      "scope": "home",
+      "kind": "Direct, uncontrolled human evidence",
+      "price": "Confirm current local price, availability, warranty and consumables.",
+      "thermal": "No independent depth-resolved living-human thermal map established here."
+    },
+    {
+      "id": "currentbody",
+      "name": "CurrentBody Skin RF ST030",
+      "tier": "A-",
+      "frequency": "1 MHz FDA record",
+      "control": "Two redundant thermistors; maximum allowed 40.5 ±0.5°C in filing.",
+      "output": "5 ±1 W; regulatory bench record, not absorbed dermal power.",
+      "human": "No new subject-device clinical testing in FDA summary. Retail outcome percentages are manufacturer claims.",
+      "collagen": "No extracted exact-model human biopsy/collagen assay; clinical inference through technical equivalence.",
+      "judgment": "My practical first shortlist for mild wrinkles: transparent controls and current U.S. identity, not proven efficacy superiority.",
+      "sources": [
+        "R02",
+        "R04",
+        "R22"
+      ],
+      "directHuman": false,
+      "numericControl": true,
+      "reference": false,
+      "regulatoryBridge": true,
+      "contact": "Four electrodes, bipolar geometry; full-contact and branded gel instructions.",
+      "scope": "home",
+      "kind": "Regulatory bridge + retail claims",
+      "price": "Current U.S. listing verified; price must be checked at purchase.",
+      "thermal": "No independent depth-resolved living-human thermal map established here."
+    },
+    {
+      "id": "sensilift",
+      "name": "Sensilift Pro ST300",
+      "tier": "B",
+      "frequency": "1 MHz FDA record",
+      "control": "Two redundant thermistors; maximum 40 ±0.5°C.",
+      "output": "6 ±1 W; load-specific filing output.",
+      "human": "No new subject-device clinical testing in reviewed FDA summary.",
+      "collagen": "No direct current-model human collagen quantification located.",
+      "judgment": "Credible controlled-RF alternative; not superior because of one extra watt.",
+      "sources": [
+        "R09"
+      ],
+      "directHuman": false,
+      "numericControl": true,
+      "reference": false,
+      "regulatoryBridge": true,
+      "contact": "Bipolar facial RF; coupling and area protocol in model labeling.",
+      "scope": "home",
+      "kind": "Regulatory bridge",
+      "price": "Confirm current local price, availability, warranty and consumables.",
+      "thermal": "No independent depth-resolved living-human thermal map established here."
+    },
+    {
+      "id": "stop",
+      "name": "TriPollar original STOP",
+      "tier": "B",
+      "frequency": "Exact carrier not extracted for original study hardware",
+      "control": "Original-model thermal guidance; do not copy Vx2 limits.",
+      "output": "No comparable load-specific output extracted here.",
+      "human": "23 women; uncontrolled study; 3D wrinkle assessment after six-week treatment and maintenance.",
+      "collagen": "Wrinkle geometry, not collagen histology.",
+      "judgment": "Historical human evidence reference; current variants need matching.",
+      "sources": [
+        "R05"
+      ],
+      "directHuman": true,
+      "numericControl": false,
+      "reference": true,
+      "regulatoryBridge": false,
+      "contact": "Not fully characterized in reviewed sources",
+      "scope": "home",
+      "kind": "Direct, uncontrolled human evidence",
+      "price": "Confirm current local price, availability, warranty and consumables.",
+      "thermal": "No independent depth-resolved living-human thermal map established here."
+    },
+    {
+      "id": "vx2",
+      "name": "TriPollar STOP Vx2",
+      "tier": "B",
+      "frequency": "0.85 / 1.0 / 1.15 MHz ±10% in retail manual",
+      "control": "Temperature indicator / guidance; numeric skin cap not established here.",
+      "output": "Load-specific RF output unresolved; adapter rating is not RF output.",
+      "human": "Original STOP cohort is lineage evidence; exact Vx2 mouse work is not a human trial.",
+      "collagen": "Mouse histology/molecular matrix evidence only. Paper carriers differ from retail manual.",
+      "judgment": "Established alternative; verify hardware/manual revision before transferring the animal results.",
+      "sources": [
+        "R05",
+        "R06",
+        "R07",
+        "R08"
+      ],
+      "directHuman": false,
+      "numericControl": false,
+      "reference": false,
+      "regulatoryBridge": false,
+      "contact": "Multipolar RF + DMA; specified activator gel and all-electrode contact.",
+      "scope": "home",
+      "kind": "Human lineage + exact-model preclinical",
+      "price": "U.K. snapshot October 2: £599, sold out; not a landed U.S. quote.",
+      "thermal": "No independent depth-resolved living-human thermal map established here."
+    },
+    {
+      "id": "ace",
+      "name": "YA-MAN ACE fifth-generation five-ring (study)",
+      "tier": "B",
+      "frequency": "0.5–2.5 MHz study table",
+      "control": "Temperature, current and motion sensors; numeric limit not extracted.",
+      "output": "No load-specific RF output extracted.",
+      "human": "2025 three-arm randomized trial: 90 enrolled / 80 completed overall, four weeks, nonpowered control; combination energy.",
+      "collagen": "Imaging/clinical endpoints, no collagen biopsy; no isolated RF contribution.",
+      "judgment": "Promising controlled bundle; study identity is not proof for Bloom 6 or all Photo PLUS devices.",
+      "sources": [
+        "R10"
+      ],
+      "directHuman": true,
+      "numericControl": false,
+      "reference": true,
+      "regulatoryBridge": false,
+      "contact": "RF + LED/microcurrent bundle, medical coupling gel in trial.",
+      "scope": "home",
+      "kind": "Controlled human bundle evidence",
+      "price": "Confirm current local price, availability, warranty and consumables.",
+      "thermal": "No independent depth-resolved living-human thermal map established here."
+    },
+    {
+      "id": "jmoon",
+      "name": "Jmoon Speed / Beauty Iron (study)",
+      "tier": "B",
+      "frequency": "0.8–2.0 MHz study table",
+      "control": "Temperature, current and motion sensors; numeric limit not extracted.",
+      "output": "No load-specific RF output extracted.",
+      "human": "Same 2025 controlled bundle trial as ACE; study-group results cannot isolate RF.",
+      "collagen": "No human collagen-specific assay in trial.",
+      "judgment": "Research comparator until a current retail SKU and local IFU are matched.",
+      "sources": [
+        "R10"
+      ],
+      "directHuman": true,
+      "numericControl": false,
+      "reference": true,
+      "regulatoryBridge": false,
+      "contact": "RF/light package; medical coupling gel in trial.",
+      "scope": "home",
+      "kind": "Controlled human bundle evidence",
+      "price": "Confirm current local price, availability, warranty and consumables.",
+      "thermal": "No independent depth-resolved living-human thermal map established here."
+    },
+    {
+      "id": "hst",
+      "name": "Silk’n older HST RF + light (study)",
+      "tier": "B",
+      "frequency": "Carrier not extracted from public abstract",
+      "control": "Exact older-study thermal control record not fully extracted.",
+      "output": "No comparable load-specific output extracted.",
+      "human": "33 enrolled / 30 completed; older uncontrolled cohort, blinded wrinkle review.",
+      "collagen": "Visible wrinkle assessment, not human collagen biopsy.",
+      "judgment": "Historical bundle signal; do not transfer automatically to a current Titan generation.",
+      "sources": [
+        "R11"
+      ],
+      "directHuman": true,
+      "numericControl": false,
+      "reference": true,
+      "regulatoryBridge": false,
+      "contact": "Not fully characterized in reviewed sources",
+      "scope": "home",
+      "kind": "Direct, uncontrolled human bundle",
+      "price": "Confirm current local price, availability, warranty and consumables.",
+      "thermal": "No independent depth-resolved living-human thermal map established here."
+    },
+    {
+      "id": "titan",
+      "name": "Silk’n Titan MultiPlatform / AllWays",
+      "tier": "C",
+      "frequency": "Current exact carrier unverified",
+      "control": "Numeric current skin cap not established in reviewed store text.",
+      "output": "Current RF output test conditions unresolved.",
+      "human": "Older HST study only; current hardware/attachment transfer unresolved.",
+      "collagen": "No current-model independent collagen assay established.",
+      "judgment": "Consider for combined features after IFU/study matching; not a collagen first pick.",
+      "sources": [
+        "R11",
+        "R12"
+      ],
+      "directHuman": false,
+      "numericControl": false,
+      "reference": false,
+      "regulatoryBridge": false,
+      "contact": "Not fully characterized in reviewed sources",
+      "scope": "home",
+      "kind": "Older bundle lineage",
+      "price": "Confirm current local price, availability, warranty and consumables.",
+      "thermal": "No independent depth-resolved living-human thermal map established here."
+    },
+    {
+      "id": "bloom",
+      "name": "YA-MAN Bloom 6",
+      "tier": "C",
+      "frequency": "0.5–2.5 MHz manufacturer claim; “6” is model name",
+      "control": "Contact detection and resistance-based adjustment claimed; numeric skin cap unverified.",
+      "output": "No comparable load-specific RF output disclosed in reviewed page.",
+      "human": "No exact Bloom 6 peer-reviewed human trial located; ACE trial is a transfer gap.",
+      "collagen": "No direct exact-model human collagen validation located.",
+      "judgment": "Interesting five-ring/contact engineering; no demonstrated efficacy advantage.",
+      "sources": [
+        "R10",
+        "R13"
+      ],
+      "directHuman": false,
+      "numericControl": false,
+      "reference": false,
+      "regulatoryBridge": false,
+      "contact": "Five-layer ring; official resistance/contact claims; verify model IFU.",
+      "scope": "home",
+      "kind": "Manufacturer engineering + indirect human bundle",
+      "price": "Confirm current local price, availability, warranty and consumables.",
+      "thermal": "No independent depth-resolved living-human thermal map established here."
+    },
+    {
+      "id": "panasonic",
+      "name": "Panasonic Vitalift RF LUXE EH-SR90",
+      "tier": "C",
+      "frequency": "Variable 1–6 MHz manufacturer disclosure",
+      "control": "Numeric skin/dermal limit not verified.",
+      "output": "RF output on specified loads unverified.",
+      "human": "Official product claims; no independent exact-model controlled advantage located.",
+      "collagen": "No independent current-model human collagen-specific assay located.",
+      "judgment": "Feature-rich regional option; 6 MHz is not demonstrated collagen superiority.",
+      "sources": [
+        "R14"
+      ],
+      "directHuman": false,
+      "numericControl": false,
+      "reference": false,
+      "regulatoryBridge": false,
+      "contact": "Eight electrodes; RF/EMS/ion/LED combination.",
+      "scope": "home",
+      "kind": "Manufacturer outcome/feature claims",
+      "price": "Prior October 2 Japan snapshot ¥99,000; verify stock, support and landed terms.",
+      "thermal": "No independent depth-resolved living-human thermal map established here."
+    },
+    {
+      "id": "panasonicolder",
+      "name": "Panasonic EH-SR86 / SR85 / SR75",
+      "tier": "C",
+      "frequency": "4 / 3 / 2 MHz manufacturer disclosures respectively",
+      "control": "Model-specific numeric caps not verified in reviewed sources.",
+      "output": "RF output test conditions unresolved.",
+      "human": "Multimodal cosmetic platform; no matched-frequency advantage established.",
+      "collagen": "No cross-generation comparative collagen endpoint established.",
+      "judgment": "A supported discounted model may offer value; do not pay a MHz-only premium.",
+      "sources": [
+        "R15"
+      ],
+      "directHuman": false,
+      "numericControl": false,
+      "reference": false,
+      "regulatoryBridge": false,
+      "contact": "Not fully characterized in reviewed sources",
+      "scope": "home",
+      "kind": "Manufacturer platform claims",
+      "price": "Confirm current local price, availability, warranty and consumables.",
+      "thermal": "No independent depth-resolved living-human thermal map established here."
+    },
+    {
+      "id": "medicube",
+      "name": "Medicube Ultra Tune 40.68",
+      "tier": "C",
+      "frequency": "40.68 MHz brand label",
+      "control": "Numeric skin-control limit not verified in reviewed page.",
+      "output": "No comparable load-specific RF output established.",
+      "human": "Manufacturer application tests; no reviewed independent superiority trial.",
+      "collagen": "No reviewed exact-model human collagen-specific validation.",
+      "judgment": "Optional RF/microcurrent combination; high carrier does not earn a higher tier.",
+      "sources": [
+        "R16"
+      ],
+      "directHuman": false,
+      "numericControl": false,
+      "reference": false,
+      "regulatoryBridge": false,
+      "contact": "RF + microcurrent; verify exact IFU.",
+      "scope": "home",
+      "kind": "Manufacturer application-test claims",
+      "price": "Confirm current local price, availability, warranty and consumables.",
+      "thermal": "No independent depth-resolved living-human thermal map established here."
+    },
+    {
+      "id": "mimisilk",
+      "name": "MimiSilk Vera RF Sculpt",
+      "tier": "D",
+      "frequency": "6.25 MHz manufacturer claim",
+      "control": "Claimed dermal levels conflict: FAQ top 49–50°C versus guide 52°C; not measurements.",
+      "output": "Advertised level watts lack comparable load/output test validation.",
+      "human": "No independent exact-model human outcome trial located.",
+      "collagen": "Claimed depth/dermal heat is not measured collagen gain.",
+      "judgment": "I would pass for collagen until independent thermal maps and human outcomes are available.",
+      "sources": [
+        "R17",
+        "R18"
+      ],
+      "directHuman": false,
+      "numericControl": false,
+      "reference": false,
+      "regulatoryBridge": false,
+      "contact": "Gel-free capacitive/multipolar claims, independently validated coupling unresolved.",
+      "scope": "home",
+      "kind": "Manufacturer claims only",
+      "price": "Prior October 2 brand snapshot $699; verify offer and returns.",
+      "thermal": "No independent depth-resolved living-human thermal map established here."
+    },
+    {
+      "id": "unresolved",
+      "name": "EvenSkyn Lumo+ / AMIRO unresolved generations",
+      "tier": "D",
+      "frequency": "Exact current RF carriers unresolved",
+      "control": "Prior census reports brand heat/depth claims; not independently mapped.",
+      "output": "Unresolved exact-model load-specific output.",
+      "human": "No newly verified independent exact-model study package in this pass.",
+      "collagen": "No exact-generation human collagen quantification established.",
+      "judgment": "Do not buy a collagen premium before the current SKU and full study are resolved.",
+      "sources": [
+        "LOCAL"
+      ],
+      "directHuman": false,
+      "numericControl": false,
+      "reference": false,
+      "regulatoryBridge": false,
+      "contact": "Not fully characterized in reviewed sources",
+      "scope": "home",
+      "kind": "Prior market dossier with unresolved identity",
+      "price": "Confirm current local price, availability, warranty and consumables.",
+      "thermal": "No independent depth-resolved living-human thermal map established here."
+    },
+    {
+      "id": "oem",
+      "name": "Konmison LB056B / unverified OEM",
+      "tier": "D",
+      "frequency": "2 MHz archived supplier claim",
+      "control": "No independently verified feedback/cutoff package in archived dossier.",
+      "output": "55 W total consumption is not measured skin RF output.",
+      "human": "No adequate model-specific human efficacy package established.",
+      "collagen": "No verified human collagen endpoint.",
+      "judgment": "Not my first facial RF purchase. Missing evidence is not proof of zero effect.",
+      "sources": [
+        "LOCAL"
+      ],
+      "directHuman": false,
+      "numericControl": false,
+      "reference": false,
+      "regulatoryBridge": false,
+      "contact": "Not fully characterized in reviewed sources",
+      "scope": "home",
+      "kind": "Supplier claims / missing validation",
+      "price": "Confirm current local price, availability, warranty and consumables.",
+      "thermal": "No independent depth-resolved living-human thermal map established here."
+    },
+    {
+      "id": "thermage",
+      "name": "Thermage CPT / FLX professional lineage",
+      "tier": "Clinic",
+      "frequency": "6.78 MHz professional architecture",
+      "control": "Cooling and clinician protocol; no universal dermal temperature inferred.",
+      "output": "Tip/pulse/shot/area-specific delivery; not comparable to a home watt headline.",
+      "human": "FLX: 2025 randomized split-face comparison with Volnewmer, 22 women/eight weeks. CPT: 2026 YOUMAGIC active-comparator RCT. Generations remain distinct.",
+      "collagen": "Professional clinical and mechanistic support; no universal collagen-growth percentage.",
+      "judgment": "Professional assessment lane for meaningful laxity; outside the home tiers.",
+      "sources": [
+        "T01",
+        "T02",
+        "T08"
+      ],
+      "directHuman": true,
+      "numericControl": false,
+      "reference": false,
+      "regulatoryBridge": true,
+      "contact": "Professional cooled monopolar active tip plus return electrode.",
+      "scope": "clinic",
+      "kind": "Professional active-comparator human evidence",
+      "price": "Confirm current local price, availability, warranty and consumables.",
+      "thermal": "No independent depth-resolved living-human thermal map established here."
+    },
+    {
+      "id": "youmagic",
+      "name": "YOUMAGIC (professional)",
+      "tier": "Clinic",
+      "frequency": "6.78 MHz trial platform",
+      "control": "Cooled monopolar clinical protocol; do not copy into a home treatment.",
+      "output": "Clinician settings with a return electrode, cooling and delivered pulse protocol.",
+      "human": "2026 randomized assessor-blinded non-inferiority trial vs CPT: 230 enrolled / 212 analyzed, six months.",
+      "collagen": "Visible clinical outcomes, not direct quantified human collagen.",
+      "judgment": "Larger CPT comparator candidate, not proven FLX equivalent or superior. Verify exact platform and regional authorization.",
+      "sources": [
+        "T02"
+      ],
+      "directHuman": true,
+      "numericControl": false,
+      "reference": false,
+      "regulatoryBridge": false,
+      "contact": "Not fully characterized in reviewed sources",
+      "scope": "clinic",
+      "kind": "Professional active-comparator human evidence",
+      "price": "Confirm current local price, availability, warranty and consumables.",
+      "thermal": "No independent depth-resolved living-human thermal map established here."
+    },
+    {
+      "id": "volnewmer",
+      "name": "Volnewmer (professional RF-CWC)",
+      "tier": "Clinic",
+      "frequency": "6.78 MHz trial platform",
+      "control": "Continuous water cooling with contact/impedance adjustment; clinician protocol.",
+      "output": "115 W maximum platform rating in study; not an absorbed dermal dose or home setting.",
+      "human": "2025 randomized split-face comparison vs Thermage FLX: 22 Asian women, one session, eight weeks; similar lifting/elasticity and lower pain. Separate 2026 single-arm study retained.",
+      "collagen": "Separate ex-vivo collagen assays; no participant facial biopsies and no identical ex-vivo FLX comparison.",
+      "judgment": "First direct FLX alternative to investigate. Small short-term trial; reported paired nonsignificance does not prove long-term equivalence or superiority.",
+      "sources": [
+        "T01",
+        "T07",
+        "R20"
+      ],
+      "directHuman": true,
+      "numericControl": false,
+      "reference": false,
+      "regulatoryBridge": true,
+      "contact": "Professional monopolar tip with water cooling and impedance matching.",
+      "scope": "clinic",
+      "kind": "Professional small randomized FLX comparator",
+      "price": "Provider-specific full-course quote; verify exact local indication, areas and tips.",
+      "thermal": "Research thermal characterization is platform/site-specific, not a universal dermal target."
+    },
+    {
+      "id": "xerf",
+      "name": "XERF (professional dual-frequency)",
+      "tier": "Clinic",
+      "frequency": "2 and 6.78 MHz",
+      "control": "Integrated cooling; retrospective paper reports surface-temperature monitoring/interruption above 43°C, not measured dermal dose.",
+      "output": "FDA maxima: 300 W at 2 MHz / 400 W at 6.78 MHz; not an absorbed tissue dose.",
+      "human": "39-person prospective uncontrolled two-session study, 90 days; separate 16-woman single-session retrospective three-month study. Manufacturer involvement disclosed.",
+      "collagen": "Clinical imaging/satisfaction endpoints; no quantified participant collagen or human Thermage comparison.",
+      "judgment": "Promising option; two frequencies and ex-vivo FLX thermal comparison do not demonstrate equal or better human efficacy.",
+      "sources": [
+        "T03",
+        "T04",
+        "T06"
+      ],
+      "directHuman": true,
+      "numericControl": true,
+      "reference": false,
+      "regulatoryBridge": true,
+      "contact": "Professional tip/interface and studied treatment geometry; verify exact platform.",
+      "scope": "clinic",
+      "kind": "Professional uncontrolled human evidence",
+      "price": "Provider-specific full-course quote; no standardized current price established.",
+      "thermal": "No independently calibrated depth-resolved living-human thermal map established here."
+    },
+    {
+      "id": "oligio",
+      "name": "Oligio (professional, original study platform)",
+      "tier": "Clinic",
+      "frequency": "6.78 MHz",
+      "control": "Cooling-gas/contact delivery in FDA filing; model-specific clinician protocol.",
+      "output": "145 W maximum in FDA summary; not a clinical dose or efficacy multiplier.",
+      "human": "20 women, one treatment, 24 weeks; uncontrolled with blinded photo raters and firmness testing.",
+      "collagen": "Firmness/appearance proxies, not human collagen biopsy.",
+      "judgment": "Reasonable budget-service candidate if operator and full-course quote fit; no human Thermage comparison located. Does not transfer to Oligio X/Kiss.",
+      "sources": [
+        "T05",
+        "T09"
+      ],
+      "directHuman": true,
+      "numericControl": false,
+      "reference": false,
+      "regulatoryBridge": true,
+      "contact": "Professional tip/interface and studied treatment geometry; verify exact platform.",
+      "scope": "clinic",
+      "kind": "Professional uncontrolled human evidence",
+      "price": "Provider-specific full-course quote; no standardized current price established.",
+      "thermal": "No independently calibrated depth-resolved living-human thermal map established here."
+    },
+    {
+      "id": "density",
+      "name": "Density / Mono-Bi CrossLIFT (professional)",
+      "tier": "Clinic",
+      "frequency": "Carrier alone not used to rank; sequential monopolar/bipolar trial architecture",
+      "control": "Clinician-operated cooling and studied tip/protocol; no universal tissue-temperature target.",
+      "output": "Protocol-specific delivery; cannot infer superiority from adding bipolar RF.",
+      "human": "16-person uncontrolled case series, one session / 24 weeks; imaging and independent GAIS; no comparator.",
+      "collagen": "Imaging tightening distances are not collagen amount, fat-loss measurements or surgical lift.",
+      "judgment": "Early human option; no Thermage-equivalence evidence. Local authorization/revision not audited in this pass.",
+      "sources": [
+        "T10"
+      ],
+      "directHuman": true,
+      "numericControl": false,
+      "reference": false,
+      "regulatoryBridge": false,
+      "contact": "Professional tip/interface and studied treatment geometry; verify exact platform.",
+      "scope": "clinic",
+      "kind": "Professional uncontrolled human evidence",
+      "price": "Provider-specific full-course quote; no standardized current price established.",
+      "thermal": "No independently calibrated depth-resolved living-human thermal map established here."
+    }
+  ],
+  "professionalDecisions": {
+    "flx": {
+      "title": "First direct FLX alternative: Volnewmer",
+      "devices": [
+        "volnewmer",
+        "thermage"
+      ],
+      "text": "22-woman randomized split-face study: similar short-term lifting/elasticity and lower pain. Eight weeks and no explicit margin-based non-inferiority analysis identified: long-term equivalence remains unproven.",
+      "sources": [
+        "T01",
+        "T07"
+      ]
+    },
+    "controlled": {
+      "title": "Larger CPT comparator: YOUMAGIC",
+      "devices": [
+        "youmagic",
+        "thermage"
+      ],
+      "text": "230 enrolled /212 analyzed, six months, assessor-blinded non-inferiority with a −10-point margin. Comparator was CPT, not FLX. Verify the exact platform and local authorization.",
+      "sources": [
+        "T02"
+      ]
+    },
+    "accessible": {
+      "title": "Promising options: XERF, Oligio, Density",
+      "devices": [
+        "xerf",
+        "oligio",
+        "density"
+      ],
+      "text": "Human studies support early clinical signals, but no human Thermage comparison was located for these exact platforms. Choose on clinical fit, experienced operator and full-course quote; MHz, watts and shot count cannot rank collagen efficacy.",
+      "sources": [
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T09",
+        "T10"
+      ]
+    },
+    "home": {
+      "title": "No demonstrated home Thermage equivalent",
+      "devices": [
+        "currentbody",
+        "newa"
+      ],
+      "text": "CurrentBody ST030 is the practical home shortlist; original NEWA is the direct clinical anchor for modest wrinkle goals. Neither has demonstrated Thermage-equivalent results or a validated home-session conversion.",
+      "sources": [
+        "R01",
+        "R02"
+      ]
+    }
+  }
+};

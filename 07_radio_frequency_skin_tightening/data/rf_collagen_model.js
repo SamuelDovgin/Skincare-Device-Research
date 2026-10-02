@@ -33,6 +33,10 @@
       if(typeof d.directHuman!=='boolean'||typeof d.numericControl!=='boolean')failures.push('missing evidence flag '+d.id);
       if(!d.sources.length||d.sources.some(s=>!data.sources[s]))failures.push('missing source '+d.id);
       if(!d.human||!d.collagen||!d.control)failures.push('missing endpoint '+d.id);
+    }
+    for(const [key,c] of Object.entries(data.professionalDecisions||{})){
+      if(!c.title||!c.text||!c.devices.length)failures.push('missing service decision '+key);
+      if(c.devices.some(id=>!ids.has(id))||c.sources.some(id=>!data.sources[id]))failures.push('unresolved service reference '+key);
     }return failures;
   }
   return Object.freeze({filter,shortlist,chain,validate,matches});

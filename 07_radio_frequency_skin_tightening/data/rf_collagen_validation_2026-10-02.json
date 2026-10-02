@@ -29,7 +29,9 @@
     "JSON/JS agreement",
     "empty shortlist handling",
     "clinical/control intersection",
-    "no frequency promotion"
+    "no frequency promotion",
+    "professional decision IDs and primary source references",
+    "four service choices and comparison handoff"
   ],
   "topic_audit": "0 broken links, 0 warnings",
   "rendered_policy": "passed",
@@ -37,10 +39,36 @@
   "whole_site_audit": {
     "rf_topic": "clean",
     "unrelated_errors": [
-      "paper-discovery.html references missing paper-discovery.js",
-      "24_asian_devices_and_collagen_remodelling/07_source_library.md references missing source_docs/YAMAN_Bloom 6_2026-10-02.html"
+      "paper-discovery.html references missing paper-discovery.js"
     ],
-    "note": "Other working-tree topic work is ongoing; no unrelated source/UI changes made."
+    "note": "RF update passes topic audit; pre-existing unrelated script missing from this checkout."
   },
-  "visual_review": "Desktop and mobile screenshots inspected; no overlapping text or body horizontal overflow."
+  "visual_review": "Desktop and mobile screenshots inspected; no overlapping text or body horizontal overflow.",
+  "professional_update_browser_checks": [
+    {
+      "mode": "served",
+      "width": 1440,
+      "checks": "four service choices, comparison handoff, home filter invariants, rendered docs6/10/14/16/17, navigation, no raw links/overflow/page errors"
+    },
+    {
+      "mode": "served",
+      "width": 390,
+      "checks": "four service choices, comparison handoff, home filter invariants, rendered docs6/10/14/16/17, navigation, no raw links/overflow/page errors"
+    },
+    {
+      "mode": "disk",
+      "width": 1440,
+      "checks": "four service choices, comparison handoff, home filter invariants, rendered docs6/10/14/16/17, navigation, no raw links/overflow/page errors"
+    },
+    {
+      "mode": "disk",
+      "width": 390,
+      "checks": "four service choices, comparison handoff, home filter invariants, rendered docs6/10/14/16/17, navigation, no raw links/overflow/page errors"
+    }
+  ],
+  "profile_count": {
+    "home": 16,
+    "professional": 6,
+    "total": 22
+  }
 }

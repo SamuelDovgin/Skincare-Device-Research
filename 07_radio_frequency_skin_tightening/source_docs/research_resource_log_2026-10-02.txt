@@ -377,3 +377,261 @@ R03/R11 recovery update: PubMed E-utilities efetch retrieved the original abstra
 Final validation: topic link audit0broken/0warnings; model filter tests24combinations; desktop1440/mobile390 served and file:// render checks on docs5/10/11/13/14/15/16, sidebar, visualizer controls, no visibleMarkdown links, no overflow/page errors. Whole-site audit1unrelatedERROR: paper-discovery.html missingpaper-discovery.js. Existing research tool not modified. Detailed report:data/rf_collagen_validation_2026-10-02.json.
 
 Final whole-site recheck:2unrelatederrors, missingpaper-discovery.js plus topic24missingYAMAN_Bloom6capture. Topic24is changing concurrently; RFaudit remains0errors/0warnings. Final four-mode browser checks all passed after the source metadata update.
+
+
+THERMAGE EQUIVALENCE ADDENDUM — October 2, 2026
+Search lane: exact-generation professional comparators, noninvasive alternatives and home-equivalence limits. New 2025 FLX comparator changes the prior Volnewmer characterization; separate 2026 single-arm evidence remains separately identified.
+
+[T01] Volnewmer versus Thermage FLX, Ann Dermatol 2025;37:397–407; PMID41331720; DOI10.5021/ad.25.166
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC12715870/
+Accessed: 2026-10-02
+Class: peer-reviewed human
+Used in: doc17, doc6, professional visualizer, doc14
+Supports: 22 Asian women; randomized split-face; one session; eight weeks; imaging and three blinded raters. Pain at 300 shots: 4.545±1.327 versus 8.386±1.174/10. Similar lifting/elasticity; some secondary endpoints favored Volnewmer; no significant persistent adverse event. No funding or conflicts declared.
+Key record: 22 Asian women; randomized split-face; one session; eight weeks; imaging and three blinded raters. Pain at 300 shots: 4.545±1.327 versus 8.386±1.174/10. Similar lifting/elasticity; some secondary endpoints favored Volnewmer; no significant persistent adverse event. No funding or conflicts declared.
+Limits: Small, short study. An explicit clinical non-inferiority margin and margin-based CI analysis were not identified in the inspected methods; paired nonsignificance does not prove equivalence. Ex-vivo collagen was not participant biopsy or an identical two-device comparison.
+Local preservation: source_docs/PMC12715870_Volnewmer_FLX_2025_BioC.xml; SHA-256 d74744f3002a53c6a42481bc3d3edbf00a81b94bf70b599498b9269744ca5b50
+Rights: CC BY-NC4.0; unchanged NCBI OA transcription, attribution required; noncommercial research.
+Status/recheck: Primary record inspected; recheck before new purchase or efficacy claim.
+
+[T02] YOUMAGIC versus Thermage CPT RCT; PMID41758257; DOI10.1007/s10103-026-04841-4
+URL: https://link.springer.com/article/10.1007/s10103-026-04841-4
+Accessed: 2026-10-02
+Class: peer-reviewed human
+Used in: doc17, doc6, professional visualizer, doc14
+Supports: 230 enrolled, 212 analyzed (107/105); six months; assessor-blinded; non-inferiority margin −10 percentage points; day-90 GAIS response 100%/98.10%; no serious adverse events. Manufacturer provided the device; registration retrospective.
+Key record: 230 enrolled, 212 analyzed (107/105); six months; assessor-blinded; non-inferiority margin −10 percentage points; day-90 GAIS response 100%/98.10%; no serious adverse events. Manufacturer provided the device; registration retrospective.
+Limits: CPT comparator, not FLX. No human collagen assay, predominantly female cohort, active comparator without sham.
+Local preservation: source_docs/YOUMAGIC_Thermage_RCT_2026.pdf; SHA-256 8d93353066a4436ef8ff317588040e5d75392fa28ba537a41447fb1a1ed80e9b
+Rights: CC BY-NC-ND4.0 unchanged publisher PDF; existing R19 reused.
+Status/recheck: Primary record inspected; recheck before new purchase or efficacy claim.
+
+[T03] XERF prospective multicenter study; PMID41930066; PMC13040610; DOI10.7759/cureus.104546
+URL: https://pubmed.ncbi.nlm.nih.gov/41930066/
+Accessed: 2026-10-02
+Class: peer-reviewed human
+Used in: doc17, doc6, professional visualizer, doc14
+Supports: 39 completers at four sites; two sessions; 30/90 days after final treatment; GAIS by treating principal investigators. Manufacturer equipment, consumables and grant; no persistent adverse events.
+Key record: 39 completers at four sites; two sessions; 30/90 days after final treatment; GAIS by treating principal investigators. Manufacturer equipment, consumables and grant; no persistent adverse events.
+Limits: No control or blinded independent assessment or collagen biopsy. No human Thermage comparison; short follow-up. Responder percentages are not a cross-device efficacy ranking.
+Local preservation: source_docs/PMC13040610_XERF_2026_BioC.xml; SHA-256 d15cfcb1ade035aff2b8dd3f51d85156c218a5f81094cfcfccedfaf65d960394
+Rights: CC BY4.0 OA transcription, attribution required.
+Status/recheck: Primary record inspected; recheck before new purchase or efficacy claim.
+
+[T04] XERF retrospective single-session study; PMID42611100; PMC13486139
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC13486139/
+Accessed: 2026-10-02
+Class: peer-reviewed human
+Used in: doc17, doc6, professional visualizer, doc14
+Supports: 16 women; one session; formal three-month follow-up; 15 in periorbital analysis; 3D imaging/FACE-Q; transient events. Lead author is a manufacturer trainer; manufacturer assisted IRB submission and statistics. No external funding claimed.
+Key record: 16 women; one session; formal three-month follow-up; 15 in periorbital analysis; 3D imaging/FACE-Q; transient events. Lead author is a manufacturer trainer; manufacturer assisted IRB submission and statistics. No external funding claimed.
+Limits: No control or Thermage comparison. Volume surrogate does not validate anatomical repositioning. One illustrative six-month case was excluded from formal analysis. BioC endpoint unavailable; live PMC full text inspected.
+Local preservation: URL-only primary source; original bibliographic/support note in thermage_equivalence_source_notes_2026-10-02.json; no full-text copy retained.
+Rights: Bibliographic/support note only; no publisher full text redistributed.
+Status/recheck: Primary record inspected; recheck before new purchase or efficacy claim.
+
+[T05] Shin et al., Oligio aged faces; Cosmetics2024;11:71; DOI10.3390/cosmetics11030071
+URL: https://doi.org/10.3390/cosmetics11030071
+Accessed: 2026-10-02
+Class: peer-reviewed human
+Used in: doc17, doc6, professional visualizer, doc14
+Supports: 20 women; one session; 24 weeks; three blinded photographic raters; firmness improved. Automated fine-wrinkle, pore and skin-tone changes were not significant. Mean pain 0.4/10 in results, despite no-pain abstract. No external funding or conflicts declared.
+Key record: 20 women; one session; 24 weeks; three blinded photographic raters; firmness improved. Automated fine-wrinkle, pore and skin-tone changes were not significant. Mean pain 0.4/10 in results, despite no-pain abstract. No external funding or conflicts declared.
+Limits: Uncontrolled; no Thermage comparison or collagen biopsy. Does not establish transfer to Oligio X/Kiss revisions. MDPI webpage returned 429; publisher PDF asset was live.
+Local preservation: source_docs/Oligio_Cosmetics_2024_11_71.pdf; SHA-256 3e164340af5916b5ba6b7af48926171b3a5786f3ab78f5a227459be3c103eb96
+Rights: CC BY4.0 unchanged publisher PDF; https://mdpi-res.com/d_attachment/cosmetics/cosmetics-11-00071/article_deploy/cosmetics-11-00071.pdf
+Status/recheck: Primary record inspected; recheck before new purchase or efficacy claim.
+
+[T06] FDA XERF K251327, cleared2025-08-11
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf25/K251327.pdf
+Accessed: 2026-10-02
+Class: primary regulatory
+Used in: doc17, doc6, professional visualizer, doc14
+Supports: Monopolar 2/6.78 MHz; maximum 300/400 W respectively; FLX predicate. Intended use: electrocoagulation/hemostasis. Ex-vivo 3-mm temperature-time comparison; explicitly no clinical tests submitted.
+Key record: Monopolar 2/6.78 MHz; maximum 300/400 W respectively; FLX predicate. Intended use: electrocoagulation/hemostasis. Ex-vivo 3-mm temperature-time comparison; explicitly no clinical tests submitted.
+Limits: Regulatory/ex-vivo bridge does not establish human wrinkle equivalence, cosmetic superiority, precise SMAS effect or universal fat preservation.
+Local preservation: source_docs/FDA_K251327_XERF.pdf; SHA-256 aea1ebe216faf8a7b18f86079632725d8b388ac597d95efe2f3c007ee4011ce6
+Rights: Public regulator filing; initial request blocked, useragent retry livePDF.
+Status/recheck: Primary record inspected; recheck before new purchase or efficacy claim.
+
+[T07] FDA Volnewmer K240248, cleared2024-04-29
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf24/K240248.pdf
+Accessed: 2026-10-02
+Class: primary regulatory
+Used in: doc17, doc6, professional visualizer, doc14
+Supports: Monopolar 6.78 MHz, 115 W maximum; water cooling; Thermage FLX predicate. Intended use: dermatologic electrocoagulation/hemostasis. Bench/in-vivo thermal testing.
+Key record: Monopolar 6.78 MHz, 115 W maximum; water cooling; Thermage FLX predicate. Intended use: dermatologic electrocoagulation/hemostasis. Bench/in-vivo thermal testing.
+Limits: Narrow intended-use wording; does not transfer all predicate wrinkle/eyelid indications or establish equal human efficacy.
+Local preservation: source_docs/FDA_K240248_Volnewmer.pdf; SHA-256 bd6906cdb9d19d29a82dd5acc601849501c978fdcb75b0214883fe853c8d893e
+Rights: Public regulator filing; initial request blocked, useragent retry livePDF.
+Status/recheck: Primary record inspected; recheck before new purchase or efficacy claim.
+
+[T08] FDA Thermage FLX K170758, cleared2017-09-22
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf17/K170758.pdf
+Accessed: 2026-10-02
+Class: primary regulatory
+Used in: doc17, doc6, professional visualizer, doc14
+Supports: RF-only indications: electrocoagulation/hemostasis and noninvasive wrinkles, including upper/lower eyelids. RF-plus-vibration wording separately lists periorbital wrinkles/rhytids, wrinkles/rhytids and temporary cellulite appearance improvement.
+Key record: RF-only indications: electrocoagulation/hemostasis and noninvasive wrinkles, including upper/lower eyelids. RF-plus-vibration wording separately lists periorbital wrinkles/rhytids, wrinkles/rhytids and temporary cellulite appearance improvement.
+Limits: Indication wording does not guarantee results, a universal dose or equal competitor labeling. Database also checked: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170758
+Local preservation: source_docs/FDA_K170758_Thermage_FLX.pdf; SHA-256 ffacfb2685f18f22288e28be78fd4598124bc89fc7bb2de31745c7d6f487d2be
+Rights: Public regulator filing;live PDF.
+Status/recheck: Primary record inspected; recheck before new purchase or efficacy claim.
+
+[T09] FDA Oligio K221989, cleared2022-10-13
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf22/K221989.pdf
+Accessed: 2026-10-02
+Class: primary regulatory
+Used in: doc17, doc6, professional visualizer, doc14
+Supports: Monopolar 6.78 MHz, 145 W maximum; cooling gas; FLX predicate. Intended use: dermatologic/general surgical electrocoagulation/hemostasis.
+Key record: Monopolar 6.78 MHz, 145 W maximum; cooling gas; FLX predicate. Intended use: dermatologic/general surgical electrocoagulation/hemostasis.
+Limits: Not a human Thermage comparison. Does not establish revised Oligio X/Kiss equivalence.
+Local preservation: source_docs/FDA_K221989_Oligio.pdf; SHA-256 a6796b1190298a0800abda063f5cf86e8edb176ad0236117186241e659b8be57
+Rights: Public regulator filing; initial request blocked, useragent retry livePDF.
+Status/recheck: Primary record inspected; recheck before new purchase or efficacy claim.
+
+[T10] Oku Density Mono-Bi CrossLIFT; PMID41090512; PMC12522179; DOI10.1111/jocd.70504
+URL: https://pubmed.ncbi.nlm.nih.gov/41090512/
+Accessed: 2026-10-02
+Class: peer-reviewed human
+Used in: doc17, doc6, professional visualizer, doc14
+Supports: 16 adults aged 36–59, Fitzpatrick II–IV; one session; 24 weeks; 3D imaging. Tightening: abstract 0.82±0.36 mm, body SD 0.34. GAIS improved in 15/16; pain 1.4±0.6/5; no severe adverse events. Single author declared no conflicts.
+Key record: 16 adults aged 36–59, Fitzpatrick II–IV; one session; 24 weeks; 3D imaging. Tightening: abstract 0.82±0.36 mm, body SD 0.34. GAIS improved in 15/16; pain 1.4±0.6/5; no severe adverse events. Single author declared no conflicts.
+Limits: Uncontrolled; protocol-specific imaging does not quantify collagen or fat loss. No Thermage comparison.
+Local preservation: source_docs/PMC12522179_Density_2025_BioC.xml; SHA-256 d5c9c354c93017de63b1d705a79ac980402af151ac59528df3d47e032ba4b6ef
+Rights: CC BY4.0 OA transcription with attribution.
+Status/recheck: Primary record inspected; recheck before new purchase or efficacy claim.
+
+[T11] Volnewmer versus Thermage CPT registry NCT06657365
+URL: https://clinicaltrials.gov/study/NCT06657365
+Accessed: 2026-10-02
+Class: primary registry
+Used in: doc17, doc6, professional visualizer, doc14
+Supports: Official API snapshot October 2, 2026: COMPLETED; completion July 3, 2025; last update posted May 4, 2026; no resultsSection. API: https://clinicaltrials.gov/api/v2/studies/NCT06657365
+Key record: Official API snapshot October 2, 2026: COMPLETED; completion July 3, 2025; last update posted May 4, 2026; no resultsSection. API: https://clinicaltrials.gov/api/v2/studies/NCT06657365
+Limits: Registration/status is not an outcome. Different record from the published 2025 FLX split-face trial.
+Local preservation: source_docs/Volnewmer_CPT_NCT06657365_2026-10-02.json; SHA-256 ab5632616c17eb3817606a804799ee0f8fa4eeb6bca513edfb3f46ec84e541f8
+Rights: Official registry metadata snapshot.
+Status/recheck: Primary record inspected; recheck before new purchase or efficacy claim.
+
+[T12] FDA RF microneedling safety communication,2025-10-15
+URL: https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication
+Accessed: 2026-10-02
+Class: primary regulatory
+Used in: doc17, doc6, professional visualizer, doc14
+Supports: FDA reports burns, scarring, fat loss, disfigurement and nerve damage with certain RF microneedling uses; medical procedure; not for home use; seek a licensed trained provider. Evaluation ongoing. Existing R21 reused.
+Key record: FDA reports burns, scarring, fat loss, disfigurement and nerve damage with certain RF microneedling uses; medical procedure; not for home use; seek a licensed trained provider. Evaluation ongoing. Existing R21 reused.
+Limits: Microneedling-specific communication; does not establish all noninvasive RF risks, incidence or a causal device ranking.
+Local preservation: URL-only primary source; original bibliographic/support note in thermage_equivalence_source_notes_2026-10-02.json; no full-text copy retained.
+Rights: Regulatory support note;canonical live page.
+Status/recheck: Primary record inspected; recheck before new purchase or efficacy claim.
+
+[T13] Dual-frequency histological evidence2024
+URL:https://pubmed.ncbi.nlm.nih.gov/38881041/
+Accessed:2026-10-02 (search/abstract/fulltext snippets)
+Class:discovery/context
+Used in:research discovery; excludedfromreaderconclusions
+Supports:Findingprimarytrials/contextonly.
+Key record:No newoutcomeclaimed.
+Limits:Mechanistic paper, manufacturer affiliations; notused to establish humanThermageequivalence.
+Local preservation:URL-only — nofulltext copy retained.
+Status/recheck:searchindexed;notall fullpagesretrieved.
+
+[T14] Small XERF periorbital applicator report2026
+URL:https://pubmed.ncbi.nlm.nih.gov/41523730/
+Accessed:2026-10-02 (search/abstract/fulltext snippets)
+Class:discovery/context
+Used in:research discovery; excludedfromreaderconclusions
+Supports:Findingprimarytrials/contextonly.
+Key record:No newoutcomeclaimed.
+Limits:Technical/illustrative report;not used to borrow eyelidauthorization.
+Local preservation:URL-only — nofulltext copy retained.
+Status/recheck:searchindexed;notall fullpagesretrieved.
+
+[T15] MonopolarRF dermalprejuvenation narrative2026
+URL:https://pubmed.ncbi.nlm.nih.gov/41456098/
+Accessed:2026-10-02 (search/abstract/fulltext snippets)
+Class:discovery/context
+Used in:research discovery; excludedfromreaderconclusions
+Supports:Findingprimarytrials/contextonly.
+Key record:No newoutcomeclaimed.
+Limits:Mechanismreview;notpreventive clinicaltrial.
+Local preservation:URL-only — nofulltext copy retained.
+Status/recheck:searchindexed;notall fullpagesretrieved.
+
+[T16] Clinic comparison2026
+URL:https://www.theretreatclinic.com/journal/thermage-xerf-and-monopolar-radiofrequency-how-they-differ
+Accessed:2026-10-02 (search/abstract/fulltext snippets)
+Class:discovery/context
+Used in:research discovery; excludedfromreaderconclusions
+Supports:Findingprimarytrials/contextonly.
+Key record:No newoutcomeclaimed.
+Limits:Discoveryonly;verified subsequent claims with primary trials and FDA.
+Local preservation:URL-only — nofulltext copy retained.
+Status/recheck:searchindexed;notall fullpagesretrieved.
+
+[T17] Clinic XERFreview2026
+URL:https://www.theretreatclinic.com/journal/xerf-a-doctors-evidence-review
+Accessed:2026-10-02 (search/abstract/fulltext snippets)
+Class:discovery/context
+Used in:research discovery; excludedfromreaderconclusions
+Supports:Findingprimarytrials/contextonly.
+Key record:No newoutcomeclaimed.
+Limits:Discoveryonly;manufacturer tieschecked inprimary.
+Local preservation:URL-only — nofulltext copy retained.
+Status/recheck:searchindexed;notall fullpagesretrieved.
+
+[T18] ClinicDensitysummary
+URL:https://www.clinicmiso.co.kr/en/density/
+Accessed:2026-10-02 (search/abstract/fulltext snippets)
+Class:discovery/context
+Used in:research discovery; excludedfromreaderconclusions
+Supports:Findingprimarytrials/contextonly.
+Key record:No newoutcomeclaimed.
+Limits:Discoveryonly;exactdevice confirmed inprimaryBioC.
+Local preservation:URL-only — nofulltext copy retained.
+Status/recheck:searchindexed;notall fullpagesretrieved.
+
+[T19] Registrymirror
+URL:https://ichgcp.net/clinical-trials-registry/NCT06657365
+Accessed:2026-10-02 (search/abstract/fulltext snippets)
+Class:discovery/context
+Used in:research discovery; excludedfromreaderconclusions
+Supports:Findingprimarytrials/contextonly.
+Key record:No newoutcomeclaimed.
+Limits:Discoveryonly;official registryAPIused instead.
+Local preservation:URL-only — nofulltext copy retained.
+Status/recheck:searchindexed;notall fullpagesretrieved.
+
+[T20] RF-CWCtechnicalreview2026
+URL:https://doi.org/10.67190/jasls.2026.1.1.28
+Accessed:2026-10-02 (search/abstract/fulltext snippets)
+Class:discovery/context
+Used in:research discovery; excludedfromreaderconclusions
+Supports:Findingprimarytrials/contextonly.
+Key record:No newoutcomeclaimed.
+Limits:Secondary wording potentially misses2025FLXtrial;excludedfromranking.
+Local preservation:URL-only — nofulltext copy retained.
+Status/recheck:searchindexed;notall fullpagesretrieved.
+
+[T21] AADstatement2025
+URL:https://www.aad.org/news/statement-on-fda-rf-microneedling-risks
+Accessed:2026-10-02 (search/abstract/fulltext snippets)
+Class:discovery/context
+Used in:research discovery; excludedfromreaderconclusions
+Supports:Findingprimarytrials/contextonly.
+Key record:No newoutcomeclaimed.
+Limits:Contextonly;FDAprimarywarning used.
+Local preservation:URL-only — nofulltext copy retained.
+Status/recheck:searchindexed;notall fullpagesretrieved.
+
+[T22] FDAMicroneedling Devices
+URL:https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/microneedling-devices
+Accessed:2026-10-02 (search/abstract/fulltext snippets)
+Class:discovery/context
+Used in:research discovery; excludedfromreaderconclusions
+Supports:Findingprimarytrials/contextonly.
+Key record:No newoutcomeclaimed.
+Limits:Contextonly;needleprocedure notnoninvasivebulkRF.
+Local preservation:URL-only — nofulltext copy retained.
+Status/recheck:searchindexed;notall fullpagesretrieved.

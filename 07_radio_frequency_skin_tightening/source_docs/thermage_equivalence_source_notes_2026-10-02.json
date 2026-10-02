@@ -1,0 +1,214 @@
+[
+  {
+    "id": "T01",
+    "title": "Volnewmer versus Thermage FLX, Ann Dermatol 2025;37:397–407; PMID41331720; DOI10.5021/ad.25.166",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12715870/",
+    "accessed": "2026-10-02",
+    "sourceClass": "peer-reviewed human",
+    "keyRecord": "22 Asian women; randomized split-face; one session; eight weeks; imaging and three blinded raters. Pain at 300 shots: 4.545±1.327 versus 8.386±1.174/10. Similar lifting/elasticity; some secondary endpoints favored Volnewmer; no significant persistent adverse event. No funding or conflicts declared.",
+    "limitations": "Small, short study. An explicit clinical non-inferiority margin and margin-based CI analysis were not identified in the inspected methods; paired nonsignificance does not prove equivalence. Ex-vivo collagen was not participant biopsy or an identical two-device comparison.",
+    "rights": "CC BY-NC4.0; unchanged NCBI OA transcription, attribution required; noncommercial research.",
+    "usedIn": [
+      "doc17",
+      "doc6",
+      "professional visualizer",
+      "doc14"
+    ],
+    "local": "source_docs/PMC12715870_Volnewmer_FLX_2025_BioC.xml",
+    "sha256": "d74744f3002a53c6a42481bc3d3edbf00a81b94bf70b599498b9269744ca5b50"
+  },
+  {
+    "id": "T02",
+    "title": "YOUMAGIC versus Thermage CPT RCT; PMID41758257; DOI10.1007/s10103-026-04841-4",
+    "url": "https://link.springer.com/article/10.1007/s10103-026-04841-4",
+    "accessed": "2026-10-02",
+    "sourceClass": "peer-reviewed human",
+    "keyRecord": "230 enrolled, 212 analyzed (107/105); six months; assessor-blinded; non-inferiority margin −10 percentage points; day-90 GAIS response 100%/98.10%; no serious adverse events. Manufacturer provided the device; registration retrospective.",
+    "limitations": "CPT comparator, not FLX. No human collagen assay, predominantly female cohort, active comparator without sham.",
+    "rights": "CC BY-NC-ND4.0 unchanged publisher PDF; existing R19 reused.",
+    "usedIn": [
+      "doc17",
+      "doc6",
+      "professional visualizer",
+      "doc14"
+    ],
+    "local": "source_docs/YOUMAGIC_Thermage_RCT_2026.pdf",
+    "sha256": "8d93353066a4436ef8ff317588040e5d75392fa28ba537a41447fb1a1ed80e9b"
+  },
+  {
+    "id": "T03",
+    "title": "XERF prospective multicenter study; PMID41930066; PMC13040610; DOI10.7759/cureus.104546",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41930066/",
+    "accessed": "2026-10-02",
+    "sourceClass": "peer-reviewed human",
+    "keyRecord": "39 completers at four sites; two sessions; 30/90 days after final treatment; GAIS by treating principal investigators. Manufacturer equipment, consumables and grant; no persistent adverse events.",
+    "limitations": "No control or blinded independent assessment or collagen biopsy. No human Thermage comparison; short follow-up. Responder percentages are not a cross-device efficacy ranking.",
+    "rights": "CC BY4.0 OA transcription, attribution required.",
+    "usedIn": [
+      "doc17",
+      "doc6",
+      "professional visualizer",
+      "doc14"
+    ],
+    "local": "source_docs/PMC13040610_XERF_2026_BioC.xml",
+    "sha256": "d15cfcb1ade035aff2b8dd3f51d85156c218a5f81094cfcfccedfaf65d960394"
+  },
+  {
+    "id": "T04",
+    "title": "XERF retrospective single-session study; PMID42611100; PMC13486139",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13486139/",
+    "accessed": "2026-10-02",
+    "sourceClass": "peer-reviewed human",
+    "keyRecord": "16 women; one session; formal three-month follow-up; 15 in periorbital analysis; 3D imaging/FACE-Q; transient events. Lead author is a manufacturer trainer; manufacturer assisted IRB submission and statistics. No external funding claimed.",
+    "limitations": "No control or Thermage comparison. Volume surrogate does not validate anatomical repositioning. One illustrative six-month case was excluded from formal analysis. BioC endpoint unavailable; live PMC full text inspected.",
+    "rights": "Bibliographic/support note only; no publisher full text redistributed.",
+    "usedIn": [
+      "doc17",
+      "doc6",
+      "professional visualizer",
+      "doc14"
+    ]
+  },
+  {
+    "id": "T05",
+    "title": "Shin et al., Oligio aged faces; Cosmetics2024;11:71; DOI10.3390/cosmetics11030071",
+    "url": "https://doi.org/10.3390/cosmetics11030071",
+    "accessed": "2026-10-02",
+    "sourceClass": "peer-reviewed human",
+    "keyRecord": "20 women; one session; 24 weeks; three blinded photographic raters; firmness improved. Automated fine-wrinkle, pore and skin-tone changes were not significant. Mean pain 0.4/10 in results, despite no-pain abstract. No external funding or conflicts declared.",
+    "limitations": "Uncontrolled; no Thermage comparison or collagen biopsy. Does not establish transfer to Oligio X/Kiss revisions. MDPI webpage returned 429; publisher PDF asset was live.",
+    "rights": "CC BY4.0 unchanged publisher PDF; https://mdpi-res.com/d_attachment/cosmetics/cosmetics-11-00071/article_deploy/cosmetics-11-00071.pdf",
+    "usedIn": [
+      "doc17",
+      "doc6",
+      "professional visualizer",
+      "doc14"
+    ],
+    "local": "source_docs/Oligio_Cosmetics_2024_11_71.pdf",
+    "sha256": "3e164340af5916b5ba6b7af48926171b3a5786f3ab78f5a227459be3c103eb96"
+  },
+  {
+    "id": "T06",
+    "title": "FDA XERF K251327, cleared2025-08-11",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K251327.pdf",
+    "accessed": "2026-10-02",
+    "sourceClass": "primary regulatory",
+    "keyRecord": "Monopolar 2/6.78 MHz; maximum 300/400 W respectively; FLX predicate. Intended use: electrocoagulation/hemostasis. Ex-vivo 3-mm temperature-time comparison; explicitly no clinical tests submitted.",
+    "limitations": "Regulatory/ex-vivo bridge does not establish human wrinkle equivalence, cosmetic superiority, precise SMAS effect or universal fat preservation.",
+    "rights": "Public regulator filing; initial request blocked, useragent retry livePDF.",
+    "usedIn": [
+      "doc17",
+      "doc6",
+      "professional visualizer",
+      "doc14"
+    ],
+    "local": "source_docs/FDA_K251327_XERF.pdf",
+    "sha256": "aea1ebe216faf8a7b18f86079632725d8b388ac597d95efe2f3c007ee4011ce6"
+  },
+  {
+    "id": "T07",
+    "title": "FDA Volnewmer K240248, cleared2024-04-29",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf24/K240248.pdf",
+    "accessed": "2026-10-02",
+    "sourceClass": "primary regulatory",
+    "keyRecord": "Monopolar 6.78 MHz, 115 W maximum; water cooling; Thermage FLX predicate. Intended use: dermatologic electrocoagulation/hemostasis. Bench/in-vivo thermal testing.",
+    "limitations": "Narrow intended-use wording; does not transfer all predicate wrinkle/eyelid indications or establish equal human efficacy.",
+    "rights": "Public regulator filing; initial request blocked, useragent retry livePDF.",
+    "usedIn": [
+      "doc17",
+      "doc6",
+      "professional visualizer",
+      "doc14"
+    ],
+    "local": "source_docs/FDA_K240248_Volnewmer.pdf",
+    "sha256": "bd6906cdb9d19d29a82dd5acc601849501c978fdcb75b0214883fe853c8d893e"
+  },
+  {
+    "id": "T08",
+    "title": "FDA Thermage FLX K170758, cleared2017-09-22",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf17/K170758.pdf",
+    "accessed": "2026-10-02",
+    "sourceClass": "primary regulatory",
+    "keyRecord": "RF-only indications: electrocoagulation/hemostasis and noninvasive wrinkles, including upper/lower eyelids. RF-plus-vibration wording separately lists periorbital wrinkles/rhytids, wrinkles/rhytids and temporary cellulite appearance improvement.",
+    "limitations": "Indication wording does not guarantee results, a universal dose or equal competitor labeling. Database also checked: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170758",
+    "rights": "Public regulator filing;live PDF.",
+    "usedIn": [
+      "doc17",
+      "doc6",
+      "professional visualizer",
+      "doc14"
+    ],
+    "local": "source_docs/FDA_K170758_Thermage_FLX.pdf",
+    "sha256": "ffacfb2685f18f22288e28be78fd4598124bc89fc7bb2de31745c7d6f487d2be"
+  },
+  {
+    "id": "T09",
+    "title": "FDA Oligio K221989, cleared2022-10-13",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf22/K221989.pdf",
+    "accessed": "2026-10-02",
+    "sourceClass": "primary regulatory",
+    "keyRecord": "Monopolar 6.78 MHz, 145 W maximum; cooling gas; FLX predicate. Intended use: dermatologic/general surgical electrocoagulation/hemostasis.",
+    "limitations": "Not a human Thermage comparison. Does not establish revised Oligio X/Kiss equivalence.",
+    "rights": "Public regulator filing; initial request blocked, useragent retry livePDF.",
+    "usedIn": [
+      "doc17",
+      "doc6",
+      "professional visualizer",
+      "doc14"
+    ],
+    "local": "source_docs/FDA_K221989_Oligio.pdf",
+    "sha256": "a6796b1190298a0800abda063f5cf86e8edb176ad0236117186241e659b8be57"
+  },
+  {
+    "id": "T10",
+    "title": "Oku Density Mono-Bi CrossLIFT; PMID41090512; PMC12522179; DOI10.1111/jocd.70504",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41090512/",
+    "accessed": "2026-10-02",
+    "sourceClass": "peer-reviewed human",
+    "keyRecord": "16 adults aged 36–59, Fitzpatrick II–IV; one session; 24 weeks; 3D imaging. Tightening: abstract 0.82±0.36 mm, body SD 0.34. GAIS improved in 15/16; pain 1.4±0.6/5; no severe adverse events. Single author declared no conflicts.",
+    "limitations": "Uncontrolled; protocol-specific imaging does not quantify collagen or fat loss. No Thermage comparison.",
+    "rights": "CC BY4.0 OA transcription with attribution.",
+    "usedIn": [
+      "doc17",
+      "doc6",
+      "professional visualizer",
+      "doc14"
+    ],
+    "local": "source_docs/PMC12522179_Density_2025_BioC.xml",
+    "sha256": "d5c9c354c93017de63b1d705a79ac980402af151ac59528df3d47e032ba4b6ef"
+  },
+  {
+    "id": "T11",
+    "title": "Volnewmer versus Thermage CPT registry NCT06657365",
+    "url": "https://clinicaltrials.gov/study/NCT06657365",
+    "accessed": "2026-10-02",
+    "sourceClass": "primary registry",
+    "keyRecord": "Official API snapshot October 2, 2026: COMPLETED; completion July 3, 2025; last update posted May 4, 2026; no resultsSection. API: https://clinicaltrials.gov/api/v2/studies/NCT06657365",
+    "limitations": "Registration/status is not an outcome. Different record from the published 2025 FLX split-face trial.",
+    "rights": "Official registry metadata snapshot.",
+    "usedIn": [
+      "doc17",
+      "doc6",
+      "professional visualizer",
+      "doc14"
+    ],
+    "local": "source_docs/Volnewmer_CPT_NCT06657365_2026-10-02.json",
+    "sha256": "ab5632616c17eb3817606a804799ee0f8fa4eeb6bca513edfb3f46ec84e541f8"
+  },
+  {
+    "id": "T12",
+    "title": "FDA RF microneedling safety communication,2025-10-15",
+    "url": "https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication",
+    "accessed": "2026-10-02",
+    "sourceClass": "primary regulatory",
+    "keyRecord": "FDA reports burns, scarring, fat loss, disfigurement and nerve damage with certain RF microneedling uses; medical procedure; not for home use; seek a licensed trained provider. Evaluation ongoing. Existing R21 reused.",
+    "limitations": "Microneedling-specific communication; does not establish all noninvasive RF risks, incidence or a causal device ranking.",
+    "rights": "Regulatory support note;canonical live page.",
+    "usedIn": [
+      "doc17",
+      "doc6",
+      "professional visualizer",
+      "doc14"
+    ]
+  }
+]

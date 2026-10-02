@@ -52,7 +52,7 @@ Within-tier order is not a clinical league table. Price, prestige, watts and MHz
 |---|---|---|
 | **Thermage CPT / FLX lineage** | Professional cooled-monopolar reference lane for tightening assessment | Exact generation matters; the 2026 randomized comparator used **CPT**, not FLX. Not a home-device upgrade. [[18]](https://link.springer.com/article/10.1007/s10103-026-04841-4) |
 | **YOUMAGIC** | 2026 assessor-blinded randomized non-inferiority trial versus CPT; 230 enrolled / 212 analyzed, six months. Useful platform evidence. [[18]](https://link.springer.com/article/10.1007/s10103-026-04841-4) | Active control, retrospective registration and manufacturer-provided device support; not superiority or a collagen-growth assay |
-| **Volnewmer, continuous-water-cooled monopolar RF** | 22-woman single-arm contour study with separate ex-vivo human and porcine collagen endpoints. Promising translational work. [[19]](https://pubmed.ncbi.nlm.nih.gov/42352889/) | Animal collagen staining is not quantified human collagen gain or proof for a home handset |
+| **Volnewmer, continuous-water-cooled monopolar RF** | 2025 randomized split-face FLX comparison in 22 women / eight weeks; similar short-term lifting and lower pain. [Primary trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC12715870/). Separate 2026 single-arm/mechanism study retained. [[19]](https://pubmed.ncbi.nlm.nih.gov/42352889/) | Animal collagen staining is not quantified human collagen gain or proof for a home handset |
 | **RF microneedling: Morpheus8 / Potenza / Genius / related** | Indication-specific professional procedures for scars/texture; not a default stronger wand | FDA warns of serious complications and says not for home use. [[20]](https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication) |
 
 For substantial laxity, acne scars or a larger intervention, seek a clinician assessment rather than chasing a home frequency/power upgrade. No valid conversion equates home sessions with one Thermage treatment.
@@ -94,3 +94,7 @@ A current-model sham-controlled trial, valid durability follow-up, direct human 
 18. [2026 YOUMAGIC/CPT randomized trial](https://link.springer.com/article/10.1007/s10103-026-04841-4) — professional platform comparison; R19.
 19. [2026 water-cooled RF study, PMID 42352889](https://pubmed.ncbi.nlm.nih.gov/42352889/) — human contour/preclinical matrix endpoints; R20.
 20. [FDA RF microneedling communication](https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication) — professional boundary; R21.
+
+## Professional service substitution update
+
+The [Thermage-equivalence shortlist](index.html#doc17) compares Volnewmer, YOUMAGIC, XERF, Oligio and Density using human evidence, exact Thermage generation and local labeling. These service grades are independent of home grades; no home device has demonstrated Thermage equivalence.
