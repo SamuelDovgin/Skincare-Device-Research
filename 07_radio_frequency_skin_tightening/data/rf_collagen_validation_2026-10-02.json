@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-02",
+  "topic": "RF collagen evidence/tier visualizer",
+  "browser_checks": [
+    {
+      "mode": "served",
+      "width": 1440,
+      "checks": "filters, empty state, sources, rendered docs5/10/11/13/14/15/16, sidebar, no visible md links, overflow, no page errors"
+    },
+    {
+      "mode": "served",
+      "width": 390,
+      "checks": "filters, empty state, sources, rendered docs5/10/11/13/14/15/16, sidebar, no visible md links, overflow, no page errors"
+    },
+    {
+      "mode": "disk",
+      "width": 1440,
+      "checks": "filters, empty state, sources, rendered docs5/10/11/13/14/15/16, sidebar, no visible md links, overflow, no page errors"
+    },
+    {
+      "mode": "disk",
+      "width": 390,
+      "checks": "filters, empty state, sources, rendered docs5/10/11/13/14/15/16, sidebar, no visible md links, overflow, no page errors"
+    }
+  ],
+  "model_checks": [
+    "24 evidence/search filter combinations",
+    "source IDs and required endpoints",
+    "JSON/JS agreement",
+    "empty shortlist handling",
+    "clinical/control intersection",
+    "no frequency promotion"
+  ],
+  "topic_audit": "0 broken links, 0 warnings",
+  "rendered_policy": "passed",
+  "citation_features": "up to date",
+  "whole_site_audit": {
+    "rf_topic": "clean",
+    "unrelated_errors": [
+      "paper-discovery.html references missing paper-discovery.js",
+      "24_asian_devices_and_collagen_remodelling/07_source_library.md references missing source_docs/YAMAN_Bloom 6_2026-10-02.html"
+    ],
+    "note": "Other working-tree topic work is ongoing; no unrelated source/UI changes made."
+  },
+  "visual_review": "Desktop and mobile screenshots inspected; no overlapping text or body horizontal overflow."
+}

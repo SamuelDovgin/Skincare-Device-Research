@@ -1,0 +1,403 @@
+JAPANESE / ASIAN DEVICES AND COLLAGEN REMODELLING — RESEARCH RECOVERY LOG
+Access date: 2026-10-02, America/Chicago
+Scope: representative Japan/East-Asia products and a cross-category human evidence comparison. Not a systematic review, Asia-wide census, market-share survey or dose prescription.
+Record types: original regulatory/product captures, Europe PMC metadata/abstracts, URL-only journal records and local archive inputs.
+Search provenance: PubMed/PMC for RF, microneedling, LED and focused-ultrasound studies; official Japanese, Korean and Chinese brand pages; FDA safety/clearance documents. Search results and secondary discovery pages were leads, not efficacy evidence.
+Metadata fallback: direct PubMed requests for26096653/39960921 yielded empty/blocked pages; Europe PMC MED records supplied the primary bibliographic identities/abstracts.
+Important correction: PMID39960921 is Park SH/Park SO/Jung JA, not the generic Park KY attribution in the prior archive.
+Publication type caution:34287975 has an RCT database tag but its abstract states open-label intraindividual-controlled methods and porcine histology.
+
+[S01] FDA NEWA De Novo review — DEN150005
+URL: https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN150005.pdf
+Accessed: 2026-10-02 (America/Chicago)
+Class: primary regulatory
+Used in: 03_human_evidence_ledger.md, 01_which_technology_is_best.md, README.md, 06_selection_and_realistic_expectations.md
+Supports / key record / finding: 69 enrolled; 62 completed; 59/62 met blinded wrinkle responder criterion. Home-use single-center study without sham. Original model only.
+Limits: Wrinkle endpoint is not human collagen biopsy or sham-adjusted success probability; no modern-brand superiority.
+Local preservation: source_docs/FDA_NEWA_DEN150005.pdf (application/pdf; captured2026-10-02; sha256 862a7d812869eacbdda05ef0102e9dea7a7709d4d16a906b8468b6d761655096)
+Status/recheck: captured. Official product claims are dated snapshots; verify exact regional model, manual and stock before purchase.
+
+[S02] El-Domyati et al. RF facial rejuvenation — PMID21315951
+URL: https://pubmed.ncbi.nlm.nih.gov/21315951/
+Accessed: 2026-10-02 (America/Chicago)
+Class: peer-reviewed human
+Used in: 03_human_evidence_ledger.md, 01_which_technology_is_best.md, README.md, 06_selection_and_realistic_expectations.md, 02_mechanisms_and_endpoints.md
+Supports / key record / finding: Six participants, types III-IV, six professional RF sessions over three months; biopsies showed increased collagen I/III and newly synthesized collagen.
+Limits: Small uncontrolled study, professional hardware; cannot quantify home results or comparative superiority.
+Local preservation: source_docs/S02_pubmed_metadata.json (application/json;charset=UTF-8; captured2026-10-02; sha256 9696597947e1e17ab8e0ec00ac377975bb4d0f17d0b4ffa1a7c8a3fb8b0773c5)
+Status/recheck: captured. Official product claims are dated snapshots; verify exact regional model, manual and stock before purchase.
+
+[S03] El-Domyati et al. Multiple microneedling sessions — PMID26096653
+URL: https://pubmed.ncbi.nlm.nih.gov/26096653/
+Accessed: 2026-10-02 (America/Chicago)
+Class: peer-reviewed human
+Used in: 03_human_evidence_ledger.md, 01_which_technology_is_best.md, README.md, 06_selection_and_realistic_expectations.md, 02_mechanisms_and_endpoints.md
+Supports / key record / finding: Ten participants, types III-IV, six sessions at two-week intervals. Biopsies at baseline, one and three months; collagen I/III/VII and new collagen increased.
+Limits: Small uncontrolled cohort, no direct energy-device comparison; professional needling data do not validate superficial home rollers.
+Local preservation: source_docs/S03_pubmed_metadata.json (application/json;charset=UTF-8; captured2026-10-02; sha256 dcced3d862aeb9abe2184d0f96c1b6c15dccaf8bc94860b5a9dddd9164a3118d)
+Status/recheck: captured. Official product claims are dated snapshots; verify exact regional model, manual and stock before purchase.
+
+[S04] Lee et al. Sham-controlled LED rejuvenation — PMID17566756
+URL: https://pubmed.ncbi.nlm.nih.gov/17566756/
+Accessed: 2026-10-02 (America/Chicago)
+Class: peer-reviewed human
+Used in: 03_human_evidence_ledger.md, 01_which_technology_is_best.md, README.md, 06_selection_and_realistic_expectations.md, 02_mechanisms_and_endpoints.md
+Supports / key record / finding: 76 participants; 633nm, 830nm, combined or sham; twice weekly for four weeks, three-month follow-up. Wrinkle, elasticity and histology signals.
+Limits: Older study/platform; baseline maxima are not average sham-adjusted results for retail masks. Funding not extracted from abstract.
+Local preservation: source_docs/S04_pubmed_metadata.json (application/json;charset=UTF-8; captured2026-10-02; sha256 58eecc78da695831084b34c75f63ae6304ad19c71983055b905fc2de50157821)
+Status/recheck: captured. Official product claims are dated snapshots; verify exact regional model, manual and stock before purchase.
+
+[S05] Wunsch and Matuschka controlled red/NIR trial — PMC3926176
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC3926176/
+Accessed: 2026-10-02 (America/Chicago)
+Class: peer-reviewed human
+Used in: 03_human_evidence_ledger.md, 02_mechanisms_and_endpoints.md
+Supports / key record / finding: 136 included,128 completed; broad-spectrum lamps,30 sessions. Ultrasound collagen-density proxy and wrinkle/roughness improvements; no severe adverse events recorded.
+Limits: Non-sham control, commercial involvement, ultrasound proxy rather than biopsy; lamps were not modern LED masks.
+Local preservation: source_docs/S05_pubmed_metadata.json (application/json;charset=UTF-8; captured2026-10-02; sha256 21ee46e57277d9789361766fc6e0788805126cdf9450d640690b67b043c8deec)
+Status/recheck: captured. Official product claims are dated snapshots; verify exact regional model, manual and stock before purchase.
+
+[S06] Park SH, Park SO, Jung JA home LED/IRED crow's-feet trial — PMID39960921
+URL: https://pubmed.ncbi.nlm.nih.gov/39960921/
+Accessed: 2026-10-02 (America/Chicago)
+Class: peer-reviewed human
+Used in: 03_human_evidence_ledger.md, 01_which_technology_is_best.md, 05_korea_china_and_regional_focus.md, README.md, 06_selection_and_realistic_expectations.md, 02_mechanisms_and_endpoints.md
+Supports / key record / finding: 60 Asian-descent participants, types II-V; multicenter randomized double-blind sham comparison of630/850nm home mask over16weeks. Wrinkle-grade differences at8,12,16weeks.
+Limits: Crow's-feet endpoint, not collagen biopsy or general face lift. Abstract uses anomalous mW/cm3 unit: not used as a dosing prescription. Conflicts require full-text extraction.
+Local preservation: source_docs/S06_pubmed_metadata.json (application/json;charset=UTF-8; captured2026-10-02; sha256 c6a6ab4205afc44088ba370d480d5c8bbeb38325f5bd03e65171df721f873c48)
+Status/recheck: captured. Official product claims are dated snapshots; verify exact regional model, manual and stock before purchase.
+
+[S07] Suh et al. Focused ultrasound in Asian skin — PMID21806707
+URL: https://pubmed.ncbi.nlm.nih.gov/21806707/
+Accessed: 2026-10-02 (America/Chicago)
+Class: peer-reviewed human
+Used in: 03_human_evidence_ledger.md, 01_which_technology_is_best.md, 05_korea_china_and_regional_focus.md, README.md, 06_selection_and_realistic_expectations.md, 02_mechanisms_and_endpoints.md
+Supports / key record / finding: 22 Korean patients, one professional focused-ultrasound treatment;11 biopsied at baseline/two months. Clinical and dermal-collagen signals.
+Limits: Uncontrolled; small sample cannot establish uncommon-harm incidence; no consumer-HIFU equivalence.
+Local preservation: source_docs/S07_pubmed_metadata.json (application/json;charset=UTF-8; captured2026-10-02; sha256 e2ade9d169cbb233aae87347c1fd1e92ec46a843177060e7e78718efc009164c)
+Status/recheck: captured. Official product claims are dated snapshots; verify exact regional model, manual and stock before purchase.
+
+[S08] Werschler and Werschler MFU-V pilot — PMID27047630
+URL: https://pubmed.ncbi.nlm.nih.gov/27047630/
+Accessed: 2026-10-02 (America/Chicago)
+Class: peer-reviewed human
+Used in: 03_human_evidence_ledger.md, 01_which_technology_is_best.md, 02_mechanisms_and_endpoints.md
+Supports / key record / finding: 20-person open-label pilot, assessments90/180days/one year. At one year6/14 evaluable subjects improved on blinded assessment despite high subjective ratings.
+Limits: Small uncontrolled pilot; attrition and assessor disagreement; protocol and device-specific.
+Local preservation: source_docs/S08_pubmed_metadata.json (application/json;charset=UTF-8; captured2026-10-02; sha256 c6fdbf769a5ef05562545f0adfd05e6d5737ea581af63f787a8a7cdee3a744ab)
+Status/recheck: captured. Official product claims are dated snapshots; verify exact regional model, manual and stock before purchase.
+
+[S09] Kauvar and Gershonowitz fractional RF pins — PMID34287975
+URL: https://pubmed.ncbi.nlm.nih.gov/34287975/
+Accessed: 2026-10-02 (America/Chicago)
+Class: peer-reviewed human
+Used in: 03_human_evidence_ledger.md, 01_which_technology_is_best.md, 02_mechanisms_and_endpoints.md
+Supports / key record / finding: Nine participants, six sessions, typesII-IV; wrinkle score4.33to3.33 three months later. Histology was porcine, not a human biopsy endpoint.
+Limits: Open-label intraindividual design despite PubMed RCT tag; manufacturer affiliation/sponsor involvement; no adverse events in nine cannot exclude rare harm.
+Local preservation: source_docs/S09_pubmed_metadata.json (application/json;charset=UTF-8; captured2026-10-02; sha256 fbf0b0dc56015e232e54ff663bd45f6113a8ad9e921396bb95d1e04f3796cb4d)
+Status/recheck: captured. Official product claims are dated snapshots; verify exact regional model, manual and stock before purchase.
+
+[S10] FDA RF microneedling safety communication — issued2025-10-15
+URL: https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication
+Accessed: 2026-10-02 (America/Chicago)
+Class: primary regulatory
+Used in: 03_human_evidence_ledger.md, 01_which_technology_is_best.md, README.md, 06_selection_and_realistic_expectations.md, 02_mechanisms_and_endpoints.md
+Supports / key record / finding: Reports include burns, scarring, fat loss, disfigurement and nerve damage; FDA states these devices should not be used at home.
+Limits: Reports do not supply comparative incidence; communication concerns certain uses of RF microneedling, not a blanket finding about every surface RF device.
+Local preservation: source_docs/FDA_RF_microneedling_warning_2026-10-02.html (text/html; charset=UTF-8; captured2026-10-02; sha256 66f81e33a56495217281f9c53fe9e8155a3c991fb63e009e8f7c0357c42a3bc9)
+Status/recheck: captured. Official product claims are dated snapshots; verify exact regional model, manual and stock before purchase.
+
+[S11] Bu et al. YA-MAN/Jmoon home-device trial — PMID40099405
+URL: https://pubmed.ncbi.nlm.nih.gov/40099405/
+Accessed: 2026-10-02 (America/Chicago)
+Class: peer-reviewed human
+Used in: 03_human_evidence_ledger.md, 05_korea_china_and_regional_focus.md, 04_japanese_devices_and_priorities.md
+Supports / key record / finding: 90 randomized,80 completed, four-week bundled home-device study with power-free control; imaging and wrinkle/texture/laxity signals. No physical-health improvement.
+Limits: Short follow-up, sensory mismatch, multiple modes plus gel and meridian technique; no collagen biopsy or established mapping to current retail SKUs.
+Local preservation: source_docs/S11_pubmed_metadata.json (application/json;charset=UTF-8; captured2026-10-02; sha256 c9e645074ee5ddd39c48b0641b711814c989fef56bb8221bd23c6387358fc3c0)
+Status/recheck: captured. Official product claims are dated snapshots; verify exact regional model, manual and stock before purchase.
+
+[S12] Shu et al. Home RF randomized split-face trial — DOI10.1007/s13555-022-00697-y
+URL: https://link.springer.com/article/10.1007/s13555-022-00697-y
+Accessed: 2026-10-02 (America/Chicago)
+Class: peer-reviewed human
+Used in: 03_human_evidence_ledger.md, 04_japanese_devices_and_priorities.md
+Supports / key record / finding: 33 enrolled,32 completed,12weeks;1MHz bipolar RF plus630nm LED and gel versus a different cosmetic. Wrinkle/thickness signals, no significant between-side hydration/elasticity difference.
+Limits: Unmatched topical comparator, unnamed retail model in primary methods; publication fee supported by Ecolite; does not isolate RF.
+Local preservation: URL-only — no lawful local copy available in this topic.
+Status/recheck: URL-only; no full-text copy made. Official product claims are dated snapshots; verify exact regional model, manual and stock before purchase.
+
+[S13] Panasonic EH-SR90 RF LUXE official features
+URL: https://panasonic.jp/face/products/EH-SR90/feature.html
+Accessed: 2026-10-02 (America/Chicago)
+Class: official product
+Used in: 03_human_evidence_ledger.md, 01_which_technology_is_best.md, 06_selection_and_realistic_expectations.md, 02_mechanisms_and_endpoints.md, 04_japanese_devices_and_priorities.md
+Supports / key record / finding: 1-6MHz modulated RF, dual EMS, red LED, ion modes; separate definitions for appearance, muscle-training lift and upward movement. Bench vitamin-C/glycerin uptake comparison.
+Limits: Manufacturer tests and mode descriptions do not show superior human collagen production versus other brands or isolate RF.
+Local preservation: source_docs/Panasonic_SR90_features_2026-10-02.html (text/html;charset=utf-8; captured2026-10-02; sha256 1d3a42bf8e4ca142c166e563adf50984cba92190c916c7525d7dff8a9e634332)
+Status/recheck: captured. Official product claims are dated snapshots; verify exact regional model, manual and stock before purchase.
+
+[S14] YA-MAN Bloom6 — YJFS16PN1 official specifications
+URL: https://www.ya-man.com/en/products/bloom-6.php
+Accessed: 2026-10-02 (America/Chicago)
+Class: official product
+Used in: 03_human_evidence_ledger.md, 01_which_technology_is_best.md, 06_selection_and_realistic_expectations.md, 02_mechanisms_and_endpoints.md, 04_japanese_devices_and_priorities.md
+Supports / key record / finding: 0.5-2.5MHz RF, five-layer ring, resistance-factor feedback, contact sensing, EMS and redLED; country-of-origin Japan stated for this model.
+Limits: Marketing warmth comparisons, not validated universal treatment depth or superiority; inconsistent5/6minute summary wording requires exact IFU.
+Local preservation: source_docs/YAMAN_Bloom6_2026-10-02.html (text/html; captured2026-10-02; sha256 4bbe8cd8c2ef9a855aec5a9bc8669296a81a807de791a77e4e1f4cd0d16128d0)
+Status/recheck: captured. Official product claims are dated snapshots; verify exact regional model, manual and stock before purchase.
+
+[S15] Medicube AGE-R Ultra Tune40.68 official US page
+URL: https://medicube.us/products/age-r-ultra-tune-40-68
+Accessed: 2026-10-02 (America/Chicago)
+Class: official product
+Used in: 03_human_evidence_ledger.md, 01_which_technology_is_best.md, 05_korea_china_and_regional_focus.md, 06_selection_and_realistic_expectations.md
+Supports / key record / finding: RF+microcurrent; line/elasticity focus; six-contact activation and continuous movement instruction; brand application-test percentages.
+Limits: No complete controlled human collagen study supplied on reviewed page;40.68MHz number is not proof of superiority; regional IFU controls.
+Local preservation: source_docs/Medicube_UltraTune_2026-10-02.html (text/html; charset=utf-8; captured2026-10-02; sha256 dce59e7b0296fc354c58256d3d88e564202fcc304d6c37cf7e5af2798ee4ebb0)
+Status/recheck: captured. Official product claims are dated snapshots; verify exact regional model, manual and stock before purchase.
+
+[S16] Medicube original Booster Pro official US page
+URL: https://medicube.us/products/age-r-booster-pro
+Accessed: 2026-10-02 (America/Chicago)
+Class: official product
+Used in: 01_which_technology_is_best.md, 05_korea_china_and_regional_focus.md, 06_selection_and_realistic_expectations.md, 02_mechanisms_and_endpoints.md
+Supports / key record / finding: Delivery, microcurrent/EMS, Air Shot, LED and vibration multimode platform; glow/uptake focus.
+Limits: Original Booster Pro must be distinguished from later X2 and Ultra Tune; uptake tests do not measure durable collagen remodelling.
+Local preservation: source_docs/Medicube_BoosterPro_2026-10-02.html (text/html; charset=utf-8; captured2026-10-02; sha256 0f37ec9990f0bdb570612fc00db455a17c3202336b9fec9f21874f74fb017cb9)
+Status/recheck: captured. Official product claims are dated snapshots; verify exact regional model, manual and stock before purchase.
+
+[S17] ARTISTIC&CO ZeusIV launch —2025-05-31
+URL: https://artistic.co.jp/zeus4-news/
+Accessed: 2026-10-02 (America/Chicago)
+Class: official product
+Used in: 06_selection_and_realistic_expectations.md, 02_mechanisms_and_endpoints.md, 04_japanese_devices_and_priorities.md
+Supports / key record / finding: Describes EMS, HEAT, LED and MFIP integrated by treatment algorithm.
+Limits: HEAT does not by itself establish RF; proprietary pulse names and price are not a collagen trial.
+Local preservation: source_docs/Artistic_ZeusIV_2026-10-02.html (text/html; charset=UTF-8; captured2026-10-02; sha256 45abbeb67752734bccf5eca0f8972a10e64e0a2ee6ee15eafe247d7a35aef693)
+Status/recheck: captured. Official product claims are dated snapshots; verify exact regional model, manual and stock before purchase.
+
+[S18] ReFa CARAT LIFT official English page
+URL: https://www.refa.net/en/item/refa_carat_lift/
+Accessed: 2026-10-02 (America/Chicago)
+Class: official product
+Used in: 01_which_technology_is_best.md, 02_mechanisms_and_endpoints.md, 04_japanese_devices_and_priorities.md
+Supports / key record / finding: EMS-equipped microcurrent roller platform; rolling and facial muscle stimulation focus.
+Limits: Cannot import RF evidence from another ReFa model into a roller, or infer human collagen synthesis from muscle contraction.
+Local preservation: source_docs/ReFa_CaratLift_2026-10-02.html (text/html; charset=UTF-8; captured2026-10-02; sha256 9a23450e71e86a73e29eb58d86227ff1f7d0791539db7c95a0c153c8341eb19a)
+Status/recheck: captured. Official product claims are dated snapshots; verify exact regional model, manual and stock before purchase.
+
+[S19] ReFa BEAUTECH RAISE regional official page
+URL: https://refa.com.sg/pages/re-aa02a
+Accessed: 2026-10-02 (America/Chicago)
+Class: official product
+Used in: 02_mechanisms_and_endpoints.md, 04_japanese_devices_and_priorities.md
+Supports / key record / finding: RF-Wpulse bundles RF, sonic and PI pulses; serum-compatible routine platform.
+Limits: Regional model; proprietary naming does not establish comparative delivery or collagen benefit.
+Local preservation: source_docs/ReFa_Raise_2026-10-02.html (text/html; charset=utf-8; captured2026-10-02; sha256 91a3f2c15330169e9df237993ea5f37f79e9489054abfb0eb5fb66add806b440)
+Status/recheck: captured. Official product claims are dated snapshots; verify exact regional model, manual and stock before purchase.
+
+[S20] LG Pra.L Hong Kong lineup announcement —2024
+URL: https://www.lg.com/hk_en/about-lg/press-and-media/lg-pra-l-2024/
+Accessed: 2026-10-02 (America/Chicago)
+Class: official product
+Used in: 05_korea_china_and_regional_focus.md, 02_mechanisms_and_endpoints.md
+Supports / key record / finding: Separate Dermathera ultrasound, multi-energy care and LED/delivery lanes; Dermathera angle-sensing safeguard described.
+Limits: 2024 regional announcement is not verified2026 global availability; ultrasound modes must be assessed by model.
+Local preservation: URL-only — no lawful local copy available in this topic.
+Status/recheck: capture failed: HTTP Error 403: Forbidden. Official product claims are dated snapshots; verify exact regional model, manual and stock before purchase.
+
+[S21] FDA LG Pra.L Derma LED Mask — K183671
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf18/K183671.pdf
+Accessed: 2026-10-02 (America/Chicago)
+Class: primary regulatory
+Used in: 03_human_evidence_ledger.md, 05_korea_china_and_regional_focus.md, 06_selection_and_realistic_expectations.md
+Supports / key record / finding: Regulatory device description and wrinkle indication for the specific LED mask.
+Limits: 510(k) is not proof all LG products have equal outcomes, or a head-to-head superiority finding.
+Local preservation: source_docs/FDA_LG_LED_K183671.pdf (application/pdf; captured2026-10-02; sha256 d0a2aea4cff7a2afb82db4074dcdfd703a7eabe6973656c68e882fe1190ea849)
+Status/recheck: captured. Official product claims are dated snapshots; verify exact regional model, manual and stock before purchase.
+
+[S22] AMIRO R1 PRO official global product page
+URL: https://amirobeauty.com/en-gb/products/amiro-high-radiofrequency-skincare-device
+Accessed: 2026-10-02 (America/Chicago)
+Class: official product
+Used in: 05_korea_china_and_regional_focus.md, 06_selection_and_realistic_expectations.md, 02_mechanisms_and_endpoints.md
+Supports / key record / finding: RF, EMS/microcurrent-labelled mode, red/NIR and temperature-control marketing;3mm depth and percentage claims.
+Limits: Claims not independently verified;3mm not a measured uniform map; regional price/SKU discrepancies; no grade based on customer stars.
+Local preservation: source_docs/AMIRO_R1PRO_2026-10-02.html (text/html; charset=utf-8; captured2026-10-02; sha256 756fd0f7d7bbad6309d2c2955807339419740e58f8866ef0d06ba1a8ed42697e)
+Status/recheck: captured. Official product claims are dated snapshots; verify exact regional model, manual and stock before purchase.
+
+[S23] Jmoon official model2 specification page
+URL: https://jmoonbeauty.com/model2.html
+Accessed: 2026-10-02 (America/Chicago)
+Class: official product
+Used in: 05_korea_china_and_regional_focus.md, 06_selection_and_realistic_expectations.md
+Supports / key record / finding: Reviewed model lists0.8-2.7MHz RF and red/green/orange light; multi-mode contour/eye/face focus.
+Limits: Cannot equate this catalog model with2025 trial hardware or translate collagen-light nickname into proven collagen synthesis.
+Local preservation: source_docs/Jmoon_model2_2026-10-02.html (text/html; charset=UTF-8; captured2026-10-02; sha256 2290235867df6e4328de9e58412277545ea3abacfdeab39a0df115038ceb193b)
+Status/recheck: captured. Official product claims are dated snapshots; verify exact regional model, manual and stock before purchase.
+
+[S24] FDA CurrentBody Skin RF — K232424
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf23/K232424.pdf
+Accessed: 2026-10-02 (America/Chicago)
+Class: primary regulatory
+Used in: 03_human_evidence_ledger.md, 01_which_technology_is_best.md, README.md, 06_selection_and_realistic_expectations.md, 02_mechanisms_and_endpoints.md
+Supports / key record / finding: 1MHz bipolar RF and40.5plus/minus0.5C regulation; bench/substantial-equivalence evidence.
+Limits: No new subject-device controlled clinical superiority; disclosed controls are documentation strength, not effect-size ranking.
+Local preservation: source_docs/FDA_CurrentBody_K232424.pdf (application/pdf; captured2026-10-02; sha256 d9577b79e4d9f7ae1d6b4603cb9807bdb585aab245cf01364cac96f4737b7171)
+Status/recheck: captured. Official product claims are dated snapshots; verify exact regional model, manual and stock before purchase.
+
+[S25] FDA Sensilift Pro — K250341
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250341.pdf
+Accessed: 2026-10-02 (America/Chicago)
+Class: primary regulatory
+Used in: 03_human_evidence_ledger.md, 01_which_technology_is_best.md, 06_selection_and_realistic_expectations.md, 02_mechanisms_and_endpoints.md
+Supports / key record / finding: 1MHz bipolar platform, redundant thermistors and40plus/minus0.5C regulation in archive extraction.
+Limits: No new subject-device clinical comparison; confirm model-specific indication/exclusions.
+Local preservation: source_docs/FDA_SensiliftPro_K250341.pdf (application/pdf; captured2026-10-02; sha256 5c64ca21c04e9b18b3c915507e0577cfcd18f4e73109fa74e5d882711173f893)
+Status/recheck: captured. Official product claims are dated snapshots; verify exact regional model, manual and stock before purchase.
+
+[S26] FDA Sofwave lifting indications — K211483
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf21/K211483.pdf
+Accessed: 2026-10-02 (America/Chicago)
+Class: primary regulatory
+Used in: 01_which_technology_is_best.md, 02_mechanisms_and_endpoints.md
+Supports / key record / finding: Professional ultrasound, eyebrow/submental/neck indications and clinical-performance summary; different geometry from deep MFU.
+Limits: Not an OTC home ultrasound template; indications differ by filing and body site.
+Local preservation: source_docs/FDA_Sofwave_K211483.pdf (application/pdf; captured2026-10-02; sha256 a8169db507122ba2697d070fc78b17cba4a883d83458ac46627bd5bff2bf67f7)
+Status/recheck: captured. Official product claims are dated snapshots; verify exact regional model, manual and stock before purchase.
+
+[S27] Local archive: README.md
+URL/path: README.md
+Accessed: 2026-10-02
+Class: local archive
+Used in: scope, all guide crosswalks, viewer/routing design
+Supports: existing findings and user workflow; primary external claims rechecked where applicable.
+Key record: local source, no new study design or effect estimate.
+Limits: prior extraction is not new clinical evidence or current stock verification.
+Local preservation: existing repository file; sha256 8efbd8b0c7c612d0afa1dc23f827c80e03ef973112b0ac5c4604bcc721936062
+Status/recheck: in-progress unrelated changes preserved; external product claims may change.
+
+[S28] Local archive: index.html
+URL/path: index.html
+Accessed: 2026-10-02
+Class: local archive
+Used in: scope, all guide crosswalks, viewer/routing design
+Supports: existing findings and user workflow; primary external claims rechecked where applicable.
+Key record: local source, no new study design or effect estimate.
+Limits: prior extraction is not new clinical evidence or current stock verification.
+Local preservation: existing repository file; sha256 86fa01512694d8ddc18e9664c77d0e5659b8e7e3d23ce5d73768113d93addacb
+Status/recheck: in-progress unrelated changes preserved; external product claims may change.
+
+[S29] Local archive: 07_radio_frequency_skin_tightening/13_frequency_temperature_and_clinical_research.md
+URL/path: 07_radio_frequency_skin_tightening/13_frequency_temperature_and_clinical_research.md
+Accessed: 2026-10-02
+Class: local archive
+Used in: scope, all guide crosswalks, viewer/routing design
+Supports: existing findings and user workflow; primary external claims rechecked where applicable.
+Key record: local source, no new study design or effect estimate.
+Limits: prior extraction is not new clinical evidence or current stock verification.
+Local preservation: existing repository file; sha256 837ffa4af728b0fb4470095b80efe1429cb135e9d9735d111c475afa4baa9dcb
+Status/recheck: in-progress unrelated changes preserved; external product claims may change.
+
+[S30] Local archive: 07_radio_frequency_skin_tightening/15_home_rf_specification_blueprint.md
+URL/path: 07_radio_frequency_skin_tightening/15_home_rf_specification_blueprint.md
+Accessed: 2026-10-02
+Class: local archive
+Used in: scope, all guide crosswalks, viewer/routing design
+Supports: existing findings and user workflow; primary external claims rechecked where applicable.
+Key record: local source, no new study design or effect estimate.
+Limits: prior extraction is not new clinical evidence or current stock verification.
+Local preservation: existing repository file; sha256 e6e0406c25e41d7145626dea1c49c85eca2b44da05578f8826711a481bf31883
+Status/recheck: in-progress unrelated changes preserved; external product claims may change.
+
+[S31] Local archive: 23_skincare_penetration_technologies/07_final_recommendation.md
+URL/path: 23_skincare_penetration_technologies/07_final_recommendation.md
+Accessed: 2026-10-02
+Class: local archive
+Used in: scope, all guide crosswalks, viewer/routing design
+Supports: existing findings and user workflow; primary external claims rechecked where applicable.
+Key record: local source, no new study design or effect estimate.
+Limits: prior extraction is not new clinical evidence or current stock verification.
+Local preservation: existing repository file; sha256 d9b15124117e93808abaf483ecd599bd4dc3e5dc7bfc2c9c2c652c99aa9b8292
+Status/recheck: in-progress unrelated changes preserved; external product claims may change.
+
+[S32] Local archive: 23_skincare_penetration_technologies/company_refa.md
+URL/path: 23_skincare_penetration_technologies/company_refa.md
+Accessed: 2026-10-02
+Class: local archive
+Used in: scope, all guide crosswalks, viewer/routing design
+Supports: existing findings and user workflow; primary external claims rechecked where applicable.
+Key record: local source, no new study design or effect estimate.
+Limits: prior extraction is not new clinical evidence or current stock verification.
+Local preservation: existing repository file; sha256 14fe4a0a147141e49f26a2646873bc4b583c4b8dbeda8502ae89041c17093ea0
+Status/recheck: in-progress unrelated changes preserved; external product claims may change.
+
+[S33] Local archive: 23_skincare_penetration_technologies/company_artistic.md
+URL/path: 23_skincare_penetration_technologies/company_artistic.md
+Accessed: 2026-10-02
+Class: local archive
+Used in: scope, all guide crosswalks, viewer/routing design
+Supports: existing findings and user workflow; primary external claims rechecked where applicable.
+Key record: local source, no new study design or effect estimate.
+Limits: prior extraction is not new clinical evidence or current stock verification.
+Local preservation: existing repository file; sha256 059043ff21a278863a677266866e43200c8b9528b853b16380b7e9c0bcd50cea
+Status/recheck: in-progress unrelated changes preserved; external product claims may change.
+
+[S34] Local archive: 23_skincare_penetration_technologies/build_viewer.cjs
+URL/path: 23_skincare_penetration_technologies/build_viewer.cjs
+Accessed: 2026-10-02
+Class: local archive
+Used in: scope, all guide crosswalks, viewer/routing design
+Supports: existing findings and user workflow; primary external claims rechecked where applicable.
+Key record: local source, no new study design or effect estimate.
+Limits: prior extraction is not new clinical evidence or current stock verification.
+Local preservation: existing repository file; sha256 2fd2c1670bc45e0552bfa68c42a3be45676589119ff951195ac724233486a998
+Status/recheck: in-progress unrelated changes preserved; external product claims may change.
+
+[S35] Local archive: 11_hifu_skin_tightening/02_clinic_device_evidence_map.md
+URL/path: 11_hifu_skin_tightening/02_clinic_device_evidence_map.md
+Accessed: 2026-10-02
+Class: local archive
+Used in: scope, all guide crosswalks, viewer/routing design
+Supports: existing findings and user workflow; primary external claims rechecked where applicable.
+Key record: local source, no new study design or effect estimate.
+Limits: prior extraction is not new clinical evidence or current stock verification.
+Local preservation: existing repository file; sha256 71a02ea1a891ae4d784861bd8f15cebd9bbcd4b93f17cd1e8c812304c4e9ae6d
+Status/recheck: in-progress unrelated changes preserved; external product claims may change.
+
+[S36] Local archive: 04_red_light_therapy_handheld/05_whole_body_pbm_dosing_evidence.md
+URL/path: 04_red_light_therapy_handheld/05_whole_body_pbm_dosing_evidence.md
+Accessed: 2026-10-02
+Class: local archive
+Used in: scope, all guide crosswalks, viewer/routing design
+Supports: existing findings and user workflow; primary external claims rechecked where applicable.
+Key record: local source, no new study design or effect estimate.
+Limits: prior extraction is not new clinical evidence or current stock verification.
+Local preservation: existing repository file; sha256 7df60be153e105e9d9cfdc98c7cd45a626e86a214fef2a909f4d08634159f021
+Status/recheck: in-progress unrelated changes preserved; external product claims may change.
+
+[S37] Local archive: AGENTS.md
+URL/path: AGENTS.md
+Accessed: 2026-10-02
+Class: local archive
+Used in: scope, all guide crosswalks, viewer/routing design
+Supports: existing findings and user workflow; primary external claims rechecked where applicable.
+Key record: local source, no new study design or effect estimate.
+Limits: prior extraction is not new clinical evidence or current stock verification.
+Local preservation: existing repository file; sha256 1f9e6e6abc472b3e8d73d530f73b80635402d969a417ad6fab5b779ab70dc3b9
+Status/recheck: in-progress unrelated changes preserved; external product claims may change.
+
+[S38] Avantaggiato et al. RF histological and biomolecular report — PMID27469572
+URL: https://pubmed.ncbi.nlm.nih.gov/27469572/
+Accessed: 2026-10-02
+Class: peer-reviewed human/mechanism
+Used in: discovery context only; not used for a buying rank.
+Supports: RF tissue-response measurements may differ by gene, endpoint and timing.
+Key record: two unilateral RF exposures before surgery; gene-expression panel and histology.
+Limits: short-term molecular response is not comparative retail efficacy; sample details not fully extracted.
+Local preservation: URL-only — no lawful local copy available in this topic.
+Status/recheck: live search record; fuller extraction needed before relying on results.
+
+VERIFICATION / HANDOFF 2026-10-02
+Nine rendered documents; desktop1440x1050/mobile390x844;served HTTP and file://;all10goal/setting combinations;root card;central routing;no visible Markdown links;no page errors or viewport overflow. Citation desktop hover/mobile tap verified. Topic audit:0broken,0warnings. Whole-site audit:one pre-existing missing paper-discovery.js asset. No changes made to the unrelated discovery tool. Official-productHTML files are preserved captures, not standalone functioning product websites.

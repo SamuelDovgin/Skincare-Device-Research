@@ -81,3 +81,299 @@ LOCAL DECISION DATA / ARTIFACTS
 - data/rf_spec_profiles_2026-10-02.js: six curated, sourced comparison profiles and ordinal documentation grades.
 - 15_home_rf_specification_blueprint.md: proposed device brief and its evidence boundaries.
 - rf_spec_fit_visualizer.html: weighted documentation-fit score plus separate evidence coverage. Score: 100 × sum(weight×1–4 rating) / (4 × active weights); coverage: present=1, partial=0.5, not located/unverified=0, divided by six fields. An 80% coverage threshold gates ranking. All grades are editorial evidence-coverage judgements, not device measurements, clinical outcomes or safety ratings.
+
+
+=== OCTOBER 2 COLLAGEN / EFFICACY-TIER PASS (R-ID SUPPLEMENT) ===
+Scope: targeted current-model efficacy synthesis, not exhaustive systematic review. Search terms included home RF randomized collagen 2025/2026, current model manuals, and professional human collagen/RF trials. No source establishes universal optimalMHz, temperature or head-to-head home efficacy superiority.
+Used in: doc10 efficacy tiers, doc16 collagen requirements, doc5 selection, doc11 endpoint correction, doc13 revision update, doc15 revised comparison method, RF collagen visualizer/data.
+
+[R01] Original NEWA FDA DEN150005
+URL: https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN150005.pdf
+Accessed: 2026-10-02 America/Chicago
+Class: primary regulatory
+Used in: doc10/doc16 and profiles newa
+Supports: Strongest direct home clinical anchor; verify current sold generation and support.
+Key record / finding: 69 enrolled/62 completed; single-center uncontrolled home study; blinded photo wrinkle grading, 4 weeks plus 3-month follow-up. 59/62 four-week responders. Adult women I–IV; transient erythema; no burns/scarring reported. Original exact hardware only.
+Limits: No consumer efficacy superiority can be inferred from carrier, nominal output or brand lineage; endpoint/study-to-SKU limitations above apply.
+Local preservation: source_docs/FDA_DEN150005_NEWA.pdf; unchanged .pdf; research archive; sha256 862a7d812869eacbdda05ef0102e9dea7a7709d4d16a906b8468b6d761655096
+Status/recheck: Live PDF and existing archive re-read. Recheck retail/regional IFU, price and availability before purchase.
+
+[R02] CurrentBody FDA K232424
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf23/K232424.pdf
+Accessed: 2026-10-02 America/Chicago
+Class: primary regulatory
+Used in: doc10/doc16 and profiles currentbody
+Supports: My practical first shortlist for mild wrinkles: transparent controls and current U.S. identity, not proven efficacy superiority.
+Key record / finding: ST030: 1 MHz, 5±1 W, two thermistors, maximum 40.5±0.5°C; equivalence to STOP U, bench and thermal comparison; no new subject-device clinical testing.
+Limits: No consumer efficacy superiority can be inferred from carrier, nominal output or brand lineage; endpoint/study-to-SKU limitations above apply.
+Local preservation: source_docs/FDA_K232424_CurrentBody.pdf; unchanged .pdf; research archive; sha256 d9577b79e4d9f7ae1d6b4603cb9807bdb585aab245cf01364cac96f4737b7171
+Status/recheck: Live PDF and existing archive. Recheck retail/regional IFU, price and availability before purchase.
+
+[R03] NEWA 12-week instrumental study
+URL: https://pubmed.ncbi.nlm.nih.gov/27351303/
+Accessed: 2026-10-02 America/Chicago
+Class: peer-reviewed human
+Used in: doc10/doc16 and profiles newa
+Supports: Strongest direct home clinical anchor; verify current sold generation and support.
+Key record / finding: PMID27351303, home RF instrumental cohort: prior extraction 47 enrolled/45 completed, uncontrolled 12 weeks; Cutometer/SIAscope and clinical endpoints; EndyMed affiliation. No biopsy assay.
+Limits: No consumer efficacy superiority can be inferred from carrier, nominal output or brand lineage; endpoint/study-to-SKU limitations above apply.
+Local preservation: URL-only — no lawful local copy available or no local copy made; bibliographic/support metadata preserved here.
+Status/recheck: PubMed initially returned record, subsequent loads degraded to footer; prior local evidence map reused. No newly redistributed full text. Recheck retail/regional IFU, price and availability before purchase.
+
+[R04] CurrentBody U.S. product
+URL: https://www.currentbody.us/products/currentbody-skin-radio-frequency-device
+Accessed: 2026-10-02 America/Chicago
+Class: official product
+Used in: doc10/doc16 and profiles currentbody
+Supports: My practical first shortlist for mild wrinkles: transparent controls and current U.S. identity, not proven efficacy superiority.
+Key record / finding: U.S. ST030 product page; 1 MHz, one level, 40–41°C shutdown/restart, ~2.2cm² stated treatment area; retail outcome percentages are marketing without extracted trial report. Differs from U.K. 43°C/three-level page.
+Limits: No consumer efficacy superiority can be inferred from carrier, nominal output or brand lineage; endpoint/study-to-SKU limitations above apply.
+Local preservation: source_docs/CurrentBody_US_RF_2026-10-02.html; unchanged .html; research archive; sha256 294bc4dd7b66e5bf2e36c8e4465817e1b5e543137f8ae4e4397063ffd4be45c8
+Status/recheck: Live; HTML capture. Prices and stock unstable. Recheck retail/regional IFU, price and availability before purchase.
+
+[R05] Original STOP human study
+URL: https://pubmed.ncbi.nlm.nih.gov/21401380/
+Accessed: 2026-10-02 America/Chicago
+Class: peer-reviewed human
+Used in: doc10/doc16 and profiles stop, vx2
+Supports: Historical human evidence reference; current variants need matching.; Established alternative; verify hardware/manual revision before transferring the animal results.
+Key record / finding: PMID21401380; original STOP, 23 women, 6-week treatment + 6-week maintenance, uncontrolled 3D/photo endpoints. No direct collagen staining; funding not fully extracted from abstract.
+Limits: No consumer efficacy superiority can be inferred from carrier, nominal output or brand lineage; endpoint/study-to-SKU limitations above apply.
+Local preservation: URL-only — no lawful local copy available or no local copy made; bibliographic/support metadata preserved here.
+Status/recheck: Live PubMed abstract. Recheck retail/regional IFU, price and availability before purchase.
+
+[R06] Vx2 mouse mechanism study, 2025
+URL: https://pubmed.ncbi.nlm.nih.gov/40362699/
+Accessed: 2026-10-02 America/Chicago
+Class: mechanism/preclinical
+Used in: doc10/doc16 and profiles vx2
+Supports: Established alternative; verify hardware/manual revision before transferring the animal results.
+Key record / finding: PMID40362699/PMC12072298/DOI10.3390/ijms26094460; 6 younger and 5 older mice; treated/untreated dorsal regions over one week; collagen staining/molecular assays. Paper Vx2 carriers 0.9/1/1.25 MHz; differs from retail manual. Authors declare no conflicts. Not a human trial.
+Limits: No consumer efficacy superiority can be inferred from carrier, nominal output or brand lineage; endpoint/study-to-SKU limitations above apply.
+Local preservation: source_docs/PMC12072298_RF_mouse_2025_BioC.xml; unchanged .xml; research archive; sha256 326d72979222d542cac743103c70b0674f6bd76fc511a9539f525e72ea1ff537
+Status/recheck: PMC browser gate; PubMed/search and lawful BioC recovery used. MDPI direct page failed. CC BY article. Recheck retail/regional IFU, price and availability before purchase.
+
+[R07] Vx2 official manual
+URL: https://cdn.shopify.com/s/files/1/0266/4782/2418/files/STOP_VX2_USER_MANUAL_WARRANTY.pdf?v=1686070878
+Accessed: 2026-10-02 America/Chicago
+Class: official product
+Used in: doc10/doc16 and profiles vx2
+Supports: Established alternative; verify hardware/manual revision before transferring the animal results.
+Key record / finding: Linked STOP Vx2 manual, English technical specifications p17: 0.85/1/1.15 MHz ±10%; gel, contact, movement and model exclusions. Adapter V/A not RF power. Revision-specific.
+Limits: No consumer efficacy superiority can be inferred from carrier, nominal output or brand lineage; endpoint/study-to-SKU limitations above apply.
+Local preservation: source_docs/TriPollar_STOP_VX2_manual.pdf; unchanged .pdf; research archive; sha256 6d37b9ab187a19a307ac5d3dda0660603ba7af23be7bd7f7c51e8d1fc876178e
+Status/recheck: Live public manufacturer-hosted PDF; unchanged research archive. Recheck retail/regional IFU, price and availability before purchase.
+
+[R08] Vx2 U.K. listing
+URL: https://uk.mytripollar.com/products/stop-vx-2
+Accessed: 2026-10-02 America/Chicago
+Class: official product
+Used in: doc10/doc16 and profiles vx2
+Supports: Established alternative; verify hardware/manual revision before transferring the animal results.
+Key record / finding: Vx2 U.K. page: £599, sold out, gel/temperature indicator, RF+DMA and thermal-mapping claims. Does not establish efficacy superiority or independent dermal heat.
+Limits: No consumer efficacy superiority can be inferred from carrier, nominal output or brand lineage; endpoint/study-to-SKU limitations above apply.
+Local preservation: source_docs/TriPollar_VX2_2026-10-02.html; unchanged .html; research archive; sha256 1ba99418a5a447cc461567837bd2ba3a5c75a49c56a68a4e5676c5952037f4ea
+Status/recheck: Live; preserved HTML; recheck before purchase. Recheck retail/regional IFU, price and availability before purchase.
+
+[R09] Sensilift Pro FDA K250341
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250341.pdf
+Accessed: 2026-10-02 America/Chicago
+Class: primary regulatory
+Used in: doc10/doc16 and profiles sensilift
+Supports: Credible controlled-RF alternative; not superior because of one extra watt.
+Key record / finding: ST300, K250341: 1 MHz, 6±1 W, max40±0.5°C, redundant thermistors; bench/equivalence, no new subject-device clinical study.
+Limits: No consumer efficacy superiority can be inferred from carrier, nominal output or brand lineage; endpoint/study-to-SKU limitations above apply.
+Local preservation: source_docs/FDA_K250341_Sensilift_Pro.pdf; unchanged .pdf; research archive; sha256 5c64ca21c04e9b18b3c915507e0577cfcd18f4e73109fa74e5d882711173f893
+Status/recheck: Live PDF and existing archive. Recheck retail/regional IFU, price and availability before purchase.
+
+[R10] 2025 ACE/Jmoon trial
+URL: https://onlinelibrary.wiley.com/doi/10.1111/jocd.70096
+Accessed: 2026-10-02 America/Chicago
+Class: peer-reviewed human
+Used in: doc10/doc16 and profiles ace, jmoon, bloom
+Supports: Promising controlled bundle; study identity is not proof for Bloom 6 or all Photo PLUS devices.; Research comparator until a current retail SKU and local IFU are matched.; Interesting five-ring/contact engineering; no demonstrated efficacy advantage.
+Key record / finding: DOI10.1111/jocd.70096/PMC11915080; 90 enrolled/80 completed, 3-arm 4-week RCT ACE fifth-gen/Jmoon/nonpowered control; medical gel and multimodal energy; imaging/clinical endpoints, transient erythema; authors declare no conflicts. Current retail transfer unresolved.
+Limits: No consumer efficacy superiority can be inferred from carrier, nominal output or brand lineage; endpoint/study-to-SKU limitations above apply.
+Local preservation: source_docs/PMC11915080_fulltext_BioC.xml; unchanged .xml; research archive; sha256 e62da394a515db4cb05f501b5606f5d527cdfb4e3b93994231c685c9d8fd5dc6
+Status/recheck: Publisher/search live; PMC browser gate; existing licensed CC BY BioC full text read. Recheck retail/regional IFU, price and availability before purchase.
+
+[R11] Older HST RF/light trial
+URL: https://pubmed.ncbi.nlm.nih.gov/27910259/
+Accessed: 2026-10-02 America/Chicago
+Class: peer-reviewed human
+Used in: doc10/doc16 and profiles hst, titan
+Supports: Historical bundle signal; do not transfer automatically to a current Titan generation.; Consider for combined features after IFU/study matching; not a collagen first pick.
+Key record / finding: PMID27910259; prior local extraction 33 enrolled/30 completed, RF+light home cohort, no sham, blinded wrinkle assessment, erythema/occasional edema. Current Titan transfer unresolved.
+Limits: No consumer efficacy superiority can be inferred from carrier, nominal output or brand lineage; endpoint/study-to-SKU limitations above apply.
+Local preservation: URL-only — no lawful local copy available or no local copy made; bibliographic/support metadata preserved here.
+Status/recheck: Initial PubMed record loaded; later returned footer. Existing local evidence map reused; publisher full text not redistributed. Recheck retail/regional IFU, price and availability before purchase.
+
+[R12] Silk’n Titan current listing
+URL: https://www.silkn.com/products/titan-allways
+Accessed: 2026-10-02 America/Chicago
+Class: official product
+Used in: doc10/doc16 and profiles titan
+Supports: Consider for combined features after IFU/study matching; not a collagen first pick.
+Key record / finding: AllWays link redirects to Titan MultiPlatform SKUS000057; current product identity is not the older HST study hardware. Exact output/cap not extracted.
+Limits: No consumer efficacy superiority can be inferred from carrier, nominal output or brand lineage; endpoint/study-to-SKU limitations above apply.
+Local preservation: URL-only — no lawful local copy available or no local copy made; bibliographic/support metadata preserved here.
+Status/recheck: Live redirect; URL-only, no lawful local copy made. Recheck retail/regional IFU, price and availability before purchase.
+
+[R13] YA-MAN Bloom 6 official product
+URL: https://www.ya-man.com/en/products/bloom-6.php
+Accessed: 2026-10-02 America/Chicago
+Class: official product
+Used in: doc10/doc16 and profiles bloom
+Supports: Interesting five-ring/contact engineering; no demonstrated efficacy advantage.
+Key record / finding: Bloom6: 0.5–2.5MHz, five-ring design, resistance adjustment/contact detection; temperature cap and exact clinical trial not located.
+Limits: No consumer efficacy superiority can be inferred from carrier, nominal output or brand lineage; endpoint/study-to-SKU limitations above apply.
+Local preservation: URL-only — no lawful local copy available or no local copy made; bibliographic/support metadata preserved here.
+Status/recheck: Web reader live; direct capture HTTP403. URL-only — no lawful local copy available from attempted capture. Recheck retail/regional IFU, price and availability before purchase.
+
+[R14] Panasonic SR90 official product
+URL: https://panasonic.jp/face/products/EH-SR90.html
+Accessed: 2026-10-02 America/Chicago
+Class: official product
+Used in: doc10/doc16 and profiles panasonic
+Supports: Feature-rich regional option; 6 MHz is not demonstrated collagen superiority.
+Key record / finding: EH-SR90: 1–6MHz, eight electrodes, multimodal RF/EMS/ion/LED. Official Japan product page; no measured collagen superiority.
+Limits: No consumer efficacy superiority can be inferred from carrier, nominal output or brand lineage; endpoint/study-to-SKU limitations above apply.
+Local preservation: source_docs/Panasonic_SR90_2026-10-02.html; unchanged .html; research archive; sha256 117aaac886c9652a1e5dcba320745734725ff8d46a18a4c7c0fcfc9830b85d60
+Status/recheck: Live and HTML preserved. Prior snapshot ¥99,000 retained as dated; current stock/local access not asserted. Recheck retail/regional IFU, price and availability before purchase.
+
+[R15] Panasonic prior RF generations
+URL: https://panasonic.jp/face/products/EH-SR86.html
+Accessed: 2026-10-02 America/Chicago
+Class: local archive
+Used in: doc10/doc16 and profiles panasonicolder
+Supports: A supported discounted model may offer value; do not pay a MHz-only premium.
+Key record / finding: Existing Panasonic 2025 brochure: SR75/SR85/SR86 manufacturer2/3/4MHz history, combination platform. No controlled carrier-isolation efficacy comparison.
+Limits: No consumer efficacy superiority can be inferred from carrier, nominal output or brand lineage; endpoint/study-to-SKU limitations above apply.
+Local preservation: source_docs/Panasonic_RF_EX_RF_2025_brochure.pdf; unchanged .pdf; research archive; sha256 3f110fb10e882afcb0ccce116f60e60c658887961d2510189bdd8cbb8257e57d
+Status/recheck: Existing PDF inspected as local record; linked official SR86 page is origin context, not newly inspected live in this pass. Recheck retail/regional IFU, price and availability before purchase.
+
+[R16] Medicube Ultra Tune official product
+URL: https://medicube.us/products/age-r-ultra-tune-40-68
+Accessed: 2026-10-02 America/Chicago
+Class: official product
+Used in: doc10/doc16 and profiles medicube
+Supports: Optional RF/microcurrent combination; high carrier does not earn a higher tier.
+Key record / finding: UltraTune40.68 RF+microcurrent consumer claims; store test percentages not independent clinical trial extraction; no numeric cap/load-output record verified here.
+Limits: No consumer efficacy superiority can be inferred from carrier, nominal output or brand lineage; endpoint/study-to-SKU limitations above apply.
+Local preservation: source_docs/Medicube_UltraTune_2026-10-02.html; unchanged .html; research archive; sha256 17fd984b016677343470829102dff6d174c8176df3ef6aa26702d96a13b8711b
+Status/recheck: Live and HTML preserved; offers/stock unstable. Recheck retail/regional IFU, price and availability before purchase.
+
+[R17] MimiSilk Vera official product
+URL: https://www.mimisilk.com/products/mimisilk-vera-rf-sculpt-6-25mhz-gel-free-radio-frequency-skin-lifting-device
+Accessed: 2026-10-02 America/Chicago
+Class: official product
+Used in: doc10/doc16 and profiles mimisilk
+Supports: I would pass for collagen until independent thermal maps and human outcomes are available.
+Key record / finding: Vera6.25MHz, gel-free/claimed depth and level-output marketing; no independent trial located. Prior $699 snapshot retained, not new price quote.
+Limits: No consumer efficacy superiority can be inferred from carrier, nominal output or brand lineage; endpoint/study-to-SKU limitations above apply.
+Local preservation: source_docs/MimiSilk_Vera_2026-10-02.html; unchanged .html; research archive; sha256 a9a738e9a91c529c6bd34a9ba300bbc444fea681fb788aab089f948f148485d8
+Status/recheck: Live and HTML preserved; conflicts with brand temperature guide. Recheck retail/regional IFU, price and availability before purchase.
+
+[R18] MimiSilk use guide
+URL: https://www.mimisilk.com/blogs/news/how-to-use-mimisilk-vera-rf-sculpt-full-guide-expected-results
+Accessed: 2026-10-02 America/Chicago
+Class: official product
+Used in: doc10/doc16 and profiles mimisilk
+Supports: I would pass for collagen until independent thermal maps and human outcomes are available.
+Key record / finding: Vera guide table claims4.5/9/18W and dermal45/47/52°C; these are unvalidated brand claims, conflict with prior FAQ49–50°C top level.
+Limits: No consumer efficacy superiority can be inferred from carrier, nominal output or brand lineage; endpoint/study-to-SKU limitations above apply.
+Local preservation: URL-only — no lawful local copy available or no local copy made; bibliographic/support metadata preserved here.
+Status/recheck: Live page; URL-only — no local copy made. Recheck retail/regional IFU, price and availability before purchase.
+
+[R19] YOUMAGIC versus Thermage CPT RCT, 2026
+URL: https://link.springer.com/article/10.1007/s10103-026-04841-4
+Accessed: 2026-10-02 America/Chicago
+Class: peer-reviewed human
+Used in: doc10/doc16 and profiles thermage, youmagic
+Supports: Professional assessment lane for meaningful laxity; outside the home tiers.; Credible professional platform comparison, not proven superiority; regional authorization not assessed here.
+Key record / finding: Wang et al. DOI10.1007/s10103-026-04841-4, published2026-02-27;230 enrolled/212 analyzed,6-month assessor-blinded active-controlled non-inferiority YOUMAGIC vs ThermageCPT; skin II–V; retrospective ChiCTR registration; manufacturer provided device, authors declare no competing interests. No human collagen assay.
+Limits: No consumer efficacy superiority can be inferred from carrier, nominal output or brand lineage; endpoint/study-to-SKU limitations above apply.
+Local preservation: source_docs/YOUMAGIC_Thermage_RCT_2026.pdf; unchanged .pdf; research archive; sha256 8d93353066a4436ef8ff317588040e5d75392fa28ba537a41447fb1a1ed80e9b
+Status/recheck: Live OA full text/PDF; unchanged PDF archived, CC BY-NC-ND4.0. Recheck retail/regional IFU, price and availability before purchase.
+
+[R20] Continuous-water-cooled monopolar study, 2026
+URL: https://pubmed.ncbi.nlm.nih.gov/42352889/
+Accessed: 2026-10-02 America/Chicago
+Class: peer-reviewed human + mechanism/preclinical
+Used in: doc10/doc16 and profiles
+Supports: Collagen endpoint or method distinction in doc16.
+Key record / finding: PMID42352889/PMC13299460; Volnewmer CLASSYS RF-CWC,22 female completers, prospective single-arm8-week contour outcomes. Separate ex-vivo human/porcine matrix work. Trial conducted2023, registration2026 (retrospective). Authors declare no conflicts; funding not fully extracted. No collagen biopsies in22 women.
+Limits: No consumer efficacy superiority can be inferred from carrier, nominal output or brand lineage; endpoint/study-to-SKU limitations above apply.
+Local preservation: source_docs/PMC13299460_RF_CWC_2026_BioC.xml; unchanged .xml; research archive; sha256 296129fe7ed90c1ff9829dd54e9ac362758e6c08451908edbd99155ffee3a87f
+Status/recheck: Web/PMC intermittently gated; BioC full text recovered lawfully; MDPI OA source. Recheck retail/regional IFU, price and availability before purchase.
+
+[R21] FDA RF microneedling safety communication
+URL: https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication
+Accessed: 2026-10-02 America/Chicago
+Class: primary regulatory
+Used in: doc10/doc16 and profiles
+Supports: Collagen endpoint or method distinction in doc16.
+Key record / finding: FDA2025-10-15 safety communication: serious RF microneedling complications incl burns, fat loss, nerve damage/scarring; not for home use. Does not quantify incidence or establish home-wand risk equivalence.
+Limits: No consumer efficacy superiority can be inferred from carrier, nominal output or brand lineage; endpoint/study-to-SKU limitations above apply.
+Local preservation: URL-only — no lawful local copy available or no local copy made; bibliographic/support metadata preserved here.
+Status/recheck: Live FDA communication; source copy already exists in adjacent microneedling archive. Recheck retail/regional IFU, price and availability before purchase.
+
+[R22] CurrentBody U.S. IFU
+URL: https://cdn.shopify.com/s/files/1/0016/0133/9461/files/CurrentBody_RF_Instruction_Manual_2024_USA_v2_1_1.pdf?v=1721302140
+Accessed: 2026-10-02 America/Chicago
+Class: official product
+Used in: doc10/doc16 and profiles currentbody
+Supports: My practical first shortlist for mild wrinkles: transparent controls and current U.S. identity, not proven efficacy superiority.
+Key record / finding: U.S.2024 manual linked from current product: adults≥21, FitzpatrickI–IV; two sensors, full four-electrode contact, specified RF gel, area/cadence; exclusions incl isotretinoin6months, thyroid/eyelids and recent procedures. Website generic retinoids wording broader than manual.
+Limits: No consumer efficacy superiority can be inferred from carrier, nominal output or brand lineage; endpoint/study-to-SKU limitations above apply.
+Local preservation: source_docs/CurrentBody_RF_USA_IFU_2024.pdf; unchanged .pdf; research archive; sha256 1af1818f335c090c94d586924d03c1bedc0ca2ed25b1f861b36c5cc8e45e2252
+Status/recheck: Live public manufacturer-hosted PDF, unchanged archive; supplied current revision still must be checked. Recheck retail/regional IFU, price and availability before purchase.
+
+[R23] 2022 split-face RF/light/gel trial
+URL: https://link.springer.com/article/10.1007/s13555-022-00697-y
+Accessed: 2026-10-02 America/Chicago
+Class: peer-reviewed human
+Used in: doc10/doc16 and profiles
+Supports: Collagen endpoint or method distinction in doc16.
+Key record / finding: Shu et al. DOI10.1007/s13555-022-00697-y/PMC9021338;33 enrolled32completed,12-week randomized split-face;1MHz+630nmLED+activegel versus cosmetic. Wrinkles/thickness bundle signal; no between-side elasticity/hydration superiority. Exact retailSKU unresolved; gel confounds attribution.
+Limits: No consumer efficacy superiority can be inferred from carrier, nominal output or brand lineage; endpoint/study-to-SKU limitations above apply.
+Local preservation: source_docs/PMC9021338_fulltext_BioC.xml; unchanged .xml; research archive; sha256 3dc5a35c43f67a1f0db517ce3365975206cfcd0432e70588cd4fb0d8354ece3c
+Status/recheck: Existing CC BY-NC4.0 BioC full text re-read; browser PMC gate. Recheck retail/regional IFU, price and availability before purchase.
+
+[R24] 2023/2024 home RF ultrasound study
+URL: https://pubmed.ncbi.nlm.nih.gov/37942722/
+Accessed: 2026-10-02 America/Chicago
+Class: peer-reviewed human
+Used in: doc10/doc16 and profiles
+Supports: Collagen endpoint or method distinction in doc16.
+Key record / finding: PMID37942722/DOI10.1111/jocd.16076; online2023-11-09,issue2024Mar;22women skinIII–IV,8-week baseline-controlled cohort, wrinkle/ultrasound/3D endpoints; no serious events. No secure retailSKU from abstract, no biopsy. Funding not extracted.
+Limits: No consumer efficacy superiority can be inferred from carrier, nominal output or brand lineage; endpoint/study-to-SKU limitations above apply.
+Local preservation: URL-only — no lawful local copy available or no local copy made; bibliographic/support metadata preserved here.
+Status/recheck: Live PubMed abstract/search; URL-only — no new full text copy made. Recheck retail/regional IFU, price and availability before purchase.
+
+[LOCAL] Prior market census / supplier dossiers
+URL: index.html#doc12
+Accessed: 2026-10-02 America/Chicago
+Class: local archive
+Used in: doc10/doc16 and profiles unresolved, oem
+Supports: Do not buy a collagen premium before the current SKU and full study are resolved.; Not my first facial RF purchase. Missing evidence is not proof of zero effect.
+Key record / finding: Prior51-record census, source register S01–S86, RF docs01–15, rootREADME/index and neighboring microneedling index; prior EvenSkyn/AMIRO/OEM identity/claim gaps reused rather than fresh efficacy verification.
+Limits: No consumer efficacy superiority can be inferred from carrier, nominal output or brand lineage; endpoint/study-to-SKU limitations above apply.
+Local preservation: URL-only — no lawful local copy available or no local copy made; bibliographic/support metadata preserved here.
+Status/recheck: Local working tree, prior in-progress RF and unrelated changes preserved. Recheck retail/regional IFU, price and availability before purchase.
+
+Additional consulted context (not used to promote any home tier):
+[RC01] JAMA2004 histological RF pilot — https://jamanetwork.com/journals/jamadermatology/fullarticle/480241 — mechanism context; bovine tendon plus limited human biopsy observations, not home efficacy. Browser result consulted; URL-only, no local full text copy.
+[RC02] Frontiers2026 professional multipolar senescence trial — https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2026.1866750/full — retrieved search excerpt uses different professional dose/geometry; not used as home temperature guidance. URL-only.
+[RC03] Nonfacial2026 collagen pilot, PMID42470964 — https://pubmed.ncbi.nlm.nih.gov/42470964/ — vulvar anatomy/professional procedure; excluded from facial/home translation. Search abstract consulted; URL-only.
+[RC04] U.K.CurrentBody source — https://www.currentbody.com/products/currentbody-skin-radio-frequency-device — search excerpt43°C/threelevels; regional discrepancy with U.S.40–41°C/onelevel. Not transferred toU.S.ST030. URL-only.
+[RC05] Attempted NEWA https://mynewa.com/products/newa, Sensica https://sensica.com/products/sensilift-pro and EvenSkyn https://www.evenskyn.com/products/lumo-skin-tightening-handset — tool retrieval failed; no new stock, efficacy or generation claim derived. Existing dated dossiers retained.
+[RC06] Source discovery only: search returned commercial editorial/reddit/mirrored papers; no recommendation based on these. Primary identifiers resolved through regulator/manufacturer/publisher/NCBI records. No copied secondary full text.
+Local build/read sources: AGENTS.md; rootREADME/index; RFREADME/index/docs10,11,13,14,15; rf_spec_fit_visualizer.html; rf_market_explorer.html; datasetsrf_market_census_2026-10-02.json/rf_spec_profiles_2026-10-02.js; existing source logs and XML/PDF files. Relevant skill references read as workflow instructions, not efficacy evidence.
+Change note: replaced old six-profile weighted documentation score/80% gate with fixed editorial home tiers, optional evidence filters, side-by-side endpoints and four-link evidence chain. Old rf_spec_profiles JS remains a historical authoring artifact and is no longer loaded. NEWA direct evidence and CurrentBody practical controls remain separate judgments. AddedVx2manual mismatch and2026professional work; no collagen-dose calculator.
+
+R03/R11 recovery update: PubMed E-utilities efetch retrieved the original abstracts successfully on2026-10-02. NEWA47enrolled/45completed and SIAscope/Cutometer endpoints confirmed; HST33enrolled/30completed,21sessions plus2maintenance,3-month blinded photo outcomes and transient erythema/edema confirmed. Metadata/abstract only, not publisher full text. URL:https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=27351303,27910259&retmode=xml. Local:source_docs/PubMed_NEWA_HST_abstracts_2026-10-02.xml; sha256:3b5521f369ff06e8a771afe1370eceda846d08ebc2fc993da33e827cb4ceef4c.
+
+Final validation: topic link audit0broken/0warnings; model filter tests24combinations; desktop1440/mobile390 served and file:// render checks on docs5/10/11/13/14/15/16, sidebar, visualizer controls, no visibleMarkdown links, no overflow/page errors. Whole-site audit1unrelatedERROR: paper-discovery.html missingpaper-discovery.js. Existing research tool not modified. Detailed report:data/rf_collagen_validation_2026-10-02.json.
+
+Final whole-site recheck:2unrelatederrors, missingpaper-discovery.js plus topic24missingYAMAN_Bloom6capture. Topic24is changing concurrently; RFaudit remains0errors/0warnings. Final four-mode browser checks all passed after the source metadata update.

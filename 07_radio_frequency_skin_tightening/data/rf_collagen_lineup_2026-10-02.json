@@ -15,7 +15,7 @@
     "R03": {
       "label": "NEWA 12-week instrumental study",
       "url": "https://pubmed.ncbi.nlm.nih.gov/27351303/",
-      "local": null
+      "local": "source_docs/PubMed_NEWA_HST_abstracts_2026-10-02.xml"
     },
     "R04": {
       "label": "CurrentBody U.S. product",
@@ -55,7 +55,7 @@
     "R11": {
       "label": "Older HST RF/light trial",
       "url": "https://pubmed.ncbi.nlm.nih.gov/27910259/",
-      "local": null
+      "local": "source_docs/PubMed_NEWA_HST_abstracts_2026-10-02.xml"
     },
     "R12": {
       "label": "Silk’n Titan current listing",
@@ -551,6 +551,29 @@
       "kind": "Professional active-comparator human evidence",
       "price": "Confirm current local price, availability, warranty and consumables.",
       "thermal": "No independent depth-resolved living-human thermal map established here."
+    },
+    {
+      "id": "volnewmer",
+      "name": "Volnewmer (professional RF-CWC)",
+      "tier": "Clinic",
+      "frequency": "6.78 MHz trial platform",
+      "control": "Continuous water cooling with contact/impedance adjustment; clinician protocol.",
+      "output": "115 W maximum platform rating in study; not an absorbed dermal dose or home setting.",
+      "human": "2026 publication: 22 women, single-arm contour study, eight weeks. Trial conducted 2023 and retrospectively registered in 2026.",
+      "collagen": "Separate ex-vivo human/porcine matrix endpoints; no collagen biopsies from the 22 women.",
+      "judgment": "Promising cooling/delivery research; uncontrolled human study does not establish superiority over Thermage or a home device.",
+      "sources": [
+        "R20"
+      ],
+      "directHuman": true,
+      "numericControl": false,
+      "reference": false,
+      "regulatoryBridge": false,
+      "contact": "Professional monopolar tip with water cooling and impedance matching.",
+      "scope": "clinic",
+      "kind": "Professional uncontrolled human + preclinical",
+      "price": "Provider-specific quote; regional authorization not assessed in this pass.",
+      "thermal": "Research thermal characterization is platform/site-specific, not a universal dermal target."
     }
   ]
 }

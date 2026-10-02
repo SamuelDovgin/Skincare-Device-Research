@@ -4,7 +4,7 @@
 
 Research into at-home, light- and energy-based skincare devices for **facial redness/erythema, hyperpigmentation, post-inflammatory hyperpigmentation (PIH), and evening skin tone**, plus **hair removal**, **skin-quality (collagen) rejuvenation**, **tightening/laxity**, and topical support as parallel goals. Budget-conscious; covers branded, retail, Chinese OEM/Alibaba sourcing, patent/regulatory context, and practical product buying.
 
-The repo is organized into **twenty-three research projects**, including a cross-category regimen planner:
+The repo is organized into **twenty-four research projects**, including a cross-category regimen planner:
 
 | Folder | Product class | Goal |
 |--------|---------------|------|
@@ -32,6 +32,7 @@ The repo is organized into **twenty-three research projects**, including a cross
 | [`22_body_hyperpigmentation_long_term/`](22_body_hyperpigmentation_long_term/index.html) | Body hyperpigmentation and long-term tone-evening | Diagnosis-first ingredient atlas, comparative study census, melanin-pathway visualizer, long-term safety, maximal multi-category routine, buy-now product/value tiers, emerging actives, and escalation ladder |
 
 | [`23_skincare_penetration_technologies/`](23_skincare_penetration_technologies/index.html) | Electroporation, iontophoresis and skincare delivery | Five company directories, 27 device dossiers, study catalogue, five-active routine fit, dated eBay prices and final buying recommendation |
+| [`24_asian_devices_and_collagen_remodelling/`](24_asian_devices_and_collagen_remodelling/index.html) | Japanese and Asian devices + non-laser collagen comparison | Goal-specific RF/LED/needling/ultrasound evidence; Japanese claim language; representative Japan/Korea/China device priorities |
 
 ## TL;DR
 
@@ -425,3 +426,11 @@ Dedicated evidence, safety, and buying lane for acquired darker-than-baseline bo
 ## RF home-device specification update —2026-10-02
 
 [Proposed home-device specification](07_radio_frequency_skin_tightening/index.html#doc15) · [Interactive specification fit visualizer](07_radio_frequency_skin_tightening/rf_spec_fit_visualizer.html) · [Expanded RF market/value census](07_radio_frequency_skin_tightening/index.html#doc12) · [MHz/temperature/clinical evidence](07_radio_frequency_skin_tightening/index.html#doc13) · [51-record device comparison](07_radio_frequency_skin_tightening/rf_market_explorer.html). Covers Panasonic, YA-MAN, MimiSilk and other devices. The October 2 refresh corrects EH-SR90's status to Panasonic's current Japan-market purchase period; claimed dermal temperatures, measured control cutoffs and professional results remain distinct.
+
+## 24 — Japanese and Asian devices + collagen remodelling
+
+[Open the rendered topic](24_asian_devices_and_collagen_remodelling/index.html). Seven detailed guides compare non-laser technologies, separate tissue remodelling from hydration, muscle effects and ingredient delivery, and explain what sampled Japanese, Korean and Chinese device brands emphasize. The regional focus is representative East Asia, not an exhaustive survey of all Asia or a national clinical consensus.
+
+**Start here:** [Which technology is best?](24_asian_devices_and_collagen_remodelling/index.html#doc1) · [Human evidence ledger](24_asian_devices_and_collagen_remodelling/index.html#doc3) · [Japan](24_asian_devices_and_collagen_remodelling/index.html#doc4) · [Korea and China](24_asian_devices_and_collagen_remodelling/index.html#doc5) · [Conditional selection](24_asian_devices_and_collagen_remodelling/index.html#doc6) · [Goal explorer](24_asian_devices_and_collagen_remodelling/index.html#explorer).
+
+**Sources:** [Rendered source library](24_asian_devices_and_collagen_remodelling/index.html#doc7) · [26-source metadata ledger](24_asian_devices_and_collagen_remodelling/data/sources.json) · [Recovery log](24_asian_devices_and_collagen_remodelling/source_docs/research_resource_log_2026-10-02.txt).

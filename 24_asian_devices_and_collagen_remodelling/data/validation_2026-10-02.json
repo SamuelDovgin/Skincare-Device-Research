@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "origin": "http://127.0.0.1:8793",
+      "label": "desktop",
+      "docs": 9,
+      "explorerCases": 10,
+      "rootCard": true,
+      "route": "http://127.0.0.1:8793/24_asian_devices_and_collagen_remodelling/index.html#doc4"
+    },
+    {
+      "origin": "http://127.0.0.1:8793",
+      "label": "mobile",
+      "docs": 9,
+      "explorerCases": 10,
+      "rootCard": true,
+      "route": "http://127.0.0.1:8793/24_asian_devices_and_collagen_remodelling/index.html#doc4"
+    },
+    {
+      "origin": "file:///Users/samueldovgin/Developer/Skincare Device Research",
+      "label": "desktop",
+      "docs": 9,
+      "explorerCases": 10,
+      "rootCard": true,
+      "route": "file:///Users/samueldovgin/Developer/Skincare%20Device%20Research/24_asian_devices_and_collagen_remodelling/index.html#doc4"
+    },
+    {
+      "origin": "file:///Users/samueldovgin/Developer/Skincare Device Research",
+      "label": "mobile",
+      "docs": 9,
+      "explorerCases": 10,
+      "rootCard": true,
+      "route": "file:///Users/samueldovgin/Developer/Skincare%20Device%20Research/24_asian_devices_and_collagen_remodelling/index.html#doc4"
+    }
+  ],
+  "failures": [],
+  "checked": "2026-10-02",
+  "citation_popovers": "desktop hover and mobile tap verified",
+  "topic_audit": "0 broken links;0warnings",
+  "global_citation_check": "up to date",
+  "rendered_policy": "passed",
+  "whole_site_audit": {
+    "errors": 1,
+    "existing_issue": "paper-discovery.html references missing paper-discovery.js",
+    "new_topic_errors": 0
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "doc0",
+    "file": "README.md",
+    "title": "Start here"
+  },
+  {
+    "id": "doc1",
+    "file": "01_which_technology_is_best.md",
+    "title": "Which technology is best?"
+  },
+  {
+    "id": "doc2",
+    "file": "02_mechanisms_and_endpoints.md",
+    "title": "Mechanisms and endpoints"
+  },
+  {
+    "id": "doc3",
+    "file": "03_human_evidence_ledger.md",
+    "title": "Human evidence ledger"
+  },
+  {
+    "id": "doc4",
+    "file": "04_japanese_devices_and_priorities.md",
+    "title": "Japan: brands and priorities"
+  },
+  {
+    "id": "doc5",
+    "file": "05_korea_china_and_regional_focus.md",
+    "title": "Korea, China and regional focus"
+  },
+  {
+    "id": "doc6",
+    "file": "06_selection_and_realistic_expectations.md",
+    "title": "Selection and expectations"
+  },
+  {
+    "id": "doc7",
+    "file": "07_source_library.md",
+    "title": "Sources and open questions"
+  },
+  {
+    "id": "doc8",
+    "file": "source_docs/README.md",
+    "title": "Preserved source manifest"
+  }
+]

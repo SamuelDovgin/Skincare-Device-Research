@@ -4,9 +4,9 @@
 
 ## Start with the answer
 
-**For a home device beyond fractional lasers, controlled surface radiofrequency is the most directly relevant category to investigate for a firmness/remodelling goal. Red/near-infrared LED is the gentler alternative with controlled human wrinkle evidence. Neither has been established as universally best, and no Japanese, Korean or Chinese brand wins on nationality or feature count.** [1][4][6][24]
+**For a home device beyond fractional lasers, controlled surface radiofrequency is the most directly relevant category to investigate for a firmness/remodelling goal. Red/near-infrared LED is the gentler alternative with controlled human wrinkle evidence. Neither has been established as universally best, and no Japanese, Korean or Chinese brand wins on nationality or feature count.** [[1]](https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN150005.pdf)[[4]](https://pubmed.ncbi.nlm.nih.gov/17566756/)[[6]](https://pubmed.ncbi.nlm.nih.gov/39960921/)[[24]](https://www.accessdata.fda.gov/cdrh_docs/pdf23/K232424.pdf)
 
-For professional treatment, surface RF, conventional microneedling, RF microneedling and therapeutic ultrasound answer different problems. Scars/texture, fine wrinkles, laxity and volume loss require separate decisions. RF microneedling has substantial risk considerations and should not be used at home. [2][3][7][10]
+For professional treatment, surface RF, conventional microneedling, RF microneedling and therapeutic ultrasound answer different problems. Scars/texture, fine wrinkles, laxity and volume loss require separate decisions. RF microneedling has substantial risk considerations and should not be used at home. [[2]](https://pubmed.ncbi.nlm.nih.gov/21315951/)[[3]](https://pubmed.ncbi.nlm.nih.gov/26096653/)[[7]](https://pubmed.ncbi.nlm.nih.gov/21806707/)[[10]](https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication)
 
 This topic connects the existing RF, LED, microneedling, ultrasound and delivery archives. It adds the requested **regional/device overview and a transparent cross-technology decision framework**, rather than duplicating their full market catalogs.
 

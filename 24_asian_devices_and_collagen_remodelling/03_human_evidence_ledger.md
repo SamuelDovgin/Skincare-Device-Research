@@ -8,17 +8,17 @@ Home RF has clinically relevant wrinkle data; light therapy has sham-controlled 
 
 | Source | Design and population | Exposure and follow-up | Measured finding | Confidence/translation |
 |---|---|---|---|---|
-| S01: original NEWA | Prospective single-center home-use study;69 enrolled/62 completed | Four-week treatment period and post-treatment assessments |59/62 met its blinded wrinkle response criterion | Real clinical signal, no sham arm; no biopsy; does not give a95% sham-adjusted chance of benefit [1] |
-| S02: professional surface RF | Six people, skin typesIII-IV; uncontrolled | Six sessions/two-week intervals; baseline,3/6month sampling | Increased collagenI/III and new-collagen staining | Direct human tissue evidence, very small sample; not home RF [2] |
-| S03: conventional microneedling | Ten people, typesIII-IV; uncontrolled biopsy cohort | Six sessions/two-week intervals; baseline,1/3month biopsies | Increased collagenI/III/VII and newly synthesized collagen | Supports structural response; not superficial home-roller equivalence [3] |
-| S04: LED633/830nm |76 patients; randomized four-group sham-controlled, split-face study | Twice weekly/four weeks, three-month follow-up | Wrinkle/elasticity signal and tissue changes | Useful controlled category evidence; no generic retail mask transfer [4] |
-| S05: broad-spectrum red/NIR lamps |136 included,128 completed; controlled study |30 sessions | Ultrasound collagen-density proxy plus roughness/wrinkle signals | Lamp platform, non-sham controls and commercial involvement; proxy is not biopsy [5] |
-| S06:630/850nm home mask |60 Asian-descent participants, typesII-V; multicenter randomized double-blind sham trial |16weeks | Between-group crow's-feet score differences at8/12/16weeks | More directly applicable to home wrinkle use; not proof of facial lift or biopsy-confirmed collagen [6] |
-| S07: focused ultrasound |22 Korean patients;11 biopsied; uncontrolled | One treatment; two-month tissue assessment | Greater dermal collagen and clinical laxity improvement | Professional, device/protocol-specific; does not validate home HIFU [7] |
-| S08: MFU-V |20-person open-label pilot |90/180day and one-year follow-up | High subjective ratings;6/14 improved on blinded one-year photos | Highlights disagreement between endpoints and attrition [8] |
-| S09: fractional RF1mm pins |Nine participants, typesII-IV; open-label intraindividual-controlled | Six sessions; three-month endpoint | Wrinkle scale improved; tissue healing examined in pigs | Manufacturer involvement; human clinical result with animal histology [9] |
-| S11: YA-MAN/Jmoon bundled home devices |90 randomized/80 completed; power-free control | Four weeks | Imaging/appearance improvements; no measured physical-health benefit | Short, sensory-unmatched comparison; bundle plus gel/technique; no collagen biopsy [11] |
-| S12: home1MHz RF plus red LED |33 enrolled/32 completed; randomized split-face |12weeks | Wrinkle and thickness signals; hydration/elasticity did not differ significantly between sides | Different cosmetic on control side; unclear retail-model mapping; publication fee support [12] |
+| S01: original NEWA | Prospective single-center home-use study;69 enrolled/62 completed | Four-week treatment period and post-treatment assessments |59/62 met its blinded wrinkle response criterion | Real clinical signal, no sham arm; no biopsy; does not give a95% sham-adjusted chance of benefit [[1]](https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN150005.pdf) |
+| S02: professional surface RF | Six people, skin types III-IV; uncontrolled | Six sessions/two-week intervals; baseline,3/6 month sampling | Increased collagen I/III and new-collagen staining | Direct human tissue evidence, very small sample; not home RF [[2]](https://pubmed.ncbi.nlm.nih.gov/21315951/) |
+| S03: conventional microneedling | Ten people, types III-IV; uncontrolled biopsy cohort | Six sessions/two-week intervals; baseline,1/3 month biopsies | Increased collagen I/III/VII and newly synthesized collagen | Supports structural response; not superficial home-roller equivalence [[3]](https://pubmed.ncbi.nlm.nih.gov/26096653/) |
+| S04: LED 633/830 nm |76 patients; randomized four-group sham-controlled, split-face study | Twice weekly/four weeks, three-month follow-up | Wrinkle/elasticity signal and tissue changes | Useful controlled category evidence; no generic retail mask transfer [[4]](https://pubmed.ncbi.nlm.nih.gov/17566756/) |
+| S05: broad-spectrum red/NIR lamps |136 included,128 completed; controlled study |30 sessions | Ultrasound collagen-density proxy plus roughness/wrinkle signals | Lamp platform, non-sham controls and commercial involvement; proxy is not biopsy [[5]](https://pmc.ncbi.nlm.nih.gov/articles/PMC3926176/) |
+| S06:630/850 nm home mask |60 Asian-descent participants, types II-V; multicenter randomized double-blind sham trial |16 weeks | Between-group crow's-feet score differences at 8/12/16 weeks | More directly applicable to home wrinkle use; not proof of facial lift or biopsy-confirmed collagen [[6]](https://pubmed.ncbi.nlm.nih.gov/39960921/) |
+| S07: focused ultrasound |22 Korean patients;11 biopsied; uncontrolled | One treatment; two-month tissue assessment | Greater dermal collagen and clinical laxity improvement | Professional, device/protocol-specific; does not validate home HIFU [[7]](https://pubmed.ncbi.nlm.nih.gov/21806707/) |
+| S08: MFU-V |20-person open-label pilot |90/180 day and one-year follow-up | High subjective ratings;6/14 improved on blinded one-year photos | Highlights disagreement between endpoints and attrition [[8]](https://pubmed.ncbi.nlm.nih.gov/27047630/) |
+| S09: fractional RF1 mm pins |Nine participants, types II-IV; open-label intraindividual-controlled | Six sessions; three-month endpoint | Wrinkle scale improved; tissue healing examined in pigs | Manufacturer involvement; human clinical result with animal histology [[9]](https://pubmed.ncbi.nlm.nih.gov/34287975/) |
+| S11: YA-MAN/Jmoon bundled home devices |90 randomized/80 completed; power-free control | Four weeks | Imaging/appearance improvements; no measured physical-health benefit | Short, sensory-unmatched comparison; bundle plus gel/technique; no collagen biopsy [[11]](https://pubmed.ncbi.nlm.nih.gov/40099405/) |
+| S12: home 1 MHz RF plus red LED |33 enrolled/32 completed; randomized split-face |12 weeks | Wrinkle and thickness signals; hydration/elasticity did not differ significantly between sides | Different cosmetic on control side; unclear retail-model mapping; publication fee support [[12]](https://link.springer.com/article/10.1007/s13555-022-00697-y) |
 
 **Finding:** tissue change and clinical improvement appear across mechanisms. None of these rows supplies a matched home-RF-versus-home-LED collagen comparison or a current Panasonic-versus-Medicube superiority test. S01–S12.
 
@@ -32,29 +32,29 @@ For the same reason, “clinically tested” needs four follow-up questions: tes
 
 | Platform | Publicly auditable support | What it supports | What it does not establish |
 |---|---|---|---|
-| Original NEWA | De Novo clinical and bench file | A defined home wrinkle indication and specific original-model performance | Best RF, all later models, or direct dermal-collagen amount [1] |
-| CurrentBody Skin RF | FDA510(k) summary | Disclosed configuration and thermal controls | New subject-device clinical superiority [24] |
-| Sensilift Pro | FDA510(k) summary | Disclosed controls and substantial-equivalence case | New head-to-head efficacy [25] |
-| Panasonic EH-SR90 | Official features and manufacturer testing | Exact multimode design and narrower definitions of its claims | An independent comparative collagen endpoint [13] |
-| YA-MAN Bloom6 | Official geometry/control specifications; adjacent family trials | Plausible RF engineering; useful family evidence leads | Verified transfer from unnamed/other-generation hardware [11][12][14] |
-| Medicube Ultra Tune | Brand application-test summary | Manufacturer's line/elasticity claims and mode identity | Full peer-reviewed controlled human collagen evidence [15] |
-| LG Pra.L Derma LED mask | Specific FDA summary | Regulatory technical/indication anchor | Efficacy of every later LG device [21] |
+| Original NEWA | De Novo clinical and bench file | A defined home wrinkle indication and specific original-model performance | Best RF, all later models, or direct dermal-collagen amount [[1]](https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN150005.pdf) |
+| CurrentBody Skin RF | FDA 510(k) summary | Disclosed configuration and thermal controls | New subject-device clinical superiority [[24]](https://www.accessdata.fda.gov/cdrh_docs/pdf23/K232424.pdf) |
+| Sensilift Pro | FDA 510(k) summary | Disclosed controls and substantial-equivalence case | New head-to-head efficacy [[25]](https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250341.pdf) |
+| Panasonic EH-SR90 | Official features and manufacturer testing | Exact multimode design and narrower definitions of its claims | An independent comparative collagen endpoint [[13]](https://panasonic.jp/face/products/EH-SR90/feature.html) |
+| YA-MAN Bloom 6 | Official geometry/control specifications; adjacent family trials | Plausible RF engineering; useful family evidence leads | Verified transfer from unnamed/other-generation hardware [[11]](https://pubmed.ncbi.nlm.nih.gov/40099405/)[[12]](https://link.springer.com/article/10.1007/s13555-022-00697-y)[[14]](https://www.ya-man.com/en/products/bloom-6.php) |
+| Medicube Ultra Tune | Brand application-test summary | Manufacturer's line/elasticity claims and mode identity | Full peer-reviewed controlled human collagen evidence [[15]](https://medicube.us/products/age-r-ultra-tune-40-68) |
+| LG Pra.L Derma LED mask | Specific FDA summary | Regulatory technical/indication anchor | Efficacy of every later LG device [[21]](https://www.accessdata.fda.gov/cdrh_docs/pdf18/K183671.pdf) |
 
 **Finding:** stronger documentation can improve confidence in identity and operating controls without proving stronger efficacy. Conversely, an interesting biological study may have poor purchasing applicability. S01, S11–S15, S21, S24–S25.
 
 ## Safety evidence belongs beside efficacy
 
-The October15,2025 FDA RF-microneedling communication remained available when checked for this review. It reports serious injuries and states these devices should not be used at home. A small clinical series reporting no adverse events cannot estimate uncommon harms. [10]
+The October 15, 2025 FDA RF-microneedling communication remained available when checked for this review. It reports serious injuries and states these devices should not be used at home. A small clinical series reporting no adverse events cannot estimate uncommon harms. [[10]](https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication)
 
-This finding does not license a numerical comparison of homeRF versus clinicRF risks: the exposures and procedures differ. Professional ultrasound and RF also require anatomical judgment. Loss of facial volume is especially relevant when the desired outcome is firmer-looking skin rather than contour reduction.
+This finding does not license a numerical comparison of home RF versus clinic RF risks: the exposures and procedures differ. Professional ultrasound and RF also require anatomical judgment. Loss of facial volume is especially relevant when the desired outcome is firmer-looking skin rather than contour reduction.
 
 Skin types were included in several trials, but small typeIII-IV cohorts and one typeII-V home-mask trial do not fully resolve all pigmentation histories, melasma, skin diseases or treatment combinations. Choose by personal history and the exact device's labeling, not ancestry alone.
 
 ## Corrections made while building this overview
 
-- The existing LED archive labels PMID39960921 with a generic title and a different author name. The primary record is **Park SH, Park SO and Jung JA**, *Clinical study to evaluate the efficacy and safety of home-used LED and IRED mask for crow's feet: A multi-center, randomized, double-blind, sham-controlled study*. This overview preserves the primary identity. [6]
-- PubMed tags PMID34287975 as an RCT, but the paper's abstract describes an open-label intraindividual-controlled trial; its histology is porcine. This ledger uses the actual methods rather than upgrading the study from its database tag. [9]
-- A published output unit of mW/cm³ in the mask abstract is not a usable irradiance specification. This guide does not silently turn it into an exposure recommendation. [6]
+- The existing LED archive labels PMID39960921 with a generic title and a different author name. The primary record is **Park SH, Park SO and Jung JA**, *Clinical study to evaluate the efficacy and safety of home-used LED and IRED mask for crow's feet: A multi-center, randomized, double-blind, sham-controlled study*. This overview preserves the primary identity. [[6]](https://pubmed.ncbi.nlm.nih.gov/39960921/)
+- PubMed tags PMID34287975 as an RCT, but the paper's abstract describes an open-label intraindividual-controlled trial; its histology is porcine. This ledger uses the actual methods rather than upgrading the study from its database tag. [[9]](https://pubmed.ncbi.nlm.nih.gov/34287975/)
+- A published output unit of mW/cm³ in the mask abstract is not a usable irradiance specification. This guide does not silently turn it into an exposure recommendation. [[6]](https://pubmed.ncbi.nlm.nih.gov/39960921/)
 
 ## Missing information
 
@@ -75,7 +75,7 @@ Funding/conflicts are not completely extracted for every abstract-only study. Fu
 11. Bu et al. bundled-device trial. https://pubmed.ncbi.nlm.nih.gov/40099405/
 12. Shu et al. split-face trial. https://link.springer.com/article/10.1007/s13555-022-00697-y
 13. Panasonic SR90. https://panasonic.jp/face/products/EH-SR90/feature.html
-14. YA-MAN Bloom6. https://www.ya-man.com/en/products/bloom-6.php
+14. YA-MAN Bloom 6. https://www.ya-man.com/en/products/bloom-6.php
 15. Medicube Ultra Tune. https://medicube.us/products/age-r-ultra-tune-40-68
 21. LG mask regulatory summary. https://www.accessdata.fda.gov/cdrh_docs/pdf18/K183671.pdf
 24. CurrentBody regulatory summary. https://www.accessdata.fda.gov/cdrh_docs/pdf23/K232424.pdf
