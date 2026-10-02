@@ -1,6 +1,6 @@
 # RF market census: Panasonic, YA-MAN, MimiSilk and the alternatives
 
-*Researched 2026-10-01, America/Chicago. Broad official-catalog census, not a systematic review or a guarantee of every worldwide SKU. Prices are dated regional snapshots; stock and model identity require confirmation at purchase.*
+*Researched 2026-10-01; status rechecked 2026-10-02, America/Chicago. Broad official-catalog census, not a systematic review or a guarantee of every worldwide SKU. Prices are dated regional snapshots; stock and model identity require confirmation at purchase.*
 
 ## Start with the buying answer
 
@@ -8,11 +8,11 @@
 
 For the requested brands:
 
-- **Panasonic:** EH-SR85 is the value candidate if substantially cheaper than EH-SR86; EX EH-SR86 is the established premium candidate. The announced 6 MHz LUXE EH-SR90 belongs on the watchlist, because it is prelaunch as of this research date. No comparative clinical evidence reviewed establishes that 6 MHz is better than 4 or 3 MHz. [S04–S09](https://panasonic.jp/face/products/EH-SR90.html).
+- **Panasonic:** EH-SR85 is the value candidate if substantially cheaper than EH-SR86; EX EH-SR86 is the established premium candidate. LUXE EH-SR90 is now in Panasonic's official purchase-promotion period, with its product page listing variable 1–6 MHz RF and eight electrodes. Numeric thermal control/output and an exact-model peer-reviewed outcome study remain unverified; no evidence reviewed establishes that 6 MHz is better than 4 or 3 MHz. [S04–S09](https://panasonic.jp/face/products/EH-SR90.html) [S82](https://panasonic.jp/face/products/EH-SR90.html) [S83](https://panasonic.jp/beauty/campaign/26autumn-face-cashback.html).
 - **YA-MAN:** Bloom 6 is the most technically informative RF-focused candidate in the reviewed catalog: 0.5–2.5 MHz,  resistance feedback and touch detection. Shiny NEO is a more accessible multifunction candidate; expensive Prestige models should be bought for desired extra functions, not an assumed collagen advantage. [S15](https://www.ya-man.com/en/products/bloom-6.php), [S25](https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-shiny-neo.html).
 - **MimiSilk Vera:** a potentially convenient gel-free design, but **not the evidence-first purchase at its $699 snapshot**. The frequency, output, depth and dermal-temperature statements remain manufacturer claims. Request an exact IFU, thermal validation and an identifiable human study before accepting the Thermage comparison. [S36](https://www.mimisilk.com/products/mimisilk-vera-rf-sculpt-6-25mhz-gel-free-radio-frequency-skin-lifting-device), [S39](https://www.mimisilk.com/blogs/news/professional-grade-rf-frequency-at-home-how-mimisilk-vera-closes-the-gap-safely).
 
-Explore all **51 model/family records** in the [searchable device comparison](rf_market_explorer.html). Read the [frequency and temperature research](index.html#doc13) before using MHz or °C to decide. A record may cover variants; it does not mean 51 individually validated devices.
+Explore all **51 model/family records** in the [searchable device comparison](rf_market_explorer.html), or compare six high-interest products in the [specification fit visualizer](rf_spec_fit_visualizer.html). Read the [frequency and temperature research](index.html#doc13) before using MHz or °C to decide. A record may cover variants; it does not mean 51 individually validated devices.
 
 ## What the census includes and misses
 
@@ -24,7 +24,7 @@ Official Japan, global and international-shop catalogs differ. YA-MAN maintains 
 
 | Model | RF carrier claim | Technology / position | Temperature and clinical audit | Value inference |
 |---|---|---|---|---|
-| **EH-SR90 Vitalift RF LUXE** | **6 MHz** | Announced premium; eight electrodes vs four in SR86 | No numeric measured skin/dermal target or exact-model peer-reviewed comparative trial located; **prelaunch** | Watch; no reason to prepay purely for MHz |
+| **EH-SR90 Vitalift RF LUXE** | **Variable 1–6 MHz** | Premium model; eight electrodes vs four in SR86; five modes | No numeric skin/dermal target, calibrated RF output or exact-model peer-reviewed trial located | Newly in official Japan purchase period; watch for measurements/results; no MHz-only premium |
 | **EH-SR86 Vitalift RF EX** | **4 MHz** | RF + EMS + LED + ion; 13 advertised care roles | Manufacturer efficacy claims and purchaser surveys; no depth-resolved thermal validation extracted | Current Panasonic premium candidate |
 | **EH-SR85 Vitalift RF** | **3 MHz** | RF + EMS + LED + ion; nine care roles | No numeric remodeling target verified in consulted pages | Sensible Panasonic value comparison if discounted |
 | **EH-SR75 Sonic RF Lift** | **2 MHz** | RF + ultrasound, older generation | Legacy; no current exact-model trial extracted | Only with good support/discount |
@@ -35,7 +35,7 @@ Evidence trail: [SR86 S04](https://panasonic.jp/face/products/EH-SR86.html), [SR
 
 **What this section found:** real disclosed RF carriers and changing electrodes/features, without a human frequency-isolation trial. Panasonic's dry fine-line efficacy evaluations and satisfaction claims should not be translated into quantified dermal collagen gains.
 
-**Launch discrepancy:** the SR90 purchase page lists **¥99,000 and 2026-10-31**, while Panasonic's announcement index says **early November**. Treat it as announced/preorder, not currently delivered inventory on October 1. [S08](https://panasonic.jp/face/products/EH-SR90/shopping.eh-sr 90-k.html), [S09](https://panasonic.jp/whatsnew.html).
+**Availability correction, 2026-10-02:** Panasonic's official promotion accepts eligible SR90 purchases made 2026-09-15 through 2026-12-27, and the live product page now lists variable 1–6 MHz RF. That supersedes the October 1 prelaunch note and date conflict. It establishes an official Japanese sales window, not stock at every shop or U.S. clearance/support. [S82](https://panasonic.jp/face/products/EH-SR90.html), [S83](https://panasonic.jp/beauty/campaign/26autumn-face-cashback.html).
 
 ## YA-MAN: RF-focused Bloom versus multifunction Photo PLUS
 
@@ -120,7 +120,7 @@ Evidence: [FDA S01–S03](source_docs/FDA_K250341_Sensilift_Pro.pdf), [TriPollar
 | MimiSilk Vera | **$699**, $799 struck through | Convenience premium with unresolved validation [S36](https://www.mimisilk.com/products/mimisilk-vera-rf-sculpt-6-25mhz-gel-free-radio-frequency-skin-lifting-device) |
 | YA-MAN Shiny NEO / Prestige SP global | **$650 / $1,250**, sold-out labels | Not actionable in-stock US offers [S26](https://global.ya-man.com/products/photoplus-shiny-neo), [S23](https://global.ya-man.com/products/photo-plus-prestige-sp) |
 | Bloom5 / WR STAR Japan | **¥95,700 / ¥77,000** | Local tax/warranty/region; international prices differ [S16](https://www.ya-man.com/Form/Product/ProductDetail.aspx?bid=yaman_tokyo_japan&cat=101&pid=rr00663&shop=0), [S18](https://www.ya-man-tokyo-japan.com/products/forface/rf-bloom-wr-star.html) |
-| Panasonic LUXE preorder | **¥99,000** | Announced future availability [S08](https://panasonic.jp/face/products/EH-SR90/shopping.eh-sr 90-k.html) |
+| Panasonic LUXE EH-SR90 | **¥99,000** | Official Japan product page; purchase-period promotion 2026-09-15–12-27; verify local stock, tax and warranty [S82](https://panasonic.jp/face/products/EH-SR90.html) [S83](https://panasonic.jp/beauty/campaign/26autumn-face-cashback.html) |
 | TriPollar Vx2 / EDGE UK | **£599 / £899** | Vx2 stock/shipping copy inconsistent [S42](https://uk.mytripollar.com/products/stop-vx-2), [S44](https://mytripollar.com/collections/home-stop) |
 
 Do not convert currencies into an artificial global ranking. Compare **landed device cost + required gel/pads + treatment time + authorized warranty + return terms**, in one region. Trial returnability can be more valuable than an unvalidated MHz upgrade. No numerical cost-per-collagen score is possible from these studies: endpoints, populations and controls differ too much.

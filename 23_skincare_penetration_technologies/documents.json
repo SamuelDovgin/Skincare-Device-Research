@@ -1,0 +1,254 @@
+[
+  {
+    "id": "doc1",
+    "file": "01_mechanisms.md",
+    "title": "Mechanisms",
+    "group": "Guides"
+  },
+  {
+    "id": "doc2",
+    "file": "02_evidence_audit.md",
+    "title": "Evidence audit",
+    "group": "Guides"
+  },
+  {
+    "id": "doc3",
+    "file": "03_device_comparison.md",
+    "title": "Device comparison",
+    "group": "Guides"
+  },
+  {
+    "id": "doc4",
+    "file": "04_ingredient_fit.md",
+    "title": "Your ingredients",
+    "group": "Guides"
+  },
+  {
+    "id": "doc5",
+    "file": "05_prices_and_value.md",
+    "title": "eBay & value",
+    "group": "Guides"
+  },
+  {
+    "id": "doc6",
+    "file": "README.md",
+    "title": "Start here",
+    "group": "Guides"
+  },
+  {
+    "id": "doc7",
+    "file": "06_source_library.md",
+    "title": "Source library",
+    "group": "Guides"
+  },
+  {
+    "id": "doc8",
+    "file": "source_docs/README.md",
+    "title": "Preservation manifest",
+    "group": "Guides"
+  },
+  {
+    "id": "decision",
+    "file": "07_final_recommendation.md",
+    "title": "Final buying recommendation",
+    "group": "Guides"
+  },
+  {
+    "id": "research",
+    "file": "08_research_catalog.md",
+    "title": "Study catalogue & scope",
+    "group": "Guides"
+  },
+  {
+    "id": "company_panasonic",
+    "file": "company_panasonic.md",
+    "title": "Panasonic overview",
+    "group": "Panasonic"
+  },
+  {
+    "id": "company_yaman",
+    "file": "company_yaman.md",
+    "title": "YA-MAN overview",
+    "group": "YA-MAN"
+  },
+  {
+    "id": "company_medicube",
+    "file": "company_medicube.md",
+    "title": "Medicube overview",
+    "group": "Medicube"
+  },
+  {
+    "id": "company_refa",
+    "file": "company_refa.md",
+    "title": "ReFa / MTG overview",
+    "group": "ReFa / MTG"
+  },
+  {
+    "id": "company_artistic",
+    "file": "company_artistic.md",
+    "title": "ARTISTIC&CO overview",
+    "group": "ARTISTIC&CO"
+  },
+  {
+    "id": "panasonic_st63",
+    "file": "device_panasonic_st63.md",
+    "title": "Panasonic EH-ST63",
+    "group": "Panasonic"
+  },
+  {
+    "id": "panasonic_st99",
+    "file": "device_panasonic_st99.md",
+    "title": "Panasonic EH-ST99",
+    "group": "Panasonic"
+  },
+  {
+    "id": "panasonic_st0a",
+    "file": "device_panasonic_st0a.md",
+    "title": "Panasonic EH-ST0A",
+    "group": "Panasonic"
+  },
+  {
+    "id": "panasonic_ss85",
+    "file": "device_panasonic_ss85.md",
+    "title": "Panasonic EH-SS85 Ion Boost Multi EX",
+    "group": "Panasonic"
+  },
+  {
+    "id": "panasonic_sm50",
+    "file": "device_panasonic_sm50.md",
+    "title": "Panasonic EH-SM50 Ion Boost mask",
+    "group": "Panasonic"
+  },
+  {
+    "id": "panasonic_sr85",
+    "file": "device_panasonic_sr85.md",
+    "title": "Panasonic EH-SR85 Vitalift RF",
+    "group": "Panasonic"
+  },
+  {
+    "id": "panasonic_sr86",
+    "file": "device_panasonic_sr86.md",
+    "title": "Panasonic EH-SR86 Vitalift RF",
+    "group": "Panasonic"
+  },
+  {
+    "id": "panasonic_sr90",
+    "file": "device_panasonic_sr90.md",
+    "title": "Panasonic EH-SR90 Vitalift RF",
+    "group": "Panasonic"
+  },
+  {
+    "id": "yaman_shiny_m18",
+    "file": "device_yaman_shiny_m18.md",
+    "title": "YA-MAN Photo Plus Shiny M18-YL",
+    "group": "YA-MAN"
+  },
+  {
+    "id": "yaman_shiny_neo",
+    "file": "device_yaman_shiny_neo.md",
+    "title": "YA-MAN Photo Plus Shiny Neo YJFM18N",
+    "group": "YA-MAN"
+  },
+  {
+    "id": "yaman_deep_lift",
+    "file": "device_yaman_deep_lift.md",
+    "title": "YA-MAN Photo Plus Deep Lift YJFA1T",
+    "group": "YA-MAN"
+  },
+  {
+    "id": "yaman_prestige_s",
+    "file": "device_yaman_prestige_s.md",
+    "title": "YA-MAN Photo Plus Prestige S M20",
+    "group": "YA-MAN"
+  },
+  {
+    "id": "yaman_prestige_ss",
+    "file": "device_yaman_prestige_ss.md",
+    "title": "YA-MAN Photo Plus Prestige SS M21",
+    "group": "YA-MAN"
+  },
+  {
+    "id": "yaman_prestige_pro",
+    "file": "device_yaman_prestige_pro.md",
+    "title": "YA-MAN Photo Plus Prestige Pro M30",
+    "group": "YA-MAN"
+  },
+  {
+    "id": "yaman_prestige_sp2",
+    "file": "device_yaman_prestige_sp2.md",
+    "title": "YA-MAN Photo Plus Prestige SP II M24",
+    "group": "YA-MAN"
+  },
+  {
+    "id": "yaman_prestige_sp3",
+    "file": "device_yaman_prestige_sp3.md",
+    "title": "YA-MAN Photo Plus Prestige SP III YJFM25B",
+    "group": "YA-MAN"
+  },
+  {
+    "id": "yaman_miyabi",
+    "file": "device_yaman_miyabi.md",
+    "title": "YA-MAN THE MIYABI YJFG0",
+    "group": "YA-MAN"
+  },
+  {
+    "id": "yaman_prestige_sp",
+    "file": "device_yaman_prestige_sp.md",
+    "title": "YA-MAN Photo Plus Prestige SP M22",
+    "group": "YA-MAN"
+  },
+  {
+    "id": "medicube_booster_h",
+    "file": "device_medicube_booster_h.md",
+    "title": "Medicube AGE-R Booster-H",
+    "group": "Medicube"
+  },
+  {
+    "id": "medicube_booster_pro",
+    "file": "device_medicube_booster_pro.md",
+    "title": "Medicube AGE-R Booster Pro",
+    "group": "Medicube"
+  },
+  {
+    "id": "medicube_mini",
+    "file": "device_medicube_mini.md",
+    "title": "Medicube Mini Booster Pro",
+    "group": "Medicube"
+  },
+  {
+    "id": "medicube_mini_plus",
+    "file": "device_medicube_mini_plus.md",
+    "title": "Medicube Mini Booster Pro Plus",
+    "group": "Medicube"
+  },
+  {
+    "id": "medicube_x2",
+    "file": "device_medicube_x2.md",
+    "title": "Medicube Booster Pro X2",
+    "group": "Medicube"
+  },
+  {
+    "id": "refa_raise",
+    "file": "device_refa_raise.md",
+    "title": "ReFa BEAUTECH RAISE",
+    "group": "ReFa / MTG"
+  },
+  {
+    "id": "artistic_zeus2",
+    "file": "device_artistic_zeus2.md",
+    "title": "ARTISTIC&CO Dr.Arrivo Zeus II",
+    "group": "ARTISTIC&CO"
+  },
+  {
+    "id": "artistic_zeus2plus",
+    "file": "device_artistic_zeus2plus.md",
+    "title": "ARTISTIC&CO Dr.Arrivo Zeus II PLUS",
+    "group": "ARTISTIC&CO"
+  },
+  {
+    "id": "artistic_zeus4",
+    "file": "device_artistic_zeus4.md",
+    "title": "ARTISTIC&CO Dr.Arrivo Zeus IV",
+    "group": "ARTISTIC&CO"
+  }
+]

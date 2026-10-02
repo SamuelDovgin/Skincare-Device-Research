@@ -1,0 +1,497 @@
+[
+  {
+    "key": "panasonic_st63",
+    "brand": "Panasonic",
+    "name": "Panasonic EH-ST63",
+    "grade": "D",
+    "technology": "Legacy ion delivery; warm/cool skincare tool.",
+    "sources": [
+      "S41"
+    ],
+    "research": [
+      "The directly attributable Lab Muffin review is Panasonic-sponsored and discusses this exact older model. It explains ion mechanisms and points out controls missing from the clinical literature reviewed in 2018. It is expert commentary, not an EH-ST63 efficacy trial."
+    ],
+    "fit": "Possible compatible vitamin-C ion use; no recovered exact-model clinical increment.",
+    "value": "Legacy purchase only if much cheaper than ST99 and its battery/accessories remain sound. No verified eBay quote in this review.",
+    "price": null,
+    "why": ""
+  },
+  {
+    "key": "panasonic_st99",
+    "brand": "Panasonic",
+    "name": "Panasonic EH-ST99",
+    "grade": "C",
+    "technology": "BOOST pretreatment plus ion MOIST/BRIGHT UP; heating/cooling; no RF or EMS.",
+    "sources": [
+      "S10",
+      "S11"
+    ],
+    "research": [
+      "The official regional catalogue reports HA5.7× and collagen5.0× relative to hand application. Legacy methods are less fully recovered than newer models. The earlier pasted peptide6.3× number remains unverified."
+    ],
+    "fit": "A reasonable budget ion choice for compatible vitamin C. HA/collagen tests do not rank its effectiveness for niacinamide.",
+    "value": "B value tier: budget Panasonic choice; pay for condition before headline output.",
+    "price": [
+      "150 used",
+      "https://www.ebay.com/itm/800187156873"
+    ],
+    "why": "Lower reported HA uptake does not establish worse small-active clinical results than ST0A."
+  },
+  {
+    "key": "panasonic_st0a",
+    "brand": "Panasonic",
+    "name": "Panasonic EH-ST0A",
+    "grade": "C",
+    "technology": "Upgraded BOOST head plus ion modes; heating/cooling; no RF or EMS.",
+    "sources": [
+      "S08"
+    ],
+    "research": [
+      "Manufacturer n10 forearm comparison of BOOST+MOIST with hand application: HA8.0× and oligopeptide-1 9.3× in the outer skin barrier. Output1.6× versus ST99 is an engineering comparison. Neither result measures better acne/pigment outcomes from the user’s routine."
+    ],
+    "fit": "Compatible vitamin-C ion protocol is the plausible use; the headline upgrade targets ingredients you rarely use.",
+    "value": "B value tier: sensible Panasonic alternative, without proof that the ST99 premium helps your actives.",
+    "price": [
+      "186 used, delivered",
+      "https://www.ebay.com/itm/398413370945"
+    ],
+    "why": "At $36 above the observed ST99, newer generation/condition can justify it; small-active efficacy alone cannot."
+  },
+  {
+    "key": "panasonic_ss85",
+    "brand": "Panasonic",
+    "name": "Panasonic EH-SS85 Ion Boost Multi EX",
+    "grade": "C",
+    "technology": "Dedicated BOOST and ion delivery; EMS; warm/cool; no RF.",
+    "sources": [
+      "S09"
+    ],
+    "research": [
+      "Manufacturer uptake tests: HA12×,n8; hydrolyzed collagen6.3×; vitamin C1.6×,n12,in BRIGHT UP. The ingredient,mode and cohort differ.",
+      "Manufacturer hydration evaluation,n10,measures three-hour hydration; four-week n26 half-face evaluation concerns dry fine lines with the full multimode course. It does not isolate increased vitamin-C delivery as the cause."
+    ],
+    "fit": "My higher-budget pick for a dedicated compatible-vitamin-C delivery device. Its 12× HA claim is not your vitamin-C result.",
+    "value": "C value tier at current price: better documentation than a compelling dollar-for-dollar upgrade.",
+    "price": [
+      "348 used; allow roughly350–400",
+      "https://www.ebay.com/itm/800746169833"
+    ],
+    "why": "Best-documented dedicated vitamin-C option in this source set; preference has low confidence for visible superiority. No matched head-to-head trial."
+  },
+  {
+    "key": "panasonic_sm50",
+    "brand": "Panasonic",
+    "name": "Panasonic EH-SM50 Ion Boost mask",
+    "grade": "C",
+    "technology": "Hands-free mask/ion format.",
+    "sources": [
+      "S12"
+    ],
+    "research": [
+      "Official HA comparisons report10× relative to a sheet mask alone and5.1× relative to manually applied serum. The baselines differ, so these numbers do not create a ranking against ST0A/SS85."
+    ],
+    "fit": "Convenience and hydration rather than a demonstrated increment for your small active ingredients.",
+    "value": "Do not pay extra for delivery efficacy; no verified eBay quote in this review.",
+    "price": null,
+    "why": ""
+  },
+  {
+    "key": "panasonic_sr85",
+    "brand": "Panasonic",
+    "name": "Panasonic EH-SR85 Vitalift RF",
+    "grade": "U",
+    "technology": "RF 3MHz with model-specific ion/EMS skincare functions.",
+    "sources": [
+      "S18"
+    ],
+    "research": [
+      "Official product specifications support the feature combination. No adequately assessed exact-model matched-formula delivery study is established in this dossier. SS85 BOOST results cannot be transferred to this hardware."
+    ],
+    "fit": "Consider only if RF tightening is an additional goal. Compare its RF evidence separately from ingredient delivery.",
+    "value": "No verified eBay quote included. Dedicated RF assessment is available in the archive’s RF topic.",
+    "price": null,
+    "why": ""
+  },
+  {
+    "key": "panasonic_sr86",
+    "brand": "Panasonic",
+    "name": "Panasonic EH-SR86 Vitalift RF",
+    "grade": "U",
+    "technology": "RF 4MHz with model-specific ion/EMS skincare functions.",
+    "sources": [
+      "S19"
+    ],
+    "research": [
+      "Official product specifications support the feature combination. No adequately assessed exact-model matched-formula delivery study is established in this dossier. SS85 BOOST results cannot be transferred to this hardware."
+    ],
+    "fit": "Consider only if RF tightening is an additional goal. Compare its RF evidence separately from ingredient delivery.",
+    "value": "No verified eBay quote included. Dedicated RF assessment is available in the archive’s RF topic.",
+    "price": null,
+    "why": ""
+  },
+  {
+    "key": "panasonic_sr90",
+    "brand": "Panasonic",
+    "name": "Panasonic EH-SR90 Vitalift RF",
+    "grade": "U",
+    "technology": "RF 1–6MHz with model-specific ion/EMS skincare functions.",
+    "sources": [
+      "S20"
+    ],
+    "research": [
+      "Official product specifications support the feature combination. No adequately assessed exact-model matched-formula delivery study is established in this dossier. SS85 BOOST results cannot be transferred to this hardware."
+    ],
+    "fit": "Consider only if RF tightening is an additional goal. Compare its RF evidence separately from ingredient delivery.",
+    "value": "No verified eBay quote included. Future launch as of October2,2026; official launch is scheduled later in October/early November. Do not treat preorders as delivered resale stock.",
+    "price": null,
+    "why": ""
+  },
+  {
+    "key": "yaman_shiny_m18",
+    "brand": "YA-MAN",
+    "name": "YA-MAN Photo Plus Shiny M18-YL",
+    "grade": "C",
+    "technology": "Original DYHP/ion system with RF/EMS/LED.",
+    "sources": [
+      "S50"
+    ],
+    "research": [
+      "August2022 manufacturer human tape-stripping assay,n10 men: M18-YL switched OFF versus DYHP, vitamin-C derivative VCPMG uptake about1.7× into stratum corneum. Exact model is explicitly identified on the later Neo page."
+    ],
+    "fit": "More directly relevant to vitamin C than HA-only tests, but only the tested derivative/protocol; not a finished-serum clinical trial.",
+    "value": "Potential older bargain only at a clearly low complete-unit price; no verified eBay quote in this review.",
+    "price": null,
+    "why": "Evidence grade upgraded from D to C after recovering the original-model test footnote."
+  },
+  {
+    "key": "yaman_shiny_neo",
+    "brand": "YA-MAN",
+    "name": "YA-MAN Photo Plus Shiny Neo YJFM18N",
+    "grade": "D",
+    "technology": "DYHP/ion plus RF1–3MHz,EMS,LED; daily/weekly programs.",
+    "sources": [
+      "S50"
+    ],
+    "research": [
+      "The widely advertised1.7× vitamin-C derivative tape-stripping test used original M18-YL, not Neo. A Neo n14 immediate subjective half-face evaluation reports perceived hydration/stimulation. It does not establish a clinically superior delivery effect."
+    ],
+    "fit": "My value choice if you also explicitly want RF; no evidence-based reason to pay Deep Lift prices solely for niacinamide delivery.",
+    "value": "B with a separate RF goal; C for delivery alone.",
+    "price": [
+      "236 used delivered; planning allowance235–320",
+      "https://www.ebay.com/itm/398192385122"
+    ],
+    "why": "Extra features can add personal value, but this source set does not prove its RF or delivery superiority."
+  },
+  {
+    "key": "yaman_deep_lift",
+    "brand": "YA-MAN",
+    "name": "YA-MAN Photo Plus Deep Lift YJFA1T",
+    "grade": "C",
+    "technology": "DYHP/ion and RF1–4MHz; EMS/LED.",
+    "sources": [
+      "S13"
+    ],
+    "research": [
+      "Manufacturer forearm study,n10 men,one minute,aqueous ingredients,stratum-corneum measurement. Chart ratios are approximately1.7× vitamin-C derivative,1.4× tranexamic acid,1.7× niacinamide. These are total ratios, not an additional170% clinical benefit."
+    ],
+    "fit": "Closest ingredient match to both your vitamin C and niacinamide, but not your finished formulas or clinical outcomes.",
+    "value": "D for penetration-only value at $550+; an optional premium RF combination.",
+    "price": [
+      "587 used;552 sealed-claim; mixed range550–650",
+      "https://www.ebay.com/itm/800563243295"
+    ],
+    "why": "More relevant assay than HA marketing; insufficient evidence that it beats a $110 Pro in useful visible results."
+  },
+  {
+    "key": "yaman_prestige_s",
+    "brand": "YA-MAN",
+    "name": "YA-MAN Photo Plus Prestige S M20",
+    "grade": "U",
+    "technology": "DYHP/ion,RF3MHz,EMS/LED,cooling.",
+    "sources": [
+      "S55"
+    ],
+    "research": [
+      "Official specifications/marketing establish the technology package. No complete exact-model matched-product clinical delivery comparison was adequately recovered and reviewed here. Generic electroporation literature and the M18/Deep Lift tests cannot be counted as a trial of this model."
+    ],
+    "fit": "No demonstrated advantage for your vitamin C/niacinamide and no evidence-based reason to boost your other three actives.",
+    "value": "Premium delivery value is unsubstantiated. No verified model-specific eBay quote; price stays unknown rather than inferred from retail.",
+    "price": null,
+    "why": "Premium generations must remain separate: a shared brand or pulse acronym does not establish equal waveforms, dose or efficacy."
+  },
+  {
+    "key": "yaman_prestige_ss",
+    "brand": "YA-MAN",
+    "name": "YA-MAN Photo Plus Prestige SS M21",
+    "grade": "U",
+    "technology": "DYHP,RF3MHz,microcurrent,EMS,LED,eye-care,cooling; corded.",
+    "sources": [
+      "S56"
+    ],
+    "research": [
+      "Official specifications/marketing establish the technology package. No complete exact-model matched-product clinical delivery comparison was adequately recovered and reviewed here. Generic electroporation literature and the M18/Deep Lift tests cannot be counted as a trial of this model."
+    ],
+    "fit": "No demonstrated advantage for your vitamin C/niacinamide and no evidence-based reason to boost your other three actives.",
+    "value": "Premium delivery value is unsubstantiated. No verified model-specific eBay quote; price stays unknown rather than inferred from retail.",
+    "price": null,
+    "why": "Premium generations must remain separate: a shared brand or pulse acronym does not establish equal waveforms, dose or efficacy."
+  },
+  {
+    "key": "yaman_prestige_pro",
+    "brand": "YA-MAN",
+    "name": "YA-MAN Photo Plus Prestige Pro M30",
+    "grade": "U",
+    "technology": "NEO DYHP,RF3MHz,EMS,microcurrent,LED,cooling; corded.",
+    "sources": [
+      "S57"
+    ],
+    "research": [
+      "Official specifications/marketing establish the technology package. No complete exact-model matched-product clinical delivery comparison was adequately recovered and reviewed here. Generic electroporation literature and the M18/Deep Lift tests cannot be counted as a trial of this model."
+    ],
+    "fit": "No demonstrated advantage for your vitamin C/niacinamide and no evidence-based reason to boost your other three actives.",
+    "value": "Premium delivery value is unsubstantiated. No verified model-specific eBay quote; price stays unknown rather than inferred from retail.",
+    "price": null,
+    "why": "Premium generations must remain separate: a shared brand or pulse acronym does not establish equal waveforms, dose or efficacy."
+  },
+  {
+    "key": "yaman_prestige_sp2",
+    "brand": "YA-MAN",
+    "name": "YA-MAN Photo Plus Prestige SP II M24",
+    "grade": "U",
+    "technology": "CERTEC,DWHP,DYHP,NEB,EMS,LED/cooling; honeycomb electrode generation.",
+    "sources": [
+      "S52"
+    ],
+    "research": [
+      "Official specifications/marketing establish the technology package. No complete exact-model matched-product clinical delivery comparison was adequately recovered and reviewed here. Generic electroporation literature and the M18/Deep Lift tests cannot be counted as a trial of this model."
+    ],
+    "fit": "No demonstrated advantage for your vitamin C/niacinamide and no evidence-based reason to boost your other three actives.",
+    "value": "Premium delivery value is unsubstantiated. No verified model-specific eBay quote; price stays unknown rather than inferred from retail.",
+    "price": null,
+    "why": "Premium generations must remain separate: a shared brand or pulse acronym does not establish equal waveforms, dose or efficacy."
+  },
+  {
+    "key": "yaman_prestige_sp3",
+    "brand": "YA-MAN",
+    "name": "YA-MAN Photo Plus Prestige SP III YJFM25B",
+    "grade": "U",
+    "technology": "CERTEC,DYHP/DWHP,ion,EMS,LED/microcurrent,cooling; conventional RF absent in official comparison.",
+    "sources": [
+      "S53"
+    ],
+    "research": [
+      "Official specifications/marketing establish the technology package. No complete exact-model matched-product clinical delivery comparison was adequately recovered and reviewed here. Generic electroporation literature and the M18/Deep Lift tests cannot be counted as a trial of this model."
+    ],
+    "fit": "No demonstrated advantage for your vitamin C/niacinamide and no evidence-based reason to boost your other three actives.",
+    "value": "Premium delivery value is unsubstantiated. No verified model-specific eBay quote; price stays unknown rather than inferred from retail.",
+    "price": null,
+    "why": "Premium generations must remain separate: a shared brand or pulse acronym does not establish equal waveforms, dose or efficacy."
+  },
+  {
+    "key": "yaman_miyabi",
+    "brand": "YA-MAN",
+    "name": "YA-MAN THE MIYABI YJFG0",
+    "grade": "U",
+    "technology": "CERTEC plus RF,DYHP/DWHP and multimode stimulation.",
+    "sources": [
+      "S54"
+    ],
+    "research": [
+      "Official specifications/marketing establish the technology package. No complete exact-model matched-product clinical delivery comparison was adequately recovered and reviewed here. Generic electroporation literature and the M18/Deep Lift tests cannot be counted as a trial of this model."
+    ],
+    "fit": "No demonstrated advantage for your vitamin C/niacinamide and no evidence-based reason to boost your other three actives.",
+    "value": "Premium delivery value is unsubstantiated. No verified model-specific eBay quote; price stays unknown rather than inferred from retail.",
+    "price": null,
+    "why": "Premium generations must remain separate: a shared brand or pulse acronym does not establish equal waveforms, dose or efficacy."
+  },
+  {
+    "key": "yaman_prestige_sp",
+    "brand": "YA-MAN",
+    "name": "YA-MAN Photo Plus Prestige SP M22",
+    "grade": "D",
+    "technology": "NEB combining proprietary DYHP/DWHP; RF3MHz,EMS,microcurrent,LED,cooling.",
+    "sources": [
+      "S51"
+    ],
+    "research": [
+      "Official international page claims vitamin-C derivative1.7×,niacinamide1.9×,TXA1.4× for NEB+DWHP. It also lists eight-week appearance improvements, but the readable summary lacks an adequate sample/control/protocol description for a clinical efficacy grade."
+    ],
+    "fit": "Ingredients match the two plausible parts of your routine; opaque public methods limit confidence.",
+    "value": "Poorly justified premium for delivery alone; no verified eBay quote.",
+    "price": null,
+    "why": "The1.9× niacinamide claim is not proof of superiority to Deep Lift’s1.7×; assays are not standardized."
+  },
+  {
+    "key": "medicube_booster_h",
+    "brand": "Medicube",
+    "name": "Medicube AGE-R Booster-H",
+    "grade": "C+",
+    "technology": "Older dedicated electroporation booster.",
+    "sources": [
+      "S45",
+      "S46",
+      "S47",
+      "S48"
+    ],
+    "research": [
+      "Four manufacturer reports were located: a four-week vitamin-C split-face comparison, acute vitamin-C appearance test,24-hour hydration test,and cream/dry-weather test. Read their methods/results below; all belong to Booster-H."
+    ],
+    "fit": "The strongest located exact-model matched-vitamin-C clinical signal in the Medicube family, though small and biased. Does not validate your unknown vitamin-C formula.",
+    "value": "Only attractive if appreciably cheaper than the $110 Pro and with a reliable battery; no verified current eBay quote.",
+    "price": null,
+    "why": "Grade upgraded from U to C+ after reviewing the public reports. Study breadth does not remove manufacturer sponsorship or fixed-side bias."
+  },
+  {
+    "key": "medicube_booster_pro",
+    "brand": "Medicube",
+    "name": "Medicube AGE-R Booster Pro",
+    "grade": "C+",
+    "technology": "Booster electroporation; microcurrent,Derma Shot EMS,Air Shot dry electric microporation,LED/sonic; no RF tightening mode.",
+    "sources": [
+      "S14",
+      "S42",
+      "S49"
+    ],
+    "research": [
+      "Hur et al.2023 exact-Pro trial:21 women in EP arm,four weeks,500ppm glutathione ampoule both sides,left-side device2min twice daily at level5. Preliminary pigment/brightness improvement; manufacturer authors,fixed side,no reported blinding,and unpaired between-side analyses.",
+      "Kwak et al.2023 exact-Pro trial:44 women split into22 MC and22 EMS users,two weeks,matched ampoule on both sides. Reports appearance/lifting changes, with similar bias/statistics limitations. This adds support for extra modes, not absorption."
+    ],
+    "fit": "My best balanced paid purchase: low price plus some exact-model human evidence involving another small active. Benefit for your vitamin-C/niacinamide products remains an inference.",
+    "value": "A value tier at about$110: my overall paid pick. Prefer it over Mini Plus if the roughly$33 premium is acceptable.",
+    "price": [
+      "109.99 used delivered",
+      "https://www.ebay.com/itm/398402457172"
+    ],
+    "why": "Clinical evidence is preliminary, not proof it beats Panasonic. Booster-H vitamin-C reports are contextual, not exact-Pro trials."
+  },
+  {
+    "key": "medicube_mini",
+    "brand": "Medicube",
+    "name": "Medicube Mini Booster Pro",
+    "grade": "D",
+    "technology": "Simpler electroporation booster with red/blue LED.",
+    "sources": [
+      "S15"
+    ],
+    "research": [
+      "The advertised562% absorption summary does not expose enough ingredient/absolute-dose/method detail for a trustworthy clinical comparison. It must not be treated as the Mini Plus caffeine experiment."
+    ],
+    "fit": "Lowest observed entry price, but weaker public evidence than Mini Plus/Pro.",
+    "value": "A low-cost experiment; Mini Plus is the more evidence-informed simple-device pick for the small price difference.",
+    "price": [
+      "67.99 new-claim delivered; promotion-dependent",
+      "https://www.ebay.com/itm/188731626163"
+    ],
+    "why": "Seller does not accept returns; account for that when comparing a new claim against a tested used Pro."
+  },
+  {
+    "key": "medicube_mini_plus",
+    "brand": "Medicube",
+    "name": "Medicube Mini Booster Pro Plus",
+    "grade": "C",
+    "technology": "Distinct newer three-mode device: cleansing/definition/boost.",
+    "sources": [
+      "S16",
+      "S40"
+    ],
+    "research": [
+      "Report excerpt NCR-25501-PR065 identifies caffeine transport:15min sampling control16.6 vs test103.7µg/mL,6.25×;4hr ratio3.17×. The manufacturer identifies Mini Plus and TegoScience testing May8–June2,2025. Full skin model,n,settings and sampled compartment remain unavailable."
+    ],
+    "fit": "My cheapest evidence-informed penetration-only experiment. Caffeine is a small molecule, but its result does not validate vitamin C or niacinamide.",
+    "value": "A value tier; about$77 at the sampled sealed-claim offer.",
+    "price": [
+      "76.98 new sealed-claim delivered",
+      "https://www.ebay.com/itm/287612808471"
+    ],
+    "why": "625% of control equals525% more, not625% more. Sampling time is not confirmed treatment duration."
+  },
+  {
+    "key": "medicube_x2",
+    "brand": "Medicube",
+    "name": "Medicube Booster Pro X2",
+    "grade": "D",
+    "technology": "Newer dual-head seven-mode booster; manufacturer expanded features/app.",
+    "sources": [
+      "S17"
+    ],
+    "research": [
+      "The2× comparison concerns tested power density in W/cm² versus Pro. No recovered exact-X2 matched-vitamin-C/niacinamide trial establishes a stronger clinical result. Original Pro’s trials are not X2 trials."
+    ],
+    "fit": "No evidence-based efficacy upgrade for your routine. Avoid making stronger exposure to tazarotene a purchasing goal.",
+    "value": "Conditional A only for a verified authentic bargain; standard new-claim offer costs more without a demonstrated outcome advantage.",
+    "price": [
+      "108.26 new-other unverified;189.99 sealed-claim",
+      "https://www.ebay.com/itm/336763699941"
+    ],
+    "why": "Do not let the unusually cheap new-other listing anchor the decision before verifying exact model/authenticity and returns."
+  },
+  {
+    "key": "refa_raise",
+    "brand": "ReFa / MTG",
+    "name": "ReFa BEAUTECH RAISE",
+    "grade": "D",
+    "technology": "RF-Wpulse combination:RF,sonic and pulse skincare functions.",
+    "sources": [
+      "S27"
+    ],
+    "research": [
+      "Official product/FAQ describe the combination and instructions. No adequately assessed exact-device matched-formula clinical penetration increment was located. RF,sonic vibration and a pulse label are not proof of clinical sonophoresis or of better serum delivery."
+    ],
+    "fit": "No clear reason to prefer this over lower-priced alternatives for your active routine.",
+    "value": "Delivery value remains uncertain; no verified eBay quote in this review.",
+    "price": null,
+    "why": ""
+  },
+  {
+    "key": "artistic_zeus2",
+    "brand": "ARTISTIC&CO",
+    "name": "ARTISTIC&CO Dr.Arrivo Zeus II",
+    "grade": "U",
+    "technology": "Legacy proprietary pulse beauty device; exact regional version matters.",
+    "sources": [
+      "S59"
+    ],
+    "research": [
+      "Official catalogue establishes that Zeus II remains a distinct product. A complete model-specific human delivery evidence dossier was not recovered. II Plus/IV manuals do not validate II’s clinical performance."
+    ],
+    "fit": "No established benefit for the user’s finished serums.",
+    "value": "Premium delivery value unsupported; no verified eBay quote.",
+    "price": null,
+    "why": ""
+  },
+  {
+    "key": "artistic_zeus2plus",
+    "brand": "ARTISTIC&CO",
+    "name": "ARTISTIC&CO Dr.Arrivo Zeus II PLUS",
+    "grade": "D",
+    "technology": "RF,M/U(MFIP/Ultra Pulse),EMS; compatible essence directions in official manual.",
+    "sources": [
+      "S60"
+    ],
+    "research": [
+      "Official2026 manual establishes modes and compatible-product handling. No controlled exact-II-Plus matched-product clinical delivery study was recovered. A pulse mechanism is plausible but does not quantify active delivery or visible outcomes."
+    ],
+    "fit": "No reason to enhance prescription retinoids or substitute arbitrary actives for the manual’s compatible medium.",
+    "value": "Premium purchase not justified by the delivery evidence reviewed; no verified eBay quote.",
+    "price": null,
+    "why": ""
+  },
+  {
+    "key": "artistic_zeus4",
+    "brand": "ARTISTIC&CO",
+    "name": "ARTISTIC&CO Dr.Arrivo Zeus IV",
+    "grade": "D",
+    "technology": "MFIP/ULTRA PULSE,EMS,HEAT,LED and app-assisted modes.",
+    "sources": [
+      "S58"
+    ],
+    "research": [
+      "Official page supports the technology package. No recovered controlled exact-IV study quantifies the incremental clinical benefit of vitamin C,niacinamide,azelaic acid,Thiamidol or tazarotene. “HEAT” is not automatically a conventional RF dose."
+    ],
+    "fit": "A luxury multimode purchase with unestablished added value for this routine.",
+    "value": "No evidence-based justification for a premium over Medicube/Panasonic for penetration; no verified eBay quote.",
+    "price": null,
+    "why": ""
+  }
+]

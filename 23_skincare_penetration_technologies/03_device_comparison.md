@@ -22,7 +22,7 @@ These are the principal penetration devices and adjacent families relevant to th
 
 ## Estimated efficacy order + likely eBay budget
 
-**Updated after the Medicube follow-up: Deep Lift, SS85 and Booster Pro belong in the first investigation group; their efficacy relative to one another remains unresolved.** The earlier forced sequence missed a small Pro clinical study. Deep Lift/SS85 offer ingredient-specific uptake tests; Pro now has a preliminary matched-product clinical signal with a different active. These endpoints cannot generate a valid numerical efficacy order. See the [new assay and study review](index.html#doc2).
+**Updated after the Medicube follow-up: Deep Lift, SS85 and Booster Pro belong in the first investigation group; their efficacy relative to one another remains unresolved.** The earlier forced sequence missed a small Pro clinical study; October 2 also recovered older Booster-H vitamin-C reports. Deep Lift/SS85 offer ingredient-specific uptake tests; Pro now has a preliminary matched-product clinical signal with a different active. These endpoints cannot generate a valid numerical efficacy order. See the [new assay and study review](index.html#doc2).
 
 The endpoint here is **extra useful delivery of a tolerated vitamin-C/niacinamide product**, not overall lifting, RF, acne clearance or enhancement of tazarotene. No measured percentage advantage between brands can be assigned. Your Thiamidol, azelaic acid and prescription retinoid do not provide an evidence-based reason to increase exposure.
 
@@ -40,19 +40,19 @@ The endpoint here is **extra useful delivery of a tolerated vitamin-C/niacinamid
 
 **How to read this chart:** numbered rows express investigation priorities under uncertainty, not measured efficacy ties. “Uncertain” rows are not lower efficacy tiers. Prices are planning estimates anchored to selected asking offers—not sold-market averages or guarantees of availability/authenticity. Shipping is destination-dependent. Research grades use the rubric below; they are not efficacy scores.
 
-**My practical pick remains different from the forced efficacy shortlist:** ST99/ST0A if you prefer Panasonic's ion protocol, or an authentic Medicube around $70–110 for a cheaper experiment. The chart does not establish that a $550+ Deep Lift buys better visible results than either. If the goal shifts to large-molecule HA/peptide delivery, SS85 has the more directly relevant documented test program, but even there cross-brand efficacy is unresolved.
+**October 2 final buying pick:** original Medicube Booster Pro around $110 is my best balanced paid purchase; Mini Plus around $77 is my simple budget pick. ST99/ST0A remain alternatives if you prefer Panasonic’s ion workflow. [Final recommendation](index.html#decision). The chart does not establish that a $550+ Deep Lift buys better visible results than either. If the goal shifts to large-molecule HA/peptide delivery, SS85 has the more directly relevant documented test program, but even there cross-brand efficacy is unresolved.
 
 Sources for the inference: [Deep Lift ingredient tests](https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-deep-lift.html), [SS85 methods](https://panasonic.jp/face/products/EH-SS85/feature.html), [ST0A methods](https://panasonic.jp/face/products/EH-ST0A.html), [Medicube Pro](https://medicube.us/products/age-r-booster-pro). [Download the chart's data](data/efficacy_price_shortlist_2026-10-01.csv).
 
 ## Value tier list for your routine
 
-**This ranking prioritizes your vitamin C, niacinamide, azelaic acid, Thiamidol and tazarotene routine.** It uses the [October 1 asking-price snapshot](index.html#doc5), rather than retail prices or an efficacy-per-dollar calculation. The prices have not been independently refreshed for this tier-list edit. Condition, authenticity and returns can move a particular offer down a tier.
+**This ranking prioritizes your vitamin C, niacinamide, azelaic acid, Thiamidol and tazarotene routine.** It uses the [October 1 asking-price snapshot](index.html#doc5), rather than retail prices or an efficacy-per-dollar calculation. Prices retain the October 1 snapshot and were not refreshed on October 2. Condition, authenticity and returns can move a particular offer down a tier.
 
 **Best overall value: no device ($0).** Your ordinary topical regimen has a stronger clinical rationale than adding a booster. The device tiers below rank optional purchases; an A-tier device is not a proven treatment upgrade.
 
 | Value tier | Devices at observed prices | Why they belong here |
 |---|---|---|
-| **A · Best-priced experiments** | Medicube Mini **$68**, Mini Plus **$77**, Booster Pro **$110** | Low entry cost. Mini/Mini Plus suit a simple experiment; Pro is worth the extra money only if you also want its additional modes. Mini Plus and Pro now have additional support described in the follow-up; neither establishes superiority. Low price remains the main reason for this tier. |
+| **A · Best-priced experiments** | Medicube Mini **$68**, Mini Plus **$77**, Booster Pro **$110** | Low entry cost. Mini/Mini Plus suit a simple experiment; Pro also has preliminary exact-model human evidence; the extra modes add value if you want them. Mini Plus and Pro now have additional support described in the follow-up; neither establishes superiority. Low price remains the main reason for this tier. |
 | **A, conditional · Verify the offer** | Medicube X2 **$108 new other** | Comparable price to a used Pro could make the newer hardware attractive. This unusually cheap listing needs authentication and condition checks. At the observed **$190 sealed** price, place it in **B** for this routine; “2× power” does not demonstrate extra benefit. |
 | **B · Reasonable preference premium** | Panasonic ST99 **$150**, ST0A **$183–186** | More explicit ion-mode/BOOST documentation and warm/cool convenience. Prefer ST0A if the small premium buys better condition; do not pay it expecting proven better small-active results. |
 | **B only with an RF goal · C for delivery alone** | YA-MAN Shiny Neo **$236** | A reasonable combined-feature candidate if RF is a separate priority. For penetration alone it costs substantially more than the A-tier experiments without established additional benefit. |
@@ -85,12 +85,13 @@ These grades assess **the publicly inspectable, exact-device evidence reviewed i
 | **Panasonic Vitalift SR85** | **U · Delivery evidence insufficiently assessed** | RF/ion features documented; this topic does not establish a controlled exact-model delivery increment. S18. | **Not established here**; RF evidence belongs to its separate goal. |
 | **Panasonic Vitalift SR86** | **U · Delivery evidence insufficiently assessed** | Official page/manual support model specifications and use; no transfer of SS85 BOOST tests. S19. | **Not established here.** |
 | **Panasonic Vitalift SR90** | **U · Delivery evidence insufficiently assessed** | Launch-generation specifications, without a comparable delivery-outcome study assessed here. S20. | **Not established here.** |
-| **YA-MAN original Shiny M18** | **D · Very weak for delivery outcomes** | Exact-model instructions and proprietary pulse features; Neo/Deep Lift assays do not validate the older model. Manufacturer/manual evidence only in this review. S25 and preserved Shiny manual. | **Not established.** |
+| **YA-MAN original Shiny M18** | **C · Limited ingredient uptake** | Newly recovered S50 exact-M18-YL vitamin-C derivative tape-stripping test, n=10 men, OFF versus DYHP, 1.7× into stratum corneum. Not a finished-serum clinical comparison. | **Not established.** |
 | **YA-MAN Shiny Neo YJFM18N** | **D · Very weak for delivery outcomes** | DYHP/ion specifications are relevant, but the detailed Deep Lift ingredient assay is not an exact-Neo trial. S25. | **Not established.** |
 | **YA-MAN Deep Lift YJFA1T** | **C · Limited, ingredient-relevant** | Manufacturer forearm aqueous vitamin-C derivative/TXA/niacinamide study, n=10 men, one minute, stratum-corneum endpoint. Niacinamide is directly relevant, but no matched finished-formula clinical increment is established. S13. | **Not established.** |
-| **YA-MAN Prestige; Prestige Pro; SP; SP II; SP III; MIYABI** | **U for each exact generation** | Premium technology descriptions/comparison pages do not provide a sufficiently assessed exact-model delivery study for each listed generation. No pooling evidence across DYHP/DWHP/CERTEC variants. S13/S26. | **Not established here for any listed generation.** |
-| **Medicube Booster-H** | **U · Insufficiently assessed** | Legacy booster context; underlying exact-model assay not adequately assessed in this source set. S38. | **Not established here.** |
-| **Medicube Booster Pro** | **C+ · Preliminary clinical signal** | Newly located matched-product clinical paper; substantial bias/method limits. [Study review](index.html#doc2). S42. | **Not established for your actives.** |
+| **YA-MAN Prestige S/SS/Pro; SP II; SP III; MIYABI** | **U for each exact generation** | Verified generation-specific product descriptions; no complete clinical delivery comparison adequately recovered. No pooling across pulse variants. S52–S57. | **Not established here for any listed generation.** |
+| **Medicube Booster-H** | **C+ · Preliminary clinical signal** | Four manufacturer reports now reviewed, including a four-week same-vitamin-C-ampoule split-face comparison, n=22. Fixed-side/internal-institute limitations. S45–S48. | **Not established here.** |
+| **YA-MAN Prestige SP M22** | **D · Limited public summary** | Vitamin-C derivative/niacinamide ratios and eight-week appearance claims; adequate sample/control/protocol details not recovered. S51. | **Not established.** |
+| **Medicube Booster Pro** | **C+ · Preliminary clinical signal** | Matched-product EP clinical paper; additional MC/EMS paper assesses separate modes. Substantial bias/method limits. [Study review](index.html#doc2). S42. | **Not established for your actives.** |
 | **Medicube Mini Booster Pro** | **D · Very weak / opaque** | Advertised 562% absorption and named testing organization, but insufficient ingredient, absolute-dose and methods detail for a trustworthy cross-brand comparison. S15. | **Not established.** |
 | **Medicube Mini Booster Pro Plus** | **C · Partial tracer evidence** | Public report excerpt identifies caffeine, control and sampling times; complete assay protocol still missing. S40. | **Not established**; caffeine is not vitamin C. |
 | **Medicube Booster Pro X2** | **D · Very weak for delivery outcomes** | Power-density comparison is an engineering result. Manufacturer cosmetic outcomes do not isolate enhanced delivery of your actives or establish superiority over Pro. S17. | **Not established.** |
@@ -99,9 +100,9 @@ These grades assess **the publicly inspectable, exact-device evidence reviewed i
 
 ### Which has the strongest research support?
 
-**Panasonic SS85 remains well documented for ingredient-specific manufacturer uptake tests; Medicube Pro now has a preliminary clinical comparison and Mini Plus an identified tracer test.** They answer different questions. Deep Lift’s niacinamide assay is directly ingredient-relevant. This does not establish a cross-brand clinical efficacy ranking; grades are C+, C or below for your routine.
+**Panasonic SS85 remains well documented for ingredient-specific manufacturer uptake tests; Medicube Pro has preliminary clinical comparisons, Booster-H a same-vitamin-C-ampoule manufacturer comparison, and Mini Plus an identified tracer test.** They answer different questions. Deep Lift’s niacinamide assay is directly ingredient-relevant. This does not establish a cross-brand clinical efficacy ranking; grades are C+, C or below for your routine.
 
-The important missing study for your routine is your same tolerated vitamin-C/niacinamide product with versus without the exact device, with randomized treatment side, masking and longer follow-up. Neither a testing institute’s name, a patent, a large absorption percentage nor a higher voltage fills that gap. See the [evidence audit](index.html#doc2) for study designs and the [source log](source_docs/research_resource_log_2026-10-01.txt) for the recovery trail.
+Booster-H now has a small manufacturer comparison with a particular vitamin-C ampoule, but it does not establish an effect for your unspecified product or another generation. The important missing study for your routine is your same tolerated vitamin-C/niacinamide product with versus without the exact device, with randomized treatment side, masking and longer follow-up. Neither a testing institute’s name, a patent, a large absorption percentage nor a higher voltage fills that gap. See the [evidence audit](index.html#doc2) for study designs and the [source log](source_docs/research_resource_log_2026-10-01.txt) for the recovery trail.
 
 ## Feature sources and model boundaries
 
@@ -116,3 +117,8 @@ Medicube: [Pro](https://medicube.us/products/age-r-booster-pro), [Mini](https://
 YA-MAN Bloom/Liftlogy/MediLift, Panasonic Kassa, Medicube UltraTune/Ussera/HighFocus, and standalone EMS or microcurrent devices are primarily tightening/stimulation products. A dedicated RF, HIFU or EMS label does not establish ingredient delivery. Medicube Air Shot is its own dry-skin mode; it is not interchangeable with wet Booster use. Buy these for a separate evidenced goal, with their exact instructions.
 
 **What this section found:** Panasonic offers the clearest separate ion-mode/BOOST test documentation; YA-MAN combines delivery with RF; Medicube offers the lowest observed entry prices. None establishes clinical superiority for the user’s five actives. S08–S20, S25–S27.
+
+
+## Full company and device research pages
+
+[Panasonic](index.html#company_panasonic) · [YA-MAN](index.html#company_yaman) · [Medicube](index.html#company_medicube) · [ReFa / MTG](index.html#company_refa) · [ARTISTIC&CO](index.html#company_artistic). Each reviewed model has a distinct page. [All reviewed research](index.html#research) · [Final recommendation for your routine](index.html#decision).

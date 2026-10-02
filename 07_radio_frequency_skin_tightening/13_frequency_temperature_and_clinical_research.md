@@ -1,6 +1,6 @@
 # Which RF technology, MHz and temperature deserve attention?
 
-*Research update 2026-10-01. Device selection analysis, not a treatment setting prescription. Surface targets, sensor cutoffs, claimed dermal targets and directly measured experimental temperatures are different quantities.*
+*Research update 2026-10-01; Panasonic status and device-spec recheck 2026-10-02. Device selection analysis, not a treatment setting prescription. Surface targets, sensor cutoffs, claimed dermal targets and directly measured experimental temperatures are different quantities.*
 
 ## The answer to “what MHz is best?”
 
@@ -23,7 +23,7 @@ For closely spaced bipolar electrodes, current tends to remain more local; monop
 | **~1 MHz controlled bipolar home RF** | Original NEWA direct home clinical file; CurrentBody and Sensilift Pro documented technical controls | Sham-controlled head-to-head with common endpoints | **Highest buying-documentation priority** |
 | **~0.5–3 MHz variable/bipolar/multipolar** | YA-MAN variable geometry/control; professional 2.45 MHz translational study | Exact consumer model with measured dose and controlled outcome study | **Promising engineering/research lane** |
 | **3–4 MHz Panasonic multimodal** | Disclosed carriers and established manufacturer platform | RF-only or matched-combination trial versus lower-frequency sibling | Consider for usability/features; no demonstrated MHz advantage |
-| **6–6.78 MHz** | Professional monopolar foundation; announced Panasonic6 and MimiSilk 6.25 | Home-device depth/temperature validation and trials, not proximity to Thermage | Professional relevance; consumer **watchlist** |
+| **1–6 MHz Panasonic EH-SR90 / 6–6.78 MHz** | EH-SR90 is now in Panasonic's official purchase window; MimiSilk claims 6.25 MHz; professional monopolar systems use this neighborhood | Home-device thermal validation and trials, not proximity to Thermage | Consumer **watchlist**; official availability does not establish a 6 MHz efficacy advantage [S82](https://panasonic.jp/face/products/EH-SR90.html) [S83](https://panasonic.jp/beauty/campaign/26autumn-face-cashback.html) |
 | **40.68 MHz** | Professional contouring studies and Medicube marketing | Matched-device comparison controlling geometry, power, dose and add-ons | No justification to chase the highest number |
 
 Sources: [S01–S03 FDA](source_docs/FDA_K250341_Sensilift_Pro.pdf), [YA-MAN S15](https://www.ya-man.com/en/products/bloom-6.php), [Panasonic S06](source_docs/Panasonic_RF_EX_RF_2025_brochure.pdf), [LUXE S07](https://panasonic.jp/face/products/EH-SR90.html), [MimiSilk S36](https://www.mimisilk.com/products/mimisilk-vera-rf-sculpt-6-25mhz-gel-free-radio-frequency-skin-lifting-device), [S49](https://pubmed.ncbi.nlm.nih.gov/28557650/), [Medicube S46](https://medicube.us/products/age-r-ultra-tune-40-68).
@@ -40,7 +40,7 @@ Sources: [S01–S03 FDA](source_docs/FDA_K250341_Sensilift_Pro.pdf), [YA-MAN S15
 | **Original Sensilift / Sensifirm** | **40 /41.5 °C** auto-stop | Manufacturer skin-control statements | Body/facial distinction; confirm exact IFU [S45](https://sensica.com/pages/rf-skin-tightening) |
 | **MimiSilk Vera levels1/2/3** | FAQ **45–46/47–48/49–50 °C dermis**; guide **45/47/52 °C** | Claimed dermal values, not surface measurements | **Contradictory top setting; not independently validated** [S37](https://www.mimisilk.com/fr/products/mimisilk-vera-rf-sculpt-6-25mhz-gel-free-radio-frequency-skin-lifting-device), [S38](https://www.mimisilk.com/blogs/news/how-to-use-mimisilk-vera-rf-sculpt-full-guide-expected-results) |
 | **MimiSilk Vera surface** | Below **117 °F≈47.2 °C** | Brand surface ceiling | Not comparable to a 40°C FDA control limit or proof of safety across dwell times [S37](https://www.mimisilk.com/fr/products/mimisilk-vera-rf-sculpt-6-25mhz-gel-free-radio-frequency-skin-lifting-device) |
-| **Panasonic SR90/86/85/75** | **No numeric target verified** | Product warming claims | Do not fill missing temperature with a generic RF range [S06](source_docs/Panasonic_RF_EX_RF_2025_brochure.pdf), [S07](https://panasonic.jp/face/products/EH-SR90.html) |
+| **Panasonic SR90/86/85/75** | **No numeric target verified** | Product warming claims | Do not fill missing temperature with a generic RF range [S06](source_docs/Panasonic_RF_EX_RF_2025_brochure.pdf), [S82](https://panasonic.jp/face/products/EH-SR90.html) |
 | **YA-MAN Bloom/Photo PLUS/Cavispa** | **No numeric target verified** | Warming comparisons and sensor descriptions | Graphs/heat-speed claims do not establish in-vivo dermal target [S15](https://www.ya-man.com/en/products/bloom-6.php), [S18](https://www.ya-man-tokyo-japan.com/products/forface/rf-bloom-wr-star.html) |
 | **TriPollar current STOP variants** | Optimal-temperature indicator; numeric dermal target not verified here | Thermal guidance | Common “55°C dermis” claim is not an independently measured outcome in this pass [S42](https://uk.mytripollar.com/products/stop-vx-2), [S43](https://uk.mytripollar.com/pages/how-to-use) |
 | **Medicube Ultra Tune / Silk'n current variants** | **No numeric target verified in reviewed store text** | Consumer RF/combination claims | Exact IFU/regional generation needed [S46](https://medicube.us/products/age-r-ultra-tune-40-68), [S47](https://www.silkn.com/products/titan-allways) |
@@ -105,7 +105,7 @@ For **home wrinkle maintenance**, focus on reliable **temperature feedback, cont
 
 For **professional tightening**, cooled monopolar RF has a different usable energy/volume envelope. Discuss exact device, measured/validated endpoints, anatomy and fat-preservation goals with the treating clinician. Professional bipolar/fractional platforms may suit different endpoints; microneedling RF is a separate invasive choice rather than a stronger home wand. The existing [home/professional comparison](index.html#doc4) and [clinical map](index.html#doc11) preserve the risk boundary.
 
-For this archive's routine, RF is optional when mild wrinkles/laxity are a defined unmet goal. More frequency or heat is not a reason to stack it on irritated skin or during active laser recovery. Exact model contraindications and clinician guidance after procedures outrank generic internet scheduling.
+For an actual product brief, see the [evidence-led home-RF specification proposal](index.html#doc15) and [interactive spec-fit visualizer](rf_spec_fit_visualizer.html). For this archive's routine, RF is optional when mild wrinkles/laxity are a defined unmet goal. More frequency or heat is not a reason to stack it on irritated skin or during active laser recovery. Exact model contraindications and clinician guidance after procedures outrank generic internet scheduling.
 
 ## Evidence requests before paying a premium
 
@@ -115,4 +115,4 @@ Ask for the exact model and IFU; RF output on a specified load and duty cycle; e
 
 ## Source and data access
 
-[Market census](index.html#doc12) · [interactive comparison](rf_market_explorer.html) · [source manifest](index.html#doc14) · [research notebook](source_docs/research_resource_log_2026-10-01.txt) · [source register](data/rf_sources_2026-10-01.json).
+[Market census](index.html#doc12) · [51-record market explorer](rf_market_explorer.html) · [spec-fit visualizer](rf_spec_fit_visualizer.html) · [source manifest](index.html#doc14) · [2026-10-02 research log](source_docs/research_resource_log_2026-10-02.txt) · [source register](data/rf_sources_2026-10-02.json).

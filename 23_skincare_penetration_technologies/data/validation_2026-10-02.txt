@@ -1,0 +1,10 @@
+October2,2026 validation
+27 device pages,5 company pages,final recommendation,study catalogue:34 new documents;42 topic documents total.
+Topic audit:broken_local_links=0,warnings=0.
+Rendered-document policy:PASS,70 authored HTML checked.
+Citation features:PASS.
+Router regenerated:288 document routes;embedded source rebuilt:288 documents.
+Browser desktop:all34 new routes render;no page overflow or visible .md links.
+Browser mobile390x844:all34 routes render;no page overflow or visible .md links;native page picker works.
+Whole-site audit:1 pre-existing error,paper-discovery.html references missing paper-discovery.js;outside topic23.
+Offline:content is pre-rendered and embedded sources rebuilt;direct file-protocol browser visual verification was unavailable in the earlier pass.

@@ -82,5 +82,109 @@
     "status": 200,
     "sha256": "bdb0ae2af578d77d4bfea214859f04c26d8b843a1a5b552a07bbe8400b6a44f0",
     "bytes": 348946
+  },
+  {
+    "file": "medicube_mc_ems_2023.pdf",
+    "url": "https://doi.org/10.52660/JKSC.2023.29.6.1505",
+    "status": 200,
+    "sha256": "83d18bfd849956aad5d4b03a1bf46dd08b628ac4e3d32ec8011e89c746bb0778",
+    "bytes": 3311616,
+    "date": "2026-10-02"
+  },
+  {
+    "file": "yaman_neo_features_2026-10-02.html",
+    "url": "https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-shiny-neo_features.html",
+    "status": 200,
+    "sha256": "fbda6021a8e302930fa704529e369453bc07a0d2e4fef7f6a5f42fac5063530f",
+    "bytes": 84642,
+    "date": "2026-10-02"
+  },
+  {
+    "file": "yaman_sp_global_2026-10-02.html",
+    "url": "https://global.ya-man.com/collections/all-products/products/photo-plus-prestige-sp",
+    "status": 200,
+    "sha256": "c9841de860918d49d05a2cb7d333ea76981a28a17990be1fd2ccaacdcf2c69b6",
+    "bytes": 700851,
+    "date": "2026-10-02"
+  },
+  {
+    "file": "yaman_sp2_2026-10-02.html",
+    "url": "https://www.ya-man-tokyo-japan.com/products/forface/m24v.html",
+    "status": 200,
+    "sha256": "d9fd7cba27bed830e5975e84a25ebec16a82b90f9e1dd503c50a85121a27810c",
+    "bytes": 59187,
+    "date": "2026-10-02"
+  },
+  {
+    "file": "yaman_sp3_2026-10-02.html",
+    "url": "https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-prestige-sp3.html",
+    "status": 200,
+    "sha256": "de0892d5692262ce8b5c071287f477a4165637dcebfd0e27f72b49622b95f4e6",
+    "bytes": 109102,
+    "date": "2026-10-02"
+  },
+  {
+    "file": "yaman_miyabi_2026-10-02.html",
+    "url": "https://www.ya-man-tokyo-japan.com/products/forface/pl_miyabi.html",
+    "status": 200,
+    "sha256": "3c0574b87609832797731329462c5d0c7248cc7e02e19327294ee32d98de150c",
+    "bytes": 99170,
+    "date": "2026-10-02"
+  },
+  {
+    "file": "yaman_prestige_s_2026-10-02.html",
+    "url": "https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-prestige-s.html",
+    "status": 200,
+    "sha256": "94051c98ecf2e4ac944c0af6ababc7d342e58daa3a3492a2470a8c59fba136d5",
+    "bytes": 89100,
+    "date": "2026-10-02"
+  },
+  {
+    "file": "yaman_prestige_ss_2026-10-02.html",
+    "url": "https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-prestige-ss.html",
+    "status": 200,
+    "sha256": "9d444460ba238f7759dcbf47af24d39a4d4077a51bcb86edd7c0badccc9953c8",
+    "bytes": 85137,
+    "date": "2026-10-02"
+  },
+  {
+    "file": "yaman_prestige_pro_2026-10-02.html",
+    "url": "https://www.ya-man-tokyo-japan.com/products/forface/pl_photo-plus-prestige-pro.html",
+    "status": 200,
+    "sha256": "835a89b1ba84da457ea7979870c944a0e99f97bbef2b63dcfe016441842e4bbe",
+    "bytes": 102065,
+    "date": "2026-10-02"
+  },
+  {
+    "file": "artistic_zeus4_2026-10-02.html",
+    "url": "https://artistic.co.jp/product/dr-arrivo-zeus-%E2%85%B3/",
+    "status": 200,
+    "sha256": "73fb191e31b29c5f22dbc55e0a84e1bfe4e8f7ebe61ab37fd88ee0f3ef9797a7",
+    "bytes": 205206,
+    "date": "2026-10-02"
+  },
+  {
+    "file": "artistic_catalogue_2026-10-02.html",
+    "url": "https://shop.artistic-official.com/",
+    "status": 200,
+    "sha256": "897fb176438a14fbb62de50ea98ea4eed8ac4f693e2d261d4c247603d9c2a891",
+    "bytes": 605728,
+    "date": "2026-10-02"
+  },
+  {
+    "file": "artistic_zeus2plus_manual.pdf",
+    "url": "https://artistic.co.jp/art/wp-content/uploads/2026/01/Zeus2-PLUS_user-manual_260106.pdf",
+    "status": 200,
+    "sha256": "b9d966ec8064ad63ad49ed548451c379cd503798d810d60d6558b5f1b64418f4",
+    "bytes": 24685986,
+    "date": "2026-10-02"
+  },
+  {
+    "file": "yaman_neo_brochure.pdf",
+    "url": "https://www.ya-man.co.jp/wp/wp-content/uploads/PR-YJFM18N-2.pdf",
+    "status": 200,
+    "sha256": "6d07aa4c78a61ef6628f20a88443226400f63028a346791fbe8f590f5f713cda",
+    "bytes": 4085213,
+    "date": "2026-10-02"
   }
 ]

@@ -1,4 +1,19 @@
-# Skincare penetration technologies: start here
+# Skincare penetration: company and device research
+
+**For your routine, my overall paid pick is Medicube Booster Pro around $110 used.** Mini Plus around $77 is the simpler budget experiment; Panasonic SS85 around $350–400 used is the higher-budget dedicated vitamin-C preference. None is proven clinically superior for your actual formulas. [Read the final recommendation and decision chart](index.html#decision).
+
+## Company directories
+
+- [Panasonic: eight individual device pages](index.html#company_panasonic)
+- [YA-MAN: ten individual device pages](index.html#company_yaman)
+- [Medicube: five individual device pages](index.html#company_medicube)
+- [ReFa / MTG: BEAUTECH RAISE](index.html#company_refa)
+- [ARTISTIC&CO: three Zeus device pages](index.html#company_artistic)
+
+Each device has its own full page with technology, exact-model research, ingredient fit, evidence grade, price status and buying assessment. The directory covers the relevant models identified in this comparison; it is not every product ever sold by these companies.
+
+**New October 2 findings:** four Booster-H reports include a matched-vitamin-C clinical comparison; a second exact-Pro paper evaluates microcurrent/EMS; and Shiny Neo’s 1.7× vitamin-C assay actually tested original Shiny M18. [All reviewed research and its limits](index.html#research).
+
 
 Updated October 1, 2026. This section compares **ingredient delivery**, with RF tightening and EMS kept as separate purchasing goals.
 

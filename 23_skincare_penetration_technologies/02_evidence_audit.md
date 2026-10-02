@@ -23,7 +23,7 @@ Medicube's published statement identifies **Mini Booster Pro Plus**, Tego Scienc
 
 Caffeine is approximately **194 Da**, ascorbic acid **176 Da**, and niacinamide **122 Da**: these are small molecules, not high-molecular-weight HA. Size similarity makes caffeine a relevant model compound, but **does not demonstrate the same transport gain for vitamin C**. Charge, pH, vehicle, oxidation and the sampled compartment still matter. [NIST caffeine](https://webbook.nist.gov/cgi/cbook.cgi?Name=caffeine), [FDA ascorbic acid](https://precision.fda.gov/ginas/app/ui/substances/PQ6CK8PD0R), [NIST niacinamide](https://webbook.nist.gov/cgi/cbook.cgi?ID=C98920&Mask=8EF&Units=CAL).
 
-The excerpt lacks the complete protocol, skin/model identity, replicate count, device settings, dosing, sampling compartment and uncertainty needed for a full audit. It is not demonstrated in-vivo human delivery merely because the testing company also conducts human trials. This evidence belongs to **Mini Plus**, not automatically Pro, X2 or original Mini. No adequately documented Medicube high-MW ingredient assay or direct vitamin-C device-versus-hand test was located in this follow-up.
+The excerpt lacks the complete protocol, skin/model identity, replicate count, device settings, dosing, sampling compartment and uncertainty needed for a full audit. It is not demonstrated in-vivo human delivery merely because the testing company also conducts human trials. This evidence belongs to **Mini Plus**, not automatically Pro, X2 or original Mini. No adequately documented Medicube high-MW ingredient transport assay was recovered. **October 2 update:** four older Booster-H manufacturer reports were subsequently located, including a four-week matched-vitamin-C clinical comparison. These measure skin outcomes, not vitamin-C concentration; they do not validate Mini Plus or Pro. [Full report review](index.html#research).
 
 ### Booster Pro: a small clinical comparison with glutathione
 
@@ -61,3 +61,8 @@ Sources: [Panasonic ST0A](https://panasonic.jp/face/products/EH-ST0A.html), [SS8
 - High-output delivery tests do not prove dermal collagen stimulation; additional RF or EMS features require their own evidence.
 
 **What this section found:** small clinical studies support certain active-plus-ion regimens; no located trial establishes the incremental value or best consumer model for the user’s complete routine. Industry tests provide narrower delivery endpoints. S04–S15, S21–S24.
+
+
+## October 2 expansion: exact-model clinical evidence
+
+The [new study catalogue](index.html#research) reviews four Booster-H reports, both published Booster Pro studies, and the original Shiny M18 vitamin-C derivative assay. [Individual company/device pages](index.html#doc6) keep these generations separate. Booster-H is now C+; original Shiny M18 is C. Neo’s marketing assay used M18, so it does not establish exact-Neo delivery efficacy. [Final recommendation for this routine](index.html#decision).

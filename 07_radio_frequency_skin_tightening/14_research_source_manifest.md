@@ -1,6 +1,6 @@
 # RF research source manifest
 
-Compiled 2026-10-01. The reader pages cite source IDs; this manifest explains preservation and access limitations.
+Compiled 2026-10-01; refreshed 2026-10-02. The reader pages cite source IDs; this manifest explains preservation and access limitations. The prior 81-source register remains available in its dated file; the current combined register has 86 entries.
 
 ## Preserved primary files
 
@@ -17,10 +17,12 @@ YA-MAN manual pages carry reproduction restrictions; they are linked, not mirror
 
 ## Research notebook and data
 
-- [Verbose resource log](source_docs/research_resource_log_2026-10-01.txt) — source-by-source finding, limits, access and SHA256 for preserved files.
-- [Source register JSON](data/rf_sources_2026-10-01.json).
-- [Device census CSV](data/rf_market_census_2026-10-01.csv) and [JSON](data/rf_market_census_2026-10-01.json).
+- [2026-10-02 update log](source_docs/research_resource_log_2026-10-02.txt) — Panasonic correction, refreshed specs, decision model and limitations.
+- [Original verbose resource log](source_docs/research_resource_log_2026-10-01.txt) — original source-by-source findings, access and preserved-file notes.
+- [Current combined source register JSON](data/rf_sources_2026-10-02.json) (86 records); [October 1 register](data/rf_sources_2026-10-01.json) retained as a snapshot.
+- [Current 51-model census CSV](data/rf_market_census_2026-10-02.csv) and [JSON](data/rf_market_census_2026-10-02.json); October 1 census retained as a snapshot.
 - [Searchable market comparison](rf_market_explorer.html).
+- [Evidence-led specification proposal](index.html#doc15) · [interactive specification fit visualizer](rf_spec_fit_visualizer.html).
 
 ## Complete source register
 
@@ -32,9 +34,9 @@ YA-MAN manual pages carry reproduction restrictions; they are linked, not mirror
 | S04 | [Panasonic Vitalift RF EX EH-SR86](https://panasonic.jp/face/products/EH-SR86.html) | official product | 4 MHz RF; RF/EMS/LED/ion multimodal; 653-purchaser satisfaction survey is consumer evidence, not histologic collagen evidence. **Limit:** Does not establish superiority over other current home RF devices. |
 | S05 | [Panasonic Vitalift RF EH-SR85](https://panasonic.jp/face/products/EH-SR85.html) | official product | 3 MHz RF combined with EMS, LED, ion; nine advertised care roles. **Limit:** Does not establish superiority over other current home RF devices. |
 | S06 | [Panasonic 2025 RF EX/RF brochure](https://panasonic.jp/catalog/ctlg/vitalift_rf_ex/vitalift_rf_ex.pdf) | official product | EH-SR75 2 MHz; SR85 3 MHz; SR86 4 MHz. Special-care modes 2–3/week; daily moisture mode distinct. **Limit:** Does not establish superiority over other current home RF devices. |
-| S07 | [Panasonic Vitalift RF LUXE EH-SR90](https://panasonic.jp/face/products/EH-SR90.html) | official product | 6 MHz RF; eight-electrode architecture; comparison with four electrodes of SR86. No numeric tissue-temperature target in text reviewed. **Limit:** Does not establish superiority over other current home RF devices. |
-| S08 | [Panasonic EH-SR90 purchase page](https://panasonic.jp/face/products/EH-SR90/shopping.eh-sr 90-k.html) | official product | JPY99,000; preorders; listed launch 2026-10-31. Not shipping availability on 2026-10-01. **Limit:** Does not establish superiority over other current home RF devices. |
-| S09 | [Panasonic September 2026 announcements](https://panasonic.jp/whatsnew.html) | official product | September 15 announcement lists SR90 early-November launch, unlike shop date October 31; regional timing must be rechecked. **Limit:** Does not establish superiority over other current home RF devices. |
+| S07 | [Panasonic Vitalift RF LUXE EH-SR90](https://panasonic.jp/face/products/EH-SR90.html) | official product | Earlier page extraction emphasized 6 MHz and eight electrodes. The 2026-10-02 recheck describes variable 1–6 MHz and five modes; see S82. No numeric skin-temperature target in reviewed page. **Limit:** No demonstrated MHz advantage. |
+| S08 | [Panasonic EH-SR90 purchase page](https://panasonic.jp/face/products/EH-SR90/shopping.eh-sr%2090-k.html) | official product | October 1 dated listing showed JPY99,000 and a future date. Superseded for current purchase-period status by S83. **Limit:** Historical regional store snapshot only. |
+| S09 | [Panasonic September 2026 announcements](https://panasonic.jp/whatsnew.html) | official product | Earlier announcement described an early-November launch; superseded for purchase-period eligibility by the specific Panasonic campaign S83. **Limit:** General news index. |
 | S10 | [Panasonic EH-SR72 specification](https://panasonic.jp/face/products/EH-SR72/spec.html) | official product | Specification lists ultrasound at 1 MHz and charging consumption; neither can automatically be relabeled RF output. **Limit:** Does not establish superiority over other current home RF devices. |
 | S11 | [Panasonic EH-SR73 specification](https://panasonic.jp/face/products/EH-SR73/spec.html) | official product | Specification lists ultrasound at 1 MHz and charging consumption; neither can automatically be relabeled RF output. **Limit:** Does not establish superiority over other current home RF devices. |
 | S12 | [Panasonic EH-SR74 specification](https://panasonic.jp/face/products/EH-SR74/spec.html) | official product | Specification lists ultrasound at 1 MHz and charging consumption; neither can automatically be relabeled RF output. **Limit:** Does not establish superiority over other current home RF devices. |
@@ -107,3 +109,8 @@ YA-MAN manual pages carry reproduction restrictions; they are linked, not mirror
 | S79 | [EvenSkyn Lumo+ FAQ](https://www.evenskyn.com/pages/lumo-faqs) | official product | Claims initial dermis140°F=60°C at1.5–4mm then104–107°F=40–41.7°C after20s; elsewhere steady 40–42°C. No independent thermal validation extracted. **Limit:** Anatomy/fat-preservation guarantee and superiority to needle RF not established; heating locations and feedback details need validation. |
 | S80 | [AMIRO R1 PRO official device page](https://amirobeauty.com/products/amiro-high-radiofrequency-skincare-device) | official product | Six electrodes,3mm depth claim, skin temperature≤42°C claimed; consumer/brand clinical-test marketing. **Limit:** Depth not independently measured; exact trial/thermal calibration/US clearance not recovered. |
 | S81 | [AMIRO R3 Turbo attempted official route](https://amirobeauty.com/products/r3-turbo-facial-rf-skin-tightening-device) | official product | Redirects to R1 PRO page; regional generation identity unresolved. **Limit:** Redirect is not proof R3 and R1 are identical or share trials. |
+| S82 | [Panasonic EH-SR90 current official page](https://panasonic.jp/face/products/EH-SR90.html) | official product | Rechecked 2026-10-02: variable 1–6 MHz RF, eight electrodes, five modes. **Limit:** No numeric temperature/output or exact-model peer-reviewed trial found. |
+| S83 | [Panasonic EH-SR90 2026 purchase-period campaign](https://panasonic.jp/beauty/campaign/26autumn-face-cashback.html) | official product / availability | Official eligible purchase period 2026-09-15–12-27. **Limit:** Japan campaign eligibility does not prove universal stock, U.S. clearance or efficacy. |
+| S84 | [YA-MAN Bloom 6 YJFS16PN1 current page](https://www.ya-man.com/en/products/bloom-6.php) | official product | 0.5–2.5 MHz claim, five-layer ring, resistance-factor output adjustment and skin-contact detection. **Limit:** No numeric thermal cap, calibrated power/load, or exact-model human outcomes found. |
+| S85 | [MimiSilk Vera current product page](https://www.mimisilk.com/products/mimisilk-vera-rf-sculpt-6-25mhz-gel-free-radio-frequency-skin-lifting-device) | official product / marketing | 6.25 MHz, 4.5/9/18 W, depth and claimed dermal-temperature values; $699 page snapshot. **Limit:** Measurement method and independent validation absent; temperature statements conflict. |
+| S86 | [CurrentBody RF current U.S. product page](https://www.currentbody.us/products/currentbody-skin-radio-frequency-device) | official product | Rechecked 2026-10-02: 1±0.05 MHz, store-listed 40–41 °C pause/restart, approx. 2.2 cm² area and $385.99 base price. **Limit:** Store claims/prices are volatile; FDA K232424 remains the primary regulatory source. |

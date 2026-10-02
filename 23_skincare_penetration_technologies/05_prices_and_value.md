@@ -1,5 +1,7 @@
 # Comparable eBay prices and value
 
+**October 2 final assessment:** [Booster Pro is my best balanced paid pick for your routine](index.html#decision); Mini Plus is the cheaper simple experiment. See the new company/device pages and study catalogue for the expanded evidence.
+
 **October 1, 2026 snapshot, USD asking prices.** These are selected live offers observed in listing pages or eBay search cards, not a systematic market sample or sold-price averages. Total below means listed item price plus displayed shipping to a U.S. destination; destination, tax, stock, offers and coupons can change it. Seller claims and authenticity were not independently verified. Search-card-only records require opening the listing and checking its current condition before purchase.
 
 | Model | Item + shipping | Total before tax | Condition claim / observation |

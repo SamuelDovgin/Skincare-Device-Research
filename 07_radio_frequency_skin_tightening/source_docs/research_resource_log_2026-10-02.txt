@@ -1,0 +1,83 @@
+RF HOME-DEVICE SPECIFICATION UPDATE — SOURCE AND CHANGE LOG
+Pass date: 2026-10-02, America/Chicago
+Scope: propose an evidence-led home-device specification, refresh the RF decision visualizer, recheck Panasonic EH-SR90 availability/specifications, and preserve the exact support and limitations for the claims used.
+No patient treatment settings or individual medical advice are modeled.
+
+CHANGE NOTE
+The 2026-10-01 market note called Panasonic EH-SR90 prelaunch and described it only as 6 MHz. Rechecking Panasonic's live product page and campaign on 2026-10-02 shows the official page now lists variable 1–6 MHz RF and eight electrodes; its official promotion covers eligible purchases made 2026-09-15 through 2026-12-27. This establishes a Japan-market purchase window, not global inventory, a U.S. medical indication, or efficacy. Affected: 12_market_census_and_value.md, 13_frequency_temperature_and_clinical_research.md, 15_home_rf_specification_blueprint.md, the 2026-10-02 census, and the spec visualizer.
+
+[S82] Panasonic VITALIFT RF LUXE EH-SR90 current official product page
+URL: https://panasonic.jp/face/products/EH-SR90.html
+Accessed: 2026-10-02 America/Chicago
+Class: official product
+Used in: 12_market_census_and_value.md, 13_frequency_temperature_and_clinical_research.md, 15_home_rf_specification_blueprint.md, spec-fit visualizer, 2026-10-02 market census
+Supports: Manufacturer's current listed features and carrier range for the exact model.
+Key record: The page describes 1–6 MHz RF, an eight-electrode head, five modes, and separate weekly limits for RF/EMS special-care modes. Product information names EH-SR90. No numeric RF surface cap, calibrated RF output/load, or exact-model peer-reviewed trial was found in the reviewed page.
+Finding: Variable 1–6 MHz is the current manufacturer claim; older material that called this only a 6 MHz carrier is incomplete.
+Limits: Official product claims do not independently verify RF delivery, dermal temperature, penetration, or superior human outcomes. The purchase campaign is Japan-specific.
+Local preservation: URL-only — no lawful local source copy made; official live page cited.
+Status/recheck: Live official page on access date; stock and specifications may change.
+
+[S83] Panasonic Beauty 2026 Autumn Face-Care Purchase Campaign
+URL: https://panasonic.jp/beauty/campaign/26autumn-face-cashback.html
+Accessed: 2026-10-02 America/Chicago
+Class: official product / availability
+Used in: 12_market_census_and_value.md, 13_frequency_temperature_and_clinical_research.md, 15_home_rf_specification_blueprint.md, 2026-10-02 market census
+Supports: Purchase-eligibility period for the named EH-SR90 in Panasonic's campaign.
+Key record: The campaign names EH-SR90; eligible purchases from authorized retailers are dated 2026-09-15 through 2026-12-27, with application in a later window.
+Finding: The old prelaunch status is superseded by an official Japan-market purchase period.
+Limits: Campaign participation does not prove a given shop has stock, authorize medical claims, or establish international availability, product benefit or U.S. clearance.
+Local preservation: URL-only — no lawful local source copy made; official live campaign cited.
+Status/recheck: Live official campaign on access date; dates expire and terms vary.
+
+[S84] YA-MAN Bloom 6 YJFS16PN1 official product page
+URL: https://www.ya-man.com/en/products/bloom-6.php
+Accessed: 2026-10-02 America/Chicago
+Class: official product
+Used in: 13_frequency_temperature_and_clinical_research.md, 15_home_rf_specification_blueprint.md, spec-fit visualizer
+Supports: Exact-model manufacturer description of variable RF range and contact/resistance features.
+Key record: The page describes a 0.5–2.5 MHz Multi RF System, five-layer ring / parallel-electrode design, resistance-factor detection with RF adjustment, and contact detection that stops timer and output when lifted.
+Finding: The model discloses feedback mechanisms worth measuring as a design lead.
+Limits: No calibrated RF watts/load, numeric temperature maximum, sensor redundancy/fault behavior, depth-resolved temperature map or exact-model human outcome trial was located in the page. Relative depth/evenness and effectiveness statements remain brand claims.
+Local preservation: URL-only — no lawful local source copy made; official live page cited.
+Status/recheck: Live official page on access date; regional stock and bundle price vary.
+
+[S85] MimiSilk Vera RF Sculpt official product page
+URL: https://www.mimisilk.com/products/mimisilk-vera-rf-sculpt-6-25mhz-gel-free-radio-frequency-skin-lifting-device
+Accessed: 2026-10-02 America/Chicago
+Class: official product / marketing claim
+Used in: 12_market_census_and_value.md, 13_frequency_temperature_and_clinical_research.md, 15_home_rf_specification_blueprint.md, spec-fit visualizer
+Supports: Snapshot of exact-model manufacturer MHz, nominal power levels, target-depth and temperature claims.
+Key record: Page claims 6.25 MHz, 4.5/9/18 W levels, 2.5–3 mm depth, dermal values of 45–46 / 47–48 / 49–50 °C, and elsewhere says surface skin remains below 117 °F (about 47.2 °C); page lists US$699.
+Finding: The product page offers numerical marketing claims but does not describe a traceable measurement setup in the reviewed material.
+Limits: These claims do not establish calibrated delivered RF power, independently measured dermal temperature, depth, safety, or Vera-specific clinical effect. FAQ and guide differ in their upper-level temperature claim. Nearby frequency to Thermage is not platform equivalence.
+Local preservation: URL-only — no lawful local source copy made; official page claims summarized, not copied in full.
+Status/recheck: Live official product page on access date; claims and price are volatile.
+
+[S86] CurrentBody Skin RF current U.S. product page
+URL: https://www.currentbody.us/products/currentbody-skin-radio-frequency-device
+Accessed: 2026-10-02 America/Chicago
+Class: official product
+Used in: 15_home_rf_specification_blueprint.md, spec-fit visualizer, 2026-10-02 market census
+Supports: Current U.S. listing, merchant-disclosed specification and availability snapshot for exact model.
+Key record: Page lists 1±0.05 MHz; skin-temperature RF pause/restart at 40–41 °C; treatment area approximately 2.2 cm²; stop/start interruption on loss of contact; the base device listed at US$385.99 when accessed.
+Finding: The current official retailer page is useful for a live price and the advertised surface-control description. The FDA K232424 file remains the primary source for 5±1 W, two redundant thermistors, a 40.5±0.5 °C maximum and regulatory details.
+Limits: Retailer text and company clinical claims are not independent product-efficacy proof. Checkout can be destination-blocked; price, stock and shipping vary.
+Local preservation: URL-only — no lawful local source copy made; FDA source is separately preserved as source_docs/FDA_K232424_CurrentBody.pdf.
+Status/recheck: Live U.S. store page on access date; one page excerpt reported destination-dependent shipping.
+
+RECHECKED LOCAL PRIMARY SOURCES
+[S01] CurrentBody K232424 local FDA summary — source_docs/FDA_K232424_CurrentBody.pdf — re-read technical summary: 1 MHz bipolar, 5±1 W, 40.5±0.5 °C maximum, two redundant thermistors, bench validation and substantial-equivalence scope. Existing locally preserved PDF; it does not report a new comparative clinical trial.
+[S02] NEWA DEN150005 De Novo summary — source_docs/FDA_DEN150005_NEWA.pdf — re-read: 1 MHz; 10 W validation at 360 Ω; 750 ms pulse cycle / 300 ms pulse duration; RF stops over 42 °C; the clinical study has model/population-specific limits. Existing locally preserved PDF; not a sham-controlled head-to-head trial.
+[S03] Sensilift Pro K250341 summary — source_docs/FDA_K250341_Sensilift_Pro.pdf — re-read: 1±0.05 MHz; 6±1 W; 40±0.5 °C max; two redundant thermistors; load-specific bench validation and substantial equivalence. Existing locally preserved PDF; no new subject-device clinical outcome trial in the summary.
+[S48] Bai/Ni et al., PMID 39327749 / DOI 10.1111/jocd.16600 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11743280/ — rechecked article record/search content. Professional Reaction/Sinclair experiments compare 0.8/1.7/2.45 MHz, with an uncontrolled human cohort on one platform; not a consumer-device frequency RCT. CC BY full-text XML already preserved as source_docs/Bai_Ni_2024_RF_thermal_stimulation_PMC11743280.xml.
+[S74] Bu et al. YA-MAN ACE/Jmoon multimodal randomized study, DOI 10.1111/jocd.70096 — https://onlinelibrary.wiley.com/doi/10.1111/jocd.70096 — reused the prior source record and licensed full-text copy source_docs/PMC11915080_fulltext_BioC.xml. The trial does not isolate carrier frequency or securely map to Bloom 6.
+[S75] Shu et al. 2022 home split-face study, DOI 10.1007/s13555-022-00697-y — https://link.springer.com/article/10.1007/s13555-022-00697-y — reused the prior source record and licensed CC BY-NC copy source_docs/PMC9021338_fulltext_BioC.xml. Bundle (RF+red LED) versus cosmetic; retail SKU is not established in primary methods.
+
+LOCAL DECISION DATA / ARTIFACTS
+- data/rf_market_census_2026-10-02.json and .csv: 51 device/family records; preserves October 1 census, updates EH-SR90 frequency/status and attaches refreshed IDs S82/S83/S84/S85/S86 where relevant.
+- data/rf_sources_2026-10-02.json: combined source register, 86 entries.
+- data/rf_market_data_2026-10-02.js: explorer input bundle built from the census and source register.
+- data/rf_spec_profiles_2026-10-02.js: six curated, sourced comparison profiles and ordinal documentation grades.
+- 15_home_rf_specification_blueprint.md: proposed device brief and its evidence boundaries.
+- rf_spec_fit_visualizer.html: weighted documentation-fit score plus separate evidence coverage. Score: 100 × sum(weight×1–4 rating) / (4 × active weights); coverage: present=1, partial=0.5, not located/unverified=0, divided by six fields. An 80% coverage threshold gates ranking. All grades are editorial evidence-coverage judgements, not device measurements, clinical outcomes or safety ratings.

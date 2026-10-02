@@ -6,7 +6,7 @@ Research thread: **radiofrequency (RF) devices for collagen remodeling, wrinkle 
 
 ## October 2026 expanded market research
 
-Start with the [Panasonic/YA-MAN/MimiSilk market and value census](index.html#doc12), [MHz/temperature/clinical research](index.html#doc13), or [filterable51-record device comparison](rf_market_explorer.html). The conclusion is evidence/control-first: no universal best MHz,  no demonstrated 6.25 MHz Thermage equivalence, and explicitly conflicting MimiSilk temperature claims. Panasonic6 MHz LUXE remains prelaunch on 2026-10-01. YA-MAN now has a controlled regional-device evidence lane with uncertain retail transfer.
+Start with the [proposed home-device specification](index.html#doc15), [interactive spec-fit visualizer](rf_spec_fit_visualizer.html), [Panasonic/YA-MAN/MimiSilk market and value census](index.html#doc12), [MHz/temperature/clinical research](index.html#doc13), or [51-record device comparison](rf_market_explorer.html). The conclusion is evidence/control-first: no universal best MHz, no demonstrated 6.25 MHz Thermage equivalence, and explicitly conflicting MimiSilk temperature claims. Panasonic EH-SR90 entered its official Japan purchase-promotion period in September 2026; this does not establish a 6 MHz efficacy advantage. YA-MAN has a promising variable-frequency/contact-feedback design, with exact-model clinical transfer unresolved.
 
 ## TL;DR
 
@@ -36,11 +36,12 @@ Start with the [Panasonic/YA-MAN/MimiSilk market and value census](index.html#do
 
 |12|[Expanded market & value census](index.html#doc12)|Panasonic, YA-MAN, MimiSilk, established alternatives, regional variants, prices and evidence gaps|
 |13|[Frequency, temperature & clinical research](index.html#doc13)|MHz priorities, actual cutoff/dermal claims, controlled studies and technology comparison|
-|14|[Research source manifest](index.html#doc14)|81-source register, primary PDFs, licensed full text and preservation log|
+|14|[Research source manifest](index.html#doc14)|86-source register, primary PDFs, licensed full text and preservation logs|
+|15|[Evidence-led home RF specification blueprint](index.html#doc15)|Design requirements, frequency priorities, safety/control features, evidence expectations and market decision|
 
 ## Source/data access
 
-[Device explorer](rf_market_explorer.html) · [Census CSV](data/rf_market_census_2026-10-01.csv) · [Research notebook](source_docs/research_resource_log_2026-10-01.txt) · [Rendered source manifest](index.html#doc14).
+[51-device/family explorer](rf_market_explorer.html) · [Specification fit visualizer](rf_spec_fit_visualizer.html) · [Census CSV](data/rf_market_census_2026-10-02.csv) · [Current source register](data/rf_sources_2026-10-02.json) · [October 2 research log](source_docs/research_resource_log_2026-10-02.txt) · [Rendered source manifest](index.html#doc14).
 
 ## Relationship to the other folders
 

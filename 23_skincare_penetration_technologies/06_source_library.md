@@ -33,3 +33,26 @@ The three transcripts are preserved as plain text for provenance, not scientific
 - [Mini Plus disclosed report page](source_docs/medicube_report_excerpt_1.png) and [manufacturer statement](source_docs/medicube_report_excerpt_2.png).
 - [Booster Pro published paper](source_docs/medicube_glutathione_2023.pdf).
 - [Lab Muffin Panasonic article](https://labmuffin.com/ion-boosted-skincare-panasonic-skincare-tools-video/) — live URL; local capture unavailable.
+
+
+## October 2 company/device expansion
+
+[Study catalogue](index.html#research) · [October 2 research log](source_docs/research_resource_log_2026-10-02.txt) · [Structured device evidence dataset](data/device_dossiers_2026-10-02.json).
+
+- [medicube_mc_ems_2023.pdf](source_docs/medicube_mc_ems_2023.pdf) — [primary source](https://doi.org/10.52660/JKSC.2023.29.6.1505); SHA-256 in manifest.
+- [yaman_neo_features_2026-10-02.html](source_docs/yaman_neo_features_2026-10-02.html) — [primary source](https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-shiny-neo_features.html); SHA-256 in manifest.
+- [yaman_sp_global_2026-10-02.html](source_docs/yaman_sp_global_2026-10-02.html) — [primary source](https://global.ya-man.com/collections/all-products/products/photo-plus-prestige-sp); SHA-256 in manifest.
+- [yaman_sp2_2026-10-02.html](source_docs/yaman_sp2_2026-10-02.html) — [primary source](https://www.ya-man-tokyo-japan.com/products/forface/m24v.html); SHA-256 in manifest.
+- [yaman_sp3_2026-10-02.html](source_docs/yaman_sp3_2026-10-02.html) — [primary source](https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-prestige-sp3.html); SHA-256 in manifest.
+- [yaman_miyabi_2026-10-02.html](source_docs/yaman_miyabi_2026-10-02.html) — [primary source](https://www.ya-man-tokyo-japan.com/products/forface/pl_miyabi.html); SHA-256 in manifest.
+- [yaman_prestige_s_2026-10-02.html](source_docs/yaman_prestige_s_2026-10-02.html) — [primary source](https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-prestige-s.html); SHA-256 in manifest.
+- [yaman_prestige_ss_2026-10-02.html](source_docs/yaman_prestige_ss_2026-10-02.html) — [primary source](https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-prestige-ss.html); SHA-256 in manifest.
+- [yaman_prestige_pro_2026-10-02.html](source_docs/yaman_prestige_pro_2026-10-02.html) — [primary source](https://www.ya-man-tokyo-japan.com/products/forface/pl_photo-plus-prestige-pro.html); SHA-256 in manifest.
+- [artistic_zeus4_2026-10-02.html](source_docs/artistic_zeus4_2026-10-02.html) — [primary source](https://artistic.co.jp/product/dr-arrivo-zeus-%E2%85%B3/); SHA-256 in manifest.
+- [artistic_catalogue_2026-10-02.html](source_docs/artistic_catalogue_2026-10-02.html) — [primary source](https://shop.artistic-official.com/); SHA-256 in manifest.
+- [artistic_zeus2plus_manual.pdf](source_docs/artistic_zeus2plus_manual.pdf) — [primary source](https://artistic.co.jp/art/wp-content/uploads/2026/01/Zeus2-PLUS_user-manual_260106.pdf); SHA-256 in manifest.
+- [yaman_neo_brochure.pdf](source_docs/yaman_neo_brochure.pdf) — [primary source](https://www.ya-man.co.jp/wp/wp-content/uploads/PR-YJFM18N-2.pdf); SHA-256 in manifest.
+
+The four public Booster-H report URLs and concise study summaries appear in the rendered catalogue. Their restrictive notices are respected by retaining URL-only access rather than redistributing their full texts.
+
+[October 2 validation record](data/validation_2026-10-02.txt).

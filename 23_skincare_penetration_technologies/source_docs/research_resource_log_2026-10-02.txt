@@ -1,0 +1,175 @@
+Research expansion — October2,2026; timezone America/Chicago.
+Scope: all located/reviewed support for the penetration models mapped in device_dossiers_2026-10-02.json. Not exhaustive across every brand catalogue, private reports or inaccessible videos.
+Search sources: official product catalogues,PubMed/publisher records,manufacturer clinical reading lists and cited public papers. Queries included exact model+clinical/penetration; Medicube vitamin C absorption; YA-MAN Photo Plus randomized clinical penetration; Panasonic EH-SS85 clinical study. Search snippets alone were not treated as full reports.
+Change: Booster-H U→C+ after four reports; original Shiny M18 D→C after exact-model tape-stripping footnote; Neo remains D because the assay was M18. Pro receives additional non-delivery evidence from exact-model MC/EMS study. Final recommendation distinguishes purchase preference from clinical superiority.
+
+[S45] Booster-H four-week vitamin C report GLB-220713-I1
+URL: https://cdn.shopify.com/s/files/1/0156/3905/2336/files/GLB-220713-I1_220826__-_Study_Report_ver.2.0_Dec_2021_____1.pdf?v=1671693686
+Accessed:2026-10-02; primary web text read unless marked failed/blocked
+Class:manufacturer human report
+Used in:medicube_booster_h;08_research_catalog;07_final_recommendation
+Supports/key record:22 women; fixed left-side device, same Deep Vita C Ampoule 2.0 both sides, four weeks. Brightness baseline changes 0.657% vs 0.272%; report states between-side p<.05. APR-sponsored/internal institute. Does not measure vitamin C concentration or validate Pro.
+Limits: exact-model/ingredient/design boundaries above; no cross-brand effect ranking.
+Local preservation:URL-only: manufacturer report publicly linked; restrictive notice, no redistributed full copy.
+
+[S46] Booster-H acute vitamin C report GLB-220719-I1
+URL: https://cdn.shopify.com/s/files/1/0156/3905/2336/files/GLB-220719-I1_220823__-_Study_Report_ver.2.1_Dec_2021_____1.pdf?v=1671693686
+Accessed:2026-10-02; primary web text read unless marked failed/blocked
+Class:manufacturer human report
+Used in:medicube_booster_h;08_research_catalog;07_final_recommendation
+Supports/key record:22 women; single three-minute left-face treatment at level5, same vitamin C ampoule both sides. Instrumental hydration/appearance endpoints; not molecular uptake. Fixed side, no reported masking; immediate effects.
+Limits: exact-model/ingredient/design boundaries above; no cross-brand effect ranking.
+Local preservation:URL-only: manufacturer report publicly linked; restrictive notice, no redistributed full copy.
+
+[S47] Booster-H 24-hour hydration report GLB-220727-I1
+URL: https://cdn.shopify.com/s/files/1/0156/3905/2336/files/GLB-220727-I1_220823__-_Study_Report_ver.2.0_Dec_2021_____1.pdf?v=1671693686
+Accessed:2026-10-02; primary web text read unless marked failed/blocked
+Class:manufacturer human report
+Used in:medicube_booster_h;08_research_catalog;07_final_recommendation
+Supports/key record:22 women; upper-arm ampoule/device versus ampoule alone and untreated area; level5 one minute. At24h hydration baseline changes27.310% vs12.689%, reported between-side p<.01. Not vitamin C uptake or pigment outcome.
+Limits: exact-model/ingredient/design boundaries above; no cross-brand effect ranking.
+Local preservation:URL-only: manufacturer report publicly linked; restrictive notice, no redistributed full copy.
+
+[S48] Booster-H cream/dry-weather report GLB-221101-I1
+URL: https://cdn.shopify.com/s/files/1/0156/3905/2336/files/GLB-221101-I1_221111__-_Study_Report_ver.3.0_Oct_2022_____1.pdf?v=1671693686
+Accessed:2026-10-02; primary web text read unless marked failed/blocked
+Class:manufacturer human report
+Used in:medicube_booster_h;08_research_catalog;07_final_recommendation
+Supports/key record:20 women; cream with/without device; acute one-hour drying exposure. Hydration baseline changes56.461% vs34.538%; reported p<.001. Sleep-mark outcomes also assessed. Not vitamin C or penetration concentration.
+Limits: exact-model/ingredient/design boundaries above; no cross-brand effect ranking.
+Local preservation:URL-only: manufacturer report publicly linked; restrictive notice, no redistributed full copy.
+
+[S49] Kwak et al.2023 microcurrent/EMS, DOI10.52660/JKSC.2023.29.6.1505
+URL: https://doi.org/10.52660/JKSC.2023.29.6.1505
+Accessed:2026-10-02; primary web text read unless marked failed/blocked
+Class:peer-reviewed manufacturer-authored human
+Used in:medicube_booster_pro;08_research_catalog;07_final_recommendation
+Supports/key record:Exact Booster Pro,44 women,22 per mode, two weeks; same glutathione ampoule both sides, fixed left-side device; MC2min and EMS2.5min twice daily level5. Enrollment-order groups; no reported masking; unpaired between-side analyses despite paired design. Supports preliminary appearance/lifting, not absorption.
+Limits: exact-model/ingredient/design boundaries above; no cross-brand effect ranking.
+Local preservation:source_docs/medicube_mc_ems_2023.pdf;captured2026-10-02;sha256=83d18bfd849956aad5d4b03a1bf46dd08b628ac4e3d32ec8011e89c746bb0778;bytes=3311616
+
+[S50] YA-MAN Shiny Neo official features / original M18 assay
+URL: https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-shiny-neo_features.html
+Accessed:2026-10-02; primary web text read unless marked failed/blocked
+Class:official product
+Used in:yaman_shiny_m18, yaman_shiny_neo;08_research_catalog;07_final_recommendation
+Supports/key record:August2022 human tape stripping n10 men; exact M18-YL OFF vs DYHP; vitamin C derivative VCPMG1.7fold. Neo page also describes n14 immediate subjective half-face evaluation. Assay is M18, not exact Neo clinical proof.
+Limits: exact-model/ingredient/design boundaries above; no cross-brand effect ranking.
+Local preservation:source_docs/yaman_neo_features_2026-10-02.html;captured2026-10-02;sha256=fbda6021a8e302930fa704529e369453bc07a0d2e4fef7f6a5f42fac5063530f;bytes=84642
+
+[S51] YA-MAN Prestige SP M22 official international evidence summary
+URL: https://global.ya-man.com/collections/all-products/products/photo-plus-prestige-sp
+Accessed:2026-10-02; primary web text read unless marked failed/blocked
+Class:official product
+Used in:yaman_prestige_sp;08_research_catalog;07_final_recommendation
+Supports/key record:NEB+DWHP manufacturer claims vitamin C derivative1.7fold, niacinamide1.9fold,TXA1.4fold; eight-week appearance percentages. Public text lacks adequate protocol/control/n for clinical grading; no clinical superiority inference.
+Limits: exact-model/ingredient/design boundaries above; no cross-brand effect ranking.
+Local preservation:source_docs/yaman_sp_global_2026-10-02.html;captured2026-10-02;sha256=c9841de860918d49d05a2cb7d333ea76981a28a17990be1fd2ccaacdcf2c69b6;bytes=700851
+
+[S52] YA-MAN Prestige SP II M24 official page
+URL: https://www.ya-man-tokyo-japan.com/products/forface/m24v.html
+Accessed:2026-10-02; primary web text read unless marked failed/blocked
+Class:official product
+Used in:yaman_prestige_sp2;08_research_catalog;07_final_recommendation
+Supports/key record:CERTEC,DWHP,DYHP,NEB,EMS,LED,cooling; shape upgrade. Does not establish stronger clinical delivery than M22.
+Limits: exact-model/ingredient/design boundaries above; no cross-brand effect ranking.
+Local preservation:source_docs/yaman_sp2_2026-10-02.html;captured2026-10-02;sha256=d9fd7cba27bed830e5975e84a25ebec16a82b90f9e1dd503c50a85121a27810c;bytes=59187
+
+[S53] YA-MAN Prestige SP III YJFM25B official page
+URL: https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-prestige-sp3.html
+Accessed:2026-10-02; primary web text read unless marked failed/blocked
+Class:official product
+Used in:yaman_prestige_sp3;08_research_catalog;07_final_recommendation
+Supports/key record:CERTEC,DYHP/DWHP; official comparison explicitly shows no conventional RF row for SP III, unlike SP and MIYABI. No reviewed complete matched-product clinical trial.
+Limits: exact-model/ingredient/design boundaries above; no cross-brand effect ranking.
+Local preservation:source_docs/yaman_sp3_2026-10-02.html;captured2026-10-02;sha256=de0892d5692262ce8b5c071287f477a4165637dcebfd0e27f72b49622b95f4e6;bytes=109102
+
+[S54] YA-MAN THE MIYABI official page
+URL: https://www.ya-man-tokyo-japan.com/products/forface/pl_miyabi.html
+Accessed:2026-10-02; primary web text read unless marked failed/blocked
+Class:official product
+Used in:yaman_miyabi;08_research_catalog;07_final_recommendation
+Supports/key record:CERTEC plus RF combined; premium technologies, not comparative clinical proof for user actives.
+Limits: exact-model/ingredient/design boundaries above; no cross-brand effect ranking.
+Local preservation:source_docs/yaman_miyabi_2026-10-02.html;captured2026-10-02;sha256=3c0574b87609832797731329462c5d0c7248cc7e02e19327294ee32d98de150c;bytes=99170
+
+[S55] YA-MAN Prestige S M20 official page
+URL: https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-prestige-s.html
+Accessed:2026-10-02; primary web text read unless marked failed/blocked
+Class:official product
+Used in:yaman_prestige_s;08_research_catalog;07_final_recommendation
+Supports/key record:DYHP,RF3MHz,EMS/LED,cooling; no adequately recovered exact-model controlled delivery trial.
+Limits: exact-model/ingredient/design boundaries above; no cross-brand effect ranking.
+Local preservation:source_docs/yaman_prestige_s_2026-10-02.html;captured2026-10-02;sha256=94051c98ecf2e4ac944c0af6ababc7d342e58daa3a3492a2470a8c59fba136d5;bytes=89100
+
+[S56] YA-MAN Prestige SS M21 official page
+URL: https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-prestige-ss.html
+Accessed:2026-10-02; primary web text read unless marked failed/blocked
+Class:official product
+Used in:yaman_prestige_ss;08_research_catalog;07_final_recommendation
+Supports/key record:DYHP,RF3MHz,microcurrent,EMS,LED,eye-care and cooling; corded generation, not later CERTEC.
+Limits: exact-model/ingredient/design boundaries above; no cross-brand effect ranking.
+Local preservation:source_docs/yaman_prestige_ss_2026-10-02.html;captured2026-10-02;sha256=9d444460ba238f7759dcbf47af24d39a4d4077a51bcb86edd7c0badccc9953c8;bytes=85137
+
+[S57] YA-MAN Prestige Pro M30 official page
+URL: https://www.ya-man-tokyo-japan.com/products/forface/pl_photo-plus-prestige-pro.html
+Accessed:2026-10-02; primary web text read unless marked failed/blocked
+Class:official product
+Used in:yaman_prestige_pro;08_research_catalog;07_final_recommendation
+Supports/key record:NEO DYHP,RF3MHz,EMS,microcurrent,LED,cooling; corded generation. Japan price220000yen contradicts earlier132000 description; no eBay price inferred from yen.
+Limits: exact-model/ingredient/design boundaries above; no cross-brand effect ranking.
+Local preservation:source_docs/yaman_prestige_pro_2026-10-02.html;captured2026-10-02;sha256=835a89b1ba84da457ea7979870c944a0e99f97bbef2b63dcfe016441842e4bbe;bytes=102065
+
+[S58] ARTISTIC&CO Zeus IV official page
+URL: https://artistic.co.jp/product/dr-arrivo-zeus-%E2%85%B3/
+Accessed:2026-10-02; primary web text read unless marked failed/blocked
+Class:official product
+Used in:artistic_zeus4;08_research_catalog;07_final_recommendation
+Supports/key record:MFIP/ULTRA PULSE,EMS,HEAT,LED/app. Product and instructions establish features, not serum-specific comparative efficacy.
+Limits: exact-model/ingredient/design boundaries above; no cross-brand effect ranking.
+Local preservation:source_docs/artistic_zeus4_2026-10-02.html;captured2026-10-02;sha256=73fb191e31b29c5f22dbc55e0a84e1bfe4e8f7ebe61ab37fd88ee0f3ef9797a7;bytes=205206
+
+[S59] ARTISTIC&CO official product catalogue
+URL: https://shop.artistic-official.com/
+Accessed:2026-10-02; primary web text read unless marked failed/blocked
+Class:official product
+Used in:artistic_zeus2;08_research_catalog;07_final_recommendation
+Supports/key record:Lists ZeusII,IIPlus,IV as separate products; no trustworthy efficacy ranking or eBay distribution implied.
+Limits: exact-model/ingredient/design boundaries above; no cross-brand effect ranking.
+Local preservation:source_docs/artistic_catalogue_2026-10-02.html;captured2026-10-02;sha256=897fb176438a14fbb62de50ea98ea4eed8ac4f693e2d261d4c247603d9c2a891;bytes=605728
+
+[S60] Zeus II PLUS official English/Japanese manual January2026
+URL: https://artistic.co.jp/art/wp-content/uploads/2026/01/Zeus2-PLUS_user-manual_260106.pdf
+Accessed:2026-10-02; web extraction blocked by PDF size; local downloaded PDF text inspected with pdftotext
+Class:official instructions
+Used in:artistic_zeus2plus;08_research_catalog;07_final_recommendation
+Supports/key record:Exact IIPlus manual distinguishes RF,M/U,EMS and compatible products. Not a controlled penetration trial.
+Limits: exact-model/ingredient/design boundaries above; no cross-brand effect ranking.
+Local preservation:source_docs/artistic_zeus2plus_manual.pdf;captured2026-10-02;sha256=b9d966ec8064ad63ad49ed548451c379cd503798d810d60d6558b5f1b64418f4;bytes=24685986
+
+[S61] YA-MAN Shiny Neo official brochure
+URL: https://www.ya-man.co.jp/wp/wp-content/uploads/PR-YJFM18N-2.pdf
+Accessed:2026-10-02; primary web text read unless marked failed/blocked
+Class:official product
+Used in:study catalogue / discovery;08_research_catalog;07_final_recommendation
+Supports/key record:Official model brochure; web extraction failed, capture attempted; detailed assay supported by S50 instead.
+Limits: exact-model/ingredient/design boundaries above; no cross-brand effect ranking.
+Local preservation:source_docs/yaman_neo_brochure.pdf;captured2026-10-02;sha256=6d07aa4c78a61ef6628f20a88443226400f63028a346791fbe8f590f5f713cda;bytes=4085213
+
+Other sources actually consulted this pass:
+[L01] Local topic README,comparison,evidence,source log,capture manifest and eBay CSV; local archive read, earlier IDs reused, no new marketplace refresh.
+[L02] Root README/index,git status; preserve concurrent RF work.
+[L03] Local RF11_home_rf_clinical_evidence_map and12_market_census_and_value; adjacent tightening studies do not validate ingredient uptake.
+[N01] https://medicube.us/en-de/blogs/age-r-booster-h/clinical-study ;live primary navigation to S45–S48, generic mechanistic references do not validate an exact device. URL-only.
+[N02] https://www.ya-man-tokyo-japan.com/series/photoplus.html ;official catalogue discovery; URL-only.
+[N03] https://www.ya-man-tokyo-japan.com/products/special/hikaku.html ;official comparison discovery; URL-only; stale/inconsistent retail text not used as current eBay prices.
+[N04] https://international-shop.ya-man.com/pages/compare-products ;official generation inventory;URL-only;not clinical proof.
+[N05] https://artistic.co.jp/history/ ;official lineage discovery;URL-only;not efficacy.
+[N06] https://labmuffin.com/ion-boosted-skincare-panasonic-skincare-tools-video/ ;S41 reread;Panasonic-sponsored2018EHST63 commentary;no new Medicube verdict located.
+[N07] https://www.ya-man.com/en/products/photo-plus-prestige.php and https://www.e-jkc.org/journal/view.php?doi=10.52660/JKSC.2023.29.6.1505 ;access failures,not relied on;paper public mirror used.
+[N08] Attempted https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-prestige-sp-3.html ;failed route;resolved primary /photo-plus-prestige-sp3.html used.
+[N09] Search/discovery records: manufacturer pressrelease https://www.ya-man.co.jp/news/22398/ ;official ARTISTIC manual July2025 and brochure June2025 links;not relied upon for new efficacy conclusions.
+Rights: S45–S48 are public manufacturer-linked reports with restrictive reproduction notices; preserve bibliographic/method summaries and canonical links only, not redistributed PDFs. Public open-access peer-reviewed papers/manuals and official web snapshots captured where accessible.
+
+Validation notes: exact-II-Plus downloaded manual inspected locally: RF/MU/EMS are explicit. Desktop browser visited all34 new hash routes; rendered heading present, no page-level overflow or visible Markdown links. Mobile check recorded separately.
+Mobile validation:390×844,all34 newly registered pages visited; headings present,no page-level overflow,no visible Markdown links. Mobile page picker navigated correctly to Booster Pro. Topic audit/citation/policy passed. Whole-site audit retains one pre-existing missing paper-discovery.js outside topic23; no unrelated repair attempted.
