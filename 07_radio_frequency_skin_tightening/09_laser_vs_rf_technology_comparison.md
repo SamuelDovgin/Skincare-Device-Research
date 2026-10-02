@@ -59,7 +59,7 @@ Light photons → absorbed by specific chromophores → ONLY those structures he
 | **Primary target** | Water + melanin + hemoglobin | Water only | Water only | Everything in current path |
 | **Wavelength / Frequency** | 1064 nm | 1450 nm | 1450 nm | 1.0–1.25 MHz (RF) |
 | **Energy density** | **10 J/cm²** | ~3.6 J/cm² | ~2.0 J/cm² | Not published (continuous wave) |
-| **Power** | Not published (diode) | 3.0W (Pro 3) | ~2.0W | Not published |
+| **Power** | Not published (diode) | 3.0 W (Pro 3) | ~2.0 W | Not published |
 | **Penetration depth** | **~2.8–4.0 mm** (reticular dermis) | ~0.5 mm (papillary dermis) | ~0.5 mm (papillary dermis) | 3–5 mm claimed (multipolar) |
 | **Target dermal temp** | ~43°C | ~43–46°C | ~43–46°C | 40–55°C |
 | **Epidermal cooling** | ✅ **YES — active cooling to 15–18°C** | ❌ None (self-limiting) | ❌ None (self-limiting) | ❌ None |

@@ -37,7 +37,7 @@ These have temperature sensing, thermal shutoff, and US regulatory clearance for
 
 | Pick | RF type | Key specs | Price | Best for |
 |---|---|---|---|---|
-| **🥇 CurrentBody Skin RF** | Bipolar | 1 MHz, 5W RF output, 40.5°C max, 4 electrodes, K232424 | ~$350 | Best-documented home RF. Cleanest spec file. |
+| **🥇 CurrentBody Skin RF** | Bipolar | 1 MHz,  5 W RF output, 40.5°C max, 4 electrodes, K232424 | ~$350 | Best-documented home RF. Cleanest spec file. |
 | **🥈 NEWA** | RF (proprietary) | FDA De Novo DEN150005, Fitz I-IV, mild-moderate wrinkles | ~$300 | The original home-RF regulatory anchor. |
 | **🥉 TriPollar STOP Vx** | Multipolar | FDA-cleared lineage (K220322 for STOP U), multi-RF electrode switching | ~$400–$600 | Strong brand. Good clinical data in brand studies. Higher price. |
 
@@ -51,10 +51,10 @@ These come from Chinese manufacturers (Alibaba, etc.) with CE marking but no FDA
 
 | Pick | RF type | Key specs | Price | Red flags |
 |---|---|---|---|---|
-| **Konmison LB056B** | Bipolar | 2 MHz, 55W total, 1–15 J/cm², 3 probes (face/body/eye), 5 levels | ~$45–50 (Alibaba) | No temp sensing, no FDA clearance, no clinical data, "whitening" claim is nonsense, no contraindication list |
+| **Konmison LB056B** | Bipolar | 2 MHz,  55 W total, 1–15 J/cm², 3 probes (face/body/eye), 5 levels | ~$45–50 (Alibaba) | No temp sensing, no FDA clearance, no clinical data, "whitening" claim is nonsense, no contraindication list |
 | **Other Alibaba RF wands** | Usually bipolar | Varies wildly — often no frequency disclosed | $30–$100 | Assume worst case: verify frequency, output power, CE cert, and temp sensing before buying |
 
-**Bottom line:** The Konmison LB056B is at least from a verified supplier with disclosed specs (2 MHz, bipolar, CE). It is the best-documented budget RF option in this project. But it is NOT equivalent to FDA-cleared devices. The missing temperature sensor is the critical gap.
+**Bottom line:** The Konmison LB056B is at least from a verified supplier with disclosed specs (2 MHz,  bipolar, CE). It is the best-documented budget RF option in this project. But it is NOT equivalent to FDA-cleared devices. The missing temperature sensor is the critical gap.
 
 **If you buy CE-only OEM RF:**
 1. Verify the CE certificate names the actual manufacturer.

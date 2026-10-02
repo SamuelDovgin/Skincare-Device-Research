@@ -61,5 +61,26 @@
     "status": 200,
     "sha256": "6769ba9e9adfb697115e02a76014ee5b3b12a080ee381cd6a57e437ebd354e94",
     "bytes": 947017
+  },
+  {
+    "file": "medicube_glutathione_2023.pdf",
+    "url": "https://pdfs.semanticscholar.org/2329/a186332ea9d6b4be293d4bc5ec6a8cd3e9b8.pdf",
+    "status": 200,
+    "sha256": "0cc8ddac84897522a79fac8c74420e2a1e7831f2bb22b4393b416eddf30716d4",
+    "bytes": 1517417
+  },
+  {
+    "file": "medicube_report_excerpt_1.png",
+    "url": "https://wimg.sedaily.com/news/cms/2026/07/07/news-p.v1.20260707.72655c04d62140faa567711a3484e870_P1.png",
+    "status": 200,
+    "sha256": "1a9c9c2f091114ab6af8d078a51fe02ee248dbadfb02850f4b6d44245c1abd55",
+    "bytes": 325828
+  },
+  {
+    "file": "medicube_report_excerpt_2.png",
+    "url": "https://wimg.sedaily.com/news/cms/2026/07/07/news-p.v1.20260707.8a2623d3409b47f399eb11c48c57136d_P1.png",
+    "status": 200,
+    "sha256": "bdb0ae2af578d77d4bfea214859f04c26d8b843a1a5b552a07bbe8400b6a44f0",
+    "bytes": 348946
   }
 ]

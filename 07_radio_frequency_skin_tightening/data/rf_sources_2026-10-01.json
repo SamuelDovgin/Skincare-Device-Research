@@ -424,7 +424,7 @@
     "title": "TriPollar protocol and family register",
     "url": "https://uk.mytripollar.com/pages/how-to-use",
     "source_class": "official product",
-    "support": "STOP Vx2, Vx Gold2, Vx Gold, Vx, STOP X Rose, Desire, ENVIG EDGE, POSE Vx, STOP EYE2/EYE; gel and orange temperature-guidance protocol.",
+    "support": "STOP Vx 2, Vx Gold 2, Vx Gold, Vx, STOP X Rose, Desire, ENVIG EDGE, POSE Vx, STOP EYE2/EYE; gel and orange temperature-guidance protocol.",
     "limits": "Does not establish superiority over other current home RF devices.",
     "local": null,
     "status": "live via official page/search or browser extract"
@@ -444,7 +444,7 @@
     "title": "Sensica RF category",
     "url": "https://sensica.com/pages/rf-skin-tightening",
     "source_class": "official product",
-    "support": "Sensilift US$449 auto-stop104°F=40°C; Sensifirm US$449 106.7°F=41.5°C; facial vs body controls distinct.",
+    "support": "Sensilift US$449 auto-stop 104°F=40°C; Sensifirm US$449 106.7°F=41.5°C; facial vs body controls distinct.",
     "limits": "Does not establish superiority over other current home RF devices.",
     "local": null,
     "status": "live via official page/search or browser extract"
@@ -484,7 +484,7 @@
     "title": "POLARGEN 40.68 MHz pilot — PMID28557650",
     "url": "https://pubmed.ncbi.nlm.nih.gov/28557650/",
     "source_class": "peer-reviewed human",
-    "support": "Ten women, mean51.7 years; four sessions every two weeks, two-month photos; satisfaction4.5/6; one biopsy; no major complications.",
+    "support": "Ten women, mean 51.7 years; four sessions every two weeks, two-month photos; satisfaction 4.5/6; one biopsy; no major complications.",
     "limits": "Small uncontrolled professional study; not Medicube; funding not established from abstract.",
     "local": null,
     "status": "live via official page/search or browser extract"
@@ -504,7 +504,7 @@
     "title": "HSP47 thermal stimulation study",
     "url": "https://www.sciencedirect.com/science/article/pii/S1574075706000076",
     "source_class": "mechanism/preclinical",
-    "support": "Cell experiments plus31 women; facial steam surface40–42°C, ten minutes/day for two months.",
+    "support": "Cell experiments plus 31 women; facial steam surface 40–42°C, ten minutes/day for two months.",
     "limits": "Heat/steam experiment, not device-specific RF validation; cell pathway is not human tightening magnitude.",
     "local": null,
     "status": "live via official page/search or browser extract"
@@ -524,7 +524,7 @@
     "title": "RF dermal-epidermal junction — PMID38791217",
     "url": "https://pubmed.ncbi.nlm.nih.gov/38791217/",
     "source_class": "mechanism/preclinical",
-    "support": "Cells/aged animals: HSP/Piezo1/TGF-beta and DEJ proteins; author employed by LIBON and research grant disclosed.",
+    "support": "Cells/aged animals: HSP/Piezo 1/TGF-beta and DEJ proteins; author employed by LIBON and research grant disclosed.",
     "limits": "No consumer-device human comparative trial.",
     "local": null,
     "status": "live via official page/search or browser extract"
@@ -534,7 +534,7 @@
     "title": "Thermage CPT technical manual",
     "url": "https://ca.thermage.com/siteassets/hcp/pdf/thermage-cpt-technical-users-manual-model-tg-2b-p-np009240-06-2021.pdf",
     "source_class": "official product",
-    "support": "CPT6.78MHz ±0.1%, generator maximum400W, cooling/return-pad professional architecture.",
+    "support": "CPT6.78 MHz ±0.1%, generator maximum 400W, cooling/return-pad professional architecture.",
     "limits": "CPT file is not a measured FLX dermal temperature map; maximum generator power not delivered dose.",
     "local": null,
     "status": "live via official page/search or browser extract"
@@ -544,8 +544,8 @@
     "title": "Home randomized split-face trial — PMID35249173",
     "url": "https://pubmed.ncbi.nlm.nih.gov/35249173/",
     "source_class": "peer-reviewed human",
-    "support": "Existing archive:33 enrolled32 completed12 weeks, RF vs cosmetic; category signal.",
-    "limits": "Direct endpoint limited on this pass; details inherited from doc11, not newly re-extracted.",
+    "support": "Existing archive:33 enrolled 32 completed 12 weeks, RF vs cosmetic; category signal.",
+    "limits": "Direct endpoint limited on this pass; details inherited from doc 11, not newly re-extracted.",
     "local": null,
     "status": "browser returned limited content; local evidence map reused"
   },
@@ -555,7 +555,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/37942722/",
     "source_class": "peer-reviewed human",
     "support": "Existing archive:22 women I–IV subset III–IV, eight weeks; wrinkle/thickness/perioral measures.",
-    "limits": "Open-label; exact brand should not be inferred from abstract; doc11 supplies prior extraction.",
+    "limits": "Open-label; exact brand should not be inferred from abstract; doc 11 supplies prior extraction.",
     "local": null,
     "status": "search bibliographic extract; browser limited"
   },
@@ -564,17 +564,17 @@
     "title": "TriPollar STOP study — PMID21401380",
     "url": "https://pubmed.ncbi.nlm.nih.gov/21401380/",
     "source_class": "peer-reviewed human",
-    "support": "Existing archive:23 women six-week treatment plus maintenance; reported periorbital reduction41%.",
+    "support": "Existing archive:23 women six-week treatment plus maintenance; reported periorbital reduction 41%.",
     "limits": "Uncontrolled original STOP; no automatic transfer to current variants.",
     "local": null,
-    "status": "browser limited; prior doc11 extraction reused"
+    "status": "browser limited; prior doc 11 extraction reused"
   },
   {
     "id": "S58",
     "title": "MimiSilk FAQ",
     "url": "https://www.mimisilk.com/pages/faq",
     "source_class": "official product",
-    "support": "Main Vera FAQ contradicts itself: level dermis45–50°C elsewhere39–44°C; surface ceiling111.2°F=44°C vs regional117°F=47.2°C; no independent depth map.",
+    "support": "Main Vera FAQ contradicts itself: level dermis 45–50°C elsewhere 39–44°C; surface ceiling 111.2°F=44°C vs regional 117°F=47.2°C; no independent depth map.",
     "limits": "Fat-loss impossibility assertion not established by matching MHz or surface ceiling.",
     "local": null,
     "status": "live via official page/search or browser extract"
@@ -724,7 +724,7 @@
     "title": "RF2025 review discovery",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12715571/",
     "source_class": "secondary review",
-    "support": "Discovery of40.68MHz literature; primary pilot used instead.",
+    "support": "Discovery of 40.68 MHz literature; primary pilot used instead.",
     "limits": "Review snippet suggests single session; primary PMID28557650 states four sessions, so primary retained.",
     "local": null,
     "status": "search extract only"
@@ -734,7 +734,7 @@
     "title": "Bu et al2025 ACE fifth-generation/Jmoon RCT — PMID40099405 DOI10.1111/jocd.70096",
     "url": "https://onlinelibrary.wiley.com/doi/10.1111/jocd.70096",
     "source_class": "peer-reviewed human",
-    "support": "90 randomized/80 completed;4 weeks, five treatments/week; YA-MAN ACE fifth-generation0.5–2.5MHz+LED/microcurrent vs Jmoon0.8–2MHz combination vs power-free control; imaging/photo improvements reported, transient erythema23.5%YA/26.7%J; no specific grant/no conflicts declared.",
+    "support": "90 randomized/80 completed;4 weeks, five treatments/week; YA-MAN ACE fifth-generation 0.5–2.5 MHz+LED/microcurrent vs Jmoon 0.8–2 MHz combination vs power-free control; imaging/photo improvements reported, transient erythema 23.5%YA/26.7%J; no specific grant/no conflicts declared.",
     "limits": "Regional SKU mapping unresolved; multimodal/meridian-guided protocol; unpowered control may not blind; short follow-up; no direct collagen biopsy endpoint or isolated MHz comparison.",
     "local": "PMC11915080_fulltext_BioC.xml",
     "status": "Publisher full text and CC BY NCBI BioC recovery"
@@ -744,8 +744,8 @@
     "title": "Shu et al2022 randomized split-face home trial — PMC9021338",
     "url": "https://link.springer.com/article/10.1007/s13555-022-00697-y",
     "source_class": "peer-reviewed human",
-    "support": "33 women/32completed;12weeks, bipolar-ring1MHz+630±10nm red light, skin37–42°C control, temperature/motion sensors; RF+gel vs different anti-aging cosmetic; no between-side elasticity/hydration difference; no adverse reactions; rapid-service fee supported by Ecolite Wellbeing.",
-    "limits": "Retail SKU not established from methods; differing gel/cosmetic and LED confound RF attribution; cadence5/week first2months then3/week lastmonth; conflicting schedule elsewhere.",
+    "support": "33 women/32 completed;12 weeks, bipolar-ring 1 MHz+630±10nm red light, skin 37–42°C control, temperature/motion sensors; RF+gel vs different anti-aging cosmetic; no between-side elasticity/hydration difference; no adverse reactions; rapid-service fee supported by Ecolite Wellbeing.",
+    "limits": "Retail SKU not established from methods; differing gel/cosmetic and LED confound RF attribution; cadence 5/week first 2 months then 3/week lastmonth; conflicting schedule elsewhere.",
     "local": "PMC9021338_fulltext_BioC.xml",
     "status": "Publisher full text and CC BY-NC BioC; noncommercial research archive"
   },
@@ -754,7 +754,7 @@
     "title": "YA-MAN funded registry UMIN R000061175",
     "url": "https://center6.umin.ac.jp/cgi-open-bin/ctr_e/ctr_view.cgi?recptno=R000061175",
     "source_class": "primary regulatory / trial registry",
-    "support": "Target16; home deviceA+specific cosmetics half-face five/week; YA-MAN funding; completed status, outcome fields blank in reviewed record.",
+    "support": "Target 16; home deviceA+specific cosmetics half-face five/week; YA-MAN funding; completed status, outcome fields blank in reviewed record.",
     "limits": "Registration/completion not published positive evidence; unnamed product not mapped to current SKU.",
     "local": null,
     "status": "live registry"
@@ -764,19 +764,49 @@
     "title": "Development of Home Beauty Devices review PMC10929553",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10929553/",
     "source_class": "secondary review",
-    "support": "Discovery review attributes2022 1MHz+630nm study to YA-MAN.",
+    "support": "Discovery review attributes 2022 1 MHz+630nm study to YA-MAN.",
     "limits": "Primary methods describe hardware but no retail SKU; review attribution not sufficient for current model identity.",
     "local": null,
-    "status": "search extract; BioC attempt429; used for discovery only"
+    "status": "search extract; BioC attempt 429; used for discovery only"
   },
   {
     "id": "S78",
     "title": "MimiSilk safety guide",
     "url": "https://www.mimisilk.com/blogs/news/is-mimisilk-vera-rf-safe-for-you-complete-safety-guide-contraindications",
     "source_class": "marketing/consumer",
-    "support": "Cites generic2022 home RF study; does not establish Vera was tested.",
+    "support": "Cites generic 2022 home RF study; does not establish Vera was tested.",
     "limits": "Generic trial citation is not Vera-specific efficacy or safety evidence.",
     "local": null,
     "status": "live search extract"
+  },
+  {
+    "id": "S79",
+    "title": "EvenSkyn Lumo+ FAQ",
+    "url": "https://www.evenskyn.com/pages/lumo-faqs",
+    "source_class": "official product",
+    "support": "Claims initial dermis 140°F=60°C at 1.5–4 mm then 104–107°F=40–41.7°C after 20s; elsewhere steady 40–42°C. No independent thermal validation extracted.",
+    "limits": "Anatomy/fat-preservation guarantee and superiority to needle RF not established; heating locations and feedback details need validation.",
+    "local": null,
+    "status": "live official FAQ"
+  },
+  {
+    "id": "S80",
+    "title": "AMIRO R1 PRO official device page",
+    "url": "https://amirobeauty.com/products/amiro-high-radiofrequency-skincare-device",
+    "source_class": "official product",
+    "support": "Six electrodes,3 mm depth claim, skin temperature≤42°C claimed; consumer/brand clinical-test marketing.",
+    "limits": "Depth not independently measured; exact trial/thermal calibration/US clearance not recovered.",
+    "local": null,
+    "status": "live official page"
+  },
+  {
+    "id": "S81",
+    "title": "AMIRO R3 Turbo attempted official route",
+    "url": "https://amirobeauty.com/products/r3-turbo-facial-rf-skin-tightening-device",
+    "source_class": "official product",
+    "support": "Redirects to R1 PRO page; regional generation identity unresolved.",
+    "limits": "Redirect is not proof R3 and R1 are identical or share trials.",
+    "local": null,
+    "status": "redirect to R1 PRO"
   }
 ]

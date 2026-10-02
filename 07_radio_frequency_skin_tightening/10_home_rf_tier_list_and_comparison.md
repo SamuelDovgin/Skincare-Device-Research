@@ -1,6 +1,6 @@
 # Home RF Tier List & Device Comparison
 
-> **2026-10-01 research update:** The expanded decision page adds Panasonic/YA-MAN/MimiSilk and documents Sensilift Pro ST300 (FDAK250341,1MHz,40±0.5°C maximum, no new clinical testing). Its earlier regional-candidate placement is superseded. Keep documentation confidence separate from clinical-effect ranking. Read the [expanded market/value census](index.html#doc12), [frequency, temperature and clinical research](index.html#doc13), and [searchable device comparison](rf_market_explorer.html).
+> **2026-10-01 research update:** The expanded decision page adds Panasonic/YA-MAN/MimiSilk and documents Sensilift Pro ST300 (FDA K250341,1 MHz, 40±0.5°C maximum, no new clinical testing). Its earlier regional-candidate placement is superseded. Keep documentation confidence separate from clinical-effect ranking. Read the [expanded market/value census](index.html#doc12), [frequency, temperature and clinical research](index.html#doc13), and [searchable device comparison](rf_market_explorer.html).
 
 *Compiled 2026-08-12. This is research orientation, not medical advice. Confidence labels: **verified** = FDA, IFU, official product page, or peer-reviewed source; **limited** = marketing, small/manufacturer-led study, or model-specific evidence; **inference** = reasoned comparison from the documented mechanism and safety controls.*
 
@@ -101,7 +101,7 @@ That makes the stack look like this:
 Before buying any home RF device, require:
 
 1. Exact model name and legal manufacturer—not just a brand family.
-2. Frequency in MHz, RF output power in W, and the load/measurement condition.
+2. Frequency in MHz,  RF output power in W, and the load/measurement condition.
 3. Electrode geometry and treatment area.
 4. Temperature sensor count/location, control behavior, and thermal shutoff or move signal.
 5. A model-specific IFU with contraindications, treatment areas, gel/coupling instructions, and cadence.
@@ -131,7 +131,7 @@ Do not convert the absence of a visible reaction into proof that a device is saf
 3. [FDA K232424 database record](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K232424) — current FDA record for the device name, applicant, regulation number, product code, and March 6, 2024 decision date.
 4. [TriPollar STOP Vx official product page](https://mytripollar.com/products/tripollar-stop-vx) — current manufacturer protocol, Multi-RF/ELV description, orange temperature signal, treatment cadence, and model-specific exclusions.
 5. [Home-use TriPollar RF device study](https://pubmed.ncbi.nlm.nih.gov/21401380/) — peer-reviewed human home-RF study; supports a clinical signal for the device class, not every current TriPollar variant.
-6. [Konmison LB056B manufacturer page](https://www.konmison.com/product-item/3-in-1-rf-radio-frequency-facial-machine/) — supplier-level source for 2 MHz, 55 W total consumption, 1–15 J/cm² claim, and three-probe configuration; does not establish clinical efficacy or temperature safety.
+6. [Konmison LB056B manufacturer page](https://www.konmison.com/product-item/3-in-1-rf-radio-frequency-facial-machine/) — supplier-level source for 2 MHz,  55 W total consumption, 1–15 J/cm² claim, and three-probe configuration; does not establish clinical efficacy or temperature safety.
 7. [Local Konmison device-landscape analysis](02_initial_device_landscape.md) — preserves the archive's manufacturer verification, missing-sensor analysis, and comparison with CurrentBody.
 8. [Local Thermage comparison](06_thermage_vs_everything_comparison.md) — prior archive analysis of professional monopolar RF, thermal ceilings, and why home devices should not be called Thermage equivalents.
 9. [Local laser-versus-RF comparison](09_laser_vs_rf_technology_comparison.md) — prior archive analysis of NIRA, DermRays, Tria, and RF mechanism/depth differences.

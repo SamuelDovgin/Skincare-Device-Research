@@ -59,7 +59,7 @@ Human cutaneous thermal sensation follows a well-characterized pathway:
 
 **Analysis:**
 
-**Could the device theoretically heat tissue to 60°C?** Possibly — at its highest settings with sustained contact. The 55W total power and 15 J/cm² max energy could theoretically generate significant heating if applied continuously to a small area.
+**Could the device theoretically heat tissue to 60°C?** Possibly — at its highest settings with sustained contact. The 55 W total power and 15 J/cm² max energy could theoretically generate significant heating if applied continuously to a small area.
 
 **Can TJ possibly KNOW it reaches 60°C?** **No.** The device has:
 - No temperature sensor

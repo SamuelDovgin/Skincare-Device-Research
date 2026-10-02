@@ -506,3 +506,53 @@ Used in:device instructions/library
 Limits:model-specific instructions;not head-to-headclinical proof
 Local preservation:source_docs/yaman_shiny_english_manual.pdf;sha256=6769ba9e9adfb697115e02a76014ee5b3b12a080ee381cd6a57e437ebd354e94
 
+
+CHANGE NOTE — October 1, 2026: Added editorial value tiers and exact-device delivery-evidence grades to doc3 at user request. Uses existing P01–P12 asking-price snapshot without price refresh. Reopened official SS85 (S09), Deep Lift (S13), Mini (S15) pages; no new clinical trial or efficacy claim. SS85 four-week n26 manufacturer half-face dry-fine-line evaluation is now explicitly acknowledged; it supports a narrow full-course cosmetic endpoint, not an A/B grade for the user's active-specific delivery. Grades distinguish C manufacturer uptake from D opaque claims and U incomplete exact-model assessment; no A/B grade assigned.
+
+CHANGE NOTE — October 1, 2026: User requested efficacy-order/eBay chart. Added low-confidence investigation preference (DeepLift,SS85,ST0A=ST99), leaving Medicube/Neo unranked for efficacy rather than inventing a crossbrand score. Public evidence does not support a complete efficacy order. Budget estimates label condition and verification.
+PRICE REFRESH: P01 ST99 listing150USD/free;P03 ST0A160+26=186;P08 Pro99.99+10=109.99;P09 Mini67.99/free discounted from79.99/no seller returns, all live page reconfirmed. P04 SS85 search https://www.ebay.com/sch/i.html?_nkw=Panasonic+EH-SS85 reconfirmed348free used;other used totals305+58.50=363.50 and394free anchor350–400 planning range. P06/P07 DeepLift search https://www.ebay.com/sch/i.html?_nkw=YA-MAN+Deep+Lift+YJFA1T reconfirmed552free sealed claim (seller12feedback),587free used,517.75+90.75=608.50 newclaim and540+90=630;planning550–650 mixedcondition. No statistical likely-price distribution inferred. Local preservation: structured shortlistCSV;marketplace pages URL-only.
+REFRESH ACCESS LIMITS: direct web pages P04 SS85,P06 DeepLift,P11 X2,P05Neo inaccessible via web tool;SS85 andDeepLift observed in browsersearch after automatic browsercheck completed. X2/Neo andMiniPlus prices retained from earlier same-day records with explicit labels. No manual CAPTCHA solving.
+
+CORRECTION — 2026-10-01: Earlier broad characterization of all Medicube support as opaque omitted a published Pro study and the Mini Plus tracer excerpt. Pro grade D superseded by C+;MiniPlus D superseded by C. Claims about absence of studies apply to the user's five-actives,not all Medicube regimens. Chart replaced forced sequence by first-investigation group without comparative efficacy claim.
+
+[S40] Medicube Korea statement/report excerpt NCR-25501-PR065 page8/9
+URLs:see capture_manifest reportexcerpt1/2 original image URLs;context https://en.sedaily.com/society/2026/07/07/apr-rebuts-korean-war-marketing-suspicion-over-medicubes
+Accessed:2026-10-01;public manufacturer primary statement reproduced in news images;images downloaded and visually inspected
+Class:official manufacturer test excerpt
+Used in:doc2/doc3
+Finding:MiniPlus;TegoScience2025May8–June2; caffeine15min control16.6,test103.7microgram/mL,SD3.1/6.5;6.25fold;4hr3.17fold. Samplingtime not confirmed treatmentduration;assaymodel/n/settings absent.
+Limits:partial report,not independentclinical efficacy;not vitaminC/highMW;not othermodel validation.
+Preservation:medicube_report_excerpt_1.png,medicube_report_excerpt_2.png;checksums capturemanifest.
+
+[S41] Michelle Wong, Ion Boosted Skincare? Panasonic Skincare Tools,2018December10
+URL:https://labmuffin.com/ion-boosted-skincare-panasonic-skincare-tools-video/
+Accessed:2026-10-01;live
+Class:primary author commentary; sponsoredPanasonic
+Used in:doc2
+Finding:EHST63 ionmechanisms;notes lack of matchedtreatment no-current control in reviewed trials;not the exactdevice in those trials.
+Limits:not Medicube review;not evidence newerPanasonic clinicalvalidity;commentary,not clinicalpaper.
+Preservation:URL-only;web tool read live article;direct capture request failed, no local HTML stored.
+
+[S42] Hur etal2023 DOI10.52660/JKSC.2023.29.6.1496
+Canonical:https://www.e-jkc.org/upload/pdf/JKSC-2023-29-6-1496.pdf;publicmirror:https://pdfs.semanticscholar.org/2329/a186332ea9d6b4be293d4bc5ec6a8cd3e9b8.pdf
+Accessed:2026-10-01;publisher403,mirrorlive/fulltext
+Class:peer-reviewed manufacturer-authored human
+Used in:doc2/doc3
+Finding:matchedampoule comparison;limitations summarized doc2;does not assess user's actives or massuptake.
+Preservation:medicube_glutathione_2023.pdf;capturemanifest.
+
+[S43] Zasada2019 PMID30070034 DOI10.1111/jocd.12727
+URL:https://pubmed.ncbi.nlm.nih.gov/30070034/
+Accessed:2026-10-01;abstract
+Class:peer-reviewed human
+Finding:n17;20%LAA4sessions;noneedlecombinedphysicalmethods versus microneedles;notMedicube,not topicalalone.
+Preservation:URL-only abstract consulted
+
+[S44] Primary chemical weights
+URLs:https://webbook.nist.gov/cgi/cbook.cgi?Name=caffeine;https://webbook.nist.gov/cgi/cbook.cgi?ID=C98920&Mask=8EF&Units=CAL;https://precision.fda.gov/ginas/app/ui/substances/PQ6CK8PD0R
+Accessed:2026-10-01;indexedprimary records
+Class:primarychemicaldatabase
+Finding:194.19caffeine,122.12niacinamide,176.12ascorbicacid;size doesnot ensure equivalenttransport.
+Preservation:URL-only
+
+Discovery/context consulted:ETNews2026July7 https://www.etnews.com/20260707000132 (newsreport,not technicalproof);APRhome/newsroom https://www.apr-in.com/ and /newsroom.html (primarynavigation,no fullprotocol found);Medicube official clinicalreadinglist https://medicube.us/en-de/blogs/age-r-booster-h/clinical-study (generalmechanism literature,not exactdevice dossier); LabMuffin vitaminCguide https://labmuffin.com/ultimate-guide-to-vitamin-c-skincare-part-1-ascorbic-acid-with-video/ (primarycommentarycontext);PanasonicAUblog attempted blocked (not reliedon). Thirdparty alleged LabMuffin Medicube quotes excluded without primary attribution. Search of LabMuffin blog,YouTube/socialindexed results didnot locate directMedicube verdict;not exhaustive inaccessiblevideo/social search.

@@ -27,3 +27,9 @@ The three transcripts are preserved as plain text for provenance, not scientific
 [Preservation manifest](index.html#doc8).
 
 [Validation record](data/validation_2026-10-01.txt).
+
+## Medicube and Lab Muffin follow-up
+
+- [Mini Plus disclosed report page](source_docs/medicube_report_excerpt_1.png) and [manufacturer statement](source_docs/medicube_report_excerpt_2.png).
+- [Booster Pro published paper](source_docs/medicube_glutathione_2023.pdf).
+- [Lab Muffin Panasonic article](https://labmuffin.com/ion-boosted-skincare-panasonic-skincare-tools-video/) — live URL; local capture unavailable.

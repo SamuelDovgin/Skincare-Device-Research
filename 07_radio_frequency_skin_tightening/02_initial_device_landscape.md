@@ -12,13 +12,13 @@ Confidence: ✅ verified / ⚠️ marketing claim / 🔍 needs follow-up.
 |---|---|---|---|---|---|
 | **NEWA** | Home RF | FDA De Novo DEN150005 ✅ | OTC RF category, Fitzpatrick I-IV, mild-moderate facial wrinkles ✅ | Home wrinkle reduction | Foundational home-RF regulatory anchor |
 | **TriPollar STOP / STOP U / STOP Vx** | Multipolar/TriPollar RF | FDA-cleared lineage ✅ | STOP U Model UXV predicate K220322; current STOP Vx marketing says FDA-cleared ⚠️ | Home wrinkles / firmness | Strong category incumbent |
-| **CurrentBody Skin RF** | Bipolar RF | FDA K232424 ✅ | 1 MHz, 5 +/- 1 W, max temp 40.5 +/- 0.5 C, 4 electrodes ✅ | Home mild-moderate wrinkles | Best current primary-source spec file found |
+| **CurrentBody Skin RF** | Bipolar RF | FDA K232424 ✅ | 1 MHz,  5 +/- 1 W, max temp 40.5 +/- 0.5 C, 4 electrodes ✅ | Home mild-moderate wrinkles | Best current primary-source spec file found |
 | **Silk'n Titan / Titan MultiPlatform** | RF + EMS attachment | Brand says FDA-cleared ⚠️ | Official page: RF & EMS attachments, 15 min per area, rechargeable ⚠️ | Home wrinkles/firmness | Needs K-number verification |
 | **Medicube Age-R Booster Pro** | Mostly electroporation/microcurrent/EMS/LED | Consumer cosmetic device | Not clearly RF on official page; "air shot"/MC/Derma Shot/LED ⚠️ | Glow/absorption/toning marketing | Do not treat as RF unless exact model is Ultra Tune/40.68 or specs verify RF |
 | **Medicube Ultra Tune / 40.68** | RF + microcurrent claim | New K-beauty entrant ⚠️ | Needs primary specs and clearance search | Home RF | Good follow-up target |
 | **Thermage / Thermage FLX** | Monopolar RF | Pro/in-office | Clinic deep heating; foundational patent lineage | Laxity/tightening | Benchmark, not home equivalent |
 | **Morpheus8 / Potenza / Genius / Vivace** | RF microneedling | Class II professional devices | Need device-by-device FDA extraction | Scars, texture, wrinkles, tightening | Effective category, higher risk; not home |
-| **Konmison LB056B** | Bipolar RF | CE only (no FDA/K-number) 🔍 | 2 MHz bipolar, 55W, 1-15 J/cm², 3 probes (face/body/eye), 5 levels ✅ | Budget OEM RF; face/body/eye | Verified manufacturer; see §7 below |
+| **Konmison LB056B** | Bipolar RF | CE only (no FDA/K-number) 🔍 | 2 MHz bipolar, 55 W, 1-15 J/cm², 3 probes (face/body/eye), 5 levels ✅ | Budget OEM RF; face/body/eye | Verified manufacturer; see §7 below |
 | **Alibaba RF wands** | Unknown RF / EMS mixes | Usually unverified | Often no frequency, no temp sensor, no K-number | Marketing-heavy | High red-flag category |
 
 ## 2. Home RF: credible baseline
@@ -180,7 +180,7 @@ High-value next pass:
 |---|---|
 | **No FDA clearance** | CE only. Cannot legally make wrinkle-removal or medical claims in the US market. |
 | **No temperature sensing disclosed** | Unlike CurrentBody/NEWA, no thermistor, thermal shutoff, or temperature ceiling is mentioned. This is the single biggest safety gap — without temperature feedback, the user is the only safety control. |
-| **55W total power vs RF output** | 55W is total power consumption, not RF output power to tissue. CurrentBody's 5W is RF output. These numbers are not directly comparable — 55W likely includes display, circuitry, and overhead. The actual RF energy delivered to skin is unknown. |
+| **55 W total power vs RF output** | 55 W is total power consumption, not RF output power to tissue. CurrentBody's 5 W is RF output. These numbers are not directly comparable — 55 W likely includes display, circuitry, and overhead. The actual RF energy delivered to skin is unknown. |
 | **"Whitening" claim** | RF does not whiten skin. This is a marketing red flag that suggests the listing oversells. |
 | **Face + body + eye in one device** | Versatile, but the same RF parameters are unlikely to be optimal for eyelid skin (very thin) and body (thicker). Without per-area power adjustment, there's either under-treatment or over-treatment risk. |
 | **No Fitzpatrick guidance** | Unlike FDA-cleared devices, no skin-type precautions are stated. |

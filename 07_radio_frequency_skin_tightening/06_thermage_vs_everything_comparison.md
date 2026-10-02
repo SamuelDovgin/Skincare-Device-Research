@@ -1,6 +1,6 @@
 # Thermage vs Everything: Can Any Device Get Close?
 
-> **2026-10-01 research update:** Read the new frequency/temperature audit before treating earlier65–75°C,4.3mm or half-electrode-spacing figures as measured constants. These are protocol/model-dependent estimates, not universal temperatures/depths. Higher MHz does not establish deeper or better treatment;6.25MHz does not confer Thermage equivalence. Read the [expanded market/value census](index.html#doc12), [frequency, temperature and clinical research](index.html#doc13), and [searchable device comparison](rf_market_explorer.html).
+> **2026-10-01 research update:** Read the new frequency/temperature audit before treating earlier65–75°C,4.3mm or half-electrode-spacing figures as measured constants. These are protocol/model-dependent estimates, not universal temperatures/depths. Higher MHz does not establish deeper or better treatment;6.25 MHz does not confer Thermage equivalence. Read the [expanded market/value census](index.html#doc12), [frequency, temperature and clinical research](index.html#doc13), and [searchable device comparison](rf_market_explorer.html).
 
 *Compiled 2026-07-04. This is a deep technical comparison of how every RF device in this project stacks up against the professional gold standard — Thermage FLX. Includes a detailed breakdown of Thermage's actual mechanism, and a physics-based analysis of what each contender can and cannot do.*
 
@@ -62,22 +62,11 @@ In bipolar RF (every home device and the Konmison), current flows only between t
 - Progressive improvement peaks at 3–6 months
 - Results maintain for 12–18 months as new collagen slowly remodels
 
-### 1.5 Temperature-Time Relationship (Critical Physics)
+### 1.5 Temperature and time: avoid universal contraction thresholds
 
-This is the single most important concept for understanding why home devices differ from Thermage:
+A single peak temperature does not establish collagen contraction, synthesis, visible tightening or safety. The earlier tenfold-per-five-degree table was an uncalibrated extrapolation and has been removed. Published thermal behavior depends on the endpoint, tissue and exposure history; a skin thermistor cutoff cannot be relabeled as the maximum dermal temperature.
 
-> **For every 5°C decrease in temperature, exposure time must increase 10-fold to achieve equivalent collagen contraction.**
-
-| Temperature | Time needed for equivalent contraction | Achievable in... |
-|---|---|---|
-| **65°C** | ~1 second | Thermage (instant pulse) |
-| **60°C** | ~10 seconds | Professional RF only |
-| **55°C** | ~100 seconds | High-end home RF with sustained contact? |
-| **50°C** | ~1,000 seconds (16+ minutes per spot) | Not practically achievable in home use |
-| **45°C** | ~10,000 seconds (2.7+ hours per spot) | Impossible for practical treatment |
-| **42°C** | Effectively never reaches denaturation | Below collagen denaturation threshold entirely |
-
-**This is why temperature caps matter.** A device capped at 42°C (NEWA, CurrentBody) physically cannot denature collagen no matter how long you use it. It can stimulate fibroblasts through sub-lethal heating, but the mechanism is fundamentally different from Thermage's "denature and rebuild" approach.
+The original NEWA and CurrentBody files document skin-control limits rather than depth-resolved tissue temperatures. The newer professional thermal-stimulation study supports remodeling without requiring a universal denaturation target, but does not prescribe settings for these home products. See the [frequency/temperature and clinical audit](index.html#doc13) for primary evidence and uncertainty.
 
 ### 1.6 The Cooling Paradox
 
@@ -111,13 +100,13 @@ Without active epidermal cooling, the surface would burn before the dermis reach
 | 7 | **Frequency** | **6.78 MHz** | 1 MHz | 1.0–1.25 MHz (dual, interchanging) | 1 MHz ± 0.05 MHz | **2 MHz** |
 | 8 | **Electrode count** | 1 active tip + 1 large return pad | 6 (3 bipolar pairs, phase-controlled) | 4 | 4 (2 bipolar pairs) | 3 interchangeable probes |
 | 9 | **Electrode area** | 4.0 cm² (Total Tip 4.0) | ~3 cm² (estimated, linear array) | ~2.5 cm² (estimated) | ~3 cm² (estimated, 4 round) | Unknown — varies by probe |
-| 10 | **RF output power** | Adaptive — not fixed wattage; AccuREP™ adjusts per pulse | 10 W (±20%) | **Not published** | **5 ± 1 W** (published in 510(k)) | **Unknown** — 55W is total consumption, not RF output |
+| 10 | **RF output power** | Adaptive — not fixed wattage; AccuREP™ adjusts per pulse | 10 W (±20%) | **Not published** | **5 ± 1 W** (published in 510(k)) | **Unknown** — 55 W is total consumption, not RF output |
 | 11 | **Energy per pulse** | AccuREP™-adjusted; clinical range ~100–300 J per pulse (estimated) | Continuous delivery; not pulsed | Continuous delivery; not pulsed | Continuous delivery; not pulsed | 1–15 J/cm² (range); continuous delivery |
 | 12 | **Total energy per session** | ~30–45 kJ (full face) | ~3–5 kJ (estimated, 20-min session) | ~3–5 kJ (estimated, 25-min session) | ~2–3 kJ (estimated, 10-min session) | Unknown — depends on settings and duration |
 | 13 | **Current density at dermis** | High (monopolar focuses through small tip across large volume) | Low–moderate (spread across 3 bipolar pairs) | Low–moderate (spread across 4 electrodes) | Low (small bipolar pairs, low power) | Unknown — depends on electrode design |
 | 14 | **Pulse mode** | Pulsed (single pulse per tip placement) | Continuous wave | Continuous wave | Continuous wave | Continuous wave |
 | | **HEATING & DEPTH** | | | | | |
-| 15 | **Max dermal temperature** | **65–75°C** | 42°C (thermistor safety cap) | 40–55°C (manufacturer target); ~43°C cutoff (orange light) | **40.5 ± 0.5°C** (hard cap via dual thermistors) | **Unknown — NO temperature sensor** |
+| 15 | **Reported thermal number (locations differ; not a measured dermal comparison)** | **65–75°C** | 42°C (thermistor safety cap) | 40–55°C (manufacturer target); ~43°C cutoff (orange light) | **40.5 ± 0.5°C** (hard cap via dual thermistors) | **Unknown — NO temperature sensor** |
 | 16 | **Temperature sensing** | ✅ AccuREP™ (pre-pulse impedance) + integrated tip sensors | ✅ Single thermistor (42°C cutoff) | ✅ Basic contact sensor (orange indicator); Gold model adds 3D Thermal Mapping | ✅ Two redundant thermistors (power modulates to maintain 40.5°C) | ❌ **NONE** — no thermistor, no thermal feedback of any kind |
 | 17 | **Thermal shutoff** | ✅ Tip expires after 2h; AccuREP over-temp protection | ✅ 4-min auto-timer; movement sensor (stops if stationary) | ⚠️ Orange light guidance only (no hard shutoff confirmed) | ✅ Power modulates continuously to maintain temp ceiling | ❌ **NONE** — no auto-shutoff, no movement sensor, no temp-based power reduction |
 | 18 | **Epidermal cooling** | ✅ Cryogen spray (before, during, after each pulse); epidermis stays ~45°C | ❌ None | ❌ None | ❌ None | ❌ None |
@@ -131,7 +120,7 @@ Without active epidermal cooling, the surface would burn before the dermis reach
 | 25 | **Conductive medium required** | ✅ Coupling fluid + cryogen | ✅ NEWA gel (included) | ✅ TriPollar Preparation Gel (required — no substitutes) | ✅ Conductive gel (included) | ⚠️ Gel required (not included; must supply separately) |
 | 26 | **Technique** | Operator places tip, fires pulse, moves to next grid point | Continuous slow circular motions; device beeps when zone complete | Continuous slow circular motions until orange light; move to next zone | Continuous gliding motion; device modulates power | Continuous motion (user controls speed + intensity); no guidance system |
 | | **CLINICAL OUTCOMES** | | | | | |
-| 27 | **Collagen denaturation?** | ✅ Yes — 65°C triggers triple-helix unwinding | ❌ No — 42°C is below denaturation threshold (~58°C) | ⚠️ Borderline — at high setting may briefly touch 55°C (lower end of denaturation zone) | ❌ No — 40.5°C is far below denaturation | ❓ Unknown — depends on actual tissue temp (no sensor = no data) |
+| 27 | **Collagen denaturation?** | Protocol-dependent; not inferred from MHz | Not established by surface cutoff | Not established by claimed dermal peak | Not established by surface cutoff | Unknown |
 | 28 | **Biological mechanism** | Collagen denaturation → immediate contraction + wound-healing cascade → neocollagenesis (Type I & III) over 3–6 months | Sub-lethal thermal stimulation → mild HSP upregulation → fibroblast activation → modest neocollagenesis | Mixed: borderline thermal denaturation (high setting) + sub-lethal stimulation → fibroblast proliferation → collagen/elastin synthesis | Sub-lethal thermal stimulation only → mild fibroblast activation | Unknown — depends entirely on actual tissue temperature achieved per user/session |
 | 29 | **Inflammatory phase** | Strong, controlled (1–3 days post-treatment; HSP-47, TGF-β, IL-1, VEGF upregulation) | Mild, cumulative (with repeated sessions) | Moderate, cumulative | Mild, cumulative | Unknown |
 | 30 | **Neocollagenesis timeline** | Peaks at 3–6 months; new Type I & III collagen deposition | Gradual over 8–12 weeks with consistent use | Gradual over 8–12 weeks; may be faster due to higher temp ceiling | Gradual over 8–12 weeks | Unknown |
@@ -157,35 +146,19 @@ Without active epidermal cooling, the surface would burn before the dermis reach
 | 48 | **Replacement parts** | Tips are single-use (expire 2h after opening); ~$600–900 per tip | None (device is sealed) | None (device is sealed) | None (device is sealed) | None (probes reusable) |
 | 49 | **Regulatory certifications** | FDA (US), CE (EU), MOHW (Taiwan), PMDA (Japan), KFDA (Korea) | FDA De Novo (US), CE (EU) | FDA 510(k) (US), CE (EU) | FDA 510(k) (US), CE (EU) | CE only (4 certificates per Alibaba) |
 
-### 2.2 Temperature Capability: The Single Most Important Comparison
+### 2.2 Temperature comparison: separate measurement locations
 
-```
-Device dermal temperature capability:
+The previous bar chart pooled skin cutoffs, claimed dermal temperatures and professional estimates. It has been removed because those numbers cannot rank treatment strength or demonstrate that one home device is closest to Thermage.
 
-Thermage FLX          ████████████████████████████████  65–75°C  ← Collagen DENATURATION zone
-                      ████████████████████████████████
-                      ↑ Structural change possible
+| Device | Auditable thermal information | Interpretation |
+|---|---|---|
+| Thermage | Professional cooled monopolar architecture | A quoted dermal band is not a uniform measured temperature at every depth/site |
+| TriPollar current STOP variants | Optimal-temperature indicator and manufacturer mapping claims | No independently verified 55°C dermal target established in this pass |
+| Original NEWA | Thermistor stops RF above 42°C | Skin-control specification; does not establish a 42°C ceiling everywhere in dermis |
+| CurrentBody ST030 | Maximum allowed 40.5±0.5°C with two thermistors | Skin-temperature guardrail; not a direct collagen endpoint |
+| Konmison LB056B | Feedback/cutoff not disclosed in previously reviewed material | Missing validation, not proof a sensor physically cannot exist |
 
-TriPollar STOP Vx     ████████████████                  40–55°C  ← UPPER BOUNDARY of denaturation
-                      ████████████████                  (may briefly touch 55°C at high setting)
-                      ↑ Borderline — may partially denature at max
-
-NEWA                  ████████████                      42°C cap ← BELOW denaturation threshold
-                      ↑ Sub-lethal stimulation only
-
-CurrentBody Skin RF   ███████████                       40.5°C cap ← BELOW denaturation
-                      ↑ Sub-lethal stimulation only
-
-Konmison LB056B       ????????????????????????????      UNKNOWN   ← No sensor = no data
-                      ↑ Cannot verify if therapeutic temp is reached
-                      ↑ Risk of UNDER-treatment or OVER-treatment (burn)
-```
-
-**Interpretation:**
-- **Thermage:** In the denaturation zone. Collagen physically contracts. This is a structural intervention.
-- **TriPollar STOP Vx:** The only home device that *might* briefly touch the lower end of the denaturation zone (~55°C) at its highest setting. This explains its stronger clinical data (33% crow's feet reduction at 28 days). It is the closest home device to Thermage's mechanism — but still far below.
-- **NEWA & CurrentBody:** Safely below denaturation. They work through sub-lethal fibroblast stimulation, not collagen denaturation. This is a milder biological pathway with a lower result ceiling.
-- **Konmison LB056B:** Unknown. Without temperature sensing, you cannot know if you're at 40°C (ineffective), 55°C (useful), or 70°C (burn risk). This is not a feature gap — it is a **safety gap**.
+Use the [expanded thermal ledger](index.html#doc13). It adds Panasonic, YA-MAN, MimiSilk and Sensilift Pro and preserves the manufacturer-versus-measured distinction.
 
 ### 2.3 Depth Comparison
 
@@ -221,8 +194,8 @@ Subcutaneous fat ─── 5.0 mm
 |---|---|---|
 | RF type | Bipolar | ✅ Manufacturer confirmed |
 | Frequency | 2 MHz | ✅ Published on konmison.com and Alibaba |
-| Total power consumption | 55W | ✅ Published |
-| RF output power | **Unknown** | ❌ Not disclosed — 55W is total, not tissue-delivered |
+| Total power consumption | 55 W | ✅ Published |
+| RF output power | **Unknown** | ❌ Not disclosed — 55 W is total, not tissue-delivered |
 | Output energy range | 1–15 J/cm² | ✅ Published |
 | Electrode geometry | 3 interchangeable probes (face/body/eye) | ✅ Published |
 | Temperature sensor | **None disclosed** | ❌ Not mentioned in any spec sheet, manual, or listing |
@@ -243,10 +216,10 @@ Subcutaneous fat ─── 5.0 mm
 - If the Konmison probe electrodes are ~6–8 mm apart, depth ≈ 3–4 mm max
 - But this is the **physical limit** — actual therapeutic heating depth is typically less
 
-**55W total consumption vs RF output:**
-- 55W is the device's total power draw (includes display, circuitry, fans, etc.)
+**55 W total consumption vs RF output:**
+- 55 W is the device's total power draw (includes display, circuitry, fans, etc.)
 - The actual RF energy delivered to tissue is a fraction of this
-- For comparison: CurrentBody delivers 5W RF output. NEWA delivers 10–12W RF output.
+- For comparison: CurrentBody delivers 5 W RF output. NEWA delivers 10–12 W RF output.
 - The Konmison's actual tissue-delivered RF power is **unknown** — this is a critical missing spec
 
 **Energy density (1–15 J/cm²):**

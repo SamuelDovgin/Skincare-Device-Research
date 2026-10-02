@@ -9,16 +9,16 @@
 For the requested brands:
 
 - **Panasonic:** EH-SR85 is the value candidate if substantially cheaper than EH-SR86; EX EH-SR86 is the established premium candidate. The announced 6 MHz LUXE EH-SR90 belongs on the watchlist, because it is prelaunch as of this research date. No comparative clinical evidence reviewed establishes that 6 MHz is better than 4 or 3 MHz. [S04–S09](https://panasonic.jp/face/products/EH-SR90.html).
-- **YA-MAN:** Bloom 6 is the most technically informative RF-focused candidate in the reviewed catalog: 0.5–2.5 MHz, resistance feedback and touch detection. Shiny NEO is a more accessible multifunction candidate; expensive Prestige models should be bought for desired extra functions, not an assumed collagen advantage. [S15](https://www.ya-man.com/en/products/bloom-6.php), [S25](https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-shiny-neo.html).
+- **YA-MAN:** Bloom 6 is the most technically informative RF-focused candidate in the reviewed catalog: 0.5–2.5 MHz,  resistance feedback and touch detection. Shiny NEO is a more accessible multifunction candidate; expensive Prestige models should be bought for desired extra functions, not an assumed collagen advantage. [S15](https://www.ya-man.com/en/products/bloom-6.php), [S25](https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-shiny-neo.html).
 - **MimiSilk Vera:** a potentially convenient gel-free design, but **not the evidence-first purchase at its $699 snapshot**. The frequency, output, depth and dermal-temperature statements remain manufacturer claims. Request an exact IFU, thermal validation and an identifiable human study before accepting the Thermage comparison. [S36](https://www.mimisilk.com/products/mimisilk-vera-rf-sculpt-6-25mhz-gel-free-radio-frequency-skin-lifting-device), [S39](https://www.mimisilk.com/blogs/news/professional-grade-rf-frequency-at-home-how-mimisilk-vera-closes-the-gap-safely).
 
-Explore all **49 model/family records** in the [searchable device comparison](rf_market_explorer.html). Read the [frequency and temperature research](index.html#doc13) before using MHz or °C to decide. A record may cover variants; it does not mean 49 individually validated devices.
+Explore all **51 model/family records** in the [searchable device comparison](rf_market_explorer.html). Read the [frequency and temperature research](index.html#doc13) before using MHz or °C to decide. A record may cover variants; it does not mean 51 individually validated devices.
 
 ## What the census includes and misses
 
 The primary lane is non-invasive facial home RF, including current official listings, newer announcements and older/regional devices that still appear in comparison shopping. Body RF, professional RF and gel-free/fractional marketing are separate comparator lanes. EMS-only masks, LED masks, IPL devices, ultrasound-only devices and MimiSilk Iris's 1450 nm laser are not RF substitutes. Needle RF remains a professional medical category; the [existing evidence map](index.html#doc11) explains safety and indication boundaries.
 
-Official Japan, global and international-shop catalogs differ. YA-MAN maintains many regional/legacy names. Entries marked **unverified** preserve that uncertainty rather than invent MHz, temperature or a trial. We did not locate current-model peer-reviewed trials for every Panasonic/YA-MAN/MimiSilk entry; this is a public-evidence gap, not proof that a private study does not exist. [YA-MAN catalog S31](https://www.ya-man.com/en/products/), [manual identities S33](https://global.ya-man.com/pages/user-manuals).
+Official Japan, global and international-shop catalogs differ. YA-MAN maintains many regional/legacy names. Entries marked **unverified** preserve that uncertainty rather than invent MHz,  temperature or a trial. We did not locate current-model peer-reviewed trials for every Panasonic/YA-MAN/MimiSilk entry; this is a public-evidence gap, not proof that a private study does not exist. [YA-MAN catalog S31](https://www.ya-man.com/en/products/), [manual identities S33](https://global.ya-man.com/pages/user-manuals).
 
 ## Panasonic: the frequency ladder is a product history, not an efficacy ladder
 
@@ -31,11 +31,11 @@ Official Japan, global and international-shop catalogs differ. YA-MAN maintains 
 | **EH-SR74** | **1 MHz RF**, historical official campaign | RF + ultrasound | Specs also list **1 MHz ultrasound**; do not confuse the two | Older-generation option |
 | **EH-SR73 / SR72** | **Not established from consulted specification pages** | Legacy RF/ultrasound devices | Their listed 1 MHz is explicitly **ultrasound frequency** | Obtain exact RF IFU before comparison |
 
-Evidence trail: [SR86 S04](https://panasonic.jp/face/products/EH-SR86.html), [SR85 S05](https://panasonic.jp/face/products/EH-SR85.html), [brochure S06](source_docs/Panasonic_RF_EX_RF_2025_brochure.pdf), [SR90 S07](https://panasonic.jp/face/products/EH-SR90.html), [historical SR74 S13](https://ec-plus.panasonic.jp/store/page/campaign/beauty_winter2021/), [SR73 S11](https://panasonic.jp/face/products/EH-SR73/spec.html), [SR72 S10](https://panasonic.jp/face/products/EH-SR72/spec.html).
+Evidence trail: [SR86 S04](https://panasonic.jp/face/products/EH-SR86.html), [SR85 S05](https://panasonic.jp/face/products/EH-SR85.html), [brochure S06](source_docs/Panasonic_RF_EX_RF_2025_brochure.pdf), [SR90 S07](https://panasonic.jp/face/products/EH-SR90.html), [historical SR74 S13](https://ec-plus.panasonic.jp/store/page/campaign/beauty_winter 2021/), [SR73 S11](https://panasonic.jp/face/products/EH-SR73/spec.html), [SR72 S10](https://panasonic.jp/face/products/EH-SR72/spec.html).
 
 **What this section found:** real disclosed RF carriers and changing electrodes/features, without a human frequency-isolation trial. Panasonic's dry fine-line efficacy evaluations and satisfaction claims should not be translated into quantified dermal collagen gains.
 
-**Launch discrepancy:** the SR90 purchase page lists **¥99,000 and 2026-10-31**, while Panasonic's announcement index says **early November**. Treat it as announced/preorder, not currently delivered inventory on October 1. [S08](https://panasonic.jp/face/products/EH-SR90/shopping.eh-sr90-k.html), [S09](https://panasonic.jp/whatsnew.html).
+**Launch discrepancy:** the SR90 purchase page lists **¥99,000 and 2026-10-31**, while Panasonic's announcement index says **early November**. Treat it as announced/preorder, not currently delivered inventory on October 1. [S08](https://panasonic.jp/face/products/EH-SR90/shopping.eh-sr 90-k.html), [S09](https://panasonic.jp/whatsnew.html).
 
 ## YA-MAN: RF-focused Bloom versus multifunction Photo PLUS
 
@@ -66,9 +66,9 @@ Bloom 6's official page itself lists five minutes in one specification and six m
 
 ## Controlled YA-MAN evidence: regional devices, limited model transfer
 
-A2025 randomized trial tested YA-MAN **ACE fifth-generation golden five-ring** (0.5–2.5MHz RF plus light/electrical stimulation), Jmoon and an unpowered control.90 enrolled/80 completed over four weeks. It reports wrinkle/texture and photographic improvements; transient erythema occurred. Exact equivalence to Bloom5/6 retail SKUs is unresolved. This strengthens the YA-MAN research case without validating every current model. See the [clinical extraction](index.html#doc13). [S74](https://onlinelibrary.wiley.com/doi/10.1111/jocd.70096).
+A2025 randomized trial tested YA-MAN **ACE fifth-generation golden five-ring** (0.5–2.5 MHz RF plus light/electrical stimulation), Jmoon and an unpowered control.90 enrolled/80 completed over four weeks. It reports wrinkle/texture and photographic improvements; transient erythema occurred. Exact equivalence to Bloom5/6 retail SKUs is unresolved. This strengthens the YA-MAN research case without validating every current model. See the [clinical extraction](index.html#doc13). [S74](https://onlinelibrary.wiley.com/doi/10.1111/jocd.70096).
 
-The2022 split-face trial is YA-MAN-attributed in a review, but the primary methods do not name a retail SKU; treat it as ring-RF/light-bundle evidence. A YA-MAN-funded16-person registry has completed status but no results in the reviewed fields. Registration is not proof of benefit. [S75](https://link.springer.com/article/10.1007/s13555-022-00697-y), [S76](https://center6.umin.ac.jp/cgi-open-bin/ctr_e/ctr_view.cgi?recptno=R000061175).
+The 2022 split-face trial is YA-MAN-attributed in a review, but the primary methods do not name a retail SKU; treat it as ring-RF/light-bundle evidence. A YA-MAN-funded 16-person registry has completed status but no results in the reviewed fields. Registration is not proof of benefit. [S75](https://link.springer.com/article/10.1007/s13555-022-00697-y), [S76](https://center6.umin.ac.jp/cgi-open-bin/ctr_e/ctr_view.cgi?recptno=R000061175).
 
 ## MimiSilk Vera: preserve the promises and the contradictions
 
@@ -80,11 +80,11 @@ The2022 split-face trial is YA-MAN-attributed in a review, but the primary metho
 | Level temperatures, usage guide | Dermis 45 / 47 / **52 °C** | Top setting conflicts with FAQ; retain both |
 | Surface ceiling / stamp timing | Below117 °F ≈47.2 °C; 6–10 seconds with impedance adjustment | Claimed control, not redundant-sensor or depth-map validation |
 | Depth | 2.5–3 mm | Marketing depth; frequency cannot verify anatomy or heating footprint |
-| Thermage comparison | 6.25 close to6.78 MHz, therefore closer to clinic performance | No demonstrated clinical equivalence |
+| Thermage comparison | 6.25 close to 6.78 MHz,  therefore closer to clinic performance | No demonstrated clinical equivalence |
 
 Evidence trail: [product S36](https://www.mimisilk.com/products/mimisilk-vera-rf-sculpt-6-25mhz-gel-free-radio-frequency-skin-lifting-device), [FAQ S37](https://www.mimisilk.com/fr/products/mimisilk-vera-rf-sculpt-6-25mhz-gel-free-radio-frequency-skin-lifting-device), [guide S38](https://www.mimisilk.com/blogs/news/how-to-use-mimisilk-vera-rf-sculpt-full-guide-expected-results), [comparison S39](https://www.mimisilk.com/blogs/news/professional-grade-rf-frequency-at-home-how-mimisilk-vera-closes-the-gap-safely), [engineering S40](https://www.mimisilk.com/pages/vera-how-it-works).
 
-**Further inconsistency:** the main FAQ gives a different dermal range of39–44°C in its fat-loss paragraph and a surface ceiling of111.2°F=44°C, while also retaining the45–50°C level table. This contradicts the regional117°F ceiling. These claims cannot support a definitive “no fat loss” guarantee. [S58](https://www.mimisilk.com/pages/faq).
+**Further inconsistency:** the main FAQ gives a different dermal range of39–44°C in its fat-loss paragraph and a surface ceiling of111.2°F=44°C, while also retaining the 45–50°C level table. This contradicts the regional117°F ceiling. These claims cannot support a definitive “no fat loss” guarantee. [S58](https://www.mimisilk.com/pages/faq).
 
 **What this section found:** a clear marketing proposition and unusually specific temperature promises, but missing validation of where/how these temperatures are measured and inconsistent highest-level claims. Neither the comfortable surface sensation nor the phrase “gel-free” establishes safe dermal dosing. A specific stamp protocol should never be imported to a sliding RF device.
 
@@ -99,10 +99,16 @@ Evidence trail: [product S36](https://www.mimisilk.com/products/mimisilk-vera-rf
 | **TriPollar ENVIG EDGE** | Gel-free “fractional RF” consumer marketing | Need IFU, electrode architecture and trial; fractional need not mean needles |
 | **STOP EYE / EYE2; POSE Vx; Sensifirm** | Eye/body-specific comparators | Different areas and claims, not broad-face evidence |
 | **Silk'n Titan / AllWays / MultiPlatform** | RF/light combination with older home-study signal | AllWays URL now redirects to MultiPlatform; current SKU cannot inherit every HST result |
-| **Medicube Ultra Tune40.68** | Less expensive RF+microcurrent combination | Very high frequency label does not establish better clinical outcomes |
+| **Medicube Ultra Tune 40.68** | Less expensive RF+microcurrent combination | Very high frequency label does not establish better clinical outcomes |
 | **Konmison/OEM wands** | Low-price supplier lane from prior landscape | Unresolved output/thermal controls/clinical identity make poor first-buy confidence |
 
 Evidence: [FDA S01–S03](source_docs/FDA_K250341_Sensilift_Pro.pdf), [TriPollar S42](https://uk.mytripollar.com/products/stop-vx-2), [family protocols S43](https://uk.mytripollar.com/pages/how-to-use), [EDGE S44](https://mytripollar.com/collections/home-stop), [Sensica S45](https://sensica.com/pages/rf-skin-tightening), [Medicube S46](https://medicube.us/products/age-r-ultra-tune-40-68), [Silk'n S47](https://www.silkn.com/products/titan-allways), [prior clinical evidence](index.html#doc11), [supplier landscape](index.html#doc2).
+
+## Additional regional contenders: EvenSkyn and AMIRO
+
+**EvenSkyn Lumo+** claims an initial 60°C dermal exposure at1.5–4mm, dropping to 40–41.7°C after 20 seconds; elsewhere it describes steady 40–42°C sensor-controlled heating. These are brand statements without an independently recovered temperature map. Its fat-preservation guarantee cannot be established from a generic assumed facial fat depth. [S79](https://www.evenskyn.com/pages/lumo-faqs).
+
+**AMIRO R1 PRO** claims a 42°C skin ceiling and3mm depth. The attempted official R3 Turbo route redirects to R1 PRO, so current-generation identity must be resolved before assigning trials/specifications. They remain regional contenders rather than proven better RF purchases. [S80](https://amirobeauty.com/products/amiro-high-radiofrequency-skincare-device), [S81](https://amirobeauty.com/products/r3-turbo-facial-rf-skin-tightening-device).
 
 ## Price is only one part of “worth it”
 
@@ -114,7 +120,7 @@ Evidence: [FDA S01–S03](source_docs/FDA_K250341_Sensilift_Pro.pdf), [TriPollar
 | MimiSilk Vera | **$699**, $799 struck through | Convenience premium with unresolved validation [S36](https://www.mimisilk.com/products/mimisilk-vera-rf-sculpt-6-25mhz-gel-free-radio-frequency-skin-lifting-device) |
 | YA-MAN Shiny NEO / Prestige SP global | **$650 / $1,250**, sold-out labels | Not actionable in-stock US offers [S26](https://global.ya-man.com/products/photoplus-shiny-neo), [S23](https://global.ya-man.com/products/photo-plus-prestige-sp) |
 | Bloom5 / WR STAR Japan | **¥95,700 / ¥77,000** | Local tax/warranty/region; international prices differ [S16](https://www.ya-man.com/Form/Product/ProductDetail.aspx?bid=yaman_tokyo_japan&cat=101&pid=rr00663&shop=0), [S18](https://www.ya-man-tokyo-japan.com/products/forface/rf-bloom-wr-star.html) |
-| Panasonic LUXE preorder | **¥99,000** | Announced future availability [S08](https://panasonic.jp/face/products/EH-SR90/shopping.eh-sr90-k.html) |
+| Panasonic LUXE preorder | **¥99,000** | Announced future availability [S08](https://panasonic.jp/face/products/EH-SR90/shopping.eh-sr 90-k.html) |
 | TriPollar Vx2 / EDGE UK | **£599 / £899** | Vx2 stock/shipping copy inconsistent [S42](https://uk.mytripollar.com/products/stop-vx-2), [S44](https://mytripollar.com/collections/home-stop) |
 
 Do not convert currencies into an artificial global ranking. Compare **landed device cost + required gel/pads + treatment time + authorized warranty + return terms**, in one region. Trial returnability can be more valuable than an unvalidated MHz upgrade. No numerical cost-per-collagen score is possible from these studies: endpoints, populations and controls differ too much.

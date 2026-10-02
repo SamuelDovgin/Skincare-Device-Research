@@ -424,4 +424,4 @@ Dedicated evidence, safety, and buying lane for acquired darker-than-baseline bo
 
 ## RF market research update —2026-10-01
 
-[Expanded RF market/value census](07_radio_frequency_skin_tightening/index.html#doc12) · [MHz/temperature/clinical evidence](07_radio_frequency_skin_tightening/index.html#doc13) · [Searchable device comparison](07_radio_frequency_skin_tightening/rf_market_explorer.html). Adds Panasonic/YA-MAN/MimiSilk,49device/family records and78source records; measured cutoffs, manufacturer dermal claims and professional findings remain distinct.
+[Expanded RF market/value census](07_radio_frequency_skin_tightening/index.html#doc12) · [MHz/temperature/clinical evidence](07_radio_frequency_skin_tightening/index.html#doc13) · [Searchable device comparison](07_radio_frequency_skin_tightening/rf_market_explorer.html). Adds Panasonic/YA-MAN/MimiSilk,51 device/family records and81 source records; measured cutoffs, manufacturer dermal claims and professional findings remain distinct.

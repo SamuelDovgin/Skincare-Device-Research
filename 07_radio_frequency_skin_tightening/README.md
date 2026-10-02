@@ -4,9 +4,9 @@ Research thread: **radiofrequency (RF) devices for collagen remodeling, wrinkle 
 
 > **Key distinction:** non-invasive home RF devices heat tissue through electrical impedance and are typically cleared for **mild to moderate facial wrinkles**. RF microneedling delivers RF through needles into the skin and is a **medical procedure** with a much higher risk profile.
 
-## October2026 expanded market research
+## October 2026 expanded market research
 
-Start with the [Panasonic/YA-MAN/MimiSilk market and value census](index.html#doc12), [MHz/temperature/clinical research](index.html#doc13), or [filterable49-record device comparison](rf_market_explorer.html). The conclusion is evidence/control-first: no universal best MHz, no demonstrated6.25MHz Thermage equivalence, and explicitly conflicting MimiSilk temperature claims. Panasonic6MHz LUXE remains prelaunch on2026-10-01. YA-MAN now has a controlled regional-device evidence lane with uncertain retail transfer.
+Start with the [Panasonic/YA-MAN/MimiSilk market and value census](index.html#doc12), [MHz/temperature/clinical research](index.html#doc13), or [filterable51-record device comparison](rf_market_explorer.html). The conclusion is evidence/control-first: no universal best MHz,  no demonstrated 6.25 MHz Thermage equivalence, and explicitly conflicting MimiSilk temperature claims. Panasonic6 MHz LUXE remains prelaunch on 2026-10-01. YA-MAN now has a controlled regional-device evidence lane with uncertain retail transfer.
 
 ## TL;DR
 
@@ -36,7 +36,7 @@ Start with the [Panasonic/YA-MAN/MimiSilk market and value census](index.html#do
 
 |12|[Expanded market & value census](index.html#doc12)|Panasonic, YA-MAN, MimiSilk, established alternatives, regional variants, prices and evidence gaps|
 |13|[Frequency, temperature & clinical research](index.html#doc13)|MHz priorities, actual cutoff/dermal claims, controlled studies and technology comparison|
-|14|[Research source manifest](index.html#doc14)|78-source register, primary PDFs, licensed full text and preservation log|
+|14|[Research source manifest](index.html#doc14)|81-source register, primary PDFs, licensed full text and preservation log|
 
 ## Source/data access
 

@@ -797,3 +797,33 @@ Local preservation:URL-only — no lawful local copy available/preserved
 Status:live search extract
 
 S58 expanded finding: main FAQ level45–50°C vs fat paragraph39–44°C; surface44°C vs regional47.2°C. All are claims; no measured dose assumed.
+
+[S79] EvenSkyn Lumo+ FAQ
+URL:https://www.evenskyn.com/pages/lumo-faqs
+Accessed:2026-10-01 America/Chicago
+Class:official product
+Used in:12_market,13_temperature,explorer
+Finding/key record:Claims initial dermis140°F=60°C at1.5–4mm then104–107°F=40–41.7°C after20s; elsewhere steady40–42°C. No independent thermal validation extracted.
+Limits:Anatomy/fat-preservation guarantee and superiority to needle RF not established; heating locations and feedback details need validation.
+Local preservation:URL-only — no lawful local copy available/preserved.
+Status:live official FAQ
+
+[S80] AMIRO R1 PRO official device page
+URL:https://amirobeauty.com/products/amiro-high-radiofrequency-skincare-device
+Accessed:2026-10-01 America/Chicago
+Class:official product
+Used in:12_market,13_temperature,explorer
+Finding/key record:Six electrodes,3mm depth claim, skin temperature≤42°C claimed; consumer/brand clinical-test marketing.
+Limits:Depth not independently measured; exact trial/thermal calibration/US clearance not recovered.
+Local preservation:URL-only — no lawful local copy available/preserved.
+Status:live official page
+
+[S81] AMIRO R3 Turbo attempted official route
+URL:https://amirobeauty.com/products/r3-turbo-facial-rf-skin-tightening-device
+Accessed:2026-10-01 America/Chicago
+Class:official product
+Used in:12_market,13_temperature,explorer
+Finding/key record:Redirects to R1 PRO page; regional generation identity unresolved.
+Limits:Redirect is not proof R3 and R1 are identical or share trials.
+Local preservation:URL-only — no lawful local copy available/preserved.
+Status:redirect to R1 PRO
