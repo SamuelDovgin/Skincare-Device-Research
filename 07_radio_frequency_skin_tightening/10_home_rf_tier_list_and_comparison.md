@@ -1,5 +1,7 @@
 # Home RF Tier List & Device Comparison
 
+> **2026-10-01 research update:** The expanded decision page adds Panasonic/YA-MAN/MimiSilk and documents Sensilift Pro ST300 (FDAK250341,1MHz,40±0.5°C maximum, no new clinical testing). Its earlier regional-candidate placement is superseded. Keep documentation confidence separate from clinical-effect ranking. Read the [expanded market/value census](index.html#doc12), [frequency, temperature and clinical research](index.html#doc13), and [searchable device comparison](rf_market_explorer.html).
+
 *Compiled 2026-08-12. This is research orientation, not medical advice. Confidence labels: **verified** = FDA, IFU, official product page, or peer-reviewed source; **limited** = marketing, small/manufacturer-led study, or model-specific evidence; **inference** = reasoned comparison from the documented mechanism and safety controls.*
 
 ## 0. Bottom line

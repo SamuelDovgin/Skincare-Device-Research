@@ -1,0 +1,1190 @@
+
+Loading older messages…
+Well can you compare current
+
+Manufacturer-reported absorption improvement
+Original Booster Pro 785%
+Booster Pro Mini 562%
+Medicube's reported improvement figures, not a direct comparison or measurements of electrical output. The 785% figure comes from its earlier original-Pro testing; current product marketing also quotes a different 763.3% absorption-efficiency figure.
+
+Worked for 39s
+As of October 2026, Medicube's current US product pages advertise 763.3% for the original Booster Pro and 562% for the original Mini. The older 785% figure is still present on other Medicube storefront pages. 
+
+Sonic Vibration
++2
+
+Updated comparison
+Manufacturer-reported absorption improvement
+
+Original Booster Pro — current
+
+763.3%
+Original Booster Pro — older
+
+785%
+Original Mini
+
+562%
+Different manufacturer tests; bar lengths compare advertised percentage improvements, not verified differences in actual absorption.
+Assuming both percentages mean improvement over untreated skin, here is the mathematical comparison:
+
+Device
+
+Advertised increase
+
+Total vs. baseline
+
+Original Pro, current
+
++763.3%
+
+8.63×
+
+Original Pro, older
+
++785%
+
+8.85×
+
+Original Mini
+
++562%
+
+6.62×
+
+Using the current figures, the Pro's advertised percentage improvement is 36% larger than the Mini's. If their tests had identical methods and baselines, that would correspond to approximately 30% more total absorption—not 36%. Whether the real devices differ by that much is a separate question.
+
+Are these tests directly comparable?
+Not reliably. The disclosures on Medicube's product pages identify different testing organizations and use different descriptions of absorption.
+
+Question
+
+Original Pro
+
+Mini
+
+Testing organization
+
+Global Institute of Dermatological Sciences
+
+Tego Science for the 562% claim
+
+Reported measurement
+
+Absorption efficiency; previously skin permeability
+
+Absorption rate
+
+Full published protocol
+
+Not provided
+
+Not provided
+
+Ingredient-specific results
+
+Not provided
+
+Not provided
+
+Peptide delivery into the dermis
+
+Not established
+
+Not established
+
+These details come from Medicube's current Pro page, Mini page and older Pro listing. 
+
+Sonic Vibration
++2
+
+Crucially, the published marketing information doesn't explain whether the 763.3% and 785% Pro claims come from different testing protocols, formulations or calculations. There's no evidence here that the device's hardware changed.
+
+For your interest in delivering larger molecules: neither figure tells us how well the devices deliver particular peptides, PDRN or high-molecular-weight hyaluronic acid. They also don't demonstrate increased collagen production.
+
+The original Pro has the larger advertised absorption figure, but a controlled, head-to-head test using identical skincare formulations would be needed to establish its actual advantage over the Mini.
+
+I'm interested in the mini because the others aren't collagen banking. But increasing collagen promoting ingredients sounds promising
+
+Was the pro released before or after
+
+Also can you surmise the specs in terms of how long the routine is. And likely electrical amount. I'm thinking it's likely same betweenn the two devices right
+
+Worked for 1m 16s
+The original Booster Pro came first, roughly a year before the Mini. The Mini is a later, simplified device built around the original's electroporation function—not an older-generation version of the technology.
+
+Medicube | The Cosmetic Store New Zealand
+Original Booster Pro
+
+Fall 2023 · Korean certification September 14, 2023
+
+Four treatment modes, including electroporation. 
+
+MEDICUBE AGE-R BOOSTER PRO 인증현황
++1
+
+medicube AGE-R Booster Pro "MINI" #White | Travel-Ready Skin Glow Enha
+ – Glam Global UK
+Original Booster Pro Mini
+
+November 2024 · Medicube lists November 25 as its release date
+
+Primarily electroporation, with two selectable LED colors. 
+
+medicube
++1
+
+Your suspicion that they might have similar electroporation circuitry is plausible. Both offer the same general treatment technology, five intensity settings and very similar recommended treatment times. However, Medicube hasn't published the electrical waveforms necessary to establish that their output is identical.
+
+1. Electrical specifications and treatment time
+I found the specifications in the manuals for both devices.
+
+Specification
+
+Original Pro
+
+Original Mini
+
+Electroporation
+
+Yes
+
+Yes
+
+Intensity levels
+
+5
+
+5
+
+Recommended session
+
+5–10 min
+
+5–10 min
+
+Maximum recommended frequency
+
+3 times daily
+
+3 times daily
+
+Battery voltage
+
+3.7 V
+
+3.7 V
+
+Battery capacity
+
+2,600 mAh
+
+700 mAh
+
+Maximum battery power draw
+
+1.8 W
+
+1 W
+
+Approximate battery energy
+
+9.62 Wh
+
+2.59 Wh
+
+Body diameter
+
+34 mm
+
+25.5 mm
+
+Weight
+
+155 g
+
+75 g
+
+Actual treatment voltage
+
+Undisclosed
+
+Undisclosed
+
+Actual treatment current
+
+Undisclosed
+
+Undisclosed
+
+Sources: the original Pro manual and Mini manual. 
+
+Manuals+
++1
+
+Maximum whole-device power draw
+These figures are not electrical output to your skin.
+
+Original Pro
+
+1.8 W
+
+Mini
+
+1.0 W
+
+The Pro draws up to 80% more power from its battery, but it also runs a display, additional treatment modes and other electronics. The Mini's smaller head may require less power to produce a comparable electrical field at the treatment surface. That's physically plausible, but isn't established by these specifications.
+
+For illustration, at their respective maximum rated power draws over five minutes, the Mini would consume up to approximately 300 joules and the Pro 540 joules. That is total device energy consumption, not the energy delivered to your skin.
+
+2. Is the actual electroporation likely identical?
+What would establish equivalence?
+Electrical parameter	Why it matters
+Pulse voltage	Helps determine the electric field across the skin.
+Pulse duration and repetition rate	Influence the permeability changes produced.
+Current and delivered charge	Depend on the circuitry and the skin's electrical resistance.
+Electrode spacing and contact area	Affect field distribution and the area treated during each pass.
+The two models could use very similar pulse-generation technology with different electrode geometry, or the Mini could have a redesigned, lower-output circuit. Neither their battery specifications nor their identical five intensity levels can distinguish those possibilities.
+
+One additional manufacturer claim is that the Mini produces up to 2.7 million electrical vibrations per treatment. However, Medicube doesn't identify the pulse duration, precise waveform or electrical conditions underlying that number, so it isn't sufficient to calculate a clinically meaningful treatment dose. 
+
+전자신문
++1
+
+3. What would your collagen-focused routine look like?
+Mini electroporation routine
+
+5–10 minutes
+Cleanse and apply serum
+
+Use a well-hydrated, fragrance-free serum, such as one containing hyaluronic acid and signal peptides. Apply enough to allow the head to move comfortably.
+
+Treat for approximately five minutes
+
+Begin at intensity level 1, moving the head gently across your face with complete skin contact. Gradually increase the intensity if comfortable.
+
+Finish with moisturizer
+
+Reapply moisturizer as needed. Use a separate morning vitamin C and sunscreen routine and introduce retinoids on non-device evenings initially.
+
+Medicube permits 5–10 minutes up to three times daily, but there is no established evidence that more frequent use produces more collagen. 
+
+MEDICUBE US
++1
+For the goal you've described, the original Mini contains the function you're interested in without requiring you to pay for MC, EMS or Air Shot. Its electroporation output might be comparable to the Pro's, but the advertised 562% versus 763.3% absorption claims come from different tests and cannot establish a head-to-head difference. 
+
+At-Home Facial Device for Beginners
++1
+
+Most importantly, increased peptide absorption is a promising delivery strategy, not yet proof of additional collagen production from either Medicube device.
+
+Can you look into the very specifics of the electroportation studies they use to make the claims
+
+And looking at the study to reveal differences
+
+Also the amount of power draw that's fr all moves. And the other ones likely use way more battery right. Maybe also look at the new 2x to see what the likely is
+
+Worked for 5m 12s
+The original Pro's 785% claim is more informative than its newer 763.3% claim because I found an older Korean product listing that identifies the testing laboratory, dates and comparison device. There is also a meaningful clue in the X2's specifications: Medicube explicitly says its doubled power was measured as power density in watts per square centimeter, rather than simply battery consumption. 
+
+블랙 K017
++1
+
+1. Tracing the absorption studies
+Here's what the available disclosures actually establish.
+
+Claim
+
+Laboratory
+
+Study details disclosed
+
+Original Pro: 785%
+
+Tego Science
+
+October 17–November 13, 2023; compared with the older Booster-H
+
+Original Pro: 763.3%
+
+Global Institute of Dermatological Sciences
+
+Advertised on the current US page; full protocol not provided
+
+Original Mini: 562%
+
+Tego Science
+
+Laboratory identified; full protocol not provided
+
+X2: twice the power density
+
+Korea Testing Laboratory
+
+Compared with the original Pro; electrical output comparison, not an absorption study
+
+
+블랙 K017
++3
+An important discovery from the original Korean documentation
+
+785% vs. 490%
+Original Pro Booster Mode versus the older Booster-H, respectively, in the 2023 Tego Science permeability testing. 
+
+블랙 K017
+
+This is an actual manufacturer-reported device comparison, unlike the separate 785% and 562% marketing figures. However, without the underlying report, it is unclear whether these percentages represent increases over untreated skin or permeability expressed relative to a control.
+
+The Mini's 562% claim also identifies Tego Science, making a comparison of the two Tego reports particularly interesting. But the dates, test substance, skin preparation, treatment settings and raw permeability measurements for the Mini are missing from Medicube's US product page. Having the same laboratory is not sufficient to establish an identical protocol. 
+
+At-Home Facial Device for Beginners
+
+2. The X2 provides a much more useful testing clue
+I found a detailed Korean retailer listing reproducing Medicube's X2 disclosures. Its maximum claimed skin permeability is 1,332% of the untreated control, measured one hour after treatment on human skin tissue.
+
+0%
+350%
+700%
+1K%
+1.4K%
+Mini
+Original Pro, older
+X2
+Mini: Advertised percentage of control 562%
+Original Pro, older: Advertised percentage of control 785%
+X2: Advertised percentage of control 1.3K%
+Manufacturer-reported figures. The X2 disclosure explicitly identifies an untreated control of 100%; the original devices' publicly available disclosures do not establish identical test conditions.
+The X2 permeability study was conducted January 8–February 12, 2026, by the Global Institute of Dermatological Sciences. It involved human skin tissue and compared the X2 Booster Mode with two other test conditions or devices. The public summary does not provide their individual numerical results or the exact test substance. 
+
+GS SHOP
+
+Separately, Medicube tested the X2's visible skincare outcomes in 21 Korean women aged 20–60. They used its Booster Mode at level 6 twice daily with Medicube PDRN Pink Peptide Ampoule for two weeks. The manufacturer reported 28.3% greater radiance immediately after use and 69.2% higher surface hydration. That's a distinct clinical study; it doesn't establish a 13-fold increase in peptide delivery or collagen production. 
+
+GS SHOP
+
+3. Another Medicube study reveals the actual test ingredient
+A July 2026 news report describes a disclosed Tego Science report for the Mini Plus, a newer product distinct from your original Mini. This is the most detailed public example I found of how Medicube generates one of its absorption claims.
+
+Mini Plus: caffeine absorption experiment
+
+15-minute device treatment versus conventional application
+
+0μg/mL
+30μg/mL
+60μg/mL
+90μg/mL
+120μg/mL
+Normal application
+Mini Plus treatment
+Normal application: Measured concentration 16.6 μg/mL
+Mini Plus treatment: Measured concentration 103.7 μg/mL
+Measured ratio
+
+6.25×
+Manufacturer's advertised figure
+
+625%
+Tego Science testing, May 8–June 2, 2025. The manufacturer disclosed an excerpt of the report; the complete experimental protocol wasn't publicly released. 
+
+전자신문
++1
+This is particularly revealing for two reasons. First, Medicube used caffeine, a small molecule of approximately 194 Da, rather than a collagen-promoting peptide or PDRN. The company explained that caffeine is easy to measure using HPLC or UV spectroscopy and is commonly used as a model substance in skin-permeation research. Second, the experiment used 15 minutes of treatment, whereas the usual Mini routine is five minutes before automatic shutoff. 
+
+전자신문
++1
+
+There is also a correction to how these percentages are often interpreted: in this disclosed study, 625% means 625% of the control, or 6.25 times total absorption, not a 625% increase (which would mean 7.25 times). The original Mini's 562% and Pro's 785% may follow a similar convention, but the available summaries don't prove that they do.
+
+For your collagen goal, the study establishes the possibility of enhancing small-molecule delivery under the tested conditions. It says nothing directly about how much PDRN, copper peptides or other large ingredients reach the dermis.
+
+4. Comparing the actual electrical hardware
+Your battery-power argument is reasonable: the original Pro has extra modes that might account for some of its higher maximum power consumption. But the X2 reveals that Medicube has also changed the treatment-head design and measured output independently of battery consumption.
+
+Here are the three devices' specifications from their manuals and product documentation. 
+
+Manuals+
++3
+
+Specification
+
+Mini
+
+Original Pro
+
+X2
+
+Battery
+
+700 mAh
+
+2,600 mAh
+
+2,600 mAh
+
+Battery energy
+
+2.59 Wh
+
+9.62 Wh
+
+9.62 Wh
+
+Maximum rated power
+
+1 W
+
+1.8 W
+
+3.5 W
+
+Maximum battery current
+
+250 mA*
+
+500 mA*
+
+950 mA*
+
+Intensity levels
+
+5
+
+5
+
+6
+
+Electrodes
+
+Not verified
+
+2
+
+4
+
+Head size
+
+Small
+
+Standard
+
+1.3× original
+
+*Rounded manufacturer specifications. All three use nominal 3.7 V batteries. These currents are total battery draw, not skin-treatment current.
+Maximum rated power consumption
+0W
+0.95W
+1.9W
+2.85W
+3.8W
+Mini
+Original Pro
+X2
+Mini: Maximum power 1 W
+Original Pro: Maximum power 1.8 W
+X2: Maximum power 3.5 W
+Manufacturer specifications; not measured Booster Mode consumption.
+Would the other modes consume much more power?
+Possibly, especially when combining treatments, but the published specifications don't establish which mode draws the most power. EMS delivers electrical stimulation to muscles, while the device also powers its display, LEDs, vibration motor and circuitry. The power drawn by any electrical treatment depends on its waveform, voltage, load and duty cycle.
+
+The original Pro's 1.8 W rating is its maximum for the entire device. It might draw considerably less during Booster Mode. The Mini's 1 W rating is therefore entirely compatible with the possibility of similar electroporation output, particularly given its smaller treatment head.
+
+The X2 offers a different kind of evidence: Medicube reports that Korea Testing Laboratory measured approximately twice the original Pro's power density in W/cm². Its four-electrode head also has approximately 1.3 times the treatment area. However, the raw measurements and detailed electrical waveforms haven't been disclosed. 
+
+Dual & Mask Mode
++1
+
+5. Estimated battery life
+To put the power ratings in perspective, here's what the batteries could theoretically deliver if the devices operated continuously at their rated maximum power.
+
+Device
+
+At maximum rated draw
+
+Equivalent 5-minute sessions
+
+Mini
+
+2.6 hours
+
+31
+
+Original Pro
+
+5.3 hours
+
+64
+
+X2
+
+2.7 hours
+
+33
+
+These are illustrative calculations, not real-world battery-life estimates. Actual operating time depends on the selected mode and intensity, battery condition and conversion losses.
+
+The X2 is particularly revealing: it has the same 2,600 mAh battery as the original Pro, but nearly twice its maximum rated power consumption. If both sustained their maximum ratings, the X2 would run for about half as long. That is consistent with substantial hardware changes, although it doesn't isolate their electroporation circuitry.
+
+For the Mini and original Pro, there is no published mode-by-mode consumption measurement that would establish how much of the 0.8 W difference comes from the other functions.
+
+6. What we can reasonably conclude
+The Mini and original Pro may have similar electroporation output, but their equivalence is unverified.
+
+Their five settings and similar treatment times do not demonstrate identical voltage or current. Their separate absorption claims also cannot reliably establish the difference.
+
+The X2 has more direct evidence of increased electrical output.
+
+Medicube reports independent power-density testing, a redesigned four-electrode head and a separate permeability experiment reaching 1,332% of control after one hour. The original Pro-to-X2 improvement still cannot be precisely quantified without matching protocols.
+
+For your collagen-promoting skincare strategy, the missing experiment is straightforward: test all three devices on the same human skin samples, with the same peptide or other active ingredient, identical treatment durations, matched electrode contact conditions and measured delivery into different skin layers. Include untreated controls, dose-response measurements and a subsequent collagen-related biological endpoint.
+
+At present, none of the advertised absorption percentages proves that one of these devices produces more collagen than another. The Mini may already deliver meaningful additional ingredient penetration, but paying for higher output on the X2 would be a bet on greater delivery rather than a demonstrated improvement in collagen banking.
+
+Which do you think is most supported and follows the penetration research best?
+Out of all the options
+
+Worked for 55s
+For maximum skincare penetration, the X2 has the strongest supporting technical evidence of the Medicube models we've discussed. For an affordable, dedicated absorption device, the original Mini is a reasonable option, although its electrical output is much less well documented.
+
+The X2 follows several principles established in electroporation research: electrical field strength, pulse delivery and electrode configuration all influence skin permeability. Medicube reports independently measured higher power density and a separate human-skin-tissue absorption test for the X2. However, it has not published the detailed pulse settings necessary to determine how closely the device matches the systems used in peer-reviewed studies. 
+
+PubMed
++2
+
+How the Medicube devices compare
+Device
+
+Manufacturer's absorption claim
+
+What distinguishes it
+
+Original Mini
+
+562%
+
+Dedicated electroporation function, compact head
+
+Original Pro
+
+763.3% currently; 785% in older testing
+
+Electroporation plus several other modes
+
+Mini Plus
+
+625% in a disclosed caffeine test
+
+More detail about the test ingredient and measured delivery
+
+X2
+
+1,332%
+
+Higher independently measured power density, four electrodes and redesigned head
+
+These percentages come from different tests and must not be treated as comparable effectiveness scores. The X2's 1,332% claim refers to permeability relative to an untreated control measured one hour later, rather than 1,332% more collagen or peptide absorption. 
+
+At-Home Facial Device for Beginners
++2
+
+Why the X2 aligns more closely with penetration research
+The 2024 study in the Journal of Controlled Release demonstrated that increasing electrical field strength can create additional transport pathways through the skin. It also showed that different electrical conditions can affect the outer skin barrier versus living cells beneath it. These effects aren't simply proportional to total battery wattage. 
+
+PubMed
++1
+
+The X2 has two advantages relevant to this research: Medicube reports approximately twice the original Pro's measured power density, and its redesigned head has four electrodes. Those are meaningful engineering differences, although we still don't know its actual Booster Mode voltage, pulse duration, frequency or delivered charge. 
+
+Dual & Mask Mode
++1
+
+Its 1,332% permeability result is also relevant, but without a matching test using the Mini and original Pro, we cannot establish exactly how much better it delivers any particular ingredient. 
+
+GS SHOP
+
+Why the Mini Plus deserves attention
+The Mini Plus actually has a more transparent ingredient-specific test than the other models. Medicube released an excerpt of a Tego Science report showing that device-assisted application produced a measured caffeine concentration of 103.7 μg/mL, compared with 16.6 μg/mL after conventional application—approximately 6.25 times as much. 
+
+Seoul Economic Daily
+
+Caffeine is a small molecule, so this is useful evidence that the Mini Plus can enhance delivery of something that isn't especially large. It doesn't, however, predict delivery of copper peptides, PDRN or growth factors. Nor does it establish that the Mini Plus outperforms the original Mini.
+
+My choice for your specific goal
+Maximum potential penetration
+
+Booster Pro X2
+The engineering evidence is stronger, and its manufacturer-reported permeability result is substantial. It's the model I'd investigate first if the objective were maximizing ingredient delivery regardless of price.
+
+Dedicated skincare absorption without extra modes
+
+Mini Plus
+Its disclosed caffeine experiment makes it particularly interesting if priced similarly to the original Mini. The regular Mini remains reasonable, but has less publicly disclosed ingredient-specific testing.
+
+There is one major qualification for your collagen-banking plan. A 2026 human study of a combined electroporation, iontophoresis and ultrasound device found 2.6-fold greater serum uptake and 2.3-fold greater penetration depth. However, the average depth was only 17 μm—primarily the outer skin and upper epidermis, not the collagen-producing dermis. 
+
+Wiley Online Library
++1
+
+Consequently, the X2 is the stronger technical proposition, while the Mini Plus has unusually concrete evidence of delivering a measured cosmetic-sized molecule. Neither currently has the human collagen-production evidence needed to show that its additional penetration translates into better collagen banking.
+
+Well I wanted you to also compare against other companies with similar devices like lg and Panasonic
+
+Can you compare the tech and research
+
+Worked for 4m 31s
+The biggest difference between Medicube, LG and Panasonic is that they don't all rely on electroporation alone. LG combines electroporation with ultrasound, while Panasonic combines electrical pulses with iontophoresis. Both approaches have published research behind them, including studies involving the companies' own researchers.
+
+For your particular goal—getting collagen-promoting ingredients through the skin rather than paying for facial muscle stimulation—the Panasonic and LG systems are especially interesting. Panasonic has published unusually detailed electrical specifications and molecular-weight experiments. LG has published human clinical research on its combined delivery technology. 
+
+J-STAGE
++2
+
+1. Technology comparison
+パナソニック フェイスケア | フェイスケア（スチーマー・美顔器） | Panasonic
+Panasonic Ion Boost Multi EX EH-SS85
+Electroporation + iontophoresis
+
+Released November 2023
+
+Produces high-voltage pulses to temporarily increase skin permeability, then uses an electrical current to assist ingredient transport. Panasonic publishes a maximum pulse voltage of 120 V for its Power Boost system.
+
+It reports 12× hyaluronic acid penetration and 6.3× collagen penetration into the stratum corneum compared with ordinary application. 
+
+Panasonic
++1
+
+LG 樂金 Pra.L Skin Booster 電滲超聲波導入儀 BBS1 香港行貨 | 友和 YOHO
+LG Pra.L Skin Booster BBS1
+Electroporation + sonophoresis
+
+Introduced internationally in December 2024
+
+Combines electrical pulses with low-frequency ultrasound to assist ingredient transport. Its ultrasound operates at 355 kHz.
+
+A published study of 20 women reported improvements in hydration, elasticity, tone and pigmentation, alongside absorption measurements more than 200% above conventional application. 
+
+HK
++1
+
+Medicube Pro Mini Booster White - Coreano - DANI CASSIANO MAKEUP & ESMALTERIA
+Medicube Booster Pro Mini
+Electroporation
+
+Released November 2024
+
+Uses five intensity levels and a compact treatment head. Its advertised 562% absorption result comes from manufacturer-commissioned testing, but detailed electrical output measurements and a full peer-reviewed clinical trial for this exact model aren't publicly available. 
+
+MEDICUBE
+
+Booster Pro X2
+ – MEDICUBE US
+Medicube Booster Pro X2
+Higher-output electroporation and additional treatment modes
+
+Has a redesigned, larger treatment head and manufacturer-reported higher power density than the original Pro. Medicube advertises permeability reaching 1,332% of untreated control in its X2 testing, but this isn't a published head-to-head clinical comparison with LG or Panasonic.
+
+The figures above represent different ingredients, instruments and experimental conditions. In particular, Panasonic's collagen result concerns topically applied collagen molecules penetrating the outer skin layer—not your body producing 6.3 times as much collagen.
+
+2. Panasonic's research: unusually detailed electrical and molecular-weight testing
+Panasonic's 2022 paper, published in Chemical and Pharmaceutical Bulletin, is particularly useful because the researchers disclosed their experimental electrical settings. 
+
+PubMed
++1
+
+PANASONIC'S 2022 LABORATORY EXPERIMENT
+
+How the electrical treatment worked
+Electroporation
+
+37 V
+1 kHz square wave, 50% duty cycle, applied for 3 seconds
+
+Iontophoresis
+
+10 V
+3 kHz square wave, 50% duty cycle, applied for 6 seconds
+
+Experimental sequence
+
+Step 1: Electrical pulses temporarily increase skin permeability
+
+Step 2: Apply hyaluronic acid solution
+
+Step 3: Iontophoresis assists transport through the treated skin
+
+Experimental equipment developed by Panasonic, not the electrical specifications of the commercially released EH-SS85. 
+
+J-STAGE
+The researchers tested seven different molecular weights of hyaluronic acid on excised pig skin, including very large molecules that normally penetrate poorly.
+
+How much did electroporation add?
+Approximate increase when adding electroporation to iontophoresis
+
+0×
+20×
+40×
+60×
+80×
+3–7.5 kDa HA
+25–60 kDa HA
+3–7.5 kDa HA: Additional penetration 5×
+25–60 kDa HA: Additional penetration 70×
+Measured using fluorescence in the seventh tape-stripped layer of the stratum corneum. Only one measurement was made per molecular weight, making these exploratory rather than reliable expected gains for consumer devices. 
+
+J-STAGE
+The study detected penetration of molecules up to approximately 200 kDa under the combined treatment. Above that molecular weight, absolute penetration fell substantially. Crucially, it measured fluorescence-covered area rather than the actual mass of hyaluronic acid delivered. 
+
+J-STAGE
+
+Panasonic subsequently advertised a higher-voltage, 120 V Power Boost system in the commercially released EH-SS85. Its own product testing reports 12× hyaluronic acid penetration using eight volunteers and improved appearance of dry fine lines in a separate four-week, 26-woman comparison. The measured delivery endpoint was the stratum corneum, not the collagen-producing dermis. 
+
+Panasonic
++1
+
+A practical distinction is that Panasonic separates the process into two modes: two minutes of BOOST pretreatment without skincare, followed by three minutes of MOIST with skincare. This mirrors its published two-stage research more explicitly than a one-step serum-gliding routine.
+
+3. LG's research: human skin outcomes and preliminary collagen evidence
+LG has published two relevant papers in the March 2025 issue of Medical Lasers. They investigate the combination of electroporation and ultrasound used by its Skin Booster BBS1, although most of their authors worked for LG. 
+
+DOI
++1
+
+STUDY 1: HUMAN CLINICAL TRIAL
+
+20 participants, four weeks
+In a controlled study, 20 women aged 20–55 applied a brightening ampoule and a hyaluronic acid ampoule either by hand or with LG's combined electroporation-ultrasound device.
+
+Study detail	Method
+Device setting	Combined mode, intensity 6
+Sessions	Twice weekly, eight total
+Application	90 seconds per ampoule
+Measurements	Hydration, elasticity, pigmentation, skin tone and absorption
+Published findings
+
+Device-assisted application improved absorption measurements by more than 200% compared with hand application, with statistically significant differences in several hydration and elasticity measurements during follow-up.
+
+The researchers described the trial as double-blind, although comparing a physical device against application by hand makes effective participant and operator blinding difficult. The study also cannot isolate the contribution of electroporation from ultrasound. 
+
+DOI
+STUDY 2: LABORATORY EXPERIMENT
+
+Did LG investigate actual collagen?
+Yes, but in cell culture rather than through measurements of new collagen in living people's faces.
+
+In a separate experiment, LG's researchers used excised pig skin to investigate ingredient penetration and cultured human dermal fibroblasts to investigate collagen production.
+
+When fibroblasts were exposed to a hyaluronic-acid-containing ampoule and combined electrical-ultrasound treatment, researchers reported increased cell proliferation and type I collagen production compared with their controls.
+
+The pig-skin experiment also showed improved penetration of an antioxidant-containing ampoule, using a color reaction as the delivery indicator. 
+
+KCI
+
+This is promising mechanistic evidence, but it does not establish that daily LG device use increases dermal collagen in humans or identify which ingredient in the tested ampoule was responsible.
+
+The LG papers are important because they examine both improved cosmetic delivery and biological effects. However, more extensive independently funded studies, including sham-device controls and human skin biopsies, would be needed to establish actual collagen banking.
+
+4. Other devices worth including
+There are a few additional products that materially change the comparison, especially near your earlier $100 budget.
+
+Device
+
+Delivery technology
+
+Research and disclosure
+
+Panasonic EH-ST0A
+
+Electroporation + iontophoresis
+
+Earlier model. Manufacturer reports 8× HA and 9.3× oligopeptide-1 penetration in 10-person testing. 
+
+Panasonic
+
+LG Superform Galvanic Booster
+
+Galvanic iontophoresis, red LED and vibration
+
+LG reports up to 182% improved absorption with a specific ampoule; I found no peer-reviewed device-specific trial. 
+
+LG Pra.L
++1
+
+Medicube Mini Plus
+
+Electroporation
+
+More detailed manufacturer caffeine testing than the original Mini, but no established additional collagen benefit.
+
+Centellian24 Madeca Prime Max
+
+Electroporation, electrical stimulation and additional modes
+
+Advertises 3.3× absorption; the public claim doesn't identify an independently published penetration trial. 
+
+Korean Beauty Device
+
+YA-MAN Photo Plus Prestige
+
+Proprietary electrical-pulse delivery, iontophoresis, RF and LED
+
+Its manual confirms electrical-pulse delivery, but comparable published ingredient-specific clinical evidence remains limited. 
+
+Ya-Man
+
+A particularly important distinction: LG's small Superform Galvanic Booster is not a miniature version of its electroporation-and-ultrasound BBS1. Galvanic iontophoresis is particularly relevant to charged ingredients because electrical forces can assist their movement across skin. It doesn't necessarily reproduce the temporary permeability changes created by high-voltage electroporation. 
+
+PubMed
++1
+
+5. Research comparison for your collagen-banking goal
+Research question
+
+Where the evidence currently stands
+
+Can electroporation deliver relatively large HA molecules into the outer skin?
+
+Panasonic's published 2022 experiment provides direct mechanistic evidence.
+
+Can a combined home device measurably improve skincare outcomes in humans?
+
+LG's 2025 BBS1 clinical study provides direct evidence for its combination of technologies.
+
+Can a consumer device increase collagen production?
+
+LG has preliminary cell-culture results, but convincing human evidence of increased collagen from its delivery device is still missing.
+
+Is a higher electrical output automatically better?
+
+No. Pulse shape, electrode geometry, formulation and treatment duration all influence delivery.
+
+Does a larger absorption multiplier mean better wrinkle prevention?
+
+Not established for any of these devices.
+
+
+PubMed
++3
+There's an important nuance regarding the Panasonic peptide experiment. Its older EH-ST0A achieved a reported 9.3× penetration for oligopeptide-1, a growth-factor-related ingredient, but the measurement concerns delivery into the outer skin. A peptide reaching that layer isn't proof that it reaches dermal fibroblasts at a biologically effective concentration.
+
+Similarly, LG's fibroblast study gives us a biological result, but the results from applying a formulation and electrical-ultrasound treatment in a laboratory cannot establish the amount of new collagen a person would produce with regular home use.
+
+6. Which technology makes sense at different budgets?
+Around $100: Medicube Mini versus LG Superform Galvanic
+
+The Mini offers electroporation; the LG offers galvanic iontophoresis. For exploring delivery of relatively large, poorly penetrating ingredients, the Mini's technology is more directly aligned with the permeability research. The LG is an alternative for compatible charged formulations and has a convenient one-minute routine.
+
+Used, roughly $160–$220: Panasonic EH-ST0A
+
+Panasonic's earlier device becomes interesting because it includes both electrical-pulse pretreatment and iontophoresis. I found an eBay listing at $160 plus $26 shipping, though availability and total delivered cost can change. 
+
+eBay
++1
+
+Higher budget: Panasonic EH-SS85 versus LG BBS1
+
+These offer different research advantages: Panasonic has the clearer electrical and molecular-weight documentation, while LG has published a human trial involving the actual combination of delivery technologies. Neither has established superior long-term collagen production in humans.
+
+I would give the Panasonic system particular attention for the question you've been asking about larger molecules. Its published research actually investigates how molecular weight changes delivery, and its two-step treatment follows a plausible combination strategy. LG is particularly interesting where the goal is improved hydration, elasticity and pigmentation outcomes documented in a human trial.
+
+The Medicube X2 remains an interesting high-output electroporation option, but its independently measured power-density claim is an engineering result, not proof of superior peptide penetration. 
+
+Dual & Mask Mode
+
+For your skincare routine, the ingredient still matters more than a device's advertised multiplier. A well-formulated peptide or HA serum is a reasonable candidate for experimenting with absorption enhancement; I would keep strong L-ascorbic-acid formulations and retinoids separate until there's better safety and effectiveness research on electrically enhanced delivery. Daily sunscreen and an evidence-based retinoid remain the more established elements of long-term collagen preservation.
+
+EH-ST99
+EH-ST0A
+
+can you compare medicube to these panasonic models
+
+Worked for 1m 38s
+For your goal of improving the delivery of collagen-promoting ingredients, the Panasonic EH-ST0A has a particularly useful advantage over Medicube: Panasonic publishes ingredient-specific human tests for hyaluronic acid and oligopeptide-1, and documents an electrical upgrade over the EH-ST99. Medicube advertises large absorption increases, but its publicly available tests reveal less about which molecules actually penetrate.
+
+The ST0A isn't simply a newer ST99 with different modes. Panasonic reports 1.6 times the electrical voltage output of the older model, with a redesigned electrode head. 
+
+Panasonic
++1
+
+1. EH-ST99 versus EH-ST0A
+Panasonic（パナソニック） イオン美顔器 イオンブースト ゴールド調 EH-ST99-N : ロビンソン - 通販 - Yahoo!ショッピング
+Panasonic EH-ST99
+
+Released November 2021
+
+Panasonic（パナソニック） イオン美顔器 イオンブースト マルチ EH-ST0A N ゴールド調 : onHOME(オンホーム) - 通販 - Yahoo!ショッピング
+Panasonic EH-ST0A
+
+Released November 2022
+
+Manufacturer-reported delivery into the stratum corneum relative to applying the ingredient by hand.
+
+EH-ST99
+EH-ST0A
+0×
+3×
+6×
+9×
+12×
+Hyaluronic acid
+Oligopeptide-1
+Hyaluronic acid: EH-ST99 5.7×, EH-ST0A 8×
+Oligopeptide-1: EH-ST99 6.3×, EH-ST0A 9.3×
+Panasonic's tests; approximate fold differences, not increases in collagen production.
+
+
+@cosme
++1
+Feature
+
+EH-ST99
+
+EH-ST0A
+
+HA penetration
+
+5.7×
+
+8.0×
+
+Oligopeptide-1 penetration
+
+6.3×
+
+9.3×
+
+Topical collagen penetration
+
+5.0×
+
+No equivalent headline result disclosed
+
+Electrical output
+
+Baseline
+
+1.6× ST99 voltage output
+
+Penetration method
+
+Electrical pretreatment + ion delivery
+
+Upgraded electrical pretreatment + ion delivery
+
+Dedicated vitamin C mode
+
+Yes
+
+Yes
+
+Maximum daily treatment time
+
+15 min
+
+15 min
+
+
+@cosme
++2
+The ST99's original disclosures are unusually specific. For its HA test, Panasonic reported a penetration area of 2,093 μm²/mm² with the device versus 365 μm²/mm² from ordinary application. For oligopeptide-1, the corresponding figures were 2,259 versus 354 μm²/mm². Its collagen test used hydrolyzed collagen of 1–5 kDa—not intact collagen fibers. 
+
+@cosme
+
+The ST0A reports about 40% greater HA penetration and 48% greater oligopeptide-1 penetration than the older model's advertised figures. Although Panasonic identifies the same types of test ingredients, these results should not be mistaken for a fully disclosed, controlled head-to-head clinical trial.
+
+2. How all five devices compare
+Device
+
+Absorption technology
+
+Advertised result
+
+Relevant limitation
+
+Panasonic ST99
+
+Electrical pretreatment + iontophoresis
+
+5.7× HA; 6.3× oligopeptide-1
+
+Older electrical head
+
+Panasonic ST0A
+
+Stronger pretreatment + iontophoresis
+
+8× HA; 9.3× oligopeptide-1
+
+Tests measure outer-skin penetration
+
+Medicube Mini
+
+Electroporation
+
+562% absorption improvement
+
+Test ingredient and protocol not fully disclosed
+
+Medicube original Pro
+
+Electroporation
+
+763.3% currently; 785% in older testing
+
+Other electrical modes add cost
+
+Medicube X2
+
+Upgraded electroporation
+
+Up to 1,332% in Japanese promotional material
+
+No comparable peptide-specific data
+
+
+@cosme
++4
+The key difference is that Panasonic has published tests using identifiable molecules, while Medicube generally advertises an overall absorption result. It's not valid to compare 9.3× with 763.3% directly because the experiments use different substances, controls and measurements.
+
+3. How closely does each follow the penetration research?
+Panasonic: two-stage delivery
+
+1. Electrical pretreatment — 2 minutes
+
+The BOOST or PRE-CARE head is used on clean skin without skincare. Its electrical field temporarily increases permeability.
+
+2. Iontophoresis — 3 minutes
+
+Apply your serum or a cotton pad soaked in skincare, then use MOIST mode to encourage ingredient transport.
+
+ST0A's standard 5-minute BOOST + MOIST routine; ST99 uses the corresponding PRE-CARE + MOIST sequence. 
+
+Panasonic
++1
+This treatment sequence closely resembles Panasonic's 2022 peer-reviewed laboratory study. Its experimental equipment used 37 V, 1 kHz pulses for electroporation, followed by 10 V, 3 kHz iontophoresis. The combined treatment increased penetration of multiple sizes of HA compared with iontophoresis alone, with particularly large relative increases for medium-sized molecules. 
+
+J-STAGE
++1
+
+Those voltage and frequency measurements belong to the experimental apparatus, not the commercial ST99 or ST0A. Panasonic has not disclosed enough to confirm identical electrical output from the retail devices.
+
+Medicube instead uses a single Booster Mode while the serum is already on your face. Its method is more convenient, but there's no published evidence showing that its approach is superior or inferior to Panasonic's two-step approach for the same peptide.
+
+4. Which research is most relevant to collagen-promoting ingredients?
+Panasonic's 2022 paper
+
+Peer-reviewed research
+The researchers used excised pig skin and seven molecular weights of hyaluronic acid. Combined electroporation and iontophoresis allowed detectable penetration of molecules up to approximately 200 kDa.
+
+The limitation is that each molecular weight was tested only once, and the researchers measured fluorescent coverage in the outer skin rather than the actual mass delivered to the dermis. The experimental apparatus was not a retail ST0A. 
+
+PubMed
++1
+
+Panasonic's ST0A human tests
+
+Ingredient-specific human testing
+Ten adults participated in Panasonic's forearm experiments using HA or oligopeptide-1 solutions. In a separate four-week study, 24 women compared the device with conventional application on opposite sides of their faces, using HA-containing skincare. Panasonic reported improvements in the appearance of dry fine lines. 
+
+Panasonic
+
+Both were manufacturer-conducted studies, and neither measured new dermal collagen.
+
+Medicube's testing
+
+Less ingredient-specific disclosure
+The original Pro's 2023 Tego Science report compared its Booster Mode with the older Booster-H and reported permeability values of 785% and 490%, respectively. The Mini's 562% claim also identifies Tego Science, but doesn't disclose an equivalent comparison protocol. 
+
+블랙 K017
++1
+
+Medicube reports independently measured doubled power density for the X2 compared with the original Pro. Greater electrical output is a meaningful engineering difference, but its effect on the delivery of a particular collagen-promoting peptide remains unquantified. 
+
+Dual & Mask Mode
+
+5. What about vitamin C versus larger peptides?
+This distinction is especially useful for choosing between the two Panasonic models.
+
+Ingredient
+
+ST99
+
+ST0A
+
+Interpretation
+
+Vitamin C
+
+1.5×
+
+1.5×
+
+Same advertised result
+
+HA, 5–10 kDa
+
+5.7×
+
+8×
+
+ST0A reports greater delivery
+
+Oligopeptide-1, about 6.2 kDa
+
+6.3×
+
+9.3×
+
+ST0A reports greater delivery
+
+Hydrolyzed collagen, 1–5 kDa
+
+5×
+
+Not disclosed
+
+Absorption is not collagen synthesis
+
+
+@cosme
++1
+Panasonic's vitamin C figures come from tests using an aqueous vitamin C solution. They don't establish that a highly acidic commercial L-ascorbic acid serum will behave identically.
+
+For your planned peptide routine, the ST0A has an identifiable test ingredient and a demonstrated increase in outer-skin delivery. However, oligopeptide-1 is not interchangeable with every cosmetic peptide. In particular, the data cannot be extrapolated to copper peptides or PDRN without further experiments.
+
+6. Current purchase considerations
+イオン美顔器 IONBOOST（イオンブースト） ゴールド調 EH-ST99-N ［イオン導入美顔器 /国内・海外対応］｜の通販はソフマップ[sofmap]
+EH-ST99 — older Panasonic
+
+About $150 used
+Example eBay asking price; shipping varies.
+
+View the ST99 eBay listing
+Panasonic Ion Facial Device Ion Boost Multi Cordless Gold Tone EH-ST0A – Goods Of Japan
+EH-ST0A — upgraded Panasonic
+
+$160 + $26 shipping
+Example used eBay listing, advertised in good condition.
+
+View the ST0A eBay listing
+Mini Booster Pro
+
+New at ; compact, one-step treatment.
+
+medicube Booster Pro X2
+
+New at ; upgraded electrical head, plus additional modes.
+
+Prices are current asking prices rather than completed-sale averages. Panasonic has discontinued the ST0A, so for either used Panasonic device, confirm that both treatment heads, the charging adapter and the cotton ring are included. Panasonic specifies approximately three ten-minute routines per full charge; battery degradation is worth considering on a 2021 or 2022 unit. 
+
+Panasonic
++1
+
+For the priorities you've described, the ST0A offers the most directly applicable ingredient-specific evidence among these devices: it has human penetration measurements for a peptide and HA, a documented electrical improvement over its predecessor and a treatment sequence supported by published mechanistic research. The Mini remains the simpler and less expensive way to try electroporation. Neither has demonstrated that the additional absorption leads to greater long-term collagen production.
+
+You also won't need a proprietary conductive gel with the Panasonic devices. They work with suitable ordinary skincare; Panasonic recommends cotton soaked in product for watery lotions during MOIST mode, whereas thicker serums can generally be applied directly. 
+
+Panasonic
+
+
+
+
+4×

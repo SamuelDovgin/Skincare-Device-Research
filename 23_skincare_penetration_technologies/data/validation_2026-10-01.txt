@@ -1,0 +1,11 @@
+Validation — October 1, 2026
+Topic audit:0 broken local links,0 warnings.
+Rendered-document policy:passed (70 authored HTML pages).
+Scoped citation check:passed.
+Routes regenerated;embedded source bundle rebuilt.
+Served browser verification:all8 documents render at desktop and390px mobile;no wholepage horizontal overflow;comparison tables scroll;no visible rawMarkdown links.
+Ingredient selector tazarotene caution checked;104USD/(2uses/week*52weeks)=1USD/use checked.
+Root archive card resolves to new topic.
+Direct-file browser verification:blocked by browser protocol policy;not visually verified. New guides are pre-rendered HTML with local scripts and no fetch-dependent document rendering;embedded bundle also rebuilt.
+Wholearchive audit:one unrelated missing local target paper-discovery.js remains in paper-discovery.html. Preserved other in-progress work.
+Rebuild viewer:node 23_skincare_penetration_technologies/build_viewer.cjs;then scoped apply_citation_features.py,route regeneration,and build_embedded_documents.py.

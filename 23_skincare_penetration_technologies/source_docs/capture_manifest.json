@@ -1,0 +1,65 @@
+[
+  {
+    "file": "panasonic_ss85_2026-10-01.html",
+    "url": "https://panasonic.jp/face/products/EH-SS85/feature.html",
+    "status": 200,
+    "sha256": "c32106f9f2ebb579f9d70fd118fbbf0fe430fa71b764145971704139b63c1ace",
+    "bytes": 418270
+  },
+  {
+    "file": "panasonic_st0a_2026-10-01.html",
+    "url": "https://panasonic.jp/face/products/EH-ST0A.html",
+    "status": 200,
+    "sha256": "3a2aa3f292403ed1c417fe988e1f27e295417d2bd7957b9317662145f00d0d85",
+    "bytes": 442860
+  },
+  {
+    "file": "yaman_deep_lift_2026-10-01.html",
+    "url": "https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-deep-lift.html",
+    "status": 200,
+    "sha256": "256f192580e0b5c4b877c126b3bd7725c6eae8d924ac05ba8a8f38652bb56784",
+    "bytes": 140960
+  },
+  {
+    "file": "medicube_booster_pro_2026-10-01.html",
+    "url": "https://medicube.us/products/age-r-booster-pro",
+    "status": 200,
+    "sha256": "d35bf5533c7c8d6028a5eb0a828e0d98d5f72d44e10b5464f315be9c0aa022c9",
+    "bytes": 1050036
+  },
+  {
+    "file": "medicube_x2_2026-10-01.html",
+    "url": "https://medicube.us/products/booster-pro-x2",
+    "status": 200,
+    "sha256": "63cc91bde716af417d5d2d634f314da3bb33865c22c75fad92c7a9536f1e1dde",
+    "bytes": 1164934
+  },
+  {
+    "file": "medicube_mini_plus_2026-10-01.html",
+    "url": "https://medicube.us/products/mini-booster-pro-plus",
+    "status": 200,
+    "sha256": "3bc7e5695009f8fd48a66e6e5dd0d2a4336cb105792ba27a3ef17f428713e07f",
+    "bytes": 1233343
+  },
+  {
+    "file": "panasonic_ss85_brochure.pdf",
+    "url": "https://panasonic.jp/catalog/ctlg/ionboost_ex/ionboost_ex.pdf",
+    "status": 200,
+    "sha256": "f6b0a1800e65caeba460d585628192634fcbca98cb2f9b1e519412c4c05efd63",
+    "bytes": 3873017
+  },
+  {
+    "file": "panasonic_sr86_english_instructions.pdf",
+    "url": "https://panasonic.jp/content/dam/panasonic/jp/ja/face/howto/pdf/EH-SR86_tourist_en_trimmed_240918.pdf",
+    "status": 200,
+    "sha256": "57468960cbeb3d5fbee9f04782ea2898d27951014878568c13615fc67a6b8c03",
+    "bytes": 396679
+  },
+  {
+    "file": "yaman_shiny_english_manual.pdf",
+    "url": "https://www.ya-man.com/en/asset/docs/photo-plus-shiny/M18-1-001E.pdf",
+    "status": 200,
+    "sha256": "6769ba9e9adfb697115e02a76014ee5b3b12a080ee381cd6a57e437ebd354e94",
+    "bytes": 947017
+  }
+]

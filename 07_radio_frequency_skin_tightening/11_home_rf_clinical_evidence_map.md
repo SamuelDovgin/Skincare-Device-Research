@@ -1,5 +1,7 @@
 # Home radiofrequency clinical evidence map
 
+> **2026-10-01 research update:** The new extraction adds the2025YA-MAN ACE/Jmoon controlled bundle trial, rechecks the2022split-face hardware and adds professional2.45/40.68MHz research. The2022study combined RF+red light+gel and did not show between-side hydration/elasticity superiority. Exact current retail SKU transfer remains unresolved. Read the [expanded market/value census](index.html#doc12), [frequency, temperature and clinical research](index.html#doc13), and [searchable device comparison](rf_market_explorer.html).
+
 *Rapid evidence map updated 2026-08-23. It is not a systematic review, medical advice, or permission to use an RF device outside its exact instructions.*
 
 ## Bottom line

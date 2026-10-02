@@ -1,5 +1,7 @@
 # RF Science Brief: Controlled Dermal Heating Without Light
 
+> **2026-10-01 research update:** Frequency does not uniquely determine depth, temperature or efficacy. See the new frequency/temperature analysis before interpreting generic thermal bands. Read the [expanded market/value census](index.html#doc12), [frequency, temperature and clinical research](index.html#doc13), and [searchable device comparison](rf_market_explorer.html).
+
 *Compiled 2026-07-03. Confidence legend: ✅ verified / ⚠️ marketing claim / 🔍 inference from mechanism.*
 
 ## 1. What RF is

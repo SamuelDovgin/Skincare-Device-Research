@@ -1,0 +1,584 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Skincare Penetration • Device Research</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E⚡%3C/text%3E%3C/svg%3E"><script src="../site-router.js" defer></script><script src="../site-documents.js" defer></script><style>
+.openmd,[data-raw-download],[data-mode="m"],.raw{display:none!important}:root{color-scheme:light;--ink:#193438;--accent:#117c81;--line:#d9e7e5}*{box-sizing:border-box}body{margin:0;background:#f3f8f7;color:var(--ink);font:16px/1.65 system-ui,sans-serif}a{color:#086b85;text-underline-offset:3px}header{padding:34px max(24px,calc((100vw - 1240px)/2));background:#153e43;color:white}header a{color:#b9eeeb}header h1{font-size:clamp(28px,4vw,43px);line-height:1.15;margin:18px 0 12px}header p{max-width:850px;color:#d9e9e8}.wrap{max-width:1240px;margin:auto;padding:26px 22px;display:grid;grid-template-columns:210px minmax(0,1fr);gap:28px}nav{position:sticky;top:20px;align-self:start;display:flex;flex-direction:column;gap:5px}nav a{padding:8px 12px;border-radius:8px;text-decoration:none}nav a.active{background:#d9ece9;font-weight:700}main{min-width:0}.panel,.doc{background:white;border:1px solid var(--line);border-radius:15px;padding:25px;margin-bottom:24px}.doc{display:none;overflow-wrap:anywhere}.doc.active{display:block}.doc h1{font-size:29px;line-height:1.25;margin-top:0}.doc h2{font-size:23px;margin-top:30px}.doc p{max-width:80ch}.doc table{border-collapse:collapse;font-size:14px;min-width:650px;width:100%}.table-scroll{overflow:auto;margin:20px 0}th,td{text-align:left;vertical-align:top;padding:12px;border-bottom:1px solid var(--line)}th{background:#eff7f5}td:first-child{min-width:135px}label{display:block;font-weight:650}select,input{font:inherit;width:100%;padding:10px;border:1px solid #a8c5c2;border-radius:8px;background:white;color:var(--ink)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.note{padding:16px;background:#edf6f3;border-left:4px solid var(--accent);margin:16px 0}.small{font-size:13px;color:#536e70}.result{font-size:25px;font-weight:700;margin:16px 0 0}.badge{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:#78d9d1}.panel h2{margin:0 0 14px;font-size:21px}.doc ul,.doc ol{padding-left:25px}footer{padding:20px;font-size:13px;text-align:center}.all-link{font-weight:700}@media(max-width:760px){.wrap{display:block;padding:15px}nav{position:static;flex-direction:row;overflow:auto;padding-bottom:12px;gap:4px}nav a{white-space:nowrap;font-size:13px;padding:7px 10px}.grid{grid-template-columns:1fr}.panel,.doc{padding:18px;border-radius:12px}.doc h1{font-size:25px}header{padding:22px}.small{font-size:13px}}@media print{header,nav,.panel,footer{display:none}.wrap{display:block}.doc{display:block!important;border:0}.table-scroll{overflow:visible}.doc table{min-width:0}}
+
+/* cite-enhance */
+.cite{display:inline-block;font:inherit;border:0;background:transparent;padding:0;margin:0 .5px;cursor:pointer;color:var(--accent);font-weight:600;border-bottom:1px dotted currentColor;line-height:inherit}
+.cite::before{content:"["}.cite::after{content:"]"}
+.cite:hover,.cite:focus,.cite.on{color:var(--accent2);outline:none;background:rgba(0,0,0,.04);border-radius:3px}
+#citebackdrop{position:fixed;inset:0;background:rgba(15,18,24,.45);z-index:9998;opacity:0;transition:opacity .15s}
+#citebackdrop[hidden]{display:none}#citebackdrop.show{opacity:1}
+#citepop{position:fixed;z-index:9999;max-width:390px;width:max-content}
+#citepop[hidden]{display:none}
+#citepop .cp-card{position:relative;background:var(--card,#fff);color:var(--ink,#1f2430);border:1px solid var(--line,#e5e7eb);border-radius:12px;box-shadow:0 12px 38px rgba(0,0,0,.20);padding:13px 15px;font-size:13px;line-height:1.5;max-height:60vh;overflow:auto}
+#citepop .cp-src{font-weight:700;font-size:11.5px;letter-spacing:.02em;color:var(--accent);margin:0 28px 6px 0;text-transform:uppercase}
+#citepop .cp-quote{color:var(--ink,#1f2430)}
+#citepop .cp-quote.cp-empty{color:var(--muted,#6b7280);font-style:italic}
+#citepop .cp-link{display:inline-block;margin-top:11px;font-size:12px;font-weight:600;color:var(--accent);text-decoration:none}
+#citepop .cp-link:hover{text-decoration:underline}
+#citepop .cp-close{position:absolute;top:6px;right:8px;border:0;background:transparent;color:var(--muted,#6b7280);font-size:20px;line-height:1;cursor:pointer;padding:2px 6px;display:none}
+#citepop.sheet{left:0;right:0;bottom:0;top:auto!important;max-width:none;width:auto}
+#citepop.sheet .cp-card{border-radius:16px 16px 0 0;border-left:0;border-right:0;border-bottom:0;padding:18px 20px calc(26px + env(safe-area-inset-bottom));font-size:15px;max-height:72vh}
+#citepop.sheet .cp-src{font-size:12px}
+#citepop.sheet .cp-close{display:block;font-size:26px;top:10px;right:12px}
+#citepop.sheet .cp-link{font-size:14px}
+</style></head><body><header><a href="../index.html">← Research archive</a><div class="badge">Topic 23 · Updated October 1, 2026</div><h1>Skincare penetration: is a device worth it?</h1><p>Electroporation, iontophoresis and related technologies. Compare Panasonic, YA-MAN and Medicube against your actual ingredients and budget.</p></header><div class="wrap"><nav aria-label="Research guides"><a href="#doc1">Mechanisms</a><a href="#doc2">Evidence audit</a><a href="#doc3">Device comparison</a><a href="#doc4">Your ingredients</a><a href="#doc5">eBay & value</a><a href="#doc6">Start here</a><a href="#doc7">Source library</a><a href="#doc8">Preservation manifest</a><a href="source_docs/research_resource_log_2026-10-01.txt">Research log</a><a href="data/ebay_snapshot_2026-10-01.csv">Price dataset</a></nav><main>
+<div class="panel"><h2>Match the purchase to the ingredient</h2><label for="ingredient">Ingredient in your routine</label><select id="ingredient"><option value="routine">Your full five-active routine</option value="c">Vitamin C</option><option value="n">Niacinamide</option><option value="a">Azelaic acid</option><option value="t">Thiamidol</option><option value="r">Tazarotene / prescription retinoids</option><option value="h">HA / hydrophilic peptides</option></select><div id="fit" class="note" role="status"></div><p class="small">Evidence-linked decision aid, not an efficacy model. <a href="#doc4">Read the formula-specific limits →</a></p></div>
+<div class="panel"><h2>Cost per hypothetical use</h2><div class="grid"><div><label for="price">Delivered price, USD</label><input id="price" type="number" min="0" max="10000" step="0.01" value="110"></div><div><label for="uses">Uses per week</label><input id="uses" type="number" min="0.1" max="100" step="0.1" value="2"></div><div><label for="weeks">Weeks of ownership</label><input id="weeks" type="number" min="1" max="1000" step="1" value="52"></div></div><div id="cost" class="result" role="status"></div><p class="small">Cost = price ÷ (uses/week × weeks). Default 2 × 52 is a spending scenario, not recommended frequency. Excludes taxes, consumables, failures and resale; predicts no clinical benefit. <a href="#doc5">Compare dated offers →</a></p></div>
+<section class="doc" id="doc1"><a class="openmd" hidden aria-hidden="true" tabindex="-1" href="01_mechanisms.md"></a><h1>How skincare penetration technologies work</h1>
+<p>The target matters: ingredient reaching the <strong>stratum corneum</strong> is different from ingredient reaching living epidermis, dermis, or systemic circulation. Most consumer demonstrations here measure the outer skin barrier; they cannot establish deeper collagen production.</p>
+<table>
+<thead>
+<tr>
+<th>Technology</th>
+<th>Mechanism and best fit</th>
+<th>What it does not establish</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Iontophoresis</td>
+<td>Current can drive appropriately charged dissolved molecules; electroosmosis can also carry solvent and some neutral solutes. Charge, pH, electrode polarity, concentration, and vehicle matter. Vitamin C derivatives are formula-specific candidates.</td>
+<td>Every vitamin C serum or small molecule will behave the same way.</td>
+</tr>
+<tr>
+<td>Electroporation / pulse-assisted delivery</td>
+<td>Electric pulses transiently increase barrier permeability. Laboratory work supports delivery of polar molecules otherwise poorly transported.</td>
+<td>A consumer product reproduces laboratory electric fields, pulse duration, transport depth, or dose.</td>
+</tr>
+<tr>
+<td>Panasonic BOOST plus ion modes</td>
+<td>BOOST pretreats bare skin; subsequent MOIST/BRIGHT UP uses product and current. The test often combines stages.</td>
+<td>The headline HA result applies to vitamin C or to pulse treatment alone.</td>
+</tr>
+<tr>
+<td>YA-MAN DYHP / related pulse systems</td>
+<td>Proprietary pulse combinations, often alongside ion delivery and RF/EMS.</td>
+<td>Published pulse parameters or an independent clinical ranking against other brands.</td>
+</tr>
+<tr>
+<td>Hydration, occlusion, and formulation</td>
+<td>Hydrating the barrier and selecting a suitable vehicle can change transport without electronics.</td>
+<td>Heavy occlusion is suitable for every prescription or irritating active. Follow product instructions.</td>
+</tr>
+<tr>
+<td>Sonophoresis</td>
+<td>Appropriately configured ultrasound can enhance transport through cavitation and related effects.</td>
+<td>A vibrating cleansing wand or a focused-ultrasound tightening device is validated sonophoresis.</td>
+</tr>
+<tr>
+<td>Microneedling / fractional ablation</td>
+<td>Physical barrier disruption can enable delivery in studied professional protocols.</td>
+<td>Ordinary cosmetic serums are suitable for application into fresh channels; this is not a recommendation for home drug delivery.</td>
+</tr>
+<tr>
+<td>RF, EMS, microcurrent, LED, sonic vibration</td>
+<td>Primarily heating, stimulation, photobiology, or mechanical effects. Some multimodal devices separately include delivery modes.</td>
+<td>Those labels alone prove enhanced ingredient delivery or explain a measured clinical benefit.</td>
+</tr>
+</tbody></table>
+<p>The foundational electroporation experiments used laboratory conditions and polar molecules around 1,000 molecular weight; dramatic permeability changes were <strong>preclinical</strong>, not wrinkle trials of a home wand. Protein delivery in later work sometimes required an additional chemical pathway enhancer. Those experiments support a mechanism, not a DIY formulation or device-equivalence claim. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC47805/">Prausnitz 1993</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/10619443/">Zewert 1999</a>.</p>
+<p>Ultrasound-enhanced transport likewise depends on actual frequency, intensity, coupling and exposure. <a href="https://pubmed.ncbi.nlm.nih.gov/7562407/">Mitragotri 1995</a> does not validate every device marketed with “ultrasound.” See the separate <a href="../11_hifu_skin_tightening/index.html">HIFU/MFU topic</a> for tightening.</p>
+<h2>Why molecular weight alone is inadequate</h2>
+<p>Small molecules can still be hydrophilic, ionized, unstable, or poorly partitioned into skin. Large HA may principally contribute hydration in the outer barrier. A lipophilic retinoid already delivered effectively by its prescription formulation has a very different rationale from an aqueous peptide. The goal is sufficient delivery to the intended target with tolerable exposure, rather than maximizing transport of everything.</p>
+<p><strong>What this section found:</strong> strong mechanistic plausibility for electrical and ultrasound delivery; insufficient parameter and matched-formula evidence to transfer laboratory results into a brand ranking. Source IDs S01–S03, S08–S15 in the <a href="source_docs/research_resource_log_2026-10-01.txt">recovery log</a>.</p>
+</section>
+<section class="doc" id="doc2"><a class="openmd" hidden aria-hidden="true" tabindex="-1" href="02_evidence_audit.md"></a><h1>What the evidence actually supports</h1>
+<p>A useful purchasing trial would randomize the <strong>same finished skincare formulation</strong>, used with the exact consumer device or without it, and measure pigment, acne, wrinkles or tolerability over months. Ingredient delivery into the outer barrier is a surrogate. The studies below do not provide that missing comparison for your routine.</p>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Design and finding</th>
+<th>Purchasing limitation</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/12771472/">Huh 2003, vitamin C iontophoresis</a></td>
+<td>Randomized double-blind split-face study, 29 women with melasma, 12 weeks; vitamin C versus water, both delivered by iontophoresis. Colorimetry improved on the vitamin-C side.</td>
+<td>Supports the combined treatment; lacks vitamin C applied ordinarily as a control. Cannot isolate the device increment.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/39185080/">Guo 2024, TXA iontophoresis</a></td>
+<td>30 participants, active versus placebo with iontophoresis, twice weekly for three months; melasma severity/luminance outcomes reported.</td>
+<td>Also lacks matched TXA without the device; not a consumer-brand comparison or evidence for your Thiamidol.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/23377327/">Taylor 2013</a></td>
+<td>35 patients, uncontrolled vitamin C mask/iontophoresis regimen with acids and sun protection; pigment improvement reported.</td>
+<td>Multiple interventions and no control; the headline improvement cannot be assigned to current or vitamin C alone.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/22360337/">Sobhi 2012</a></td>
+<td>14 patients, split-face vitamin C iontophoresis versus glycolic peel over six sessions.</td>
+<td>A different treatment comparator, not vitamin C alone; very small study.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/12100180/">Niacinamide 2002</a> and <a href="https://pubmed.ncbi.nlm.nih.gov/16029679/">2005</a></td>
+<td>Controlled topical niacinamide studies found pigment/skin-quality benefits without a penetration device.</td>
+<td>Supports ordinary topical use; does not exclude an additional effect from devices, but establishes a reasonable baseline.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/41566113/">Thiamidol 2026</a></td>
+<td>Vehicle-controlled study, 200 participants; 0.2% Thiamidol, 12-week mMASI reduction reported as 36.1% versus 16.1%.</td>
+<td>Formula-specific benefit without a booster; no evidence here for electrically enhancing that product.</td>
+</tr>
+</tbody></table>
+<h2>Manufacturer ratios: read the denominator</h2>
+<table>
+<thead>
+<tr>
+<th>Device/test</th>
+<th>Manufacturer-reported result</th>
+<th>Relevant boundary</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Panasonic ST0A</td>
+<td>HA 8.0×; oligopeptide-1 9.3× versus manual application; single-use forearm study, n=10.</td>
+<td>Combined BOOST/delivery protocol; outermost skin layer. HA skin-sample illustration uses MW 5,000–10,000.</td>
+</tr>
+<tr>
+<td>Panasonic SS85</td>
+<td>HA 12× (n=8); hydrolyzed collagen 6.3×; vitamin C 1.6× (n=12) in BRIGHT UP.</td>
+<td>Separate ingredients/modes and samples. 12× is not the vitamin-C result.</td>
+</tr>
+<tr>
+<td>Panasonic SM50</td>
+<td>HA 10× versus sheet mask alone; another serum comparison 5.1× versus hand.</td>
+<td>Baselines differ, so ranking against other multiples is invalid.</td>
+</tr>
+<tr>
+<td>YA-MAN Deep Lift</td>
+<td>Aqueous vitamin-C derivative, TXA and niacinamide forearm tests; n=10 men, one minute, stratum-corneum measurement.</td>
+<td>Useful small-molecule relevance, but no matched clinical superiority trial against Panasonic/Medicube.</td>
+</tr>
+<tr>
+<td>Medicube Mini</td>
+<td>Advertised 562% absorption with a named testing organization.</td>
+<td>Public detail does not adequately identify absolute dose, transferable finished products, and clinical outcomes. Do not interpret this as 5.62× pigment clearance.</td>
+</tr>
+<tr>
+<td>Medicube X2</td>
+<td>“2× power” footnote refers to tested power density, W/cm², versus Booster Pro.</td>
+<td>Not double ingredient concentration, double benefit, or proof a stronger setting is appropriate.</td>
+</tr>
+</tbody></table>
+<p>Sources: <a href="https://panasonic.jp/face/products/EH-ST0A.html">Panasonic ST0A</a>, <a href="https://panasonic.jp/face/products/EH-SS85/feature.html">SS85</a>, <a href="https://panasonic.jp/face/products/EH-SM50.html">SM50</a>, <a href="https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-deep-lift.html">YA-MAN</a>, <a href="https://medicube.us/products/mini-booster-pro">Medicube Mini</a>, <a href="https://medicube.us/products/booster-pro-x2">X2</a>.</p>
+<h2>Corrections to the pasted comparison</h2>
+<ul>
+<li>ST0A’s 1.6× BOOST output is a manufacturer engineering claim relative to its predecessor. It is not a measured 1.6× improvement in your clinical results.</li>
+<li>ST99’s earlier pasted peptide 6.3× figure was not reconfirmed in a primary source. The official regional catalog supports HA 5.7× and collagen 5.0×; keep the ingredient identity clear. <a href="https://pstw.panasonic.com.tw/catalog/files/1_consumer/hair/202509_Panasonic_%E7%BE%8E%E5%AE%B9%E5%95%86%E5%93%81.pdf">Panasonic catalog</a>.</li>
+<li>YA-MAN “more warmth” or “stronger EMS sensation” comparisons are not RF wattage or penetration measurements.</li>
+<li>Older Medicube “785%” marketing should not be ranked against Panasonic’s HA multiple without the underlying assay and denominator. It was not reconfirmed on the current official Pro page used here.</li>
+<li>High-output delivery tests do not prove dermal collagen stimulation; additional RF or EMS features require their own evidence.</li>
+</ul>
+<p><strong>What this section found:</strong> small clinical studies support certain active-plus-ion regimens; no located trial establishes the incremental value or best consumer model for the user’s complete routine. Industry tests provide narrower delivery endpoints. S04–S15, S21–S24.</p>
+</section>
+<section class="doc" id="doc3"><a class="openmd" hidden aria-hidden="true" tabindex="-1" href="03_device_comparison.md"></a><h1>Relevant devices: what you are actually buying</h1>
+<p>These are the principal penetration devices and adjacent families relevant to the decision, rather than every color or regional SKU. Feature claims come from official product pages/manuals; clinical equivalence is not assumed.</p>
+<table>
+<thead>
+<tr>
+<th>Brand/model or family</th>
+<th>Delivery lane</th>
+<th>Other features</th>
+<th>Fit for your small-molecule routine</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Panasonic EH-ST99</td>
+<td>Older BOOST pretreatment + ion MOIST/BRIGHT UP</td>
+<td>Warm/cool; no RF or EMS</td>
+<td>Budget vitamin-C ion option. Lower headline HA delivery is not a reason to reject it for your routine.</td>
+</tr>
+<tr>
+<td>Panasonic EH-ST0A</td>
+<td>Upgraded BOOST + ion modes</td>
+<td>Warm/cool; no RF or EMS</td>
+<td>Sensible small premium over ST99 for condition/newer generation; no proven small-active outcome advantage.</td>
+</tr>
+<tr>
+<td>Panasonic EH-SS85</td>
+<td>Higher-output BOOST + ion modes</td>
+<td>EMS and warm/cool; no RF</td>
+<td>Best documented newer dedicated Panasonic delivery option; its small-vitamin-C gain is 1.6× in its assay, not 12×. Hard to justify the large price premium solely for your routine.</td>
+</tr>
+<tr>
+<td>Panasonic EH-SM50 mask</td>
+<td>Hands-free ion/mask delivery</td>
+<td>Mask format</td>
+<td>Convenience purchase; no demonstrated superiority for your actives.</td>
+</tr>
+<tr>
+<td>Panasonic Vitalift EH-SR85 / SR86 / SR90</td>
+<td>Ion skincare modes alongside tightening systems</td>
+<td>RF/EMS/LED combinations; different generations</td>
+<td>Consider when RF is a separate goal. Do not substitute their ion claims for SS85/ST0A BOOST tests. SR90 is a launch-generation listing as of this snapshot; current resale pricing not verified.</td>
+</tr>
+<tr>
+<td>YA-MAN Photo Plus Shiny M18 / Shiny Neo YJFM18N</td>
+<td>DYHP plus ion delivery, model-specific protocol</td>
+<td>RF/EMS/LED</td>
+<td>Neo is the more affordable RF-plus-delivery candidate in the verified listings. Original M18 is a different generation.</td>
+</tr>
+<tr>
+<td>YA-MAN Photo Plus Deep Lift YJFA1T</td>
+<td>DYHP + ion; ingredient tests include niacinamide</td>
+<td>RF 1–4 MHz, EMS/LED</td>
+<td>Better direct ingredient relevance than HA-only marketing, but no outcome evidence warranting its large premium over Neo for delivery alone.</td>
+</tr>
+<tr>
+<td>YA-MAN Prestige / Prestige Pro / SP / SP II / SP III / MIYABI</td>
+<td>Premium proprietary pulse systems, exact generation matters</td>
+<td>RF or CERTEC/EMS depending on model</td>
+<td>Do not assume every Prestige uses the same RF hardware. Premium price does not establish superior small-active delivery.</td>
+</tr>
+<tr>
+<td>Medicube AGE-R Booster-H</td>
+<td>Older dedicated booster</td>
+<td>Fewer features than Pro</td>
+<td>Budget option only if substantially cheaper and complete; no verified current quote here.</td>
+</tr>
+<tr>
+<td>Medicube Booster Pro</td>
+<td>Booster electroporation</td>
+<td>Microcurrent, EMS, Air Shot, LED/sonic; no RF</td>
+<td>Full-feature option near $110 in the snapshot. Extra modes are separate goals.</td>
+</tr>
+<tr>
+<td>Medicube Mini Booster Pro</td>
+<td>Electroporation booster</td>
+<td>Red/blue LED; simpler format</td>
+<td>Low-cost delivery experiment; fewer unrelated features. Not the full Pro.</td>
+</tr>
+<tr>
+<td>Medicube Mini Booster Pro Plus</td>
+<td>Newer booster with cleansing/definition/boost modes</td>
+<td>Distinct three-mode device</td>
+<td>Low-price current option; do not import the full Pro’s four-mode specifications.</td>
+</tr>
+<tr>
+<td>Medicube Booster Pro X2</td>
+<td>Newer dual-head booster</td>
+<td>Expanded modes/app options; no RF</td>
+<td>Attractive if authentic and similar total price to Pro. “2×” does not justify stronger exposure to your actives.</td>
+</tr>
+<tr>
+<td>ReFa BEAUTECH RAISE</td>
+<td>RF-Wpulse combination</td>
+<td>RF/sonic/pulse</td>
+<td>Alternative multimodal device, without compelling matched-routine advantage.</td>
+</tr>
+<tr>
+<td>ARTISTIC&amp;CO Zeus families / other premium pulse wands</td>
+<td>Proprietary pulse/infusion claims vary</td>
+<td>Model-specific EMS/other functions</td>
+<td>No located matched-routine comparative trial; premium purchase is poorly justified for this goal.</td>
+</tr>
+</tbody></table>
+<h2>Feature sources and model boundaries</h2>
+<p>Panasonic: <a href="https://panasonic.jp/face/products/EH-ST0A.html">ST0A</a>, <a href="https://panasonic.jp/face/products/EH-SS85/feature.html">SS85</a>, <a href="https://panasonic.jp/face/products/EH-SM50.html">SM50</a>, <a href="https://panasonic.jp/face/products/EH-SR85.html">SR85</a>, <a href="https://panasonic.jp/face/products/EH-SR86.html">SR86</a>, <a href="https://panasonic.jp/face/products/EH-SR90/feature.html">SR90</a>, <a href="source_docs/panasonic_sr86_english_instructions.pdf">SR86 English instructions</a>.</p>
+<p>YA-MAN: <a href="https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-deep-lift.html">Deep Lift and current comparison table</a>, <a href="https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-shiny-neo_features.html">Shiny Neo features</a>, <a href="https://www.ya-man-tokyo-japan.com/products/forface/pl_photo-plus-prestige-pro.html">Prestige Pro</a>, <a href="https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-prestige-sp.html">Prestige SP</a>, <a href="source_docs/yaman_shiny_english_manual.pdf">original Shiny English manual</a>. Deep Lift advertises RF 1–4 MHz versus Neo 1–3 MHz; frequency range does not measure delivered thermal dose or penetration benefit.</p>
+<p>Medicube: <a href="https://medicube.us/products/age-r-booster-pro">Pro</a>, <a href="https://medicube.us/products/mini-booster-pro">Mini</a>, <a href="https://medicube.us/products/mini-booster-pro-plus">Mini Plus</a>, <a href="https://medicube.us/products/booster-pro-x2">X2</a>. <a href="https://www.refa.net/en/item/refa_beautech_raise/">ReFa Raise</a> and <a href="https://www.refa.net/en/faq_howto/refa_beautech_raise/">FAQ</a>.</p>
+<h2>Adjacent products that do not answer this question</h2>
+<p>YA-MAN Bloom/Liftlogy/MediLift, Panasonic Kassa, Medicube UltraTune/Ussera/HighFocus, and standalone EMS or microcurrent devices are primarily tightening/stimulation products. A dedicated RF, HIFU or EMS label does not establish ingredient delivery. Medicube Air Shot is its own dry-skin mode; it is not interchangeable with wet Booster use. Buy these for a separate evidenced goal, with their exact instructions.</p>
+<p><strong>What this section found:</strong> Panasonic offers the clearest separate ion-mode/BOOST test documentation; YA-MAN combines delivery with RF; Medicube offers the lowest observed entry prices. None establishes clinical superiority for the user’s five actives. S08–S20, S25–S27.</p>
+</section>
+<section class="doc" id="doc4"><a class="openmd" hidden aria-hidden="true" tabindex="-1" href="04_ingredient_fit.md"></a><h1>Your ingredients: where a booster may help, and where it is poor value</h1>
+<p>Your answer listed “vitamin,” niacinamide, azelaic acid, Thiamidol and a retinoid interpreted as <strong>tazarotene</strong>. Vitamin C is assumed; vitamin E or another vitamin would require a different formula-specific assessment.</p>
+<table>
+<thead>
+<tr>
+<th>Ingredient</th>
+<th>Plausible delivery benefit</th>
+<th>Evidence and practical verdict</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Vitamin C</td>
+<td>Most plausible optional ion-delivery experiment here, especially an aqueous, compatible derivative formulation.</td>
+<td>Small melasma ion studies support combined treatments; none proves your serum improves more than ordinary use. Panasonic’s separate BRIGHT UP mode is more relevant than HA BOOST multiples. Acidic L-ascorbic acid may sting more; formula, pH, stability and tolerability come first.</td>
+</tr>
+<tr>
+<td>Niacinamide</td>
+<td>Aqueous small-molecule delivery can increase in a manufacturer assay, including YA-MAN’s test.</td>
+<td>Ordinary topical niacinamide already has controlled human evidence. Optional basic-skincare experiment, with low expected incremental value; no justification for an expensive upgrade solely for it.</td>
+</tr>
+<tr>
+<td>Azelaic acid</td>
+<td>Mechanistically possible depending on vehicle and solubility.</td>
+<td>No located evidence for a worthwhile increment with these consumer devices. Burning/stinging is already common with prescription gel; leave it to ordinary topical use.</td>
+</tr>
+<tr>
+<td>Thiamidol / isobutylamido thiazolyl resorcinol</td>
+<td>No established need for electrical enhancement.</td>
+<td>Direct vehicle-controlled topical evidence exists; no located device trial with the finished product. Follow its formulation instructions. More delivery has unestablished benefit and tolerability.</td>
+</tr>
+<tr>
+<td>Tazarotene / other prescription retinoids</td>
+<td>Not a useful goal to maximize an already active prescription exposure.</td>
+<td>Do not use it as the booster serum. No located controlled consumer-device benefit; irritation is a label concern. Any deliberate enhancement of prescription delivery belongs with the prescriber.</td>
+</tr>
+<tr>
+<td>HA / hydrophilic peptides, which you rarely use</td>
+<td>This is where many large-molecule BOOST claims are concentrated.</td>
+<td>Better marketing-test fit, but outer-barrier delivery still does not prove deeper wrinkle benefit. Those ratios should receive little weight in your purchase.</td>
+</tr>
+</tbody></table>
+<p><strong>The avoid-enhancement judgments are clinical risk/value inferences</strong>, based on the absence of demonstrated incremental benefit and known irritation, rather than a label explicitly naming every wand. <a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9f40cd45-58a6-4376-9220-84bfe7d7e358">Finacea label</a> · <a href="https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=021744d1-a6d7-4ad6-99c2-7187c24e64c6">TAZORAC label</a>.</p>
+<h2>What I would do with this routine</h2>
+<p>Keep the active routine stable and put budget toward a tolerable, reliable vitamin C formulation, consistent pigment protection, and adherence. A device is an optional comfort/hydration experiment, not a required step to make these actives work.</p>
+<p>If trying one, first use only a bland compatible moisturizer or an already tolerated simple niacinamide product, on intact comfortable skin, following the exact device manual. Keep tazarotene, azelaic acid, Thiamidol and irritating acidic vitamin C out of that first experiment. An initially bland product can reveal tolerability; it cannot validate subsequent use with a prescription. Do not increase settings to chase a manufacturer absorption figure, or stack every device mode on an irritated barrier.</p>
+<p>For an eventual vitamin C experiment, identify the <strong>exact product and vitamin C form</strong> and check the device’s instructions. Panasonic BOOST is a bare-skin pretreatment, whereas its subsequent ion modes have their own cotton/product instructions; Medicube Air Shot has different instructions from Booster. Avoid improvising a universal protocol.</p>
+<p>Useful comparisons without a device: <a href="https://pubmed.ncbi.nlm.nih.gov/11207686/">L-ascorbic acid delivery study</a> (pig skin, formulation-dependent), <a href="https://pubmed.ncbi.nlm.nih.gov/16029679/">niacinamide clinical study</a>, <a href="https://pubmed.ncbi.nlm.nih.gov/41566113/">Thiamidol controlled study</a>, <a href="https://www.eucerin.co.uk/skin-concerns/uneven-skin/thiamidol">official Thiamidol information</a>. Consult <a href="../17_tazarotene_vs_tretinoin/index.html">retinoid research</a> and <a href="../22_body_hyperpigmentation_long_term/index.html">pigmentation research</a> for the larger routine.</p>
+<p><strong>What this section found:</strong> vitamin C is the strongest optional fit, niacinamide is a low-priority experiment, and the other three actives have no established consumer-booster value. Exact finished formula matters more than molecular-weight shorthand. S04–S07, S21–S24.</p>
+</section>
+<section class="doc" id="doc5"><a class="openmd" hidden aria-hidden="true" tabindex="-1" href="05_prices_and_value.md"></a><h1>Comparable eBay prices and value</h1>
+<p><strong>October 1, 2026 snapshot, USD asking prices.</strong> These are selected live offers observed in listing pages or eBay search cards, not a systematic market sample or sold-price averages. Total below means listed item price plus displayed shipping to a U.S. destination; destination, tax, stock, offers and coupons can change it. Seller claims and authenticity were not independently verified. Search-card-only records require opening the listing and checking its current condition before purchase.</p>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Item + shipping</th>
+<th>Total before tax</th>
+<th>Condition claim / observation</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://www.ebay.com/itm/800187156873">Panasonic ST99</a></td>
+<td>$150.00 + $0.00</td>
+<td><strong>$150.00</strong></td>
+<td>Used; tested; listing page</td>
+</tr>
+<tr>
+<td><a href="https://www.ebay.com/itm/389768530383">Panasonic ST0A</a></td>
+<td>$183.00 + $0.00</td>
+<td><strong>$183.00</strong></td>
+<td>New other; tested with charger; listing page</td>
+</tr>
+<tr>
+<td><a href="https://www.ebay.com/itm/398413370945">Panasonic ST0A</a></td>
+<td>$160.00 + $26.00</td>
+<td><strong>$186.00</strong></td>
+<td>Used; good; listing page</td>
+</tr>
+<tr>
+<td><a href="https://www.ebay.com/itm/800746169833">Panasonic SS85</a></td>
+<td>$348.00 + $0.00</td>
+<td><strong>$348.00</strong></td>
+<td>Used; tested; live search card</td>
+</tr>
+<tr>
+<td><a href="https://www.ebay.com/itm/398192385122">YA-MAN Shiny Neo YJFM18N</a></td>
+<td>$198.00 + $38.00</td>
+<td><strong>$236.00</strong></td>
+<td>Used; live search card</td>
+</tr>
+<tr>
+<td><a href="https://www.ebay.com/itm/168622042013">YA-MAN Deep Lift YJFA1T</a></td>
+<td>$552.00 + $0.00</td>
+<td><strong>$552.00</strong></td>
+<td>New sealed claimed; limited seller history; live search card</td>
+</tr>
+<tr>
+<td><a href="https://www.ebay.com/itm/800563243295">YA-MAN Deep Lift YJFA1T</a></td>
+<td>$587.00 + $0.00</td>
+<td><strong>$587.00</strong></td>
+<td>Used; tested; live search card</td>
+</tr>
+<tr>
+<td><a href="https://www.ebay.com/itm/398402457172">Medicube Booster Pro</a></td>
+<td>$99.99 + $10.00</td>
+<td><strong>$109.99</strong></td>
+<td>Used; tested; blemishes; live search card</td>
+</tr>
+<tr>
+<td><a href="https://www.ebay.com/itm/188731626163">Medicube Mini Booster Pro</a></td>
+<td>$67.99 + $0.00</td>
+<td><strong>$67.99</strong></td>
+<td>Brand new claimed; live search card</td>
+</tr>
+<tr>
+<td><a href="https://www.ebay.com/itm/287612808471">Medicube Mini Booster Pro Plus</a></td>
+<td>$66.99 + $9.99</td>
+<td><strong>$76.98</strong></td>
+<td>Brand new sealed claimed; live search card</td>
+</tr>
+<tr>
+<td><a href="https://www.ebay.com/itm/267781833368">Medicube Booster Pro X2</a></td>
+<td>$99.99 + $8.27</td>
+<td><strong>$108.26</strong></td>
+<td>New other; authenticity unverified; live search card</td>
+</tr>
+<tr>
+<td><a href="https://www.ebay.com/itm/336763699941">Medicube Booster Pro X2</a></td>
+<td>$189.99 + $0.00</td>
+<td><strong>$189.99</strong></td>
+<td>New sealed claimed; live search card</td>
+</tr>
+</tbody></table>
+<p>The <a href="data/ebay_snapshot_2026-10-01.csv">CSV ledger</a> records each observation and verification level. Exact models, accessories, battery condition and condition category matter more than choosing the absolute cheapest search result.</p>
+<h2>Buying order for your routine</h2>
+<ol>
+<li><strong>No device: $0 incremental cost.</strong> Most defensible for the five actives you actually use. Spend only if you want an experiment or another independently useful mode.</li>
+<li><strong>Low-cost delivery experiment: Mini Plus about $77 or original Mini about $68.</strong> Either is enough to test whether you enjoy the process with basic skincare. Evidence does not establish that one gives better pigment outcomes.</li>
+<li><strong>Full Medicube Pro about $110, or X2 about $108 if the unusually inexpensive offer is authentic and complete.</strong> Similar prices make features/condition the decision. New-sealed X2 around $190 is another observed offer, but more power is not a reason to pay more for your small-molecule routine.</li>
+<li><strong>Panasonic ion preference: ST99 $150 versus ST0A $183–186.</strong> A $33–36 premium can be reasonable for newer generation and good condition. It buys updated hardware, not demonstrated better niacinamide/Thiamidol outcomes. Compared with the cheap Minis, the premium needs a preference for its ion protocol, warm/cool comfort, documentation or quality.</li>
+<li><strong>If RF is also wanted: YA-MAN Shiny Neo about $236.</strong> Assess its RF value in the <a href="../07_radio_frequency_skin_tightening/index.html">RF topic</a>. Deep Lift at $552–587 and SS85 at $348 are hard to justify for penetration alone.</li>
+</ol>
+<p>These are decision tiers based on evidence fit and the sampled offers, <strong>not measured efficacy rankings</strong>. No evidence-based dollar threshold for “effective ingredient penetration” exists.</p>
+<h2>What to check before paying</h2>
+<p>Confirm the exact SKU (letter O versus number 0 in ST0A), genuine device, compatible charger, complete heads/cotton ring or accessories required by the manual, battery runtime, every mode functioning, and a usable return policy. “New other,” “tested,” “sealed,” and seller feedback are claims to investigate. Deep Lift’s cheap sealed listing has a seller with limited history; the Panasonic “new other / tested” description is not the same as factory-new. Keep electrical pacemaker/implant restrictions and treated-area limitations in the exact manual in view.</p>
+<p>Do not mistake “EMS” in a reseller ST0A/ST99 title for a real specification: these models do not have RF/EMS. An X2-looking listing at a bargain price is not authentication. The cost worksheet excludes taxes, consumables, replacement batteries, failures and resale value, and its hypothetical session count is not a treatment recommendation.</p>
+<p><strong>What this section found:</strong> low-cost Medicube offers make optional experimentation inexpensive; Panasonic’s newer large-molecule performance does not establish a premium worth paying for this routine; YA-MAN premiums principally need a separate RF/feature rationale. Marketplace source IDs P01–P13 in the <a href="source_docs/research_resource_log_2026-10-01.txt">log</a>.</p>
+</section>
+<section class="doc" id="doc6"><a class="openmd" hidden aria-hidden="true" tabindex="-1" href="README.md"></a><h1>Skincare penetration technologies: start here</h1>
+<p>Updated October 1, 2026. This section compares <strong>ingredient delivery</strong>, with RF tightening and EMS kept as separate purchasing goals.</p>
+<p><strong>For your routine—vitamin C (assumed from “vitamin”), niacinamide, azelaic acid, Thiamidol, and tazarotene—buying no penetration device is the strongest value choice.</strong> These are small molecules with established topical formulations. More uptake is not automatically more useful pigment or acne improvement. No convincing matched-formula, device-versus-no-device clinical comparison was located for this exact routine and these consumer devices.</p>
+<p>If you want an optional experiment, a low-cost Medicube Mini/Mini Plus or full Booster Pro is easier to justify than an expensive high-output machine. Panasonic ST99/ST0A offers a well-documented, separate vitamin-C ion mode; its headline BOOST gains concern larger hydrophilic ingredients you rarely use. YA-MAN becomes more interesting when you also want its RF/EMS functions. Neither Panasonic’s HA multiples nor Medicube’s absorption percentages establish a clinical winner for your routine.</p>
+<h2>Reading order</h2>
+<ol>
+<li><a href="index.html#doc1">Mechanisms and alternatives</a>: what actually moves ingredients, and what does not.</li>
+<li><a href="index.html#doc2">Human evidence and claim audit</a>: laboratory uptake versus visible clinical outcomes.</li>
+<li><a href="index.html#doc3">Device comparison</a>: Panasonic, YA-MAN, Medicube, and relevant alternatives.</li>
+<li><a href="index.html#doc4">Your ingredient fit</a>: vitamin C, niacinamide, azelaic acid, Thiamidol, tazarotene.</li>
+<li><a href="index.html#doc5">eBay prices and buying decision</a>: dated, individually linked asking prices.</li>
+</ol>
+<p>Use the selector and cost-per-use worksheet at the top of this viewer. The worksheet calculates spending only; it does not model efficacy or prescribe treatment frequency.</p>
+<h2>What was added and why</h2>
+<p>A dedicated penetration lane fills the gap between the archive’s <a href="../07_radio_frequency_skin_tightening/index.html">RF research</a>, <a href="../08_vitamin_c_serums/index.html">vitamin C research</a>, <a href="../12_peptides_in_skincare/index.html">peptide research</a>, <a href="../17_tazarotene_vs_tretinoin/index.html">retinoid research</a>, and <a href="../22_body_hyperpigmentation_long_term/index.html">pigmentation research</a>. This topic audits the earlier pasted comparisons, distinguishes device generations, adds the actual small-molecule routine, and separates current asking prices from sold-market averages.</p>
+<p><a href="source_docs/research_resource_log_2026-10-01.txt">Source recovery log</a> · <a href="data/ebay_snapshot_2026-10-01.csv">Listing dataset</a> · <a href="source_docs/capture_manifest.json">Capture manifest</a> · <a href="index.html#doc7">Source library</a>.</p>
+<p>The conclusion is a value judgment under limited evidence, not proof that all devices have zero effect. Results from a manufacturer’s exact test may be real while still failing to answer whether your existing regimen improves more with that device.</p>
+</section>
+<section class="doc" id="doc7"><a class="openmd" hidden aria-hidden="true" tabindex="-1" href="06_source_library.md"></a><h1>Source library and recovery trail</h1>
+<p><a href="source_docs/research_resource_log_2026-10-01.txt">Verbose research log</a> · <a href="source_docs/capture_manifest.json">Checksummed capture manifest</a> · <a href="data/ebay_snapshot_2026-10-01.csv">eBay price ledger</a>. The dated log separates official claims, human studies, laboratory mechanisms, prescription labels, marketplace observations and unverified earlier conversation claims.</p>
+<h2>Preserved official materials</h2>
+<ul>
+<li><a href="source_docs/panasonic_ss85_2026-10-01.html">panasonic ss85 2026-10-01.html</a> — <a href="https://panasonic.jp/face/products/EH-SS85/feature.html">original source</a>; SHA-256 in manifest.</li>
+<li><a href="source_docs/panasonic_st0a_2026-10-01.html">panasonic st0a 2026-10-01.html</a> — <a href="https://panasonic.jp/face/products/EH-ST0A.html">original source</a>; SHA-256 in manifest.</li>
+<li><a href="source_docs/yaman_deep_lift_2026-10-01.html">yaman deep lift 2026-10-01.html</a> — <a href="https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-deep-lift.html">original source</a>; SHA-256 in manifest.</li>
+<li><a href="source_docs/medicube_booster_pro_2026-10-01.html">medicube booster pro 2026-10-01.html</a> — <a href="https://medicube.us/products/age-r-booster-pro">original source</a>; SHA-256 in manifest.</li>
+<li><a href="source_docs/medicube_x2_2026-10-01.html">medicube x2 2026-10-01.html</a> — <a href="https://medicube.us/products/booster-pro-x2">original source</a>; SHA-256 in manifest.</li>
+<li><a href="source_docs/medicube_mini_plus_2026-10-01.html">medicube mini plus 2026-10-01.html</a> — <a href="https://medicube.us/products/mini-booster-pro-plus">original source</a>; SHA-256 in manifest.</li>
+<li><a href="source_docs/panasonic_ss85_brochure.pdf">panasonic ss85 brochure.pdf</a> — <a href="https://panasonic.jp/catalog/ctlg/ionboost_ex/ionboost_ex.pdf">original source</a>; SHA-256 in manifest.</li>
+<li><a href="source_docs/panasonic_sr86_english_instructions.pdf">panasonic sr86 english instructions.pdf</a> — <a href="https://panasonic.jp/content/dam/panasonic/jp/ja/face/howto/pdf/EH-SR86_tourist_en_trimmed_240918.pdf">original source</a>; SHA-256 in manifest.</li>
+<li><a href="source_docs/yaman_shiny_english_manual.pdf">yaman shiny english manual.pdf</a> — <a href="https://www.ya-man.com/en/asset/docs/photo-plus-shiny/M18-1-001E.pdf">original source</a>; SHA-256 in manifest.</li>
+</ul>
+<p>Archived HTML may depend on third-party assets and may not reproduce its original appearance offline. Prefer the cited official live page for current instructions. These are evidence captures, not the archive reader interface.</p>
+<h2>User background</h2>
+<p>The three transcripts are preserved as plain text for provenance, not scientific verification.</p>
+<ul>
+<li><a href="source_docs/user_background_1.txt">Background transcript 1</a></li>
+<li><a href="source_docs/user_background_2.txt">Background transcript 2</a></li>
+<li><a href="source_docs/user_background_3.txt">Background transcript 3</a></li>
+</ul>
+<p><a href="index.html#doc8">Preservation manifest</a>.</p>
+<p><a href="data/validation_2026-10-01.txt">Validation record</a>.</p>
+</section>
+<section class="doc" id="doc8"><a class="openmd" hidden aria-hidden="true" tabindex="-1" href="source_docs/README.md"></a><h1>Source preservation manifest</h1>
+<p>This directory preserves official product-page HTML, manufacturer manuals/brochures, and the three user-supplied background transcripts. Captured October 1, 2026.</p>
+<p>The <a href="index.html#doc7">source library</a> provides every capture link. The <a href="source_docs/capture_manifest.json">checksummed manifest</a> records original URL, byte count, HTTP result, and SHA-256 for each downloaded official source. The <a href="source_docs/research_resource_log_2026-10-01.txt">verbose research log</a> records study designs, numeric claims, limitations, access problems, marketplace observations, and transcript checksums.</p>
+<p>Captured third-party HTML is evidence storage; its external scripts or assets may not work offline. Use the rendered topic guides for the research reading experience. Current product instructions and listing details should be checked against their cited originals.</p>
+</section></main></div><footer>Manufacturers’ uptake ratios are ingredient- and assay-specific. Prices are dated asking offers. All research guides render locally and on a served site.</footer><script>
+const DOCS=[{"id":"doc1","file":"01_mechanisms.md","title":"Mechanisms","md":"# How skincare penetration technologies work\n\nThe target matters: ingredient reaching the **stratum corneum** is different from ingredient reaching living epidermis, dermis, or systemic circulation. Most consumer demonstrations here measure the outer skin barrier; they cannot establish deeper collagen production.\n\n| Technology | Mechanism and best fit | What it does not establish |\n|---|---|---|\n| Iontophoresis | Current can drive appropriately charged dissolved molecules; electroosmosis can also carry solvent and some neutral solutes. Charge, pH, electrode polarity, concentration, and vehicle matter. Vitamin C derivatives are formula-specific candidates. | Every vitamin C serum or small molecule will behave the same way. |\n| Electroporation / pulse-assisted delivery | Electric pulses transiently increase barrier permeability. Laboratory work supports delivery of polar molecules otherwise poorly transported. | A consumer product reproduces laboratory electric fields, pulse duration, transport depth, or dose. |\n| Panasonic BOOST plus ion modes | BOOST pretreats bare skin; subsequent MOIST/BRIGHT UP uses product and current. The test often combines stages. | The headline HA result applies to vitamin C or to pulse treatment alone. |\n| YA-MAN DYHP / related pulse systems | Proprietary pulse combinations, often alongside ion delivery and RF/EMS. | Published pulse parameters or an independent clinical ranking against other brands. |\n| Hydration, occlusion, and formulation | Hydrating the barrier and selecting a suitable vehicle can change transport without electronics. | Heavy occlusion is suitable for every prescription or irritating active. Follow product instructions. |\n| Sonophoresis | Appropriately configured ultrasound can enhance transport through cavitation and related effects. | A vibrating cleansing wand or a focused-ultrasound tightening device is validated sonophoresis. |\n| Microneedling / fractional ablation | Physical barrier disruption can enable delivery in studied professional protocols. | Ordinary cosmetic serums are suitable for application into fresh channels; this is not a recommendation for home drug delivery. |\n| RF, EMS, microcurrent, LED, sonic vibration | Primarily heating, stimulation, photobiology, or mechanical effects. Some multimodal devices separately include delivery modes. | Those labels alone prove enhanced ingredient delivery or explain a measured clinical benefit. |\n\nThe foundational electroporation experiments used laboratory conditions and polar molecules around 1,000 molecular weight; dramatic permeability changes were **preclinical**, not wrinkle trials of a home wand. Protein delivery in later work sometimes required an additional chemical pathway enhancer. Those experiments support a mechanism, not a DIY formulation or device-equivalence claim. [Prausnitz 1993](https://pmc.ncbi.nlm.nih.gov/articles/PMC47805/) · [Zewert 1999](https://pubmed.ncbi.nlm.nih.gov/10619443/).\n\nUltrasound-enhanced transport likewise depends on actual frequency, intensity, coupling and exposure. [Mitragotri 1995](https://pubmed.ncbi.nlm.nih.gov/7562407/) does not validate every device marketed with “ultrasound.” See the separate [HIFU/MFU topic](../11_hifu_skin_tightening/index.html) for tightening.\n\n## Why molecular weight alone is inadequate\n\nSmall molecules can still be hydrophilic, ionized, unstable, or poorly partitioned into skin. Large HA may principally contribute hydration in the outer barrier. A lipophilic retinoid already delivered effectively by its prescription formulation has a very different rationale from an aqueous peptide. The goal is sufficient delivery to the intended target with tolerable exposure, rather than maximizing transport of everything.\n\n**What this section found:** strong mechanistic plausibility for electrical and ultrasound delivery; insufficient parameter and matched-formula evidence to transfer laboratory results into a brand ranking. Source IDs S01–S03, S08–S15 in the [recovery log](source_docs/research_resource_log_2026-10-01.txt).\n"},{"id":"doc2","file":"02_evidence_audit.md","title":"Evidence audit","md":"# What the evidence actually supports\n\nA useful purchasing trial would randomize the **same finished skincare formulation**, used with the exact consumer device or without it, and measure pigment, acne, wrinkles or tolerability over months. Ingredient delivery into the outer barrier is a surrogate. The studies below do not provide that missing comparison for your routine.\n\n| Source | Design and finding | Purchasing limitation |\n|---|---|---|\n| [Huh 2003, vitamin C iontophoresis](https://pubmed.ncbi.nlm.nih.gov/12771472/) | Randomized double-blind split-face study, 29 women with melasma, 12 weeks; vitamin C versus water, both delivered by iontophoresis. Colorimetry improved on the vitamin-C side. | Supports the combined treatment; lacks vitamin C applied ordinarily as a control. Cannot isolate the device increment. |\n| [Guo 2024, TXA iontophoresis](https://pubmed.ncbi.nlm.nih.gov/39185080/) | 30 participants, active versus placebo with iontophoresis, twice weekly for three months; melasma severity/luminance outcomes reported. | Also lacks matched TXA without the device; not a consumer-brand comparison or evidence for your Thiamidol. |\n| [Taylor 2013](https://pubmed.ncbi.nlm.nih.gov/23377327/) | 35 patients, uncontrolled vitamin C mask/iontophoresis regimen with acids and sun protection; pigment improvement reported. | Multiple interventions and no control; the headline improvement cannot be assigned to current or vitamin C alone. |\n| [Sobhi 2012](https://pubmed.ncbi.nlm.nih.gov/22360337/) | 14 patients, split-face vitamin C iontophoresis versus glycolic peel over six sessions. | A different treatment comparator, not vitamin C alone; very small study. |\n| [Niacinamide 2002](https://pubmed.ncbi.nlm.nih.gov/12100180/) and [2005](https://pubmed.ncbi.nlm.nih.gov/16029679/) | Controlled topical niacinamide studies found pigment/skin-quality benefits without a penetration device. | Supports ordinary topical use; does not exclude an additional effect from devices, but establishes a reasonable baseline. |\n| [Thiamidol 2026](https://pubmed.ncbi.nlm.nih.gov/41566113/) | Vehicle-controlled study, 200 participants; 0.2% Thiamidol, 12-week mMASI reduction reported as 36.1% versus 16.1%. | Formula-specific benefit without a booster; no evidence here for electrically enhancing that product. |\n\n## Manufacturer ratios: read the denominator\n\n| Device/test | Manufacturer-reported result | Relevant boundary |\n|---|---|---|\n| Panasonic ST0A | HA 8.0×; oligopeptide-1 9.3× versus manual application; single-use forearm study, n=10. | Combined BOOST/delivery protocol; outermost skin layer. HA skin-sample illustration uses MW 5,000–10,000. |\n| Panasonic SS85 | HA 12× (n=8); hydrolyzed collagen 6.3×; vitamin C 1.6× (n=12) in BRIGHT UP. | Separate ingredients/modes and samples. 12× is not the vitamin-C result. |\n| Panasonic SM50 | HA 10× versus sheet mask alone; another serum comparison 5.1× versus hand. | Baselines differ, so ranking against other multiples is invalid. |\n| YA-MAN Deep Lift | Aqueous vitamin-C derivative, TXA and niacinamide forearm tests; n=10 men, one minute, stratum-corneum measurement. | Useful small-molecule relevance, but no matched clinical superiority trial against Panasonic/Medicube. |\n| Medicube Mini | Advertised 562% absorption with a named testing organization. | Public detail does not adequately identify absolute dose, transferable finished products, and clinical outcomes. Do not interpret this as 5.62× pigment clearance. |\n| Medicube X2 | “2× power” footnote refers to tested power density, W/cm², versus Booster Pro. | Not double ingredient concentration, double benefit, or proof a stronger setting is appropriate. |\n\nSources: [Panasonic ST0A](https://panasonic.jp/face/products/EH-ST0A.html), [SS85](https://panasonic.jp/face/products/EH-SS85/feature.html), [SM50](https://panasonic.jp/face/products/EH-SM50.html), [YA-MAN](https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-deep-lift.html), [Medicube Mini](https://medicube.us/products/mini-booster-pro), [X2](https://medicube.us/products/booster-pro-x2).\n\n## Corrections to the pasted comparison\n\n- ST0A’s 1.6× BOOST output is a manufacturer engineering claim relative to its predecessor. It is not a measured 1.6× improvement in your clinical results.\n- ST99’s earlier pasted peptide 6.3× figure was not reconfirmed in a primary source. The official regional catalog supports HA 5.7× and collagen 5.0×; keep the ingredient identity clear. [Panasonic catalog](https://pstw.panasonic.com.tw/catalog/files/1_consumer/hair/202509_Panasonic_%E7%BE%8E%E5%AE%B9%E5%95%86%E5%93%81.pdf).\n- YA-MAN “more warmth” or “stronger EMS sensation” comparisons are not RF wattage or penetration measurements.\n- Older Medicube “785%” marketing should not be ranked against Panasonic’s HA multiple without the underlying assay and denominator. It was not reconfirmed on the current official Pro page used here.\n- High-output delivery tests do not prove dermal collagen stimulation; additional RF or EMS features require their own evidence.\n\n**What this section found:** small clinical studies support certain active-plus-ion regimens; no located trial establishes the incremental value or best consumer model for the user’s complete routine. Industry tests provide narrower delivery endpoints. S04–S15, S21–S24.\n"},{"id":"doc3","file":"03_device_comparison.md","title":"Device comparison","md":"# Relevant devices: what you are actually buying\n\nThese are the principal penetration devices and adjacent families relevant to the decision, rather than every color or regional SKU. Feature claims come from official product pages/manuals; clinical equivalence is not assumed.\n\n| Brand/model or family | Delivery lane | Other features | Fit for your small-molecule routine |\n|---|---|---|---|\n| Panasonic EH-ST99 | Older BOOST pretreatment + ion MOIST/BRIGHT UP | Warm/cool; no RF or EMS | Budget vitamin-C ion option. Lower headline HA delivery is not a reason to reject it for your routine. |\n| Panasonic EH-ST0A | Upgraded BOOST + ion modes | Warm/cool; no RF or EMS | Sensible small premium over ST99 for condition/newer generation; no proven small-active outcome advantage. |\n| Panasonic EH-SS85 | Higher-output BOOST + ion modes | EMS and warm/cool; no RF | Best documented newer dedicated Panasonic delivery option; its small-vitamin-C gain is 1.6× in its assay, not 12×. Hard to justify the large price premium solely for your routine. |\n| Panasonic EH-SM50 mask | Hands-free ion/mask delivery | Mask format | Convenience purchase; no demonstrated superiority for your actives. |\n| Panasonic Vitalift EH-SR85 / SR86 / SR90 | Ion skincare modes alongside tightening systems | RF/EMS/LED combinations; different generations | Consider when RF is a separate goal. Do not substitute their ion claims for SS85/ST0A BOOST tests. SR90 is a launch-generation listing as of this snapshot; current resale pricing not verified. |\n| YA-MAN Photo Plus Shiny M18 / Shiny Neo YJFM18N | DYHP plus ion delivery, model-specific protocol | RF/EMS/LED | Neo is the more affordable RF-plus-delivery candidate in the verified listings. Original M18 is a different generation. |\n| YA-MAN Photo Plus Deep Lift YJFA1T | DYHP + ion; ingredient tests include niacinamide | RF 1–4 MHz, EMS/LED | Better direct ingredient relevance than HA-only marketing, but no outcome evidence warranting its large premium over Neo for delivery alone. |\n| YA-MAN Prestige / Prestige Pro / SP / SP II / SP III / MIYABI | Premium proprietary pulse systems, exact generation matters | RF or CERTEC/EMS depending on model | Do not assume every Prestige uses the same RF hardware. Premium price does not establish superior small-active delivery. |\n| Medicube AGE-R Booster-H | Older dedicated booster | Fewer features than Pro | Budget option only if substantially cheaper and complete; no verified current quote here. |\n| Medicube Booster Pro | Booster electroporation | Microcurrent, EMS, Air Shot, LED/sonic; no RF | Full-feature option near $110 in the snapshot. Extra modes are separate goals. |\n| Medicube Mini Booster Pro | Electroporation booster | Red/blue LED; simpler format | Low-cost delivery experiment; fewer unrelated features. Not the full Pro. |\n| Medicube Mini Booster Pro Plus | Newer booster with cleansing/definition/boost modes | Distinct three-mode device | Low-price current option; do not import the full Pro’s four-mode specifications. |\n| Medicube Booster Pro X2 | Newer dual-head booster | Expanded modes/app options; no RF | Attractive if authentic and similar total price to Pro. “2×” does not justify stronger exposure to your actives. |\n| ReFa BEAUTECH RAISE | RF-Wpulse combination | RF/sonic/pulse | Alternative multimodal device, without compelling matched-routine advantage. |\n| ARTISTIC&CO Zeus families / other premium pulse wands | Proprietary pulse/infusion claims vary | Model-specific EMS/other functions | No located matched-routine comparative trial; premium purchase is poorly justified for this goal. |\n\n## Feature sources and model boundaries\n\nPanasonic: [ST0A](https://panasonic.jp/face/products/EH-ST0A.html), [SS85](https://panasonic.jp/face/products/EH-SS85/feature.html), [SM50](https://panasonic.jp/face/products/EH-SM50.html), [SR85](https://panasonic.jp/face/products/EH-SR85.html), [SR86](https://panasonic.jp/face/products/EH-SR86.html), [SR90](https://panasonic.jp/face/products/EH-SR90/feature.html), [SR86 English instructions](source_docs/panasonic_sr86_english_instructions.pdf).\n\nYA-MAN: [Deep Lift and current comparison table](https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-deep-lift.html), [Shiny Neo features](https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-shiny-neo_features.html), [Prestige Pro](https://www.ya-man-tokyo-japan.com/products/forface/pl_photo-plus-prestige-pro.html), [Prestige SP](https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-prestige-sp.html), [original Shiny English manual](source_docs/yaman_shiny_english_manual.pdf). Deep Lift advertises RF 1–4 MHz versus Neo 1–3 MHz; frequency range does not measure delivered thermal dose or penetration benefit.\n\nMedicube: [Pro](https://medicube.us/products/age-r-booster-pro), [Mini](https://medicube.us/products/mini-booster-pro), [Mini Plus](https://medicube.us/products/mini-booster-pro-plus), [X2](https://medicube.us/products/booster-pro-x2). [ReFa Raise](https://www.refa.net/en/item/refa_beautech_raise/) and [FAQ](https://www.refa.net/en/faq_howto/refa_beautech_raise/).\n\n## Adjacent products that do not answer this question\n\nYA-MAN Bloom/Liftlogy/MediLift, Panasonic Kassa, Medicube UltraTune/Ussera/HighFocus, and standalone EMS or microcurrent devices are primarily tightening/stimulation products. A dedicated RF, HIFU or EMS label does not establish ingredient delivery. Medicube Air Shot is its own dry-skin mode; it is not interchangeable with wet Booster use. Buy these for a separate evidenced goal, with their exact instructions.\n\n**What this section found:** Panasonic offers the clearest separate ion-mode/BOOST test documentation; YA-MAN combines delivery with RF; Medicube offers the lowest observed entry prices. None establishes clinical superiority for the user’s five actives. S08–S20, S25–S27.\n"},{"id":"doc4","file":"04_ingredient_fit.md","title":"Your ingredients","md":"# Your ingredients: where a booster may help, and where it is poor value\n\nYour answer listed “vitamin,” niacinamide, azelaic acid, Thiamidol and a retinoid interpreted as **tazarotene**. Vitamin C is assumed; vitamin E or another vitamin would require a different formula-specific assessment.\n\n| Ingredient | Plausible delivery benefit | Evidence and practical verdict |\n|---|---|---|\n| Vitamin C | Most plausible optional ion-delivery experiment here, especially an aqueous, compatible derivative formulation. | Small melasma ion studies support combined treatments; none proves your serum improves more than ordinary use. Panasonic’s separate BRIGHT UP mode is more relevant than HA BOOST multiples. Acidic L-ascorbic acid may sting more; formula, pH, stability and tolerability come first. |\n| Niacinamide | Aqueous small-molecule delivery can increase in a manufacturer assay, including YA-MAN’s test. | Ordinary topical niacinamide already has controlled human evidence. Optional basic-skincare experiment, with low expected incremental value; no justification for an expensive upgrade solely for it. |\n| Azelaic acid | Mechanistically possible depending on vehicle and solubility. | No located evidence for a worthwhile increment with these consumer devices. Burning/stinging is already common with prescription gel; leave it to ordinary topical use. |\n| Thiamidol / isobutylamido thiazolyl resorcinol | No established need for electrical enhancement. | Direct vehicle-controlled topical evidence exists; no located device trial with the finished product. Follow its formulation instructions. More delivery has unestablished benefit and tolerability. |\n| Tazarotene / other prescription retinoids | Not a useful goal to maximize an already active prescription exposure. | Do not use it as the booster serum. No located controlled consumer-device benefit; irritation is a label concern. Any deliberate enhancement of prescription delivery belongs with the prescriber. |\n| HA / hydrophilic peptides, which you rarely use | This is where many large-molecule BOOST claims are concentrated. | Better marketing-test fit, but outer-barrier delivery still does not prove deeper wrinkle benefit. Those ratios should receive little weight in your purchase. |\n\n**The avoid-enhancement judgments are clinical risk/value inferences**, based on the absence of demonstrated incremental benefit and known irritation, rather than a label explicitly naming every wand. [Finacea label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9f40cd45-58a6-4376-9220-84bfe7d7e358) · [TAZORAC label](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=021744d1-a6d7-4ad6-99c2-7187c24e64c6).\n\n## What I would do with this routine\n\nKeep the active routine stable and put budget toward a tolerable, reliable vitamin C formulation, consistent pigment protection, and adherence. A device is an optional comfort/hydration experiment, not a required step to make these actives work.\n\nIf trying one, first use only a bland compatible moisturizer or an already tolerated simple niacinamide product, on intact comfortable skin, following the exact device manual. Keep tazarotene, azelaic acid, Thiamidol and irritating acidic vitamin C out of that first experiment. An initially bland product can reveal tolerability; it cannot validate subsequent use with a prescription. Do not increase settings to chase a manufacturer absorption figure, or stack every device mode on an irritated barrier.\n\nFor an eventual vitamin C experiment, identify the **exact product and vitamin C form** and check the device’s instructions. Panasonic BOOST is a bare-skin pretreatment, whereas its subsequent ion modes have their own cotton/product instructions; Medicube Air Shot has different instructions from Booster. Avoid improvising a universal protocol.\n\nUseful comparisons without a device: [L-ascorbic acid delivery study](https://pubmed.ncbi.nlm.nih.gov/11207686/) (pig skin, formulation-dependent), [niacinamide clinical study](https://pubmed.ncbi.nlm.nih.gov/16029679/), [Thiamidol controlled study](https://pubmed.ncbi.nlm.nih.gov/41566113/), [official Thiamidol information](https://www.eucerin.co.uk/skin-concerns/uneven-skin/thiamidol). Consult [retinoid research](../17_tazarotene_vs_tretinoin/index.html) and [pigmentation research](../22_body_hyperpigmentation_long_term/index.html) for the larger routine.\n\n**What this section found:** vitamin C is the strongest optional fit, niacinamide is a low-priority experiment, and the other three actives have no established consumer-booster value. Exact finished formula matters more than molecular-weight shorthand. S04–S07, S21–S24.\n"},{"id":"doc5","file":"05_prices_and_value.md","title":"eBay & value","md":"# Comparable eBay prices and value\n\n**October 1, 2026 snapshot, USD asking prices.** These are selected live offers observed in listing pages or eBay search cards, not a systematic market sample or sold-price averages. Total below means listed item price plus displayed shipping to a U.S. destination; destination, tax, stock, offers and coupons can change it. Seller claims and authenticity were not independently verified. Search-card-only records require opening the listing and checking its current condition before purchase.\n\n| Model | Item + shipping | Total before tax | Condition claim / observation |\n|---|---|---|---|\n| [Panasonic ST99](https://www.ebay.com/itm/800187156873) | $150.00 + $0.00 | **$150.00** | Used; tested; listing page |\n| [Panasonic ST0A](https://www.ebay.com/itm/389768530383) | $183.00 + $0.00 | **$183.00** | New other; tested with charger; listing page |\n| [Panasonic ST0A](https://www.ebay.com/itm/398413370945) | $160.00 + $26.00 | **$186.00** | Used; good; listing page |\n| [Panasonic SS85](https://www.ebay.com/itm/800746169833) | $348.00 + $0.00 | **$348.00** | Used; tested; live search card |\n| [YA-MAN Shiny Neo YJFM18N](https://www.ebay.com/itm/398192385122) | $198.00 + $38.00 | **$236.00** | Used; live search card |\n| [YA-MAN Deep Lift YJFA1T](https://www.ebay.com/itm/168622042013) | $552.00 + $0.00 | **$552.00** | New sealed claimed; limited seller history; live search card |\n| [YA-MAN Deep Lift YJFA1T](https://www.ebay.com/itm/800563243295) | $587.00 + $0.00 | **$587.00** | Used; tested; live search card |\n| [Medicube Booster Pro](https://www.ebay.com/itm/398402457172) | $99.99 + $10.00 | **$109.99** | Used; tested; blemishes; live search card |\n| [Medicube Mini Booster Pro](https://www.ebay.com/itm/188731626163) | $67.99 + $0.00 | **$67.99** | Brand new claimed; live search card |\n| [Medicube Mini Booster Pro Plus](https://www.ebay.com/itm/287612808471) | $66.99 + $9.99 | **$76.98** | Brand new sealed claimed; live search card |\n| [Medicube Booster Pro X2](https://www.ebay.com/itm/267781833368) | $99.99 + $8.27 | **$108.26** | New other; authenticity unverified; live search card |\n| [Medicube Booster Pro X2](https://www.ebay.com/itm/336763699941) | $189.99 + $0.00 | **$189.99** | New sealed claimed; live search card |\n\nThe [CSV ledger](data/ebay_snapshot_2026-10-01.csv) records each observation and verification level. Exact models, accessories, battery condition and condition category matter more than choosing the absolute cheapest search result.\n\n## Buying order for your routine\n\n1. **No device: $0 incremental cost.** Most defensible for the five actives you actually use. Spend only if you want an experiment or another independently useful mode.\n2. **Low-cost delivery experiment: Mini Plus about $77 or original Mini about $68.** Either is enough to test whether you enjoy the process with basic skincare. Evidence does not establish that one gives better pigment outcomes.\n3. **Full Medicube Pro about $110, or X2 about $108 if the unusually inexpensive offer is authentic and complete.** Similar prices make features/condition the decision. New-sealed X2 around $190 is another observed offer, but more power is not a reason to pay more for your small-molecule routine.\n4. **Panasonic ion preference: ST99 $150 versus ST0A $183–186.** A $33–36 premium can be reasonable for newer generation and good condition. It buys updated hardware, not demonstrated better niacinamide/Thiamidol outcomes. Compared with the cheap Minis, the premium needs a preference for its ion protocol, warm/cool comfort, documentation or quality.\n5. **If RF is also wanted: YA-MAN Shiny Neo about $236.** Assess its RF value in the [RF topic](../07_radio_frequency_skin_tightening/index.html). Deep Lift at $552–587 and SS85 at $348 are hard to justify for penetration alone.\n\nThese are decision tiers based on evidence fit and the sampled offers, **not measured efficacy rankings**. No evidence-based dollar threshold for “effective ingredient penetration” exists.\n\n## What to check before paying\n\nConfirm the exact SKU (letter O versus number 0 in ST0A), genuine device, compatible charger, complete heads/cotton ring or accessories required by the manual, battery runtime, every mode functioning, and a usable return policy. “New other,” “tested,” “sealed,” and seller feedback are claims to investigate. Deep Lift’s cheap sealed listing has a seller with limited history; the Panasonic “new other / tested” description is not the same as factory-new. Keep electrical pacemaker/implant restrictions and treated-area limitations in the exact manual in view.\n\nDo not mistake “EMS” in a reseller ST0A/ST99 title for a real specification: these models do not have RF/EMS. An X2-looking listing at a bargain price is not authentication. The cost worksheet excludes taxes, consumables, replacement batteries, failures and resale value, and its hypothetical session count is not a treatment recommendation.\n\n**What this section found:** low-cost Medicube offers make optional experimentation inexpensive; Panasonic’s newer large-molecule performance does not establish a premium worth paying for this routine; YA-MAN premiums principally need a separate RF/feature rationale. Marketplace source IDs P01–P13 in the [log](source_docs/research_resource_log_2026-10-01.txt).\n"},{"id":"doc6","file":"README.md","title":"Start here","md":"# Skincare penetration technologies: start here\n\nUpdated October 1, 2026. This section compares **ingredient delivery**, with RF tightening and EMS kept as separate purchasing goals.\n\n**For your routine—vitamin C (assumed from “vitamin”), niacinamide, azelaic acid, Thiamidol, and tazarotene—buying no penetration device is the strongest value choice.** These are small molecules with established topical formulations. More uptake is not automatically more useful pigment or acne improvement. No convincing matched-formula, device-versus-no-device clinical comparison was located for this exact routine and these consumer devices.\n\nIf you want an optional experiment, a low-cost Medicube Mini/Mini Plus or full Booster Pro is easier to justify than an expensive high-output machine. Panasonic ST99/ST0A offers a well-documented, separate vitamin-C ion mode; its headline BOOST gains concern larger hydrophilic ingredients you rarely use. YA-MAN becomes more interesting when you also want its RF/EMS functions. Neither Panasonic’s HA multiples nor Medicube’s absorption percentages establish a clinical winner for your routine.\n\n## Reading order\n\n1. [Mechanisms and alternatives](index.html#doc1): what actually moves ingredients, and what does not.\n2. [Human evidence and claim audit](index.html#doc2): laboratory uptake versus visible clinical outcomes.\n3. [Device comparison](index.html#doc3): Panasonic, YA-MAN, Medicube, and relevant alternatives.\n4. [Your ingredient fit](index.html#doc4): vitamin C, niacinamide, azelaic acid, Thiamidol, tazarotene.\n5. [eBay prices and buying decision](index.html#doc5): dated, individually linked asking prices.\n\nUse the selector and cost-per-use worksheet at the top of this viewer. The worksheet calculates spending only; it does not model efficacy or prescribe treatment frequency.\n\n## What was added and why\n\nA dedicated penetration lane fills the gap between the archive’s [RF research](../07_radio_frequency_skin_tightening/index.html), [vitamin C research](../08_vitamin_c_serums/index.html), [peptide research](../12_peptides_in_skincare/index.html), [retinoid research](../17_tazarotene_vs_tretinoin/index.html), and [pigmentation research](../22_body_hyperpigmentation_long_term/index.html). This topic audits the earlier pasted comparisons, distinguishes device generations, adds the actual small-molecule routine, and separates current asking prices from sold-market averages.\n\n[Source recovery log](source_docs/research_resource_log_2026-10-01.txt) · [Listing dataset](data/ebay_snapshot_2026-10-01.csv) · [Capture manifest](source_docs/capture_manifest.json) · [Source library](index.html#doc7).\n\nThe conclusion is a value judgment under limited evidence, not proof that all devices have zero effect. Results from a manufacturer’s exact test may be real while still failing to answer whether your existing regimen improves more with that device.\n"},{"id":"doc7","file":"06_source_library.md","title":"Source library","md":"# Source library and recovery trail\n\n[Verbose research log](source_docs/research_resource_log_2026-10-01.txt) · [Checksummed capture manifest](source_docs/capture_manifest.json) · [eBay price ledger](data/ebay_snapshot_2026-10-01.csv). The dated log separates official claims, human studies, laboratory mechanisms, prescription labels, marketplace observations and unverified earlier conversation claims.\n\n## Preserved official materials\n\n- [panasonic ss85 2026-10-01.html](source_docs/panasonic_ss85_2026-10-01.html) — [original source](https://panasonic.jp/face/products/EH-SS85/feature.html); SHA-256 in manifest.\n- [panasonic st0a 2026-10-01.html](source_docs/panasonic_st0a_2026-10-01.html) — [original source](https://panasonic.jp/face/products/EH-ST0A.html); SHA-256 in manifest.\n- [yaman deep lift 2026-10-01.html](source_docs/yaman_deep_lift_2026-10-01.html) — [original source](https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-deep-lift.html); SHA-256 in manifest.\n- [medicube booster pro 2026-10-01.html](source_docs/medicube_booster_pro_2026-10-01.html) — [original source](https://medicube.us/products/age-r-booster-pro); SHA-256 in manifest.\n- [medicube x2 2026-10-01.html](source_docs/medicube_x2_2026-10-01.html) — [original source](https://medicube.us/products/booster-pro-x2); SHA-256 in manifest.\n- [medicube mini plus 2026-10-01.html](source_docs/medicube_mini_plus_2026-10-01.html) — [original source](https://medicube.us/products/mini-booster-pro-plus); SHA-256 in manifest.\n- [panasonic ss85 brochure.pdf](source_docs/panasonic_ss85_brochure.pdf) — [original source](https://panasonic.jp/catalog/ctlg/ionboost_ex/ionboost_ex.pdf); SHA-256 in manifest.\n- [panasonic sr86 english instructions.pdf](source_docs/panasonic_sr86_english_instructions.pdf) — [original source](https://panasonic.jp/content/dam/panasonic/jp/ja/face/howto/pdf/EH-SR86_tourist_en_trimmed_240918.pdf); SHA-256 in manifest.\n- [yaman shiny english manual.pdf](source_docs/yaman_shiny_english_manual.pdf) — [original source](https://www.ya-man.com/en/asset/docs/photo-plus-shiny/M18-1-001E.pdf); SHA-256 in manifest.\n\nArchived HTML may depend on third-party assets and may not reproduce its original appearance offline. Prefer the cited official live page for current instructions. These are evidence captures, not the archive reader interface.\n\n## User background\n\nThe three transcripts are preserved as plain text for provenance, not scientific verification.\n\n- [Background transcript 1](source_docs/user_background_1.txt)\n- [Background transcript 2](source_docs/user_background_2.txt)\n- [Background transcript 3](source_docs/user_background_3.txt)\n\n[Preservation manifest](index.html#doc8).\n\n[Validation record](data/validation_2026-10-01.txt).\n"},{"id":"doc8","file":"source_docs/README.md","title":"Preservation manifest","md":"# Source preservation manifest\n\nThis directory preserves official product-page HTML, manufacturer manuals/brochures, and the three user-supplied background transcripts. Captured October 1, 2026.\n\nThe [source library](../index.html#doc7) provides every capture link. The [checksummed manifest](capture_manifest.json) records original URL, byte count, HTTP result, and SHA-256 for each downloaded official source. The [verbose research log](research_resource_log_2026-10-01.txt) records study designs, numeric claims, limitations, access problems, marketplace observations, and transcript checksums.\n\nCaptured third-party HTML is evidence storage; its external scripts or assets may not work offline. Use the rendered topic guides for the research reading experience. Current product instructions and listing details should be checked against their cited originals.\n"}];
+const fitText={routine:'Best value: keep your ordinary topical routine. No located matched-formula clinical trial establishes an incremental benefit for these five actives. Optional low-cost experiments are easiest to justify; avoid boosting the prescription/irritating actives.',c:'Most plausible optional fit: a compatible vitamin C ion protocol. Formula and vitamin form matter. Small clinical studies support combined treatments, but do not isolate the added device benefit. Acidic L-ascorbic acid may increase stinging.',n:'Low-priority experiment: ordinary topical niacinamide already has controlled human evidence. YA-MAN uptake testing is relevant, but does not establish better clinical results or justify a costly upgrade.',a:'Poor fit for routine boosting: no established incremental consumer-device benefit; burning/stinging is already a formulation concern. Prefer ordinary application.',t:'Poor value for boosting: vehicle-controlled topical Thiamidol evidence exists, but no located finished-product device trial. Follow its product instructions.',r:'Do not use tazarotene as the booster serum. Extra prescription delivery has unestablished benefit and may increase irritation; discuss any deliberate enhancement with the prescriber.',h:'Closest fit to the large-molecule marketing tests: Panasonic BOOST studies measure HA/peptide delivery into the outer barrier. This still does not establish deeper wrinkle benefit.'};
+function show(){let id=location.hash.slice(1)||'doc6';if(!DOCS.some(d=>d.id===id))id='doc6';document.querySelectorAll('.doc').forEach(d=>d.classList.toggle('active',d.id===id));document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+id));}
+function fit(){document.getElementById('fit').textContent=fitText[document.getElementById('ingredient').value]}
+function cost(){let p=Number(document.getElementById('price').value),u=Number(document.getElementById('uses').value),w=Number(document.getElementById('weeks').value);document.getElementById('cost').textContent=Number.isFinite(p+u+w)&&p>=0&&u>0&&w>0?'$'+(p/(u*w)).toFixed(2)+' per use · '+(u*w).toLocaleString()+' hypothetical uses':'Enter a nonnegative price and positive usage and duration.'}
+document.querySelectorAll('.doc table').forEach(t=>{const div=document.createElement('div');div.className='table-scroll';div.tabIndex=0;div.setAttribute('aria-label','Scrollable comparison table');t.before(div);div.append(t)});document.getElementById('ingredient').addEventListener('change',fit);['price','uses','weeks'].forEach(id=>document.getElementById(id).addEventListener('input',cost));addEventListener('hashchange',show);show();fit();cost();
+</script><script>/*cite-enhance*/
+(function(){
+  if(window.__citeEnhanced) return; window.__citeEnhanced=true;
+  var back=document.createElement('div'); back.id='citebackdrop'; back.hidden=true;
+  var pop=document.createElement('div'); pop.id='citepop'; pop.hidden=true;
+  pop.setAttribute('role','dialog'); pop.setAttribute('aria-modal','false'); pop.setAttribute('aria-live','polite');
+  pop.innerHTML='<div class="cp-card"><button type="button" class="cp-close" aria-label="Close">×</button><div class="cp-src"></div><div class="cp-quote"></div><a class="cp-link" target="_blank" rel="noopener">Open full source ↗</a></div>';
+  document.body.appendChild(back); document.body.appendChild(pop);
+  var srcEl=pop.querySelector('.cp-src'), qEl=pop.querySelector('.cp-quote'),
+      linkEl=pop.querySelector('.cp-link'), closeEl=pop.querySelector('.cp-close');
+  var canHover=window.matchMedia('(hover:hover) and (pointer:fine)').matches;
+  var hideT=null, current=null;
+  function fill(el){
+    srcEl.textContent=el.dataset.title||('Source '+el.dataset.n);
+    var ev=el.dataset.evidence||'';
+    if(ev){qEl.textContent=ev; qEl.classList.remove('cp-empty');}
+    else{qEl.textContent='No quote was extracted for this source — open it to read the original.'; qEl.classList.add('cp-empty');}
+    if(el.dataset.url){linkEl.href=el.dataset.url; linkEl.style.display='';} else linkEl.style.display='none';
+  }
+  function setCur(el){ if(current)current.classList.remove('on'); current=el; if(el)el.classList.add('on'); }
+  function positionFloat(el){
+    var r=el.getBoundingClientRect(), pr=pop.getBoundingClientRect();
+    var top=r.top-pr.height-8; if(top<8) top=r.bottom+8;
+    top=Math.max(8,Math.min(top,window.innerHeight-pr.height-8));
+    var left=r.left+r.width/2-pr.width/2;
+    left=Math.max(8,Math.min(left,window.innerWidth-pr.width-8));
+    pop.style.top=top+'px'; pop.style.left=left+'px';
+  }
+  function openFloat(el){
+    clearTimeout(hideT); setCur(el); fill(el);
+    pop.classList.remove('sheet'); back.hidden=true;
+    pop.style.visibility='hidden'; pop.hidden=false;
+    requestAnimationFrame(function(){ positionFloat(el); pop.style.visibility=''; });
+  }
+  function openSheet(el){
+    clearTimeout(hideT); setCur(el); fill(el);
+    pop.classList.add('sheet'); pop.style.top=''; pop.style.left='';
+    back.hidden=false; pop.hidden=false;
+    requestAnimationFrame(function(){ back.classList.add('show'); });
+  }
+  function close(){ pop.hidden=true; back.hidden=true; back.classList.remove('show'); pop.classList.remove('sheet'); setCur(null); }
+  function scheduleHide(){ hideT=setTimeout(close,160); }
+  pop.addEventListener('mouseenter',function(){ if(canHover) clearTimeout(hideT); });
+  pop.addEventListener('mouseleave',function(){ if(canHover) scheduleHide(); });
+  closeEl.addEventListener('click',close);
+  back.addEventListener('click',close);
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape') close(); });
+  window.addEventListener('scroll',function(){ if(current && !pop.classList.contains('sheet')) close(); },true);
+  window.addEventListener('resize',close);
+  function bind(el){
+    if(canHover){
+      el.addEventListener('mouseenter',function(){ clearTimeout(hideT); openFloat(el); });
+      el.addEventListener('mouseleave',scheduleHide);
+      el.addEventListener('focus',function(){ openFloat(el); });
+      el.addEventListener('blur',scheduleHide);
+      el.addEventListener('click',function(e){ e.preventDefault(); openFloat(el); });
+    }else{
+      el.addEventListener('click',function(e){ e.preventDefault(); (pop.hidden||current!==el)?openSheet(el):close(); });
+    }
+  }
+  function citeData(md){
+    var map={}, lines=md.split('\n');
+    var headRe=/^#{1,6}\s+.*\b(sources|references|bibliography)\b/i;
+    var last=-1; for(var i=0;i<lines.length;i++) if(headRe.test(lines[i])) last=i;
+    if(last<0) return map;
+    var entryRe=/^\s*(\d+)\.\s+(.*)$/, urlRe=/https?:\/\/[^\s)>\]]+/;
+    for(var j=last+1;j<lines.length;j++){
+      var ln=lines[j]; if(/^#{1,6}\s/.test(ln)) break;
+      var m=entryRe.exec(ln); if(!m) continue;
+      var n=m[1], rest=m[2], um=rest.match(urlRe), url='', title=rest, ev='';
+      if(um){ url=um[0].replace(/[.,;]+$/,''); title=rest.slice(0,um.index); ev=rest.slice(um.index+um[0].length); }
+      title=title.replace(/[*_`]/g,'').replace(/\s*[—–-]\s*$/,'').trim();
+      ev=ev.replace(/^\s*[—–-]\s*/,'').replace(/[*_`]/g,'').trim();
+      map[n]={title:title,url:url,evidence:ev};
+    }
+    return map;
+  }
+  function enhance(container,map){
+    if(!container||!Object.keys(map).length) return;
+    container.querySelectorAll('a').forEach(function(a){
+      var t=(a.textContent||'').trim(); var m=/^\[(\d+)\]$/.exec(t); if(!m) return;
+      var num=m[1], d=map[num]; if(!d) return;
+      var b=document.createElement('button');
+      b.className='cite'; b.type='button'; b.textContent=num;
+      b.dataset.n=num; b.dataset.title=d.title; b.dataset.evidence=d.evidence;
+      b.dataset.url=d.url||a.getAttribute('href')||'';
+      b.setAttribute('aria-label','Citation '+num+'. '+(d.title||'')+'. '+(d.evidence||''));
+      a.replaceWith(b); bind(b);
+    });
+  }
+  function run(){ try{ if(typeof DOCS==='undefined') return;
+    DOCS.forEach(function(d){ enhance(document.getElementById(d.id+'_r'), citeData(d.md)); }); }catch(e){} }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',run); else run();
+})();
+</script>
+
+</body></html>

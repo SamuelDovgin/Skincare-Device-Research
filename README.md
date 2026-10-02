@@ -4,7 +4,7 @@
 
 Research into at-home, light- and energy-based skincare devices for **facial redness/erythema, hyperpigmentation, post-inflammatory hyperpigmentation (PIH), and evening skin tone**, plus **hair removal**, **skin-quality (collagen) rejuvenation**, **tightening/laxity**, and topical support as parallel goals. Budget-conscious; covers branded, retail, Chinese OEM/Alibaba sourcing, patent/regulatory context, and practical product buying.
 
-The repo is organized into **twenty-two research projects**, including a cross-category regimen planner:
+The repo is organized into **twenty-three research projects**, including a cross-category regimen planner:
 
 | Folder | Product class | Goal |
 |--------|---------------|------|
@@ -30,6 +30,8 @@ The repo is organized into **twenty-two research projects**, including a cross-c
 | [`20_oral_supplements_for_skin/`](20_oral_supplements_for_skin/) | Oral supplements for skin | Human evidence map for collagen, HA, ceramides, carotenoids, Polypodium, vitamin C, acne/eczema nutraceuticals, protocols, and safety |
 | [`21_hypochlorous_acid_generation/`](21_hypochlorous_acid_generation/index.html) | Hypochlorous acid: pH-controlled generation | Manual-compatible acidified-brine reference, scale masses, paired pH/FAC QC, generator/product compatibility gate, and explicit PWPAM exclusion |
 | [`22_body_hyperpigmentation_long_term/`](22_body_hyperpigmentation_long_term/index.html) | Body hyperpigmentation and long-term tone-evening | Diagnosis-first ingredient atlas, comparative study census, melanin-pathway visualizer, long-term safety, maximal multi-category routine, buy-now product/value tiers, emerging actives, and escalation ladder |
+
+| [`23_skincare_penetration_technologies/`](23_skincare_penetration_technologies/index.html) | Electroporation, iontophoresis and skincare delivery | Panasonic / YA-MAN / Medicube comparison, five-active routine fit, evidence audit, eBay prices and cost worksheet |
 
 ## TL;DR
 
@@ -419,3 +421,7 @@ Dedicated evidence, safety, and buying lane for acquired darker-than-baseline bo
 - **Open — HIFU:** extract MAUDE adverse events for Ulthera/Sofwave/body HIFU, find independent output/focal-depth tests for home HIFU/MFU devices, and capture official manuals/IFUs for Medicube High Focus Shot and Ussera if available.
 - **Open — peptides:** independently replicate CHP-9, OS-01, and PTPD-12; compare peptide formulas with standard-strength retinoids; obtain better finished-formula concentration/stability data; standardize wrinkle endpoints and durability follow-up.
 - **Open — frontier intelligence:** build dedicated home-acne, microcurrent/EMS, and enhanced-delivery lanes; automate a dated quarterly FDA/patent delta export; add independent output, sell-through, returns, privacy, and adverse-event data.
+
+## RF market research update —2026-10-01
+
+[Expanded RF market/value census](07_radio_frequency_skin_tightening/index.html#doc12) · [MHz/temperature/clinical evidence](07_radio_frequency_skin_tightening/index.html#doc13) · [Searchable device comparison](07_radio_frequency_skin_tightening/rf_market_explorer.html). Adds Panasonic/YA-MAN/MimiSilk,49device/family records and78source records; measured cutoffs, manufacturer dermal claims and professional findings remain distinct.

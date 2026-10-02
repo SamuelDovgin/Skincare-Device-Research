@@ -4,6 +4,10 @@ Research thread: **radiofrequency (RF) devices for collagen remodeling, wrinkle 
 
 > **Key distinction:** non-invasive home RF devices heat tissue through electrical impedance and are typically cleared for **mild to moderate facial wrinkles**. RF microneedling delivers RF through needles into the skin and is a **medical procedure** with a much higher risk profile.
 
+## October2026 expanded market research
+
+Start with the [Panasonic/YA-MAN/MimiSilk market and value census](index.html#doc12), [MHz/temperature/clinical research](index.html#doc13), or [filterable49-record device comparison](rf_market_explorer.html). The conclusion is evidence/control-first: no universal best MHz, no demonstrated6.25MHz Thermage equivalence, and explicitly conflicting MimiSilk temperature claims. Panasonic6MHz LUXE remains prelaunch on2026-10-01. YA-MAN now has a controlled regional-device evidence lane with uncertain retail transfer.
+
 ## TL;DR
 
 1. **RF is controlled heat, not light.** It does not target melanin/hemoglobin/water by optical absorption. RF current meets tissue impedance and generates heat, aiming for collagen contraction and longer-term remodeling.
@@ -30,6 +34,14 @@ Research thread: **radiofrequency (RF) devices for collagen remodeling, wrinkle 
 | 10 | [Home RF tier list & device comparison](10_home_rf_tier_list_and_comparison.md) | **Decision page:** CurrentBody, NEWA, TriPollar, Silk'n, Medicube, Konmison, Thermage, RF microneedling, and the Tria/NIRA/RLT stack. |
 | 11 | [Home RF clinical evidence map](index.html#doc11) | Study design, populations, protocols, outcomes, thermal controls, bias/transferability, and the missing decisive trial |
 
+|12|[Expanded market & value census](index.html#doc12)|Panasonic, YA-MAN, MimiSilk, established alternatives, regional variants, prices and evidence gaps|
+|13|[Frequency, temperature & clinical research](index.html#doc13)|MHz priorities, actual cutoff/dermal claims, controlled studies and technology comparison|
+|14|[Research source manifest](index.html#doc14)|78-source register, primary PDFs, licensed full text and preservation log|
+
+## Source/data access
+
+[Device explorer](rf_market_explorer.html) · [Census CSV](data/rf_market_census_2026-10-01.csv) · [Research notebook](source_docs/research_resource_log_2026-10-01.txt) · [Rendered source manifest](index.html#doc14).
+
 ## Relationship to the other folders
 
 - RF is closest in **goal** to fractional resurfacing (collagen/texture), but closest in **mechanism** to controlled thermal remodeling.
@@ -45,7 +57,7 @@ The topic viewer now includes a [reported-event panel](index.html#maude) for FDA
 - **Started:** science, regulatory anchors, and first device map.
 - **Done:** a device-by-device tier list now separates home buying confidence from professional RF power and keeps NIRA/Tria/RLT comparisons in their own mechanisms.
 - **Done:** a study-level evidence map now distinguishes direct human outcomes from FDA equivalence and preserves the modest/uncertain effect-size boundary.
-- **Still needed:** source-doc mirroring, a full contraindication matrix, and an RFQ template for OEM RF devices.
+- **Still needed:** more exact-model temperature maps and head-to-head trials, a full contraindication matrix, and an RFQ template for OEM RF devices.
 - **Existing research retained:** Alibaba RF supplier scan — Konmison LB056B is profiled with full specs, manufacturer verification, and red-flag analysis in [§7 of device landscape](02_initial_device_landscape.md).
 
 ### Sources

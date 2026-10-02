@@ -1,0 +1,961 @@
+
+User attachment
+Can you translate this chart
+And explain the params and such
+
+Worked for 57s
+This is Panasonic Japan’s skincare-device comparison chart, showing which devices it recommends for six different skin concerns. The product in your screenshot, the Ion Boost Multi EX (EH-SS85), is positioned primarily for moisturizing and facial-muscle stimulation, rather than lifting or collagen-focused firming.
+
+1. Full English translation
+The Japanese heading, お悩み別 商品比較表, means Product Comparison by Skin Concern.
+
+Stars reproduce Panasonic's chart. Blue indicates a highlighted strength, gray indicates a secondary capability, and — indicates no listed capability.
+
+Device
+
+Lifting
+
+Moisture
+
+Pores
+
+Firmness
+
+Clarity
+
+Muscle training
+
+Ion Boost Multi EX EH-SS85
+
+★★
+
+★★★
+
+★★
+
+★★
+
+★★
+
+★★★
+
+Vitalift RF EH-SR85
+
+★★★
+
+★★
+
+★
+
+★★★
+
+★
+
+★★★
+
+Photo Bright Shot EH-SL85
+
+—
+
+★★
+
+★★★
+
+★★
+
+★★★
+
+—
+
+Vitalift Kassa EH-SP85
+
+★★
+
+—
+
+—
+
+★★
+
+—
+
+★★★
+
+These are Panasonic's own product-comparison ratings, not independently measured clinical scores. They should not be interpreted as evidence that a three-star device produces 50% better results than a two-star device.
+2. What the Japanese categories actually mean
+Lift care (リフトケア): Moving the device across the face in an upward, lifting motion. The footnote defines the technique, not proven long-term lifting.
+
+Moisture care (うるおいケア): Hydration and helping moisturizing ingredients reach the outer skin layers.
+
+Pore care (毛穴ケア): Improving the appearance of pores.
+
+Firmness care (ハリケア): Skin firmness, elasticity and the appearance of plumpness.
+
+Clarity care (透明感ケア): A clearer-looking complexion resulting from smoother skin texture. This doesn't necessarily mean reducing melanin or treating pigmentation.
+
+Muscle training (トレーニング): Transmitting electrical stimulation to muscles to produce contractions, generally through EMS.
+
+The important distinction for your interest in ingredient penetration is that the chart combines fundamentally different technologies and outcomes. Moisturization, muscle contractions, visible lifting and increased collagen production are not interchangeable measures of effectiveness.
+
+3. What the devices actually do
+パナソニック フェイスケア | フェイスケア（スチーマー・美顔器） | Panasonic
+Ion Boost Multi EX — EH-SS85
+Electrical-pulse penetration + iontophoresis + EMS
+
+This is the most relevant model in the pictured chart for getting skincare ingredients into the stratum corneum.
+
+Panasonic describes a two-stage process: high-voltage electrical pulses temporarily create penetration pathways in the outer skin barrier, followed by an ion-based treatment intended to help ingredients enter.
+
+Its BOOST head is advertised as delivering pulses at up to 120 V. Its EMS operates using 5 Hz and 25 Hz stimulation patterns. 
+
+Panasonic
+
+【楽天市場】【公式店】パナソニック リフトケア*美顔器 美顔器 バイタリフトRF ブラック EH-SR85-K 無料ギフトラッピング キメ 乾燥 角質 表情筋 明るさ イオン EMS RF 赤色LED 肌ケア 顔 頬 目元  目袋 送料無料 *引き上げるように機器を動かすこと：Panasonic Store Plus 楽天市場店
+Vitalift RF — EH-SR85
+Radiofrequency + EMS + red LED + ions
+
+This model combines four technologies, including 3 MHz radiofrequency for skin heating. Its main emphasis is firmness and facial-muscle treatment, although it also has an ion-based skincare delivery mode. It does not advertise the same dedicated high-voltage BOOST mechanism as the EH-SS85. 
+
+Panasonic
++1
+
+Panasonic フォトブライトショット EH-SL85を2週間使ってレビュー！話題の光美顔器の使い方や効果を検証 - Rentio PRESS [レンティオプレス]
+Photo Bright Shot — EH-SL85
+LED + intense pulsed light (IPL)
+
+This device concentrates on light-based skin treatment rather than electrical ingredient delivery. It combines approximately 630 nm red light with broad-spectrum 550–1,100 nm IPL, delivered in flashes approximately 1.5 seconds apart. 
+
+Panasonic
+
+Panasonic（パナソニック） バイタリフト かっさ EH-SP85-K [専用ジェル付き お手持ちの美容液や乳液などでもOK 電動かっさ] : アテーネYahoo!店 - 通販 - Yahoo!ショッピング
+Vitalift Kassa — EH-SP85
+EMS + heat + facial massage
+
+This is primarily a contoured facial massage and electrical-muscle-stimulation device, not an ingredient-penetration device.
+
+4. The EH-SS85's actual penetration claims
+Panasonic publishes considerably more specific data for this device than the stars in the chart suggest.
+
+Reported result
+
+Test details
+
+12× hyaluronic acid penetration
+
+One treatment, 8 adults, forearm
+
+6.3× collagen penetration
+
+Comparison with manual application
+
+88% greater increase in skin hydration after 3 hours
+
+One treatment, 10 women, cheeks
+
+Improved appearance of dryness-related fine lines
+
+Four-week, 26-woman half-face comparison
+
+These are Panasonic's manufacturer-reported experiments, not four independent clinical trials. The penetration results concern the outermost skin layer, not delivery into the collagen-producing dermis. 
+
+ec-plus.panasonic.jp
++2
+
+Importantly, the advertised collagen penetration refers to applying collagen as a skincare ingredient. It is not evidence that the device increases your own collagen production sixfold.
+
+5. The EH-SS85's operating parameters and routine
+Here are the five modes and their actual functions, rather than Panasonic's broader skincare categories. 
+
+Panasonic
++1
+
+Mode
+
+Duration
+
+Technology
+
+Intended purpose
+
+CLEAN
+
+3 min
+
+Ions, heat, vibration
+
+Remove residual dirt and dead skin
+
+BOOST
+
+2 min
+
+High-voltage pulses, red LED
+
+Temporarily increase skin permeability
+
+MOIST
+
+3 min
+
+Iontophoresis, heat, optional EMS
+
+Improve moisturizer penetration
+
+BRIGHT UP
+
+3 min
+
+Alternating ion polarity, heat, optional EMS
+
+Deliver vitamin C and moisturizing ingredients
+
+COOL
+
+2 min
+
+Cooling
+
+Temporarily cool and tighten the skin's appearance
+
+Three manufacturer-recommended routines
+Quick — 5 minutes
+
+MOIST or BRIGHT UP
+
+3 min
+
+COOL
+
+2 min
+
+Basic — 10 minutes
+
+CLEAN
+
+3 min
+
+BOOST
+
+2 min
+
+MOIST
+
+3 min
+
+COOL
+
+2 min
+
+MOIST can be replaced with BRIGHT UP.
+Full — 15 minutes
+
+CLEAN 3m
+
+BOOST 2m
+
+MOIST 3m
+
+BOOST 2m
+
+BRIGHT UP 3m
+
+COOL 2m
+
+The full routine permits either MOIST or BRIGHT UP in each of its two three-minute treatment slots.
+For ingredient penetration, the key sequence is BOOST immediately followed by MOIST or BRIGHT UP. Panasonic instructs you to hold the BOOST head against each area for approximately three seconds, move when its vibration stops, and then use the ion head with your skincare product. The temporary pathways naturally close. 
+
+Panasonic
++1
+
+6. Electrical and battery specifications
+Parameter
+
+EH-SS85
+
+Advertised BOOST voltage
+
+120 V
+
+BOOST contact interval
+
+Approximately 3 seconds
+
+EMS frequencies
+
+5 Hz and 25 Hz
+
+EMS intensity
+
+3 levels plus off
+
+Heat settings
+
+Approximately 38, 42 and 46°C
+
+Charging power
+
+Approximately 5 W
+
+Charging time
+
+Approximately 3 hours
+
+Battery life
+
+Approximately five 10-minute sessions
+
+Weight
+
+195 g
+
+
+Panasonic
++2
+The 120 V specification is particularly interesting, but it is not enough to determine how powerful its electroporation is. Panasonic does not publish a complete set of pulse-width, current, energy-per-pulse and electrical-field specifications in these consumer product pages. Similarly, the 5 W rating describes power consumption while charging, not the electrical power entering your skin.
+
+For comparison, the RF EH-SR85 is rated at 7 W while charging, the Kassa EH-SP85 at 6 W while charging, and the corded Photo Bright Shot at approximately 43 W during flash preparation. Those figures are not directly comparable measures of treatment strength. 
+
+Panasonic
++2
+
+For your ingredient-penetration goal: the EH-SS85 has a dedicated pulse-based permeability treatment and actual manufacturer-reported penetration measurements. Its EMS and red LED are additional features, but the main reason to consider it over the other three pictured devices is the BOOST-plus-ion delivery system. That is a more meaningful distinction than its three-star moisturizing rating.
+
+One final detail: this is an older comparison chart. Panasonic's newer lineup also includes the Vitalift RF EX EH-SR86, which uses 4 MHz RF rather than the pictured EH-SR85's 3 MHz. 
+
+Panasonic
+
+User attachment
+Can you compare all devices in this family and release dates from 5 years ago release date
+I’ll map Panasonic’s Japanese facial-device lineup from 2021 through 2026, including the models in your screenshots and their successors. I’ll check the original release dates, underlying technologies and which devices actually add something new versus replacing an older model.
+
+Organized product research
+
+Verified the timeline
+
+Compared technical generations
+
+Resolved remaining details
+
+Synthesized the comparison
+
+Finalized the lineup
+
+Completed the lineage
+
+Panasonic's Japanese facial-device lineup has evolved considerably over the last five years. The important distinction is that Panasonic has several separate product families: Ion Boost for ingredient penetration, Vitalift RF for skin heating and EMS, Vitalift Kassa for muscle stimulation, and Photo Bright Shot for light treatments.
+
+There is also a brand-new RF device that wasn't in your screenshots: the Vitalift RF LUXE EH-SR90, announced September 15, 2026, with a planned November 2026 release. It introduces adjustable 1–6 MHz RF and a redesigned EMS system. 
+
+Panasonic Newsroom
+
+1. Five-year release history
+Japanese release dates, covering November 2021 through the upcoming November 2026 launch.
+
+Release
+
+Model
+
+Main technology
+
+Nov 1, 2021
+
+Ion Boost EH-ST99
+
+Ions, high-molecular-weight ingredient delivery
+
+Nov 1, 2021
+
+Ion Boost Mask EH-SM50
+
+Wearable ion delivery
+
+Jul 1, 2022
+
+Photo Bright Shot EH-SL85
+
+Red LED + IPL
+
+Jul 1, 2022
+
+Vitalift Kassa EH-SP85
+
+EMS + massage
+
+Nov 1, 2022
+
+Vitalift RF EH-SR85
+
+3 MHz RF + EMS + LED + ions
+
+Nov 1, 2022
+
+Ion Boost Multi EH-ST0A
+
+Enhanced ion delivery
+
+Nov 1, 2023
+
+Ion Boost Multi EX EH-SS85
+
+120 V pulses + ions + EMS
+
+Nov 1, 2023
+
+Vitalift Brush EH-SP60
+
+Scalp and facial EMS + ions
+
+Nov 1, 2024
+
+Vitalift RF EX EH-SR86
+
+4 MHz RF + improved EMS
+
+May 2025
+
+Vitalift Kassa EH-SP86
+
+Redesigned dual EMS + massage
+
+Nov 2026 (planned)
+
+Vitalift RF LUXE EH-SR90
+
+Variable 1–6 MHz RF + enhanced EMS
+
+The dates come from Panasonic's release announcements and Japanese product records. The 2026 model has been announced but has not yet reached its scheduled release date. 
+
+Panasonic Newsroom
++9
+
+2. How the generations differ
+Ion Boost: ingredient penetration
+Panasonic Ion Facial Device Ion Boost Multi Cordless Gold Tone EH-ST0A – Goods Of Japan
+2022 — EH-ST0A
+
+Introduced an improved BOOST head with approximately 1.6 times its predecessor's electrical output, six treatment modes and a manufacturer-reported 8× hyaluronic acid penetration result in a 10-person forearm study. 
+
+Panasonic
+
+【楽天市場】Panasonic パナソニック イオン美顔器 イオンブースト マルチ EX ホワイト EH-SS85-W イオン導入美顔器 国内・海外対応 EHSS85W クリスマス 誕生日 ギフト プレゼント：雅美良品 楽天市場店
+2023 — EH-SS85
+
+Introduced a separate 120 V Power Boost head, added dual-dynamic EMS and retained ion delivery, heating, cooling and red LED. Panasonic reports 12× hyaluronic acid penetration in an eight-person forearm study. 
+
+Panasonic
+
+The EH-SS85 remains Panasonic's latest listed dedicated Ion Boost Multi EX as of October 2026. Its 12× result is not directly comparable with the ST0A's 8× result because the studies used different subjects and protocols.
+Vitalift RF: skin heating and muscle stimulation
+【楽天市場】【公式店】パナソニック リフトケア*美顔器 美顔器 バイタリフトRF ブラック EH-SR85-K 無料ギフトラッピング キメ 乾燥 角質 表情筋 明るさ イオン EMS RF 赤色LED 肌ケア 顔 頬 目元  目袋 送料無料 *引き上げるように機器を動かすこと：Panasonic Store Plus 楽天市場店
+2022 · SR85
+
+3 MHz RF
+
+【楽天市場】パナソニック　リフトケア美顔器　バイタリフト RF EX EH-SR86-T　ブラウン　フェイシャルスキンケア　美顔器　エイジングケア：リブレ
+2024 · SR86
+
+4 MHz RF
+
+概要 リフトケア美顔器 バイタリフト RF EX EH-SR86 | フェイスケア（スチーマー・美顔器） | Panasonic
+2026 · SR90
+
+1–6 MHz RF
+
+Specification
+
+SR85
+
+SR86
+
+SR90
+
+RF frequency
+
+3 MHz
+
+4 MHz
+
+1–6 MHz
+
+RF electrodes
+
+4
+
+4
+
+8
+
+EMS
+
+Original dual dynamic
+
+EX
+
+LUXE
+
+Ions
+
+Yes
+
+Yes
+
+Improved
+
+Red LED
+
+Yes
+
+Yes
+
+Yes
+
+Modes
+
+4
+
+5
+
+5
+
+Advertised care functions
+
+9
+
+13
+
+16
+
+Panasonic's documented specifications and product comparisons. 
+
+Panasonic Newsroom
++2
+The SR86 added a cleansing mode and increased EMS contraction time. The upcoming SR90 introduces variable-frequency RF, simultaneous combinations of EMS waveforms, and eight electrodes instead of four. Despite doubling its electrode count, its RF heating area is only approximately 6% larger than the SR86's—not twice as large. 
+
+Panasonic
++1
+
+Vitalift Kassa: dedicated EMS
+Panasonic バイタリフト かっさ EH-SP85-K Panasonic / バイタリフト かっさ EH-SP85 K・ブラックの公式商品情報
+2022 — EH-SP85
+
+Two electrodes, facial EMS, heat and manual gua sha-style massage.
+
+パナソニック　Panasonic　リフトケア美顔器 バイタリフト かっさ［EMS美顔器/国内・海外対応］ブラック　EH-SP86-K : コジマYahoo!店 - 通販 - Yahoo!ショッピング
+2025 — EH-SP86
+
+Four electrodes, 100 Hz tapping-style EMS, plus combined 5 Hz and 25 Hz stimulation. Offers four- and eight-minute treatment programs.
+
+The SP86 adds two electrodes and moves them closer to the tip for use around smaller facial areas. Neither generation has radiofrequency or a dedicated ingredient-delivery system. 
+
+Panasonic Newsroom
++1
+
+Photo Bright Shot: light treatments
+【楽天市場】Panasonic パナソニック フォト ブライトショット EH-SL85-W（美顔器）ホワイト 送料無料：ギフトとグルメの送・食・系
+2022 — EH-SL85
+
+Uses approximately 630 nm red LED and 550–1,100 nm IPL, with flashes approximately every 1.5 seconds. This model is specifically designed around improving skin tone, texture and the appearance of dullness, rather than EMS or electrical ingredient delivery. Panasonic still lists the EH-SL85 in its current lineup. 
+
+Panasonic
++1
+
+I'm only interested ion boost and vitalift. Are these top products for rf and penetration in Japan. Can you find me the best of each model for penetration and what you think about each model in a tier list
+Researched Japanese devices
+
+I’ll compare Panasonic’s Ion Boost and Vitalift models with the main Japanese competitors, then make separate tier lists for ingredient penetration and RF. I’ll weigh the technology, published testing, current prices and whether newer models offer a meaningful upgrade—not just the manufacturers’ marketing claims.
+
+Refined the comparison
+
+Compared leading models
+
+Ranked Panasonic alternatives
+
+
+Searched 8 websites
+
+One important finding: YA-MAN's Photo Plus Deep Lift is a genuine combined RF-and-penetration alternative, with 1–4 MHz RF and patented high-voltage delivery pulses. Panasonic's EH-SS85 has more specific published penetration measurements, while the forthcoming Vitalift SR90 adds better ion delivery but is primarily an RF device.
+
+Compared Japanese skincare devices and weighed final tiers
+
+Compared the leaders
+
+Synthesized the ranking
+
+Yes—Panasonic's Ion Boost and Vitalift are serious contenders in Japan's premium home-skincare market, but they excel at different things. For ingredient penetration, the EH-SS85 is particularly interesting because Panasonic publishes actual penetration measurements. For RF, the EH-SR86 is its current flagship, with a substantially revised EH-SR90 scheduled for November 2026.
+
+There is also a direct competitor worth considering: Japanese manufacturer YA-MAN makes premium devices combining RF with proprietary electrical-pulse delivery systems. These make more sense as competitors than comparing the Panasonic devices against ordinary EMS facial massagers.
+
+I'll use two separate tier lists. The ratings are my buying recommendations based on specifications, available evidence and value—not a ranking established by independent head-to-head clinical trials.
+
+1. Best devices for ingredient penetration
+S tier · Dedicated penetration
+パナソニック フェイスケア | フェイスケア（スチーマー・美顔器） | Panasonic
+Panasonic Ion Boost Multi EX EH-SS85
+Released November 2023
+
+My Panasonic pick for penetration
+
+120 V high-voltage BOOST pulses followed by ion-based delivery.
+
+Manufacturer-reported 12× hyaluronic acid and 6.3× collagen penetration compared with manual application.
+
+Additional EMS, heating, cooling and red LED.
+
+Panasonic tested hyaluronic acid delivery on eight people's forearms in a single-treatment experiment. The result concerns penetration into the outermost skin layer, not delivery into the dermis. 
+
+Panasonic
++1
+
+The EH-SS85 is a more purpose-built penetration device than the Vitalift RF models. Panasonic's upcoming EH-SR90, for comparison, reports approximately 1.3× vitamin C penetration with its MOIST mode compared with manual application. Because different substances and study protocols were used, that doesn't establish that the EH-SS85 is 9.2 times better. 
+
+Panasonic Newsroom
+
+Appareil de beauté du visage YA-MAN Photo Plus Deep Lift Lifting RF EMS YJFA1T Bronze acheter à prix bas — livraison gratuite, avis réels avec des photos — Joom
+S tier · Best combined device
+YA-MAN Photo Plus Deep Lift
+Released February 2025 · ¥79,200
+
+My pick if you want penetration and RF in one device.
+
+It combines 1–4 MHz RF, DYHP electrical pulses, iontophoresis and EMS. Its delivery system uses short, high-voltage pulses to create temporary pathways for skincare ingredients. YA-MAN specifically targets vitamin C derivatives, tranexamic acid and niacinamide.
+
+In a 13-woman half-face experiment, YA-MAN reported approximately 42% higher skin hydration than skincare alone after one treatment. It also reports forearm penetration tests in 10 men, but these do not establish superiority over Panasonic's BOOST system. 
+
+GLOBAL YA-MAN
++2
+
+Panasonic Ion Facial Device Ion Boost Multi Cordless Gold Tone EH-ST0A – Goods Of Japan
+A tier · Best budget value
+Panasonic Ion Boost Multi EH-ST0A
+Released November 2022 · Around ¥24,000
+
+This is the older generation I would actively look for at a discount. Panasonic reports 8× hyaluronic acid and 9.3× oligopeptide-1 penetration in its own 10-person forearm tests. It has a dedicated BOOST head, ion delivery, heating and cooling, but no EMS. Production has ended, so availability and battery condition matter. 
+
+Panasonic
++1
+
+Panasonic（パナソニック） マスク型イオン美顔器 イオンブースト ゴールド調 [イオン導入美顔器 /国内・海外対応] EH-SM50 : コジマYahoo!店 - 通販 - Yahoo!ショッピング
+A tier · Sheet-mask specialist
+Panasonic Ion Boost Mask EH-SM50
+Released November 2021
+
+This wearable device is interesting for hands-free treatments. Panasonic reported 10× hyaluronic acid penetration when combined with a sheet mask versus the sheet mask alone. It is considerably less versatile than the EH-SS85, and that 10× figure comes from a different experiment. 
+
+news.panasonic.com
++1
+
+【パナソニック公式通販】
+B tier · Older-generation option
+Panasonic Ion Boost EH-ST99
+Released November 2021
+
+An older but genuine electrical-pulse penetration device. Panasonic reported 5.7× hyaluronic acid and 5× collagen penetration. I would generally choose the EH-ST0A instead unless this model were substantially cheaper. 
+
+パナソニックビューティさんのブログ
+
+One important detail about the EH-SS85: Panasonic used relatively low-molecular-weight hyaluronic acid (5,000–10,000 Da) and hydrolyzed collagen (1,000–5,000 Da) in its penetration experiments. The impressive multipliers cannot automatically be applied to every commercial serum, particularly products containing much larger molecules. 
+
+Panasonic
+
+2. Best devices for RF
+These are my tiers for RF-oriented purchases, taking account of the technology, treatment versatility, price and evidence available as of October 1, 2026.
+
+“with Panasonic Beauty”アプリ | フェイスケア（スチーマー・美顔器） | Panasonic
+S tier · Most advanced Panasonic RF
+Vitalift RF LUXE EH-SR90
+Upcoming · Panasonic store ¥99,000
+
+Variable 1–6 MHz RF.
+
+Eight electrodes and approximately 6% more RF heating area than the SR86.
+
+Revised combined-waveform EMS and improved ion delivery.
+
+Manufacturer-reported 1.3× vitamin C penetration through its MOIST mode.
+
+This is Panasonic's most advanced RF design on paper. Its online store lists an October 31 release, while the original announcement says early November. I would wait for independent measurements before assuming the extra frequency range translates into significantly greater wrinkle reduction. 
+
+Panasonic
++1
+
+EH-SR86 購入 - リフトケア★美顔器 バイタリフト RF EX | フェイスケア（スチーマー・美顔器） | Panasonic
+S tier · Best Panasonic RF to buy now
+Vitalift RF EX EH-SR86
+Released November 2024 · Around ¥67,500
+
+The 4 MHz RF, EMS, red LED and ion-delivery combination offers nearly all the functions I would expect in a premium all-in-one RF facial device. The newest model adds useful engineering improvements, but it costs substantially more. The SR86 is my value-oriented Panasonic RF choice. 
+
+Panasonic
++1
+
+理想のエイジングケアを追求し進化し、より速熱性＆より深いアプローチを叶える1台　RF美顔器「Bloom 6（ブルームシックス）」｜YA-MAN TOKYO JAPAN｜ヤーマン株式会社
+A tier · Dedicated RF competitor
+YA-MAN Bloom 6
+¥77,000
+
+A specialist RF model using a five-ring electrode design, ten RF waveform patterns across 0.5–2.5 MHz and resistance-based output adjustment. It also has EMS and LED. I particularly like the attention to adapting the heating output to skin-contact conditions, although comparable clinical results against Vitalift haven't been established. 
+
+Ya Man Tokyo Japan
++1
+
+Портативний пристрій для радіочастотного ліфтингу NEWА+  NEWA+ - купити в Києві та Україні, ціна, відгуки | Skin(tet)
+A tier · Dedicated RF alternative
+NEWA Lift Plus
+Japanese retail · ¥75,680
+
+A more specialized option using 1 MHz RF rather than combining several different facial technologies. It features a motion sensor and automatic pauses when its temperature sensor detects over 42°C. I would consider it for someone interested specifically in controlled RF heating, not penetration or EMS. 
+
+プラスリストア公式ブランドサイト
+
+Panasonic EH-SR85-K Facial Beauty Device Vitalift RF New JP | eBay
+B tier · Only at a substantial discount
+Vitalift RF EH-SR85
+Released November 2022
+
+Still a capable 3 MHz RF, EMS, LED and ion device. However, the SR86 has a newer RF and EMS design, an additional cleansing mode and comparable current Japanese retail pricing. The SR85 makes sense primarily as a discounted used or open-box purchase. 
+
+Panasonic Newsroom
++1
+
+The Vitalift Kassa EH-SP85 and EH-SP86 are not included in the RF tiers because they are EMS and massage devices, not RF devices. Likewise, YA-MAN's ¥220,000 Prestige SP III has CERTEC thermal-electrical technology and DYHP, rather than the conventional RF system of the Deep Lift. Its ¥385,000 THE MIYABI includes both CERTEC and RF, but I don't see adequate comparative clinical evidence to justify that enormous premium for your two goals. 
+
+ヤーマン株式会社
++1
+
+The only think I'm worried about with an rf device is does it have published temp because it has to get hot enough and high enough to make sure it's remodeling collagen. So can you look into specs specifically for these devices compared to others
+
+Worked for 31m 8s
+Your concern is justified: RF frequency alone doesn't tell us whether a device heats the dermis enough to stimulate collagen remodeling. A Panasonic device operating at 6 MHz is not necessarily more effective than a 1 MHz device that maintains a verified therapeutic temperature.
+
+One particularly important finding is that CurrentBody publishes a 43°C skin-temperature cutoff, while NEWA claims to maintain a surface temperature of 40–42°C and heat the underlying dermis to 50–52°C. Panasonic and YA-MAN publish extensive frequency and heating-performance information, but their consumer specifications are considerably less explicit about actual treatment temperatures. 
+
+CurrentBody
++3
+
+1. What temperature is actually needed?
+Temperature versus biological effect
+Approximate tissue-temperature ranges; effects depend on exposure time, depth and treatment protocol.
+
+Below 40°C
+
+Mild warming
+
+Limited evidence for meaningful remodeling from temperature alone.
+
+40–45°C
+
+Heat-stress response
+
+Potential fibroblast stimulation with sustained, controlled exposure.
+
+45–50°C
+
+Stronger thermal stimulation
+
+Greater thermal dose; increasing risk if exposure is excessive.
+
+50–60°C
+
+Substantial tissue heating
+
+Can promote collagen changes but requires careful depth and temperature control.
+
+60°C+
+
+Rapid denaturation / injury risk
+
+Increasing risk of coagulation and tissue injury, depending on duration.
+
+Based on published RF research, including a 2025 review of thermal effects and a 2024 experimental study of controlled dermal heating. 
+
+Wiley Online Library
++1
+There are two different mechanisms to distinguish. Sustained, moderate heating around 43–45°C has been associated with fibroblast stimulation and extracellular-matrix production in laboratory experiments. More immediate collagen contraction generally involves substantially higher tissue temperatures, often around 57–61°C or above. Those higher temperatures are not appropriate targets for unmonitored home treatment. 
+
+Wiley Online Library
++1
+
+Crucially, skin-surface temperature is not the same as dermal temperature. Professional RF equipment can heat deeper tissue more strongly while protecting the epidermis. A 2024 animal study, for example, measured approximately 50–60°C in the dermis while keeping the skin surface under approximately 42–45°C. That result cannot be assumed for a consumer device without equivalent measurements. 
+
+Wiley Online Library
+
+2. Device-by-device temperature comparison
+I checked the manufacturers' specifications, technical descriptions and available clinical evidence. "Not published" below means I could not find a documented numerical treatment temperature, not that the device lacks temperature controls.
+
+Device
+
+RF frequency
+
+Published skin temperature
+
+Published dermal temperature
+
+NEWA Lift Plus
+
+1 MHz
+
+40–42°C
+
+50–52°C, manufacturer claim 
+
+mynewa.com
++1
+
+CurrentBody Skin RF
+
+1 MHz
+
+43°C cutoff
+
+Not published 
+
+CurrentBody
+
+Silk'n Titan Mini
+
+Not confirmed
+
+43°C cutoff
+
+Not published 
+
+Silk'n
+
+Silk'n Titan MultiPlatform
+
+Not confirmed
+
+43°C cutoff
+
+Not published 
+
+Silk'n
+
+TriPollar STOP Vx 2
+
+Not disclosed
+
+Adaptive thermal mapping; no numeric target found
+
+Not published 
+
+FDA-Cleared At-Home RF Anti-Aging ...
+
+Panasonic Vitalift EH-SR85
+
+3 MHz
+
+Not published
+
+Not published 
+
+Panasonic
++1
+
+Panasonic Vitalift EX EH-SR86
+
+4 MHz
+
+Not published
+
+Not published 
+
+Panasonic
++1
+
+Panasonic Vitalift LUXE EH-SR90
+
+1–6 MHz
+
+Not published
+
+Not published 
+
+Panasonic
++1
+
+YA-MAN Bloom 6
+
+0.5–2.5 MHz
+
+Not published
+
+Not published 
+
+ヤーマン株式会社
+
+
+1–4 MHz
+
+Not published
+
+Not published 
+
+GLOBAL YA-MAN
+
+Medicube Ultra Tune 40.68
+
+40.68 MHz
+
+Not published
+
+Not published 
+
+Skin Elasticity & Line Care Device
+
+Temperatures are manufacturers' stated operating specifications or claims, rather than comparable independent measurements obtained under a single protocol.
+The absence of a published dermal temperature is particularly relevant. A device can provide pleasant surface warmth without establishing that collagen-producing tissue received the intended thermal dose.
+
+3. What the manufacturers' specifications reveal
+【楽天市場】NEWA リフトプラス ／ 美顔器 NEWAリフト ニューアリフト 肌 引き締め フェイスケア コードレス ジェイメック 【TBSショッピング】：TBSショッピング　楽天市場店
+NEWA Lift Plus
+Publishes both surface and dermal targets
+NEWA specifies 10 W RF output, 1 MHz operation and a six-electrode 3DEEP configuration. It claims heating of 50–52°C in the dermis while keeping the surface at 40–42°C, automatically suspending RF output when the surface becomes too warm. 
+
+mynewa.com
++1
+
+However, I did not find an independently published, in-vivo temperature study verifying that exact 50–52°C dermal figure for the home device. It should be treated as a manufacturer's claim, not an established measurement in every user's skin.
+
+CurrentBody Skin RF Radio Frequency Anti-Wrinkle Device - QVC UK
+CurrentBody Skin RF
+Explicit 43°C safety cutoff
+Its 1 MHz RF system has three power levels, temperature sensing and automatic cycling of RF output at 43°C. Its treatment area is approximately 2.2 cm². Higher settings are designed to heat the skin more quickly, rather than change the temperature cutoff. 
+
+CurrentBody
++1
+
+This is useful engineering transparency. It still doesn't tell us the maximum dermal temperature or prove that a particular collagen-remodeling threshold is achieved.
+
+バイタリフトRF EX EH-SR86-T | 商品詳細 | 高島屋オンラインストア
+Panasonic Vitalift LUXE EH-SR90
+More detailed RF specifications, but no numeric treatment-temperature target.
+
+Panasonic discloses eight electrodes, variable 1–6 MHz RF and approximately 6% more heating area than the SR86. Its maximum RF PUMP output is 1.6× its own RF + EMS LIFT mode. 
+
+Panasonic
+
+Panasonic does not give a publicly verifiable surface-temperature setpoint or dermal-temperature measurement in the specifications I located. Its stated 7 W power consumption is measured during charging, not RF treatment. 
+
+Panasonic
+
+理想のエイジングケアを追求し進化し、より速熱性＆より深いアプローチを叶える1台　RF美顔器「Bloom 6（ブルームシックス）」｜YA-MAN TOKYO JAPAN｜ヤーマン株式会社
+YA-MAN Bloom 6
+Interesting heating design, but incomplete temperature disclosure.
+
+Its ten RF waveform patterns use 0.5–2.5 MHz frequencies. A resistance-measurement system adjusts output according to the electrical properties encountered during treatment.
+
+YA-MAN reports 45% faster temperature rise, 41% improved heating uniformity and 71% greater heating depth versus Bloom 5 in its own comparative testing. These relative figures don't establish a temperature achieved inside living human dermis. 
+
+ヤーマン株式会社
+
+For the older Panasonic models, the SR85's RF PUMP mode delivers 1.2× the RF output of its own combined RF-and-EMS mode. The SR86 reports 1.7× for the corresponding comparison. These are within-device mode comparisons; they do not mean the SR86 generates 1.7 times as much RF energy as the SR85. 
+
+Panasonic
++1
+
+4. Clinical evidence: do
+
+
+
+0MHz

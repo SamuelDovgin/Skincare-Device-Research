@@ -1,0 +1,799 @@
+RF market/frequency research notebook — accessed 2026-10-01 America/Chicago
+Scope: broad official-market census, primary regulatory extraction and focused clinical/mechanistic update. Not a systematic review or global SKU census. Search-result collateral not relied on is not an evidence source.
+Section map: S01–S47/S54/S69→market; S48–S57→frequency/clinical; S58–S73→discovery/corroboration/access limitations.
+
+[S01] CurrentBody Skin RF ST030 — FDA K232424
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf23/K232424.pdf
+Accessed:2026-10-01 America/Chicago
+Class: primary regulatory
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: 1 MHz bipolar; 5 ±1 W; two thermistors; maximum allowed 40.5 ±0.5°C; adults I–IV; substantial equivalence without new clinical testing.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: source_docs/FDA_K232424_CurrentBody.pdf; captured2026-10-01; sha256 d9577b79e4d9f7ae1d6b4603cb9807bdb585aab245cf01364cac96f4737b7171
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S02] NEWA — FDA DEN150005
+URL: https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN150005.pdf
+Accessed:2026-10-01 America/Chicago
+Class: primary regulatory
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: 1 MHz; 10 W/360 ohm bench load; RF stops above 42°C; 69 enrolled/62 completed; 59/62 blinded wrinkle responders; single-arm adult women I–IV.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: source_docs/FDA_DEN150005_NEWA.pdf; captured2026-10-01; sha256 862a7d812869eacbdda05ef0102e9dea7a7709d4d16a906b8468b6d761655096
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S03] Sensilift Pro ST300 — FDA K250341
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250341.pdf
+Accessed:2026-10-01 America/Chicago
+Class: primary regulatory
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: 1 MHz bipolar; 6 ±1 W; maximum 40 ±0.5°C; redundant thermistors; once weekly 8 weeks, 5 minutes/area; no new subject-device clinical testing.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: source_docs/FDA_K250341_Sensilift_Pro.pdf; captured2026-10-01; sha256 5c64ca21c04e9b18b3c915507e0577cfcd18f4e73109fa74e5d882711173f893
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S04] Panasonic Vitalift RF EX EH-SR86
+URL: https://panasonic.jp/face/products/EH-SR86.html
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: 4 MHz RF; RF/EMS/LED/ion multimodal; 653-purchaser satisfaction survey is consumer evidence, not histologic collagen evidence.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S05] Panasonic Vitalift RF EH-SR85
+URL: https://panasonic.jp/face/products/EH-SR85.html
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: 3 MHz RF combined with EMS, LED, ion; nine advertised care roles.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S06] Panasonic 2025 RF EX/RF brochure
+URL: https://panasonic.jp/catalog/ctlg/vitalift_rf_ex/vitalift_rf_ex.pdf
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: EH-SR75 2 MHz; SR85 3 MHz; SR86 4 MHz. Special-care modes 2–3/week; daily moisture mode distinct.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: source_docs/Panasonic_RF_EX_RF_2025_brochure.pdf; captured2026-10-01; sha256 3f110fb10e882afcb0ccce116f60e60c658887961d2510189bdd8cbb8257e57d
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S07] Panasonic Vitalift RF LUXE EH-SR90
+URL: https://panasonic.jp/face/products/EH-SR90.html
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: 6 MHz RF; eight-electrode architecture; comparison with four electrodes of SR86. No numeric tissue-temperature target in text reviewed.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S08] Panasonic EH-SR90 purchase page
+URL: https://panasonic.jp/face/products/EH-SR90/shopping.eh-sr90-k.html
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: JPY99,000; preorders; listed launch 2026-10-31. Not shipping availability on 2026-10-01.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S09] Panasonic September 2026 announcements
+URL: https://panasonic.jp/whatsnew.html
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: September 15 announcement lists SR90 early-November launch, unlike shop date October 31; regional timing must be rechecked.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S10] Panasonic EH-SR72 specification
+URL: https://panasonic.jp/face/products/EH-SR72/spec.html
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Specification lists ultrasound at 1 MHz and charging consumption; neither can automatically be relabeled RF output.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S11] Panasonic EH-SR73 specification
+URL: https://panasonic.jp/face/products/EH-SR73/spec.html
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Specification lists ultrasound at 1 MHz and charging consumption; neither can automatically be relabeled RF output.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S12] Panasonic EH-SR74 specification
+URL: https://panasonic.jp/face/products/EH-SR74/spec.html
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Specification lists ultrasound at 1 MHz and charging consumption; neither can automatically be relabeled RF output.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S13] Panasonic official 2021 RF campaign
+URL: https://ec-plus.panasonic.jp/store/page/campaign/beauty_winter2021/
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: EH-SR74 combines 1 MHz RF with ultrasound; historical campaign ended.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S14] Panasonic Sonic RF Lift EH-SR75
+URL: https://panasonic.jp/face/products/EH-SR75.html
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Legacy Sonic RF Lift model; corroborated by 2025 brochure; active sales not established.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S15] YA-MAN Bloom 6 YJFS16PN1
+URL: https://www.ya-man.com/en/products/bloom-6.php
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: 0.5–2.5 MHz Multi RF, five-layer electrode, resistance and touch sensing; FAQ six minutes/ten power-level, five days/week; inconsistent five-minute spec.
+Limits: No measured dermal-temperature map or current-model randomized collagen trial supplied.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S16] YA-MAN Bloom 5 YJFS16YL
+URL: https://www.ya-man.com/Form/Product/ProductDetail.aspx?bid=yaman_tokyo_japan&cat=101&pid=rr00663&shop=0
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Five rings and Multi RF; JPY95,700 Japan listing; number 5 is not proof of 5 MHz.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S17] YA-MAN Bloom 5 international listing
+URL: https://international-shop.ya-man.com/collections/face-care-devices/products/bloom-5
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: International five-layer/Multi RF listing; do not merge regional pricing/specs.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S18] YA-MAN Bloom WR STAR S12 PLUS
+URL: https://www.ya-man-tokyo-japan.com/products/forface/rf-bloom-wr-star.html
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Triple Boost RF; four rings; RF/EMS/red light; six minutes; JPY77,000; 15% faster heating vs S12 is manufacturer comparison.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S19] YA-MAN Bloom WR STAR global
+URL: https://global.ya-man.com/products/bloom-wr-star-s12-plus
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Three RF waves; no exact numeric MHz/dermal temperature verified in reviewed text.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S20] YA-MAN Bloom WR STAR English
+URL: https://www.ya-man.com/en/products/bloom-wr-star.php
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Triple Boost and short six-minute treatment; manufacturer evidence.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S21] YA-MAN Bloom EYE SEYE1
+URL: https://www.ya-man.com/en/products/bloom-eye.php
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: 1 MHz RF with weak electrical currents; specialized eye-area design; sensors; not whole-face equivalence.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S22] YA-MAN Photo PLUS Prestige S M20/M206
+URL: https://international-shop.ya-man.com/collections/beauty-devices/products/photo-plus-prestige-s
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: 3 MHz RF; multimodal; JPY90,000 listing, sold out; region M206 vs core M20.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S23] YA-MAN Photo PLUS Prestige SP M22
+URL: https://global.ya-man.com/products/photo-plus-prestige-sp
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: 1–3 MHz prose, 3 MHz spec; US$1,250 sold out; eight-week elasticity percentage marketing without full comparative study.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S24] YA-MAN Photo PLUS Prestige PRO M30
+URL: https://www.ya-man.com/en/products/photo-plus-prestige-pro.php
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: 3 MHz RF plus NEO DYHP/EMS/ion/LED; do not transfer to later CERTEC model.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S25] YA-MAN Shiny NEO YJFM18
+URL: https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-shiny-neo.html
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Daily mode 3 MHz RF; weekly DYHP triple RF. Immediate half-face changes explicitly temporary; not direct collagen regeneration.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S26] YA-MAN Shiny NEO global shop
+URL: https://global.ya-man.com/products/photoplus-shiny-neo
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: US$650 sold out; daily three-minute and weekly multimodal workflow.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S27] YA-MAN Deep Lift YJFA1T
+URL: https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-deep-lift.html
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Current D×LIFT/absorption-care model; exact MHz not present in readable text reviewed.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S28] YA-MAN official model comparison
+URL: https://international-shop.ya-man.com/pages/compare-products
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Prestige Pro/SP II/SP III nomenclature and CERTEC distinctions; conflicting generation labels require SKU/IFU resolution.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S29] YA-MAN Photo PLUS Prestige SP III
+URL: https://international-shop.ya-man.com/collections/photo-plus-series/products/photo-plus-prestige-sp3
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: CERTEC and RF combination copy; do not assign M22 frequency automatically.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S30] YA-MAN Cavispa RF Core PLUS
+URL: https://www.ya-man.com/en/products/cavispa-rf-core-plus.php
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: 1 MHz RF and 330 kHz ultrasound with EMS; body/face permitted areas differ; lard demonstration not human fat-loss evidence.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S31] YA-MAN product catalog
+URL: https://www.ya-man.com/en/products/
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Current families: Bloom, Photo PLUS, Cavispa; separates EMS-only masks/brushes and optical devices.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S32] YA-MAN regional catalog
+URL: https://www.ya-man-tokyo-japan.com/
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Legacy/regional Photo PLUS, Bright Lift, Bloom, and Cavispa names; family discovery only, not individual numeric specs.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S33] YA-MAN current user-manual register
+URL: https://global.ya-man.com/pages/user-manuals
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Model identity: M21 SS, M22 SP, M30 Pro, YJFM24V SP II, YJFM25B SP III; older variants separate.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S34] YA-MAN legacy manual register
+URL: https://global.ya-man.com/pages/user-manual
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: S10 Bloom Red, S12 WR, HRF10T Photo PLUS, HRF20PEYE EX Eye Pro, HRF11 Hyper. Explicit reproduction restriction; no manual mirror.
+Limits: Catalog identity is not thermal dose or clinical evidence.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S35] YA-MAN Photo PLUS EX Eye Pro
+URL: https://global.ya-man.com/pages/photo-plus-ex-eye-pro
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: HRF20P-EYE RF/EMS/ion/LED/microcurrent/vibration/cooling; exact MHz not verified in text.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S36] MimiSilk Vera RF Sculpt product
+URL: https://www.mimisilk.com/products/mimisilk-vera-rf-sculpt-6-25mhz-gel-free-radio-frequency-skin-lifting-device
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: 6.25 MHz multipolar gel-free stamp device, up to 18 W, US$699 vs $799 struck through; 2.5–3 mm claimed; conflicting sold-out/cart controls.
+Limits: No independent depth-temperature validation or exact-device peer-reviewed trial found.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S37] MimiSilk Vera regional FAQ
+URL: https://www.mimisilk.com/fr/products/mimisilk-vera-rf-sculpt-6-25mhz-gel-free-radio-frequency-skin-lifting-device
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Claims 4.5/9/18 W; dermis 45–46/47–48/49–50°C, surface below 117°F (47.2°C), impedance control and 6–10-second stamps.
+Limits: Temperatures are manufacturer assertions; measurement method and independent validation absent.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S38] MimiSilk Vera usage guide
+URL: https://www.mimisilk.com/blogs/news/how-to-use-mimisilk-vera-rf-sculpt-full-guide-expected-results
+Accessed:2026-10-01 America/Chicago
+Class: marketing/consumer
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Claims dermis 45/47/52°C at 4.5/9/18 W; conflicts with product FAQ top level 49–50°C.
+Limits: Cannot choose the hotter figure as verified; generic collagen story does not validate dosing.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S39] MimiSilk professional-frequency comparison
+URL: https://www.mimisilk.com/blogs/news/professional-grade-rf-frequency-at-home-how-mimisilk-vera-closes-the-gap-safely
+Accessed:2026-10-01 America/Chicago
+Class: marketing/consumer
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Compares 6.25 MHz with Thermage 6.78 MHz; claims higher frequency deeper and 45°C contraction threshold.
+Limits: MHz proximity does not establish comparable geometry, thermal dose, efficacy or safety.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S40] MimiSilk Vera engineering explanation
+URL: https://www.mimisilk.com/pages/vera-how-it-works
+Accessed:2026-10-01 America/Chicago
+Class: marketing/consumer
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Multipolar displacement-current/dermal-heating explanation; evidence request remains temperature map and independent study.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S41] MimiSilk Vera introduction
+URL: https://www.mimisilk.com/blogs/news/introducing-mimisilk-vera-rf-sculpt-the-gel-free-rf-device-built-for-at-home-skin-lifting
+Accessed:2026-10-01 America/Chicago
+Class: marketing/consumer
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Brand gel-free/high-frequency convenience claims; not a trial.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S42] TriPollar STOP Vx2
+URL: https://uk.mytripollar.com/products/stop-vx-2
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Triple-wave Multi RF, thermal mapping, adaptive DMA; GBP599 sold out; stale April shipping copy must not be called current stock.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S43] TriPollar protocol and family register
+URL: https://uk.mytripollar.com/pages/how-to-use
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: STOP Vx2, Vx Gold2, Vx Gold, Vx, STOP X Rose, Desire, ENVIG EDGE, POSE Vx, STOP EYE2/EYE; gel and orange temperature-guidance protocol.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S44] TriPollar current store collection
+URL: https://mytripollar.com/collections/home-stop
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: ENVIG EDGE GBP899 marketed as home fractional RF and gel-free; no needle or Thermage equivalence inferred.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S45] Sensica RF category
+URL: https://sensica.com/pages/rf-skin-tightening
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Sensilift US$449 auto-stop104°F=40°C; Sensifirm US$449 106.7°F=41.5°C; facial vs body controls distinct.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S46] Medicube AGE-R Ultra Tune 40.68
+URL: https://medicube.us/products/age-r-ultra-tune-40-68
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: RF+microcurrent; US$350/$530 listing; company human application-test outcomes; numeric model label needs IFU verification.
+Limits: No proof that Medicube equals professional POLARGEN/Accent at same frequency.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S47] Silkn Titan MultiPlatform official store
+URL: https://www.silkn.com/products/titan-allways
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: AllWays URL redirects to Titan MultiPlatform; variant identity must be resolved.
+Limits: Does not establish superiority over other current home RF devices.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: redirect to silkn.com/skin-tightening/titan-multiplatform-with-free-gel-SKUS000057.html; product price/stock recheck at purchase.
+
+[S48] Bai/Ni et al RF thermal stimulation — PMID39327749 PMC11743280 DOI10.1111/jocd.16600
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC11743280/
+Accessed:2026-10-01 America/Chicago
+Class: peer-reviewed human
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Reaction/Sinclair CORE 0.8/1.7/2.45 MHz bench/animal comparison; human 2.45 MHz cohort 46 enrolled, six did not complete, three sessions three weeks apart; fine-line signal.
+Limits: Uncontrolled human cohort; animal frequency comparison not human frequency RCT; internal denominator/timing inconsistencies; no conflicts declared, SHDC2022CRT020 funding.
+Local preservation: source_docs/Bai_Ni_2024_RF_thermal_stimulation_PMC11743280.xml; captured2026-10-01; sha256 9ad44d3cb99751e94ed29700f11ed533f31b6c616ce250c572586315d125f335
+Status/recheck: PMC browser CAPTCHA; lawful CC BY full text recovered through NCBI BioC API; product price/stock recheck at purchase.
+
+[S49] POLARGEN 40.68 MHz pilot — PMID28557650
+URL: https://pubmed.ncbi.nlm.nih.gov/28557650/
+Accessed:2026-10-01 America/Chicago
+Class: peer-reviewed human
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Ten women, mean51.7 years; four sessions every two weeks, two-month photos; satisfaction4.5/6; one biopsy; no major complications.
+Limits: Small uncontrolled professional study; not Medicube; funding not established from abstract.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S50] 40.68 MHz contour study — PMID42496776 PMC13400472
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC13400472/
+Accessed:2026-10-01 America/Chicago
+Class: peer-reviewed human
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: 2026 prospective single-arm study, three full-face sessions and modest measurable contour/elasticity changes.
+Limits: Abstract/search-level extraction only; sample and conflicts not verified; not home product evidence.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S51] HSP47 thermal stimulation study
+URL: https://www.sciencedirect.com/science/article/pii/S1574075706000076
+Accessed:2026-10-01 America/Chicago
+Class: mechanism/preclinical
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Cell experiments plus31 women; facial steam surface40–42°C, ten minutes/day for two months.
+Limits: Heat/steam experiment, not device-specific RF validation; cell pathway is not human tightening magnitude.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S52] RF/ultrasound HSP47 turnover — PMID32081434
+URL: https://pubmed.ncbi.nlm.nih.gov/32081434/
+Accessed:2026-10-01 America/Chicago
+Class: mechanism/preclinical
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Combined RF/ultrasound heat and HSP47 hypothesis supports mechanistic plausibility.
+Limits: Combined modality; search/abstract only, not current device trial.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: search extract; direct browser returned limited content; product price/stock recheck at purchase.
+
+[S53] RF dermal-epidermal junction — PMID38791217
+URL: https://pubmed.ncbi.nlm.nih.gov/38791217/
+Accessed:2026-10-01 America/Chicago
+Class: mechanism/preclinical
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Cells/aged animals: HSP/Piezo1/TGF-beta and DEJ proteins; author employed by LIBON and research grant disclosed.
+Limits: No consumer-device human comparative trial.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S54] Thermage CPT technical manual
+URL: https://ca.thermage.com/siteassets/hcp/pdf/thermage-cpt-technical-users-manual-model-tg-2b-p-np009240-06-2021.pdf
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: CPT6.78MHz ±0.1%, generator maximum400W, cooling/return-pad professional architecture.
+Limits: CPT file is not a measured FLX dermal temperature map; maximum generator power not delivered dose.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S55] Home randomized split-face trial — PMID35249173
+URL: https://pubmed.ncbi.nlm.nih.gov/35249173/
+Accessed:2026-10-01 America/Chicago
+Class: peer-reviewed human
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Existing archive:33 enrolled32 completed12 weeks, RF vs cosmetic; category signal.
+Limits: Direct endpoint limited on this pass; details inherited from doc11, not newly re-extracted.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: browser returned limited content; local evidence map reused; product price/stock recheck at purchase.
+
+[S56] Home RF Chinese women — PMID37942722
+URL: https://pubmed.ncbi.nlm.nih.gov/37942722/
+Accessed:2026-10-01 America/Chicago
+Class: peer-reviewed human
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Existing archive:22 women I–IV subset III–IV, eight weeks; wrinkle/thickness/perioral measures.
+Limits: Open-label; exact brand should not be inferred from abstract; doc11 supplies prior extraction.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: search bibliographic extract; browser limited; product price/stock recheck at purchase.
+
+[S57] TriPollar STOP study — PMID21401380
+URL: https://pubmed.ncbi.nlm.nih.gov/21401380/
+Accessed:2026-10-01 America/Chicago
+Class: peer-reviewed human
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Existing archive:23 women six-week treatment plus maintenance; reported periorbital reduction41%.
+Limits: Uncontrolled original STOP; no automatic transfer to current variants.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: browser limited; prior doc11 extraction reused; product price/stock recheck at purchase.
+
+[S58] MimiSilk FAQ
+URL: https://www.mimisilk.com/pages/faq
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Corroboration/discovery of family, regional listing or usage claims; only model-specific disclosed claims used.
+Limits: No independent outcome or dose validation; stock/prices volatile.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S59] MimiSilk gel-free explanation
+URL: https://www.mimisilk.com/blogs/news/gel-free-rf-skin-tightening-how-mimisilk-vera-rf-sculpt-works-without-gel
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Corroboration/discovery of family, regional listing or usage claims; only model-specific disclosed claims used.
+Limits: No independent outcome or dose validation; stock/prices volatile.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S60] MimiSilk body-use explanation
+URL: https://www.mimisilk.com/blogs/news/can-you-use-mimisilk-vera-rf-on-your-body-not-just-your-face
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Corroboration/discovery of family, regional listing or usage claims; only model-specific disclosed claims used.
+Limits: No independent outcome or dose validation; stock/prices volatile.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S61] YA-MAN2021 catalog
+URL: https://www.ya-man.co.jp/wp/wp-content/uploads/2021SS.pdf
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Corroboration/discovery of family, regional listing or usage claims; only model-specific disclosed claims used.
+Limits: No independent outcome or dose validation; stock/prices volatile.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S62] YA-MAN2021 body booklet
+URL: https://www.ya-man-tokyo-japan.com/pdf/body_style_up_book_2021.pdf
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Corroboration/discovery of family, regional listing or usage claims; only model-specific disclosed claims used.
+Limits: No independent outcome or dose validation; stock/prices volatile.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S63] YA-MAN Bloom5 launch
+URL: https://www.ya-man.co.jp/news/18582/
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Corroboration/discovery of family, regional listing or usage claims; only model-specific disclosed claims used.
+Limits: No independent outcome or dose validation; stock/prices volatile.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S64] YA-MAN Bloom international collection
+URL: https://international-shop.ya-man.com/collections/bloom-series
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Corroboration/discovery of family, regional listing or usage claims; only model-specific disclosed claims used.
+Limits: No independent outcome or dose validation; stock/prices volatile.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S65] YA-MAN Shiny NEO Japan shop
+URL: https://www.ya-man.com/Form/Product/ProductDetail.aspx?bid=yaman_tokyo_japan&pid=rr00960-d&shop=0
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Corroboration/discovery of family, regional listing or usage claims; only model-specific disclosed claims used.
+Limits: No independent outcome or dose validation; stock/prices volatile.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S66] YA-MAN Japanese eye page
+URL: https://www.ya-man-tokyo-japan.com/products/forface/rf-bloom-eye.html
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Corroboration/discovery of family, regional listing or usage claims; only model-specific disclosed claims used.
+Limits: No independent outcome or dose validation; stock/prices volatile.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S67] Panasonic app/product catalog
+URL: https://panasonic.jp/face/nfc.html
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Corroboration/discovery of family, regional listing or usage claims; only model-specific disclosed claims used.
+Limits: No independent outcome or dose validation; stock/prices volatile.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S68] Panasonic2026 news index
+URL: https://www.panasonic.com/jp/about/news/2026news.html
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Corroboration/discovery of family, regional listing or usage claims; only model-specific disclosed claims used.
+Limits: No independent outcome or dose validation; stock/prices volatile.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S69] CurrentBody live RF store
+URL: https://www.currentbody.com/products/currentbody-skin-radio-frequency-device
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Corroboration/discovery of family, regional listing or usage claims; only model-specific disclosed claims used.
+Limits: No independent outcome or dose validation; stock/prices volatile.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: live via official page/search or browser extract; product price/stock recheck at purchase.
+
+[S70] NEWA attempted live store
+URL: https://mynewa.com/products/newa
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: No current price/availability verified.
+Limits: Failed access cannot establish discontinued status.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: browser internal error; product price/stock recheck at purchase.
+
+[S71] TriPollar ENVIG attempted product page
+URL: https://mytripollar.com/products/envig-edge
+Accessed:2026-10-01 America/Chicago
+Class: official product
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Category collection used instead.
+Limits: No direct IFU extraction.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: browser internal error; product price/stock recheck at purchase.
+
+[S72] RF review prior archive anchor
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC6541915/
+Accessed:2026-10-01 America/Chicago
+Class: secondary review
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Background only; not new outcome evidence.
+Limits: Page could not be directly read this pass.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: CAPTCHA; product price/stock recheck at purchase.
+
+[S73] RF2025 review discovery
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC12715571/
+Accessed:2026-10-01 America/Chicago
+Class: secondary review
+Used in:12_market_census,13_frequency_temperature,source register/explorer where relevant
+Supports / Key record / Finding: Discovery of40.68MHz literature; primary pilot used instead.
+Limits: Review snippet suggests single session; primary PMID28557650 states four sessions, so primary retained.
+Local preservation: URL-only — no lawful local copy available/preserved; dated metadata and paraphrase retained here.
+Status/recheck: search extract only; product price/stock recheck at purchase.
+
+[LOCAL-README.md] Local archive: 07_radio_frequency_skin_tightening/README.md; reused prior evidence, not newly validated clinical extraction; accessed2026-10-01.
+
+[LOCAL-index.html] Local archive: 07_radio_frequency_skin_tightening/index.html; reused prior evidence, not newly validated clinical extraction; accessed2026-10-01.
+
+[LOCAL-10_home_rf_tier_list_and_comparison.md] Local archive: 07_radio_frequency_skin_tightening/10_home_rf_tier_list_and_comparison.md; reused prior evidence, not newly validated clinical extraction; accessed2026-10-01.
+
+[LOCAL-11_home_rf_clinical_evidence_map.md] Local archive: 07_radio_frequency_skin_tightening/11_home_rf_clinical_evidence_map.md; reused prior evidence, not newly validated clinical extraction; accessed2026-10-01.
+
+[LOCAL-06_thermage_vs_everything_comparison.md] Local archive: 07_radio_frequency_skin_tightening/06_thermage_vs_everything_comparison.md; reused prior evidence, not newly validated clinical extraction; accessed2026-10-01.
+
+Change note2026-10-01: high-frequency marketing is no longer a buying-strength proxy. Sensilift Pro moves into documented alternatives; Panasonic LUXE flagged prelaunch; MimiSilk temperature inconsistency retained. Earlier Thermage fixed-depth/temperature figures need qualification. FDA initial Python download failed404, Mozilla user-agent retry succeeded200; no failed HTML saved as PDF.
+
+Late targeted search:2025YA-MAN/Jmoon RCT strengthens controlled regional-bundle evidence; retail transfer unresolved.2022trial primary methods rechecked; YA-MAN attribution from review, not exact SKU. MimiSilk main FAQ adds thermal contradictions.
+
+[S74] Bu et al2025 ACE fifth-generation/Jmoon RCT — PMID40099405 DOI10.1111/jocd.70096
+URL: https://onlinelibrary.wiley.com/doi/10.1111/jocd.70096
+Accessed:2026-10-01 America/Chicago
+Class:peer-reviewed human
+Used in:12_market,13_frequency,11_clinical_map
+Finding/key record:90 randomized/80 completed;4 weeks, five treatments/week; YA-MAN ACE fifth-generation0.5–2.5MHz+LED/microcurrent vs Jmoon0.8–2MHz combination vs power-free control; imaging/photo improvements reported, transient erythema23.5%YA/26.7%J; no specific grant/no conflicts declared.
+Limits:Regional SKU mapping unresolved; multimodal/meridian-guided protocol; unpowered control may not blind; short follow-up; no direct collagen biopsy endpoint or isolated MHz comparison.
+Local preservation:source_docs/PMC11915080_fulltext_BioC.xml; sha256 e62da394a515db4cb05f501b5606f5d527cdfb4e3b93994231c685c9d8fd5dc6
+Status:Publisher full text and CC BY NCBI BioC recovery
+
+[S75] Shu et al2022 randomized split-face home trial — PMC9021338
+URL: https://link.springer.com/article/10.1007/s13555-022-00697-y
+Accessed:2026-10-01 America/Chicago
+Class:peer-reviewed human
+Used in:12_market,13_frequency,11_clinical_map
+Finding/key record:33 women/32completed;12weeks, bipolar-ring1MHz+630±10nm red light, skin37–42°C control, temperature/motion sensors; RF+gel vs different anti-aging cosmetic; no between-side elasticity/hydration difference; no adverse reactions; rapid-service fee supported by Ecolite Wellbeing.
+Limits:Retail SKU not established from methods; differing gel/cosmetic and LED confound RF attribution; cadence5/week first2months then3/week lastmonth; conflicting schedule elsewhere.
+Local preservation:source_docs/PMC9021338_fulltext_BioC.xml; sha256 3dc5a35c43f67a1f0db517ce3365975206cfcd0432e70588cd4fb0d8354ece3c
+Status:Publisher full text and CC BY-NC BioC; noncommercial research archive
+
+[S76] YA-MAN funded registry UMIN R000061175
+URL: https://center6.umin.ac.jp/cgi-open-bin/ctr_e/ctr_view.cgi?recptno=R000061175
+Accessed:2026-10-01 America/Chicago
+Class:primary regulatory / trial registry
+Used in:12_market,13_frequency,11_clinical_map
+Finding/key record:Target16; home deviceA+specific cosmetics half-face five/week; YA-MAN funding; completed status, outcome fields blank in reviewed record.
+Limits:Registration/completion not published positive evidence; unnamed product not mapped to current SKU.
+Local preservation:URL-only — no lawful local copy available/preserved
+Status:live registry
+
+[S77] Development of Home Beauty Devices review PMC10929553
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC10929553/
+Accessed:2026-10-01 America/Chicago
+Class:secondary review
+Used in:12_market,13_frequency,11_clinical_map
+Finding/key record:Discovery review attributes2022 1MHz+630nm study to YA-MAN.
+Limits:Primary methods describe hardware but no retail SKU; review attribution not sufficient for current model identity.
+Local preservation:URL-only — no lawful local copy available/preserved
+Status:search extract; BioC attempt429; used for discovery only
+
+[S78] MimiSilk safety guide
+URL: https://www.mimisilk.com/blogs/news/is-mimisilk-vera-rf-safe-for-you-complete-safety-guide-contraindications
+Accessed:2026-10-01 America/Chicago
+Class:marketing/consumer
+Used in:12_market,13_frequency,11_clinical_map
+Finding/key record:Cites generic2022 home RF study; does not establish Vera was tested.
+Limits:Generic trial citation is not Vera-specific efficacy or safety evidence.
+Local preservation:URL-only — no lawful local copy available/preserved
+Status:live search extract
+
+S58 expanded finding: main FAQ level45–50°C vs fat paragraph39–44°C; surface44°C vs regional47.2°C. All are claims; no measured dose assumed.

@@ -1,5 +1,7 @@
 # Initial RF Device Landscape
 
+> **2026-10-01 research update:** The original landscape is retained for history. The expanded market census now covers Panasonic, YA-MAN, MimiSilk, Sensilift Pro and additional variants. Read the [expanded market/value census](index.html#doc12), [frequency, temperature and clinical research](index.html#doc13), and [searchable device comparison](rf_market_explorer.html).
+
 This is a starter map, not a final buy recommendation. The immediate goal is to sort device classes and identify which sources deserve deeper extraction later.
 
 Confidence: ✅ verified / ⚠️ marketing claim / 🔍 needs follow-up.

@@ -1,5 +1,7 @@
 # Thermage vs Everything: Can Any Device Get Close?
 
+> **2026-10-01 research update:** Read the new frequency/temperature audit before treating earlier65–75°C,4.3mm or half-electrode-spacing figures as measured constants. These are protocol/model-dependent estimates, not universal temperatures/depths. Higher MHz does not establish deeper or better treatment;6.25MHz does not confer Thermage equivalence. Read the [expanded market/value census](index.html#doc12), [frequency, temperature and clinical research](index.html#doc13), and [searchable device comparison](rf_market_explorer.html).
+
 *Compiled 2026-07-04. This is a deep technical comparison of how every RF device in this project stacks up against the professional gold standard — Thermage FLX. Includes a detailed breakdown of Thermage's actual mechanism, and a physics-based analysis of what each contender can and cannot do.*
 
 ---

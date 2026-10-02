@@ -1,5 +1,7 @@
 # RF Device Quick Selection Guide
 
+> **2026-10-01 research update:** The current decision update adds Panasonic/YA-MAN/MimiSilk and promotes Sensilift Pro to a documented alternative. No universal best MHz is established. Read the [expanded market/value census](index.html#doc12), [frequency, temperature and clinical research](index.html#doc13), and [searchable device comparison](rf_market_explorer.html).
+
 *Pick the right radiofrequency device (or decide RF isn't right for you) in 60 seconds. For full specs, evidence, and regulatory details, see the numbered docs this references.*
 
 ---

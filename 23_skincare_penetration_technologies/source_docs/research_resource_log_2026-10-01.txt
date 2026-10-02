@@ -1,0 +1,508 @@
+Research resource log — 2026-10-01, America/Chicago
+Scope: penetration technologies; small-molecule routine; dated eBay asking-price comparison.
+No systematic literature census or market sold-price estimate claimed. Funding often manufacturer-associated or not assessed from abstract; absent full text, adverse events/conflict details are not established.
+
+[S01] Prausnitz 1993, electroporation
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC47805/
+Accessed: 2026-10-01
+Class: mechanism/preclinical
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: Polar molecules around MW1000; high laboratory pulses increased permeability by orders of magnitude. No consumer clinical equivalence.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S02] Zewert 1999, proteins and pathway enhancer
+URL: https://pubmed.ncbi.nlm.nih.gov/10619443/
+Accessed: 2026-10-01
+Class: mechanism/preclinical
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: Human skin in vitro; protein delivery involved high voltage and sodium thiosulfate enhancer. Not a home protocol.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S03] Mitragotri 1995, ultrasound transport
+URL: https://pubmed.ncbi.nlm.nih.gov/7562407/
+Accessed: 2026-10-01
+Class: mechanism/preclinical
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: Transport depends on frequency, intensity and cavitation; does not establish equivalence of vibrating or focused tightening devices.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S04] Huh 2003, PMID12771472
+URL: https://pubmed.ncbi.nlm.nih.gov/12771472/
+Accessed: 2026-10-01
+Class: peer-reviewed human
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: Randomized double-blind splitface n29 women melasma,12weeks; C versus water both iontophoresis. No ordinary vitamin-C arm.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S05] Guo 2024, PMID39185080
+URL: https://pubmed.ncbi.nlm.nih.gov/39185080/
+Accessed: 2026-10-01
+Class: peer-reviewed human
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: n30 active TXA versus placebo with iontophoresis twiceweekly3months. No TXA without current; abstract numerical MASI notation ambiguous, excluded from quantitative ranking. PMC11344540 blocked by challenge.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S06] Taylor 2013, PMID23377327
+URL: https://pubmed.ncbi.nlm.nih.gov/23377327/
+Accessed: 2026-10-01
+Class: peer-reviewed human
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: n35 uncontrolled multimodal vitaminC mask/ion plus acids and sun protection; cannot isolate device benefit.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S07] Sobhi 2012, PMID22360337
+URL: https://pubmed.ncbi.nlm.nih.gov/22360337/
+Accessed: 2026-10-01
+Class: peer-reviewed human
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: n14 splitface6sessions; vitaminC ion versus glycolic peel; not C-alone control.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S08] Panasonic ST0A
+URL: https://panasonic.jp/face/products/EH-ST0A.html
+Accessed: 2026-10-01
+Class: official product
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: n10 single-use forearm; HA8x,oligopeptide1 9.3x manual;1.6x BOOST output predecessor. Outermost barrier; no RF/EMS. Engineering/uptake not clinical increment.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: source_docs/panasonic_st0a_2026-10-01.html; HTML/PDF capture2026-10-01;sha256=3a2aa3f292403ed1c417fe988e1f27e295417d2bd7957b9317662145f00d0d85
+
+[S09] Panasonic SS85
+URL: https://panasonic.jp/face/products/EH-SS85/feature.html
+Accessed: 2026-10-01
+Class: official product
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: HA12x n8,hydrolyzed collagen6.3x; vitaminC1.6x n12 BRIGHTUP.120V manufacturer output. EMS no RF; no independent comparative outcomes.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: source_docs/panasonic_ss85_2026-10-01.html; HTML/PDF capture2026-10-01;sha256=c32106f9f2ebb579f9d70fd118fbbf0fe430fa71b764145971704139b63c1ace
+
+[S10] Panasonic ST99
+URL: https://panasonic.jp/face/products/EH-ST99.html
+Accessed: 2026-10-01
+Class: official product
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: Legacy support/product page; detailed original peptide claim not recovered.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S11] Panasonic regional catalog
+URL: https://pstw.panasonic.com.tw/catalog/files/1_consumer/hair/202509_Panasonic_%E7%BE%8E%E5%AE%B9%E5%95%86%E5%93%81.pdf
+Accessed: 2026-10-01
+Class: official product
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: ST99 HA5.7x collagen5x. Do not substitute peptide6.3x from pasted answer.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S12] Panasonic mask SM50
+URL: https://panasonic.jp/face/products/EH-SM50.html
+Accessed: 2026-10-01
+Class: official product
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: HA10x vs mask alone and5.1x serum vs manual; denominators differ.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S13] YA-MAN Deep Lift
+URL: https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-deep-lift.html
+Accessed: 2026-10-01
+Class: official product
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: n10 men forearm1min aqueous C derivative/TXA/niacinamide stratumcorneum; RF1–4MHz DYHP;Neo1–3MHz. Sensation warmth/EMS comparisons n13 are not watts or penetration. Manufacturer sponsored.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: source_docs/yaman_deep_lift_2026-10-01.html; HTML/PDF capture2026-10-01;sha256=256f192580e0b5c4b877c126b3bd7725c6eae8d924ac05ba8a8f38652bb56784
+
+[S14] Medicube Booster Pro
+URL: https://medicube.us/products/age-r-booster-pro
+Accessed: 2026-10-01
+Class: official product
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: Booster electroporation; MC microcurrent,DermaShot EMS,AirShot;LED/sonic,no RF;230USD official snapshot. Older785% not reconfirmed. Irritating actives caution in FAQ.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: source_docs/medicube_booster_pro_2026-10-01.html; HTML/PDF capture2026-10-01;sha256=d35bf5533c7c8d6028a5eb0a828e0d98d5f72d44e10b5464f315be9c0aa022c9
+
+[S15] Medicube Mini
+URL: https://medicube.us/products/mini-booster-pro
+Accessed: 2026-10-01
+Class: official product
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: Electroporation;562% absorption advertised;testing organization named, insufficient assay/product/clinical detail for crossbrand comparison.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S16] Medicube Mini Plus
+URL: https://medicube.us/products/mini-booster-pro-plus
+Accessed: 2026-10-01
+Class: official product
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: Three modes cleansing,definition/body,boost;110USD official. Do not copy fullPro specifications from testimonials.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: source_docs/medicube_mini_plus_2026-10-01.html; HTML/PDF capture2026-10-01;sha256=3bc7e5695009f8fd48a66e6e5dd0d2a4336cb105792ba27a3ef17f428713e07f
+
+[S17] Medicube X2
+URL: https://medicube.us/products/booster-pro-x2
+Accessed: 2026-10-01
+Class: official product
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: Dual heads,expanded modes;2x power is powerdensity W/cm2 tested KoreaTestingLab vs Pro; not double clinical benefit.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: source_docs/medicube_x2_2026-10-01.html; HTML/PDF capture2026-10-01;sha256=63cc91bde716af417d5d2d634f314da3bb33865c22c75fad92c7a9536f1e1dde
+
+[S18] Panasonic SR85
+URL: https://panasonic.jp/face/products/EH-SR85.html
+Accessed: 2026-10-01
+Class: official product
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: RF3MHz plus ion/EMS/LED;distinct from dedicated BOOST.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S19] Panasonic SR86
+URL: https://panasonic.jp/face/products/EH-SR86.html
+Accessed: 2026-10-01
+Class: official product
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: RF4MHz generation;English instructions locally preserved.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S20] Panasonic SR90
+URL: https://panasonic.jp/face/products/EH-SR90/feature.html
+Accessed: 2026-10-01
+Class: official product
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: RF1–6MHz launch generation;price not verified. Not a dedicated BOOST equivalence claim.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S21] Niacinamide pigment2002 / clinical2005
+URL: https://pubmed.ncbi.nlm.nih.gov/12100180/
+Accessed: 2026-10-01
+Class: peer-reviewed human
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: Controlled ordinary topical niacinamide benefits. Companion PMID16029679 https://pubmed.ncbi.nlm.nih.gov/16029679/ n50 5% splitface12weeks. No device needed in study; not evidence boosters have zero effect.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S22] Thiamidol2026 PMID41566113
+URL: https://pubmed.ncbi.nlm.nih.gov/41566113/
+Accessed: 2026-10-01
+Class: peer-reviewed human
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: n200 vehiclecontrolled0.2%12weeks mMASI36.1vs16.1% reduction;ordinary topical,no booster. Search abstract consulted;direct page response incomplete. Other endpoints not uniformly significant.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S23] DailyMed TAZORAC
+URL: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=021744d1-a6d7-4ad6-99c2-7187c24e64c6
+Accessed: 2026-10-01
+Class: primary regulatory
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: Prescription tazarotene irritation/peeling/burning concerns. Avoid enhancement inference,not label banning named wands. Pregnancy contraindication in label.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S24] DailyMed Finacea
+URL: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9f40cd45-58a6-4376-9220-84bfe7d7e358
+Accessed: 2026-10-01
+Class: primary regulatory
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: Azelaic gel burning/stinging29% label. No consumer delivery benefit established;routine avoidance is value/tolerability inference.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S25] Shiny Neo
+URL: https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-shiny-neo_features.html
+Accessed: 2026-10-01
+Class: official product
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: DYHP RF generation;not identical to originalM18.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S26] Prestige Pro / SP
+URL: https://www.ya-man-tokyo-japan.com/products/forface/pl_photo-plus-prestige-pro.html
+Accessed: 2026-10-01
+Class: official product
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: Premium model distinctions. Also https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-prestige-sp.html . DeepLift comparison lists MIYABI CERTEC+RF,SP III CERTEC;do not claim all RF.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S27] ReFa Raise and FAQ
+URL: https://www.refa.net/en/item/refa_beautech_raise/
+Accessed: 2026-10-01
+Class: official product
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: RF-Wpulse sonic/pulse. FAQ https://www.refa.net/en/faq_howto/refa_beautech_raise/ limits foreheadRF and frequency;no matchedroutine superiority.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S28] Pinnell2001 PMID11207686
+URL: https://pubmed.ncbi.nlm.nih.gov/11207686/
+Accessed: 2026-10-01
+Class: mechanism/preclinical
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: Pigskin LAA transport depends on pH/formulation;lowpH experiment not a recommendation to maximize strength.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S29] Eucerin Thiamidol
+URL: https://www.eucerin.co.uk/skin-concerns/uneven-skin/thiamidol
+Accessed: 2026-10-01
+Class: official product
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: Finished topical formula guidance. Spotcorrector page max4 daily Thiamidol applications;no electrical enhancement evidence.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S30] Thiamidol enzyme2018 PMID29427586
+URL: https://pubmed.ncbi.nlm.nih.gov/29427586/
+Accessed: 2026-10-01
+Class: mechanism/preclinical
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: Human tyrosinase inhibition IC50 1.1micromolar;does not establish device benefit.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S31] ARTISTIC&CO ZeusIV manual discovery
+URL: https://artistic.co.jp/art/wp-content/uploads/2025/07/Zeus4_%E5%8F%96%E6%89%B1%E8%AA%AC%E6%98%8E%E6%9B%B8_20250710.pdf
+Accessed: 2026-10-01
+Class: official product
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: Official manual discovered;not read in full;premium alternative mentioned without quantitative specification claims.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S32] Panasonic SM50 press
+URL: https://news.panasonic.com/jp/press/jn210928-1
+Accessed: 2026-10-01
+Class: official product
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: Masklaunch and iondelivery context;no smallactive superiority.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S33] YA-MAN live DeepLift chart
+URL: https://www.ya-man.live/brand/ytj_face/photo-plus-deep-lift/
+Accessed: 2026-10-01
+Class: official product
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: Imagealt search Cderivative~170%,TXA140%,niacinamide170%;not used as clinical comparison or added170% claim.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S34] Thiamidol PIH PMID33559186
+URL: https://pubmed.ncbi.nlm.nih.gov/33559186/
+Accessed: 2026-10-01
+Class: peer-reviewed human
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: Topical PIH evidence context;not device trial.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S35] PubChem Thiamidol lookup attempt
+URL: https://pubchem.ncbi.nlm.nih.gov/compound/Thiamidol
+Accessed: 2026-10-01
+Class: primary chemical database
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: Blocked;excluded exact molecularweight table.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S36] PMC fulltext access attempt
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC11344540/
+Accessed: 2026-10-01
+Class: peer-reviewed human
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: Challenge blocked access;use PubMed recordS05;no fulltext capture.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S37] TXA review context
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC13210502/
+Accessed: 2026-10-01
+Class: secondary review
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: Comparator context discovery only;primary PubMedS05 used for conclusions.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S38] Medicube legacy Booster-H
+URL: https://medicube.us/pages/beauty_tech
+Accessed: 2026-10-01
+Class: official product
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: Legacy product context;no current matchedquote or superiority.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[S39] eBay Shiny M18 catalog
+URL: https://www.ebay.com/p/28049580910
+Accessed: 2026-10-01
+Class: marketing/consumer
+Used in: mechanisms/evidence/device/ingredient sections according to claim
+Supports / key record / finding: Catalog300USD new displayed;not exact delivered listing so excluded from buying comparison.
+Limits: No inference of exact finished-formula incremental clinical benefit unless stated. Status: live or search-record consulted, except explicit blocked/incomplete records above.
+Local preservation: URL-only — no local full copy preserved; abstract/product metadata consulted, not redistributed.
+
+[P01] eBay Panasonic ST99 — item 800187156873
+URL: https://www.ebay.com/itm/800187156873
+Accessed:2026-10-01; live Listing page
+Class: marketing/consumer
+Used in: price table,costworksheet
+Supports: Asking $150 + displayed shipping $0 = $150 before tax. Condition claim: Used; tested.
+Limits: Selected offer,not sold-price average;destination-dependent shipping;authenticity,accessories,battery and condition unverified.
+Local preservation: data/ebay_snapshot_2026-10-01.csv; structured observation,not fullpage capture.
+
+[P02] eBay Panasonic ST0A — item 389768530383
+URL: https://www.ebay.com/itm/389768530383
+Accessed:2026-10-01; live Listing page
+Class: marketing/consumer
+Used in: price table,costworksheet
+Supports: Asking $183 + displayed shipping $0 = $183 before tax. Condition claim: New other; tested with charger.
+Limits: Selected offer,not sold-price average;destination-dependent shipping;authenticity,accessories,battery and condition unverified.
+Local preservation: data/ebay_snapshot_2026-10-01.csv; structured observation,not fullpage capture.
+
+[P03] eBay Panasonic ST0A — item 398413370945
+URL: https://www.ebay.com/itm/398413370945
+Accessed:2026-10-01; live Listing page
+Class: marketing/consumer
+Used in: price table,costworksheet
+Supports: Asking $160 + displayed shipping $26 = $186 before tax. Condition claim: Used; good.
+Limits: Selected offer,not sold-price average;destination-dependent shipping;authenticity,accessories,battery and condition unverified.
+Local preservation: data/ebay_snapshot_2026-10-01.csv; structured observation,not fullpage capture.
+
+[P04] eBay Panasonic SS85 — item 800746169833
+URL: https://www.ebay.com/itm/800746169833
+Accessed:2026-10-01; live Live search card
+Class: marketing/consumer
+Used in: price table,costworksheet
+Supports: Asking $348 + displayed shipping $0 = $348 before tax. Condition claim: Used; tested.
+Limits: Selected offer,not sold-price average;destination-dependent shipping;authenticity,accessories,battery and condition unverified.
+Local preservation: data/ebay_snapshot_2026-10-01.csv; structured observation,not fullpage capture.
+
+[P05] eBay YA-MAN Shiny Neo YJFM18N — item 398192385122
+URL: https://www.ebay.com/itm/398192385122
+Accessed:2026-10-01; live Live search card
+Class: marketing/consumer
+Used in: price table,costworksheet
+Supports: Asking $198 + displayed shipping $38 = $236 before tax. Condition claim: Used.
+Limits: Selected offer,not sold-price average;destination-dependent shipping;authenticity,accessories,battery and condition unverified.
+Local preservation: data/ebay_snapshot_2026-10-01.csv; structured observation,not fullpage capture.
+
+[P06] eBay YA-MAN Deep Lift YJFA1T — item 168622042013
+URL: https://www.ebay.com/itm/168622042013
+Accessed:2026-10-01; live Live search card
+Class: marketing/consumer
+Used in: price table,costworksheet
+Supports: Asking $552 + displayed shipping $0 = $552 before tax. Condition claim: New sealed claimed; limited seller history.
+Limits: Selected offer,not sold-price average;destination-dependent shipping;authenticity,accessories,battery and condition unverified.
+Local preservation: data/ebay_snapshot_2026-10-01.csv; structured observation,not fullpage capture.
+
+[P07] eBay YA-MAN Deep Lift YJFA1T — item 800563243295
+URL: https://www.ebay.com/itm/800563243295
+Accessed:2026-10-01; live Live search card
+Class: marketing/consumer
+Used in: price table,costworksheet
+Supports: Asking $587 + displayed shipping $0 = $587 before tax. Condition claim: Used; tested.
+Limits: Selected offer,not sold-price average;destination-dependent shipping;authenticity,accessories,battery and condition unverified.
+Local preservation: data/ebay_snapshot_2026-10-01.csv; structured observation,not fullpage capture.
+
+[P08] eBay Medicube Booster Pro — item 398402457172
+URL: https://www.ebay.com/itm/398402457172
+Accessed:2026-10-01; live Live search card
+Class: marketing/consumer
+Used in: price table,costworksheet
+Supports: Asking $99.99 + displayed shipping $10 = $109.99 before tax. Condition claim: Used; tested; blemishes.
+Limits: Selected offer,not sold-price average;destination-dependent shipping;authenticity,accessories,battery and condition unverified.
+Local preservation: data/ebay_snapshot_2026-10-01.csv; structured observation,not fullpage capture.
+
+[P09] eBay Medicube Mini Booster Pro — item 188731626163
+URL: https://www.ebay.com/itm/188731626163
+Accessed:2026-10-01; live Live search card
+Class: marketing/consumer
+Used in: price table,costworksheet
+Supports: Asking $67.99 + displayed shipping $0 = $67.99 before tax. Condition claim: Brand new claimed.
+Limits: Selected offer,not sold-price average;destination-dependent shipping;authenticity,accessories,battery and condition unverified.
+Local preservation: data/ebay_snapshot_2026-10-01.csv; structured observation,not fullpage capture.
+
+[P10] eBay Medicube Mini Booster Pro Plus — item 287612808471
+URL: https://www.ebay.com/itm/287612808471
+Accessed:2026-10-01; live Live search card
+Class: marketing/consumer
+Used in: price table,costworksheet
+Supports: Asking $66.99 + displayed shipping $9.99 = $76.98 before tax. Condition claim: Brand new sealed claimed.
+Limits: Selected offer,not sold-price average;destination-dependent shipping;authenticity,accessories,battery and condition unverified.
+Local preservation: data/ebay_snapshot_2026-10-01.csv; structured observation,not fullpage capture.
+
+[P11] eBay Medicube Booster Pro X2 — item 267781833368
+URL: https://www.ebay.com/itm/267781833368
+Accessed:2026-10-01; live Live search card
+Class: marketing/consumer
+Used in: price table,costworksheet
+Supports: Asking $99.99 + displayed shipping $8.27 = $108.26 before tax. Condition claim: New other; authenticity unverified.
+Limits: Selected offer,not sold-price average;destination-dependent shipping;authenticity,accessories,battery and condition unverified.
+Local preservation: data/ebay_snapshot_2026-10-01.csv; structured observation,not fullpage capture.
+
+[P12] eBay Medicube Booster Pro X2 — item 336763699941
+URL: https://www.ebay.com/itm/336763699941
+Accessed:2026-10-01; live Live search card
+Class: marketing/consumer
+Used in: price table,costworksheet
+Supports: Asking $189.99 + displayed shipping $0 = $189.99 before tax. Condition claim: New sealed claimed.
+Limits: Selected offer,not sold-price average;destination-dependent shipping;authenticity,accessories,battery and condition unverified.
+Local preservation: data/ebay_snapshot_2026-10-01.csv; structured observation,not fullpage capture.
+
+[U1] User pasted prior research conversation
+Class: user attachment / local archive
+Accessed:2026-10-01
+Used in: scope and corrections;claims reverified rather than treated as evidence
+Local preservation:source_docs/user_background_1.txt;sha256=651c8b7b919011beb2d6e4ec0dbf15b1b7558d56e7e4189af2d257de1054bf39
+Limits:Prior assistant output is not a primary source.
+
+[U2] User pasted prior research conversation
+Class: user attachment / local archive
+Accessed:2026-10-01
+Used in: scope and corrections;claims reverified rather than treated as evidence
+Local preservation:source_docs/user_background_2.txt;sha256=c2130ad94cdd3b78d9f8af0e7b043bb686f3cdacfa761ac0cd449ffecaca0a42
+Limits:Prior assistant output is not a primary source.
+
+[U3] User pasted prior research conversation
+Class: user attachment / local archive
+Accessed:2026-10-01
+Used in: scope and corrections;claims reverified rather than treated as evidence
+Local preservation:source_docs/user_background_3.txt;sha256=74c4c0a1fa5ddde35479e832374bfa85398ae6db7f51d54899cc6bee25e56ca8
+Limits:Prior assistant output is not a primary source.
+
+[C-panasonic_ss85_brochure.pdf] Official supporting manual/brochure
+URL:https://panasonic.jp/catalog/ctlg/ionboost_ex/ionboost_ex.pdf
+Accessed:2026-10-01;HTTP200
+Class:official product
+Used in:device instructions/library
+Limits:model-specific instructions;not head-to-headclinical proof
+Local preservation:source_docs/panasonic_ss85_brochure.pdf;sha256=f6b0a1800e65caeba460d585628192634fcbca98cb2f9b1e519412c4c05efd63
+
+[C-panasonic_sr86_english_instructions.pdf] Official supporting manual/brochure
+URL:https://panasonic.jp/content/dam/panasonic/jp/ja/face/howto/pdf/EH-SR86_tourist_en_trimmed_240918.pdf
+Accessed:2026-10-01;HTTP200
+Class:official product
+Used in:device instructions/library
+Limits:model-specific instructions;not head-to-headclinical proof
+Local preservation:source_docs/panasonic_sr86_english_instructions.pdf;sha256=57468960cbeb3d5fbee9f04782ea2898d27951014878568c13615fc67a6b8c03
+
+[C-yaman_shiny_english_manual.pdf] Official supporting manual/brochure
+URL:https://www.ya-man.com/en/asset/docs/photo-plus-shiny/M18-1-001E.pdf
+Accessed:2026-10-01;HTTP200
+Class:official product
+Used in:device instructions/library
+Limits:model-specific instructions;not head-to-headclinical proof
+Local preservation:source_docs/yaman_shiny_english_manual.pdf;sha256=6769ba9e9adfb697115e02a76014ee5b3b12a080ee381cd6a57e437ebd354e94
+
