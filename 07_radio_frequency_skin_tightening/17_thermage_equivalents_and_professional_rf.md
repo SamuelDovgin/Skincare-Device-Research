@@ -1,5 +1,7 @@
 # Best Thermage equivalents and professional RF services
 
+> **Looking for a home purchase?** Start with [the closest home-device recommendation](index.html#doc18) and [home comparison](rf_spec_fit_visualizer.html#home-thermage). This page covers clinic services as a separate reference.
+
 *Evidence checked October 2, 2026. This is an editorial service shortlist, not a measured efficacy league table or a treatment prescription.*
 
 **My first alternative to investigate for a Thermage FLX-style service is Volnewmer.** It has a direct randomized split-face comparison against FLX, with similar short-term lifting/elasticity results and lower procedural pain. That evidence is small and short: 22 Asian women followed for eight weeks. **YOUMAGIC has the stronger large comparative trial**, but its comparator was older Thermage CPT. Neither establishes universal equivalence to FLX, superior collagen production, or equal long-term safety. [[1]](https://pmc.ncbi.nlm.nih.gov/articles/PMC12715870/)[[2]](https://link.springer.com/article/10.1007/s10103-026-04841-4)

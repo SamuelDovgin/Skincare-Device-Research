@@ -4,9 +4,11 @@ Research thread: **radiofrequency (RF) devices for collagen remodeling, wrinkle 
 
 > **Key distinction:** non-invasive home RF devices heat tissue through electrical impedance and are typically cleared for **mild to moderate facial wrinkles**. RF microneedling delivers RF through needles into the skin and is a **medical procedure** with a much higher risk profile.
 
-## Thermage and professional service alternatives
+## Closest home device to Thermage
 
-Start with the [professional-equivalence shortlist](index.html#doc17) and [service selector](rf_spec_fit_visualizer.html#professional). Volnewmer is the first direct FLX candidate; YOUMAGIC has the larger CPT comparison. XERF, Oligio and Density remain promising but have no human Thermage comparison located in this pass. No reviewed home RF device demonstrates equivalence.
+Start with the [home Thermage shortlist](index.html#doc18) and [home decision visualizer](rf_spec_fit_visualizer.html#home-thermage). CurrentBody ST030 is my practical first purchase shortlist; original wired NEWA has stronger direct clinical evidence but is out of stock at the official U.S. store. The new guide separately evaluates AMIRO's older study versus current S2, EvenSkyn's cooling claims, MLAY's higher wattage and Panasonic/MimiSilk frequency proximity. None has demonstrated Thermage-equivalent outcomes.
+
+The [professional shortlist](index.html#doc17) and [clinic selector](rf_spec_fit_visualizer.html#professional) remain available as context.
 
 ## October 2026 collagen decision update
 
@@ -41,14 +43,14 @@ Start with the [proposed home-device specification](index.html#doc15), [interact
 | 09 | [Laser vs RF technology comparison](09_laser_vs_rf_technology_comparison.md) | Mechanism, depth, thermal geometry, outcomes, and where laser and RF overlap or diverge. |
 | 10 | [Home RF tier list & device comparison](10_home_rf_tier_list_and_comparison.md) | **Decision page:** CurrentBody, NEWA, TriPollar, Silk'n, Medicube, Konmison, Thermage, RF microneedling, and the Tria/NIRA/RLT stack. |
 | 11 | [Home RF clinical evidence map](index.html#doc11) | Study design, populations, protocols, outcomes, thermal controls, bias/transferability, and the missing decisive trial |
+| 12 | [Expanded market/value census](index.html#doc12) | 51 product records and exact-model value/evidence limits |
+| 13 | [Frequency and temperature research](index.html#doc13) | MHz, thermal guardrails and clinical transfer |
+| 14 | [Source manifest](index.html#doc14) | Primary documents, captures and recovery trail |
+| 15 | [Home-device specification proposal](index.html#doc15) | Evidence-led delivery and validation requirements |
+| 16 | [Collagen evidence and right specifications](index.html#doc16) | Human endpoints, proxies and device requirements |
+| 17 | [Professional Thermage alternatives](index.html#doc17) | Separate clinic comparison reference |
+| 18 | [Closest home device to Thermage](index.html#doc18) | Practical purchase, direct evidence, current stock, stamping/cooling claims and hardware/evidence comparison |
 
-|12|[Expanded market & value census](index.html#doc12)|Panasonic, YA-MAN, MimiSilk, established alternatives, regional variants, prices and evidence gaps|
-|13|[Frequency, temperature & clinical research](index.html#doc13)|MHz priorities, actual cutoff/dermal claims, controlled studies and technology comparison|
-|14|[Research source manifest](index.html#doc14)|86-source register, primary PDFs, licensed full text and preservation logs|
-|15|[Evidence-led home RF specification blueprint](index.html#doc15)|Design requirements, frequency priorities, safety/control features, evidence expectations and market decision|
-|16|[Collagen efficacy and device requirements](index.html#doc16)|Human collagen versus proxy endpoints, updated 2025–2026 studies, thermal control, exact-model transfer and visualizer method|
-
-|17|[Thermage equivalents & professional RF services](index.html#doc17)|Conditional service tiers, direct FLX/CPT trials, XERF/Oligio/Density, regulatory differences, provider/value requirements|
 
 ## Source/data access
 

@@ -174,3 +174,25 @@ The [service shortlist](index.html#doc17) adds a direct Volnewmer–FLX study, l
 | T10 | [Oku Density Mono-Bi CrossLIFT; PMID41090512; PMC12522179; DOI10.1111/jocd.70504](https://pubmed.ncbi.nlm.nih.gov/41090512/) · [Archived record](source_docs/PMC12522179_Density_2025_BioC.xml) | Uncontrolled; protocol-specific imaging does not quantify collagen or fat loss. No Thermage comparison. |
 | T11 | [Volnewmer versus Thermage CPT registry NCT06657365](https://clinicaltrials.gov/study/NCT06657365) · [Archived record](source_docs/Volnewmer_CPT_NCT06657365_2026-10-02.json) | Registration/status is not an outcome. Different record from the published 2025 FLX split-face trial. |
 | T12 | [FDA RF microneedling safety communication,2025-10-15](https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication) · bibliographic/support note only | Microneedling-specific communication; does not establish all noninvasive RF risks, incidence or a causal device ranking. |
+
+## Closest home device to Thermage: focused source addendum
+
+[Home purchase recommendation and hardware/evidence comparison](index.html#doc18) · [Home visualizer](rf_spec_fit_visualizer.html#home-thermage). IDs H01–H16 supplement the earlier R/T sources. Captures are dated October 2, 2026; hashes and limitations are in the [recovery log](source_docs/research_resource_log_2026-10-02.txt). H06 is an original structured extraction, not a redistributed publisher full text.
+
+| ID | Source | Preservation / role |
+|---|---|---|
+| H01 | [NEWA official U.S. store — Classic/Plus stock](https://mynewa.com/) | [Local HTML snapshot](source_docs/NEWA_US_home_equivalence_2026-10-02.html); official product |
+| H02 | [CurrentBody RF current U.S. listing](https://www.currentbody.us/products/currentbody-skin-radio-frequency-device) | [Local HTML snapshot](source_docs/CurrentBody_US_home_equivalence_2026-10-02.html); official product |
+| H03 | [EvenSkyn Lumo+ U.S. product listing](https://www.evenskyn.com/products/skin-tightening-machine) | [Local HTML snapshot](source_docs/EvenSkyn_Lumo_home_equivalence_2026-10-02.html); official product / marketing |
+| H04 | [EvenSkyn Lumo+ regional technical claims](https://www.evenskyn.com/en-gb/products/skin-tightening-machine?variant=43064914247939) | [Local HTML snapshot](source_docs/EvenSkyn_Lumo_GB_home_equivalence_2026-10-02.html); official product / marketing |
+| H05 | [AMIRO S2 Seal2-Max manual — ABF202](https://cdn.shopify.com/s/files/1/0053/8866/4950/files/S2_Seal-Max.pdf?v=1695808061) | [Local PDF](source_docs/AMIRO_S2_Seal_Max_2023_manual.pdf); official product / IFU |
+| H06 | [Ai et al. AMIRO home RF human study — DOI10.1111/jocd.16076 / PMID37942722](https://onlinelibrary.wiley.com/doi/10.1111/jocd.16076) | [Local support notes](source_docs/AMIRO_Ai_2024_home_equivalence_support.json); peer-reviewed human |
+| H07 | [MLAY RF01 regional brand storefront](https://www.mlaysea.com/products/mlay-rf01) | [Local HTML snapshot](source_docs/MLAY_RF01_home_equivalence_2026-10-02.html); official/brand regional listing, authority provisional |
+| H08 | [Sensica Sensilift current retail listing](https://sensica.com/products/sensilift) | [Local HTML snapshot](source_docs/Sensica_Sensilift_home_equivalence_2026-10-02.html); official product |
+| H09 | [CurrentBody public clinical trials index](https://www.currentbody.us/pages/currentbody-skin-user-and-clinical-trials) | [Local HTML snapshot](source_docs/CurrentBody_trials_home_equivalence_2026-10-02.html); official product / research index |
+| H10 | [AMIRO official manual index](https://amirobeauty.com/pages/view-manual) | [Local HTML snapshot](source_docs/AMIRO_manual_index_home_equivalence_2026-10-02.html); official product |
+| H11 | [AMIRO official FAQ](https://amirobeauty.com/pages/faq) | URL only; discovery/context or no full-text redistribution; official product / marketing |
+| H12 | [AMIRO research announcement](https://www.amiro.com.cn/news/40) | URL only; discovery/context or no full-text redistribution; official product / discovery |
+| H13 | [EvenSkyn own-brand 2026 RF ranking](https://www.evenskyn.com/blogs/skin-beautyarticles/best-rf-skin-tightening-device-2026) | URL only; discovery/context or no full-text redistribution; marketing / discovery |
+| H14 | [Thermage FLX TR-4 return pad, AccessGUDID](https://accessgudid.nlm.nih.gov/devices/00816995021285) | [Local HTML snapshot](source_docs/Thermage_FLX_return_pad_GUDID_2026-10-02.html); hardware identity, not efficacy proof |
+| H15–H16 | Official CPT manual and FLX overview, recovery-log URLs | Search discovery/context only; no full-text copy retained |

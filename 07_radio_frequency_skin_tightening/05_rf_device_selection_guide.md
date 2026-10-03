@@ -1,5 +1,7 @@
 # RF Device Quick Selection Guide
 
+> **Thermage-at-home purchase:** [Focused home guide](index.html#doc18) · [delivery-feature visualizer](rf_spec_fit_visualizer.html#home-thermage). CurrentBody is the practical first shortlist; original wired NEWA is the direct clinical anchor, conditional on availability and support.
+
 *Updated October 2, 2026. Goal-first device research, not individual medical clearance. Read the [efficacy-informed tier list](index.html#doc10) and [collagen specification synthesis](index.html#doc16) for evidence and linked sources.*
 
 ## Choose by goal
@@ -32,6 +34,6 @@ Use the specified gel/interface and timed routine; keep contact/motion as direct
 
 ## What I would skip
 
-I would not choose an unverified OEM facial RF device as a first buy, nor pay a premium for an unvalidated high-frequency/high-heat collagen claim. MimiSilk and unresolved EvenSkyn/AMIRO generations remain lower buying-confidence entries, not proven ineffective devices. RF microneedling is professional-only; FDA explicitly says it should not be used at home.
+I would not choose an unverified OEM facial RF device as a first buy, nor pay a premium for an unvalidated high-frequency/high-heat collagen claim. MimiSilk, EvenSkyn Lumo+ and MLAY remain low-confidence collagen purchases. AMIRO now has an identified older-device human study, but current S2 hardware transfer remains unproven; compare it in the [home guide](index.html#doc18). RF microneedling is professional-only; FDA explicitly says it should not be used at home.
 
 [Open the collagen visualizer](rf_spec_fit_visualizer.html) · [Source manifest](index.html#doc14) · [FDA RF microneedling warning](https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication).

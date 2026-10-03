@@ -2,6 +2,8 @@
 
 *Updated October 2, 2026. Editorial recommendations based on human outcomes, exact-model transfer, thermal controls and support. Targeted research synthesis, not an exhaustive systematic review. Tiers are judgments under uncertainty, not measured differences in treatment effect.*
 
+> **Thermage-at-home goal:** [Read the focused home shortlist](index.html#doc18) and [compare delivery features](rf_spec_fit_visualizer.html#home-thermage). CurrentBody remains my practical first choice; original wired NEWA has stronger direct clinical support, but its official U.S. store currently marks it out of stock. AMIRO now has a resolved older-device human study; current S2 transfer remains unproven.
+
 ## My actual recommendation
 
 **For a current home device for mild facial wrinkles, I would investigate CurrentBody Skin RF ST030 first. For direct subject-device human evidence, original NEWA is the strongest anchor.** CurrentBody's controls and current U.S. identity make it my practical first shortlist; its FDA summary explicitly reports no new clinical testing on the subject device. It has not been shown to outperform NEWA. [[1]](https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN150005.pdf)[[2]](https://www.accessdata.fda.gov/cdrh_docs/pdf23/K232424.pdf)
@@ -41,10 +43,13 @@ Within-tier order is not a clinical league table. Price, prestige, watts and MHz
 | **Panasonic EH-SR86 / SR85 / SR75** | **C** | Multimodal platform; no demonstrated RF frequency advantage | Manufacturer 4 / 3 / 2 MHz respectively; see [prior-generation brochure](source_docs/Panasonic_RF_EX_RF_2025_brochure.pdf) | A supported discounted model may offer value; a MHz upgrade does not establish better collagen. |
 | **Medicube Ultra Tune 40.68** | **C** | Manufacturer application-test claims; independent exact-model advantage not established. [[15]](https://medicube.us/products/age-r-ultra-tune-40-68) | 40.68 MHz label, RF + microcurrent; numeric skin cap/load output unresolved | Optional combination product, not my efficacy winner. Professional 40.68 MHz studies do not validate it. |
 | **MimiSilk Vera RF Sculpt** | **D** | No independent exact-model human trial located. [[16]](https://www.mimisilk.com/products/mimisilk-vera-rf-sculpt-6-25mhz-gel-free-radio-frequency-skin-lifting-device)[[17]](https://www.mimisilk.com/blogs/news/how-to-use-mimisilk-vera-rf-sculpt-full-guide-expected-results) | 6.25 MHz/gel-free claims; conflicting claimed dermal temperatures across brand pages | I would pass for collagen until thermal validation and human data improve. |
-| **EvenSkyn Lumo+ / AMIRO unresolved models** | **D pending dossier** | Prior census records marketing and exact-generation gaps; no newly verified independent package in this pass | See [dated census](index.html#doc12); brand heat/depth claims unresolved | Do not spend a collagen premium before resolving SKU and study. Not proof of zero effect. |
+| **AMIRO ABF202, 19-electrode study identity** | **B, reference** | 22 women, eight-week uncontrolled course; blinded wrinkle scores and ultrasound thickness improved; commercial device/service-fee support. [[21]](https://onlinelibrary.wiley.com/doi/10.1111/jocd.16076) | Surface sensor; numeric cutoff/carrier not specified; reported 5.22–6.25 W settings | Useful direct human signal; no sham/Thermage comparison. Different hardware from current S2. |
+| **AMIRO S2 / Seal2-Max, 48 electrodes** | **C** | Older 19-electrode study cannot establish current-model transfer. [[21]](https://onlinelibrary.wiley.com/doi/10.1111/jocd.16076)[[22]](https://cdn.shopify.com/s/files/1/0053/8866/4950/files/S2_Seal-Max.pdf?v=1695808061) | Manual: 1/1.5/2/2.6 MHz; temperature-fault state; 15 W power-supply rating is not RF output | Interesting noninvasive stamping workflow; not established Thermage-like efficacy. |
+| **EvenSkyn Lumo+** | **D pending validation** | Exact-model controlled human package not retrieved. [[23]](https://www.evenskyn.com/products/skin-tightening-machine) | Active semiconductor cooling claimed; independent thermal map/output/clearance identity unresolved | Cooling claim deserves separate consideration, but does not earn a collagen premium. |
+| **MLAY RF01, regional listing** | **D pending validation** | Exact-model controlled human package not retrieved. [[24]](https://www.mlaysea.com/products/mlay-rf01) | Claimed 1 MHz bipolar, face 25 W/body 50 W; numeric cutoff/load/waveform unresolved | Higher advertised watts do not establish stronger results; verify storefront and unit identity. |
 | **Konmison LB056B / unverified OEM** | **D** | No adequate human/control package in archived supplier assessment | 2 MHz supplier claim; 55 W consumption is not confirmed skin RF output | I would not make this a first facial RF buy; see [supplier analysis](index.html#doc2). |
 
-**Finding:** credible home-RF signals coexist with unresolved differences in actual current-device efficacy. A higher tier favors demonstrated human response or a transparent controlled-heating bridge, not a hotter or higher-frequency claim. Recovery IDs R01–R24 are recorded in the [research log](source_docs/research_resource_log_2026-10-02.txt).
+**Finding:** credible home-RF signals coexist with unresolved differences in actual current-device efficacy. A higher tier favors demonstrated human response or a transparent controlled-heating bridge, not a hotter or higher-frequency claim. Recovery IDs R01–R24 and H01–H16 are recorded in the [research log](source_docs/research_resource_log_2026-10-02.txt).
 
 ## Professional lineup: separate from home tiers
 
@@ -98,3 +103,10 @@ A current-model sham-controlled trial, valid durability follow-up, direct human 
 ## Professional service substitution update
 
 The [Thermage-equivalence shortlist](index.html#doc17) compares Volnewmer, YOUMAGIC, XERF, Oligio and Density using human evidence, exact Thermage generation and local labeling. These service grades are independent of home grades; no home device has demonstrated Thermage equivalence.
+
+## Focused home-equivalence source update
+
+21. [Ai et al., AMIRO ABF202 human study](https://onlinelibrary.wiley.com/doi/10.1111/jocd.16076) — H06; 19 electrodes, not verified current S2 hardware.
+22. [Official AMIRO S2 manual](https://cdn.shopify.com/s/files/1/0053/8866/4950/files/S2_Seal-Max.pdf?v=1695808061) — H05; 48 electrodes despite shared model code.
+23. [EvenSkyn Lumo+ listing](https://www.evenskyn.com/products/skin-tightening-machine) — H03/H04; brand claims, not independent validation.
+24. [MLAY RF01 regional listing](https://www.mlaysea.com/products/mlay-rf01) — H07; unvalidated output/thermal claims.

@@ -1,4 +1,4 @@
-/* Source-linked research snapshot; fixed editorial tiers, no clinical dose prediction. */
+/* Source-backed snapshot; no clinical-dose predictions. */
 window.RF_COLLAGEN_LINEUP = {
   "updated": "2026-10-02",
   "method": "Fixed editorial efficacy-informed recommendation tiers; no clinical score, dose prediction or frequency multiplier.",
@@ -187,6 +187,76 @@ window.RF_COLLAGEN_LINEUP = {
       "label": "FDA RF microneedling warning",
       "url": "https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication",
       "local": ""
+    },
+    "H01": {
+      "label": "NEWA official U.S. store — Classic/Plus stock",
+      "url": "https://mynewa.com/",
+      "local": "source_docs/NEWA_US_home_equivalence_2026-10-02.html"
+    },
+    "H02": {
+      "label": "CurrentBody RF current U.S. listing",
+      "url": "https://www.currentbody.us/products/currentbody-skin-radio-frequency-device",
+      "local": "source_docs/CurrentBody_US_home_equivalence_2026-10-02.html"
+    },
+    "H03": {
+      "label": "EvenSkyn Lumo+ U.S. product listing",
+      "url": "https://www.evenskyn.com/products/skin-tightening-machine",
+      "local": "source_docs/EvenSkyn_Lumo_home_equivalence_2026-10-02.html"
+    },
+    "H04": {
+      "label": "EvenSkyn Lumo+ regional technical claims",
+      "url": "https://www.evenskyn.com/en-gb/products/skin-tightening-machine?variant=43064914247939",
+      "local": "source_docs/EvenSkyn_Lumo_GB_home_equivalence_2026-10-02.html"
+    },
+    "H05": {
+      "label": "AMIRO S2 Seal2-Max manual — ABF202",
+      "url": "https://cdn.shopify.com/s/files/1/0053/8866/4950/files/S2_Seal-Max.pdf?v=1695808061",
+      "local": "source_docs/AMIRO_S2_Seal_Max_2023_manual.pdf"
+    },
+    "H06": {
+      "label": "Ai et al. AMIRO home RF human study — DOI10.1111/jocd.16076 / PMID37942722",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/jocd.16076",
+      "local": "source_docs/AMIRO_Ai_2024_home_equivalence_support.json"
+    },
+    "H07": {
+      "label": "MLAY RF01 regional brand storefront",
+      "url": "https://www.mlaysea.com/products/mlay-rf01",
+      "local": "source_docs/MLAY_RF01_home_equivalence_2026-10-02.html"
+    },
+    "H08": {
+      "label": "Sensica Sensilift current retail listing",
+      "url": "https://sensica.com/products/sensilift",
+      "local": "source_docs/Sensica_Sensilift_home_equivalence_2026-10-02.html"
+    },
+    "H09": {
+      "label": "CurrentBody public clinical trials index",
+      "url": "https://www.currentbody.us/pages/currentbody-skin-user-and-clinical-trials",
+      "local": "source_docs/CurrentBody_trials_home_equivalence_2026-10-02.html"
+    },
+    "H10": {
+      "label": "AMIRO official manual index",
+      "url": "https://amirobeauty.com/pages/view-manual",
+      "local": "source_docs/AMIRO_manual_index_home_equivalence_2026-10-02.html"
+    },
+    "H11": {
+      "label": "AMIRO official FAQ",
+      "url": "https://amirobeauty.com/pages/faq",
+      "local": null
+    },
+    "H12": {
+      "label": "AMIRO research announcement",
+      "url": "https://www.amiro.com.cn/news/40",
+      "local": null
+    },
+    "H13": {
+      "label": "EvenSkyn own-brand 2026 RF ranking",
+      "url": "https://www.evenskyn.com/blogs/skin-beautyarticles/best-rf-skin-tightening-device-2026",
+      "local": null
+    },
+    "H14": {
+      "label": "AccessGUDID Thermage FLX TR-4 patient return pad",
+      "url": "https://accessgudid.nlm.nih.gov/devices/00816995021285",
+      "local": "source_docs/Thermage_FLX_return_pad_GUDID_2026-10-02.html"
     }
   },
   "devices": [
@@ -199,10 +269,11 @@ window.RF_COLLAGEN_LINEUP = {
       "output": "10 W on 360 Ω bench load; pulse timing documented.",
       "human": "69 enrolled / 62 completed; 59/62 blinded wrinkle responders at four weeks. Single arm, follow-up to three months.",
       "collagen": "Visible wrinkle outcome; separate instrumental estimates. No human biopsy-confirmed collagen gain.",
-      "judgment": "Strongest direct home clinical anchor; verify current sold generation and support.",
+      "judgment": "Strongest direct home clinical anchor; conditional purchase because official U.S. store marks Classic out of stock. Verify authentic exact hardware and support.",
       "sources": [
         "R01",
-        "R03"
+        "R03",
+        "H01"
       ],
       "directHuman": true,
       "numericControl": true,
@@ -211,7 +282,7 @@ window.RF_COLLAGEN_LINEUP = {
       "contact": "Six-electrode multisource design; specified gel and movement protocol.",
       "scope": "home",
       "kind": "Direct, uncontrolled human evidence",
-      "price": "Confirm current local price, availability, warranty and consumables.",
+      "price": "Official U.S. store: Classic $339 / Plus $439, both out of stock on October 2, 2026. Wired Classic evidence does not automatically transfer to Plus.",
       "thermal": "No independent depth-resolved living-human thermal map established here."
     },
     {
@@ -220,14 +291,16 @@ window.RF_COLLAGEN_LINEUP = {
       "tier": "A-",
       "frequency": "1 MHz FDA record",
       "control": "Two redundant thermistors; maximum allowed 40.5 ±0.5°C in filing.",
-      "output": "5 ±1 W; regulatory bench record, not absorbed dermal power.",
+      "output": "5 ±1 W on 200 Ω bench load; not absorbed dermal power.",
       "human": "No new subject-device clinical testing in FDA summary. Retail outcome percentages are manufacturer claims.",
       "collagen": "No extracted exact-model human biopsy/collagen assay; clinical inference through technical equivalence.",
       "judgment": "My practical first shortlist for mild wrinkles: transparent controls and current U.S. identity, not proven efficacy superiority.",
       "sources": [
         "R02",
         "R04",
-        "R22"
+        "R22",
+        "H02",
+        "H09"
       ],
       "directHuman": false,
       "numericControl": true,
@@ -236,7 +309,7 @@ window.RF_COLLAGEN_LINEUP = {
       "contact": "Four electrodes, bipolar geometry; full-contact and branded gel instructions.",
       "scope": "home",
       "kind": "Regulatory bridge + retail claims",
-      "price": "Current U.S. listing verified; price must be checked at purchase.",
+      "price": "Active U.S. listing: base device $385.99 on October 2, 2026; check exact model, destination and checkout availability.",
       "thermal": "No independent depth-resolved living-human thermal map established here."
     },
     {
@@ -250,7 +323,8 @@ window.RF_COLLAGEN_LINEUP = {
       "collagen": "No direct current-model human collagen quantification located.",
       "judgment": "Credible controlled-RF alternative; not superior because of one extra watt.",
       "sources": [
-        "R09"
+        "R09",
+        "H08"
       ],
       "directHuman": false,
       "numericControl": true,
@@ -259,7 +333,7 @@ window.RF_COLLAGEN_LINEUP = {
       "contact": "Bipolar facial RF; coupling and area protocol in model labeling.",
       "scope": "home",
       "kind": "Regulatory bridge",
-      "price": "Confirm current local price, availability, warranty and consumables.",
+      "price": "Pro ST300 must be matched to the FDA filing. Current standard Sensilift retail page lists $449 and 10 ±1 W; do not merge with Pro 6 ±1 W.",
       "thermal": "No independent depth-resolved living-human thermal map established here."
     },
     {
@@ -522,29 +596,6 @@ window.RF_COLLAGEN_LINEUP = {
       "thermal": "No independent depth-resolved living-human thermal map established here."
     },
     {
-      "id": "unresolved",
-      "name": "EvenSkyn Lumo+ / AMIRO unresolved generations",
-      "tier": "D",
-      "frequency": "Exact current RF carriers unresolved",
-      "control": "Prior census reports brand heat/depth claims; not independently mapped.",
-      "output": "Unresolved exact-model load-specific output.",
-      "human": "No newly verified independent exact-model study package in this pass.",
-      "collagen": "No exact-generation human collagen quantification established.",
-      "judgment": "Do not buy a collagen premium before the current SKU and full study are resolved.",
-      "sources": [
-        "LOCAL"
-      ],
-      "directHuman": false,
-      "numericControl": false,
-      "reference": false,
-      "regulatoryBridge": false,
-      "contact": "Not fully characterized in reviewed sources",
-      "scope": "home",
-      "kind": "Prior market dossier with unresolved identity",
-      "price": "Confirm current local price, availability, warranty and consumables.",
-      "thermal": "No independent depth-resolved living-human thermal map established here."
-    },
-    {
       "id": "oem",
       "name": "Konmison LB056B / unverified OEM",
       "tier": "D",
@@ -566,6 +617,102 @@ window.RF_COLLAGEN_LINEUP = {
       "kind": "Supplier claims / missing validation",
       "price": "Confirm current local price, availability, warranty and consumables.",
       "thermal": "No independent depth-resolved living-human thermal map established here."
+    },
+    {
+      "scope": "home",
+      "directHuman": true,
+      "numericControl": false,
+      "reference": true,
+      "regulatoryBridge": false,
+      "thermal": "No independent depth-resolved living-human thermal map established here.",
+      "id": "amirostudy",
+      "name": "AMIRO ABF202 — 19-electrode study device",
+      "tier": "B",
+      "frequency": "Carrier not specified in inspected study",
+      "control": "Surface temperature sensor described; numeric skin cutoff not given.",
+      "output": "Reported settings 5.22–6.25 W; no independent load-specific absorbed-power record.",
+      "human": "22 women, Fitzpatrick III–IV, eight weeks, single-arm baseline comparison; blinded wrinkle scores and ultrasound thickness improved. One temporary erythema; manufacturer device/service-fee support.",
+      "collagen": "Ultrasound thickness is an indirect tissue measure, not biopsy-confirmed collagen gain. Image endpoints were mixed.",
+      "judgment": "Real direct human evidence improves the older-device recommendation; not a validated bridge to current 48-electrode S2.",
+      "sources": [
+        "H06",
+        "H05"
+      ],
+      "contact": "19-electrode multipolar grid; proprietary mask deep mode followed by gel daily mode.",
+      "kind": "Direct, uncontrolled human evidence",
+      "price": "Study identity, not confirmed current purchase. ABF202 model code alone does not identify matching hardware."
+    },
+    {
+      "scope": "home",
+      "directHuman": false,
+      "numericControl": false,
+      "reference": false,
+      "regulatoryBridge": false,
+      "thermal": "No independent depth-resolved living-human thermal map established here.",
+      "id": "amiros2",
+      "name": "AMIRO S2 / Seal2-Max — 48 electrodes",
+      "tier": "C",
+      "frequency": "1 / 1.5 / 2 / 2.6 MHz, official manual",
+      "control": "Temperature-control fault state documented; no numeric skin cutoff located.",
+      "output": "15 W power-supply rating is not measured RF output. Load-specific RF delivery unresolved.",
+      "human": "Older 19-electrode ABF202 study supports lineage; current 48-electrode S2 outcome transfer not established.",
+      "collagen": "No direct exact-current-model human collagen assay established; do not transfer ultrasound thickness or marketing percentages.",
+      "judgment": "Interesting noninvasive grid-stamping workflow, but not proven Thermage-like collagen efficacy.",
+      "sources": [
+        "H05",
+        "H06",
+        "H10"
+      ],
+      "contact": "48 electrodes; RF + microcurrent + LEDs; grid masks and gel. Stamping is not evidence of penetrating needles.",
+      "kind": "Manual + indirect study lineage",
+      "price": "Confirm region, exact hardware, warranty and mask/gel consumable cost."
+    },
+    {
+      "scope": "home",
+      "directHuman": false,
+      "numericControl": false,
+      "reference": false,
+      "regulatoryBridge": false,
+      "thermal": "No independent depth-resolved living-human thermal map established here.",
+      "id": "lumo",
+      "name": "EvenSkyn Lumo+",
+      "tier": "D",
+      "frequency": "1 MHz claimed on official regional page",
+      "control": "Active semiconductor cooling and thermal feedback claimed; independent numeric cutoff/control validation unresolved.",
+      "output": "Load-specific RF power unresolved. Regional rated-power text uses V rather than W; depth/heat-fraction claims not verified.",
+      "human": "No independently verified exact-model controlled human study package retrieved in this pass.",
+      "collagen": "No exact-model human collagen quantification established; brand cooling/depth claims do not fill the gap.",
+      "judgment": "Closest reviewed home cooling feature claim, but I would pass for a collagen premium pending validation. Cooling alone does not mimic FLX delivery.",
+      "sources": [
+        "H03",
+        "H04"
+      ],
+      "contact": "Bipolar architecture claimed by brand; no verified professional monopolar/return-pad circuit.",
+      "kind": "Manufacturer cooling and delivery claims",
+      "price": "U.S. listing $499.99 on October 2, 2026; verify destination and exact generation."
+    },
+    {
+      "scope": "home",
+      "directHuman": false,
+      "numericControl": false,
+      "reference": false,
+      "regulatoryBridge": false,
+      "thermal": "No independent depth-resolved living-human thermal map established here.",
+      "id": "mlay",
+      "name": "MLAY RF01 — regional listing identity",
+      "tier": "D",
+      "frequency": "1 MHz bipolar, storefront claim",
+      "control": "Adaptive thermal protection claimed; numeric skin limit and fault validation unresolved.",
+      "output": "Advertised face 25 W / body 50 W; load, waveform and independently measured RF output unresolved.",
+      "human": "No independently verified exact-model controlled human study package retrieved in this pass.",
+      "collagen": "No exact-model human collagen endpoint established.",
+      "judgment": "Higher advertised watts do not establish deeper useful collagen remodeling. I would pass for the Thermage-at-home goal pending a reliable dossier.",
+      "sources": [
+        "H07"
+      ],
+      "contact": "Bipolar face/body probes; coupling and exact current unit need verification.",
+      "kind": "Regional brand/storefront claims",
+      "price": "Page lists $290; inconsistent unrelated content limits listing reliability. Verify exact identity/support."
     },
     {
       "id": "thermage",
@@ -766,5 +913,144 @@ window.RF_COLLAGEN_LINEUP = {
         "R02"
       ]
     }
-  }
+  },
+  "homeDecisions": {
+    "practical": {
+      "title": "My practical home choice: CurrentBody ST030",
+      "text": "Choose documented controlled RF and a clear current identity. The FDA record supports delivery controls and a regulatory bridge, not new subject-device efficacy results. Expect modest home wrinkle/skin-quality goals, not proven Thermage equivalence.",
+      "devices": [
+        "currentbody",
+        "newa"
+      ],
+      "sources": [
+        "R02",
+        "R01",
+        "H02",
+        "H01"
+      ]
+    },
+    "clinical": {
+      "title": "Stronger direct clinical anchor: original wired NEWA",
+      "text": "Original NEWA has directly studied home wrinkle outcomes, although uncontrolled. The official U.S. store marks Classic out of stock. This is a conditional purchase: confirm matching hardware, authenticity and support. Plus is not automatically covered.",
+      "devices": [
+        "newa",
+        "currentbody"
+      ],
+      "sources": [
+        "R01",
+        "R03",
+        "H01"
+      ]
+    },
+    "stamping": {
+      "title": "AMIRO: promising study, different current hardware",
+      "text": "The eight-week human paper tested AMIRO ABF202 with 19 electrodes. The current S2 manual also says ABF202 but lists 48 electrodes. I give the study device B as an evidence reference and S2 C pending transfer. Noninvasive stamping does not establish Thermage dose or RF microneedling.",
+      "devices": [
+        "amirostudy",
+        "amiros2"
+      ],
+      "sources": [
+        "H06",
+        "H05"
+      ]
+    },
+    "cooling": {
+      "title": "Lumo+ cooling and MLAY watts do not win the recommendation",
+      "text": "Lumo+ advertises active semiconductor cooling; it would be wrong to dismiss all home cooling as nonexistent. Independent exact-model dose and clinical validation remain unresolved. MLAY’s higher advertised watts have no verified comparable load record. Both remain D for this goal.",
+      "devices": [
+        "lumo",
+        "mlay"
+      ],
+      "sources": [
+        "H03",
+        "H04",
+        "H07"
+      ]
+    },
+    "frequency": {
+      "title": "Matching 6 MHz is not matching Thermage",
+      "text": "Panasonic advertises 1–6 MHz; MimiSilk advertises 6.25 MHz. Similar carrier numbers do not reproduce FLX’s monopolar circuit, cooled tip, treatment protocol or human outcomes. I would buy controlled delivery and relevant evidence before a frequency premium.",
+      "devices": [
+        "panasonic",
+        "mimisilk"
+      ],
+      "sources": [
+        "R14",
+        "R17",
+        "T08"
+      ]
+    }
+  },
+  "homeFeatures": {
+    "thermage": [
+      "6.78 MHz",
+      "Monopolar tip + return electrode",
+      "Professional cooling + feedback",
+      "Professional tip/pulse/protocol record",
+      "Professional wrinkle/laxity studies; no home comparator"
+    ],
+    "currentbody": [
+      "1 MHz",
+      "Four electrodes / two bipolar pairs",
+      "Redundant thermistors, 40.5 ±0.5°C; active cooling not documented",
+      "5 ±1 W at 200 Ω; dermal dose unknown",
+      "Regulatory bridge; no new subject-device trial in filing"
+    ],
+    "newa": [
+      "1 MHz",
+      "Six-electrode multisource local delivery",
+      "RF stops above 42°C; active cooling not documented",
+      "10 W at 360 Ω; dermal dose unknown",
+      "Direct uncontrolled home wrinkle trial; no FLX comparison"
+    ],
+    "amirostudy": [
+      "Not specified in inspected paper",
+      "19-electrode multipolar grid",
+      "Surface sensor; numeric cutoff not specified",
+      "5.22–6.25 W reported; load/dose unvalidated",
+      "22 women, baseline comparison; thickness is not collagen biopsy"
+    ],
+    "amiros2": [
+      "1 / 1.5 / 2 / 2.6 MHz",
+      "48-electrode noninvasive grid",
+      "Temperature fault indication; numeric cutoff unresolved",
+      "15 W power-supply rating; RF output unresolved",
+      "19-electrode study transfer to S2 not established"
+    ],
+    "lumo": [
+      "1 MHz regional claim",
+      "Bipolar, manufacturer claim",
+      "Active semiconductor cooling claimed; independent validation unresolved",
+      "Heat-depth/power claims unvalidated",
+      "Exact-model controlled human package not retrieved"
+    ],
+    "mlay": [
+      "1 MHz storefront claim",
+      "Bipolar face/body probes, claimed",
+      "Adaptive protection claimed; numeric limit unresolved",
+      "25 / 50 W advertised; load/waveform unverified",
+      "Exact-model controlled human package not retrieved"
+    ],
+    "panasonic": [
+      "Variable 1–6 MHz",
+      "Eight electrodes + RF/EMS/ion/LED",
+      "Numeric skin cap not resolved in this review",
+      "Load-specific RF output unresolved",
+      "Exact-model controlled collagen advantage not established"
+    ],
+    "mimisilk": [
+      "6.25 MHz claimed",
+      "Retail/OEM identity and geometry unresolved",
+      "Conflicting 49–50°C / 52°C claims",
+      "Independent load-specific RF output unresolved",
+      "No exact-generation human collagen validation established"
+    ]
+  },
+  "homeFeatureLabels": [
+    "Carrier — descriptive, not a score",
+    "Circuit / geometry",
+    "Skin protection / controls",
+    "RF output / thermal-dose knowledge",
+    "Relevant human evidence"
+  ]
 };

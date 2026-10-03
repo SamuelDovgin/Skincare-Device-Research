@@ -635,3 +635,148 @@ Key record:No newoutcomeclaimed.
 Limits:Contextonly;needleprocedure notnoninvasivebulkRF.
 Local preservation:URL-only — nofulltext copy retained.
 Status/recheck:searchindexed;notall fullpagesretrieved.
+
+HOME THERMAGE CORRECTION — October 2, 2026
+Target: closest practical HOME device, retaining professional research as a separate reference. Reused R01/R02/R03/R09/T08 local FDA/study evidence. This is a focused review, not a systematic search. No home-to-Thermage human comparison located. Prices and stock are dated observations. H06 corrects R24 abstract-only identity uncertainty.
+
+[H01] NEWA official U.S. store — Classic/Plus stock
+URL: https://mynewa.com/
+Accessed: 2026-10-02
+Class: official product
+Used in: doc18, home visualizer, clinical/tier reconciliation where applicable; discovery-only sources excluded from conclusions.
+Supports / key record / limitations: Classic $339 / Plus $439 both out of stock; site limits FDA-cleared statement to wired Classic. Snapshot does not establish global discontinuation or Plus clinical transfer.
+Local preservation: source_docs/NEWA_US_home_equivalence_2026-10-02.html; html; SHA256 3020e195f5a26996a6c384214139ab1a7ea990dd49846b86f0ef2f5c98124816
+Status/recheck: live full page/PDF inspected unless labeled search-index discovery; claims not independently validated by a local capture.
+
+[H02] CurrentBody RF current U.S. listing
+URL: https://www.currentbody.us/products/currentbody-skin-radio-frequency-device
+Accessed: 2026-10-02
+Class: official product
+Used in: doc18, home visualizer, clinical/tier reconciliation where applicable; discovery-only sources excluded from conclusions.
+Supports / key record / limitations: Base device $385.99. Active listing; destination shipment must be checked. Outcome percentages are manufacturer claims, not a retrieved attributable complete human RF trial.
+Local preservation: source_docs/CurrentBody_US_home_equivalence_2026-10-02.html; html; SHA256 2be1874416f1340e88ec3c3a3dcd7a367db36483fd280781b2605023f442a2f9
+Status/recheck: live full page/PDF inspected unless labeled search-index discovery; claims not independently validated by a local capture.
+
+[H03] EvenSkyn Lumo+ U.S. product listing
+URL: https://www.evenskyn.com/products/skin-tightening-machine
+Accessed: 2026-10-02
+Class: official product / marketing
+Used in: doc18, home visualizer, clinical/tier reconciliation where applicable; discovery-only sources excluded from conclusions.
+Supports / key record / limitations: Current listed $499.99; active semiconductor cooling and heat-depth fractions claimed. No independent exact-model thermal map or controlled human evidence retrieved. Marketing badges do not verify a clearance identifier.
+Local preservation: source_docs/EvenSkyn_Lumo_home_equivalence_2026-10-02.html; html; SHA256 9481e6944d5df9a9618b3b2935b6a20f243913acd663d5deca1d3da0377e6092
+Status/recheck: live full page/PDF inspected unless labeled search-index discovery; claims not independently validated by a local capture.
+
+[H04] EvenSkyn Lumo+ regional technical claims
+URL: https://www.evenskyn.com/en-gb/products/skin-tightening-machine?variant=43064914247939
+Accessed: 2026-10-02
+Class: official product / marketing
+Used in: doc18, home visualizer, clinical/tier reconciliation where applicable; discovery-only sources excluded from conclusions.
+Supports / key record / limitations: Regional page lists bipolar 1 MHz and cooling/thermal claims. Rated power about 10 V is incoherent as watts; no reliable load-specific RF output extracted. Regional claims may differ from delivered hardware.
+Local preservation: source_docs/EvenSkyn_Lumo_GB_home_equivalence_2026-10-02.html; html; SHA256 d4b28dfa3cc2402046c5d0d6aac32eb7b0d69a444d72a1635e1b0398818c4343
+Status/recheck: live full page/PDF inspected unless labeled search-index discovery; claims not independently validated by a local capture.
+
+[H05] AMIRO S2 Seal2-Max manual — ABF202
+URL: https://cdn.shopify.com/s/files/1/0053/8866/4950/files/S2_Seal-Max.pdf?v=1695808061
+Accessed: 2026-10-02
+Class: official product / IFU
+Used in: doc18, home visualizer, clinical/tier reconciliation where applicable; discovery-only sources excluded from conclusions.
+Supports / key record / limitations: 48 electrodes; RF 1/1.5/2/2.6 MHz; microcurrent and LEDs; 15 W power-supply rating is not RF output. Temperature fault status but no numeric skin cutoff found. Noninvasive stamps, not evidence of RF microneedling. Same ABF202 code differs from 19-electrode paper.
+Local preservation: source_docs/AMIRO_S2_Seal_Max_2023_manual.pdf; pdf; SHA256 3c3be4462009b0680d1164c7069c11810dbb181de9db2300ba2765ddff2e0bcd
+Status/recheck: live full page/PDF inspected unless labeled search-index discovery; claims not independently validated by a local capture.
+
+[H06] Ai et al. AMIRO home RF human study — DOI10.1111/jocd.16076 / PMID37942722
+URL: https://onlinelibrary.wiley.com/doi/10.1111/jocd.16076
+Accessed: 2026-10-02
+Class: peer-reviewed human
+Used in: doc18, home visualizer, clinical/tier reconciliation where applicable; discovery-only sources excluded from conclusions.
+Supports / key record / limitations: Original extraction from accessible publisher full text. 22 women age25–55 results, FitzpatrickIII–IV, 8weeks, 3x/week deep grid-mask plus daily gel mode; 19-electrode AMIRO ABF202 with surface sensor. Reported5.22–6.25W not independent absorbed-power testing. Blinded wrinkle assessment and ultrasound thickness improved vs baseline; image results mixed. One temporary erythema; no serious AE. Accompany Tech supplied devices and supported journal Rapid Service Fee. Single-arm, no sham/Thermage, not collagen biopsy. Table2 says n23 despite stated n22. Current48-electrode S2 transfer unproven. Full-text redistribution license not established; only original metadata/extraction retained.
+Local preservation: source_docs/AMIRO_Ai_2024_home_equivalence_support.json; json; SHA256 632334850f5f22d7b1b4dc3210e8b9337ff9c7642a006cd581a3f38dce2c12ef
+Status/recheck: live full page/PDF inspected unless labeled search-index discovery; claims not independently validated by a local capture.
+
+[H07] MLAY RF01 regional brand storefront
+URL: https://www.mlaysea.com/products/mlay-rf01
+Accessed: 2026-10-02
+Class: official/brand regional listing, authority provisional
+Used in: doc18, home visualizer, clinical/tier reconciliation where applicable; discovery-only sources excluded from conclusions.
+Supports / key record / limitations: Claims1MHz bipolar, face25W/body50W, adaptive thermal protection; listed$290. Exact load/waveform/numeric cutoff/independent human results not established. Unrelated IPL content and inconsistent return periods reduce storefront reliability. No inference of stronger clinical efficacy or regulatory authorization.
+Local preservation: source_docs/MLAY_RF01_home_equivalence_2026-10-02.html; html; SHA256 d5fa07f60eba509e8f49a3df478576c3a1cd854dde373607024163b3790018fd
+Status/recheck: live full page/PDF inspected unless labeled search-index discovery; claims not independently validated by a local capture.
+
+[H08] Sensica Sensilift current retail listing
+URL: https://sensica.com/products/sensilift
+Accessed: 2026-10-02
+Class: official product
+Used in: doc18, home visualizer, clinical/tier reconciliation where applicable; discovery-only sources excluded from conclusions.
+Supports / key record / limitations: Sensilift retail page lists$449,1MHz,10±1W and thermal controls. This differs from ProST300 FDA6±1W; exact SKU/revision unresolved. Do not pool those output specifications.
+Local preservation: source_docs/Sensica_Sensilift_home_equivalence_2026-10-02.html; html; SHA256 6352af20c591d546acd73bbb83f831eeeb69db01be95d3ee239ebbd6f91f30f1
+Status/recheck: live full page/PDF inspected unless labeled search-index discovery; claims not independently validated by a local capture.
+
+[H09] CurrentBody public clinical trials index
+URL: https://www.currentbody.us/pages/currentbody-skin-user-and-clinical-trials
+Accessed: 2026-10-02
+Class: official product / research index
+Used in: doc18, home visualizer, clinical/tier reconciliation where applicable; discovery-only sources excluded from conclusions.
+Supports / key record / limitations: Reviewed content supplies LED reports and LED references. No attributable complete RF study report located here. LED studies cannot substantiate ST030 RF claims; not proof RF research does not exist.
+Local preservation: source_docs/CurrentBody_trials_home_equivalence_2026-10-02.html; html; SHA256 0ff1c0856df381e38379623669ab8897b89b136ea122688091ff21d63ef95d0a
+Status/recheck: live full page/PDF inspected unless labeled search-index discovery; claims not independently validated by a local capture.
+
+[H10] AMIRO official manual index
+URL: https://amirobeauty.com/pages/view-manual
+Accessed: 2026-10-02
+Class: official product
+Used in: doc18, home visualizer, clinical/tier reconciliation where applicable; discovery-only sources excluded from conclusions.
+Supports / key record / limitations: Links current S2 manual. Headline collagen percentage has no attributable human methodology on this index; not used as measured efficacy.
+Local preservation: source_docs/AMIRO_manual_index_home_equivalence_2026-10-02.html; html; SHA256 538e29fb0ad2b2f73207d02a8252623d42ef61746a4e5ec2926173a5fab70ba5
+Status/recheck: live full page/PDF inspected unless labeled search-index discovery; claims not independently validated by a local capture.
+
+[H11] AMIRO official FAQ
+URL: https://amirobeauty.com/pages/faq
+Accessed: 2026-10-02
+Class: official product / marketing
+Used in: doc18, home visualizer, clinical/tier reconciliation where applicable; discovery-only sources excluded from conclusions.
+Supports / key record / limitations: S1 sequence2/1.5/1MHz and R1Pro1MHz. These do not substitute for S2 actual manual. Unresolved model identity and inconsistent area advice excluded from treatment instructions.
+Local preservation: URL-only — no lawful local full-text copy retained.
+Status/recheck: live full page/PDF inspected unless labeled search-index discovery; claims not independently validated by a local capture.
+
+[H12] AMIRO research announcement
+URL: https://www.amiro.com.cn/news/40
+Accessed: 2026-10-02
+Class: official product / discovery
+Used in: doc18, home visualizer, clinical/tier reconciliation where applicable; discovery-only sources excluded from conclusions.
+Supports / key record / limitations: Discovery of primary clinical DOI and electrode-geometry work; brand announcement not independent outcome validation. Search-index discovery only.
+Local preservation: URL-only — no lawful local full-text copy retained.
+Status/recheck: live full page/PDF inspected unless labeled search-index discovery; claims not independently validated by a local capture.
+
+[H13] EvenSkyn own-brand 2026 RF ranking
+URL: https://www.evenskyn.com/blogs/skin-beautyarticles/best-rf-skin-tightening-device-2026
+Accessed: 2026-10-02
+Class: marketing / discovery
+Used in: doc18, home visualizer, clinical/tier reconciliation where applicable; discovery-only sources excluded from conclusions.
+Supports / key record / limitations: Own-brand ranking discovery only. Excluded from independent efficacy tier justification; commercial affiliation matters.
+Local preservation: URL-only — no lawful local full-text copy retained.
+Status/recheck: live full page/PDF inspected unless labeled search-index discovery; claims not independently validated by a local capture.
+
+[H14] AccessGUDID Thermage FLX TR-4 patient return pad, DI00816995021285
+URL: https://accessgudid.nlm.nih.gov/devices/00816995021285
+Accessed: 2026-10-02, live full page
+Class: primary device-identity / regulatory database
+Used in: doc18 and home feature comparison
+Supports: Solta Thermage FLX PATIENT RETURN PAD, TR-4; return electrode for monopolar circuit; prescription single-use accessory.
+Limits: Identity record, not independent clinical efficacy or clearance adjudication. Not permission to improvise a home return circuit.
+Local preservation: source_docs/Thermage_FLX_return_pad_GUDID_2026-10-02.html; HTML; SHA256 bd2c975db0c73d98e523f0f06fcadef88d1adc469dce8c65141a79343513037a
+
+[H15] Thermage CPT technical manual search excerpt
+URL: https://prod.thermage.com/siteassets/hcp/pdf/thermage-cpt-technical-users-manual-model-tg-2b-p-np009240-06-2021.pdf
+Accessed: 2026-10-02, search-index excerpt
+Class: official product / discovery
+Used in: discovery/context only
+Supports / limitations: Search excerpt describes neutral return electrode; CPT lineage only, not used to substitute FLX current labeling.
+Local preservation: URL-only — no full-text copy retained.
+
+[H16] Thermage official FLX overview
+URL: https://www.thermage.com/
+Accessed: 2026-10-02, search-index excerpt
+Class: official product / discovery
+Used in: discovery/context only
+Supports / limitations: Search excerpt describes integrated cooling/vibration and marketing outcomes. Discovery/context only; no efficacy percentage adopted.
+Local preservation: URL-only — no full-text copy retained.

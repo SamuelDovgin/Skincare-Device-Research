@@ -2,6 +2,8 @@
 
 *Corrected October 2, 2026. The earlier table and diagrams mixed manufacturer claims, estimates, thermal sensor limits and clinical outcomes. Unsupported fixed depths, universal dermal temperature bands, improvement percentages and session conversions have been removed.*
 
+**For a home device mimicking the Thermage goal, start with the [closest home-device guide](index.html#doc18) and [home feature comparison](rf_spec_fit_visualizer.html#home-thermage).** My practical first shortlist is CurrentBody ST030; original wired NEWA has stronger direct clinical evidence with conditional availability.
+
 **For professional alternatives, start with the [Thermage equivalents and professional service shortlist](index.html#doc17).** Volnewmer has a small direct FLX comparison; YOUMAGIC has a larger CPT comparison. XERF, Oligio and Density have promising human evidence with weaker substitution support. No reviewed home device demonstrates Thermage-equivalent results.
 
 ## The meaningful comparison

@@ -10,6 +10,8 @@ The right specification is a **system**: electrical output + electrode/coupling 
 
 [Use the collagen visualizer](rf_spec_fit_visualizer.html) · [Full MHz/temperature research](index.html#doc13) · [Design blueprint](index.html#doc15).
 
+> **Closest home option to Thermage:** [The home buying guide](index.html#doc18) and [feature comparison](rf_spec_fit_visualizer.html#home-thermage) prioritize CurrentBody practically and original NEWA for direct evidence. AMIRO, active-cooling claims and higher-watt machines are now evaluated separately.
+
 ## 1. The chain from RF to collagen
 
 | Link | What must be established | What cannot substitute for it |
@@ -32,7 +34,7 @@ RF may cause immediate contraction and delayed matrix turnover, but the visible 
 | **Original TriPollar STOP** | 23 women; treatment plus maintenance, no control | 3D wrinkle assessment | Supports visible wrinkle signal, not a histological collagen measurement or Vx2 superiority. [[6]](https://pubmed.ncbi.nlm.nih.gov/21401380/) |
 | **Shu et al., 2022 home trial** | Randomized split-face, 33 enrolled / 32 completed, 12 weeks | 1 MHz RF + 630 nm red light + active gel versus cosmetic; wrinkles and ultrasound thickness favored device bundle; **no significant between-side elasticity/hydration superiority** | Thickness is a proxy, combined energies/gel confound RF attribution, and retail SKU remains unresolved. [[7]](https://link.springer.com/article/10.1007/s13555-022-00697-y) |
 | **Bu et al., 2025 ACE/Jmoon** | Randomized three-arm, 90 enrolled / 80 completed, four weeks; nonpowered-device control | Imaging/dermatologist wrinkle, texture and laxity assessments; bundle signal | No collagen biopsy. Heating/light prevents a fully matched sensory sham; energies remain confounded. Medical gel reduces proprietary gel confounding. Do not transfer to Bloom 6. [[8]](https://onlinelibrary.wiley.com/doi/10.1111/jocd.70096) |
-| **Ai et al., published online 2023 / issue 2024** | 22 women, Fitzpatrick III–IV, eight weeks; baseline comparison | Wrinkle score, 3D measures and ultrasound dermal thickness improved | Not a sham comparison, not collagen-specific staining, and the public abstract does not securely identify a current retail device. [[9]](https://pubmed.ncbi.nlm.nih.gov/37942722/) |
+| **Ai et al., published online 2023 / issue 2024** | 22 women, Fitzpatrick III–IV, eight weeks; baseline comparison | Wrinkle score, 3D measures and ultrasound dermal thickness improved | Full text identifies AMIRO ABF202 with 19 electrodes. No sham or collagen staining; current S2 manual has 48 electrodes despite shared code. Exact-current-model transfer is unproven. [[9]](https://onlinelibrary.wiley.com/doi/10.1111/jocd.16076) |
 | **CurrentBody / Sensilift Pro filings** | Bench/thermal/regulatory equivalence | No new subject-device clinical testing in the reviewed summaries | Useful bridge for plausible controlled RF, **not a new efficacy trial or collagen assay**. [[2]](https://www.accessdata.fda.gov/cdrh_docs/pdf23/K232424.pdf)[[3]](https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250341.pdf) |
 
 **Finding:** controlled home studies strengthen a modest rejuvenation signal, while direct current-model collagen confirmation is much thinner. Never compare “95% responders,” a manufacturer's elasticity percentage and an animal collagen increase as the same effect size. See [study-level evidence map](index.html#doc11).
@@ -102,7 +104,7 @@ Current retail head-to-head trials, independent thermal maps, collagen-specific 
 6. [Original STOP human study](https://pubmed.ncbi.nlm.nih.gov/21401380/) — 3D wrinkles; R05.
 7. [Shu et al. 2022 split-face trial](https://link.springer.com/article/10.1007/s13555-022-00697-y) — bundle and endpoint distinctions; R23.
 8. [Bu et al. 2025 controlled trial](https://onlinelibrary.wiley.com/doi/10.1111/jocd.70096) — bundle controls; R10.
-9. [Ai et al., PMID 37942722](https://pubmed.ncbi.nlm.nih.gov/37942722/) — baseline-controlled ultrasound study; R24.
+9. [Ai et al., PMID 37942722](https://onlinelibrary.wiley.com/doi/10.1111/jocd.16076) — baseline-controlled ultrasound study; R24 / full-text update H06, AMIRO 19-electrode ABF202. [Current-model comparison](index.html#doc18).
 10. [Vx2 mouse mechanism study](https://pubmed.ncbi.nlm.nih.gov/40362699/) — preclinical collagen; R06.
 11. [STOP Vx2 manufacturer manual](source_docs/TriPollar_STOP_VX2_manual.pdf) — retail carrier mismatch; R07.
 12. [YOUMAGIC versus CPT RCT](https://link.springer.com/article/10.1007/s10103-026-04841-4) — professional clinical comparison; R19.

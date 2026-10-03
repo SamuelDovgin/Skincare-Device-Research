@@ -1,0 +1,46 @@
+{
+  "source_id": "H06",
+  "doi": "10.1111/jocd.16076",
+  "pmid": "37942722",
+  "title": "Efficacy and safety of a noninvasive, home-based radiofrequency device for facial rejuvenation: An open-label, intraindividual controlled trial",
+  "url": "https://onlinelibrary.wiley.com/doi/10.1111/jocd.16076",
+  "accessed": "2026-10-02",
+  "capture_type": "Original research extraction; publisher full text consulted, no publisher full-text copy redistributed because redistribution license not established",
+  "hardware": {
+    "manufacturer": "AMIRO",
+    "model": "ABF202",
+    "electrodes": 19,
+    "rf_carrier": "Not specified in inspected text",
+    "temperature": "Surface sensor; numeric cutoff not specified",
+    "reported_power_W": [
+      5.22,
+      6.25
+    ],
+    "power_limit": "Reported settings; no independent load-specific absorbed-power validation"
+  },
+  "design": {
+    "n": 22,
+    "population": "Women age 25\u201355 in results; Fitzpatrick III\u2013IV",
+    "duration_weeks": 8,
+    "control": "Open-label single arm; own baseline",
+    "blinded_outcome": "Three photo evaluators",
+    "regimen": "Grid-mask deep mode followed by gel daily mode, three times per week"
+  },
+  "results": "Wrinkle scores and ultrasound thickness improved relative to baseline; image results mixed. Thickness is not collagen biopsy. No Thermage comparator.",
+  "safety": "One transient erythema; no serious adverse event reported in small short cohort",
+  "commercial_support": "Accompany Tech supplied devices and supported Rapid Service Fee",
+  "limitations": [
+    "No sham or untreated comparison",
+    "Small short cohort",
+    "Combination protocol with proprietary mask and gel",
+    "Table 2 labels n=23 despite stated n=22; unresolved",
+    "Current S2 manual also ABF202 but 48 electrodes: transfer not established"
+  ],
+  "used_in": [
+    "doc18",
+    "doc10",
+    "doc11",
+    "doc16",
+    "home visualizer"
+  ]
+}
