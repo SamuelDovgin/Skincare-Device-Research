@@ -799,5 +799,89 @@
     "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250308.pdf",
     "local": "source_docs/power_audit_2026-10-09/P115.pdf",
     "sha256": "c22869e8b81dbfd838dc0d8137ef24677f8c9f7b2a16434a800f2ccc6c978883"
+  },
+  {
+    "id": "P116",
+    "status": "Dated browser-observation summary; eBay HTML intentionally not mirrored",
+    "resolved_url": "https://www.ebay.com/sch/i.html?_nkw=5+in+1+RF+facial+machine&_sop=12",
+    "local": "source_docs/power_audit_2026-10-09/ebay_marketplace_snapshot_2026-10-09.txt",
+    "sha256": "3eb3e54266f5119b056f40f48d13473a020abe1b9987c88ba26bea51ca28de43"
+  },
+  {
+    "id": "P117",
+    "status": "Dated browser-observation summary; eBay HTML intentionally not mirrored",
+    "resolved_url": "https://www.ebay.com/shop/5-in-1-facial-machine?_nkw=5+in+1+facial+machine",
+    "local": "source_docs/power_audit_2026-10-09/ebay_marketplace_snapshot_2026-10-09.txt",
+    "sha256": "3eb3e54266f5119b056f40f48d13473a020abe1b9987c88ba26bea51ca28de43"
+  },
+  {
+    "id": "P118",
+    "status": "Dated browser-observation summary; eBay HTML intentionally not mirrored",
+    "resolved_url": "https://www.ebay.com/itm/167388282080",
+    "local": "source_docs/power_audit_2026-10-09/ebay_marketplace_snapshot_2026-10-09.txt",
+    "sha256": "3eb3e54266f5119b056f40f48d13473a020abe1b9987c88ba26bea51ca28de43"
+  },
+  {
+    "id": "P119",
+    "status": "Dated browser-observation summary; eBay HTML intentionally not mirrored",
+    "resolved_url": "https://www.ebay.com/itm/287135673661",
+    "local": "source_docs/power_audit_2026-10-09/ebay_marketplace_snapshot_2026-10-09.txt",
+    "sha256": "3eb3e54266f5119b056f40f48d13473a020abe1b9987c88ba26bea51ca28de43"
+  },
+  {
+    "id": "P120",
+    "status": "Dated browser-observation summary; eBay HTML intentionally not mirrored",
+    "resolved_url": "https://www.ebay.com/itm/377242951684",
+    "local": "source_docs/power_audit_2026-10-09/ebay_marketplace_snapshot_2026-10-09.txt",
+    "sha256": "3eb3e54266f5119b056f40f48d13473a020abe1b9987c88ba26bea51ca28de43"
+  },
+  {
+    "id": "P121",
+    "status": "Dated browser-observation summary; eBay HTML intentionally not mirrored",
+    "resolved_url": "https://www.ebay.com/shop/tripollar-stop-x?_nkw=tripollar+stop+x",
+    "local": "source_docs/power_audit_2026-10-09/ebay_marketplace_snapshot_2026-10-09.txt",
+    "sha256": "3eb3e54266f5119b056f40f48d13473a020abe1b9987c88ba26bea51ca28de43"
+  },
+  {
+    "id": "P122",
+    "status": "Dated browser-observation summary; eBay HTML intentionally not mirrored",
+    "resolved_url": "https://www.ebay.com/itm/147459239957",
+    "local": "source_docs/power_audit_2026-10-09/ebay_marketplace_snapshot_2026-10-09.txt",
+    "sha256": "3eb3e54266f5119b056f40f48d13473a020abe1b9987c88ba26bea51ca28de43"
+  },
+  {
+    "id": "P123",
+    "status": "Dated browser-observation summary; eBay HTML intentionally not mirrored",
+    "resolved_url": "https://www.ebay.com/itm/358278680145",
+    "local": "source_docs/power_audit_2026-10-09/ebay_marketplace_snapshot_2026-10-09.txt",
+    "sha256": "3eb3e54266f5119b056f40f48d13473a020abe1b9987c88ba26bea51ca28de43"
+  },
+  {
+    "id": "P124",
+    "status": "Dated browser-observation summary; eBay HTML intentionally not mirrored",
+    "resolved_url": "https://www.ebay.com/itm/307199923652",
+    "local": "source_docs/power_audit_2026-10-09/ebay_marketplace_snapshot_2026-10-09.txt",
+    "sha256": "3eb3e54266f5119b056f40f48d13473a020abe1b9987c88ba26bea51ca28de43"
+  },
+  {
+    "id": "P125",
+    "status": "HTTP 200",
+    "resolved_url": "https://pollogen.com/faq/",
+    "local": "source_docs/power_audit_2026-10-09/P125.html",
+    "sha256": "610e7e8d6e88911dfc9b963f6fa950132d39adc5673787dc5fdb09b421e6077d"
+  },
+  {
+    "id": "P126",
+    "status": "HTTP 200",
+    "resolved_url": "https://auraselfbeauty.com/products/rf-skin-tightening-device?variant=45254990823503",
+    "local": "source_docs/power_audit_2026-10-09/P126.html",
+    "sha256": "7d8f95d4c7f8782e7a94a1c966ad0522e90e72e469919ffe6dae034ac468e8ac"
+  },
+  {
+    "id": "P127",
+    "status": "HTTP 200",
+    "resolved_url": "https://ahoodstore.com/collections/frontpage/products/radio-frequency-facial-lifting-machine",
+    "local": "source_docs/power_audit_2026-10-09/P127.html",
+    "sha256": "aa6c7a5d4abede0cfedfba7f687226d6d10a905d8f93010e0602cca9b922d514"
   }
 ]

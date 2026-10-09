@@ -144,6 +144,21 @@ source('P113','MLAY supplier brochure indexed by Messe Frankfurt','https://exhib
 source('P114','MYCHWAY MS-76F1SBMAX supplier manual','https://manual.mychway.com/UserManual/ms-76f1sbmax-en-20250327.pdf','Manual lists 80W system input; Face RF 70W, Eye RF 40W and Body RF 80W at 1MHz.','supplier manual','Supplier manual output ratings are unverified claims; body RF equals the stated system input, and load/duty convention is absent. Flag all RF values low confidence.')
 source('P115','FDA K250308 hair-growth comb record (clearance-attribution check)','https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250308.pdf','FDA record identifies Dongguan Boyuan hair-growth device models; it does not identify MLAY S3.','primary regulatory','Used to check a retailer attribution only; not evidence that MLAY S3 is cleared under K250308.')
 
+# Dated eBay scan. These are market snapshots, not technical evidence; the
+# local notes preserve the observed listing metadata without mirroring pages.
+source('P116','eBay US search: 5 in 1 RF facial machine (2026-10-09)','https://www.ebay.com/sch/i.html?_nkw=5+in+1+RF+facial+machine&_sop=12','Signed-out eBay search showed 53 results for this query. The page mixed inexpensive handheld multi-function listings with unrelated salon equipment; examples included near-identical generic 5-in-1 RF/LED devices.','marketplace search snapshot','Result count and listings are volatile, location-dependent and not an exact-model census; price and listing claims do not establish RF output, thermal control or safety.')
+source('P117','eBay indexed Toe Talk DMR-2121 search cards (2026 snapshot)','https://www.ebay.com/shop/5-in-1-facial-machine?_nkw=5+in+1+facial+machine','An indexed eBay card for Toe Talk DMR-2121 showed $89.99 and 415 sold; another seller card showed $44.95. A separately opened Toe Talk item uses model DR-04, so those identifiers are not merged.','marketplace search snapshot','The 415 figure is one indexed seller/listing counter from an older crawl, not current live inventory or total model sales; no manufacturer RF watt or test-load report was found.')
+source('P118','eBay Toe Talk DR-04 5-in-1 RF/EMS listing','https://www.ebay.com/itm/167388282080','Listing item specifics call the model DR-04 and RF/EMS; the captured page showed $35, 5 available and 1 sold, with a last-updated date of 2025-09-26.','marketplace listing snapshot','Stale/volatile seller page; its identifier conflicts with DMR-2121 search cards. It gives no RF watts, test load, duty cycle or thermal cutoff.')
+source('P119','eBay Silk’n FaceTite H2111/H2112 ended listing','https://www.ebay.com/itm/287135673661','Used listing identified FaceTite H2111/H2112, a 12 V supply field, and a GBP 72.86 ask before the seller ended it on 2026-07-03 because of a listing error.','marketplace listing snapshot','Ended listing was not marked sold. Same H numbers occur in a Silk’n Titan IFU, but regional naming/revision identity is not established; do not automatically transfer its 10 W claim.')
+source('P120','eBay NEWA Lift Pink corded used listing','https://www.ebay.com/itm/377242951684','Used NEWA Lift Pink listing at $149 plus $22 shipping; page showed 3 sold and last one available, last updated 2026-09-27.','marketplace listing snapshot','Seller listing does not show a verified model/revision link to the FDA DEN150005 wired 3DEEP device; its 10 W/360 Ω result must not be assigned until the unit label/manual is matched.')
+source('P121','eBay TriPollar STOP X search / used listings','https://www.ebay.com/shop/tripollar-stop-x?_nkw=tripollar+stop+x','Search page showed 9 results; used STOP X listings included asks around $175-$239, with one listing explicitly named STOP X Model U.','marketplace search snapshot','Prices, listing count and regional variants change. Confirm exact model/region, condition, return rights and included adapter; a marketplace listing is not a performance test.')
+source('P122','eBay sold TriPollar STOP VX listing','https://www.ebay.com/itm/147459239957','STOP VX device-only/no-gel listing recorded as sold for $250 on 2026-07-25.','marketplace sold listing snapshot','STOP VX is not STOP X, STOP VX2 or STOP VX Gold 2; the price must not be joined to another revision’s wattage or manual.')
+source('P123','eBay IFAE A083 6-in-1 home RF listing','https://www.ebay.com/itm/358278680145','Seller-identified IFAE A083 6-in-1 home RF device listing ended 2026-08-02 at an ask of $78; seller condition said open/used item, damaged box, like new.','marketplace listing snapshot','Ended listing is not evidence of a completed sale or current price; no exact-model IFU, RF wattage, test load or temperature-control documentation recovered.')
+source('P124','eBay unbranded SC114 dot-matrix RF listing','https://www.ebay.com/itm/307199923652','Ended listing described an unbranded rechargeable SC114 dot-matrix RF facial device; auction ended 2026-10-02 at $69.99 with zero bids and $99 Buy It Now shown.','marketplace listing snapshot','Seller data also listed 220 V and rechargeable battery, a conflict needing label verification. No RF output, load, duty cycle or thermal cutoff documented; not a recommendation.')
+source('P125','Pollogen official STOP X regional-model FAQ','https://pollogen.com/faq/','Official FAQ maps the U.S. STOP X to model STOP U; EU/APAC STOP X has two RF levels. Use the FDA STOP U record only for a verified U.S. Model U unit.','official manufacturer FAQ','Regional model mapping does not establish that every eBay STOP X is the U.S. revision, nor does the FDA specification establish clinical superiority or tissue dose.')
+source('P126','Aura Self Beauty SC114 reseller specification','https://auraselfbeauty.com/products/rf-skin-tightening-device?variant=45254990823503','Reseller page displayed $89.99 and identifies model SC114; it states rated power 5 W, 1 MHz, 9 V/500 mA supply, 144 dot-matrix electrodes and a 15-minute auto-off timer. It also says rechargeable and roughly 3–4 hours of use per charge.','reseller product specification','Not a manufacturer IFU or an independent test. The 5 W field is ambiguous (not identified as isolated RF output) and the stated adapter capacity is 4.5 W; catalog claims may be copied across sellers. A timer is not a measured temperature cutoff; price is a dated retailer ask.')
+source('P127','Ahood / Vilnason SC114 reseller specification','https://ahoodstore.com/collections/frontpage/products/radio-frequency-facial-lifting-machine','Reseller listing displayed €45.07 and identifies Vilnason / model SC114; it repeats 5 W, 1 MHz, 9 V/500 mA supply, rechargeable, 144 dot-matrix electrodes and 15-minute auto-off claims. It says an instruction manual is included but does not provide a downloadable manual.','reseller product specification','Same apparent OEM product-copy family as P126, not independent confirmation. No isolated RF output, test load, duty convention or measured thermal control; 5 W wording is not proof of 5 W RF. Price is a dated regional retailer ask.')
+
 def capture(s):
     import requests
     ext = '.pdf' if '.pdf' in s['url'].lower() else '.html'
@@ -158,10 +173,46 @@ def capture(s):
     except Exception as e:
         return dict(id=s['id'],status=type(e).__name__+': '+str(e)[:160],local=None)
 
+def preserve_ebay_snapshot():
+    """Preserve observed marketplace metadata without mirroring eBay pages."""
+    note=SRC/'ebay_marketplace_snapshot_2026-10-09.txt'
+    if not note.exists():
+        note.write_text('''eBay marketplace observations — 2026-10-09 (America/Chicago)
+
+These are a dated, signed-out browser snapshot and indexed search-card observations, not an exhaustive or persistent inventory. Prices and counters can vary by location, seller, account state, and time. Listing claims are not technical verification. The eBay HTML pages are not mirrored; this note preserves only the observations used in the RF atlas.
+
+P116 — Search query “5 in 1 RF facial machine”: 53 results. The results mixed handheld RF/LED multifunction listings with unrelated salon equipment; near-identical generic units appeared at low prices. Search URL: https://www.ebay.com/sch/i.html?_nkw=5+in+1+RF+facial+machine&_sop=12
+
+P117 — Indexed Toe Talk DMR-2121 search cards showed one listing at $89.99 with 415 sold and another seller card at $44.95. This 415 counter was from an older indexed crawl, not a live total. Search URL: https://www.ebay.com/shop/5-in-1-facial-machine?_nkw=5+in+1+facial+machine
+
+P118 — Toe Talk DR-04 item 167388282080 showed $35, five available and one sold; the page identified RF/EMS and model DR-04, and listed 2025-09-26 as its last update. This identifier is kept separate from DMR-2121. Item: https://www.ebay.com/itm/167388282080
+
+P119 — Used Silk’n FaceTite listing identified H2111/H2112 and a 12 V field, with a GBP 72.86 ask. Seller ended it on 2026-07-03 for a listing error; it was not marked sold. Item: https://www.ebay.com/itm/287135673661
+
+P120 — Used corded NEWA Lift Pink listing asked $149 plus $22 shipping and showed three sold / last one available; last updated 2026-09-27. The listing did not provide a verified revision/label link to the FDA DEN150005 original wired 3DEEP device. Item: https://www.ebay.com/itm/377242951684
+
+P121 — TriPollar STOP X search showed nine results and used asks around $175–$239; one listing explicitly said STOP X Model U. Market page: https://www.ebay.com/shop/tripollar-stop-x?_nkw=tripollar+stop+x
+
+P122 — A distinct TriPollar STOP VX device-only/no-gel listing recorded a $250 sale on 2026-07-25. Do not merge it with STOP X, STOP VX2, or STOP VX Gold 2. Item: https://www.ebay.com/itm/147459239957
+
+P123 — Seller-identified IFAE A083 6-in-1 home RF listing ended 2026-08-02 with a $78 ask, described as open/used with damaged box; not confirmed sold. Item: https://www.ebay.com/itm/358278680145
+
+P124 — Unbranded SC114 dot-matrix rechargeable RF listing ended 2026-10-02 at $69.99 with zero bids and a $99 Buy It Now shown. Seller fields conflicted between 220 V and rechargeable battery. Item: https://www.ebay.com/itm/307199923652
+
+No RF wattage, test load, duty cycle, measured tissue temperature, or verified thermal cutoff was recovered from these marketplace pages. The output rankings in the rendered tier page therefore use linked FDA/manual evidence only when a specific model mapping is defensible; the generic devices remain unranked for predictable heating.
+''',encoding='utf-8')
+    return note
+
 def write_corpus(do_capture):
     status_file=DATA/f'rf_power_capture_status_{DATE}.json'
     statuses=json.loads(status_file.read_text()) if status_file.exists() else []
     by={s['id']:s for s in statuses}
+    market_note=preserve_ebay_snapshot()
+    for s in SOURCES:
+        if s['id'] in {f'P{x}' for x in range(116,125)}:
+            by[s['id']]=dict(id=s['id'],status='Dated browser-observation summary; eBay HTML intentionally not mirrored',
+                resolved_url=s['url'],local=str(market_note.relative_to(TOP)),
+                sha256=hashlib.sha256(market_note.read_bytes()).hexdigest())
     if do_capture:
         pending=[s for s in SOURCES if not (by.get(s['id'],{}).get('local') and (TOP/by[s['id']]['local']).is_file())]
         with ThreadPoolExecutor(max_workers=8) as pool:
@@ -175,8 +226,7 @@ def write_corpus(do_capture):
         excerpt.write_text('''MLAY brochure excerpt preserved from Messe Frankfurt indexed document text\n\nOriginal document URL (returned HTTP 404 when checked 2026-10-09):\nhttps://exhibitorsearch.messefrankfurt.com/images/original/document_downloads/10000391202501/397636/1739246184332_3510192324.pdf\n\nClaims recovered from the indexed brochure entry:\n- RF01 / S05: 48 W output; non-battery; 1 MHz.\n- S03: 12 W; 3.7 V, 2000 mAh; 1 MHz.\n- RF02 / S06: 38 W; non-battery; 1 MHz.\n- S04: 13 W; 7.4 V, 650 mAh; 1 MHz.\n\nThese are brochure claims, not independent measurements. Test load, duty convention, exact version, and identity relationship to current retail MLAY models were not established. The source PDF could not be locally preserved because its host returned 404; this excerpt preserves only the indexed statements used in the atlas.\n''',encoding='utf-8')
         by['P113']=dict(id='P113',status='Indexed brochure text excerpt; source PDF host returned 404',resolved_url=next(s['url'] for s in SOURCES if s['id']=='P113'),local=str(excerpt.relative_to(TOP)),sha256=hashlib.sha256(excerpt.read_bytes()).hexdigest())
         statuses=[by.get(s['id'],dict(id=s['id'],status='URL checked via browser/search; local capture pending',local=None)) for s in SOURCES]
-    if do_capture or not status_file.exists():
-        status_file.write_text(json.dumps(statuses,ensure_ascii=False,indent=2)+'\n')
+    status_file.write_text(json.dumps(statuses,ensure_ascii=False,indent=2)+'\n')
     for s in SOURCES:s.update(by.get(s['id'],dict(status='URL checked via browser/search; local capture pending',local=None)))
     (DATA/f'rf_power_sources_{DATE}.json').write_text(json.dumps(SOURCES,ensure_ascii=False,indent=2)+'\n')
     return SOURCES
@@ -222,6 +272,9 @@ def build_rows():
     device('Silk’n','Titan Mini H2600','P18 P73',rf=10,basis='Manufacturer manual',input_w=10,input_kind='5 V × 2 A charging supply capacity',v=3.7,mah=600,runtime=30,freq='1 MHz ±30%',temperature='43°C surface cutoff',notes='2.22 Wh / 0.5 h = 4.44 W nominal total-draw estimate. Stated runtime is not a continuous 10 W test. Curve points below are visual read-offs from the IFU plot, not bench data.',curve_data=[{'load_ohm':150,'rf_w':7.6},{'load_ohm':175,'rf_w':6.3},{'load_ohm':200,'rf_w':2.6},{'load_ohm':225,'rf_w':2.3},{'load_ohm':250,'rf_w':2.0}],curve_label='H2600 IFU plot; approximate read-offs*')
     for model,claim in [('Silhouette (legacy body)','24 W'),('FaceTite Mini FAC01 (legacy EU)','13 W'),('Original FaceTite H2111/H2112 (regional)','12 W'),('FaceTite Z / Revive / Essential / Prestige H2120/H2130','10 W'),('FaceTite Mini H2600 regional alias','10 W')]:
         device('Silk’n',model,'U01',category='Home body RF' if 'Silhouette' in model else 'Home face RF',basis='Pasted lead only',notes=f'Pasted claim: {claim}. Exact manufacturer IFU/revision not independently recovered in this pass; excluded from numerical ranking. H2600 alias may duplicate Titan Mini.')
+        if model=='Original FaceTite H2111/H2112 (regional)':
+            ROWS[-1].update(source_ids=['U01','P119','P20'],checked=DATE,
+                notes='Pasted lead says 12 W. The used eBay listing identifies H2111/H2112 and a 12 V supply field but no RF output. A Silk’n Titan IFU uses the same H numbers and says 10 W; matching regional FaceTite/Titan revisions has not been established. Do not transfer either number until the unit label and exact IFU are matched; the eBay listing ended and was not marked sold.')
     for model,sid,k in [('FAQ 101','P22 P08','K222012'),('FAQ 102','P23 P09','K240616')]:
         device('FOREO',model,sid,v=3.7,mah=1000,runtime=30,basis='RF undisclosed; battery data',clearance=k,notes='3.7 Wh and up to 30 min give 7.4 W nominal whole-device average under the matching runtime condition. RF, EMS, LED and electronics share energy.')
     device('FOREO','FAQ 103 Diamond','P104',v=3.7,mah=1000,runtime=30,basis='RF undisclosed; battery data',notes='Official manual: 3.7V/1000mAh and up to 30 min per charge, giving 3.7Wh and a nominal 7.4W whole-device average under that stated runtime. RF, EMS, LED and electronics share the budget; no RF watts disclosed.')
@@ -343,6 +396,37 @@ def build_rows():
     for brand,model,sid,freq,w in [('NIRA','Original Precision / Model 2 Pro','P11 P70','1450 ±20 nm',2),('Tria','FANp / older Age-Defying fractional laser','P12','1440 nm',None),('Merz','Ulthera System / Ultherapy PRIME','P64 P65','Focused ultrasound',None),('Sofwave','SUPERB platform','P66 P67 P68 P69','Ultrasound',None),('DermRays','Revive','P72','1064 nm',None),('DLUS','D3 optical lead','P78','1064 nm seller claim',None)]:
         device(brand,model,sid,category='Other thermal / optical',basis='Separate technology',freq=freq,notes=(f'{w} W maximum optical output; not RF watts. ' if w else '')+'Retained from pasted thermal comparison; see original technology topic. Do not rank alongside RF output.')
 
+    # Used-market leads are separate from verified product specifications. The
+    # generic cohort and unresolved model IDs intentionally have no RF value.
+    device('TriPollar','STOP X / Model U (U.S. used-market candidate)','P05 P13 P121 P125',rf=5.7,load=200,
+        basis='FDA STOP U specification + official U.S. model mapping (conditional)',
+        input_w=12,input_kind='8 V × 1.5 A external supply capacity (STOP U UXV family)',freq='1 MHz',
+        temperature='Temperature-controlled; exact numeric cutoff not confirmed here',
+        clearance='K182774 / K203665; exact listing label not verified',
+        notes='eBay STOP X asks were about $175–$239; one listing called it Model U. Pollogen maps U.S. STOP X to STOP U; the 5.7 W ±10% RMS at 200 Ω FDA figure is conditional on the exact U.S. unit label matching that family. Do not transfer it to non-U.S. STOP X, STOP VX, VX2, or VX Gold 2.',
+        rf_label='5.7 W ±10% RMS (conditional U.S. mapping)',confidence='medium')
+    device('TriPollar','STOP VX (legacy used-market candidate; exact revision unverified)','P122',
+        basis='Used-sale evidence only; RF output not recovered',
+        notes='Distinct STOP VX listing sold device-only/no gel for $250 on 2026-07-25. No exact STOP VX IFU or output rating was recovered. Keep separate from STOP X, STOP VX2 and STOP VX Gold 2; sale does not establish production status or performance.',confidence='low')
+    device('Toe Talk','DMR-2121 5-in-1 RF/EMS (indexed marketplace lead)','P116 P117',category='Generic handheld RF',
+        basis='Marketplace identity only; RF output unknown',
+        notes='One older indexed eBay card showed $89.99 and 415 sold; another showed $44.95. The sold counter is listing-specific and stale. No exact manufacturer manual, RF wattage, test load, duty cycle or thermal-control specification recovered; DMR-2121 is not merged with DR-04.',confidence='low')
+    device('Toe Talk','DR-04 5-in-1 RF/EMS','P116 P118',category='Generic handheld RF',
+        basis='Marketplace identity only; RF output unknown',
+        notes='eBay item 167388282080 showed $35, five available and one sold. No exact manufacturer manual, RF wattage, test load, duty cycle or thermal cutoff recovered. Do not assume it is the DMR-2121.',confidence='low')
+    device('IFAE','A083 6-in-1 home RF (seller-identified)','P123',category='Generic handheld RF',
+        basis='Marketplace identity only; RF output unknown',
+        notes='eBay listing ended at a $78 ask on 2026-08-02 and was not confirmed sold. No exact IFU or RF output/thermal-control evidence recovered.',confidence='low')
+    device('Unbranded / Vilnason','SC114 dot-matrix rechargeable RF handset','P124 P126 P127',category='Generic handheld RF',
+        basis='Low-confidence reseller rated-power claim; RF output unknown',
+        input_w=4.5,input_kind='Reseller-stated 9 V × 0.5 A supply capacity; not RF output',
+        freq='1 MHz reseller claim',temperature='15-minute auto-off timer claimed; numeric thermal cutoff undisclosed',
+        rf_label='Unknown RF; 5 W device-power claim*',
+        notes='eBay auction ended at $69.99 with zero bids; $99 Buy It Now was shown, and seller fields conflict between 220 V and rechargeable. Two reseller pages identify SC114 and repeat “rated power 5 W,” 1 MHz and a 9 V/500 mA supply (4.5 W capacity), but do not label 5 W as isolated RF output. The internal rechargeable battery/use-time claims and supply field are not reconciled. The 15-minute timer is not a measured temperature cutoff. No exact-model manual PDF, RF test load or duty cycle recovered; low confidence, not an RF watt ranking.',confidence='low')
+    device('Unbranded / assorted sellers','5-in-1 RF/LED facial handset cohort (eBay search snapshot)','P116',category='Generic handheld RF',
+        basis='Search cohort; not one device; RF output unknown',
+        notes='The 53-result eBay query mixed near-identical low-cost handheld RF/LED listings with unrelated salon equipment. This is a market cohort placeholder, not a unique model. No cohort-level wattage or safety inference is defensible.',confidence='low')
+
 def preserve_intake():
     originals=[('U01','89c3ea94-dd3b-4ae7-9840-282881c342fc','MimiSilk, battery and generic follow-ups'),('U02','0529d88a-b329-44a1-b9c1-399605271eec','Home temperature, clearance and wattage notes'),('U03','cb07707e-8814-4562-b73b-a02cd4af150b','Patent/FDA and thermal-device report'),('U04','52390a5d-6ed7-4f22-8955-d3b2c299286b','Duplicate patent/FDA report')]
     manifest=[]
@@ -384,7 +468,7 @@ def write_documents(intake):
     head=f'# Home RF wattage atlas: rated, measured and inferred power\n\n*Updated {DATE}. {n} comparison records, including model families, regional revisions, accessories and professional modes; this is not {n} unique devices or an exhaustive worldwide census.*\n\n'
     doc=head+'''The largest number in a listing is often the wrong number to compare. **The clearest numeric home RF bench result in this corpus is original wired NEWA: 10 W into 360 Ω.** A manufacturer manual specifies 20 W for EU Silk’n FaceTite MultiPlatform H2501; the current North American H2502/HA2502 manual specifies 15 W. Higher advertised generic outputs exist, but load, duty cycle and facial applicability are generally missing.
 
-Open the [searchable wattage chart and full comparison ledger](rf_power_explorer.html). Use separate views for RF specifications, seller claims, input/charger watts, and battery estimates. Unknown output stays visible and is never plotted as zero.
+Open the [searchable wattage chart and full comparison ledger](rf_power_explorer.html). Use separate views for RF specifications, seller claims, input/charger watts, and battery estimates. Unknown output stays visible and is never plotted as zero. The [used-market and generic-device value tiers](index.html#doc22) separate conditional model matches from generic units with no verifiable output.
 
 ## What each watt figure means
 
@@ -646,7 +730,7 @@ P identifiers are unique to this October 9 pass. L01 is the prior [October 2 dev
             support+=' '+ '; '.join(r['model']+': '+r['rf_label'] for r in used)+'.'
         d+=f"| {s['id']} · [{s['title']}]({s['url']}) | {support} | {local}; {s['source_class']}. {s['limits']} |\n"
     (TOP/'21_submitted_research_and_source_register.md').write_text(d)
-    log=f'RF power research resource log — {DATE}\nScope: 128 comparison records, not unique devices; home focus plus generic and professional context.\nNew document map: 19 power methods; 20 OEM/MimiSilk; 21 intake and source crosswalk; rf_power_explorer.html chart.\n\n'
+    log=f'RF power research resource log — {DATE}\nScope: {len(ROWS)} comparison records, not unique devices; home focus plus generic and professional context.\nNew document map: 19 power methods; 20 OEM/MimiSilk; 21 intake and source crosswalk; 22 used-market tiers; rf_power_explorer.html chart.\n\n'
     for s in SOURCES+intake:
         local=s.get('local')
         log+=f"[{s['id']}] {s['title']}\nURL: {s.get('url','User attachment; original has no canonical URLs')}\nResolved URL: {s.get('resolved_url','Not applicable / not captured')}\nAccessed: {DATE} America/Chicago\nClass: {s['source_class']}\nUsed in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.\nSupports: {s['support']}\nKey record: "
@@ -657,7 +741,7 @@ P identifiers are unique to this October 9 pass. L01 is the prior [October 2 dev
         log+=f'[{lid}] {title}\nURL: local archive\nAccessed: {DATE}\nClass: local archive\nUsed in: inventory continuity/navigation and outcome boundaries.\nSupports: Archive scope and previous source provenance, not newly measured power.\nLimits: Older claims are not current hardware measurements.\nLocal preservation: {local}\nStatus/recheck: retained, no unrelated edits overwritten.\n\n'
     log+='Change note: EU H2501 20 W versus current NA H2502 15 W kept separate; historical H2502 20 W not generalized. NEWA 4/6 W duty averages conditional only. Pasted efficiency scenarios are not device estimates. U03/U04 duplicates retained but not counted independently. DLUS cordless description conflicts with prior corded notes. Broad FDA counts and most product/patent mappings remain submitted leads.\n'
     (TOP/'source_docs'/f'research_resource_log_{DATE}.txt').write_text(log)
-    (SRC/'README.md').write_text('# RF power audit source captures\n\n[Rendered recovery register](../../index.html#doc21) · [Power methodology](../../index.html#doc19) · [Verbose log](../research_resource_log_2026-10-09.txt).\n\nFDA PDFs, public manufacturer/supplier manuals and dated product-page captures are unchanged research evidence. HTML captures may contain third-party scripts; consult the rendered register for claims and canonical sources. User transcripts U01–U04 are preserved verbatim as unverified intake; U03/U04 are identical. Local capture success is separate from clinical or technical verification. See the register for every filename, source URL, limitations and checksum.\n')
+    (SRC/'README.md').write_text('# RF power audit source captures\n\n[Rendered recovery register](../../index.html#doc21) · [Power methodology](../../index.html#doc19) · [Used-market tiers](../../index.html#doc22) · [Verbose log](../research_resource_log_2026-10-09.txt).\n\nFDA PDFs, public manufacturer/supplier manuals and dated product-page captures are unchanged research evidence. HTML captures may contain third-party scripts; consult the rendered register for claims and canonical sources. The eBay snapshot is preserved as a dated metadata summary, not a mirrored listing archive. User transcripts U01–U04 are preserved verbatim as unverified intake; U03/U04 are identical. Local capture success is separate from clinical or technical verification. See the register for every filename, source URL, limitations and checksum.\n')
 
 if __name__=='__main__':
     ap=argparse.ArgumentParser();ap.add_argument('--capture',action='store_true');args=ap.parse_args()

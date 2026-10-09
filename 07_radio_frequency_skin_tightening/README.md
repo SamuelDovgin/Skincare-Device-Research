@@ -6,7 +6,7 @@ Research thread: **radiofrequency (RF) devices for collagen remodeling, wrinkle 
 
 ## October 9 wattage and generic-device audit
 
-[Wattage chart](rf_power_explorer.html) · [Rated versus measured power](index.html#doc19) · [Generic devices and MimiSilk/DLUS OEM](index.html#doc20) · [Submitted research and source register](index.html#doc21). The 128 comparison records include model families, revisions, modes and probes; unknown RF output stays unranked. All four pasted transcripts and 111 source captures are preserved, with dated checksums and explicit claim/measurement distinctions.
+[Wattage chart](rf_power_explorer.html) · [Rated versus measured power](index.html#doc19) · [Generic devices and MimiSilk/DLUS OEM](index.html#doc20) · [Submitted research and source register](index.html#doc21) · [eBay legacy and generic value tiers](index.html#doc22). The 135 comparison records include model families, revisions, modes, probes and used-market leads; unknown RF output stays unranked. All four pasted transcripts, 127 source records and the dated marketplace observation note are preserved with explicit claim/measurement distinctions.
 
 ## Closest home device to Thermage
 
@@ -57,10 +57,11 @@ Start with the [proposed home-device specification](index.html#doc15), [interact
 | 19 | [RF wattage atlas](index.html#doc19) | Rated, measured, input and battery estimates; model/revision conflicts |
 | 20 | [Generic RF and MimiSilk OEM](index.html#doc20) | Supplier claims, D2 factory lead, evidence request |
 | 21 | [Submitted research and source register](index.html#doc21) | All pasted information, FDA/patent leads, primary source recovery |
+| 22 | [eBay legacy and generic RF value tiers](index.html#doc22) | Used-market device candidates, conditional heating evidence, value tiers and generic-device gaps |
 
 ## Source/data access
 
-[128-record wattage chart](rf_power_explorer.html) · [Power CSV](data/rf_power_atlas_2026-10-09.csv) · [October 9 log](source_docs/research_resource_log_2026-10-09.txt) · [51-device/family explorer](rf_market_explorer.html) · [Collagen device visualizer](rf_spec_fit_visualizer.html) · [Census CSV](data/rf_market_census_2026-10-02.csv) · [Current source register](data/rf_sources_2026-10-02.json) · [October 2 research log](source_docs/research_resource_log_2026-10-02.txt) · [Rendered source manifest](index.html#doc14).
+[135-record wattage chart](rf_power_explorer.html) · [Power CSV](data/rf_power_atlas_2026-10-09.csv) · [October 9 log](source_docs/research_resource_log_2026-10-09.txt) · [51-device/family explorer](rf_market_explorer.html) · [Collagen device visualizer](rf_spec_fit_visualizer.html) · [Census CSV](data/rf_market_census_2026-10-02.csv) · [Current source register](data/rf_sources_2026-10-02.json) · [October 2 research log](source_docs/research_resource_log_2026-10-02.txt) · [Rendered source manifest](index.html#doc14).
 
 ## Relationship to the other folders
 

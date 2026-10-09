@@ -1,10 +1,10 @@
 # Home RF wattage atlas: rated, measured and inferred power
 
-*Updated 2026-10-09. 128 comparison records, including model families, regional revisions, accessories and professional modes; this is not 128 unique devices or an exhaustive worldwide census.*
+*Updated 2026-10-09. 135 comparison records, including model families, regional revisions, accessories and professional modes; this is not 135 unique devices or an exhaustive worldwide census.*
 
 The largest number in a listing is often the wrong number to compare. **The clearest numeric home RF bench result in this corpus is original wired NEWA: 10 W into 360 Ω.** A manufacturer manual specifies 20 W for EU Silk’n FaceTite MultiPlatform H2501; the current North American H2502/HA2502 manual specifies 15 W. Higher advertised generic outputs exist, but load, duty cycle and facial applicability are generally missing.
 
-Open the [searchable wattage chart and full comparison ledger](rf_power_explorer.html). Use separate views for RF specifications, seller claims, input/charger watts, and battery estimates. Unknown output stays visible and is never plotted as zero.
+Open the [searchable wattage chart and full comparison ledger](rf_power_explorer.html). Use separate views for RF specifications, seller claims, input/charger watts, and battery estimates. Unknown output stays visible and is never plotted as zero. The [used-market and generic-device value tiers](index.html#doc22) separate conditional model matches from generic units with no verifiable output.
 
 ## What each watt figure means
 

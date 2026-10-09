@@ -1,0 +1,23 @@
+eBay marketplace observations — 2026-10-09 (America/Chicago)
+
+These are a dated, signed-out browser snapshot and indexed search-card observations, not an exhaustive or persistent inventory. Prices and counters can vary by location, seller, account state, and time. Listing claims are not technical verification. The eBay HTML pages are not mirrored; this note preserves only the observations used in the RF atlas.
+
+P116 — Search query “5 in 1 RF facial machine”: 53 results. The results mixed handheld RF/LED multifunction listings with unrelated salon equipment; near-identical generic units appeared at low prices. Search URL: https://www.ebay.com/sch/i.html?_nkw=5+in+1+RF+facial+machine&_sop=12
+
+P117 — Indexed Toe Talk DMR-2121 search cards showed one listing at $89.99 with 415 sold and another seller card at $44.95. This 415 counter was from an older indexed crawl, not a live total. Search URL: https://www.ebay.com/shop/5-in-1-facial-machine?_nkw=5+in+1+facial+machine
+
+P118 — Toe Talk DR-04 item 167388282080 showed $35, five available and one sold; the page identified RF/EMS and model DR-04, and listed 2025-09-26 as its last update. This identifier is kept separate from DMR-2121. Item: https://www.ebay.com/itm/167388282080
+
+P119 — Used Silk’n FaceTite listing identified H2111/H2112 and a 12 V field, with a GBP 72.86 ask. Seller ended it on 2026-07-03 for a listing error; it was not marked sold. Item: https://www.ebay.com/itm/287135673661
+
+P120 — Used corded NEWA Lift Pink listing asked $149 plus $22 shipping and showed three sold / last one available; last updated 2026-09-27. The listing did not provide a verified revision/label link to the FDA DEN150005 original wired 3DEEP device. Item: https://www.ebay.com/itm/377242951684
+
+P121 — TriPollar STOP X search showed nine results and used asks around $175–$239; one listing explicitly said STOP X Model U. Market page: https://www.ebay.com/shop/tripollar-stop-x?_nkw=tripollar+stop+x
+
+P122 — A distinct TriPollar STOP VX device-only/no-gel listing recorded a $250 sale on 2026-07-25. Do not merge it with STOP X, STOP VX2, or STOP VX Gold 2. Item: https://www.ebay.com/itm/147459239957
+
+P123 — Seller-identified IFAE A083 6-in-1 home RF listing ended 2026-08-02 with a $78 ask, described as open/used with damaged box; not confirmed sold. Item: https://www.ebay.com/itm/358278680145
+
+P124 — Unbranded SC114 dot-matrix rechargeable RF listing ended 2026-10-02 at $69.99 with zero bids and a $99 Buy It Now shown. Seller fields conflicted between 220 V and rechargeable battery. Item: https://www.ebay.com/itm/307199923652
+
+No RF wattage, test load, duty cycle, measured tissue temperature, or verified thermal cutoff was recovered from these marketplace pages. The output rankings in the rendered tier page therefore use linked FDA/manual evidence only when a specific model mapping is defensible; the generic devices remain unranked for predictable heating.

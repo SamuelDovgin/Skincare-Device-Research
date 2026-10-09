@@ -743,10 +743,10 @@
       "title": "Home RF wattage atlas: rated, measured and inferred power",
       "topic": "Radio Frequency Skin Tightening",
       "href": "07_radio_frequency_skin_tightening/index.html#doc19",
-      "timestamp": 1791558998,
+      "timestamp": 1791560184,
       "status": "Updated",
       "date": "2026-10-09",
-      "sha256": "ed59e3c2fa7a83ec1e3fd58817ad69e5b0566ce9a43a50041c241c7b249cc902"
+      "sha256": "5add71063f53ecb9ffd708c94a49b3592513fef879a6d7ffc75eb9e22a14721a"
     },
     "07_radio_frequency_skin_tightening/20_generic_rf_and_mimisilk_oem_audit.md": {
       "title": "Generic RF devices and the MimiSilk / DLUS manufacturer lead",
@@ -761,10 +761,19 @@
       "title": "Submitted research, FDA / patent crosswalk and source recovery",
       "topic": "Radio Frequency Skin Tightening",
       "href": "07_radio_frequency_skin_tightening/index.html#doc21",
-      "timestamp": 1791558998,
+      "timestamp": 1791560489,
       "status": "Updated",
       "date": "2026-10-09",
-      "sha256": "c21a4c069e927e31cca0a378de9debbdf4520e3b51eb7d96b3fa6a6ba131077f"
+      "sha256": "f8f37354cb9deb15f193cae20181e78fb5c44836fdb98913ff818ce489440036"
+    },
+    "07_radio_frequency_skin_tightening/22_ebay_legacy_and_generic_rf_value_tiers.md": {
+      "title": "Older and generic home RF devices: used-market and value tiers",
+      "topic": "Radio Frequency Skin Tightening",
+      "href": "07_radio_frequency_skin_tightening/index.html#doc22",
+      "timestamp": 1791560485,
+      "status": "Added",
+      "date": "2026-10-09",
+      "sha256": "da0a6f85ae9c98aa5699a95743af02d87129e325c130ebccbb6fb3729a28c612"
     },
     "08_vitamin_c_serums/01_ce_ferulic_science_and_patents.md": {
       "title": "C E Ferulic Science & Patents: Why This Formula Became the Benchmark",
@@ -1938,10 +1947,10 @@
     }
   },
   "latest": [
+    "07_radio_frequency_skin_tightening/21_submitted_research_and_source_register.md",
+    "07_radio_frequency_skin_tightening/22_ebay_legacy_and_generic_rf_value_tiers.md",
     "07_radio_frequency_skin_tightening/19_rf_wattage_atlas.md",
     "07_radio_frequency_skin_tightening/20_generic_rf_and_mimisilk_oem_audit.md",
-    "07_radio_frequency_skin_tightening/21_submitted_research_and_source_register.md",
-    "25_ldm_ultrasound/01_mechanism_and_hifu_comparison.md",
-    "25_ldm_ultrasound/02_human_evidence.md"
+    "25_ldm_ultrasound/01_mechanism_and_hifu_comparison.md"
   ]
 }
