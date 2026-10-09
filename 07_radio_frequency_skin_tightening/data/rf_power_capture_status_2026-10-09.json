@@ -1,0 +1,544 @@
+[
+  {
+    "id": "P01",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN150005.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P01.pdf",
+    "sha256": "862a7d812869eacbdda05ef0102e9dea7a7709d4d16a906b8468b6d761655096"
+  },
+  {
+    "id": "P02",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K232424.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P02.pdf",
+    "sha256": "d9577b79e4d9f7ae1d6b4603cb9807bdb585aab245cf01364cac96f4737b7171"
+  },
+  {
+    "id": "P03",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf17/K170499.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P03.pdf",
+    "sha256": "5e019e923a67a896592b57d61b4c3c9cfd4d265776d39be936e6eea016cd86e3"
+  },
+  {
+    "id": "P04",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250341.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P04.pdf",
+    "sha256": "5c64ca21c04e9b18b3c915507e0577cfcd18f4e73109fa74e5d882711173f893"
+  },
+  {
+    "id": "P05",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf20/K203665.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P05.pdf",
+    "sha256": "14f092c088e8d9ce84ee99fe77e6309cddc52ce9b3b1aac2d3ebf8ff02d650ca"
+  },
+  {
+    "id": "P06",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K230013.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P06.pdf",
+    "sha256": "1be68eb91e43d8beb94fdd14435e406a3cf56e6be627107fac5a842d6584ff0d"
+  },
+  {
+    "id": "P07",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf16/K162784.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P07.pdf",
+    "sha256": "5199349cc9f2f1a1c340119f495bb6bd9441bf12736350e9f5d453c3e69c3b3f"
+  },
+  {
+    "id": "P08",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf22/K222012.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P08.pdf",
+    "sha256": "d962d3c5eefde11ece9f7f92b1df55cc5e8b8f50881123b14a8f0ddeb43c4918"
+  },
+  {
+    "id": "P09",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf24/K240616.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P09.pdf",
+    "sha256": "c61c272a12f0a7bc8596e85d31228fcd44cf926713886a90e55d5d238f04c4ad"
+  },
+  {
+    "id": "P10",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf17/K171262.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P10.pdf",
+    "sha256": "791189d3b990794c8bd1137c5d791d6e9a672b164df3ba6a0b71d7fede8717d2"
+  },
+  {
+    "id": "P11",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf22/K222685.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P11.pdf",
+    "sha256": "5e9e9c03f89505981e0435848101849bec0988691a63e618c32da8ab996e68e3"
+  },
+  {
+    "id": "P12",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf14/K141868.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P12.pdf",
+    "sha256": "39cae6e8b97a6dab28fa9487757358d01d33817cceb9ba274daa0ef15f45239d"
+  },
+  {
+    "id": "P13",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf18/K182774.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P13.pdf",
+    "sha256": "fde090c8fffa9ebe8f6b8b36f7f941f648988fef0e82974d2bd4a3450445c9fa"
+  },
+  {
+    "id": "P14",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf22/K220322.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P14.pdf",
+    "sha256": "8b27deeee34388a6369f9d1dabe4921497a7c485c0320c534bbe72f93c5eac13"
+  },
+  {
+    "id": "P15",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K233766.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P15.pdf",
+    "sha256": "3e75f78807e77ec369a5066c4859027b6607d5458ca653b04529b9614be4be1b"
+  },
+  {
+    "id": "P16",
+    "status": "HTTP 404; capture unavailable",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf24/K242227.pdf",
+    "local": null
+  },
+  {
+    "id": "P17",
+    "status": "HTTP 200",
+    "resolved_url": "https://data.silkn.com/asset/2a5aa6ed-322e-4d0b-afbe-5fc694289137/Titan-MultiPlatform-UM-NA.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P17.pdf",
+    "sha256": "ad025e37334c967622f29e11a86c55eb3abd324cf56c738c5762c4fd77bec2c2"
+  },
+  {
+    "id": "P18",
+    "status": "HTTP 200",
+    "resolved_url": "https://data.silkn.com/m/1b96e6d4c98d2a1a/original/Titan-Mini-UM-NA.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P18.pdf",
+    "sha256": "ab55f73bae91222d6d625aa066d7d740a6695cd5f0e5213cf7b8a9f9d4097c18"
+  },
+  {
+    "id": "P19",
+    "status": "HTTP 200",
+    "resolved_url": "https://data.silkn.com/m/3675be4e752dbebb/original/FaceTite-MultiPlatform-UM.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P19.pdf",
+    "sha256": "adcb54ecde8476dd345c6a1b6d5f8373b2e1d29bb95a20bef661c8d8bf1fc3f2"
+  },
+  {
+    "id": "P20",
+    "status": "HTTP 200",
+    "resolved_url": "https://m.media-amazon.com/images/I/91wCR6lIVGS.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P20.pdf",
+    "sha256": "4743ec778a869979ca320adc86a9818d3539e339475a78327d40c0be35663e5c"
+  },
+  {
+    "id": "P21",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.silkn.com/skincare-devices/facial-rejuvenation-devices/titan-multiplatform-with-free-gel-SKUS000057.html?cgid=skin-care_facial-rejuvenation",
+    "local": "source_docs/power_audit_2026-10-09/P21.html",
+    "sha256": "9b4919a6578ddf5e50c7d7be796b9141e662413701b5d1aecd9aded7e3031129"
+  },
+  {
+    "id": "P22",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.foreo.com/manuals/faq-swiss-101",
+    "local": "source_docs/power_audit_2026-10-09/P22.html",
+    "sha256": "11ebfd5928d0b924ae2fcec4b36f3364ca7ca4e787672938e24dedf4a69b9870"
+  },
+  {
+    "id": "P23",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.foreo.com/manuals/faq-swiss-102",
+    "local": "source_docs/power_audit_2026-10-09/P23.html",
+    "sha256": "6aaaa9eae90f42f91dc7a5176063000ebc15aee91979140ef267411e9fb7645e"
+  },
+  {
+    "id": "P24",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.mimisilk.com/products/mimisilk-vera-rf-sculpt-6-25mhz-gel-free-radio-frequency-skin-lifting-device",
+    "local": "source_docs/power_audit_2026-10-09/P24.html",
+    "sha256": "5441fd1686aeeeb960137822a0e71bd6dfbdc71a91c1b0feddb3ade9263ab8e2"
+  },
+  {
+    "id": "P25",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.mimisilk.com/blogs/news/how-to-use-mimisilk-vera-rf-sculpt-full-guide-expected-results",
+    "local": "source_docs/power_audit_2026-10-09/P25.html",
+    "sha256": "49481dc1b13e3a9330f7537e30bfda2af3d32066be5f061d59e4f9fc7005f763"
+  },
+  {
+    "id": "P26",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.mimisilk.com/blogs/news/professional-grade-rf-frequency-at-home-how-mimisilk-vera-closes-the-gap-safely",
+    "local": "source_docs/power_audit_2026-10-09/P26.html",
+    "sha256": "ff36a122599e75ab6e4b71c2415a0437f3e9194fa9efdac82c7b82ec02fa1362"
+  },
+  {
+    "id": "P27",
+    "status": "HTTP 500; capture unavailable",
+    "resolved_url": "https://imeirongyi.com/vs/mid-10-temp-125-einfoids-843%2C906.html",
+    "local": null
+  },
+  {
+    "id": "P28",
+    "status": "HTTP 200",
+    "resolved_url": "https://mycosmeticslondon.co.uk/products/professional-rf-facial-device-for-skin-lifting",
+    "local": "source_docs/power_audit_2026-10-09/P28.html",
+    "sha256": "7181f9f73519af05c33e3ae09e7147ec4fce9d57d1817677300993f789d5c1d0"
+  },
+  {
+    "id": "P29",
+    "status": "HTTP 200",
+    "resolved_url": "https://amirobeauty.com/products/amiro-high-radiofrequency-skincare-device",
+    "local": "source_docs/power_audit_2026-10-09/P29.html",
+    "sha256": "612afaba0643a9e8fdee59becc9473dd1ceadf1a4eced3d37a8c75feb3a7d8cb"
+  },
+  {
+    "id": "P30",
+    "status": "HTTP 200",
+    "resolved_url": "https://amirobeauty.com/products/amiro-high-radiofrequency-skincare-device",
+    "local": "source_docs/power_audit_2026-10-09/P30.html",
+    "sha256": "10bc7eb7ede473375138ae1a04fd11d59b28281e8fec6ed9c38634cd5d5adbdd"
+  },
+  {
+    "id": "P31",
+    "status": "HTTP 200",
+    "resolved_url": "https://amirobeauty.com/pages/30-day-challenge",
+    "local": "source_docs/power_audit_2026-10-09/P31.html",
+    "sha256": "36080df6a188429120fcb30317f1710f222eabc8081ba2133cdb69c11c23ca22"
+  },
+  {
+    "id": "P32",
+    "status": "HTTP 200",
+    "resolved_url": "https://sensica.com/products/sensifirm",
+    "local": "source_docs/power_audit_2026-10-09/P32.html",
+    "sha256": "b4d17c97f784f4bf6e76e660f24ac4374847e1813b2f3dda7904213d7155c386"
+  },
+  {
+    "id": "P33",
+    "status": "HTTP 200",
+    "resolved_url": "https://mlay.co/product/rf01/",
+    "local": "source_docs/power_audit_2026-10-09/P33.html",
+    "sha256": "d59235a92fa7236142fb6e0d3f572ed1664a435f5259b769b4ba24846c280113"
+  },
+  {
+    "id": "P34",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.mlayofficial.com/collections/all",
+    "local": "source_docs/power_audit_2026-10-09/P34.html",
+    "sha256": "1ddd6e3bbe0864e7f2ec4f00c4bb659a7b6efde8659b9e9014a003dbdca3bfda"
+  },
+  {
+    "id": "P35",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.konmison.com/product-item/3-in-1-rf-radio-frequency-facial-machine/",
+    "local": "source_docs/power_audit_2026-10-09/P35.html",
+    "sha256": "2e261084809e800565585e3d08dd9c9baec31b70aa546f046f876acea92a1f5c"
+  },
+  {
+    "id": "P36",
+    "status": "HTTP 200",
+    "resolved_url": "https://it.freyara.com/products/mini-3in1-rf-dispositivo-di-bellezza-ringiovanimento-lifting-rimozione-delle-rughe-rassodamento-della-pelle-per-viso-e-occhi",
+    "local": "source_docs/power_audit_2026-10-09/P36.html",
+    "sha256": "794ddb026f9871eede197228937022b1eb2c018e8c2f59f9f61267b314cfaabe"
+  },
+  {
+    "id": "P37",
+    "status": "HTTP 200",
+    "resolved_url": "https://it.freyara.com/products/dispositivo-di-bellezza-rf-2in1-con-3-sonde-e-6-sonde-ringiovanimento-sollevamento-rimozione-delle-rughe-rassodamento-della-pelle-per-viso-e-occhi",
+    "local": "source_docs/power_audit_2026-10-09/P37.html",
+    "sha256": "af3d972183ef5264fa5a51c66de03b7e9fc1f37903170096a917081ef237ddff"
+  },
+  {
+    "id": "P38",
+    "status": "HTTP 200",
+    "resolved_url": "https://img.freyara.com/catalog/instruction/FY04.0208US.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P38.pdf",
+    "sha256": "9041a768de104228c29a60b45e93d53a1192dd383c1ec54e4f101220ed933ea3"
+  },
+  {
+    "id": "P39",
+    "status": "HTTP 200",
+    "resolved_url": "https://us.mychway.com/product/cet-ret-rf-face-lifting-skin-care-winkle-removal",
+    "local": "source_docs/power_audit_2026-10-09/P39.html",
+    "sha256": "6f22ae29f9d85a00bc33b9dd01348916de847daf25e7f79acb03ff4a31419096"
+  },
+  {
+    "id": "P40",
+    "status": "HTTP 200",
+    "resolved_url": "https://manual.mychway.com/UserManual/ms-11y3instructionnew.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P40.pdf",
+    "sha256": "434a2cf2bc25bbbca5b2e56b1f1505fb2f4cc1adbde1f9b27688009a08a01999"
+  },
+  {
+    "id": "P41",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.rf-skincare.com/shop/view.html?cpage_pq=182&spage_pq=181&uid=32",
+    "local": "source_docs/power_audit_2026-10-09/P41.html",
+    "sha256": "d775fa58d8802dcb3fc706205b156dc5a178c775449d7ccfad7d9697193c6231"
+  },
+  {
+    "id": "P42",
+    "status": "HTTP 200",
+    "resolved_url": "https://panasonic.jp/face/products/EH-SR90/spec.html",
+    "local": "source_docs/power_audit_2026-10-09/P42.html",
+    "sha256": "5677636386b90b2829b94fe43574e06750ea4e740fb73b69600d32c6e9fef3c5"
+  },
+  {
+    "id": "P43",
+    "status": "HTTP 200",
+    "resolved_url": "https://panasonic.jp/face/products/EH-SR85/spec.html",
+    "local": "source_docs/power_audit_2026-10-09/P43.html",
+    "sha256": "3b5344002219120e9f8ecb8770c00857dac9e4c37032824c6c9745049ee15993"
+  },
+  {
+    "id": "P44",
+    "status": "HTTP 200",
+    "resolved_url": "https://panasonic.jp/face/products/EH-SR86/spec.html",
+    "local": "source_docs/power_audit_2026-10-09/P44.html",
+    "sha256": "46773058372c0cb411a491463a7b2b8e4970bab291496601ada9708c202ce4a8"
+  },
+  {
+    "id": "P45",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-deep-lift.html",
+    "local": "source_docs/power_audit_2026-10-09/P45.html",
+    "sha256": "c5cc5df177c73e24680902a7ab1a5b5b019aa9c33305d8868f3d0c64610a444c"
+  },
+  {
+    "id": "P46",
+    "status": "HTTP 200",
+    "resolved_url": "https://medicube.us/products/age-r-ultra-tune-40-68",
+    "local": "source_docs/power_audit_2026-10-09/P46.html",
+    "sha256": "a560dbe38a401ed2aa6af0b5946c0d9e61f896bc0cc23ba8c45f025b869a0117"
+  },
+  {
+    "id": "P47",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.evenskyn.com/pages/lumo-faqs",
+    "local": "source_docs/power_audit_2026-10-09/P47.html",
+    "sha256": "f12520fbcb913435feaabb6ae3c286be199733ca04d3a9b1912f0f8a73d73eff"
+  },
+  {
+    "id": "P48",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf17/K170758.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P48.pdf",
+    "sha256": "ffacfb2685f18f22288e28be78fd4598124bc89fc7bb2de31745c7d6f487d2be"
+  },
+  {
+    "id": "P49",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K251327.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P49.pdf",
+    "sha256": "aea1ebe216faf8a7b18f86079632725d8b388ac597d95efe2f3c007ee4011ce6"
+  },
+  {
+    "id": "P50",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf24/K240248.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P50.pdf",
+    "sha256": "bd6906cdb9d19d29a82dd5acc601849501c978fdcb75b0214883fe853c8d893e"
+  },
+  {
+    "id": "P51",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf22/K221989.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P51.pdf",
+    "sha256": "a6796b1190298a0800abda063f5cf86e8edb176ad0236117186241e659b8be57"
+  },
+  {
+    "id": "P52",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf18/K180189.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P52.pdf",
+    "sha256": "5c67ec6e9ead93cc63a76891dab36607081f951f1d98e9a9cbc0956a439c0bd8"
+  },
+  {
+    "id": "P53",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf19/K192695.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P53.pdf",
+    "sha256": "36319f40798c0ae3265ba6e5a7121f6df04672ba6a68c00adf9bd35ffdef510d"
+  },
+  {
+    "id": "P54",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf20/K201164.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P54.pdf",
+    "sha256": "78d00d61e5238a400bf25fd519abcd1d4613061dd82a4dfb69bdf8564bc7dd32"
+  },
+  {
+    "id": "P55",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K232192.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P55.pdf",
+    "sha256": "508ee26057e370408d6e72507287b059c39716c518dbbdecc925efc4d0a43bab"
+  },
+  {
+    "id": "P56",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252845.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P56.pdf",
+    "sha256": "a10aef1971e1aca1387d644ce36cfd7406fadbf4ac22f6fd7218037e99030202"
+  },
+  {
+    "id": "P57",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K232903.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P57.pdf",
+    "sha256": "0eed6d3a5001a30f683525352e9b47b757c3e71f9e4d44145616b365e84aaa87"
+  },
+  {
+    "id": "P58",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf24/K243217.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P58.pdf",
+    "sha256": "76a09ba3117d1f085c59e842565a28ecefa0c1ebc59a382f0e5883a73917ffbb"
+  },
+  {
+    "id": "P59",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf17/K170325.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P59.pdf",
+    "sha256": "c12546d39f86ea6d6eb5cf4b69c8bbc0da385925c94b4b9c74422c6945ca8f7e"
+  },
+  {
+    "id": "P60",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf19/K192545.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P60.pdf",
+    "sha256": "52d4b3d08652b85238310cb6b91de268c60fad7d669db845a923a96fb3b3885a"
+  },
+  {
+    "id": "P61",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K254185.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P61.pdf",
+    "sha256": "8f1fcb81396f86307ba08c92690c2b5e155123015a28cc577db068bc13cc89b5"
+  },
+  {
+    "id": "P62",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf18/K180945.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P62.pdf",
+    "sha256": "8a5e65aa7863432697acda27b8f9d4d1b6255c0a3dac76d61d8752f16a228f97"
+  },
+  {
+    "id": "P63",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf24/K242996.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P63.pdf",
+    "sha256": "709a964fd5422780009cd4298842067bafe18c620b9b485ac349368cc757dbf2"
+  },
+  {
+    "id": "P64",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K233996.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P64.pdf",
+    "sha256": "66475466f2114f95340f9d487722351d88c3b8ea490dc9d7f27036a6dff37fbb"
+  },
+  {
+    "id": "P65",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf24/K243035.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P65.pdf",
+    "sha256": "7e8631bf2d049edd29069917dc31b45f5f7205172aabe525d02026459495b076"
+  },
+  {
+    "id": "P66",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf21/K211483.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P66.pdf",
+    "sha256": "a8169db507122ba2697d070fc78b17cba4a883d83458ac46627bd5bff2bf67f7"
+  },
+  {
+    "id": "P67",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf22/K223237.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P67.pdf",
+    "sha256": "26931aeb4917696f571bb3f0dd8b84b52a370112d9637dc8ba6e99b025df71e2"
+  },
+  {
+    "id": "P68",
+    "status": "HTTP 404; capture unavailable",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K231537.pdf",
+    "local": null
+  },
+  {
+    "id": "P69",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf24/K240687.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P69.pdf",
+    "sha256": "deaedda28c0fc8a769d328abb24527a475d21b41762974d3a0cd50d11eeb15a3"
+  },
+  {
+    "id": "P70",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf16/K163137.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P70.pdf",
+    "sha256": "c793b54077172a1f19a41dfb256f16553c30142ed4433b9eddcc4a2da8774844"
+  },
+  {
+    "id": "P71",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf19/K190678.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P71.pdf",
+    "sha256": "9d2a00064e4cbef7852fcf298f202263e44c6ac7e4ae40f8d48de0124b175cd9"
+  },
+  {
+    "id": "P72",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K231910.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P72.pdf",
+    "sha256": "d93aebbc77bde611339865deb616c8c44cff3112b7e9dbb6414af3111a31e0e3"
+  },
+  {
+    "id": "P73",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.silkn.com/skin-tightening/titan-mini-with-free-gel-SKUS000056.html",
+    "local": "source_docs/power_audit_2026-10-09/P73.html",
+    "sha256": "b431e2a69720c5c3397fe3bb99c636fb55bd168bf0f922cbc76c7dbb9600d52f"
+  },
+  {
+    "id": "P74",
+    "status": "HTTP 200",
+    "resolved_url": "https://patents.google.com/patent/US9844682B2/en",
+    "local": "source_docs/power_audit_2026-10-09/P74.html",
+    "sha256": "ac59a09e8ffeac931363ae1e05c40eeb7ea1b9e34f3d2d4ee98d5aa2a67ff9a5"
+  },
+  {
+    "id": "P75",
+    "status": "HTTP 200",
+    "resolved_url": "https://patents.google.com/patent/US11317961B2/en",
+    "local": "source_docs/power_audit_2026-10-09/P75.html",
+    "sha256": "fb0e3f6efb92f235de260429eeeb9c9caba73e6b9fe7f6f508733cd7238d2da3"
+  },
+  {
+    "id": "P76",
+    "status": "HTTP 403; capture unavailable",
+    "resolved_url": "https://device.report/m/91cc6032d88734ec2f9d4e9b1543aaadd7e9190fba691abbffb4ee4fcb4c0481",
+    "local": null
+  },
+  {
+    "id": "P77",
+    "status": "HTTP 200",
+    "resolved_url": "https://prod.danawa.com/info/?pcode=14102141",
+    "local": "source_docs/power_audit_2026-10-09/P77.html",
+    "sha256": "7478091b1c4d9d03a7a2a526bc613116315d3bdadb79a4c8c3c1eb6d6d99279e"
+  },
+  {
+    "id": "P78",
+    "status": "HTTP 200",
+    "resolved_url": "https://halohk.com/collections/vendors?page=13&q=halohk",
+    "local": "source_docs/power_audit_2026-10-09/P78.html",
+    "sha256": "0117218959d5bad36588a411ad30178ebcdbe554b3066d2a69b0e7c0707c9ae9"
+  }
+]

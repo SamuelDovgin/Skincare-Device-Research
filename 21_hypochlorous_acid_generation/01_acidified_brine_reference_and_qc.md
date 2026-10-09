@@ -1,16 +1,16 @@
 # Scaled Acidified-Brine Recipe, Time Curves, and QC
 
-*Updated 2026-08-27. This is a device-specific preparation and measurement guide, not a medical, cosmetic, disinfection, or product-certification claim.*
+*Updated 2026-10-04. This is a device-specific preparation and measurement guide, not a medical, cosmetic, disinfection, or product-certification claim.*
 
 ## 0. Bottom line
 
-The planner's default working recipe is now the user's Amazon/Chloe-observed batch, scaled from **250 mL for 15 minutes at approximately 300 ppm FAC and pH 4.5**:
+The planner's default working recipe is now the user's corrected Amazon/Chloe-observed batch, scaled from **250 mL for 30 minutes at approximately 300 ppm FAC and pH 4.5**:
 
 - **250 mL purified or distilled water**;
 - **1.50 g non-iodized table salt**; and
 - **0.625 mL vinegar**, with acidity unspecified in the review.
 
-The displayed amount and time scale from that observation: **more than 250 mL takes proportionally longer, and less than 250 mL takes proportionally less**. The working rate is approximately **20 ppm/min in 250 mL**, or **5 mg FAC-equivalent/min total**. The exact Eco One manual and its 500 mL / 200 ppm / 8-minute check remain important alternate source anchors, but the planner no longer uses them as the default timing basis. The [skincare HOCl recipe developer](hypochlorous_acid_calibration_planner.html) opens on the observed Amazon/Chloe recipe and keeps the documented and market-salt modes as explicit alternatives. Final pH and FAC still have to be measured together. [[1]](source_docs/eco-one-user-manual.pdf) [[8]](source_docs/FDA_510k_K180305_Hychloderm_0.01pct_HOCl.pdf) [[9]](source_docs/Zhang_2023_0.01pct_HOCl_blepharitis_RCT.pdf) [[11]](https://store.hocl.com/ecoone/) [[12]](https://ewco.com/system-ecoloxone) [[19]](https://www.amazon.com/dp/B08SMD6WRF)
+The displayed amount and time scale from that observation: **more than 250 mL takes proportionally longer, and less than 250 mL takes proportionally less**. The corrected working rate is approximately **10 ppm/min in 250 mL**, or **2.5 mg FAC-equivalent/min total**. The exact Eco One manual and its 500 mL / 200 ppm / 8-minute check remain important alternate source anchors, but the planner no longer uses them as the default timing basis. The [skincare HOCl recipe developer](hypochlorous_acid_calibration_planner.html) opens on the corrected observed Amazon/Chloe recipe and keeps the documented and market-salt modes as explicit alternatives. Final pH and FAC still have to be measured together. [[1]](source_docs/eco-one-user-manual.pdf) [[8]](source_docs/FDA_510k_K180305_Hychloderm_0.01pct_HOCl.pdf) [[9]](source_docs/Zhang_2023_0.01pct_HOCl_blepharitis_RCT.pdf) [[11]](https://store.hocl.com/ecoone/) [[12]](https://ewco.com/system-ecoloxone) [[19]](https://www.amazon.com/dp/B08SMD6WRF)
 
 ## 1. Why this formula is the most likely
 
@@ -33,17 +33,17 @@ The first three sources converge on **2 g/L salt + about 5 mL/L 5% vinegar**. Th
 3. Weigh the selected plain food-grade non-iodized NaCl rate: documented mode uses 2.00 g/L (0.40–2.00 g across 200–1,000 mL); experimental market-salt mode uses 0.60 g/L (0.12–0.60 g).
 4. Measure the displayed manual amount of 5% distilled white vinegar before electrolysis: 5.0 mL/L. The pH selector does not change this dose because no validated dose-to-final-pH curve was found. Do not substitute cleaning vinegar, concentrated acetic acid, or an unknown acidity.
 5. Add the salt and vinegar before electrolysis and mix/assemble exactly as the manual directs.
-6. Choose a target. In the default Amazon/Chloe mode, the 250 mL / ≈300 ppm / 15-minute observation is the primary anchor: time increases with volume and target FAC. The documented 2.00 g/L mode retains the published 1 L 3/5/8/16/40-minute anchors, and the experimental 0.60 g/L mode retains its separate 3.14 conductivity scenario; neither alternative replaces the default working calibration.
+6. Choose a target. In the default Amazon/Chloe mode, the corrected 250 mL / ≈300 ppm / 30-minute observation is the primary anchor: time increases with volume and target FAC. The documented 2.00 g/L mode retains the published 1 L 3/5/8/16/40-minute anchors, and the experimental 0.60 g/L mode retains its separate 3.14 conductivity scenario; neither alternative replaces the default working calibration.
 7. At cycle completion, measure final FAC and pH with methods that cover the expected ranges.
 8. Log the water, salt/vinegar lots, time, device, test methods, FAC, and pH. Never add acid or salt to rescue the completed chlorine-containing batch.
 
 ## 3. How the water and output sliders work
 
-The developer opens on the Amazon/Chloe observed-rate recipe and treats that as the default timing basis for its working calculations. It exposes the published one-liter FAC points as convenience preset buttons while keeping the controls continuous: water moves in 1 mL increments, FAC in 1 ppm increments, and target and starting-water pH in 0.01 increments. The pH buttons include the user-observed value (4.5), the observed endpoint center (4.77), and market median (5.35), but only change the final-measurement comparison. The default local FAC trace is scaled from the 250 mL observation; its shaded 0.8–1.4× range is a visible sensitivity scenario informed by real output variability, not a confidence interval. The documented and market modes remain explicit alternative models.
+The developer opens on the corrected Amazon/Chloe observed-rate recipe and treats that as the default timing basis for its working calculations. It exposes the published one-liter FAC points as convenience preset buttons while keeping the controls continuous: water moves in 1 mL increments, FAC in 1 ppm increments, and target and starting-water pH in 0.01 increments. The pH buttons include the user-observed value (4.5), the observed endpoint center (4.77), and market median (5.35), but only change the final-measurement comparison. The default local FAC trace is scaled from the corrected 250 mL observation; its shaded 0.8–1.4× range is a visible sensitivity scenario informed by real output variability, not a confidence interval. The documented and market modes remain explicit alternative models.
 
 ```text
-default observed point = 250 mL / ≈300 ppm / 15 min
-default time = 15 min × planned volume / 250 mL × target FAC / 300 ppm
+default observed point = 250 mL / ≈300 ppm / 30 min
+default time = 30 min × planned volume / 250 mL × target FAC / 300 ppm
 default salt = 6.00 g/L × planned volume
 default vinegar = 2.50 mL/L × planned volume
 
@@ -60,23 +60,23 @@ Real output is not exact. The same nominal recipe produced published values abov
 
 ## 2A. Amazon/Chloe recipe: default working calibration
 
-The user-supplied Amazon review by **Chloe** (January 20, 2026) reports **500 mL water, 3 g non-iodized table salt, 1.25 mL vinegar, and 15 minutes**, with a photographed result near **400 ppm FAC and pH 4.5**. [[19]](https://www.amazon.com/dp/B08SMD6WRF) On 2026-08-27, the user ran **250 mL for 15 minutes** and observed approximately **300 ppm FAC and pH 4.5** from the supplied photographs. That observation is now the primary working calibration for the Amazon/Chloe recipe. The FAC value remains an approximate coarse-strip observation, not an exact assay; the pH strip is likewise a visual estimate and may be affected by the salty sample.
+The user-supplied Amazon review by **Chloe** (January 20, 2026) reports **500 mL water, 3 g non-iodized table salt, 1.25 mL vinegar, and 15 minutes**, with a photographed result near **400 ppm FAC and pH 4.5**. [[19]](https://www.amazon.com/dp/B08SMD6WRF) The archive previously transcribed the user's 250 mL reproduction as 15 minutes; on 2026-10-04, the user corrected the remembered run timing to **30 minutes**, while retaining the approximate **300 ppm FAC and pH 4.5** readings. That corrected timing is now the primary working calibration for the Amazon/Chloe recipe. The FAC value remains an approximate coarse-strip observation, not an exact assay; the pH strip is likewise a visual estimate and may be affected by the salty sample.
 
 | Record | Water | Salt | Vinegar | Time | Reported/observed FAC | Reported/observed pH | Evidence class |
 |---|---:|---:|---:|---:|---:|---:|---|
 | Chloe Amazon review | 500 mL | 3.00 g | 1.25 mL; acidity unspecified | 15 min | ≈400 ppm | ≈4.5 | User review and photograph; anecdotal |
-| User reproduction | 250 mL | 1.50 g* | 0.625 mL* | 15 min | ≈300 ppm | ≈4.5 | User-supplied photo; primary working calibration |
+| User reproduction, timing corrected 2026-10-04 | 250 mL | 1.50 g* | 0.625 mL* | 30 min | ≈300 ppm | ≈4.5 | User-recalled timing; approximate visual readings; primary working calibration |
 
-\* The local-rate calibration assumes the 250 mL run used the **volume-scaled review amounts**. If the full review amounts—3.00 g salt and 1.25 mL vinegar—were used in 250 mL, the batch had twice the review concentrations and must be logged as a different recipe; do not use it to calibrate the scaled review rate.
+\* The local-rate calibration assumes the 250 mL run used the **volume-scaled review amounts** and the corrected 30-minute timing. If the full review amounts—3.00 g salt and 1.25 mL vinegar—were used in 250 mL, the batch had twice the review concentrations and must be logged as a different recipe; do not use it to calibrate the scaled review rate.
 
-The default working creation rate is approximately **20 ppm/min within 250 mL**, equivalent to approximately **5 mg FAC-equivalent/min total** (300 mg/L × 0.25 L ÷ 15 min). The calculator treats that observation as the **primary rate for every batch generated by this locked Amazon/Chloe recipe**: it multiplies time by planned volume ÷ 250 mL and by target FAC ÷ 300 ppm. If that same total rate held at 500 mL, a 15-minute run would correspond to approximately 150 ppm, not 400 ppm. The original review claim implies approximately 26.7 ppm/min within 500 mL, or 13.3 mg/min total; it remains historical source context rather than an active competing calculation.
+The corrected working creation rate is approximately **10 ppm/min within 250 mL**, equivalent to approximately **2.5 mg FAC-equivalent/min total** (300 mg/L × 0.25 L ÷ 30 min). The calculator treats that corrected observation as the **primary rate for every batch generated by this locked Amazon/Chloe recipe**: it multiplies time by planned volume ÷ 250 mL and by target FAC ÷ 300 ppm. If that same total rate held at 500 mL, a 15-minute run would correspond to approximately 75 ppm, not 400 ppm, and a 300 ppm target would require approximately 60 minutes. The original review claim implies approximately 26.7 ppm/min within 500 mL, or 13.3 mg/min total; it remains historical source context rather than an active competing calculation.
 
 ```text
-default Amazon/Chloe timing = 15 min × planned volume / 250 mL
+default Amazon/Chloe timing = 30 min × planned volume / 250 mL
                               × target FAC / 300 ppm
 ```
 
-This is now the recipe's primary working model, but it remains an observed local rate rather than a new manufacturer program or a universal chlorine-production rate. It assumes the same device, cell, water, locked ingredient rates, current behavior, temperature, and test method. It does not make the Amazon device manual compatible with vinegar. [[14]](source_docs/IUPAC_2019_electrochemical_terminology_Faraday_law.pdf) [[17]](source_docs/Khalid_2020_electrolysis_parameters_NaCl_voltage_time.pdf) [[19]](https://www.amazon.com/dp/B08SMD6WRF)
+This is now the recipe's primary working model, but it remains an observed local rate rather than a new manufacturer program or a universal chlorine-production rate. The earlier 15-minute planner entry remains historical chat/configuration context, not the current calibration input. The corrected 30-minute timing is user-recalled and has not been independently remeasured. The model assumes the same device, cell, water, locked ingredient rates, current behavior, temperature, and test method. It does not make the Amazon device manual compatible with vinegar. [[14]](source_docs/IUPAC_2019_electrochemical_terminology_Faraday_law.pdf) [[17]](source_docs/Khalid_2020_electrolysis_parameters_NaCl_voltage_time.pdf) [[19]](https://www.amazon.com/dp/B08SMD6WRF)
 
 ### Why changing generator salt would change the electrolysis model
 
@@ -190,12 +190,12 @@ The supplied PWPAM manual says salt plus water, identifies the output as sodium 
 16. [IUPAC electrochemical terminology and Faraday-law definitions](source_docs/IUPAC_2019_electrochemical_terminology_Faraday_law.pdf) — current, charge, and amount-transformed relationship; primary terminology source.
 17. [Khalid et al., 2020](source_docs/Khalid_2020_electrolysis_parameters_NaCl_voltage_time.pdf) — controlled different-cell experiments varying 0.05%, 0.53%, and 1% NaCl, voltage, and time; supports conductivity/current/chlorine interaction, not Eco One calibration.
 18. [Choi, Shim & Yoon, 2013](https://www.sciencedirect.com/science/article/pii/S1226086X12002638) — electrochlorination experiment identifying NaCl concentration as a major influence on current efficiency and power consumption.
-19. User-supplied [Amazon PWPAM review capture](https://www.amazon.com/dp/B08SMD6WRF) and 2026-08-27 reproduction photograph — Chloe’s 500 mL recipe/source record and the user’s approximate 250 mL / 15-minute / ≈300 ppm observation; primary working calibration for the Amazon/Chloe recipe, not independent validation or a universal device rate.
+19. User-supplied [Amazon PWPAM review capture](https://www.amazon.com/dp/B08SMD6WRF) and 2026-08-27 reproduction photograph — Chloe’s 500 mL recipe/source record and the user-corrected approximate 250 mL / 30-minute / ≈300 ppm observation; primary working calibration for the Amazon/Chloe recipe, not independent validation or a universal device rate. The earlier 15-minute planner entry remains historical configuration context.
 
 
-## Formula verification — 2026-09-06
+## Formula verification and timing correction — 2026-09-06 / updated 2026-10-04
 
-**Verified arithmetic does not predict final pH.** Scaling the recorded 250 mL / 300 mg/L / 15-minute observation gives 75 mg FAC-equivalent produced, or 5 mg/min; the same-yield estimate for 500 mL and 300 mg/L is 30 minutes. This is conditional on identical current efficiency and device operation. The ingredient assumptions remain 1.5 g salt and 0.625 mL vinegar in the calibration run; a different actual dose invalidates that calibration. Neither the source review nor a strip photograph establishes vinegar compatibility for a salt-only manual.
+**Verified arithmetic does not predict final pH.** The 2026-09-06 audit used the then-current 250 mL / 300 mg/L / 15-minute planner record and therefore calculated 75 mg FAC-equivalent produced, or 5 mg/min; its same-yield estimate for 500 mL and 300 mg/L was 30 minutes. On 2026-10-04, the user corrected the remembered 250 mL run timing to 30 minutes. The current working record therefore uses 75 mg FAC-equivalent over 30 minutes, or 2.5 mg/min; the same-yield estimate for 500 mL and 300 mg/L is now 60 minutes. Both calculations are conditional on identical current efficiency and device operation. The ingredient assumptions remain 1.5 g salt and 0.625 mL vinegar in the calibration run; a different actual dose invalidates that calibration. Neither the source review nor a strip photograph establishes vinegar compatibility for a salt-only manual.
 
 **pH 4.5 implies about 99.9% HOCl within the HOCl/OCl⁻ pair**, using `fraction = 1/(1 + 10^(pH − 7.5))`. At pH 5.5 it is 99.0%, at 6.5 it is 90.9%, and at 7.5 it is 50%. This equation computes a species ratio from measured pH, not pH from vinegar or run time. Starting-water pH cannot replace alkalinity/buffer capacity; pH numbers cannot be averaged to calculate mixture pH. Temperature, ionic strength, electrochemical reactions, and chlorine demand also matter. [EPA equilibrium study](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P1000GU9.TXT).
 

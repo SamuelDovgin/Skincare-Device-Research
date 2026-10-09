@@ -1,0 +1,1911 @@
+{
+  "timezone": "America/Chicago",
+  "articles": {
+    "01_ipl_hair_removal/01_science_brief.md": {
+      "title": "IPL Science Brief: Parameters for Skin Rejuvenation vs Hair Removal",
+      "topic": "IPL hair removal, DPL, and consumer pulsed-light research",
+      "href": "01_ipl_hair_removal/index.html#doc1",
+      "timestamp": 1781478898,
+      "status": "Added",
+      "date": "2026-06-14",
+      "sha256": "f4f928cdb70f0b8013f7b7bf58ed3bb7715936fbdcc04bb2bb7e7e38ec66cfc7"
+    },
+    "01_ipl_hair_removal/02_ideal_device_specs.md": {
+      "title": "Ideal IPL Device Specification",
+      "topic": "IPL hair removal, DPL, and consumer pulsed-light research",
+      "href": "01_ipl_hair_removal/index.html#doc2",
+      "timestamp": 1781478708,
+      "status": "Added",
+      "date": "2026-06-14",
+      "sha256": "4ee042484d05e2238a1499975ebf92344731570216a554c49255bdfdc8625e27"
+    },
+    "01_ipl_hair_removal/03_fda_510k_analysis.md": {
+      "title": "FDA 510(k) Analysis: Home IPL Devices",
+      "topic": "IPL hair removal, DPL, and consumer pulsed-light research",
+      "href": "01_ipl_hair_removal/index.html#doc3",
+      "timestamp": 1781478892,
+      "status": "Added",
+      "date": "2026-06-14",
+      "sha256": "c4ee3ff4436be070597b24057c46c9f3792f2c1778354d5e52973a4028eccd0e"
+    },
+    "01_ipl_hair_removal/04_fansizhe_catalog_transcription.md": {
+      "title": "Fansizhe Product Catalog Transcription",
+      "topic": "IPL hair removal, DPL, and consumer pulsed-light research",
+      "href": "01_ipl_hair_removal/index.html#doc4",
+      "timestamp": 1781478700,
+      "status": "Added",
+      "date": "2026-06-14",
+      "sha256": "ce0e6c4263e9a2c3424bde6aae8e99c1df14816f98d9c21c646a1c66d339ec99"
+    },
+    "01_ipl_hair_removal/05_semlamp_catalog_transcription.md": {
+      "title": "Semlamp Product Catalog Transcription",
+      "topic": "IPL hair removal, DPL, and consumer pulsed-light research",
+      "href": "01_ipl_hair_removal/index.html#doc5",
+      "timestamp": 1781279800,
+      "status": "Added",
+      "date": "2026-06-12",
+      "sha256": "f56028e42037907f63781efa6174ef3f7a19d328df492d1a48395eccb784d657"
+    },
+    "01_ipl_hair_removal/06_final_recommendation.md": {
+      "title": "Final Recommendation: IPL Device for Skin Rejuvenation + Hair Removal",
+      "topic": "IPL hair removal, DPL, and consumer pulsed-light research",
+      "href": "01_ipl_hair_removal/index.html#doc6",
+      "timestamp": 1782922220,
+      "status": "Updated",
+      "date": "2026-07-01",
+      "sha256": "a07fef054195dded3a957edcb68986b6c23ad7d5680392fdc2b35f4c39bec492"
+    },
+    "01_ipl_hair_removal/07_alternatives_and_strategy.md": {
+      "title": "Alternatives & Dermatologically-Sound Strategy",
+      "topic": "IPL hair removal, DPL, and consumer pulsed-light research",
+      "href": "01_ipl_hair_removal/index.html#doc7",
+      "timestamp": 1783654130,
+      "status": "Updated",
+      "date": "2026-07-09",
+      "sha256": "293fa2dba9bac1a4876beda866c58d3d028de2d5b004d0f7bef48dbc0be646be"
+    },
+    "01_ipl_hair_removal/08_fda_ipl_device_dataset.md": {
+      "title": "FDA 510(k) IPL Device Dataset — Ranked by Fluence (J/cm²)",
+      "topic": "IPL hair removal, DPL, and consumer pulsed-light research",
+      "href": "01_ipl_hair_removal/index.html#doc8",
+      "timestamp": 1783373492,
+      "status": "Updated",
+      "date": "2026-07-06",
+      "sha256": "f43124b5f8a78eb96ac582607de66016e85eebaff9f47f6bbbbe2bf39f0ff497"
+    },
+    "01_ipl_hair_removal/11_510nm_ipl_vs_tria_research_headtohead.md": {
+      "title": "510nm Home IPL (~6 J/cm2) vs Tria 810nm Diode: Research Head-to-Head",
+      "topic": "IPL hair removal, DPL, and consumer pulsed-light research",
+      "href": "01_ipl_hair_removal/index.html#doc9",
+      "timestamp": 1782750572,
+      "status": "Added",
+      "date": "2026-06-29",
+      "sha256": "1bd0ff6e970d39ab1fa5060b3ec1254d82a86b515143c9d7647a20b5cb4d71fc"
+    },
+    "01_ipl_hair_removal/12_treatment_cadence_guide.md": {
+      "title": "IPL Treatment Cadence Guide — How Often to Use It for Maximum Effectiveness",
+      "topic": "IPL hair removal, DPL, and consumer pulsed-light research",
+      "href": "01_ipl_hair_removal/index.html#doc10",
+      "timestamp": 1783109529,
+      "status": "Updated",
+      "date": "2026-07-03",
+      "sha256": "f064abb83a9b7be68dfd2d96797dab5c92266d55cfdb1742670ae5139ff39c49"
+    },
+    "01_ipl_hair_removal/13_skin_rejuvenation_guide.md": {
+      "title": "IPL Skin-Rejuvenation Routine — Cadence + an Honest Reality Check (Same Device)",
+      "topic": "IPL hair removal, DPL, and consumer pulsed-light research",
+      "href": "01_ipl_hair_removal/index.html#doc11",
+      "timestamp": 1782844587,
+      "status": "Updated",
+      "date": "2026-06-30",
+      "sha256": "dea1db0c5437880f07df1de90754fa1a3263641ce484087b456ed7955ac7dda0"
+    },
+    "01_ipl_hair_removal/14_ipl_research_evidence_map.md": {
+      "title": "IPL Research Evidence Map - Best-Cited Papers and What Each Proves",
+      "topic": "IPL hair removal, DPL, and consumer pulsed-light research",
+      "href": "01_ipl_hair_removal/index.html#doc14",
+      "timestamp": 1782874441,
+      "status": "Added",
+      "date": "2026-06-30",
+      "sha256": "a32e6f12650711733019f699945689e18e2c2fc72bc719881e2955c7278ae3e2"
+    },
+    "01_ipl_hair_removal/15_multi_flash_thermal_accumulation.md": {
+      "title": "Multi-Flash Thermal Accumulation — Does \"8.33 J/cm² Over 3 Flashes\" Really Add Up at the Follicle?",
+      "topic": "IPL hair removal, DPL, and consumer pulsed-light research",
+      "href": "01_ipl_hair_removal/index.html#doc15",
+      "timestamp": 1785079324,
+      "status": "Updated",
+      "date": "2026-07-26",
+      "sha256": "a5b73bfc0349b21f6927b8f7cf673a0ded092f57e4f4170fafd524b3dbe4ce1c"
+    },
+    "01_ipl_hair_removal/16_shr_ulike_thermal_simulation.md": {
+      "title": "IPL/SHR Follicle Heating — What Temperature Actually Produces Damage?",
+      "topic": "IPL hair removal, DPL, and consumer pulsed-light research",
+      "href": "01_ipl_hair_removal/index.html#doc16",
+      "timestamp": 1785079324,
+      "status": "Updated",
+      "date": "2026-07-26",
+      "sha256": "6620698cd690c54826929b70977a8db9acad23612299a14c9f817e7789ab4465"
+    },
+    "01_ipl_hair_removal/17_jovs_blacken_dpl_and_oem_comparison.md": {
+      "title": "JOVS Blacken DPL: three-model comparison, DPL vs IPL, and Alibaba OEM trail",
+      "topic": "IPL hair removal, DPL, and consumer pulsed-light research",
+      "href": "01_ipl_hair_removal/index.html#doc17",
+      "timestamp": 1783654130,
+      "status": "Added",
+      "date": "2026-07-09",
+      "sha256": "fc72c17da469b864aab01ea1df50aec69fab31cdc7557ac1d76870fd8a77adb7"
+    },
+    "01_ipl_hair_removal/18_ipl_preflight_safety_and_patch_test_gate.md": {
+      "title": "IPL preflight safety and patch-test gate",
+      "topic": "IPL hair removal, DPL, and consumer pulsed-light research",
+      "href": "01_ipl_hair_removal/index.html#doc18",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "445451ac93c53a5fd83458cc9e9780f98a7da49e1720ab4034a01874ed1bed13"
+    },
+    "02_diode_laser_hair_removal/09_tria_precision_marketplace_assessment.md": {
+      "title": "Tria Hair Removal Laser Precision: $50 Marketplace Assessment",
+      "topic": "Diode laser hair-removal research",
+      "href": "02_diode_laser_hair_removal/index.html#start",
+      "timestamp": 1782750572,
+      "status": "Added",
+      "date": "2026-06-29",
+      "sha256": "8221f50876dc8a3e3d1351ba79c789e4901d79110028245d74a3658675f14b0e"
+    },
+    "02_diode_laser_hair_removal/10_used_tria_value_and_wear_pricing.md": {
+      "title": "Used Tria Precision Value, Wear, and Negotiation Research",
+      "topic": "Diode laser hair-removal research",
+      "href": "02_diode_laser_hair_removal/index.html#doc1",
+      "timestamp": 1782750572,
+      "status": "Added",
+      "date": "2026-06-29",
+      "sha256": "286f36f459ac3d22e176ee6ee2e53a875cc572b0404daf3bcd396ac872837ccb"
+    },
+    "02_diode_laser_hair_removal/11_810nm_diode_laser_alternatives_vs_ipl.md": {
+      "title": "808/810 nm Diode Laser Alternatives To Tria, Compared With IPL",
+      "topic": "Diode laser hair-removal research",
+      "href": "02_diode_laser_hair_removal/index.html#doc2",
+      "timestamp": 1785079324,
+      "status": "Updated",
+      "date": "2026-07-26",
+      "sha256": "145709855d9a6453faa60a806111d5c9a6cfd512933f82da95affebfb818b28e"
+    },
+    "02_diode_laser_hair_removal/12_marketplace_seller_activity_analysis.md": {
+      "title": "Facebook Marketplace Seller Activity Analysis For The $50 Tria Precision",
+      "topic": "Diode laser hair-removal research",
+      "href": "02_diode_laser_hair_removal/index.html#doc3",
+      "timestamp": 1782750572,
+      "status": "Added",
+      "date": "2026-06-29",
+      "sha256": "0f61dbd769b69496f15834a1b786345817423e96c31e0e25893f64c9f43222ab"
+    },
+    "02_diode_laser_hair_removal/13_tria_diode_thermal_simulation.md": {
+      "title": "Tria 810 nm Diode Laser — Chromophore Absorption & Thermal Simulation",
+      "topic": "Diode laser hair-removal research",
+      "href": "markdown-viewer.html?file=02_diode_laser_hair_removal/13_tria_diode_thermal_simulation.md",
+      "timestamp": 1785079324,
+      "status": "Updated",
+      "date": "2026-07-26",
+      "sha256": "1e24d76e082ef979b1ec53dc2ff758b70eab8fa9377c8419044052be40a9f1ea"
+    },
+    "02_diode_laser_hair_removal/14_tria_4x_vs_precision.md": {
+      "title": "Tria 4X vs Tria Precision: Same Laser Dose, Different Workflow",
+      "topic": "Diode laser hair-removal research",
+      "href": "02_diode_laser_hair_removal/index.html#doc4",
+      "timestamp": 1783871263,
+      "status": "Added",
+      "date": "2026-07-12",
+      "sha256": "15f559a1fc3af94647689de3e36b34b130abbcefe0214cdb4114f2dd977a0875"
+    },
+    "02_diode_laser_hair_removal/15_tria_precision_post_repair_shutdown_diagnosis.md": {
+      "title": "Tria Precision: Low Pulses Worked, High Pulses Collapsed, Then the Unit Went Dead",
+      "topic": "Diode laser hair-removal research",
+      "href": "02_diode_laser_hair_removal/index.html#doc5",
+      "timestamp": 1785079324,
+      "status": "Added",
+      "date": "2026-07-26",
+      "sha256": "0092be9ccd68a17a79589291a721fb7c0e22bd1ffd5cde544e07a43266895f3b"
+    },
+    "02_diode_laser_hair_removal/16_tria_4x_ebay_offer_comparison.md": {
+      "title": "Three Used Tria 4X eBay Listings: Photo Audit, Risk Ranking, and Offer Plan",
+      "topic": "Diode laser hair-removal research",
+      "href": "02_diode_laser_hair_removal/index.html#doc6",
+      "timestamp": 1785079324,
+      "status": "Added",
+      "date": "2026-07-26",
+      "sha256": "18c73a18967be3afd2e635b6d986e4f31d49b0b73c46cd696b934ca4dd24195d"
+    },
+    "02_diode_laser_hair_removal/17_tria_diode_vs_ipl_pigmentation_redness.md": {
+      "title": "Can the Tria 810 nm Hair-Removal Laser Help Facial Pigmentation or Redness?",
+      "topic": "Diode laser hair-removal research",
+      "href": "02_diode_laser_hair_removal/index.html#doc7",
+      "timestamp": 1785905893,
+      "status": "Added",
+      "date": "2026-08-04",
+      "sha256": "c1333fe29ea2be91ad21e4db45f1e3e2aca9a0964cb06a60ecd4d153e7c9c6c5"
+    },
+    "02_diode_laser_hair_removal/18_tria_treatment_protocol_and_progress_audit.md": {
+      "title": "Tria treatment protocol and progress audit",
+      "topic": "Diode laser hair-removal research",
+      "href": "02_diode_laser_hair_removal/index.html#doc8",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "e6fa57f629b602ee7eb37d8db87ee7d9da71f46a3c0f819641db83020c918da4"
+    },
+    "03_fractional_laser_resurfacing/01_laser_resurfacing_science.md": {
+      "title": "Science Brief: Non-Ablative Fractional Laser Resurfacing (Pigment + Collagen)",
+      "topic": "Home Laser Resurfacing Research",
+      "href": "03_fractional_laser_resurfacing/index.html#doc1",
+      "timestamp": 1782922220,
+      "status": "Updated",
+      "date": "2026-07-01",
+      "sha256": "0ea29adf10eb60e0f01096a033b4f18878383aa20cbc51826bd599d2d2876065"
+    },
+    "03_fractional_laser_resurfacing/02_in_office_vs_at_home.md": {
+      "title": "In-Office Clear + Brilliant vs At-Home Lasers: What's Different, What to Expect",
+      "topic": "Home Laser Resurfacing Research",
+      "href": "03_fractional_laser_resurfacing/index.html#doc2",
+      "timestamp": 1782750572,
+      "status": "Added",
+      "date": "2026-06-29",
+      "sha256": "d34dcaf6e1a61b51fc14dd31879cd15654bed656ee8214854d39dbf5413f0880"
+    },
+    "03_fractional_laser_resurfacing/03_device_landscape.md": {
+      "title": "Device Landscape: Every Home / Discontinued Laser Comparable to Clear + Brilliant",
+      "topic": "Home Laser Resurfacing Research",
+      "href": "03_fractional_laser_resurfacing/index.html#doc3",
+      "timestamp": 1783109529,
+      "status": "Updated",
+      "date": "2026-07-03",
+      "sha256": "c5a0f80695715db823b262ee8b7af24236f281681c2bc333512b707e42c11f49"
+    },
+    "03_fractional_laser_resurfacing/04_suppliers_and_companies.md": {
+      "title": "Suppliers & Companies Making These Devices",
+      "topic": "Home Laser Resurfacing Research",
+      "href": "03_fractional_laser_resurfacing/index.html#doc4",
+      "timestamp": 1782750572,
+      "status": "Added",
+      "date": "2026-06-29",
+      "sha256": "fee5fac43cd3dbae747757c12a4eecf83671d90917b11e6ab15ff4757b48b3d6"
+    },
+    "03_fractional_laser_resurfacing/05_ydunvie_catalog.md": {
+      "title": "YDUNVIE / 欧莱美 Full Product Catalog Analysis",
+      "topic": "Home Laser Resurfacing Research",
+      "href": "03_fractional_laser_resurfacing/index.html#doc5",
+      "timestamp": 1782924096,
+      "status": "Updated",
+      "date": "2026-07-01",
+      "sha256": "a1438f9255ec2dcd556a68c029bad90c78ae052a28496aab067689e6ab0fa7f9"
+    },
+    "03_fractional_laser_resurfacing/06_sourcing_rfq_templates.md": {
+      "title": "Sourcing: RFQ Templates & Spec Sheet",
+      "topic": "Home Laser Resurfacing Research",
+      "href": "03_fractional_laser_resurfacing/index.html#doc6",
+      "timestamp": 1782750572,
+      "status": "Added",
+      "date": "2026-06-29",
+      "sha256": "ae131050a371053f47150ab44f6eee9e365870840175da5b285bcba2a358e94d"
+    },
+    "03_fractional_laser_resurfacing/07_future_research_plan.md": {
+      "title": "Future Research Plan",
+      "topic": "Home Laser Resurfacing Research",
+      "href": "03_fractional_laser_resurfacing/index.html#doc7",
+      "timestamp": 1782750572,
+      "status": "Added",
+      "date": "2026-06-29",
+      "sha256": "b8fc40c0b271c3d508e026e2d02d8ecffc920eed82d0a0d213ae99c7805241c8"
+    },
+    "03_fractional_laser_resurfacing/08_clear_brilliant_quantified_gap.md": {
+      "title": "The Quantified Gap: Clear + Brilliant vs Home Lasers (Dermatology Evidence)",
+      "topic": "Home Laser Resurfacing Research",
+      "href": "03_fractional_laser_resurfacing/index.html#doc8",
+      "timestamp": 1782924096,
+      "status": "Updated",
+      "date": "2026-07-01",
+      "sha256": "c954e57aa3b37ed558bd9fe77d336be479ab6ef83f2884795543acb02f102c3c"
+    },
+    "03_fractional_laser_resurfacing/09_1927nm_vs_1450nm_headtohead.md": {
+      "title": "1927nm vs 1450nm: Head-to-Head for Your Profile (25, pigment-focused)",
+      "topic": "Home Laser Resurfacing Research",
+      "href": "03_fractional_laser_resurfacing/index.html#doc9",
+      "timestamp": 1782750572,
+      "status": "Added",
+      "date": "2026-06-29",
+      "sha256": "c5e7da7615ee914c593013519474342ba22a13978a440390724456804d8d9966"
+    },
+    "03_fractional_laser_resurfacing/10_where_to_buy_storefronts.md": {
+      "title": "Where to Buy: Storefront Directory",
+      "topic": "Home Laser Resurfacing Research",
+      "href": "03_fractional_laser_resurfacing/index.html#doc10",
+      "timestamp": 1782750572,
+      "status": "Added",
+      "date": "2026-06-29",
+      "sha256": "3b724a65186a3b6adcb6ec5e65ea138c2515fa91494b6f0e7e3809243cbe3def"
+    },
+    "03_fractional_laser_resurfacing/11_subscriber_qa_lowdensity_rejuvenation.md": {
+      "title": "Subscriber Q&A: Can frequent low-density at-home laser = meaningful rejuvenation?",
+      "topic": "Home Laser Resurfacing Research",
+      "href": "03_fractional_laser_resurfacing/index.html#doc11",
+      "timestamp": 1782750572,
+      "status": "Added",
+      "date": "2026-06-29",
+      "sha256": "c2814ec70c8620759b0c94b456528b0b22d59748186280c40749bd483b532c70"
+    },
+    "03_fractional_laser_resurfacing/12_alibaba_supplier_scan.md": {
+      "title": "Alibaba Supplier Scan (live browse)",
+      "topic": "Home Laser Resurfacing Research",
+      "href": "03_fractional_laser_resurfacing/index.html#doc12",
+      "timestamp": 1782750572,
+      "status": "Added",
+      "date": "2026-06-29",
+      "sha256": "7b4efb45245cb825a8ac5079addcf7919bfe62d3887084f77f70311e0abbea2f"
+    },
+    "03_fractional_laser_resurfacing/13_tria_smoothbeauty_owners_guide.md": {
+      "title": "Tria SmoothBeauty™ Laser — ID, Specs & Quick-Start Owner's Guide",
+      "topic": "Home Laser Resurfacing Research",
+      "href": "03_fractional_laser_resurfacing/index.html#doc13",
+      "timestamp": 1785905893,
+      "status": "Updated",
+      "date": "2026-08-04",
+      "sha256": "60639af5c57ad1158dbc9f7566e821bd46a92cd03f3bdb4aaea7005572fe61d7"
+    },
+    "03_fractional_laser_resurfacing/14_mimisilk_iris_tria_patent_analysis.md": {
+      "title": "Does MimiSilk Iris Infringe Any Active Tria Patent? A Claim-by-Claim Read",
+      "topic": "Home Laser Resurfacing Research",
+      "href": "markdown-viewer.html?file=03_fractional_laser_resurfacing/14_mimisilk_iris_tria_patent_analysis.md",
+      "timestamp": 1782924096,
+      "status": "Added",
+      "date": "2026-07-01",
+      "sha256": "ae501df1be888b2035e167d6bbab723b690b138f5f0336e668cf18c64b7978f0"
+    },
+    "03_fractional_laser_resurfacing/15_tria_company_research_patents_and_future.md": {
+      "title": "Tria Beauty — Company Research, Patents, Clinical Evidence & What May Come Next",
+      "topic": "Home Laser Resurfacing Research",
+      "href": "03_fractional_laser_resurfacing/index.html#doc14",
+      "timestamp": 1785079324,
+      "status": "Added",
+      "date": "2026-07-26",
+      "sha256": "f90b88868ec1569f8b9c3f8d6d6d297439bfc4eff12d5955d88e7089835cfe55"
+    },
+    "03_fractional_laser_resurfacing/16_tria_vs_ipl_pigmentation_redness.md": {
+      "title": "Tria FRX vs IPL for Facial Pigmentation and Redness",
+      "topic": "Home Laser Resurfacing Research",
+      "href": "03_fractional_laser_resurfacing/index.html#doc15",
+      "timestamp": 1785905893,
+      "status": "Added",
+      "date": "2026-08-04",
+      "sha256": "600f87273ee42dd39de9cc8bef7d56bb55efa7dd7a04ddff1aaf2300352edcc4"
+    },
+    "03_fractional_laser_resurfacing/17_fractional_laser_clinical_evidence_map.md": {
+      "title": "Fractional-laser clinical evidence map",
+      "topic": "Home Laser Resurfacing Research",
+      "href": "03_fractional_laser_resurfacing/index.html#doc16",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "0a233cb82dfc27ff4fae20abdb828aeec86ed88e13406d791d7e029c88a0c12e"
+    },
+    "04_red_light_therapy_handheld/01_handheld_rlt_spec_comparison.md": {
+      "title": "Handheld Red Light Therapy (RLT) Devices — Spec Comparison & Ranking",
+      "topic": "04 — Handheld Red Light Therapy (RLT) Devices",
+      "href": "04_red_light_therapy_handheld/index.html#doc1",
+      "timestamp": 1782874441,
+      "status": "Updated",
+      "date": "2026-06-30",
+      "sha256": "b31aa832a99153ba1778ecf44851ce452b2124835bf2cb88aeb1af9d368ba840"
+    },
+    "04_red_light_therapy_handheld/02_raw_extracted_specs.md": {
+      "title": "Raw Extracted Specs — Handheld RLT Listings",
+      "topic": "04 — Handheld Red Light Therapy (RLT) Devices",
+      "href": "04_red_light_therapy_handheld/index.html#doc2",
+      "timestamp": 1782874441,
+      "status": "Updated",
+      "date": "2026-06-30",
+      "sha256": "b0c9f73f554d2ba6608e3cd2a3b47a38d982a175957bd6f78f4a9553113cbde2"
+    },
+    "04_red_light_therapy_handheld/03_independent_research_and_decision.md": {
+      "title": "Independent Research, Listing Audit, and Buying Decision",
+      "topic": "04 — Handheld Red Light Therapy (RLT) Devices",
+      "href": "04_red_light_therapy_handheld/index.html#doc3",
+      "timestamp": 1783176643,
+      "status": "Updated",
+      "date": "2026-07-04",
+      "sha256": "e8a8583cc303557a1365960400a2ce8259ecdf4a9831d661d16c5ac12da5908c"
+    },
+    "04_red_light_therapy_handheld/04_pl300_measured_specs_and_dose_model.md": {
+      "title": "PL300 Panel: Measured Specs, Claimed Specs, and Dose Model",
+      "topic": "04 — Handheld Red Light Therapy (RLT) Devices",
+      "href": "markdown-viewer.html?file=04_red_light_therapy_handheld/04_pl300_measured_specs_and_dose_model.md",
+      "timestamp": 1786485076,
+      "status": "Updated",
+      "date": "2026-08-11",
+      "sha256": "dcee512dbac67008cecda4cd42326bf81c3c3fcddf7cf51f65da1d12c67c15bd"
+    },
+    "04_red_light_therapy_handheld/05_whole_body_pbm_dosing_evidence.md": {
+      "title": "Whole-Body RLT / PBM Dosing: Human Evidence, Optimal-Health Synthesis, and PL300 Translation",
+      "topic": "04 — Handheld Red Light Therapy (RLT) Devices",
+      "href": "markdown-viewer.html?file=04_red_light_therapy_handheld/05_whole_body_pbm_dosing_evidence.md",
+      "timestamp": 1787592855,
+      "status": "Updated",
+      "date": "2026-08-24",
+      "sha256": "7df60be153e105e9d9cfdc98c7cd45a626e86a214fef2a909f4d08634159f021"
+    },
+    "04_red_light_therapy_handheld/06_comparable_panel_irradiance_falloff.md": {
+      "title": "Comparable Red-Light Panel Irradiance Falloff",
+      "topic": "04 — Handheld Red Light Therapy (RLT) Devices",
+      "href": "markdown-viewer.html?file=04_red_light_therapy_handheld/06_comparable_panel_irradiance_falloff.md",
+      "timestamp": 1786485076,
+      "status": "Updated",
+      "date": "2026-08-11",
+      "sha256": "73eb6b383f6c5a8ff5c403c1f6b8656a84a06f57b58c8ab68093bfe436e2f942"
+    },
+    "04_red_light_therapy_handheld/07_localized_pbm_evidence_and_n_of_1_protocol.md": {
+      "title": "Localized PBM evidence and N-of-1 protocol",
+      "topic": "04 — Handheld Red Light Therapy (RLT) Devices",
+      "href": "04_red_light_therapy_handheld/index.html#doc7",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "246cb6108abafb9d409279c122b3b7c9046f04510b4c247d78121deaece488a2"
+    },
+    "05_market_patent_intelligence/01_overview.md": {
+      "title": "01 — Overview & Key Takeaways",
+      "topic": "Market & Patent Intelligence",
+      "href": "05_market_patent_intelligence/index.html#start",
+      "timestamp": 1782876961,
+      "status": "Added",
+      "date": "2026-06-30",
+      "sha256": "7afb3027745b0ec51530ae2dd8b881a89bb169e21db63479b8ebdd3cbfc55fa0"
+    },
+    "05_market_patent_intelligence/02_patent_landscape.md": {
+      "title": "02 — Patent Landscape: Who Owns the Home-Device Frontier",
+      "topic": "Market & Patent Intelligence",
+      "href": "05_market_patent_intelligence/index.html#doc1",
+      "timestamp": 1782876961,
+      "status": "Added",
+      "date": "2026-06-30",
+      "sha256": "5ea93bb17c20f498405413a11ed5428a4a143792ba0cfde549dd1200b739bbb4"
+    },
+    "05_market_patent_intelligence/03_market_map_teardown.md": {
+      "title": "03 — Market Map & Product Teardown: What the Popular Devices Actually Are",
+      "topic": "Market & Patent Intelligence",
+      "href": "05_market_patent_intelligence/index.html#doc2",
+      "timestamp": 1783654130,
+      "status": "Updated",
+      "date": "2026-07-09",
+      "sha256": "f00f748e7beacb76998b2fd46eeaab679a4d161d9140de49dcc93fcd0fa779a6"
+    },
+    "05_market_patent_intelligence/04_market_size_trends.md": {
+      "title": "04 — Market Size & Trends: Where the Home-Device Market Is Going",
+      "topic": "Market & Patent Intelligence",
+      "href": "05_market_patent_intelligence/index.html#doc3",
+      "timestamp": 1782876961,
+      "status": "Added",
+      "date": "2026-06-30",
+      "sha256": "296b60ea69889ac8c579e925bff89d999fd0a3321cc34c3367cc2ca263710727"
+    },
+    "05_market_patent_intelligence/05_frontier_emerging_tech.md": {
+      "title": "05 — The Frontier: Emerging & Cutting-Edge Home-Device Tech",
+      "topic": "Market & Patent Intelligence",
+      "href": "05_market_patent_intelligence/index.html#doc4",
+      "timestamp": 1782876961,
+      "status": "Added",
+      "date": "2026-06-30",
+      "sha256": "5ed1e35823977a0d292da9d8ddc4d0bc337351abd81cae5c27ab2a7a83879460"
+    },
+    "05_market_patent_intelligence/06_patent_search_playbook.md": {
+      "title": "06 — The Playbook: How to Aggregate This Yourself",
+      "topic": "Market & Patent Intelligence",
+      "href": "05_market_patent_intelligence/index.html#doc5",
+      "timestamp": 1782876961,
+      "status": "Added",
+      "date": "2026-06-30",
+      "sha256": "e97a52606352187ff38c16c81089408a12d609c1a2c5509d6aef21cde849a664"
+    },
+    "05_market_patent_intelligence/07_blind_spots_and_opportunity_map.md": {
+      "title": "07 — Blind Spots and Opportunity Map",
+      "topic": "Market & Patent Intelligence",
+      "href": "05_market_patent_intelligence/index.html#doc6",
+      "timestamp": 1783871263,
+      "status": "Added",
+      "date": "2026-07-12",
+      "sha256": "f35974b939559f895431b1dc89a5434e3bf98694c9d90a1f7010203ae0a05bfe"
+    },
+    "05_market_patent_intelligence/08_fda_multimodal_clearance_register.md": {
+      "title": "FDA multimodal clearance register",
+      "topic": "Market & Patent Intelligence",
+      "href": "05_market_patent_intelligence/index.html#doc7",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "60484a56ab7c9e2fb3ed39cd63b239fb3e3bb8bd9882ac84740957f11aee07b1"
+    },
+    "06_non_fractional_lasers/01_non_fractional_laser_science.md": {
+      "title": "Non-Fractional Laser Science: What This Category Is",
+      "topic": "Non-Fractional Laser Devices",
+      "href": "06_non_fractional_lasers/index.html#doc1",
+      "timestamp": 1783109529,
+      "status": "Added",
+      "date": "2026-07-03",
+      "sha256": "923e9125c30f8b363dc3d689dd87f576d06163e2a9827829e4318f8715b38fb7"
+    },
+    "06_non_fractional_lasers/02_device_landscape.md": {
+      "title": "Non-Fractional Laser Device Landscape",
+      "topic": "Non-Fractional Laser Devices",
+      "href": "06_non_fractional_lasers/index.html#doc2",
+      "timestamp": 1783109529,
+      "status": "Added",
+      "date": "2026-07-03",
+      "sha256": "f88f4b9cb4006978905bef8cf9ccb12960577b9155356b973f9fea87649f7b35"
+    },
+    "06_non_fractional_lasers/03_dermrays_revive_deep_dive.md": {
+      "title": "DermRays Revive Deep Dive",
+      "topic": "Non-Fractional Laser Devices",
+      "href": "06_non_fractional_lasers/index.html#doc3",
+      "timestamp": 1783109529,
+      "status": "Added",
+      "date": "2026-07-03",
+      "sha256": "4d91e4a7ef2b55d0ee5826f30ede160885ac3b565c686a4e8bcdc9f8dbdb770b"
+    },
+    "06_non_fractional_lasers/04_nira_dermrays_professional_results_gap.md": {
+      "title": "NIRA / DermRays vs Professional Results: Can Non-Fractional Home Lasers Reach Clinic Grade?",
+      "topic": "Non-Fractional Laser Devices",
+      "href": "06_non_fractional_lasers/index.html#doc4",
+      "timestamp": 1783175456,
+      "status": "Added",
+      "date": "2026-07-04",
+      "sha256": "98695130826ff8d08b5f2d0419f704884305f915db3c39d9d5120c4abce582e9"
+    },
+    "06_non_fractional_lasers/05_dermrays_power_patent_comparison.md": {
+      "title": "DermRays Revive Power, Patent, and Device Comparison",
+      "topic": "Non-Fractional Laser Devices",
+      "href": "06_non_fractional_lasers/index.html#doc5",
+      "timestamp": 1783611133,
+      "status": "Updated",
+      "date": "2026-07-09",
+      "sha256": "802b5fbeae0183eaaa642064f1f18c965b9247476cac9ebaa253e68657712915"
+    },
+    "06_non_fractional_lasers/06_non_fractional_laser_outcome_evidence_map.md": {
+      "title": "Non-fractional laser outcome evidence map",
+      "topic": "Non-Fractional Laser Devices",
+      "href": "06_non_fractional_lasers/index.html#doc6",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "89411678a83aa7fe19971cd6a32e8d9884ee083f3c71b66ae290e4c474ae11d8"
+    },
+    "07_radio_frequency_skin_tightening/01_rf_science_brief.md": {
+      "title": "RF Science Brief: Controlled Dermal Heating Without Light",
+      "topic": "Radio Frequency Skin Tightening",
+      "href": "07_radio_frequency_skin_tightening/index.html#doc1",
+      "timestamp": 1790913631,
+      "status": "Updated",
+      "date": "2026-10-01",
+      "sha256": "bf7846ddc3afc3d83263e34dd2f64d39bd144280b6e56ab54c1459e2caa5f247"
+    },
+    "07_radio_frequency_skin_tightening/02_initial_device_landscape.md": {
+      "title": "Initial RF Device Landscape",
+      "topic": "Radio Frequency Skin Tightening",
+      "href": "07_radio_frequency_skin_tightening/index.html#doc2",
+      "timestamp": 1790919602,
+      "status": "Updated",
+      "date": "2026-10-02",
+      "sha256": "b01c6268e9764e88fc063d9b69bd720ecd9a55a76051edb7a8a502500c69ff0a"
+    },
+    "07_radio_frequency_skin_tightening/03_patent_regulatory_notes.md": {
+      "title": "RF Patent & Regulatory Notes",
+      "topic": "Radio Frequency Skin Tightening",
+      "href": "07_radio_frequency_skin_tightening/index.html#doc3",
+      "timestamp": 1783109529,
+      "status": "Added",
+      "date": "2026-07-03",
+      "sha256": "ee15fcadb4cff1657bd7db333608cbe0aba418f7fdb335215882d2f011acac75"
+    },
+    "07_radio_frequency_skin_tightening/04_home_rf_vs_professional_results_gap.md": {
+      "title": "Home RF vs Professional Results: Can At-Home RF Reach Clinic Grade?",
+      "topic": "Radio Frequency Skin Tightening",
+      "href": "07_radio_frequency_skin_tightening/index.html#doc4",
+      "timestamp": 1783175456,
+      "status": "Added",
+      "date": "2026-07-04",
+      "sha256": "d9fe9f6cbb78fe50e48d5a086d4f9f01c7764c7e85cc87c781d59a1fcadb2f7f"
+    },
+    "07_radio_frequency_skin_tightening/05_rf_device_selection_guide.md": {
+      "title": "RF Device Quick Selection Guide",
+      "topic": "Radio Frequency Skin Tightening",
+      "href": "07_radio_frequency_skin_tightening/index.html#doc5",
+      "timestamp": 1790986988,
+      "status": "Updated",
+      "date": "2026-10-02",
+      "sha256": "fd26407013d992d15bb00fc8b72b93fd97ad7a4fddd8481e4ce195411b17e400"
+    },
+    "07_radio_frequency_skin_tightening/06_thermage_vs_everything_comparison.md": {
+      "title": "Thermage versus home RF: what is actually comparable?",
+      "topic": "Radio Frequency Skin Tightening",
+      "href": "07_radio_frequency_skin_tightening/index.html#doc6",
+      "timestamp": 1790986988,
+      "status": "Updated",
+      "date": "2026-10-02",
+      "sha256": "943c7e550a9f3fa83cfe8a6e332a04df0ddbeb7bdebd2e2d6934df524f0693c7"
+    },
+    "07_radio_frequency_skin_tightening/07_konmison_video_analysis.md": {
+      "title": "Konmison LB056B Video Analysis: Claims vs. Science",
+      "topic": "Radio Frequency Skin Tightening",
+      "href": "07_radio_frequency_skin_tightening/index.html#doc7",
+      "timestamp": 1790919602,
+      "status": "Updated",
+      "date": "2026-10-02",
+      "sha256": "8ce3319cfd8ea04ceb39815aa7e30dbd50ea8230d43e76ee45593ad4064bff59"
+    },
+    "07_radio_frequency_skin_tightening/08_tripollar_competitors_deep_dive.md": {
+      "title": "TriPollar competitors: compare evidence and controls",
+      "topic": "Radio Frequency Skin Tightening",
+      "href": "07_radio_frequency_skin_tightening/index.html#doc8",
+      "timestamp": 1790919602,
+      "status": "Updated",
+      "date": "2026-10-02",
+      "sha256": "b65aaba737e48c79583fc4aae1e38f8f58f4b45c9b1e2e54974a2e30307747e7"
+    },
+    "07_radio_frequency_skin_tightening/09_laser_vs_rf_technology_comparison.md": {
+      "title": "Laser vs RF: Does the Technology Matter If the Temperature Is the Same?",
+      "topic": "Radio Frequency Skin Tightening",
+      "href": "07_radio_frequency_skin_tightening/index.html#doc9",
+      "timestamp": 1790919602,
+      "status": "Updated",
+      "date": "2026-10-02",
+      "sha256": "b80c9cedf7dc89be5004e01938a8ae255530c5f22e19b8184e2439a2ba651776"
+    },
+    "07_radio_frequency_skin_tightening/10_home_rf_tier_list_and_comparison.md": {
+      "title": "RF Product Lineup and Efficacy-Informed Tier List",
+      "topic": "Radio Frequency Skin Tightening",
+      "href": "07_radio_frequency_skin_tightening/index.html#doc10",
+      "timestamp": 1790986988,
+      "status": "Updated",
+      "date": "2026-10-02",
+      "sha256": "14a08e48fe4b92b8ea9030619b1e951e0866c7bda02efaf6f90f62644a3db050"
+    },
+    "07_radio_frequency_skin_tightening/11_home_rf_clinical_evidence_map.md": {
+      "title": "Home radiofrequency clinical evidence map",
+      "topic": "Radio Frequency Skin Tightening",
+      "href": "07_radio_frequency_skin_tightening/index.html#doc11",
+      "timestamp": 1790986988,
+      "status": "Updated",
+      "date": "2026-10-02",
+      "sha256": "0f9070ed01f2982e1ddce723cbf87b79b0875b82345d426068a9568e71882f2d"
+    },
+    "07_radio_frequency_skin_tightening/12_market_census_and_value.md": {
+      "title": "RF market census: Panasonic, YA-MAN, MimiSilk and the alternatives",
+      "topic": "Radio Frequency Skin Tightening",
+      "href": "07_radio_frequency_skin_tightening/index.html#doc12",
+      "timestamp": 1790970318,
+      "status": "Updated",
+      "date": "2026-10-02",
+      "sha256": "cf99ef7197fd8f95ead750d7a2b02739ad38f5d56e09669be970b5055ab8af7c"
+    },
+    "07_radio_frequency_skin_tightening/13_frequency_temperature_and_clinical_research.md": {
+      "title": "Which RF technology, MHz and temperature deserve attention?",
+      "topic": "Radio Frequency Skin Tightening",
+      "href": "07_radio_frequency_skin_tightening/index.html#doc13",
+      "timestamp": 1790970926,
+      "status": "Updated",
+      "date": "2026-10-02",
+      "sha256": "837ffa4af728b0fb4470095b80efe1429cb135e9d9735d111c475afa4baa9dcb"
+    },
+    "07_radio_frequency_skin_tightening/14_research_source_manifest.md": {
+      "title": "RF research source manifest",
+      "topic": "Radio Frequency Skin Tightening",
+      "href": "07_radio_frequency_skin_tightening/index.html#doc14",
+      "timestamp": 1790986988,
+      "status": "Updated",
+      "date": "2026-10-02",
+      "sha256": "b4b42b1f4091425a90cd024f32e784388f5affeb5e90b6661ba5793a116b28e2"
+    },
+    "07_radio_frequency_skin_tightening/15_home_rf_specification_blueprint.md": {
+      "title": "Home RF device: evidence-led specification blueprint",
+      "topic": "Radio Frequency Skin Tightening",
+      "href": "07_radio_frequency_skin_tightening/index.html#doc15",
+      "timestamp": 1790972130,
+      "status": "Updated",
+      "date": "2026-10-02",
+      "sha256": "e6e0406c25e41d7145626dea1c49c85eca2b44da05578f8826711a481bf31883"
+    },
+    "07_radio_frequency_skin_tightening/16_collagen_efficacy_and_device_requirements.md": {
+      "title": "RF for Collagen: What the Evidence and Right Specifications Actually Require",
+      "topic": "Radio Frequency Skin Tightening",
+      "href": "07_radio_frequency_skin_tightening/index.html#doc16",
+      "timestamp": 1790986988,
+      "status": "Updated",
+      "date": "2026-10-02",
+      "sha256": "fd7cab20833a6d6650f567787a024a24b7524e8920be47830f621735defb8497"
+    },
+    "07_radio_frequency_skin_tightening/17_thermage_equivalents_and_professional_rf.md": {
+      "title": "Best Thermage equivalents and professional RF services",
+      "topic": "Radio Frequency Skin Tightening",
+      "href": "07_radio_frequency_skin_tightening/index.html#doc17",
+      "timestamp": 1790986988,
+      "status": "Updated",
+      "date": "2026-10-02",
+      "sha256": "659cb61d3d35e0198b4d4ba55e5e51df10034fc946e1612a2f9de5dbb8f66908"
+    },
+    "07_radio_frequency_skin_tightening/18_closest_home_device_to_thermage.md": {
+      "title": "Closest home RF device to Thermage: what I would actually buy",
+      "topic": "Radio Frequency Skin Tightening",
+      "href": "07_radio_frequency_skin_tightening/index.html#doc18",
+      "timestamp": 1790986988,
+      "status": "Added",
+      "date": "2026-10-02",
+      "sha256": "dcaa4fc03e6933c334442fb7648f1b2f7d26f126135ff820d74b5fa053254e5e"
+    },
+    "07_radio_frequency_skin_tightening/19_rf_wattage_atlas.md": {
+      "title": "Home RF wattage atlas: rated, measured and inferred power",
+      "topic": "Radio Frequency Skin Tightening",
+      "href": "07_radio_frequency_skin_tightening/index.html#doc19",
+      "timestamp": 1791523397,
+      "status": "Added",
+      "date": "2026-10-09",
+      "sha256": "e0d4735e3f58f3d3826b38dea6fc4f2eeb41ff262934035b1cfaad9e6e499915"
+    },
+    "07_radio_frequency_skin_tightening/20_generic_rf_and_mimisilk_oem_audit.md": {
+      "title": "Generic RF devices and the MimiSilk / DLUS manufacturer lead",
+      "topic": "Radio Frequency Skin Tightening",
+      "href": "07_radio_frequency_skin_tightening/index.html#doc20",
+      "timestamp": 1791523397,
+      "status": "Added",
+      "date": "2026-10-09",
+      "sha256": "045a8f5f792fed7fa90433f6d9d3535b694ea3419eb74d4ff9854420bd5a9a06"
+    },
+    "07_radio_frequency_skin_tightening/21_submitted_research_and_source_register.md": {
+      "title": "Submitted research, FDA / patent crosswalk and source recovery",
+      "topic": "Radio Frequency Skin Tightening",
+      "href": "07_radio_frequency_skin_tightening/index.html#doc21",
+      "timestamp": 1791523397,
+      "status": "Added",
+      "date": "2026-10-09",
+      "sha256": "ba3d620ef9ecd650c4d99af941583bb747b49510e5dbbb508065b989b6af6c0d"
+    },
+    "08_vitamin_c_serums/01_ce_ferulic_science_and_patents.md": {
+      "title": "C E Ferulic Science & Patents: Why This Formula Became the Benchmark",
+      "topic": "Vitamin C Serums",
+      "href": "08_vitamin_c_serums/index.html#doc1",
+      "timestamp": 1783373492,
+      "status": "Added",
+      "date": "2026-07-06",
+      "sha256": "acdf6f8b81bc7cc9be7675a970dfb9dbaa2e94c1eedb6ce6b5d67e4cf790b561"
+    },
+    "08_vitamin_c_serums/02_product_comparison.md": {
+      "title": "Product Comparison: SkinCeuticals, Trader Joe's, DIY, and Derivative Serums",
+      "topic": "Vitamin C Serums",
+      "href": "08_vitamin_c_serums/index.html#doc2",
+      "timestamp": 1783373492,
+      "status": "Added",
+      "date": "2026-07-06",
+      "sha256": "80b3c1e43877248d44db40eb29d6bb8e108b1fb9ba3f33bc90e0f45b45889935"
+    },
+    "08_vitamin_c_serums/03_diy_vitamin_c_protocol.md": {
+      "title": "DIY Vitamin C Protocol: Fast, Fresh, and Less Annoying",
+      "topic": "Vitamin C Serums",
+      "href": "08_vitamin_c_serums/index.html#doc3",
+      "timestamp": 1790912561,
+      "status": "Updated",
+      "date": "2026-10-01",
+      "sha256": "81b6015a8b625834c013bb242568c794b9e3b6d6e689d9137ac754bd303ab61a"
+    },
+    "08_vitamin_c_serums/04_derivatives_and_next_gen_formulas.md": {
+      "title": "Vitamin C Derivatives & Next-Gen Formulas",
+      "topic": "Vitamin C Serums",
+      "href": "08_vitamin_c_serums/index.html#doc4",
+      "timestamp": 1783373492,
+      "status": "Added",
+      "date": "2026-07-06",
+      "sha256": "e0c34833d48060885aabaf542b2bcc4e81cab60ef729deb1bffc9017198f5844"
+    },
+    "08_vitamin_c_serums/05_extended_product_catalog.md": {
+      "title": "Extended Vitamin C Serum Catalog: 30+ Products Across All Tiers",
+      "topic": "Vitamin C Serums",
+      "href": "markdown-viewer.html?file=08_vitamin_c_serums/05_extended_product_catalog.md",
+      "timestamp": 1783373492,
+      "status": "Added",
+      "date": "2026-07-06",
+      "sha256": "8df16f83dc4e22bb413ab70f40e719e3f2f5674dcb7a09b3adc3c429f0e492c6"
+    },
+    "08_vitamin_c_serums/06_next_gen_derivatives_deep_dive.md": {
+      "title": "Vitamin C Derivatives Deep Dive: Mechanisms, Evidence, and Latest Research",
+      "topic": "Vitamin C Serums",
+      "href": "markdown-viewer.html?file=08_vitamin_c_serums/06_next_gen_derivatives_deep_dive.md",
+      "timestamp": 1783373492,
+      "status": "Added",
+      "date": "2026-07-06",
+      "sha256": "13e5d96fb95957910b89a2d594d9657b7cde38a4bd6ac5b1874d3faf778d35f7"
+    },
+    "08_vitamin_c_serums/07_latest_launches_and_patent_landscape.md": {
+      "title": "Latest Vitamin C Serum Launches & Patent Landscape (2024–2026)",
+      "topic": "Vitamin C Serums",
+      "href": "markdown-viewer.html?file=08_vitamin_c_serums/07_latest_launches_and_patent_landscape.md",
+      "timestamp": 1783373492,
+      "status": "Added",
+      "date": "2026-07-06",
+      "sha256": "8f7a3c4a3e1e5954b8bc62d01d56b1ec8b9cfc5a25eedff30919753848d7d56d"
+    },
+    "08_vitamin_c_serums/08_quick_selection_guide.md": {
+      "title": "Vitamin C Serum Quick Selection Guide",
+      "topic": "Vitamin C Serums",
+      "href": "markdown-viewer.html?file=08_vitamin_c_serums/08_quick_selection_guide.md",
+      "timestamp": 1783373492,
+      "status": "Added",
+      "date": "2026-07-06",
+      "sha256": "87a715f1f1b1075a314e37a51fb450663c446e27b99a81cb870468dbbc2600a7"
+    },
+    "08_vitamin_c_serums/09_diy_vitamin_c_potency_model.md": {
+      "title": "09 — DIY vitamin C potency likelihood model",
+      "topic": "Vitamin C Serums",
+      "href": "markdown-viewer.html?file=08_vitamin_c_serums/09_diy_vitamin_c_potency_model.md",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "40fec6a073b5b39da82c7e41215a4020dac36f4facb8f1d0b14e4c1cf55f26c2"
+    },
+    "08_vitamin_c_serums/10_body_care_routine_and_diy_spray.md": {
+      "title": "Vitamin C for Body Skin: Routine, DIY Spray, and the Lotion Question",
+      "topic": "Vitamin C Serums",
+      "href": "08_vitamin_c_serums/index.html#doc5",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "7318bfc5ba9b63c7cf22e1c96436497623d02e599a00becea51eb6c2a17e2948"
+    },
+    "08_vitamin_c_serums/11_human_clinical_evidence_matrix.md": {
+      "title": "Human clinical evidence matrix: what topical vitamin C actually proves",
+      "topic": "Vitamin C Serums",
+      "href": "08_vitamin_c_serums/index.html#doc11",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "987596f96b7b85cb0311dd99e6b568903b9efcf36a39e94fe74d4fd01e406ee0"
+    },
+    "09_zinc_oxide_barrier_cream/01_zinc_oxide_skin_barrier_science.md": {
+      "title": "01 - Zinc Oxide and Skin-Barrier Science",
+      "topic": "Zinc Oxide Barrier Cream",
+      "href": "09_zinc_oxide_barrier_cream/index.html#doc1",
+      "timestamp": 1783373492,
+      "status": "Added",
+      "date": "2026-07-06",
+      "sha256": "5ee1f4eba8d47721ba713506618c63f66fb7e48d69170d9678a5f1d97b43155d"
+    },
+    "09_zinc_oxide_barrier_cream/02_evidence_map_dermatitis_wound_healing.md": {
+      "title": "02 - Evidence Map: Dermatitis, Barrier, Wound Healing",
+      "topic": "Zinc Oxide Barrier Cream",
+      "href": "09_zinc_oxide_barrier_cream/index.html#doc2",
+      "timestamp": 1783373492,
+      "status": "Added",
+      "date": "2026-07-06",
+      "sha256": "8f7e84e62ab962d8708a3500224404908bd6b63c90cb9329350fddfe9a1951c3"
+    },
+    "09_zinc_oxide_barrier_cream/03_safety_protocol_and_routine_fit.md": {
+      "title": "03 - Safety, Routine Fit, and Protocol",
+      "topic": "Zinc Oxide Barrier Cream",
+      "href": "09_zinc_oxide_barrier_cream/index.html#doc3",
+      "timestamp": 1783373492,
+      "status": "Added",
+      "date": "2026-07-06",
+      "sha256": "3c7f75d6650ebbeff5934a5668d72aebea52d27ff7e112b56c56979ca3aa7f36"
+    },
+    "09_zinc_oxide_barrier_cream/04_product_selection_notes.md": {
+      "title": "04 - Product Selection Notes",
+      "topic": "Zinc Oxide Barrier Cream",
+      "href": "09_zinc_oxide_barrier_cream/index.html#doc4",
+      "timestamp": 1783373492,
+      "status": "Added",
+      "date": "2026-07-06",
+      "sha256": "196a4ac32370030829d49021c418dbfed644bd1ab48ffb116c1f446051aaf3f1"
+    },
+    "09_zinc_oxide_barrier_cream/05_sudocrem_product_comparison.md": {
+      "title": "05 - Sudocrem Product Comparison",
+      "topic": "Zinc Oxide Barrier Cream",
+      "href": "09_zinc_oxide_barrier_cream/index.html#doc5",
+      "timestamp": 1783373492,
+      "status": "Added",
+      "date": "2026-07-06",
+      "sha256": "59a2b8c39e237e948dff993f9f8eab680c79474036b90895c8f0ff2c558d165c"
+    },
+    "09_zinc_oxide_barrier_cream/06_reddit_anecdote_scan.md": {
+      "title": "06 - Reddit Anecdote Scan",
+      "topic": "Zinc Oxide Barrier Cream",
+      "href": "09_zinc_oxide_barrier_cream/index.html#doc6",
+      "timestamp": 1783373492,
+      "status": "Added",
+      "date": "2026-07-06",
+      "sha256": "a2e53e2e092657174a0ee9d1fd3755f4bf8ee99398063a668c0cd9174602426f"
+    },
+    "09_zinc_oxide_barrier_cream/07_full_product_comparison_chart.md": {
+      "title": "07 - Full Product Comparison Chart",
+      "topic": "Zinc Oxide Barrier Cream",
+      "href": "09_zinc_oxide_barrier_cream/index.html#doc7",
+      "timestamp": 1783373492,
+      "status": "Added",
+      "date": "2026-07-06",
+      "sha256": "06e5023fb324e18c60b0b34bf7072735bd0c884599c1969f69374ac7e187082b"
+    },
+    "09_zinc_oxide_barrier_cream/08_barrier_rescue_decision_guide.md": {
+      "title": "Barrier-rescue decision guide: zinc paste, petrolatum, moisturizer, or medical review?",
+      "topic": "Zinc Oxide Barrier Cream",
+      "href": "09_zinc_oxide_barrier_cream/index.html#doc8",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "3009d27ead186267eb586a44be18f4d740e6f8bdf9c580920865dadb6291d804"
+    },
+    "10_microneedling_collagen_induction/01_microneedling_science_brief.md": {
+      "title": "Microneedling Science Brief",
+      "topic": "Microneedling and Collagen Induction",
+      "href": "10_microneedling_collagen_induction/index.html#doc1",
+      "timestamp": 1783373492,
+      "status": "Added",
+      "date": "2026-07-06",
+      "sha256": "8f6f246b2eb23d5df1d38b0ab2e73396e6c8bf636eb54f2f101440d289dd37e1"
+    },
+    "10_microneedling_collagen_induction/02_clinical_evidence_map.md": {
+      "title": "Clinical Evidence Map",
+      "topic": "Microneedling and Collagen Induction",
+      "href": "10_microneedling_collagen_induction/index.html#doc2",
+      "timestamp": 1783373492,
+      "status": "Added",
+      "date": "2026-07-06",
+      "sha256": "8cbc40bd9e1adfd8da3c4f552135040705f14fecc7185d3a482696a4198a8657"
+    },
+    "10_microneedling_collagen_induction/03_regulatory_and_device_landscape.md": {
+      "title": "Regulatory and Device Landscape",
+      "topic": "Microneedling and Collagen Induction",
+      "href": "10_microneedling_collagen_induction/index.html#doc3",
+      "timestamp": 1783373492,
+      "status": "Added",
+      "date": "2026-07-06",
+      "sha256": "88a64069e62c1235f6916ac8d17835848fe65fd19b005ec045d6ccfcde1fac38"
+    },
+    "10_microneedling_collagen_induction/04_home_vs_professional_results_gap.md": {
+      "title": "Home vs Professional Results Gap",
+      "topic": "Microneedling and Collagen Induction",
+      "href": "10_microneedling_collagen_induction/index.html#doc4",
+      "timestamp": 1783373492,
+      "status": "Added",
+      "date": "2026-07-06",
+      "sha256": "f8381fde97ad40c08ec1377aa934c85980fa7f933d0ae0709bf653af69d50403"
+    },
+    "10_microneedling_collagen_induction/05_selection_and_safety_protocol.md": {
+      "title": "Selection and Safety Protocol",
+      "topic": "Microneedling and Collagen Induction",
+      "href": "10_microneedling_collagen_induction/index.html#doc5",
+      "timestamp": 1783373492,
+      "status": "Added",
+      "date": "2026-07-06",
+      "sha256": "de27a315d510bf1ea8b7e4afe3fd8bf1cc4614614b30a9439ae5a09fd61c84d7"
+    },
+    "10_microneedling_collagen_induction/06_fda_indication_matrix_and_provider_checklist.md": {
+      "title": "FDA indication matrix and provider verification checklist",
+      "topic": "Microneedling and Collagen Induction",
+      "href": "10_microneedling_collagen_induction/index.html#doc6",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "e016c784df065c74a8f9ae3631c94229d9741e8883c9ce26410f61d6acd19e24"
+    },
+    "11_hifu_skin_tightening/01_hifu_science_brief.md": {
+      "title": "HIFU Science Brief",
+      "topic": "HIFU / Microfocused Ultrasound Skin Tightening",
+      "href": "11_hifu_skin_tightening/index.html#doc1",
+      "timestamp": 1783437185,
+      "status": "Updated",
+      "date": "2026-07-07",
+      "sha256": "1e0d3e20976e2fa9f4bf92a13a1a11e42c1b3a571bcbcdee965af04c8e9c295e"
+    },
+    "11_hifu_skin_tightening/02_clinic_device_evidence_map.md": {
+      "title": "Clinic Device Evidence Map",
+      "topic": "HIFU / Microfocused Ultrasound Skin Tightening",
+      "href": "11_hifu_skin_tightening/index.html#doc2",
+      "timestamp": 1783437185,
+      "status": "Updated",
+      "date": "2026-07-07",
+      "sha256": "71a02ea1a891ae4d784861bd8f15cebd9bbcd4b93f17cd1e8c812304c4e9ae6d"
+    },
+    "11_hifu_skin_tightening/03_home_device_landscape.md": {
+      "title": "Home Device Landscape",
+      "topic": "HIFU / Microfocused Ultrasound Skin Tightening",
+      "href": "11_hifu_skin_tightening/index.html#doc3",
+      "timestamp": 1783437185,
+      "status": "Updated",
+      "date": "2026-07-07",
+      "sha256": "c3b2cc02a9796557479787d458aa1b1bc80d2087cd394eee4c32e663ca79adc3"
+    },
+    "11_hifu_skin_tightening/04_home_vs_clinic_results_gap.md": {
+      "title": "Home vs Clinic Results Gap",
+      "topic": "HIFU / Microfocused Ultrasound Skin Tightening",
+      "href": "11_hifu_skin_tightening/index.html#doc4",
+      "timestamp": 1783437185,
+      "status": "Updated",
+      "date": "2026-07-07",
+      "sha256": "b8d681ccfe169e684c27d2d9ab784b25a19dabc820a56b716ae1b641d81db878"
+    },
+    "11_hifu_skin_tightening/05_selection_and_safety_protocol.md": {
+      "title": "Selection and Safety Protocol",
+      "topic": "HIFU / Microfocused Ultrasound Skin Tightening",
+      "href": "11_hifu_skin_tightening/index.html#doc5",
+      "timestamp": 1783437185,
+      "status": "Updated",
+      "date": "2026-07-07",
+      "sha256": "32dd5e8625c78d896e3de4ac8716579867405b1f6c2a072ab9012fa9963bb15e"
+    },
+    "11_hifu_skin_tightening/06_clinical_outcomes_and_realistic_expectations.md": {
+      "title": "Clinical outcomes and realistic expectations: Ulthera and Sofwave",
+      "topic": "HIFU / Microfocused Ultrasound Skin Tightening",
+      "href": "11_hifu_skin_tightening/index.html#doc6",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "7e65a0b548b0636adde7602e554c52713b1783ba176ae62112e41064805e1db6"
+    },
+    "12_peptides_in_skincare/01_peptide_science_and_taxonomy.md": {
+      "title": "Peptide Science and Functional Taxonomy",
+      "topic": "Peptides in Skincare",
+      "href": "12_peptides_in_skincare/index.html#doc1",
+      "timestamp": 1783871263,
+      "status": "Added",
+      "date": "2026-07-12",
+      "sha256": "08a90b73007f00d11a85911e186e3b96c412360dd60acf0e5bab1f00971ac60e"
+    },
+    "12_peptides_in_skincare/02_ranked_clinical_evidence.md": {
+      "title": "Ranked Clinical Evidence: Which Topical Peptides Are Most Proven?",
+      "topic": "Peptides in Skincare",
+      "href": "12_peptides_in_skincare/index.html#doc2",
+      "timestamp": 1784124391,
+      "status": "Updated",
+      "date": "2026-07-15",
+      "sha256": "5a25ab0857d75fe3deabe0165caec5ca5d7a29fa672a1172f9fb56f27d8934ce"
+    },
+    "12_peptides_in_skincare/03_peptides_vs_ingredients_devices_and_tech.md": {
+      "title": "Peptides vs Common Ingredients, Devices, and Delivery Technology",
+      "topic": "Peptides in Skincare",
+      "href": "12_peptides_in_skincare/index.html#doc3",
+      "timestamp": 1783871263,
+      "status": "Added",
+      "date": "2026-07-12",
+      "sha256": "bc2eed6b55a7fcfbc260889c7c7c75d2ef21e3c3506721dfea50aeb6b2320268"
+    },
+    "12_peptides_in_skincare/04_selection_and_routine_guide.md": {
+      "title": "Peptide Selection and Routine Guide",
+      "topic": "Peptides in Skincare",
+      "href": "12_peptides_in_skincare/index.html#doc4",
+      "timestamp": 1783871263,
+      "status": "Added",
+      "date": "2026-07-12",
+      "sha256": "ad86483f3f0acc612b166ad66135fb76812fc39a7efbd50d5f889903f5b9262c"
+    },
+    "12_peptides_in_skincare/05_who_makes_branded_peptides_supplier_map.md": {
+      "title": "Who Actually Makes Skincare Peptides? Supplier, Trademark, and Licensing Map",
+      "topic": "Peptides in Skincare",
+      "href": "12_peptides_in_skincare/index.html#doc5",
+      "timestamp": 1784124391,
+      "status": "Added",
+      "date": "2026-07-15",
+      "sha256": "b023bfbe20b543aa76c87e417ae43d9046115f1894c8fca8a8f4ce6d98aa36fd"
+    },
+    "12_peptides_in_skincare/06_best_value_peptide_products_and_amazon_buying_guide.md": {
+      "title": "Best-Value Peptide Serums: The Ordinary, Good Molecules, and the Budget Market",
+      "topic": "Peptides in Skincare",
+      "href": "12_peptides_in_skincare/index.html#doc6",
+      "timestamp": 1787592855,
+      "status": "Updated",
+      "date": "2026-08-24",
+      "sha256": "4ec412b02bd7f78daa0659ffe26bb817e9b2ca78d96e2eb996c826edb1572ead"
+    },
+    "12_peptides_in_skincare/07_peptide_ingredient_cost_model.md": {
+      "title": "Peptide Ingredient Cost Model: What Is Probably in Each Bottle?",
+      "topic": "Peptides in Skincare",
+      "href": "12_peptides_in_skincare/index.html#doc7",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "8d52c20d99b5b96c1c8ac79e828b1b75749585c045fff217d947c039c709f968"
+    },
+    "12_peptides_in_skincare/08_peptide_ingredient_price_research.md": {
+      "title": "Ingredient-by-Ingredient Peptide Price Research",
+      "topic": "Peptides in Skincare",
+      "href": "12_peptides_in_skincare/index.html#doc8",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "caed4cf41f0af8429ff580af9ecbdf66ba563ba3a7baf726a3509fa48fe7c32c"
+    },
+    "12_peptides_in_skincare/09_peptide_evidence_rating_model.md": {
+      "title": "Peptide Evidence Maturity and Formulation-Confidence Rating Model",
+      "topic": "Peptides in Skincare",
+      "href": "12_peptides_in_skincare/index.html#doc9",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "117601ce7b930035111b1e4d2b499903d657107d735c81e45c644beda45f26fe"
+    },
+    "12_peptides_in_skincare/10_peptide_price_scenario_model.md": {
+      "title": "Peptide Ingredient Price Finder and Retail-Comparison Scenario Model",
+      "topic": "Peptides in Skincare",
+      "href": "12_peptides_in_skincare/index.html#doc10",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "fffe14feca63a52a3955de87056e4a5c8fd1fa071e36e2816abcb4470fd564f4"
+    },
+    "12_peptides_in_skincare/11_formula_ingredient_audit_and_concentration_model.md": {
+      "title": "Peptide Formula Ingredient Audit and Concentration Estimator",
+      "topic": "Peptides in Skincare",
+      "href": "12_peptides_in_skincare/index.html#doc11",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "4558532e228896f73e576c13c4556dedd637ccce9535ee4f35476c8b1f1e8e80"
+    },
+    "12_peptides_in_skincare/12_topical_peptide_clinical_trial_ledger.md": {
+      "title": "Topical peptide clinical-trial ledger",
+      "topic": "Peptides in Skincare",
+      "href": "12_peptides_in_skincare/index.html#doc12",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "9f6f95cf909612b9c508ff5eabc0484985d4c3f919241f253f768c5f1fbfd15a"
+    },
+    "13_combined_skincare_regimen/01_current_regimen_audit.md": {
+      "title": "Current Regimen Audit",
+      "topic": "Combined Skincare Regimen",
+      "href": "markdown-viewer.html?file=13_combined_skincare_regimen/01_current_regimen_audit.md",
+      "timestamp": 1787592855,
+      "status": "Updated",
+      "date": "2026-08-24",
+      "sha256": "9f0049931b8cb03c47a096008efb34fc72d2a0bc4615b89c283c3716102dcc2d"
+    },
+    "13_combined_skincare_regimen/02_combination_rules_and_evidence_map.md": {
+      "title": "Combination Rules and Evidence Map",
+      "topic": "Combined Skincare Regimen",
+      "href": "markdown-viewer.html?file=13_combined_skincare_regimen/02_combination_rules_and_evidence_map.md",
+      "timestamp": 1787592855,
+      "status": "Updated",
+      "date": "2026-08-24",
+      "sha256": "a7280fe4ac6509f4fdccde0daecc45e211e148e8f7d21db30f6854087692c45e"
+    },
+    "13_combined_skincare_regimen/03_body_tone_evening_protocol.md": {
+      "title": "Body hyperpigmentation: evidence-led tone-evening routine",
+      "topic": "Combined Skincare Regimen",
+      "href": "markdown-viewer.html?file=13_combined_skincare_regimen/03_body_tone_evening_protocol.md",
+      "timestamp": 1790912561,
+      "status": "Updated",
+      "date": "2026-10-01",
+      "sha256": "f0297d29b654c52b7b25b315e8b41fbe01e30fae914613ba324ee050ea665ab4"
+    },
+    "13_combined_skincare_regimen/04_one_change_experiment_and_tracking_guide.md": {
+      "title": "One-Change Experiment and Tracking Guide",
+      "topic": "Combined Skincare Regimen",
+      "href": "markdown-viewer.html?file=13_combined_skincare_regimen/04_one_change_experiment_and_tracking_guide.md",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "647b7e59f6edbd523cd2dbfa4615b0963e0f39a1cb5bc3a41eb95247450c1a85"
+    },
+    "13_combined_skincare_regimen/05_ingredient_compatibility_and_weekly_planner.md": {
+      "title": "Ingredient Compatibility and Weekly Planner",
+      "topic": "Combined Skincare Regimen",
+      "href": "markdown-viewer.html?file=13_combined_skincare_regimen/05_ingredient_compatibility_and_weekly_planner.md",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "33848853976a43edda415c4a947fa53d4d9bde5255513096ef7b1014368243e5"
+    },
+    "14_latest_skincare_research_2025_2026/01_search_method_and_executive_map.md": {
+      "title": "Search method and executive map",
+      "topic": "Latest Skincare Research: 2025–2026",
+      "href": "14_latest_skincare_research_2025_2026/index.html#doc0",
+      "timestamp": 1784124391,
+      "status": "Added",
+      "date": "2026-07-15",
+      "sha256": "a7058c49f709b6c4388381bcfcd5358cb6c59bea375d8ece0ac032311db68c59"
+    },
+    "14_latest_skincare_research_2025_2026/02_acne_barrier_microbiome_topicals.md": {
+      "title": "Acne, barrier, microbiome, and topical delivery",
+      "topic": "Latest Skincare Research: 2025–2026",
+      "href": "14_latest_skincare_research_2025_2026/index.html#doc1",
+      "timestamp": 1784124391,
+      "status": "Added",
+      "date": "2026-07-15",
+      "sha256": "96f68afcba711e53e11bdc55877c4c1f5dfc55fdc704b7ad43ba7b6c180b2331"
+    },
+    "14_latest_skincare_research_2025_2026/03_pigment_photoaging_sunscreen_skin_of_color.md": {
+      "title": "Pigment, photoaging, sunscreen, and skin of color",
+      "topic": "Latest Skincare Research: 2025–2026",
+      "href": "14_latest_skincare_research_2025_2026/index.html#doc2",
+      "timestamp": 1784124391,
+      "status": "Added",
+      "date": "2026-07-15",
+      "sha256": "650fd32812788719fac3aab69b5822f26bec3cf29df956099d12a4dac9be0ad4"
+    },
+    "14_latest_skincare_research_2025_2026/04_devices_procedures_and_periprocedural_care.md": {
+      "title": "Devices, procedures, and periprocedural care",
+      "topic": "Latest Skincare Research: 2025–2026",
+      "href": "14_latest_skincare_research_2025_2026/index.html#doc3",
+      "timestamp": 1784124391,
+      "status": "Added",
+      "date": "2026-07-15",
+      "sha256": "219459c8582a66b3fa3ba675782399c096dc6a3fade68893210f7c3312424ae8"
+    },
+    "14_latest_skincare_research_2025_2026/05_peptides_supplements_and_emerging_delivery.md": {
+      "title": "Peptides, supplements, and emerging delivery",
+      "topic": "Latest Skincare Research: 2025–2026",
+      "href": "14_latest_skincare_research_2025_2026/index.html#doc4",
+      "timestamp": 1784124391,
+      "status": "Added",
+      "date": "2026-07-15",
+      "sha256": "6223d0c63836fa3a350a5b9c6078abb708971c7818a600fcc15cf7ccff695a6a"
+    },
+    "14_latest_skincare_research_2025_2026/06_annotated_bibliography_2025_2026.md": {
+      "title": "Annotated bibliography and evidence ledger",
+      "topic": "Latest Skincare Research: 2025–2026",
+      "href": "14_latest_skincare_research_2025_2026/index.html#doc5",
+      "timestamp": 1784124391,
+      "status": "Added",
+      "date": "2026-07-15",
+      "sha256": "508308e3d06227f675079cd5b27e2a0e8fd16bea6685099e1945de9fc06450e4"
+    },
+    "14_latest_skincare_research_2025_2026/07_high_prestige_dermatology_papers.md": {
+      "title": "High-prestige dermatology papers: 2025–2026",
+      "topic": "Latest Skincare Research: 2025–2026",
+      "href": "14_latest_skincare_research_2025_2026/index.html#doc6",
+      "timestamp": 1784124391,
+      "status": "Added",
+      "date": "2026-07-15",
+      "sha256": "30f5bcacdd8938df2836e36f530df9034f7a8ee5c3171594d0fe7a12f12299d5"
+    },
+    "14_latest_skincare_research_2025_2026/08_evidence_triage_and_explorer_method.md": {
+      "title": "Evidence Triage and Paper Explorer Method",
+      "topic": "Latest Skincare Research: 2025–2026",
+      "href": "14_latest_skincare_research_2025_2026/index.html#doc7",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "242d5e003dd19d106dae1aa16bab6bb53b67e38ebb421233f21d6e6de8f4ad5c"
+    },
+    "15_sculptra_plla_biostimulator/01_science_mechanism_and_product_identity.md": {
+      "title": "Sculptra Science, Mechanism, and Product Identity",
+      "topic": "Sculptra and Injectable PLLA Biostimulation",
+      "href": "15_sculptra_plla_biostimulator/index.html#doc1",
+      "timestamp": 1785079324,
+      "status": "Added",
+      "date": "2026-07-26",
+      "sha256": "67dfb40d909457ac6d2a3bb22100ce7112aacd12f4d263ae152bd59d2080c482"
+    },
+    "15_sculptra_plla_biostimulator/02_clinical_evidence_and_outcomes.md": {
+      "title": "Sculptra Clinical Evidence and Outcome Map",
+      "topic": "Sculptra and Injectable PLLA Biostimulation",
+      "href": "15_sculptra_plla_biostimulator/index.html#doc2",
+      "timestamp": 1785082975,
+      "status": "Updated",
+      "date": "2026-07-26",
+      "sha256": "7eaa00a1ebe5e812d6055ec1df4b654a317e0d4872b9125c699a93f2726ed6cd"
+    },
+    "15_sculptra_plla_biostimulator/03_regulatory_label_safety_and_complications.md": {
+      "title": "Sculptra FDA Label, Safety, and Complication Boundary",
+      "topic": "Sculptra and Injectable PLLA Biostimulation",
+      "href": "15_sculptra_plla_biostimulator/index.html#doc3",
+      "timestamp": 1785079324,
+      "status": "Added",
+      "date": "2026-07-26",
+      "sha256": "15f36ad8b5f3bff6ff4ea1cdb98c649ec753eacd2e226dbb623c047475ea881a"
+    },
+    "15_sculptra_plla_biostimulator/04_best_candidate_categories.md": {
+      "title": "Best Candidate Categories for Sculptra",
+      "topic": "Sculptra and Injectable PLLA Biostimulation",
+      "href": "15_sculptra_plla_biostimulator/index.html#doc4",
+      "timestamp": 1785082975,
+      "status": "Updated",
+      "date": "2026-07-26",
+      "sha256": "31455d03e8edde19fd977d8690c3257108b9bda0bd47d236df3ccd8272f0e519"
+    },
+    "15_sculptra_plla_biostimulator/05_sculptra_vs_alternatives_comparison.md": {
+      "title": "Sculptra Compared With Fillers, Devices, Topicals, and Surgery",
+      "topic": "Sculptra and Injectable PLLA Biostimulation",
+      "href": "15_sculptra_plla_biostimulator/index.html#doc5",
+      "timestamp": 1785084511,
+      "status": "Updated",
+      "date": "2026-07-26",
+      "sha256": "6d60f363722c42571d8ba6b33f85126e6015044229704a0a72c1916541d19914"
+    },
+    "15_sculptra_plla_biostimulator/06_treatment_journey_and_provider_checklist.md": {
+      "title": "Sculptra Treatment Journey and Provider Checklist",
+      "topic": "Sculptra and Injectable PLLA Biostimulation",
+      "href": "15_sculptra_plla_biostimulator/index.html#doc6",
+      "timestamp": 1785082975,
+      "status": "Updated",
+      "date": "2026-07-26",
+      "sha256": "9f63cb018794e05c5703a610037bb2bb978529224bd172470f01e8a23fbd8d07"
+    },
+    "15_sculptra_plla_biostimulator/07_results_visualizer_method.md": {
+      "title": "Potential-Results Visualizer: Method and Evidence Limits",
+      "topic": "Sculptra and Injectable PLLA Biostimulation",
+      "href": "15_sculptra_plla_biostimulator/index.html#doc7",
+      "timestamp": 1785082975,
+      "status": "Updated",
+      "date": "2026-07-26",
+      "sha256": "1555a7d65257f6f0cca18e727c0f4f6a07c45558158b55a1bf7c92faad98e592"
+    },
+    "15_sculptra_plla_biostimulator/08_direct_injectable_collagen_stimulator_comparison.md": {
+      "title": "Direct Injectable Collagen Stimulators: Sculptra vs Radiesse, Bellafill, PCL, PDLLA, and Other PLLA",
+      "topic": "Sculptra and Injectable PLLA Biostimulation",
+      "href": "15_sculptra_plla_biostimulator/index.html#doc8",
+      "timestamp": 1785082975,
+      "status": "Added",
+      "date": "2026-07-26",
+      "sha256": "e11cc818d78baea097ea3f7fe07fb9070d2b915bba12e3d6b021cfe2e0314543"
+    },
+    "15_sculptra_plla_biostimulator/09_outcome_scales_and_responder_definitions.md": {
+      "title": "Outcome Scales and Responder Definitions: What “≥1 Grade” Means",
+      "topic": "Sculptra and Injectable PLLA Biostimulation",
+      "href": "15_sculptra_plla_biostimulator/index.html#doc9",
+      "timestamp": 1785082975,
+      "status": "Added",
+      "date": "2026-07-26",
+      "sha256": "32b1aab9ed8736b65d56067f4907264f87e1a695bb12ce31ab9b8f69819d47a0"
+    },
+    "15_sculptra_plla_biostimulator/10_sculptra_vs_laser_and_energy_treatments.md": {
+      "title": "Sculptra vs Lasers and Energy-Based Treatments: Which Problem Are You Treating?",
+      "topic": "Sculptra and Injectable PLLA Biostimulation",
+      "href": "15_sculptra_plla_biostimulator/index.html#doc10",
+      "timestamp": 1785085879,
+      "status": "Updated",
+      "date": "2026-07-26",
+      "sha256": "1e45288dbafc7f6fa1ba06a7dc6dbdeafe5bbd6b7ffaf300d59c3b44d46beb7e"
+    },
+    "15_sculptra_plla_biostimulator/11_treatment_commitment_and_cost_model.md": {
+      "title": "Sculptra Treatment-Commitment and Cost Model",
+      "topic": "Sculptra and Injectable PLLA Biostimulation",
+      "href": "15_sculptra_plla_biostimulator/index.html#doc12",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "ad8ff1dd23533318606602c6c6e2ca0ec25d8a16fffc7eb94d2202fae913d392"
+    },
+    "16_skin_improvement_evidence_atlas/01_start_here.md": {
+      "title": "Start here: the evidence-weighted skin-improvement map",
+      "topic": "Skin-improvement evidence atlas",
+      "href": "16_skin_improvement_evidence_atlas/index.html#doc1",
+      "timestamp": 1785905893,
+      "status": "Added",
+      "date": "2026-08-04",
+      "sha256": "22e33b90e289e7e0bcb53da7544835cb8479ba497057b9e485badefc12a47c27"
+    },
+    "16_skin_improvement_evidence_atlas/02_evidence_framework_and_search_method.md": {
+      "title": "Evidence framework and search method",
+      "topic": "Skin-improvement evidence atlas",
+      "href": "16_skin_improvement_evidence_atlas/index.html#doc2",
+      "timestamp": 1787592855,
+      "status": "Updated",
+      "date": "2026-08-24",
+      "sha256": "b7f5649678fa7bfbdcb5b1ad458b4d7a52537b2b6b4eea6b07286d6c316316ca"
+    },
+    "16_skin_improvement_evidence_atlas/03_industry_landscape_and_category_map.md": {
+      "title": "Industry landscape and category taxonomy",
+      "topic": "Skin-improvement evidence atlas",
+      "href": "16_skin_improvement_evidence_atlas/index.html#doc3",
+      "timestamp": 1785905893,
+      "status": "Added",
+      "date": "2026-08-04",
+      "sha256": "190a52d3d02b943442c1ff024b63272d35d3fee733f8cb0e1507316c322dda54"
+    },
+    "16_skin_improvement_evidence_atlas/04_goal_to_intervention_matrix.md": {
+      "title": "Goal-to-intervention matrix",
+      "topic": "Skin-improvement evidence atlas",
+      "href": "16_skin_improvement_evidence_atlas/index.html#doc4",
+      "timestamp": 1785905893,
+      "status": "Added",
+      "date": "2026-08-04",
+      "sha256": "a573149d271c0359249108aab8a6b6444d175acc7d903c488cde4c09c2f87b0b"
+    },
+    "16_skin_improvement_evidence_atlas/05_actionable_protocols_and_safety.md": {
+      "title": "Actionable protocols and safety gates",
+      "topic": "Skin-improvement evidence atlas",
+      "href": "16_skin_improvement_evidence_atlas/index.html#doc5",
+      "timestamp": 1785905893,
+      "status": "Added",
+      "date": "2026-08-04",
+      "sha256": "0706487ad84bd640708c22f1393c22a7b73cdfe33328824894252e77503d8477"
+    },
+    "16_skin_improvement_evidence_atlas/06_limitations_and_research_gaps.md": {
+      "title": "Limitations, gaps, and next research",
+      "topic": "Skin-improvement evidence atlas",
+      "href": "16_skin_improvement_evidence_atlas/index.html#doc6",
+      "timestamp": 1785905893,
+      "status": "Added",
+      "date": "2026-08-04",
+      "sha256": "7cb050bdbfae211e10690c30438b3033697d1a8d24ff65d293ea1678fda3976a"
+    },
+    "16_skin_improvement_evidence_atlas/07_legal_discovery_and_gray_literature.md": {
+      "title": "Legal discovery layer and gray literature",
+      "topic": "Skin-improvement evidence atlas",
+      "href": "16_skin_improvement_evidence_atlas/index.html#doc7",
+      "timestamp": 1785905893,
+      "status": "Added",
+      "date": "2026-08-04",
+      "sha256": "3745bc23ae24858b702f84f0078b09e35e4ae2feb25f04a5f6ec01ce005189b6"
+    },
+    "16_skin_improvement_evidence_atlas/08_current_routine_vs_high_value_evidence.md": {
+      "title": "Highest-value atlas categories versus the current routine",
+      "topic": "Skin-improvement evidence atlas",
+      "href": "16_skin_improvement_evidence_atlas/index.html#doc8",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "58f9a25ed6add86e4fe5a662917d806bda4b17be54a9708500e4e2592ae10d03"
+    },
+    "16_skin_improvement_evidence_atlas/09_indoor_uv_window_film_and_shades.md": {
+      "title": "Indoor UV protection: clear window film, tint, and shades",
+      "topic": "Skin-improvement evidence atlas",
+      "href": "16_skin_improvement_evidence_atlas/index.html#doc9",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "4259be7766e66ee1def673bdd1ae71235b93debd69f32638556fe18fa74cdb58"
+    },
+    "16_skin_improvement_evidence_atlas/10_exact_product_evidence_translation_audit.md": {
+      "title": "Exact-Product Evidence Translation Audit",
+      "topic": "Skin-improvement evidence atlas",
+      "href": "16_skin_improvement_evidence_atlas/index.html#doc10",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "609b42f54b9695fd953141ee23c001526e8939f42ff3fb93efea834ad0c921df"
+    },
+    "17_tazarotene_vs_tretinoin/01_start_here.md": {
+      "title": "Start here: tazarotene vs tretinoin",
+      "topic": "Tazarotene vs tretinoin: acne, photoaging, and collagen",
+      "href": "17_tazarotene_vs_tretinoin/index.html#doc1",
+      "timestamp": 1785905893,
+      "status": "Added",
+      "date": "2026-08-04",
+      "sha256": "07285b51185b94289550d0985e9f8d2a2ff98fed87db9bd9e4ad3188e96d5726"
+    },
+    "17_tazarotene_vs_tretinoin/02_mechanism_and_collagen.md": {
+      "title": "Mechanism and collagen biology",
+      "topic": "Tazarotene vs tretinoin: acne, photoaging, and collagen",
+      "href": "17_tazarotene_vs_tretinoin/index.html#doc2",
+      "timestamp": 1785905893,
+      "status": "Added",
+      "date": "2026-08-04",
+      "sha256": "3331a8859d1a2d830171e1df97d1b5406b6882fbaf06f31c571042b5243fba74"
+    },
+    "17_tazarotene_vs_tretinoin/03_acne_evidence_map.md": {
+      "title": "Acne evidence map",
+      "topic": "Tazarotene vs tretinoin: acne, photoaging, and collagen",
+      "href": "17_tazarotene_vs_tretinoin/index.html#doc3",
+      "timestamp": 1785905893,
+      "status": "Added",
+      "date": "2026-08-04",
+      "sha256": "057bbb4d2f014e2f4223ae31569bc0059959c90bf542b0fd12e28db9e45f4079"
+    },
+    "17_tazarotene_vs_tretinoin/04_photoaging_and_collagen_evidence.md": {
+      "title": "Photoaging and collagen evidence",
+      "topic": "Tazarotene vs tretinoin: acne, photoaging, and collagen",
+      "href": "17_tazarotene_vs_tretinoin/index.html#doc4",
+      "timestamp": 1785905893,
+      "status": "Added",
+      "date": "2026-08-04",
+      "sha256": "89e59e4048461e19170212385ab8ade53566fd5e37d8c90a42f0267f5cd176d7"
+    },
+    "17_tazarotene_vs_tretinoin/05_labels_tolerability_and_decision_guide.md": {
+      "title": "Labels, tolerability, and decision guide",
+      "topic": "Tazarotene vs tretinoin: acne, photoaging, and collagen",
+      "href": "17_tazarotene_vs_tretinoin/index.html#doc5",
+      "timestamp": 1785905893,
+      "status": "Added",
+      "date": "2026-08-04",
+      "sha256": "1fc404b18cdf00c65dd8907241976bc291d22a0bbb89dd4bd801463220ae560a"
+    },
+    "17_tazarotene_vs_tretinoin/06_affordability_pharmacy_routing_and_provider_messages.md": {
+      "title": "Tazarotene affordability, 60 g sizing, pharmacy routing, and provider messages",
+      "topic": "Tazarotene vs tretinoin: acne, photoaging, and collagen",
+      "href": "17_tazarotene_vs_tretinoin/index.html#doc6",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "179428c38c8c7fafffba932385ed7b921fe2b1c64cd6aebb9fa24cff05704d06"
+    },
+    "17_tazarotene_vs_tretinoin/07_outcome_and_tolerability_tracking_protocol.md": {
+      "title": "Retinoid Outcome and Tolerability Tracking Protocol",
+      "topic": "Tazarotene vs tretinoin: acne, photoaging, and collagen",
+      "href": "17_tazarotene_vs_tretinoin/index.html#doc7",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "8dac721f2fc3762654207768e064847b29d149eaa413a7a82d43fc5a67370aac"
+    },
+    "18_glycolic_acid_topicals/01_glycolic_acid_science_and_evidence.md": {
+      "title": "Glycolic Acid Science & Evidence",
+      "topic": "Glycolic Acid & AHA Topicals",
+      "href": "18_glycolic_acid_topicals/index.html#doc1",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "07499fdb7f0fea8b7770133e182bd725c9c32c5599bd4f1dd403aad15d810567"
+    },
+    "18_glycolic_acid_topicals/02_glycolic_acid_formulation_and_product_selection.md": {
+      "title": "Glycolic Acid Formulation & Product-Selection Guide",
+      "topic": "Glycolic Acid & AHA Topicals",
+      "href": "18_glycolic_acid_topicals/index.html#doc2",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "e9ca711b5b9899b1a005fa0b565b095916ab77342171503af563f4c66af2aeed"
+    },
+    "18_glycolic_acid_topicals/03_glycolic_label_decoder_method.md": {
+      "title": "Glycolic Label Decoder: pH, Ionization, and Evidence Limits",
+      "topic": "Glycolic Acid & AHA Topicals",
+      "href": "18_glycolic_acid_topicals/index.html#doc3",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "74819a7895cc9b9abfcf9f9d5bb851ed2fa816c48e7c2657695c44ed323ae033"
+    },
+    "19_diy_topical_formulation/01_science_ph_preservation_framework.md": {
+      "title": "Science, pH, and preservation framework",
+      "topic": "DIY Topical Formulation: Powder Ingredients, pH, Stability, and Storage",
+      "href": "19_diy_topical_formulation/index.html#doc1",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "8148305f56d3c205e0e98806a57ff1c46a0919f3e2622dabd61c21a03f461a8a"
+    },
+    "19_diy_topical_formulation/02_powder_ingredient_audit.md": {
+      "title": "Powder ingredient audit",
+      "topic": "DIY Topical Formulation: Powder Ingredients, pH, Stability, and Storage",
+      "href": "19_diy_topical_formulation/index.html#doc2",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "151e9bb969252b4aa6f5082ff093071743567abae8ae146a359e82f987b61cca"
+    },
+    "19_diy_topical_formulation/03_recipes_and_prototype_worksheets.md": {
+      "title": "Recipes and prototype worksheets",
+      "topic": "DIY Topical Formulation: Powder Ingredients, pH, Stability, and Storage",
+      "href": "19_diy_topical_formulation/index.html#doc3",
+      "timestamp": 1790912561,
+      "status": "Updated",
+      "date": "2026-10-01",
+      "sha256": "e1ff4cd799070ae4f5ad49bec670310af9669ca7ac0704b985087c095974f270"
+    },
+    "19_diy_topical_formulation/04_storage_testing_and_stop_rules.md": {
+      "title": "Storage, testing, and stop rules",
+      "topic": "DIY Topical Formulation: Powder Ingredients, pH, Stability, and Storage",
+      "href": "19_diy_topical_formulation/index.html#doc4",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "3ff89dc12ff2a5d7e74e9b636693f49a7ad89f90fcd8a780269b202019f04d19"
+    },
+    "19_diy_topical_formulation/05_evidence_map_and_open_questions.md": {
+      "title": "Evidence map and open questions",
+      "topic": "DIY Topical Formulation: Powder Ingredients, pH, Stability, and Storage",
+      "href": "19_diy_topical_formulation/index.html#doc5",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "0f2dba72986554a9a1e0af1789c5b9a6d4a8c15b4f0219a4162d16e3a9266041"
+    },
+    "19_diy_topical_formulation/06_hypochlorous_acid_water_and_generator_planner.md": {
+      "title": "PWPAM Manual Boundary: Legacy Sodium-Hypochlorite Record and HOCl Routing",
+      "topic": "DIY Topical Formulation: Powder Ingredients, pH, Stability, and Storage",
+      "href": "19_diy_topical_formulation/index.html#doc6",
+      "timestamp": 1791173865,
+      "status": "Updated",
+      "date": "2026-10-04",
+      "sha256": "e353735052e12dabaa39a7b72a6e1ddeb22d14cfb9dac453081c59620f966e8f"
+    },
+    "19_diy_topical_formulation/07_raw_material_coa_quality_gate.md": {
+      "title": "Raw-Material COA and Supplier Quality Gate",
+      "topic": "DIY Topical Formulation: Powder Ingredients, pH, Stability, and Storage",
+      "href": "19_diy_topical_formulation/index.html#doc7",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "ceb619fc66d9b2bd823e93153f9440c196c98fb39c395a0cef3b3b9cd34d14d3"
+    },
+    "20_oral_supplements_for_skin/01_evidence_map.md": {
+      "title": "Oral supplement evidence map",
+      "topic": "Oral supplements for skin",
+      "href": "20_oral_supplements_for_skin/index.html#doc1",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "db7d0d06e830d4e8577588a0fea1a2c64e977064e8323eaef1a4c9bdacbcd43d"
+    },
+    "20_oral_supplements_for_skin/02_ingredient_protocols.md": {
+      "title": "Ingredient protocols: what the trials actually used",
+      "topic": "Oral supplements for skin",
+      "href": "20_oral_supplements_for_skin/index.html#doc2",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "8011729cc7a06c968854b49cc4ab42858a27347cf4925d6634d4dd087cb6bf30"
+    },
+    "20_oral_supplements_for_skin/03_goal_specific_protocols.md": {
+      "title": "Goal-specific oral supplement protocols",
+      "topic": "Oral supplements for skin",
+      "href": "20_oral_supplements_for_skin/index.html#doc3",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "2f1481df73b608c6aefc4d98986e10ced26e15bcf2e9a4aef7c99f4fde5a56b8"
+    },
+    "20_oral_supplements_for_skin/04_safety_and_product_selection.md": {
+      "title": "Safety, interactions, and product selection",
+      "topic": "Oral supplements for skin",
+      "href": "20_oral_supplements_for_skin/index.html#doc4",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "c0acba5f2b8dd2f88ad722533e84f9aaac970802cbd345e2a17828cb1c414e5c"
+    },
+    "20_oral_supplements_for_skin/05_stack_audit_and_upper_limit_model.md": {
+      "title": "Supplement Stack Audit and Adult Upper-Limit Model",
+      "topic": "Oral supplements for skin",
+      "href": "20_oral_supplements_for_skin/index.html#doc5",
+      "timestamp": 1787592855,
+      "status": "Added",
+      "date": "2026-08-24",
+      "sha256": "7e5a872d1e48c75bb63b9587ae27645e311122f9ed232efa51be865e17fe05ae"
+    },
+    "21_hypochlorous_acid_generation/01_acidified_brine_reference_and_qc.md": {
+      "title": "Scaled Acidified-Brine Recipe, Time Curves, and QC",
+      "topic": "Hypochlorous Acid: pH-Controlled Generation and Compatibility",
+      "href": "21_hypochlorous_acid_generation/index.html#doc1",
+      "timestamp": 1791173650,
+      "status": "Updated",
+      "date": "2026-10-04",
+      "sha256": "87d62f45ed4776afb8060156c9487b1b0b824a7968749f75ba39137f695997b5"
+    },
+    "21_hypochlorous_acid_generation/02_generator_and_product_compatibility.md": {
+      "title": "Generator and Product Compatibility: What Must Be True Before Calibration",
+      "topic": "Hypochlorous Acid: pH-Controlled Generation and Compatibility",
+      "href": "21_hypochlorous_acid_generation/index.html#doc2",
+      "timestamp": 1787691501,
+      "status": "Added",
+      "date": "2026-08-25",
+      "sha256": "ec54826783822a719c69a0c674272d1c53df762635088dedf9ef0a8bbb1e8aaa"
+    },
+    "21_hypochlorous_acid_generation/03_pwpam_manual_boundary.md": {
+      "title": "PWPAM Manual Boundary: Preserve the Record, Do Not Convert It Into a Vinegar Recipe",
+      "topic": "Hypochlorous Acid: pH-Controlled Generation and Compatibility",
+      "href": "21_hypochlorous_acid_generation/index.html#doc3",
+      "timestamp": 1787691501,
+      "status": "Added",
+      "date": "2026-08-25",
+      "sha256": "ebc92d2339b70cd028c4ff9896a62cdd2279d2a6e19cb5aa6f830c9932e82843"
+    },
+    "22_body_hyperpigmentation_long_term/01_diagnosis_biology_and_scope.md": {
+      "title": "Diagnosis, biology, and the correct lightening target",
+      "topic": "Body hyperpigmentation and long-term tone-evening",
+      "href": "markdown-viewer.html?file=22_body_hyperpigmentation_long_term/01_diagnosis_biology_and_scope.md",
+      "timestamp": 1790912561,
+      "status": "Added",
+      "date": "2026-10-01",
+      "sha256": "bfb9929bb4a2f510166aa13a96c9d625fb9d2c1405543788a4229bc49da0831e"
+    },
+    "22_body_hyperpigmentation_long_term/02_ingredient_evidence_atlas.md": {
+      "title": "Ingredient evidence atlas for long-term body hyperpigmentation",
+      "topic": "Body hyperpigmentation and long-term tone-evening",
+      "href": "markdown-viewer.html?file=22_body_hyperpigmentation_long_term/02_ingredient_evidence_atlas.md",
+      "timestamp": 1790912561,
+      "status": "Added",
+      "date": "2026-10-01",
+      "sha256": "20b04be7285fd01dedddcc44fd3fea71ce9ca6b6999ab1d63d5047daff801259"
+    },
+    "22_body_hyperpigmentation_long_term/03_long_term_safety_and_permanent_depigmentation.md": {
+      "title": "Long-term safety and the permanent-depigmentation boundary",
+      "topic": "Body hyperpigmentation and long-term tone-evening",
+      "href": "markdown-viewer.html?file=22_body_hyperpigmentation_long_term/03_long_term_safety_and_permanent_depigmentation.md",
+      "timestamp": 1790912561,
+      "status": "Added",
+      "date": "2026-10-01",
+      "sha256": "5dc84ca5b73675cadbf444fa843cdd8829b4e728fbee8203dbf282b5c880085a"
+    },
+    "22_body_hyperpigmentation_long_term/04_maximal_routine_and_site_protocols.md": {
+      "title": "Maximal evidence-based routine and site-specific protocols",
+      "topic": "Body hyperpigmentation and long-term tone-evening",
+      "href": "markdown-viewer.html?file=22_body_hyperpigmentation_long_term/04_maximal_routine_and_site_protocols.md",
+      "timestamp": 1790912561,
+      "status": "Added",
+      "date": "2026-10-01",
+      "sha256": "dea24c73880f8d198621cd4683be3ce8152e66baa6c393e01aceba7e1300912c"
+    },
+    "22_body_hyperpigmentation_long_term/05_non_topical_strategy_and_escalation.md": {
+      "title": "Non-topical strategy and escalation ladder",
+      "topic": "Body hyperpigmentation and long-term tone-evening",
+      "href": "markdown-viewer.html?file=22_body_hyperpigmentation_long_term/05_non_topical_strategy_and_escalation.md",
+      "timestamp": 1790912561,
+      "status": "Added",
+      "date": "2026-10-01",
+      "sha256": "02671053614d6244a72d35f26a30746effcf2f671a02c90bdd2cfffc6d217b40"
+    },
+    "22_body_hyperpigmentation_long_term/06_emerging_and_proprietary_actives.md": {
+      "title": "Emerging and proprietary depigmenting active map",
+      "topic": "Body hyperpigmentation and long-term tone-evening",
+      "href": "markdown-viewer.html?file=22_body_hyperpigmentation_long_term/06_emerging_and_proprietary_actives.md",
+      "timestamp": 1790912561,
+      "status": "Added",
+      "date": "2026-10-01",
+      "sha256": "954be084312838776d98a7b9d9f5978e594c279334b6cc11e1bec9c134d485ae"
+    },
+    "22_body_hyperpigmentation_long_term/07_buy_now_product_value_tier_list.md": {
+      "title": "Buy-now product value tier list",
+      "topic": "Body hyperpigmentation and long-term tone-evening",
+      "href": "markdown-viewer.html?file=22_body_hyperpigmentation_long_term/07_buy_now_product_value_tier_list.md",
+      "timestamp": 1790912561,
+      "status": "Added",
+      "date": "2026-10-01",
+      "sha256": "d1682cb8bd79ababe7c935b3ddf8019273b60852ee7151c8cca2475a957886da"
+    },
+    "22_body_hyperpigmentation_long_term/08_study_census_and_comparative_rankings.md": {
+      "title": "Comparative study census and category rankings",
+      "topic": "Body hyperpigmentation and long-term tone-evening",
+      "href": "markdown-viewer.html?file=22_body_hyperpigmentation_long_term/08_study_census_and_comparative_rankings.md",
+      "timestamp": 1790912561,
+      "status": "Added",
+      "date": "2026-10-01",
+      "sha256": "59bd7015e638a8e29a426a2869223c70e6ba2f206f99fa58a64457920e85df2f"
+    },
+    "22_body_hyperpigmentation_long_term/09_melanin_pathway_and_mercury_history.md": {
+      "title": "Melanin-pathway visual map and the mercury history",
+      "topic": "Body hyperpigmentation and long-term tone-evening",
+      "href": "markdown-viewer.html?file=22_body_hyperpigmentation_long_term/09_melanin_pathway_and_mercury_history.md",
+      "timestamp": 1790912561,
+      "status": "Added",
+      "date": "2026-10-01",
+      "sha256": "57b5428ae2ecb534e9652f0f1d97a1f600163ae58378f1145a3d0a10432d0653"
+    },
+    "23_skincare_penetration_technologies/01_mechanisms.md": {
+      "title": "How skincare penetration technologies work",
+      "topic": "Skincare penetration: company and device research",
+      "href": "23_skincare_penetration_technologies/index.html#doc1",
+      "timestamp": 1790913631,
+      "status": "Added",
+      "date": "2026-10-01",
+      "sha256": "2b0f4bb44dbb3052bc3f12b293867f096a5cbcc640f5cb2a8781e2e2334076b9"
+    },
+    "23_skincare_penetration_technologies/02_evidence_audit.md": {
+      "title": "What the evidence actually supports",
+      "topic": "Skincare penetration: company and device research",
+      "href": "23_skincare_penetration_technologies/index.html#doc2",
+      "timestamp": 1790970318,
+      "status": "Updated",
+      "date": "2026-10-02",
+      "sha256": "48bf286ac5cfa08312b1f4b59b76d6c962b9dab5f1fe55e0e165351b8068d0e9"
+    },
+    "23_skincare_penetration_technologies/03_device_comparison.md": {
+      "title": "Relevant devices: what you are actually buying",
+      "topic": "Skincare penetration: company and device research",
+      "href": "23_skincare_penetration_technologies/index.html#doc3",
+      "timestamp": 1790970318,
+      "status": "Updated",
+      "date": "2026-10-02",
+      "sha256": "9554de1cf9f46b0f99d6609e31930ed7aba1841d92a6083c1aeb69b216da283a"
+    },
+    "23_skincare_penetration_technologies/04_ingredient_fit.md": {
+      "title": "Your ingredients: where a booster may help, and where it is poor value",
+      "topic": "Skincare penetration: company and device research",
+      "href": "23_skincare_penetration_technologies/index.html#doc4",
+      "timestamp": 1790913631,
+      "status": "Added",
+      "date": "2026-10-01",
+      "sha256": "dd8007fecc45e75edb4731f2133cb368f3d0998918ae6526942cdb1c9119ac25"
+    },
+    "23_skincare_penetration_technologies/05_prices_and_value.md": {
+      "title": "Comparable eBay prices and value",
+      "topic": "Skincare penetration: company and device research",
+      "href": "23_skincare_penetration_technologies/index.html#doc5",
+      "timestamp": 1790970318,
+      "status": "Updated",
+      "date": "2026-10-02",
+      "sha256": "6df51ac586881b16222914176e6a572982a6a5adf4a65644dd8d70c7bf6986ad"
+    },
+    "23_skincare_penetration_technologies/06_source_library.md": {
+      "title": "Source library and recovery trail",
+      "topic": "Skincare penetration: company and device research",
+      "href": "23_skincare_penetration_technologies/index.html#doc7",
+      "timestamp": 1790970318,
+      "status": "Updated",
+      "date": "2026-10-02",
+      "sha256": "59215248073f7af607b07facbdddb8e60e4440d57fcdf6ec407f5bf7e3d46be0"
+    },
+    "23_skincare_penetration_technologies/07_final_recommendation.md": {
+      "title": "My final recommendation for your skincare",
+      "topic": "Skincare penetration: company and device research",
+      "href": "23_skincare_penetration_technologies/index.html#decision",
+      "timestamp": 1790970318,
+      "status": "Added",
+      "date": "2026-10-02",
+      "sha256": "d9b15124117e93808abaf483ecd599bd4dc3e5dc7bfc2c9c2c652c99aa9b8292"
+    },
+    "23_skincare_penetration_technologies/08_research_catalog.md": {
+      "title": "Research catalogue: which study supports which device?",
+      "topic": "Skincare penetration: company and device research",
+      "href": "23_skincare_penetration_technologies/index.html#research",
+      "timestamp": 1790970318,
+      "status": "Added",
+      "date": "2026-10-02",
+      "sha256": "27aa07efb44c0d73ba465d3c222b2110fa20d829e7ea616ac194238082f7e7a9"
+    },
+    "24_asian_devices_and_collagen_remodelling/01_which_technology_is_best.md": {
+      "title": "Which technology is best for collagen remodelling beyond Tria?",
+      "topic": "Japanese and Asian skincare devices: collagen remodelling",
+      "href": "24_asian_devices_and_collagen_remodelling/index.html#doc1",
+      "timestamp": 1790972130,
+      "status": "Updated",
+      "date": "2026-10-02",
+      "sha256": "145d053b3b3dda31864d94ba88033c15f77932c4d0ea4091bc94f5d3bdb756f0"
+    },
+    "24_asian_devices_and_collagen_remodelling/02_mechanisms_and_endpoints.md": {
+      "title": "Understand the technologies before comparing devices",
+      "topic": "Japanese and Asian skincare devices: collagen remodelling",
+      "href": "24_asian_devices_and_collagen_remodelling/index.html#doc2",
+      "timestamp": 1790972130,
+      "status": "Updated",
+      "date": "2026-10-02",
+      "sha256": "47bcef799df90fb12ba75101ff65946b13eb926c14b8bb1a408fa3ffb9e229c1"
+    },
+    "24_asian_devices_and_collagen_remodelling/03_human_evidence_ledger.md": {
+      "title": "What the human evidence actually shows",
+      "topic": "Japanese and Asian skincare devices: collagen remodelling",
+      "href": "24_asian_devices_and_collagen_remodelling/index.html#doc3",
+      "timestamp": 1790972130,
+      "status": "Updated",
+      "date": "2026-10-02",
+      "sha256": "48d00d6ef618fa62135a64ca569f25cf250f3a8a1ce3e47f88622d4d0462e905"
+    },
+    "24_asian_devices_and_collagen_remodelling/04_japanese_devices_and_priorities.md": {
+      "title": "Japanese devices: what the brands focus on",
+      "topic": "Japanese and Asian skincare devices: collagen remodelling",
+      "href": "24_asian_devices_and_collagen_remodelling/index.html#doc4",
+      "timestamp": 1790972130,
+      "status": "Updated",
+      "date": "2026-10-02",
+      "sha256": "973e5f119bba572e06c859ddaf9cd4f5f4f6baf06d140c4cb7f9bb24f04fa592"
+    },
+    "24_asian_devices_and_collagen_remodelling/05_korea_china_and_regional_focus.md": {
+      "title": "Korea, China and Asia beyond a single device stereotype",
+      "topic": "Japanese and Asian skincare devices: collagen remodelling",
+      "href": "24_asian_devices_and_collagen_remodelling/index.html#doc5",
+      "timestamp": 1790972130,
+      "status": "Updated",
+      "date": "2026-10-02",
+      "sha256": "5f9bb58c2677a87c592355b581597787abb09a222956047de7c164408c115824"
+    },
+    "24_asian_devices_and_collagen_remodelling/06_selection_and_realistic_expectations.md": {
+      "title": "What to prioritize, buy or skip investigating",
+      "topic": "Japanese and Asian skincare devices: collagen remodelling",
+      "href": "24_asian_devices_and_collagen_remodelling/index.html#doc6",
+      "timestamp": 1790972130,
+      "status": "Updated",
+      "date": "2026-10-02",
+      "sha256": "c9be315b9f6e6c0c3eff0c59093bc38c542b111a63af64b8852dd6a5abc58557"
+    },
+    "24_asian_devices_and_collagen_remodelling/07_source_library.md": {
+      "title": "Source library and research limits",
+      "topic": "Japanese and Asian skincare devices: collagen remodelling",
+      "href": "24_asian_devices_and_collagen_remodelling/index.html#doc7",
+      "timestamp": 1790972130,
+      "status": "Added",
+      "date": "2026-10-02",
+      "sha256": "f1e0ca66f7e596f4e9ddcea37c95851c55ea8891945ec5244dcf14d87b6fbb34"
+    }
+  },
+  "latest": [
+    "07_radio_frequency_skin_tightening/19_rf_wattage_atlas.md",
+    "07_radio_frequency_skin_tightening/20_generic_rf_and_mimisilk_oem_audit.md",
+    "07_radio_frequency_skin_tightening/21_submitted_research_and_source_register.md",
+    "19_diy_topical_formulation/06_hypochlorous_acid_water_and_generator_planner.md",
+    "21_hypochlorous_acid_generation/01_acidified_brine_reference_and_qc.md"
+  ]
+}

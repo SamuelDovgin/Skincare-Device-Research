@@ -1,0 +1,1293 @@
+
+Mimisilk uses companies to manufacture goods for them. Can you try to track the source of their and see fda clearance and research more into their claims
+
+Worked for 40s
+Actually can you also check manual for battery energy amount and how long it says it should last and for each device likely try to come u with watt rating
+
+Worked for 2m 19s
+MimiSilk Vera RF: Manufacturer and FDA investigation
+Research updated October 8, 2026
+
+I found some important evidence about who operates MimiSilk, as well as reasons to question how its RF performance is advertised.
+
+1. Who actually owns MimiSilk?
+MimiSilk Vera RF Sculpt™ | 6.25MHz RF Skin Tightening Device
+MimiSilk Vera RF Sculpt
+
+6.25 MHz · Claimed 18 W maximum · $699 on official website
+
+Official product listing
+
+VERIFIED BRAND-OWNERSHIP TRAIL
+
+Trademark owner	
+Label Skincare Limited
+
+Jurisdiction	Hong Kong
+Incorporated	December 23, 2024
+Company registration	3495922
+U.S. trademark application	
+99732522
+ (March 2026)
+
+Sources: U.S. trademark records and Hong Kong business registry aggregation.
+
+This establishes a corporate connection to Hong Kong, but not the factory that produces Vera. A trademark owner can contract out engineering, manufacturing, certification, and distribution.
+
+One interesting discrepancy: MimiSilk's June 2026 press release describes celebrating 12 years as a brand, while this documented legal entity was incorporated in late 2024. That does not prove the company is misrepresenting its history—an earlier business could have existed—but I haven't established the connection between an older business and the current company.
+
+Major finding: MimiSilk Vera has a very close predecessor
+I found a Chinese RF device sold under the name DLUS D2, with the same unusual combination of specifications and operating method as MimiSilk Vera. The DLUS device was listed as early as 2023, before MimiSilk announced Vera in June 2026.
+
+DLUS D2 射頻美容儀 6.25MHz 淡化法令紋提拉嫩膚 - HaloHK
+DLUS D2
+
+Chinese-market RF device, listed in 2023
+
+Introducing MimiSilk Vera RF Sculpt: The Gel-Free RF Device Built for At-Home Skin Lifting
+MimiSilk Vera RF Sculpt
+
+Gold-colored U.S.-market product, launched 2026
+
+Both have a four-electrode head, 6.25 MHz frequency, gel-free operation, stationary approximately 10-second application, and a very similar body design. Their marketing also uses the distinctive term displacement current. 
+
+High Frequency Anti-Aging Dev
++2
+
+Detail
+
+DLUS D2
+
+MimiSilk Vera
+
+Brand
+
+DLUS
+
+MimiSilk
+
+Radiofrequency
+
+6.25 MHz
+
+6.25 MHz
+
+Application
+
+Stationary contact
+
+Stationary stamping
+
+Conductive gel
+
+Not required
+
+Not required
+
+Wattage
+
+18 W rated electrical power
+
+18 W claimed RF output
+
+Weight
+
+166.5 g
+
+178 g
+
+Original color
+
+Blue
+
+Gold
+
+The older DLUS listing identifies Shenzhen Guangxiang Technology Co., Ltd. (深圳市光向科技有限公司) as the manufacturer. 
+
+imeirongyi.com
++1
+
+This is a strong lead toward the hardware's origins. However, I have not yet found a purchase order, manufacturing agreement, or internal model-number record confirming that Guangxiang manufactures MimiSilk's specific gold device.
+
+Why the 18 W discrepancy matters
+The DLUS specification explicitly identifies 18 W as rated power consumption, not measured RF power delivered into tissue. MimiSilk instead advertises 18 W as RF output. Those are not interchangeable.
+
+If they share substantially the same internal electronics, the distinction could dramatically change Vera's position in our earlier wattage ranking. The original DLUS specification is available 
+here
+. 
+
+imeirongyi.com
++1
+
+2. Battery-energy audit: estimated electrical watts
+A particularly useful discovery is that MimiSilk Vera is corded, so it has no rechargeable battery whose capacity and runtime can be used to calculate its power draw. MimiSilk confirms that the device requires a power source during use. 
+
+mimisilk.com
+
+For cordless devices, the calculation is:
+
+Average draw (W)
+=
+Battery voltage (V)
+×
+Capacity (Ah)
+Runtime (hours)
+Average draw (W)= 
+Runtime (hours)
+Battery voltage (V)×Capacity (Ah)
+​
+ 
+This estimates the average power consumed by the whole device during a discharge—not the RF power entering skin.
+
+Device
+
+Battery energy
+
+Stated runtime
+
+Estimated average electrical draw
+
+FOREO FAQ 101
+
+3.7 Wh (3.7 V × 1,000 mAh)
+
+Up to 30 min
+
+7.4 W
+
+FOREO FAQ 102
+
+3.7 Wh (3.7 V × 1,000 mAh)
+
+Up to 30 min
+
+7.4 W
+
+AMIRO R3 Turbo
+
+~9.6 Wh, assuming 3.7 V × 2,600 mAh
+
+Not established
+
+Cannot calculate
+
+Silk'n FaceTite MultiPlatform
+
+4,000 mAh listed by a retailer; battery voltage not verified
+
+Up to 40 min
+
+Cannot reliably calculate
+
+Sensica sensiLift Pro
+
+Rechargeable, capacity not established
+
+Not established
+
+Cannot calculate
+
+Silk'n Titan AllWays
+
+Rechargeable, capacity not established
+
+~20 min claimed in a secondary manual
+
+Cannot reliably calculate
+
+The FOREO figures come from actual model manuals; AMIRO's 2,600 mAh figure comes from its technical manual and official product listing. Silk'n itself confirms the 40-minute MultiPlatform runtime. 
+
+FOREO
++5
+
+The FOREO finding is the clearest battery-based wattage estimate.
+
+3.7 Wh
+Stored battery energy
+7.4 W
+Implied average total draw over 30 minutes
+The 7.4 W figure assumes the battery delivers its nominal 3.7 Wh throughout the full stated runtime. Because FOREO says up to 30 minutes, a high-intensity RF setting may have a shorter runtime and higher draw. It is not evidence of 7.4 W of continuous RF output.
+
+Official FAQ 102 manual
+ · 
+Manual and specifications
+
+For AMIRO, the battery provides another useful consistency test. With an assumed 3.7 V lithium-ion pack, a 2,600 mAh capacity corresponds to approximately 9.6 Wh. Sustaining 15 W of total draw would exhaust that nominal energy in roughly 38 minutes, even before conversion losses. Actual full-power runtime could be shorter.
+
+Its manual also specifies 5 V × 3 A = 15 W input, which is a charging/input rating, not a measured RF output. That is another reason to avoid treating its advertised 15 W as proven RF treatment power. 
+
+Manuals Plus
++1
+
+3. More battery information from actual manuals and FDA filings
+I located two more useful battery specifications, including one from an FDA submission.
+
+Device
+
+Verified battery details
+
+Runtime
+
+What the numbers suggest
+
+Silk'n FaceTite MultiPlatform H2501
+
+4,000 mAh lithium battery; 12 V device rating, but cell voltage unspecified
+
+Up to 40 minutes
+
+At an assumed 3.7 V battery voltage: ~14.8 Wh and 22.2 W average total draw
+
+Silk'n Titan AllWays
+
+3.7 V, 2,600 mAh, from FDA
+
+Approximately 20 minutes reported by a secondary manual
+
+9.62 Wh; 28.9 W implied if the 20-minute runtime is accurate
+
+Sensica sensiLift Pro
+
+Rechargeable; 12 V, 1.8 A external supply
+
+Unknown
+
+21.6 W supply rating; 6 ± 1 W RF output
+
+NEWA
+
+Mains-powered, no treatment battery
+
+Not applicable
+
+10 W RF, measured at a 360 Ω test load
+
+CurrentBody RF
+
+Mains-powered
+
+Not applicable
+
+5 ± 1 W RF specified
+
+TriPollar STOP U
+
+Mains-powered
+
+Not applicable
+
+5.7 W RF specified
+
+MimiSilk Vera / DLUS D2
+
+Mains-powered; DLUS lists 18 W rated electrical power
+
+Not applicable
+
+Actual RF output unverified
+
+Panasonic EH-SR85 / EH-SR86
+
+Rechargeable lithium-ion; capacity unspecified
+
+Approx. 7 days / 4 days under manufacturer's respective usage conditions
+
+Cannot infer RF watts from charging consumption
+
+YA-MAN Photo Plus Deep Lift
+
+Rechargeable lithium-ion; capacity unspecified
+
+Approximately 30 minutes at maximum D×LIFT setting
+
+Actual RF watts unknown
+
+The Silk'n MultiPlatform numbers come from its 
+H2501 technical manual
+ and 
+official 40-minute runtime claim
+. The Titan battery specification comes directly from 
+FDA K230013
+. 
+
+Manuals+
++2
+
+Important qualifications: The 3.7 V assumption for MultiPlatform is not verified as its battery's nominal voltage. And Titan's 20-minute runtime comes from a less authoritative third-party manual. Its implied 28.9 W draw is therefore a consistency-check result, not a reliable measured power specification.
+
+Panasonic's 7 W and YA-MAN's 4.5 W specifications describe charging consumption, not RF delivery. 
+
+Panasonic
++2
+
+4. MimiSilk's claims versus the available evidence
+This is where the manufacturer investigation raises the most questions.
+
+MimiSilk Vera claim
+
+Independent verification
+
+Assessment
+
+6.25 MHz RF
+
+DLUS D2 also specifies 6.25 MHz
+
+Plausible, but a frequency-analyzer result for Vera is missing
+
+18 W RF output
+
+DLUS D2 reports 18 W electrical power
+
+Not verified; possible confusion between input and output
+
+2.5–3.0 mm heating depth
+
+No depth-resolved measurements located
+
+Unsubstantiated for this exact product
+
+Dermal heating to 49–52°C
+
+No thermal-probe study located
+
+Unsubstantiated; MimiSilk's own pages disagree
+
+No conductive gel required
+
+DLUS uses the same approach
+
+Plausible operating characteristic
+
+Faster collagen remodeling in 28 days
+
+No Vera-specific controlled clinical trial identified
+
+Marketing claim, not established comparative evidence
+
+FDA 510(k) clearance
+
+No Vera-specific 510(k) located
+
+Cannot verify an FDA clearance
+
+MimiSilk's product FAQ reports 49–50°C at Level 3, while its usage guide reports 52°C at the same 18 W setting. These are materially different thermal specifications. 
+
+MimiSilk
++1
+
+Its claim that displacement current bypasses the epidermis without energy loss also needs qualification. Capacitive coupling is a real electrical mechanism, but it does not eliminate losses or guarantee selective heating at a particular tissue depth. Higher frequency alone cannot establish deeper penetration; electrode spacing, skin dielectric properties, and geometry are critical. 
+
+Safely
+
+For the FDA investigation, I did not locate a Vera-specific clearance under MimiSilk, Label Skincare, DLUS, or Shenzhen Guangxiang in publicly searchable records. That is not proof of regulatory noncompliance, but the seller has not provided the clearance number needed to verify the product. The 
+FDA's searchable 510(k) database
+ remains the authoritative way to cross-check a supplied K-number.
+
+5. What is MimiSilk Vera's likely real RF wattage?
+A defensible measured estimate is not possible without an electrical load test. But the numbers permit a conditional estimate.
+
+If the MimiSilk device is electrically equivalent to DLUS D2 and its 18 W rating is maximum input consumption, its sustained RF output must be below 18 W because the power-conversion electronics consume energy.
+
+For illustration, assuming the device draws the full 18 W:
+
+Hypothetical conversion efficiency
+
+RF output
+
+50%
+
+9.0 W
+
+60%
+
+10.8 W
+
+70%
+
+12.6 W
+
+80%
+
+14.4 W
+
+These are scenarios, not measured efficiency figures for MimiSilk. The device may draw substantially less than 18 W, regulate power during treatment, or use different electronics from DLUS. This table cannot establish even a reliable minimum RF output.
+
+A wattmeter at the adapter could tell us real input power during operation. To establish RF output, a laboratory would need to measure the electrical power entering a characterized RF load and document the waveform, duty cycle, and impedance. Skin temperature measurements alone cannot substitute for that.
+
+6. What I would ask MimiSilk to provide
+At $699, I would want these documents before treating Vera as superior to an established FDA-cleared device:
+
+Exact OEM manufacturer and factory model number, plus whether the electronics are identical to DLUS D2.
+
+Electrical adapter label and the distinction between 18 W input, peak RF output, and RMS treatment output.
+
+RF output measurements at specified resistive loads, such as 200 Ω and 360 Ω.
+
+Thermocouple or equivalent depth-resolved testing supporting 2.5–3.0 mm heating and 49–52°C dermal temperatures.
+
+Product-specific clinical study, patent numbers, and any applicable FDA 510(k) or De Novo number.
+
+My conclusion: The DLUS D2 discovery gives us a plausible origin for Vera's design, but it also makes the 18 W RF claim less convincing. The exact match between DLUS's 18 W electrical rating and MimiSilk's advertised 18 W RF output is significant enough to demand a proper test report.
+
+Among these devices, I would still place more confidence in NEWA's FDA-reviewed 10 W load measurement than MimiSilk's unverified 18 W claim, and in Silk'n MultiPlatform's 20 W manufacturer-documented maximum than MimiSilk's marketing figure. Neither automatically guarantees better collagen remodeling.
+
+The highest-value next piece of evidence would be a photograph of Vera's actual adapter label and any model number on the device or manual. That could establish its electrical input ceiling and may reveal an OEM identifier that confirms or rules out the DLUS connection.
+
+User attachment
+User attachment
+User attachment
+User attachment
+User attachment
+Can you find all models names and watts and compare them all against one another
+
+Worked for 3m 44s
+Silk’n RF devices: model-by-model power comparison
+The labels in your eBay screenshots reveal something important: the older Silk’n Titan is rated for 10 W of RF output, while the newer Titan MultiPlatform can deliver up to 20 W—but only with its additional RF attachment installed.
+
+The 12 V × 1.5 A and 12 V × 2 A ratings on the backs of the devices refer to electrical supply capacity, not RF power.
+
+1. Identifying the exact devices in your photos
+Titan Multiplatform with free gel | Silk'n United States
+Photo 2 — Original Silk’n Titan
+
+Model H2111/H2112 · Made in Israel · 2018
+
+10 W maximum RF
+1 MHz bipolar RF, red LEDs and infrared. Label specifies 12 V × 1.5 A = 18 W adapter capacity. The original manual explicitly specifies 10 W maximum RF output. 
+
+m.media-amazon.com
+
+Silk'n Titan Multiplatform  - TSC.ca
+Photo 3 — Titan MultiPlatform
+
+Model H2502 · Made in China · 2023
+
+10–20 W maximum RF
+10 W using the built-in three-electrode head, or 20 W using the separate HA2502 RF attachment. Its 12 V × 2 A label means 24 W adapter capacity. 
+
+device.report
+
+Very important for used eBay listings: The Titan MultiPlatform only reaches its advertised 20 W configuration when the larger RF attachment is included. The bare H2502 handpiece is rated at 10 W.
+
+Photo 5 appears to show an original Titan H2111/H2112 kit with its charger and gel. The earlier eBay result labeled “Titan Mini MultiPlatform” appears to mix two distinct Silk’n product names; I would verify the model number before buying.
+
+2. Silk’n model lineup ranked by advertised maximum RF power
+Rank
+
+Silk’n model
+
+Model number
+
+Maximum RF output
+
+1
+
+Silhouette — body-contouring device
+
+Older Silhouette
+
+24 W
+
+2
+
+Titan MultiPlatform, with RF attachment
+
+H2502 + HA2502
+
+20 W in English manual
+
+2
+
+FaceTite MultiPlatform, with RF attachment
+
+H2501
+
+20 W
+
+4
+
+FaceTite Mini, older EU variant
+
+FAC01
+
+13 W
+
+5
+
+Original FaceTite, older manual
+
+H2111/H2112
+
+12 W
+
+6
+
+Original Titan
+
+H2111/H2112
+
+10 W
+
+6
+
+Titan AllWays
+
+Model family Titan AllWays
+
+10 W ±20%
+
+6
+
+FaceTite Z / Revive / Essential / Prestige
+
+H2120/H2130
+
+10 W
+
+6
+
+Titan Mini / newer FaceTite Mini
+
+H2600
+
+10 W
+
+6
+
+Titan MultiPlatform, handpiece alone
+
+H2502
+
+10 W
+
+Every listed facial device uses approximately 1 MHz RF. Silhouette is an older device intended primarily for body treatment and cellulite, so I would not recommend it for the face merely because it has the highest rated wattage. 
+
+Manualzz
++7
+
+An unusual inconsistency in Silk’n's own manual
+The official Titan MultiPlatform manual gives 20 W with the RF attachment in English, but 15 W in its French and Spanish specification tables. The manual does not explain the discrepancy. The separate 2024 English manual also says 20 W, so I provisionally use that figure, but it is not completely unambiguous. 
+
+data.silkn.com
++1
+
+This is a good reason to prioritize the manual's actual load curves rather than treating the maximum rating as a continuous, guaranteed output.
+
+3. Actual power into a load: the most useful comparison
+I found a newer 2025 Silk’n manual that clarifies the wattage discrepancy further. The 2023 H2502 manual lists 20 W with the attachment, but the 2025 North American manual lists 15 W. Both give the same model number. This could represent a revised specification or hardware revision; the documents don't establish which. My earlier 20 W ranking therefore applies to the older documented specification, not necessarily every H2502 manufactured. 
+
+device.report
++1
+
+The newer manual also plots RF output against electrical resistance.
+
+Titan MultiPlatform H2502 + RF attachment
+
+Approximate full-power readings from Silk’n's 2025 graph, not independent skin measurements
+
+6 W
+9 W
+12 W
+15 W
+18 W
+63
+88
+113
+138
+150
+63: RF output 14.5 W
+80: RF output 11.5 W
+100: RF output 9.7 W
+150: RF output 7.6 W
+At a 150 Ω load, the manufacturer's own curve indicates approximately 7.6 W, despite the higher maximum specification. 
+Official manual, page 15
+. 
+
+data.silkn.com
+
+The older manual's graphs also show output falling as impedance rises, with a much lower value around 200 Ω than the maximum advertised wattage. Neither manual establishes the average RF energy absorbed by facial tissue throughout a real treatment.
+
+4. Battery capacity and how it changes the comparison
+Model
+
+Battery capacity
+
+Advertised cordless runtime
+
+Maximum adapter rating
+
+Titan MultiPlatform H2502
+
+14.8 Wh (3.7 V, 4,000 mAh)
+
+Up to 40 minutes on product page; 2025 manual lists 20 minutes
+
+24 W
+
+Titan Mini H2600
+
+2.22 Wh (3.7 V, 600 mAh)
+
+Up to 30 minutes
+
+10 W charging input
+
+Titan AllWays
+
+9.62 Wh (3.7 V, 2,600 mAh)
+
+Not firmly established
+
+Not established here
+
+Original Titan H2111/H2112
+
+No rechargeable treatment battery established
+
+Corded
+
+18 W on your pictured label
+
+The H2502 and H2600 capacities come directly from Silk’n manuals, while the AllWays capacity comes from its FDA submission. 
+
+Silkn Data
++4
+
+For Titan Mini, its 2.22 Wh battery lasting 30 minutes implies approximately 4.4 W average total electrical draw under those runtime conditions. It cannot continuously produce 10 W of RF for the entire 30 minutes from that battery. Instead, output varies with the operating setting, load and temperature regulation.
+
+Silk’n also documents a useful 43°C (109.4°F) surface-temperature cutoff for the MultiPlatform. Its controller interrupts heating at that threshold and resumes when the skin cools. 
+
+data.silkn.com
+
+5. Comparing real output between the two newer models
+Here is a particularly interesting result from Silk’n's published RF output graphs.
+
+Test condition
+
+Titan Mini H2600
+
+Titan MultiPlatform H2502 with attachment
+
+Approx. output at 150 Ω
+
+7.5 W
+
+7.6 W
+
+Approx. output at 200 Ω
+
+2.7 W
+
+About 6–7 W in older manual
+
+Maximum specified output
+
+10 W
+
+15–20 W, depending on manual revision
+
+RF treatment area
+
+300 mm²
+
+1,438 mm² combined
+
+Intended use
+
+Small facial areas
+
+Wider facial areas
+
+Approximate readings from manufacturer-supplied curves rather than independently measured in-vivo results.
+This shows why the 20 W headline isn't everything. The MultiPlatform is designed to spread treatment across a substantially larger surface area. At certain load conditions, the actual wattage difference is much smaller than the maximum ratings suggest.
+
+6. Which eBay listing is worth buying?
+Based on the listings visible in your screenshots:
+
+Listing
+
+Total before tax
+
+My assessment
+
+Original Titan, open box, $85 + $12 shipping
+
+$97.00
+
+Reasonable only if unused, fully operational, with genuine adapter
+
+“Titan Mini MultiPlatform,” new
+
+$139.95
+
+Could be good, but seller must confirm model number
+
+Original Titan, pre-owned
+
+$94.85
+
+Weak value compared with the open-box alternative
+
+Original Titan, no charger, visibly used
+
+$64.85
+
+I would skip it without a working demonstration
+
+My preference would be the Titan MultiPlatform H2502 with its HA2502 RF attachment, provided it is complete and working. It offers the largest treatment surface, stronger rated output, and published output-versus-load data.
+
+But at $139.95, the listing described as “Titan Mini MultiPlatform” needs clarification. If it's an H2600, you're purchasing a smaller 10 W treatment device rather than the H2502's larger-area system.
+
+I also found a 
+completed Titan MultiPlatform sale at $90
+ from March 2026. That's just one sold comparison, but suggests you can potentially do better than $140 for a complete MultiPlatform. 
+
+eBay
+
+For easy model verification, these are the two most relevant manuals:
+
+Titan MultiPlatform H2502 — official manual
+
+Titan Mini H2600 — official manual
+
+Bottom line: The original Titan is a legitimate 10 W-class RF device, but the H2502 MultiPlatform is technically more versatile. I would not pay more for a supposed 20 W unit without confirming the HA2502 attachment, manufacturing revision and condition. Those details matter more than the wattage printed in the listing title.
+
+Is 10 w pretty much max on home devices?
+Yes—approximately 10 W is the upper end of what most established home-use facial RF devices publish, but it isn't a hard technical or regulatory limit. Some consumer devices advertise 15–20 W or more.
+
+Here's how I'd categorize them:
+
+RF output rating
+
+Examples
+
+Assessment
+
+5–6 W
+
+CurrentBody RF, TriPollar STOP U
+
+Common FDA-cleared range
+
+6–10 W
+
+Sensica sensiLift, NEWA, original Silk'n Titan
+
+Typical higher-output home range
+
+10–15 W
+
+Some Silk'n variants, AMIRO
+
+Less common; model specifications vary
+
+15–20 W
+
+Silk'n MultiPlatform, MimiSilk Vera
+
+Higher advertised output; comparison requires caution
+
+20 W+
+
+Silk'n Silhouette body device (24 W rated)
+
+Unusual, particularly for facial use
+
+The distinction is that NEWA's 10 W was actually measured into a specified electrical load in FDA-reviewed testing, whereas several 15–20 W figures represent manufacturer's maximum ratings rather than verified continuous RF power.
+
+Why manufacturers seem to settle around 10 W
+It's probably a combination of thermal safety, electrode design, and the fact that home devices need to be usable without professional supervision.
+
+For example, NEWA stops RF heating when its temperature sensor reaches about 42°C, while the newer Silk'n Titan MultiPlatform uses a 43°C cutoff. Increasing the maximum available wattage doesn't necessarily increase the maintained treatment temperature. 
+
+Access Data FDA
++1
+
+There's also no general 10 W ceiling stated in the FDA's OTC RF device classification. Its requirements focus on demonstrating power accuracy, overheating protection, clinical performance and safe use. 
+
+GovInfo
+
+A few noteworthy exceptions:
+
+Silk'n Titan MultiPlatform: An earlier manual documents 20 W with the RF attachment, while the newer North American manual lists 15 W. 
+
+device.report
++1
+
+Silk'n Silhouette: Its manual explicitly specifies 24 W maximum RF at 1 MHz, although this is a body-contouring device, not a facial wrinkle device. 
+
+Manualzz
+
+MimiSilk Vera: Advertises 18 W, but the actual RF output into a specified test load has not been independently verified.
+
+My takeaway: For a facial device, 10 W of verified RF output is already a substantial home-use rating. I'd be more interested in a device that demonstrably heats the dermis to an effective temperature for a controlled duration than one claiming 20 W without comparable test data.
+
+If your goal is maximum collagen remodeling, the next question is whether the extra 10 W improves heating at 1–2 mm depth—or merely heats the surface faster and triggers the temperature cutoff sooner.
+
+User attachment
+Does America have these type of class of rf devices for purchase?
+
+Worked for 1m
+Yes. You can buy larger tabletop RF machines in the United States, including models advertised at 25–300 W. They're a different category from the 5–10 W handheld devices we've been comparing.
+
+And I found the exact Korean machine in your screenshot.
+
+1. Your screenshot: NEO Alpha RF
+네오알파_클래식 프리미엄 고주파기 300와트 편한 셀프마사지
+NEO Alpha Classic
+
+South Korean tabletop monopolar RF machine
+
+300 W
+Listed power consumption; manufacturer also claims 300 W peak RF output
+
+0.3 MHz (300 kHz) · Face and body · Mild, Soft, Deep settings
+
+Korean manufacturer's product page
+
+The manufacturer's own responses confirm that the Alpha and its predecessor, NEO Plus, share the same RF output specifications. They also state that Soft mode is intended for the face, whereas 300 W is the upper limit associated with Deep mode. 
+
+rf-skincare.com
++2
+
+A Korean retail specification independently lists the machine's 300 W as power consumption. I haven't found a laboratory load-test report proving 300 W reaches the tissue. 
+
+Danawa Search
+
+Most interestingly, the manufacturer answered a U.S. customer's inquiry in April 2026:
+
+It can manufacture a 110 V version for U.S. electricity.
+
+It does not currently offer direct shipping to the U.S. because of customs-related difficulties.
+
+It suggests using an international forwarding company. 
+
+rf-skincare.com
+
+So obtaining the actual Korean machine may be possible, but that doesn't establish that it has U.S. FDA clearance or is appropriate for unsupervised facial use.
+
+2. American options: tabletop RF machines
+These are the closest alternatives I could find that are sold through U.S.-accessible retailers.
+
+MLAY RF01  Desktop RF Beauty Device
+
+1 MHz · Bipolar RF · Tabletop
+
+Claims 25 W facial output and 50 W body output, with 50 W rated electrical input. These are published specifications, not independently verified RF measurements.
+
+Product listing · 
+Manufacturer specifications
+
+No matching FDA 510(k) verified. 
+
+MLAY Official
+
+Professional Cet Ret Monopolar RF Skin Tightening Beauty Machine
+
+Monopolar CET/RET · Tabletop
+
+Manufacturer advertises up to 300 W RET output, depending on electrode size, with lower settings for smaller applicators. It includes a return electrode and accepts a 110 V supply option.
+
+Product listing · 
+Technical specifications
+
+No matching FDA 510(k) verified; manufacturer output measurements not independently confirmed. 
+
+MYCHWAY Official Site
+
+Pure Daily Care DermaWave Clinical Radio Frequency Machine
+
+Tabletop RF · Face and body probes
+
+Sold by established U.S. retailers. The manufacturer's public listing describes adjustable RF settings and separate probes, but I couldn't establish a reliable RF output wattage.
+
+U.S. retailer · 
+Manufacturer page
+
+No matching FDA 510(k) verified. 
+
+Pure Daily Care
+
+3. The important comparison: FDA-cleared 300 W professional RF
+Cynosure Tempsure Envi RF | Marketplace | Eye Recommend
+Cynosure TempSure Envi
+
+FDA-cleared professional system
+4 MHz monopolar RF. The official FDA clearance K171262 contains unusually detailed information about RF power and temperature feedback.
+
+Manufacturer
+ · 
+FDA technical PDF
+
+120 W
+Maximum output for wrinkle treatment
+300 W
+Maximum output in tissue-heating mode
+The FDA document also identifies an aesthetic operating temperature range of 39–45°C, with handpiece temperature feedback and testing against thermal-camera readings. These figures come from pages 7–11 of the clearance summary. 
+
+Access Data FDA
+
+This is a particularly useful comparison because it shows that even a professional 300 W platform has different output limits for different applications. The device is prescription-use professional equipment, not cleared for unsupervised home treatment. 
+
+Access Data FDA
+
+4. Are tabletop machines FDA-cleared for OTC use?
+Interestingly, yes—although OTC clearance doesn't always mean the product is intended for untrained home users.
+
+The best example is Pollogen Geneo X Elite, a tabletop RF system with FDA clearances 
+K233766
+ and 
+K242227
+.
+
+Despite being classified under OTC product code PAY, its FDA summary explicitly states that it is intended for qualified estheticians or cosmeticians in clinics, not laypeople at home. 
+
+Access Data FDA
+
+That distinction is why I'd be cautious about assuming that a tabletop system marketed for home use has completed the same regulatory safety evaluations as NEWA or CurrentBody.
+
+5. Why I'm cautious about NEO Alpha's 300 W
+NEO's manufacturer identifies Korean medical-device authorization 제허 13-379, but I haven't verified a corresponding U.S. FDA clearance. 
+
+rf-skincare.com
+
+Its marketing also appears to conflate 300 W electrical consumption with 300 W RF output. Electrical consumption and delivered RF output cannot be assumed equal because conversion losses and control circuitry consume power. Without an RF load-test report, the actual facial-mode output remains unknown. 
+
+rf-skincare.com
+
+For perspective:
+
+Device
+
+Reported power
+
+Intended category
+
+NEWA Classic
+
+10 W RF, bench tested
+
+At-home facial
+
+MLAY RF01
+
+25 W face, 50 W body claimed
+
+At-home tabletop
+
+TempSure Envi
+
+120 W maximum wrinkle-treatment output
+
+Professional clinic
+
+NEO Alpha
+
+300 W consumed; 300 W peak output claimed
+
+Korean home/salon system
+
+MYCHWAY CET/RET
+
+Up to 300 W RET claimed
+
+Professional-style tabletop
+
+The larger units may use return plates, different electrode configurations, and much more powerful generators. That doesn't establish better dermal collagen remodeling. Excessive heating can cause burns or unwanted injury to underlying tissue.
+
+My recommendation: If you're trying to move beyond the 10 W handheld category, the American tabletop market definitely exists. The MLAY RF01 is the most directly comparable inexpensive home-oriented option, while the TempSure Envi provides the strongest FDA-documented high-power technical benchmark among these examples. I would not choose the 300 W NEO or MYCHWAY for self-treatment purely to maximize wattage.
+
+For your collagen-remodeling research, a particularly worthwhile next step would be comparing MLAY's 25 W facial setting against NEWA's measured 10 W and TempSure's professional 120 W wrinkle mode, including whether any published evidence establishes actual heating at 1–3 mm skin depth.
+
+User attachment
+User attachment
+User attachment
+Can you look into these. And especially this last one. Which appears to be a generic rf device. Can you get specs on it?
+
+Worked for 1m 19s
+Investigating your three eBay RF devices
+I found the generic triangular machine under several other brands, including FREYARA, KONMISON, and Allfond. There are technical specifications available for closely matching designs, including claimed power around 20–50 W, but the exact eBay unit's RF output still needs verification.
+
+The most important finding is that these devices are being sold with different frequencies and power specifications, despite looking nearly identical.
+
+1. The generic triangular RF machine — $80.99
+3 in 1 RF Tripolar Skin Lifting Machine Body Slimming Face&Eye Lifting Tighten Beauty Device Remove Eye Neck wrinkle Double Chin, 美容＆個人護理, 健康及美容 - 皮膚護理, 面部 - 面部護理 - Carousell
+Unbranded 3-in-1 RF machine
+
+Your third screenshot · eBay item 227348141243
+
+$80.99
+Exact eBay listing
+ · 
+Closest retail match
+
+Specifications from matching commercial versions
+Specification
+
+Findings
+
+Design
+
+Tabletop RF generator, interchangeable face, eye and body electrodes
+
+RF frequency
+
+1 MHz, 2 MHz or 5 MHz, depending on seller/model
+
+Claimed power
+
+20–50 W handle power on FREYARA
+
+Power adapter
+
+24 V, 3 A on FREYARA (72 W electrical capacity)
+
+Treatment levels
+
+Approximately 5 adjustable intensity levels
+
+Temperature control
+
+No verified numerical skin-temperature cutoff
+
+Battery
+
+Corded, no treatment battery
+
+FDA 510(k)
+
+No exact-model clearance identified
+
+Measured RF output
+
+Not published
+
+The FREYARA specifications come from its commercial product listing, which reports 1 MHz, 20–50 W handle power, and a 24 V/3 A supply. KONMISON and Allfond list materially different specifications for similar machines. 
+
+au.freyara.com
++2
+
+I also found a manual
+3-in-1 Mini RF Beauty Device — 15-page manual
+
+FREYARA, matching triangular console family
+
+The manual identifies the interchangeable eye, face and body probes. The link is to a related retail version, not a confirmed manual for the exact unbranded eBay unit. 
+
+img.freyara.com
+
+2. I found several possible OEM sources
+Mini 3in1 RF Beauty Device Rejuvenation Lifting Wrinkle Removal Skin Tightening for Face Eye Skin
+KONMISON LB149
+
+Guangzhou KONMISON Technology, China
+
+Listings identify a triangular RF system with 2 MHz in one specification and 5 MHz in another. KONMISON offers OEM/ODM services. 
+
+Made-in-china.com
++1
+
+Supplier listing
+
+Xkiss 3 in 1 RF Tripolar Skin Lifting Machine, Body Slimming, Face and Eye Tightening Device - Walmart.com
+Allfond M09K
+
+Guangzhou Allfond Electronics, China
+
+Specifies 2 MHz bipolar RF, 55 W electrical power consumption, three probes and a claimed treatment energy of 1–15 J/cm². Its exact wattage reaching skin is undisclosed. 
+
+Skin Care and Beauty Equipment
+
+Supplier listing
+
+Mini 3in1 RF Dispositivo di bellezza Ringiovanimento Lifting Rimozione  – FREYARA Italia
+FREYARA FY04.0208US
+
+Retail rebranding of similar hardware
+
+Advertises 1 MHz, 20–50 W handle power, with a 72 W rated adapter output. Not an independent RF power measurement. 
+
+au.freyara.com
+
+Product listing
+
+These give us credible leads to the machine's supply chain, but they don't establish which factory produced the particular eBay item. Different circuit boards could be installed inside identical housings.
+
+There is another concern with the FREYARA listing: it refers to temperatures of 60–70°C for immediate collagen contraction. That describes potentially injurious thermal effects, not a verified safe operating temperature for this device. The listing doesn't provide temperature-controlled testing demonstrating safe use at those levels. 
+
+au.freyara.com
+
+3. The other two machines
+MLAY RF Radio Frequency Skin Tightening for Face and Body - Home Skin Care Anti Aging Device
+MLAY RF01
+
+Your first screenshot · tabletop, two electrodes
+
+Specification
+
+Value
+
+RF frequency
+
+1 MHz
+
+Face rating
+
+25 W
+
+Body rating
+
+50 W
+
+Input
+
+100–240 V AC, 50 W rated
+
+Levels
+
+3
+
+Temperature limit
+
+Not verified
+
+FDA 510(k)
+
+Not verified
+
+MLAY specifications
+ 
+
+mlay
+
+The critical discovery here is that an 
+IGIA U-Slender Elite RF01 manual
+ labels 25 W facial and 50 W body as input power, whereas MLAY markets those numbers as output power. I can't establish that these RF01-branded devices have identical electronics, but it means the output claims need independent testing. 
+
+ManualsLib
+
+Siero Laserlift: white siero anti cellulite viso.
+ILIFT IF-1601
+
+Your second screenshot · $39.95
+
+Specification
+
+Value
+
+RF frequency
+
+1 MHz
+
+RF arrangement
+
+Claimed six RF generators, three circuits
+
+Temperature levels
+
+3
+
+Battery
+
+Rechargeable; capacity unknown
+
+RF watts
+
+Not disclosed
+
+FDA 510(k)
+
+Not verified
+
+An OEM listing identifies Shenzhen Margotan Tech as a supplier, quoting $20–30 wholesale and offering private labeling. It is not proof of the factory that made your particular unit.
+
+ILIFT wholesale listing
+ 
+
+TradeWheel
+
+4. Comparing all three against FDA-cleared home RF
+Device
+
+Advertised watts
+
+RF watts independently established?
+
+Regulatory confidence
+
+MLAY RF01
+
+25 W face / 50 W body
+
+No
+
+Low
+
+Generic triangular 3-in-1
+
+Related units claim 20–50 W
+
+No
+
+Low
+
+ILIFT IF-1601
+
+Unknown
+
+No
+
+Low
+
+Silk'n Titan AllWays
+
+10 W ±20%
+
+FDA-reviewed output specification, not an independent in-vivo test
+
+Higher
+
+NEWA
+
+10 W
+
+10 W measured in FDA-reviewed electrical bench test
+
+Higher
+
+CurrentBody Skin RF
+
+5 W ±1 W
+
+FDA-reviewed load testing
+
+Higher
+
+The FDA's OTC RF classification is 
+PAY, 21 CFR 878.4420
+. I couldn't establish an exact 510(k) for MLAY RF01, ILIFT IF-1601, or the generic triangular machine. That doesn't conclusively establish their regulatory status, but it means their marketing cannot be treated as FDA-verified. 
+
+Access Data FDA
++1
+
+5. My assessment for purchasing
+Most interesting technically: MLAY RF01
+
+Provisional
+Of these three, MLAY has the clearest brand-specific specifications, with separate face and body power claims. I still wouldn't assume its 25 W face rating is actual RF power absorbed by skin.
+
+The triangular machine may be stronger than a typical 10 W handheld, but the available OEM listings are too inconsistent to establish that. It has no verified skin-temperature cutoff, no actual load-test results, and no exact-model FDA clearance that I could locate.
+
+The $39.95 ILIFT is the least documented. A low price alone isn't disqualifying, but we don't have enough electrical or thermal data to rank it against the others.
+
+Would I buy the triangular $80.99 machine? Not yet, especially for use on the face or around the eyes. Its higher claimed output could mean faster heating, but without verified temperature feedback it also raises the possibility of burns or excessive localized heating. I would not use it as an experiment to see how hot it can get.
+
+There is one thing that could make this investigation substantially more conclusive: a photograph of the power-adapter label and the rating/model sticker underneath that exact triangular machine. It could reveal whether we're dealing with the 24 V/3 A FREYARA-style design, the 55 W Allfond variant, or a lower-output unit.
+
+That would help narrow down its actual electrical capabilities, although a calibrated RF load test would still be needed to establish treatment-output watts.
+
+
+
+
+63

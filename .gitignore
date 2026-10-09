@@ -3,3 +3,6 @@
 *.orig
 *.tmp
 *~
+
+# Python build caches
+__pycache__/

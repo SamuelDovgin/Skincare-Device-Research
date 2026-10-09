@@ -52,7 +52,7 @@ Local preservation: URL-only — no lawful local copy available; report identifi
 Paths: 19_diy_topical_formulation/vitamin_c_recipe_scaler.html; 03_recipes_and_prototype_worksheets.md; hypochlorous_water_planner.html; 06_hypochlorous_acid_water_and_generator_planner.md; 08_vitamin_c_serums/03_diy_vitamin_c_protocol.md; 21_hypochlorous_acid_generation/hocl_recipe_calculator.js; hypochlorous_acid_calibration_planner.html; 01_acidified_brine_reference_and_qc.md.
 Class: local archive / user observation as previously transcribed.
 Status: read locally; pre-existing uncommitted changes preserved.
-Supports: 250 mL / approximately 300 ppm / 15 minute observation as recorded, conditional on 1.5 g salt and 0.625 mL vinegar; no new claim to have inspected the original photograph. Low-salt exponent 0.95 was already an extrapolation. Vitamin C calculator used 4.17 versus protocol 4.10; water-based loadings mislabeled final concentration.
+Supports: historical archive transcription of a 250 mL / approximately 300 ppm / 15 minute planner observation, conditional on 1.5 g salt and 0.625 mL vinegar; no new claim to have inspected the original photograph. The user later corrected the remembered run timing to 30 minutes on 2026-10-04; see S07. Low-salt exponent 0.95 was already an extrapolation. Vitamin C calculator used 4.17 versus protocol 4.10; water-based loadings mislabeled final concentration.
 Finding: corrected labels, consistent constant, gas-loss denominator, FAC equivalent units, invalid-state speciation suppression and explanatory evidence boundaries. No laboratory confirmation of resulting mixtures.
 Limits: household observations are approximate and vinegar acidity/actual calibration doses remain uncertain.
 Local preservation: existing repository sources, edited in place; original user edits retained.
@@ -67,3 +67,13 @@ VALIDATION
 
 USER-REQUESTED DEFAULT REVISION (same date)
 The user requested 20% by finished mass rather than preservation of the older water-loading ratio. The scaler now solves LAA = water*w/[1-w*(1+k*(1-44.01/84.007))], where k is the pH-model bicarbonate/LAA mass ratio. At 15.84 g water, pH 3.30, and w=0.20: LAA=3.986905340884 g; bicarbonate=0.226040650213 g; estimated degassed final mass=19.93452670442 g. All slider/preset percentages now mean final LAA-equivalent % w/w. Historical tables are explicitly marked historical. This user-selected concentration convention does not independently establish the concentration basis of every cited study. Model and UI/export tests updated to check finished-mass conservation and 20.00% display.
+
+[S07] User timing correction for Amazon/Chloe HOCl calibration — 2026-10-04
+URL: user clarification in the current Codex task; related source record: https://www.amazon.com/dp/B08SMD6WRF
+Class: local archive / user-supplied correction to a prior household observation.
+Status: current working calibration update; no new laboratory measurement performed.
+Supports: replace the prior 250 mL / approximately 300 ppm / pH 4.5 / 15-minute planner calibration with the user's remembered 250 mL / approximately 300 ppm / pH 4.5 / 30-minute run for future Amazon/Chloe calculations, using 1.50 g salt and 0.625 mL vinegar as the assumed volume-scaled ingredients.
+Finding: current local rate is 10 ppm/min in 250 mL, equivalent to 2.5 mg FAC-equivalent/min total; the same-yield planning estimate for 500 mL at 300 ppm becomes 60 minutes. The earlier 15-minute planner state remains historical configuration context, and Chloe's separate 500 mL / approximately 400 ppm / 15-minute review record remains historical source context.
+Limits: the timing correction is user-recalled and does not independently verify FAC, pH, vinegar acidity, device compatibility, HOCl identity, purity, stability, safety, or shelf life. Do not infer a universal generator rate or a validated skin-use recipe.
+Used in: 19_diy_topical_formulation/06_hypochlorous_acid_water_and_generator_planner.md; 21_hypochlorous_acid_generation/01_acidified_brine_reference_and_qc.md; 21_hypochlorous_acid_generation/README.md; 21_hypochlorous_acid_generation/index.html; 21_hypochlorous_acid_generation/hypochlorous_acid_calibration_planner.html; 21_hypochlorous_acid_generation/hocl_recipe_calculator.js; 21_hypochlorous_acid_generation/source_docs/README.md; root README.md; root index.html.
+Local preservation: existing repository source files and this dated recovery-log entry; no new image or assay supplied.

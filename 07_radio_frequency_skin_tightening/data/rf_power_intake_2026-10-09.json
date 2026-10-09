@@ -1,0 +1,38 @@
+[
+  {
+    "id": "U01",
+    "title": "MimiSilk, battery and generic follow-ups",
+    "local": "source_docs/power_audit_2026-10-09/U01_user_research.txt",
+    "sha256": "a1687de243db301928622bf117e4d47acd1f8b9e51d4d3021cad695fcee97b83",
+    "source_class": "user-supplied research transcript",
+    "support": "Research leads and original conversation; not primary evidence.",
+    "limits": "Citations were pasted as labels without URLs. Original images mentioned in text were not supplied here."
+  },
+  {
+    "id": "U02",
+    "title": "Home temperature, clearance and wattage notes",
+    "local": "source_docs/power_audit_2026-10-09/U02_user_research.txt",
+    "sha256": "53b6b646faf87f95069cd2693a013e9ef66354c4553d535afb1dc937c714cdeb",
+    "source_class": "user-supplied research transcript",
+    "support": "Research leads and original conversation; not primary evidence.",
+    "limits": "Citations were pasted as labels without URLs. Original images mentioned in text were not supplied here."
+  },
+  {
+    "id": "U03",
+    "title": "Patent/FDA and thermal-device report",
+    "local": "source_docs/power_audit_2026-10-09/U03_user_research.txt",
+    "sha256": "99ed0e0720c1bde4e43ab554560144ca0e2c89044e6736944f48cc0ea27a83f8",
+    "source_class": "user-supplied research transcript",
+    "support": "Research leads and original conversation; not primary evidence.",
+    "limits": "Citations were pasted as labels without URLs. Original images mentioned in text were not supplied here."
+  },
+  {
+    "id": "U04",
+    "title": "Duplicate patent/FDA report",
+    "local": "source_docs/power_audit_2026-10-09/U04_user_research.txt",
+    "sha256": "99ed0e0720c1bde4e43ab554560144ca0e2c89044e6736944f48cc0ea27a83f8",
+    "source_class": "user-supplied research transcript",
+    "support": "Research leads and original conversation; not primary evidence.",
+    "limits": "Citations were pasted as labels without URLs. Original images mentioned in text were not supplied here."
+  }
+]

@@ -16,10 +16,10 @@
     volume: 250,
     fac: 300,
     ph: 4.5,
-    time: 15,
+    time: 30,
     salt: 1.5,
     vinegar: 0.625,
-    note: "User-supplied 2026-08-27 reproduction; FAC and pH are approximate visual readings"
+    note: "User-corrected 2026-10-04 reproduction timing; FAC and pH are approximate visual readings"
   };
 
   const benchmarkMeta = {
@@ -29,7 +29,7 @@
       rate: CHLOE_REVIEW.salt / (CHLOE_REVIEW.volume / 1000),
       vinegarRate: CHLOE_REVIEW.vinegar / (CHLOE_REVIEW.volume / 1000),
       label: "Amazon/Chloe working generator feed",
-      title: "Amazon/Chloe recipe · default observed-rate calibration",
+      title: "Amazon/Chloe recipe · corrected observed-rate calibration",
       experimental: true,
       review: true,
       sourceVolume: CHLOE_REVIEW.volume,
@@ -74,7 +74,7 @@
     if (review) {
       return {
         name: `${time.toFixed(2)} min`,
-        note: "Amazon/Chloe default observed-rate estimate · requires documented manual stop and fresh FAC/pH measurement",
+        note: "Amazon/Chloe corrected observed-rate estimate · requires documented manual stop and fresh FAC/pH measurement",
         builtIn: false
       };
     }
@@ -344,7 +344,7 @@
       ? `The default working calibration uses the observed pH near ${m.reviewAnchor.ph.toFixed(1)} as a comparison target—not a vinegar-dose control. Vinegar acidity and salt/volume execution still require a finished-batch measurement.`
       : "The pH target is continuously adjustable in 0.01 increments, but it is a comparison target—not a vinegar-dose control. The selected recipe keeps its vinegar amount locked to its mode and requires a final measurement.";
     $("programOut").textContent = `${m.time.toFixed(2)} min`;
-    $("programNote").textContent = m.reviewDerived ? "default observed-rate estimate" : (m.official ? "published device endpoint" : (m.experimentalSalt ? "experimental salt/conductivity estimate" : "interpolated / volume-scaled estimate"));
+    $("programNote").textContent = m.reviewDerived ? "corrected observed-rate estimate" : (m.official ? "published device endpoint" : (m.experimentalSalt ? "experimental salt/conductivity estimate" : "interpolated / volume-scaled estimate"));
     $("recipeFacOut").textContent = `${m.targetFac} ppm`;
     $("recipePhOut").textContent = m.targetPh.toFixed(2);
     $("benchmarkSaltOut").textContent = `${m.benchmarkRate.toFixed(2)} g/L`;
@@ -352,7 +352,7 @@
     $("timingBasisLabel").textContent = m.reviewDerived ? "Observed-rate timing" : "Salt-time factor";
     $("saltTimerOut").textContent = m.reviewDerived ? "local" : `${m.saltTimeFactor.toFixed(2)}×`;
     $("saltTimerNote").textContent = m.reviewDerived
-      ? "default: 250 mL / ≈300 ppm / 15 min observation"
+      ? "default: 250 mL / ≈300 ppm / 30 min corrected observation"
       : m.experimentalSalt
       ? `conductivity model · exponent ${SALT_CONDUCTIVITY_EXPONENT.toFixed(2)}`
       : "published 2.00 g/L baseline";
@@ -364,7 +364,7 @@
       : m.experimentalSalt
       ? `<b>Read the graphs this way:</b> documented mode is anchored directly to the 2.00 g/L programs. Experimental mode stretches the time axis with the 0.95 conductivity exponent while holding current efficiency constant. This is an unvalidated sensitivity scenario; low-salt efficiency, controller behavior, and electrode mass transport remain unmeasured. Test the actual batch immediately.`
       : `<b>Read the graphs this way:</b> documented mode is anchored directly to the 2.00 g/L programs and then volume-scaled between published points. The 0.8–1.4× band is a sensitivity scenario, not a confidence interval. Test the actual batch immediately.`;
-    $("evidenceTitle").textContent = m.reviewDerived ? "Default Amazon/Chloe observed calibration" : (m.experimentalSalt ? "Experimental salt-corrected timing" : (m.official ? "Published timing endpoint" : (m.volume < 500 ? "Below published volume check" : "Interpolated / volume-scaled timing")));
+    $("evidenceTitle").textContent = m.reviewDerived ? "Corrected Amazon/Chloe observed calibration" : (m.experimentalSalt ? "Experimental salt-corrected timing" : (m.official ? "Published timing endpoint" : (m.volume < 500 ? "Below published volume check" : "Interpolated / volume-scaled timing")));
     $("evidenceText").textContent = evidenceText(m);
     $("effectVolume").textContent = m.reviewDerived
       ? `At ${m.volume.toLocaleString()} mL, the working Amazon/Chloe ratio produces ${m.salt.toFixed(2)} g salt and ${m.vinegar.toFixed(3)} mL vinegar. Time scales from the observed 250 mL point to ${m.time.toFixed(2)} minutes; final FAC and pH still require measurement.`
@@ -379,7 +379,7 @@
       ? `Reducing feed from ${GENERATOR_SALT_G_L.toFixed(2)} to ${m.benchmarkRate.toFixed(2)} g/L applies a ${m.saltTimeFactor.toFixed(2)}× time factor. This assumes current follows dilute-solution conductivity and efficiency stays constant; measured FAC must recalibrate the next fresh batch.`
       : `At ${GENERATOR_SALT_G_L.toFixed(2)} g/L the salt-time factor is 1.00× and the published timer applies. Final FAC still owns the result.`;
     $("timingAssumption").innerHTML = m.reviewDerived
-      ? `<b>Default Amazon/Chloe observed-rate assumption:</b> every batch generated by this recipe uses your supplied ${m.reviewCalibration.volume} mL / ≈${m.reviewCalibration.fac} ppm / ${m.reviewCalibration.time}-minute result as its primary calibration point. It therefore uses <code>time = 15 × volume / 250 × target FAC / 300</code>; more than 250 mL takes proportionally longer and less takes proportionally less. The original review claim (${m.reviewAnchor.volume} mL / ≈${m.reviewAnchor.fac} ppm / ${m.reviewAnchor.time} minutes) is retained as historical source context. The vinegar amount is locked to the scaled review ratio, but its acidity is unspecified; final FAC and pH own the result.`
+      ? `<b>Default Amazon/Chloe observed-rate assumption:</b> every batch generated by this recipe uses your supplied ${m.reviewCalibration.volume} mL / ≈${m.reviewCalibration.fac} ppm / ${m.reviewCalibration.time}-minute result as its primary calibration point. It therefore uses <code>time = 30 × volume / 250 × target FAC / 300</code>; more than 250 mL takes proportionally longer and less takes proportionally less. The earlier 15-minute planner entry is retained as historical context, while the original review claim (${m.reviewAnchor.volume} mL / ≈${m.reviewAnchor.fac} ppm / ${m.reviewAnchor.time} minutes) remains a separate source record. The vinegar amount is locked to the scaled review ratio, but its acidity is unspecified; final FAC and pH own the result.`
       : `<b>Salt timing assumption:</b> electrochemical product follows charge passed and current efficiency. For the experimental mode, the calculator estimates conductivity ∝ salt concentration<sup>0.95</sup>, current ∝ conductivity at fixed voltage, and time ∝ 1/current. Therefore <code>time factor = (2.00 / selected g/L)<sup>0.95</sup></code>. At 0.60 g/L this is 3.14×. If Eco One regulates current, reaches a voltage limit, or loses efficiency at low chloride, the real factor can differ; FAC measurement owns the result.`;
     $("recipeInputStep").innerHTML = m.reviewDerived
       ? `<b>Weigh the selected salt.</b> Use the displayed ${m.salt.toFixed(2)} g ${m.reviewAnchor.saltType} and ${m.vinegar.toFixed(3)} mL vinegar for this ${m.volume.toLocaleString()} mL Amazon/Chloe working batch. The default calibration is tied to ${m.reviewCalibration.salt.toFixed(2)} g salt and ${m.reviewCalibration.vinegar.toFixed(3)} mL vinegar at 250 mL; using the original full review amounts there would be a different recipe. The review does not identify vinegar acidity; use this route only when the exact device manual permits it.`
@@ -416,7 +416,7 @@
     const timingLine = m.reviewDerived
       ? `Default observed-rate calibration: ${m.reviewCalibration.volume} mL / approximately ${m.reviewCalibration.fac} ppm / ${m.reviewCalibration.time} minutes; local rate ${m.reviewCalibrationFacRate.toFixed(1)} ppm/min (${m.reviewCalibrationMassRate.toFixed(2)} mg FAC-equivalent/min total); FAC factor ${m.reviewFacFactor.toFixed(2)}×`
       : `Salt-time factor: ${m.saltTimeFactor.toFixed(2)}× (${m.experimentalSalt ? `conductivity exponent ${SALT_CONDUCTIVITY_EXPONENT.toFixed(2)}; constant-voltage/constant-efficiency scenario` : "published 2.00 g/L baseline"})`;
-    const timingLabel = m.reviewDerived ? "default observed-rate estimate" : (m.official ? "published endpoint" : (m.experimentalSalt ? "experimental salt/conductivity estimate" : "interpolated / volume-scaled estimate"));
+    const timingLabel = m.reviewDerived ? "corrected observed-rate estimate" : (m.official ? "published endpoint" : (m.experimentalSalt ? "experimental salt/conductivity estimate" : "interpolated / volume-scaled estimate"));
     const boundaryTiming = m.reviewDerived
       ? `Timing uses the primary user observation (${m.reviewCalibration.volume} mL, approximately ${m.reviewCalibration.fac} ppm, ${m.reviewCalibration.time} minutes), proportional volume scaling, and a local FAC-rate adjustment. The original Amazon review claim (${m.reviewAnchor.volume} mL, approximately ${m.reviewAnchor.fac} ppm, ${m.reviewAnchor.time} minutes) would predict ${m.reviewClaimTime.toFixed(2)} minutes for the current selection and is retained as historical source context.`
       : `Timing uses published FAC/time anchors at 2.00 g/L plus volume scaling${m.experimentalSalt ? ` and the illustrative salt factor (2.00 / ${m.benchmarkRate.toFixed(2)})^${SALT_CONDUCTIVITY_EXPONENT.toFixed(2)}` : ""}.`;
@@ -490,15 +490,15 @@
     check("500 ppm anchor", near(baseTime(500), 40));
 
     const defaultPlan = model();
-    check("default uses observed calibration", defaultPlan.benchmark === DEFAULT_BENCHMARK && near(defaultPlan.volume, 250) && near(defaultPlan.targetFac, 300) && near(defaultPlan.targetPh, 4.5) && near(defaultPlan.time, 15) && near(defaultPlan.salt, 1.5) && near(defaultPlan.vinegar, 0.625));
+    check("default uses observed calibration", defaultPlan.benchmark === DEFAULT_BENCHMARK && near(defaultPlan.volume, 250) && near(defaultPlan.targetFac, 300) && near(defaultPlan.targetPh, 4.5) && near(defaultPlan.time, 30) && near(defaultPlan.salt, 1.5) && near(defaultPlan.vinegar, 0.625));
 
     $("saltBenchmark").value = DEFAULT_BENCHMARK; $("volume").value = "200"; $("targetFac").value = "300";
     const observedHalf = model();
     $("volume").value = "500";
     const observedDouble = model();
-    check("observed-rate volume scaling", near(observedHalf.time, 12) && near(observedDouble.time, 30) && near(observedDouble.time, observedHalf.time * 2.5));
+    check("observed-rate volume scaling", near(observedHalf.time, 24) && near(observedDouble.time, 60) && near(observedDouble.time, observedHalf.time * 2.5));
     $("targetFac").value = "400";
-    check("observed-rate FAC scaling", near(model().time, 40));
+    check("observed-rate FAC scaling", near(model().time, 80));
 
     $("volume").value = "200"; $("targetFac").value = "100"; $("targetPh").value = "5.50"; $("waterPh").value = "7.00"; $("saltBenchmark").value = "manual";
     let minimum = model();
@@ -532,13 +532,13 @@
     $("saltBenchmark").value = "chloe"; $("volume").value = "500"; $("targetFac").value = "400"; $("targetPh").value = "4.5"; update();
     const chloe = model();
     check("Amazon review source record", chloe.reviewDerived && near(chloe.volume, 500) && near(chloe.targetFac, 400) && near(chloe.salt, 3) && near(chloe.vinegar, 1.25) && near(chloe.reviewClaimTime, 15) && near(chloe.reviewAnchor.fac, 400));
-    check("Chloe observed-rate calibration", near(chloe.reviewCalibrationFacRate, 20) && near(chloe.reviewCalibrationMassRate, 5) && near(chloe.time, 40));
+    check("Chloe observed-rate calibration", near(chloe.reviewCalibrationFacRate, 10) && near(chloe.reviewCalibrationMassRate, 2.5) && near(chloe.time, 80));
     $("volume").value = "250"; $("targetFac").value = "300"; update();
     const chloeLocal = model();
-    check("User calibration identity", chloeLocal.reviewDerived && near(chloeLocal.salt, 1.5) && near(chloeLocal.vinegar, 0.625) && near(chloeLocal.time, 15) && near(chloeLocal.reviewClaimTime, 5.625));
+    check("User calibration identity", chloeLocal.reviewDerived && near(chloeLocal.salt, 1.5) && near(chloeLocal.vinegar, 0.625) && near(chloeLocal.time, 30) && near(chloeLocal.reviewClaimTime, 5.625));
     $("volume").value = "1000"; $("targetFac").value = "400";
     const chloeFull = model();
-    check("Chloe calibrated volume scaling", chloeFull.reviewDerived && near(chloeFull.salt, 6) && near(chloeFull.vinegar, 2.5) && near(chloeFull.time, 80) && chloeFull.program.note.includes("Amazon/Chloe"));
+    check("Chloe calibrated volume scaling", chloeFull.reviewDerived && near(chloeFull.salt, 6) && near(chloeFull.vinegar, 2.5) && near(chloeFull.time, 160) && chloeFull.program.note.includes("Amazon/Chloe"));
     $("saltBenchmark").value = "market"; $("volume").value = "1000"; $("targetFac").value = "100"; $("targetPh").value = "5.35"; update();
 
     $("measuredFac").value = ""; $("measuredPh").value = ""; $("facMethod").value = ""; $("phMethod").value = "";

@@ -37,3 +37,7 @@ The2026Wang/YOUMAGICPDF is CC BY-NC-ND4.0, preserved unchanged with attribution 
 - [T09 · FDA Oligio K221989, cleared2022-10-13](FDA_K221989_Oligio.pdf)
 - [T10 · Oku Density Mono-Bi CrossLIFT; PMID41090512; PMC12522179; DOI10.1111/jocd.70504](PMC12522179_Density_2025_BioC.xml)
 - [T11 · Volnewmer versus Thermage CPT registry NCT06657365](Volnewmer_CPT_NCT06657365_2026-10-02.json)
+
+## October 9 power and OEM audit
+
+[Rendered new source register](../index.html#doc21) · [Verbose research log](research_resource_log_2026-10-09.txt) · [Capture-folder guide](power_audit_2026-10-09/README.md). 78 dated sources, 74 captures, and all four supplied text files. The two patent/FDA reports are exact duplicates, retained without double counting. Blocked or unavailable captures remain explicitly labeled.

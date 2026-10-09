@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-09",
+  "checks": [
+    {
+      "mode": "server",
+      "width": 1440,
+      "chart": true,
+      "rendered_docs": 3,
+      "page_errors": []
+    },
+    {
+      "mode": "server",
+      "width": 390,
+      "chart": true,
+      "rendered_docs": 3,
+      "page_errors": []
+    },
+    {
+      "mode": "file",
+      "width": 1440,
+      "chart": true,
+      "rendered_docs": 3,
+      "page_errors": []
+    },
+    {
+      "mode": "file",
+      "width": 390,
+      "chart": true,
+      "rendered_docs": 3,
+      "page_errors": []
+    }
+  ],
+  "mobile_deep_links_scroll_to_rendered_document": true,
+  "rendered_document_policy": "pass",
+  "topic_link_audit": "pass: zero broken local links, zero warnings",
+  "citation_embed_check": "pass",
+  "whole_site_audit": "One existing error: paper-discovery.html references missing paper-discovery.js; separate from RF update."
+}

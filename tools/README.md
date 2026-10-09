@@ -1,5 +1,21 @@
 # tools
 
+## `build_recent_research.py`
+
+Updates the homepage's five most recently added or changed numbered research
+articles, with titles, topic names, dates, and links to rendered viewers. It uses
+Git history for committed articles and modification times for pending article
+edits. A persisted content-hash register prevents checkout times, README changes,
+source captures, and generated viewer updates from appearing as new research.
+
+The required `build_embedded_documents.py` command also runs this generator, so
+normal site builds keep the feed current. To regenerate or verify independently:
+
+```bash
+python3 tools/build_recent_research.py
+python3 tools/build_recent_research.py --check
+```
+
 ## `apply_citation_features.py`
 
 Adds two citation features to the research archive, idempotently:

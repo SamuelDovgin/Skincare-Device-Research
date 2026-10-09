@@ -86,6 +86,9 @@ def main() -> int:
     try:
         documents = routed_markdown()
         OUTPUT.write_text(render_asset(documents), encoding="utf-8")
+        # Keep the homepage change feed current during the required site build.
+        from build_recent_research import main as build_recent_research
+        build_recent_research()
     except Exception as error:
         print(f"ERROR {error}", file=sys.stderr)
         return 1

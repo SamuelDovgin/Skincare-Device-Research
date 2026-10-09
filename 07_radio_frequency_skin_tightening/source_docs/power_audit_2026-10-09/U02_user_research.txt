@@ -1,0 +1,1492 @@
+
+I'm more interested in home devices. Do any of these reference any target temp
+
+Worked for 49s
+Yes. Several FDA-cleared home RF devices specify target skin temperatures, usually around 40–43°C (104–109.4°F). More importantly, some of these numbers appear in the actual FDA submissions, rather than just marketing materials.
+
+Target temperatures found
+Home device
+
+Temperature
+
+What it represents
+
+NEWA RF
+
+42°C / 107.6°F
+
+Automatic RF shutoff threshold listed in an FDA comparison
+
+CurrentBody Skin RF (U.S. cleared version)
+
+40–41°C / 104–105.8°F
+
+Temperature maintained by feedback control
+
+Sensica sensiLift
+
+40°C / 104°F
+
+Automatic RF shutoff threshold
+
+Sensica sensiLift Pro
+
+40 ± 0.5°C
+
+Maximum target treatment temperature in FDA submission
+
+TriPollar STOP family
+
+40–42°C / 104–107.6°F
+
+Manufacturer's recommended skin-treatment range
+
+Silk'n Titan family
+
+43°C / 109.4°F
+
+Thermal safety cutoff stated in a Titan MultiPlatform manual
+
+Sources include FDA filings K170499, K232424 and K250341, plus manufacturer documentation. 
+
+Access Data
++4
+
+The distinction is important: a safety cutoff isn't necessarily the temperature the device maintains continuously, and the temperatures measured at the surface aren't necessarily the temperatures achieved deeper in the dermis.
+
+2. Most interesting findings in the original FDA documents
+NEWA: actually measured 42.1°C
+
+The FDA De Novo review reports that during bench testing, the measured temperature rose from 37.1°C to 42.1°C, at which point the device stopped delivering RF. Its acceptance criterion was 42 ± 0.5°C.
+
+FDA DEN150005 — pages 5 and 7
+ 
+
+Access Data
+
+CurrentBody: a discrepancy between markets
+
+The U.S. FDA filing specifies a maximum of 40.5 ± 0.5°C, maintained using two temperature sensors. CurrentBody's international product listing instead describes a 43°C cutoff, with three power levels. The U.S. listing describes one power level and 40–41°C.
+
+This may reflect distinct regional versions, so I would not assume a 43°C model is equivalent to the U.S.-cleared ST030.
+
+FDA K232424 — pages 2–3
+ · 
+International product specifications
+ 
+
+Access Data
++2
+
+EndyMed patent: examples of 42.5°C and 43°C thresholds
+
+In 
+US 9,844,682 B2
+, the inventors describe temperature and motion sensors working together to prevent overheating. The specification gives 42.5°C and 43°C as illustrative surface-temperature thresholds.
+
+These are patent examples, not evidence that the marketed NEWA operates at those settings. Its FDA-reviewed cutoff was 42°C. 
+
+Google Patents
+
+FOREO FAQ 101 and FAQ 102
+
+I checked both manufacturer's manuals but could not establish a numerical target skin temperature. They describe RF intensity controls rather than a documented maintained temperature. 
+
+FOREO
++1
+
+3. Does a higher temperature mean better collagen remodeling?
+Not automatically. The relevant variables are the temperature reached in the dermis, how long that temperature is maintained, and how uniformly energy is distributed.
+
+A 43°C surface cutoff could produce different results from a 40°C cutoff depending on electrode spacing, electrical impedance, treatment duration, and tissue depth.
+
+Interestingly, CurrentBody's FDA documentation references tests on pig skin instrumented with multiple temperature probes. It reports comparable tissue-heating profiles to the TriPollar STOP U UXV predicate, but does not publish the individual depth-temperature measurements in the public summary. 
+
+Access Data
+
+For choosing a device, I would prioritize evidence of actual dermal heating and clinical wrinkle improvement over simply buying the product with the highest published temperature cutoff.
+
+The biggest research gap: We have fairly good data for surface temperatures in these home devices, but limited public measurements of dermal temperatures at specific depths. Those measurements would be much more useful for judging how effectively each device stimulates collagen without unnecessarily heating subcutaneous fat.
+
+Device	Over-The-Counter Radiofrequency Coagulation Device For Wrinkle Reduction
+Regulation Description	Electrosurgical device for over-the-counter aesthetic use.
+Definition	 An electrosurgical device for over-the-counter aesthetic use is a device using radiofrequency energy to produce localized heating within tissues for non-invasive aesthetic use.
+Physical State	Radiofrequency current generator and electrode applicators
+Technical Method	Radiofrequency electrical current (i.e., electrosurgical device)
+Target Area	skin wrinkles and rhytides
+Regulation Medical Specialty	General & Plastic Surgery
+Review Panel
+
+Can you try to find all 510k for radio home devices in last 10 years
+
+Worked for 2m 2s
+FDA 510(k) database: At-home RF wrinkle devices
+October 8, 2016 – October 8, 2026 | United States
+
+I identified the exact FDA classification you quoted:
+
+Product code PAY
+
+Regulation: 21 CFR 878.4420
+
+Classification: Class II
+
+Device type: Over-the-counter radiofrequency coagulation device for wrinkle reduction
+
+Purpose: Noninvasive RF heating for skin wrinkles and rhytides
+
+Official FDA classification record
+ 
+
+Access Data FDA
+
+A search of the FDA records indexed under PAY identifies 11 cleared 510(k) submissions during this period. Importantly, these are submissions, not necessarily 11 different devices: some are updated versions, and the category also includes Geneo X Elite systems that need to be distinguished from consumer handheld products. 
+
+FDA Report
+
+A separate FDA-code search revealed another home RF device
+Silk'n HST — K162784 (March 25, 2017) is an additional relevant 510(k). Its primary classification is OHS (light-based OTC wrinkle reduction), but the official FDA record also assigns PAY as a secondary code.
+
+The filing describes a home-use device combining 1 MHz RF with red and infrared LEDs.
+
+FDA clearance K162784
+
+Original FDA clearance and technical summary
+
+This is why searching only the primary PAY classification is insufficient for finding every combination-technology home RF device. 
+
+Access Data FDA
++1
+
+Complete cross-reference: 10 home-use 510(k) submissions identified
+Every FDA number below links to the official clearance record. Where the FDA publishes a technical summary, I've included that too.
+
+FDA clearance date
+
+Device and applicant
+
+Official FDA documents
+
+Mar 25, 2017
+
+Silk'n HST — Home Skinovations
+
+K162784
+ · 
+PDF
+
+Jun 15, 2017
+
+sensiLift — El Global Trade / Sensica
+
+K170499
+ · 
+PDF
+
+Jun 19, 2019
+
+TriPollar STOP U — Pollogen, black/white U.S. models
+
+K182774
+ · 
+PDF
+
+Feb 25, 2021
+
+TriPollar STOP U UXV — Pollogen
+
+K203665
+ · 
+PDF
+
+Apr 5, 2023
+
+FOREO FAQ 101
+
+K222012
+ · Statement rather than public summary
+
+May 4, 2023
+
+TriPollar STOP U UXV — Pollogen, updated indication
+
+K220322
+ · 
+PDF
+
+Aug 30, 2023
+
+Silk'n Titan AllWays — Silk'n Beauty
+
+K230013
+ · 
+PDF
+
+Mar 6, 2024
+
+CurrentBody Skin RF — El Global Trade
+
+K232424
+ · 
+PDF
+
+Jul 15, 2024
+
+FOREO FAQ 102
+
+K240616
+ · Statement rather than public summary
+
+Jan 6, 2026
+
+sensiLift Pro ST300 — El Global Trade / Sensica
+
+K250341
+ · 
+PDF
+
+These are ten clearances across six product families, not ten entirely unrelated RF technologies. The FDA documents confirm that the later TriPollar and sensiLift filings reference earlier cleared devices as predicates. 
+
+Access Data FDA
++2
+
+Additional PAY 510(k)s: two tabletop systems
+Date
+
+Device
+
+Official FDA documents
+
+May 7, 2024
+
+Geneo X Elite — Pollogen
+
+K233766
+ · 
+PDF
+
+Oct 12, 2025
+
+Geneo X Elite — Pollogen
+
+K242227
+
+These are technically under the OTC RF classification. However, Geneo X Elite uses a tabletop console with separate TriPollar RF and OxyGeneo applicators. I would exclude them from a comparison of handheld home-use devices. 
+
+Access Data FDA
++1
+
+What their FDA submissions reveal about heating
+Since you were also interested in target temperatures, these are some of the most useful specifications from the actual FDA summaries.
+
+Device
+
+RF specification
+
+Documented temperature limit
+
+sensiLift
+
+1 MHz, up to 9 ± 1 W total; selectable skin-level power
+
+40°C shutoff
+
+sensiLift Pro
+
+1 MHz, 6 ± 1 W maximum
+
+40 ± 0.5°C maximum
+
+CurrentBody Skin RF
+
+1 MHz, 5 ± 1 W
+
+40.5 ± 0.5°C maximum
+
+TriPollar STOP U / UXV
+
+1 MHz, 5.7 W nominal
+
+Temperature-controlled; numeric cutoff not specified in the public summaries
+
+Silk'n HST
+
+1 MHz, approximately 10 W stated specification
+
+Temperature stabilizer; no numerical setting disclosed
+
+Silk'n Titan AllWays
+
+1 MHz, 10 W ± 20%
+
+Temperature sensor; no numerical setting disclosed
+
+FOREO FAQ 101 / 102
+
+Public summaries not available
+
+Not established from the FDA listing
+
+The numerical results come from 
+K170499
+, 
+K250341
+ and 
+K232424
+. The remaining technical specifications come from the linked Silk'n and Pollogen 510(k) summaries. 
+
+Access Data FDA
++6
+
+An important older authorization
+NEWA Classic Starter Kit | NEWA
+NEWA Skin Therapy System
+
+FDA 
+DEN150005
+ — December 18, 2015.
+
+This was a De Novo authorization, not a 510(k), and falls outside the ten-year window. NEWA is still important because multiple later devices reference it as a predicate or reference device. 
+
+K162784.510kSummary.FINAL.docx
+
+Key conclusions
+The most important correction to make when assembling a regulatory inventory is that the number of 510(k) submissions does not equal the number of distinct FDA-cleared devices. Multiple submissions may represent changes to the same product family.
+
+I could verify 11 PAY-primary 510(k)s and one additional RF-containing OHS-primary 510(k), Silk'n HST, during the requested period. That gives the 12 records listed above, of which ten concern handheld home-use products.
+
+This is a strong working inventory for PAY-classified home RF wrinkle devices, but it is not a certified exhaustive audit of every multi-technology product filed under any other FDA primary code.
+
+For evaluating home RF effectiveness, I would focus next on the original clinical studies and thermal testing associated with K162784, K170499, K230013, K232424 and K250341. Those documents are particularly useful because they describe actual performance testing rather than just brand claims.
+
+Are there other frequencies that can get to the right depth and cause collagen remodeling
+
+Thinking of Nira laser or otherwise
+
+Worked for 1m 39s
+Yes. NIRA is one of the more interesting alternatives to home RF because it uses a laser to create controlled heating within the skin rather than passing electrical current through tissue.
+
+And there's another important candidate: the Tria Age-Defying Laser, which uses a different laser-delivery method and has published research showing actual microscopic treatment depths.
+
+For collagen remodeling, I would separate technologies into two categories:
+
+Thermal remodeling: RF, certain infrared lasers, and focused ultrasound heat tissue to trigger a repair response and collagen production.
+
+Nonthermal collagen stimulation: Red and near-infrared LEDs can influence fibroblast activity without reaching the temperatures typically used for thermal remodeling.
+
+1. Which frequencies and wavelengths matter?
+Technology
+
+Frequency / wavelength
+
+How it affects the skin
+
+At-home relevance
+
+RF
+
+Usually ~1–6.78 MHz
+
+Electrical resistance creates tissue heating
+
+High
+
+Nonablative infrared laser
+
+1,320–1,550 nm
+
+Water absorption creates localized heating in the skin
+
+High, especially 1,440–1,450 nm
+
+Fractional infrared laser
+
+1,440–1,550 nm
+
+Creates microscopic columns of thermal injury
+
+Tria is a notable home example
+
+Focused ultrasound
+
+Typically ~1–10 MHz
+
+Acoustic energy focuses heat at selected tissue depths
+
+Mostly professional; some home systems marketed
+
+Red / near-infrared LED
+
+~630–850 nm
+
+Photobiomodulation, generally without significant heating
+
+High, but different mechanism
+
+Longer-wavelength NIR LED
+
+~1,070 nm
+
+Nonthermal light effects are proposed
+
+Emerging; less convincing device-specific evidence
+
+Frequency alone does not determine depth. In RF, electrode geometry, impedance, delivered power, and contact time have major effects. With lasers, wavelength determines which tissue components absorb light, but delivered dose, spot size, pulse duration, and cooling also matter.
+
+For example, 1,450 nm light is absorbed strongly by water, making it suitable for heating the upper dermis. A wavelength that penetrates farther is not automatically better for collagen, because it may deposit less heat in the intended layer.
+
+2. NIRA: a particularly interesting temperature-based approach
+Launch List: The Best New Beauty Products in March | NewBeauty
+
+1,450 nm · Nonfractional thermal laser
+
+$699
+Official product
+ · 
+FDA K222685
+
+I found something especially useful in NIRA's own patent:
+
+US 10,695,582 B2 — Systems and methods for treating dermatological imperfections
+ (granted 2020).
+
+It describes gentle heat-shock stimulation rather than deliberately creating coagulated tissue. Its illustrative treatment parameters include:
+
+Target tissue temperature of approximately 37–45°C.
+
+An increase of 2–8°C above the initial tissue temperature.
+
+Heat exposure on the order of 2–10 seconds.
+
+An example heating calculation at 0.5 mm tissue depth.
+
+Stimulation of heat-shock proteins (HSPs), potentially promoting a regenerative response without overt tissue injury. 
+
+Google Patents
+
+This is interesting because it resembles the gentle heating philosophy behind NEWA and CurrentBody RF. However, the patent describes embodiments and examples—not verified temperatures attained by every marketed NIRA model.
+
+Actual FDA laser energy specifications
+Specification
+
+NIRA Precision (original)
+
+NIRA Model 2 / Pro
+
+Wavelength
+
+1,450 ± 20 nm
+
+1,450 ± 20 nm
+
+Maximum power
+
+2 W
+
+2 W
+
+Fluence levels
+
+2.16–2.97 J/cm²
+
+2.1–3.8 J/cm²
+
+Pulse train
+
+0.8 seconds
+
+2.0–3.1 seconds
+
+Fractional tissue injury
+
+No
+
+No
+
+These are the specifications in 
+FDA K222685
+, not independently verified specifications for the newer Pro 3. The FDA summary says both original models produce similar intracutaneous temperature elevation, but does not provide a measured temperature-versus-depth table. 
+
+Access Data FDA
+
+The original NIRA received clearance in 2017 under 
+K163137
+. Its 76-person, open-label clinical study reported at least a one-grade wrinkle improvement in 69% of participants. The 2023 Model 2 clearance relied on substantial equivalence rather than a separate clinical trial. 
+
+Access Data FDA
++1
+
+Importantly, an independent clinical study of a professional 1,450 nm diode laser found increased dermal collagen on biopsy six months after treatment. That supports the biological mechanism but doesn't prove the lower-energy home device produces identical histological changes. 
+
+PubMed
+
+3. Tria FRX: stronger evidence of controlled microscopic remodeling
+At Home Face Laser | Facial Laser Skin Rejuvenation | Tria FRX  – Tria Laser USA
+Tria FRX Skin Rejuvenating Fractional Laser (2nd Gen)
+
+1,440 nm · Fractional thermal laser
+
+$699.99
+Official product
+ · 
+Earlier-generation FDA K141868
+
+Tria is a particularly strong alternative to NIRA because its approach is different.
+
+NIRA seeks to heat tissue without deliberately damaging it. Tria creates many small, controlled microthermal treatment zones, leaving surrounding tissue largely untreated to support healing.
+
+A clinical investigation of an earlier Tria home-use fractional laser found:
+
+210–250 µm
+Measured thermal-coagulation column depth
+
+90%
+At least one-grade wrinkle improvement at end of active treatment, in blinded photo evaluations
+
+Earlier home-use fractional laser clinical trial, 124 completers; findings should not be assumed identical for the 2026 Tria FRX revision. 
+
+ScienceDirect
+Those microcolumns reached the superficial (papillary) dermis. This is much stronger direct evidence of precisely located thermal effects than merely stating that a device penetrates deeply.
+
+One caveat: the FDA record I verified is for the earlier Tria FANp, and I have not independently confirmed a new model-specific clearance for the second-generation FRX.
+
+4. What about devices that reach deeper?
+Ultherapy PRIME, Nonsurgical Lift - IVE MEDICAL SPA | 아이브 메디칼 스파 LA 한인타운 | 라스베가스
+Focused ultrasound — deeper, highly localized thermal treatment
+
+Professional Ultherapy systems can target approximately 1.5, 3.0, and 4.5 mm depths, depending on transducer. They can create localized thermal injury at selected depths.
+
+I would not assume consumer HIFU devices offer equivalent depth control or FDA clearance. Burns and nerve injury are important risks. 
+
+FDA
+
+The LYMA Laser – Clinic-Grade Cold Laser for Home Skincare
+LYMA Laser — 808 nm cold laser
+
+Uses near-infrared photobiomodulation rather than intentional tissue heating. Light may reach deeper tissues, but its mechanism is different from collagen remodeling caused by controlled thermal injury.
+
+Official technology details
+ 
+
+LYMA USA
+
+Omnilux Contour - Red Light Therapy
+– Christine Byer Esthetics
+Red and NIR LED — typically 633 and 830 nm
+
+A randomized, double-blinded study of 76 participants found increased collagen and elastic fibers on histology following LED treatment. This is real biological evidence, although the mechanism is not thermal remodeling. 
+
+PubMed
+
+My comparison for home collagen remodeling
+Device type
+
+Evidence of dermal effect
+
+Main limitation
+
+Tria fractional laser
+
+Histology of thermal microcolumns and clinical wrinkle improvement
+
+Treats superficial microzones; more irritation potential
+
+NIRA 1,450 nm
+
+Clinical wrinkle improvements and documented intracutaneous heating
+
+Public depth/temperature measurements are limited
+
+Home RF (NEWA, CurrentBody)
+
+Controlled heating near 40–43°C, plus wrinkle studies
+
+Actual heating depth varies; limited publicly disclosed dermal thermal maps
+
+808 nm laser / red-NIR LEDs
+
+Some evidence of improved collagen and wrinkles
+
+Generally nonthermal, so not equivalent to heat-induced remodeling
+
+Home HIFU
+
+Deep focused heating is technically possible
+
+Insufficient assurance of comparable home-device safety and performance
+
+For your particular goal—stimulating structural dermal collagen rather than just getting a temporary tightening effect—I would investigate NIRA and Tria before buying another RF device.
+
+Between them, Tria is more interesting if you value documented fractional thermal treatment in the dermis, while NIRA is more interesting if you prefer gentler, repeated thermal stimulation without intentional microscopic injury. Neither is proven superior head-to-head.
+
+I also wouldn't choose the deepest-penetrating device automatically. For facial rejuvenation, reaching the upper dermis and inducing a controlled response can be preferable to heating the subcutaneous fat layer.
+
+The next comparison I'd prioritize is NIRA vs. Tria vs. NEWA at actual dermal depths of 0.25, 0.5, 1.0, and 2.0 mm, using published histology and thermal measurements. That's the kind of evidence that can determine whether another home device would truly add something beyond your existing skincare routine.
+
+Can you try to compare all home rf devices. And find which has highest watts and rank them
+
+Also rated watts vs actual
+
+Worked for 1m 37s
+Home RF devices ranked by wattage
+Technical comparison | FDA filings, manufacturer specifications, and bench testing
+
+The biggest finding is that the strongest published wattage isn't necessarily the highest RF power reaching your skin. Some companies publish a hardware maximum, others publish the electrical power measured into a standard resistance, and others list the wattage of the power adapter.
+
+For collagen remodeling, the most useful specification is RF power delivered under a known load, followed by how the device controls temperature over time.
+
+1. Ranking: FDA-documented home RF devices
+These are the models for which I found sufficiently comparable electrical specifications in FDA documents.
+
+Rank
+
+Device
+
+Published maximum RF power
+
+Actual treatment or test-load power
+
+1
+
+Silk'n Titan AllWays / HST
+
+10 W ±20%
+
+Up to 10 W nominal; actual measured load values not public
+
+2
+
+NEWA 3DEEP
+
+10 W ±2 W
+
+Two duty-modulated settings; see below
+
+3
+
+Sensica sensiLift original
+
+9 W ±1 W
+
+3.5, 5.0, 6.5 W skin-level settings
+
+4
+
+Sensica sensiLift Pro
+
+6 W ±1 W
+
+6 W nominal maximum; tested at 200 Ω
+
+5
+
+TriPollar STOP U / UXV
+
+5.7 W ±10% RMS
+
+5.7 W into 200 Ω nominal
+
+6
+
+CurrentBody Skin RF, U.S. model
+
+5 W ±1 W
+
+5 W nominal maximum; tested at 200 Ω
+
+Source: FDA 
+K230013
+, 
+K170499
+, 
+K250341
+, 
+K203665
+, 
+K232424
+ and NEWA manufacturer's specifications. 
+
+accessdata.fda.gov
++5
+The standout detail: The original sensiLift is advertised in its FDA documentation as a 9 W device, but its highest selectable skin-level setting is only 6.5 W nominal. Its power validation was performed against a 200-ohm electrical load, with measured results meeting the specified tolerances. 
+
+accessdata.fda.gov
+
+That is the distinction you're looking for when asking about rated versus actual watts.
+
+2. Highest-wattage home RF devices worldwide
+Expanding beyond FDA-cleared models uncovers considerably higher advertised power outputs.
+
+Ranked by published maximum RF output, not independently verified continuous power delivered into skin. The ranking is provisional because load conditions differ or are undisclosed.
+
+Rank
+
+Device
+
+Published RF watts
+
+Evidence
+
+1
+
+Silk'n FaceTite MultiPlatform H2501
+
+20 W
+
+Manufacturer manual
+
+2
+
+
+18 W
+
+Manufacturer claim
+
+3=
+
+AMIRO R3 Turbo
+
+15 W
+
+Manufacturer claim
+
+3=
+
+AMIRO R1 Pro (U.S. listing)
+
+15 W
+
+Manufacturer claim; regional discrepancy
+
+5=
+
+Silk'n FaceTite Z
+
+10 W
+
+Manufacturer manual
+
+5=
+
+Silk'n FaceTite Mini H2600
+
+10 W
+
+Manufacturer manual
+
+5=
+
+Sensica SensiFirm (body)
+
+10 ±1 W
+
+Manufacturer specification
+
+5=
+
+Silk'n Titan AllWays / NEWA
+
+10 W
+
+FDA documentation
+
+9
+
+Sensica sensiLift
+
+9 W
+
+FDA documentation
+
+10
+
+sensiLift Pro
+
+6 W
+
+FDA documentation
+
+11
+
+TriPollar STOP U / UXV
+
+5.7 W
+
+FDA documentation
+
+12
+
+CurrentBody Skin RF
+
+5 W
+
+FDA documentation
+
+The 20 W discovery is especially interesting. Silk'n's own FaceTite MultiPlatform manual (model H2501) lists maximum RF output of 20 W and an adapter rated for 24 W. That's a genuine distinction between stated RF output and power-supply capacity; it is not simply mistaking a 24 W charger for a 24 W RF device. I could not confirm a U.S. FDA 510(k) specific to this model. 
+
+ManualsLib
++1
+
+페이스타이트 멀티플랫폼 - 실큰코리아
+Silk'n FaceTite MultiPlatform — 20 W
+
+1 MHz bipolar RF; replaceable attachments for different treatment areas.
+
+Official product
+ · 
+Official technical manual
+
+MimiSilk Vera RF Sculpt | 6.25MHz Gel-Free Radio Frequency Skin Lifting Device
+— 18 W
+
+6.25 MHz multipolar RF, gel-free operation. Manufacturer lists 4.5, 9 and 18 W settings. No independently published load testing was found.
+
+Power and temperature specifications
+ 
+
+MimiSilk
+
+AMIRO R3 Turbo Facial RF Skin Tightening Device - Gold (Bonus: Skin Care Pack) | BIG W
+AMIRO R3 Turbo — 15 W
+
+Japanese manufacturer listing describes an increase from 8 W to 15 W and a surface-temperature limit of 42°C. I found no published independent RF load test.
+
+AMIRO Japan specifications
+ · 
+Official U.S. product
+ 
+
+AMIRO
+
+There's a discrepancy worth flagging: AMIRO's Japanese R3 page describes its original R1 Pro as 8 W, while its U.S. R1 Pro listing specifies 15 W. I would not treat both versions as identical until the manufacturer explains the model-specific difference. 
+
+AMIRO
++1
+
+3. Rated power versus actually measured power
+Here is where the research becomes more revealing.
+
+NEWA — actual FDA-reviewed bench measurement
+
+Measured
+10 W
+Nominal RF output rating
+10 W
+Measured into a 360 Ω test load
+The FDA's De Novo review records an acceptance range of 8–12 W, and the measured result was exactly 10 W.
+
+However, the device uses pulsed operation: 300 milliseconds on per 750-millisecond cycle on the lower setting and 450 milliseconds on the higher setting. That corresponds to 40% and 60% duty cycles.
+
+If the 10 W on-pulse value applies throughout those cycles, the approximate time-averaged outputs would be 4 W and 6 W, respectively, before considering changes caused by temperature regulation or skin impedance.
+
+Read the FDA's actual bench results — page 7
+ 
+
+Access Data FDA
+
+This means a 10 W NEWA isn't necessarily applying 10 W continuously.
+
+The following summarizes exactly what can be established from the public documents:
+
+Device
+
+Rated RF watts
+
+Public measured RF watts
+
+Measurement conditions
+
+NEWA
+
+10 W
+
+10 W
+
+FDA-reviewed bench result, 360 Ω
+
+sensiLift original
+
+9 W hardware; 6.5 W maximum skin-level setting
+
+Not numerically disclosed
+
+FDA reports accuracy tests passed at 200 Ω
+
+sensiLift Pro
+
+6 W
+
+Not numerically disclosed
+
+FDA reports tests passed at 200 Ω
+
+CurrentBody RF
+
+5 W
+
+Not numerically disclosed
+
+FDA reports tests passed at 200 Ω
+
+TriPollar STOP U UXV
+
+5.7 W nominal RMS
+
+Not numerically disclosed
+
+Nominal specification at 200 Ω
+
+Silk'n Titan AllWays
+
+10 W
+
+Not numerically disclosed
+
+10 W ±20% specification
+
+Silk'n FaceTite MultiPlatform
+
+20 W
+
+Not found
+
+Manufacturer's maximum output specification
+
+MimiSilk Vera
+
+18 W
+
+Not found
+
+Manufacturer's advertised setting
+
+
+Access Data FDA
++7
+NEWA has the most useful publicly disclosed measured RF wattage I found. But even that is a bench measurement into a resistor, not an in-vivo measurement of RF power absorbed by the dermis. It is also manufacturer-submitted evidence reviewed by the FDA, rather than a separate independent comparative laboratory study.
+
+4. Other major home RF models whose output remains unknown
+Some popular devices cannot honestly be ranked by wattage because they publish frequencies, charging consumption, or qualitative power claims without a comparable RF output measurement.
+
+Device
+
+RF frequency
+
+Published electrical information
+
+Conclusion
+
+
+40.68 MHz
+
+RF power not established
+
+Cannot rank
+
+Panasonic Vitalift RF EH-SR85
+
+3 MHz
+
+7 W charging consumption
+
+Not 7 W RF
+
+Panasonic Vitalift RF EX EH-SR86
+
+4 MHz
+
+RF output not published
+
+Cannot rank
+
+Panasonic Vitalift RF LUXE EH-SR90
+
+1–6 MHz
+
+7 W charging consumption
+
+Not 7 W RF; releases Oct 31, 2026
+
+YA-MAN Photo PLUS Deep Lift
+
+1–4 MHz
+
+4.5 W charging consumption
+
+Not 4.5 W RF
+
+FOREO FAQ 101 / 102
+
+Not established from public FDA summary
+
+No comparable published watts
+
+Cannot rank
+
+TriPollar STOP Vx2
+
+0.85, 1.0, 1.15 MHz
+
+8 V × 1.5 A adapter rating
+
+12 W adapter capacity, not 12 W RF
+
+For example, Panasonic's 
+EH-SR90 specification
+ explicitly labels its 7 W as consumption while charging. YA-MAN does the same with its 4.5 W number. Medicube specifies its operating RF frequency without disclosing comparable treatment power. 
+
+Panasonic
++3
+
+5. What I would actually rank highest
+There are two different winners:
+
+Highest publicly specified RF maximum: Silk'n FaceTite MultiPlatform, at 20 W. It has a manufacturer manual rather than just a sales-page claim, but independent output measurements and device-specific U.S. FDA clearance were not established.
+
+Best evidence that a claimed wattage was actually produced: NEWA, at 10 W into 360 Ω in FDA-reviewed bench testing. Its temperature cutoff, pulse timing and clinical record are also unusually well documented.
+
+For effective collagen remodeling, I would not automatically rank 20 W above 10 W. I'd want the energy delivered per pulse, duty cycle, load impedance, electrode spacing, controlled tissue temperature, and heating depth. A higher-output device can reach its temperature limit more quickly without maintaining higher temperatures or producing better clinical results.
+
+One safety concern with chasing maximum wattage is unintended heating, including burns and potentially subcutaneous fat injury. More energy is only advantageous when its depth and temperature profile are controlled.
+
+My next research priority would be Silk'n FaceTite MultiPlatform versus NEWA versus MimiSilk Vera: these represent 20 W specified, 10 W bench-measured, and 18 W advertised respectively. The crucial missing evidence is testing all three at the same electrical load and comparing temperature rise at several dermal depths—not comparing the headline wattages alone.
+
+Mimisilk uses companies to manufacture goods for them. Can you try to track the source of their and see fda clearance and research more into their claims
+
+Worked for 40s
+Actually can you also check manual for battery energy amount and how long it says it should last and for each device likely try to come u with watt rating
+
+Worked for 2m 19s
+MimiSilk Vera RF: Manufacturer and FDA investigation
+Research updated October 8, 2026
+
+I found some important evidence about who operates MimiSilk, as well as reasons to question how its RF performance is advertised.
+
+1. Who actually owns MimiSilk?
+MimiSilk Vera RF Sculpt™ | 6.25MHz RF Skin Tightening Device
+MimiSilk Vera RF Sculpt
+
+6.25 MHz · Claimed 18 W maximum · $699 on official website
+
+Official product listing
+
+VERIFIED BRAND-OWNERSHIP TRAIL
+
+Trademark owner	
+Label Skincare Limited
+
+Jurisdiction	Hong Kong
+Incorporated	December 23, 2024
+Company registration	3495922
+U.S. trademark application	
+99732522
+ (March 2026)
+
+Sources: U.S. trademark records and Hong Kong business registry aggregation.
+
+This establishes a corporate connection to Hong Kong, but not the factory that produces Vera. A trademark owner can contract out engineering, manufacturing, certification, and distribution.
+
+One interesting discrepancy: MimiSilk's June 2026 press release describes celebrating 12 years as a brand, while this documented legal entity was incorporated in late 2024. That does not prove the company is misrepresenting its history—an earlier business could have existed—but I haven't established the connection between an older business and the current company.
+
+Major finding: MimiSilk Vera has a very close predecessor
+I found a Chinese RF device sold under the name DLUS D2, with the same unusual combination of specifications and operating method as MimiSilk Vera. The DLUS device was listed as early as 2023, before MimiSilk announced Vera in June 2026.
+
+DLUS D2 射頻美容儀 6.25MHz 淡化法令紋提拉嫩膚 - HaloHK
+DLUS D2
+
+Chinese-market RF device, listed in 2023
+
+Introducing MimiSilk Vera RF Sculpt: The Gel-Free RF Device Built for At-Home Skin Lifting
+MimiSilk Vera RF Sculpt
+
+Gold-colored U.S.-market product, launched 2026
+
+Both have a four-electrode head, 6.25 MHz frequency, gel-free operation, stationary approximately 10-second application, and a very similar body design. Their marketing also uses the distinctive term displacement current. 
+
+High Frequency Anti-Aging Dev
++2
+
+Detail
+
+DLUS D2
+
+MimiSilk Vera
+
+Brand
+
+DLUS
+
+MimiSilk
+
+Radiofrequency
+
+6.25 MHz
+
+6.25 MHz
+
+Application
+
+Stationary contact
+
+Stationary stamping
+
+Conductive gel
+
+Not required
+
+Not required
+
+Wattage
+
+18 W rated electrical power
+
+18 W claimed RF output
+
+Weight
+
+166.5 g
+
+178 g
+
+Original color
+
+Blue
+
+Gold
+
+The older DLUS listing identifies Shenzhen Guangxiang Technology Co., Ltd. (深圳市光向科技有限公司) as the manufacturer. 
+
+imeirongyi.com
++1
+
+This is a strong lead toward the hardware's origins. However, I have not yet found a purchase order, manufacturing agreement, or internal model-number record confirming that Guangxiang manufactures MimiSilk's specific gold device.
+
+Why the 18 W discrepancy matters
+The DLUS specification explicitly identifies 18 W as rated power consumption, not measured RF power delivered into tissue. MimiSilk instead advertises 18 W as RF output. Those are not interchangeable.
+
+If they share substantially the same internal electronics, the distinction could dramatically change Vera's position in our earlier wattage ranking. The original DLUS specification is available 
+here
+. 
+
+imeirongyi.com
++1
+
+2. Battery-energy audit: estimated electrical watts
+A particularly useful discovery is that MimiSilk Vera is corded, so it has no rechargeable battery whose capacity and runtime can be used to calculate its power draw. MimiSilk confirms that the device requires a power source during use. 
+
+mimisilk.com
+
+For cordless devices, the calculation is:
+
+Average draw (W)
+=
+Battery voltage (V)
+×
+Capacity (Ah)
+Runtime (hours)
+Average draw (W)= 
+Runtime (hours)
+Battery voltage (V)×Capacity (Ah)
+​
+ 
+This estimates the average power consumed by the whole device during a discharge—not the RF power entering skin.
+
+Device
+
+Battery energy
+
+Stated runtime
+
+Estimated average electrical draw
+
+FOREO FAQ 101
+
+3.7 Wh (3.7 V × 1,000 mAh)
+
+Up to 30 min
+
+7.4 W
+
+FOREO FAQ 102
+
+3.7 Wh (3.7 V × 1,000 mAh)
+
+Up to 30 min
+
+7.4 W
+
+AMIRO R3 Turbo
+
+~9.6 Wh, assuming 3.7 V × 2,600 mAh
+
+Not established
+
+Cannot calculate
+
+Silk'n FaceTite MultiPlatform
+
+4,000 mAh listed by a retailer; battery voltage not verified
+
+Up to 40 min
+
+Cannot reliably calculate
+
+Sensica sensiLift Pro
+
+Rechargeable, capacity not established
+
+Not established
+
+Cannot calculate
+
+Silk'n Titan AllWays
+
+Rechargeable, capacity not established
+
+~20 min claimed in a secondary manual
+
+Cannot reliably calculate
+
+The FOREO figures come from actual model manuals; AMIRO's 2,600 mAh figure comes from its technical manual and official product listing. Silk'n itself confirms the 40-minute MultiPlatform runtime. 
+
+FOREO
++5
+
+The FOREO finding is the clearest battery-based wattage estimate.
+
+3.7 Wh
+Stored battery energy
+7.4 W
+Implied average total draw over 30 minutes
+The 7.4 W figure assumes the battery delivers its nominal 3.7 Wh throughout the full stated runtime. Because FOREO says up to 30 minutes, a high-intensity RF setting may have a shorter runtime and higher draw. It is not evidence of 7.4 W of continuous RF output.
+
+Official FAQ 102 manual
+ · 
+Manual and specifications
+
+For AMIRO, the battery provides another useful consistency test. With an assumed 3.7 V lithium-ion pack, a 2,600 mAh capacity corresponds to approximately 9.6 Wh. Sustaining 15 W of total draw would exhaust that nominal energy in roughly 38 minutes, even before conversion losses. Actual full-power runtime could be shorter.
+
+Its manual also specifies 5 V × 3 A = 15 W input, which is a charging/input rating, not a measured RF output. That is another reason to avoid treating its advertised 15 W as proven RF treatment power. 
+
+Manuals Plus
++1
+
+3. More battery information from actual manuals and FDA filings
+I located two more useful battery specifications, including one from an FDA submission.
+
+Device
+
+Verified battery details
+
+Runtime
+
+What the numbers suggest
+
+Silk'n FaceTite MultiPlatform H2501
+
+4,000 mAh lithium battery; 12 V device rating, but cell voltage unspecified
+
+Up to 40 minutes
+
+At an assumed 3.7 V battery voltage: ~14.8 Wh and 22.2 W average total draw
+
+Silk'n Titan AllWays
+
+3.7 V, 2,600 mAh, from FDA
+
+Approximately 20 minutes reported by a secondary manual
+
+9.62 Wh; 28.9 W implied if the 20-minute runtime is accurate
+
+Sensica sensiLift Pro
+
+Rechargeable; 12 V, 1.8 A external supply
+
+Unknown
+
+21.6 W supply rating; 6 ± 1 W RF output
+
+NEWA
+
+Mains-powered, no treatment battery
+
+Not applicable
+
+10 W RF, measured at a 360 Ω test load
+
+CurrentBody RF
+
+Mains-powered
+
+Not applicable
+
+5 ± 1 W RF specified
+
+TriPollar STOP U
+
+Mains-powered
+
+Not applicable
+
+5.7 W RF specified
+
+MimiSilk Vera / DLUS D2
+
+Mains-powered; DLUS lists 18 W rated electrical power
+
+Not applicable
+
+Actual RF output unverified
+
+Panasonic EH-SR85 / EH-SR86
+
+Rechargeable lithium-ion; capacity unspecified
+
+Approx. 7 days / 4 days under manufacturer's respective usage conditions
+
+Cannot infer RF watts from charging consumption
+
+YA-MAN Photo Plus Deep Lift
+
+Rechargeable lithium-ion; capacity unspecified
+
+Approximately 30 minutes at maximum D×LIFT setting
+
+Actual RF watts unknown
+
+The Silk'n MultiPlatform numbers come from its 
+H2501 technical manual
+ and 
+official 40-minute runtime claim
+. The Titan battery specification comes directly from 
+FDA K230013
+. 
+
+Manuals+
++2
+
+Important qualifications: The 3.7 V assumption for MultiPlatform is not verified as its battery's nominal voltage. And Titan's 20-minute runtime comes from a less authoritative third-party manual. Its implied 28.9 W draw is therefore a consistency-check result, not a reliable measured power specification.
+
+Panasonic's 7 W and YA-MAN's 4.5 W specifications describe charging consumption, not RF delivery. 
+
+Panasonic
++2
+
+4. MimiSilk's claims versus the available evidence
+This is where the manufacturer investigation raises the most questions.
+
+MimiSilk Vera claim
+
+Independent verification
+
+Assessment
+
+6.25 MHz RF
+
+DLUS D2 also specifies 6.25 MHz
+
+Plausible, but a frequency-analyzer result for Vera is missing
+
+18 W RF output
+
+DLUS D2 reports 18 W electrical power
+
+Not verified; possible confusion between input and output
+
+2.5–3.0 mm heating depth
+
+No depth-resolved measurements located
+
+Unsubstantiated for this exact product
+
+Dermal heating to 49–52°C
+
+No thermal-probe study located
+
+Unsubstantiated; MimiSilk's own pages disagree
+
+No conductive gel required
+
+DLUS uses the same approach
+
+Plausible operating characteristic
+
+Faster collagen remodeling in 28 days
+
+No Vera-specific controlled clinical trial identified
+
+Marketing claim, not established comparative evidence
+
+FDA 510(k) clearance
+
+No Vera-specific 510(k) located
+
+Cannot verify an FDA clearance
+
+MimiSilk's product FAQ reports 49–50°C at Level 3, while its usage guide reports 52°C at the same 18 W setting. These are materially different thermal specifications. 
+
+MimiSilk
++1
+
+Its claim that displacement current bypasses the epidermis without energy loss also needs qualification. Capacitive coupling is a real electrical mechanism, but it does not eliminate losses or guarantee selective heating at a particular tissue depth. Higher frequency alone cannot establish deeper penetration; electrode spacing, skin dielectric properties, and geometry are critical. 
+
+Safely
+
+For the FDA investigation, I did not locate a Vera-specific clearance under MimiSilk, Label Skincare, DLUS, or Shenzhen Guangxiang in publicly searchable records. That is not proof of regulatory noncompliance, but the seller has not provided the clearance number needed to verify the product. The 
+FDA's searchable 510(k) database
+ remains the authoritative way to cross-check a supplied K-number.
+
+5. What is MimiSilk Vera's likely real RF wattage?
+A defensible measured estimate is not possible without an electrical load test. But the numbers permit a conditional estimate.
+
+If the MimiSilk device is electrically equivalent to DLUS D2 and its 18 W rating is maximum input consumption, its sustained RF output must be below 18 W because the power-conversion electronics consume energy.
+
+For illustration, assuming the device draws the full 18 W:
+
+Hypothetical conversion efficiency
+
+RF output
+
+50%
+
+9.0 W
+
+60%
+
+10.8 W
+
+70%
+
+12.6 W
+
+80%
+
+14.4 W
+
+These are scenarios, not measured efficiency figures for MimiSilk. The device may draw substantially less than 18 W, regulate power during treatment, or use different electronics from DLUS. This table cannot establish even a reliable minimum RF output.
+
+A wattmeter at the adapter could tell us real input power during operation. To establish RF output, a laboratory would need to measure the electrical power entering a characterized RF load and document the waveform, duty cycle, and impedance. Skin temperature measurements alone cannot substitute for that.
+
+6. What I would ask MimiSilk to provide
+At $699, I would want these documents before treating Vera as superior to an established FDA-cleared device:
+
+Exact OEM manufacturer and factory model number, plus whether the electronics are identical to DLUS D2.
+
+Electrical adapter label and the distinction between 18 W input, peak RF output, and RMS treatment output.
+
+RF output measurements at specified resistive loads, such as 200 Ω and 360 Ω.
+
+Thermocouple or equivalent depth-resolved testing supporting 2.5–3.0 mm heating and 49–52°C dermal temperatures.
+
+Product-specific clinical study, patent numbers, and any applicable FDA 510(k) or De Novo number.
+
+My conclusion: The DLUS D2 discovery gives us a plausible origin for Vera's design, but it also makes the 18 W RF claim less convincing. The exact match between DLUS's 18 W electrical rating and MimiSilk's advertised 18 W RF output is significant enough to demand a proper test report.
+
+Among these devices, I would still place more confidence in NEWA's FDA-reviewed 10 W load measurement than MimiSilk's unverified 18 W claim, and in Silk'n MultiPlatform's 20 W manufacturer-documented maximum than MimiSilk's marketing figure. Neither automatically guarantees better collagen remodeling.
+
+The highest-value next piece of evidence would be a photograph of Vera's actual adapter label and any model number on the device or manual. That could establish its electrical input ceiling and may reveal an OEM identifier that confirms or rules out the DLUS connection.
+
+
+
+
+63

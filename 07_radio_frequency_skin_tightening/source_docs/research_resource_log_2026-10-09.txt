@@ -1,0 +1,1101 @@
+RF power research resource log — 2026-10-09
+Scope: 117 comparison records, not unique devices; home focus plus generic and professional context.
+New document map: 19 power methods; 20 OEM/MimiSilk; 21 intake and source crosswalk; rf_power_explorer.html chart.
+
+[P01] NEWA De Novo — DEN150005
+URL: https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN150005.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN150005.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 10 W measured at 360 Ω; 8–12 W acceptance; 300/450 ms pulses per 750 ms; 42°C shutoff.
+Key record: [{"model": "Original wired 3DEEP", "RF": "10 W ±20%", "input_w": null, "input_kind": "Undisclosed", "load_ohm": 360, "battery_wh": null, "runtime_min": null, "temperature": "42°C sensor shutoff", "notes": "10 W bench result is explicit. Pulse duration 300/450 ms in 750 ms cycles. 4/6 W duty-average scenarios require 10 W to mean on-pulse power; document does not settle its averaging convention."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: FDA-submitted evidence; exact named model and intended use only. Regulatory specification is not a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P01.pdf; sha256 862a7d812869eacbdda05ef0102e9dea7a7709d4d16a906b8468b6d761655096
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P02] CurrentBody ST030 — K232424
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf23/K232424.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf23/K232424.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 5 ±1 W at 200 Ω; 9 V/1.5 A supply; 40.5 ±0.5°C maximum.
+Key record: [{"model": "Skin RF ST030 (US)", "RF": "5 W ±1", "input_w": 13.5, "input_kind": "9 V × 1.5 A external supply capacity", "load_ohm": 200, "battery_wh": null, "runtime_min": null, "temperature": "40.5 ±0.5°C maximum", "notes": "Power validation passed; exact measured number not published."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: FDA-submitted evidence; exact named model and intended use only. Regulatory specification is not a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P02.pdf; sha256 d9577b79e4d9f7ae1d6b4603cb9807bdb585aab245cf01364cac96f4737b7171
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P03] sensiLift original — K170499
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf17/K170499.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf17/K170499.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 9 ±1 W hardware specification; selectable 3.5/5/6.5 W; validated at 200 Ω; 40°C shutoff.
+Key record: [{"model": "sensiLift original", "RF": "9 W ±1 hardware; 6.5 W highest setting", "input_w": 13.5, "input_kind": "9 V × 1.5 A external supply (comparison in Pro filing)", "load_ohm": 200, "battery_wh": null, "runtime_min": null, "temperature": "40°C shutoff", "notes": "9 W hardware maximum differs from 3.5/5/6.5 W selectable skin-level settings. Validation passed, no numeric measured output published."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: FDA-submitted evidence; exact named model and intended use only. Regulatory specification is not a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P03.pdf; sha256 5e019e923a67a896592b57d61b4c3c9cfd4d265776d39be936e6eea016cd86e3
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P04] sensiLift Pro ST300 — K250341
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250341.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250341.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 6 ±1 W; selectable 3.5/5/6 W; 200 Ω validation; 40 ±0.5°C target.
+Key record: [{"model": "sensiLift Pro ST300", "RF": "6 W ±1", "input_w": 21.6, "input_kind": "12 V × 1.8 A external supply capacity", "load_ohm": 200, "battery_wh": null, "runtime_min": null, "temperature": "40 ±0.5°C maximum", "notes": "Selectable 3.5/5/6 W; validation passed; numeric measured results not disclosed."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: FDA-submitted evidence; exact named model and intended use only. Regulatory specification is not a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P04.pdf; sha256 5c64ca21c04e9b18b3c915507e0577cfcd18f4e73109fa74e5d882711173f893
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P05] TriPollar STOP U UXV — K203665
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf20/K203665.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf20/K203665.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 5.7 W ±10% RMS at 200 Ω; 8 V/1.5 A supply.
+Key record: [{"model": "STOP U UXV", "RF": "5.7 W ±10% RMS", "input_w": 12, "input_kind": "8 V × 1.5 A external supply capacity", "load_ohm": 200, "battery_wh": null, "runtime_min": null, "temperature": "Temperature-controlled; exact numeric cutoff not confirmed here", "notes": "Maximum RMS RF specification, not a numerical measurement report."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: FDA-submitted evidence; exact named model and intended use only. Regulatory specification is not a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P05.pdf; sha256 14f092c088e8d9ce84ee99fe77e6309cddc52ce9b3b1aac2d3ebf8ff02d650ca
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P06] Silk’n Titan AllWays — K230013
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf23/K230013.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf23/K230013.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 10 W ±20%; 3.7 V, 2600 mAh battery; output measurement numbers not published.
+Key record: [{"model": "Titan AllWays", "RF": "10 W ±20%", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": 9.62, "runtime_min": null, "temperature": "Undisclosed", "notes": "9.62 Wh nominal battery. Pasted 20-minute runtime has not been confirmed in this FDA record; no battery-average output inferred."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: FDA-submitted evidence; exact named model and intended use only. Regulatory specification is not a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P06.pdf; sha256 1be68eb91e43d8beb94fdd14435e406a3cf56e6be627107fac5a842d6584ff0d
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P07] Silk’n HST — K162784
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf16/K162784.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf16/K162784.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: RF-containing combined-energy home-use device; primary code OHS, not a separate PAY-only inventory.
+Key record: [{"model": "HST / legacy Titan clearance family", "RF": "10 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Combined RF/optical system; exact retail alias must be matched to its label."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: FDA-submitted evidence; exact named model and intended use only. Regulatory specification is not a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P07.pdf; sha256 5199349cc9f2f1a1c340119f495bb6bd9441bf12736350e9f5d453c3e69c3b3f
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P08] FOREO FAQ 101 — K222012
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf22/K222012.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf22/K222012.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: FDA device record; 510(k) statement does not disclose comparable RF wattage.
+Key record: [{"model": "FAQ 101", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": 3.7, "runtime_min": 30, "temperature": "Undisclosed", "notes": "3.7 Wh and up to 30 min give 7.4 W nominal whole-device average under the matching runtime condition. RF, EMS, LED and electronics share energy."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: FDA-submitted evidence; exact named model and intended use only. Regulatory specification is not a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P08.pdf; sha256 d962d3c5eefde11ece9f7f92b1df55cc5e8b8f50881123b14a8f0ddeb43c4918
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P09] FOREO FAQ 102 — K240616
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf24/K240616.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf24/K240616.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: FDA device record; 510(k) statement does not disclose comparable RF wattage.
+Key record: [{"model": "FAQ 102", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": 3.7, "runtime_min": 30, "temperature": "Undisclosed", "notes": "3.7 Wh and up to 30 min give 7.4 W nominal whole-device average under the matching runtime condition. RF, EMS, LED and electronics share energy."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: FDA-submitted evidence; exact named model and intended use only. Regulatory specification is not a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P09.pdf; sha256 c61c272a12f0a7bc8596e85d31228fcd44cf926713886a90e55d5d238f04c4ad
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P10] TempSure — K171262
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf17/K171262.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf17/K171262.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Professional 4 MHz platform; wrinkle mode up to 120 W; other modes up to 300 W.
+Key record: [{"model": "TempSure wrinkle mode", "RF": "120 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Professional context. Platform maximum, mode and applicator matter; not a home protocol, continuous absorbed skin power, or efficacy ranking."}, {"model": "TempSure tissue-heating mode", "RF": "300 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Professional context. Platform maximum, mode and applicator matter; not a home protocol, continuous absorbed skin power, or efficacy ranking."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: FDA-submitted evidence; exact named model and intended use only. Regulatory specification is not a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P10.pdf; sha256 791189d3b990794c8bd1137c5d791d6e9a672b164df3ba6a0b71d7fede8717d2
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P11] NIRA Model 2 — K222685
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf22/K222685.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf22/K222685.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 1450 ±20 nm; maximum optical power 2 W; original/model 2 fluence and pulse-train comparison.
+Key record: [{"model": "Original Precision / Model 2 Pro", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "2 W maximum optical output; not RF watts. Retained from pasted thermal comparison; see original technology topic. Do not rank alongside RF output."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: FDA-submitted evidence; exact named model and intended use only. Regulatory specification is not a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P11.pdf; sha256 5e9e9c03f89505981e0435848101849bec0988691a63e618c32da8ab996e68e3
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P12] Tria FANp — K141868
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf14/K141868.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf14/K141868.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Earlier fractional laser FDA record; does not establish power for a later FRX revision.
+Key record: [{"model": "FANp / older Age-Defying fractional laser", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Retained from pasted thermal comparison; see original technology topic. Do not rank alongside RF output."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: FDA-submitted evidence; exact named model and intended use only. Regulatory specification is not a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P12.pdf; sha256 39cae6e8b97a6dab28fa9487757358d01d33817cceb9ba274daa0ef15f45239d
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P13] TriPollar STOP U — K182774
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf18/K182774.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf18/K182774.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: STOP-family record, not all worldwide STOP models.
+Key record: [{"model": "STOP U", "RF": "5.7 W ±10% RMS", "input_w": null, "input_kind": "8 V × 1.5 A external supply capacity", "load_ohm": 200, "battery_wh": null, "runtime_min": null, "temperature": "Temperature-controlled; exact numeric cutoff not confirmed here", "notes": "Maximum RMS RF specification, not a numerical measurement report."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: FDA-submitted evidence; exact named model and intended use only. Regulatory specification is not a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P13.pdf; sha256 fde090c8fffa9ebe8f6b8b36f7f941f648988fef0e82974d2bd4a3450445c9fa
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P14] TriPollar STOP U UXV — K220322
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf22/K220322.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf22/K220322.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Updated STOP-family indication; not a new unrelated device.
+Key record: [{"model": "STOP U UXV", "RF": "5.7 W ±10% RMS", "input_w": 12, "input_kind": "8 V × 1.5 A external supply capacity", "load_ohm": 200, "battery_wh": null, "runtime_min": null, "temperature": "Temperature-controlled; exact numeric cutoff not confirmed here", "notes": "Maximum RMS RF specification, not a numerical measurement report."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: FDA-submitted evidence; exact named model and intended use only. Regulatory specification is not a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P14.pdf; sha256 8b27deeee34388a6369f9d1dabe4921497a7c485c0320c534bbe72f93c5eac13
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P15] Geneo X Elite — K233766
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf23/K233766.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf23/K233766.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Tabletop combined platform; distinct from handheld home models.
+Key record: [{"model": "Geneo X Elite", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "FDA platform records preserved. Do not assign a platform total or predicate wattage to this named handpiece without a model/mode match."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: FDA-submitted evidence; exact named model and intended use only. Regulatory specification is not a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P15.pdf; sha256 3e75f78807e77ec369a5066c4859027b6607d5458ca653b04529b9614be4be1b
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P16] Geneo X Elite update — K242227
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf24/K242227.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf24/K242227.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Later submission for same family; avoid double counting.
+Key record: [{"model": "Geneo X Elite", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "FDA platform records preserved. Do not assign a platform total or predicate wattage to this named handpiece without a model/mode match."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: FDA-submitted evidence; exact named model and intended use only. Regulatory specification is not a measured dermal dose.
+Local preservation: URL-only — no usable lawful local copy available
+Status/recheck: HTTP 404; capture unavailable; volatile product claims dated snapshot.
+
+[P17] Silk’n Titan MultiPlatform current North American IFU H2502 / HA2502
+URL: https://data.silkn.com/asset/2a5aa6ed-322e-4d0b-afbe-5fc694289137/Titan-MultiPlatform-UM-NA.pdf
+Resolved URL: https://data.silkn.com/asset/2a5aa6ed-322e-4d0b-afbe-5fc694289137/Titan-MultiPlatform-UM-NA.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 15 W combined maximum; 12 V/2 A/24 W adapter; 3.7 V/4000 mAh battery; 43°C cutoff; RF/load curves.
+Key record: [{"model": "Titan MultiPlatform H2502 + HA2502 (current NA IFU)", "RF": "15 W", "input_w": 24, "input_kind": "12 V × 2 A supply capacity", "load_ohm": null, "battery_wh": 14.8, "runtime_min": 40, "temperature": "43°C surface cutoff", "notes": "Current official IFU says 15 W combined. Historical 20 W IFU is separate below. 40-minute website runtime is not a specified full-power load test."}, {"model": "Titan MultiPlatform H2502 + HA2502 (historical IFU)", "RF": "20 W", "input_w": 24, "input_kind": "12 V × 2 A supply capacity", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "43°C surface cutoff", "notes": "Historical manufacturer manual mirrored by device.report. Current official NA manual is 15 W. Same name/model cannot identify revision; not an extra unique device."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P17.pdf; sha256 ad025e37334c967622f29e11a86c55eb3abd324cf56c738c5762c4fd77bec2c2
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P18] Silk’n Titan Mini H2600 IFU
+URL: https://data.silkn.com/m/1b96e6d4c98d2a1a/original/Titan-Mini-UM-NA.pdf
+Resolved URL: https://data.silkn.com/m/1b96e6d4c98d2a1a/original/Titan-Mini-UM-NA.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 10 W RF maximum; 3.7 V/600 mAh; up to 30 min; 5 V/2 A charger; 43°C cutoff.
+Key record: [{"model": "Titan Mini H2600", "RF": "10 W", "input_w": 10, "input_kind": "5 V × 2 A charging supply capacity", "load_ohm": null, "battery_wh": 2.22, "runtime_min": 30, "temperature": "43°C surface cutoff", "notes": "2.22 Wh / 0.5 h = 4.44 W nominal total-draw estimate. Stated runtime is not a continuous 10 W test."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P18.pdf; sha256 ab55f73bae91222d6d625aa066d7d740a6695cd5f0e5213cf7b8a9f9d4097c18
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P19] Silk’n FaceTite MultiPlatform H2501 EU IFU
+URL: https://data.silkn.com/m/3675be4e752dbebb/original/FaceTite-MultiPlatform-UM.pdf
+Resolved URL: https://data.silkn.com/m/3675be4e752dbebb/original/FaceTite-MultiPlatform-UM.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: EU H2501 RF maximum 20 W; 4000 mAh battery; retain regional model distinction.
+Key record: [{"model": "FaceTite MultiPlatform H2501 EU", "RF": "20 W", "input_w": 24, "input_kind": "12 V × 2 A adapter capacity", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Battery mAh disclosed, cell nominal voltage not established from this IFU. Device 12 V rating must not be used as battery voltage."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P19.pdf; sha256 adcb54ecde8476dd345c6a1b6d5f8373b2e1d29bb95a20bef661c8d8bf1fc3f2
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P20] Original Silk’n Titan manufacturer IFU
+URL: https://m.media-amazon.com/images/I/91wCR6lIVGS.pdf
+Resolved URL: https://m.media-amazon.com/images/I/91wCR6lIVGS.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 10 W maximum RF; H2111/H2112; 12 V/1.5 A supply.
+Key record: [{"model": "Titan original H2111/H2112", "RF": "10 W", "input_w": 18, "input_kind": "12 V × 1.5 A supply capacity", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Corded. Shared model numbers in FaceTite manuals do not prove identical regional output."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P20.pdf; sha256 4743ec778a869979ca320adc86a9818d3539e339475a78327d40c0be35663e5c
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P21] Silk’n current Titan MultiPlatform product
+URL: https://www.silkn.com/skincare-devices/facial-rejuvenation-devices/titan-multiplatform-with-free-gel-SKUS000057.html?cgid=skin-care_facial-rejuvenation
+Resolved URL: https://www.silkn.com/skincare-devices/facial-rejuvenation-devices/titan-multiplatform-with-free-gel-SKUS000057.html?cgid=skin-care_facial-rejuvenation
+Accessed: 2026-10-09 America/Chicago
+Class: official product
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Current product identity and link to current North American IFU; cordless/usable while charging.
+Key record: [{"model": "Titan MultiPlatform H2502 + HA2502 (current NA IFU)", "RF": "15 W", "input_w": 24, "input_kind": "12 V × 2 A supply capacity", "load_ohm": null, "battery_wh": 14.8, "runtime_min": 40, "temperature": "43°C surface cutoff", "notes": "Current official IFU says 15 W combined. Historical 20 W IFU is separate below. 40-minute website runtime is not a specified full-power load test."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P21.html; sha256 9b4919a6578ddf5e50c7d7be796b9141e662413701b5d1aecd9aded7e3031129
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P22] FOREO FAQ 101 manual
+URL: https://www.foreo.com/manuals/faq-swiss-101
+Resolved URL: https://www.foreo.com/manuals/faq-swiss-101
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 1000 mAh at 3.7 V; up to 30 minutes use per charge.
+Key record: [{"model": "FAQ 101", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": 3.7, "runtime_min": 30, "temperature": "Undisclosed", "notes": "3.7 Wh and up to 30 min give 7.4 W nominal whole-device average under the matching runtime condition. RF, EMS, LED and electronics share energy."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P22.html; sha256 11ebfd5928d0b924ae2fcec4b36f3364ca7ca4e787672938e24dedf4a69b9870
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P23] FOREO FAQ 102 manual
+URL: https://www.foreo.com/manuals/faq-swiss-102
+Resolved URL: https://www.foreo.com/manuals/faq-swiss-102
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 1000 mAh at 3.7 V; up to 30 minutes use per charge.
+Key record: [{"model": "FAQ 102", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": 3.7, "runtime_min": 30, "temperature": "Undisclosed", "notes": "3.7 Wh and up to 30 min give 7.4 W nominal whole-device average under the matching runtime condition. RF, EMS, LED and electronics share energy."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P23.html; sha256 6aaaa9eae90f42f91dc7a5176063000ebc15aee91979140ef267411e9fb7645e
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P24] MimiSilk Vera product
+URL: https://www.mimisilk.com/products/mimisilk-vera-rf-sculpt-6-25mhz-gel-free-radio-frequency-skin-lifting-device
+Resolved URL: https://www.mimisilk.com/products/mimisilk-vera-rf-sculpt-6-25mhz-gel-free-radio-frequency-skin-lifting-device
+Accessed: 2026-10-09 America/Chicago
+Class: official product
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 6.25 MHz; claims 4.5/9/18 W settings; corded; high-setting dermal temperature claims.
+Key record: [{"model": "Vera RF Sculpt", "RF": "4.5 / 9 / 18 W claimed", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "49–50°C FAQ vs 52°C guide claimed dermal values; no measured thermal map", "notes": "Brand calls 18 W output; similar DLUS listing says 18 W supply/consumption. OEM connection unconfirmed. Corded Vera, no battery estimate."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P24.html; sha256 5441fd1686aeeeb960137822a0e71bd6dfbdc71a91c1b0feddb3ade9263ab8e2
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P25] MimiSilk Vera use guide
+URL: https://www.mimisilk.com/blogs/news/how-to-use-mimisilk-vera-rf-sculpt-full-guide-expected-results
+Resolved URL: https://www.mimisilk.com/blogs/news/how-to-use-mimisilk-vera-rf-sculpt-full-guide-expected-results
+Accessed: 2026-10-09 America/Chicago
+Class: official product
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 4.5/9/18 W and 45/48/52°C marketing setting table.
+Key record: [{"model": "Vera RF Sculpt", "RF": "4.5 / 9 / 18 W claimed", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "49–50°C FAQ vs 52°C guide claimed dermal values; no measured thermal map", "notes": "Brand calls 18 W output; similar DLUS listing says 18 W supply/consumption. OEM connection unconfirmed. Corded Vera, no battery estimate."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P25.html; sha256 49481dc1b13e3a9330f7537e30bfda2af3d32066be5f061d59e4f9fc7005f763
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P26] MimiSilk professional-frequency claims
+URL: https://www.mimisilk.com/blogs/news/professional-grade-rf-frequency-at-home-how-mimisilk-vera-closes-the-gap-safely
+Resolved URL: https://www.mimisilk.com/blogs/news/professional-grade-rf-frequency-at-home-how-mimisilk-vera-closes-the-gap-safely
+Accessed: 2026-10-09 America/Chicago
+Class: official product
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 18 W claim; 2.5–3 mm claimed penetration; faster results narrative; no cited exact-device load test.
+Key record: [{"model": "Vera RF Sculpt", "RF": "4.5 / 9 / 18 W claimed", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "49–50°C FAQ vs 52°C guide claimed dermal values; no measured thermal map", "notes": "Brand calls 18 W output; similar DLUS listing says 18 W supply/consumption. OEM connection unconfirmed. Corded Vera, no battery estimate."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P26.html; sha256 ff36a122599e75ab6e4b71c2415a0437f3e9194fa9efdac82c7b82ec02fa1362
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P27] DLUS D2 supplier lead in Chinese device directory
+URL: https://imeirongyi.com/vs/mid-10-temp-125-einfoids-843%2C906.html
+Resolved URL: https://imeirongyi.com/vs/mid-10-temp-125-einfoids-843%2C906.html
+Accessed: 2026-10-09 America/Chicago
+Class: secondary directory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Directory names Shenzhen Guangxiang; 6.25 MHz; 18 W supply power; April 2023 listing.
+Key record: [{"model": "Vera RF Sculpt", "RF": "4.5 / 9 / 18 W claimed", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "49–50°C FAQ vs 52°C guide claimed dermal values; no measured thermal map", "notes": "Brand calls 18 W output; similar DLUS listing says 18 W supply/consumption. OEM connection unconfirmed. Corded Vera, no battery estimate."}, {"model": "D2", "RF": "Not disclosed / not verified", "input_w": 18, "input_kind": "Seller consumption / directory supply power", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Directory names Shenzhen Guangxiang. Retailer says rechargeable/cordless; pasted notes say mains. No battery voltage/capacity/runtime verified. Factory relationship to Vera is a lead."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Lead only: not primary factory documentation and not proof of MimiSilk OEM identity. Power and corded/cordless descriptions need label confirmation.
+Local preservation: URL-only — no usable lawful local copy available
+Status/recheck: HTTP 500; capture unavailable; volatile product claims dated snapshot.
+
+[P28] DLUS D2 retailer
+URL: https://mycosmeticslondon.co.uk/products/professional-rf-facial-device-for-skin-lifting
+Resolved URL: https://mycosmeticslondon.co.uk/products/professional-rf-facial-device-for-skin-lifting
+Accessed: 2026-10-09 America/Chicago
+Class: seller listing
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Seller lists 18 W power consumption and rechargeable/cordless; conflicts with corded description in pasted notes.
+Key record: [{"model": "Vera RF Sculpt", "RF": "4.5 / 9 / 18 W claimed", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "49–50°C FAQ vs 52°C guide claimed dermal values; no measured thermal map", "notes": "Brand calls 18 W output; similar DLUS listing says 18 W supply/consumption. OEM connection unconfirmed. Corded Vera, no battery estimate."}, {"model": "D2", "RF": "Not disclosed / not verified", "input_w": 18, "input_kind": "Seller consumption / directory supply power", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Directory names Shenzhen Guangxiang. Retailer says rechargeable/cordless; pasted notes say mains. No battery voltage/capacity/runtime verified. Factory relationship to Vera is a lead."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Source establishes what seller advertises, not a verified battery or measured RF output.
+Local preservation: source_docs/power_audit_2026-10-09/P28.html; sha256 7181f9f73519af05c33e3ae09e7147ec4fce9d57d1817677300993f789d5c1d0
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P29] AMIRO R1 PRO US listing
+URL: https://amirobeauty.com/products/amiro-high-radiofrequency-skincare-device
+Resolved URL: https://amirobeauty.com/products/amiro-high-radiofrequency-skincare-device
+Accessed: 2026-10-09 America/Chicago
+Class: official product
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 15 W marketing value; RF test load and duty cycle not stated.
+Key record: [{"model": "R1 PRO (US listing)", "RF": "15 W claim; 8 W predecessor discrepancy", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Regional/version ambiguity: upgrade narrative says 8 W to 15 W. No common test load or duty-cycle record; do not infer 15 W RF from charger."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P29.html; sha256 612afaba0643a9e8fdee59becc9473dd1ceadf1a4eced3d37a8c75feb3a7d8cb
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P30] AMIRO submitted R3 URL (redirects to R1 PRO)
+URL: https://amirobeauty.com/products/r3-turbo-facial-rf-skin-tightening-device
+Resolved URL: https://amirobeauty.com/products/amiro-high-radiofrequency-skincare-device
+Accessed: 2026-10-09 America/Chicago
+Class: official product
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Submitted R3 product URL now redirects to R1 PRO. Use P31 for the R3 15 W upgrade claim.
+Key record: [{"model": "R3 Turbo", "RF": "15 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Explicit 8 to 15 W upgrade claim. Pasted 2600 mAh and 5 V/3 A manual lead awaits exact original manual; battery cell voltage/runtime unknown."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Redirect is not an exact current R3 product specification; no RF load test or battery confirmation.
+Local preservation: source_docs/power_audit_2026-10-09/P30.html; sha256 10bc7eb7ede473375138ae1a04fd11d59b28281e8fec6ed9c38634cd5d5adbdd
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P31] AMIRO upgrade comparison
+URL: https://amirobeauty.com/pages/30-day-challenge
+Resolved URL: https://amirobeauty.com/pages/30-day-challenge
+Accessed: 2026-10-09 America/Chicago
+Class: official product
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Explicit 8 W to 15 W upgrade narrative; cannot reconcile all regional R1 specifications.
+Key record: [{"model": "R1 PRO (US listing)", "RF": "15 W claim; 8 W predecessor discrepancy", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Regional/version ambiguity: upgrade narrative says 8 W to 15 W. No common test load or duty-cycle record; do not infer 15 W RF from charger."}, {"model": "R3 Turbo", "RF": "15 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Explicit 8 to 15 W upgrade claim. Pasted 2600 mAh and 5 V/3 A manual lead awaits exact original manual; battery cell voltage/runtime unknown."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P31.html; sha256 36080df6a188429120fcb30317f1710f222eabc8081ba2133cdb69c11c23ca22
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P32] Sensica SensiFirm
+URL: https://sensica.com/products/sensifirm
+Resolved URL: https://sensica.com/products/sensifirm
+Accessed: 2026-10-09 America/Chicago
+Class: official product
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 10 ±1 W; 1 ±0.05 MHz; 41°C surface auto-stop; body product.
+Key record: [{"model": "SensiFirm body", "RF": "10 W ±1", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "41°C auto-stop (brand)", "notes": "Body/cellulite product; do not substitute its area or protocol for facial use."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P32.html; sha256 b4d17c97f784f4bf6e76e660f24ac4374847e1813b2f3dda7904213d7155c386
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P33] MLAY RF01
+URL: https://mlay.co/product/rf01/
+Resolved URL: https://mlay.co/product/rf01/
+Accessed: 2026-10-09 America/Chicago
+Class: seller/brand listing
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 1 MHz; claimed output 25 W face / 50 W body; rated input 50 W.
+Key record: [{"model": "RF01 face probe", "RF": "25 W", "input_w": 50, "input_kind": "Rated total input (listing)", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Temperature adjustment claimed; calibrated numerical cutoff unverified", "notes": "Listing calls this output. RF01 naming across sellers is not evidence of identical electronics."}, {"model": "RF01 body probe", "RF": "50 W", "input_w": 50, "input_kind": "Rated total input (listing)", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "50 W claimed RF equals 50 W input rating: continuous equality would leave no allowance for losses. Peak/control convention unspecified."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Multiple MLAY domains; this is an attributed listing, not independently authenticated factory identity or a load test. 50 W output and 50 W input cannot establish continuous equal power.
+Local preservation: source_docs/power_audit_2026-10-09/P33.html; sha256 d59235a92fa7236142fb6e0d3f572ed1664a435f5259b769b4ba24846c280113
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P34] MLAY catalogue
+URL: https://www.mlayofficial.com/collections/all
+Resolved URL: https://www.mlayofficial.com/collections/all
+Accessed: 2026-10-09 America/Chicago
+Class: official product
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: RF01/RF02/S3 inventory extension; no comparable RF output verified for RF02/S3.
+Key record: [{"model": "RF02", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Catalogue/model inventory; exact comparable RF output not recovered."}, {"model": "S3 handheld", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Catalogue/model inventory; exact comparable RF output not recovered."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P34.html; sha256 1ddd6e3bbe0864e7f2ec4f00c4bb659a7b6efde8659b9e9014a003dbdca3bfda
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P35] Konmison LB056B
+URL: https://www.konmison.com/product-item/3-in-1-rf-radio-frequency-facial-machine/
+Resolved URL: https://www.konmison.com/product-item/3-in-1-rf-radio-frequency-facial-machine/
+Accessed: 2026-10-09 America/Chicago
+Class: official product
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 2 MHz bipolar; 55 W consumption; 1–15 J/cm² claimed output energy; continuous mode.
+Key record: [{"model": "LB056B three-probe tabletop", "RF": "Not disclosed / not verified", "input_w": 55, "input_kind": "Power consumption", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Numeric skin cutoff unverified", "notes": "1–15 J/cm² seller energy claim cannot be converted to watts without time and electrode area. Listing also says IPL+RF; exact optical hardware unspecified."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P35.html; sha256 2e261084809e800565585e3d08dd9c9baec31b70aa546f046f876acea92a1f5c
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P36] FREYARA Mini 3in1 RF
+URL: https://it.freyara.com/products/mini-3in1-rf-dispositivo-di-bellezza-ringiovanimento-lifting-rimozione-delle-rughe-rassodamento-della-pelle-per-viso-e-occhi
+Resolved URL: https://it.freyara.com/products/mini-3in1-rf-dispositivo-di-bellezza-ringiovanimento-lifting-rimozione-delle-rughe-rassodamento-della-pelle-per-viso-e-occhi
+Accessed: 2026-10-09 America/Chicago
+Class: seller listing
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 1 MHz; 20–50 W handle power claim; 24 V/3 A supply capacity.
+Key record: [{"model": "Mini 3in1 RF / FY04.0208US family", "RF": "20–50 W handle claim", "input_w": 72, "input_kind": "24 V × 3 A supply capacity", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "20–50 W handle claim, no load/duty convention. Appearance does not prove same factory/electronics as Konmison."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P36.html; sha256 794ddb026f9871eede197228937022b1eb2c018e8c2f59f9f61267b314cfaabe
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P37] FREYARA 2in1 RF
+URL: https://it.freyara.com/products/dispositivo-di-bellezza-rf-2in1-con-3-sonde-e-6-sonde-ringiovanimento-sollevamento-rimozione-delle-rughe-rassodamento-della-pelle-per-viso-e-occhi
+Resolved URL: https://it.freyara.com/products/dispositivo-di-bellezza-rf-2in1-con-3-sonde-e-6-sonde-ringiovanimento-sollevamento-rimozione-delle-rughe-rassodamento-della-pelle-per-viso-e-occhi
+Accessed: 2026-10-09 America/Chicago
+Class: seller listing
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Related 2-probe device; separate product identity and power descriptors.
+Key record: [{"model": "2in1 RF tripolar handle", "RF": "20–30 W handle claim", "input_w": 72, "input_kind": "24 V × 3 A supply capacity", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Seller lists tripolar 20–30 W; keep separate from hexapolar handle."}, {"model": "2in1 RF hexapolar handle", "RF": "50–60 W handle claim", "input_w": 72, "input_kind": "24 V × 3 A supply capacity", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Seller lists hexapolar 50–60 W. Same console as tripolar row; not a separate unique device."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P37.html; sha256 af3d972183ef5264fa5a51c66de03b7e9fc1f37903170096a917081ef237ddff
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P38] FREYARA 3in1 manual FY04.0208US
+URL: https://img.freyara.com/catalog/instruction/FY04.0208US.pdf
+Resolved URL: https://img.freyara.com/catalog/instruction/FY04.0208US.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: supplier manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Supplier manual; technical evidence recovery for generic 3-probe family.
+Key record: [{"model": "Mini 3in1 RF / FY04.0208US family", "RF": "20–50 W handle claim", "input_w": 72, "input_kind": "24 V × 3 A supply capacity", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "20–50 W handle claim, no load/duty convention. Appearance does not prove same factory/electronics as Konmison."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P38.pdf; sha256 9041a768de104228c29a60b45e93d53a1192dd383c1ec54e4f101220ed933ea3
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P39] MYCHWAY CET RET Face Lifting
+URL: https://us.mychway.com/product/cet-ret-rf-face-lifting-skin-care-winkle-removal
+Resolved URL: https://us.mychway.com/product/cet-ret-rf-face-lifting-skin-care-winkle-removal
+Accessed: 2026-10-09 America/Chicago
+Class: seller listing
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: RET S/M/L/XL 130/150/200/300 W; CET S/M/L/XL 65/60/70/110 W seller claims.
+Key record: [{"model": "CET RET console · RET S electrode", "RF": "130 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Console/electrode configuration, not eight unique devices. No specified load, duty cycle or independently measured output. Larger body electrodes cannot define a facial maximum."}, {"model": "CET RET console · RET M electrode", "RF": "150 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Console/electrode configuration, not eight unique devices. No specified load, duty cycle or independently measured output. Larger body electrodes cannot define a facial maximum."}, {"model": "CET RET console · RET L electrode", "RF": "200 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Console/electrode configuration, not eight unique devices. No specified load, duty cycle or independently measured output. Larger body electrodes cannot define a facial maximum."}, {"model": "CET RET console · RET XL electrode", "RF": "300 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Console/electrode configuration, not eight unique devices. No specified load, duty cycle or independently measured output. Larger body electrodes cannot define a facial maximum."}, {"model": "CET RET console · CET S electrode", "RF": "65 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Console/electrode configuration, not eight unique devices. No specified load, duty cycle or independently measured output. Larger body electrodes cannot define a facial maximum."}, {"model": "CET RET console · CET M electrode", "RF": "60 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Console/electrode configuration, not eight unique devices. No specified load, duty cycle or independently measured output. Larger body electrodes cannot define a facial maximum."}, {"model": "CET RET console · CET L electrode", "RF": "70 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Console/electrode configuration, not eight unique devices. No specified load, duty cycle or independently measured output. Larger body electrodes cannot define a facial maximum."}, {"model": "CET RET console · CET XL electrode", "RF": "110 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Console/electrode configuration, not eight unique devices. No specified load, duty cycle or independently measured output. Larger body electrodes cannot define a facial maximum."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Not a comparable handheld facial load measurement; electrode size and modality must stay explicit; no exact-model U.S. clearance verified here.
+Local preservation: source_docs/power_audit_2026-10-09/P39.html; sha256 6f22ae29f9d85a00bc33b9dd01348916de847daf25e7f79acb03ff4a31419096
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P40] MYCHWAY MS-11Y3 supplier manual
+URL: https://manual.mychway.com/UserManual/ms-11y3instructionnew.pdf
+Resolved URL: https://manual.mychway.com/UserManual/ms-11y3instructionnew.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: supplier manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Generic RF machine manual; avoid equating its supply power to skin RF.
+Key record: [{"model": "MS-11Y3 generic RF family", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Supplier manual preserved; no unambiguous comparable RF-output figure extracted."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P40.pdf; sha256 434a2cf2bc25bbbca5b2e56b1f1505fb2f4cc1adbde1f9b27688009a08a01999
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P41] NEO Alpha / NEO Plus manufacturer
+URL: https://www.rf-skincare.com/shop/view.html?cpage_pq=182&spage_pq=181&uid=32
+Resolved URL: https://www.rf-skincare.com/shop/view.html?cpage_pq=182&spage_pq=181&uid=32
+Accessed: 2026-10-09 America/Chicago
+Class: official product
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: NEO Alpha RF controller marketing; 300 W headline in pasted research remains mode/consumption ambiguous.
+Key record: [{"model": "Alpha controller", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "300 W headline in pasted research and Q&A; Alpha face/Soft RF power not established. No numeric RF ranking; directory consumption for Plus does not prove Alpha equivalence."}, {"model": "Plus RF-300W", "RF": "Not disclosed / not verified", "input_w": 300, "input_kind": "Secondary directory consumption, label unverified", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "300 W consumption is not 300 W RF output. Separate from handheld home devices."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P41.html; sha256 d775fa58d8802dcb3fc706205b156dc5a178c775449d7ccfad7d9697193c6231
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P42] Panasonic EH-SR90 specification
+URL: https://panasonic.jp/face/products/EH-SR90/spec.html
+Resolved URL: https://panasonic.jp/face/products/EH-SR90/spec.html
+Accessed: 2026-10-09 America/Chicago
+Class: official product
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 7 W explicitly while charging; approximately 4 days runtime under manufacturer use conditions.
+Key record: [{"model": "Vitalift RF LUXE EH-SR90", "RF": "Not disclosed / not verified", "input_w": 7, "input_kind": "Consumption while charging", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface or dermal target verified; no validated thermal map located", "notes": "Carried forward from 2026-10-02 market census; comparable RF-output watts not established. Official specs: 1–6 MHz RF, eight electrodes and five modes; no exact-model peer-reviewed trial located"}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P42.html; sha256 5677636386b90b2829b94fe43574e06750ea4e740fb73b69600d32c6e9fef3c5
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P43] Panasonic EH-SR85 specification
+URL: https://panasonic.jp/face/products/EH-SR85/spec.html
+Resolved URL: https://panasonic.jp/face/products/EH-SR85/spec.html
+Accessed: 2026-10-09 America/Chicago
+Class: official product
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Charging consumption and runtime conditions; not RF output.
+Key record: [{"model": "Vitalift RF EH-SR85", "RF": "Not disclosed / not verified", "input_w": 7, "input_kind": "Consumption while charging", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Carried forward from 2026-10-02 market census; comparable RF-output watts not established. Multimodal cosmetic claims"}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P43.html; sha256 3b5344002219120e9f8ecb8770c00857dac9e4c37032824c6c9745049ee15993
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P44] Panasonic EH-SR86 specification
+URL: https://panasonic.jp/face/products/EH-SR86/spec.html
+Resolved URL: https://panasonic.jp/face/products/EH-SR86/spec.html
+Accessed: 2026-10-09 America/Chicago
+Class: official product
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Charging consumption and runtime conditions; not RF output.
+Key record: [{"model": "Vitalift RF EX EH-SR86", "RF": "Not disclosed / not verified", "input_w": 7, "input_kind": "Consumption while charging", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Carried forward from 2026-10-02 market census; comparable RF-output watts not established. Manufacturer efficacy/satisfaction; multimodal"}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P44.html; sha256 46773058372c0cb411a491463a7b2b8e4970bab291496601ada9708c202ce4a8
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P45] YA-MAN Photo PLUS Deep Lift
+URL: https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-deep-lift.html
+Resolved URL: https://www.ya-man-tokyo-japan.com/products/forface/photo-plus-deep-lift.html
+Accessed: 2026-10-09 America/Chicago
+Class: official product
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Charging consumption and D×LIFT runtime; no RF watts disclosed.
+Key record: [{"model": "Photo PLUS Deep Lift YJFA1T", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": 30, "temperature": "No numeric surface/dermal temperature verified", "notes": "Official listing: approximately 30 minutes operation. Pasted 4.5 W charging consumption not recovered on current product page; RF watts remain undisclosed."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P45.html; sha256 c5cc5df177c73e24680902a7ab1a5b5b019aa9c33305d8868f3d0c64610a444c
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P46] Medicube AGE-R Ultra Tune40.68
+URL: https://medicube.us/products/age-r-ultra-tune-40-68
+Resolved URL: https://medicube.us/products/age-r-ultra-tune-40-68
+Accessed: 2026-10-09 America/Chicago
+Class: official product
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 40.68 MHz RF marketing; no comparable output W confirmed.
+Key record: []
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P46.html; sha256 a560dbe38a401ed2aa6af0b5946c0d9e61f896bc0cc23ba8c45f025b869a0117
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P47] EvenSkyn Lumo FAQs
+URL: https://www.evenskyn.com/pages/lumo-faqs
+Resolved URL: https://www.evenskyn.com/pages/lumo-faqs
+Accessed: 2026-10-09 America/Chicago
+Class: official product
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Existing Lumo/Lumo+ inventory; retain undisclosed output rather than inventing watts.
+Key record: []
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P47.html; sha256 f12520fbcb913435feaabb6ae3c286be199733ca04d3a9b1912f0f8a73d73eff
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P48] Thermage FLX — K170758
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf17/K170758.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf17/K170758.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
+Key record: [{"model": "Thermage FLX", "RF": "400 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Professional context. Platform maximum, mode and applicator matter; not a home protocol, continuous absorbed skin power, or efficacy ranking."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
+Local preservation: source_docs/power_audit_2026-10-09/P48.pdf; sha256 ffacfb2685f18f22288e28be78fd4598124bc89fc7bb2de31745c7d6f487d2be
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P49] XERF — K251327
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf25/K251327.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf25/K251327.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
+Key record: [{"model": "XERF · 6.78 MHz mode", "RF": "400 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Professional context. Platform maximum, mode and applicator matter; not a home protocol, continuous absorbed skin power, or efficacy ranking."}, {"model": "XERF · 2 MHz mode", "RF": "300 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Professional context. Platform maximum, mode and applicator matter; not a home protocol, continuous absorbed skin power, or efficacy ranking."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
+Local preservation: source_docs/power_audit_2026-10-09/P49.pdf; sha256 aea1ebe216faf8a7b18f86079632725d8b388ac597d95efe2f3c007ee4011ce6
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P50] Volnewmer — K240248
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf24/K240248.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf24/K240248.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
+Key record: [{"model": "Volnewmer", "RF": "115 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Professional context. Platform maximum, mode and applicator matter; not a home protocol, continuous absorbed skin power, or efficacy ranking."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
+Local preservation: source_docs/power_audit_2026-10-09/P50.pdf; sha256 bd6906cdb9d19d29a82dd5acc601849501c978fdcb75b0214883fe853c8d893e
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P51] Oligio — K221989
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf22/K221989.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf22/K221989.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
+Key record: [{"model": "Oligio", "RF": "145 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Professional context. Platform maximum, mode and applicator matter; not a home protocol, continuous absorbed skin power, or efficacy ranking."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
+Local preservation: source_docs/power_audit_2026-10-09/P51.pdf; sha256 a6796b1190298a0800abda063f5cf86e8edb176ad0236117186241e659b8be57
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P52] InMode platform / Morpheus8 lead — K180189
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf18/K180189.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf18/K180189.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
+Key record: [{"model": "Morpheus8 / cleared platform association", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "FDA platform records preserved. Do not assign a platform total or predicate wattage to this named handpiece without a model/mode match."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
+Local preservation: source_docs/power_audit_2026-10-09/P52.pdf; sha256 5c67ec6e9ead93cc63a76891dab36607081f951f1d98e9a9cbc0956a439c0bd8
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P53] InMode platform update / Morpheus8 lead — K192695
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf19/K192695.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf19/K192695.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
+Key record: [{"model": "Morpheus8 / cleared platform association", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "FDA platform records preserved. Do not assign a platform total or predicate wattage to this named handpiece without a model/mode match."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
+Local preservation: source_docs/power_audit_2026-10-09/P53.pdf; sha256 36319f40798c0ae3265ba6e5a7121f6df04672ba6a68c00adf9bd35ffdef510d
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P54] Venus Viva MD — K201164
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf20/K201164.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf20/K201164.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
+Key record: [{"model": "Viva MD Diamondpolar", "RF": "75 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Professional context. Platform maximum, mode and applicator matter; not a home protocol, continuous absorbed skin power, or efficacy ranking."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
+Local preservation: source_docs/power_audit_2026-10-09/P54.pdf; sha256 78d00d61e5238a400bf25fd519abcd1d4613061dd82a4dfb69bdf8564bc7dd32
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P55] Venus Versa Pro — K232192
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf23/K232192.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf23/K232192.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
+Key record: [{"model": "Versa Pro Diamondpolar", "RF": "75 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Professional context. Platform maximum, mode and applicator matter; not a home protocol, continuous absorbed skin power, or efficacy ranking."}, {"model": "Versa Pro Octipolar", "RF": "150 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Professional context. Platform maximum, mode and applicator matter; not a home protocol, continuous absorbed skin power, or efficacy ranking."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
+Local preservation: source_docs/power_audit_2026-10-09/P55.pdf; sha256 508ee26057e370408d6e72507287b059c39716c518dbbdecc925efc4d0a43bab
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P56] Venus NOVA — K252845
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252845.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252845.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
+Key record: [{"model": "NOVA Octipolar", "RF": "150 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Professional context. Platform maximum, mode and applicator matter; not a home protocol, continuous absorbed skin power, or efficacy ranking."}, {"model": "NOVA Diamondpolar", "RF": "75 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Professional context. Platform maximum, mode and applicator matter; not a home protocol, continuous absorbed skin power, or efficacy ranking."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
+Local preservation: source_docs/power_audit_2026-10-09/P56.pdf; sha256 a10aef1971e1aca1387d644ce36cfd7406fadbf4ac22f6fd7218037e99030202
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P57] Pollogen Legend X — K232903
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf23/K232903.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf23/K232903.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
+Key record: [{"model": "Legend X", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "FDA platform records preserved. Do not assign a platform total or predicate wattage to this named handpiece without a model/mode match."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
+Local preservation: source_docs/power_audit_2026-10-09/P57.pdf; sha256 0eed6d3a5001a30f683525352e9b47b757c3e71f9e4d44145616b365e84aaa87
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P58] Pollogen Legend X update — K243217
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf24/K243217.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf24/K243217.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
+Key record: [{"model": "Legend X", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "FDA platform records preserved. Do not assign a platform total or predicate wattage to this named handpiece without a model/mode match."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
+Local preservation: source_docs/power_audit_2026-10-09/P58.pdf; sha256 76a09ba3117d1f085c59e842565a28ecefa0c1ebc59a382f0e5883a73917ffbb
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P59] Secret RF — K170325
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf17/K170325.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf17/K170325.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
+Key record: [{"model": "Secret RF", "RF": "25 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": 500, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Professional context. Platform maximum, mode and applicator matter; not a home protocol, continuous absorbed skin power, or efficacy ranking."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
+Local preservation: source_docs/power_audit_2026-10-09/P59.pdf; sha256 c12546d39f86ea6d6eb5cf4b69c8bbc0da385925c94b4b9c74422c6945ca8f7e
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P60] Potenza — K192545
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf19/K192545.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf19/K192545.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
+Key record: [{"model": "Potenza", "RF": "50 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": 200, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Professional context. Platform maximum, mode and applicator matter; not a home protocol, continuous absorbed skin power, or efficacy ranking."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
+Local preservation: source_docs/power_audit_2026-10-09/P60.pdf; sha256 52d4b3d08652b85238310cb6b91de268c60fad7d669db845a923a96fb3b3885a
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P61] Potenza Prime lead — K254185
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf25/K254185.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf25/K254185.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
+Key record: [{"model": "Potenza", "RF": "50 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": 200, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Professional context. Platform maximum, mode and applicator matter; not a home protocol, continuous absorbed skin power, or efficacy ranking."}, {"model": "Potenza Prime", "RF": "50 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": 200, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Professional context. Platform maximum, mode and applicator matter; not a home protocol, continuous absorbed skin power, or efficacy ranking."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
+Local preservation: source_docs/power_audit_2026-10-09/P61.pdf; sha256 8f1fcb81396f86307ba08c92690c2b5e155123015a28cc577db068bc13cc89b5
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P62] Genius — K180945
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf18/K180945.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf18/K180945.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
+Key record: [{"model": "Genius", "RF": "50 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Professional context. Platform maximum, mode and applicator matter; not a home protocol, continuous absorbed skin power, or efficacy ranking."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
+Local preservation: source_docs/power_audit_2026-10-09/P62.pdf; sha256 8a5e65aa7863432697acda27b8f9d4d1b6255c0a3dac76d61d8752f16a228f97
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P63] EndyMed PRO MAX — K242996
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf24/K242996.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf24/K242996.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
+Key record: [{"model": "PRO MAX platform", "RF": "100 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Professional context. Platform maximum, mode and applicator matter; not a home protocol, continuous absorbed skin power, or efficacy ranking."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
+Local preservation: source_docs/power_audit_2026-10-09/P63.pdf; sha256 709a964fd5422780009cd4298842067bafe18c620b9b485ac349368cc757dbf2
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P64] Ulthera System / PRIME — K233996
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf23/K233996.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf23/K233996.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
+Key record: [{"model": "Ulthera System / Ultherapy PRIME", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Retained from pasted thermal comparison; see original technology topic. Do not rank alongside RF output."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
+Local preservation: source_docs/power_audit_2026-10-09/P64.pdf; sha256 66475466f2114f95340f9d487722351d88c3b8ea490dc9d7f27036a6dff37fbb
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P65] Ulthera update — K243035
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf24/K243035.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf24/K243035.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
+Key record: [{"model": "Ulthera System / Ultherapy PRIME", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Retained from pasted thermal comparison; see original technology topic. Do not rank alongside RF output."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
+Local preservation: source_docs/power_audit_2026-10-09/P65.pdf; sha256 7e8631bf2d049edd29069917dc31b45f5f7205172aabe525d02026459495b076
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P66] Sofwave — K211483
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf21/K211483.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf21/K211483.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
+Key record: [{"model": "SUPERB platform", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Retained from pasted thermal comparison; see original technology topic. Do not rank alongside RF output."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
+Local preservation: source_docs/power_audit_2026-10-09/P66.pdf; sha256 a8169db507122ba2697d070fc78b17cba4a883d83458ac46627bd5bff2bf67f7
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P67] Sofwave update — K223237
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf22/K223237.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf22/K223237.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
+Key record: [{"model": "SUPERB platform", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Retained from pasted thermal comparison; see original technology topic. Do not rank alongside RF output."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
+Local preservation: source_docs/power_audit_2026-10-09/P67.pdf; sha256 26931aeb4917696f571bb3f0dd8b84b52a370112d9637dc8ba6e99b025df71e2
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P68] Sofwave update — K231537
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf23/K231537.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf23/K231537.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
+Key record: [{"model": "SUPERB platform", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Retained from pasted thermal comparison; see original technology topic. Do not rank alongside RF output."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
+Local preservation: URL-only — no usable lawful local copy available
+Status/recheck: HTTP 404; capture unavailable; volatile product claims dated snapshot.
+
+[P69] Sofwave update — K240687
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf24/K240687.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf24/K240687.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
+Key record: [{"model": "SUPERB platform", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Retained from pasted thermal comparison; see original technology topic. Do not rank alongside RF output."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
+Local preservation: source_docs/power_audit_2026-10-09/P69.pdf; sha256 deaedda28c0fc8a769d328abb24527a475d21b41762974d3a0cd50d11eeb15a3
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P70] Original NIRA — K163137
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf16/K163137.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf16/K163137.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
+Key record: [{"model": "Original Precision / Model 2 Pro", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "2 W maximum optical output; not RF watts. Retained from pasted thermal comparison; see original technology topic. Do not rank alongside RF output."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
+Local preservation: source_docs/power_audit_2026-10-09/P70.pdf; sha256 c793b54077172a1f19a41dfb256f16553c30142ed4433b9eddcc4a2da8774844
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P71] TempSure update — K190678
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf19/K190678.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf19/K190678.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
+Key record: [{"model": "TempSure wrinkle mode", "RF": "120 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Professional context. Platform maximum, mode and applicator matter; not a home protocol, continuous absorbed skin power, or efficacy ranking."}, {"model": "TempSure tissue-heating mode", "RF": "300 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Professional context. Platform maximum, mode and applicator matter; not a home protocol, continuous absorbed skin power, or efficacy ranking."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
+Local preservation: source_docs/power_audit_2026-10-09/P71.pdf; sha256 9d2a00064e4cbef7852fcf298f202263e44c6ac7e4ae40f8d48de0124b175cd9
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P72] DermRays Revive — K231910
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf23/K231910.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf23/K231910.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
+Key record: [{"model": "Revive", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Retained from pasted thermal comparison; see original technology topic. Do not rank alongside RF output."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
+Local preservation: source_docs/power_audit_2026-10-09/P72.pdf; sha256 d93aebbc77bde611339865deb616c8c44cff3112b7e9dbb6414af3111a31e0e3
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P73] Silk’n Titan Mini product/runtime
+URL: https://www.silkn.com/skin-tightening/titan-mini-with-free-gel-SKUS000056.html
+Resolved URL: https://www.silkn.com/skin-tightening/titan-mini-with-free-gel-SKUS000056.html
+Accessed: 2026-10-09 America/Chicago
+Class: official product
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 30 minute Mini runtime; comparison panel advertises 40 minutes for MultiPlatform.
+Key record: [{"model": "Titan MultiPlatform H2502 + HA2502 (current NA IFU)", "RF": "15 W", "input_w": 24, "input_kind": "12 V × 2 A supply capacity", "load_ohm": null, "battery_wh": 14.8, "runtime_min": 40, "temperature": "43°C surface cutoff", "notes": "Current official IFU says 15 W combined. Historical 20 W IFU is separate below. 40-minute website runtime is not a specified full-power load test."}, {"model": "Titan Mini H2600", "RF": "10 W", "input_w": 10, "input_kind": "5 V × 2 A charging supply capacity", "load_ohm": null, "battery_wh": 2.22, "runtime_min": 30, "temperature": "43°C surface cutoff", "notes": "2.22 Wh / 0.5 h = 4.44 W nominal total-draw estimate. Stated runtime is not a continuous 10 W test."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
+Local preservation: source_docs/power_audit_2026-10-09/P73.html; sha256 b431e2a69720c5c3397fe3bb99c636fb55bd168bf0f922cbc76c7dbb9600d52f
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P74] EndyMed US9844682B2
+URL: https://patents.google.com/patent/US9844682B2/en
+Resolved URL: https://patents.google.com/patent/US9844682B2/en
+Accessed: 2026-10-09 America/Chicago
+Class: primary patent
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Granted 2017-12-19; skin-treatment device/method; EndyMed assignee.
+Key record: [{"model": "Original wired 3DEEP", "RF": "10 W ±20%", "input_w": null, "input_kind": "Undisclosed", "load_ohm": 360, "battery_wh": null, "runtime_min": null, "temperature": "42°C sensor shutoff", "notes": "10 W bench result is explicit. Pulse duration 300/450 ms in 750 ms cycles. 4/6 W duty-average scenarios require 10 W to mean on-pulse power; document does not settle its averaging convention."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Patent embodiment is not measured product performance; no legal freedom-to-operate opinion.
+Local preservation: source_docs/power_audit_2026-10-09/P74.html; sha256 ac59a09e8ffeac931363ae1e05c40eeb7ea1b9e34f3d2d4ee98d5aa2a67ff9a5
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P75] EL Global Trade US11317961B2
+URL: https://patents.google.com/patent/US11317961B2/en
+Resolved URL: https://patents.google.com/patent/US11317961B2/en
+Accessed: 2026-10-09 America/Chicago
+Class: primary patent
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Granted 2022-05-03; movable electrode skin-treatment design; assignment record includes EL Global Trade.
+Key record: [{"model": "sensiLift original", "RF": "9 W ±1 hardware; 6.5 W highest setting", "input_w": 13.5, "input_kind": "9 V × 1.5 A external supply (comparison in Pro filing)", "load_ohm": 200, "battery_wh": null, "runtime_min": null, "temperature": "40°C shutoff", "notes": "9 W hardware maximum differs from 3.5/5/6.5 W selectable skin-level settings. Validation passed, no numeric measured output published."}, {"model": "sensiLift Pro ST300", "RF": "6 W ±1", "input_w": 21.6, "input_kind": "12 V × 1.8 A external supply capacity", "load_ohm": 200, "battery_wh": null, "runtime_min": null, "temperature": "40 ±0.5°C maximum", "notes": "Selectable 3.5/5/6 W; validation passed; numeric measured results not disclosed."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Technical/family association; exact Pro model claim mapping not established.
+Local preservation: source_docs/power_audit_2026-10-09/P75.html; sha256 fb0e3f6efb92f235de260429eeeb9c9caba73e6b9fe7f6f508733cd7238d2da3
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P76] Historical H2502 manufacturer IFU mirrored on device.report
+URL: https://device.report/m/91cc6032d88734ec2f9d4e9b1543aaadd7e9190fba691abbffb4ee4fcb4c0481
+Resolved URL: https://device.report/m/91cc6032d88734ec2f9d4e9b1543aaadd7e9190fba691abbffb4ee4fcb4c0481
+Accessed: 2026-10-09 America/Chicago
+Class: manufacturer manual mirror
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Older H2502/HA2502 manual names 10 W bare and 20 W combined; revision conflicts with current official IFU.
+Key record: [{"model": "Titan MultiPlatform H2502 + HA2502 (historical IFU)", "RF": "20 W", "input_w": 24, "input_kind": "12 V × 2 A supply capacity", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "43°C surface cutoff", "notes": "Historical manufacturer manual mirrored by device.report. Current official NA manual is 15 W. Same name/model cannot identify revision; not an extra unique device."}, {"model": "Titan MultiPlatform H2502 bare head (historical)", "RF": "10 W", "input_w": 24, "input_kind": "Supply capacity", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Older manual explicitly distinguishes bare 10 W head from 20 W combined configuration. Current manual only lists combined 15 W; do not transfer bare rating across revisions."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Historical document, lower retrieval authority than current manufacturer-hosted IFU; do not assign 20 W to all H2502 units.
+Local preservation: URL-only — no usable lawful local copy available
+Status/recheck: HTTP 403; capture unavailable; volatile product claims dated snapshot.
+
+[P77] NEO Plus RF-300W directory
+URL: https://prod.danawa.com/info/?pcode=14102141
+Resolved URL: https://prod.danawa.com/info/?pcode=14102141
+Accessed: 2026-10-09 America/Chicago
+Class: secondary directory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Directory explicitly calls 300 W consumption (소비전력).
+Key record: [{"model": "Alpha controller", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "300 W headline in pasted research and Q&A; Alpha face/Soft RF power not established. No numeric RF ranking; directory consumption for Plus does not prove Alpha equivalence."}, {"model": "Plus RF-300W", "RF": "Not disclosed / not verified", "input_w": 300, "input_kind": "Secondary directory consumption, label unverified", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "300 W consumption is not 300 W RF output. Separate from handheld home devices."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Supports ambiguity check only, not measured output or exact Alpha electrical identity.
+Local preservation: source_docs/power_audit_2026-10-09/P77.html; sha256 7478091b1c4d9d03a7a2a526bc613116315d3bdadb79a4c8c3c1eb6d6d99279e
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P78] DLUS D3 optical device vendor lead
+URL: https://halohk.com/collections/vendors?page=13&q=halohk
+Resolved URL: https://halohk.com/collections/vendors?page=13&q=halohk
+Accessed: 2026-10-09 America/Chicago
+Class: seller listing
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Vendor describes D3 as 1064 nm optical device; D3 should not be merged into D2 RF inventory.
+Key record: [{"model": "D3 optical lead", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Retained from pasted thermal comparison; see original technology topic. Do not rank alongside RF output."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Claim-only adjacent lead; no verified optical output or FDA model mapping.
+Local preservation: source_docs/power_audit_2026-10-09/P78.html; sha256 0117218959d5bad36588a411ad30178ebcdbe554b3066d2a69b0e7c0707c9ae9
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[U01] MimiSilk, battery and generic follow-ups
+URL: User attachment; original has no canonical URLs
+Resolved URL: Not applicable / not captured
+Accessed: 2026-10-09 America/Chicago
+Class: user-supplied research transcript
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Research leads and original conversation; not primary evidence.
+Key record: [{"model": "Silhouette (legacy body)", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Pasted claim: 24 W. Exact manufacturer IFU/revision not independently recovered in this pass; excluded from numerical ranking. H2600 alias may duplicate Titan Mini."}, {"model": "FaceTite Mini FAC01 (legacy EU)", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Pasted claim: 13 W. Exact manufacturer IFU/revision not independently recovered in this pass; excluded from numerical ranking. H2600 alias may duplicate Titan Mini."}, {"model": "Original FaceTite H2111/H2112 (regional)", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Pasted claim: 12 W. Exact manufacturer IFU/revision not independently recovered in this pass; excluded from numerical ranking. H2600 alias may duplicate Titan Mini."}, {"model": "FaceTite Z / Revive / Essential / Prestige H2120/H2130", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Pasted claim: 10 W. Exact manufacturer IFU/revision not independently recovered in this pass; excluded from numerical ranking. H2600 alias may duplicate Titan Mini."}, {"model": "FaceTite Mini H2600 regional alias", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Pasted claim: 10 W. Exact manufacturer IFU/revision not independently recovered in this pass; excluded from numerical ranking. H2600 alias may duplicate Titan Mini."}, {"model": "FAQ 103 Diamond", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "FAQ-family lead; do not copy 101/102 battery or power without exact manual."}, {"model": "Allfond triangular 3-probe family", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "No exact model/label/IFU matching. Do not import a lookalike seller’s watts, temperature cutoff or FDA clearance."}, {"model": "RF01 generic / unnamed private-label family", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "No exact model/label/IFU matching. Do not import a lookalike seller’s watts, temperature cutoff or FDA clearance."}, {"model": "Margotan private-label handheld lead", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "No exact model/label/IFU matching. Do not import a lookalike seller’s watts, temperature cutoff or FDA clearance."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Citations were pasted as labels without URLs. Original images mentioned in text were not supplied here.
+Local preservation: source_docs/power_audit_2026-10-09/U01_user_research.txt; sha256 a1687de243db301928622bf117e4d47acd1f8b9e51d4d3021cad695fcee97b83
+Status/recheck: User-supplied; unverified original claims; volatile product claims dated snapshot.
+
+[U02] Home temperature, clearance and wattage notes
+URL: User attachment; original has no canonical URLs
+Resolved URL: Not applicable / not captured
+Accessed: 2026-10-09 America/Chicago
+Class: user-supplied research transcript
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Research leads and original conversation; not primary evidence.
+Key record: []
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Citations were pasted as labels without URLs. Original images mentioned in text were not supplied here.
+Local preservation: source_docs/power_audit_2026-10-09/U02_user_research.txt; sha256 53b6b646faf87f95069cd2693a013e9ef66354c4553d535afb1dc937c714cdeb
+Status/recheck: User-supplied; unverified original claims; volatile product claims dated snapshot.
+
+[U03] Patent/FDA and thermal-device report
+URL: User attachment; original has no canonical URLs
+Resolved URL: Not applicable / not captured
+Accessed: 2026-10-09 America/Chicago
+Class: user-supplied research transcript
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Research leads and original conversation; not primary evidence.
+Key record: []
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Citations were pasted as labels without URLs. Original images mentioned in text were not supplied here.
+Local preservation: source_docs/power_audit_2026-10-09/U03_user_research.txt; sha256 99ed0e0720c1bde4e43ab554560144ca0e2c89044e6736944f48cc0ea27a83f8
+Status/recheck: User-supplied; unverified original claims; volatile product claims dated snapshot.
+
+[U04] Duplicate patent/FDA report
+URL: User attachment; original has no canonical URLs
+Resolved URL: Not applicable / not captured
+Accessed: 2026-10-09 America/Chicago
+Class: user-supplied research transcript
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Research leads and original conversation; not primary evidence.
+Key record: []
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Citations were pasted as labels without URLs. Original images mentioned in text were not supplied here.
+Local preservation: source_docs/power_audit_2026-10-09/U04_user_research.txt; sha256 99ed0e0720c1bde4e43ab554560144ca0e2c89044e6736944f48cc0ea27a83f8
+Status/recheck: User-supplied; unverified original claims; volatile product claims dated snapshot.
+
+[L01] October 2 market census / source register
+URL: local archive
+Accessed: 2026-10-09
+Class: local archive
+Used in: inventory continuity/navigation and outcome boundaries.
+Supports: Archive scope and previous source provenance, not newly measured power.
+Limits: Older claims are not current hardware measurements.
+Local preservation: data/rf_market_census_2026-10-02.json
+Status/recheck: retained, no unrelated edits overwritten.
+
+[L02] Existing RF viewer, README and clinical methodology
+URL: local archive
+Accessed: 2026-10-09
+Class: local archive
+Used in: inventory continuity/navigation and outcome boundaries.
+Supports: Archive scope and previous source provenance, not newly measured power.
+Limits: Older claims are not current hardware measurements.
+Local preservation: README.md
+Status/recheck: retained, no unrelated edits overwritten.
+
+[L03] Existing root and neighboring laser navigation
+URL: local archive
+Accessed: 2026-10-09
+Class: local archive
+Used in: inventory continuity/navigation and outcome boundaries.
+Supports: Archive scope and previous source provenance, not newly measured power.
+Limits: Older claims are not current hardware measurements.
+Local preservation: ../README.md
+Status/recheck: retained, no unrelated edits overwritten.
+
+Change note: EU H2501 20 W versus current NA H2502 15 W kept separate; historical H2502 20 W not generalized. NEWA 4/6 W duty averages conditional only. Pasted efficiency scenarios are not device estimates. U03/U04 duplicates retained but not counted independently. DLUS cordless description conflicts with prior corded notes. Broad FDA counts and most product/patent mappings remain submitted leads.
