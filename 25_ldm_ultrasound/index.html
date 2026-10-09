@@ -1,0 +1,480 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LDM Ultrasound · Local Dynamic Micromassage</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌊%3C/text%3E%3C/svg%3E"><script src="../site-router.js" defer></script><script src="../site-documents.js" defer></script><style>
+.openmd,[data-raw-download],[data-mode="m"],.raw{display:none!important}
+:root{--accent:#136b78;--accent2:#345b72;--ink:#243542;--line:#dbe4e7;--muted:#566774}*{box-sizing:border-box}body{margin:0;background:#f3f7f8;color:var(--ink);font:16px/1.7 system-ui,sans-serif}a{color:var(--accent);text-underline-offset:3px}header{background:#203f4a;color:#fff;padding:24px max(22px,calc((100vw - 1260px)/2));border-bottom:5px solid #89bac4}header a{color:#cdeef1}header h1{font-size:clamp(27px,3.5vw,39px);line-height:1.2;max-width:920px;margin:15px 0 12px}header p{max-width:850px;margin:0;color:#d8e6eb}.eyebrow{font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:#b1dce3;margin-top:15px}.wrap{max-width:1260px;margin:auto;display:grid;grid-template-columns:230px minmax(0,1fr);gap:28px;padding:25px 22px}nav{position:sticky;top:18px;align-self:start;display:flex;flex-direction:column;gap:5px;max-height:calc(100vh - 36px);overflow:auto}nav a{padding:10px 11px;border-radius:8px;font-size:14px;text-decoration:none}nav a.active{background:#deecef;font-weight:700}nav .label{font-size:12px;color:var(--muted);padding:14px 11px 5px;font-weight:700}.mobile-picker{display:none}main{min-width:0}.quick{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}.quick a{background:#deecef;border-radius:8px;padding:9px 12px;text-decoration:none;font-size:14px;font-weight:650}.doc,.explorer{background:#fff;border:1px solid var(--line);border-radius:12px;padding:28px;display:none;overflow-wrap:anywhere}.doc.active,.explorer.active{display:block}.doc h1,.explorer h2{font-size:29px;line-height:1.25;margin:0 0 18px}.doc h2{font-size:23px;line-height:1.3;margin-top:32px}.doc h3{font-size:19px}.doc p{max-width:84ch}.doc table{border-collapse:collapse;min-width:700px;width:100%;font-size:14px}.doc th,.doc td{text-align:left;vertical-align:top;padding:12px;border-bottom:1px solid var(--line);min-width:145px;overflow-wrap:normal}.doc th{background:#eef5f6}.table-scroll{overflow:auto;margin:20px 0}.doc ul,.doc ol{padding-left:25px}label{font-weight:700;display:block;font-size:14px;margin:22px 0 7px}select{font:inherit;background:white;color:var(--ink);border:1px solid #91adb5;border-radius:8px;padding:11px;width:100%}.result{border-left:4px solid var(--accent);padding:18px;background:#edf5f7;margin:18px 0}.result h3{font-size:22px;line-height:1.3;margin-top:0}.small{font-size:13px;color:var(--muted)}footer{max-width:1260px;margin:20px auto;padding:15px 22px;font-size:13px;color:var(--muted)}a:focus-visible,select:focus-visible{outline:3px solid #458da5;outline-offset:3px}@media(max-width:800px){.wrap{display:block;padding:16px}nav{position:static;max-height:none;overflow:visible;margin-bottom:18px}nav>a,nav>.label{display:none}.mobile-picker{display:block}.doc,.explorer{padding:20px}.doc h1,.explorer h2{font-size:25px}.doc h2{font-size:21px}header{padding:23px}.quick a{font-size:13px}}@media print{header,nav,.quick,footer,.explorer{display:none}.wrap{display:block}.doc{display:block;border:0}.table-scroll{overflow:visible}.doc table{min-width:0}}
+/* cite-enhance */
+.cite{display:inline-block;font:inherit;border:0;background:transparent;padding:0;margin:0 .5px;cursor:pointer;color:var(--accent);font-weight:600;border-bottom:1px dotted currentColor;line-height:inherit}
+.cite::before{content:"["}.cite::after{content:"]"}
+.cite:hover,.cite:focus,.cite.on{color:var(--accent2);outline:none;background:rgba(0,0,0,.04);border-radius:3px}
+#citebackdrop{position:fixed;inset:0;background:rgba(15,18,24,.45);z-index:9998;opacity:0;transition:opacity .15s}
+#citebackdrop[hidden]{display:none}#citebackdrop.show{opacity:1}
+#citepop{position:fixed;z-index:9999;max-width:390px;width:max-content}
+#citepop[hidden]{display:none}
+#citepop .cp-card{position:relative;background:var(--card,#fff);color:var(--ink,#1f2430);border:1px solid var(--line,#e5e7eb);border-radius:12px;box-shadow:0 12px 38px rgba(0,0,0,.20);padding:13px 15px;font-size:13px;line-height:1.5;max-height:60vh;overflow:auto}
+#citepop .cp-src{font-weight:700;font-size:11.5px;letter-spacing:.02em;color:var(--accent);margin:0 28px 6px 0;text-transform:uppercase}
+#citepop .cp-quote{color:var(--ink,#1f2430)}
+#citepop .cp-quote.cp-empty{color:var(--muted,#6b7280);font-style:italic}
+#citepop .cp-link{display:inline-block;margin-top:11px;font-size:12px;font-weight:600;color:var(--accent);text-decoration:none}
+#citepop .cp-link:hover{text-decoration:underline}
+#citepop .cp-close{position:absolute;top:6px;right:8px;border:0;background:transparent;color:var(--muted,#6b7280);font-size:20px;line-height:1;cursor:pointer;padding:2px 6px;display:none}
+#citepop.sheet{left:0;right:0;bottom:0;top:auto!important;max-width:none;width:auto}
+#citepop.sheet .cp-card{border-radius:16px 16px 0 0;border-left:0;border-right:0;border-bottom:0;padding:18px 20px calc(26px + env(safe-area-inset-bottom));font-size:15px;max-height:72vh}
+#citepop.sheet .cp-src{font-size:12px}
+#citepop.sheet .cp-close{display:block;font-size:26px;top:10px;right:12px}
+#citepop.sheet .cp-link{font-size:14px}
+</style></head><body><header><a href="../index.html">← Research archive</a><div class="eyebrow">Topic 25 · October 9, 2026 · Alternating-frequency ultrasound</div><h1>LDM ultrasound: local dynamic micromassage</h1><p>Mechanism, redness and acne evidence, cosmetic claims, and the distinction from focused-ultrasound lifting.</p></header><div class="wrap"><nav aria-label="Research pages"><div class="mobile-picker"><label for="page-picker">Research page</label><select id="page-picker"><option value="doc0">Start here</option><option value="doc1">Mechanism · LDM versus HIFU</option><option value="doc2">Human evidence</option><option value="doc3">Devices and selection</option><option value="doc4">Source library and gaps</option><option value="doc5">Preserved source manifest</option><option value="explorer">Explore by goal</option></select></div><a href="#doc0">Start here</a><a href="#doc1">Mechanism · LDM versus HIFU</a><a href="#doc2">Human evidence</a><a href="#doc3">Devices and selection</a><a href="#doc4">Source library and gaps</a><a href="#doc5">Preserved source manifest</a><a href="#explorer">Explore by goal</a><div class="label">Source / related research</div><a href="source_docs/research_resource_log_2026-10-09.txt">Research recovery log</a><a href="data/studies.csv">Four-study ledger</a><a href="../11_hifu_skin_tightening/index.html">HIFU research</a><a href="../24_asian_devices_and_collagen_remodelling/index.html">Asian-device comparison</a></nav><main><div class="quick"><a href="#doc1">LDM versus HIFU</a><a href="#doc2">Human evidence</a><a href="#doc3">Device questions</a><a href="#explorer">Explore your goal</a></div><section class="explorer" id="explorer"><h2>What do you want LDM to improve?</h2><p>Match the claim to the endpoint studied. This explorer gives a reading path; it does not select a dose, assess eligibility or predict a treatment result.</p><label for="goal">Research goal</label><select id="goal"><option value="redness">Redness / barrier dysfunction</option><option value="acne">Acne</option><option value="wrinkles">Fine wrinkles / hydrated appearance</option><option value="lift">Lifting / collagen remodelling</option><option value="home">Home / OEM device purchase</option></select><div id="goal-result" class="result" role="status" aria-live="polite"></div><p class="small">Source basis: <a href="#doc2">S04–S07 human studies</a> and <a href="#doc3">S02/S08 specifications</a>. Limited initial corpus; no efficacy ranking.</p></section><section class="doc" id="doc0"><template data-routing-metadata><a class="openmd" href="README.md"></a></template><div class="rendered" id="doc0_r"><h1>LDM ultrasound: local dynamic micromassage</h1>
+<p><em>Compiled October 9, 2026. Evidence orientation for skin-quality and inflammatory-skin questions.</em></p>
+<h2>Start here</h2>
+<p><strong>LDM deserves its own section: it is a rapidly alternating, multi-frequency therapeutic ultrasound lane, distinct from the focused-ultrasound lifting procedures in the HIFU archive.</strong> Wellcomet uses the LDM name for its technology; a generic “ultrasound facial” or home wand is not automatically the same system. <a href="https://www.wellcomet.de/html/page.php?lan=de&page_id=38">[1]</a></p>
+<p>The reviewed human literature offers preliminary signals for redness/barrier dysfunction, acne and cosmetic skin appearance. It does not establish a best home LDM device, a predictable collagen increase, or superiority to established treatments. The <a href="index.html#doc2">human evidence guide</a> separates actual LDM studies from adjacent ultrasound evidence.</p>
+<h2>Recommended reading order</h2>
+<table>
+<thead>
+<tr>
+<th>Read</th>
+<th>What it answers</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="index.html#doc1">1. Mechanism and LDM versus HIFU</a></td>
+<td>What frequency switching means; why MHz is not a lifting depth or efficacy ranking</td>
+</tr>
+<tr>
+<td><a href="index.html#doc2">2. Human evidence</a></td>
+<td>Redness, acne, hydration and wrinkles; sample sizes, endpoints, controls and conflicts</td>
+</tr>
+<tr>
+<td><a href="index.html#doc3">3. Devices, claims and selection</a></td>
+<td>Wellcomet platforms, lookalikes, missing regulatory/IFU information and provider questions</td>
+</tr>
+<tr>
+<td><a href="index.html#doc4">4. Source library</a></td>
+<td>Preserved papers, metadata, official specifications and remaining research gaps</td>
+</tr>
+</tbody></table>
+<p>Use the <a href="index.html#explorer">goal explorer</a> for a short reading path. It selects evidence, not a treatment setting.</p>
+<h2>Where LDM fits</h2>
+<p>For redness or barrier concerns, start with the evidence rather than a clinic&#39;s “water-drop lifting” name. For meaningful lifting or structural collagen remodelling, compare endpoints with the <a href="../11_hifu_skin_tightening/index.html">HIFU</a>, <a href="../07_radio_frequency_skin_tightening/index.html">RF</a>, <a href="../10_microneedling_collagen_induction/index.html">microneedling</a> and <a href="../24_asian_devices_and_collagen_remodelling/index.html">Asian-device comparison</a> archives. For delivery claims, see <a href="../23_skincare_penetration_technologies/index.html">skincare penetration</a>.</p>
+<h2>Source/data access</h2>
+<p><a href="index.html#doc4">Rendered source library</a> · <a href="index.html#doc5">Preserved-source manifest</a> · <a href="source_docs/research_resource_log_2026-10-09.txt">Research recovery log</a> · <a href="data/studies.csv">Study ledger</a> · <a href="source_docs/capture_manifest.json">Capture manifest</a>.</p>
+<h2>Status</h2>
+<p>Initial source-backed section, with four human studies and official platform information. Exact-model IFUs, jurisdiction-specific authorization, independent sham-controlled comparisons, current prices and home-device equivalence remain open. No purchasing shortlist or home treatment protocol is established by this pass.</p>
+<h2>Sources</h2>
+<ol>
+<li>Wellcomet LDM technologies. <a href="https://www.wellcomet.de/html/page.php?lan=de&page_id=38">https://www.wellcomet.de/html/page.php?lan=de&amp;page_id=38</a> — manufacturer description of dual and triple frequency switching; source-log S01.</li>
+</ol>
+</div></section>
+<section class="doc" id="doc1"><template data-routing-metadata><a class="openmd" href="01_mechanism_and_hifu_comparison.md"></a></template><div class="rendered" id="doc1_r"><h1>LDM mechanism and the HIFU distinction</h1>
+<p><em>Compiled October 9, 2026. Verified platform descriptions, manufacturer hypotheses and research interpretation are separated.</em></p>
+<h2>Bottom line</h2>
+<p><strong>LDM means local dynamic micromassage: therapeutic ultrasound that switches rapidly among frequencies. It should have its own evidence lane rather than inherit the outcomes of HIFU, RF or any other multi-frequency device.</strong> <a href="https://www.wellcomet.de/html/page.php?lan=de&page_id=38">[1]</a></p>
+<h2>What is actually delivered?</h2>
+<p>Wellcomet describes dual combinations such as 1/3 and 3/10 MHz, and triple combinations of 1/3/10 and 3/10/19 MHz. Frequency is the acoustic oscillation rate; the alternation schedule is a separate variable. A label listing several frequencies does not reveal switching timing, intensity, duty cycle or calibrated acoustic output. <a href="https://www.wellcomet.de/html/page.php?lan=de&page_id=38">[1]</a></p>
+<p>The manufacturer proposes effects on matrix metalloproteinases, heat shock proteins and hyaluronic acid. These are mechanism claims, not a measured collagen percentage for an individual patient. Hydration, turgor and visible smoothing are different endpoints from durable tissue remodelling. <a href="https://www.wellcomet.de/html/page.php?lan=en&page_id=65">[2]</a></p>
+<p><strong>Section finding — S01/S03:</strong> official documentation establishes what the manufacturer describes. It does not independently validate each biological explanation or clinical claim.</p>
+<h2>Compare the ultrasound lanes</h2>
+<table>
+<thead>
+<tr>
+<th>Lane</th>
+<th>Research target</th>
+<th>What must be verified</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>LDM / alternating therapeutic ultrasound</td>
+<td>Skin quality and inflammatory-skin endpoints</td>
+<td>Exact generator, handpiece, sequence, acoustic intensity, coupling and study indication</td>
+</tr>
+<tr>
+<td>HIFU / microfocused ultrasound</td>
+<td>Procedure-specific focal heating and tightening</td>
+<td>Focal geometry, depth, anatomy, imaging/control and operator protocol; see the <a href="../11_hifu_skin_tightening/index.html#doc1">existing HIFU research</a></td>
+</tr>
+<tr>
+<td>Other dual-frequency ultrasound</td>
+<td>Outcomes of that particular system</td>
+<td>Equivalence to LDM must be demonstrated, not assumed from MHz</td>
+</tr>
+<tr>
+<td>Ultrasound-assisted delivery</td>
+<td>Transport of a particular formulation</td>
+<td>Compatible formulation and measured uptake; see <a href="../23_skincare_penetration_technologies/index.html#doc2">delivery research</a></td>
+</tr>
+</tbody></table>
+<p>This comparison is a research classification, not a claim that every device in a category uses the same physics or produces the same outcome.</p>
+<h2>Frequency is not a precise treatment depth</h2>
+<p>The manufacturer gives approximate half-depths of 3 mm at 10 MHz and 1.5 mm at 19 MHz. A half-depth describes attenuation; it is not a hard boundary, an HIFU focal point, or a guarantee of targeting a single skin layer. Tissue properties and the complete exposure matter. <a href="https://www.wellcomet.de/html/page.php?lan=en&page_id=65">[2]</a></p>
+<p><strong>Section finding — S03:</strong> these are manufacturer approximations. This section intentionally has no depth-to-collagen or frequency-to-result calculator.</p>
+<h2>Read the clinical endpoints first</h2>
+<p>Ask whether a paper measured redness, TEWL (water loss through skin), acne severity, wrinkles, or actual tissue structure. A change in one cannot simply be relabelled as all the others. The <a href="index.html#doc2">evidence guide</a> records those distinctions.</p>
+<h2>Evidence gaps</h2>
+<p>Independent acoustic-output comparisons, a common-protocol LDM-versus-HIFU trial, and direct long-term human collagen measurements for current platforms were not established in this initial corpus. The exact IFU remains necessary for clinical use.</p>
+<h2>Sources</h2>
+<ol>
+<li>Wellcomet LDM technologies. <a href="https://www.wellcomet.de/html/page.php?lan=de&page_id=38">https://www.wellcomet.de/html/page.php?lan=de&amp;page_id=38</a> — dual/triple switching and technology lineage; S01.</li>
+<li>Wellcomet LDM Triple general description. <a href="https://www.wellcomet.de/html/page.php?lan=en&page_id=65">https://www.wellcomet.de/html/page.php?lan=en&amp;page_id=65</a> — manufacturer mechanism and approximate attenuation-depth claims; S03.</li>
+</ol>
+</div></section>
+<section class="doc" id="doc2"><template data-routing-metadata><a class="openmd" href="02_human_evidence.md"></a></template><div class="rendered" id="doc2_r"><h1>LDM and related ultrasound: human evidence</h1>
+<p><em>Compiled October 9, 2026. Initial four-study evidence map, not an exhaustive systematic review.</em></p>
+<h2>Bottom line</h2>
+<p><strong>There are human signals worth investigating, especially for redness/barrier dysfunction and acne. Confidence is limited by small samples, observational designs, short or selective follow-up, and differences between devices.</strong> A statistically significant change from baseline is not a sham-adjusted treatment effect. <a href="https://pubmed.ncbi.nlm.nih.gov/29746429/">[1]</a><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7922048/">[2]</a><a href="https://doi.org/10.1111/jocd.16672">[3]</a><a href="https://doi.org/10.4236/jcdsa.2012.22016">[4]</a></p>
+<h2>Redness and barrier dysfunction</h2>
+<table>
+<thead>
+<tr>
+<th>Study</th>
+<th>Design and endpoint</th>
+<th>Finding</th>
+<th>Translation limit</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Park et al., 2018; PMID 29746429</td>
+<td>Retrospective, 42 refractory-rosacea patients; erythema index, TEWL and self-assessment</td>
+<td>Significant decreases in all three measures reported</td>
+<td>No randomized control; abstract-only appraisal here; exact platform/parameters and conflicts need full-text verification <a href="https://pubmed.ncbi.nlm.nih.gov/29746429/">[1]</a></td>
+</tr>
+<tr>
+<td>Kim et al., 2021; PMID 33670631</td>
+<td>28 enrolled, 26 completed; four weekly treatments; six-week assessment</td>
+<td>TEWL decreased by 5.37 ± 13.22 g/m²/h and erythema index by 39.73 ± 44.21 units; no serious adverse effects observed</td>
+<td>Uncontrolled short follow-up; <strong>SONO STYLER (Weyergans), 1/3 MHz, is related ultrasound evidence, not a Wellcomet LDM trial</strong> <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7922048/">[2]</a></td>
+</tr>
+</tbody></table>
+<p><strong>Section finding — S04/S05:</strong> the signal concerns redness and barrier measures. The erythema-index change is an instrument-unit difference, not “39.73% less redness.” The 2021 paper declares no conflict of interest; that does not solve the absence of a control group.</p>
+<h2>Acne</h2>
+<p>Chervinskaya et al. (online 2024; journal issue 2025) retrospectively compared two clinics using LDM MED Tri 1/3/10 MHz or LDM Triple 3/10/19 MHz. Twenty-two patients contributed the reported photo-score analysis (11 per group); the methods initially describe 24 individuals. Nine had follow-up controls. Nine dermatologists assessed photos blinded to treatment assignments. <a href="https://doi.org/10.1111/jocd.16672">[3]</a></p>
+<p>The mean modified Global Evaluation Acne score improvement was 73.69% at treatment completion and 90.14% at follow-up. These are changes in a photo-rating scale, not percentages of patients cured or lesion-count reductions. There was no untreated/sham group, and each clinic used a different platform, confounding device with site. The paper disclosed a Wellcomet CEO coauthor. <a href="https://doi.org/10.1111/jocd.16672">[3]</a></p>
+<p><strong>Section finding — S06:</strong> promising observational acne results; no demonstrated 19-MHz superiority and no basis for replacing established acne care. The small selective follow-up group makes durability especially uncertain.</p>
+<h2>Wrinkles, pores and collagen claims</h2>
+<p>The 2012 multicentre LDM-MED study included 39 subjects, with eight to twelve treatments and an assessment about one week after the course. Mean coarse- and fine-wrinkle scores improved by 0.63 and 0.73 grades. It was nonrandomized and unblinded; two preliminary split-face examples were not a controlled trial of the full cohort. A coauthor was a Wellcomet managing partner. Temporary erythema was reported. <a href="https://doi.org/10.4236/jcdsa.2012.22016">[4]</a></p>
+<p><strong>Section finding — S07:</strong> cosmetic appearance signals do not quantify new collagen, demonstrate sustained lifting, or establish parity with RF, HIFU or resurfacing.</p>
+<h2>How to use this evidence</h2>
+<p>Match the treatment&#39;s promised outcome to the actual study endpoint and exact model. Before-and-after photos should use consistent lighting, pose and timing. Require a credible comparator before accepting superiority claims. For an adjunct procedure, specify how benefit would be assessed separately from the concurrent skincare or treatment.</p>
+<h2>Evidence gaps</h2>
+<p>Independent randomized sham-controlled studies; broader skin-type reporting; comparisons with standard care; standardized adverse-event monitoring; long follow-up; and clinical equivalence data for consumer/OEM devices would materially change confidence. Small reports of few adverse effects do not establish universal safety.</p>
+<h2>Sources</h2>
+<ol>
+<li>Park et al. Dual-Frequency Ultrasound as a New Treatment Modality for Refractory Rosacea (2018). <a href="https://pubmed.ncbi.nlm.nih.gov/29746429/">https://pubmed.ncbi.nlm.nih.gov/29746429/</a> — 42-patient retrospective series; S04.</li>
+<li>Kim et al. The Efficacy and Safety of Dual-Frequency Ultrasound for Improving Skin Hydration and Erythema in Patients with Rosacea and Acne (2021). <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7922048/">https://pmc.ncbi.nlm.nih.gov/articles/PMC7922048/</a> — uncontrolled SONO STYLER study; S05.</li>
+<li>Chervinskaya et al. Triple-Frequency Ultrasound for Mild-to-Severe Acne (2024 online / 2025 issue). <a href="https://doi.org/10.1111/jocd.16672">https://doi.org/10.1111/jocd.16672</a> — two-centre retrospective LDM study, selective follow-up and manufacturer conflict; S06.</li>
+<li>Meyer-Rogge et al. Facial Skin Rejuvenation with High Frequency Ultrasound (2012). <a href="https://doi.org/10.4236/jcdsa.2012.22016">https://doi.org/10.4236/jcdsa.2012.22016</a> — uncontrolled cosmetic outcome study; S07.</li>
+</ol>
+</div></section>
+<section class="doc" id="doc3"><template data-routing-metadata><a class="openmd" href="03_devices_claims_and_selection.md"></a></template><div class="rendered" id="doc3_r"><h1>LDM devices, claims and selection questions</h1>
+<p><em>Compiled October 9, 2026. Official specifications are dated snapshots; no current price ranking or purchase recommendation.</em></p>
+<h2>Bottom line</h2>
+<p><strong>Identify the exact device before assessing an LDM offer. A multi-frequency home wand, an OEM “LDM” label, and a studied Wellcomet platform require separate evidence.</strong> This initial section establishes the professional reference and the verification questions; it does not certify lookalikes.</p>
+<h2>Documented reference platforms</h2>
+<table>
+<thead>
+<tr>
+<th>Platform / source</th>
+<th>Verified in this pass</th>
+<th>What it does not establish</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Wellcomet LDM Triple / Gold, manufacturer technical page</td>
+<td>Two 5 cm² sonotrodes: 1/3/10 and 3/10/19 MHz; article 712-80; listed 8 kg <a href="https://www.wellcomet.de/html/page.php?lan=en&page_id=66">[1]</a></td>
+<td>Independent output, outcome superiority or a particular jurisdiction&#39;s authorized indication</td>
+</tr>
+<tr>
+<td>Wellcomet Korea LDM Triple page</td>
+<td>Same frequency combinations; listed intensity at or below 1.5 W/cm²; 8.5 kg and 55 VA input listing <a href="https://wellcometkorea.com/LDMTRIPLE">[2]</a></td>
+<td>The regional listing is not an exact universal spec sheet; input VA is not acoustic treatment power</td>
+</tr>
+<tr>
+<td>LDM MED Tri and LDM Triple in the acne study</td>
+<td>Model-specific use in a clinical report <a href="https://doi.org/10.1111/jocd.16672">[3]</a></td>
+<td>Every currently sold revision being identical to the studied unit</td>
+</tr>
+</tbody></table>
+<p><strong>Section finding — S02/S08/S06:</strong> frequency combinations are documented, but regional weight/spec differences remain visible. No inference of acoustic watts is made from mains consumption.</p>
+<h2>Regulatory and safety status</h2>
+<p>An official product page is a claim/specification source, not a clearance database or IFU. <strong>This pass has not verified an exact-model FDA clearance, complete IFU contraindication list, or home-use authorization for LDM.</strong> That is an open verification gap, not a statement that no authorization exists anywhere.</p>
+<p>Before any procedure, the provider should use the current exact-model IFU to check the indication, treatment site, relevant medical conditions, pregnancy considerations, implants, recent procedures and concurrent treatments. This is a checklist of questions, not a sourced universal contraindication list. Research-paper settings are not a home protocol.</p>
+<h2>Questions to ask before paying</h2>
+<ol>
+<li>What is the manufacturer, exact model, serial identity and handpiece? Is “LDM” being used as a brand/technology name or just a service label?</li>
+<li>Which study used this model and measured my outcome? Redness, hydration, wrinkles and lifting require different evidence.</li>
+<li>What is the local authorized indication, and may I inspect the current IFU and credentialed operator&#39;s plan?</li>
+<li>What is the full-course cost, reassessment point and maintenance proposal? What result would count as enough benefit to continue?</li>
+<li>How are intensity, duty cycle, coupling/contact and servicing controlled? What happens if symptoms worsen?</li>
+</ol>
+<p><strong>Section finding:</strong> these are evidence-audit questions derived from the gaps in the <a href="index.html#doc2">study map</a>, not a ranking of providers or a clinical prescription.</p>
+<h2>Goal-specific expectations</h2>
+<table>
+<thead>
+<tr>
+<th>Goal</th>
+<th>Research interpretation</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Redness / barrier</td>
+<td>An adjunct to discuss after diagnosis; related studies are promising but uncontrolled</td>
+</tr>
+<tr>
+<td>Acne</td>
+<td>Preliminary model-specific observational support; no superiority or treatment-replacement verdict</td>
+</tr>
+<tr>
+<td>Hydrated appearance / pores</td>
+<td>Cosmetic appearance may change without proving persistent collagen gain</td>
+</tr>
+<tr>
+<td>Lifting / major laxity</td>
+<td>Do not import focused-ultrasound or RF outcomes; compare the <a href="../11_hifu_skin_tightening/index.html">HIFU</a> and <a href="../07_radio_frequency_skin_tightening/index.html">RF</a> evidence separately</td>
+</tr>
+<tr>
+<td>Pigment / PIH</td>
+<td>No dedicated efficacy verdict from this initial corpus; see <a href="../01_ipl_hair_removal/index.html#doc7">pigment strategy</a> and <a href="../22_body_hyperpigmentation_long_term/index.html">body-pigment evidence</a></td>
+</tr>
+<tr>
+<td>Home / OEM purchase</td>
+<td>No equivalence-verified shortlist from this pass</td>
+</tr>
+</tbody></table>
+<h2>Evidence gaps</h2>
+<p>Obtain dated IFUs, regulatory identifiers, calibration/service requirements, adverse-event data, real local treatment quotes, and exact-model home/OEM human trials before upgrading this page into a buying guide.</p>
+<h2>Sources</h2>
+<ol>
+<li>Wellcomet LDM Triple technical data. <a href="https://www.wellcomet.de/html/page.php?lan=en&page_id=66">https://www.wellcomet.de/html/page.php?lan=en&amp;page_id=66</a> — official platform specifications; S02.</li>
+<li>Wellcomet Korea LDM Triple. <a href="https://wellcometkorea.com/LDMTRIPLE">https://wellcometkorea.com/LDMTRIPLE</a> — regional official specification snapshot; S08.</li>
+<li>Chervinskaya et al. <a href="https://doi.org/10.1111/jocd.16672">https://doi.org/10.1111/jocd.16672</a> — studied LDM platforms; S06.</li>
+</ol>
+</div></section>
+<section class="doc" id="doc4"><template data-routing-metadata><a class="openmd" href="04_source_library.md"></a></template><div class="rendered" id="doc4_r"><h1>LDM source library and research gaps</h1>
+<p><em>Compiled October 9, 2026. Sources are classified by what they establish.</em></p>
+<h2>Source map</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Source class</th>
+<th>Supports</th>
+<th>Access</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>S01</td>
+<td>Official technology description</td>
+<td>Alternating-frequency platform lineage</td>
+<td><a href="https://www.wellcomet.de/html/page.php?lan=de&page_id=38">Wellcomet technology page</a></td>
+</tr>
+<tr>
+<td>S02</td>
+<td>Official technical specification</td>
+<td>Triple handpieces and listed hardware</td>
+<td><a href="https://www.wellcomet.de/html/page.php?lan=en&page_id=66">Wellcomet specifications</a></td>
+</tr>
+<tr>
+<td>S03</td>
+<td>Official product / mechanism claims</td>
+<td>Manufacturer biological and approximate depth claims</td>
+<td><a href="https://www.wellcomet.de/html/page.php?lan=en&page_id=65">Wellcomet general page</a></td>
+</tr>
+<tr>
+<td>S04</td>
+<td>Peer-reviewed human, abstract appraisal</td>
+<td>Retrospective refractory rosacea series</td>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/29746429/">PubMed 29746429</a></td>
+</tr>
+<tr>
+<td>S05</td>
+<td>Peer-reviewed human, open full text</td>
+<td>SONO STYLER related ultrasound; redness and TEWL</td>
+<td><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7922048/">PMC7922048</a></td>
+</tr>
+<tr>
+<td>S06</td>
+<td>Peer-reviewed human, open full text</td>
+<td>Triple-frequency LDM acne series</td>
+<td><a href="source_docs/Chervinskaya_2024_2025_triple_frequency_acne.pdf">Local acne paper PDF</a></td>
+</tr>
+<tr>
+<td>S07</td>
+<td>Peer-reviewed human, publisher full text</td>
+<td>Early LDM-MED facial appearance study</td>
+<td><a href="source_docs/Meyer_Rogge_2012_facial_rejuvenation.pdf">Local rejuvenation paper PDF</a></td>
+</tr>
+<tr>
+<td>S08</td>
+<td>Regional official product specification</td>
+<td>Korea-listed frequencies, intensity and hardware</td>
+<td><a href="https://wellcometkorea.com/LDMTRIPLE">Wellcomet Korea</a></td>
+</tr>
+</tbody></table>
+<p><strong>Section finding:</strong> official pages anchor platform claims; human reports anchor only their measured endpoints. S05 is explicitly adjacent evidence. S06/S07 disclose manufacturer-linked authors; S04 has not received full-text conflict appraisal.</p>
+<h2>Preserved evidence</h2>
+<p>See the <a href="index.html#doc5">rendered capture manifest</a> for local files and the <a href="source_docs/capture_manifest.json">machine-readable checksums</a> for integrity. The <a href="data/studies.csv">study ledger</a> keeps designs, populations, endpoints and limitations together. The <a href="source_docs/research_resource_log_2026-10-09.txt">research recovery log</a> records source IDs, access status, preservation details and the sections using each source.</p>
+<p>PMC&#39;s acne page presented a browser challenge during direct retrieval; the paper was read from an openly licensed PDF. The 2018 source is an abstract/metadata record, not an archived full paper. Do not confuse metadata with full-text access.</p>
+<h2>Priority next research</h2>
+<ol>
+<li>Verify exact-model regulatory records and obtain complete current IFUs.</li>
+<li>Find independent sham-controlled studies and active-treatment comparisons for each indication.</li>
+<li>Appraise the full 2018 rosacea paper and newer controlled adjunct studies before a comprehensive rosacea verdict.</li>
+<li>Audit consumer/OEM hardware and human outcomes before a home-device shortlist.</li>
+<li>Separate short-term hydration from durable structural change using longer follow-up and tissue endpoints.</li>
+</ol>
+<h2>Related archive</h2>
+<p><a href="../11_hifu_skin_tightening/index.html">HIFU / microfocused ultrasound</a> · <a href="../07_radio_frequency_skin_tightening/index.html">RF</a> · <a href="../24_asian_devices_and_collagen_remodelling/index.html">Asian-device collagen comparison</a> · <a href="../23_skincare_penetration_technologies/index.html">Skincare delivery</a>.</p>
+</div></section>
+<section class="doc" id="doc5"><template data-routing-metadata><a class="openmd" href="source_docs/README.md"></a></template><div class="rendered" id="doc5_r"><h1>Preserved LDM sources</h1>
+<p><em>Captured October 9, 2026. Official HTML is a dated evidence capture, not an independent efficacy assessment.</em></p>
+<p><a href="index.html#doc4">Research source library</a> · <a href="source_docs/research_resource_log_2026-10-09.txt">Recovery log</a> · <a href="source_docs/capture_manifest.json">Checksums and original URLs</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Local artifact</th>
+<th>Preservation boundary</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>S01</td>
+<td><a href="source_docs/Wellcomet_LDM_technology_2026-10-09.html">Technology description (html)</a></td>
+<td>Official dated HTML; marketing/specification source</td>
+</tr>
+<tr>
+<td>S02</td>
+<td><a href="source_docs/Wellcomet_Triple_technical_data_2026-10-09.html">Triple specifications (html)</a></td>
+<td>Official dated HTML; marketing/specification source</td>
+</tr>
+<tr>
+<td>S03</td>
+<td><a href="source_docs/Wellcomet_Triple_claims_2026-10-09.html">Product and mechanism claims (html)</a></td>
+<td>Official dated HTML; marketing/specification source</td>
+</tr>
+<tr>
+<td>S04</td>
+<td><a href="source_docs/Park_2018_metadata.json">2018 rosacea metadata (json)</a></td>
+<td>Abstract metadata only; no full paper</td>
+</tr>
+<tr>
+<td>S05</td>
+<td><a href="source_docs/Kim_2021_metadata.json">2021 metadata / open-access XML (json)</a> · <a href="source_docs/Kim_2021_fulltext.xml">2021 metadata / open-access XML (xml)</a></td>
+<td>Original open-access article in XML; CC BY</td>
+</tr>
+<tr>
+<td>S06</td>
+<td><a href="source_docs/Chervinskaya_2024_2025_triple_frequency_acne.pdf">Triple-frequency acne paper (pdf)</a></td>
+<td>Open-access CC BY paper; original author attribution retained</td>
+</tr>
+<tr>
+<td>S07</td>
+<td><a href="source_docs/Meyer_Rogge_2012_facial_rejuvenation.pdf">Facial rejuvenation paper (pdf)</a></td>
+<td>Publisher-hosted research PDF; author attribution retained</td>
+</tr>
+<tr>
+<td>S08</td>
+<td><a href="source_docs/Wellcomet_Korea_Triple_2026-10-09.html">Korea Triple listing (html)</a></td>
+<td>Official dated HTML; marketing/specification source</td>
+</tr>
+</tbody></table>
+<p>The <a href="data/studies.csv">study ledger</a> records the measured outcomes and limitations. Saved third-party HTML may depend on remote images/styles; use it as a source capture. XML and metadata JSON are evidence files, not the research reader experience. No complete current IFU or exact-model regulatory dossier was captured.</p>
+</div></section></main></div><footer>Initial evidence map. Rendered research works from disk and from a served site. Original evidence files remain available in the source library.</footer><script>
+const DOCS=[{"id":"doc0","file":"README.md","title":"Start here","md":"# LDM ultrasound: local dynamic micromassage\n\n*Compiled October 9, 2026. Evidence orientation for skin-quality and inflammatory-skin questions.*\n\n## Start here\n\n**LDM deserves its own section: it is a rapidly alternating, multi-frequency therapeutic ultrasound lane, distinct from the focused-ultrasound lifting procedures in the HIFU archive.** Wellcomet uses the LDM name for its technology; a generic “ultrasound facial” or home wand is not automatically the same system. [[1]](https://www.wellcomet.de/html/page.php?lan=de&page_id=38)\n\nThe reviewed human literature offers preliminary signals for redness/barrier dysfunction, acne and cosmetic skin appearance. It does not establish a best home LDM device, a predictable collagen increase, or superiority to established treatments. The [human evidence guide](index.html#doc2) separates actual LDM studies from adjacent ultrasound evidence.\n\n## Recommended reading order\n\n| Read | What it answers |\n|---|---|\n| [1. Mechanism and LDM versus HIFU](index.html#doc1) | What frequency switching means; why MHz is not a lifting depth or efficacy ranking |\n| [2. Human evidence](index.html#doc2) | Redness, acne, hydration and wrinkles; sample sizes, endpoints, controls and conflicts |\n| [3. Devices, claims and selection](index.html#doc3) | Wellcomet platforms, lookalikes, missing regulatory/IFU information and provider questions |\n| [4. Source library](index.html#doc4) | Preserved papers, metadata, official specifications and remaining research gaps |\n\nUse the [goal explorer](index.html#explorer) for a short reading path. It selects evidence, not a treatment setting.\n\n## Where LDM fits\n\nFor redness or barrier concerns, start with the evidence rather than a clinic's “water-drop lifting” name. For meaningful lifting or structural collagen remodelling, compare endpoints with the [HIFU](../11_hifu_skin_tightening/index.html), [RF](../07_radio_frequency_skin_tightening/index.html), [microneedling](../10_microneedling_collagen_induction/index.html) and [Asian-device comparison](../24_asian_devices_and_collagen_remodelling/index.html) archives. For delivery claims, see [skincare penetration](../23_skincare_penetration_technologies/index.html).\n\n## Source/data access\n\n[Rendered source library](index.html#doc4) · [Preserved-source manifest](index.html#doc5) · [Research recovery log](source_docs/research_resource_log_2026-10-09.txt) · [Study ledger](data/studies.csv) · [Capture manifest](source_docs/capture_manifest.json).\n\n## Status\n\nInitial source-backed section, with four human studies and official platform information. Exact-model IFUs, jurisdiction-specific authorization, independent sham-controlled comparisons, current prices and home-device equivalence remain open. No purchasing shortlist or home treatment protocol is established by this pass.\n\n## Sources\n\n1. Wellcomet LDM technologies. https://www.wellcomet.de/html/page.php?lan=de&page_id=38 — manufacturer description of dual and triple frequency switching; source-log S01.\n"},{"id":"doc1","file":"01_mechanism_and_hifu_comparison.md","title":"Mechanism · LDM versus HIFU","md":"# LDM mechanism and the HIFU distinction\n\n*Compiled October 9, 2026. Verified platform descriptions, manufacturer hypotheses and research interpretation are separated.*\n\n## Bottom line\n\n**LDM means local dynamic micromassage: therapeutic ultrasound that switches rapidly among frequencies. It should have its own evidence lane rather than inherit the outcomes of HIFU, RF or any other multi-frequency device.** [[1]](https://www.wellcomet.de/html/page.php?lan=de&page_id=38)\n\n## What is actually delivered?\n\nWellcomet describes dual combinations such as 1/3 and 3/10 MHz, and triple combinations of 1/3/10 and 3/10/19 MHz. Frequency is the acoustic oscillation rate; the alternation schedule is a separate variable. A label listing several frequencies does not reveal switching timing, intensity, duty cycle or calibrated acoustic output. [[1]](https://www.wellcomet.de/html/page.php?lan=de&page_id=38)\n\nThe manufacturer proposes effects on matrix metalloproteinases, heat shock proteins and hyaluronic acid. These are mechanism claims, not a measured collagen percentage for an individual patient. Hydration, turgor and visible smoothing are different endpoints from durable tissue remodelling. [[2]](https://www.wellcomet.de/html/page.php?lan=en&page_id=65)\n\n**Section finding — S01/S03:** official documentation establishes what the manufacturer describes. It does not independently validate each biological explanation or clinical claim.\n\n## Compare the ultrasound lanes\n\n| Lane | Research target | What must be verified |\n|---|---|---|\n| LDM / alternating therapeutic ultrasound | Skin quality and inflammatory-skin endpoints | Exact generator, handpiece, sequence, acoustic intensity, coupling and study indication |\n| HIFU / microfocused ultrasound | Procedure-specific focal heating and tightening | Focal geometry, depth, anatomy, imaging/control and operator protocol; see the [existing HIFU research](../11_hifu_skin_tightening/index.html#doc1) |\n| Other dual-frequency ultrasound | Outcomes of that particular system | Equivalence to LDM must be demonstrated, not assumed from MHz |\n| Ultrasound-assisted delivery | Transport of a particular formulation | Compatible formulation and measured uptake; see [delivery research](../23_skincare_penetration_technologies/index.html#doc2) |\n\nThis comparison is a research classification, not a claim that every device in a category uses the same physics or produces the same outcome.\n\n## Frequency is not a precise treatment depth\n\nThe manufacturer gives approximate half-depths of 3 mm at 10 MHz and 1.5 mm at 19 MHz. A half-depth describes attenuation; it is not a hard boundary, an HIFU focal point, or a guarantee of targeting a single skin layer. Tissue properties and the complete exposure matter. [[2]](https://www.wellcomet.de/html/page.php?lan=en&page_id=65)\n\n**Section finding — S03:** these are manufacturer approximations. This section intentionally has no depth-to-collagen or frequency-to-result calculator.\n\n## Read the clinical endpoints first\n\nAsk whether a paper measured redness, TEWL (water loss through skin), acne severity, wrinkles, or actual tissue structure. A change in one cannot simply be relabelled as all the others. The [evidence guide](index.html#doc2) records those distinctions.\n\n## Evidence gaps\n\nIndependent acoustic-output comparisons, a common-protocol LDM-versus-HIFU trial, and direct long-term human collagen measurements for current platforms were not established in this initial corpus. The exact IFU remains necessary for clinical use.\n\n## Sources\n\n1. Wellcomet LDM technologies. https://www.wellcomet.de/html/page.php?lan=de&page_id=38 — dual/triple switching and technology lineage; S01.\n2. Wellcomet LDM Triple general description. https://www.wellcomet.de/html/page.php?lan=en&page_id=65 — manufacturer mechanism and approximate attenuation-depth claims; S03.\n"},{"id":"doc2","file":"02_human_evidence.md","title":"Human evidence","md":"# LDM and related ultrasound: human evidence\n\n*Compiled October 9, 2026. Initial four-study evidence map, not an exhaustive systematic review.*\n\n## Bottom line\n\n**There are human signals worth investigating, especially for redness/barrier dysfunction and acne. Confidence is limited by small samples, observational designs, short or selective follow-up, and differences between devices.** A statistically significant change from baseline is not a sham-adjusted treatment effect. [[1]](https://pubmed.ncbi.nlm.nih.gov/29746429/)[[2]](https://pmc.ncbi.nlm.nih.gov/articles/PMC7922048/)[[3]](https://doi.org/10.1111/jocd.16672)[[4]](https://doi.org/10.4236/jcdsa.2012.22016)\n\n## Redness and barrier dysfunction\n\n| Study | Design and endpoint | Finding | Translation limit |\n|---|---|---|---|\n| Park et al., 2018; PMID 29746429 | Retrospective, 42 refractory-rosacea patients; erythema index, TEWL and self-assessment | Significant decreases in all three measures reported | No randomized control; abstract-only appraisal here; exact platform/parameters and conflicts need full-text verification [[1]](https://pubmed.ncbi.nlm.nih.gov/29746429/) |\n| Kim et al., 2021; PMID 33670631 | 28 enrolled, 26 completed; four weekly treatments; six-week assessment | TEWL decreased by 5.37 ± 13.22 g/m²/h and erythema index by 39.73 ± 44.21 units; no serious adverse effects observed | Uncontrolled short follow-up; **SONO STYLER (Weyergans), 1/3 MHz, is related ultrasound evidence, not a Wellcomet LDM trial** [[2]](https://pmc.ncbi.nlm.nih.gov/articles/PMC7922048/) |\n\n**Section finding — S04/S05:** the signal concerns redness and barrier measures. The erythema-index change is an instrument-unit difference, not “39.73% less redness.” The 2021 paper declares no conflict of interest; that does not solve the absence of a control group.\n\n## Acne\n\nChervinskaya et al. (online 2024; journal issue 2025) retrospectively compared two clinics using LDM MED Tri 1/3/10 MHz or LDM Triple 3/10/19 MHz. Twenty-two patients contributed the reported photo-score analysis (11 per group); the methods initially describe 24 individuals. Nine had follow-up controls. Nine dermatologists assessed photos blinded to treatment assignments. [[3]](https://doi.org/10.1111/jocd.16672)\n\nThe mean modified Global Evaluation Acne score improvement was 73.69% at treatment completion and 90.14% at follow-up. These are changes in a photo-rating scale, not percentages of patients cured or lesion-count reductions. There was no untreated/sham group, and each clinic used a different platform, confounding device with site. The paper disclosed a Wellcomet CEO coauthor. [[3]](https://doi.org/10.1111/jocd.16672)\n\n**Section finding — S06:** promising observational acne results; no demonstrated 19-MHz superiority and no basis for replacing established acne care. The small selective follow-up group makes durability especially uncertain.\n\n## Wrinkles, pores and collagen claims\n\nThe 2012 multicentre LDM-MED study included 39 subjects, with eight to twelve treatments and an assessment about one week after the course. Mean coarse- and fine-wrinkle scores improved by 0.63 and 0.73 grades. It was nonrandomized and unblinded; two preliminary split-face examples were not a controlled trial of the full cohort. A coauthor was a Wellcomet managing partner. Temporary erythema was reported. [[4]](https://doi.org/10.4236/jcdsa.2012.22016)\n\n**Section finding — S07:** cosmetic appearance signals do not quantify new collagen, demonstrate sustained lifting, or establish parity with RF, HIFU or resurfacing.\n\n## How to use this evidence\n\nMatch the treatment's promised outcome to the actual study endpoint and exact model. Before-and-after photos should use consistent lighting, pose and timing. Require a credible comparator before accepting superiority claims. For an adjunct procedure, specify how benefit would be assessed separately from the concurrent skincare or treatment.\n\n## Evidence gaps\n\nIndependent randomized sham-controlled studies; broader skin-type reporting; comparisons with standard care; standardized adverse-event monitoring; long follow-up; and clinical equivalence data for consumer/OEM devices would materially change confidence. Small reports of few adverse effects do not establish universal safety.\n\n## Sources\n\n1. Park et al. Dual-Frequency Ultrasound as a New Treatment Modality for Refractory Rosacea (2018). https://pubmed.ncbi.nlm.nih.gov/29746429/ — 42-patient retrospective series; S04.\n2. Kim et al. The Efficacy and Safety of Dual-Frequency Ultrasound for Improving Skin Hydration and Erythema in Patients with Rosacea and Acne (2021). https://pmc.ncbi.nlm.nih.gov/articles/PMC7922048/ — uncontrolled SONO STYLER study; S05.\n3. Chervinskaya et al. Triple-Frequency Ultrasound for Mild-to-Severe Acne (2024 online / 2025 issue). https://doi.org/10.1111/jocd.16672 — two-centre retrospective LDM study, selective follow-up and manufacturer conflict; S06.\n4. Meyer-Rogge et al. Facial Skin Rejuvenation with High Frequency Ultrasound (2012). https://doi.org/10.4236/jcdsa.2012.22016 — uncontrolled cosmetic outcome study; S07.\n"},{"id":"doc3","file":"03_devices_claims_and_selection.md","title":"Devices and selection","md":"# LDM devices, claims and selection questions\n\n*Compiled October 9, 2026. Official specifications are dated snapshots; no current price ranking or purchase recommendation.*\n\n## Bottom line\n\n**Identify the exact device before assessing an LDM offer. A multi-frequency home wand, an OEM “LDM” label, and a studied Wellcomet platform require separate evidence.** This initial section establishes the professional reference and the verification questions; it does not certify lookalikes.\n\n## Documented reference platforms\n\n| Platform / source | Verified in this pass | What it does not establish |\n|---|---|---|\n| Wellcomet LDM Triple / Gold, manufacturer technical page | Two 5 cm² sonotrodes: 1/3/10 and 3/10/19 MHz; article 712-80; listed 8 kg [[1]](https://www.wellcomet.de/html/page.php?lan=en&page_id=66) | Independent output, outcome superiority or a particular jurisdiction's authorized indication |\n| Wellcomet Korea LDM Triple page | Same frequency combinations; listed intensity at or below 1.5 W/cm²; 8.5 kg and 55 VA input listing [[2]](https://wellcometkorea.com/LDMTRIPLE) | The regional listing is not an exact universal spec sheet; input VA is not acoustic treatment power |\n| LDM MED Tri and LDM Triple in the acne study | Model-specific use in a clinical report [[3]](https://doi.org/10.1111/jocd.16672) | Every currently sold revision being identical to the studied unit |\n\n**Section finding — S02/S08/S06:** frequency combinations are documented, but regional weight/spec differences remain visible. No inference of acoustic watts is made from mains consumption.\n\n## Regulatory and safety status\n\nAn official product page is a claim/specification source, not a clearance database or IFU. **This pass has not verified an exact-model FDA clearance, complete IFU contraindication list, or home-use authorization for LDM.** That is an open verification gap, not a statement that no authorization exists anywhere.\n\nBefore any procedure, the provider should use the current exact-model IFU to check the indication, treatment site, relevant medical conditions, pregnancy considerations, implants, recent procedures and concurrent treatments. This is a checklist of questions, not a sourced universal contraindication list. Research-paper settings are not a home protocol.\n\n## Questions to ask before paying\n\n1. What is the manufacturer, exact model, serial identity and handpiece? Is “LDM” being used as a brand/technology name or just a service label?\n2. Which study used this model and measured my outcome? Redness, hydration, wrinkles and lifting require different evidence.\n3. What is the local authorized indication, and may I inspect the current IFU and credentialed operator's plan?\n4. What is the full-course cost, reassessment point and maintenance proposal? What result would count as enough benefit to continue?\n5. How are intensity, duty cycle, coupling/contact and servicing controlled? What happens if symptoms worsen?\n\n**Section finding:** these are evidence-audit questions derived from the gaps in the [study map](index.html#doc2), not a ranking of providers or a clinical prescription.\n\n## Goal-specific expectations\n\n| Goal | Research interpretation |\n|---|---|\n| Redness / barrier | An adjunct to discuss after diagnosis; related studies are promising but uncontrolled |\n| Acne | Preliminary model-specific observational support; no superiority or treatment-replacement verdict |\n| Hydrated appearance / pores | Cosmetic appearance may change without proving persistent collagen gain |\n| Lifting / major laxity | Do not import focused-ultrasound or RF outcomes; compare the [HIFU](../11_hifu_skin_tightening/index.html) and [RF](../07_radio_frequency_skin_tightening/index.html) evidence separately |\n| Pigment / PIH | No dedicated efficacy verdict from this initial corpus; see [pigment strategy](../01_ipl_hair_removal/index.html#doc7) and [body-pigment evidence](../22_body_hyperpigmentation_long_term/index.html) |\n| Home / OEM purchase | No equivalence-verified shortlist from this pass |\n\n## Evidence gaps\n\nObtain dated IFUs, regulatory identifiers, calibration/service requirements, adverse-event data, real local treatment quotes, and exact-model home/OEM human trials before upgrading this page into a buying guide.\n\n## Sources\n\n1. Wellcomet LDM Triple technical data. https://www.wellcomet.de/html/page.php?lan=en&page_id=66 — official platform specifications; S02.\n2. Wellcomet Korea LDM Triple. https://wellcometkorea.com/LDMTRIPLE — regional official specification snapshot; S08.\n3. Chervinskaya et al. https://doi.org/10.1111/jocd.16672 — studied LDM platforms; S06.\n"},{"id":"doc4","file":"04_source_library.md","title":"Source library and gaps","md":"# LDM source library and research gaps\n\n*Compiled October 9, 2026. Sources are classified by what they establish.*\n\n## Source map\n\n| ID | Source class | Supports | Access |\n|---|---|---|---|\n| S01 | Official technology description | Alternating-frequency platform lineage | [Wellcomet technology page](https://www.wellcomet.de/html/page.php?lan=de&page_id=38) |\n| S02 | Official technical specification | Triple handpieces and listed hardware | [Wellcomet specifications](https://www.wellcomet.de/html/page.php?lan=en&page_id=66) |\n| S03 | Official product / mechanism claims | Manufacturer biological and approximate depth claims | [Wellcomet general page](https://www.wellcomet.de/html/page.php?lan=en&page_id=65) |\n| S04 | Peer-reviewed human, abstract appraisal | Retrospective refractory rosacea series | [PubMed 29746429](https://pubmed.ncbi.nlm.nih.gov/29746429/) |\n| S05 | Peer-reviewed human, open full text | SONO STYLER related ultrasound; redness and TEWL | [PMC7922048](https://pmc.ncbi.nlm.nih.gov/articles/PMC7922048/) |\n| S06 | Peer-reviewed human, open full text | Triple-frequency LDM acne series | [Local acne paper PDF](source_docs/Chervinskaya_2024_2025_triple_frequency_acne.pdf) |\n| S07 | Peer-reviewed human, publisher full text | Early LDM-MED facial appearance study | [Local rejuvenation paper PDF](source_docs/Meyer_Rogge_2012_facial_rejuvenation.pdf) |\n| S08 | Regional official product specification | Korea-listed frequencies, intensity and hardware | [Wellcomet Korea](https://wellcometkorea.com/LDMTRIPLE) |\n\n**Section finding:** official pages anchor platform claims; human reports anchor only their measured endpoints. S05 is explicitly adjacent evidence. S06/S07 disclose manufacturer-linked authors; S04 has not received full-text conflict appraisal.\n\n## Preserved evidence\n\nSee the [rendered capture manifest](index.html#doc5) for local files and the [machine-readable checksums](source_docs/capture_manifest.json) for integrity. The [study ledger](data/studies.csv) keeps designs, populations, endpoints and limitations together. The [research recovery log](source_docs/research_resource_log_2026-10-09.txt) records source IDs, access status, preservation details and the sections using each source.\n\nPMC's acne page presented a browser challenge during direct retrieval; the paper was read from an openly licensed PDF. The 2018 source is an abstract/metadata record, not an archived full paper. Do not confuse metadata with full-text access.\n\n## Priority next research\n\n1. Verify exact-model regulatory records and obtain complete current IFUs.\n2. Find independent sham-controlled studies and active-treatment comparisons for each indication.\n3. Appraise the full 2018 rosacea paper and newer controlled adjunct studies before a comprehensive rosacea verdict.\n4. Audit consumer/OEM hardware and human outcomes before a home-device shortlist.\n5. Separate short-term hydration from durable structural change using longer follow-up and tissue endpoints.\n\n## Related archive\n\n[HIFU / microfocused ultrasound](../11_hifu_skin_tightening/index.html) · [RF](../07_radio_frequency_skin_tightening/index.html) · [Asian-device collagen comparison](../24_asian_devices_and_collagen_remodelling/index.html) · [Skincare delivery](../23_skincare_penetration_technologies/index.html).\n"},{"id":"doc5","file":"source_docs/README.md","title":"Preserved source manifest","md":"# Preserved LDM sources\n\n*Captured October 9, 2026. Official HTML is a dated evidence capture, not an independent efficacy assessment.*\n\n[Research source library](../index.html#doc4) · [Recovery log](research_resource_log_2026-10-09.txt) · [Checksums and original URLs](capture_manifest.json).\n\n| Source | Local artifact | Preservation boundary |\n|---|---|---|\n| S01 | [Technology description (html)](Wellcomet_LDM_technology_2026-10-09.html) | Official dated HTML; marketing/specification source |\n| S02 | [Triple specifications (html)](Wellcomet_Triple_technical_data_2026-10-09.html) | Official dated HTML; marketing/specification source |\n| S03 | [Product and mechanism claims (html)](Wellcomet_Triple_claims_2026-10-09.html) | Official dated HTML; marketing/specification source |\n| S04 | [2018 rosacea metadata (json)](Park_2018_metadata.json) | Abstract metadata only; no full paper |\n| S05 | [2021 metadata / open-access XML (json)](Kim_2021_metadata.json) · [2021 metadata / open-access XML (xml)](Kim_2021_fulltext.xml) | Original open-access article in XML; CC BY |\n| S06 | [Triple-frequency acne paper (pdf)](Chervinskaya_2024_2025_triple_frequency_acne.pdf) | Open-access CC BY paper; original author attribution retained |\n| S07 | [Facial rejuvenation paper (pdf)](Meyer_Rogge_2012_facial_rejuvenation.pdf) | Publisher-hosted research PDF; author attribution retained |\n| S08 | [Korea Triple listing (html)](Wellcomet_Korea_Triple_2026-10-09.html) | Official dated HTML; marketing/specification source |\n\nThe [study ledger](../data/studies.csv) records the measured outcomes and limitations. Saved third-party HTML may depend on remote images/styles; use it as a source capture. XML and metadata JSON are evidence files, not the research reader experience. No complete current IFU or exact-model regulatory dossier was captured.\n"}];
+function show(){let id=location.hash.slice(1)||'doc0';if(id!=='explorer'&&!DOCS.some(d=>d.id===id))id='doc0';document.querySelectorAll('.doc,.explorer').forEach(d=>d.classList.toggle('active',d.id===id));document.querySelectorAll('nav>a').forEach(a=>{const active=a.getAttribute('href')==='#'+id;a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});document.getElementById('page-picker').value=id;document.title=(id==='explorer'?'Explore by goal':DOCS.find(d=>d.id===id).title)+' · LDM Ultrasound';}
+const goals={redness:['A preliminary redness / barrier signal','The 42-patient retrospective rosacea series and 26-completer SONO STYLER study report improvement. The latter is related ultrasound, not Wellcomet LDM. Neither supplies a sham-adjusted result.','doc2'],acne:['Promising observational LDM results','The two-centre triple-frequency study has a small photo-analysis sample, no sham group, selective follow-up and a manufacturer-linked author. It does not establish a cure rate or 19-MHz superiority.','doc2'],wrinkles:['Appearance is not a collagen measurement','An early 39-subject LDM-MED report found cosmetic score changes after a treatment course. Short follow-up and uncontrolled assessment limit conclusions about lasting structural benefit.','doc2'],lift:['Keep focused-ultrasound lifting separate','No common-protocol comparison or predictable collagen gain is established here. Read the mechanism distinction before importing HIFU or RF results.','doc1'],home:['Verify equivalence before choosing hardware','The professional reference platforms do not establish clinical equivalence for generic home or OEM devices. Exact-model IFUs, authorization, measured output and human evidence remain required research.','doc3']};
+function explore(){const [title,body,target]=goals[document.getElementById('goal').value],box=document.getElementById('goal-result');box.replaceChildren();const h=document.createElement('h3');h.textContent=title;const p=document.createElement('p');p.textContent=body;const a=document.createElement('a');a.href='#'+target;a.textContent='Read the supporting research →';box.append(h,p,a);}
+document.getElementById('page-picker').addEventListener('change',e=>{location.hash=e.target.value;window.scrollTo({top:0,behavior:'instant'})});document.getElementById('goal').addEventListener('change',explore);document.querySelectorAll('.doc table').forEach(t=>{const w=document.createElement('div');w.className='table-scroll';w.tabIndex=0;w.setAttribute('aria-label','Scrollable research table');t.before(w);w.append(t)});window.addEventListener('hashchange',()=>{show();window.scrollTo({top:0,behavior:'instant'})});show();explore();
+</script><script>/*cite-enhance*/
+(function(){
+  if(window.__citeEnhanced) return; window.__citeEnhanced=true;
+  var back=document.createElement('div'); back.id='citebackdrop'; back.hidden=true;
+  var pop=document.createElement('div'); pop.id='citepop'; pop.hidden=true;
+  pop.setAttribute('role','dialog'); pop.setAttribute('aria-modal','false'); pop.setAttribute('aria-live','polite');
+  pop.innerHTML='<div class="cp-card"><button type="button" class="cp-close" aria-label="Close">×</button><div class="cp-src"></div><div class="cp-quote"></div><a class="cp-link" target="_blank" rel="noopener">Open full source ↗</a></div>';
+  document.body.appendChild(back); document.body.appendChild(pop);
+  var srcEl=pop.querySelector('.cp-src'), qEl=pop.querySelector('.cp-quote'),
+      linkEl=pop.querySelector('.cp-link'), closeEl=pop.querySelector('.cp-close');
+  var canHover=window.matchMedia('(hover:hover) and (pointer:fine)').matches;
+  var hideT=null, current=null;
+  function fill(el){
+    srcEl.textContent=el.dataset.title||('Source '+el.dataset.n);
+    var ev=el.dataset.evidence||'';
+    if(ev){qEl.textContent=ev; qEl.classList.remove('cp-empty');}
+    else{qEl.textContent='No quote was extracted for this source — open it to read the original.'; qEl.classList.add('cp-empty');}
+    if(el.dataset.url){linkEl.href=el.dataset.url; linkEl.style.display='';} else linkEl.style.display='none';
+  }
+  function setCur(el){ if(current)current.classList.remove('on'); current=el; if(el)el.classList.add('on'); }
+  function positionFloat(el){
+    var r=el.getBoundingClientRect(), pr=pop.getBoundingClientRect();
+    var top=r.top-pr.height-8; if(top<8) top=r.bottom+8;
+    top=Math.max(8,Math.min(top,window.innerHeight-pr.height-8));
+    var left=r.left+r.width/2-pr.width/2;
+    left=Math.max(8,Math.min(left,window.innerWidth-pr.width-8));
+    pop.style.top=top+'px'; pop.style.left=left+'px';
+  }
+  function openFloat(el){
+    clearTimeout(hideT); setCur(el); fill(el);
+    pop.classList.remove('sheet'); back.hidden=true;
+    pop.style.visibility='hidden'; pop.hidden=false;
+    requestAnimationFrame(function(){ positionFloat(el); pop.style.visibility=''; });
+  }
+  function openSheet(el){
+    clearTimeout(hideT); setCur(el); fill(el);
+    pop.classList.add('sheet'); pop.style.top=''; pop.style.left='';
+    back.hidden=false; pop.hidden=false;
+    requestAnimationFrame(function(){ back.classList.add('show'); });
+  }
+  function close(){ pop.hidden=true; back.hidden=true; back.classList.remove('show'); pop.classList.remove('sheet'); setCur(null); }
+  function scheduleHide(){ hideT=setTimeout(close,160); }
+  pop.addEventListener('mouseenter',function(){ if(canHover) clearTimeout(hideT); });
+  pop.addEventListener('mouseleave',function(){ if(canHover) scheduleHide(); });
+  closeEl.addEventListener('click',close);
+  back.addEventListener('click',close);
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape') close(); });
+  window.addEventListener('scroll',function(){ if(current && !pop.classList.contains('sheet')) close(); },true);
+  window.addEventListener('resize',close);
+  function bind(el){
+    if(canHover){
+      el.addEventListener('mouseenter',function(){ clearTimeout(hideT); openFloat(el); });
+      el.addEventListener('mouseleave',scheduleHide);
+      el.addEventListener('focus',function(){ openFloat(el); });
+      el.addEventListener('blur',scheduleHide);
+      el.addEventListener('click',function(e){ e.preventDefault(); openFloat(el); });
+    }else{
+      el.addEventListener('click',function(e){ e.preventDefault(); (pop.hidden||current!==el)?openSheet(el):close(); });
+    }
+  }
+  function citeData(md){
+    var map={}, lines=md.split('\n');
+    var headRe=/^#{1,6}\s+.*\b(sources|references|bibliography)\b/i;
+    var last=-1; for(var i=0;i<lines.length;i++) if(headRe.test(lines[i])) last=i;
+    if(last<0) return map;
+    var entryRe=/^\s*(\d+)\.\s+(.*)$/, urlRe=/https?:\/\/[^\s)>\]]+/;
+    for(var j=last+1;j<lines.length;j++){
+      var ln=lines[j]; if(/^#{1,6}\s/.test(ln)) break;
+      var m=entryRe.exec(ln); if(!m) continue;
+      var n=m[1], rest=m[2], um=rest.match(urlRe), url='', title=rest, ev='';
+      if(um){ url=um[0].replace(/[.,;]+$/,''); title=rest.slice(0,um.index); ev=rest.slice(um.index+um[0].length); }
+      title=title.replace(/[*_`]/g,'').replace(/\s*[—–-]\s*$/,'').trim();
+      ev=ev.replace(/^\s*[—–-]\s*/,'').replace(/[*_`]/g,'').trim();
+      map[n]={title:title,url:url,evidence:ev};
+    }
+    return map;
+  }
+  function enhance(container,map){
+    if(!container||!Object.keys(map).length) return;
+    container.querySelectorAll('a').forEach(function(a){
+      var t=(a.textContent||'').trim(); var m=/^\[(\d+)\]$/.exec(t); if(!m) return;
+      var num=m[1], d=map[num]; if(!d) return;
+      var b=document.createElement('button');
+      b.className='cite'; b.type='button'; b.textContent=num;
+      b.dataset.n=num; b.dataset.title=d.title; b.dataset.evidence=d.evidence;
+      b.dataset.url=d.url||a.getAttribute('href')||'';
+      b.setAttribute('aria-label','Citation '+num+'. '+(d.title||'')+'. '+(d.evidence||''));
+      a.replaceWith(b); bind(b);
+    });
+  }
+  function run(){ try{ if(typeof DOCS==='undefined') return;
+    DOCS.forEach(function(d){ enhance(document.getElementById(d.id+'_r'), citeData(d.md)); }); }catch(e){} }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',run); else run();
+})();
+</script>
+
+</body></html>

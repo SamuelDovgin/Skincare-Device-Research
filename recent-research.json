@@ -743,28 +743,28 @@
       "title": "Home RF wattage atlas: rated, measured and inferred power",
       "topic": "Radio Frequency Skin Tightening",
       "href": "07_radio_frequency_skin_tightening/index.html#doc19",
-      "timestamp": 1791523397,
-      "status": "Added",
+      "timestamp": 1791558998,
+      "status": "Updated",
       "date": "2026-10-09",
-      "sha256": "e0d4735e3f58f3d3826b38dea6fc4f2eeb41ff262934035b1cfaad9e6e499915"
+      "sha256": "ed59e3c2fa7a83ec1e3fd58817ad69e5b0566ce9a43a50041c241c7b249cc902"
     },
     "07_radio_frequency_skin_tightening/20_generic_rf_and_mimisilk_oem_audit.md": {
       "title": "Generic RF devices and the MimiSilk / DLUS manufacturer lead",
       "topic": "Radio Frequency Skin Tightening",
       "href": "07_radio_frequency_skin_tightening/index.html#doc20",
-      "timestamp": 1791523397,
-      "status": "Added",
+      "timestamp": 1791558998,
+      "status": "Updated",
       "date": "2026-10-09",
-      "sha256": "045a8f5f792fed7fa90433f6d9d3535b694ea3419eb74d4ff9854420bd5a9a06"
+      "sha256": "a7c26c98d6c93a415b3225a3cc93d72630bd717cc2bda6a9278eab4a4fcbd28e"
     },
     "07_radio_frequency_skin_tightening/21_submitted_research_and_source_register.md": {
       "title": "Submitted research, FDA / patent crosswalk and source recovery",
       "topic": "Radio Frequency Skin Tightening",
       "href": "07_radio_frequency_skin_tightening/index.html#doc21",
-      "timestamp": 1791523397,
-      "status": "Added",
+      "timestamp": 1791558998,
+      "status": "Updated",
       "date": "2026-10-09",
-      "sha256": "ba3d620ef9ecd650c4d99af941583bb747b49510e5dbbb508065b989b6af6c0d"
+      "sha256": "c21a4c069e927e31cca0a378de9debbdf4520e3b51eb7d96b3fa6a6ba131077f"
     },
     "08_vitamin_c_serums/01_ce_ferulic_science_and_patents.md": {
       "title": "C E Ferulic Science & Patents: Why This Formula Became the Benchmark",
@@ -1899,13 +1899,49 @@
       "status": "Added",
       "date": "2026-10-02",
       "sha256": "f1e0ca66f7e596f4e9ddcea37c95851c55ea8891945ec5244dcf14d87b6fbb34"
+    },
+    "25_ldm_ultrasound/01_mechanism_and_hifu_comparison.md": {
+      "title": "LDM mechanism and the HIFU distinction",
+      "topic": "LDM ultrasound: local dynamic micromassage",
+      "href": "25_ldm_ultrasound/index.html#doc1",
+      "timestamp": 1791557618,
+      "status": "Added",
+      "date": "2026-10-09",
+      "sha256": "10696d3a90b7295ec559dbb6f0878e2d77e4378e132727b423d54294e93e8276"
+    },
+    "25_ldm_ultrasound/02_human_evidence.md": {
+      "title": "LDM and related ultrasound: human evidence",
+      "topic": "LDM ultrasound: local dynamic micromassage",
+      "href": "25_ldm_ultrasound/index.html#doc2",
+      "timestamp": 1791557618,
+      "status": "Added",
+      "date": "2026-10-09",
+      "sha256": "c8253ca6e33c252c6f5ff1b41dffb29ed849e8a64a280a442f5655de56889b8f"
+    },
+    "25_ldm_ultrasound/03_devices_claims_and_selection.md": {
+      "title": "LDM devices, claims and selection questions",
+      "topic": "LDM ultrasound: local dynamic micromassage",
+      "href": "25_ldm_ultrasound/index.html#doc3",
+      "timestamp": 1791557618,
+      "status": "Added",
+      "date": "2026-10-09",
+      "sha256": "a3cdebc551e75803b7b3b2dfbe837eb35b6c34e81be9bd35beda4d499a22e10f"
+    },
+    "25_ldm_ultrasound/04_source_library.md": {
+      "title": "LDM source library and research gaps",
+      "topic": "LDM ultrasound: local dynamic micromassage",
+      "href": "25_ldm_ultrasound/index.html#doc4",
+      "timestamp": 1791557402,
+      "status": "Added",
+      "date": "2026-10-09",
+      "sha256": "1b170852f3fe009e86402752b87fdc7dcd974ae6d5fd0ec220f1f97546ac45c9"
     }
   },
   "latest": [
     "07_radio_frequency_skin_tightening/19_rf_wattage_atlas.md",
     "07_radio_frequency_skin_tightening/20_generic_rf_and_mimisilk_oem_audit.md",
     "07_radio_frequency_skin_tightening/21_submitted_research_and_source_register.md",
-    "19_diy_topical_formulation/06_hypochlorous_acid_water_and_generator_planner.md",
-    "21_hypochlorous_acid_generation/01_acidified_brine_reference_and_qc.md"
+    "25_ldm_ultrasound/01_mechanism_and_hifu_comparison.md",
+    "25_ldm_ultrasound/02_human_evidence.md"
   ]
 }

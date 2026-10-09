@@ -32,6 +32,8 @@ The [goal explorer](index.html#explorer) changes the research reading path, not 
 
 [RF market and controls](../07_radio_frequency_skin_tightening/index.html#doc13) · [RF proposed specifications](../07_radio_frequency_skin_tightening/index.html#doc15) · [LED evidence](../04_red_light_therapy_handheld/index.html) · [Microneedling](../10_microneedling_collagen_induction/index.html) · [Clinic versus home ultrasound](../11_hifu_skin_tightening/index.html) · [27 delivery-device dossiers](../23_skincare_penetration_technologies/index.html#doc6) · [Retinoid/collagen evidence](../17_tazarotene_vs_tretinoin/index.html#doc4) · [Injectable biostimulators](../15_sculptra_plla_biostimulator/index.html).
 
+For alternating-frequency ultrasound facials, see the dedicated [LDM ultrasound section](../25_ldm_ultrasound/index.html): [mechanism versus HIFU](../25_ldm_ultrasound/index.html#doc1) and [redness/acne evidence](../25_ldm_ultrasound/index.html#doc2).
+
 ## Main uncertainty
 
 There is no adequate common-protocol comparison of current Panasonic/YA-MAN/Medicube/AMIRO models demonstrating which builds the most human dermal collagen. Exact-model independent trials, long follow-up and measured dose would improve the ranking. This is a representative Japan/East-Asia map, not an exhaustive inventory of Asia or a statement that every Asian clinician shares one preference.

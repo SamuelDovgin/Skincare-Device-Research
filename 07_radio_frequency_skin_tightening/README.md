@@ -6,7 +6,7 @@ Research thread: **radiofrequency (RF) devices for collagen remodeling, wrinkle 
 
 ## October 9 wattage and generic-device audit
 
-[Wattage chart](rf_power_explorer.html) · [Rated versus measured power](index.html#doc19) · [Generic devices and MimiSilk/DLUS OEM](index.html#doc20) · [Submitted research and source register](index.html#doc21). The 117 comparison records include model families, revisions, modes and probes; unknown RF output stays unranked. All four pasted transcripts and 74 source captures are preserved, with dated checksums and explicit claim/measurement distinctions.
+[Wattage chart](rf_power_explorer.html) · [Rated versus measured power](index.html#doc19) · [Generic devices and MimiSilk/DLUS OEM](index.html#doc20) · [Submitted research and source register](index.html#doc21). The 128 comparison records include model families, revisions, modes and probes; unknown RF output stays unranked. All four pasted transcripts and 111 source captures are preserved, with dated checksums and explicit claim/measurement distinctions.
 
 ## Closest home device to Thermage
 
@@ -60,7 +60,7 @@ Start with the [proposed home-device specification](index.html#doc15), [interact
 
 ## Source/data access
 
-[117-record wattage chart](rf_power_explorer.html) · [Power CSV](data/rf_power_atlas_2026-10-09.csv) · [October 9 log](source_docs/research_resource_log_2026-10-09.txt) · [51-device/family explorer](rf_market_explorer.html) · [Collagen device visualizer](rf_spec_fit_visualizer.html) · [Census CSV](data/rf_market_census_2026-10-02.csv) · [Current source register](data/rf_sources_2026-10-02.json) · [October 2 research log](source_docs/research_resource_log_2026-10-02.txt) · [Rendered source manifest](index.html#doc14).
+[128-record wattage chart](rf_power_explorer.html) · [Power CSV](data/rf_power_atlas_2026-10-09.csv) · [October 9 log](source_docs/research_resource_log_2026-10-09.txt) · [51-device/family explorer](rf_market_explorer.html) · [Collagen device visualizer](rf_spec_fit_visualizer.html) · [Census CSV](data/rf_market_census_2026-10-02.csv) · [Current source register](data/rf_sources_2026-10-02.json) · [October 2 research log](source_docs/research_resource_log_2026-10-02.txt) · [Rendered source manifest](index.html#doc14).
 
 ## Relationship to the other folders
 

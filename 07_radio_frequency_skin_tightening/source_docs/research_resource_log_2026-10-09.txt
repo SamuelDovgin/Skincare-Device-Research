@@ -1,5 +1,5 @@
 RF power research resource log — 2026-10-09
-Scope: 117 comparison records, not unique devices; home focus plus generic and professional context.
+Scope: 128 comparison records, not unique devices; home focus plus generic and professional context.
 New document map: 19 power methods; 20 OEM/MimiSilk; 21 intake and source crosswalk; rf_power_explorer.html chart.
 
 [P01] NEWA De Novo — DEN150005
@@ -191,7 +191,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: primary regulatory
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: Tabletop combined platform; distinct from handheld home models.
-Key record: [{"model": "Geneo X Elite", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "FDA platform records preserved. Do not assign a platform total or predicate wattage to this named handpiece without a model/mode match."}]
+Key record: [{"model": "Geneo X Elite", "RF": "6.0 W ±20%", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "K233766 reports maximum RF output 6.0 W ±20% and continuous output; its predicate column lists 5.7 W ±10%. The extracted output table does not identify a test load. K242227 is a later family update, not a second device."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: FDA-submitted evidence; exact named model and intended use only. Regulatory specification is not a measured dermal dose.
 Local preservation: source_docs/power_audit_2026-10-09/P15.pdf; sha256 3e75f78807e77ec369a5066c4859027b6607d5458ca653b04529b9614be4be1b
@@ -204,7 +204,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: primary regulatory
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: Later submission for same family; avoid double counting.
-Key record: [{"model": "Geneo X Elite", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "FDA platform records preserved. Do not assign a platform total or predicate wattage to this named handpiece without a model/mode match."}]
+Key record: [{"model": "Geneo X Elite", "RF": "6.0 W ±20%", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "K233766 reports maximum RF output 6.0 W ±20% and continuous output; its predicate column lists 5.7 W ±10%. The extracted output table does not identify a test load. K242227 is a later family update, not a second device."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: FDA-submitted evidence; exact named model and intended use only. Regulatory specification is not a measured dermal dose.
 Local preservation: URL-only — no usable lawful local copy available
@@ -217,7 +217,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: official manual
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: 15 W combined maximum; 12 V/2 A/24 W adapter; 3.7 V/4000 mAh battery; 43°C cutoff; RF/load curves.
-Key record: [{"model": "Titan MultiPlatform H2502 + HA2502 (current NA IFU)", "RF": "15 W", "input_w": 24, "input_kind": "12 V × 2 A supply capacity", "load_ohm": null, "battery_wh": 14.8, "runtime_min": 40, "temperature": "43°C surface cutoff", "notes": "Current official IFU says 15 W combined. Historical 20 W IFU is separate below. 40-minute website runtime is not a specified full-power load test."}, {"model": "Titan MultiPlatform H2502 + HA2502 (historical IFU)", "RF": "20 W", "input_w": 24, "input_kind": "12 V × 2 A supply capacity", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "43°C surface cutoff", "notes": "Historical manufacturer manual mirrored by device.report. Current official NA manual is 15 W. Same name/model cannot identify revision; not an extra unique device."}]
+Key record: [{"model": "Titan MultiPlatform H2502 + HA2502 (current NA IFU)", "RF": "15 W", "input_w": 24, "input_kind": "12 V × 2 A supply capacity", "load_ohm": null, "battery_wh": 14.8, "runtime_min": 40, "temperature": "43°C surface cutoff", "notes": "Current official IFU says 15 W combined. Historical 20 W IFU is separate below. 40-minute website runtime is not a specified full-power load test. Curve points below are visual read-offs from the IFU plot, not bench data."}, {"model": "Titan MultiPlatform H2502 + HA2502 (historical IFU)", "RF": "20 W", "input_w": 24, "input_kind": "12 V × 2 A supply capacity", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "43°C surface cutoff", "notes": "Historical manufacturer manual mirrored by device.report. Current official NA manual is 15 W. Same name/model cannot identify revision; not an extra unique device."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
 Local preservation: source_docs/power_audit_2026-10-09/P17.pdf; sha256 ad025e37334c967622f29e11a86c55eb3abd324cf56c738c5762c4fd77bec2c2
@@ -230,7 +230,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: official manual
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: 10 W RF maximum; 3.7 V/600 mAh; up to 30 min; 5 V/2 A charger; 43°C cutoff.
-Key record: [{"model": "Titan Mini H2600", "RF": "10 W", "input_w": 10, "input_kind": "5 V × 2 A charging supply capacity", "load_ohm": null, "battery_wh": 2.22, "runtime_min": 30, "temperature": "43°C surface cutoff", "notes": "2.22 Wh / 0.5 h = 4.44 W nominal total-draw estimate. Stated runtime is not a continuous 10 W test."}]
+Key record: [{"model": "Titan Mini H2600", "RF": "10 W", "input_w": 10, "input_kind": "5 V × 2 A charging supply capacity", "load_ohm": null, "battery_wh": 2.22, "runtime_min": 30, "temperature": "43°C surface cutoff", "notes": "2.22 Wh / 0.5 h = 4.44 W nominal total-draw estimate. Stated runtime is not a continuous 10 W test. Curve points below are visual read-offs from the IFU plot, not bench data."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
 Local preservation: source_docs/power_audit_2026-10-09/P18.pdf; sha256 ab55f73bae91222d6d625aa066d7d740a6695cd5f0e5213cf7b8a9f9d4097c18
@@ -256,7 +256,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: official manual
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: 10 W maximum RF; H2111/H2112; 12 V/1.5 A supply.
-Key record: [{"model": "Titan original H2111/H2112", "RF": "10 W", "input_w": 18, "input_kind": "12 V × 1.5 A supply capacity", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Corded. Shared model numbers in FaceTite manuals do not prove identical regional output."}]
+Key record: [{"model": "Titan original H2111/H2112", "RF": "10 W", "input_w": 18, "input_kind": "12 V × 1.5 A supply capacity", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Corded. Shared model numbers in FaceTite manuals do not prove identical regional output. IFU graph read-offs are approximate, not a new measurement."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
 Local preservation: source_docs/power_audit_2026-10-09/P20.pdf; sha256 4743ec778a869979ca320adc86a9818d3539e339475a78327d40c0be35663e5c
@@ -269,7 +269,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: official product
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: Current product identity and link to current North American IFU; cordless/usable while charging.
-Key record: [{"model": "Titan MultiPlatform H2502 + HA2502 (current NA IFU)", "RF": "15 W", "input_w": 24, "input_kind": "12 V × 2 A supply capacity", "load_ohm": null, "battery_wh": 14.8, "runtime_min": 40, "temperature": "43°C surface cutoff", "notes": "Current official IFU says 15 W combined. Historical 20 W IFU is separate below. 40-minute website runtime is not a specified full-power load test."}]
+Key record: [{"model": "Titan MultiPlatform H2502 + HA2502 (current NA IFU)", "RF": "15 W", "input_w": 24, "input_kind": "12 V × 2 A supply capacity", "load_ohm": null, "battery_wh": 14.8, "runtime_min": 40, "temperature": "43°C surface cutoff", "notes": "Current official IFU says 15 W combined. Historical 20 W IFU is separate below. 40-minute website runtime is not a specified full-power load test. Curve points below are visual read-offs from the IFU plot, not bench data."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
 Local preservation: source_docs/power_audit_2026-10-09/P21.html; sha256 9b4919a6578ddf5e50c7d7be796b9141e662413701b5d1aecd9aded7e3031129
@@ -308,7 +308,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: official product
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: 6.25 MHz; claims 4.5/9/18 W settings; corded; high-setting dermal temperature claims.
-Key record: [{"model": "Vera RF Sculpt", "RF": "4.5 / 9 / 18 W claimed", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "49–50°C FAQ vs 52°C guide claimed dermal values; no measured thermal map", "notes": "Brand calls 18 W output; similar DLUS listing says 18 W supply/consumption. OEM connection unconfirmed. Corded Vera, no battery estimate."}]
+Key record: [{"model": "Vera RF Sculpt", "RF": "4.5 / 9 / 18 W claimed*", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "49–50°C FAQ vs 52°C guide claimed dermal values; no measured thermal map", "notes": "Brand calls 18 W output; similar DLUS listing says 18 W supply/consumption. OEM connection unconfirmed. Corded Vera, no battery estimate."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
 Local preservation: source_docs/power_audit_2026-10-09/P24.html; sha256 5441fd1686aeeeb960137822a0e71bd6dfbdc71a91c1b0feddb3ade9263ab8e2
@@ -321,7 +321,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: official product
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: 4.5/9/18 W and 45/48/52°C marketing setting table.
-Key record: [{"model": "Vera RF Sculpt", "RF": "4.5 / 9 / 18 W claimed", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "49–50°C FAQ vs 52°C guide claimed dermal values; no measured thermal map", "notes": "Brand calls 18 W output; similar DLUS listing says 18 W supply/consumption. OEM connection unconfirmed. Corded Vera, no battery estimate."}]
+Key record: [{"model": "Vera RF Sculpt", "RF": "4.5 / 9 / 18 W claimed*", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "49–50°C FAQ vs 52°C guide claimed dermal values; no measured thermal map", "notes": "Brand calls 18 W output; similar DLUS listing says 18 W supply/consumption. OEM connection unconfirmed. Corded Vera, no battery estimate."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
 Local preservation: source_docs/power_audit_2026-10-09/P25.html; sha256 49481dc1b13e3a9330f7537e30bfda2af3d32066be5f061d59e4f9fc7005f763
@@ -334,7 +334,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: official product
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: 18 W claim; 2.5–3 mm claimed penetration; faster results narrative; no cited exact-device load test.
-Key record: [{"model": "Vera RF Sculpt", "RF": "4.5 / 9 / 18 W claimed", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "49–50°C FAQ vs 52°C guide claimed dermal values; no measured thermal map", "notes": "Brand calls 18 W output; similar DLUS listing says 18 W supply/consumption. OEM connection unconfirmed. Corded Vera, no battery estimate."}]
+Key record: [{"model": "Vera RF Sculpt", "RF": "4.5 / 9 / 18 W claimed*", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "49–50°C FAQ vs 52°C guide claimed dermal values; no measured thermal map", "notes": "Brand calls 18 W output; similar DLUS listing says 18 W supply/consumption. OEM connection unconfirmed. Corded Vera, no battery estimate."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
 Local preservation: source_docs/power_audit_2026-10-09/P26.html; sha256 ff36a122599e75ab6e4b71c2415a0437f3e9194fa9efdac82c7b82ec02fa1362
@@ -347,7 +347,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: secondary directory
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: Directory names Shenzhen Guangxiang; 6.25 MHz; 18 W supply power; April 2023 listing.
-Key record: [{"model": "Vera RF Sculpt", "RF": "4.5 / 9 / 18 W claimed", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "49–50°C FAQ vs 52°C guide claimed dermal values; no measured thermal map", "notes": "Brand calls 18 W output; similar DLUS listing says 18 W supply/consumption. OEM connection unconfirmed. Corded Vera, no battery estimate."}, {"model": "D2", "RF": "Not disclosed / not verified", "input_w": 18, "input_kind": "Seller consumption / directory supply power", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Directory names Shenzhen Guangxiang. Retailer says rechargeable/cordless; pasted notes say mains. No battery voltage/capacity/runtime verified. Factory relationship to Vera is a lead."}]
+Key record: [{"model": "Vera RF Sculpt", "RF": "4.5 / 9 / 18 W claimed*", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "49–50°C FAQ vs 52°C guide claimed dermal values; no measured thermal map", "notes": "Brand calls 18 W output; similar DLUS listing says 18 W supply/consumption. OEM connection unconfirmed. Corded Vera, no battery estimate."}, {"model": "D2", "RF": "Not disclosed / not verified", "input_w": 18, "input_kind": "Seller consumption / directory supply power", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Directory names Shenzhen Guangxiang. Retailer says rechargeable/cordless; pasted notes say mains. No battery voltage/capacity/runtime verified. Factory relationship to Vera is a lead."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Lead only: not primary factory documentation and not proof of MimiSilk OEM identity. Power and corded/cordless descriptions need label confirmation.
 Local preservation: URL-only — no usable lawful local copy available
@@ -360,7 +360,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: seller listing
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: Seller lists 18 W power consumption and rechargeable/cordless; conflicts with corded description in pasted notes.
-Key record: [{"model": "Vera RF Sculpt", "RF": "4.5 / 9 / 18 W claimed", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "49–50°C FAQ vs 52°C guide claimed dermal values; no measured thermal map", "notes": "Brand calls 18 W output; similar DLUS listing says 18 W supply/consumption. OEM connection unconfirmed. Corded Vera, no battery estimate."}, {"model": "D2", "RF": "Not disclosed / not verified", "input_w": 18, "input_kind": "Seller consumption / directory supply power", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Directory names Shenzhen Guangxiang. Retailer says rechargeable/cordless; pasted notes say mains. No battery voltage/capacity/runtime verified. Factory relationship to Vera is a lead."}]
+Key record: [{"model": "Vera RF Sculpt", "RF": "4.5 / 9 / 18 W claimed*", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "49–50°C FAQ vs 52°C guide claimed dermal values; no measured thermal map", "notes": "Brand calls 18 W output; similar DLUS listing says 18 W supply/consumption. OEM connection unconfirmed. Corded Vera, no battery estimate."}, {"model": "D2", "RF": "Not disclosed / not verified", "input_w": 18, "input_kind": "Seller consumption / directory supply power", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Directory names Shenzhen Guangxiang. Retailer says rechargeable/cordless; pasted notes say mains. No battery voltage/capacity/runtime verified. Factory relationship to Vera is a lead."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Source establishes what seller advertises, not a verified battery or measured RF output.
 Local preservation: source_docs/power_audit_2026-10-09/P28.html; sha256 7181f9f73519af05c33e3ae09e7147ec4fce9d57d1817677300993f789d5c1d0
@@ -373,7 +373,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: official product
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: 15 W marketing value; RF test load and duty cycle not stated.
-Key record: [{"model": "R1 PRO (US listing)", "RF": "15 W claim; 8 W predecessor discrepancy", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Regional/version ambiguity: upgrade narrative says 8 W to 15 W. No common test load or duty-cycle record; do not infer 15 W RF from charger."}]
+Key record: [{"model": "R1 PRO (US listing)", "RF": "15 W claim; 8 W predecessor discrepancy*", "input_w": 10, "input_kind": "5 V × 2 A manual-rated USB input; RF not separately rated", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Retail page advertises 15W, but the exact official manual lists 5V×2A and 2600mAh without an RF watt or cell voltage. Regional/version ambiguity and 8W→15W predecessor claim remain; treat 15W as low-confidence marketing, not measured output."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
 Local preservation: source_docs/power_audit_2026-10-09/P29.html; sha256 612afaba0643a9e8fdee59becc9473dd1ceadf1a4eced3d37a8c75feb3a7d8cb
@@ -386,7 +386,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: official product
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: Submitted R3 product URL now redirects to R1 PRO. Use P31 for the R3 15 W upgrade claim.
-Key record: [{"model": "R3 Turbo", "RF": "15 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Explicit 8 to 15 W upgrade claim. Pasted 2600 mAh and 5 V/3 A manual lead awaits exact original manual; battery cell voltage/runtime unknown."}]
+Key record: [{"model": "R3 Turbo", "RF": "15 W upgrade claim*", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Explicit 8 to 15 W upgrade claim. No same-model official manual recovered; battery cell voltage/runtime unknown."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Redirect is not an exact current R3 product specification; no RF load test or battery confirmation.
 Local preservation: source_docs/power_audit_2026-10-09/P30.html; sha256 10bc7eb7ede473375138ae1a04fd11d59b28281e8fec6ed9c38634cd5d5adbdd
@@ -399,7 +399,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: official product
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: Explicit 8 W to 15 W upgrade narrative; cannot reconcile all regional R1 specifications.
-Key record: [{"model": "R1 PRO (US listing)", "RF": "15 W claim; 8 W predecessor discrepancy", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Regional/version ambiguity: upgrade narrative says 8 W to 15 W. No common test load or duty-cycle record; do not infer 15 W RF from charger."}, {"model": "R3 Turbo", "RF": "15 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Explicit 8 to 15 W upgrade claim. Pasted 2600 mAh and 5 V/3 A manual lead awaits exact original manual; battery cell voltage/runtime unknown."}]
+Key record: [{"model": "R1 PRO (US listing)", "RF": "15 W claim; 8 W predecessor discrepancy*", "input_w": 10, "input_kind": "5 V × 2 A manual-rated USB input; RF not separately rated", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Retail page advertises 15W, but the exact official manual lists 5V×2A and 2600mAh without an RF watt or cell voltage. Regional/version ambiguity and 8W→15W predecessor claim remain; treat 15W as low-confidence marketing, not measured output."}, {"model": "R3 Turbo", "RF": "15 W upgrade claim*", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Explicit 8 to 15 W upgrade claim. No same-model official manual recovered; battery cell voltage/runtime unknown."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
 Local preservation: source_docs/power_audit_2026-10-09/P31.html; sha256 36080df6a188429120fcb30317f1710f222eabc8081ba2133cdb69c11c23ca22
@@ -425,7 +425,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: seller/brand listing
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: 1 MHz; claimed output 25 W face / 50 W body; rated input 50 W.
-Key record: [{"model": "RF01 face probe", "RF": "25 W", "input_w": 50, "input_kind": "Rated total input (listing)", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Temperature adjustment claimed; calibrated numerical cutoff unverified", "notes": "Listing calls this output. RF01 naming across sellers is not evidence of identical electronics."}, {"model": "RF01 body probe", "RF": "50 W", "input_w": 50, "input_kind": "Rated total input (listing)", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "50 W claimed RF equals 50 W input rating: continuous equality would leave no allowance for losses. Peak/control convention unspecified."}]
+Key record: [{"model": "RF01 face probe (current official listing)", "RF": "25 W face claim*", "input_w": 50, "input_kind": "Rated total input (listing)", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Temperature adjustment claimed; calibrated numerical cutoff unverified", "notes": "Official page claims 25W face output and 50W total input. No test load/duty convention; not independently measured."}, {"model": "RF01 body probe (current official listing)", "RF": "50 W body claim*", "input_w": 50, "input_kind": "Rated total input (listing)", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Official page claims 50W RF body output against 50W total input. Do not assume equal continuous RF and input; peak/control convention and load are absent."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Multiple MLAY domains; this is an attributed listing, not independently authenticated factory identity or a load test. 50 W output and 50 W input cannot establish continuous equal power.
 Local preservation: source_docs/power_audit_2026-10-09/P33.html; sha256 d59235a92fa7236142fb6e0d3f572ed1664a435f5259b769b4ba24846c280113
@@ -438,7 +438,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: official product
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: RF01/RF02/S3 inventory extension; no comparable RF output verified for RF02/S3.
-Key record: [{"model": "RF02", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Catalogue/model inventory; exact comparable RF output not recovered."}, {"model": "S3 handheld", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Catalogue/model inventory; exact comparable RF output not recovered."}]
+Key record: [{"model": "RF02 desktop S02B (current official listing)", "RF": "Not disclosed / not verified", "input_w": 36, "input_kind": "36 W rated whole-device input (manufacturer page)", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Official listing states 36W rated input and 1MHz, but no isolated RF watt output. Keep separate from the S06 brochure’s differently identified “RF02 Home Use” 38W claim."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
 Local preservation: source_docs/power_audit_2026-10-09/P34.html; sha256 1ddd6e3bbe0864e7f2ec4f00c4bb659a7b6efde8659b9e9014a003dbdca3bfda
@@ -464,7 +464,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: seller listing
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: 1 MHz; 20–50 W handle power claim; 24 V/3 A supply capacity.
-Key record: [{"model": "Mini 3in1 RF / FY04.0208US family", "RF": "20–50 W handle claim", "input_w": 72, "input_kind": "24 V × 3 A supply capacity", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "20–50 W handle claim, no load/duty convention. Appearance does not prove same factory/electronics as Konmison."}]
+Key record: [{"model": "Mini 3in1 RF / FY04.0208US family", "RF": "20–50 W handle claim*", "input_w": 72, "input_kind": "24 V × 3 A supply capacity", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "20–50 W handle claim, no load/duty convention. Appearance does not prove same factory/electronics as Konmison."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
 Local preservation: source_docs/power_audit_2026-10-09/P36.html; sha256 794ddb026f9871eede197228937022b1eb2c018e8c2f59f9f61267b314cfaabe
@@ -477,7 +477,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: seller listing
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: Related 2-probe device; separate product identity and power descriptors.
-Key record: [{"model": "2in1 RF tripolar handle", "RF": "20–30 W handle claim", "input_w": 72, "input_kind": "24 V × 3 A supply capacity", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Seller lists tripolar 20–30 W; keep separate from hexapolar handle."}, {"model": "2in1 RF hexapolar handle", "RF": "50–60 W handle claim", "input_w": 72, "input_kind": "24 V × 3 A supply capacity", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Seller lists hexapolar 50–60 W. Same console as tripolar row; not a separate unique device."}]
+Key record: [{"model": "2in1 RF tripolar handle", "RF": "20–30 W handle claim*", "input_w": 72, "input_kind": "24 V × 3 A supply capacity", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Seller lists tripolar 20–30 W; keep separate from hexapolar handle."}, {"model": "2in1 RF hexapolar handle", "RF": "50–60 W handle claim*", "input_w": 72, "input_kind": "24 V × 3 A supply capacity", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Seller lists hexapolar 50–60 W. Same console as tripolar row; not a separate unique device."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
 Local preservation: source_docs/power_audit_2026-10-09/P37.html; sha256 af3d972183ef5264fa5a51c66de03b7e9fc1f37903170096a917081ef237ddff
@@ -490,7 +490,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: supplier manual
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: Supplier manual; technical evidence recovery for generic 3-probe family.
-Key record: [{"model": "Mini 3in1 RF / FY04.0208US family", "RF": "20–50 W handle claim", "input_w": 72, "input_kind": "24 V × 3 A supply capacity", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "20–50 W handle claim, no load/duty convention. Appearance does not prove same factory/electronics as Konmison."}]
+Key record: [{"model": "Mini 3in1 RF / FY04.0208US family", "RF": "20–50 W handle claim*", "input_w": 72, "input_kind": "24 V × 3 A supply capacity", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "20–50 W handle claim, no load/duty convention. Appearance does not prove same factory/electronics as Konmison."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
 Local preservation: source_docs/power_audit_2026-10-09/P38.pdf; sha256 9041a768de104228c29a60b45e93d53a1192dd383c1ec54e4f101220ed933ea3
@@ -503,7 +503,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: seller listing
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: RET S/M/L/XL 130/150/200/300 W; CET S/M/L/XL 65/60/70/110 W seller claims.
-Key record: [{"model": "CET RET console · RET S electrode", "RF": "130 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Console/electrode configuration, not eight unique devices. No specified load, duty cycle or independently measured output. Larger body electrodes cannot define a facial maximum."}, {"model": "CET RET console · RET M electrode", "RF": "150 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Console/electrode configuration, not eight unique devices. No specified load, duty cycle or independently measured output. Larger body electrodes cannot define a facial maximum."}, {"model": "CET RET console · RET L electrode", "RF": "200 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Console/electrode configuration, not eight unique devices. No specified load, duty cycle or independently measured output. Larger body electrodes cannot define a facial maximum."}, {"model": "CET RET console · RET XL electrode", "RF": "300 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Console/electrode configuration, not eight unique devices. No specified load, duty cycle or independently measured output. Larger body electrodes cannot define a facial maximum."}, {"model": "CET RET console · CET S electrode", "RF": "65 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Console/electrode configuration, not eight unique devices. No specified load, duty cycle or independently measured output. Larger body electrodes cannot define a facial maximum."}, {"model": "CET RET console · CET M electrode", "RF": "60 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Console/electrode configuration, not eight unique devices. No specified load, duty cycle or independently measured output. Larger body electrodes cannot define a facial maximum."}, {"model": "CET RET console · CET L electrode", "RF": "70 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Console/electrode configuration, not eight unique devices. No specified load, duty cycle or independently measured output. Larger body electrodes cannot define a facial maximum."}, {"model": "CET RET console · CET XL electrode", "RF": "110 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Console/electrode configuration, not eight unique devices. No specified load, duty cycle or independently measured output. Larger body electrodes cannot define a facial maximum."}]
+Key record: [{"model": "CET RET console · RET S electrode", "RF": "130 W*", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Console/electrode configuration, not eight unique devices. No specified load, duty cycle or independently measured output. Larger body electrodes cannot define a facial maximum."}, {"model": "CET RET console · RET M electrode", "RF": "150 W*", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Console/electrode configuration, not eight unique devices. No specified load, duty cycle or independently measured output. Larger body electrodes cannot define a facial maximum."}, {"model": "CET RET console · RET L electrode", "RF": "200 W*", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Console/electrode configuration, not eight unique devices. No specified load, duty cycle or independently measured output. Larger body electrodes cannot define a facial maximum."}, {"model": "CET RET console · RET XL electrode", "RF": "300 W*", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Console/electrode configuration, not eight unique devices. No specified load, duty cycle or independently measured output. Larger body electrodes cannot define a facial maximum."}, {"model": "CET RET console · CET S electrode", "RF": "65 W*", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Console/electrode configuration, not eight unique devices. No specified load, duty cycle or independently measured output. Larger body electrodes cannot define a facial maximum."}, {"model": "CET RET console · CET M electrode", "RF": "60 W*", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Console/electrode configuration, not eight unique devices. No specified load, duty cycle or independently measured output. Larger body electrodes cannot define a facial maximum."}, {"model": "CET RET console · CET L electrode", "RF": "70 W*", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Console/electrode configuration, not eight unique devices. No specified load, duty cycle or independently measured output. Larger body electrodes cannot define a facial maximum."}, {"model": "CET RET console · CET XL electrode", "RF": "110 W*", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Console/electrode configuration, not eight unique devices. No specified load, duty cycle or independently measured output. Larger body electrodes cannot define a facial maximum."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Not a comparable handheld facial load measurement; electrode size and modality must stay explicit; no exact-model U.S. clearance verified here.
 Local preservation: source_docs/power_audit_2026-10-09/P39.html; sha256 6f22ae29f9d85a00bc33b9dd01348916de847daf25e7f79acb03ff4a31419096
@@ -542,7 +542,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: official product
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: 7 W explicitly while charging; approximately 4 days runtime under manufacturer use conditions.
-Key record: [{"model": "Vitalift RF LUXE EH-SR90", "RF": "Not disclosed / not verified", "input_w": 7, "input_kind": "Consumption while charging", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface or dermal target verified; no validated thermal map located", "notes": "Carried forward from 2026-10-02 market census; comparable RF-output watts not established. Official specs: 1–6 MHz RF, eight electrodes and five modes; no exact-model peer-reviewed trial located"}]
+Key record: [{"model": "Vitalift RF LUXE EH-SR90", "RF": "Not disclosed / not verified", "input_w": 7, "input_kind": "Approx. 7 W while charging (not RF output)", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface or dermal target verified; no validated thermal map located", "notes": "Official manual/specification checked. Approx. 7 W is explicitly charging consumption; runtime and lithium-ion battery disclosure do not provide RF watts."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
 Local preservation: source_docs/power_audit_2026-10-09/P42.html; sha256 5677636386b90b2829b94fe43574e06750ea4e740fb73b69600d32c6e9fef3c5
@@ -555,7 +555,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: official product
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: Charging consumption and runtime conditions; not RF output.
-Key record: [{"model": "Vitalift RF EH-SR85", "RF": "Not disclosed / not verified", "input_w": 7, "input_kind": "Consumption while charging", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Carried forward from 2026-10-02 market census; comparable RF-output watts not established. Multimodal cosmetic claims"}]
+Key record: [{"model": "Vitalift RF EH-SR85", "RF": "Not disclosed / not verified", "input_w": 7, "input_kind": "Approx. 7 W while charging (not RF output)", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Official manual/specification checked. Approx. 7 W is explicitly charging consumption; runtime and lithium-ion battery disclosure do not provide RF watts."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
 Local preservation: source_docs/power_audit_2026-10-09/P43.html; sha256 3b5344002219120e9f8ecb8770c00857dac9e4c37032824c6c9745049ee15993
@@ -568,7 +568,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: official product
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: Charging consumption and runtime conditions; not RF output.
-Key record: [{"model": "Vitalift RF EX EH-SR86", "RF": "Not disclosed / not verified", "input_w": 7, "input_kind": "Consumption while charging", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Carried forward from 2026-10-02 market census; comparable RF-output watts not established. Manufacturer efficacy/satisfaction; multimodal"}]
+Key record: [{"model": "Vitalift RF EX EH-SR86", "RF": "Not disclosed / not verified", "input_w": 7, "input_kind": "Approx. 7 W while charging (not RF output)", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Official manual/specification checked. Approx. 7 W is explicitly charging consumption; runtime and lithium-ion battery disclosure do not provide RF watts."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
 Local preservation: source_docs/power_audit_2026-10-09/P44.html; sha256 46773058372c0cb411a491463a7b2b8e4970bab291496601ada9708c202ce4a8
@@ -581,7 +581,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: official product
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: Charging consumption and D×LIFT runtime; no RF watts disclosed.
-Key record: [{"model": "Photo PLUS Deep Lift YJFA1T", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": 30, "temperature": "No numeric surface/dermal temperature verified", "notes": "Official listing: approximately 30 minutes operation. Pasted 4.5 W charging consumption not recovered on current product page; RF watts remain undisclosed."}]
+Key record: [{"model": "Photo PLUS Deep Lift YJFA1T", "RF": "Not disclosed / not verified", "input_w": 4.5, "input_kind": "Approx. 4.5 W while charging (official manual)", "load_ohm": null, "battery_wh": null, "runtime_min": 30, "temperature": "No numeric surface/dermal temperature verified", "notes": "Official manual specifies approx. 4.5 W while charging and about 30 min at maximum D×LIFT level. Neither number identifies isolated RF output."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
 Local preservation: source_docs/power_audit_2026-10-09/P45.html; sha256 c5cc5df177c73e24680902a7ab1a5b5b019aa9c33305d8868f3d0c64610a444c
@@ -672,7 +672,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: primary regulatory
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
-Key record: [{"model": "Morpheus8 / cleared platform association", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "FDA platform records preserved. Do not assign a platform total or predicate wattage to this named handpiece without a model/mode match."}]
+Key record: [{"model": "Morpheus8 / cleared platform association", "RF": "65 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "FDA submission gives a 65 W RF specification for the named system context. Applicator, mode and treatment settings still govern; this is not a home-use rating or a measured tissue dose."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
 Local preservation: source_docs/power_audit_2026-10-09/P52.pdf; sha256 5c67ec6e9ead93cc63a76891dab36607081f951f1d98e9a9cbc0956a439c0bd8
@@ -685,7 +685,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: primary regulatory
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
-Key record: [{"model": "Morpheus8 / cleared platform association", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "FDA platform records preserved. Do not assign a platform total or predicate wattage to this named handpiece without a model/mode match."}]
+Key record: [{"model": "Morpheus8 / cleared platform association", "RF": "65 W", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "FDA submission gives a 65 W RF specification for the named system context. Applicator, mode and treatment settings still govern; this is not a home-use rating or a measured tissue dose."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
 Local preservation: source_docs/power_audit_2026-10-09/P53.pdf; sha256 36319f40798c0ae3265ba6e5a7121f6df04672ba6a68c00adf9bd35ffdef510d
@@ -737,7 +737,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: primary regulatory
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
-Key record: [{"model": "Legend X", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "FDA platform records preserved. Do not assign a platform total or predicate wattage to this named handpiece without a model/mode match."}]
+Key record: [{"model": "Legend X", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Two FDA records for the Legend X family reviewed; no comparable RF output watt was stated in the captured evidence. Do not transfer a different platform’s maximum."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
 Local preservation: source_docs/power_audit_2026-10-09/P57.pdf; sha256 0eed6d3a5001a30f683525352e9b47b757c3e71f9e4d44145616b365e84aaa87
@@ -750,7 +750,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: primary regulatory
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: Pasted regulatory lead rechecked against FDA document; see record notes before assigning a marketed alias.
-Key record: [{"model": "Legend X", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "FDA platform records preserved. Do not assign a platform total or predicate wattage to this named handpiece without a model/mode match."}]
+Key record: [{"model": "Legend X", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Two FDA records for the Legend X family reviewed; no comparable RF output watt was stated in the captured evidence. Do not transfer a different platform’s maximum."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Different modes, indications and technologies. A K-number is not a patent mapping or comparative efficacy result.
 Local preservation: source_docs/power_audit_2026-10-09/P58.pdf; sha256 76a09ba3117d1f085c59e842565a28ecefa0c1ebc59a382f0e5883a73917ffbb
@@ -945,7 +945,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: official product
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: 30 minute Mini runtime; comparison panel advertises 40 minutes for MultiPlatform.
-Key record: [{"model": "Titan MultiPlatform H2502 + HA2502 (current NA IFU)", "RF": "15 W", "input_w": 24, "input_kind": "12 V × 2 A supply capacity", "load_ohm": null, "battery_wh": 14.8, "runtime_min": 40, "temperature": "43°C surface cutoff", "notes": "Current official IFU says 15 W combined. Historical 20 W IFU is separate below. 40-minute website runtime is not a specified full-power load test."}, {"model": "Titan Mini H2600", "RF": "10 W", "input_w": 10, "input_kind": "5 V × 2 A charging supply capacity", "load_ohm": null, "battery_wh": 2.22, "runtime_min": 30, "temperature": "43°C surface cutoff", "notes": "2.22 Wh / 0.5 h = 4.44 W nominal total-draw estimate. Stated runtime is not a continuous 10 W test."}]
+Key record: [{"model": "Titan MultiPlatform H2502 + HA2502 (current NA IFU)", "RF": "15 W", "input_w": 24, "input_kind": "12 V × 2 A supply capacity", "load_ohm": null, "battery_wh": 14.8, "runtime_min": 40, "temperature": "43°C surface cutoff", "notes": "Current official IFU says 15 W combined. Historical 20 W IFU is separate below. 40-minute website runtime is not a specified full-power load test. Curve points below are visual read-offs from the IFU plot, not bench data."}, {"model": "Titan Mini H2600", "RF": "10 W", "input_w": 10, "input_kind": "5 V × 2 A charging supply capacity", "load_ohm": null, "battery_wh": 2.22, "runtime_min": 30, "temperature": "43°C surface cutoff", "notes": "2.22 Wh / 0.5 h = 4.44 W nominal total-draw estimate. Stated runtime is not a continuous 10 W test. Curve points below are visual read-offs from the IFU plot, not bench data."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Published specification or claim; not an independent measurement of RF absorbed by skin.
 Local preservation: source_docs/power_audit_2026-10-09/P73.html; sha256 b431e2a69720c5c3397fe3bb99c636fb55bd168bf0f922cbc76c7dbb9600d52f
@@ -1016,6 +1016,487 @@ Limits: Claim-only adjacent lead; no verified optical output or FDA model mappin
 Local preservation: source_docs/power_audit_2026-10-09/P78.html; sha256 0117218959d5bad36588a411ad30178ebcdbe554b3066d2a69b0e7c0707c9ae9
 Status/recheck: HTTP 200; volatile product claims dated snapshot.
 
+[P79] YA-MAN Bloom 6 YJFS16PN official IFU
+URL: https://www.ya-man.co.jp/en/asset/docs/bloom-6/YJFS16PN-1-001E.pdf
+Resolved URL: https://www.ya-man.co.jp/en/asset/docs/bloom-6/YJFS16PN-1-001E.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Rated supply DC9V 3A; approx. 21 W device power consumption; Li-ion; approx. 30 min operation. No isolated RF watts.
+Key record: [{"model": "Bloom 6 YJFS16PN1", "RF": "Not disclosed / not verified", "input_w": 21, "input_kind": "Manufacturer whole-device power / charging figure; RF not isolated", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Manual power consumption approx. 21 W; whole-device, not isolated RF. Rated supply DC9V×3A; manual also lists about 30 min operation. RF output watts remain undisclosed."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Manual power/charger figures describe whole-device electrical use; they are not isolated RF output or a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P79.pdf; sha256 9c0507bfa05f7ac00d60f5b1b59104a10f9d8a4eccb9dcb8d2db9a547aa0300f
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P80] YA-MAN Bloom 5 YJFS16 official IFU
+URL: https://www.ya-man.co.jp/en/asset/docs/bloom-5/YJFS16-1-001E.pdf
+Resolved URL: https://www.ya-man.co.jp/en/asset/docs/bloom-5/YJFS16-1-001E.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Rated supply DC9V 2A; approx. 18 W power consumption while charging; approx. 30 min operation. No isolated RF watts.
+Key record: [{"model": "Bloom 5 YJFS16YL", "RF": "Not disclosed / not verified", "input_w": 18, "input_kind": "Manufacturer whole-device power / charging figure; RF not isolated", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Manual specifies approx. 18 W while charging and DC9V×2A rated supply; approx. 30 min operating time. Charging use is not treatment draw. RF output watts remain undisclosed."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Manual power/charger figures describe whole-device electrical use; they are not isolated RF output or a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P80.pdf; sha256 c7c4cd7bba8b13cfee7870c46469897fd687e14f19cd754110b913a3ebcbfb01
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P81] YA-MAN Bloom WR S12 official IFU
+URL: https://www.ya-man.co.jp/en/asset/docs/bloom-wr/S12-E.pdf
+Resolved URL: https://www.ya-man.co.jp/en/asset/docs/bloom-wr/S12-E.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Rated supply DC5V 2A; approx. 9 W while charging; approx. 40 min operation. No RF-output watts.
+Key record: [{"model": "Bloom WR STAR S12 PLUS", "RF": "Not disclosed / not verified", "input_w": 9, "input_kind": "Manufacturer whole-device power / charging figure; RF not isolated", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Manual specifies approx. 9 W while charging, DC5V×2A and about 40 min operation; no RF output watt. RF output watts remain undisclosed."}, {"model": "Bloom WR S12YL", "RF": "Not disclosed / not verified", "input_w": 9, "input_kind": "Manufacturer whole-device power / charging figure; RF not isolated", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Manual specifies approx. 9 W while charging, DC5V×2A and about 40 min operation; no RF output watt. RF output watts remain undisclosed."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Manual power/charger figures describe whole-device electrical use; they are not isolated RF output or a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P81.pdf; sha256 fbb07e8bf2afb8f166abe12c3cd07a726118c2da875ce819f40978c275212a45
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P82] YA-MAN Bloom Red S10 official IFU
+URL: https://www.ya-man.co.jp/en/asset/docs/bloom-red/S10-2-002E.pdf
+Resolved URL: https://www.ya-man.co.jp/en/asset/docs/bloom-red/S10-2-002E.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Official exact-family manual recovered; RF watts and separately comparable treatment output not disclosed in extracted specification.
+Key record: [{"model": "Bloom Red S10 / S10-YL", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Exact-family manual checked; it gives no comparable RF-output watt in the recovered specification. RF output watts remain undisclosed."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Manual power/charger figures describe whole-device electrical use; they are not isolated RF output or a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P82.pdf; sha256 565f272e81d6bf1a1b1deb9d5d7a22fa3dbec9d915696a6295dd622ff5d44677
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P83] YA-MAN Bright Lift HRF-40 official IFU
+URL: https://www.ya-man.co.jp/en/asset/docs/bright-lift/HRF40-E.pdf
+Resolved URL: https://www.ya-man.co.jp/en/asset/docs/bright-lift/HRF40-E.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 5V/1A-or-higher supply; approx. 4.5 W system consumption; Li-ion; approx. 40 min operating time. RF watts not separately stated.
+Key record: [{"model": "Bright Lift HRF40 / Bright Lift EX", "RF": "Not disclosed / not verified", "input_w": 4.5, "input_kind": "Manufacturer whole-device power / charging figure; RF not isolated", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Manual specifies approx. 4.5 W whole-device consumption, Li-ion and about 40 min operation; RF is not separately rated. RF output watts remain undisclosed."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Manual power/charger figures describe whole-device electrical use; they are not isolated RF output or a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P83.pdf; sha256 e996fcd9416683483118408040699e7170cb27af45fb7fa7778a59fdb9a780da
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P84] YA-MAN Photo PLUS Deep Lift YJFA1 official IFU
+URL: https://www.ya-man.co.jp/en/asset/docs/photo-plus-deep-lift/YJFA1-E.pdf
+Resolved URL: https://www.ya-man.co.jp/en/asset/docs/photo-plus-deep-lift/YJFA1-E.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 5V/1A rated charging-base input; approx. 4.5 W while charging; approx. 30 min at max D×LIFT level. No RF watts.
+Key record: [{"model": "Photo PLUS Deep Lift YJFA1T", "RF": "Not disclosed / not verified", "input_w": 4.5, "input_kind": "Approx. 4.5 W while charging (official manual)", "load_ohm": null, "battery_wh": null, "runtime_min": 30, "temperature": "No numeric surface/dermal temperature verified", "notes": "Official manual specifies approx. 4.5 W while charging and about 30 min at maximum D×LIFT level. Neither number identifies isolated RF output."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Manual power/charger figures describe whole-device electrical use; they are not isolated RF output or a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P84.pdf; sha256 a46c193236695cb7f02d6d58f7f9b05da47e2f1abf67a6b23f98db199ef26c33
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P85] YA-MAN Photo PLUS Shiny NEO YJFM18 official IFU
+URL: https://www.ya-man.co.jp/en/asset/docs/photo-plus-shiny-neo/YJFM18-1-001E.pdf
+Resolved URL: https://www.ya-man.co.jp/en/asset/docs/photo-plus-shiny-neo/YJFM18-1-001E.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 5V/1A charging-base input; approx. 4.5 W while charging; approx. 30 min at max DYHP power. No RF watts.
+Key record: [{"model": "Photo PLUS Shiny NEO YJFM18", "RF": "Not disclosed / not verified", "input_w": 4.5, "input_kind": "Manufacturer whole-device power / charging figure; RF not isolated", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Manual specifies approx. 4.5 W while charging and about 30 min at maximum DYHP power; charging draw is not RF output. RF output watts remain undisclosed."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Manual power/charger figures describe whole-device electrical use; they are not isolated RF output or a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P85.pdf; sha256 4fbecaa7ede598793bba10cdc410f8a99e7423603c3b9cef4961e44728727263
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P86] YA-MAN Photo PLUS Shiny M18 official IFU
+URL: https://www.ya-man.co.jp/en/asset/docs/photo-plus-shiny/M18-3-001E.pdf
+Resolved URL: https://www.ya-man.co.jp/en/asset/docs/photo-plus-shiny/M18-3-001E.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Official model manual archived; charging/electrical ratings are not RF-output watts.
+Key record: [{"model": "Photo PLUS Shiny M18", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Exact-model manual archived; no independently verified isolated RF watts assigned. RF output watts remain undisclosed."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Manual power/charger figures describe whole-device electrical use; they are not isolated RF output or a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P86.pdf; sha256 c4e08e84666f3d655ae4ddfb0498b579665516275d5cc15e0405c80f491f2246
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P87] YA-MAN Photo PLUS Prestige S M20 official IFU
+URL: https://www.ya-man.co.jp/en/asset/docs/photo-plus-prestige-s/M20-6-001EA.pdf
+Resolved URL: https://www.ya-man.co.jp/en/asset/docs/photo-plus-prestige-s/M20-6-001EA.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Rated supply DC9V 2A; approx. 15 W device power consumption; Li-ion. No isolated RF watts.
+Key record: [{"model": "Photo PLUS Prestige S M20 / M206", "RF": "Not disclosed / not verified", "input_w": 15, "input_kind": "Manufacturer whole-device power / charging figure; RF not isolated", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Manual specifies approx. 15 W whole-device consumption and DC9V×2A rated supply; RF output is not isolated. RF output watts remain undisclosed."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Manual power/charger figures describe whole-device electrical use; they are not isolated RF output or a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P87.pdf; sha256 de781f94e6f180d8e75f0d0fe41ba631b927534286c98fc89137779d08d447ef
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P88] YA-MAN Photo PLUS Prestige SS M21 official IFU
+URL: https://www.ya-man.co.jp/en/asset/docs/photo-plus-prestige-ss/M21-1-001E.pdf
+Resolved URL: https://www.ya-man.co.jp/en/asset/docs/photo-plus-prestige-ss/M21-1-001E.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Rated supply DC12V 3A; approx. 20 W device power consumption. No isolated RF watts.
+Key record: [{"model": "Photo PLUS Prestige SS M21", "RF": "Not disclosed / not verified", "input_w": 20, "input_kind": "Manufacturer whole-device power / charging figure; RF not isolated", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Manual specifies approx. 20 W whole-device consumption and DC12V×3A rated supply; RF output is not isolated. RF output watts remain undisclosed."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Manual power/charger figures describe whole-device electrical use; they are not isolated RF output or a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P88.pdf; sha256 0b5b7442d8e7e256b126623a7a73c5a78c8198c9b882289e8b83a1362e85e12b
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P89] YA-MAN Photo PLUS Prestige SP M22 official IFU
+URL: https://www.ya-man.co.jp/en/asset/docs/photo-plus-prestige-sp/M22-1-001E.pdf
+Resolved URL: https://www.ya-man.co.jp/en/asset/docs/photo-plus-prestige-sp/M22-1-001E.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Rated supply DC9V 2A; approx. 18 W device power consumption. No isolated RF watts.
+Key record: [{"model": "Photo PLUS Prestige SP M22", "RF": "Not disclosed / not verified", "input_w": 18, "input_kind": "Manufacturer whole-device power / charging figure; RF not isolated", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Manual specifies approx. 18 W whole-device consumption and DC9V×2A rated supply; RF output is not isolated. RF output watts remain undisclosed."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Manual power/charger figures describe whole-device electrical use; they are not isolated RF output or a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P89.pdf; sha256 40b68421b0077a64140438fbc4ea647417254a0443dc2a688b65aeb566cf585f
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P90] YA-MAN Photo PLUS Prestige SP II YJFM24V official IFU
+URL: https://www.ya-man.co.jp/en/asset/docs/m24v/YJFM24V_1_001E.pdf
+Resolved URL: https://www.ya-man.co.jp/en/asset/docs/m24v/YJFM24V_1_001E.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Exact-model English IFU archived; no separable RF watt specification established.
+Key record: [{"model": "Photo PLUS Prestige SP II YJFM24V", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Exact-model manual archived; no separately stated RF output watt recovered. RF output watts remain undisclosed."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Manual power/charger figures describe whole-device electrical use; they are not isolated RF output or a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P90.pdf; sha256 5c9e67a50680694aacd06d681766ad74576f471c632599b6d23e76e954414c96
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P91] YA-MAN Photo PLUS Prestige SP III YJFM25 official IFU
+URL: https://www.ya-man.co.jp/en/asset/docs/photo-plus-prestige-sp-III/YJFM25-1-001E.pdf
+Resolved URL: https://www.ya-man.co.jp/en/asset/docs/photo-plus-prestige-sp-III/YJFM25-1-001E.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Rated supply DC9V 2A; approx. 18 W device power consumption. No isolated RF watts.
+Key record: [{"model": "Photo PLUS Prestige SP III YJFM25B", "RF": "Not disclosed / not verified", "input_w": 18, "input_kind": "Manufacturer whole-device power / charging figure; RF not isolated", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Manual specifies approx. 18 W whole-device consumption and DC9V×2A rated supply; RF output is not isolated. RF output watts remain undisclosed."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Manual power/charger figures describe whole-device electrical use; they are not isolated RF output or a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P91.pdf; sha256 2c5f7410e6814135e45058f97684889f009721a5a4a1793740be4b464b63be82
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P92] YA-MAN Photo PLUS Prestige PRO M30 official IFU
+URL: https://www.ya-man.co.jp/en/asset/docs/photo-plus-prestige-pro/M30-1-001E.pdf
+Resolved URL: https://www.ya-man.co.jp/en/asset/docs/photo-plus-prestige-pro/M30-1-001E.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Rated supply DC12V 5A; approx. 20 W device power consumption. No isolated RF watts.
+Key record: [{"model": "Photo PLUS Prestige PRO M30", "RF": "Not disclosed / not verified", "input_w": 20, "input_kind": "Manufacturer whole-device power / charging figure; RF not isolated", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Manual specifies approx. 20 W whole-device consumption and DC12V×5A rated supply; RF output is not isolated. RF output watts remain undisclosed."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Manual power/charger figures describe whole-device electrical use; they are not isolated RF output or a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P92.pdf; sha256 e359e443f1caa8147ac484bd857c815443dcb9f271571f44155a2544c7e70825
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P93] YA-MAN Photo PLUS EX eye pro HRF-20-EYE official IFU
+URL: https://www.ya-man.co.jp/en/asset/docs/photo-plus-ex-eye-pro/HRF20EYE-3-001E.pdf
+Resolved URL: https://www.ya-man.co.jp/en/asset/docs/photo-plus-ex-eye-pro/HRF20EYE-3-001E.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Rated supply DC9V 2A; approx. 13 W device power consumption; Li-ion. No isolated RF watts.
+Key record: [{"model": "Photo PLUS EX / EX Eye Pro HRF20P-EYE", "RF": "Not disclosed / not verified", "input_w": 13, "input_kind": "Manufacturer whole-device power / charging figure; RF not isolated", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Exact HRF-20-EYE manual specifies approx. 13 W whole-device consumption and DC9V×2A supply; this is not RF watts. RF output watts remain undisclosed."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Manual power/charger figures describe whole-device electrical use; they are not isolated RF output or a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P93.pdf; sha256 ce916de1a50278355ab63049b345308f6005b358acff2967d21592fc03426b48
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P94] YA-MAN Photo PLUS HRF-10 official IFU
+URL: https://www.ya-man.co.jp/en/asset/docs/photo-plus/HRF10-4-001EA.pdf
+Resolved URL: https://www.ya-man.co.jp/en/asset/docs/photo-plus/HRF10-4-001EA.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Exact-model official IFU archived; no verified isolated RF-output watts.
+Key record: [{"model": "Photo PLUS HRF10T", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Exact-model official manual archived; no isolated RF watt assigned. RF output watts remain undisclosed."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Manual power/charger figures describe whole-device electrical use; they are not isolated RF output or a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P94.pdf; sha256 d6a5c41082c76def413b8eb1507b5ab6eada26bd4207c597374a2460e5685e2e
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P95] YA-MAN Photo PLUS Hyper HRF-11 official IFU
+URL: https://www.ya-man.co.jp/en/asset/docs/photo-plus-hyper/15_en.pdf
+Resolved URL: https://www.ya-man.co.jp/en/asset/docs/photo-plus-hyper/15_en.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Exact-family official IFU archived; no verified isolated RF-output watts.
+Key record: [{"model": "Photo PLUS Hyper HRF11", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Exact-family official manual archived; no isolated RF watt assigned. RF output watts remain undisclosed."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Manual power/charger figures describe whole-device electrical use; they are not isolated RF output or a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P95.pdf; sha256 42d1c12df3647dd9b8a9903d468326887ca53c6cbbaac94ed328a86c0d0628e1
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P96] YA-MAN Cavi Spa RF Core PLUS HRF-51 official IFU
+URL: https://www.ya-man.co.jp/en/asset/docs/cavispa-rf-core-plus/HRF51-3-001E.pdf
+Resolved URL: https://www.ya-man.co.jp/en/asset/docs/cavispa-rf-core-plus/HRF51-3-001E.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Rated output DC9V 2A; approx. 5 W while charging; Li-ion. No isolated RF watts.
+Key record: [{"model": "Cavispa RF Core PLUS", "RF": "Not disclosed / not verified", "input_w": 5, "input_kind": "Manufacturer whole-device power / charging figure; RF not isolated", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Manual specifies approx. 5 W while charging and DC9V×2A charger output; RF output is not stated. RF output watts remain undisclosed."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Manual power/charger figures describe whole-device electrical use; they are not isolated RF output or a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P96.pdf; sha256 d27ac26f8386549a98d9d7adefcd3aa5e9d7ecc031d759a741069020b3b6010f
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P97] YA-MAN Cavi Spa RF Core HRF-17 official IFU
+URL: https://www.ya-man.co.jp/en/asset/docs/cavispa-rf-core/2_en.pdf
+Resolved URL: https://www.ya-man.co.jp/en/asset/docs/cavispa-rf-core/2_en.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Exact-family official IFU archived; no verified isolated RF-output watts.
+Key record: [{"model": "Cavispa RF Core / RF Core EX / RF Core Premium", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Exact HRF-17 official manual archived; adjacent Core EX/Premium aliases are not assumed identical. RF output watts remain undisclosed."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Manual power/charger figures describe whole-device electrical use; they are not isolated RF output or a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P97.pdf; sha256 8515e45bf1a9bad64dccc82af581916f15a2839b1d6a374b6b640a08a113bbd3
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P98] YA-MAN Photo PLUS EX Smooth S HRF-20L-2 Japanese IFU
+URL: https://www.ya-man.co.jp/wp/wp-content/uploads/manuals/pdf/HRF20L2.pdf
+Resolved URL: https://www.ya-man.co.jp/wp/wp-content/uploads/manuals/pdf/HRF20L2.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual (Japanese)
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Exact legacy-model Japanese IFU; retained for model identification, not used to assign watts without a verified read-off.
+Key record: [{"model": "Photo PLUS EX Smooth S", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Exact HRF-20L-2 Japanese manual archived; no comparable RF watts transcribed. RF output watts remain undisclosed."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Manual power/charger figures describe whole-device electrical use; they are not isolated RF output or a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P98.pdf; sha256 6c17908909533bc40328c5dde902a341d5e1f32867be26d469d5706ae51113b7
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P99] YA-MAN Photo PLUS Smart HRF-11-SE Japanese IFU
+URL: https://www.ya-man.co.jp/wp/wp-content/uploads/manuals/pdf/HRF-11-SE.pdf
+Resolved URL: https://www.ya-man.co.jp/wp/wp-content/uploads/manuals/pdf/HRF-11-SE.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual (Japanese)
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Exact legacy-model Japanese IFU; retained for model identification, not used to assign watts without a verified read-off.
+Key record: [{"model": "Photo PLUS Smart", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Exact HRF-11-SE Japanese manual archived; no comparable RF watts transcribed. RF output watts remain undisclosed."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Manual power/charger figures describe whole-device electrical use; they are not isolated RF output or a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P99.pdf; sha256 3d2b60b241e99148ba109a807ce11d82752c1899340f98864ba68ca8c9c1a4a6
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P100] YA-MAN Cavi Spa RF Core EX HRF-18 Japanese IFU
+URL: https://www.ya-man.co.jp/wp/wp-content/uploads/manuals/pdf/HRF-18.pdf
+Resolved URL: https://www.ya-man.co.jp/wp/wp-content/uploads/manuals/pdf/HRF-18.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual (Japanese)
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Exact legacy-model Japanese IFU; retained for model identification, not used to assign watts without a verified read-off.
+Key record: []
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Manual power/charger figures describe whole-device electrical use; they are not isolated RF output or a measured dermal dose.
+Local preservation: source_docs/power_audit_2026-10-09/P100.pdf; sha256 78134526047abafe34a84b76673840ce280ff6632ce2280ae6eafa161d07b439
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P101] AMIRO S2 Seal Max official manual
+URL: https://cdn.shopify.com/s/files/1/0053/8866/4950/files/S2_Seal-Max.pdf?v=1695808061
+Resolved URL: https://cdn.shopify.com/s/files/1/0053/8866/4950/files/S2_Seal-Max.pdf?v=1695808061
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Model S2 manual: 5V×3A / 15W adapter specification, 1500mAh battery, 1–2.6MHz RF; no comparable RF watts.
+Key record: [{"model": "S2 Seal Max", "RF": "Not disclosed / not verified", "input_w": 15, "input_kind": "5 V × 3 A charging-adapter rating (manual)", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Exact S2 Seal Max manual lists 1500mAh and a 15W maximum adapter while charging, but no cell voltage/runtime or RF watt output. Adapter capacity is not treatment output."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: 15W is a charging-adapter rating, not treatment RF output; cell voltage and operating runtime are not stated in the manual excerpt.
+Local preservation: source_docs/power_audit_2026-10-09/P101.pdf; sha256 3c3be4462009b0680d1164c7069c11810dbb181de9db2300ba2765ddff2e0bcd
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P102] AMIRO R1 Pro official manual
+URL: https://cdn.shopify.com/s/files/1/0053/8866/4950/files/AMIRO_R1_Pro_Facial_RF_Skin_Tightening_Device_cc6c678a-c5de-4303-a2c8-a5fdfbdcf314.pdf?v=1679051689
+Resolved URL: https://cdn.shopify.com/s/files/1/0053/8866/4950/files/AMIRO_R1_Pro_Facial_RF_Skin_Tightening_Device_cc6c678a-c5de-4303-a2c8-a5fdfbdcf314.pdf?v=1679051689
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Manual rates input 5V×2A and battery capacity 2600mAh; does not state a comparable RF watt output or battery cell voltage.
+Key record: [{"model": "R1 PRO (US listing)", "RF": "15 W claim; 8 W predecessor discrepancy*", "input_w": 10, "input_kind": "5 V × 2 A manual-rated USB input; RF not separately rated", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Retail page advertises 15W, but the exact official manual lists 5V×2A and 2600mAh without an RF watt or cell voltage. Regional/version ambiguity and 8W→15W predecessor claim remain; treat 15W as low-confidence marketing, not measured output."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: USB charging supply capacity is not RF output; retail 15W headline remains a marketing claim.
+Local preservation: source_docs/power_audit_2026-10-09/P102.pdf; sha256 b16de528293080a33ff57f9921f21ed53f65d2f79cc006422404f8046c503268
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P103] AMIRO S1 official manual
+URL: https://cdn.shopify.com/s/files/1/0053/8866/4950/files/S1_Facial_Device_User_Manual.pdf?v=1679041661
+Resolved URL: https://cdn.shopify.com/s/files/1/0053/8866/4950/files/S1_Facial_Device_User_Manual.pdf?v=1679041661
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Manual rates input 5V×3A, 1200mAh battery, about 90-minute charge; no comparable RF watts.
+Key record: [{"model": "S1 Facial RF stamping device", "RF": "Not disclosed / not verified", "input_w": 15, "input_kind": "5 V × 3 A manual-rated charging input", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Official manual lists 5V×3A input, 1200mAh battery and approx. 90-minute charge; cell voltage/runtime and isolated RF watts are not stated."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Charging input and capacity do not disclose RF output; battery cell voltage/runtime are not stated in the technical line.
+Local preservation: source_docs/power_audit_2026-10-09/P103.pdf; sha256 5d5b6d1d319318fb0451a6d28af8ea81cf58fffe36159804831df49b780142e0
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P104] FOREO FAQ 103 Diamond official manual
+URL: https://assets.foreo.com/files/static/manuals/2021-05/FAQ_103_manual_english_0.pdf?VersionId=JMzeFe3bj2gj6KF55YvdnVR9R8HfcvrO
+Resolved URL: https://assets.foreo.com/files/static/manuals/2021-05/FAQ_103_manual_english_0.pdf?VersionId=JMzeFe3bj2gj6KF55YvdnVR9R8HfcvrO
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Li-ion 3.7V/1000mAh; up to 30 min per charge; RF output watts not disclosed.
+Key record: [{"model": "FAQ 103 Diamond", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": 3.7, "runtime_min": 30, "temperature": "Undisclosed", "notes": "Official manual: 3.7V/1000mAh and up to 30 min per charge, giving 3.7Wh and a nominal 7.4W whole-device average under that stated runtime. RF, EMS, LED and electronics share the budget; no RF watts disclosed."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Nominal whole-device energy is 3.7Wh; 7.4W average at the stated runtime is not an RF rating.
+Local preservation: source_docs/power_audit_2026-10-09/P104.pdf; sha256 45631b13b4ee6440b269b66e26eab3daefabf807355614d4e79ea287e2533441
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P105] TriPollar STOP VX2 official manual
+URL: https://cdn.shopify.com/s/files/1/0276/3089/5193/files/STOP_VX2.pdf?v=1691504919
+Resolved URL: https://cdn.shopify.com/s/files/1/0276/3089/5193/files/STOP_VX2.pdf?v=1691504919
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Manual states 5.7W at 200Ω and includes output-power/load graph; plotted point appears about 6.6W at 200Ω. 8V×1.5A adapter; 1MHz.
+Key record: [{"model": "STOP VX2 Model U", "RF": "5.7 W @ 200 Ω; own graph ≈6.6 W*", "input_w": 12, "input_kind": "8 V × 1.5 A DC supply capacity", "load_ohm": 200, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Manual text specifies 5.7 W at 200 Ω; its own plotted curve reads about 6.6 W at that load. Preserve both because the manual is internally inconsistent. Curve read-offs are approximate, not a lab measurement."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: The manual specification and its own graph conflict near 200Ω; digitized graph points are approximate, starred read-offs, not independent measurements.
+Local preservation: source_docs/power_audit_2026-10-09/P105.pdf; sha256 1115c527865cd81d91607ab6c72148b8389f4a4a63d688907bf96a86d765d0dd
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P106] TriPollar STOP VX GOLD 2 official manual
+URL: https://cdn.shopify.com/s/files/1/0266/4782/2418/files/TriPollar_STOP_Vx_GOLD_2_6d2cdfe1-3869-44be-9569-0e4bdcde6bc5.pdf?v=1677751224
+Resolved URL: https://cdn.shopify.com/s/files/1/0266/4782/2418/files/TriPollar_STOP_Vx_GOLD_2_6d2cdfe1-3869-44be-9569-0e4bdcde6bc5.pdf?v=1677751224
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Rated 5V max 2A; RF frequency 1.0–1.25MHz; no comparable RF output watts.
+Key record: [{"model": "STOP VX Gold 2", "RF": "Not disclosed / not verified", "input_w": 10, "input_kind": "5 V × 2 A maximum adapter rating", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Official exact-family manual gives a 10 W maximum supply rating and 1.0–1.25MHz RF frequency, but no comparable RF output watts."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: 10W is the maximum supply rating, not RF output.
+Local preservation: source_docs/power_audit_2026-10-09/P106.pdf; sha256 ee591c792c09eeb077a01b705d06fb84fe515c487667dc300de6b8b20aae0295
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P107] TriPollar ENVIG EDGE official manual
+URL: https://cdn.shopify.com/s/files/1/0266/4782/2418/files/TRIPOLLAR-ENVIG_EDGE.pdf?v=1688564333
+Resolved URL: https://cdn.shopify.com/s/files/1/0266/4782/2418/files/TRIPOLLAR-ENVIG_EDGE.pdf?v=1688564333
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: 5V max 2A; approx. 30 min continuous use per full charge; RF output watts and battery capacity not disclosed.
+Key record: [{"model": "ENVIG EDGE", "RF": "Not disclosed / not verified", "input_w": 10, "input_kind": "5 V × 2 A USB input rating", "load_ohm": null, "battery_wh": null, "runtime_min": 30, "temperature": "Undisclosed", "notes": "Manual gives 30 minutes continuous use per full charge, but no battery capacity or RF watt output. 10 W USB adapter rating is not treatment power."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: 10W USB adapter ceiling is not a treatment-output rating; runtime alone cannot identify RF watts.
+Local preservation: source_docs/power_audit_2026-10-09/P107.pdf; sha256 f768b0aaa3fc9a7d01d20890718dc238bcb696ef2aa112d772a7bc58a9193789
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P108] Panasonic VITALIFT RF EH-SR85 official manual
+URL: https://panasonic.jp/content/dam/panasonic/jp/ja/pim-assets/support/manual/000/000/000/377/553/000000000377553/eh-sr85.pdf
+Resolved URL: https://panasonic.jp/content/dam/panasonic/jp/ja/pim-assets/support/manual/000/000/000/377/553/000000000377553/eh-sr85.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Official manual archived; product specification separately says approx. 7W while charging; RF output watts not disclosed.
+Key record: [{"model": "Vitalift RF EH-SR85", "RF": "Not disclosed / not verified", "input_w": 7, "input_kind": "Approx. 7 W while charging (not RF output)", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Official manual/specification checked. Approx. 7 W is explicitly charging consumption; runtime and lithium-ion battery disclosure do not provide RF watts."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Charging consumption, battery runtime and RF treatment watts are different quantities.
+Local preservation: source_docs/power_audit_2026-10-09/P108.pdf; sha256 e7aceaae848497dc71ca89ccfcacaa881733051852be098c5637048019cd406f
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P109] Panasonic VITALIFT RF EX EH-SR86 official manual
+URL: https://panasonic.jp/content/dam/panasonic/jp/ja/pim-assets/support/manual/000/000/002/714/737/000000002714737/p_eh-sr86_01.pdf
+Resolved URL: https://panasonic.jp/content/dam/panasonic/jp/ja/pim-assets/support/manual/000/000/002/714/737/000000002714737/p_eh-sr86_01.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: official manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Official manual archived; product specification separately says approx. 7W while charging; RF output watts not disclosed.
+Key record: [{"model": "Vitalift RF EX EH-SR86", "RF": "Not disclosed / not verified", "input_w": 7, "input_kind": "Approx. 7 W while charging (not RF output)", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "No numeric surface/dermal temperature verified", "notes": "Official manual/specification checked. Approx. 7 W is explicitly charging consumption; runtime and lithium-ion battery disclosure do not provide RF watts."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Charging consumption, battery runtime and RF treatment watts are different quantities.
+Local preservation: source_docs/power_audit_2026-10-09/P109.pdf; sha256 6e846f42426da0d3d06587c3d2dfedf30c5808bafb895fab4ec328a5cc9883c7
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P110] MLAY RF01 official current product page
+URL: https://www.mlayofficial.com/products/mlay-rf01?country=DZ&currency=USD&variant=45451682021684
+Resolved URL: https://www.mlayofficial.com/products/mlay-rf01?country=DZ&currency=USD&variant=45451682021684
+Accessed: 2026-10-09 America/Chicago
+Class: official product claim
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Current page claims 25W face / 50W body, 50W rated input, 1MHz.
+Key record: [{"model": "RF01 face probe (current official listing)", "RF": "25 W face claim*", "input_w": 50, "input_kind": "Rated total input (listing)", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Temperature adjustment claimed; calibrated numerical cutoff unverified", "notes": "Official page claims 25W face output and 50W total input. No test load/duty convention; not independently measured."}, {"model": "RF01 body probe (current official listing)", "RF": "50 W body claim*", "input_w": 50, "input_kind": "Rated total input (listing)", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Official page claims 50W RF body output against 50W total input. Do not assume equal continuous RF and input; peak/control convention and load are absent."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: No stated test load, duty cycle or independent output measurement; output/input equality at body setting should not be assumed continuous.
+Local preservation: source_docs/power_audit_2026-10-09/P110.html; sha256 2256a7534ce31b68d92a5e84c5c3e504913f45ac7c8997cac551ebff7e75b30b
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P111] MLAY S3 official current product page
+URL: https://www.mlayofficial.com/products/mlay-rf-beauty-instrument-s3
+Resolved URL: https://www.mlayofficial.com/products/mlay-rf-beauty-instrument-s3
+Accessed: 2026-10-09 America/Chicago
+Class: official product claim
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Current page claims 25W face / 14W body, 1MHz, 100–240VAC; no current rating, load or duty convention.
+Key record: [{"model": "S3 handheld · face output claim", "RF": "25 W face claim*", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Current official page claims 25W face and 14W body output, 100–240VAC and 50/60Hz. It gives no current, test load or duty convention; not independently measured."}, {"model": "S3 handheld · body output claim", "RF": "14 W body claim*", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Same S3 body with separate body setting. Manufacturer claim lacks load/duty convention; do not compare as a measured facial output."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Output claims are not accompanied by a test load or independent measurement; flagged low confidence.
+Local preservation: source_docs/power_audit_2026-10-09/P111.html; sha256 3dd0ebf7b315b8575e510394598b67d3b3b1dbc6b4922616a6c8e4a208aae999
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P112] MLAY RF02 official current product page
+URL: https://www.mlayofficial.com/products/mlay-rf-instrument-rf02
+Resolved URL: https://www.mlayofficial.com/products/mlay-rf-instrument-rf02
+Accessed: 2026-10-09 America/Chicago
+Class: official product claim
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Current S02B/RF02 page states 36W rated input, 1MHz; does not state isolated RF output.
+Key record: [{"model": "RF02 desktop S02B (current official listing)", "RF": "Not disclosed / not verified", "input_w": 36, "input_kind": "36 W rated whole-device input (manufacturer page)", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Official listing states 36W rated input and 1MHz, but no isolated RF watt output. Keep separate from the S06 brochure’s differently identified “RF02 Home Use” 38W claim."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Rated whole-device input is not RF output; keep separate from similarly named brochure variants.
+Local preservation: source_docs/power_audit_2026-10-09/P112.html; sha256 bdce65a413dcb8b9ab9a790de7fe85ff7940a6eed098b19f6975d730af1f0ad7
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P113] MLAY supplier brochure indexed by Messe Frankfurt
+URL: https://exhibitorsearch.messefrankfurt.com/images/original/document_downloads/10000391202501/397636/1739246184332_3510192324.pdf
+Resolved URL: https://exhibitorsearch.messefrankfurt.com/images/original/document_downloads/10000391202501/397636/1739246184332_3510192324.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: manufacturer brochure (indexed copy)
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Indexed brochure lists RF01/S05 48W, S03 12W with 3.7V/2000mAh, RF02/S06 38W, and S04 13W with 7.4V/650mAh; 1MHz.
+Key record: [{"model": "RF01 Home Use · S05 brochure variant", "RF": "48 W brochure claim*", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Indexed MLAY brochure says 48W output and non-battery. Model/version relationship to current RF01 (25W face / 50W body, 50W input) is unresolved; no test load or duty convention."}, {"model": "S03 Home Use RF device · brochure variant", "RF": "12 W brochure claim*", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": 7.4, "runtime_min": null, "temperature": "Undisclosed", "notes": "Indexed brochure claim: 12W output, 3.7V/2000mAh battery, 1MHz. Runtime/load/duty and model relationship to current MLAY products are unresolved."}, {"model": "RF02 Home Use · S06 brochure variant", "RF": "38 W brochure claim*", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Indexed brochure claims 38W output and no battery. It is not proven to be the same S02B sold as current RF02; current S02B page instead states 36W rated input. Keep separate; neither supplies a load/duty convention."}, {"model": "S04 Home Use RF device · brochure variant", "RF": "13 W brochure claim*", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": 4.81, "runtime_min": null, "temperature": "Undisclosed", "notes": "Indexed brochure claim: 13W output, 7.4V/650mAh battery (4.81Wh nominal), 1MHz. Runtime/load/duty and exact model relationship are unresolved; no watt average inferred."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Host URL returned 404 during this pass; values are dated brochure claims without test load/duty or a confirmed identity match to current retail models. Local excerpt records exactly what was recovered.
+Local preservation: source_docs/power_audit_2026-10-09/P113_indexed_excerpt.txt; sha256 c8c123f1d388008d951d9d2be487a025f91157c066138d0cabb9f8df96e5f4bf
+Status/recheck: Indexed brochure text excerpt; source PDF host returned 404; volatile product claims dated snapshot.
+
+[P114] MYCHWAY MS-76F1SBMAX supplier manual
+URL: https://manual.mychway.com/UserManual/ms-76f1sbmax-en-20250327.pdf
+Resolved URL: https://manual.mychway.com/UserManual/ms-76f1sbmax-en-20250327.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: supplier manual
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: Manual lists 80W system input; Face RF 70W, Eye RF 40W and Body RF 80W at 1MHz.
+Key record: [{"model": "MS-76F1SBMAX · Face RF configuration", "RF": "70 W face rf claim*", "input_w": 80, "input_kind": "80 W system input, supplier manual", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Supplier manual claims 70 W for Face RF and lists 80 W system input. The body claim equals the entire stated input; load and duty convention are absent. Treat as low-confidence brochure/manual output, not independent measurement."}, {"model": "MS-76F1SBMAX · Eye RF configuration", "RF": "40 W eye rf claim*", "input_w": 80, "input_kind": "80 W system input, supplier manual", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Supplier manual claims 40 W for Eye RF and lists 80 W system input. The body claim equals the entire stated input; load and duty convention are absent. Treat as low-confidence brochure/manual output, not independent measurement."}, {"model": "MS-76F1SBMAX · Body RF configuration", "RF": "80 W body rf claim*", "input_w": 80, "input_kind": "80 W system input, supplier manual", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Supplier manual claims 80 W for Body RF and lists 80 W system input. The body claim equals the entire stated input; load and duty convention are absent. Treat as low-confidence brochure/manual output, not independent measurement."}]
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Supplier manual output ratings are unverified claims; body RF equals the stated system input, and load/duty convention is absent. Flag all RF values low confidence.
+Local preservation: source_docs/power_audit_2026-10-09/P114.pdf; sha256 0e3c055d09d8d195a57b060b6c4bae1e87253e76205aca3e15ce0eed93f1e8ab
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
+[P115] FDA K250308 hair-growth comb record (clearance-attribution check)
+URL: https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250308.pdf
+Resolved URL: https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250308.pdf
+Accessed: 2026-10-09 America/Chicago
+Class: primary regulatory
+Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
+Supports: FDA record identifies Dongguan Boyuan hair-growth device models; it does not identify MLAY S3.
+Key record: []
+Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
+Limits: Used to check a retailer attribution only; not evidence that MLAY S3 is cleared under K250308.
+Local preservation: source_docs/power_audit_2026-10-09/P115.pdf; sha256 c22869e8b81dbfd838dc0d8137ef24677f8c9f7b2a16434a800f2ccc6c978883
+Status/recheck: HTTP 200; volatile product claims dated snapshot.
+
 [U01] MimiSilk, battery and generic follow-ups
 URL: User attachment; original has no canonical URLs
 Resolved URL: Not applicable / not captured
@@ -1023,7 +1504,7 @@ Accessed: 2026-10-09 America/Chicago
 Class: user-supplied research transcript
 Used in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.
 Supports: Research leads and original conversation; not primary evidence.
-Key record: [{"model": "Silhouette (legacy body)", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Pasted claim: 24 W. Exact manufacturer IFU/revision not independently recovered in this pass; excluded from numerical ranking. H2600 alias may duplicate Titan Mini."}, {"model": "FaceTite Mini FAC01 (legacy EU)", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Pasted claim: 13 W. Exact manufacturer IFU/revision not independently recovered in this pass; excluded from numerical ranking. H2600 alias may duplicate Titan Mini."}, {"model": "Original FaceTite H2111/H2112 (regional)", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Pasted claim: 12 W. Exact manufacturer IFU/revision not independently recovered in this pass; excluded from numerical ranking. H2600 alias may duplicate Titan Mini."}, {"model": "FaceTite Z / Revive / Essential / Prestige H2120/H2130", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Pasted claim: 10 W. Exact manufacturer IFU/revision not independently recovered in this pass; excluded from numerical ranking. H2600 alias may duplicate Titan Mini."}, {"model": "FaceTite Mini H2600 regional alias", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Pasted claim: 10 W. Exact manufacturer IFU/revision not independently recovered in this pass; excluded from numerical ranking. H2600 alias may duplicate Titan Mini."}, {"model": "FAQ 103 Diamond", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "FAQ-family lead; do not copy 101/102 battery or power without exact manual."}, {"model": "Allfond triangular 3-probe family", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "No exact model/label/IFU matching. Do not import a lookalike seller’s watts, temperature cutoff or FDA clearance."}, {"model": "RF01 generic / unnamed private-label family", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "No exact model/label/IFU matching. Do not import a lookalike seller’s watts, temperature cutoff or FDA clearance."}, {"model": "Margotan private-label handheld lead", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "No exact model/label/IFU matching. Do not import a lookalike seller’s watts, temperature cutoff or FDA clearance."}]
+Key record: [{"model": "Silhouette (legacy body)", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Pasted claim: 24 W. Exact manufacturer IFU/revision not independently recovered in this pass; excluded from numerical ranking. H2600 alias may duplicate Titan Mini."}, {"model": "FaceTite Mini FAC01 (legacy EU)", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Pasted claim: 13 W. Exact manufacturer IFU/revision not independently recovered in this pass; excluded from numerical ranking. H2600 alias may duplicate Titan Mini."}, {"model": "Original FaceTite H2111/H2112 (regional)", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Pasted claim: 12 W. Exact manufacturer IFU/revision not independently recovered in this pass; excluded from numerical ranking. H2600 alias may duplicate Titan Mini."}, {"model": "FaceTite Z / Revive / Essential / Prestige H2120/H2130", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Pasted claim: 10 W. Exact manufacturer IFU/revision not independently recovered in this pass; excluded from numerical ranking. H2600 alias may duplicate Titan Mini."}, {"model": "FaceTite Mini H2600 regional alias", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "Pasted claim: 10 W. Exact manufacturer IFU/revision not independently recovered in this pass; excluded from numerical ranking. H2600 alias may duplicate Titan Mini."}, {"model": "Allfond triangular 3-probe family", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "No exact model/label/IFU matching. Do not import a lookalike seller’s watts, temperature cutoff or FDA clearance."}, {"model": "RF01 generic / unnamed private-label family", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "No exact model/label/IFU matching. Do not import a lookalike seller’s watts, temperature cutoff or FDA clearance."}, {"model": "Margotan private-label handheld lead", "RF": "Not disclosed / not verified", "input_w": null, "input_kind": "Undisclosed", "load_ohm": null, "battery_wh": null, "runtime_min": null, "temperature": "Undisclosed", "notes": "No exact model/label/IFU matching. Do not import a lookalike seller’s watts, temperature cutoff or FDA clearance."}]
 Finding: Specifications and attribution retained separately from direct measurements; no new independent comparative lab or clinical study.
 Limits: Citations were pasted as labels without URLs. Original images mentioned in text were not supplied here.
 Local preservation: source_docs/power_audit_2026-10-09/U01_user_research.txt; sha256 a1687de243db301928622bf117e4d47acd1f8b9e51d4d3021cad695fcee97b83

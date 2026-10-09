@@ -1,0 +1,86 @@
+LDM INITIAL RESEARCH RECOVERY LOG
+Access date: 2026-10-09 America/Chicago
+Scope: initial four-study map, not systematic review. Search snippets were discovery leads; unused results are not evidentiary citations.
+Primary web reading plus local archive pattern inspection: root README/index, topic 24 README/index/build_viewer; topic 11 and topic 23 linked as existing background lanes.
+
+[S01] Wellcomet LDM technologies
+URL: https://www.wellcomet.de/html/page.php?lan=de&page_id=38
+Accessed: 2026-10-09 America/Chicago
+Class: official product
+Used in: README; mechanism
+Supports / key record / finding: Dual and triple alternating-frequency lineage.
+Limits: Manufacturer description; clinical efficacy and patent validity not independently established.
+Local preservation: source_docs/Wellcomet_LDM_technology_2026-10-09.html; 32654 bytes; sha256 2cbdb62437cb5149c180714605a0bc31e39b109f41b699085682817497e82a38; captured 2026-10-09
+Status/recheck: source consulted; official HTML captured successfully. Official English Wellcomet pages intermittently errored in web tool; direct capture succeeded. Recheck product specs/IFU before purchase or clinical use.
+
+[S02] Wellcomet LDM Triple technical data
+URL: https://www.wellcomet.de/html/page.php?lan=en&page_id=66
+Accessed: 2026-10-09 America/Chicago
+Class: official product
+Used in: devices
+Supports / key record / finding: Two 5 cm2 sonotrodes; 1/3/10 and 3/10/19 MHz; article 712-80; 8 kg.
+Limits: Not an IFU or regulatory record; regional specification differences.
+Local preservation: source_docs/Wellcomet_Triple_technical_data_2026-10-09.html; 30575 bytes; sha256 7e7f71abb2f57c596a303cff8b49d4854d98db52169adb116f6b5c0b4eca12c1; captured 2026-10-09
+Status/recheck: source consulted; official HTML captured successfully. Official English Wellcomet pages intermittently errored in web tool; direct capture succeeded. Recheck product specs/IFU before purchase or clinical use.
+
+[S03] Wellcomet LDM Triple general description
+URL: https://www.wellcomet.de/html/page.php?lan=en&page_id=65
+Accessed: 2026-10-09 America/Chicago
+Class: official product / marketing claims
+Used in: mechanism
+Supports / key record / finding: Manufacturer MMP/HSP/HA hypotheses; 10/19 MHz approximate half-depth 3/1.5 mm.
+Limits: Not measured collagen outcomes; half-depth is attenuation, not focus or cutoff.
+Local preservation: source_docs/Wellcomet_Triple_claims_2026-10-09.html; 32951 bytes; sha256 0dd1067957b63d98e2190b7bf54100fad33c7987e00ad198a56da930299326c5; captured 2026-10-09
+Status/recheck: source consulted; official HTML captured successfully. Official English Wellcomet pages intermittently errored in web tool; direct capture succeeded. Recheck product specs/IFU before purchase or clinical use.
+
+[S04] Park et al. refractory rosacea, 2018; PMID 29746429; DOI 10.1097/DSS.0000000000001552
+URL: https://pubmed.ncbi.nlm.nih.gov/29746429/
+Accessed: 2026-10-09 America/Chicago
+Class: peer-reviewed human; abstract-only appraisal
+Used in: evidence redness
+Supports / key record / finding: Retrospective 42 patients (26 ETR,14 PPR,2 mixed); EI/TEWL/self-assessment decreased.
+Limits: No control; full text not captured; exact platform, long-term effects, adverse events and conflicts not fully appraised.
+Local preservation: source_docs/Park_2018_metadata.json; 4682 bytes; sha256 45c42f0210c7174bf333bb8621ee9ac2c0714955030c60b28bb5d8d33a79c7a7; captured 2026-10-09
+Full paper: URL-only — no lawful local copy available; metadata is not full text.
+Status/recheck: bibliographic/study record consulted; check corrections and full methodology before clinical translation.
+
+[S05] Kim et al. hydration and erythema, 2021; PMID 33670631; PMCID PMC7922048; DOI 10.3390/jcm10040834
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC7922048/
+Accessed: 2026-10-09 America/Chicago
+Class: peer-reviewed human
+Used in: evidence redness; related-device boundary
+Supports / key record / finding: 28 enrolled,26 completed; SONO STYLER (Weyergans) 1/3 MHz; four weekly treatments; six-week TEWL -5.37 +/-13.22 g/m2/h and EI -39.73 +/-44.21 units; no serious adverse effects; paper declares no conflicts.
+Limits: Uncontrolled; short follow-up; no Wellcomet LDM equivalence. Funding/conflict sections in full XML; no manufacturer equivalence inferred.
+Local preservation: source_docs/Kim_2021_metadata.json; 6390 bytes; sha256 2416d16c63d834f3280b172e54a38dc39fd2839193aba4ea2ac2ef721b6b4e33; captured 2026-10-09
+Local preservation: source_docs/Kim_2021_fulltext.xml; 52530 bytes; sha256 5b0ad0d2e3fae9851419696c0d10364489c2805e7d7c5086abf14e83b0c80501; captured 2026-10-09
+Status/recheck: bibliographic/study record consulted; check corrections and full methodology before clinical translation.
+
+[S06] Chervinskaya et al. triple-frequency acne; online 2024 / issue 2025; PMCID PMC11845943; DOI 10.1111/jocd.16672
+URL: https://doi.org/10.1111/jocd.16672
+Accessed: 2026-10-09 America/Chicago
+Class: peer-reviewed human
+Used in: evidence acne; devices
+Supports / key record / finding: Retrospective two centres; 24 initially described,22 photo analysis,9 follow-up; nine blinded photo raters; LDM MED Tri vs LDM Triple; mGEA improvement 73.69% at end,90.14% follow-up; no significant side effects reported; Wellcomet CEO coauthor/salary support.
+Limits: No sham; device confounded by clinic; selective follow-up; not lesion counts, cure rate or 19 MHz superiority. PMC direct open challenged; openly licensed PDF read at https://acneandrosacea.org/wp-content/uploads/2024/11/Chervinskaya-I_J-Cosmet-Dermatol_2024-Nov.pdf.
+Local preservation: source_docs/Chervinskaya_2024_2025_triple_frequency_acne.pdf; 2854244 bytes; sha256 65d23e8f715467e5cfecd4e16aa245a6a250efc35c78b23d30ab91ad6c7ca01c; captured 2026-10-09
+Status/recheck: bibliographic/study record consulted; check corrections and full methodology before clinical translation.
+
+[S07] Meyer-Rogge et al. facial rejuvenation, 2012; DOI 10.4236/jcdsa.2012.22016
+URL: https://doi.org/10.4236/jcdsa.2012.22016
+Accessed: 2026-10-09 America/Chicago
+Class: peer-reviewed human
+Used in: evidence cosmetic
+Supports / key record / finding: 39 subjects,8-12 treatments; unblinded nonrandomized; ~one-week post-course assessment; coarse/fine wrinkle change 0.63/0.73 grades; temporary erythema; Wellcomet managing partner coauthor.
+Limits: Two preliminary split-face cases not a full-cohort sham control; collagen not measured. Publisher full text read at https://content.scirp.org/pdf/jcdsa20120200004_67520473.pdf.
+Local preservation: source_docs/Meyer_Rogge_2012_facial_rejuvenation.pdf; 626548 bytes; sha256 7749dab51b2678d051e6d40d7d43260a95f28f889aa77ec5a28819b3f39df4c2; captured 2026-10-09
+Status/recheck: bibliographic/study record consulted; check corrections and full methodology before clinical translation.
+
+[S08] Wellcomet Korea LDM Triple
+URL: https://wellcometkorea.com/LDMTRIPLE
+Accessed: 2026-10-09 America/Chicago
+Class: official product regional
+Used in: devices
+Supports / key record / finding: 1/3/10 and 3/10/19 MHz; 5 cm2; <=1.5 W/cm2;55 VA;8.5 kg.
+Limits: Regional dated listing; VA not acoustic watts; authorization not verified from ad identifier.
+Local preservation: source_docs/Wellcomet_Korea_Triple_2026-10-09.html; 795806 bytes; sha256 c8ac271961084f385b086a93165303fbf4aa876db45a1727371c6d049e2bd2d4; captured 2026-10-09
+Status/recheck: source consulted; official HTML captured successfully. Official English Wellcomet pages intermittently errored in web tool; direct capture succeeded. Recheck product specs/IFU before purchase or clinical use.

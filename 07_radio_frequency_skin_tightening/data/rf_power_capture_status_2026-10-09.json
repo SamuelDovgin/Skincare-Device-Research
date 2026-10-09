@@ -540,5 +540,264 @@
     "resolved_url": "https://halohk.com/collections/vendors?page=13&q=halohk",
     "local": "source_docs/power_audit_2026-10-09/P78.html",
     "sha256": "0117218959d5bad36588a411ad30178ebcdbe554b3066d2a69b0e7c0707c9ae9"
+  },
+  {
+    "id": "P79",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.ya-man.co.jp/en/asset/docs/bloom-6/YJFS16PN-1-001E.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P79.pdf",
+    "sha256": "9c0507bfa05f7ac00d60f5b1b59104a10f9d8a4eccb9dcb8d2db9a547aa0300f"
+  },
+  {
+    "id": "P80",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.ya-man.co.jp/en/asset/docs/bloom-5/YJFS16-1-001E.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P80.pdf",
+    "sha256": "c7c4cd7bba8b13cfee7870c46469897fd687e14f19cd754110b913a3ebcbfb01"
+  },
+  {
+    "id": "P81",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.ya-man.co.jp/en/asset/docs/bloom-wr/S12-E.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P81.pdf",
+    "sha256": "fbb07e8bf2afb8f166abe12c3cd07a726118c2da875ce819f40978c275212a45"
+  },
+  {
+    "id": "P82",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.ya-man.co.jp/en/asset/docs/bloom-red/S10-2-002E.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P82.pdf",
+    "sha256": "565f272e81d6bf1a1b1deb9d5d7a22fa3dbec9d915696a6295dd622ff5d44677"
+  },
+  {
+    "id": "P83",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.ya-man.co.jp/en/asset/docs/bright-lift/HRF40-E.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P83.pdf",
+    "sha256": "e996fcd9416683483118408040699e7170cb27af45fb7fa7778a59fdb9a780da"
+  },
+  {
+    "id": "P84",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.ya-man.co.jp/en/asset/docs/photo-plus-deep-lift/YJFA1-E.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P84.pdf",
+    "sha256": "a46c193236695cb7f02d6d58f7f9b05da47e2f1abf67a6b23f98db199ef26c33"
+  },
+  {
+    "id": "P85",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.ya-man.co.jp/en/asset/docs/photo-plus-shiny-neo/YJFM18-1-001E.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P85.pdf",
+    "sha256": "4fbecaa7ede598793bba10cdc410f8a99e7423603c3b9cef4961e44728727263"
+  },
+  {
+    "id": "P86",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.ya-man.co.jp/en/asset/docs/photo-plus-shiny/M18-3-001E.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P86.pdf",
+    "sha256": "c4e08e84666f3d655ae4ddfb0498b579665516275d5cc15e0405c80f491f2246"
+  },
+  {
+    "id": "P87",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.ya-man.co.jp/en/asset/docs/photo-plus-prestige-s/M20-6-001EA.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P87.pdf",
+    "sha256": "de781f94e6f180d8e75f0d0fe41ba631b927534286c98fc89137779d08d447ef"
+  },
+  {
+    "id": "P88",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.ya-man.co.jp/en/asset/docs/photo-plus-prestige-ss/M21-1-001E.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P88.pdf",
+    "sha256": "0b5b7442d8e7e256b126623a7a73c5a78c8198c9b882289e8b83a1362e85e12b"
+  },
+  {
+    "id": "P89",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.ya-man.co.jp/en/asset/docs/photo-plus-prestige-sp/M22-1-001E.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P89.pdf",
+    "sha256": "40b68421b0077a64140438fbc4ea647417254a0443dc2a688b65aeb566cf585f"
+  },
+  {
+    "id": "P90",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.ya-man.co.jp/en/asset/docs/m24v/YJFM24V_1_001E.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P90.pdf",
+    "sha256": "5c9e67a50680694aacd06d681766ad74576f471c632599b6d23e76e954414c96"
+  },
+  {
+    "id": "P91",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.ya-man.co.jp/en/asset/docs/photo-plus-prestige-sp-III/YJFM25-1-001E.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P91.pdf",
+    "sha256": "2c5f7410e6814135e45058f97684889f009721a5a4a1793740be4b464b63be82"
+  },
+  {
+    "id": "P92",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.ya-man.co.jp/en/asset/docs/photo-plus-prestige-pro/M30-1-001E.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P92.pdf",
+    "sha256": "e359e443f1caa8147ac484bd857c815443dcb9f271571f44155a2544c7e70825"
+  },
+  {
+    "id": "P93",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.ya-man.co.jp/en/asset/docs/photo-plus-ex-eye-pro/HRF20EYE-3-001E.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P93.pdf",
+    "sha256": "ce916de1a50278355ab63049b345308f6005b358acff2967d21592fc03426b48"
+  },
+  {
+    "id": "P94",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.ya-man.co.jp/en/asset/docs/photo-plus/HRF10-4-001EA.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P94.pdf",
+    "sha256": "d6a5c41082c76def413b8eb1507b5ab6eada26bd4207c597374a2460e5685e2e"
+  },
+  {
+    "id": "P95",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.ya-man.co.jp/en/asset/docs/photo-plus-hyper/15_en.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P95.pdf",
+    "sha256": "42d1c12df3647dd9b8a9903d468326887ca53c6cbbaac94ed328a86c0d0628e1"
+  },
+  {
+    "id": "P96",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.ya-man.co.jp/en/asset/docs/cavispa-rf-core-plus/HRF51-3-001E.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P96.pdf",
+    "sha256": "d27ac26f8386549a98d9d7adefcd3aa5e9d7ecc031d759a741069020b3b6010f"
+  },
+  {
+    "id": "P97",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.ya-man.co.jp/en/asset/docs/cavispa-rf-core/2_en.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P97.pdf",
+    "sha256": "8515e45bf1a9bad64dccc82af581916f15a2839b1d6a374b6b640a08a113bbd3"
+  },
+  {
+    "id": "P98",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.ya-man.co.jp/wp/wp-content/uploads/manuals/pdf/HRF20L2.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P98.pdf",
+    "sha256": "6c17908909533bc40328c5dde902a341d5e1f32867be26d469d5706ae51113b7"
+  },
+  {
+    "id": "P99",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.ya-man.co.jp/wp/wp-content/uploads/manuals/pdf/HRF-11-SE.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P99.pdf",
+    "sha256": "3d2b60b241e99148ba109a807ce11d82752c1899340f98864ba68ca8c9c1a4a6"
+  },
+  {
+    "id": "P100",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.ya-man.co.jp/wp/wp-content/uploads/manuals/pdf/HRF-18.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P100.pdf",
+    "sha256": "78134526047abafe34a84b76673840ce280ff6632ce2280ae6eafa161d07b439"
+  },
+  {
+    "id": "P101",
+    "status": "HTTP 200",
+    "resolved_url": "https://cdn.shopify.com/s/files/1/0053/8866/4950/files/S2_Seal-Max.pdf?v=1695808061",
+    "local": "source_docs/power_audit_2026-10-09/P101.pdf",
+    "sha256": "3c3be4462009b0680d1164c7069c11810dbb181de9db2300ba2765ddff2e0bcd"
+  },
+  {
+    "id": "P102",
+    "status": "HTTP 200",
+    "resolved_url": "https://cdn.shopify.com/s/files/1/0053/8866/4950/files/AMIRO_R1_Pro_Facial_RF_Skin_Tightening_Device_cc6c678a-c5de-4303-a2c8-a5fdfbdcf314.pdf?v=1679051689",
+    "local": "source_docs/power_audit_2026-10-09/P102.pdf",
+    "sha256": "b16de528293080a33ff57f9921f21ed53f65d2f79cc006422404f8046c503268"
+  },
+  {
+    "id": "P103",
+    "status": "HTTP 200",
+    "resolved_url": "https://cdn.shopify.com/s/files/1/0053/8866/4950/files/S1_Facial_Device_User_Manual.pdf?v=1679041661",
+    "local": "source_docs/power_audit_2026-10-09/P103.pdf",
+    "sha256": "5d5b6d1d319318fb0451a6d28af8ea81cf58fffe36159804831df49b780142e0"
+  },
+  {
+    "id": "P104",
+    "status": "HTTP 200",
+    "resolved_url": "https://assets.foreo.com/files/static/manuals/2021-05/FAQ_103_manual_english_0.pdf?VersionId=JMzeFe3bj2gj6KF55YvdnVR9R8HfcvrO",
+    "local": "source_docs/power_audit_2026-10-09/P104.pdf",
+    "sha256": "45631b13b4ee6440b269b66e26eab3daefabf807355614d4e79ea287e2533441"
+  },
+  {
+    "id": "P105",
+    "status": "HTTP 200",
+    "resolved_url": "https://cdn.shopify.com/s/files/1/0276/3089/5193/files/STOP_VX2.pdf?v=1691504919",
+    "local": "source_docs/power_audit_2026-10-09/P105.pdf",
+    "sha256": "1115c527865cd81d91607ab6c72148b8389f4a4a63d688907bf96a86d765d0dd"
+  },
+  {
+    "id": "P106",
+    "status": "HTTP 200",
+    "resolved_url": "https://cdn.shopify.com/s/files/1/0266/4782/2418/files/TriPollar_STOP_Vx_GOLD_2_6d2cdfe1-3869-44be-9569-0e4bdcde6bc5.pdf?v=1677751224",
+    "local": "source_docs/power_audit_2026-10-09/P106.pdf",
+    "sha256": "ee591c792c09eeb077a01b705d06fb84fe515c487667dc300de6b8b20aae0295"
+  },
+  {
+    "id": "P107",
+    "status": "HTTP 200",
+    "resolved_url": "https://cdn.shopify.com/s/files/1/0266/4782/2418/files/TRIPOLLAR-ENVIG_EDGE.pdf?v=1688564333",
+    "local": "source_docs/power_audit_2026-10-09/P107.pdf",
+    "sha256": "f768b0aaa3fc9a7d01d20890718dc238bcb696ef2aa112d772a7bc58a9193789"
+  },
+  {
+    "id": "P108",
+    "status": "HTTP 200",
+    "resolved_url": "https://panasonic.jp/content/dam/panasonic/jp/ja/pim-assets/support/manual/000/000/000/377/553/000000000377553/eh-sr85.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P108.pdf",
+    "sha256": "e7aceaae848497dc71ca89ccfcacaa881733051852be098c5637048019cd406f"
+  },
+  {
+    "id": "P109",
+    "status": "HTTP 200",
+    "resolved_url": "https://panasonic.jp/content/dam/panasonic/jp/ja/pim-assets/support/manual/000/000/002/714/737/000000002714737/p_eh-sr86_01.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P109.pdf",
+    "sha256": "6e846f42426da0d3d06587c3d2dfedf30c5808bafb895fab4ec328a5cc9883c7"
+  },
+  {
+    "id": "P110",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.mlayofficial.com/products/mlay-rf01?country=DZ&currency=USD&variant=45451682021684",
+    "local": "source_docs/power_audit_2026-10-09/P110.html",
+    "sha256": "2256a7534ce31b68d92a5e84c5c3e504913f45ac7c8997cac551ebff7e75b30b"
+  },
+  {
+    "id": "P111",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.mlayofficial.com/products/mlay-rf-beauty-instrument-s3",
+    "local": "source_docs/power_audit_2026-10-09/P111.html",
+    "sha256": "3dd0ebf7b315b8575e510394598b67d3b3b1dbc6b4922616a6c8e4a208aae999"
+  },
+  {
+    "id": "P112",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.mlayofficial.com/products/mlay-rf-instrument-rf02",
+    "local": "source_docs/power_audit_2026-10-09/P112.html",
+    "sha256": "bdce65a413dcb8b9ab9a790de7fe85ff7940a6eed098b19f6975d730af1f0ad7"
+  },
+  {
+    "id": "P113",
+    "status": "Indexed brochure text excerpt; source PDF host returned 404",
+    "resolved_url": "https://exhibitorsearch.messefrankfurt.com/images/original/document_downloads/10000391202501/397636/1739246184332_3510192324.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P113_indexed_excerpt.txt",
+    "sha256": "c8c123f1d388008d951d9d2be487a025f91157c066138d0cabb9f8df96e5f4bf"
+  },
+  {
+    "id": "P114",
+    "status": "HTTP 200",
+    "resolved_url": "https://manual.mychway.com/UserManual/ms-76f1sbmax-en-20250327.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P114.pdf",
+    "sha256": "0e3c055d09d8d195a57b060b6c4bae1e87253e76205aca3e15ce0eed93f1e8ab"
+  },
+  {
+    "id": "P115",
+    "status": "HTTP 200",
+    "resolved_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250308.pdf",
+    "local": "source_docs/power_audit_2026-10-09/P115.pdf",
+    "sha256": "c22869e8b81dbfd838dc0d8137ef24677f8c9f7b2a16434a800f2ccc6c978883"
   }
 ]

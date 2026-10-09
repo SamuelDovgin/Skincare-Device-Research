@@ -1,0 +1,12 @@
+MLAY brochure excerpt preserved from Messe Frankfurt indexed document text
+
+Original document URL (returned HTTP 404 when checked 2026-10-09):
+https://exhibitorsearch.messefrankfurt.com/images/original/document_downloads/10000391202501/397636/1739246184332_3510192324.pdf
+
+Claims recovered from the indexed brochure entry:
+- RF01 / S05: 48 W output; non-battery; 1 MHz.
+- S03: 12 W; 3.7 V, 2000 mAh; 1 MHz.
+- RF02 / S06: 38 W; non-battery; 1 MHz.
+- S04: 13 W; 7.4 V, 650 mAh; 1 MHz.
+
+These are brochure claims, not independent measurements. Test load, duty convention, exact version, and identity relationship to current retail MLAY models were not established. The source PDF could not be locally preserved because its host returned 404; this excerpt preserves only the indexed statements used in the atlas.

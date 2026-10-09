@@ -98,6 +98,52 @@ source('P76','Historical H2502 manufacturer IFU mirrored on device.report','http
 source('P77','NEO Plus RF-300W directory','https://prod.danawa.com/info/?pcode=14102141','Directory explicitly calls 300 W consumption (소비전력).','secondary directory','Supports ambiguity check only, not measured output or exact Alpha electrical identity.')
 source('P78','DLUS D3 optical device vendor lead','https://halohk.com/collections/vendors?page=13&q=halohk','Vendor describes D3 as 1064 nm optical device; D3 should not be merged into D2 RF inventory.','seller listing','Claim-only adjacent lead; no verified optical output or FDA model mapping.')
 
+# Round 2: manufacturer manuals and exact-model disclosures recovered after the
+# first atlas. A published charger/system rating remains separate from RF output.
+YAMAN_MANUALS = [
+ ('P79','YA-MAN Bloom 6 YJFS16PN official IFU','https://www.ya-man.co.jp/en/asset/docs/bloom-6/YJFS16PN-1-001E.pdf','Rated supply DC9V 3A; approx. 21 W device power consumption; Li-ion; approx. 30 min operation. No isolated RF watts.'),
+ ('P80','YA-MAN Bloom 5 YJFS16 official IFU','https://www.ya-man.co.jp/en/asset/docs/bloom-5/YJFS16-1-001E.pdf','Rated supply DC9V 2A; approx. 18 W power consumption while charging; approx. 30 min operation. No isolated RF watts.'),
+ ('P81','YA-MAN Bloom WR S12 official IFU','https://www.ya-man.co.jp/en/asset/docs/bloom-wr/S12-E.pdf','Rated supply DC5V 2A; approx. 9 W while charging; approx. 40 min operation. No RF-output watts.'),
+ ('P82','YA-MAN Bloom Red S10 official IFU','https://www.ya-man.co.jp/en/asset/docs/bloom-red/S10-2-002E.pdf','Official exact-family manual recovered; RF watts and separately comparable treatment output not disclosed in extracted specification.'),
+ ('P83','YA-MAN Bright Lift HRF-40 official IFU','https://www.ya-man.co.jp/en/asset/docs/bright-lift/HRF40-E.pdf','5V/1A-or-higher supply; approx. 4.5 W system consumption; Li-ion; approx. 40 min operating time. RF watts not separately stated.'),
+ ('P84','YA-MAN Photo PLUS Deep Lift YJFA1 official IFU','https://www.ya-man.co.jp/en/asset/docs/photo-plus-deep-lift/YJFA1-E.pdf','5V/1A rated charging-base input; approx. 4.5 W while charging; approx. 30 min at max D×LIFT level. No RF watts.'),
+ ('P85','YA-MAN Photo PLUS Shiny NEO YJFM18 official IFU','https://www.ya-man.co.jp/en/asset/docs/photo-plus-shiny-neo/YJFM18-1-001E.pdf','5V/1A charging-base input; approx. 4.5 W while charging; approx. 30 min at max DYHP power. No RF watts.'),
+ ('P86','YA-MAN Photo PLUS Shiny M18 official IFU','https://www.ya-man.co.jp/en/asset/docs/photo-plus-shiny/M18-3-001E.pdf','Official model manual archived; charging/electrical ratings are not RF-output watts.'),
+ ('P87','YA-MAN Photo PLUS Prestige S M20 official IFU','https://www.ya-man.co.jp/en/asset/docs/photo-plus-prestige-s/M20-6-001EA.pdf','Rated supply DC9V 2A; approx. 15 W device power consumption; Li-ion. No isolated RF watts.'),
+ ('P88','YA-MAN Photo PLUS Prestige SS M21 official IFU','https://www.ya-man.co.jp/en/asset/docs/photo-plus-prestige-ss/M21-1-001E.pdf','Rated supply DC12V 3A; approx. 20 W device power consumption. No isolated RF watts.'),
+ ('P89','YA-MAN Photo PLUS Prestige SP M22 official IFU','https://www.ya-man.co.jp/en/asset/docs/photo-plus-prestige-sp/M22-1-001E.pdf','Rated supply DC9V 2A; approx. 18 W device power consumption. No isolated RF watts.'),
+ ('P90','YA-MAN Photo PLUS Prestige SP II YJFM24V official IFU','https://www.ya-man.co.jp/en/asset/docs/m24v/YJFM24V_1_001E.pdf','Exact-model English IFU archived; no separable RF watt specification established.'),
+ ('P91','YA-MAN Photo PLUS Prestige SP III YJFM25 official IFU','https://www.ya-man.co.jp/en/asset/docs/photo-plus-prestige-sp-III/YJFM25-1-001E.pdf','Rated supply DC9V 2A; approx. 18 W device power consumption. No isolated RF watts.'),
+ ('P92','YA-MAN Photo PLUS Prestige PRO M30 official IFU','https://www.ya-man.co.jp/en/asset/docs/photo-plus-prestige-pro/M30-1-001E.pdf','Rated supply DC12V 5A; approx. 20 W device power consumption. No isolated RF watts.'),
+ ('P93','YA-MAN Photo PLUS EX eye pro HRF-20-EYE official IFU','https://www.ya-man.co.jp/en/asset/docs/photo-plus-ex-eye-pro/HRF20EYE-3-001E.pdf','Rated supply DC9V 2A; approx. 13 W device power consumption; Li-ion. No isolated RF watts.'),
+ ('P94','YA-MAN Photo PLUS HRF-10 official IFU','https://www.ya-man.co.jp/en/asset/docs/photo-plus/HRF10-4-001EA.pdf','Exact-model official IFU archived; no verified isolated RF-output watts.'),
+ ('P95','YA-MAN Photo PLUS Hyper HRF-11 official IFU','https://www.ya-man.co.jp/en/asset/docs/photo-plus-hyper/15_en.pdf','Exact-family official IFU archived; no verified isolated RF-output watts.'),
+ ('P96','YA-MAN Cavi Spa RF Core PLUS HRF-51 official IFU','https://www.ya-man.co.jp/en/asset/docs/cavispa-rf-core-plus/HRF51-3-001E.pdf','Rated output DC9V 2A; approx. 5 W while charging; Li-ion. No isolated RF watts.'),
+ ('P97','YA-MAN Cavi Spa RF Core HRF-17 official IFU','https://www.ya-man.co.jp/en/asset/docs/cavispa-rf-core/2_en.pdf','Exact-family official IFU archived; no verified isolated RF-output watts.'),
+ ('P98','YA-MAN Photo PLUS EX Smooth S HRF-20L-2 Japanese IFU','https://www.ya-man.co.jp/wp/wp-content/uploads/manuals/pdf/HRF20L2.pdf','Exact legacy-model Japanese IFU; retained for model identification, not used to assign watts without a verified read-off.','official manual (Japanese)'),
+ ('P99','YA-MAN Photo PLUS Smart HRF-11-SE Japanese IFU','https://www.ya-man.co.jp/wp/wp-content/uploads/manuals/pdf/HRF-11-SE.pdf','Exact legacy-model Japanese IFU; retained for model identification, not used to assign watts without a verified read-off.','official manual (Japanese)'),
+ ('P100','YA-MAN Cavi Spa RF Core EX HRF-18 Japanese IFU','https://www.ya-man.co.jp/wp/wp-content/uploads/manuals/pdf/HRF-18.pdf','Exact legacy-model Japanese IFU; retained for model identification, not used to assign watts without a verified read-off.','official manual (Japanese)'),
+]
+for item in YAMAN_MANUALS:
+    sid,title,url,claim,*kind = item
+    source(sid,title,url,claim,kind[0] if kind else 'official manual','Manual power/charger figures describe whole-device electrical use; they are not isolated RF output or a measured dermal dose.')
+
+source('P101','AMIRO S2 Seal Max official manual','https://cdn.shopify.com/s/files/1/0053/8866/4950/files/S2_Seal-Max.pdf?v=1695808061','Model S2 manual: 5V×3A / 15W adapter specification, 1500mAh battery, 1–2.6MHz RF; no comparable RF watts.','official manual','15W is a charging-adapter rating, not treatment RF output; cell voltage and operating runtime are not stated in the manual excerpt.')
+source('P102','AMIRO R1 Pro official manual','https://cdn.shopify.com/s/files/1/0053/8866/4950/files/AMIRO_R1_Pro_Facial_RF_Skin_Tightening_Device_cc6c678a-c5de-4303-a2c8-a5fdfbdcf314.pdf?v=1679051689','Manual rates input 5V×2A and battery capacity 2600mAh; does not state a comparable RF watt output or battery cell voltage.','official manual','USB charging supply capacity is not RF output; retail 15W headline remains a marketing claim.')
+source('P103','AMIRO S1 official manual','https://cdn.shopify.com/s/files/1/0053/8866/4950/files/S1_Facial_Device_User_Manual.pdf?v=1679041661','Manual rates input 5V×3A, 1200mAh battery, about 90-minute charge; no comparable RF watts.','official manual','Charging input and capacity do not disclose RF output; battery cell voltage/runtime are not stated in the technical line.')
+source('P104','FOREO FAQ 103 Diamond official manual','https://assets.foreo.com/files/static/manuals/2021-05/FAQ_103_manual_english_0.pdf?VersionId=JMzeFe3bj2gj6KF55YvdnVR9R8HfcvrO','Li-ion 3.7V/1000mAh; up to 30 min per charge; RF output watts not disclosed.','official manual','Nominal whole-device energy is 3.7Wh; 7.4W average at the stated runtime is not an RF rating.')
+source('P105','TriPollar STOP VX2 official manual','https://cdn.shopify.com/s/files/1/0276/3089/5193/files/STOP_VX2.pdf?v=1691504919','Manual states 5.7W at 200Ω and includes output-power/load graph; plotted point appears about 6.6W at 200Ω. 8V×1.5A adapter; 1MHz.','official manual','The manual specification and its own graph conflict near 200Ω; digitized graph points are approximate, starred read-offs, not independent measurements.')
+source('P106','TriPollar STOP VX GOLD 2 official manual','https://cdn.shopify.com/s/files/1/0266/4782/2418/files/TriPollar_STOP_Vx_GOLD_2_6d2cdfe1-3869-44be-9569-0e4bdcde6bc5.pdf?v=1677751224','Rated 5V max 2A; RF frequency 1.0–1.25MHz; no comparable RF output watts.','official manual','10W is the maximum supply rating, not RF output.')
+source('P107','TriPollar ENVIG EDGE official manual','https://cdn.shopify.com/s/files/1/0266/4782/2418/files/TRIPOLLAR-ENVIG_EDGE.pdf?v=1688564333','5V max 2A; approx. 30 min continuous use per full charge; RF output watts and battery capacity not disclosed.','official manual','10W USB adapter ceiling is not a treatment-output rating; runtime alone cannot identify RF watts.')
+source('P108','Panasonic VITALIFT RF EH-SR85 official manual','https://panasonic.jp/content/dam/panasonic/jp/ja/pim-assets/support/manual/000/000/000/377/553/000000000377553/eh-sr85.pdf','Official manual archived; product specification separately says approx. 7W while charging; RF output watts not disclosed.','official manual','Charging consumption, battery runtime and RF treatment watts are different quantities.')
+source('P109','Panasonic VITALIFT RF EX EH-SR86 official manual','https://panasonic.jp/content/dam/panasonic/jp/ja/pim-assets/support/manual/000/000/002/714/737/000000002714737/p_eh-sr86_01.pdf','Official manual archived; product specification separately says approx. 7W while charging; RF output watts not disclosed.','official manual','Charging consumption, battery runtime and RF treatment watts are different quantities.')
+source('P110','MLAY RF01 official current product page','https://www.mlayofficial.com/products/mlay-rf01?country=DZ&currency=USD&variant=45451682021684','Current page claims 25W face / 50W body, 50W rated input, 1MHz.','official product claim','No stated test load, duty cycle or independent output measurement; output/input equality at body setting should not be assumed continuous.')
+source('P111','MLAY S3 official current product page','https://www.mlayofficial.com/products/mlay-rf-beauty-instrument-s3','Current page claims 25W face / 14W body, 1MHz, 100–240VAC; no current rating, load or duty convention.','official product claim','Output claims are not accompanied by a test load or independent measurement; flagged low confidence.')
+source('P112','MLAY RF02 official current product page','https://www.mlayofficial.com/products/mlay-rf-instrument-rf02','Current S02B/RF02 page states 36W rated input, 1MHz; does not state isolated RF output.','official product claim','Rated whole-device input is not RF output; keep separate from similarly named brochure variants.')
+source('P113','MLAY supplier brochure indexed by Messe Frankfurt','https://exhibitorsearch.messefrankfurt.com/images/original/document_downloads/10000391202501/397636/1739246184332_3510192324.pdf','Indexed brochure lists RF01/S05 48W, S03 12W with 3.7V/2000mAh, RF02/S06 38W, and S04 13W with 7.4V/650mAh; 1MHz.','manufacturer brochure (indexed copy)','Host URL returned 404 during this pass; values are dated brochure claims without test load/duty or a confirmed identity match to current retail models. Local excerpt records exactly what was recovered.')
+source('P114','MYCHWAY MS-76F1SBMAX supplier manual','https://manual.mychway.com/UserManual/ms-76f1sbmax-en-20250327.pdf','Manual lists 80W system input; Face RF 70W, Eye RF 40W and Body RF 80W at 1MHz.','supplier manual','Supplier manual output ratings are unverified claims; body RF equals the stated system input, and load/duty convention is absent. Flag all RF values low confidence.')
+source('P115','FDA K250308 hair-growth comb record (clearance-attribution check)','https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250308.pdf','FDA record identifies Dongguan Boyuan hair-growth device models; it does not identify MLAY S3.','primary regulatory','Used to check a retailer attribution only; not evidence that MLAY S3 is cleared under K250308.')
+
 def capture(s):
     import requests
     ext = '.pdf' if '.pdf' in s['url'].lower() else '.html'
@@ -114,13 +160,23 @@ def capture(s):
 
 def write_corpus(do_capture):
     status_file=DATA/f'rf_power_capture_status_{DATE}.json'
-    if do_capture:
-        with ThreadPoolExecutor(max_workers=8) as pool:
-            statuses=list(pool.map(capture,SOURCES))
-        status_file.write_text(json.dumps(statuses,ensure_ascii=False,indent=2)+'\n')
-    else:
-        statuses=json.loads(status_file.read_text()) if status_file.exists() else []
+    statuses=json.loads(status_file.read_text()) if status_file.exists() else []
     by={s['id']:s for s in statuses}
+    if do_capture:
+        pending=[s for s in SOURCES if not (by.get(s['id'],{}).get('local') and (TOP/by[s['id']]['local']).is_file())]
+        with ThreadPoolExecutor(max_workers=8) as pool:
+            statuses.extend(pool.map(capture,pending))
+        by={s['id']:s for s in statuses}
+    # The Messe Frankfurt document host now returns 404. Preserve the exact
+    # indexed brochure claims as a short, clearly labeled excerpt rather than
+    # pretending the unavailable PDF was downloaded.
+    if any(s['id']=='P113' for s in SOURCES):
+        excerpt=SRC/'P113_indexed_excerpt.txt'
+        excerpt.write_text('''MLAY brochure excerpt preserved from Messe Frankfurt indexed document text\n\nOriginal document URL (returned HTTP 404 when checked 2026-10-09):\nhttps://exhibitorsearch.messefrankfurt.com/images/original/document_downloads/10000391202501/397636/1739246184332_3510192324.pdf\n\nClaims recovered from the indexed brochure entry:\n- RF01 / S05: 48 W output; non-battery; 1 MHz.\n- S03: 12 W; 3.7 V, 2000 mAh; 1 MHz.\n- RF02 / S06: 38 W; non-battery; 1 MHz.\n- S04: 13 W; 7.4 V, 650 mAh; 1 MHz.\n\nThese are brochure claims, not independent measurements. Test load, duty convention, exact version, and identity relationship to current retail MLAY models were not established. The source PDF could not be locally preserved because its host returned 404; this excerpt preserves only the indexed statements used in the atlas.\n''',encoding='utf-8')
+        by['P113']=dict(id='P113',status='Indexed brochure text excerpt; source PDF host returned 404',resolved_url=next(s['url'] for s in SOURCES if s['id']=='P113'),local=str(excerpt.relative_to(TOP)),sha256=hashlib.sha256(excerpt.read_bytes()).hexdigest())
+        statuses=[by.get(s['id'],dict(id=s['id'],status='URL checked via browser/search; local capture pending',local=None)) for s in SOURCES]
+    if do_capture or not status_file.exists():
+        status_file.write_text(json.dumps(statuses,ensure_ascii=False,indent=2)+'\n')
     for s in SOURCES:s.update(by.get(s['id'],dict(status='URL checked via browser/search; local capture pending',local=None)))
     (DATA/f'rf_power_sources_{DATE}.json').write_text(json.dumps(SOURCES,ensure_ascii=False,indent=2)+'\n')
     return SOURCES
@@ -128,12 +184,18 @@ def write_corpus(do_capture):
 ROWS=[]
 def device(brand,model,sids,category='Home face RF',rf=None,treatment=None,measured=None,load=None,
            basis='Unknown',input_w=None,input_kind='Undisclosed',v=None,mah=None,runtime=None,
-           freq='Undisclosed',temperature='Undisclosed',clearance='Not verified for this exact model',notes='',rf_label=None):
+           freq='Undisclosed',temperature='Undisclosed',clearance='Not verified for this exact model',notes='',rf_label=None,
+           curve_data=None,curve_label=None,confidence=None):
     ids=sids.split()
     lookup={s['id']:s for s in SOURCES}
+    if confidence is None and any(term in basis.lower() for term in ('claim','marketing','pasted lead','ambiguous')):
+        confidence='low'
+    label=rf_label or (f'{rf:g} W' if rf is not None else 'Not disclosed / not verified')
+    if confidence=='low' and rf is not None and not label.endswith('*'):
+        label += '*'
     ROWS.append(dict(id=f'D{len(ROWS)+1:03}',brand=brand,model=model,category=category,
         rf_max_w=rf,treatment_max_w=treatment,measured_w=measured,load_ohm=load,basis=basis,
-        rf_label=rf_label or (f'{rf:g} W' if rf is not None else 'Not disclosed / not verified'),
+        rf_label=label,confidence=confidence,curve_data=curve_data,curve_label=curve_label,
         input_w=input_w,input_kind=input_kind,battery_v=v,battery_mah=mah,runtime_min=runtime,
         battery_wh=round(v*mah/1000,3) if v is not None and mah is not None else None,
         average_total_w=round(v*mah/1000/(runtime/60),3) if None not in (v,mah,runtime) else None,
@@ -151,27 +213,34 @@ def build_rows():
     for model,sid,k in [('STOP U','P13','K182774'),('STOP U UXV','P05 P14','K203665 / K220322')]:
         device('TriPollar',model,sid,rf=5.7,treatment=5.7,load=200,basis='FDA specification',input_w=12 if 'UXV' in model else None,input_kind='8 V × 1.5 A external supply capacity',freq='1 MHz',temperature='Temperature-controlled; exact numeric cutoff not confirmed here',clearance=k,notes='Maximum RMS RF specification, not a numerical measurement report.',rf_label='5.7 W ±10% RMS')
     device('Silk’n','HST / legacy Titan clearance family','P07',rf=10,basis='FDA specification',freq='1 MHz',clearance='K162784 (OHS primary)',notes='Combined RF/optical system; exact retail alias must be matched to its label.')
-    device('Silk’n','Titan original H2111/H2112','P20',rf=10,basis='Manufacturer manual',input_w=18,input_kind='12 V × 1.5 A supply capacity',freq='1 MHz',notes='Corded. Shared model numbers in FaceTite manuals do not prove identical regional output.',clearance='See HST family; retail label match required')
+    device('Silk’n','Titan original H2111/H2112','P20',rf=10,basis='Manufacturer manual',input_w=18,input_kind='12 V × 1.5 A supply capacity',freq='1 MHz',notes='Corded. Shared model numbers in FaceTite manuals do not prove identical regional output. IFU graph read-offs are approximate, not a new measurement.',clearance='See HST family; retail label match required',curve_data=[{'load_ohm':50,'rf_w':8.5},{'load_ohm':100,'rf_w':9.4},{'load_ohm':150,'rf_w':8.7},{'load_ohm':200,'rf_w':6.8}],curve_label='Original IFU plotted markers; approximate read-offs*')
     device('Silk’n','Titan AllWays','P06',rf=10,basis='FDA specification',v=3.7,mah=2600,freq='1 MHz',clearance='K230013',notes='9.62 Wh nominal battery. Pasted 20-minute runtime has not been confirmed in this FDA record; no battery-average output inferred.',rf_label='10 W ±20%')
-    device('Silk’n','Titan MultiPlatform H2502 + HA2502 (current NA IFU)','P17 P21 P73',rf=15,basis='Manufacturer manual',input_w=24,input_kind='12 V × 2 A supply capacity',v=3.7,mah=4000,runtime=40,freq='1 MHz ±30%',temperature='43°C surface cutoff',notes='Current official IFU says 15 W combined. Historical 20 W IFU is separate below. 40-minute website runtime is not a specified full-power load test.')
+    device('Silk’n','Titan MultiPlatform H2502 + HA2502 (current NA IFU)','P17 P21 P73',rf=15,basis='Manufacturer manual',input_w=24,input_kind='12 V × 2 A supply capacity',v=3.7,mah=4000,runtime=40,freq='1 MHz ±30%',temperature='43°C surface cutoff',notes='Current official IFU says 15 W combined. Historical 20 W IFU is separate below. 40-minute website runtime is not a specified full-power load test. Curve points below are visual read-offs from the IFU plot, not bench data.',curve_data=[{'load_ohm':63,'rf_w':14.5},{'load_ohm':80,'rf_w':11.3},{'load_ohm':100,'rf_w':9.3},{'load_ohm':150,'rf_w':7.5}],curve_label='Current NA IFU plot; approximate read-offs*')
     device('Silk’n','Titan MultiPlatform H2502 + HA2502 (historical IFU)','P76 P17',rf=20,basis='Historical manual conflict',input_w=24,input_kind='12 V × 2 A supply capacity',freq='1 MHz ±30%',temperature='43°C surface cutoff',notes='Historical manufacturer manual mirrored by device.report. Current official NA manual is 15 W. Same name/model cannot identify revision; not an extra unique device.')
     device('Silk’n','Titan MultiPlatform H2502 bare head (historical)','P76',rf=10,basis='Historical manual conflict',input_w=24,input_kind='Supply capacity',freq='1 MHz ±30%',notes='Older manual explicitly distinguishes bare 10 W head from 20 W combined configuration. Current manual only lists combined 15 W; do not transfer bare rating across revisions.')
     device('Silk’n','FaceTite MultiPlatform H2501 EU','P19',rf=20,basis='Manufacturer manual',input_w=24,input_kind='12 V × 2 A adapter capacity',mah=4000,freq='1 MHz ±30%',notes='Battery mAh disclosed, cell nominal voltage not established from this IFU. Device 12 V rating must not be used as battery voltage.')
-    device('Silk’n','Titan Mini H2600','P18 P73',rf=10,basis='Manufacturer manual',input_w=10,input_kind='5 V × 2 A charging supply capacity',v=3.7,mah=600,runtime=30,freq='1 MHz ±30%',temperature='43°C surface cutoff',notes='2.22 Wh / 0.5 h = 4.44 W nominal total-draw estimate. Stated runtime is not a continuous 10 W test.')
+    device('Silk’n','Titan Mini H2600','P18 P73',rf=10,basis='Manufacturer manual',input_w=10,input_kind='5 V × 2 A charging supply capacity',v=3.7,mah=600,runtime=30,freq='1 MHz ±30%',temperature='43°C surface cutoff',notes='2.22 Wh / 0.5 h = 4.44 W nominal total-draw estimate. Stated runtime is not a continuous 10 W test. Curve points below are visual read-offs from the IFU plot, not bench data.',curve_data=[{'load_ohm':150,'rf_w':7.6},{'load_ohm':175,'rf_w':6.3},{'load_ohm':200,'rf_w':2.6},{'load_ohm':225,'rf_w':2.3},{'load_ohm':250,'rf_w':2.0}],curve_label='H2600 IFU plot; approximate read-offs*')
     for model,claim in [('Silhouette (legacy body)','24 W'),('FaceTite Mini FAC01 (legacy EU)','13 W'),('Original FaceTite H2111/H2112 (regional)','12 W'),('FaceTite Z / Revive / Essential / Prestige H2120/H2130','10 W'),('FaceTite Mini H2600 regional alias','10 W')]:
         device('Silk’n',model,'U01',category='Home body RF' if 'Silhouette' in model else 'Home face RF',basis='Pasted lead only',notes=f'Pasted claim: {claim}. Exact manufacturer IFU/revision not independently recovered in this pass; excluded from numerical ranking. H2600 alias may duplicate Titan Mini.')
     for model,sid,k in [('FAQ 101','P22 P08','K222012'),('FAQ 102','P23 P09','K240616')]:
         device('FOREO',model,sid,v=3.7,mah=1000,runtime=30,basis='RF undisclosed; battery data',clearance=k,notes='3.7 Wh and up to 30 min give 7.4 W nominal whole-device average under the matching runtime condition. RF, EMS, LED and electronics share energy.')
-    device('FOREO','FAQ 103 Diamond','U01',basis='Pasted lead only',notes='FAQ-family lead; do not copy 101/102 battery or power without exact manual.')
+    device('FOREO','FAQ 103 Diamond','P104',v=3.7,mah=1000,runtime=30,basis='RF undisclosed; battery data',notes='Official manual: 3.7V/1000mAh and up to 30 min per charge, giving 3.7Wh and a nominal 7.4W whole-device average under that stated runtime. RF, EMS, LED and electronics share the budget; no RF watts disclosed.')
     device('MimiSilk','Vera RF Sculpt','P24 P25 P26 P27 P28',rf=18,basis='Marketing RF claim',freq='6.25 MHz claimed',temperature='49–50°C FAQ vs 52°C guide claimed dermal values; no measured thermal map',notes='Brand calls 18 W output; similar DLUS listing says 18 W supply/consumption. OEM connection unconfirmed. Corded Vera, no battery estimate.',rf_label='4.5 / 9 / 18 W claimed')
     device('DLUS','D2','P28 P27',category='Generic handheld RF',input_w=18,input_kind='Seller consumption / directory supply power',basis='Seller input; RF unknown',freq='6.25 MHz claimed',notes='Directory names Shenzhen Guangxiang. Retailer says rechargeable/cordless; pasted notes say mains. No battery voltage/capacity/runtime verified. Factory relationship to Vera is a lead.')
-    device('AMIRO','R1 PRO (US listing)','P29 P31',rf=15,basis='Marketing RF claim',notes='Regional/version ambiguity: upgrade narrative says 8 W to 15 W. No common test load or duty-cycle record; do not infer 15 W RF from charger.',rf_label='15 W claim; 8 W predecessor discrepancy')
-    device('AMIRO','R3 Turbo','P30 P31',rf=15,basis='Marketing RF claim',notes='Explicit 8 to 15 W upgrade claim. Pasted 2600 mAh and 5 V/3 A manual lead awaits exact original manual; battery cell voltage/runtime unknown.')
-    device('AMIRO','S2 Seal / S2 Seal Max','L01',basis='Prior inventory; RF unknown',notes='Existing local IFU/clinical research lane. No comparable treatment-output wattage established in this pass.')
-    device('MLAY','RF01 face probe','P33',category='Generic tabletop RF',rf=25,basis='Seller output claim',input_w=50,input_kind='Rated total input (listing)',freq='1 MHz',temperature='Temperature adjustment claimed; calibrated numerical cutoff unverified',notes='Listing calls this output. RF01 naming across sellers is not evidence of identical electronics.')
-    device('MLAY','RF01 body probe','P33',category='Generic tabletop RF',rf=50,basis='Seller output claim',input_w=50,input_kind='Rated total input (listing)',freq='1 MHz',notes='50 W claimed RF equals 50 W input rating: continuous equality would leave no allowance for losses. Peak/control convention unspecified.')
-    for model in ['RF02','S3 handheld']:
-        device('MLAY',model,'P34',category='Generic handheld RF' if 'S3' in model else 'Generic tabletop RF',notes='Catalogue/model inventory; exact comparable RF output not recovered.')
+    device('AMIRO','R1 PRO (US listing)','P29 P31 P102',rf=15,basis='Marketing RF claim',input_w=10,input_kind='5 V × 2 A manual-rated USB input; RF not separately rated',mah=2600,freq='Undisclosed in manual',notes='Retail page advertises 15W, but the exact official manual lists 5V×2A and 2600mAh without an RF watt or cell voltage. Regional/version ambiguity and 8W→15W predecessor claim remain; treat 15W as low-confidence marketing, not measured output.',rf_label='15 W claim; 8 W predecessor discrepancy*')
+    device('AMIRO','R3 Turbo','P30 P31',rf=15,basis='Marketing RF claim',notes='Explicit 8 to 15 W upgrade claim. No same-model official manual recovered; battery cell voltage/runtime unknown.',rf_label='15 W upgrade claim*')
+    device('AMIRO','S2 Seal Max','P101',category='Home face RF',input_w=15,input_kind='5 V × 3 A charging-adapter rating (manual)',mah=1500,freq='1 / 1.5 / 2 / 2.6 MHz',notes='Exact S2 Seal Max manual lists 1500mAh and a 15W maximum adapter while charging, but no cell voltage/runtime or RF watt output. Adapter capacity is not treatment output.')
+    device('AMIRO','S2 Seal (non-Max; exact revision unresolved)','L01',basis='Prior inventory; RF unknown',notes='The recovered S2 Seal Max manual does not establish the non-Max unit’s output or internal battery specifications.')
+    device('AMIRO','S1 Facial RF stamping device','P103',category='Home face RF',input_w=15,input_kind='5 V × 3 A manual-rated charging input',mah=1200,notes='Official manual lists 5V×3A input, 1200mAh battery and approx. 90-minute charge; cell voltage/runtime and isolated RF watts are not stated.')
+    device('MLAY','RF01 face probe (current official listing)','P110 P33',category='Generic tabletop RF',rf=25,basis='Manufacturer output claim',input_w=50,input_kind='Rated total input (listing)',freq='1 MHz',temperature='Temperature adjustment claimed; calibrated numerical cutoff unverified',notes='Official page claims 25W face output and 50W total input. No test load/duty convention; not independently measured.',rf_label='25 W face claim*')
+    device('MLAY','RF01 body probe (current official listing)','P110 P33',category='Generic tabletop RF',rf=50,basis='Manufacturer output claim',input_w=50,input_kind='Rated total input (listing)',freq='1 MHz',notes='Official page claims 50W RF body output against 50W total input. Do not assume equal continuous RF and input; peak/control convention and load are absent.',rf_label='50 W body claim*')
+    device('MLAY','S3 handheld · face output claim','P111',category='Generic handheld RF',rf=25,basis='Manufacturer output claim',freq='1 MHz',notes='Current official page claims 25W face and 14W body output, 100–240VAC and 50/60Hz. It gives no current, test load or duty convention; not independently measured.',rf_label='25 W face claim*')
+    device('MLAY','S3 handheld · body output claim','P111',category='Generic handheld RF',rf=14,basis='Manufacturer output claim',freq='1 MHz',notes='Same S3 body with separate body setting. Manufacturer claim lacks load/duty convention; do not compare as a measured facial output.',rf_label='14 W body claim*')
+    device('MLAY','RF02 desktop S02B (current official listing)','P112 P34',category='Generic tabletop RF',input_w=36,input_kind='36 W rated whole-device input (manufacturer page)',freq='1 MHz',basis='Manufacturer rated input; RF unknown',notes='Official listing states 36W rated input and 1MHz, but no isolated RF watt output. Keep separate from the S06 brochure’s differently identified “RF02 Home Use” 38W claim.')
+    device('MLAY','RF01 Home Use · S05 brochure variant','P113',category='Generic tabletop RF',rf=48,basis='Manufacturer brochure output claim',freq='1 MHz',notes='Indexed MLAY brochure says 48W output and non-battery. Model/version relationship to current RF01 (25W face / 50W body, 50W input) is unresolved; no test load or duty convention.',rf_label='48 W brochure claim*')
+    device('MLAY','S03 Home Use RF device · brochure variant','P113',category='Generic handheld RF',rf=12,v=3.7,mah=2000,freq='1 MHz',basis='Manufacturer brochure output claim',notes='Indexed brochure claim: 12W output, 3.7V/2000mAh battery, 1MHz. Runtime/load/duty and model relationship to current MLAY products are unresolved.',rf_label='12 W brochure claim*')
+    device('MLAY','RF02 Home Use · S06 brochure variant','P113',category='Generic tabletop RF',rf=38,freq='1 MHz',basis='Manufacturer brochure output claim',notes='Indexed brochure claims 38W output and no battery. It is not proven to be the same S02B sold as current RF02; current S02B page instead states 36W rated input. Keep separate; neither supplies a load/duty convention.',rf_label='38 W brochure claim*')
+    device('MLAY','S04 Home Use RF device · brochure variant','P113',category='Generic handheld RF',rf=13,v=7.4,mah=650,freq='1 MHz',basis='Manufacturer brochure output claim',notes='Indexed brochure claim: 13W output, 7.4V/650mAh battery (4.81Wh nominal), 1MHz. Runtime/load/duty and exact model relationship are unresolved; no watt average inferred.',rf_label='13 W brochure claim*')
     device('Konmison','LB056B three-probe tabletop','P35',category='Generic tabletop RF',input_w=55,input_kind='Power consumption',freq='2 MHz bipolar',basis='Supplier input; RF unknown',temperature='Numeric skin cutoff unverified',notes='1–15 J/cm² seller energy claim cannot be converted to watts without time and electrode area. Listing also says IPL+RF; exact optical hardware unspecified.')
     device('FREYARA','Mini 3in1 RF / FY04.0208US family','P36 P38',category='Generic tabletop RF',rf=50,basis='Seller handle-power claim',input_w=72,input_kind='24 V × 3 A supply capacity',freq='1 MHz intended by listing (printed mHz)',notes='20–50 W handle claim, no load/duty convention. Appearance does not prove same factory/electronics as Konmison.',rf_label='20–50 W handle claim')
     device('FREYARA','2in1 RF tripolar handle','P37',category='Generic tabletop RF',rf=30,basis='Seller handle-power claim',input_w=72,input_kind='24 V × 3 A supply capacity',freq='1 MHz intended by listing (printed mHz)',notes='Seller lists tripolar 20–30 W; keep separate from hexapolar handle.',rf_label='20–30 W handle claim')
@@ -182,6 +251,8 @@ def build_rows():
         for size,w in vals:
             device('MYCHWAY',f'CET RET console · {mode} {size} electrode','P39',category='Generic tabletop RF',rf=w,basis='Seller output claim',notes='Console/electrode configuration, not eight unique devices. No specified load, duty cycle or independently measured output. Larger body electrodes cannot define a facial maximum.')
     device('MYCHWAY','MS-11Y3 generic RF family','P40',category='Generic tabletop RF',notes='Supplier manual preserved; no unambiguous comparable RF-output figure extracted.')
+    for mode,w in [('Face RF',70),('Eye RF',40),('Body RF',80)]:
+        device('MYCHWAY',f'MS-76F1SBMAX · {mode} configuration','P114',category='Generic tabletop RF',rf=w,input_w=80,input_kind='80 W system input, supplier manual',freq='1 MHz',basis='Supplier manual output claim',notes=f'Supplier manual claims {w} W for {mode} and lists 80 W system input. The body claim equals the entire stated input; load and duty convention are absent. Treat as low-confidence brochure/manual output, not independent measurement.',rf_label=f'{w} W {mode.lower()} claim*')
     device('NEO','Alpha controller','P41 P77',category='Generic tabletop RF',basis='Ambiguous power headline',notes='300 W headline in pasted research and Q&A; Alpha face/Soft RF power not established. No numeric RF ranking; directory consumption for Plus does not prove Alpha equivalence.')
     device('NEO','Plus RF-300W','P77 P41',category='Generic tabletop RF',input_w=300,input_kind='Secondary directory consumption, label unverified',basis='Directory input; RF unknown',notes='300 W consumption is not 300 W RF output. Separate from handheld home devices.')
     # Retain the full October 2 market census, replacing broad rows resolved above.
@@ -190,15 +261,62 @@ def build_rows():
     skip={'MimiSilk','CurrentBody','NEWA','Sensica','Silkn','Konmison','AMIRO'}
     for x in old:
         if x['brand'] in skip or x['brand']=='Professional' and 'Thermage' in x['model']:continue
+        if x['brand']=='TriPollar' and 'STOP Vx2 / STOP Vx Gold2' in x['model']:
+            device('TriPollar','STOP VX2 Model U','P105',rf=5.7,load=200,basis='Manufacturer manual',input_w=12,input_kind='8 V × 1.5 A DC supply capacity',freq='1 MHz',notes='Manual text specifies 5.7 W at 200 Ω; its own plotted curve reads about 6.6 W at that load. Preserve both because the manual is internally inconsistent. Curve read-offs are approximate, not a lab measurement.',rf_label='5.7 W @ 200 Ω; own graph ≈6.6 W*',curve_data=[{'load_ohm':50,'rf_w':0.1},{'load_ohm':100,'rf_w':0.1},{'load_ohm':150,'rf_w':0.1},{'load_ohm':200,'rf_w':6.6},{'load_ohm':300,'rf_w':5.0},{'load_ohm':400,'rf_w':3.7},{'load_ohm':500,'rf_w':3.2}],curve_label='STOP VX2 Model U manual plot; approximate read-offs*')
+            device('TriPollar','STOP VX Gold 2','P106',input_w=10,input_kind='5 V × 2 A maximum adapter rating',freq='1.0–1.25 MHz',basis='Official manual; RF output undisclosed',notes='Official exact-family manual gives a 10 W maximum supply rating and 1.0–1.25MHz RF frequency, but no comparable RF output watts.')
+            continue
+        if x['brand']=='TriPollar' and 'ENVIG EDGE' in x['model']:
+            device('TriPollar','ENVIG EDGE','P107',category='Home face RF',input_w=10,input_kind='5 V × 2 A USB input rating',runtime=30,basis='Official manual; RF output undisclosed',notes='Manual gives 30 minutes continuous use per full charge, but no battery capacity or RF watt output. 10 W USB adapter rating is not treatment power.')
+            continue
         cats='Professional RF' if x['brand']=='Professional' else 'Home body RF' if 'Cavispa' in x['model'] else 'Home face RF'
         ids=x['source_ids'].split(); sid=next((s for s in ids if s in old_sources),None)
         device(x['brand'],x['model'],'L01',category=cats,freq=x['rf_frequency_mhz'],temperature=x['temperature_claim'],basis='Prior inventory; RF unknown',notes='Carried forward from 2026-10-02 market census; comparable RF-output watts not established. '+x['evidence'])
         ROWS[-1].update(prior_source_ids=ids,checked='2026-10-02',product_url=old_sources[sid]['url'] if sid else None)
+        if x['brand']=='YA-MAN':
+            model=x['model']
+            ya={
+                'Bloom 6':('P79',21,'Manual power consumption approx. 21 W; whole-device, not isolated RF. Rated supply DC9V×3A; manual also lists about 30 min operation.'),
+                'Bloom 5':('P80',18,'Manual specifies approx. 18 W while charging and DC9V×2A rated supply; approx. 30 min operating time. Charging use is not treatment draw.'),
+                'Bloom WR':('P81',9,'Manual specifies approx. 9 W while charging, DC5V×2A and about 40 min operation; no RF output watt.'),
+                'Bloom Red':('P82',None,'Exact-family manual checked; it gives no comparable RF-output watt in the recovered specification.'),
+                'Bright Lift':('P83',4.5,'Manual specifies approx. 4.5 W whole-device consumption, Li-ion and about 40 min operation; RF is not separately rated.'),
+                'Deep Lift':('P84',4.5,'Manual specifies approx. 4.5 W while charging and about 30 min at maximum D×LIFT; charging draw is not RF output.'),
+                'Shiny NEO':('P85',4.5,'Manual specifies approx. 4.5 W while charging and about 30 min at maximum DYHP power; charging draw is not RF output.'),
+                'Shiny M18':('P86',None,'Exact-model manual archived; no independently verified isolated RF watts assigned.'),
+                'Prestige S':('P87',15,'Manual specifies approx. 15 W whole-device consumption and DC9V×2A rated supply; RF output is not isolated.'),
+                'Prestige SS':('P88',20,'Manual specifies approx. 20 W whole-device consumption and DC12V×3A rated supply; RF output is not isolated.'),
+                'Prestige SP II':('P90',None,'Exact-model manual archived; no separately stated RF output watt recovered.'),
+                'Prestige SP III':('P91',18,'Manual specifies approx. 18 W whole-device consumption and DC9V×2A rated supply; RF output is not isolated.'),
+                'Prestige SP':('P89',18,'Manual specifies approx. 18 W whole-device consumption and DC9V×2A rated supply; RF output is not isolated.'),
+                'Prestige PRO':('P92',20,'Manual specifies approx. 20 W whole-device consumption and DC12V×5A rated supply; RF output is not isolated.'),
+                'EX eye pro':('P93',13,'Exact HRF-20-EYE manual specifies approx. 13 W whole-device consumption and DC9V×2A supply; this is not RF watts.'),
+                'Photo PLUS EX':('P93',13,'P93 specifically documents HRF-20-EYE at approx. 13 W whole-device consumption; do not generalize this rating to every EX regional unit.'),
+                'Photo PLUS HRF10':('P94',None,'Exact-model official manual archived; no isolated RF watt assigned.'),
+                'Photo PLUS Hyper':('P95',None,'Exact-family official manual archived; no isolated RF watt assigned.'),
+                'Cavispa RF Core PLUS':('P96',5,'Manual specifies approx. 5 W while charging and DC9V×2A charger output; RF output is not stated.'),
+                'Cavispa RF Core':('P97',None,'Exact HRF-17 official manual archived; adjacent Core EX/Premium aliases are not assumed identical.'),
+                'Cavispa RF Core EX':('P100',None,'Exact HRF-18 Japanese manual archived; no comparable RF watts transcribed.'),
+                'EX Smooth S':('P98',None,'Exact HRF-20L-2 Japanese manual archived; no comparable RF watts transcribed.'),
+                'Smart':('P99',None,'Exact HRF-11-SE Japanese manual archived; no comparable RF watts transcribed.'),
+            }
+            model_lower=model.lower()
+            match_order=sorted((k for k in ya if k!='Photo PLUS EX'),key=len,reverse=True)+['Photo PLUS EX']
+            item=next(((k,ya[k]) for k in match_order if k.lower() in model_lower),None)
+            if item:
+                _,(msid,w,power_note)=item
+                sources=[msid,'L01']
+                if 'Panasonic' in model:sources=['L01']
+                if w is not None:
+                    ROWS[-1].update(input_w=w,input_kind='Manufacturer whole-device power / charging figure; RF not isolated')
+                if 'Deep Lift' in model:
+                    ROWS[-1].update(runtime_min=30)
+                ROWS[-1].update(source_ids=sources,checked=DATE,product_url=next(s['url'] for s in SOURCES if s['id']==msid),notes=power_note+' RF output watts remain undisclosed.')
         if x['brand']=='Panasonic' and any(k in x['model'] for k in ['EH-SR90','EH-SR85','EH-SR86']):
             sid={'EH-SR90':'P42','EH-SR85':'P43','EH-SR86':'P44'}[next(k for k in ['EH-SR90','EH-SR85','EH-SR86'] if k in x['model'])]
-            ROWS[-1].update(input_w=7,input_kind='Consumption while charging',source_ids=[sid,'L01'],checked=DATE)
+            manual={'EH-SR85':'P108','EH-SR86':'P109'}.get(next(k for k in ['EH-SR90','EH-SR85','EH-SR86'] if k in x['model']))
+            ROWS[-1].update(input_w=7,input_kind='Approx. 7 W while charging (not RF output)',source_ids=([manual] if manual else [])+[sid,'L01'],checked=DATE,notes='Official manual/specification checked. Approx. 7 W is explicitly charging consumption; runtime and lithium-ion battery disclosure do not provide RF watts.')
         if 'Deep Lift' in x['model']:
-            ROWS[-1].update(runtime_min=30,source_ids=['P45','L01'],checked=DATE,notes='Official listing: approximately 30 minutes operation. Pasted 4.5 W charging consumption not recovered on current product page; RF watts remain undisclosed.')
+            ROWS[-1].update(runtime_min=30,source_ids=['P84','P45','L01'],input_w=4.5,input_kind='Approx. 4.5 W while charging (official manual)',checked=DATE,notes='Official manual specifies approx. 4.5 W while charging and about 30 min at maximum D×LIFT level. Neither number identifies isolated RF output.')
     for brand,model,sid,w,freq,load in [
         ('Solta','Thermage FLX','P48',400,'6.78 MHz',None),
         ('Lutronic','XERF · 6.78 MHz mode','P49',400,'6.78 MHz',None),
@@ -219,8 +337,9 @@ def build_rows():
         ('Venus','NOVA Diamondpolar','P56',75,'1 MHz',None),
     ]:
         device(brand,model,sid,category='Professional RF',rf=w,load=load,basis='FDA specification',freq=freq,clearance=' / '.join(re.findall(r'K\d{6}', ' '.join(next(s['title'] for s in SOURCES if s['id']==a) for a in sid.split()))),notes='Professional context. Platform maximum, mode and applicator matter; not a home protocol, continuous absorbed skin power, or efficacy ranking.')
-    for brand,model,sid in [('InMode','Morpheus8 / cleared platform association','P52 P53'),('Pollogen','Legend X','P57 P58'),('Pollogen','Geneo X Elite','P15 P16')]:
-        device(brand,model,sid,category='Professional RF',basis='Output not assigned',notes='FDA platform records preserved. Do not assign a platform total or predicate wattage to this named handpiece without a model/mode match.')
+    device('InMode','Morpheus8 / cleared platform association','P52 P53',category='Professional RF',rf=65,basis='FDA specification',freq='1 MHz ±2%',notes='FDA submission gives a 65 W RF specification for the named system context. Applicator, mode and treatment settings still govern; this is not a home-use rating or a measured tissue dose.')
+    device('Pollogen','Legend X','P57 P58',category='Professional RF',basis='FDA records reviewed; output not stated',notes='Two FDA records for the Legend X family reviewed; no comparable RF output watt was stated in the captured evidence. Do not transfer a different platform’s maximum.')
+    device('Pollogen','Geneo X Elite','P15 P16',category='Professional RF',rf=6,basis='FDA specification',freq='1 MHz ±10%',notes='K233766 reports maximum RF output 6.0 W ±20% and continuous output; its predicate column lists 5.7 W ±10%. The extracted output table does not identify a test load. K242227 is a later family update, not a second device.',rf_label='6.0 W ±20%')
     for brand,model,sid,freq,w in [('NIRA','Original Precision / Model 2 Pro','P11 P70','1450 ±20 nm',2),('Tria','FANp / older Age-Defying fractional laser','P12','1440 nm',None),('Merz','Ulthera System / Ultherapy PRIME','P64 P65','Focused ultrasound',None),('Sofwave','SUPERB platform','P66 P67 P68 P69','Ultrasound',None),('DermRays','Revive','P72','1064 nm',None),('DLUS','D3 optical lead','P78','1064 nm seller claim',None)]:
         device(brand,model,sid,category='Other thermal / optical',basis='Separate technology',freq=freq,notes=(f'{w} W maximum optical output; not RF watts. ' if w else '')+'Retained from pasted thermal comparison; see original technology topic. Do not rank alongside RF output.')
 
@@ -248,7 +367,12 @@ def write_ledger():
     fields+=['prior_source_ids']
     with (DATA/f'rf_power_atlas_{DATE}.csv').open('w',newline='') as f:
         writer=csv.DictWriter(f,fieldnames=fields,lineterminator="\n");writer.writeheader()
-        for r in ROWS:writer.writerow({k:' '.join(v) if isinstance(v,list) else v for k,v in r.items()})
+        def csv_value(v):
+            if isinstance(v,list):
+                return ' '.join(v) if all(isinstance(x,str) for x in v) else json.dumps(v,ensure_ascii=False)
+            if isinstance(v,dict):return json.dumps(v,ensure_ascii=False)
+            return v
+        for r in ROWS:writer.writerow({k:csv_value(v) for k,v in r.items()})
     return payload
 
 def refs(ids):
@@ -306,8 +430,17 @@ The De Novo record gives 300 ms or 450 ms pulses per 750 ms cycle: duty factors 
 | FREYARA Mini 3in1 | 20–50 W handle claim | Seller claim; 72 W supply capacity is a separate figure | '''+refs('P36')+''' |
 | FREYARA 2in1 | 20–30 W tripolar / 50–60 W hexapolar | Two handles on one console; not interchangeable facial modes | '''+refs('P37')+''' |
 | MYCHWAY CET/RET | 60–110 W CET / 130–300 W RET claimed | Electrode-size-dependent seller values; separate tabletop class | '''+refs('P39')+''' |
+| TriPollar STOP VX2 Model U | 5.7 W at 200 Ω in text; plot reads about 6.6 W* | Same manual disagrees with its own curve; plotted points are approximate read-offs | '''+refs('P105')+''' |
+| MLAY S3 handheld | 25 W face / 14 W body* | Current official product claims; load and duty convention absent | '''+refs('P111')+''' |
+| MLAY RF02 S02B | 36 W rated input; RF output undisclosed | Current official product page; keep separate from brochure RF02/S06 variant | '''+refs('P112 P113')+''' |
+| MLAY RF02 / S06 brochure variant | 38 W output* | Indexed brochure claim; source host returned 404; exact relation to S02B unresolved | '''+refs('P113')+''' |
+| MYCHWAY MS-76F1SBMAX | Face 70 W*, eye 40 W*, body 80 W* | Supplier manual; system input also 80 W; load/duty absent | '''+refs('P114')+''' |
 
-**What this group found:** a global “highest watts” list changes depending on whether it includes body probes, regional manuals or unsupported seller claims. The chart keeps those classes separate. A 300 W tabletop/body headline does not identify a 300 W facial home protocol. No relative collagen-effectiveness score is derived from watts.
+**Second-round manual recovery:** 22 exact-family YA-MAN English/Japanese manuals, three AMIRO manuals, three TriPollar manuals, two Panasonic manuals and the FOREO FAQ 103 manual are in the dated source register. YA-MAN’s extracted figures include 21 W whole-device consumption (Bloom 6); 18 W while charging (Bloom 5); 9 W while charging (Bloom WR); 4.5 W system/charging figures (Bright Lift, Deep Lift and Shiny NEO); 15–20 W whole-device consumption (Prestige S/SS/SP/SP III/PRO and EX Eye Pro); and 5 W while charging (CaviSpa Core PLUS). Those figures are not RF output. Exact manuals for Bloom Red, Shiny M18, Prestige SP II, HRF10, Photo PLUS Hyper, CaviSpa Core and legacy variants are preserved even where no defensible watts were printed. Panasonic EH-SR85/SR86 specifications say about 7 W while charging. AMIRO manuals add 5 V × 2 A / 2600 mAh for R1 Pro, 5 V × 3 A / 1500 mAh for S2 Seal Max, and 5 V × 3 A / 1200 mAh for S1; adapter and battery input values do not disclose treatment RF.
+
+In the source register, each manual has both the manufacturer URL and a preserved local PDF link where the host allowed capture. The indexed MLAY brochure is the exception: its source host now returns 404, so a labeled excerpt of the indexed claims is archived with that limitation.
+
+**What this group found:** a global “highest watts” list changes depending on whether it includes body probes, regional manuals or unsupported seller claims. The chart keeps those classes separate. A 300 W tabletop/body headline does not identify a 300 W facial home protocol. Values marked * are lower-confidence supplier/marketing output claims or approximate plot read-offs; the row detail links to the exact evidence. No relative collagen-effectiveness score is derived from watts.
 
 ## Battery and runtime audit
 
@@ -332,7 +465,7 @@ Battery sources: '''+refs('P22 P23 P18 P73 P17 P06 P19 P04 P42 P43 P44 P45')+'''
 
 ## Load curves, thermal control and depth
 
-Both current Silk’n manuals publish output-versus-impedance plots. The pasted report read roughly 7.6 W for MultiPlatform and 7.5 W for Mini at 150 Ω, and roughly 2.7 W for Mini at 200 Ω. These are **pasted approximate read-offs**, retained as leads, not independently digitized numerical measurements in this atlas. Open the preserved IFUs to inspect the curves. Different test loads cannot support a normalized rank without full traces. '''+refs('P17 P18')+'''
+The chart above plots the manual’s output-versus-load markers for the original Titan, current Titan MultiPlatform, Titan Mini and STOP VX2. An asterisk marks approximate visual read-offs from source plots, not bench measurements. The STOP VX2 manual also states 5.7 W at 200 Ω, while the curve appears closer to 6.6 W at the same load; both are preserved and the conflict is called out. The Titan Mini curve appears to be about 2.6 W at 200 Ω, not the earlier pasted estimate of 2.7 W. Open the preserved IFUs from each chart row to inspect the source plots. Different loads and graph scales do not support a normalized rank. '''+refs('P17 P18 P20 P105')+'''
 
 No verified product-specific temperature-versus-depth comparison was established for Vera, generic tabletop devices and the established handhelds. Electrical RF watts, skin-sensor temperature and collagen-remodeling outcomes are distinct measurements. The [clinical evidence map](index.html#doc11) and [MHz/temperature review](index.html#doc13) remain the outcome references.
 
@@ -346,7 +479,7 @@ NIRA’s 2 W is **optical** output; Tria is fractional laser; Ulthera and Sofwav
 
 - Same-load RF tests at 100/150/200/360/500 Ω, including on-pulse, RMS and session-average conventions.
 - Exact used-device labels, manufacturing revisions and supplied attachments for Silk’n listings; the screenshots mentioned in the pasted text were not attached in this request.
-- Original AMIRO battery IFU; Vera/DLUS OEM contract or matching regulatory/model labels; generic units’ calibrated temperature cutoffs.
+- Vera/DLUS OEM contract or matching regulatory/model labels; generic units’ calibrated temperature cutoffs and the test load/duty convention for supplier claims.
 - Depth-resolved thermal maps and clinical trials that would justify an efficacy comparison, rather than a wattage comparison.
 
 ## Sources and complete inventory
@@ -365,14 +498,19 @@ Every numerical record has source IDs and evidence notes in the [chart](rf_power
 | Unit / configuration | RF watts | Electrical input / supply | Evidence and unresolved issue |
 |---|---|---|---|
 | MLAY RF01 face / body | 25 / 50 W seller output claim | 50 W rated input | '''+refs('P33')+''' — output convention/load missing; equality at body maximum cannot be assumed continuous |
+| MLAY S3 handheld | 25 W face / 14 W body output claims | No input watt or load disclosed | '''+refs('P111')+''' — current official page; starred manufacturer claims, not bench data |
+| MLAY RF02 S02B current retail page | RF output not stated | 36 W rated input | '''+refs('P112')+''' — whole-device input is not RF output |
+| MLAY RF02 / S06 brochure variant | 38 W output claim* | Power input convention absent | '''+refs('P113')+''' — indexed brochure; host is now 404; no identity match to S02B |
+| MLAY S03 / S04 brochure handheld variants | 12 W* / 13 W* output claims | S03: 3.7 V × 2000 mAh; S04: 7.4 V × 650 mAh | '''+refs('P113')+''' — same indexed source; runtime, load and duty cycle unavailable |
+| MLAY RF01 / S05 brochure variant | 48 W output claim* | Non-battery configuration; input not stated | '''+refs('P113')+''' — separate from current RF01 page; version match unresolved |
 | Konmison LB056B | Not disclosed | 55 W consumption | '''+refs('P35')+''' — 2 MHz; 1–15 J/cm² energy claim; no valid watt conversion without time/area |
 | FREYARA Mini 3in1 | 20–50 W handle claim | 24 V × 3 A = 72 W supply capacity | '''+refs('P36 P38')+''' — three-probe triangular family; no same-unit FDA/bench match |
 | FREYARA 2in1 tripolar / hexapolar | 20–30 / 50–60 W handle claims | 72 W supply capacity | '''+refs('P37')+''' — separate handles and contact area; seller’s mHz typography is retained as an ambiguity |
 | MYCHWAY CET/RET console | CET S/M/L/XL: 65/60/70/110 W; RET: 130/150/200/300 W | 110–220 V AC, total input not established here | '''+refs('P39')+''' — face/body electrode modes, not interchangeable handheld outputs |
 | MYCHWAY MS-11Y3 | Comparable output unknown | Unresolved | '''+refs('P40')+''' — supplier manual preserved; vague clinical claims do not define watts |
+| MYCHWAY MS-76F1SBMAX | Face 70 W*, eye 40 W*, body 80 W* | 80 W system input | '''+refs('P114')+''' — supplier manual claims; no load/duty convention and body claim equals total input |
 | NEO Alpha / Plus | 300 W headline; face/Soft output unresolved | Plus directory calls 300 W consumption | '''+refs('P41 P77')+''' — exact Alpha electrical identity and load testing unresolved |
 | Allfond / unnamed RF01 / Margotan | Unknown | Exact unit label missing | Pasted leads only; no transferred specs from lookalikes |
-| MLAY RF02 / S3 | Unknown | Exact technical label unresolved | '''+refs('P34')+''' — catalogue leads, not output measurements |
 
 **What this group found:** the new FREYARA 2in1 listing actually distinguishes 20–30 W and 50–60 W handles; the triangular Mini lists 20–50 W. Combining those claims into one generic “50 W machine” would erase meaningful differences. No independent comparative RF load test for these generic units was found.
 
@@ -508,7 +646,7 @@ P identifiers are unique to this October 9 pass. L01 is the prior [October 2 dev
             support+=' '+ '; '.join(r['model']+': '+r['rf_label'] for r in used)+'.'
         d+=f"| {s['id']} · [{s['title']}]({s['url']}) | {support} | {local}; {s['source_class']}. {s['limits']} |\n"
     (TOP/'21_submitted_research_and_source_register.md').write_text(d)
-    log=f'RF power research resource log — {DATE}\nScope: 117 comparison records, not unique devices; home focus plus generic and professional context.\nNew document map: 19 power methods; 20 OEM/MimiSilk; 21 intake and source crosswalk; rf_power_explorer.html chart.\n\n'
+    log=f'RF power research resource log — {DATE}\nScope: 128 comparison records, not unique devices; home focus plus generic and professional context.\nNew document map: 19 power methods; 20 OEM/MimiSilk; 21 intake and source crosswalk; rf_power_explorer.html chart.\n\n'
     for s in SOURCES+intake:
         local=s.get('local')
         log+=f"[{s['id']}] {s['title']}\nURL: {s.get('url','User attachment; original has no canonical URLs')}\nResolved URL: {s.get('resolved_url','Not applicable / not captured')}\nAccessed: {DATE} America/Chicago\nClass: {s['source_class']}\nUsed in: 19_rf_wattage_atlas; 20_generic_rf_and_mimisilk_oem_audit; 21_submitted_research_and_source_register; data/chart rows linked by source ID.\nSupports: {s['support']}\nKey record: "

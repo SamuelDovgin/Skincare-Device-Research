@@ -1,0 +1,65 @@
+[
+  {
+    "file": "Chervinskaya_2024_2025_triple_frequency_acne.pdf",
+    "url": "https://acneandrosacea.org/wp-content/uploads/2024/11/Chervinskaya-I_J-Cosmet-Dermatol_2024-Nov.pdf",
+    "accessed": "2026-10-09",
+    "sha256": "65d23e8f715467e5cfecd4e16aa245a6a250efc35c78b23d30ab91ad6c7ca01c",
+    "bytes": 2854244
+  },
+  {
+    "file": "Meyer_Rogge_2012_facial_rejuvenation.pdf",
+    "url": "https://content.scirp.org/pdf/jcdsa20120200004_67520473.pdf",
+    "accessed": "2026-10-09",
+    "sha256": "7749dab51b2678d051e6d40d7d43260a95f28f889aa77ec5a28819b3f39df4c2",
+    "bytes": 626548
+  },
+  {
+    "file": "Wellcomet_Triple_technical_data_2026-10-09.html",
+    "url": "https://www.wellcomet.de/html/page.php?lan=en&page_id=66",
+    "accessed": "2026-10-09",
+    "sha256": "7e7f71abb2f57c596a303cff8b49d4854d98db52169adb116f6b5c0b4eca12c1",
+    "bytes": 30575
+  },
+  {
+    "file": "Wellcomet_LDM_technology_2026-10-09.html",
+    "url": "https://www.wellcomet.de/html/page.php?lan=de&page_id=38",
+    "accessed": "2026-10-09",
+    "sha256": "2cbdb62437cb5149c180714605a0bc31e39b109f41b699085682817497e82a38",
+    "bytes": 32654
+  },
+  {
+    "file": "Wellcomet_Triple_claims_2026-10-09.html",
+    "url": "https://www.wellcomet.de/html/page.php?lan=en&page_id=65",
+    "accessed": "2026-10-09",
+    "sha256": "0dd1067957b63d98e2190b7bf54100fad33c7987e00ad198a56da930299326c5",
+    "bytes": 32951
+  },
+  {
+    "file": "Wellcomet_Korea_Triple_2026-10-09.html",
+    "url": "https://wellcometkorea.com/LDMTRIPLE",
+    "accessed": "2026-10-09",
+    "sha256": "c8ac271961084f385b086a93165303fbf4aa876db45a1727371c6d049e2bd2d4",
+    "bytes": 795806
+  },
+  {
+    "file": "Kim_2021_metadata.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:33670631%20AND%20SRC:MED&format=json&resultType=core",
+    "accessed": "2026-10-09",
+    "sha256": "2416d16c63d834f3280b172e54a38dc39fd2839193aba4ea2ac2ef721b6b4e33",
+    "bytes": 6390
+  },
+  {
+    "file": "Park_2018_metadata.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:29746429%20AND%20SRC:MED&format=json&resultType=core",
+    "accessed": "2026-10-09",
+    "sha256": "45c42f0210c7174bf333bb8621ee9ac2c0714955030c60b28bb5d8d33a79c7a7",
+    "bytes": 4682
+  },
+  {
+    "file": "Kim_2021_fulltext.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7922048/fullTextXML",
+    "accessed": "2026-10-09",
+    "sha256": "5b0ad0d2e3fae9851419696c0d10364489c2805e7d7c5086abf14e83b0c80501",
+    "bytes": 52530
+  }
+]

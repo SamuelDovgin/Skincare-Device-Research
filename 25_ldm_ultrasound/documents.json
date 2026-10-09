@@ -1,0 +1,32 @@
+[
+  {
+    "id": "doc0",
+    "file": "README.md",
+    "title": "Start here"
+  },
+  {
+    "id": "doc1",
+    "file": "01_mechanism_and_hifu_comparison.md",
+    "title": "Mechanism · LDM versus HIFU"
+  },
+  {
+    "id": "doc2",
+    "file": "02_human_evidence.md",
+    "title": "Human evidence"
+  },
+  {
+    "id": "doc3",
+    "file": "03_devices_claims_and_selection.md",
+    "title": "Devices and selection"
+  },
+  {
+    "id": "doc4",
+    "file": "04_source_library.md",
+    "title": "Source library and gaps"
+  },
+  {
+    "id": "doc5",
+    "file": "source_docs/README.md",
+    "title": "Preserved source manifest"
+  }
+]

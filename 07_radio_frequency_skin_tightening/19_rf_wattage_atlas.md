@@ -1,6 +1,6 @@
 # Home RF wattage atlas: rated, measured and inferred power
 
-*Updated 2026-10-09. 117 comparison records, including model families, regional revisions, accessories and professional modes; this is not 117 unique devices or an exhaustive worldwide census.*
+*Updated 2026-10-09. 128 comparison records, including model families, regional revisions, accessories and professional modes; this is not 128 unique devices or an exhaustive worldwide census.*
 
 The largest number in a listing is often the wrong number to compare. **The clearest numeric home RF bench result in this corpus is original wired NEWA: 10 W into 360 Ω.** A manufacturer manual specifies 20 W for EU Silk’n FaceTite MultiPlatform H2501; the current North American H2502/HA2502 manual specifies 15 W. Higher advertised generic outputs exist, but load, duty cycle and facial applicability are generally missing.
 
@@ -50,8 +50,17 @@ The De Novo record gives 300 ms or 450 ms pulses per 750 ms cycle: duty factors 
 | FREYARA Mini 3in1 | 20–50 W handle claim | Seller claim; 72 W supply capacity is a separate figure | [P36](https://it.freyara.com/products/mini-3in1-rf-dispositivo-di-bellezza-ringiovanimento-lifting-rimozione-delle-rughe-rassodamento-della-pelle-per-viso-e-occhi) |
 | FREYARA 2in1 | 20–30 W tripolar / 50–60 W hexapolar | Two handles on one console; not interchangeable facial modes | [P37](https://it.freyara.com/products/dispositivo-di-bellezza-rf-2in1-con-3-sonde-e-6-sonde-ringiovanimento-sollevamento-rimozione-delle-rughe-rassodamento-della-pelle-per-viso-e-occhi) |
 | MYCHWAY CET/RET | 60–110 W CET / 130–300 W RET claimed | Electrode-size-dependent seller values; separate tabletop class | [P39](https://us.mychway.com/product/cet-ret-rf-face-lifting-skin-care-winkle-removal) |
+| TriPollar STOP VX2 Model U | 5.7 W at 200 Ω in text; plot reads about 6.6 W* | Same manual disagrees with its own curve; plotted points are approximate read-offs | [P105](https://cdn.shopify.com/s/files/1/0276/3089/5193/files/STOP_VX2.pdf?v=1691504919) |
+| MLAY S3 handheld | 25 W face / 14 W body* | Current official product claims; load and duty convention absent | [P111](https://www.mlayofficial.com/products/mlay-rf-beauty-instrument-s3) |
+| MLAY RF02 S02B | 36 W rated input; RF output undisclosed | Current official product page; keep separate from brochure RF02/S06 variant | [P112](https://www.mlayofficial.com/products/mlay-rf-instrument-rf02) · [P113](https://exhibitorsearch.messefrankfurt.com/images/original/document_downloads/10000391202501/397636/1739246184332_3510192324.pdf) |
+| MLAY RF02 / S06 brochure variant | 38 W output* | Indexed brochure claim; source host returned 404; exact relation to S02B unresolved | [P113](https://exhibitorsearch.messefrankfurt.com/images/original/document_downloads/10000391202501/397636/1739246184332_3510192324.pdf) |
+| MYCHWAY MS-76F1SBMAX | Face 70 W*, eye 40 W*, body 80 W* | Supplier manual; system input also 80 W; load/duty absent | [P114](https://manual.mychway.com/UserManual/ms-76f1sbmax-en-20250327.pdf) |
 
-**What this group found:** a global “highest watts” list changes depending on whether it includes body probes, regional manuals or unsupported seller claims. The chart keeps those classes separate. A 300 W tabletop/body headline does not identify a 300 W facial home protocol. No relative collagen-effectiveness score is derived from watts.
+**Second-round manual recovery:** 22 exact-family YA-MAN English/Japanese manuals, three AMIRO manuals, three TriPollar manuals, two Panasonic manuals and the FOREO FAQ 103 manual are in the dated source register. YA-MAN’s extracted figures include 21 W whole-device consumption (Bloom 6); 18 W while charging (Bloom 5); 9 W while charging (Bloom WR); 4.5 W system/charging figures (Bright Lift, Deep Lift and Shiny NEO); 15–20 W whole-device consumption (Prestige S/SS/SP/SP III/PRO and EX Eye Pro); and 5 W while charging (CaviSpa Core PLUS). Those figures are not RF output. Exact manuals for Bloom Red, Shiny M18, Prestige SP II, HRF10, Photo PLUS Hyper, CaviSpa Core and legacy variants are preserved even where no defensible watts were printed. Panasonic EH-SR85/SR86 specifications say about 7 W while charging. AMIRO manuals add 5 V × 2 A / 2600 mAh for R1 Pro, 5 V × 3 A / 1500 mAh for S2 Seal Max, and 5 V × 3 A / 1200 mAh for S1; adapter and battery input values do not disclose treatment RF.
+
+In the source register, each manual has both the manufacturer URL and a preserved local PDF link where the host allowed capture. The indexed MLAY brochure is the exception: its source host now returns 404, so a labeled excerpt of the indexed claims is archived with that limitation.
+
+**What this group found:** a global “highest watts” list changes depending on whether it includes body probes, regional manuals or unsupported seller claims. The chart keeps those classes separate. A 300 W tabletop/body headline does not identify a 300 W facial home protocol. Values marked * are lower-confidence supplier/marketing output claims or approximate plot read-offs; the row detail links to the exact evidence. No relative collagen-effectiveness score is derived from watts.
 
 ## Battery and runtime audit
 
@@ -76,7 +85,7 @@ Battery sources: [P22](https://www.foreo.com/manuals/faq-swiss-101) · [P23](htt
 
 ## Load curves, thermal control and depth
 
-Both current Silk’n manuals publish output-versus-impedance plots. The pasted report read roughly 7.6 W for MultiPlatform and 7.5 W for Mini at 150 Ω, and roughly 2.7 W for Mini at 200 Ω. These are **pasted approximate read-offs**, retained as leads, not independently digitized numerical measurements in this atlas. Open the preserved IFUs to inspect the curves. Different test loads cannot support a normalized rank without full traces. [P17](https://data.silkn.com/asset/2a5aa6ed-322e-4d0b-afbe-5fc694289137/Titan-MultiPlatform-UM-NA.pdf) · [P18](https://data.silkn.com/m/1b96e6d4c98d2a1a/original/Titan-Mini-UM-NA.pdf)
+The chart above plots the manual’s output-versus-load markers for the original Titan, current Titan MultiPlatform, Titan Mini and STOP VX2. An asterisk marks approximate visual read-offs from source plots, not bench measurements. The STOP VX2 manual also states 5.7 W at 200 Ω, while the curve appears closer to 6.6 W at the same load; both are preserved and the conflict is called out. The Titan Mini curve appears to be about 2.6 W at 200 Ω, not the earlier pasted estimate of 2.7 W. Open the preserved IFUs from each chart row to inspect the source plots. Different loads and graph scales do not support a normalized rank. [P17](https://data.silkn.com/asset/2a5aa6ed-322e-4d0b-afbe-5fc694289137/Titan-MultiPlatform-UM-NA.pdf) · [P18](https://data.silkn.com/m/1b96e6d4c98d2a1a/original/Titan-Mini-UM-NA.pdf) · [P20](https://m.media-amazon.com/images/I/91wCR6lIVGS.pdf) · [P105](https://cdn.shopify.com/s/files/1/0276/3089/5193/files/STOP_VX2.pdf?v=1691504919)
 
 No verified product-specific temperature-versus-depth comparison was established for Vera, generic tabletop devices and the established handhelds. Electrical RF watts, skin-sensor temperature and collagen-remodeling outcomes are distinct measurements. The [clinical evidence map](index.html#doc11) and [MHz/temperature review](index.html#doc13) remain the outcome references.
 
@@ -90,7 +99,7 @@ NIRA’s 2 W is **optical** output; Tria is fractional laser; Ulthera and Sofwav
 
 - Same-load RF tests at 100/150/200/360/500 Ω, including on-pulse, RMS and session-average conventions.
 - Exact used-device labels, manufacturing revisions and supplied attachments for Silk’n listings; the screenshots mentioned in the pasted text were not attached in this request.
-- Original AMIRO battery IFU; Vera/DLUS OEM contract or matching regulatory/model labels; generic units’ calibrated temperature cutoffs.
+- Vera/DLUS OEM contract or matching regulatory/model labels; generic units’ calibrated temperature cutoffs and the test load/duty convention for supplier claims.
 - Depth-resolved thermal maps and clinical trials that would justify an efficacy comparison, rather than a wattage comparison.
 
 ## Sources and complete inventory
